@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Building Class Infos -->
+<Civ4BuildingClassInfos xmlns="x-schema:CleopatraNeedle_CIV4BuildingsSchema.xml">
+	<BuildingClassInfos>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_CLEOPATRA_NEEDLE</Type>
+			<Description>TXT_KEY_BUILDING_CLEOPATRA_NEEDLE</Description>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_CLEOPATRA_NEEDLE</DefaultBuilding>
+		</BuildingClassInfo>
+	</BuildingClassInfos>
+</Civ4BuildingClassInfos>

@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Building Class Infos -->
+<Civ4BuildingClassInfos xmlns="x-schema:Burial_Traditions_CIV4BuildingsSchema.xml">
+	<BuildingClassInfos>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_BURIAL_TRADITION_CAVE</Type>
+			<Description>TXT_KEY_BURIAL_TRADITION_CAVE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BURIAL_TRADITION_CAVE</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_BURIAL_TRADITION_EARTH</Type>
+			<Description>TXT_KEY_BURIAL_TRADITION_EARTH</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BURIAL_TRADITION_EARTH</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_BURIAL_TRADITION_FIRE</Type>
+			<Description>TXT_KEY_BURIAL_TRADITION_FIRE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BURIAL_TRADITION_FIRE</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_BURIAL_TRADITION_SKY</Type>
+			<Description>TXT_KEY_BURIAL_TRADITION_SKY</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BURIAL_TRADITION_SKY</DefaultBuilding>
+		</BuildingClassInfo>
+
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_BURIAL_TRADITION_BONE</Type>
+			<Description>TXT_KEY_BURIAL_TRADITION_BONE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BURIAL_TRADITION_BONE</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_BURIAL_TRADITION_MUMMY</Type>
+			<Description>TXT_KEY_BURIAL_TRADITION_MUMMY</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BURIAL_TRADITION_MUMMY</DefaultBuilding>
+		</BuildingClassInfo>
+
+
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_BURIAL_PLATFORMS</Type>
+			<Description>TXT_KEY_BURIAL_PLATFORMS</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BURIAL_PLATFORMS</DefaultBuilding>
+		</BuildingClassInfo>
+
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_FUNERARY_SERVICES</Type>
+			<Description>TXT_KEY_FUNERARY_SERVICES</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_FUNERARY_SERVICES</DefaultBuilding>
+		</BuildingClassInfo>
+	</BuildingClassInfos>
+</Civ4BuildingClassInfos>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ###################################################################################### -->
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KOMODO_DRAGON_PEDIA</Tag>
+		<English>TBD [PARAGRAPH:2]Source: Wikipedia</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUBDUED_KOMODO_DRAGON_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Komodo Dragon[NEWLINE][ICON_BULLET]Myths of Reptile and Dragon[NEWLINE][ICON_BULLET]Reptile Cage and Enclosure</English>
+		<French>[COLOR_HIGHLIGHT_TEXT]Construisez[COLOR_REVERT] les Mythe, Histoire et Histoires - des Dragons de Komodo[NEWLINE][ICON_BULLET]Mythe des Reptiles et Dragons[NEWLINE][ICON_BULLET]Cage et enclos à reptiles</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOMODO_DRAGON_MYTH</Tag>
+		<English>Myth - Komodo Dragon</English>
+		<French>Mythe du Dragon de Komodo</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOMODO_DRAGON_MYTH_EFFECT</Tag>
+		<English>Myth Effect - Komodo Dragon</English>
+		<French>Effet (Mythe du Dragon de Komodo)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOMODO_DRAGON_STORY</Tag>
+		<English>Story - Komodo Dragon</English>
+		<French>Histoire du Dragon de Komodo</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOMODO_DRAGON_STORIES</Tag>
+		<English>Stories - Komodo Dragon</English>
+		<French>Histoires des Dragons de Komodo</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KOMODO_DRAGON_STORIES_EFFECT</Tag>
+		<English>Stories Effect - Komodo Dragon</English>
+		<French>Effet (Histoires des Dragons de Komodo)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TAMED_LIZARD</Tag>
+		<English>Tamed Lizard</English>
+		<French>Lézard géant(dompté)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TAMED_LIZARD_PEDIA</Tag>
+		<English>Tamed Lizard</English>
+		<French>Lézard géant(dompté)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TAMED_LIZARD_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Story and Stories -  Lizards[NEWLINE][ICON_BULLET]Reptile Cage and Enclosure</English>
+		<French>[COLOR_HIGHLIGHT_TEXT]Construisez l'[COLOR_REVERT]Histoire ou les Histoires des lézards[NEWLINE][ICON_BULLET]Cage et Enclos à Reptiles</French>
+	</TEXT>
+</Civ4GameText>

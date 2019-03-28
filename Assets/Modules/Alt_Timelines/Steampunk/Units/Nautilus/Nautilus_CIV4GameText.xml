@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NAUTILUS</Tag>
+		<English>Nautilus</English>
+		<Italian>Nautilo</Italian>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NAUTILUS_PEDIA</Tag>
+		<English>The Nautilus is the fictional submarine captained by Nemo featured in Jules Verne's novels Twenty Thousand Leagues Under the Sea (1870) and The Mysterious Island (1874). Verne named the Nautilus after Robert Fulton's real-life submarine Nautilus (1800). Three years before writing his novel, Jules Verne also studied a model of the newly developed French Navy submarine Plongeur at the 1867 Exposition Universelle, which inspired him for his definition of the Nautilus.</English>
+		<Italian>Sottomarino in stile Steampunk. Richiede la costruzione dell'Accademia Navale di Nemo.</Italian>
+		<Polish>Nautilus - fikcyjny okręt podwodny, występujący w powieściach Juliusza Verne'a Dwadzieścia tysięcy mil podmorskiej żeglugi oraz Tajemnicza wyspa, a także wielu filmach i grach komputerowych. Dowodzony był przez hinduskiego księcia, Dakkara, nazywającego się kapitanem Nemo, który zbudował statek jako narzędzie zemsty na Anglikach i ucieczki od cywilizacji. Nautilus napędzany był energią elektryczną, koszt jego budowy i wyposażenia wyniósł 5 milionów franków. Został zbudowany najwcześniej w 1859, a zatonął w 1868.</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NAUTILUS_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Nautilus[COLOR_REVERT] is a Steampunk Submarine. Coming at an earlier tech than the normal subs, it can give you a crippling advantage in naval warfare.</English>
+		<Italian>Il [COLOR_UNIT_TEXT]Nautilo[COLOR_REVERT] è un sottomarino in stile Steampunk. Poichè è disponibile molto prima dei normali sottomarini, può darti un grande vantaggio nella guerra navale.</Italian>
+	</TEXT>
+</Civ4GameText>

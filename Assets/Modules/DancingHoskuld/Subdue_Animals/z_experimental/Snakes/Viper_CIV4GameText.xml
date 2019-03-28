@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ###################################################################################### -->
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VIPER_PEDIA</Tag>
+		<English>The Viperidae (vipers) are a family of venomous snakes found all over the world, except in Antarctica, Australia, New Zealand, Madagascar, Hawaii, various other isolated islands, and north of the Arctic Circle. All have relatively long, hinged fangs that permit deep penetration and injection of venom. Four subfamilies are currently recognised. They are also known as viperids.[PARAGRAPH:2]Source: Wikipedia</English>
+		<German>Mit Ottern oder Vipern bezeichnet man eine über Amerika, Afrika und Eurasien verbreitete Familie von Schlangen, die allesamt giftig sind. Bei Viperngiften handelt es sich hauptsächlich um Blutgifte, die die Blutzellen und das umgebende Gewebe schädigen oder zerstören können und sehr schmerzhaft sind. Das Gift mancher Ottern greift auch das Nervensystem des Opfers an und kann Lähmungen hervorrufen.[PARAGRAPH:2]Ottern erreichen Längen von 30 cm bis über 3 m. Sie haben einen gedrungenen, massigen Körper une einen auffälligen, dreieckigen Kopf, der sich deutlich vom Hals absetzt. Falls alle Vipern haben senkrecht geschlitzte Pupillen, die auf eine dämmerungs- und nachtaktive Lebensweise hindeuten.[PARAGRAPH:2]Ottern verfügen über einen komplexen Giftapparat mit beweglichen, röhrenartigen Giftzähnen. Solange das Maul geschlossen ist, liegen sie eingeklappt in einer Bindegewebsfalte im Gaumendach. Beim Aufreißen des Mauls werden sie durch die Drehung zweier Knochen aufgerichtet, wodurch ein tiefes Eindringen in das Beutetier ermöglicht wird. Gift wird aber nicht immer injiziert. Die Schlangen können auch einen sogenannten trockenen Biss anbringen, wenn sie Angreifer abschrecken wollen, die nicht als Beute geeignet sind. Die meisten Ottern gebären ihre Jungtiere lebend, es gibt aber auch eierlegende Arten.</German>
+		<Polish>Żmija właściwa (Viperinae)? podrodzina w obrębie rodziny żmijowatych, w podrzędzie węży. Do podrodziny tej należy 12 rodzajów i około 60 gatunków stosunkowo niewielkich węży, o długości od kilkunastu do 200 centymetrów. W podrodzinie tej przeważa jajożyworodność, choć występują też gatunki jajorodne. Żmije zamieszkują różne środowiska i rejony geograficzne, również subarktyczny. (źródło: Wikipedia)</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUBDUED_VIPER_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Viper[NEWLINE][ICON_BULLET]Myths of Earth and Snakes[NEWLINE][ICON_BULLET]Snake Cage and Enclosure[NEWLINE][ICON_BULLET]Snake pit and charmer</English>
+		<French>Permet de [COLOR_HIGHLIGHT_TEXT]Construire[COLOR_REVERT] le Mythe et les Histoires des Vipères[NEWLINE][ICON_BULLET]Mythes de la Terre et des Serpents[NEWLINE][ICON_BULLET]Cage à Serpents et Enclos[NEWLINE][ICON_BULLET]Fosse à Serpents et Charmeur</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VIPER_MYTH</Tag>
+		<English>Myth - Viper</English>
+		<French>Mythe de la Vipère</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VIPER_MYTH_EFFECT</Tag>
+		<English>Myth Effect - Viper</English>
+		<French>Effet (Mythe de la Vipère)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VIPER_STORY</Tag>
+		<English>Story - Viper</English>
+		<French>Histoire de la Vipère</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VIPER_STORIES</Tag>
+		<English>Stories - Viper</English>
+		<French>Histoires des Vipères</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VIPER_STORIES_EFFECT</Tag>
+		<English>Stories Effect - Viper</English>
+		<French>Effet (Histoires des Vipères)</French>
+	</TEXT>
+</Civ4GameText>

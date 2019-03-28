@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the Civ Gold Team -->
+<!-- -->
+<Civ4UnitClassInfos xmlns="x-schema:SubdueAnimals_CIV4UnitSchema.xml">
+	<UnitClassInfos>
+		<UnitClassInfo>
+			<Type>UNITCLASS_TAMED_SNAKE</Type>
+			<Description>TXT_KEY_UNIT_TAMED_SNAKE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_TAMED_SNAKE</DefaultUnit>
+		</UnitClassInfo>
+	</UnitClassInfos>
+</Civ4UnitClassInfos>

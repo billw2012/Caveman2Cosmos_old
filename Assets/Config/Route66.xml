@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+    Tsentom1's python wonders - The Istar Gate
+		Adapted to Route 66
+-->
+<mod id="Route66" module="Route66">
+  	<event type="buildingBuilt" function="onBuildingBuilt"/>
+</mod>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+    Tsentom1's python wonders - The Great Bath of Mohenjo-daro
+-->
+<mod id="Great_Bath" module="Great_Bath">
+   	<event type="OnLoad" function="onLoadGame"/>
+   	<event type="GameStart" function="onGameStart"/>
+ 	<event type="buildingBuilt" function="onBuildingBuilt"/>
+   	<event type="cityBuilt" function="onCityBuilt"/>
+   	<event type="cityLost" function="onCityLost"/>
+   	<event type="cityRaized" function="onCityRaized"/>
+   	<event type="techAcquired" function="onTechAcquired"/>
+
+	<init/>
+</mod>

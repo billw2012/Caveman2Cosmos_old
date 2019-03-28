@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_STEAMPUNK_WORKER</Tag>
+		<English>Steampunk Worker</English>
+		<French>Ouvrier Steampunk</French>
+		<Polish>Robotnik Steampunkowy</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_STEAMPUNK_WORKER_PEDIA</Tag>
+		<English>In the bowels of some hellish Victorian workhouse, a distinctly above-average mad scientist has discovered how to animate a humanoid minion using steam, to do his bidding (without the usual groans and snide comments). He was (alas for him!) unable to keep his creation a secret for long...but his loss is your gain!</English>
+		<Polish>Prymitywny android napędzany silnikiem parowym.</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_STEAMPUNK_WORKER_STRATEGY</Tag>
+		<English>A steam robot worker, product of the Steampunk alt-timeline culture. Fast-moving for a worker, fast working too, somewhat cheaper to build, and it doesn't stop you growing to build one.  You will not think of commissioning even Modern Workers until you have exhausted your quota of these!</English>
+	</TEXT>
+</Civ4GameText>

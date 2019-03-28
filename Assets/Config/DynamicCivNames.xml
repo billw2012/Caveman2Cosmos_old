@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+    Platyping's DynamicCivNames
+		Converted by Dancing Hoskuld
+-->
+<mod id="DynamicCivNames" module="DynamicCivNames_EM">
+  	<event type="beginPlayerTurn" function="onBeginPlayerTurn"/>
+</mod>

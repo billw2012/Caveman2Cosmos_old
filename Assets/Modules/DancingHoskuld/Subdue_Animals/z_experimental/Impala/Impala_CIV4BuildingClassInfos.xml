@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+	<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+	<!-- Modified by Strategyonly -->
+	<!-- Building Class Infos -->
+	<!-- -->
+<Civ4BuildingClassInfos xmlns="x-schema:SubdueAnimals_CIV4BuildingsSchema.xml">
+	<BuildingClassInfos>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_IMPALA_MYTH</Type>
+			<Description>TXT_KEY_BUILDING_IMPALA_MYTH</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_IMPALA_MYTH</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_IMPALA_MYTH_EFFECT</Type>
+			<Description>TXT_KEY_BUILDING_IMPALA_MYTH_EFFECT</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_IMPALA_MYTH_EFFECT</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_IMPALA_STORY</Type>
+			<Description>TXT_KEY_BUILDING_IMPALA_STORY</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_IMPALA_STORY</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_IMPALA_STORIES</Type>
+			<Description>TXT_KEY_BUILDING_IMPALA_STORIES</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_IMPALA_STORIES</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_IMPALA_STORIES_EFFECT</Type>
+			<Description>TXT_KEY_BUILDING_IMPALA_STORIES_EFFECT</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_IMPALA_STORIES_EFFECT</DefaultBuilding>
+		</BuildingClassInfo>
+	</BuildingClassInfos>
+</Civ4BuildingClassInfos>

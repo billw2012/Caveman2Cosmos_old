@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CLOCKWORK_GOLEM</Tag>
+		<English>Clockwork Golem</English>
+		<French>Golem Mécanique</French>
+		<Italian>Golem meccanico</Italian>
+		<Polish>Mechaniczny Golem</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CLOCKWORK_GOLEM_PEDIA</Tag>
+		<English>Bipedal Armored combat unit</English>
+		<Italian>Unità corazzata bipede da combattimento</Italian>
+		<Polish>Dwunorzna opancerzona maszyna bojowa.</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CLOCKWORK_GOLEM_STRATEGY</Tag>
+		<English>The Clockwork golem is an alt-timeline Da Vinci/Clockpunk unit. It has good all-around combat skills.</English>
+		<Italian>Il Golem meccanico è un'unità Clockpunk. Ha ottime caratteristicche di combattimento, contro ogni nemico</Italian>
+	</TEXT>
+</Civ4GameText>

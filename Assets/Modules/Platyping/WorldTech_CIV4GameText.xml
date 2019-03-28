@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_WORLD_TECH_TEXT</Tag>
+		<English>World Tech</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_WORLD_TECH_PEDIA</Tag>
+		<English>A World Tech is a technology that can be researched by a limited number of nations in the game. Once that number have researched the tech no others can. Original code by Platyping.[PARAGRAPH:2]In Caveman2Cosmos the Religion techs are World Techs that only one nation can research. This is because those techs are both dead end and one shot techs and this was the only way to ensure the AI nations did not waste research on those already discovered.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_WORLD_TECH_PEDIA</Tag>
+		<English>WORLD TECH</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_WORLD_TECH1</Tag>
+		<English>[COLOR_BUILDING_TEXT]%s1 has researched %s2![COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_WORLD_TECH2</Tag>
+		<English>[COLOR_BUILDING_TEXT]%s1 has been researched in a far away land![COLOR_REVERT]</English>
+	</TEXT>
+</Civ4GameText>

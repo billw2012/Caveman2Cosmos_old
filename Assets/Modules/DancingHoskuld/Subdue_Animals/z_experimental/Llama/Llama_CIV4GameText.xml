@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ###################################################################################### -->
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUBDUED_LLAMA_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Llama[NEWLINE][ICON_BULLET]Exotic Herbavour Cage and Enclosure</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LLAMA_MYTH_EFFECT</Tag>
+		<English>Myth Effect - Llama</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LLAMA_STORY</Tag>
+		<English>Story - Llama</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LLAMA_STORIES</Tag>
+		<English>Stories - Llama</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LLAMA_STORIES_EFFECT</Tag>
+		<English>Stories Effect - Llama</English>
+	</TEXT>
+</Civ4GameText>

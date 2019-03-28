@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ###################################################################################### -->
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUBDUED_PROCOPTODON_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Procoptodon, Paleolithic Marsupial and Marsuipial[NEWLINE][ICON_BULLET]Marsuipial Herd, Cage and Enclosure</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PROCOPTODON_MYTH</Tag>
+		<English>Myth - Procoptodon</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PROCOPTODON_MYTH_EFFECT</Tag>
+		<English>Myth Effect - Procoptodon</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PROCOPTODON_STORY</Tag>
+		<English>Story - Procoptodon</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PROCOPTODON_STORIES</Tag>
+		<English>Stories - Procoptodon</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PROCOPTODON_STORIES_EFFECT</Tag>
+		<English>Stories Effect - Procoptodon</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PROCOPTODON_REMAINS</Tag>
+		<English>Remains - Procoptodon</English>
+	</TEXT>
+</Civ4GameText>

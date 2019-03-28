@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CLEOPATRA_NEEDLE</Tag>
+		<English>Cleopatra's Needle</English>
+		<French>Les aiguilles de Cléopatre</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CLEOPATRA_NEEDLE_STRATEGY</Tag>
+		<English>The 3 [COLOR_BUILDING_TEXT]Cleopatra's Needles[COLOR_REVERT] help to increase cities' culture even further.</English>
+		<French>Les 3 [COLOR_BUILDING_TEXT]Aiguilles de Cléopatre[COLOR_REVERT] permet à vos villes de développer encore plus de culture.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CLEOPATRA_NEEDLE_PEDIA</Tag>
+		<English>Cleopatra's Needle is the popular name for each of three Ancient Egyptian obelisks re-erected in London, Paris, and New York City during the nineteenth century. The London and New York ones are a pair, while the Paris one comes from a different original site, where its twin remains. Although the needles are genuine Ancient Egyptian obelisks, they are somewhat misnamed as they have no particular connection with Queen Cleopatra VII of Egypt, and were already over a thousand years old in her lifetime. The London "needle" is one such example, as it is originally made during the reign of the 18th Dynasty Pharaoh Thutmose III but was falsely named "Cleopatra's needle". The Paris "needle" was the first to be moved and re-erected and the first to acquire the nickname.[PARAGRAPH:2]Both examples are made of red granite, stand about 21 metres high, weigh about 224 tons and are inscribed with Egyptian hieroglyphs. They were originally erected in the Egyptian city of Heliopolis on the orders of Thutmose III, around 1450 BC. The material of which they were cut is granite, brought from the quarries of Aswan, near the first cataract of the Nile. The inscriptions were added about 200 years later by Ramesses II to commemorate his military victories. The obelisks were moved to Alexandria and set up in the Caesareum - a temple built by Cleopatra in honor of Mark Antony or Julius Caesar - by the Romans in 12 BC, during the reign of Augustus, but were toppled some time later. This had the fortuitous effect of burying their faces and so preserving most of the hieroglyphs from the effects of weathering.</English>
+		<French>Les Aiguilles de Cléopatre, c'est le nom populaire de chacun des trois obélisques de l'Ancienne Egypte, qui ont été déplacé et érigés à Londres, Paris, et New York au cours du 19ème siècle. [PARAGRAPH:2]Ils sont constitués de granite rouge, pèsent 224 tonnes pour 21 mètres de haut, et sont recouverts de Hiéroglypes Egyptiens.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CLEOPATRA_NEEDLE_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT]Builds 2 more in next 2 Cities with Highest [ICON_CULTURE]</English>
+		<French>[ICON_BULLET]Construisez deux autres dans vos villes avec le maximum de [ICON_CULTURE]</French>
+	</TEXT>
+</Civ4GameText>

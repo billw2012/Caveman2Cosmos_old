@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<mod id="modifieda4" 
+	 name="modifieda4"
+	 module="modifieda4"
+	 author="modifieda4" 
+	 version="1.0" 
+	 date="01012012"
+	 url="-">	
+	
+	<event type="plotFeatureRemoved" function="onPlotFeatureRemoved"/>
+	<event type="improvementBuilt" function="onImprovementBuilt"/>
+       	
+</mod>

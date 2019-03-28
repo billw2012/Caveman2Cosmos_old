@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ###################################################################################### -->
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUBDUED_GALAPOGOS_TORTOISE_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Galapagos Tortoise and Reptiles[NEWLINE][ICON_BULLET]Reptile Cage and Enclosure</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GALAPOGOS_TORTOISE_MYTH</Tag>
+		<English>Myth - Galapagos Tortoise</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GALAPOGOS_TORTOISE_MYTH_EFFECT</Tag>
+		<English>Myth Effect - Galapagos Tortoise</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GALAPOGOS_TORTOISE_STORY</Tag>
+		<English>Story - Galapagos Tortoise</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GALAPOGOS_TORTOISE_STORIES</Tag>
+		<English>Stories - Galapagos Tortoise</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GALAPOGOS_TORTOISE_STORIES_EFFECT</Tag>
+		<English>Stories Effect - Galapagos Tortoise</English>
+	</TEXT>
+</Civ4GameText>

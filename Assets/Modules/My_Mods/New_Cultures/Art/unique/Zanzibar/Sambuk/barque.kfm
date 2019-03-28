@@ -1,0 +1,15 @@
+;Gamebryo KFM File Version 1.0
+
+DEFAULTPATHS#1#
+DEFAULTNIFPATH#NULL#
+DEFAULTKFPATH#NULL#
+MODEL#barque.nif#Dummy_Barque#
+
+ANIMATION#EVENTCODE 0#base_fs#barque_Dummy_Barque_base_fs_null_base_fs.kf#INDEX 0#
+ANIMATION#EVENTCODE 1#dismasted#barque_Dummy_Barque_dismasted.kf#INDEX 0#
+ANIMATION#EVENTCODE 2#destruction#barque_Dummy_Barque_destruction.kf#INDEX 0#
+ANIMATION#EVENTCODE 9#main_flag#barque_Dummy_Barque_bone_flag_main_pivot_main_flag.kf#INDEX 0#
+ANIMATION#EVENTCODE 11#aft_flag#barque_Dummy_Barque_bone_flag_aft_pivot_aft_flag.kf#INDEX 0#
+ANIMATION#EVENTCODE 12#rudder#barque_Dummy_Barque_rudder_rudder.kf#INDEX 0#
+
+END_KFM_FILE

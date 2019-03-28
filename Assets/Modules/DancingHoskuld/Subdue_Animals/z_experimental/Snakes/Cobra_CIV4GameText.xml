@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ###################################################################################### -->
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COBRA_PEDIA</Tag>
+		<English>Naja is a genus of venomous elapid snakes known as cobras. Several other genera include species commonly called cobras (for example the rinkhals, or ring-necked spitting cobra), but of all the snakes known by that name, members of the genus Naja are the most widespread and the most widely recognized as cobras. Various species occur in regions throughout Africa, Southwest Asia, South Asia and Southeast Asia.[PARAGRAPH:2]Until recently the genus Naja had 20 to 22 species, but it has undergone several taxonomic revisions in recent years, so sources vary greatly. There is however wide support for a 2009 revision that synonymised the genera Boulengerina and Paranaja with Naja. According to that revision the genus Naja now includes 28 species.[PARAGRAPH:2]Source: Wikipedia</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUBDUED_COBRA_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Cobra[NEWLINE][ICON_BULLET]Myths of Earth and Snakes[NEWLINE][ICON_BULLET]Reptile Cage and Enclosure[NEWLINE][ICON_BULLET]Snake pit and charmer</English>
+		<French>[COLOR_HIGHLIGHT_TEXT]Permet de construire[COLOR_REVERT] Mythe et Histoires des Cobras[NEWLINE][ICON_BULLET]Mythe de la Terre et des serpents[NEWLINE][ICON_BULLET]Cage et enclos pour Reptiles[NEWLINE][ICON_BULLET]Fosse à Serpents et Charmeur</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COBRA_MYTH</Tag>
+		<English>Myth - Cobra</English>
+		<French>Mythe du Cobra</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COBRA_MYTH_EFFECT</Tag>
+		<English>Myth Effect - Cobra</English>
+		<French>Effet (Mythe du Cobra)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COBRA_STORY</Tag>
+		<English>Story - Cobra</English>
+		<French>Histoire du Cobra</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COBRA_STORIES</Tag>
+		<English>Stories - Cobra</English>
+		<French>Histoires des Cobras</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COBRA_STORIES_EFFECT</Tag>
+		<English>Stories Effect - Cobra</English>
+		<French>Effet (Histoires des Cobras)</French>
+	</TEXT>
+</Civ4GameText>

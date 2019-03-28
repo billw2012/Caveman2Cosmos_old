@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ###################################################################################### -->
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SNAKES_MYTH</Tag>
+		<English>Myth - Snakes</English>
+		<French>Mythe des Serpents</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SNAKES_MYTH_EFFECT</Tag>
+		<English>Myth Effect - Snakes</English>
+		<French>Effet (Mythe des Serpents)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SNAKES_STORY</Tag>
+		<English>Story - Snakes</English>
+		<French>Histoire des Serpents</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SNAKES_STORIES</Tag>
+		<English>Stories - Snakes</English>
+		<French>Histoires des Serpents</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SNAKES_STORIES_EFFECT</Tag>
+		<English>Stories Effect - Snakes</English>
+		<French>Effet (Histoires des Serpents)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TAMED_SNAKE</Tag>
+		<English>Tamed Snake</English>
+		<French>Serpent (dompté)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TAMED_SNAKE_PEDIA</Tag>
+		<English>Tamed Snake</English>
+		<French>Serpent (dompté)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TAMED_SNAKE_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Story and Stories -  Snakes[NEWLINE][ICON_BULLET]Reptile Cage and Enclosure[NEWLINE][ICON_BULLET]Snake pit and charmer</English>
+		<French>Permet de [COLOR_HIGHLIGHT_TEXT]Construire[COLOR_REVERT] les Histoires des Serpents[NEWLINE][ICON_BULLET]Cage des Reptiles et enclos[NEWLINE][ICON_BULLET]Fosse à Serpents et Charmeur</French>
+	</TEXT>
+</Civ4GameText>

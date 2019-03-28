@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- ReModified by StrategyOnly -->
+<!-- -->
+<!-- Promotion Infos -->
+<Civ4PromotionInfos xmlns="x-schema:P_C2C_CIV4UnitSchema.xml">
+	<PromotionInfos>
+		<PromotionInfo>
+			<Type>PROMOTION_FA_MEN_SI_INSPIRED</Type>
+			<Description>TXT_KEY_PROMOTION_FA_MEN_SI_INSPIRED</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<TechPrereq>TECH_DUMMY</TechPrereq>
+			<iMovesChange>1</iMovesChange>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MISSIONARY</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>,Art/Interface/Buttons/Promotions/Combat5.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,7,16</Button>
+		</PromotionInfo>
+	</PromotionInfos>
+</Civ4PromotionInfos>

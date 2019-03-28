@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_REPEATING_CROSSBOWMAN</Tag>
+		<English>Repeating Crossbowman</English>
+		<French>Guerrier avec arbalète à répétition</French>
+		<Italian>Balestriere a ripetizione</Italian>
+		<Polish>Kusza Samopowtarzlna</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_REPEATING_CROSSBOWMAN_PEDIA</Tag>
+		<English>The repeating crossbow is a crossbow where the separate actions of stringing the bow, placing the bolt and shooting it can be accomplished with a simple one-handed movement while keeping the crossbow stationary. This allows a higher rate of fire than a normal crossbow: there is a magazine containing a number of bolts on top of the bow, and the mechanism is worked by moving a rectangular lever forward and backward.</English>
+		<Italian>Unità di arcieri stile Clockpunk</Italian>
+		<Polish>[COLOR_UNIT_TEXT]Kusza Samopowtarzlna[COLOR_REVERT] to automatyczna broń miotjąca wynaleziona przez Leonarda Da Vinci.</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_REPEATING_CROSSBOWMAN_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Repeating Crossbowman[COLOR_REVERT] is an alt-timeline Da Vinci/Clockpunk unit. It has an incredibly good ranged attack, but is crap on defense.</English>
+		<Italian>Il balestriere a ripetizione è un'unità in stile Clockpunk. Ha un ottimo attacco a distanza, ma soffre in fase difensiva.</Italian>
+		<Polish>[COLOR_UNIT_TEXT]Kusza Samopowtarzlna[COLOR_REVERT] to automatyczna broń miotjąca wynaleziona przez Leonarda Da Vinci.</Polish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Caveman2Cosmos python -->
+<mod id="Caveman2Cosmos" module="Caveman2Cosmos">
+	<event type="techAcquired" function="onTechAcquired"/>
+	<event type="cityAcquiredAndKept" function="onCityAcquiredAndKept"/>
+	<event type="combatResult" function="onCombatResult"/>
+	<event type="unitPromoted" function="onUnitPromoted"/>
+	<event type="cityBuilt" function="onCityBuilt"/>
+	<init/>
+</mod>

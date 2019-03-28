@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CLOUD_DESTROYER</Tag>
+		<English>Cloud Destroyer</English>
+		<French>Destroyer Nuage</French>
+		<Polish>Podniebny Niszczyciel</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CLOUD_DESTROYER_PEDIA</Tag>
+		<English>Steampunk Aerial combat unit.</English>
+		<Polish>Steampunkowa jednostka powietrzna</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CLOUD_DESTROYER_STRATEGY</Tag>
+		<English>The Cloud Destroyer is an alt-timeline Steampunk unit. It was a big zeppelin.</English>
+	</TEXT>
+</Civ4GameText>

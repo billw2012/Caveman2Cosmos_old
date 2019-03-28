@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ###################################################################################### -->
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUBDUED_HYENA_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Hyena and Scavenger[NEWLINE][ICON_BULLET]Bad Boy Cage and Enclosure</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HYENA_MYTH</Tag>
+		<English>Myth - Hyena</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HYENA_MYTH_EFFECT</Tag>
+		<English>Myth Effect - Hyena</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HYENA_STORY</Tag>
+		<English>Story - Hyena</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HYENA_STORIES</Tag>
+		<English>Stories - Hyena</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HYENA_STORIES_EFFECT</Tag>
+		<English>Stories Effect - Hyena</English>
+	</TEXT>
+</Civ4GameText>

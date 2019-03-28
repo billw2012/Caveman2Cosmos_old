@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+	<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+	<!-- Modified by Strategyonly -->
+	<!-- Building Class Infos -->
+	<!-- -->
+<Civ4BuildingClassInfos xmlns="x-schema:SubdueAnimals_CIV4BuildingsSchema.xml">
+	<BuildingClassInfos>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_GEMSBOK_MYTH</Type>
+			<Description>TXT_KEY_BUILDING_GEMSBOK_MYTH</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_GEMSBOK_MYTH</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_GEMSBOK_MYTH_EFFECT</Type>
+			<Description>TXT_KEY_BUILDING_GEMSBOK_MYTH_EFFECT</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_GEMSBOK_MYTH_EFFECT</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_GEMSBOK_STORY</Type>
+			<Description>TXT_KEY_BUILDING_GEMSBOK_STORY</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_GEMSBOK_STORY</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_GEMSBOK_STORIES</Type>
+			<Description>TXT_KEY_BUILDING_GEMSBOK_STORIES</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_GEMSBOK_STORIES</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_GEMSBOK_STORIES_EFFECT</Type>
+			<Description>TXT_KEY_BUILDING_GEMSBOK_STORIES_EFFECT</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_GEMSBOK_STORIES_EFFECT</DefaultBuilding>
+		</BuildingClassInfo>
+	</BuildingClassInfos>
+</Civ4BuildingClassInfos>

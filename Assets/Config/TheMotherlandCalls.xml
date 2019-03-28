@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+    Platyping's Wonders - The Motherland Calls
+		Converted by Vokarya
+-->
+<mod id="TheMotherlandCalls" module="TheMotherlandCalls">
+  	<event type="changeWar" function="onChangeWar"/>
+</mod>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ###################################################################################### -->
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_IGUANA_PEDIA</Tag>
+		<English>Iguana is a genus of herbivorous lizards native to tropical areas of Mexico, Central America, and the Caribbean. The genus was first described in 1768 by Austrian naturalist Josephus Nicolaus Laurenti in his book Specimen Medicum, Exhibens Synopsin Reptilium Emendatam cum Experimentis circa Venena. Two species are included in the genus Iguana: the green iguana, which is widespread throughout its range and a popular pet, and the Lesser Antillean iguana, which is native to the Lesser Antilles and endangered due to habitat destruction.[PARAGRAPH:2]The word "iguana" is derived from the original Taino name for the species, iwana.[PARAGRAPH:2]In addition to the two species in the genus Iguana, several other related genera in the same family have common names of the species including the word "iguana".[PARAGRAPH:2]Source: Wikipedia</English>
+		<French>Ce sont des reptiles semi-arboricoles, terrestres ou marins, végétariens bien qu'ils mangent des mouches et des insectes volants. Les iguanes terrestres peuvent rester jusqu'à plusieurs heures sans bouger. Ils se tiennent seuls ou à plusieurs. Il s'agit d'animaux principalement diurnes. Leur peau écailleuse est d'une couleur leur permettant plus ou moins de se fondre dans le paysage et ainsi d'échapper à leurs prédateurs.[PARAGRAPH:2]Source: Wikipedia</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUBDUED_IGUANA_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Iguana[NEWLINE][ICON_BULLET]Myths of Earth and Reptiles[NEWLINE][ICON_BULLET]Reptile Cage and Enclosure</English>
+		<French>[COLOR_HIGHLIGHT_TEXT]Permet de construire[COLOR_REVERT] Mythe, Histoire et Histoires -  Iguane[NEWLINE][ICON_BULLET]Les Mythes de la Terre et des Reptiles[NEWLINE][ICON_BULLET]Cage à Reptiles Enclos</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IGUANA_MYTH</Tag>
+		<English>Myth - Iguana</English>
+		<French>Mythe de l'Iguane</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IGUANA_MYTH_EFFECT</Tag>
+		<English>Myth Effect - Iguana</English>
+		<French>Effet (Mythe de l'Iguane)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IGUANA_STORY</Tag>
+		<English>Story - Iguana</English>
+		<French>Histoire de l'Iguane</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IGUANA_STORIES</Tag>
+		<English>Stories - Iguana</English>
+		<French>Histoires des Iguanes</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IGUANA_STORIES_EFFECT</Tag>
+		<English>Stories Effect - Iguana</English>
+		<French>Effet (Histoires des Iguanes)</French>
+	</TEXT>
+</Civ4GameText>

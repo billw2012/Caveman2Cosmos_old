@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ###################################################################################### -->
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUBDUED_GAZELLE_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Gazelle and Antelopes[NEWLINE][ICON_BULLET]Exotic Herbavour Cage and Enclosure</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GAZELLE_MYTH</Tag>
+		<English>Myth - Gazelle</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GAZELLE_MYTH_EFFECT</Tag>
+		<English>Myth Effect - Gazelle</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GAZELLE_STORY</Tag>
+		<English>Story - Gazelle</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GAZELLE_STORIES</Tag>
+		<English>Stories - Gazelle</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GAZELLE_STORIES_EFFECT</Tag>
+		<English>Stories Effect - Gazelle</English>
+	</TEXT>
+</Civ4GameText>

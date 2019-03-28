@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Civ4ArtDefines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\Xml\Schema\Caveman2Cosmos.xsd">
+	<MovieArtInfos>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_THE_MOTHERLAND_CALLS</Type>
+			<Path>Modules/Platyping/TheMotherlandCalls/Art/The Motherland Calls.bik</Path>
+		</MovieArtInfo>
+	</MovieArtInfos>
+</Civ4ArtDefines>

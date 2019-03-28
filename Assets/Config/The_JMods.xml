@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+    The_J Mods python
+-->
+<mod id="The_JMods" module="The_JMods">
+ 	<event type="improvementBuilt" function="onImprovementBuilt"/>
+ 	<event type="combatResult" function="onCombatResult"/>
+ 	<event type="unitBuilt" function="onUnitBuilt"/>
+ 	<event type="unitPromoted" function="onUnitPromoted"/>
+  	<event type="cityAcquiredAndKept" function="onCityAcquiredAndKept"/>
+  	<event type="cityRazed" function="onCityRazed"/>
+ 	<event type="religionFounded" function="onReligionFounded"/>
+
+	<init/>
+
+</mod>
+ 	<!--event type="projectBuilt" function="onProjectBuilt"/-->

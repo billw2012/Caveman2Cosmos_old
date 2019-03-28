@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_THE_MOTHERLAND_CALLS</Tag>
+		<English>The Motherland Calls</English>
+		<French>L'Appel de la Patrie</French>
+		<Polish>Matka Ojczyzna Wzywa</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_THE_MOTHERLAND_CALLS_STRATEGY</Tag>
+		<English>[COLOR_BUILDING_TEXT]The Motherland Calls[COLOR_REVERT] is a defensive wonder that summons units to defend the nation immediately when war is declared upon. The nation will also be happy for 10 turns.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_THE_MOTHERLAND_CALLS_PEDIA</Tag>
+		<English>The Motherland Calls, also called Mother Motherland, Mother Motherland Is Calling, simply The Motherland, or The Mamayev Monument, is a statue in Mamayev Kurgan in Volgograd, Russia, commemorating the Battle of Stalingrad. It was designed by sculptor Yevgeny Vuchetich and structural engineer Nikolai Nikitin. Declared the largest statue in the world in 1967, it is the last non-religious statue to be declared the largest; every record holder since has been a Buddhism-related sculpture. Compared to the later higher statues, The Motherland Calls is significantly more complex from an engineering point of view, due to its characteristic posture with a sword raised high in the right hand and the left hand extended in a calling gesture. The technology behind the statue is based on a combination of prestressed concrete with wire ropes structure, a solution which can be found also in another work of Nikitin's, the super-tall Ostankino Tower in Moscow.[NEWLINE][NEWLINE][TAB]When the memorial was dedicated in 1967 it was the tallest sculpture in the world, measuring 85 metres from the tip of its sword to the top of the plinth. The figure itself measures 52 metres, and the sword 33 metres. Two hundred steps, symbolizing the 200 days of the Battle of Stalingrad, lead from the bottom of the hill to the monument. The lead sculptor was Yevgeny Vuchetich, and the significant structural engineering challenges of the 7,900 tonnes (7,800 long tons; 8,700 short tons) of concrete sculpture were handled by Nikolai Nikitin. The statue appears on both the current flag and coat of arms of Volgograd Oblast.</English>
+		<Polish>Matka Ojczyzna wzywa! - monumentalna statua w Wolgogradzie (dawniej Stalingrad), poswiecona radzieckim zolnierzom walczacym w bitwie stalingradzkiej. Jedna z najwyzszych rzezb na swiecie, symbol i atrakcja turystyczna Wolgogradu. Pod pomnik prowadzi rozpoczynajaca sie u stóp kurhanu serpentyna. Sklada sie ona z 200 stopni - tyle samo dni trwala bitwa stalingradzka. Wzdluz drogi znajduje sie 35 granitowych nagrobków, pod którymi spoczywaja obroncy miasta odznaczeni tytulem Bohatera Zwiazku Radzieckiego (w tym marszalek Wasilij Czujkow - dowódca broniacej Stalingradu 62 Armii).</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_THE_MOTHERLAND_CALLS_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT]Conscripts One Unit Per City When A Rival Declares War On You [NEWLINE][ICON_BULLET]+1[ICON_HAPPY] for 10 turns in All Cities When A Rival Declares War On You</English>
+		<Polish>[ICON_BULLET]Werbuje jedna jednoste na miasto w momencie wypowiedzenia wojny Tobie przez obce Imperium/ [NEWLINE][ICON_BULLET]+1[ICON_HAPPY] na kazde 10 tur we wszystkich miastach w czasie wojny z wrogim Imperium.</Polish>
+	</TEXT>
+</Civ4GameText>

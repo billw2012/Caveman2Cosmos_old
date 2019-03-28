@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HELSINKI</Tag>
+		<English>Helsinki Cathedral</English>
+		<French>Cathédrale d'Helsinki</French>
+		<Polish>Katedra w Helsinkach</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HELSINKI_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Helsinki Cathedral[COLOR_REVERT] converts 10% of foreign culture around newly conquered cities to own culture.</English>
+		<French>La [COLOR_BUILDING_TEXT]Cathédrale d'Helsinki[COLOR_REVERT] convertit 10% de la culture étrangère autour des villes récemment conquises en votre culture.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HELSINKI_PEDIA</Tag>
+		<English>Helsinki Cathedral is an Evangelical Lutheran cathedral of the Diocese of Helsinki, located in the centre of Helsinki, Finland. The church was originally built as a tribute to the Grand Duke, Nicholas I, the Tsar of Russia and until the independence of Finland in 1917, it was called St. Nicholas' Church.[NEWLINE][NEWLINE][TAB]A distinct landmark in the scenery of central Helsinki, with a tall green dome surrounded by four smaller domes, the church was built in 1830 - 52, in neoclassical style. It was designed by Carl Ludvig Engel, to form the climax of the whole Senate Square laid out by Engel, surrounded by a number of buildings all designed by him. The building has a Greek-cross plan (i.e. a square central mass and four arms of equal length), and is symmetrical in each of the four cardinal directions, each marked by a colonnade and pediment. Engel had intended to place a further row of columns on the west end to mark the main entrance (opposite the altar at the east end), but this was never realised. The building was later altered by his successor Ernst Lohrmann, whose four small domes make the architectural connection to the cathedral's model, Saint Isaac's Cathedral in St. Petersburg, even clearer. Lohrmann also erected two separately standing bell towers and over-lifesize zinc statues of the Twelve Apostles at apexes and corners of the roofline.</English>
+		<Polish>Katedra w Helsinkach (fin. Helsingin tuomiokirkko) - zaprojektowana przez Carla Ludwiga Engela, znajduje sie na placu Senackim. Jest jednym z najlepiej rozpoznawanych obiektów w Helsinkach. Co roku kosciól odwiedza ponad 350 000 ludzi. Czesc z nich to wierni regularnie uczeszczajacy do tego kosciola, jednak wiekszosc stanowia turysci. Katedra jest zbudowana w stylu neoklasycystycznym, a jej fundamenty narysowane sa na staly ksztalt greckiego krzyza. Sklepienie jakie sie tu znajduje, jest typu gwiazdzistego nad korytarzem glównym i w ksztalcie kulistym pod kopulami.</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HELSINKI_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][ICON_BULLET]Converts 10%%[ICON_CULTURE] around conquered Cities</English>
+		<French>[ICON_BULLET]Convertit 10%% de [ICON_CULTURE] autour des villes conquises</French>
+		<Polish>[ICON_BULLET]Zmienia 10%%[ICON_CULTURE] wokól podbitych miast.</Polish>
+	</TEXT>
+</Civ4GameText>

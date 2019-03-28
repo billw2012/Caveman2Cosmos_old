@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ###################################################################################### -->
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUBDUED_BONGO_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Bongo and Antelopes[NEWLINE][ICON_BULLET]Exotic Herbavour Cage and Enclosure</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BONGO_MYTH</Tag>
+		<English>Myth - Bongo</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BONGO_MYTH_EFFECT</Tag>
+		<English>Myth Effect - Bongo</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BONGO_STORY</Tag>
+		<English>Story - Bongo</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BONGO_STORIES</Tag>
+		<English>Stories - Bongo</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BONGO_STORIES_EFFECT</Tag>
+		<English>Stories Effect - Bongo</English>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../../../../../Xml/Schema/Civ4Gametext.xsd">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WAR_WHEEL</Tag>
+		<English>War Wheel</English>
+		<French>Roue de Guerre</French>
+		<German>Steamtank</German>
+		<Italian>Ruota da guerra</Italian>
+		<Spanish>Steamtank</Spanish>
+		<Polish>Monocykl</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WAR_WHEEL_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]War Wheel[COLOR_REVERT] is a Steampunk contraption. It can not attack, but is cheaper to build than a Steam Tank and starts with the Sentry, Guerrila, and Woodsman promotions.</English>
+		<Italian>La [COLOR_UNIT_TEXT]ruota da guerra[COLOR_REVERT] è un'unità in stile Steampunk. Non può attaccare, ma è più economica di un carro a vapore e riceve gratis le promozioni Sentinella I, Guerriglia I e Taglialegna I.</Italian>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WAR_WHEEL_PEDIA</Tag>
+		<English>A monowheel is a one-wheeled single-track vehicle similar to a unicycle. However, instead of sitting above the wheel, the rider sits either within it or next to it. The wheel is a ring, usually driven by smaller wheels pressing against its inner rim. Most are single-passenger vehicles, though multi-passenger models have been built. Hand-cranked and pedal-powered monowheels were built in the late 19th century; most built in the 20th century have been motorized. Some modern builders refer to these vehicles as monocycles, though that term is also sometimes used to describe motorized unicycles.</English>
+		<Italian>La Ruota di guerra si comporta essenzialmente come una Motocicletta.</Italian>
+		<Polish>Jednokołowiec, monocykl - jednośladowy pojazd samochodowy, posiadający jedno koło jezdne. Najczęściej spotykaną wersją monocykla jest pojazd, w którym kierowca siedzi w fotelu wbudowanym w obręcz dużego koła jezdnego. Pomysł na tego typu rozwiązanie techniczne powstał w XIX wieku i jest do tej pory stosowany przez większość konstruktorów i firm produkujących jednokołowce z silnikiem spalinowym.</Polish>
+	</TEXT>
+</Civ4GameText>
