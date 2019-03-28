@@ -7624,9 +7624,6 @@
 			<OrPreReqs>
 				<PrereqTech>TECH_CHARIOTRY</PrereqTech>
 			</OrPreReqs>
-			<ObsoleteTechs>
-				<ObsoleteTech>TECH_ANIMAL_RIDING</ObsoleteTech>
-			</ObsoleteTechs>
 			<bGlobal>1</bGlobal>
 			<bPickCity>1</bPickCity>
 			<PythonCanDoCity>canTriggerChariotryFounded</PythonCanDoCity>
@@ -8592,9 +8589,6 @@
 			<AndPreReqs>
 				<PrereqTech>TECH_NATIONALISM</PrereqTech>
 			</AndPreReqs>
-			<ObsoleteTechs>
-				<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
-			</ObsoleteTechs>
 			<bShowPlot>0</bShowPlot>
 		</EventTriggerInfo>
 		<EventTriggerInfo>
