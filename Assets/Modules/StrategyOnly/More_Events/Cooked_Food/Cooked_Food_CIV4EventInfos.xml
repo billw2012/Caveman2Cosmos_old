@@ -12,7 +12,7 @@
 			<Description>TXT_KEY_EVENT_COOKING</Description>
 			<bPickCity>1</bPickCity>
 			<Tech>TECH_COOKING</Tech>
-			<iTechPercent>100</iTechPercent>
+			<iTechPercent>50</iTechPercent>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1000</iAIValue>
 		</EventInfo>
