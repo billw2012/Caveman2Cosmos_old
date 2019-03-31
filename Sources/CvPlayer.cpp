@@ -35931,9 +35931,11 @@ void CvPlayer::processTrait(TraitTypes eTrait, int iChange)
 	}
 
 	//Team Project (6)
-	if ((UnitTypes)GC.getTraitInfo(eTrait).getGoldenAgeonBirthofGreatPeopleType() != NO_UNIT)
+	if ((UnitClassTypes)GC.getTraitInfo(eTrait).getGoldenAgeonBirthofGreatPeopleType() != NO_UNITCLASS)
 	{
-		changeGoldenAgeOnBirthOfGreatPersonCount((UnitTypes)GC.getTraitInfo(eTrait).getGoldenAgeonBirthofGreatPeopleType(), iChange);
+		UnitTypes eGreatPeopleUnit = ((UnitTypes)(GC.getCivilizationInfo(getCivilizationType()).getCivilizationUnits(GC.getTraitInfo(eTrait).getGoldenAgeonBirthofGreatPeopleType())));
+
+		changeGoldenAgeOnBirthOfGreatPersonCount(eGreatPeopleUnit, iChange);
 	}
 
 	for (iI = 0; iI < GC.getTraitInfo(eTrait).getNumDomainFreeExperiences(); iI++)
