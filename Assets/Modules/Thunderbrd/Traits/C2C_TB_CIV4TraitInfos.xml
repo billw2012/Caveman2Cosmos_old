@@ -26995,7 +26995,7 @@
 			<Civilopedia>TXT_KEY_TRAIT_LAZY_PEDIA</Civilopedia>
 			<Button>art/Buttons/Traits/TraitLazy.dds</Button>
 			<PromotionLine>PROMOTIONLINE_LAZY</PromotionLine>
-			<iLinePriority>-1</iLinePriority>
+			<iLinePriority>0</iLinePriority>
 			<OnGameOptions>
 				<OnGameOption>GAMEOPTION_COMPLEX_TRAITS</OnGameOption>
 			</OnGameOptions>
