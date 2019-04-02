@@ -3415,6 +3415,7 @@
 		<Tag>TXT_KEY_BUILD_FRUIT_GATHERER</Tag>
 		<English>Build a [LINK=IMPROVEMENT_FRUIT_GATHERER]Fruit Gathering Camp[\LINK]</English>
 		<French>Installer un [LINK=IMPROVEMENT_FRUIT_GATHERER]Camp de Récolte de Fruits[\LINK]</French>
+		<German>[LINK=IMPROVEMENT_FRUIT_GATHERER]Früchte sammeln[\LINK]</German>
 		<Italian>Costruisci un [LINK=IMPROVEMENT_FRUIT_GATHERER]campo di raccolta di frutti[\LINK]</Italian>
 		<Spanish>Construir un [LINK=IMPROVEMENT_FRUIT_GATHERER]Campo de cultivo de frutas[\LINK]</Spanish>
 		<Polish>Zbuduj [LINK=IMPROVEMENT_FRUIT_GATHERER]Obóz Zbieraczy Owoców[\LINK]</Polish>
@@ -3467,6 +3468,7 @@
 		<Tag>TXT_KEY_BUILD_GRAPE_GATHERER</Tag>
 		<English>Build a [LINK=IMPROVEMENT_GRAPE_GATHERER]Grape Gathering Camp[\LINK]</English>
 		<French>Installer un [LINK=IMPROVEMENT_GRAPE_GATHERER]camp de récolte de Raisins[\LINK]</French>
+		<German>[LINK=IMPROVEMENT_GRAPE_GATHERER]Trauben sammeln[\LINK]</German>
 		<Italian>Costruisci un [LINK=IMPROVEMENT_GRAPE_GATHERER]campo di raccolta di uva[\LINK]</Italian>
 		<Spanish>Construir un [LINK=IMPROVEMENT_GRAPE_GATHERER]Campo de cultivo de uvas[\LINK]</Spanish>
 		<Polish>Zbuduj [LINK=IMPROVEMENT_GRAPE_GATHERER]Szałas Zbieraczy Winogron[\LINK]</Polish>
@@ -3709,7 +3711,7 @@
 		<Tag>TXT_KEY_BUILD_MUSHROOM_GATHERER</Tag>
 		<English>Build a [LINK=IMPROVEMENT_MUSHROOM_GATHERER]Mushroom Gatherer[\LINK]</English>
 		<French>Construire une [LINK=IMPROVEMENT_MUSHROOM_GATHERER]Champignonnière[\LINK]</French>
-		<German>Bauen ein [LINK=IMPROVEMENT_MUSHROOM_GATHERER]Pilzsammler[\LINK]</German>
+		<German>[LINK=IMPROVEMENT_MUSHROOM_GATHERER]Pilze sammeln[\LINK]</German>
 		<Italian>Costruisci un [LINK=IMPROVEMENT_MUSHROOM_GATHERER]Funghi raccoglitori[\LINK]</Italian>
 		<Spanish>Construir un [LINK=IMPROVEMENT_MUSHROOM_GATHERER]Recolector de setas[\LINK]</Spanish>
 		<Polish>Zbudu [LINK=IMPROVEMENT_MUSHROOM_GATHERER]Obóz Zbieraczy Grzybów[\LINK]</Polish>
@@ -3795,6 +3797,7 @@
 		<Tag>TXT_KEY_BUILD_PLANT_GATHERER</Tag>
 		<English>Build a [LINK=IMPROVEMENT_PLANT_GATHERER]Plant Gathering Camp[\LINK]</English>
 		<French>Installer un [LINK=IMPROVEMENT_PLANT_GATHERER]camp de récolte[\LINK]</French>
+		<German>[LINK=IMPROVEMENT_PLANT_GATHERER]Nützliche Pflanzen sammeln[\LINK]</German>
 		<Italian>Costruisci un [LINK=IMPROVEMENT_PLANT_GATHERER]campo di raccolta di piante[\LINK]</Italian>
 		<Spanish>Construir un [LINK=IMPROVEMENT_PLANT_GATHERER]Campo de cultivo de plantas[\LINK]</Spanish>
 		<Polish>Zbudu [LINK=IMPROVEMENT_PLANT_GATHERER]Obóz Zbieraczy Roślin[\LINK]</Polish>
@@ -3802,6 +3805,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_PLANT_PICKER</Tag>
 		<English>Build a [LINK=IMPROVEMENT_PLANT_PICKER]Plant Picking Camp[\LINK]</English>
+		<German>[LINK=IMPROVEMENT_PLANT_PICKER]Pflanzen sammeln[\LINK]</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_PLANT_SAVANNA</Tag>
