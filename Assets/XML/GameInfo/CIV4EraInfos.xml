@@ -86,7 +86,7 @@
 			<iImprovementPercent>100</iImprovementPercent>
 			<iGreatPeoplePercent>300</iGreatPeoplePercent>
 			<iAnarchyPercent>80</iAnarchyPercent>
-			<iEventChancePerTurn>8</iEventChancePerTurn>
+			<iEventChancePerTurn>7</iEventChancePerTurn>
 			<bFirstSoundtrackFirst>1</bFirstSoundtrackFirst>
 			<EraInfoSoundtracks>
 				<EraInfoSoundtrack>AS2D_AMBIENTWINDS</EraInfoSoundtrack>
@@ -155,7 +155,7 @@
 			<iImprovementPercent>100</iImprovementPercent>
 			<iGreatPeoplePercent>225</iGreatPeoplePercent>
 			<iAnarchyPercent>80</iAnarchyPercent>
-			<iEventChancePerTurn>9</iEventChancePerTurn>
+			<iEventChancePerTurn>8</iEventChancePerTurn>
 			<iSoundtrackSpace>400</iSoundtrackSpace>
 			<EraInfoSoundtracks>
 				<EraInfoSoundtrack>AS2D_ARISTOTLESPUPIL</EraInfoSoundtrack>
@@ -215,7 +215,7 @@
 			<iImprovementPercent>100</iImprovementPercent>
 			<iGreatPeoplePercent>150</iGreatPeoplePercent>
 			<iAnarchyPercent>80</iAnarchyPercent>
-			<iEventChancePerTurn>10</iEventChancePerTurn>
+			<iEventChancePerTurn>8</iEventChancePerTurn>
 			<iSoundtrackSpace>200</iSoundtrackSpace>
 			<EraInfoSoundtracks>
 				<EraInfoSoundtrack>AS2D_DRONOLANSTOWER</EraInfoSoundtrack>
@@ -292,7 +292,7 @@
 			<iImprovementPercent>100</iImprovementPercent>
 			<iGreatPeoplePercent>100</iGreatPeoplePercent>
 			<iAnarchyPercent>80</iAnarchyPercent>
-			<iEventChancePerTurn>10</iEventChancePerTurn>
+			<iEventChancePerTurn>9</iEventChancePerTurn>
 			<iSoundtrackSpace>160</iSoundtrackSpace>
 			<EraInfoSoundtracks>
 				<EraInfoSoundtrack>AS2D_BACH_ALLEGRO</EraInfoSoundtrack>
@@ -355,7 +355,7 @@
 			<iImprovementPercent>100</iImprovementPercent>
 			<iGreatPeoplePercent>100</iGreatPeoplePercent>
 			<iAnarchyPercent>80</iAnarchyPercent>
-			<iEventChancePerTurn>10</iEventChancePerTurn>
+			<iEventChancePerTurn>9</iEventChancePerTurn>
 			<iSoundtrackSpace>120</iSoundtrackSpace>
 			<bFirstSoundtrackFirst>1</bFirstSoundtrackFirst>
 			<EraInfoSoundtracks>
