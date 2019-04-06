@@ -596,7 +596,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GAMEOPTION_MIN_CITY_BORDER_HELP</Tag>
-		<English>8 tiles around any city can never be conquered via cultural influence.[NEWLINE]This option disables "City starts with 1 tile" option.</English>
+		<English>8 tiles around any city can never be conquered via cultural influence.[NEWLINE]This option is disabled by "City starts with 1 tile" option.</English>
 		<French>Les 8 cases les plus proches d'une Ville ne peuvent jamais être conquises par l'influence culturelle</French>
 		<German>Die 8 Felder rings um eine Stadt können niemals durch kulturellen Einfluss übernommen werden.</German>
 		<Spanish>No se podrán conquistar las 8 casillas alrededor de una ciudad mediante la influencia cultural.</Spanish>
@@ -1555,7 +1555,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GAMEOPTION_1_CITY_TILE_FOUNDING_HELP</Tag>
-		<English>All city founding starts with the main city tile only. Culture Level Poor values must be achieved to expand city culture and expand to surrounding tiles. Scaled for Game Speeds.[NEWLINE]This option is disabled by "Minimum city border" option.</English>
+		<English>All city founding starts with the main city tile only. Culture Level Poor values must be achieved to expand city culture and expand to surrounding tiles. Scaled for Game Speeds.[NEWLINE]This option disables "Minimum city border" option.</English>
 		<German>Der Einflussbereich jeder neu gegründeten Stadt wird mit dieser Einstellung zunächst immer auf das Stadtfeld begrenzt. Um den Stadtradius auf die umgebenden Felder auszudehnen, muss zunächst die Kulturstufe "schwach" erreicht werden.</German>
 	</TEXT>
 </Civ4GameText>
