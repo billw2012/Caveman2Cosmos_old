@@ -792,11 +792,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>1</Constant>
-                            </Mult>
-                            <Constant>2</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>2</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
@@ -807,11 +804,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>1</Constant>
-                            </Mult>
-                            <Constant>2</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>2</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
@@ -822,11 +816,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>1</Constant>
-                            </Mult>
-                            <Constant>2</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>2</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
@@ -1510,11 +1501,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>-1</Constant>
-                            </Mult>
-                            <Constant>2</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>-2</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
@@ -1971,11 +1959,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>1</Constant>
-                            </Mult>
-                            <Constant>3</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>3</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
@@ -2850,11 +2835,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>1</Constant>
-                            </Mult>
-                            <Constant>6</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>6</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
@@ -2911,11 +2893,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>1</Constant>
-                            </Mult>
-                            <Constant>5</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>5</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
@@ -3065,11 +3044,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>1</Constant>
-                            </Mult>
-                            <Constant>3</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>3</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
@@ -3465,11 +3441,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>1</Constant>
-                            </Mult>
-                            <Constant>5</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>5</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
@@ -4326,11 +4299,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>1</Constant>
-                            </Mult>
-                            <Constant>2</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>2</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
@@ -4341,11 +4311,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>1</Constant>
-                            </Mult>
-                            <Constant>2</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>2</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
@@ -4356,11 +4323,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>1</Constant>
-                            </Mult>
-                            <Constant>2</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>2</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
@@ -5019,11 +4983,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>-1</Constant>
-                            </Mult>
-                            <Constant>2</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>-2</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
@@ -5477,11 +5438,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>1</Constant>
-                            </Mult>
-                            <Constant>3</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>3</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
@@ -6362,11 +6320,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>1</Constant>
-                            </Mult>
-                            <Constant>6</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>6</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
@@ -6425,11 +6380,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>1</Constant>
-                            </Mult>
-                            <Constant>5</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>5</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
@@ -6585,11 +6537,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>1</Constant>
-                            </Mult>
-                            <Constant>3</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>3</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
@@ -6995,11 +6944,8 @@
                     <RelationType>RELATION_ASSOCIATED</RelationType>
                     <iAmountPerTurn>
                         <Div>
-                            <Mult>
-                                <AttributeType>ATTRIBUTE_POPULATION</AttributeType>
-                                <Constant>1</Constant>
-                            </Mult>
-                            <Constant>5</Constant>
+							<AttributeType>ATTRIBUTE_POPULATION</AttributeType>
+							<Constant>5</Constant>
                         </Div>
                     </iAmountPerTurn>
                 </PropertySource>
