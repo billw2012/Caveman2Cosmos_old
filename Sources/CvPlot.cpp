@@ -13938,7 +13938,7 @@ void CvPlot::doCulture()
 	//Decay if you've lost any source of culture on the plot
 	if (getOwnerINLINE() != NO_PLAYER)
 	{
-		if (!isWithinCultureRange(getOwnerINLINE()))/* && !isWithinOccupationRange(getOwnerINLINE())) Not sure if this is actually good to include*/
+		if (!isWithinCultureRange(getOwnerINLINE()) && !isWithinOccupationRange(getOwnerINLINE()))
 		{
 			int iCultureBase = getCulture(getOwnerINLINE());
 			if (iCultureBase >0)

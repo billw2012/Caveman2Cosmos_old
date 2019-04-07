@@ -833,7 +833,8 @@ public:
 	DllExport bool isDead() const;																				// Exposed to Python						
 
 	void setBaseCombatStr(int iCombat);																																										// Exposed to Python
-	int baseCombatStr() const;
+	int baseCombatStr() const;																																									// Exposed to Python
+	int baseCombatStrNonGranular() const;
 	int baseCombatStrPreCheck() const;
 	int baseAirCombatStrPreCheck() const;
 	float fbaseCombatStr() const;

@@ -8983,7 +8983,10 @@ int CvCity::healthRate(bool bNoAngry, int iExtra) const
 
 int CvCity::foodConsumption(bool bNoAngry, int iExtra, bool bIncludeWastage) const
 {
-	int result = ((((getPopulation() + iExtra) - ((bNoAngry) ? angryPopulation(iExtra) : 0)) * GC.getFOOD_CONSUMPTION_PER_POPULATION()) - healthRate(bNoAngry, iExtra) + (bIncludeWastage ? (int)foodWastage() : 0));
+	int iPopulationExponent = ((getPopulation() - 1) * 2); // Each pop past the first increases consumption per population by .2, rounded down.  Each point of population means more actual people the higher the amount goes.
+	int iConsumptionPerPopulationBase = iPopulationExponent + (GC.getFOOD_CONSUMPTION_PER_POPULATION() * 10);
+	int iConsumptionbyPopulation = (((getPopulation() + iExtra) - ((bNoAngry) ? angryPopulation(iExtra) : 0)) * iConsumptionPerPopulationBase) / 10;
+	int result = (iConsumptionbyPopulation - healthRate(bNoAngry, iExtra) + (bIncludeWastage ? (int)foodWastage() : 0));
 
 	return result;
 }
@@ -9005,7 +9008,10 @@ float CvCity::foodWastage(int surplass) const
 	{
 		if ( surplass == -1 )
 		{
-			surplass = foodDifference(true, false) - (GC.getFOOD_CONSUMPTION_PER_POPULATION()*getPopulation()*startWasteAtConsumptionPercent)/100;
+			int iPopulationExponent = ((getPopulation() - 1) * 2); // Each pop past the first increases consumption per population by .2, rounded down.  Each point of population means more actual people the higher the amount goes.
+			int iConsumptionPerPopulationBase = iPopulationExponent + (GC.getFOOD_CONSUMPTION_PER_POPULATION() * 10);
+			int iConsumptionbyPopulation = (getPopulation() * iConsumptionPerPopulationBase) / 10;
+			surplass = foodDifference(true, false) - (iConsumptionbyPopulation * startWasteAtConsumptionPercent)/100;
 		}
 	}
 	else

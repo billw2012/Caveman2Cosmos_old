@@ -25442,7 +25442,7 @@ int CvPlayerAI::AI_eventValue(EventTypes eEvent, const EventTriggeredData& kTrig
 
 	if (NULL != pUnit)
 	{
-		iValue += (2 * pUnit->baseCombatStr() * kEvent.getUnitExperience() * GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent()) / 100;
+		iValue += (2 * pUnit->baseCombatStrNonGranular() * kEvent.getUnitExperience() * GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent()) / 100;
 
 		iValue -= 10 * kEvent.getUnitImmobileTurns();
 	}
@@ -25469,7 +25469,7 @@ int CvPlayerAI::AI_eventValue(EventTypes eEvent, const EventTriggeredData& kTrig
 					{
 						if (!pLoopUnit->isHasPromotion((PromotionTypes)kEvent.getUnitCombatPromotion(i)))
 						{
-							iPromotionValue += 5 * pLoopUnit->baseCombatStr();
+							iPromotionValue += 5 * pLoopUnit->baseCombatStrNonGranular();
 						}
 					}
 					//TB SubCombat Mod End
@@ -30557,7 +30557,7 @@ void CvPlayerAI::AI_doEnemyUnitData()
 						iUnitValue *= 4;
 					}
 					
-					iUnitValue *= pLoopUnit->baseCombatStr();
+					iUnitValue *= pLoopUnit->baseCombatStrNonGranular();
 					aiUnitCounts[pLoopUnit->getUnitType()] += iUnitValue;
 					aiDomainSums[pLoopUnit->getDomainType()] += iUnitValue;
 					iNewTotal += iUnitValue;
@@ -32177,7 +32177,7 @@ int CvPlayerAI::strengthOfBestUnitAI(DomainTypes eDomain, UnitAITypes eUnitAITyp
 				CvUnitInfo& kUnit = pLoopUnit->getUnitInfo();
 
 				iCount++;
-				iTotal += kUnit.getCombat() + GET_TEAM(getTeam()).getUnitClassStrengthChange((UnitClassTypes)kUnit.getUnitClassType());
+				iTotal += (kUnit.getCombat() + GET_TEAM(getTeam()).getUnitClassStrengthChange((UnitClassTypes)kUnit.getUnitClassType()));
 			}
 		}
 
@@ -40715,9 +40715,9 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 	{
 		if (pUnit != NULL)
 		{
-			if (pUnit->baseCombatStr() < 10)
+			if (pUnit->baseCombatStrNonGranular() < 10)
 			{
-				int ievaluation = ((11 - pUnit->baseCombatStr()) * 30);
+				int ievaluation = ((11 - pUnit->baseCombatStrNonGranular()) * 30);
 				iValue += (iTemp * ievaluation);
 			}
 			else

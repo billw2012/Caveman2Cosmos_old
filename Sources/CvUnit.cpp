@@ -513,7 +513,7 @@ void CvUnit::init(int iID, UnitTypes eUnit, UnitAITypes eUnitAI, PlayerTypes eOw
 		{
 			if (baseCombatStr() > 0)
 			{
-				if ((GC.getGameINLINE().getBestLandUnit() == NO_UNIT) || (baseCombatStr() > GC.getGameINLINE().getBestLandUnitCombat()))
+				if ((GC.getGameINLINE().getBestLandUnit() == NO_UNIT) || (baseCombatStrNonGranular() > GC.getGameINLINE().getBestLandUnitCombat()))
 				{
 					GC.getGameINLINE().setBestLandUnit(getUnitType());
 				}
@@ -10819,7 +10819,7 @@ bool CvUnit::bombard()
 		}
 		// Super Forts end
 
-		changeExperience100(100, maxXPValue(), true, false, (!pTargetPlot->isHominid() || GC.getGameINLINE().isOption(GAMEOPTION_BARBARIAN_GENERALS)));
+		changeExperience100(100, maxXPValue(), true, false, false/*this was too corruptable with SM - split to bombatd and get tons of GG pts(!pTargetPlot->isHominid() || GC.getGameINLINE().isOption(GAMEOPTION_BARBARIAN_GENERALS))*/);
 		setMadeAttack(true);
 		changeMoves(GC.getMOVE_DENOMINATOR());
 /************************************************************************************************/
@@ -15530,6 +15530,20 @@ int CvUnit::baseCombatStr() const
 	else
 	{
 		iStr = getSMStrength();
+	}
+	return iStr;
+}
+
+int CvUnit::baseCombatStrNonGranular() const
+{
+	int iStr = baseCombatStr();
+	if (!GC.getGameINLINE().isOption(GAMEOPTION_SIZE_MATTERS))
+	{
+		return iStr;
+	}
+	else
+	{
+		iStr /= 100;
 	}
 	return iStr;
 }
@@ -32711,7 +32725,7 @@ bool CvUnit::bombardRanged(int iX, int iY, bool sAttack)
 						AddDLLMessage(pLoopUnit->getOwnerINLINE(), false, GC.getDefineINT("EVENT_MESSAGE_TIME"), szBuffer, "AS2D_BOMBARDED", MESSAGE_TYPE_INFO, getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), getX_INLINE(), getY_INLINE(), true, true);
 					}
 					rBombardCombat(pPlot, pLoopUnit);
-					changeExperience100(100, maxXPValue(), true, pLoopUnit->getOwnerINLINE() == getOwnerINLINE(), (!pPlot->isHominid() || GC.getGameINLINE().isOption(GAMEOPTION_BARBARIAN_GENERALS)));
+					changeExperience100(100, maxXPValue(), true, pLoopUnit->getOwnerINLINE() == getOwnerINLINE(), false/*this was too corruptable with SM - split to bombatd and get tons of GG pts(!pPlot->isHominid() || GC.getGameINLINE().isOption(GAMEOPTION_BARBARIAN_GENERALS))*/);
 				}
 				else
 				{
@@ -32762,7 +32776,7 @@ bool CvUnit::bombardRanged(int iX, int iY, bool sAttack)
 					AddDLLMessage(pLoopUnit->getOwnerINLINE(), false, GC.getDefineINT("EVENT_MESSAGE_TIME"), szBuffer, "AS2D_BOMBARDED", MESSAGE_TYPE_INFO, getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), getX_INLINE(), getY_INLINE(), true, true);
 				}
 				rBombardCombat(pPlot, pLoopUnit);
-				changeExperience100(100, maxXPValue(), true, pLoopUnit->getOwnerINLINE() == getOwnerINLINE(), (!pPlot->isHominid() || GC.getGameINLINE().isOption(GAMEOPTION_BARBARIAN_GENERALS)));
+				changeExperience100(100, maxXPValue(), true, pLoopUnit->getOwnerINLINE() == getOwnerINLINE(), false/*this was too corruptable with SM - split to bombatd and get tons of GG pts(!pPlot->isHominid() || GC.getGameINLINE().isOption(GAMEOPTION_BARBARIAN_GENERALS))*/);
 			}
 			else
 			{
@@ -32802,7 +32816,7 @@ bool CvUnit::bombardRanged(int iX, int iY, bool sAttack)
 						}
 					}
 					pPlot->setImprovementType((ImprovementTypes)(GC.getImprovementInfo(pPlot->getImprovementType()).getImprovementPillage()));
-					changeExperience100(100, maxXPValue(), true, false, (!pPlot->isHominid() || GC.getGameINLINE().isOption(GAMEOPTION_BARBARIAN_GENERALS)));
+					changeExperience100(100, maxXPValue(), true, false, (!pPlot->isHominid() || GC.getGameINLINE().isOption(GAMEOPTION_BARBARIAN_GENERALS)));//shouldn't have a problem with this on SM since there must be an improvement to destroy
 				}
 				else
 				{

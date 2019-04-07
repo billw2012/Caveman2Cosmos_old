@@ -1042,7 +1042,7 @@ int CvSelectionGroupAI::AI_sumStrength(const CvPlot* pAttackedPlot, DomainTypes 
 								if (iPossibleTargets > 0) 
 								{ 
 									// collateral damage is not trivial to calculate. This estimate is pretty rough. 
-									strSum += (unsigned long long)pLoopUnit->baseCombatStr() * iBaseCollateral * pLoopUnit->collateralDamage() * iPossibleTargets / 100; 
+									strSum += (unsigned long long)pLoopUnit->baseCombatStrNonGranular() * iBaseCollateral * pLoopUnit->collateralDamage() * iPossibleTargets / 100;
 								} 
 							} 
 							// K-Mod end 

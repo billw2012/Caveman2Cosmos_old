@@ -23116,15 +23116,15 @@
 				</BuildingHappinessModifierType>
 			</BuildingHappinessModifierTypes>
 			<CapitalYieldModifiers>
-				<iYield>10</iYield>
-				<iYield>10</iYield>
-				<iYield>10</iYield>
+				<iYield>5</iYield>
+				<iYield>5</iYield>
+				<iYield>5</iYield>
 			</CapitalYieldModifiers>
 			<CapitalCommerceModifiers>
-				<iCommerce>10</iCommerce>
-				<iCommerce>10</iCommerce>
-				<iCommerce>10</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CapitalCommerceModifiers>
 			<iDistanceMaintenanceModifier>20</iDistanceMaintenanceModifier>
 			<iNumCitiesMaintenanceModifier>20</iNumCitiesMaintenanceModifier>
@@ -23548,15 +23548,15 @@
 				</BuildingHappinessModifierType>
 			</BuildingHappinessModifierTypes>
 			<CapitalYieldModifiers>
-				<iYield>10</iYield>
-				<iYield>10</iYield>
-				<iYield>10</iYield>
+				<iYield>15</iYield>
+				<iYield>15</iYield>
+				<iYield>15</iYield>
 			</CapitalYieldModifiers>
 			<CapitalCommerceModifiers>
-				<iCommerce>10</iCommerce>
-				<iCommerce>10</iCommerce>
-				<iCommerce>10</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>15</iCommerce>
+				<iCommerce>15</iCommerce>
+				<iCommerce>15</iCommerce>
+				<iCommerce>15</iCommerce>
 			</CapitalCommerceModifiers>
 			<iDistanceMaintenanceModifier>40</iDistanceMaintenanceModifier>
 			<iNumCitiesMaintenanceModifier>40</iNumCitiesMaintenanceModifier>
@@ -24070,15 +24070,15 @@
 				</BuildingHappinessModifierType>
 			</BuildingHappinessModifierTypes>
 			<CapitalYieldModifiers>
-				<iYield>-10</iYield>
-				<iYield>-10</iYield>
-				<iYield>-10</iYield>
+				<iYield>-5</iYield>
+				<iYield>-5</iYield>
+				<iYield>-5</iYield>
 			</CapitalYieldModifiers>
 			<CapitalCommerceModifiers>
-				<iCommerce>-10</iCommerce>
-				<iCommerce>-10</iCommerce>
-				<iCommerce>-10</iCommerce>
-				<iCommerce>-10</iCommerce>
+				<iCommerce>-5</iCommerce>
+				<iCommerce>-5</iCommerce>
+				<iCommerce>-5</iCommerce>
+				<iCommerce>-5</iCommerce>
 			</CapitalCommerceModifiers>
 			<iDistanceMaintenanceModifier>-20</iDistanceMaintenanceModifier>
 			<iNumCitiesMaintenanceModifier>-20</iNumCitiesMaintenanceModifier>
@@ -24502,15 +24502,15 @@
 				</BuildingHappinessModifierType>
 			</BuildingHappinessModifierTypes>
 			<CapitalYieldModifiers>
-				<iYield>-10</iYield>
-				<iYield>-10</iYield>
-				<iYield>-10</iYield>
+				<iYield>-15</iYield>
+				<iYield>-15</iYield>
+				<iYield>-15</iYield>
 			</CapitalYieldModifiers>
 			<CapitalCommerceModifiers>
-				<iCommerce>-10</iCommerce>
-				<iCommerce>-10</iCommerce>
-				<iCommerce>-10</iCommerce>
-				<iCommerce>-10</iCommerce>
+				<iCommerce>-15</iCommerce>
+				<iCommerce>-15</iCommerce>
+				<iCommerce>-15</iCommerce>
+				<iCommerce>-15</iCommerce>
 			</CapitalCommerceModifiers>
 			<iDistanceMaintenanceModifier>-40</iDistanceMaintenanceModifier>
 			<iNumCitiesMaintenanceModifier>-40</iNumCitiesMaintenanceModifier>

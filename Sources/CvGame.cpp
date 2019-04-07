@@ -5845,7 +5845,7 @@ UnitTypes CvGame::getBestLandUnit() const
 				{
 					if (pLoopUnit->baseCombatStr() > 0)
 					{
-						if (m_eBestLandUnit == NO_UNIT || (pLoopUnit->baseCombatStr() > GC.getGameINLINE().getBestLandUnitCombat()))
+						if (m_eBestLandUnit == NO_UNIT || (pLoopUnit->baseCombatStrNonGranular() > GC.getGameINLINE().getBestLandUnitCombat()))
 						{
 							m_eBestLandUnit = pLoopUnit->getUnitType();
 						}

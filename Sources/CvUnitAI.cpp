@@ -32293,7 +32293,7 @@ bool CvUnitAI::AI_choke(int iRange, bool bDefensive)
 							
 							if (bNoDefensiveBonus)
 							{
-								iValue *= std::max(0, ((baseCombatStr() * 120) - GC.getGame().getBestLandUnitCombat()));
+								iValue *= std::max(0, ((baseCombatStrNonGranular() * 120) - GC.getGame().getBestLandUnitCombat()));
 							}
 							else
 							{
@@ -35230,7 +35230,7 @@ int	CvUnitAI::AI_genericUnitValueTimes100(UnitValueFlags eFlags) const
 
 	if ( m_iGenericValue == -1 || m_eGenericValueFlagsCached != eFlags )
 	{
-		int	iResult = 100*baseCombatStr();
+		int	iResult = 100* baseCombatStrNonGranular();
 
 		for(int iI = 0; iI < GC.getNumPromotionInfos(); iI++)
 		{

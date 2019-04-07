@@ -126,8 +126,8 @@ void	CvContractBroker::advertiseWork(int iPriority, unitCapabilities eUnitFlags,
 	{
 		CvPlot* pMissionPlot = pLoopSelectionGroup->AI_getMissionAIPlot();
 
-		if ( pMissionPlot == GC.getMapINLINE().plotINLINE(iAtX, iAtY) &&
-			 pLoopSelectionGroup->AI_getMissionAIType() == (pJoinUnit == NULL ? MISSIONAI_CONTRACT : MISSIONAI_CONTRACT_UNIT) &&
+		if ( pMissionPlot == GC.getMapINLINE().plotINLINE(iAtX, iAtY) && !pLoopSelectionGroup->atPlot(pMissionPlot)
+			&& pLoopSelectionGroup->AI_getMissionAIType() == (pJoinUnit == NULL ? MISSIONAI_CONTRACT : MISSIONAI_CONTRACT_UNIT) &&
 			 pLoopSelectionGroup->getNumUnits() > 0 && 	//	Allow for the last unit having died so that this group is about to vanish
 			 (eAIType == NO_UNITAI || pLoopSelectionGroup->getHeadUnitAI() == eAIType) &&
 			 pLoopSelectionGroup->meetsUnitSelectionCriteria(criteria))
@@ -641,6 +641,7 @@ bool	CvContractBroker::makeContract(CvUnit* pUnit, int& iAtX, int& iAtY, CvUnit*
 							//	Request is entirely fulfilled by this unit
 							m_workRequests[iI].bFulfilled = true;
 
+							logBBAI("work request %d satisfied by unit %d (%d > %d)", m_workRequests[iI].iWorkRequestId, suitableUnit->iUnitId, iUnitStrengthTimes100, m_workRequests[iI].iRequiredStrengthTimes100);
 							//OutputDebugString(CvString::format("work request %d satisfied by unit %d\n", m_workRequests[iI].iWorkRequestId, suitableUnit->iUnitId).c_str());
 						}
 						else
