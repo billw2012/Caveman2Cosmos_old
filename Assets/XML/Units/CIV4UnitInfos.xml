@@ -42818,12 +42818,15 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<PrereqTech>TECH_AVIATION</PrereqTech>
+			<PrereqTech>TECH_FISSION</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_AVIATION</PrereqTech>
+			</TechTypes>
 			<BonusType>BONUS_URANIUM</BonusType>
 			<PrereqBonuses>
 				<BonusType>BONUS_HEAVY_WATER</BonusType>
 			</PrereqBonuses>
-			<iCost>1340</iCost>
+			<iCost>1405</iCost>
 			<iMoves>1</iMoves>
 			<iAirRange>7</iAirRange>
 			<iAirCombat>1</iAirCombat>

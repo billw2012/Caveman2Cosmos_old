@@ -21062,7 +21062,6 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>70</iMaxLatitude>
 			<iAsset>4</iAsset>
 			<iPower>6</iPower>
@@ -21573,7 +21572,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<iConquestProb>75</iConquestProb>
-			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>60</iMaxLatitude>
 			<iHappiness>1</iHappiness>
 			<iAsset>4</iAsset>
@@ -21630,7 +21628,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<iConquestProb>20</iConquestProb>
-			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>80</iMaxLatitude>
 			<iHappiness>1</iHappiness>
 			<iAsset>4</iAsset>
@@ -21753,7 +21750,6 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>70</iMaxLatitude>
 			<iAsset>4</iAsset>
 			<iPower>6</iPower>

@@ -114401,7 +114401,6 @@
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
-			<iMinLatitude>0</iMinLatitude>
 			<!-- Construction -->
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>200</iCost>
@@ -114464,7 +114463,6 @@
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
-			<iMinLatitude>0</iMinLatitude>
 			<!-- Construction -->
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>425</iCost>

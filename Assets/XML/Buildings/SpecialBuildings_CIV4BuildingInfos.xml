@@ -11239,7 +11239,19 @@
 			<ObsoleteTech>TECH_STONE_BUILDING</ObsoleteTech>
 			<ReplaceBuildings>
 				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_LEANTO</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+				<ReplaceBuilding>
 					<BuildingClassType>BUILDINGCLASS_TREE_HALLOW</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_GRASS_HUT</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_WOOD_HUT</BuildingClassType>
 					<bReplace>1</bReplace>
 				</ReplaceBuilding>
 				<ReplaceBuilding>
@@ -13280,6 +13292,14 @@
 			<!-- Obsolescence -->
 			<ReplaceBuildings>
 				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_CAVE_DWELLING</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_NEANDERTHAL_CAVES</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+				<ReplaceBuilding>
 					<BuildingClassType>BUILDINGCLASS_GRASS_HUT</BuildingClassType>
 					<bReplace>1</bReplace>
 				</ReplaceBuilding>
@@ -14532,6 +14552,18 @@
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_CARPENTRY</ObsoleteTech>
 			<ReplaceBuildings>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_LEANTO</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_GRASS_HUT</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_WOOD_HUT</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
 				<ReplaceBuilding>
 					<BuildingClassType>BUILDINGCLASS_CAVE_DWELLING</BuildingClassType>
 					<bReplace>1</bReplace>
@@ -15841,7 +15873,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_SEDENTARY_LIFESTYLE</PrereqTech>
 			<iPrereqPopulation>12</iPrereqPopulation>
-			<PrereqVicinityBonuses>			
+			<PrereqVicinityBonuses>
 				<VicinityBonus>BONUS_CARCASS</VicinityBonus>
 				<VicinityBonus>BONUS_GRAIN</VicinityBonus>
 			</PrereqVicinityBonuses>
@@ -15851,7 +15883,7 @@
 					<BuildingClassType>BUILDINGCLASS_SCARECROWS</BuildingClassType>
 					<bReplace>1</bReplace>
 				</ReplaceBuilding>
-			</ReplaceBuildings>				
+			</ReplaceBuildings>
 			<iMaxLatitude>70</iMaxLatitude>
 			<!-- Construction cost -->
 			<iCost>-1</iCost>
