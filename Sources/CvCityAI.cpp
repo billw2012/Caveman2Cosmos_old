@@ -975,7 +975,7 @@ int CvCityAI::AI_specialistValue(SpecialistTypes eSpecialist, bool bAvoidGrowth,
 	int iHappinessLevel = happyLevel() - unhappyLevel(1) + getEspionageHappinessCounter();
 	int iHealthLevel = goodHealth() - badHealth(/*bNoAngry*/ false, std::max(0, (iHappinessLevel + 1) / 2)) + getEspionageHealthCounter();
 
-	int iPopulationExponent = ((getPopulation() - 1) * 2); // Each pop past the first increases consumption per population by .2, rounded down.  Each point of population means more actual people the higher the amount goes.
+	int iPopulationExponent = (getPopulation() - 1); // Each pop past the first increases consumption per population by .1, rounded down.  Each point of population means more actual people the higher the amount goes.
 	int iConsumptionPerPopulationBase = iPopulationExponent + (GC.getFOOD_CONSUMPTION_PER_POPULATION() * 10);
 	int iConsumptionbyPopulation = (getPopulation() * iConsumptionPerPopulationBase ) / 10;
 
@@ -5663,7 +5663,7 @@ int CvCityAI::AI_buildingValueThresholdOriginalUncached(BuildingTypes eBuilding,
 	int iBaseHappinessLevel = happyLevel() - unhappyLevel() + getEspionageHappinessCounter();
 	int iBaseHealthLevel = goodHealth() - badHealth() + getEspionageHealthCounter();
 
-	int iPopulationExponent = ((getPopulation() - 1) * 2); // Each pop past the first increases consumption per population by .2, rounded down.  Each point of population means more actual people the higher the amount goes.
+	int iPopulationExponent = getPopulation() - 1; // Each pop past the first increases consumption per population by .1, rounded down.  Each point of population means more actual people the higher the amount goes.
 	int iConsumptionPerPopulationBase = iPopulationExponent + (GC.getFOOD_CONSUMPTION_PER_POPULATION() * 10);
 	int iConsumptionbyPopulation = (getPopulation() * iConsumptionPerPopulationBase) / 10;
 
@@ -13135,9 +13135,9 @@ int CvCityAI::AI_yieldValueInternal(short* piYields, short* piCommerceYields, bo
 		int iPopulation = getPopulation();
 		int	iExtraPopulationThatCanWork = std::min(iPopulation - range(-iHappinessLevel, 0, iPopulation) + std::min(0, extraFreeSpecialists()) , NUM_CITY_PLOTS) - getWorkingPopulation() + ((bRemove) ? 1 : 0);
 
-		int iPopulationExponent = ((getPopulation() - 1) * 2); // Each pop past the first increases consumption per population by .2, rounded down.  Each point of population means more actual people the higher the amount goes.
+		int iPopulationExponent = (getPopulation() - 1); // Each pop past the first increases consumption per population by .1, rounded down.  Each point of population means more actual people the higher the amount goes.
 		int iConsumptionPerPopulationBase = iPopulationExponent + (GC.getFOOD_CONSUMPTION_PER_POPULATION() * 10);
-		int iConsumptionbyPopulation = ((iPopulation + std::min(0, iHappinessLevel) - ((bRemove) ? 1 : 0)) * iConsumptionPerPopulationBase) / 10;
+		int iConsumptionbyPopulation = std::max(1,((iPopulation + std::min(0, iHappinessLevel) - ((bRemove) ? 1 : 0))) * iConsumptionPerPopulationBase) / 10;
 
 		int iAdjustedFoodDifference = (getYieldRate(YIELD_FOOD) + std::min(0, iHealthLevel)) - iConsumptionbyPopulation;
 		
@@ -13347,7 +13347,7 @@ int CvCityAI::AI_yieldValueInternal(short* piYields, short* piCommerceYields, bo
 					//very high food override
 					int iTempValue = std::max(0, 30 * aiYields[YIELD_FOOD] - 15 * iConsumptionbyPopulation);
 					iTempValue *= std::max(0, 3 * iConsumptionbyPopulation - iAdjustedFoodDifference);
-					iTempValue /= 3 * iConsumptionbyPopulation;
+					iTempValue /= 3 * std::max(1,iConsumptionbyPopulation);
 					if (iHappinessLevel < 0)
 					{
 						iTempValue *= 2;
@@ -17880,7 +17880,7 @@ void CvCityAI::CalculateAllBuildingValues(int iFocusFlags)
 	int iBaseHappinessLevel = happyLevel() - unhappyLevel() + getEspionageHappinessCounter();
 	int iBaseHealthLevel = goodHealth() - badHealth() + getEspionageHealthCounter();
 
-	int iPopulationExponent = ((getPopulation() - 1) * 2); // Each pop past the first increases consumption per population by .2, rounded down.  Each point of population means more actual people the higher the amount goes.
+	int iPopulationExponent = (getPopulation() - 1); // Each pop past the first increases consumption per population by .1, rounded down.  Each point of population means more actual people the higher the amount goes.
 	int iConsumptionPerPopulationBase = iPopulationExponent + (GC.getFOOD_CONSUMPTION_PER_POPULATION() * 10);
 	int iConsumptionbyPopulation = (getPopulation() * iConsumptionPerPopulationBase) / 10;
 
