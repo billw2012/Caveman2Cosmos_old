@@ -450,10 +450,14 @@
 			<iCost>270</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
+			<YieldChanges>
+				<iYield>0</iYield>
+				<iYield>1</iYield>
+			</YieldChanges>
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>5</iCommerce>
+				<iCommerce>20</iCommerce>
 			</CommerceChanges>
 			<BonusYieldChanges>
 				<BonusYieldChange>
@@ -476,7 +480,12 @@
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
 					<PropertyType>PROPERTY_DISEASE</PropertyType>
-					<iAmountPerTurn>-10</iAmountPerTurn>
+					<iAmountPerTurn>-25</iAmountPerTurn>
+				</PropertySource>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_EDUCATION</PropertyType>
+					<iAmountPerTurn>5</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
 			<iAIWeight>1</iAIWeight>

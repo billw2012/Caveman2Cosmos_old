@@ -985,6 +985,7 @@
 				<iYield>15</iYield>
 			</YieldChanges>
 			<CommerceChanges>
+				<iCommerce>15</iCommerce>
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
 			<!-- Other -->
@@ -52439,7 +52440,7 @@
 			<CommerceChanges>
 				<iCommerce>40</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>5</iCommerce>
+				<iCommerce>50</iCommerce>
 			</CommerceChanges>
 			<!-- Defense effects -->
 			<iLineOfSight>1</iLineOfSight>
@@ -53126,9 +53127,9 @@
 			<iCost>3665</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
-				<iCommerce>16</iCommerce>
+				<iCommerce>40</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>16</iCommerce>
+				<iCommerce>25</iCommerce>
 			</CommerceChanges>
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -53473,6 +53474,8 @@
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
+			<iHappiness>5</iHappiness>
+			<iHealth>5</iHealth>
 			<!-- Specialist effects -->
 			<SpecialistCounts>
 				<SpecialistCount>
@@ -59082,7 +59085,7 @@
 			<CommerceChanges>
 				<iCommerce>50</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>6</iCommerce>
+				<iCommerce>60</iCommerce>
 			</CommerceChanges>
 			<!-- Unit effects -->
 			<HealUnitCombatTypes>
@@ -69710,7 +69713,7 @@
 			</ProductionTraits>
 			<!-- Main effects -->
 			<YieldChanges>
-				<iYield>3</iYield>
+				<iYield>10</iYield>
 			</YieldChanges>
 			<CommerceChanges>
 				<iCommerce>3</iCommerce>
@@ -69722,25 +69725,25 @@
 				<BonusYieldChange>
 					<BonusType>BONUS_WHEAT</BonusType>
 					<YieldChanges>
-						<iYield>3</iYield>
+						<iYield>10</iYield>
 					</YieldChanges>
 				</BonusYieldChange>
 				<BonusYieldChange>
 					<BonusType>BONUS_BARLEY</BonusType>
 					<YieldChanges>
-						<iYield>3</iYield>
+						<iYield>10</iYield>
 					</YieldChanges>
 				</BonusYieldChange>
 				<BonusYieldChange>
 					<BonusType>BONUS_CORN</BonusType>
 					<YieldChanges>
-						<iYield>3</iYield>
+						<iYield>10</iYield>
 					</YieldChanges>
 				</BonusYieldChange>
 				<BonusYieldChange>
 					<BonusType>BONUS_RICE</BonusType>
 					<YieldChanges>
-						<iYield>3</iYield>
+						<iYield>10</iYield>
 					</YieldChanges>
 				</BonusYieldChange>
 			</VicinityBonusYieldChanges>
@@ -79617,7 +79620,7 @@
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
 					<PropertyType>PROPERTY_DISEASE</PropertyType>
-					<iAmountPerTurn>-10</iAmountPerTurn>
+					<iAmountPerTurn>-20</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
 			<iAIWeight>1</iAIWeight>
@@ -87018,7 +87021,7 @@
 			<CommerceChanges>
 				<iCommerce>3</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>1</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceChanges>
 			<!-- Unit effects -->
 			<HealUnitCombatTypes>
@@ -94657,7 +94660,7 @@
 				<iCommerce>-1</iCommerce>
 			</CommerceChanges>
 			<!-- Misc. Effects -->
-			<iTradeRoutes>1</iTradeRoutes>
+			<iTradeRoutes>4</iTradeRoutes>
 			<iTradeRouteModifier>100</iTradeRouteModifier>
 			<!-- Other -->
 			<iAsset>4</iAsset>
@@ -102718,7 +102721,7 @@
 				<iCommerce>-1</iCommerce>
 			</CommerceChanges>
 			<!-- Misc. Effects -->
-			<iTradeRoutes>1</iTradeRoutes>
+			<iTradeRoutes>5</iTradeRoutes>
 			<iTradeRouteModifier>200</iTradeRouteModifier>
 			<!-- Other -->
 			<iAsset>4</iAsset>
