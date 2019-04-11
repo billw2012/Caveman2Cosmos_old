@@ -132,6 +132,86 @@
 			<iRevIdxLocal>-10</iRevIdxLocal>
 		</BuildingInfo>
 		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_VENUS_ARCOLOGY</BuildingClass>
+			<Type>BUILDING_VENUS_ARCOLOGY</Type>
+			<Description>TXT_KEY_BUILDING_VENUS_ARCOLOGY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_VENUS_ARCOLOGY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_VENUS_ARCOLOGY_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_VENUS_ARCOLOGY</ArtDefineTag>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<fVisibilityPriority>1</fVisibilityPriority>
+			<PrereqTech>TECH_PLANETARY_MEGASTRUCTURES</PrereqTech>
+			<iCost>5294</iCost>
+			<iHurryCostModifier>10000</iHurryCostModifier>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_VENUSIAN</MapCategoryType>
+			</MapCategoryTypes>
+			<CommerceChanges>
+				<iCommerce>500</iCommerce>
+				<iCommerce>150</iCommerce>
+			</CommerceChanges>
+			<YieldChanges>
+				<iYield>3</iYield>
+				<iYield>50</iYield>
+				<iYield>3</iYield>
+			</YieldChanges>
+			<TechCommerceChanges>
+				<TechCommerceChange>
+					<PrereqTech>TECH_LAUNCH_ARCOLOGY</PrereqTech>
+					<TechCommerce>
+						<iCommerce>5</iCommerce>
+					</TechCommerce>
+				</TechCommerceChange>
+				<TechCommerceChange>
+					<PrereqTech>TECH_COLONY_ARCOLOGY</PrereqTech>
+					<TechCommerce>
+						<iCommerce>5</iCommerce>
+					</TechCommerce>
+				</TechCommerceChange>
+			</TechCommerceChanges>
+			<iMaintenanceModifier>-5</iMaintenanceModifier>
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_VENUS_SURFACE</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_VENUS_SKY_ARCOLOGY</BuildingClass>
+			<Type>BUILDING_VENUS_SKY_ARCOLOGY</Type>
+			<Description>TXT_KEY_BUILDING_VENUS_SKY_ARCOLOGY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_VENUS_SKY_ARCOLOGY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_VENUS_SKY_ARCOLOGY_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_VENUS_SKY_ARCOLOGY</ArtDefineTag>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<fVisibilityPriority>1</fVisibilityPriority>
+			<PrereqTech>TECH_GRAVITY_CONTROL</PrereqTech>
+			<iCost>12267</iCost>
+			<iHurryCostModifier>10000</iHurryCostModifier>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_VENUSIAN</MapCategoryType>
+			</MapCategoryTypes>
+			<CommerceChanges>
+				<iCommerce>500</iCommerce>
+				<iCommerce>150</iCommerce>
+			</CommerceChanges>
+			<YieldChanges>
+				<iYield>4</iYield>
+				<iYield>50</iYield>
+				<iYield>4</iYield>
+			</YieldChanges>
+			<iMaintenanceModifier>-5</iMaintenanceModifier>
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_VENUS_ARCOLOGY</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
+		</BuildingInfo>
+		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_VENUS_SOLAR_ARRAY</BuildingClass>
 			<Type>BUILDING_VENUS_SOLAR_ARRAY</Type>
 			<Description>TXT_KEY_BUILDING_VENUS_SOLAR_ARRAY</Description>
@@ -1030,6 +1110,10 @@
 					<BuildingClassType>BUILDINGCLASS_VENUS_SURFACE_FACTORY</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_VENUS_ARCOLOGY</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -1105,7 +1189,7 @@
 			</PrereqBuildingClasses>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_VENUS_SURFACE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_VENUS_ARCOLOGY</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
@@ -1139,6 +1223,10 @@
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_VENUS_ORBITAL_SOLAR_ARRAY</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_VENUS_SKY_ARCOLOGY</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>

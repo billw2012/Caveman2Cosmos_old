@@ -7805,6 +7805,30 @@
 		<English>Who would want to live in such a desolate place?  This is a primarily industrial city, harnessing resources from the surface of Venus and collecting scientific data.</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VENUS_ARCOLOGY</Tag>
+		<English>Venus Arcology</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VENUS_ARCOLOGY_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VENUS_ARCOLOGY_PEDIA</Tag>
+		<English>The surface city has massively expanded to an arcology taking up hundreds of kilometers.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VENUS_SKY_ARCOLOGY</Tag>
+		<English>Venus Sky Arcology</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VENUS_SKY_ARCOLOGY_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_VENUS_SKY_ARCOLOGY_PEDIA</Tag>
+		<English>Back to the sky, this floating arcology uses gravity manipulation, along with traditional bouyancy methods, to stay aloft.</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_BUILDING_VENUS_SOLAR_ARRAY</Tag>
 		<English>Venus Solar Array</English>
 	</TEXT>
@@ -8259,6 +8283,18 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SOLAR_ARRAY_TRANSNEPTUNIAN_PEDIA</Tag>
 		<English>A solar array in Transneptunian space. It's so far from the Sun that it only works by building a large solar concentrator.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DEEP_SPACE_ASSEMBLER</Tag>
+		<English>Deep Space Assembler</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DEEP_SPACE_ASSEMBLER_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DEEP_SPACE_ASSEMBLER_PEDIA</Tag>
+		<English>This is your basic deep space factory.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_DEEP_SPACE_HYDROPONICS</Tag>
@@ -9653,6 +9689,54 @@
 		<English>As the outermost planet of the Solar System, Neptune and its moon Triton are a good place to stage military defenses.</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEPTUNE_WIND_TURBINE</Tag>
+		<English>Neptune Wind Turbine</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEPTUNE_WIND_TURBINE_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEPTUNE_WIND_TURBINE_PEDIA</Tag>
+		<English>Neptune has supersonic wind storms. A turbine to harness the energy would generate a lot of power.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEPTUNE_VOLATILE_MINE</Tag>
+		<English>Neptune Volatile Mine</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEPTUNE_VOLATILE_MINE_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEPTUNE_VOLATILE_MINE_PEDIA</Tag>
+		<English>This operation uses a network of balloons to harvest organic volatiles from the atmosphere of Neptune and ship them around the solar system.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEPTUNE_CHANDELIER_CITY</Tag>
+		<English>Neptune Chandelier City</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEPTUNE_CHANDELIER_CITY_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEPTUNE_CHANDELIER_CITY_PEDIA</Tag>
+		<English>This huge city hangs below the clouds of Neptune.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEPTUNE_ORBITAL_RING</Tag>
+		<English>Neptune Orbital Ring</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEPTUNE_ORBITAL_RING_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEPTUNE_ORBITAL_RING_PEDIA</Tag>
+		<English>This orbital ring encircles neptune and facilitates transportation and trade. Idea inspired by Issac Arthus.[PARAGRAPH:2] https://www.youtube.com/watch?v=cb6sdimG8GE</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TERRAFORMED_NEPTUNE</Tag>
 		<English>Terraformed Neptune</English>
 	</TEXT>
@@ -9881,6 +9965,18 @@
 		<English>There sure is a lot of petroleum on Titan.  Better 'liberate' it.</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TITAN_BIOFACTORY</Tag>
+		<English>Titan Biofactory</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TITAN_BIOFACTORY_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TITAN_BIOFACTORY_PEDIA</Tag>
+		<English>The Titan Biofactory allows for advanced research and development into hypothetical biochemistry.</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TITAN_AMMONIA_ERUPTION</Tag>
 		<English>Titan Ammonia Eruption</English>
 	</TEXT>
@@ -9941,6 +10037,18 @@
 		<English>A massive supercomputer used primarily for brain emulation.</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TITAN_ARCOLOGY</Tag>
+		<English>Titan Arcology</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TITAN_ARCOLOGY_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TITAN_ARCOLOGY_PEDIA</Tag>
+		<English>Tucked beneath Titan's thick haze, the denizens of the Titan Arcology enjoy their relative isolation from the rest of the solar system. Nobody really liked them anyway.</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TITAN_NITROGEN_EXPORTER</Tag>
 		<English>Titan Nitrogen Exporter</English>
 	</TEXT>
@@ -9963,6 +10071,18 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TERRAFORMED_TITAN_PEDIA</Tag>
 		<English>See http://terraforming.wikia.com/wiki/Titan</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COMPUTRONIUM_TITAN</Tag>
+		<English>Computronium Titan</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COMPUTRONIUM_TITAN_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_COMPUTRONIUM_TITAN_PEDIA</Tag>
+		<English>Much of Titan has been transformed into a computational substrate.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TRANSTELLAR_COLONY</Tag>
@@ -10830,7 +10950,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_RINGWORLD_CITY</Tag>
-		<English>Interstellar Ringworld City</English>
+		<English>Interstellar Banks Orbital City</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_RINGWORLD_CITY_STRATEGY</Tag>
@@ -11358,7 +11478,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_RINGWORLD</Tag>
-		<English>Interstellar Ringworld</English>
+		<English>Interstellar Banks Orbital</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_RINGWORLD_STRATEGY</Tag>
@@ -12567,18 +12687,6 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GALACTIC_CORE_BASE_PEDIA</Tag>
 		<English>A base in the galactic core.</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_ORBITAL</Tag>
-		<English>Banks Orbital</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_ORBITAL_STRATEGY</Tag>
-		<English>TBD</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_ORBITAL_PEDIA</Tag>
-		<English>In Iain M. Banks' fictional Culture universe, an Orbital (sometimes also simply called an O or a small ring) is a purpose-built space habitat forming a ring typically around 3 million km (1.9 million miles) in diameter. The rotation of the ring simulates both gravity and a day-night cycle comparable to a planetary body orbiting a star.[PARAGRAPH:2]Source: Wikipedia</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GALACTIC_CORE_DYSON_SPHERE</Tag>

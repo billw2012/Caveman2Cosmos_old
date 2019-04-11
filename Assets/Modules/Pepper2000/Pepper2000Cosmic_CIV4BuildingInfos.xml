@@ -2721,7 +2721,7 @@
 			</CommerceChanges>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_GALACTIC_AC</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_MICROVAC</BuildingClassType>
 					<iNumBuildingNeeded>1</iNumBuildingNeeded>
 				</PrereqBuildingClass>
 			</PrereqBuildingClasses>

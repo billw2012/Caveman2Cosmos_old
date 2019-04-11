@@ -1797,6 +1797,10 @@
 			</GlobalBuildingExtraCommerces>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_GALACTIC_AC</BuildingClassType>
+					<iNumBuildingNeeded>1</iNumBuildingNeeded>
+				</PrereqBuildingClass>
+				<PrereqBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_UNIVERSAL_AC</BuildingClassType>
 					<iNumBuildingNeeded>1</iNumBuildingNeeded>
 				</PrereqBuildingClass>

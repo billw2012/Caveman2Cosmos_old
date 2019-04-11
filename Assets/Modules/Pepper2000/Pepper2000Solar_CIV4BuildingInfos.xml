@@ -297,6 +297,44 @@
 			<bPower>1</bPower>
 		</BuildingInfo>
 		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_DEEP_SPACE_ASSEMBLER</BuildingClass>
+			<Type>BUILDING_DEEP_SPACE_ASSEMBLER</Type>
+			<Description>TXT_KEY_BUILDING_DEEP_SPACE_ASSEMBLER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_DEEP_SPACE_ASSEMBLER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_DEEP_SPACE_ASSEMBLER_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_ASSEMBLER</ArtDefineTag>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<fVisibilityPriority>1</fVisibilityPriority>
+			<PrereqTech>TECH_DEEP_SPACE_COLONIES</PrereqTech>
+			<iCost>823</iCost>
+			<iHurryCostModifier>10000</iHurryCostModifier>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_SOLAR_SYSTEM</MapCategoryType>
+			</MapCategoryTypes>
+			<CommerceChanges>
+				<iCommerce>50</iCommerce>
+			</CommerceChanges>
+			<YieldChanges>
+				<iYield>0</iYield>
+				<iYield>50</iYield>
+			</YieldChanges>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_SOLAR_ARRAY_INNER</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_SOLAR_ARRAY_OUTER</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_SOLAR_ARRAY_TRANSNEPTUNIAN</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
+		</BuildingInfo>
+		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_DEEP_SPACE_HYDROPONICS</BuildingClass>
 			<Type>BUILDING_DEEP_SPACE_HYDROPONICS</Type>
 			<Description>TXT_KEY_BUILDING_DEEP_SPACE_HYDROPONICS</Description>
@@ -348,7 +386,7 @@
 			</CommerceChanges>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_PLANETARY_BASE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_DEEP_SPACE_ASSEMBLER</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
@@ -518,6 +556,10 @@
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_HOUSING_WORKING_CLASS</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_DEEP_SPACE_ASSEMBLER</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
@@ -860,6 +902,10 @@
 					<BuildingClassType>BUILDINGCLASS_ORBITAL_COLONY</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_DEEP_SPACE_ASSEMBLER</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -889,6 +935,10 @@
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_ORBITAL_COLONY</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_DEEP_SPACE_ASSEMBLER</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
@@ -2528,8 +2578,8 @@
 			<ArtDefineTag>ART_DEF_BUILDING_FUSION_CANDLE</ArtDefineTag>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
-			<PrereqTech>TECH_EXOMINING</PrereqTech>
-			<iCost>7810</iCost>
+			<PrereqTech>TECH_ORBITAL_ENGINEERING</PrereqTech>
+			<iCost>10707</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_SOLAR_SYSTEM</MapCategoryType>
@@ -4137,12 +4187,6 @@
 				<iYield>5</iYield>
 				<iYield>25</iYield>
 			</YieldChanges>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_ORBITAL_BASE</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_RING_OF_SATURN_HOTEL</BuildingClass>
@@ -4814,6 +4858,164 @@
 			</BuildingClassNeededs>
 		</BuildingInfo>
 		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_NEPTUNE_WIND_TURBINE</BuildingClass>
+			<Type>BUILDING_NEPTUNE_WIND_TURBINE</Type>
+			<Description>TXT_KEY_BUILDING_NEPTUNE_WIND_TURBINE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_NEPTUNE_WIND_TURBINE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NEPTUNE_WIND_TURBINE_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_NEPTUNE_WIND_TURBINE</ArtDefineTag>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<fVisibilityPriority>1</fVisibilityPriority>
+			<PrereqTech>TECH_ADVANCED_WARMACHINES</PrereqTech>
+			<iCost>1867</iCost>
+			<iHurryCostModifier>10000</iHurryCostModifier>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_SOLAR_SYSTEM</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqOrTerrain>
+				<PrereqTerrain>
+					<TerrainType>TERRAIN_NEPTUNE</TerrainType>
+					<bPrereqTerrain>1</bPrereqTerrain>
+				</PrereqTerrain>
+			</PrereqOrTerrain>
+			<YieldChanges>
+				<iYield>0</iYield>
+				<iYield>250</iYield>
+			</YieldChanges>
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_ORBITAL_BASE</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_NEPTUNE_VOLATILE_MINE</BuildingClass>
+			<Type>BUILDING_NEPTUNE_VOLATILE_MINE</Type>
+			<Description>TXT_KEY_BUILDING_NEPTUNE_VOLATILE_MINE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_NEPTUNE_VOLATILE_MINE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NEPTUNE_VOLATILE_MINE_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_NEPTUNE_VOLATILE_MINE</ArtDefineTag>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<fVisibilityPriority>1</fVisibilityPriority>
+			<PrereqTech>TECH_EXOMINING</PrereqTech>
+			<iCost>7810</iCost>
+			<iHurryCostModifier>10000</iHurryCostModifier>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_SOLAR_SYSTEM</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqOrTerrain>
+				<PrereqTerrain>
+					<TerrainType>TERRAIN_NEPTUNE</TerrainType>
+					<bPrereqTerrain>1</bPrereqTerrain>
+				</PrereqTerrain>
+			</PrereqOrTerrain>
+			<CommerceChanges>
+				<iCommerce>50</iCommerce>
+			</CommerceChanges>
+			<YieldChanges>
+				<iYield>0</iYield>
+				<iYield>100</iYield>
+				<iYield>10</iYield>
+			</YieldChanges>
+			<PrereqBuildingClasses>
+				<PrereqBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_NEPTUNE_ORBITAL_RING</BuildingClassType>
+					<iNumBuildingNeeded>1</iNumBuildingNeeded>
+				</PrereqBuildingClass>
+			</PrereqBuildingClasses>
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_NEPTUNE_WIND_TURBINE</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_NEPTUNE_CHANDELIER_CITY</BuildingClass>
+			<Type>BUILDING_NEPTUNE_CHANDELIER_CITY</Type>
+			<Description>TXT_KEY_BUILDING_NEPTUNE_CHANDELIER_CITY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_NEPTUNE_CHANDELIER_CITY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NEPTUNE_CHANDELIER_CITY_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_NEPTUNE_CHANDELIER_CITY</ArtDefineTag>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<fVisibilityPriority>1</fVisibilityPriority>
+			<PrereqTech>TECH_ADAPTIVE_ARCHITECTURE</PrereqTech>
+			<iCost>8676</iCost>
+			<iHurryCostModifier>10000</iHurryCostModifier>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_SOLAR_SYSTEM</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqOrTerrain>
+				<PrereqTerrain>
+					<TerrainType>TERRAIN_NEPTUNE</TerrainType>
+					<bPrereqTerrain>1</bPrereqTerrain>
+				</PrereqTerrain>
+			</PrereqOrTerrain>
+			<CommerceChanges>
+				<iCommerce>50</iCommerce>
+				<iCommerce>50</iCommerce>
+				<iCommerce>50</iCommerce>
+			</CommerceChanges>
+			<YieldChanges>
+				<iYield>20</iYield>
+				<iYield>50</iYield>
+				<iYield>25</iYield>
+			</YieldChanges>
+			<PrereqBuildingClasses>
+				<PrereqBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_NEPTUNE_ORBITAL_RING</BuildingClassType>
+					<iNumBuildingNeeded>1</iNumBuildingNeeded>
+				</PrereqBuildingClass>
+			</PrereqBuildingClasses>
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_ORBITAL_BASE</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_NEPTUNE_ORBITAL_RING</BuildingClass>
+			<Type>BUILDING_NEPTUNE_ORBITAL_RING</Type>
+			<Description>TXT_KEY_BUILDING_NEPTUNE_ORBITAL_RING</Description>
+			<Civilopedia>TXT_KEY_BUILDING_NEPTUNE_ORBITAL_RING_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NEPTUNE_ORBITAL_RING_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_NEPTUNE_ORBITAL_RING</ArtDefineTag>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<fVisibilityPriority>1</fVisibilityPriority>
+			<PrereqTech>TECH_EXOMINING</PrereqTech>
+			<iCost>23432</iCost>
+			<iHurryCostModifier>10000</iHurryCostModifier>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_SOLAR_SYSTEM</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqOrTerrain>
+				<PrereqTerrain>
+					<TerrainType>TERRAIN_NEPTUNE</TerrainType>
+					<bPrereqTerrain>1</bPrereqTerrain>
+				</PrereqTerrain>
+			</PrereqOrTerrain>
+			<CommerceChanges>
+				<iCommerce>100</iCommerce>
+			</CommerceChanges>
+			<YieldChanges>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>100</iYield>
+			</YieldChanges>
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_NEPTUNE_WIND_TURBINE</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
+		</BuildingInfo>
+		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_TERRAFORMED_NEPTUNE</BuildingClass>
 			<Type>BUILDING_TERRAFORMED_NEPTUNE</Type>
 			<Description>TXT_KEY_BUILDING_TERRAFORMED_NEPTUNE</Description>
@@ -4847,6 +5049,10 @@
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_BISHOP_RING_REGULAR</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_NEPTUNE_CHANDELIER_CITY</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>

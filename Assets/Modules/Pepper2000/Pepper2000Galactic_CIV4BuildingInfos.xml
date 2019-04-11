@@ -2567,8 +2567,8 @@
 			<ArtDefineTag>ART_DEF_BUILDING_RINGWORLD_CITY</ArtDefineTag>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
-			<PrereqTech>TECH_ORBITAL_ENGINEERING</PrereqTech>
-			<iCost>3611</iCost>
+			<PrereqTech>TECH_MEGASTRONG_ALLOYS</PrereqTech>
+			<iCost>4056</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_PLASMA</MapCategoryType>
@@ -4258,8 +4258,8 @@
 			<ArtDefineTag>ART_DEF_BUILDING_RINGWORLD</ArtDefineTag>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
-			<PrereqTech>TECH_ORBITAL_ENGINEERING</PrereqTech>
-			<iCost>3611</iCost>
+			<PrereqTech>TECH_MEGASTRONG_ALLOYS</PrereqTech>
+			<iCost>4056</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_PLASMA</MapCategoryType>
@@ -4330,8 +4330,8 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CONSCIOUS_STAR</ArtDefineTag>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
-			<PrereqTech>TECH_STELLAR_COMPUTING</PrereqTech>
-			<iCost>4056</iCost>
+			<PrereqTech>TECH_NOOGENESIS</PrereqTech>
+			<iCost>7077</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_PLASMA</MapCategoryType>
@@ -4346,7 +4346,7 @@
 			<iHappiness>3</iHappiness>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_STAR_SCOOP</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_MATRIOSHKA_BRAIN</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
@@ -4461,7 +4461,7 @@
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_CONSCIOUS_STAR</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_STAR_SCOOP</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
@@ -5481,7 +5481,7 @@
 			</YieldChanges>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_CONSCIOUS_STAR</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_STAR_SCOOP</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
@@ -7977,43 +7977,6 @@
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_WORMHOLE_TRADE</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
-		</BuildingInfo>
-		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_ORBITAL</BuildingClass>
-			<Type>BUILDING_ORBITAL</Type>
-			<Description>TXT_KEY_BUILDING_ORBITAL</Description>
-			<Civilopedia>TXT_KEY_BUILDING_ORBITAL_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_ORBITAL_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_ORBITAL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
-			<fVisibilityPriority>1</fVisibilityPriority>
-			<PrereqTech>TECH_ORBITAL_ENGINEERING</PrereqTech>
-			<iCost>14444</iCost>
-			<iHurryCostModifier>10000</iHurryCostModifier>
-			<MapCategoryTypes>
-				<MapCategoryType>MAPCATEGORY_PLASMA</MapCategoryType>
-				<MapCategoryType>MAPCATEGORY_MILKYWAY</MapCategoryType>
-			</MapCategoryTypes>
-			<CommerceChanges>
-				<iCommerce>0</iCommerce>
-				<iCommerce>150</iCommerce>
-			</CommerceChanges>
-			<YieldChanges>
-				<iYield>30</iYield>
-			</YieldChanges>
-			<GlobalBuildingClassProductionModifiers>
-				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_RINGWORLD</BuildingClassType>
-					<iProductionModifier>50</iProductionModifier>
-				</BuildingClassProductionModifier>
-			</GlobalBuildingClassProductionModifiers>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_RINGWORLD</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>

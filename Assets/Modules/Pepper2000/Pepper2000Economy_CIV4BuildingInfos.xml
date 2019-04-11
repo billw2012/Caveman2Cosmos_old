@@ -95,10 +95,6 @@
 			<FreeBuilding>BUILDINGCLASS_SOLAR_EFFECT</FreeBuilding>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_LUNAR_SOIL_GENERATOR</BuildingClassType>
-					<iNumBuildingNeeded>1</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-				<PrereqBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_STARPORT</BuildingClassType>
 					<iNumBuildingNeeded>5</iNumBuildingNeeded>
 				</PrereqBuildingClass>
@@ -109,6 +105,10 @@
 				<PrereqBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_MARS_MEGACITY</BuildingClassType>
 					<iNumBuildingNeeded>3</iNumBuildingNeeded>
+				</PrereqBuildingClass>
+				<PrereqBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_LUNAR_ARCOLOGY</BuildingClassType>
+					<iNumBuildingNeeded>1</iNumBuildingNeeded>
 				</PrereqBuildingClass>
 				<PrereqBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_VENUS_SURFACE</BuildingClassType>

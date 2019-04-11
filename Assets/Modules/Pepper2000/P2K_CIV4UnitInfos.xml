@@ -2927,8 +2927,16 @@
 				</UnitAI>
 			</UnitAIs>
 			<Builds>
-				<Build>
+                <Build>
 					<BuildType>BUILD_SPACE_SOLAR_ARRAY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_MERCURY_SOLAR_ARRAY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+                <Build>
+					<BuildType>BUILD_MERCURY_COLONY</BuildType>
 					<bBuild>1</bBuild>
 				</Build>
                 <Build>

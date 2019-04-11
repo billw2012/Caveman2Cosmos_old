@@ -1391,6 +1391,12 @@
 					<iProductionModifier>30</iProductionModifier>
 				</BuildingClassProductionModifier>
 			</GlobalBuildingClassProductionModifiers>
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_TITAN_BIOFACTORY</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_METHANE_LIFE</BuildingClass>
@@ -1429,7 +1435,7 @@
 			</GlobalBuildingClassProductionModifiers>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_TITAN_BASE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_TITAN_BIOFACTORY</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>

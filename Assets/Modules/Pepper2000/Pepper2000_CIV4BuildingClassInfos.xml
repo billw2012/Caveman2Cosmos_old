@@ -5202,6 +5202,22 @@
 			<DefaultBuilding>BUILDING_VENUS_SURFACE</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_VENUS_ARCOLOGY</Type>
+			<Description>TXT_KEY_BUILDING_VENUS_ARCOLOGY</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_VENUS_ARCOLOGY</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_VENUS_SKY_ARCOLOGY</Type>
+			<Description>TXT_KEY_BUILDING_VENUS_SKY_ARCOLOGY</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_VENUS_SKY_ARCOLOGY</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_VENUS_SOLAR_ARRAY</Type>
 			<Description>TXT_KEY_BUILDING_VENUS_SOLAR_ARRAY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -5504,6 +5520,14 @@
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_SOLAR_ARRAY_TRANSNEPTUNIAN</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_DEEP_SPACE_ASSEMBLER</Type>
+			<Description>TXT_KEY_BUILDING_DEEP_SPACE_ASSEMBLER</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_DEEP_SPACE_ASSEMBLER</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_DEEP_SPACE_HYDROPONICS</Type>
@@ -6434,6 +6458,38 @@
 			<DefaultBuilding>BUILDING_TRITON_MILITARY_BASE</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_NEPTUNE_WIND_TURBINE</Type>
+			<Description>TXT_KEY_BUILDING_NEPTUNE_WIND_TURBINE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_NEPTUNE_WIND_TURBINE</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_NEPTUNE_VOLATILE_MINE</Type>
+			<Description>TXT_KEY_BUILDING_NEPTUNE_VOLATILE_MINE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_NEPTUNE_VOLATILE_MINE</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_NEPTUNE_CHANDELIER_CITY</Type>
+			<Description>TXT_KEY_BUILDING_NEPTUNE_CHANDELIER_CITY</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_NEPTUNE_CHANDELIER_CITY</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_NEPTUNE_ORBITAL_RING</Type>
+			<Description>TXT_KEY_BUILDING_NEPTUNE_ORBITAL_RING</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_NEPTUNE_ORBITAL_RING</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_TERRAFORMED_NEPTUNE</Type>
 			<Description>TXT_KEY_BUILDING_TERRAFORMED_NEPTUNE</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -6586,6 +6642,14 @@
 			<DefaultBuilding>BUILDING_TITAN_HYDROCARBON_REFINERY</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_TITAN_BIOFACTORY</Type>
+			<Description>TXT_KEY_BUILDING_TITAN_BIOFACTORY</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_TITAN_BIOFACTORY</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_TITAN_AMMONIA_ERUPTION</Type>
 			<Description>TXT_KEY_BUILDING_TITAN_AMMONIA_ERUPTION</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -6626,6 +6690,14 @@
 			<DefaultBuilding>BUILDING_TITAN_SUPERCOMPUTER</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_TITAN_ARCOLOGY</Type>
+			<Description>TXT_KEY_BUILDING_TITAN_ARCOLOGY</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_TITAN_ARCOLOGY</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_TITAN_NITROGEN_EXPORTER</Type>
 			<Description>TXT_KEY_BUILDING_TITAN_NITROGEN_EXPORTER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -6640,6 +6712,14 @@
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_TERRAFORMED_TITAN</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_COMPUTRONIUM_TITAN</Type>
+			<Description>TXT_KEY_BUILDING_COMPUTRONIUM_TITAN</Description>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_COMPUTRONIUM_TITAN</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_TRANSTELLAR_COLONY</Type>
@@ -8376,14 +8456,6 @@
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_GALACTIC_CORE_BASE</DefaultBuilding>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_ORBITAL</Type>
-			<Description>TXT_KEY_BUILDING_ORBITAL</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_ORBITAL</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_GALACTIC_CORE_DYSON_SPHERE</Type>

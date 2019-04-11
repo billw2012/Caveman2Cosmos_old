@@ -6502,6 +6502,26 @@
 			<Button>Art/interface/buttons/buildings/venus_surface.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_VENUS_ARCOLOGY</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
+			<NIF>Art/Empty.nif</NIF>
+			<KFM/>
+			<Button>Art/interface/buttons/buildings/venus_arcology.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_VENUS_SKY_ARCOLOGY</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
+			<NIF>Art/Empty.nif</NIF>
+			<KFM/>
+			<Button>Art/interface/buttons/buildings/venus_sky_arcology.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_VENUS_SOLAR_ARRAY</Type>
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
@@ -6880,6 +6900,16 @@
 			<NIF>Art/Empty.nif</NIF>
 			<KFM/>
 			<Button>Art/interface/buttons/buildings/solar_array_transneptunian.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_DEEP_SPACE_ASSEMBLER</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
+			<NIF>Art/Empty.nif</NIF>
+			<KFM/>
+			<Button>Art/interface/buttons/buildings/deep_space_assembler.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DEEP_SPACE_HYDROPONICS</Type>
@@ -8042,6 +8072,46 @@
 			<Button>Art/interface/buttons/buildings/triton_military_base.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_NEPTUNE_WIND_TURBINE</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
+			<NIF>Art/Empty.nif</NIF>
+			<KFM/>
+			<Button>Art/interface/buttons/buildings/neptune_wind_turbine.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_NEPTUNE_VOLATILE_MINE</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
+			<NIF>Art/Empty.nif</NIF>
+			<KFM/>
+			<Button>Art/interface/buttons/buildings/neptune_volatile_mine.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_NEPTUNE_CHANDELIER_CITY</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
+			<NIF>Art/Empty.nif</NIF>
+			<KFM/>
+			<Button>Art/interface/buttons/buildings/neptune_chandelier_city.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_NEPTUNE_ORBITAL_RING</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
+			<NIF>Art/Empty.nif</NIF>
+			<KFM/>
+			<Button>Art/interface/buttons/buildings/neptune_orbital_ring.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TERRAFORMED_NEPTUNE</Type>
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
@@ -8232,6 +8302,16 @@
 			<Button>Art/interface/buttons/buildings/titan_hydrocarbon_refinery.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_TITAN_BIOFACTORY</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
+			<NIF>Art/Empty.nif</NIF>
+			<KFM/>
+			<Button>Art/interface/buttons/buildings/titan_biofactory.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TITAN_AMMONIA_ERUPTION</Type>
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
@@ -8282,6 +8362,16 @@
 			<Button>Art/interface/buttons/buildings/titan_supercomputer.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_TITAN_ARCOLOGY</Type>
+			<LSystem>LSYSTEM_ARCOLOGY</LSystem>
+			<bAnimated>1</bAnimated>
+			<fScale>7</fScale>
+			<fInterfaceScale>0.1</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Arcology/Arcology.nif</NIF>
+			<KFM/>
+			<Button>Art/interface/buttons/buildings/titan_arcology.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TITAN_NITROGEN_EXPORTER</Type>
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
@@ -8300,6 +8390,16 @@
 			<NIF>Art/Empty.nif</NIF>
 			<KFM/>
 			<Button>Art/interface/buttons/buildings/terraformed_titan.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_COMPUTRONIUM_TITAN</Type>
+			<LSystem>LSYSTEM_1x1</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
+			<NIF>Art/Empty.nif</NIF>
+			<KFM/>
+			<Button>Art/interface/buttons/buildings/computronium_titan.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TRANSTELLAR_COLONY</Type>
@@ -10470,16 +10570,6 @@
 			<NIF>Art/Empty.nif</NIF>
 			<KFM/>
 			<Button>Art/interface/buttons/buildings/galactic_core_base.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_ORBITAL</Type>
-			<LSystem>LSYSTEM_1x1</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF>Art/Empty.nif</NIF>
-			<KFM/>
-			<Button>Art/interface/buttons/buildings/orbital.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GALACTIC_CORE_DYSON_SPHERE</Type>

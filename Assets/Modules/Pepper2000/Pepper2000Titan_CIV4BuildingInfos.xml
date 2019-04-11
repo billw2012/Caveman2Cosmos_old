@@ -141,6 +141,43 @@
 			<iNumFreeBonuses>1</iNumFreeBonuses>
 		</BuildingInfo>
 		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_TITAN_BIOFACTORY</BuildingClass>
+			<Type>BUILDING_TITAN_BIOFACTORY</Type>
+			<Description>TXT_KEY_BUILDING_TITAN_BIOFACTORY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_TITAN_BIOFACTORY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_TITAN_BIOFACTORY_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_TITAN_BIOFACTORY</ArtDefineTag>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<fVisibilityPriority>1</fVisibilityPriority>
+			<PrereqTech>TECH_ABYSS_COLONIZATION</PrereqTech>
+			<iCost>1452</iCost>
+			<iHurryCostModifier>10000</iHurryCostModifier>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_TITANIC</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqOrTerrain>
+				<PrereqTerrain>
+					<TerrainType>TERRAIN_TITAN</TerrainType>
+					<bPrereqTerrain>1</bPrereqTerrain>
+				</PrereqTerrain>
+			</PrereqOrTerrain>
+			<CommerceChanges>
+				<iCommerce>0</iCommerce>
+				<iCommerce>50</iCommerce>
+			</CommerceChanges>
+			<YieldChanges>
+				<iYield>10</iYield>
+				<iYield>10</iYield>
+			</YieldChanges>
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_TITAN_BASE</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
+		</BuildingInfo>
+		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_TITAN_AMMONIA_ERUPTION</BuildingClass>
 			<Type>BUILDING_TITAN_AMMONIA_ERUPTION</Type>
 			<Description>TXT_KEY_BUILDING_TITAN_AMMONIA_ERUPTION</Description>
@@ -268,6 +305,12 @@
 				<iCommerce>0</iCommerce>
 				<iCommerce>400</iCommerce>
 			</CommerceChanges>
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_TITAN_BIOFACTORY</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_TITAN_SUPERCOMPUTER</BuildingClass>
@@ -298,6 +341,48 @@
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_TITAN_HYDROCARBON_REFINERY</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_TITAN_ARCOLOGY</BuildingClass>
+			<Type>BUILDING_TITAN_ARCOLOGY</Type>
+			<Description>TXT_KEY_BUILDING_TITAN_ARCOLOGY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_TITAN_ARCOLOGY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_TITAN_ARCOLOGY_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_TITAN_ARCOLOGY</ArtDefineTag>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<fVisibilityPriority>1</fVisibilityPriority>
+			<PrereqTech>TECH_LUNAR_MEGASTRUCTURES</PrereqTech>
+			<iCost>2959</iCost>
+			<iHurryCostModifier>10000</iHurryCostModifier>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_TITANIC</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqOrTerrain>
+				<PrereqTerrain>
+					<TerrainType>TERRAIN_TITAN</TerrainType>
+					<bPrereqTerrain>1</bPrereqTerrain>
+				</PrereqTerrain>
+			</PrereqOrTerrain>
+			<CommerceChanges>
+				<iCommerce>50</iCommerce>
+			</CommerceChanges>
+			<YieldChanges>
+				<iYield>10</iYield>
+				<iYield>50</iYield>
+				<iYield>20</iYield>
+			</YieldChanges>
+			<iWorkableRadius>3</iWorkableRadius>
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_TITAN_AIR_TRANSPORT</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_TITAN_BIOFACTORY</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
@@ -335,10 +420,6 @@
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_TITAN_HYDROCARBON_REFINERY</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_TITAN_AIR_TRANSPORT</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
@@ -386,6 +467,49 @@
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_TITAN_SF6</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_TITAN_ECOSYSTEM</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_COMPUTRONIUM_TITAN</BuildingClass>
+			<Type>BUILDING_COMPUTRONIUM_TITAN</Type>
+			<Description>TXT_KEY_BUILDING_COMPUTRONIUM_TITAN</Description>
+			<Civilopedia>TXT_KEY_BUILDING_COMPUTRONIUM_TITAN_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_COMPUTRONIUM_TITAN_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_COMPUTRONIUM_TITAN</ArtDefineTag>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<fVisibilityPriority>1</fVisibilityPriority>
+			<PrereqTech>TECH_COMPUTRONIUM_UNIVERSE</PrereqTech>
+			<iCost>69062</iCost>
+			<iHurryCostModifier>10000</iHurryCostModifier>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_TITANIC</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqOrTerrain>
+				<PrereqTerrain>
+					<TerrainType>TERRAIN_TITAN</TerrainType>
+					<bPrereqTerrain>1</bPrereqTerrain>
+				</PrereqTerrain>
+			</PrereqOrTerrain>
+			<YieldChanges>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>100</iYield>
+			</YieldChanges>
+			<FreeBuilding>BUILDINGCLASS_COMPUTRONIUM_TOWER</FreeBuilding>
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_TITAN_SUPERCOMPUTER</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_TITAN_ARCOLOGY</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
