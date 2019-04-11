@@ -230,38 +230,6 @@ A Scytale, an early device for encryption.[PARAGRAPH:2]The ancient Greeks are sa
 		<English>Hide in plain sight.</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_TECH_FOREIGN_POLICY</Tag>
-		<English>Foreign Policy</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_FOREIGN_POLICY_STRATEGY</Tag>
-		<English>Improve Diplomacy and Espionage.</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_FOREIGN_POLICY_PEDIA</Tag>
-		<English>A country's foreign policy, also called foreign relations policy, consists of self-interest strategies chosen by the state to safeguard its national interests and to achieve goals within its international relations milieu. The approaches are strategically employed to interact with other countries. The study of such strategies is called foreign policy analysis. In recent times, due to the deepening level of globalization and transnational activities, the states will also have to interact with non-state actors. The aforementioned interaction is evaluated and monitored in attempts to maximize benefits of multilateral international cooperation. Since the national interests are paramount, foreign policies are designed by the government through high-level decision making processes. National interests accomplishment can occur as a result of peaceful cooperation with other nations, or through exploitation. Usually, creating foreign policy is the job of the head of government and the foreign minister (or equivalent). In some countries the legislature also has considerable effects. Foreign policies of countries have varying rates of change and scopes of intent, which can be affected by factors that change the perceived national interests or even affect the stability of the country itself. The foreign policy of one country can have profund and lasting impact on many other countries and on the course of international relations as a whole, such as the Monroe Doctrine conflicting with the mercantilist policies of 19th century European countries and the goals of independence of newly formed Central American and South American countries.[PARAGRAPH:2]Source:Wikipedia</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_FOREIGN_POLICY_QUOTE</Tag>
-		<English>"A country that demands moral perfection in its foreign policy will achieve neither perfection nor security" - Henry Kissinger</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_GEOCENTRISM</Tag>
-		<English>Geocentrism</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_GEOCENTRISM_STRATEGY</Tag>
-		<English>Increase science output.</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_GEOCENTRISM_PEDIA</Tag>
-		<English>In astronomy, the geocentric model (also known as geocentrism, or the Ptolemaic system) is a description of the cosmos where Earth is at the orbital center of all celestial bodies. This model served as the predominant cosmological system in many ancient civilizations such as ancient Greece including the noteworthy systems of Aristotle (see Aristotelian physics) and Ptolemy. As such, they believed that the Sun, Moon, stars, and naked eye planets circled Earth.[PARAGRAPH:2]Two commonly made observations supported the idea that Earth was the center of the Universe. The stars, the sun, and planets appear to revolve around Earth each day, making Earth the center of that system. The stars were thought to be on a celestial sphere, with the earth at its center, that rotated each day, using a line through the north and south pole as an axis. The stars closest to the equator appeared to rise and fall the greatest distance, but each star circled back to its rising point each day. The second observation supporting the geocentric model was that the Earth does not seem to move from the perspective of an Earth-bound observer, and that it is solid, stable, and unmoving.[PARAGRAPH:2]Ancient Roman and medieval philosophers usually combined the geocentric model with a spherical Earth. It is not the same as the older flat Earth model implied in some mythology, as was the case with the biblical and postbiblical Latin cosmology. The ancient Jewish Babylonian uranography pictured a flat Earth with a dome-shaped rigid canopy named firmament placed over it.[PARAGRAPH:2]However, the ancient Greeks believed that the motions of the planets were circular and not elliptical, a view that was not challenged in Western culture until the 17th century through the synthesis of theories by Copernicus and Kepler.[PARAGRAPH:2]The astronomical predictions of Ptolemy's geocentric model were used to prepare astrological and astronomical charts for over 1500 years. The geocentric model held sway into the early modern age, but from the late 16th century onward was gradually superseded by the heliocentric model of Copernicus, Galileo and Kepler. There was much resistance to the transition between these two theories. Christian theologians were reluctant to reject a theory that agreed with Bible passages (e.g. "Sun, stand you still upon Gibeon", Joshua 10:12 - King James 2000 Bible). Others felt a new, unknown theory could not subvert an accepted consensus for geocentrism.[PARAGRAPH:2]Source:Wikipedia</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_GEOCENTRISM_QUOTE</Tag>
-		<English>'Nil novi super terram (Nothing new above the Earth)' - Frances Bacon</English>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUILDING_THE_ALMAGEST</Tag>
 		<English>Almagest</English>
 	</TEXT>
@@ -274,22 +242,6 @@ A Scytale, an early device for encryption.[PARAGRAPH:2]The ancient Greeks are sa
 		<English>The Almagest is a 2nd-century mathematical and astronomical treatise on the apparent motions of the stars and planetary paths. Written in Greek by Claudius Ptolemy, a Roman era scholar of Egypt, it is one of the most influential scientific texts of all time, with its geocentric model accepted for more than twelve hundred years from its origin in Hellenistic Alexandria, in the medieval Byzantine and Islamic worlds, and in Western Europe through the Middle Ages and early Renaissance until Copernicus.[PARAGRAPH:2]Source:Wikipedia</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_TECH_HELIOCENTRISM</Tag>
-		<English>Heliocentrism</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_HELIOCENTRISM_STRATEGY</Tag>
-		<English>Increase science output.</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_HELIOCENTRISM_PEDIA</Tag>
-		<English>Heliocentrism, or heliocentricism, is the astronomical model in which the Earth and planets revolve around the Sun at the center of the Solar System. The word comes from the Greek (helios "sun" and kentron "center"). Historically, heliocentrism was opposed to geocentrism, which placed the Earth at the center. The notion that the Earth revolves around the Sun had been proposed as early as the 3rd century BC by Aristarchus of Samos, but at least in the post-ancient world Aristarchus's heliocentrism attracted little attention - possibly because of the loss of scientific works of the Hellenistic Era.[PARAGRAPH:2It was not until the 16th century that a geometric mathematical model of a heliocentric system was presented, by the Renaissance mathematician, astronomer, and Catholic cleric Nicolaus Copernicus, leading to the Copernican Revolution. In the following century, Johannes Kepler elaborated upon and expanded this model to include elliptical orbits, and Galileo Galilei presented supporting observations made using a telescope.[PARAGRAPH:2With the observations of William Herschel, Friedrich Bessel, and others, astronomers realized that the sun was not the center of the universe as heliocentrists at the time of Copernicus had supposed. Modern thinking is that there is no specific location that is the center of the universe, per Albert Einstein's principle of relativity.[PARAGRAPH:2]Source:Wikipedia</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_HELIOCENTRISM_QUOTE</Tag>
-		<English>"Finally we shall place the Sun himself at the center of the Universe."[NEWLINE][SPACE]- Nicolaus Copernicus</English>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUILDING_RUDOLPHINE_TABLES</Tag>
 		<English>Rudolphine</English>
 	</TEXT>
@@ -300,22 +252,6 @@ A Scytale, an early device for encryption.[PARAGRAPH:2]The ancient Greeks are sa
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_RUDOLPHINE_TABLES_PEDIA</Tag>
 		<English>The Rudolphine Tables (Latin: Tabulae Rudolphinae) consist of a star catalogue and planetary tables published by Johannes Kepler in 1627, using some observational data collected by Tycho Brahe (1546-1601). The tables are named as "Rudolphine" in memory of Rudolf II, Holy Roman Emperor.[PARAGRAPH:2]Source:Wikipedia</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_NEGOTIATION</Tag>
-		<English>Negotiation</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_NEGOTIATION_STRATEGY</Tag>
-		<English>Improve Diplomacy and Espionage.</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_NEGOTIATION_PEDIA</Tag>
-		<English>Negotiation is a dialogue between two or more people or parties intended to reach a beneficial outcome.[PARAGRAPH:2]This beneficial outcome can be for all of the parties involved, or just for one or some of them, in situations in which a good outcome for one/some, excludes the possibility of a desired result for the other/others.[PARAGRAPH:2]It is aimed to resolve points of difference, to gain advantage for an individual or collective, or to craft outcomes to satisfy various interests. It is often conducted by putting forward a position and making small concessions to achieve an agreement. The degree to which the negotiating parties trust each other to implement the negotiated solution is a major factor in determining whether negotiations are successful. Negotiation is not a zero-sum game; if there is no compromise, the negotiations have failed. When negotiations are at an impasse it is essential that both the parties acknowledge the difficulties, and agree to work towards a solution at a later date.[PARAGRAPH:2]Source:Wikipedia</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_NEGOTIATION_QUOTE</Tag>
-		<English>You scratch my back and I'll scratch yours.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_DIPLOMACY</Tag>
@@ -368,22 +304,6 @@ A Scytale, an early device for encryption.[PARAGRAPH:2]The ancient Greeks are sa
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_EMPORIUM_PEDIA</Tag>
 		<English>A place for foreign merchants</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_NEW_URBANISM</Tag>
-		<English>New Urbanism</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_NEW_URBANISM_STRATEGY</Tag>
-		<English>Increase city health.</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_NEW_URBANISM_PEDIA</Tag>
-		<English>New Urbanism is an urban design movement which promotes environmentally friendly habits by creating walkable neighborhoods containing a wide range of housing and job types. It arose in the United States in the early 1980s, and has gradually influenced many aspects of real estate development, urban planning, and municipal land-use strategies.[PARAGRAPH:2]New Urbanism is strongly influenced by urban design practices that were prominent until the rise of the automobile prior to World War II; it encompasses ten basic principles such as traditional neighborhood design (TND) and transit-oriented development (TOD). These ideas can all be circled back to two concepts: building a sense of community and the development of ecological practices.[PARAGRAPH:2]The organizing body for New Urbanism is the Congress for the New Urbanism, founded in 1993. Its foundational text is the Charter of the New Urbanism, which begins:[PARAGRAPH:2]"We advocate the restructuring of public policy and development practices to support the following principles: neighborhoods should be diverse in use and population; communities should be designed for the pedestrian and transit as well as the car; cities and towns should be shaped by physically defined and universally accessible public spaces and community institutions; urban places should be framed by architecture and landscape design that celebrate local history, climate, ecology, and building practice."[PARAGRAPH:2]New Urbanists support regional planning for open space, context-appropriate architecture and planning, and the balanced development of jobs and housing. They believe their strategies can reduce traffic congestion by encouraging the population to ride bikes, walk, or take the train. They also hope that this set up will increase the supply of affordable housing and rein in suburban sprawl. The Charter of the New Urbanism also covers issues such as historic preservation, safe streets, green building, and the re-development of brownfield land. The ten Principles of Intelligent Urbanism also phrase guidelines for new urbanist approaches.[PARAGRAPH:2]Architecturally, new urbanist developments are often accompanied by New Classical, postmodern, or vernacular styles, although that is not always the case.[PARAGRAPH:2]Source:Wikipedia</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_NEW_URBANISM_QUOTE</Tag>
-		<English>We stand for the restoration of existing urban centers and towns within coherent metropolitan regions, the reconfiguration of sprawling suburbs into communities of real neighborhoods and diverse districts, the conservation of natural environments, and the preservation of our built legacy.[PARAGRAPH:2]- Congress for the New Urbanism,[PARAGRAPH:1][SPACE][SPACE]"Charter of the New Urbanism"</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GARDEN_CITY</Tag>

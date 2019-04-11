@@ -5879,9 +5879,9 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_PRIESTHOOD</PrereqTech>
 			</OrPreReqs>
-			<Quote>TXT_KEY_TECH_PHILOSOPHY_QUOTE</Quote>
-			<Sound>AS2D_TECH_PHILOSOPHY</Sound>
-			<SoundMP>AS2D_TECH_MP_PHILOSOPHY</SoundMP>
+			<Quote>TXT_KEY_TECH_ORATORY_QUOTE</Quote>
+			<Sound>AS2D_TECH_ORATORY</Sound>
+			<SoundMP>AS2D_TECH_MP_ORATORY</SoundMP>
 			<Button>Art/Interface/Buttons/TechTree/oratory2.dds</Button>
 		</TechInfo>
 		<TechInfo>
@@ -6890,7 +6890,7 @@ Current techs which are not in this file:-
 			<Type>TECH_KEMETISM</Type>
 			<Description>TXT_KEY_RELIGION_EGYPT_MYTHOLOGY</Description>
 			<Civilopedia>TXT_KEY_RELIGION_EGYPT_MYTH_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_RELIGION_KEMETISM_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_RELIGION_EGYPT_MYTHOLOGY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>309</iCost>
 			<bGlobal>1</bGlobal>
@@ -6920,7 +6920,7 @@ Current techs which are not in this file:-
 				<PrereqTech>TECH_ORNAMENTATION</PrereqTech>
 				<PrereqTech>TECH_FELINE_DOMESTICATION</PrereqTech>
 			</AndPreReqs>
-			<Quote>TXT_KEY_RELIGION_KEMETISM_QUOTE</Quote>
+			<Quote>TXT_KEY_RELIGION_EGYPT_MYTHOLOGY_QUOTE</Quote>
 			<Sound>AS2D_TECH_KEMETISM</Sound>
 			<SoundMP>AS2D_TECH_KEMETISM</SoundMP>
 			<FirstFreeProphet>UNITCLASS_PROPHET</FirstFreeProphet>
@@ -8886,7 +8886,7 @@ Current techs which are not in this file:-
 					<iNumBuildingNeeded>1</iNumBuildingNeeded>
 				</PrereqBuildingClass>
 			</PrereqBuildingClasses>
-			<Quote>TXT_KEY_TECH_CONCRETE_QUOTE</Quote>
+			<Quote>TXT_KEY_TECH_WATERPROOF_CEMENT_QUOTE</Quote>
 			<Sound>AS2D_TECH_GENERIC</Sound>
 			<SoundMP/>
 			<Button>Art/Interface/Buttons/TechTree/Concrete.dds</Button>
@@ -11859,7 +11859,7 @@ Current techs which are not in this file:-
 			<Type>TECH_ASTROLABE</Type>
 			<Description>TXT_KEY_TECH_ASTROLABE</Description>
 			<Civilopedia>TXT_KEY_TECH_ASTROLABE_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_ASTRONOMY_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_TECH_ASTROLABE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iCost>2364</iCost>
 			<Era>ERA_RENAISSANCE</Era>
@@ -13698,7 +13698,7 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_LIBERALISM</PrereqTech>
 			</OrPreReqs>
-			<Quote>TXT_KEY_TECH_CONSTITUTION2_QUOTE</Quote>
+			<Quote>TXT_KEY_TECH_CONSTITUTION_QUOTE</Quote>
 			<Sound>AS2D_TECH_CONSTITUTION</Sound>
 			<SoundMP>AS2D_TECH_CONSTITUTION</SoundMP>
 			<Button>,Art/Interface/Buttons/TechTree/Constitution.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,2</Button>
@@ -13785,7 +13785,7 @@ Current techs which are not in this file:-
 			<Type>TECH_SEXTANT</Type>
 			<Description>TXT_KEY_TECH_SEXTANT</Description>
 			<Civilopedia>TXT_KEY_TECH_SEXTANT_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_NAVIGATION_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_TECH_SEXTANT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
 			<iCost>3704</iCost>
@@ -15297,7 +15297,7 @@ Current techs which are not in this file:-
 				<PrereqTech>TECH_SCREW_PROPELLER</PrereqTech>
 				<PrereqTech>TECH_MACHINE_TOOLS</PrereqTech>
 			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_COMBUSTION_NEW_QUOTE</Quote>
+			<Quote>TXT_KEY_TECH_COMBUSTION_QUOTE</Quote>
 			<Sound>AS2D_TECH_COMBUSTION</Sound>
 			<SoundMP>AS2D_TECH_MP_COMBUSTION</SoundMP>
 			<Button>,Art/Interface/Buttons/TechTree/Combustion.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,2</Button>
@@ -15721,7 +15721,7 @@ Current techs which are not in this file:-
 			<Type>TECH_ANTIBIOTICS</Type>
 			<Description>TXT_KEY_TECH_ANTIBIOTICS</Description>
 			<Civilopedia>TXT_KEY_TECH_ANTIBIOTICS_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_MEDICINE_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_TECH_ANTIBIOTICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>7008</iCost>
 			<Era>ERA_INDUSTRIAL</Era>
@@ -15933,7 +15933,7 @@ Current techs which are not in this file:-
 			<Type>TECH_HYDROELECTRICITY</Type>
 			<Description>TXT_KEY_TECH_HYDROELECTRICITY</Description>
 			<Civilopedia>TXT_KEY_TECH_HYDROELECTRICITY_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_ELECTRICITY_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_TECH_HYDROELECTRICITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>7008</iCost>
 			<Era>ERA_INDUSTRIAL</Era>
@@ -17746,7 +17746,7 @@ Current techs which are not in this file:-
 				<PrereqTech>TECH_EXPRESSIONISM</PrereqTech>
 				<PrereqTech>TECH_CUBISM</PrereqTech>
 			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_FINE_ARTS_QUOTE</Quote>
+			<Quote>TXT_KEY_TECH_MODERN_ART_QUOTE</Quote>
 			<Sound>AS2D_TECH_FineArts</Sound>
 			<SoundMP>AS2D_TECH_FineArts</SoundMP>
 			<Button>Art/Interface/Buttons/TechTree/modernart.dds</Button>
@@ -19421,7 +19421,7 @@ Current techs which are not in this file:-
 			<Type>TECH_SOLAR_POWER</Type>
 			<Description>TXT_KEY_TECH_SOLAR_POWER</Description>
 			<Civilopedia>TXT_KEY_TECH_SOLAR_POWER_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_ELECTRONICS_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_TECH_SOLAR_POWER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>13181</iCost>
 			<Era>ERA_MODERN</Era>
@@ -30608,8 +30608,8 @@ Current techs which are not in this file:-
 		<TechInfo>
 			<Type>TECH_LUNAR_MEGASTRUCTURES</Type>
 			<Description>TXT_KEY_TECH_LUNAR_MEGASTRUCTURES</Description>
-			<Civilopedia>TXT_KEY_TECH_LUNAR_TOURISM_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_LUNAR_TOURISM_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_TECH_LUNAR_MEGASTRUCTURES_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_LUNAR_MEGASTRUCTURES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
 			<iCost>90183</iCost>
@@ -32884,9 +32884,9 @@ Current techs which are not in this file:-
 			<AndPreReqs>
 				<PrereqTech>TECH_WEAPONIZED_ANTIMATTER</PrereqTech>
 			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_SUPERSTRONG_ALLOYS_QUOTE</Quote>
-			<Sound>AS2D_TECH_SUPERSTRONG_ALLOYS</Sound>
-			<SoundMP>AS2D_TECH_SUPERSTRONG_ALLOYS</SoundMP>
+			<Quote>TXT_KEY_TECH_MEGASTRONG_ALLOYS_QUOTE</Quote>
+			<Sound>AS2D_TECH_MEGASTRONG_ALLOYS</Sound>
+			<SoundMP>AS2D_TECH_MEGASTRONG_ALLOYS</SoundMP>
 			<Button>Art/Interface/Buttons/TechTree/megastrongalloys.dds</Button>
 		</TechInfo>
 		<TechInfo>

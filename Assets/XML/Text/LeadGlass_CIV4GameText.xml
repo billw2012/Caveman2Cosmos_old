@@ -5,22 +5,6 @@
 <!-- -->
 <Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../Schema/Civ4Gametext.xsd">
 	<TEXT>
-		<Tag>TXT_KEY_TECH_LEAD_GLASS</Tag>
-		<English>Lead Glass</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_LEAD_GLASS_QUOTE</Tag>
-		<English>"That we find a crystal or a poppy beautiful means that we are less alone, that we are more deeply inserted into existence than the course of a single life would lead us to believe."[NEWLINE][SPACE]- John Berger</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_LEAD_GLASS_STRATEGY</Tag>
-		<English>Increase your income.</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_LEAD_GLASS_PEDIA</Tag>
-		<English>While lead glass has been around since glass was first made, this represents the clear crystal glass innovation.[PARAGRAPH:2]Originally discovered by Englishman George Ravenscroft in 1674, the technique of adding lead oxide (in quantities of between 10 and 30%) improved the appearance of the glass and made it easier to melt using sea-coal as a furnace fuel. This technique also increased "working period" making the glass easier to manipulate.[PARAGRAPH:2]Source: Wikipedia</English>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BONUS_CRYSTAL_GLASSWARE</Tag>
 		<English>Crystal Glassware</English>
 	</TEXT>
