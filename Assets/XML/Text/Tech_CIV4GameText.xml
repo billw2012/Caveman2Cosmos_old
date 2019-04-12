@@ -6662,7 +6662,23 @@ During wartime, some coast guard organizations might have responsibilities in ha
 		<French>"Croire que la cryogénisation pourrait réanimer quelqu'un qui a été congelé, c'est comme croire que vous pouvez à partir d'un hamburger obtenir à nouveau une vache." - Dr. Arthur Rowe</French>
 		<Polish>"Nauka jest jak niezmierne morze... Im więcej jej pijesz, tym bardziej jesteś spragniony. Kiedyś poznasz, jaka to jest rozkosz. Ucz się tylko, co jest sił w tobie, żeby jej zakosztować." - Stefan Żeromski</Polish>
 	</TEXT>
-<!-- TECH_CRYPTOGRAPHY (Modules\Brackenspore_CIV4GameText) -->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CRYPTOGRAPHY</Tag>
+		<English>Cryptography</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CRYPTOGRAPHY_STRATEGY</Tag>
+		<English>Increase espionage output.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CRYPTOGRAPHY_PEDIA</Tag>
+		<English>Cryptography, the use of codes and ciphers to protect secrets, began thousands of years ago. Until recent decades, it has been the story of what might be called classic cryptography - that is, of methods of encryption that use pen and paper, or perhaps simple mechanical aids. In the early 20th century, the invention of complex mechanical and electromechanical machines, such as the Enigma rotor machine, provided more sophisticated and efficient means of encryption; and the subsequent introduction of electronics and computing has allowed elaborate schemes of still greater complexity, most of which are entirely unsuited to pen and paper.[PARAGRAPH:2][BOLD]Classical cryptography[\BOLD][PARAGRAPH:2]The earliest known use of cryptography is found in non-standard hieroglyphs carved into monuments from the Old Kingdom of Egypt circa 1900 BCE. These are not thought to be serious attempts at secret communications, however, but rather to have been attempts at mystery, intrigue, or even amusement for literate onlookers. These are examples of still other uses of cryptography, or of something that looks (impressively if misleadingly) like it. Some clay tablets from Mesopotamia somewhat later are clearly meant to protect information-one dated near 1500 BCE was found to encrypt a craftsman's recipe for pottery glaze, presumably commercially valuable. Later still, Hebrew scholars made use of simple monoalphabetic substitution ciphers (such as the Atbash cipher) beginning perhaps around 500 to 600 BCE.
+		A Scytale, an early device for encryption.[PARAGRAPH:2]The ancient Greeks are said to have known of ciphers. The scytale transposition cipher was used by the Spartan military, however it is disputed whether the scytale was for encryption, authentication, or avoiding bad omens in speech. Herodotus tells us of secret messages physically concealed beneath wax on wooden tablets or as a tattoo on a slave's head concealed by regrown hair, though these are not properly examples of cryptography per se as the message, once known, is directly readable; this is known as steganography. Another Greek method was developed by Polybius (now called the "Polybius Square").  The Romans knew something of cryptography (e.g., the Caesar cipher and its variations).[PARAGRAPH:2]Source:Wikipedia</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CRYPTOGRAPHY_QUOTE</Tag>
+		<English>Hide in plain sight.</English>
+	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_CRYSTALPUNK</Tag>
 		<English>Crystalpunk</English>
@@ -7393,6 +7409,22 @@ During wartime, some coast guard organizations might have responsibilities in ha
 		<Tag>TXT_KEY_TECH_DMERCH_QUOTE</Tag>
 		<English>"Advertising moves people toward goods; merchandising moves goods toward people." - Morris Hite</English>
 		<Polish>"Reklamowanie popycha ludzi w kierunku towarów; sprzedawanie popycha towary w kierunku ludzi." - Morris Hite</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DIPLOMACY</Tag>
+		<English>Diplomacy</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DIPLOMACY_STRATEGY</Tag>
+		<English>Improve Diplomacy and Espionage.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DIPLOMACY_PEDIA</Tag>
+		<English>Diplomacy is the art and practice of conducting negotiations between representatives of states. It usually refers to international diplomacy, the conduct of international relations through the intercession of professional diplomats with regard to issues of peace-making, trade, war, economics, culture, environment, and human rights. International treaties are usually negotiated by diplomats prior to endorsement by national politicians. In an informal or social sense, diplomacy is the employment of tact to gain strategic advantage or to find mutually acceptable solutions to a common challenge, one set of tools being the phrasing of statements in a non-confrontational, or polite manner.[PARAGRAPH:2]Source:Wikipedia</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DIPLOMACY_QUOTE</Tag>
+		<English>Speak softly and carry a big stick; you will go far.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_DIRECTED_COSMIC_EVOLUTION</Tag>
