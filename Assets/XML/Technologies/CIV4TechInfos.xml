@@ -23188,7 +23188,7 @@ Current techs which are not in this file:-
 		</TechInfo>
 		<TechInfo>
 			<Type>TECH_ASTEROIDPROBE</Type>
-			<Description>TXT_KEY_ASTEROIDPROBE</Description>
+			<Description>TXT_KEY_TECH_ASTEROIDPROBE</Description>
 			<Civilopedia>TXT_KEY_TECH_ASTEROIDPROBE_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_ASTEROIDPROBE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
@@ -24103,7 +24103,7 @@ Current techs which are not in this file:-
 		</TechInfo>
 		<TechInfo>
 			<Type>TECH_INSECTROBOTICS</Type>
-			<Description>TXT_KEY_INSECTROBOTICS</Description>
+			<Description>TXT_KEY_TECH_INSECTROBOTICS</Description>
 			<Civilopedia>TXT_KEY_TECH_INSECTROBOTICS_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_INSECTROBOTICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
@@ -25049,7 +25049,7 @@ Current techs which are not in this file:-
 		</TechInfo>
 		<TechInfo>
 			<Type>TECH_AUTOMATEDSERVICES</Type>
-			<Description>TXT_KEY_AUTOMATEDSERVICES</Description>
+			<Description>TXT_KEY_TECH_AUTOMATEDSERVICES</Description>
 			<Civilopedia>TXT_KEY_TECH_AUTOMATEDSERVICES_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_AUTOMATEDSERVICES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
