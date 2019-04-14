@@ -21194,7 +21194,7 @@ int CvUnit::getExtraReligiousCombatModifier(bool bIgnoreCommanders) const
 void CvUnit::changeExtraReligiousCombatModifier(int iChange)
 {
 	m_iExtraReligiousCombatModifier += iChange;
-	FAssert(getExtraReligiousCombatModifier() >= 0);
+	/*FAssert(getExtraReligiousCombatModifier() >= 0);*///should be normal to be negative as well
 }
 
 int CvUnit::getExtraArmor (bool bIgnoreCommanders) const

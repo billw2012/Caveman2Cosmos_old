@@ -11585,7 +11585,7 @@ int CvPlayer::calculateUnitCost(int& iFreeUnits, int& iFreeMilitaryUnits, int& i
 	//ls612: Gold modifiers by Gamespeed
 	iSupport = (iSupport*GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getGoldModifier())/100;
 
-	FAssert(iSupport >= 0);
+	/*FAssert(iSupport >= 0);*///This is generally normal under complex traits - the return limits it to 0+ anyhow.
 
 	return std::max(0, iSupport);
 }
