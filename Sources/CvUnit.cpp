@@ -43472,7 +43472,7 @@ int CvUnit::getSMPowerValue() const
 	return m_iSMPowerValue;
 }
 
-void CvUnit::setSMPowerValue()
+void CvUnit::setSMPowerValue(bool bForLoad)
 {
 	int iOldSMPowerValue = powerValueTotal();
 	int iBase = 0;
@@ -43522,9 +43522,12 @@ void CvUnit::setSMPowerValue()
 	FAssert(iBase >= 0);
 	
 	m_iSMPowerValue = std::max(1, iBase);
-	int iChange = m_iSMPowerValue - iOldSMPowerValue;
-	iChange = std::max(1, iChange);
-	GET_PLAYER(getOwnerINLINE()).changePower(iChange);
+	if (!bForLoad)
+	{
+		int iChange = m_iSMPowerValue - iOldSMPowerValue;
+		iChange = std::max(1, iChange);
+		GET_PLAYER(getOwnerINLINE()).changePower(iChange);
+	}
 	FAssert(getSMPowerValue() >= 0);
 }
 
@@ -43576,13 +43579,17 @@ int CvUnit::getSMAssetValue() const
 	return m_iSMAssetValue;
 }
 
-void CvUnit::setSMAssetValue()
+void CvUnit::setSMAssetValue(bool bForLoad)
 {
 	int iOldSMAssetValue = assetValueTotal();
 	int iBase = 0;
 	iBase = assetValueTotalPreCheck();
 	int iSMMultiplier = GC.getDefineINT("SIZE_MATTERS_MOST_MULTIPLIER");
 	int iIterator = getSizeMattersOffsetValue();
+	if (iIterator == -15)//Special Case for size cat undefined units
+	{
+		m_iSMAssetValue = iOldSMAssetValue;
+	}
 	bool bPositive = ((getSizeMattersOffsetValue() > 0) ? true : false);
 	iBase *= 100;
 	if (bPositive)
@@ -43604,8 +43611,11 @@ void CvUnit::setSMAssetValue()
 	iBase /= 100;
 
 	m_iSMAssetValue = iBase;
-	int iChange = m_iSMAssetValue - iOldSMAssetValue;
-	GET_PLAYER(getOwnerINLINE()).changeAssets(iChange);
+	if (!bForLoad)
+	{
+		int iChange = m_iSMAssetValue - iOldSMAssetValue;
+		GET_PLAYER(getOwnerINLINE()).changeAssets(iChange);
+	}
 	FAssert(getSMAssetValue() >= 0);
 }
 
@@ -44444,8 +44454,8 @@ void CvUnit::setSMValues(bool bForLoad)
 	}
 	setSMStrength();
 	setSMHPValue();
-	setSMAssetValue();
-	setSMPowerValue();
+	setSMAssetValue(bForLoad);
+	setSMPowerValue(bForLoad);
 	setSMCargoCapacity();
 	setSMCargoVolume();
 	setSMBombardRate();

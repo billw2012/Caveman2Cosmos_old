@@ -2720,14 +2720,14 @@ public:
 	int powerValueTotal() const;
 	int powerValueTotalPreCheck() const;
 	int getSMPowerValue() const;
-	void setSMPowerValue();
+	void setSMPowerValue(bool bForLoad = false);
 	
 	int getExtraAssetValue() const;
 	void changeExtraAssetValue(int iChange);
 	int assetValueTotal() const;
 	int assetValueTotalPreCheck() const;
 	int getSMAssetValue() const;
-	void setSMAssetValue();
+	void setSMAssetValue(bool bForLoad = false);
 
 	int getCargoVolumeModifier() const;
 	void setCargoVolumeModifier(int iNewValue);
