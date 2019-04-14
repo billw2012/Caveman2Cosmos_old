@@ -260,6 +260,10 @@
 		<Spanish>Alamana</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_ALESIA</Tag>
+		<English>Alesia</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ALEXANDRIA</Tag>
 		<English>Alexandria</English>
 		<French>Alexandrie</French>
@@ -1899,6 +1903,12 @@
 		<Spanish>Delfos</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_DEMETRIAS</Tag>
+		<English>Demetrias</English>
+		<French>Démétrias</French>
+		<Italian>Demetriade</Italian>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DENVER</Tag>
 		<English>Denver</English>
 	</TEXT>
@@ -2176,12 +2186,23 @@
 		<English>Enschede</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_ENTREMONT</Tag>
+		<English>Entremont</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_EPHESUS</Tag>
 		<English>Ephesus</English>
 		<French>Éphèse</French>
 		<German>Ephesos</German>
 		<Italian>Efeso</Italian>
 		<Spanish>Éfeso</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_EPIDAMNUS</Tag>
+		<English>Epidamnus</English>
+		<French>Epidamnos</French>
+		<Italian>Epidamno</Italian>
+		<Spanish>Epidamno</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ERBIL</Tag>
@@ -2869,6 +2890,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HISPALIS</Tag>
 		<English>Hispalis</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HISTIAEA</Tag>
+		<English>Histiaea</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HIT</Tag>
@@ -3567,6 +3592,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KINGSTON_UPON_HULL</Tag>
 		<English>Kingston upon Hull</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KIOS</Tag>
+		<English>Kios</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KIRINA</Tag>
@@ -5153,6 +5182,10 @@
 		<English>Ombos</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_OMI</Tag>
+		<English>Ōmi</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_OMSK</Tag>
 		<English>Omsk</English>
 	</TEXT>
@@ -6575,6 +6608,10 @@
 		<English>Suntur</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SUO</Tag>
+		<English>Suō</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SUPHAN_BURI</Tag>
 		<English>Suphan Buri</English>
 		<French>Suphanburi</French>
@@ -7890,6 +7927,10 @@
 		<Spanish>Agadé</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_ANDAHUAYLAS</Tag>
+		<English>Antawaylla</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ANTIUM</Tag>
 		<English>Antium</English>
 	</TEXT>
@@ -7912,6 +7953,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CALCUTTA</Tag>
 		<English>Calcutta</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHUITO</Tag>
+		<English>Chuito</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CORIHUAYACHINA</Tag>

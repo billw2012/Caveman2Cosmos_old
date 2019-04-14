@@ -1588,6 +1588,7 @@
 				<City>TXT_KEY_CITY_NAME_KNOSSOS</City>
 				<City>TXT_KEY_CITY_NAME_MYCENAE</City>
 				<City>TXT_KEY_CITY_NAME_PHARSALOS</City>
+				<City>TXT_KEY_CITY_NAME_HISTIAEA</City>
 				<City>TXT_KEY_CITY_NAME_EPHESUS</City>
 				<City>TXT_KEY_CITY_NAME_RHODES</City>
 				<City>TXT_KEY_CITY_NAME_ERETRIA</City>
@@ -1625,6 +1626,7 @@
 				<City>TXT_KEY_CITY_NAME_ORCHOMENOS</City>
 				<City>TXT_KEY_CITY_NAME_BRINDISI</City>
 				<City>TXT_KEY_CITY_NAME_AMBRACIA</City><!-- 650-625 -->
+				<City>TXT_KEY_CITY_NAME_EPIDAMNUS</City><!-- 627 BC -->
 				<City>TXT_KEY_CITY_NAME_KOS</City>
 				<City>TXT_KEY_CITY_NAME_KNIDOS</City>
 				<City>TXT_KEY_CITY_NAME_AMPHIPOLIS</City>
@@ -1634,7 +1636,8 @@
 				<City>TXT_KEY_CITY_NAME_APAMEA</City>
 				<City>TXT_KEY_CITY_NAME_DURAEUROPOS</City>
 				<City>TXT_KEY_CITY_NAME_MARATHON</City>
-				<City>Demetrias</City>
+				<City>TXT_KEY_CITY_NAME_KIOS</City>
+				<City>TXT_KEY_CITY_NAME_DEMETRIAS</City><!-- 294 BC -->
 			</Cities>
 			<Buildings>
 				<Building>
@@ -2254,10 +2257,10 @@
 				<City>Ono</City>
 				<City>Suzama</City>
 				<City>Narita</City>
+				<City>TXT_KEY_CITY_NAME_OMI</City>
 				<City>Kōzuke</City>
 				<City>Echigo</City>
-				<City>Ōmi</City>
-				<City>Suō</City>
+				<City>TXT_KEY_CITY_NAME_SUO</City>
 			</Cities>
 			<Buildings>
 				<Building>
