@@ -5963,7 +5963,7 @@
 		<Italian>[ICON_UNHAPPY] da [LINK=BUILDING_CRUSADE]Crociata di Re Riccardo[\LINK]</Italian>
 		<Spanish>[ICON_UNHAPPY] por [LINK=BUILDING_CRUSADE]Cruzada del Rey Ricardo[\LINK]</Spanish>
 		<Polish>[ICON_UNHAPPY] od [LINK=BUILDING_CRUSADE]Krucjata Króla Ryszarda[\LINK]</Polish>
-	</TEXT>	
+	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CULTURAL_AGE_METAL</Tag>
 		<English>Metal Age</English>

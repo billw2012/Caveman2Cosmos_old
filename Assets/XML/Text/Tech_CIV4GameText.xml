@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
-<!-- Sid Meier's Civilization 4 -->
-<!-- Copyright Firaxis Games 2005 -->
-<!-- -->
 <Civ4GameText xmlns="http://www.firaxis.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.firaxis.com ../Schema/Civ4Gametext.xsd">
 	<TEXT>
 		<Tag>TXT_KEY_CULTURE_ATOMPUNK</Tag>
@@ -1229,6 +1225,31 @@
 		<Spanish>La tecnología de los [COLOR_TECH_TEXT]Androides[COLOR_REVERT] te permite entrenar a los trabajadores [COLOR_UNIT_TEXT]Androides[COLOR_REVERT], y construir la [COLOR_BUILDING_TEXT]Fábrica de androides[COLOR_REVERT]. La tecnología mejora el rendimiento de las [COLOR_HIGHLIGHT_TEXT]Canteras[COLOR_REVERT], y desbloquea el principio futuro del [COLOR_HIGHLIGHT_TEXT]Posapocalipsis[COLOR_REVERT].</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_TECH_ANIMA_MATERIALS</Tag>
+		<English>Animamaterials</English>
+		<French>Anima-matériaux</French>
+		<Spanish>
+			<Text>Animamateriales</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Spanish>
+		<Polish>Animateriały</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ANIMA_MATERIALS_PEDIA</Tag>
+		<English>Regenerative fabrics and materials composed of a specific class of artificial nanite organelled microcospic organisms called Animas that are produced by an Anima Chamber. Like Nanites replaced nanobots, Animas are the next generation of Nanites. To the human or cyborg eye they resemble normal fabrics but they have interesting properties, like regeneration, polymorphic in nature (change dimensions), and can even be used as pyschokinesis generators to move certain types of matter. They are critical for advanced shields, transmuation, boson invisiblity, and are excellent superconductors. An Animat is an anima organism larger than 1 centimeter.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ANIMA_MATERIALS_QUOTE</Tag>
+		<English>"All life is an experiment. The more experiments you make the better." - Ralph Waldo Emerson</English>
+		<French>"Toute la vie n'est qu'une expérimentation. Les expériences te rendent meilleur." - Ralph Waldo Emerson</French>
+		<Polish>"Życie jest eksperymentem. Czym więcej eksperymentów tym lepiej." - Ralph Waldo Emerson</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ANIMA_MATERIALS_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_TECH_ANIMAL_HUSBANDRY</Tag>
 		<English>Animal Husbandry</English>
 		<French>Domestication du bétail</French>
@@ -1296,31 +1317,6 @@
 		<Italian>L'[COLOR_TECH_TEXT]Equitazione[COLOR_REVERT] permette la realizzazione degli [COLOR_UNIT_TEXT]arcieri a cavallo[COLOR_REVERT] (insieme al [COLOR_TECH_TEXT]Tiro con l'arco[COLOR_REVERT]) e, in seguito, di [COLOR_UNIT_TEXT]cavalieri[COLOR_REVERT] (insieme alle [COLOR_TECH_TEXT]Corporazioni[COLOR_REVERT]), [COLOR_UNIT_TEXT]corazzieri[COLOR_REVERT] (insieme alla [COLOR_TECH_TEXT]Tradizione militare[COLOR_REVERT]) e [COLOR_UNIT_TEXT]cavalleria[COLOR_REVERT] (insieme alla [COLOR_TECH_TEXT]Tradizione militare[COLOR_REVERT] e alla [COLOR_TECH_TEXT]Rigatura delle canne[COLOR_REVERT]).</Italian>
 		<Spanish>La [COLOR_TECH_TEXT]Equitación[COLOR_REVERT] activa la unidad del [COLOR_UNIT_TEXT]Arquero a caballo[COLOR_REVERT] (junto con el [COLOR_TECH_TEXT]Tiro con arco[COLOR_REVERT]) y, más adelante, la del [COLOR_UNIT_TEXT]Caballero[COLOR_REVERT] (junto con los [COLOR_TECH_TEXT]Gremios[COLOR_REVERT]), la del [COLOR_UNIT_TEXT]Coracero[COLOR_REVERT] (junto con la [COLOR_TECH_TEXT]Tradición militar[COLOR_REVERT]), y la de la [COLOR_UNIT_TEXT]Caballería[COLOR_REVERT] (junto con la [COLOR_TECH_TEXT]Tradición militar[COLOR_REVERT] y el [COLOR_TECH_TEXT]Fusil[COLOR_REVERT]).</Spanish>
 		<Polish>[COLOR_TECH_TEXT]Jazda Konna[COLOR_REVERT] zezwala na budowanie [COLOR_UNIT_TEXT]Łuczników Konnych[COLOR_REVERT] (z [COLOR_TECH_TEXT]Łucznictwo[COLOR_REVERT]), oraz później na [COLOR_UNIT_TEXT]Rycerzy[COLOR_REVERT] (z [COLOR_TECH_TEXT]Gildia[COLOR_REVERT]),oraz [COLOR_UNIT_TEXT]Kirasjer[COLOR_REVERT] (z [COLOR_TECH_TEXT]Tradycja Wojskowa[COLOR_REVERT]) i [COLOR_UNIT_TEXT]Kawaleria[COLOR_REVERT] (z [COLOR_TECH_TEXT]Tradycja Wojskowa[COLOR_REVERT] i [COLOR_TECH_TEXT]Strzelectwo[COLOR_REVERT]).</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_ANIMA_MATERIALS</Tag>
-		<English>Animamaterials</English>
-		<French>Anima-matériaux</French>
-		<Spanish>
-			<Text>Animamateriales</Text>
-			<Gender>Male</Gender>
-			<Plural>1</Plural>
-		</Spanish>
-		<Polish>Animateriały</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_ANIMA_MATERIALS_PEDIA</Tag>
-		<English>Regenerative fabrics and materials composed of a specific class of artificial nanite organelled microcospic organisms called Animas that are produced by an Anima Chamber. Like Nanites replaced nanobots, Animas are the next generation of Nanites. To the human or cyborg eye they resemble normal fabrics but they have interesting properties, like regeneration, polymorphic in nature (change dimensions), and can even be used as pyschokinesis generators to move certain types of matter. They are critical for advanced shields, transmuation, boson invisiblity, and are excellent superconductors. An Animat is an anima organism larger than 1 centimeter.</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_ANIMA_MATERIALS_QUOTE</Tag>
-		<English>"All life is an experiment. The more experiments you make the better." - Ralph Waldo Emerson</English>
-		<French>"Toute la vie n'est qu'une expérimentation. Les expériences te rendent meilleur." - Ralph Waldo Emerson</French>
-		<Polish>"Życie jest eksperymentem. Czym więcej eksperymentów tym lepiej." - Ralph Waldo Emerson</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_ANIMA_MATERIALS_STRATEGY</Tag>
-		<English>TBD</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_ANIMATION</Tag>
@@ -2273,34 +2269,6 @@
 		<Spanish>La [COLOR_TECH_TEXT]Cadena de montaje[COLOR_REVERT] te permite construir [COLOR_UNIT_TEXT]Destructores antiguos[COLOR_REVERT] y [COLOR_UNIT_TEXT]Buques de línea pre-Dreadnought[COLOR_REVERT] (con la [COLOR_TECH_TEXT]Artillería[COLOR_REVERT] y la [COLOR_TECH_TEXT]Propulsión a hélice[COLOR_REVERT]). También permite la construcción del edificio de la [COLOR_BUILDING_TEXT]Fábrica[COLOR_REVERT], y se requiere para la [COLOR_BUILDING_TEXT]Central térmica[COLOR_REVERT] y la [COLOR_BUILDING_TEXT]Central térmica de petróleo[COLOR_REVERT]. Esta tecnología desbloquea el principio de Bienestar de las [COLOR_HIGHLIGHT_TEXT]Corporaciones[COLOR_REVERT].</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_TECH_ASTEROIDPROBE</Tag>
-		<English>Asteroid Belt Probes</English>
-		<French>Sondes d'Exploration de la Ceinture d'astéroïdes</French>
-		<German>Asteroidensonden</German>
-		<Italian>Esplorazione della fascia degli asteroidi</Italian>
-		<Spanish>
-			<Text>Exploración del Cinturón de asteroides</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-		<Polish>Sondy Pasów Planetoid</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_ASTEROIDPROBE_PEDIA</Tag>
-		<English>The first spacecraft to traverse the asteroid belt was Pioneer 10, which entered the region on July 16, 1972. At the time there was some concern that the debris in the belt would pose a hazard to the spacecraft, but it has since been safely traversed by 11 Earth-based craft without incident.[PARAGRAPH:2] Pioneer 11, Voyagers 1 and 2 and Ulysses passed through the belt without imaging any asteroids. Galileo imaged the asteroid 951 Gaspra in 1991 and 243 Ida in 1993, NEAR imaged 253 Mathilde in 1997, Cassini imaged 2685 Masursky in 2000, Stardust imaged 5535 Annefrank in 2002, New Horizons imaged 132524 APL in 2006, Rosetta imaged 2867 Steins in 2008, and Dawn has been orbiting Vesta since July 2011. [PARAGRAPH:2]Due to the low density of materials within the belt, the odds of a probe running into an asteroid are now estimated at less than one in a billion.[PARAGRAPH:2] All spacecraft images of belt asteroids to date have come from brief flyby opportunities by probes headed for other targets. Only the NEAR and Hayabusa missions have studied asteroids for a protracted period in orbit and at the surface and these were near-Earth asteroids. [PARAGRAPH:2] However, the Dawn Mission has been dispatched to explore Vesta and Ceres in the asteroid belt. If the probe is still operational after examining these two large bodies, an extended mission is possible that could allow additional exploration, possibly of Pallas.</English>
-		<Polish>Misja Rosetta jest misją kluczową w ramach realizowanego przez ESA programu badań kosmicznych Horizon 2000. W jej realizacji z ESA współpracują narodowe agencje kosmiczne z kilku krajów europejskich oraz NASA. Celem misji jest przeprowadzenie badań mających pomóc w poznaniu pochodzenia komet, powiązań między materią kometarną i materią międzygwiazdową oraz ich znaczenia dla powstania Układu Słonecznego.</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_ASTEROIDPROBE_QUOTE</Tag>
-		<English>"We are involved in technology development for, you know, missions that we hope to plan that would take us to an asteroid and eventually to Mars." - Ellen Ocha</English>
-		<French>"Nous sommes impliqués dans le développement de la technologie pour, vous savez, les missions que nous espérons plannifier qui nous mèneront à un astéroïde et, éventuellement, vers Mars." - Ellen Ocha</French>
-		<Polish>"Jesteśmy zaangażowani w rozwój technologii pod kątem misji, wiesz, które mamy nadzieję planować, a które pozwoliłyby nam dotrzeć na asteroidę, a w końcu i na Marsa." - Ellen Ochoa</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_ASTEROIDPROBE_STRATEGY</Tag>
-		<English>TBD</English>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_TECH_ASTEROID_EXTRACTION</Tag>
 		<English>Asteroid Extraction</English>
 		<French>Extraction d'Astéroides</French>
@@ -2356,6 +2324,34 @@
 		<German>[COLOR_TECH_TEXT]Asteroidabbau[COLOR_REVERT] ermöglicht Bau von [COLOR_HIGHLIGHT_TEXT]Asteroid Miners[COLOR_REVERT].</German>
 		<Italian>[COLOR_TECH_TEXT]Miniere asteroidali[COLOR_REVERT] permette la costruzione di [COLOR_HIGHLIGHT_TEXT]Minatori asteroidali[COLOR_REVERT]</Italian>
 		<Spanish>La [COLOR_TECH_TEXT]minería asteroidal[COLOR_REVERT] permite la construcción de [COLOR_HIGHLIGHT_TEXT]mineros asteroidales[COLOR_REVERT].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ASTEROIDPROBE</Tag>
+		<English>Asteroid Belt Probes</English>
+		<French>Sondes d'Exploration de la Ceinture d'astéroïdes</French>
+		<German>Asteroidensonden</German>
+		<Italian>Esplorazione della fascia degli asteroidi</Italian>
+		<Spanish>
+			<Text>Exploración del Cinturón de asteroides</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Polish>Sondy Pasów Planetoid</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ASTEROIDPROBE_PEDIA</Tag>
+		<English>The first spacecraft to traverse the asteroid belt was Pioneer 10, which entered the region on July 16, 1972. At the time there was some concern that the debris in the belt would pose a hazard to the spacecraft, but it has since been safely traversed by 11 Earth-based craft without incident.[PARAGRAPH:2] Pioneer 11, Voyagers 1 and 2 and Ulysses passed through the belt without imaging any asteroids. Galileo imaged the asteroid 951 Gaspra in 1991 and 243 Ida in 1993, NEAR imaged 253 Mathilde in 1997, Cassini imaged 2685 Masursky in 2000, Stardust imaged 5535 Annefrank in 2002, New Horizons imaged 132524 APL in 2006, Rosetta imaged 2867 Steins in 2008, and Dawn has been orbiting Vesta since July 2011. [PARAGRAPH:2]Due to the low density of materials within the belt, the odds of a probe running into an asteroid are now estimated at less than one in a billion.[PARAGRAPH:2] All spacecraft images of belt asteroids to date have come from brief flyby opportunities by probes headed for other targets. Only the NEAR and Hayabusa missions have studied asteroids for a protracted period in orbit and at the surface and these were near-Earth asteroids. [PARAGRAPH:2] However, the Dawn Mission has been dispatched to explore Vesta and Ceres in the asteroid belt. If the probe is still operational after examining these two large bodies, an extended mission is possible that could allow additional exploration, possibly of Pallas.</English>
+		<Polish>Misja Rosetta jest misją kluczową w ramach realizowanego przez ESA programu badań kosmicznych Horizon 2000. W jej realizacji z ESA współpracują narodowe agencje kosmiczne z kilku krajów europejskich oraz NASA. Celem misji jest przeprowadzenie badań mających pomóc w poznaniu pochodzenia komet, powiązań między materią kometarną i materią międzygwiazdową oraz ich znaczenia dla powstania Układu Słonecznego.</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ASTEROIDPROBE_QUOTE</Tag>
+		<English>"We are involved in technology development for, you know, missions that we hope to plan that would take us to an asteroid and eventually to Mars." - Ellen Ocha</English>
+		<French>"Nous sommes impliqués dans le développement de la technologie pour, vous savez, les missions que nous espérons plannifier qui nous mèneront à un astéroïde et, éventuellement, vers Mars." - Ellen Ocha</French>
+		<Polish>"Jesteśmy zaangażowani w rozwój technologii pod kątem misji, wiesz, które mamy nadzieję planować, a które pozwoliłyby nam dotrzeć na asteroidę, a w końcu i na Marsa." - Ellen Ochoa</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ASTEROIDPROBE_STRATEGY</Tag>
+		<English>TBD</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_ASTRO_ENVIRONMENTAL_SYSTEMS</Tag>
@@ -2432,7 +2428,14 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_ASTROBIOLOGY_QUOTE</Tag>
-		<English>Do you ever wonder if - well, if there are people living on the third planet?[NEWLINE]The third planet is incapable of supporting life, stated the husband patiently.[NEWLINE]Our scientists have said there's far too much oxygen in their atmosphere.[PARAGRAPH:2]- Ray Bradbury,[PARAGRAPH:1][SPACE][SPACE]"The Martian Chronicles"</English>
+		<English>
+"Do you ever wonder if - well, if there are people living on the third planet?"
+
+"The third planet is incapable of supporting life," stated the husband patiently.
+"Our scientists have said there's far too much oxygen in their atmosphere."
+
+	- "The Martian Chronicles" by Ray Bradbury
+		</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_ASTROBIOLOGY_STRATEGY</Tag>
@@ -3229,7 +3232,6 @@
 	<TEXT>
 		<Tag>TXT_KEY_TECH_BARTER_PEDIA</Tag>
 		<English>[TAB]Barter is a system of exchange where participants in a transaction directly exchange goods or services for other goods or services without using a medium of exchange, such as money. Barter usually takes place on a bilateral basis, but may be multilateral (i.e. mediated through a trade exchange). In most developed countries, barter usually only exists parallel to monetary systems to a very limited extent. Market actors use barter as a replacement for money as the method of exchange in times of monetary crisis, such as when currency becomes unstable (e.g. hyperinflation or a deflationary spiral) or simply unavailable for conducting commerce.[PARAGRAPH:2]Economists since the times of Adam Smith (1723-1790), looking at non-specific pre-modern societies as examples, have used the inefficiency of barter to explain the emergence of money, of "the" economy, and hence of the discipline of economics itself. However, ethnographic studies have shown that no present or past society has used barter without any other medium of exchange or measurement, nor have anthropologists found evidence that money emerged from barter, instead finding that gift-giving (credit extended on a personal basis with an inter-personal balance maintained over the long term) was the most usual means of exchange of goods and services.[PARAGRAPH:2]- Wikipedia (Wikidata item Q484830)</English>
-		<Polish>[BOLD]Handel Wymienny[\BOLD] to wymiana bezgotówkowa, czyli towar (bądź usługa) za towar. Strony uzgadniają wartość towarów lub usług i dążą do tego, żeby bilans był zerowy. Handel Wymienny (barter) był pierwszym systemem ekonomicznym społeczeństw nie posiadających jeszcze lub nie znających pojęcia pieniądza; w starożytnym Rzymie powodem jego stosowania była utrata wartości pieniądza. W dzisiejszych czasach barter używany jest w wymianie handlowej w celu obejścia restrykcji walutowych lub z krajami cierpiącymi na brak zasobów walut wymienialnych.</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_BARTER_QUOTE</Tag>
@@ -3386,30 +3388,6 @@
 		<Polish>Udostępnia Rowery. Odblokowuje [COLOR_BUILDING_TEXT]Sklep Rowerowy[COLOR_REVERT].</Polish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_TECH_BINARYLEGISLATION</Tag>
-		<English>Binary Legislation</English>
-		<French>Législation binaire</French>
-		<Spanish>
-			<Text>Legislación binaria</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-		<Polish>Binarna Legislacja</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_BINARYLEGISLATION_PEDIA</Tag>
-		<English>Binary Legislation is the collection of the laws that govern what rights Androids and other cybernetic individuals have in society. It also allows the emancipation of some high level Androids to serve in public services like Police, Firefighting, and Disaster Recovery among other trades.It also has legislation on the creation of a truely subconcious AI and the use of simulated realities.</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_BINARYLEGISLATION_QUOTE</Tag>
-		<English>"Human beings, viewed as behaving systems, are quite simple. The apparent complexity of our behavior over time is largely a reflection of the complexity of the environment in which we find ourselves." - Herbert A. Simon</English>
-		<Polish>"Ludzkość, postrzegana jako system zachowań, jest dość prosta. Wydaje się, że kompleksowośc naszych zachowań wynika z otoczenia w jakim żyjemy." - Herbert A. Simon</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_BINARYLEGISLATION_STRATEGY</Tag>
-		<English>TBD</English>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_TECH_BINARY_PYSCHOKINESIS</Tag>
 		<English>Binary Psychokinesis</English>
 		<French>Pyschokinésie Binaire</French>
@@ -3485,6 +3463,30 @@
 		<English>TBD</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_TECH_BINARYLEGISLATION</Tag>
+		<English>Binary Legislation</English>
+		<French>Législation binaire</French>
+		<Spanish>
+			<Text>Legislación binaria</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Polish>Binarna Legislacja</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BINARYLEGISLATION_PEDIA</Tag>
+		<English>Binary Legislation is the collection of the laws that govern what rights Androids and other cybernetic individuals have in society. It also allows the emancipation of some high level Androids to serve in public services like Police, Firefighting, and Disaster Recovery among other trades.It also has legislation on the creation of a truely subconcious AI and the use of simulated realities.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BINARYLEGISLATION_QUOTE</Tag>
+		<English>"Human beings, viewed as behaving systems, are quite simple. The apparent complexity of our behavior over time is largely a reflection of the complexity of the environment in which we find ourselves." - Herbert A. Simon</English>
+		<Polish>"Ludzkość, postrzegana jako system zachowań, jest dość prosta. Wydaje się, że kompleksowośc naszych zachowań wynika z otoczenia w jakim żyjemy." - Herbert A. Simon</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BINARYLEGISLATION_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_TECH_BINDING</Tag>
 		<English>Binding</English>
 		<French>Couture avec Ourlets</French>
@@ -3510,6 +3512,33 @@
 	<TEXT>
 		<Tag>TXT_KEY_TECH_BINDING_STRATEGY</Tag>
 		<English>[COLOR_TECH_TEXT]Binding[COLOR_REVERT] is a prehistoric era technology that allows the construction of the [COLOR_UNIT_TEXT]Slinger[COLOR_REVERT] unit.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BIOFUELS</Tag>
+		<English>Biomaterials</English>
+		<French>Bio-matériels</French>
+		<Italian>Biomateriali</Italian>
+		<Spanish>
+			<Text>Biomateriales</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Spanish>
+		<Polish>Biomateriały</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BIOFUELS_PEDIA</Tag>
+		<English>Biofuel is defined as solid, liquid or gaseous fuel obtained from relatively recently lifeless or living biological material and is different from fossil fuels, which are derived from long dead biological material. Also, various plants and plant-derived materials are used for biofuel manufacturing.[PARAGRAPH:2]There are two common strategies of producing liquid and gaseous agrofuels. One is to grow crops high in sugar (sugar cane, sugar beet, and sweet sorghum) or starch (corn/maize), and then use yeast fermentation to produce ethyl alcohol (ethanol). The second is to grow plants that contain high amounts of vegetable oil, such as oil palm, soybean, algae, jatropha, or pongamia pinnata. When these oils are heated, their viscosity is reduced, and they can be burned directly in a diesel engine, or they can be chemically processed to produce fuels such as biodiesel. Wood and its byproducts can also be converted into biofuels such as woodgas, methanol or ethanol fuel.[PARAGRAPH:2]Pioneers such as Henry Ford and Rudolph Diesel designed cars and engines to run on biofuels. Before World War II, the UK and Germany both sold biofuels mixed with petrol or diesel made from crude oil; the availability of cheap oil later ensured market dominance.</English>
+		<Polish>Biopaliwa to wszystkie paliwa, wyprodukowane z biomasy. Za biomasę uważa się całość materii roślinnej i zwierzęcej, ulegającej biodegradacji, oraz produkty ich przemiany materii, np. krowi nawóz. Z tego względu różnego rodzaju biopaliw jest mnóstwo i występują one w formie gazowej, ciekłej i stałej. Ponieważ biomasa jest odnawialnym źródłem energii, można z powodzeniem uważać biopaliwa jako nośnik właśnie energii odnawialnej. W odróżnieniu od węgla kamiennego, brunatnego, gazu ziemnego, paliw jądrowych czy paliw otrzymywanych z ropy naftowej. Definicje pojęcia biopaliwa są różne. Przykładowo za biopaliwa uważa się niekiedy te paliwa, które w ponad 80% (objętościowo) składają się z przetworzonej (lub nie) biomasy, zebranej w ciągu 10 lat przed jej wyprodukowaniem. Mnie taka definicja się niespecjalnie podoba, bo w takim przypadku moim zdaniem można mówić tylko o mieszance zawierającej ponad 80% biokomponentów. Biomasa jest krótkoterminowym magazynem energii słonecznej, która wyłapywana jest przez rośliny w procesie fotosyntezy. W dłuższym horyzoncie czasowym ta energia słoneczna zmagazynowana jest również w węglu kamiennym i ropie naftowej.</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BIOFUELS_QUOTE</Tag>
+		<English>"We should increase our development of alternative fuels, taking advantage of renewable resources, like using corn and sugar to produce ethanol or soybeans to produce biodiesel." -Bobby Jindal</English>
+		<French>"Nous devons accroître notre développement de carburants alternatifs, en tirant parti des ressources renouvelables, comme l'utilisation de maïs et de sucre pour produire de l'éthanol ou du soja pour produire du biodiesel." -Bobby Jindal]</French>
+		<Polish>"Global ocieplenie jest świetnym biznesem. Można bardzo dobrze zarobić na produkcji nowych technologii. W pewnym momencie okazuje się, że ekologia jest cacy - kiedy zaczyna się opłacać." - Kazimiera Szczuka</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BIOFUELS_STRATEGY</Tag>
+		<English>TBD</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_BIOINFORMATICS</Tag>
@@ -3620,33 +3649,6 @@
 		<Italian>La [COLOR_TECH_TEXT]Biologia[COLOR_REVERT] permette ai lavoratori di costruire le [COLOR_HIGHLIGHT_TEXT]fattorie[COLOR_REVERT] senza [COLOR_HIGHLIGHT_TEXT]irrigazione[COLOR_REVERT], oltre alla Meraviglia [COLOR_BUILDING_TEXT]Parco nazionale[COLOR_REVERT]. Aumenta la produzione di cibo di tutte le [COLOR_HIGHLIGHT_TEXT]fattorie[COLOR_REVERT] di 1.</Italian>
 		<Spanish>La [COLOR_TECH_TEXT]Biología[COLOR_REVERT] permite a tus trabajadores construir [COLOR_HIGHLIGHT_TEXT]Granjas[COLOR_REVERT] sin [COLOR_HIGHLIGHT_TEXT]Riego[COLOR_REVERT] así como la maravilla nacional del [COLOR_BUILDING_TEXT]Parque nacional[COLOR_REVERT]. Además, aumenta en 1 la producción de alimentos de todas las [COLOR_HIGHLIGHT_TEXT]Granjas[COLOR_REVERT].</Spanish>
 		<Polish>[COLOR_TECH_TEXT]Biologia[COLOR_REVERT] pozwala budować robotnikom [COLOR_HIGHLIGHT_TEXT]Farmy[COLOR_REVERT] bez dostępu do [COLOR_HIGHLIGHT_TEXT]Nawodnienia[COLOR_REVERT]. Pozwala zbudować cud narodowy [COLOR_BUILDING_TEXT]Park narodowy[COLOR_REVERT]. Zwiększa produkcję żywności o +1 na wszystkich [COLOR_HIGHLIGHT_TEXT]Farmach[COLOR_REVERT].</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_BIOFUELS</Tag>
-		<English>Biomaterials</English>
-		<French>Bio-matériels</French>
-		<Italian>Biomateriali</Italian>
-		<Spanish>
-			<Text>Biomateriales</Text>
-			<Gender>Male</Gender>
-			<Plural>1</Plural>
-		</Spanish>
-		<Polish>Biomateriały</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_BIOFUELS_PEDIA</Tag>
-		<English>Biofuel is defined as solid, liquid or gaseous fuel obtained from relatively recently lifeless or living biological material and is different from fossil fuels, which are derived from long dead biological material. Also, various plants and plant-derived materials are used for biofuel manufacturing.[PARAGRAPH:2]There are two common strategies of producing liquid and gaseous agrofuels. One is to grow crops high in sugar (sugar cane, sugar beet, and sweet sorghum) or starch (corn/maize), and then use yeast fermentation to produce ethyl alcohol (ethanol). The second is to grow plants that contain high amounts of vegetable oil, such as oil palm, soybean, algae, jatropha, or pongamia pinnata. When these oils are heated, their viscosity is reduced, and they can be burned directly in a diesel engine, or they can be chemically processed to produce fuels such as biodiesel. Wood and its byproducts can also be converted into biofuels such as woodgas, methanol or ethanol fuel.[PARAGRAPH:2]Pioneers such as Henry Ford and Rudolph Diesel designed cars and engines to run on biofuels. Before World War II, the UK and Germany both sold biofuels mixed with petrol or diesel made from crude oil; the availability of cheap oil later ensured market dominance.</English>
-		<Polish>Biopaliwa to wszystkie paliwa, wyprodukowane z biomasy. Za biomasę uważa się całość materii roślinnej i zwierzęcej, ulegającej biodegradacji, oraz produkty ich przemiany materii, np. krowi nawóz. Z tego względu różnego rodzaju biopaliw jest mnóstwo i występują one w formie gazowej, ciekłej i stałej. Ponieważ biomasa jest odnawialnym źródłem energii, można z powodzeniem uważać biopaliwa jako nośnik właśnie energii odnawialnej. W odróżnieniu od węgla kamiennego, brunatnego, gazu ziemnego, paliw jądrowych czy paliw otrzymywanych z ropy naftowej. Definicje pojęcia biopaliwa są różne. Przykładowo za biopaliwa uważa się niekiedy te paliwa, które w ponad 80% (objętościowo) składają się z przetworzonej (lub nie) biomasy, zebranej w ciągu 10 lat przed jej wyprodukowaniem. Mnie taka definicja się niespecjalnie podoba, bo w takim przypadku moim zdaniem można mówić tylko o mieszance zawierającej ponad 80% biokomponentów. Biomasa jest krótkoterminowym magazynem energii słonecznej, która wyłapywana jest przez rośliny w procesie fotosyntezy. W dłuższym horyzoncie czasowym ta energia słoneczna zmagazynowana jest również w węglu kamiennym i ropie naftowej.</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_BIOFUELS_QUOTE</Tag>
-		<English>"We should increase our development of alternative fuels, taking advantage of renewable resources, like using corn and sugar to produce ethanol or soybeans to produce biodiesel." -Bobby Jindal</English>
-		<French>"Nous devons accroître notre développement de carburants alternatifs, en tirant parti des ressources renouvelables, comme l'utilisation de maïs et de sucre pour produire de l'éthanol ou du soja pour produire du biodiesel." -Bobby Jindal]</French>
-		<Polish>"Global ocieplenie jest świetnym biznesem. Można bardzo dobrze zarobić na produkcji nowych technologii. W pewnym momencie okazuje się, że ekologia jest cacy - kiedy zaczyna się opłacać." - Kazimiera Szczuka</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_BIOFUELS_STRATEGY</Tag>
-		<English>TBD</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_BIOMATHMATICS</Tag>
@@ -5073,33 +5075,6 @@
 		<English>TBD</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_TECH_CLOUDCOMPUTING</Tag>
-		<English>Cloud Computing</English>
-		<French>Informatique dans le 'Cloud'</French>
-		<Italian>Computazione cloud</Italian>
-		<Spanish>
-			<Text>Informática en la nube</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-		<Polish>Chmura Obliczeniowa</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_CLOUDCOMPUTING_PEDIA</Tag>
-		<English>Instead of installing a suite of software for each computer, you'd only have to load one application. That application would allow workers to log into a Web-based service which hosts all the programs the user would need for his or her job. Remote machines owned by another company would run everything from e-mail to word processing to complex data analysis programs. A cloud computing system, there's a significant workload shift.[PARAGRAPH:2]Local computers no longer have to do all the heavy lifting when it comes to running applications. The network of computers that make up the cloud handles them instead. Hardware and software demands on the user's side decrease. The only thing the user's computer needs to be able to run is the cloud computing system's interface software, which can be as simple as a Web browser, and the cloud's network takes care of the rest.</English>
-		<Polish>Chmura obliczeniowa (ang. cloud computing) - model przetwarzania danych oparty na użytkowaniu usług dostarczonych przez usługodawcę (wewnętrzny dział lub zewnętrzna organizacja). Funkcjonalność jest tu rozumiana jako usługa (dająca wartość dodaną użytkownikowi) oferowana przez dane oprogramowanie (oraz konieczną infrastrukturę). Oznacza to eliminację konieczności zakupu licencji czy konieczności instalowania i administracji oprogramowaniem. Konsument płaci za użytkowanie określonej usługi, np. za możliwość korzystania z arkusza kalkulacyjnego. Nie musi dokonywać zakupu sprzętu ani oprogramowania. Umowa zawierana na świadczenie usług w chmurze obliczeniowej przeważnie nie jest tworzona pod konkretny podmiot, lecz zawiera pakiet rozwiązań zestandaryzowanych. Termin "chmura obliczeniowa" jest związany z pojęciem wirtualizacji. Model "chmury obliczeniowej" historycznie wiąże się z przetwarzaniem w sieci grid, gdzie wiele systemów udostępnia usługi korzystając z podłączonych zasobów, z tą różnicą, że w chmurze obliczeniowej mamy do czynienia z podążaniem zasobów za potrzebami usługobiorcy.</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_CLOUDCOMPUTING_QUOTE</Tag>
-		<English>"Our industry is going through quite a wave of innovation and it's being powered by a phenomenon which is referred to as the cloud." - Steve Ballmer, CEO of Microsoft</English>
-		<French>"Notre industrie se dirige vers toute une vague d'innovations, alimentée par un phénomène qui est appelé le nuage." - Steve Ballmer, CEO of Microsoft</French>
-		<Polish>"Nasz przemysł przechodzi jakby przez falę innowacji i jest to napędzane przez zjawisko, które określa się jako chmurę." - Steve Ballmer</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_CLOUDCOMPUTING_STRATEGY</Tag>
-		<English>TBD</English>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_TECH_CLOUD_PATTERNS</Tag>
 		<English>Cloud Patterns</English>
 		<French>Structures des nuages</French>
@@ -5146,6 +5121,33 @@ Types of Low clouds:
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_CLOUD_PATTERNS_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CLOUDCOMPUTING</Tag>
+		<English>Cloud Computing</English>
+		<French>Informatique dans le 'Cloud'</French>
+		<Italian>Computazione cloud</Italian>
+		<Spanish>
+			<Text>Informática en la nube</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Polish>Chmura Obliczeniowa</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CLOUDCOMPUTING_PEDIA</Tag>
+		<English>Instead of installing a suite of software for each computer, you'd only have to load one application. That application would allow workers to log into a Web-based service which hosts all the programs the user would need for his or her job. Remote machines owned by another company would run everything from e-mail to word processing to complex data analysis programs. A cloud computing system, there's a significant workload shift.[PARAGRAPH:2]Local computers no longer have to do all the heavy lifting when it comes to running applications. The network of computers that make up the cloud handles them instead. Hardware and software demands on the user's side decrease. The only thing the user's computer needs to be able to run is the cloud computing system's interface software, which can be as simple as a Web browser, and the cloud's network takes care of the rest.</English>
+		<Polish>Chmura obliczeniowa (ang. cloud computing) - model przetwarzania danych oparty na użytkowaniu usług dostarczonych przez usługodawcę (wewnętrzny dział lub zewnętrzna organizacja). Funkcjonalność jest tu rozumiana jako usługa (dająca wartość dodaną użytkownikowi) oferowana przez dane oprogramowanie (oraz konieczną infrastrukturę). Oznacza to eliminację konieczności zakupu licencji czy konieczności instalowania i administracji oprogramowaniem. Konsument płaci za użytkowanie określonej usługi, np. za możliwość korzystania z arkusza kalkulacyjnego. Nie musi dokonywać zakupu sprzętu ani oprogramowania. Umowa zawierana na świadczenie usług w chmurze obliczeniowej przeważnie nie jest tworzona pod konkretny podmiot, lecz zawiera pakiet rozwiązań zestandaryzowanych. Termin "chmura obliczeniowa" jest związany z pojęciem wirtualizacji. Model "chmury obliczeniowej" historycznie wiąże się z przetwarzaniem w sieci grid, gdzie wiele systemów udostępnia usługi korzystając z podłączonych zasobów, z tą różnicą, że w chmurze obliczeniowej mamy do czynienia z podążaniem zasobów za potrzebami usługobiorcy.</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CLOUDCOMPUTING_QUOTE</Tag>
+		<English>"Our industry is going through quite a wave of innovation and it's being powered by a phenomenon which is referred to as the cloud." - Steve Ballmer, CEO of Microsoft</English>
+		<French>"Notre industrie se dirige vers toute une vague d'innovations, alimentée par un phénomène qui est appelé le nuage." - Steve Ballmer, CEO of Microsoft</French>
+		<Polish>"Nasz przemysł przechodzi jakby przez falę innowacji i jest to napędzane przez zjawisko, które określa się jako chmurę." - Steve Ballmer</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CLOUDCOMPUTING_STRATEGY</Tag>
 		<English>TBD</English>
 	</TEXT>
 	<TEXT>
@@ -7635,8 +7637,6 @@ During wartime, some coast guard organizations might have responsibilities in ha
 	<TEXT>
 		<Tag>TXT_KEY_TECH_DRYING_STRATEGY</Tag>
 		<English>[COLOR_TECH_TEXT]Drying[COLOR_REVERT] is a prehistoric era technology that allows the construction of the [COLOR_BUILDING_TEXT]Drying Frame[COLOR_REVERT] which is the requirement to build the powerful [COLOR_BUILDING_TEXT]Tannery[COLOR_REVERT], a building that increases a city's overall [ICON_PRODUCTION][COLOR_GREEN]Hammer[COLOR_REVERT] output. It also reveals [COLOR_CYAN]Salt[COLOR_REVERT] that provides [ICON_HEALTHY][COLOR_GREEN]Healthiness[COLOR_REVERT].</English>
-		<French>Rechercher Séchage permet d'augmenter votre croissance</French>
-		<Spanish>Investiga el Secado para aumentar tu crecimiento.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_DUALFLUX_QUANTUM_TEMPORAL_RIFT</Tag>
@@ -7959,15 +7959,19 @@ During wartime, some coast guard organizations might have responsibilities in ha
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_ECOSYNTHESIS_QUOTE</Tag>
-		<English>W. H. Carruth
-	A fire-mist and a planet,
+		<English>Each in his own Tongue (Poem excerpt)
+
+A fire-mist and a planet,
 	A crystal and a cell,
-	A jellyfish and a saurian,
-	And caves where the cavemen dwell;
-	Then a sense of law and beauty,
-	And a face turned from the clod-
-	Some call it Evolution,
-	And others call it God.</English>
+A jellyfish and a saurian,
+	And caves where the cave-men dwell;
+Then a sense of law and beauty,
+	And a face turned from the clod, --
+Some call it Evolution,
+	And others call it God.
+
+	- William Herbert Carruth (1859 - 1924)
+	</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_ECOSYNTHESIS_STRATEGY</Tag>
@@ -8259,7 +8263,7 @@ During wartime, some coast guard organizations might have responsibilities in ha
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_EMANCIPATION_PEDIA</Tag>
-		<English>[BOLD]Emancipation[\BOLD], is a broad term used to describe various efforts to obtain political rights or equality, often for a specifically disenfranchised group, or more generally in discussion of such matters. Emancipation stems from "ex manus capere": Take out the hand. Among others, Karl Marx discussed political emancipation in his 1844 essay "On the Jewish Question", although often in addition to (or in contrast with) the term human emancipation. Marx's views of political emancipation in this work were summarized by one writer as entailing "equal status of individual citizens in relation to the state, equality before the law, regardless of religion, property, or other private characteristics of individual people."Political emancipation" as a phrase is less common in modern usage, especially outside academic, foreign or activist contexts. However, similar concepts may be referred to by other terms. For instance, in the United States the civil rights movement culminating in the Voting Rights Act of 1965, can be seen as further realization of events such as the Emancipation Proclamation and abolition of slavery a century earlier. In the current and former British West Indies islands the holiday Emancipation Day is celebrated to mark the end of the Atlantic slave trade.</English>
+		<English>[BOLD]Emancipation[\BOLD], is a broad term used to describe various efforts to obtain political rights or equality, often for a specifically disenfranchised group, or more generally in discussion of such matters. Emancipation stems from "ex manus capere": Take out the hand. Among others, Karl Marx discussed political emancipation in his 1844 essay "On the Jewish Question", although often in addition to (or in contrast with) the term human emancipation. Marx's views of political emancipation in this work were summarized by one writer as entailing equal status of individual citizens in relation to the state, equality before the law, regardless of religion, property, or other private characteristics of individual people. "Political emancipation" as a phrase is less common in modern usage, especially outside academic, foreign or activist contexts. However, similar concepts may be referred to by other terms. For instance, in the United States the civil rights movement culminating in the Voting Rights Act of 1965, can be seen as further realization of events such as the Emancipation Proclamation and abolition of slavery a century earlier. In the current and former British West Indies islands the holiday Emancipation Day is celebrated to mark the end of the Atlantic slave trade.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_EMANCIPATION_QUOTE</Tag>
@@ -8589,7 +8593,7 @@ During wartime, some coast guard organizations might have responsibilities in ha
 	<TEXT>
 		<Tag>TXT_KEY_TECH_EXOCORTEXNETWORKS_QUOTE</Tag>
 		<English>"Living is like tearing through a museum. Not until later do you really start absorbing what you saw, thinking about it, looking it up in a book, and remembering- because you can't take it in all at once." - Audrey Hepburn</English>
-		<Polish>"Życie jest jak przedzieranie się przez muzeum. Dopiero po jakimś czasie zaczynasz naprawdę chłonąć to, co zobaczyłeś, myśleć o tym, szukać informacji w książkach i zapamiętywać, ponieważ nie dajesz rady przyjąć tego wszystkiego od razu." - Audrey Hepburn"</Polish>
+		<Polish>"Życie jest jak przedzieranie się przez muzeum. Dopiero po jakimś czasie zaczynasz naprawdę chłonąć to, co zobaczyłeś, myśleć o tym, szukać informacji w książkach i zapamiętywać, ponieważ nie dajesz rady przyjąć tego wszystkiego od razu." - Audrey Hepburn</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_EXOCORTEXNETWORKS_STRATEGY</Tag>
@@ -10338,6 +10342,33 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 		<English>TBD</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_TECH_GENCYCLOPEDIA</Tag>
+		<English>Genomic Encyclopedia</English>
+		<French>Encyclopédie Génomique</French>
+		<German>Genom-Enzyklopädie</German>
+		<Italian>Enciclopedia genomica</Italian>
+		<Spanish>
+			<Text>Enciclopedia genómica</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Polish>Encyklopedia Genów</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_GENCYCLOPEDIA_PEDIA</Tag>
+		<English>In bioinformatics, a genome browser is a graphical interface for display of information from a biological database for genomic data. Genome browsers enable researchers to visualize and browse entire genomes (most have many complete genomes) with annotated data including gene prediction and structure, proteins, expression, regulation, variation, comparative analysis, etc. Annotated data is usually from multiple diverse sources. They differ from ordinary biological databases in that they display data in a graphical format, with genome coordinates on one axis and the location of annotations indicated by a space-filling graphic to show the occurrence of genes, etc. [PARAGRAPH:2] The UCSC Genome Browser is an on-line genome browser hosted by the University of California, Santa Cruz (UCSC). It is an interactive website offering access to genome sequence data from a variety of vertebrate and invertebrate species and major model organisms, integrated with a large collection of aligned annotations.[PARAGRAPH:2]The Browser is a graphical viewer optimized to support fast interactive performance and is an open-source, web-based tool suite built on top of a MySQL database for rapid visualization, examination, and querying of the data at many levels. In the years since its inception, the UCSC Browser has expanded to accommodate genome sequences of all vertebrate species and selected invertebrates for which high-coverage genomic sequences is available, now including 46 species. High coverage is necessary to allow overlap to guide the construction of larger contiguous regions. [PARAGRAPH:2] Genomic sequences with less coverage are included in multiple-alignment tracks on some browsers, but the fragmented nature of these assemblies does not make them suitable for building full featured browsers. (more below on multiple-alignment tracks). The species hosted with full-featured genome browsers are shown in the table..</English>
+		<Polish>Geny organizmów eukariotycznych zawierają część kodującą, zawierającą odpowiedź na powyższe pytania (1) i (4) oraz odcinki regulatorowe, wyznaczające odpowiedź na pozostałe z powyższych pytań. Wśród odcinków regulatorowych szczególnie ważna rola przypada odcinkowi poprzedzającemu część kodującą i zwanemu promotorem. Tuż za częścią kodującą znajduje się odcinek regulatorowy zwany terminatorem, zawierający polecenie przerwania transkrypcji i poddania transkryptu modyfikacjom określającym jego trwałość.</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_GENCYCLOPEDIA_QUOTE</Tag>
+		<English>"A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing." - George Bernard Shaw</English>
+		<Polish>"Życie spędzone na popełnianiu błędów jest nie tylko bardziej godne szacunku, ale też i bardziej użyteczne niż życie spędzone na nie robieniu niczego." - George Bernard Shaw</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_GENCYCLOPEDIA_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_TECH_GENEENHANCEMENT</Tag>
 		<English>Gene Enhancement</English>
 		<French>Amélioration Génétique</French>
@@ -10494,33 +10525,6 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 		<English>[COLOR_TECH_TEXT]Genetics[COLOR_REVERT] greatly increases the health of your cities. It allows you to build the [COLOR_BUILDING_TEXT]Human Genome Project[COLOR_REVERT] wonder.</English>
 		<German>verbessert deutlich die [COLOR_HIGHLIGHT_TEXT]Gesundheit[COLOR_REVERT] in Städten, erlaubt das [COLOR_BUILDING_TEXT]Humangenomprojekt[COLOR_REVERT].</German>
 		<Spanish>La [COLOR_TECH_TEXT]Genética[COLOR_REVERT] aumenta notablemente la salud de tus ciudades. Esta tecnología te permite completar el [COLOR_BUILDING_TEXT]Proyecto Genoma Humano[COLOR_REVERT].</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_GENCYCLOPEDIA</Tag>
-		<English>Genomic Encyclopedia</English>
-		<French>Encyclopédie Génomique</French>
-		<German>Genom-Enzyklopädie</German>
-		<Italian>Enciclopedia genomica</Italian>
-		<Spanish>
-			<Text>Enciclopedia genómica</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-		<Polish>Encyklopedia Genów</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_GENCYCLOPEDIA_PEDIA</Tag>
-		<English>In bioinformatics, a genome browser is a graphical interface for display of information from a biological database for genomic data. Genome browsers enable researchers to visualize and browse entire genomes (most have many complete genomes) with annotated data including gene prediction and structure, proteins, expression, regulation, variation, comparative analysis, etc. Annotated data is usually from multiple diverse sources. They differ from ordinary biological databases in that they display data in a graphical format, with genome coordinates on one axis and the location of annotations indicated by a space-filling graphic to show the occurrence of genes, etc. [PARAGRAPH:2] The UCSC Genome Browser is an on-line genome browser hosted by the University of California, Santa Cruz (UCSC). It is an interactive website offering access to genome sequence data from a variety of vertebrate and invertebrate species and major model organisms, integrated with a large collection of aligned annotations.[PARAGRAPH:2]The Browser is a graphical viewer optimized to support fast interactive performance and is an open-source, web-based tool suite built on top of a MySQL database for rapid visualization, examination, and querying of the data at many levels. In the years since its inception, the UCSC Browser has expanded to accommodate genome sequences of all vertebrate species and selected invertebrates for which high-coverage genomic sequences is available, now including 46 species. High coverage is necessary to allow overlap to guide the construction of larger contiguous regions. [PARAGRAPH:2] Genomic sequences with less coverage are included in multiple-alignment tracks on some browsers, but the fragmented nature of these assemblies does not make them suitable for building full featured browsers. (more below on multiple-alignment tracks). The species hosted with full-featured genome browsers are shown in the table..</English>
-		<Polish>Geny organizmów eukariotycznych zawierają część kodującą, zawierającą odpowiedź na powyższe pytania (1) i (4) oraz odcinki regulatorowe, wyznaczające odpowiedź na pozostałe z powyższych pytań. Wśród odcinków regulatorowych szczególnie ważna rola przypada odcinkowi poprzedzającemu część kodującą i zwanemu promotorem. Tuż za częścią kodującą znajduje się odcinek regulatorowy zwany terminatorem, zawierający polecenie przerwania transkrypcji i poddania transkryptu modyfikacjom określającym jego trwałość.</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_GENCYCLOPEDIA_QUOTE</Tag>
-		<English>"A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing." - George Bernard Shaw</English>
-		<Polish>"Życie spędzone na popełnianiu błędów jest nie tylko bardziej godne szacunku, ale też i bardziej użyteczne niż życie spędzone na nie robieniu niczego." - George Bernard Shaw</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_GENCYCLOPEDIA_STRATEGY</Tag>
-		<English>TBD</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_GEOCENTRISM</Tag>
@@ -11175,10 +11179,6 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 	<TEXT>
 		<Tag>TXT_KEY_TECH_HERBALISM_STRATEGY</Tag>
 		<English>[COLOR_TECH_TEXT]Herbalism[COLOR_REVERT] is a prehistoric era technology that allows the construction of the very first type of [COLOR_GREEN]Disease[COLOR_REVERT] reducing units, the [COLOR_UNIT_TEXT]Wise Woman[COLOR_REVERT]. It also reveals resources like [COLOR_CYAN]Tobacco[COLOR_REVERT] and [COLOR_CYAN]Opium[COLOR_REVERT].</English>
-		<French>Révèle le Thé et le Tabac.</French>
-		<Italian>Rivela le risorse Tè e Tabacco</Italian>
-		<Spanish>Revela varios recursos útiles, como el [COLOR_CYAN]Tabaco[COLOR_REVERT] y la [COLOR_CYAN]Kava[COLOR_REVERT].</Spanish>
-		<Polish>Odsłania na mapie Herbatę oraz Tabakę.</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_HERITAGE</Tag>
@@ -13844,32 +13844,6 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 		<Spanish>La [COLOR_TECH_TEXT]Cartografía[COLOR_REVERT] te permite intercambiar [COLOR_HIGHLIGHT_TEXT]mapas[COLOR_REVERT] con otras civilizaciones.</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_TECH_MARINEARCHITECTURE</Tag>
-		<English>Marine Architecture</English>
-		<French>Architecture Marine</French>
-		<German>Marine Architektur</German>
-		<Italian>Architettura marina</Italian>
-		<Spanish>
-			<Text>Arquitectura marina</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-		<Polish>Architektura Morska</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_MARINEARCHITECTURE_PEDIA</Tag>
-		<English>Marine Architecture are above water structures in which people can live for extended periods and carry out most of the basic human functions of a 24-hour day, such as working, resting, eating, attending to personal hygiene, and sleeping. In this context 'architecture' is generally used in a narrow sense to mean the interior and immediate exterior of the structure and its fixtures, but not its surrounding marine environment. Most early marine architecture lacked regenerative systems for air, water, food, electricity, and other resources. However, recently some new marine architecture allow for these resources to be delivered using pipes, or generated within the habitat, rather than manually delivered. [PARAGRAPH:2] Marine Architecture has to meet the needs of human physiology and provide suitable environmental conditions, and the one which is most critical is breathing air of suitable quality. Others concern the physical environment (pressure, temperature, light, humidity), the chemical environment (drinking water, food, waste products, toxins) and the biological environment (hazardous sea creatures, microorganisms, fungi).[PARAGRAPH:2] Much of the science covering marine architecture and their technology designed to meet human requirements is shared with diving, diving bells, submersible vehicles and submarines, and even spacecraft.</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_MARINEARCHITECTURE_QUOTE</Tag>
-		<English>"But more wonderful than the lore of old men and the lore of books is the secret lore of ocean." - H. P. Lovecraft</English>
-		<Polish>"Lecz bardziej wspaniała niż wiedza starego człowieka i wiedza książek jest tajemna wiedza oceanu." - H. P. Lovecraft</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_MARINEARCHITECTURE_STRATEGY</Tag>
-		<English>TBD</English>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_TECH_MARINE_BIOLOGY</Tag>
 		<English>Marine Biology</English>
 		<French>Biologie Marine</French>
@@ -13899,6 +13873,32 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 		<French>étant donné que de nombreux phylums en biologie, les familles et genres ont des espèces qui vivent dans la mer et d'autres qui vivent sur terre, la biologie marine classe les espèces en fonction de l'environnement plutôt que sur la taxonomie. La Biologie marine diffère de l'écologie marine car c'est l'étude des organismes eux-mêmes.</French>
 		<Spanish>Dado que en biología diversos filos, familias y géneros tienen algunas especies que viven en el mar y otras que viven en la tierra, la Biología marina clasifica a las especies basándose en su entorno de vida en lugar de la taxonomía. La biología marina se diferencia de la ecología marina, ya que esta se enfoca en cómo interactúan unos organismos con otros y con el medio, mientras que la biología estudia los propios organismos.</Spanish>
 		<Polish>Zwiększa ilość żywności z usprawnień morskich o +1. Odblokowuje kilka budynków związanych z morzem.</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MARINEARCHITECTURE</Tag>
+		<English>Marine Architecture</English>
+		<French>Architecture Marine</French>
+		<German>Marine Architektur</German>
+		<Italian>Architettura marina</Italian>
+		<Spanish>
+			<Text>Arquitectura marina</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Polish>Architektura Morska</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MARINEARCHITECTURE_PEDIA</Tag>
+		<English>Marine Architecture are above water structures in which people can live for extended periods and carry out most of the basic human functions of a 24-hour day, such as working, resting, eating, attending to personal hygiene, and sleeping. In this context 'architecture' is generally used in a narrow sense to mean the interior and immediate exterior of the structure and its fixtures, but not its surrounding marine environment. Most early marine architecture lacked regenerative systems for air, water, food, electricity, and other resources. However, recently some new marine architecture allow for these resources to be delivered using pipes, or generated within the habitat, rather than manually delivered. [PARAGRAPH:2] Marine Architecture has to meet the needs of human physiology and provide suitable environmental conditions, and the one which is most critical is breathing air of suitable quality. Others concern the physical environment (pressure, temperature, light, humidity), the chemical environment (drinking water, food, waste products, toxins) and the biological environment (hazardous sea creatures, microorganisms, fungi).[PARAGRAPH:2] Much of the science covering marine architecture and their technology designed to meet human requirements is shared with diving, diving bells, submersible vehicles and submarines, and even spacecraft.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MARINEARCHITECTURE_QUOTE</Tag>
+		<English>"But more wonderful than the lore of old men and the lore of books is the secret lore of ocean." - H. P. Lovecraft</English>
+		<Polish>"Lecz bardziej wspaniała niż wiedza starego człowieka i wiedza książek jest tajemna wiedza oceanu." - H. P. Lovecraft</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MARINEARCHITECTURE_STRATEGY</Tag>
+		<English>TBD</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_MARTIAL_ARTS</Tag>
@@ -14563,9 +14563,6 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 	<TEXT>
 		<Tag>TXT_KEY_TECH_MEGALITH_CONSTRUCTION_STRATEGY</Tag>
 		<English>[COLOR_TECH_TEXT]Megalith Construction[COLOR_REVERT] is a prehistoric era technology that allows the construction a few world wonders, like the [COLOR_BUILDING_TEXT]Stonehenge[COLOR_REVERT], and the national wonder [COLOR_BUILDING_TEXT]Log Roller System[COLOR_REVERT] that increases [COLOR_UNIT_TEXT]Worker[COLOR_REVERT] unit [COLOR_HIGHLIGHT_TEXT]improvement build speed[COLOR_REVERT].</English>
-		<French>Peut fournir un abri et des tombes.</French>
-		<Spanish>Permite la construcción de refugios y tumbas.</Spanish>
-		<Polish>Odblokowuje [COLOR_BUILDING_TEXT]Ambasady: Celtycką, Olmecką i Tamilską[COLOR_REVERT] oraz [COLOR_BUILDING_TEXT]Inuksuk[COLOR_REVERT], [COLOR_BUILDING_TEXT]Stonhenge[COLOR_REVERT], [COLOR_BUILDING_TEXT]Statuy Moai[COLOR_REVERT] i [COLOR_BUILDING_TEXT]Wał Ziemny[COLOR_REVERT].</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_MEGASTRONG_ALLOYS</Tag>
@@ -15006,10 +15003,6 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 	<TEXT>
 		<Tag>TXT_KEY_TECH_MICROLITH_STRATEGY</Tag>
 		<English>[COLOR_TECH_TEXT]Microlith[COLOR_REVERT] is a prehistoric era technology that increases [COLOR_UNIT_TEXT]Worker[COLOR_REVERT] unit [COLOR_HIGHLIGHT_TEXT]improvement build speed[COLOR_REVERT]. It also unlocks the [COLOR_BUILDING_TEXT]Microlith Workshop[COLOR_REVERT] that increases [COLOR_HIGHLIGHT_TEXT]military unit production rate[COLOR_REVERT].</English>
-		<French>Permet d'améliorer l'efficacité des cueilleurs.</French>
-		<Italian>I raccoglitori lavorano più velocemente; inoltre, la bottega di microliti migliora la produzione militare</Italian>
-		<Spanish>Los Recolectores trabajarán más rápido, y el Taller de microlitos mejorará la producción militar.</Spanish>
-		<Polish>Usprawnia pracę robotników.</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_MICROMECHANICS</Tag>
@@ -15565,35 +15558,6 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 		<English>This is a gateway tech, which means that it must be taken to open up the next era of research technologies.  At these points, education demands increase because there is more for the people to know to keep up with understanding the pinnacle of knowledge in their society.  The potential impact of high or low education expands another level.  It's not uncommon for many obsoletions to take place at this point.  Techs left behind as unresearched before reaching this point will become more expensive to research upon reaching this technology provided that the Beeline Stings game option is in play.  Buildings from previous techs become more expensive, in production cost, to construct.  However, the first player to reasearch a gateway technology gains a free tech selection.</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_TECH_MODERNPHYSICS</Tag>
-		<English>Modern Physics</English>
-		<French>Physique Moderne</French>
-		<German>Moderne Physik</German>
-		<Italian>Fisica moderna</Italian>
-		<Spanish>
-			<Text>Física moderna</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-		<Polish>Nowoczesna Fizyka</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_MODERNPHYSICS_PEDIA</Tag>
-		<English>The turn of the 20th century brought the start of a revolution in physics. This revolution centered around the advent on quantum mechanics and special and general relativity, the two concepts that mark the advent of modern physics. Both of these theories would offer fundamental insights into the universe and the laws the govern it. Quantum mechanics would describe the microscopic nature of matter, while relativity would describe space and time. [PARAGRAPH:2]In 1900, Max Planck published his explanation of blackbody radiation. This equation assumed that radiators are quantized, which proved to be the opening argument in the edifice that would become quantum mechanics. By introducing discrete energy levels, Planck, Einstein, Niels Bohr, and others developed quantum theories to explain other anomalous experimental results like the photoelectric effect. The discovery of quantum mechanics in the early 20th century revolutionized physics, and quantum mechanics is fundamental to most areas of current research. [PARAGRAPH:2]In 1904, J. J. Thomson proposed the first model of the atom, known as the plum pudding model. In 1911, Ernest Rutherford deduced from scattering experiments the existence of a compact atomic nucleus, with positively charged constituents dubbed protons. The first quantum mechanical model of the atom, the Bohr model, was published in 1913 by Niels Bohr. Sir W. H. Bragg and his son Sir William Lawrence Bragg, also in 1913, began to unravel the arrangement of atoms in crystalline matter by the use of x-ray diffraction. Neutrons, the neutral nuclear constituents, were discovered in 1932 by James Chadwick. [PARAGRAPH:2]One of the most important concepts in modern physics and one which would help usher in quantum mechanics was proposed by Louis de Broglie. Broglie's 1922 doctoral thesis introduced his theory of electron waves. This included the wave-particle duality theory of matter, based on the work of Albert Einstein and Planck. This research culminated in the de Broglie hypothesis stating that any moving particle or object had an associated wave. De Broglie thus created a new field in physics, wave mechanics, uniting the physics of light and matter. Among the applications of this work has been the development of electron microscopes to get much better image resolution than optical ones, because of shorter wavelengths of electrons compared with photon. [PARAGRAPH:2]In 1915, Einstein extended special relativity to describe gravity with the general theory of relativity. One principal result of general relativity is the gravitational collapse into black holes, which was anticipated two centuries earlier, but elucidated by Robert Oppenheimer. Important exact solutions of Einstein's field equation were found by Karl Schwarzschild in 1915 and Roy Kerr only in 1963. One part of the theory of general relativity is Einstein's field equation. This describes how the stress-energy tensor creates curvature of spacetime and forms the basis of general relativity. Further work on Einstein's field equation produced results which predicted the Big Bang, black holes, and the expanding universe. Einstein believed in a static universe. He tried, and failed, to fix his equation to allow for this. In 1929, however, Edwin Hubble published his discovery that that the universe is expanding at a possibly exponential rate. This is the basis for understanding that the universe is expanding. Thus, the universe must have been smaller and therefore hotter in the past. In 1933 Karl Jansky at Bell Labs discovered the radio emission from the Milky Way, and thereby initiated the science of radio astronomy. By the 1940s, researchers like George Gamow proposed the Big Bang theory, evidence for which was discovered in 1964; Enrico Fermi and Fred Hoyle were among the doubters in the 1940s and 1950s. Hoyle had dubbed Gamow's theory the Big Bang in order to debunk it. Today, it is one of the principal results of cosmology.</English>
-		<Polish>Obecny zakres zainteresowania fizyki ukształtował się w XIX i na początku XX wieku, również wówczas zarysował się podstawowy podział fizyki na klasyczne działy: mechanikę, optykę, naukę o cieple, elektryczność i magnetyzm. Fizyka odkrywając nowe zjawiska, opisując je, tworząc teorie pozwalające przewidywać nowe efekty, stała się motorem napędowym gwałtownego rozwoju techniki i doprowadziła do rewolucyjnych zmian cywilizacyjnych. Proces ten trwa do dzisiaj ulegając, co więcej ulega ciągłej akceleracji.</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_MODERNPHYSICS_QUOTE</Tag>
-		<English>"It is impossible to trap modern physics into predicting anything with perfect determinism because it deals with probabilities from the outset." - Sir Arthur Eddington</English>
-		<French>"Il est impossible de piéger la physique moderne en prédisant quoi que ce soit avec un déterminisme parfait, car elle traite avec des probabilités d'emblée." - Sir Arthur Eddington</French>
-		<Polish>"W nauce istnieje tylko fizyka, reszta to zbieranie znaczków." - Ernest Rutherford</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_MODERNPHYSICS_STRATEGY</Tag>
-		<English>This tech allows city to construct Laboratory and SR-71 spyplane. First to discover this tech receives a Great Scientist.</English>
-		<Spanish>Esta tecnología permite a las ciudades construir el Laboratorio y el avión espía SR-71. El primero en descubrirla recibirá un Gran científico.</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_TECH_MODERN_SANITATION</Tag>
 		<English>Modern Sanitation</English>
 		<French>Assainissement Moderne</French>
@@ -15681,6 +15645,35 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 		<English>[COLOR_TECH_TEXT]Modern Warfare[COLOR_REVERT] allows you to construct [COLOR_UNIT_TEXT]Mobile SAM[COLOR_REVERT], [COLOR_UNIT_TEXT]T95[COLOR_REVERT] armor, [COLOR_UNIT_TEXT]Modern Paratroopers[COLOR_REVERT] (with [COLOR_TECH_TEXT]Supersonic Flight[COLOR_REVERT]), [COLOR_UNIT_TEXT]AH64 Gunship[COLOR_REVERT] (with [COLOR_TECH_TEXT]Vertical Flight[COLOR_REVERT]) and [COLOR_UNIT_TEXT]Modern Fighter F35[COLOR_REVERT] (with [COLOR_TECH_TEXT]Supersonic Flight[COLOR_REVERT])</English>
 		<French>[COLOR_TECH_TEXT]Guerre Moderne[COLOR_REVERT] vous permet de fabriquer des [COLOR_UNIT_TEXT]Unité SAM mobile:Unités SAM mobiles[COLOR_REVERT], [COLOR_UNIT_TEXT]T95[COLOR_REVERT] armor, des [COLOR_UNIT_TEXT]Parachutiste Modernes[COLOR_REVERT] (avec [COLOR_TECH_TEXT]Supersonic un Vol[COLOR_REVERT]), [COLOR_UNIT_TEXT]AH64 Gunship[COLOR_REVERT] (avec [COLOR_TECH_TEXT]Vertical un Vol[COLOR_REVERT]) et des [COLOR_UNIT_TEXT]Chasseur moderne F35[COLOR_REVERT] (avec [COLOR_TECH_TEXT]Supersonic un Vol[COLOR_REVERT])</French>
 		<Spanish>La [COLOR_TECH_TEXT]Guerra moderna[COLOR_REVERT] te permite construir [COLOR_UNIT_TEXT]SAM móviles[COLOR_REVERT], blindados [COLOR_UNIT_TEXT]T95[COLOR_REVERT], [COLOR_UNIT_TEXT]Paracaidistas modernos[COLOR_REVERT] (con el [COLOR_TECH_TEXT]Vuelo supersónico[COLOR_REVERT]), [COLOR_UNIT_TEXT]Helicópteros de combate AH64[COLOR_REVERT] (con el [COLOR_TECH_TEXT]Vuelo vertical[COLOR_REVERT]) y [COLOR_UNIT_TEXT]Cazas modernos F35[COLOR_REVERT] (con el [COLOR_TECH_TEXT]Vuelo supersónico[COLOR_REVERT]).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MODERNPHYSICS</Tag>
+		<English>Modern Physics</English>
+		<French>Physique Moderne</French>
+		<German>Moderne Physik</German>
+		<Italian>Fisica moderna</Italian>
+		<Spanish>
+			<Text>Física moderna</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Polish>Nowoczesna Fizyka</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MODERNPHYSICS_PEDIA</Tag>
+		<English>The turn of the 20th century brought the start of a revolution in physics. This revolution centered around the advent on quantum mechanics and special and general relativity, the two concepts that mark the advent of modern physics. Both of these theories would offer fundamental insights into the universe and the laws the govern it. Quantum mechanics would describe the microscopic nature of matter, while relativity would describe space and time. [PARAGRAPH:2]In 1900, Max Planck published his explanation of blackbody radiation. This equation assumed that radiators are quantized, which proved to be the opening argument in the edifice that would become quantum mechanics. By introducing discrete energy levels, Planck, Einstein, Niels Bohr, and others developed quantum theories to explain other anomalous experimental results like the photoelectric effect. The discovery of quantum mechanics in the early 20th century revolutionized physics, and quantum mechanics is fundamental to most areas of current research. [PARAGRAPH:2]In 1904, J. J. Thomson proposed the first model of the atom, known as the plum pudding model. In 1911, Ernest Rutherford deduced from scattering experiments the existence of a compact atomic nucleus, with positively charged constituents dubbed protons. The first quantum mechanical model of the atom, the Bohr model, was published in 1913 by Niels Bohr. Sir W. H. Bragg and his son Sir William Lawrence Bragg, also in 1913, began to unravel the arrangement of atoms in crystalline matter by the use of x-ray diffraction. Neutrons, the neutral nuclear constituents, were discovered in 1932 by James Chadwick. [PARAGRAPH:2]One of the most important concepts in modern physics and one which would help usher in quantum mechanics was proposed by Louis de Broglie. Broglie's 1922 doctoral thesis introduced his theory of electron waves. This included the wave-particle duality theory of matter, based on the work of Albert Einstein and Planck. This research culminated in the de Broglie hypothesis stating that any moving particle or object had an associated wave. De Broglie thus created a new field in physics, wave mechanics, uniting the physics of light and matter. Among the applications of this work has been the development of electron microscopes to get much better image resolution than optical ones, because of shorter wavelengths of electrons compared with photon. [PARAGRAPH:2]In 1915, Einstein extended special relativity to describe gravity with the general theory of relativity. One principal result of general relativity is the gravitational collapse into black holes, which was anticipated two centuries earlier, but elucidated by Robert Oppenheimer. Important exact solutions of Einstein's field equation were found by Karl Schwarzschild in 1915 and Roy Kerr only in 1963. One part of the theory of general relativity is Einstein's field equation. This describes how the stress-energy tensor creates curvature of spacetime and forms the basis of general relativity. Further work on Einstein's field equation produced results which predicted the Big Bang, black holes, and the expanding universe. Einstein believed in a static universe. He tried, and failed, to fix his equation to allow for this. In 1929, however, Edwin Hubble published his discovery that that the universe is expanding at a possibly exponential rate. This is the basis for understanding that the universe is expanding. Thus, the universe must have been smaller and therefore hotter in the past. In 1933 Karl Jansky at Bell Labs discovered the radio emission from the Milky Way, and thereby initiated the science of radio astronomy. By the 1940s, researchers like George Gamow proposed the Big Bang theory, evidence for which was discovered in 1964; Enrico Fermi and Fred Hoyle were among the doubters in the 1940s and 1950s. Hoyle had dubbed Gamow's theory the Big Bang in order to debunk it. Today, it is one of the principal results of cosmology.</English>
+		<Polish>Obecny zakres zainteresowania fizyki ukształtował się w XIX i na początku XX wieku, również wówczas zarysował się podstawowy podział fizyki na klasyczne działy: mechanikę, optykę, naukę o cieple, elektryczność i magnetyzm. Fizyka odkrywając nowe zjawiska, opisując je, tworząc teorie pozwalające przewidywać nowe efekty, stała się motorem napędowym gwałtownego rozwoju techniki i doprowadziła do rewolucyjnych zmian cywilizacyjnych. Proces ten trwa do dzisiaj ulegając, co więcej ulega ciągłej akceleracji.</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MODERNPHYSICS_QUOTE</Tag>
+		<English>"It is impossible to trap modern physics into predicting anything with perfect determinism because it deals with probabilities from the outset." - Sir Arthur Eddington</English>
+		<French>"Il est impossible de piéger la physique moderne en prédisant quoi que ce soit avec un déterminisme parfait, car elle traite avec des probabilités d'emblée." - Sir Arthur Eddington</French>
+		<Polish>"W nauce istnieje tylko fizyka, reszta to zbieranie znaczków." - Ernest Rutherford</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MODERNPHYSICS_STRATEGY</Tag>
+		<English>This tech allows city to construct Laboratory and SR-71 spyplane. First to discover this tech receives a Great Scientist.</English>
+		<Spanish>Esta tecnología permite a las ciudades construir el Laboratorio y el avión espía SR-71. El primero en descubrirla recibirá un Gran científico.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_MOLECULAR_ASSEMBLY</Tag>
@@ -15895,6 +15888,36 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 		<English>TBD</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_TECH_MOTER_SPORTS</Tag>
+		<English>Motorsports</English>
+		<French>Sports mécaniques</French>
+		<German>Motorsport</German>
+		<Italian>Sport motoristici</Italian>
+		<Spanish>
+			<Text>Deportes de motor</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Spanish>
+		<Polish>Sporty Motorowe</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOTER_SPORTS_PEDIA</Tag>
+		<English>Racing began soon after the construction of the first successful petrol-fueled automobiles before that time people raced in other vehicles such as horse-drawn buggies. The first race ever organized was on April 28, 1887 by the chief editor of Paris publication Le Vélocipède, Monsieur Fossier. It ran 2 kilometers from Neuilly Bridge to the Bois de Boulogne. It was won by Georges Bouton, in a car he had constructed with Albert, the Comte de Dion, but as he was the only competitor to show up it is rather pointless to call it a race.[NEWLINE]On July 22, 1894 the first real contest was a reliability test from 'Paris to Rouen', (Concours des Voitures sans Chevaux (Horseless Carriage Competition)), organised by the Parisian magazine Le Petit Journal. The Comte Jules-Albert de Dion was first to arrive in Rouen on his steam car, but a Panhard et Levassor was judged to be the winner.[NEWLINE]In 1895, the Paris-Bordeaux-Paris Trial was held and this was the first real race as all competitors started together. The winner was émile Levassor in his Panhard-Levassor 1205 cc model. He completed the course (1,178 km or 732 miles) in 48 hours and 47 minutes, finishing nearly six hours before the runner-up.[NEWLINE]The first regular auto racing venue was Nice, France, run in late March 1897 as a "Speed Week." To fill out the schedule, most types of racing event were invented here, including the first hill climb (Nice - La Turbie) and a sprint that was, in spirit, the first drag race.[NEWLINE]An international competition, between nations rather than individuals, began with the Gordon Bennett Cup in auto racing.[NEWLINE]The first auto race in the United States took place in Chicago, Illinois. The course went from the South side of the city, North along the lakefront to Evanston, Illinois and back again on November 28, 1895 over an 54.36 mile(87.48 km) course, with Frank Duryea winning in 10 hours and 23 minutes, beating three petrol-fueled and two electric cars.</English>
+		<Polish>Sport motorowy - dziedzina sportu, obejmująca współzawodnictwo na pojazdach lądowych napędzanych silnikami, najczęściej spalinowymi, odrzutowymi, turbinowymi lub rakietowymi. </Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOTER_SPORTS_QUOTE</Tag>
+		<English>"Second place is just the first loser." - Dale Earnhardt</English>
+		<French>"Le Second est juste le premier Perdant." - Dale Earnhardt</French>
+		<Italian>"Il secondo è solo il primo sconfitto." - Dale Earnhardt</Italian>
+		<Spanish>"El segundo solo es el primero de los perdedores." - Dale Earnhardt</Spanish>
+		<Polish>"Drugie miejsce to pierwszy przegrany." - Dale Earnhardt</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MOTER_SPORTS_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_TECH_MOTION_PICTURES</Tag>
 		<English>Motion Pictures</English>
 		<French>Mouvement des Images</French>
@@ -15952,36 +15975,6 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 		<English>[COLOR_TECH_TEXT]Motorized Transportation[COLOR_REVERT] allows you to build [COLOR_UNIT_TEXT]Motorcycle[COLOR_REVERT], [COLOR_UNIT_TEXT]Freight[COLOR_REVERT] and [COLOR_UNIT_TEXT]Transport[COLOR_REVERT] units. Obsoletes [COLOR_BUILDING_TEXT]Silk Road[COLOR_REVERT].</English>
 		<French>[COLOR_TECH_TEXT]Transport Motorisé[COLOR_REVERT] vous permet de fabriquer des [COLOR_UNIT_TEXT]Motos avec Side-car[COLOR_REVERT], des [COLOR_UNIT_TEXT]Frets[COLOR_REVERT] et [COLOR_UNIT_TEXT]Transports[COLOR_REVERT]. Rend obsolète [COLOR_BUILDING_TEXT]La Route de la Soie[COLOR_REVERT].</French>
 		<Spanish>El [COLOR_TECH_TEXT]Transporte motorizado[COLOR_REVERT] te permite construir [COLOR_UNIT_TEXT]Motocicletas[COLOR_REVERT], [COLOR_UNIT_TEXT]Camiones de carga[COLOR_REVERT] y [COLOR_UNIT_TEXT]Transportes[COLOR_REVERT]. Deja obsoleta la [COLOR_BUILDING_TEXT]Ruta de la Seda[COLOR_REVERT].</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_MOTER_SPORTS</Tag>
-		<English>Motorsports</English>
-		<French>Sports mécaniques</French>
-		<German>Motorsport</German>
-		<Italian>Sport motoristici</Italian>
-		<Spanish>
-			<Text>Deportes de motor</Text>
-			<Gender>Male</Gender>
-			<Plural>1</Plural>
-		</Spanish>
-		<Polish>Sporty Motorowe</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_MOTER_SPORTS_PEDIA</Tag>
-		<English>Racing began soon after the construction of the first successful petrol-fueled automobiles before that time people raced in other vehicles such as horse-drawn buggies. The first race ever organized was on April 28, 1887 by the chief editor of Paris publication Le Vélocipède, Monsieur Fossier. It ran 2 kilometers from Neuilly Bridge to the Bois de Boulogne. It was won by Georges Bouton, in a car he had constructed with Albert, the Comte de Dion, but as he was the only competitor to show up it is rather pointless to call it a race.[NEWLINE]On July 22, 1894 the first real contest was a reliability test from 'Paris to Rouen', (Concours des Voitures sans Chevaux (Horseless Carriage Competition)), organised by the Parisian magazine Le Petit Journal. The Comte Jules-Albert de Dion was first to arrive in Rouen on his steam car, but a Panhard et Levassor was judged to be the winner.[NEWLINE]In 1895, the Paris-Bordeaux-Paris Trial was held and this was the first real race as all competitors started together. The winner was émile Levassor in his Panhard-Levassor 1205 cc model. He completed the course (1,178 km or 732 miles) in 48 hours and 47 minutes, finishing nearly six hours before the runner-up.[NEWLINE]The first regular auto racing venue was Nice, France, run in late March 1897 as a "Speed Week." To fill out the schedule, most types of racing event were invented here, including the first hill climb (Nice - La Turbie) and a sprint that was, in spirit, the first drag race.[NEWLINE]An international competition, between nations rather than individuals, began with the Gordon Bennett Cup in auto racing.[NEWLINE]The first auto race in the United States took place in Chicago, Illinois. The course went from the South side of the city, North along the lakefront to Evanston, Illinois and back again on November 28, 1895 over an 54.36 mile(87.48 km) course, with Frank Duryea winning in 10 hours and 23 minutes, beating three petrol-fueled and two electric cars.</English>
-		<Polish>Sport motorowy - dziedzina sportu, obejmująca współzawodnictwo na pojazdach lądowych napędzanych silnikami, najczęściej spalinowymi, odrzutowymi, turbinowymi lub rakietowymi. </Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_MOTER_SPORTS_QUOTE</Tag>
-		<English>"Second place is just the first loser." - Dale Earnhardt</English>
-		<French>"Le Second est juste le premier Perdant." - Dale Earnhardt</French>
-		<Italian>"Il secondo è solo il primo sconfitto." - Dale Earnhardt</Italian>
-		<Spanish>"El segundo solo es el primero de los perdedores." - Dale Earnhardt</Spanish>
-		<Polish>"Drugie miejsce to pierwszy przegrany." - Dale Earnhardt</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_MOTER_SPORTS_STRATEGY</Tag>
-		<English>TBD</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_MOUNTAINEERING</Tag>
@@ -16249,27 +16242,6 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 		<English>TBD</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_TECH_NANODISASSEMBLY</Tag>
-		<English>Nano-Disassembly</English>
-		<French>Nano-Désassemblage</French>
-		<Polish>Nano-Rozmontowywanie</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_NANODISASSEMBLY_PEDIA</Tag>
-		<English>The advancement of Nanomorphics, Troids have found they can atomize their bodies into a cloud of anima nanobytes that can be dispersed to hide from all sensors but those accessed at Molecular Scanning, then pulled back together in less than a few seconds to re-manifest at will. The system that utilizes this technology must commit a strong portion of its makeup to this ability and therefore there is a bit of loss of power to go towards other functions, but as a stealth and healing technology it is outstandingly useful. The only problem is that the cloud in its particle form is pretty much useless except as a vaguely aware entity of the area it is within. It can, however, move at quite a fast speed through electromagnetic current generation and propulsion. The Troid in this nano-state is impervious to most forms of weaponry though disintigration and anti-matter weaponry can quickly degrade the particles making up the entity if the dispersal of the cloud is not too wide. Progressing from here, Troids will learn how to make the cloud form more useful still while maintaining much of its benefits.</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_NANODISASSEMBLY_QUOTE</Tag>
-		<English>"The imagination equips us to perceive reality when it is not fully materialized." - Mary Richards</English>
-		<French>"L'imagination nous sert à percevoir la réalité quand elle n'est pas totalement matérialisée." - Mary Richards</French>
-		<Polish>"Wyobraźnia pozwala nam dostrzec rzeczywistość zanim ta się zamterializuje." - Mary Richards</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_NANODISASSEMBLY_STRATEGY</Tag>
-		<English>Opens up the Nanocollectivity ability and unit combat for Troid units. Some will be dedicated as capable while others may be able to obtain the ability at some sacrifice of other capabilities. In game effect terms, Nanocollectivity is an enhanced form of Stealth/Invisibility and a capability of healing that vaguely exceeds that of Nanomorphism.</English>
-		<Polish>Nano-Rozmontowywanie</Polish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_TECH_NANOBOTICS</Tag>
 		<English>Nanorobotics</English>
 		<French>Nano-robotique</French>
@@ -16298,6 +16270,27 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 		<English>[COLOR_TECH_TEXT]Nanorobotics[COLOR_REVERT] allows you to build [COLOR_BUILDING_TEXT]Nanofactory[COLOR_REVERT] building and [COLOR_PROJECT_TEXT]SS Docking Bay[COLOR_REVERT] project. You can construct units [COLOR_UNIT_TEXT]Fusion Transport[COLOR_REVERT], [COLOR_UNIT_TEXT]Fusion Destroyer[COLOR_REVERT] and [COLOR_UNIT_TEXT]Fusion Cruiser[COLOR_REVERT] (with [COLOR_TECH_TEXT]Fusion[COLOR_REVERT]). This tech also enables [COLOR_HIGHLIGHT_TEXT]Nanoids[COLOR_REVERT] promotion.</English>
 		<French>[COLOR_TECH_TEXT]Nano-robotique[COLOR_REVERT] vous permet de construire des [COLOR_BUILDING_TEXT]Usines de Nano-Composants[COLOR_REVERT] et le projet [COLOR_PROJECT_TEXT]Baies d'amarrage (SS)[COLOR_REVERT]. Vous pouvez fabriquer des [COLOR_UNIT_TEXT]Transports à Fusion[COLOR_REVERT], des [COLOR_UNIT_TEXT]Contre-torpilleurs à Fusion[COLOR_REVERT] et des [COLOR_UNIT_TEXT]Croiseurs légers à Fusion[COLOR_REVERT] (avec [COLOR_TECH_TEXT]Fusion[COLOR_REVERT]). Cette Tech. rend accessible également la promotion [COLOR_HIGHLIGHT_TEXT]Nanites[COLOR_REVERT].</French>
 		<Spanish>La [COLOR_TECH_TEXT]Nanorobótica[COLOR_REVERT] te permite construir el edificio de la [COLOR_BUILDING_TEXT]Fábrica de nanocomponentes[COLOR_REVERT] y el proyecto del [COLOR_PROJECT_TEXT]Muelle de acoplamiento para naves espaciales[COLOR_REVERT]. Podrás construir [COLOR_UNIT_TEXT]Transportes a fusión[COLOR_REVERT], [COLOR_UNIT_TEXT]Destructores a fusión[COLOR_REVERT] y [COLOR_UNIT_TEXT]Cruceros a fusión[COLOR_REVERT] (con la [COLOR_TECH_TEXT]Fusión[COLOR_REVERT]). Esta tecnología también activa el ascenso [COLOR_HIGHLIGHT_TEXT]Nanoides[COLOR_REVERT].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NANODISASSEMBLY</Tag>
+		<English>Nano-Disassembly</English>
+		<French>Nano-Désassemblage</French>
+		<Polish>Nano-Rozmontowywanie</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NANODISASSEMBLY_PEDIA</Tag>
+		<English>The advancement of Nanomorphics, Troids have found they can atomize their bodies into a cloud of anima nanobytes that can be dispersed to hide from all sensors but those accessed at Molecular Scanning, then pulled back together in less than a few seconds to re-manifest at will. The system that utilizes this technology must commit a strong portion of its makeup to this ability and therefore there is a bit of loss of power to go towards other functions, but as a stealth and healing technology it is outstandingly useful. The only problem is that the cloud in its particle form is pretty much useless except as a vaguely aware entity of the area it is within. It can, however, move at quite a fast speed through electromagnetic current generation and propulsion. The Troid in this nano-state is impervious to most forms of weaponry though disintigration and anti-matter weaponry can quickly degrade the particles making up the entity if the dispersal of the cloud is not too wide. Progressing from here, Troids will learn how to make the cloud form more useful still while maintaining much of its benefits.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NANODISASSEMBLY_QUOTE</Tag>
+		<English>"The imagination equips us to perceive reality when it is not fully materialized." - Mary Richards</English>
+		<French>"L'imagination nous sert à percevoir la réalité quand elle n'est pas totalement matérialisée." - Mary Richards</French>
+		<Polish>"Wyobraźnia pozwala nam dostrzec rzeczywistość zanim ta się zamterializuje." - Mary Richards</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NANODISASSEMBLY_STRATEGY</Tag>
+		<English>Opens up the Nanocollectivity ability and unit combat for Troid units. Some will be dedicated as capable while others may be able to obtain the ability at some sacrifice of other capabilities. In game effect terms, Nanocollectivity is an enhanced form of Stealth/Invisibility and a capability of healing that vaguely exceeds that of Nanomorphism.</English>
+		<Polish>Nano-Rozmontowywanie</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_NANOELECTRONICS</Tag>
@@ -16598,36 +16591,6 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 		<Spanish>El Naturismo permite construir la Cabaña del curandero, que proporciona salud a tu ciudad. También revela los Plátanos, las Especias y los Limones. También desbloquea el principio Herbalismo, que proporciona salud a todas tus ciudades. Además, activa el ascenso Médica I.</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_TECH_NAVAL_CANNON</Tag>
-		<English>Naval Cannon</English>
-		<French>Canonnerie Navale</French>
-		<German>Seekanone</German>
-		<Italian>Cannoni navali</Italian>
-		<Spanish>
-			<Text>Cañonería naval</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-		<Polish>Działo Okrętowe</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_NAVAL_CANNON_PEDIA</Tag>
-		<English>Naval artillery in the Age of Sail encompasses the period of roughly 1571-1863: when large, sail-powered wooden naval warships dominated the high seas, mounting a bewildering variety of different types and sizes of cannon as their main armament. By modern standards, these cannon were extremely inefficient, difficult to load, and short ranged. These characteristics, along with the handling and seamanship of the ships that mounted them, defined the environment in which the Naval tactics in the Age of Sail developed. [PARAGRAPH:2]Firing a naval cannon required a great amount of labour and manpower. Cannon used gunpowder as the propellant, whose bulk had to be kept in a special storage area below deck for safety. A typical broadside of a Royal Navy ship of the late 18th century could be fired 2-3 times in approximately 5 minutes, depending on the training of the crew, a well trained one being essential to the simple yet detailed process of preparing to fire. Ironically, the British Admiralty did not see fit to provide additional powder to captains to train their crews, generally only allowing 1/3 of the powder loaded onto the ship to be fired in the first six months of a typical voyage, barring hostile action. Instead of live fire practice, most captains exercised their crews by "running" the guns in and out? performing all the steps associated with firing but for the actual discharge. Some wealthy captains? those who had made money capturing prizes or from wealthy families - were known to purchase powder with their own funds to enable their crews to fire real discharges at real targets.</English>
-		<Polish>Działo okrętowe to działo stosowane na okręcie. Najczęściej są to konstrukcje zaprojektowane specjalnie w tym celu, ale zdarzają się też działa lądowe przystosowywane do montowania na pokładach. Działa takie mają specjalną podstawę morską. Działa okrętowe w dawnych czasach były montowane w ambrazurach, następnie w kazamatach a obecnie w wieżach. Na mniejszych okrętach spotyka się montowanie dział bezpośrednio na pokładzie bez wieży. Takie montowanie występowało na większości okrętach podwodnych.Kalibry XX-wiecznych dział morskich wynoszą zwykle od 70 mm do 457 mm, zaś morskich dział przeciwlotniczych od 20 mm do 130 mm. Często stosuje się też działa uniwersalne, czyli działa mogące zwalczać cele nawodne (naziemne) i cele powietrzne. Pierwsze działa okrętowe pojawiły się w okolicach XIV wieku.</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_NAVAL_CANNON_QUOTE</Tag>
-		<English>"The cannon will not suffer any other sound to be heard for miles and for years around it." - Ralph Waldo Emerson</English>
-		<French>"Le canon ne supportera aucun autre bruit à des kilomètres et des années autour de lui." - Ralph Waldo Emerson</French>
-		<Polish>"Polityk odpowiedzialny jest za statek a nie za fale." - Abraham Lincoln</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_NAVAL_CANNON_STRATEGY</Tag>
-		<English>This tech allows the construction of Galleon, Privateer (with Mercantilism), Frigate, Man'O'War (with Grand War) and Ship of the Line (with Military Science).</English>
-		<French>Cette tech. permet la fabrication de [COLOR_UNIT_TEXT]Galions[COLOR_REVERT], [COLOR_UNIT_TEXT]Corsaires[COLOR_REVERT] (avec [COLOR_TECH_TEXT]Mercantilisme[COLOR_REVERT]), [COLOR_UNIT_TEXT]Frégates[COLOR_REVERT], [COLOR_UNIT_TEXT]Man'O'War[COLOR_REVERT] (avec [COLOR_TECH_TEXT]Grande Guerre[COLOR_REVERT]) et de [COLOR_UNIT_TEXT]Galions de guerre[COLOR_REVERT] (avec [COLOR_TECH_TEXT]Science militaire[COLOR_REVERT]).</French>
-		<Spanish>Esta tecnología permite la construcción del Galeón, el Corsario (con el Mercantilismo), la Fragata, el Man-of-war (con la Gran guerra), y el Buque de guerra (con la Belicología).</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_TECH_NAVAL_AVIATION</Tag>
 		<English>Naval Flight</English>
 		<French>
@@ -16660,6 +16623,36 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 		<English>Naval Flight allows Carrier and Seaplane units</English>
 		<French>[COLOR_TECH_TEXT]Aviation Navale[COLOR_REVERT] donne accès aux navires [COLOR_UNIT_TEXT]Porte-avions[COLOR_REVERT] et aux [COLOR_UNIT_TEXT]Hydravions[COLOR_REVERT]</French>
 		<Spanish>La Aviación naval permite construir Portaaviones e Hidroaviones.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NAVAL_CANNON</Tag>
+		<English>Naval Cannon</English>
+		<French>Canonnerie Navale</French>
+		<German>Seekanone</German>
+		<Italian>Cannoni navali</Italian>
+		<Spanish>
+			<Text>Cañonería naval</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Polish>Działo Okrętowe</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NAVAL_CANNON_PEDIA</Tag>
+		<English>Naval artillery in the Age of Sail encompasses the period of roughly 1571-1863: when large, sail-powered wooden naval warships dominated the high seas, mounting a bewildering variety of different types and sizes of cannon as their main armament. By modern standards, these cannon were extremely inefficient, difficult to load, and short ranged. These characteristics, along with the handling and seamanship of the ships that mounted them, defined the environment in which the Naval tactics in the Age of Sail developed. [PARAGRAPH:2]Firing a naval cannon required a great amount of labour and manpower. Cannon used gunpowder as the propellant, whose bulk had to be kept in a special storage area below deck for safety. A typical broadside of a Royal Navy ship of the late 18th century could be fired 2-3 times in approximately 5 minutes, depending on the training of the crew, a well trained one being essential to the simple yet detailed process of preparing to fire. Ironically, the British Admiralty did not see fit to provide additional powder to captains to train their crews, generally only allowing 1/3 of the powder loaded onto the ship to be fired in the first six months of a typical voyage, barring hostile action. Instead of live fire practice, most captains exercised their crews by "running" the guns in and out? performing all the steps associated with firing but for the actual discharge. Some wealthy captains? those who had made money capturing prizes or from wealthy families - were known to purchase powder with their own funds to enable their crews to fire real discharges at real targets.</English>
+		<Polish>Działo okrętowe to działo stosowane na okręcie. Najczęściej są to konstrukcje zaprojektowane specjalnie w tym celu, ale zdarzają się też działa lądowe przystosowywane do montowania na pokładach. Działa takie mają specjalną podstawę morską. Działa okrętowe w dawnych czasach były montowane w ambrazurach, następnie w kazamatach a obecnie w wieżach. Na mniejszych okrętach spotyka się montowanie dział bezpośrednio na pokładzie bez wieży. Takie montowanie występowało na większości okrętach podwodnych.Kalibry XX-wiecznych dział morskich wynoszą zwykle od 70 mm do 457 mm, zaś morskich dział przeciwlotniczych od 20 mm do 130 mm. Często stosuje się też działa uniwersalne, czyli działa mogące zwalczać cele nawodne (naziemne) i cele powietrzne. Pierwsze działa okrętowe pojawiły się w okolicach XIV wieku.</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NAVAL_CANNON_QUOTE</Tag>
+		<English>"The cannon will not suffer any other sound to be heard for miles and for years around it." - Ralph Waldo Emerson</English>
+		<French>"Le canon ne supportera aucun autre bruit à des kilomètres et des années autour de lui." - Ralph Waldo Emerson</French>
+		<Polish>"Polityk odpowiedzialny jest za statek a nie za fale." - Abraham Lincoln</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NAVAL_CANNON_STRATEGY</Tag>
+		<English>This tech allows the construction of Galleon, Privateer (with Mercantilism), Frigate, Man'O'War (with Grand War) and Ship of the Line (with Military Science).</English>
+		<French>Cette tech. permet la fabrication de [COLOR_UNIT_TEXT]Galions[COLOR_REVERT], [COLOR_UNIT_TEXT]Corsaires[COLOR_REVERT] (avec [COLOR_TECH_TEXT]Mercantilisme[COLOR_REVERT]), [COLOR_UNIT_TEXT]Frégates[COLOR_REVERT], [COLOR_UNIT_TEXT]Man'O'War[COLOR_REVERT] (avec [COLOR_TECH_TEXT]Grande Guerre[COLOR_REVERT]) et de [COLOR_UNIT_TEXT]Galions de guerre[COLOR_REVERT] (avec [COLOR_TECH_TEXT]Science militaire[COLOR_REVERT]).</French>
+		<Spanish>Esta tecnología permite la construcción del Galeón, el Corsario (con el Mercantilismo), la Fragata, el Man-of-war (con la Gran guerra), y el Buque de guerra (con la Belicología).</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_NAVAL_TACTICS</Tag>
@@ -19353,10 +19346,6 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 	<TEXT>
 		<Tag>TXT_KEY_TECH_PREHISTORIC_MUSIC_STRATEGY</Tag>
 		<English>[COLOR_TECH_TEXT]Prehistoric Music[COLOR_REVERT] is a prehistoric era technology that allows the construction of the [COLOR_BUILDING_TEXT]Music Hut[COLOR_REVERT] that gives [ICON_CULTURE][COLOR_GREEN]Culture[COLOR_REVERT] and provides [ICON_HAPPY][COLOR_GREEN]Happiness[COLOR_REVERT].</English>
-		<French>Bonus de bonheur, et accès aux premières religions.</French>
-		<Italian>Fornisce un bonus alla felicità; conduce alle religioni più primitive</Italian>
-		<Spanish>Da una bonificación a la felicidad, y conduce a las primeras religiones.</Spanish>
-		<Polish>Odblokowuje Chatkę Muzyka, która zwiększa szczęście oraz kulturę w mieście.</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_PRIESTHOOD</Tag>
@@ -19843,7 +19832,6 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 	<TEXT>
 		<Tag>TXT_KEY_TECH_RAFT_BUILDING_STRATEGY</Tag>
 		<English>[COLOR_TECH_TEXT]Raft Building[COLOR_REVERT] is a prehistoric era technology that allows the construction of the [COLOR_BUILDING_TEXT]Raft[COLOR_REVERT], the very first water unit. It also makes it possible for cities to establish [COLOR_HIGHLIGHT_TEXT]Trade Routes[COLOR_REVERT] if connected through a river or lake.</English>
-		<Italian>Usa le zattere per iniziare l'esplorazione dei mari, ma attento ai barbari!</Italian>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_RAILGUN</Tag>
@@ -20489,10 +20477,6 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 	<TEXT>
 		<Tag>TXT_KEY_TECH_RITUALISM_STRATEGY</Tag>
 		<English>[COLOR_TECH_TEXT]Ritualism[COLOR_REVERT] is a prehistoric era technology that allows the construction of the [COLOR_BUILDING_TEXT]Monument[COLOR_REVERT] building and of the [COLOR_BUILDING_TEXT]Venus of Willendorf[COLOR_REVERT] world wonder.</English>
-		<French>Le [COLOR_TECH_TEXT]mysticisme[COLOR_REVERT] permet de construire l'[COLOR_BUILDING_TEXT]Obélisque[COLOR_REVERT] et [COLOR_BUILDING_TEXT]Stonehenge[COLOR_REVERT]. Il mène aussi à la [COLOR_TECH_TEXT]méditation[COLOR_REVERT] et au [COLOR_TECH_TEXT]polythéisme[COLOR_REVERT], ces deux technologies permettant au joueur en ayant fait la découverte en premier de fonder une religion.</French>
-		<German>Die [COLOR_TECH_TEXT]Mystik[COLOR_REVERT] ermöglicht den Bau von [COLOR_BUILDING_TEXT]Obelisken[COLOR_REVERT] und des Wunders von [COLOR_BUILDING_TEXT]Stonehenge[COLOR_REVERT]. Darüber hinaus legt sie den Grundstein für die [COLOR_TECH_TEXT]Meditation[COLOR_REVERT] und den [COLOR_TECH_TEXT]Polytheismus[COLOR_REVERT]. Der Entdecker des Polytheismus bzw. der Meditation erhält eine Religion.</German>
-		<Italian>Il [COLOR_TECH_TEXT]Misticismo[COLOR_REVERT] permette la realizzazione di [COLOR_BUILDING_TEXT]obelischi[COLOR_REVERT] e della Meraviglia [COLOR_BUILDING_TEXT]Stonehenge[COLOR_REVERT]. Inoltre, conduce alla [COLOR_TECH_TEXT]Meditazione[COLOR_REVERT] e al [COLOR_TECH_TEXT]Politeismo[COLOR_REVERT], ciascuno delle quali fornisce una religione alla civiltà che le scopre per prima.</Italian>
-		<Spanish>El [COLOR_TECH_TEXT]Ritualismo[COLOR_REVERT] permite la construcción de [COLOR_BUILDING_TEXT]Obeliscos[COLOR_REVERT]. También lleva al [COLOR_TECH_TEXT]Misticismo[COLOR_REVERT], que además conduce al descubrimiento de las primeras religiones.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_ROAD_BUILDING</Tag>
@@ -20903,7 +20887,6 @@ Altre risorse sono classificate in base alla rilevanza e/o al valore. Questi inc
 	<TEXT>
 		<Tag>TXT_KEY_TECH_SCRAPING_PEDIA</Tag>
 		<English>[TAB]In prehistoric archaeology, scrapers are unifacial tools thought to have been used for hideworking and woodworking. Other scrapers include the so-called "side scrapers" or racloirs, which are made on the longest side of a flake, and notched scrapers, which have a cleft on either side that may have been used to attach them to something else.[PARAGRAPH:2]Scrapers are typically formed by chipping the end of a flake of stone in order to create one sharp side and to keep the rest of the sides dull to facilitate grasping it. Most scrapers are either circle or blade-like in shape. The working edges of scrapers tend to be convex, and many have trimmed and dulled lateral edges to facilitate hafting. One important variety of scraper is the thumbnail scraper, a scraper shaped much like its namesake. This scraper type is common at Paleo-Indian sites in North America. Scrapers are one of the most varied lithic tools found at archaeological sites. Due to the vast array of scrapers there are many typologies that scrapers can fall under, including tool size, tool shape, tool base, the number of working edges, edge angle, edge shape, and many more.[PARAGRAPH:2]- Wikipedia (Wikidata item Q2605626)</English>
-		<Polish>Garbowanie - proces technologiczny prowadzący do zabezpieczenia przed procesami gnilnymi skóry surowej, tzw. golizny i wzrostu odporności termicznej. Przed przystąpieniem do właściwego garbowania, ściągniętą ze zwierzęcia skórę należy poddać zabiegom wstępnym (tzw. warsztatowi mokremu), mającym na celu usunięcie włosów i rozluźnieniu tkanki skórnej. W tym celu na skórę umieszczoną w dołach wyłożonych połówkami belek i wylepionych gliną, działano substancjami o charakterze zasadowym. Najczęściej stosowano popiół drzewny lub wapno gaszone (np. w Nowym Targu odkryto dół z 2. połowy XII wieku ze skórami przemieszanymi z iłem, popiołem i wapnem).</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_SCRAPING_QUOTE</Tag>
@@ -21485,7 +21468,6 @@ The stages of production are as follows:
 	<TEXT>
 		<Tag>TXT_KEY_TECH_SIMPLE_WOOD_WORKING_PEDIA</Tag>
 		<English>[TAB]Woodworking is the activity or skill of making items from wood.[PARAGRAPH:2]Along with stone, clay and animal parts, wood was one of the first materials worked by early humans. Microwear analysis of the Mousterian stone tools used by the Neanderthals show that many were used to work wood. The development of civilization was closely tied to the development of increasingly greater degrees of skill in working these materials.[PARAGRAPH:2]Among early finds of wooden tools are the worked sticks from Kalambo Falls, Clacton-on-Sea and Lehringen. The spears from Schöningen (Germany) provide some of the first examples of wooden hunting gear. Flint tools were used for carving. Since Neolithic times, carved wooden vessels are known, for example, from the Linear Pottery culture wells at Kückhofen and Eythra.[PARAGRAPH:2]- Wikipedia (Wikidata item Q816871)</English>
-		<German>archeologists cannot seem to agree on whether to call them adzes, gouges, distally beveled tools, or just plain tools, but these distinctive chipped-stone artifacts represent a long-lived tradition of making woodworking tools in the South Texas Plains and they are found almost everywhere in the region. Not only are they geographically widespread, but various forms of these artifacts were used throughout most of the prehistoric era, from before 10,000 years ago onward. We prefer to call them adzes and gouges, as both are functional terms that echo how we believe these tools were used.</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_SIMPLE_WOOD_WORKING_QUOTE</Tag>
@@ -22250,7 +22232,7 @@ The stages of production are as follows:
 	<TEXT>
 		<Tag>TXT_KEY_TECH_SPEARFISHING_PEDIA</Tag>
 		<English>[TAB]Spearfishing is an method of fishing that has been used throughout the world for millennia. Early civilizations were familiar with the custom of spearing fish from rivers and streams using sharpened sticks.[PARAGRAPH:2]Spearfishing with a hand held spear from land, shallow water or boat has been practised for thousands of years. The fisher must account for optical refraction at the water's surface, which makes fish appear higher in their line of sight than they are.[PARAGRAPH:2]Shore diving is perhaps the most common form of spearfishing and simply involves entering and exiting the sea from beaches or headlands and hunting around ocean structures, usually reef, but also rocks, kelp or sand. Boats, ships, kayaks, or even jetski can be used to access offshore reefs or ocean structure.[PARAGRAPH:2]- Wikipedia (Wikidata item Q765706)</English>
-		<French>Spearfishing est une méthode antique de pêche qui a été employée dans le monde entier pendant des milléniums. Les civilisations tôt étaient au courant de la coutume de transpercer des poissons des fleuves et des jets utilisant les bâtons affilés.[PARAGRAPH: 1] Spearfishing avec les poteaux barbelés (harpons) était répandu dans des périodes paléolithiques. La caverne de Cosquer en France méridionale contient l'art de caverne plus de 16.000 années, y compris des schémas des joints qui semblent avoir été harponnés.</French>
+		<French>Chasse sous-marine est une méthode antique de pêche qui a été employée dans le monde entier pendant des milléniums. Les civilisations tôt étaient au courant de la coutume de transpercer des poissons des fleuves et des jets utilisant les bâtons affilés.[PARAGRAPH: 1] Spearfishing avec les poteaux barbelés (harpons) était répandu dans des périodes paléolithiques. La caverne de Cosquer en France méridionale contient l'art de caverne plus de 16.000 années, y compris des schémas des joints qui semblent avoir été harponnés.</French>
 		<German>Das Speerfischen ist eine uralte Jagdmethode, die weltweit jahrtausendelang angewendet wurde. Höhlenzeichnungen belegen, dass frühe Kulturen schon vor 16.000 Jahren gelernt hatten, Fische mit angespitzten Stöcken zu durchbohren, man geht heutzutage durch archäologische Funde aber davon aus, dass die Urmenschen diese Technik bereits vor 90.000 Jahren das erste Mal anwandten. Der steinzeitliche Fischer musste über Geduld, gute Augen und schnelle Reflexe verfügen, wenn er am Flussufer der vorbeischwimmenden Beute auflauerte. Bei den ersten einfachen Holzspeeren passierte es noch ziemlich häufig, dass bereits aufgespießte Fische vom Stock rutschten und sich so wieder befreien konnten. Dieses Problem konnte erst durch den Einsatz von Widerhaken beseitigt werden.</German>
 		<Italian>Pesca con arpioni è un metodo antico di pesca che è stato usato nel mondo intero per millenni. Le civiltà più antiche conoscevano le tecniche per arpionare i pesci dai fiumi e dai corsi d'acqua per mezzo di bastoni affilati. [PARAGRAPH:1] La pesca con arpioni era ampiamente diffusa nel periodo paleolitico. La caverna di Cosquer nella Francia del sud contiene pitture rupestri di oltre 16.000 anni fa, comprese le illustrazioni di foche che sembrano essere state arpionate.</Italian>
 		<Spanish>La Pesca con arpón es un método antiguo de pesca que se ha utilizado en el mundo entero por milenios. Las culturas ancestrales estaban familiarizadas con la costumbre de capturar los peces de los ríos y corrientes usando estacas afiladas. [PARAGRAPH:1] La pesca con palos puntiagudos (arpones) estaba extendida en los tiempos del Paleolítico. La cueva de Cosquer en la Francia meridional conserva arte rupestre de hace 16.000 años, incluyendo dibujos de focas que parecen haber sido cazadas con arpón.</Spanish>
@@ -24817,33 +24799,6 @@ Limerick from 1923 by A. H. Reginald Buller</English>
 		<Polish>Odsłania na mapie Energię Geotermalną. Odblokowuje [COLOR_BUILDING_TEXT]Laboratorium Wulkanologiczne[COLOR_REVERT] i [COLOR_BUILDING_TEXT]Elektrownię Geotermalną[COLOR_REVERT]. Umożliwia wybudowanie Zakładu Geotermalnego.</Polish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_TECH_WARSIMULATION</Tag>
-		<English>War Simulations</English>
-		<French>Simulations de Guerres</French>
-		<German>Kriegssimulationen</German>
-		<Italian>Simulazioni di guerra</Italian>
-		<Spanish>
-			<Text>Simulaciones de guerra</Text>
-			<Gender>Female</Gender>
-			<Plural>1</Plural>
-		</Spanish>
-		<Polish>Symulacje Wojny</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_WARSIMULATION_PEDIA</Tag>
-		<English>Military simulations, also known informally as war games, are simulations in which theories of warfare can be tested and refined without the need for actual hostilities. Many professional analysts object to the term war games as this is generally taken to be referring to the civilian hobby, thus the preference for the term simulation. Simulations exist in many different forms, with varying degrees of realism. [PARAGRAPH:2] In recent times, the scope of simulations has widened to include not only military but also political and social factors, which are seen as inextricably entwined in a realistic warfare model.Whilst many governments make use of simulation, both individually and collaboratively, little is known about it outside professional circles. Yet modelling is often the means by which governments test and refine their military and political policies.[PARAGRAPH:2] Military simulations are seen as a useful way to develop tactical, strategical and doctrinal solutions, but critics argue that the conclusions drawn from such models are inherently flawed, due to the approximate nature of the models used</English>
-		<Polish>Gra wojenna - to najwyższa forma ćwiczeń prowadzonych na strategicznym i operacyjnych szczeblach dowodzenia sił zbrojnych W zależności od rozpatrywanej problematyki, w ćwiczeniach tych powinni brać udział przedstawiciele administracji państwowej (centralnej, terenowej) i samorządowej oraz organa (grupy operacyjne) zarządzania kryzysowego i kierowania pozamilitarnymi ogniwami obronnymi państwa.</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_WARSIMULATION_QUOTE</Tag>
-		<English>"A soldier will fight long and hard for a bit of colored ribbon." - Napoleon Bonaparte</English>
-		<Polish>"Żołnierz będzie walczył długo i ciężko za kawałek kolorowej wstążki." - Napoleon Bonaparte</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_TECH_WARSIMULATION_STRATEGY</Tag>
-		<English>TBD</English>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_TECH_WARFARE</Tag>
 		<English>Warfare</English>
 		<French>Techniques de Guerre</French>
@@ -24904,6 +24859,33 @@ To crush your enemies, see them driven before you, and to hear the lamentation o
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_WARMACHINES_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WARSIMULATION</Tag>
+		<English>War Simulations</English>
+		<French>Simulations de Guerres</French>
+		<German>Kriegssimulationen</German>
+		<Italian>Simulazioni di guerra</Italian>
+		<Spanish>
+			<Text>Simulaciones de guerra</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</Spanish>
+		<Polish>Symulacje Wojny</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WARSIMULATION_PEDIA</Tag>
+		<English>Military simulations, also known informally as war games, are simulations in which theories of warfare can be tested and refined without the need for actual hostilities. Many professional analysts object to the term war games as this is generally taken to be referring to the civilian hobby, thus the preference for the term simulation. Simulations exist in many different forms, with varying degrees of realism. [PARAGRAPH:2] In recent times, the scope of simulations has widened to include not only military but also political and social factors, which are seen as inextricably entwined in a realistic warfare model.Whilst many governments make use of simulation, both individually and collaboratively, little is known about it outside professional circles. Yet modelling is often the means by which governments test and refine their military and political policies.[PARAGRAPH:2] Military simulations are seen as a useful way to develop tactical, strategical and doctrinal solutions, but critics argue that the conclusions drawn from such models are inherently flawed, due to the approximate nature of the models used</English>
+		<Polish>Gra wojenna - to najwyższa forma ćwiczeń prowadzonych na strategicznym i operacyjnych szczeblach dowodzenia sił zbrojnych W zależności od rozpatrywanej problematyki, w ćwiczeniach tych powinni brać udział przedstawiciele administracji państwowej (centralnej, terenowej) i samorządowej oraz organa (grupy operacyjne) zarządzania kryzysowego i kierowania pozamilitarnymi ogniwami obronnymi państwa.</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WARSIMULATION_QUOTE</Tag>
+		<English>"A soldier will fight long and hard for a bit of colored ribbon." - Napoleon Bonaparte</English>
+		<Polish>"Żołnierz będzie walczył długo i ciężko za kawałek kolorowej wstążki." - Napoleon Bonaparte</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WARSIMULATION_STRATEGY</Tag>
 		<English>TBD</English>
 	</TEXT>
 	<TEXT>
