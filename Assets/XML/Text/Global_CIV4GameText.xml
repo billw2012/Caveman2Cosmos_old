@@ -3405,7 +3405,7 @@
 		<Tag>TXT_KEY_BUILD_FRUIT_PICKER</Tag>
 		<English>Build a [LINK=IMPROVEMENT_FRUIT_PICKER]Fruit Picking Camp[\LINK]</English>
 		<French>Mettre en place une [LINK=IMPROVEMENT_FRUIT_PICKER]]pépinière d'Arbres[\LINK]</French>
-		<German>Bauen ein [LINK=IMPROVEMENT_FRUIT_PICKER]]Baumschule[\LINK]</German>
+		<German>[LINK=IMPROVEMENT_FRUIT_PICKER]]Früchte pflücken[\LINK]</German>
 		<Italian>Costruisci un [LINK=IMPROVEMENT_FRUIT_PICKER]]Vivaio di alberi[\LINK]</Italian>
 		<Spanish>Crear una [LINK=IMPROVEMENT_FRUIT_PICKER]]Zona de reforestación[\LINK]</Spanish>
 		<Polish>Zbuduj [LINK=IMPROVEMENT_FRUIT_PICKER]Zbieracz owocow[\LINK]</Polish>
@@ -3457,6 +3457,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_GRAPE_PICKER</Tag>
 		<English>Build a [LINK=IMPROVEMENT_GRAPE_PICKER]Grape Picking Camp[\LINK]</English>
+		<German>[LINK=IMPROVEMENT_GRAPE_GATHERER]Trauben lesen[\LINK]</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_GRAVTUBE</Tag>
@@ -3786,7 +3787,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_PLANT_PICKER</Tag>
 		<English>Build a [LINK=IMPROVEMENT_PLANT_PICKER]Plant Picking Camp[\LINK]</English>
-		<German>[LINK=IMPROVEMENT_PLANT_PICKER]Pflanzen sammeln[\LINK]</German>
+		<German>[LINK=IMPROVEMENT_PLANT_PICKER]Nützliche Pflanzen pflücken[\LINK]</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_PLANT_SAVANNA</Tag>
@@ -17444,6 +17445,7 @@
 		<Tag>TXT_KEY_PLOT_IMP_ALTERNATIVE_UPGRADE</Tag>
 		<English>[SPACE](Or %s1_ImpName)</English>
 		<French>[SPACE](Ou %s1_ImpName)</French>
+		<German>[SPACE]oder %s1_ImpName</German>
 		<Polish>[SPACE](Lub %s1_ImpName)</Polish>
 	</TEXT>
 	<TEXT>

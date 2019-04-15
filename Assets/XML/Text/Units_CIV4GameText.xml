@@ -3727,7 +3727,7 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 		</French>
 		<German>
 			<Text>Schläger:Schlägers:Schläger:Schläger:Schläger:Schläger:Schlägern:Schläger</Text>
-			<Gender>Male:Male:Male:Male:Male:Male:Male:Male</Gender>
+			<Gender>Male</Gender>
 			<Plural>0:0:0:0:1:1:1:1</Plural>
 		</German>
 		<Italian>Bruto</Italian>
@@ -9398,7 +9398,7 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 		</French>
 		<German>
 			<Text>Sammler:Sammlers:Sammler:Sammler:Sammler:Sammler:Sammlern:Sammler</Text>
-			<Gender>male:male:male:male:male:male:male:male</Gender>
+			<Gender>Male</Gender>
 			<Plural>0:0:0:0:1:1:1:1</Plural>
 		</German>
 		<Italian>Raccoglitore</Italian>
@@ -22943,7 +22943,7 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 		</French>
 		<German>
 			<Text>Steinewerfer:Steinewerfers:Steinewerfer:Steinewerfer:Steinewerfer:Steinewerfer:Steinewerfer:Steinewerfern</Text>
-			<Gender>Male:Male:Male:Male:Male:Male:Male:Male</Gender>
+			<Gender>Male</Gender>
 			<Plural>0:0:0:0:1:1:1:1</Plural>
 		</German>
 		<Italian>Lanciatore di pietre</Italian>
@@ -25709,7 +25709,7 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 		</French>
 		<German>
 			<Text>Wanderer:Wanderers:Wanderer:Wanderer:Wanderer:Wanderer:Wanderern:Wanderer</Text>
-			<Gender>male:male:male:male:male:male:male:male</Gender>
+			<Gender>Male</Gender>
 			<Plural>0:0:0:0:1:1:1:1</Plural>
 		</German>
 		<Spanish>

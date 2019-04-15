@@ -639,7 +639,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_FRUIT_GATHERER_PEDIA</Tag>
 		<English>Intensive gathering entails the tending-to of wild plants. Intensive gathering or "tending" methods include weeding, discouraging predators, pot-irrigation, and limited harvesting to ensure reproduction. The same system of methods is involved in cultivation, a process which additionally requires systematic soil preparation and planting to tending and harvesting. This human manipulation results in the domestication of involved plant life.</English>
-		<German>[COLOR_HIGHLIGHT_TEXT]Obst- und Traubensammler[COLOR_REVERT] gehen auf die Suche nach Trauben, Beeren, Nüssen und anderen Früchten. Dabei müssen sie größte Sorgfalt walten lassen, denn manch lecker aussehende Frucht ist für Menschen ungenießbar oder sogar giftig. Außerdem gilt es auf den Reifegrad zu achten, denn sowohl unreife als auch überreife Früchte können gesundheitliche Probleme verursachen. Schon frühzeitig wurden gut schmeckende und nahrhafte Sorten bevorzugt und besonders gehegt, wodurch sie einen nicht zu unterschätzenden Vorteil gegenüber den unerwünschten Sorten bekamen. Diese Auslese war der erste Schritt zur Kultivierung von Obstpflanzen.</German>
+		<German>[COLOR_BUILDING_TEXT]Obst- und Traubensammler[COLOR_REVERT] gehen auf die Suche nach Trauben, Beeren, Nüssen und anderen Früchten. Dabei müssen sie größte Sorgfalt walten lassen, denn manch lecker aussehende Frucht ist für Menschen ungenießbar oder sogar giftig. Außerdem gilt es auf den Reifegrad zu achten, denn sowohl unreife als auch überreife Früchte können gesundheitliche Probleme verursachen. Schon frühzeitig wurden gut schmeckende und nahrhafte Sorten bevorzugt und besonders gehegt, wodurch sie einen nicht zu unterschätzenden Vorteil gegenüber den unerwünschten Sorten bekamen. Diese Auslese war der erste Schritt zur Kultivierung von Obstpflanzen.</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_FRUIT_PICKER</Tag>
@@ -725,7 +725,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Eingeborenendorf</German>
+		<German>
+			<Text>Eingeborenendorf</Text>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
+		</German>
 		<Italian>
 			<Text>Villaggio tribale:Villaggi tribali</Text>
 			<Gender>Male</Gender>
@@ -741,7 +745,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_GOODY_HUT_PEDIA</Tag>
 		<English>An inhabited point of interest.</English>
-		<German>[COLOR_HIGHLIGHT_TEXT]Eingeborenendörfer[COLOR_REVERT] sind die einzigen Verbesserungen, die nicht von Spielern errichtet werden können. Sie werden bei Spielstart willkürlich auf der Karte verteilt und sollten durch eigene Einheiten erforscht werden. Friedliche Eingeborene liefern unter Umständen neues Wissen, Geld oder Einheiten. Sind die Eingeborenen feindlich gesonnen, kann es hingegen zum Kampf kommen.</German>
+		<German>[COLOR_BUILDING_TEXT]Eingeborenendörfer[COLOR_REVERT] sind die einzigen Verbesserungen, die nicht von Spielern errichtet werden können. Sie werden bei Spielstart willkürlich auf der Karte verteilt und sollten durch eigene Einheiten erforscht werden. Friedliche Eingeborene liefern unter Umständen neues Wissen, Geld oder Einheiten. Sind die Eingeborenen feindlich gesonnen, kann es hingegen zum Kampf kommen.</German>
 		<Polish>Zagroda, okół, obejście - zespół budynków gospodarskich i mieszkalnych niewielkiego gospodarstwa wiejskiego wraz z podwórzem i otoczeniem. Zagroda składa się z domu mieszkalnego (chaty) i budynków gospodarczych: (stodoły, obory, spichlerza). Zabudowania najczęściej otoczone są płotem i ustawione wokół wewnętrznego podwórza.</Polish>
 	</TEXT>
 	<TEXT>
@@ -752,7 +756,11 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Unerforschte Insel</German>
+		<German>
+			<Text>Unerforschte Insel</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
 		<Italian>unknown island</Italian>
 		<Spanish>
 			<Text>Isla inexplorada</Text>
@@ -764,7 +772,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_GOODY_ISLAND_PEDIA</Tag>
 		<English>Unexplored Islands are the sea equivalents to the Goody Hut. They are only found in coastal waters.</English>
-		<German>[COLOR_HIGHLIGHT_TEXT]Unerforschte Inseln[COLOR_REVERT] sind das Meeresäquivalent zum Eingeborenendorf. Sie können nur in küstennahen Gewässern entdeckt werden und haben die gleichen Auswirkungen.</German>
+		<German>[COLOR_BUILDING_TEXT]Unerforschte Inseln[COLOR_REVERT] sind das Meeresäquivalent zum Eingeborenendorf. Sie können nur in küstennahen Gewässern entdeckt werden und haben die gleichen Auswirkungen.</German>
 		<Spanish>Las Islas inexploradas son el equivalente marino a la Aldea tribal. Sólo se pueden encontrar en aguas costeras.</Spanish>
 	</TEXT>
 	<TEXT>
@@ -776,9 +784,9 @@
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Lager der Körnersammler</Text>
-			<Gender>Neuter</Gender>
-			<Plural>0</Plural>
+			<Text>Körnersammler</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
 		</German>
 		<Italian>Campo seminato</Italian>
 		<Spanish>
@@ -1338,7 +1346,7 @@
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Pilzsucher</Text>
+			<Text>Pilzsammler</Text>
 			<Gender>Male</Gender>
 			<Plural>1</Plural>
 		</German>
@@ -1353,7 +1361,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_MUSHROOM_GATHERER_PEDIA</Tag>
 		<English>Mushroom hunting, mushrooming, mushroom picking, mushroom foraging, and similar terms describe the activity of gathering mushrooms in the wild, typically for eating. This is popular in most of Europe, including the Nordic, Baltic, and Slavic countries and the Mediterranean Basin, as well as in Australia, Japan, Korea, Canada, the Indian subcontinent, and the northwestern, northeastern, Midwestern and Appalachian United States.</English>
-		<German>Das Sammeln von Pilzen ist eine beliebte Freizeitbeschäftigung in nahezu allen Teilen der Welt. [COLOR_HIGHLIGHT_TEXT]Pilzsammler[COLOR_REVERT] gehen auf die Suche nach essbaren Wildpilzen, normalerweise um diese zu verzehren oder zu verkaufen. Sie müssen dabei allerdings größte Sorgfalt walten lassen, um nicht durch versehentlich geerntete Giftpilze eine Pilzvergiftung zu riskieren. Da es teils ähnlich aussehende Speise- und Giftpilze gibt und manche Pilze erst nach entsprechender Zubereitung genießbar werden, sind botanische Kenntnisse dringend erforderlich und jeder Sammler sollte nur die Pilze verwenden, die er zweifelsfrei identifizieren kann.</German>
+		<German>Das Sammeln von Pilzen ist eine beliebte Freizeitbeschäftigung in nahezu allen Teilen der Welt. [COLOR_BUILDING_TEXT]Pilzsammler[COLOR_REVERT] gehen auf die Suche nach essbaren Wildpilzen, normalerweise um diese zu verzehren oder zu verkaufen. Sie müssen dabei allerdings größte Sorgfalt walten lassen, um nicht durch versehentlich geerntete Giftpilze eine Pilzvergiftung zu riskieren. Da es teils ähnlich aussehende Speise- und Giftpilze gibt und manche Pilze erst nach entsprechender Zubereitung genießbar werden, sind botanische Kenntnisse dringend erforderlich und jeder Sammler sollte nur die Pilze verwenden, die er zweifelsfrei identifizieren kann.</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_NATURE_PRESERVE</Tag>
@@ -1592,7 +1600,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_PLANT_GATHERER_PEDIA</Tag>
 		<English>Intensive gathering entails the tending-to of wild plants. Intensive gathering or "tending" methods include weeding, discouraging predators, pot-irrigation, and limited harvesting to ensure reproduction. The same system of methods is involved in cultivation, a process which additionally requires systematic soil preparation and planting to tending and harvesting. This human manipulation results in the domestication of involved plant life.</English>
-		<German>[COLOR_HIGHLIGHT_TEXT]Pflanzensucher[COLOR_REVERT] sammeln nützliche Pflanzen und Pflanzenteile, die nicht der Ernährung dienen. Es kann sich dabei z.B. um Baumaterialien, Farbstoffe oder Fasern für die Herstellung von Kleidung handeln. Während zunächst einfach alles zusammengerafft wurde, dessen man habhaft werden konnte, gingen die Menschen später immer gezielter vor. Sie vernichteten die Pflanzen nicht mehr komplett, sondern achteten darauf, nur die verwertbaren Teile zu verwenden. Um beste Erträge zu garantieren, wurden die Pflanzen in Trockenzeiten gegossen, unwichtige Nahrungskonkurrenten (Unkräuter) gejätet, Schädlinge und Raubtiere ferngehalten. Mit dieser Hege und Bevorzugung nützlicher Pflanzen waren die Grundlagen für die Kultivierung und den Feldbau gelegt.</German>
+		<German>[COLOR_BUILDING_TEXT]Pflanzensucher[COLOR_REVERT] sammeln nützliche Pflanzen und Pflanzenteile, die nicht der Ernährung dienen. Es kann sich dabei z.B. um Baumaterialien, Farbstoffe oder Fasern für die Herstellung von Kleidung handeln. Während zunächst einfach alles zusammengerafft wurde, dessen man habhaft werden konnte, gingen die Menschen später immer gezielter vor. Sie vernichteten die Pflanzen nicht mehr komplett, sondern achteten darauf, nur die verwertbaren Teile zu verwenden. Um beste Erträge zu garantieren, wurden die Pflanzen in Trockenzeiten gegossen, unwichtige Nahrungskonkurrenten (Unkräuter) gejätet, Schädlinge und Raubtiere ferngehalten. Mit dieser Hege und Bevorzugung nützlicher Pflanzen waren die Grundlagen für die Kultivierung und den Feldbau gelegt.</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_PLANT_PICKER</Tag>
@@ -1936,6 +1944,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_SEED_CAMP_PEDIA</Tag>
 		<English>[COLOR_BUILDING_TEXT]Seed Camps[COLOR_REVERT] first appeared in the Stone Ages. Prehistoric humans used to obtain food from Hunting and Grain Gathering. Seed Camps were special places were [COLOR_UNIT_TEXT]Gatherers[COLOR_REVERT] kept the gathered seeds that where used to feed the Tribe.</English>
+		<German>[COLOR_BUILDING_TEXT]Körnersammler[COLOR_REVERT] gingen auf die Suche nach aus den reifen Ähren von Süßgräsern gefallenen genießbaren Körnern oder den Samen anderer Pflanzen. Im Vergleich zur Jagd war dies eine relativ einfache Arbeit, die auch schon Kinder verrichten konnten. Korn war schon für die frühen Menschen ein Hauptnahrungsmittel, es konnte entweder direkt gegessen oder zu nahrhaften und sättigenden Breien weiterverarbeitet werden.</German>
 		<Polish>[COLOR_BUILDING_TEXT]Obóz Zbieraczy Ziarna[COLOR_REVERT] pojawił się w epoce kamienia. Prehistoryczni ludzie zdobywali pożywienie poprzez polowanie i zbieranie ziarna. Obóz Zbieraczy Ziarna był specjalnym miejscem gdzie [COLOR_UNIT_TEXT]Zbieracze[COLOR_REVERT] przechowywali zgromadzone ziarna, by mogło z nich korzystać całe plemię.</Polish>
 	</TEXT>
 	<TEXT>

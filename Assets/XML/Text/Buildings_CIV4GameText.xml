@@ -534,8 +534,8 @@
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Lager der Alphafrau:Lagers der Alphafrau:Lager der Alphafrau:Lager der Alphafrau:Lager der Alphafrauen:Lager der Alphafrauen:Lagern der Alphafrauen:Lager der Alphafrauen</Text>
-			<Gender>neuter:neuter:neuter:neuter:neuter:neuter:neuter:neuter</Gender>
+			<Text>Alphafrau:Alphafrau:Alphafrau:Alphafrau:Alphafrauen:Alphafrauen:Alphafrauen:Alphafrauen</Text>
+			<Gender>Female</Gender>
 			<Plural>0:0:0:0:1:1:1:1</Plural>
 		</German>
 		<Polish>Samica Alfa</Polish>
@@ -562,8 +562,8 @@
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Lager des Alphamannes:Lagers des Alphamannes:Lager des Alphamannes:Lager des Alphamannes:Lager des Alphamänner:Lager des Alphamänner:Lagern des Alphamänner:Lager des Alphamänner</Text>
-			<Gender>neuter:neuter:neuter:neuter:neuter:neuter:neuter:neuter</Gender>
+			<Text>Alphamann:Alphamannes:Alphamann:Alphamann:Alphamänner:Alphamänner:Alphamännern:Alphamänner</Text>
+			<Gender>Male</Gender>
 			<Plural>0:0:0:0:1:1:1:1</Plural>
 		</German>
 		<Polish>Samiec Alfa</Polish>
@@ -6674,7 +6674,7 @@ The original habitats of the raccoon are deciduous and mixed forests, but due to
 		</French>
 		<German>
 			<Text>Versammlungsplatz:Versammlungsplatzes:Versammlungsplatz:Versammlungsplatz:Versammlungsplätze:Versammlungsplätze:Versammlungsplätzen:Versammlungsplätze</Text>
-			<Gender>male:male:male:male:male:male:male:male</Gender>
+			<Gender>Male</Gender>
 			<Plural>0:0:0:0:1:1:1:1</Plural>
 		</German>
 		<Polish>Wspólnotowe Dyskusje</Polish>

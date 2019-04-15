@@ -88,6 +88,11 @@
 			<Gender>Male</Gender>
 			<Plural>1</Plural>
 		</French>
+		<German>
+			<Text>Beerensammler:Beerensammlers:Beerensammler:Beerensammler</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
 		<Italian>Arbusti con bacche</Italian>
 		<Polish>Krzaki Jagód</Polish>
 	</TEXT>
@@ -95,12 +100,14 @@
 		<Tag>TXT_KEY_BUILDING_BERRY_BUSHES_STRATEGY</Tag>
 		<English>Gather from Berry Bushes to increase your cities food.</English>
 		<French>La Cueillette de ces Arbustes à baie augmente votre nourriture.</French>
+		<German>[COLOR_BUILDING_TEXT]Beerensammler[COLOR_REVERT] sorgen für zusätzliche Nahrung in frühen Städten.</German>
 		<Italian>Raccogli dagli arbusti con bacche per incrementare il cibo delle tue città.</Italian>
 		<Polish>Gather from Berry Bushes by zwiększyć produkcję żywności w Twoich miastach.</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_BERRY_BUSHES_PEDIA</Tag>
 		<English>The botanical definition of a berry is a fleshy fruit produced from a single ovary.</English>
+		<German>Schon die frühen Menschen liebten es süße und saftige Beeren zu naschen. Beerensträucher in einer Siedlung oder in deren unmittelbarer Nähe stellten eine Bereicherung für den Speiseplan der Gemeinschaft dar. Beerensammeln war eine relativ leichte und ungefährliche Arbeit und ist auch heute noch eine beliebte Freizeitbeschäftigung.</German>
 		<Italian>La definzione botanica di bacca è "frutto carnoso prodotto da un singolo uovo".</Italian>
 		<Polish>Jagoda (lac. bacca) - owoc o miesistej, niepekajacej owocni, zbudowanej z zewnetrznego egzokarpu oraz zmiesnialego mezokarpu, wypelniajacego cale wnetrze owocu. Cecha charakterystyczna jagody jest brak endokarpu. Bezposrednio w mezokarpie znajduja sie liczne (rzadko jedno) nasiona. Jagoda moze skladac sie glównie z lozyska, co ma miejsce u pomidora. Jednonasienna jagoda jest daktyl uwazany przez innych za pestkowca.</Polish>
 	</TEXT>
@@ -715,6 +722,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
+		<German>
+			<Text>Knollensammler:Knollensammlers:Knollensammler:Knollensammler</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
 		<Italian>Campo di tuberi</Italian>
 		<Polish>Zbieracz Korzonków</Polish>
 	</TEXT>
@@ -722,12 +734,14 @@
 		<Tag>TXT_KEY_BUILDING_ROOT_TUBERS_STRATEGY</Tag>
 		<English>Gather Root Tubers to increase your cities food.</English>
 		<French>Augmente la nourriture de votre ville.</French>
+		<German>[COLOR_BUILDING_TEXT]Knollensammler[COLOR_REVERT] sorgen für zusätzliche Nahrung in frühen Städten.</German>
 		<Italian>Raccogli i tuberi per incrementare la produzione di cibo nella tua città.</Italian>
 		<Polish>Gather Root Tubers by zwiększyć produkcję żywności w Twoich miastach.</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ROOT_TUBERS_PEDIA</Tag>
 		<English>Tubers are various types of modified plant structures that are enlarged to store nutrients. They are used by plants to survive the winter or dry months and provide energy and nutrients for regrowth during the next growing season and they are a means of asexual reproduction.</English>
+		<German>Bei Pflanzenknollen handelt es sich um verdickte Speicherorgane, die sich unter der Erde befinden. Man unterscheidet dabei Spross-  und Wurzelknollen. Diese Knollen dienen der Speicherung von Nährstoffen für die Überdauerung ungünstiger Lebensverhältnisse. Von vielen Tierarten (z.B. von Schweinen) ist bekannt, dass sie nach essbaren unterirdischen Knollen graben. Es ist zu vermuten, dass die frühen Menschen sich dieses Verhalten abgeschaut haben.</German>
 		<Italian>I tuberi sono vari tipi di strutture di piante modificate per contenere più sostanze nutritive. Vengono usati dalle piante per sopravvivere all'inverno o ai mesi più secchi e per fornire e energia e nutrienti durante la successiva stagione di crescita; sono un mezzo di riproduzione asessuata.</Italian>
 		<Polish>Znaczenie spozywcze maja liczne warzywa korzeniowe i rzepowate, wytwarzajace korzenie spichrzowe gromadzace substancje zapasowe. Warzywami, u których spozywane sa w istocie korzenie spichrzowe sa: maniok jadalny (Manihot esculenta), batat (wilec ziemniaczany) (Ipomoea batatas), cibora jadalna (Cyperus esculentus), klebian katowaty (Pachyrrhizus erosus), Ensete ventricosum i salep (bulwy storczyków, gl. storczyka meskiego Orchis maculata). Wiele warzyw korzeniowych wyksztalca bulwy hipokotylowe ze spichrzowym, dolnym odcinkiem pedu zrosnietym ze zgrubialym korzeniem, np.: pasternak zwyczajny (Pastinaca sativa), burak cwiklowy (Beta vulgaris), marchew zwyczajna (Daucus carota), pietruszka korzeniowa (Petroselinum hortense ssp. microcarpum), seler korzeniowy (Apium graveolens var. rapaceum), swierzabek bulwiasty (Chaerophyllum bulbosum), wezymord czarny korzen (skorzonera, Skorzonera hispanica), kozibród porolistny (Tragopogon porrifolius). Do grupy tej naleza tez warzywa rzepowate (np. rzodkiewka, rzepa i brukiew).</Polish>
 	</TEXT>
@@ -1409,6 +1423,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
+		<German>
+			<Text>Pilzsucher:Pilzsuchers:Pilzsucher:Pilzsucher</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
 		<Italian>Funghi selvatici</Italian>
 		<Polish>Dzikie Grzyby</Polish>
 	</TEXT>
@@ -1416,12 +1435,14 @@
 		<Tag>TXT_KEY_BUILDING_WILD_MUSHROOMS_STRATEGY</Tag>
 		<English>Gather Wild Mushrooms to increase your cities food.</English>
 		<French>Augmente la nourriture de votre ville.</French>
+		<German>[COLOR_BUILDING_TEXT]Pilzsucher[COLOR_REVERT] sorgen für zusätzliche Nahrung in frühen Städten.</German>	
 		<Italian>Raccogli i funghi selvatici per incrementare la produzione di cibo della tua città.</Italian>
 		<Polish>Gather Wild Mushrooms by zwiększyć produkcję żywności w Twoich miastach.</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_WILD_MUSHROOMS_PEDIA</Tag>
 		<English>Mushroom hunting, mushrooming, mushroom picking, and similar terms describe the activity of gathering mushrooms in the wild, typically for eating. This is popular in most of Europe, including the Nordic, Baltic, and Slavic countries and the Mediterranean Basin, as well as in Australia, Japan, Korea, Canada, and the northwestern and Appalachian United States.</English>
+		<German>Das Sammeln von Pilzen ist eine beliebte Freizeitbeschäftigung in nahezu allen Teilen der Welt. Pilzsucher gehen auf die Suche nach essbaren Wildpilzen, normalerweise um diese zu verzehren oder zu verkaufen. Sie müssen dabei allerdings größte Sorgfalt walten lassen, um nicht durch versehentlich geerntete Giftpilze eine Pilzvergiftung zu riskieren. Da es teils ähnlich aussehende Speise- und Giftpilze gibt und manche Pilze erst nach entsprechender Zubereitung genießbar werden, sind botanische Kenntnisse dringend erforderlich und jeder Sammler sollte nur die Pilze verwenden, die er zweifelsfrei identifizieren kann.</German>	
 		<Italian>I funghi selvatici vengono generalmente raccolti in aree non urbanizzate, solitamente per essere mangiati. Quest'attività è popolare in gran parte dell'Europa, in particolare nei paesi nordici, baltici, slavi e nel bacino mediterraneo; inoltre, l'attività è molto diffusa anche in Australia, Giappone, Corea, Canada e negli Stati Uniti nordoccidentali.</Italian>
 		<Polish>Grzyby są głęboko zakorzenione w kulturze (m.in. jadalne lub halucynogenne) i zajmują ważne miejsce w rozwoju cywilizacji ze względu na ich kluczowe znaczenie w wytwarzaniu chleba i wina. Wiele gatunków grzybów jest powszechnie wykorzystywanych w produkcji żywności (alkohole, pieczywo, sery). Niektóre, takie jak pędzlaki (Penicillium) i kropidlaki (Aspergillus), są przyczyną jej rozkładu, prowadząc do skażenia jej szkodliwymi dla ludzitoksynami. Grzyby z tych samych rodzajów są jednak wykorzystywane do produkcji leków (głownie antybiotyków) i związków organicznych (np. kwasu cytrynowego) oraz enzymów na skalę przemysłową.</Polish>
 	</TEXT>
@@ -19580,6 +19601,11 @@
 		<Tag>TXT_KEY_BUILDING_SEED_CAMP</Tag>
 		<English>Seed Camp</English>
 		<French>Dépot de Semences</French>
+		<German>
+			<Text>Kornlager:Kornlagers:Kornlager:Kornlager</Text>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
+		</German>
 		<Italian>Campo di semina</Italian>
 		<Polish>Obóz Zbieraczy Ziaren</Polish>
 	</TEXT>
@@ -19587,6 +19613,7 @@
 		<Tag>TXT_KEY_BUILDING_SEED_CAMP_STRATEGY</Tag>
 		<English>Build a Seed Camp in your city to increase your food.</English>
 		<French>Construisez un [COLOR_BUILDING_TEXT]Dépot de Semences[COLOR_REVERT] pour accroître la nourriture de votre ville.</French>
+		<German>[COLOR_BUILDING_TEXT]Kornlager[COLOR_REVERT] sorgen für zusätzliche Nahrung in frühen Städten.</German>
 		<Italian>Costruisci un campo di semina per incrementare la produzione di cibo della tua città.</Italian>
 		<Polish>Ziarniak (caryopsis) - suchy, niepękający owoc traw będący jednonasienną niełupką. Ziarniak okryty jest okrywą owocowo-nasienną, która powstaje ze zrośnięcia się kilkuwarstwowej owocni, łupiny nasiennej i resztek obielma. Główną masę ziarniaka stanowi nasiono zawierające niewielki zarodek oraz bielmo stanowiące jego znaczną część. W rolnictwie i potocznie ziarniaki określa się zbiorczą nazwą "ziarno". Ziarna zbóżstanowią podstawowe źródło pokarmu roślinnego dla ludzi.</Polish>
 	</TEXT>
@@ -19594,6 +19621,7 @@
 		<Tag>TXT_KEY_BUILDING_SEED_CAMP_PEDIA</Tag>
 		<English>A Seed Camp is a place to gather seeds.</English>
 		<French>.</French>
+		<German>In einem Kornlager werden die gesammelten Körner der Gemeinschaft aufbewahrt. Bei den ersten Kornlagern handelte es sich um einfache Unterstände zum Schutz vor Regenwasser oder ausgehobene Gruben im Boden.</German>
 		<Italian>Un campo di semina è un posto per raccogliere i semi.</Italian>
 		<Polish>Zbuduj Seed Camp by zwiększyć produkcję żywności w Twoim mieście.</Polish>
 	</TEXT>
