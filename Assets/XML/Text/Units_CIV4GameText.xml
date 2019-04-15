@@ -8156,13 +8156,18 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_FANATIC_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT]Requires a state religion, +2 XP from every non-state religion in the city, Purges non-state religions when capturing a city (but no holy cities)</English>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT]Requires a state religion
+[ICON_BULLET]+2 XP from every non-state religion in the city
+[ICON_BULLET]Purges non-state religions when capturing a city (but no holy cities)</English>
+
 		<German>[ICON_BULLET]Benötigt eine Staatsreligion
 [ICON_BULLET]+2 XP von jeder Nicht-Staatsreligion in der Staat
 [ICON_BULLET]Vernichtet alle Nicht-Staatsreligionen wenn er eine Stadt einnimmt (aber keine heiligen Städte)</German>
+
 		<Italian>[ICON_BULLET]Richiede una religione di stato
 [ICON_BULLET]+2 XP da ogni religion non di stato in una città
 [ICON_BULLET]Purga le religioni non di stato quando cattura una città (ma non nelle Città Sante)</Italian>
+
 		<Polish>[ICON_BULLET]Wymaga religii państwowej
 [ICON_BULLET]+2 XP za każdą religię nie-państwową w mieście
 [ICON_BULLET]Usuwa nie-państwową religię kiedy miasto zostaje podbite (oprócz Świetych Miast)</Polish>
@@ -12484,12 +12489,23 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_INQUISITOR_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT]Requires active State Religion. Intolerant civic must be active</English>
-		<French>[ICON_BULLET]Requiert une Religion d'Etat[NEWLINE][ICON_BULLET]La doctrine 'Intolérance' doit être active</French>
-		<German>[ICON_BULLET]Benötigt eine aktive Staatsreligion[NEWLINE][ICON_BULLET]Die Gesellschaftsform "Intolerant" muss aktiv sein</German>
-		<Italian>[ICON_BULLET]Richiede una Religione di stato[NEWLINE][ICON_BULLET]La forma di governo Intollerante dev'essere attiva</Italian>
-		<Spanish>[ICON_BULLET]Requiere una religión oficial[NEWLINE][ICON_BULLET]Requiere el principio Intolerancia activo</Spanish>
-		<Polish>[ICON_BULLET]Wymaga aktywnej Religii Narodowej[NEWLINE][ICON_BULLET]Doktryna nietolerancja musi być aktywna</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT]Requires active State Religion
+[ICON_BULLET]Intolerant civic must be active</English>
+
+		<French>[ICON_BULLET]Requiert une Religion d'Etat
+[ICON_BULLET]La doctrine 'Intolérance' doit être active</French>
+
+		<German>[ICON_BULLET]Benötigt eine aktive Staatsreligion
+[ICON_BULLET]Die Gesellschaftsform "Intolerant" muss aktiv sein</German>
+
+		<Italian>[ICON_BULLET]Richiede una Religione di stato
+[ICON_BULLET]La forma di governo Intollerante dev'essere attiva</Italian>
+
+		<Spanish>[ICON_BULLET]Requiere una religión oficial
+[ICON_BULLET]Requiere el principio Intolerancia activo</Spanish>
+
+		<Polish>[ICON_BULLET]Wymaga aktywnej Religii Narodowej
+[ICON_BULLET]Doktryna nietolerancja musi być aktywna</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_INQUISITOR_LINK</Tag>
@@ -16513,17 +16529,24 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_MONK_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT]Requires a state religion, +2 XP from every building of the state religion, +4 XP from shrine of the state religion, +4 XP if player is full member of the Apostolic Palace, If defends successfully in a city, spreads the state religion if not present</English>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT]Requires a state religion
+[ICON_BULLET]+2 XP from every building of the state religion
+[ICON_BULLET]+4 XP from shrine of the state religion
+[ICON_BULLET]+4 XP if player is full member of the Apostolic Palace
+[ICON_BULLET]If defends successfully in a city, spreads the state religion if not present</English>
+
 		<French>[ICON_BULLET]Requiert une religion d'Etat
 [ICON_BULLET]+2 EXP pour chaque bâtiment religieux
 [ICON_BULLET]+4 EXP pour chaque sanctuaire religieux
 [ICON_BULLET]+4 EXP si le joueur membre du Palais Apostolique
 [ICON_BULLET]Lors de la défense d'une ville, propage automatiquement sa religion</French>
+
 		<German>[ICON_BULLET]Benötigt eine Staatsreligion
 [ICON_BULLET]+2 XP von jedem Gebäude der Staatsreligion
 [ICON_BULLET]+4 XP vom Schrein der Staatsreligion
 [ICON_BULLET]+4 XP falls der Spieler Vollmitglied des Apostolischen Palastes ist
 [ICON_BULLET]Falls er in einer Stadt erfolgreich verteidigt, wird die Staatsreligion verbreitet, falls diese nicht bereits anwesend ist</German>
+
 		<Italian>[ICON_BULLET]Richiede una Religione di stato
 [ICON_BULLET]+2 XP da ogni edificio della religione di stato
 [ICON_BULLET]+4 XP dal santuario della religione di stato
@@ -18727,7 +18750,8 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_PIRATE_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT]Can Capture Merchant Ships. Can Loot Gold From Merchant Ships</English>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT]Can Capture Merchant Ships
+[ICON_BULLET]Can Loot Gold From Merchant Ships</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_PLASMA_ARMOR</Tag>
@@ -23050,8 +23074,13 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_AFRICAN_PENGUIN_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  African Penguin[NEWLINE][ICON_BULLET]Myths of Sea, Flightless Birds and Birds[NEWLINE][ICON_BULLET]Bird Cage and Enclosure</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Pingwin Przylądkowy[NEWLINE][ICON_BULLET]Mity Morza, Nielotnych Ptaków i Ptaków[NEWLINE][ICON_BULLET]Klatkę dla ptaków</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  African Penguin
+[ICON_BULLET]Myths of Sea, Flightless Birds and Birds
+[ICON_BULLET]Bird Cage and Enclosure</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Pingwin Przylądkowy
+[ICON_BULLET]Mity Morza, Nielotnych Ptaków i Ptaków
+[ICON_BULLET]Klatkę dla ptaków</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_AFRICANGREY</Tag>
@@ -23061,8 +23090,15 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_AFRICANGREY_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  African Grey Parrot[NEWLINE][ICON_BULLET]Myths of Sky and Birds[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Feather Worker and Parrots</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Papuga Żako[NEWLINE][ICON_BULLET]Mity Nieba i Ptaków[NEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Warsztat Piórarza i Papugi</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  African Grey Parrot
+[ICON_BULLET]Myths of Sky and Birds
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Feather Worker and Parrots</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Papuga Żako
+[ICON_BULLET]Mity Nieba i Ptaków
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Warsztat Piórarza i Papugi</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_ASIANBEAR</Tag>
@@ -23081,8 +23117,13 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_ASIANBEAR_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Moon Bear[NEWLINE][ICON_BULLET]Myth - Bears[NEWLINE][ICON_BULLET]Bear Cage and Enclosure</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Niedźwiedź Himalajski[NEWLINE][ICON_BULLET]Mity - Niedźwiedzie[NEWLINE][ICON_BULLET]Klatkę z niedźwiedziem</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Moon Bear
+[ICON_BULLET]Myth - Bears
+[ICON_BULLET]Bear Cage and Enclosure</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Niedźwiedź Himalajski
+[ICON_BULLET]Mity - Niedźwiedzie
+[ICON_BULLET]Klatkę z niedźwiedziem</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_BARNOWL</Tag>
@@ -23096,8 +23137,15 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_BARNOWL_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Barn Owl[NEWLINE][ICON_BULLET]Myths of Sky, Owls and Birds[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Feather Worker</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Płomykówka Zwyczajna[NEWLINE][ICON_BULLET]Mity Nieba, Sów i Ptaków[NEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Warsztat Piórarza</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Barn Owl
+[ICON_BULLET]Myths of Sky, Owls and Birds
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Feather Worker</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Płomykówka Zwyczajna
+[ICON_BULLET]Mity Nieba, Sów i Ptaków
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Warsztat Piórarza</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_BARREDOWL</Tag>
@@ -23111,8 +23159,13 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_BARREDOWL_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Barred Owl, Birds and Owls[NEWLINE][ICON_BULLET]Myth of Sky; Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Feather Worker</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Puszczyk, Ptaków i Sów[NEWLINE][ICON_BULLET]Mity Nieba, Klatkę dla ptaków[NEWLINE][ICON_BULLET]Warsztat Piórarza</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Barred Owl, Birds and Owls
+[ICON_BULLET]Myth of Sky; Bird Cage and Enclosure
+[ICON_BULLET]Feather Worker</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Puszczyk, Ptaków i Sów
+[ICON_BULLET]Mity Nieba, Klatkę dla ptaków
+[ICON_BULLET]Warsztat Piórarza</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_BLACKBEAR</Tag>
@@ -23131,8 +23184,13 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_BLACKBEAR_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Black Bear[NEWLINE][ICON_BULLET]Myth- Bears[NEWLINE][ICON_BULLET]Bear Cage and Enclosure</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Baribal[NEWLINE][ICON_BULLET]Mity - Niedźwiedzie[NEWLINE][ICON_BULLET]Klatkę z niedźwiedziem</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Black Bear
+[ICON_BULLET]Myth- Bears
+[ICON_BULLET]Bear Cage and Enclosure</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Baribal
+[ICON_BULLET]Mity - Niedźwiedzie
+[ICON_BULLET]Klatkę z niedźwiedziem</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_BOOBY</Tag>
@@ -23146,8 +23204,15 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_BOOBY_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Blue-footed Booby and Sea Bird[NEWLINE][ICON_BULLET]Myths of Sky and Birds[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Feather Worker</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Głuptak Niebieskonogi i Ptaków Morskich[NEWLINE][ICON_BULLET]Mity Nieba i Ptaków[NEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Warsztat Piórarza</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Blue-footed Booby and Sea Bird
+[ICON_BULLET]Myths of Sky and Birds
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Feather Worker</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Głuptak Niebieskonogi i Ptaków Morskich
+[ICON_BULLET]Mity Nieba i Ptaków
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Warsztat Piórarza</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_BROWN_BEAR</Tag>
@@ -23166,13 +23231,27 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_BROWN_BEAR_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Brown Bear[NEWLINE][ICON_BULLET]Myth- Bears[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Feather Worker and Parrots</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Niedźwiedź Brunatny[NEWLINE][ICON_BULLET]Mity - Niedźwiedzie[NEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Warsztat Piórarza i Papugi</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Brown Bear
+[ICON_BULLET]Myth- Bears
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Feather Worker and Parrots</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Niedźwiedź Brunatny
+[ICON_BULLET]Mity - Niedźwiedzie
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Warsztat Piórarza i Papugi</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_CASSOWARY_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Cassowary[NEWLINE][ICON_BULLET]Myths of Sky, Flightless Birds and Birds[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Ratite Flock and Feather Worker</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Kazuar[NEWLINE][ICON_BULLET]Mity Nieba, Nielotnych Ptaków i Ptaków[NEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Stado Strusi i Warsztat Piórarza</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Cassowary
+[ICON_BULLET]Myths of Sky, Flightless Birds and Birds
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Ratite Flock and Feather Worker</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Kazuar
+[ICON_BULLET]Mity Nieba, Nielotnych Ptaków i Ptaków
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Stado Strusi i Warsztat Piórarza</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_CAVE_BEAR</Tag>
@@ -23195,7 +23274,9 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 [ICON_BULLET]Master Hunter
 [ICON_BULLET]Bear Cage and Enclosure</English>
 
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Niedźwiedź Jaskiniowy i Niedźwiedź[NEWLINE][ICON_BULLET]Mistrz Łowiectwa[NEWLINE][ICON_BULLET]Klatkę z niedźwiedziem</Polish>
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Niedźwiedź Jaskiniowy i Niedźwiedź
+[ICON_BULLET]Mistrz Łowiectwa
+[ICON_BULLET]Klatkę z niedźwiedziem</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_EAGLE_HELP</Tag>
@@ -23203,7 +23284,10 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 [ICON_BULLET]Myths of Sky and Pheonix, Falcon Hut and Falconner
 [ICON_BULLET]Bird Cage, Enclosure and Feather Worker</English>
 
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Orły, Ptaków Drapieżnych i Ptaków[NEWLINE][ICON_BULLET]Mity Nieba i Feniksa, Chatka Sokołów i SokolnikaNEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Warsztat Piórarza</Polish>
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Orły, Ptaków Drapieżnych i Ptaków
+[ICON_BULLET]Mity Nieba i Feniksa, Chatka Sokołów i Sokolnika
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Warsztat Piórarza</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_EMU_HELP</Tag>
@@ -23212,7 +23296,10 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 [ICON_BULLET]Bird Cage and Enclosure
 [ICON_BULLET]Ratite Flock and Feather Worker</English>
 
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Emu[NEWLINE][ICON_BULLET]Mity Nieba, Nielotnych Ptaków i Ptaków[NEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Stado Strusi i Warsztat Piórarza</Polish>
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Emu
+[ICON_BULLET]Mity Nieba, Nielotnych Ptaków i Ptaków
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Stado Strusi i Warsztat Piórarza</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_GALAPAGOS_PENGUIN</Tag>
@@ -23226,8 +23313,13 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_GALAPAGOS_PENGUIN_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Galapagos Penguin[NEWLINE][ICON_BULLET]Myths of Sea, Flightless Birds and Birds[NEWLINE][ICON_BULLET]Bird Cage and Enclosure</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Pingwin Równikowy[NEWLINE][ICON_BULLET]Mity Morza, Nielotnych Ptaków i Ptaków[NEWLINE][ICON_BULLET]Klatkę dla ptaków</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Galapagos Penguin
+[ICON_BULLET]Myths of Sea, Flightless Birds and Birds
+[ICON_BULLET]Bird Cage and Enclosure</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Pingwin Równikowy
+[ICON_BULLET]Mity Morza, Nielotnych Ptaków i Ptaków
+[ICON_BULLET]Klatkę dla ptaków</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_GRIZZLY</Tag>
@@ -23246,13 +23338,25 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_GRIZZLY_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Grizzly Bear[NEWLINE][ICON_BULLET]Myth- Bears[NEWLINE][ICON_BULLET]Bear Cage and Enclosure</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Grizzly[NEWLINE][ICON_BULLET]Mity - Niedźwiedzie[NEWLINE][ICON_BULLET]Klatkę z niedźwiedziem</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Grizzly Bear
+[ICON_BULLET]Myth- Bears
+[ICON_BULLET]Bear Cage and Enclosure</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Grizzly
+[ICON_BULLET]Mity - Niedźwiedzie
+[ICON_BULLET]Klatkę z niedźwiedziem</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_HAAST_EAGLE_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Haast's Eagle, Raptors and Birds[NEWLINE][ICON_BULLET]Myths of Sky, Phoenix and Paleolithic Bird[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Master Hunter, Hawking Hut and Feather Worker</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Orła Haasta, Raptors i Ptaków[NEWLINE][ICON_BULLET]Mity Nieba, Phoenix i Paleolithic Bird[NEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Mistrz Łowiectwa, Chatę Jastrzębia i Warsztat Piórarza</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Haast's Eagle, Raptors and Birds
+[ICON_BULLET]Myths of Sky, Phoenix and Paleolithic Bird
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Master Hunter, Hawking Hut and Feather Worker</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Orła Haasta, Raptors i Ptaków
+[ICON_BULLET]Mity Nieba, Phoenix i Paleolithic Bird
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Mistrz Łowiectwa, Chatę Jastrzębia i Warsztat Piórarza</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_HARPYEAGLE</Tag>
@@ -23266,28 +23370,63 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_HARPYEAGLE_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Harpy Eagle[NEWLINE][ICON_BULLET]Myths of Sky and Birds[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Feather Worker and Parrots</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Harpia Wielka[NEWLINE][ICON_BULLET]Mity Nieba i Ptaków[NEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Warsztat Piórarza i Papugi</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Harpy Eagle
+[ICON_BULLET]Myths of Sky and Birds
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Feather Worker and Parrots</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Harpia Wielka
+[ICON_BULLET]Mity Nieba i Ptaków
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Warsztat Piórarza i Papugi</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_HAWK_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Hawk,  Raptors and Birds[NEWLINE][ICON_BULLET]Myths of Sky[, Falcon Hut and FalconnerNEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Feather Worker</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Jastrzębia, Ptaków Drapieżnych i Ptaków[NEWLINE][ICON_BULLET]Mity Nieba, Chatka Sokołów i SokolnikaNEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Warsztat Piórarza</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Hawk,  Raptors and Birds
+[ICON_BULLET]Myths of Sky, Falcon Hut and Falconner
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Feather Worker</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Jastrzębia, Ptaków Drapieżnych i Ptaków
+[ICON_BULLET]Mity Nieba, Chatka Sokołów i Sokolnika
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Warsztat Piórarza</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_MACAW_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Macaw and Birds[NEWLINE][ICON_BULLET]Myths of Sky[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Feather Worker and Parrots</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Papugi Ara i Ptaków[NEWLINE][ICON_BULLET]Mity Nieba[NEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Warsztat Piórarza i Papugi</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Macaw and Birds
+[ICON_BULLET]Myths of Sky
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Feather Worker and Parrots</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Papugi Ara i Ptaków
+[ICON_BULLET]Mity Nieba
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Warsztat Piórarza i Papugi</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_MOA_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Moa[NEWLINE][ICON_BULLET]Myths of Sky, Flightless Birds and Birds[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Ratite Flock and Feather Worker</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Moa[NEWLINE][ICON_BULLET]Mity Nieba, Nielotnych Ptaków i Ptaków[NEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Stado Strusi i Warsztat Piórarza</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Moa
+[ICON_BULLET]Myths of Sky, Flightless Birds and Birds
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Ratite Flock and Feather Worker</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Moa
+[ICON_BULLET]Mity Nieba, Nielotnych Ptaków i Ptaków
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Stado Strusi i Warsztat Piórarza</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_OSTRICH_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Ostrich[NEWLINE][ICON_BULLET]Myths of Sky, Flightless Birds and Birds[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Ratite Flock and Feather Worker</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Strusia[NEWLINE][ICON_BULLET]Mity Nieba, Nielotnych Ptaków i Ptaków[NEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Stado Strusi i Warsztat Piórarza</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Ostrich
+[ICON_BULLET]Myths of Sky, Flightless Birds and Birds
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Ratite Flock and Feather Worker</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Strusia
+[ICON_BULLET]Mity Nieba, Nielotnych Ptaków i Ptaków
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Stado Strusi i Warsztat Piórarza</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_PANDA_BEAR</Tag>
@@ -23306,8 +23445,13 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_PANDA_BEAR_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Panda Bear[NEWLINE][ICON_BULLET]Myth- Bears[NEWLINE][ICON_BULLET]Bear Cage and Enclosure</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Panda[NEWLINE][ICON_BULLET]Mity - Niedźwiedzie[NEWLINE][ICON_BULLET]Klatkę z niedźwiedziem</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Panda Bear
+[ICON_BULLET]Myth- Bears
+[ICON_BULLET]Bear Cage and Enclosure</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Panda
+[ICON_BULLET]Mity - Niedźwiedzie
+[ICON_BULLET]Klatkę z niedźwiedziem</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_PARROT</Tag>
@@ -23317,13 +23461,25 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_PARROT_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Parrot[NEWLINE][ICON_BULLET]Myths of Sky and Birds[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Feather Worker and Parrots</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Papuga[NEWLINE][ICON_BULLET]Mity Nieba i Ptaków[NEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Warsztat Piórarza i Papugi</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Parrot
+[ICON_BULLET]Myths of Sky and Birds
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Feather Worker and Parrots</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Papuga
+[ICON_BULLET]Mity Nieba i Ptaków
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Warsztat Piórarza i Papugi</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_POLAR_BEAR_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Polar Bear[NEWLINE][ICON_BULLET]Myth- Bears[NEWLINE][ICON_BULLET]Bear Cage and Enclosure</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Niedźwiedź Polarny[NEWLINE][ICON_BULLET]Mity - Niedźwiedzie[NEWLINE][ICON_BULLET]Klatkę z niedźwiedziem</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Polar Bear
+[ICON_BULLET]Myth- Bears
+[ICON_BULLET]Bear Cage and Enclosure</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Niedźwiedź Polarny
+[ICON_BULLET]Mity - Niedźwiedzie
+[ICON_BULLET]Klatkę z niedźwiedziem</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_POLARBEAR</Tag>
@@ -23348,8 +23504,15 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_RAVEN_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Raven[NEWLINE][ICON_BULLET]Myths of Sky, Scavengers and Birds[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Feather Worker</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Wrona[NEWLINE][ICON_BULLET]Mity Nieba, Padlinożerców i Ptaków[NEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Warsztat Piórarza</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Raven
+[ICON_BULLET]Myths of Sky, Scavengers and Birds
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Feather Worker</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Wrona
+[ICON_BULLET]Mity Nieba, Padlinożerców i Ptaków
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Warsztat Piórarza</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_RAZORBILL</Tag>
@@ -23359,9 +23522,15 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_RAZORBILL_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Razorbill[NEWLINE][ICON_BULLET]Myths of Sky, Sea, Sea Birds and Birds[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Feather Worker</English>
-		<French>[COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Pingouin torda[NEWLINE][ICON_BULLET]Myths of Sky, Sea, Sea Birds and Birds[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Feather Worker</French>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Alka[NEWLINE][ICON_BULLET]Mity Nieba, Morza, Morskich Ptaków i Ptaków[NEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Warsztat Piórarza</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Razorbill
+[ICON_BULLET]Myths of Sky, Sea, Sea Birds and Birds
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Feather Worker</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Alka
+[ICON_BULLET]Mity Nieba, Morza, Morskich Ptaków i Ptaków
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Warsztat Piórarza</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_REDPANDA</Tag>
@@ -23380,13 +23549,25 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_REDPANDA_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Red Panda[NEWLINE][ICON_BULLET]Myth- Bears[NEWLINE][ICON_BULLET]Bear Cage and Enclosure</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Panda Czerwona[NEWLINE][ICON_BULLET]Mity - Niedźwiedzie[NEWLINE][ICON_BULLET]Klatkę z niedźwiedziem</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Red Panda
+[ICON_BULLET]Myth- Bears
+[ICON_BULLET]Bear Cage and Enclosure</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Panda Czerwona
+[ICON_BULLET]Mity - Niedźwiedzie
+[ICON_BULLET]Klatkę z niedźwiedziem</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_RHEA_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Rhea[NEWLINE][ICON_BULLET]Myths of Sky, Flightless Birds and Birds[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Ratite Flock and Feather Worker</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Nandu[NEWLINE][ICON_BULLET]Mity Nieba, Nielotnych Ptaków i Ptaków[NEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Stado Strusi i Warsztat Piórarza</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Rhea
+[ICON_BULLET]Myths of Sky, Flightless Birds and Birds
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Ratite Flock and Feather Worker</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Nandu
+[ICON_BULLET]Mity Nieba, Nielotnych Ptaków i Ptaków
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Stado Strusi i Warsztat Piórarza</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_SEAEAGLE</Tag>
@@ -23400,8 +23581,15 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_SEAEAGLE_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Steller's Sea Eagle,  Raptors and Birds[NEWLINE][ICON_BULLET]Myths of Sky and Pheonix, Falcon Hut and Falconner[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Feather Worker</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Bielik Olbrzymi, Ptaków Drapieżnych i Ptaków[NEWLINE][ICON_BULLET]Mity Nieba i Feniksa, Chatka Sokołów i Sokolnika[NEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Warsztat Piórarza</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Steller's Sea Eagle,  Raptors and Birds
+[ICON_BULLET]Myths of Sky and Pheonix, Falcon Hut and Falconner
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Feather Worker</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Bielik Olbrzymi, Ptaków Drapieżnych i Ptaków
+[ICON_BULLET]Mity Nieba i Feniksa, Chatka Sokołów i Sokolnika
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Warsztat Piórarza</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_SECRETARYBIRD</Tag>
@@ -23411,8 +23599,15 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_SECRETARYBIRD_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Secretary Bird[NEWLINE][ICON_BULLET]Myths of Sky and Birds[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Feather Worker</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Sekretarz[NEWLINE][ICON_BULLET]Mity Nieba i Ptaków[NEWLINE][ICON_BULLET]Klatkę dla ptaków[NEWLINE][ICON_BULLET]Warsztat Piórarza</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Secretary Bird
+[ICON_BULLET]Myths of Sky and Birds
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Feather Worker</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Sekretarz
+[ICON_BULLET]Mity Nieba i Ptaków
+[ICON_BULLET]Klatkę dla ptaków
+[ICON_BULLET]Warsztat Piórarza</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_SLOTHBEAR</Tag>
@@ -23431,13 +23626,23 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_SLOTHBEAR_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Sloth Bear[NEWLINE][ICON_BULLET]Myth- Bears[NEWLINE][ICON_BULLET]Bear Cage and Enclosure</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Wargacz[NEWLINE][ICON_BULLET]Mity - Niedźwiedzie[NEWLINE][ICON_BULLET]Klatkę z niedźwiedziem</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Sloth Bear
+[ICON_BULLET]Myth- Bears
+[ICON_BULLET]Bear Cage and Enclosure</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Wargacz
+[ICON_BULLET]Mity - Niedźwiedzie
+[ICON_BULLET]Klatkę z niedźwiedziem</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_SPECTACLED_BEAR_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Spectacled Bear[NEWLINE][ICON_BULLET]Myth- Bears[NEWLINE][ICON_BULLET]Bear Cage and Enclosure</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Niedźwiedź Andyjski[NEWLINE][ICON_BULLET]Mity - Niedźwiedzie[NEWLINE][ICON_BULLET]Klatkę z niedźwiedziem</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Spectacled Bear
+[ICON_BULLET]Myth- Bears
+[ICON_BULLET]Bear Cage and Enclosure</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Niedźwiedź Andyjski
+[ICON_BULLET]Mity - Niedźwiedzie
+[ICON_BULLET]Klatkę z niedźwiedziem</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_SPECTACLEDBEAR</Tag>
@@ -23456,8 +23661,14 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_SUN_BEAR_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Sun Bear[NEWLINE][ICON_BULLET]Myths of Sky and Birds[NEWLINE][ICON_BULLET]Bird Cage and Enclosure[NEWLINE][ICON_BULLET]Feather Worker and Parrots</English>
-		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Niedźwiedź Malajski[NEWLINE][ICON_BULLET]Mity - Niedźwiedzie[NEWLINE][ICON_BULLET]Klatkę z niedźwiedziem</Polish>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Sun Bear
+[ICON_BULLET]Myths of Sky and Birds
+[ICON_BULLET]Bird Cage and Enclosure
+[ICON_BULLET]Feather Worker and Parrots</English>
+
+		<Polish>[COLOR_HIGHLIGHT_TEXT]Buduj[COLOR_REVERT] Mit, Opowieść i Historie - Niedźwiedź Malajski
+[ICON_BULLET]Mity - Niedźwiedzie
+[ICON_BULLET]Klatkę z niedźwiedziem</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_SUNBEAR</Tag>
@@ -24536,9 +24747,6 @@ Lived:[\BOLD] 1805 - 1874[BOLD]
 		<Tag>TXT_KEY_UNIT_TOUCAN_PEDIA</Tag>
 		<English>Toucans are members of the family Ramphastidae of near passerine birds from the Neotropics. The Ramphastidae family is most closely related to the American barbets. They are brightly marked and have large, often colorful bills. The family includes five genera and about forty different species. The name of this bird group is derived from the Tupi word tukana, via Portuguese.[H2]Morphology[\H2]	Toucans range in size from the Lettered Aracari (Pteroglossus inscriptus), at 130 g (4.6 oz) and 29 cm (11.5 inches), to the Toco Toucan (Ramphastos toco), at 680 g (1.5 lb) and 63 cm (29 inches). Their bodies are short (of comparable size to a crow's) and compact. The tail is rounded and varies in length, from half the length to the whole length of the body. The neck is short and thick. The wings are small, as they are forest-dwelling birds who only need to travel short distances, and are often of about the same span as the bill-tip-to-tail-tip measurements of the bird.The legs of a toucan are strong and rather short. Their toes are arranged in pairs with the first and fourth toes turned backward. The majority of toucans do not show any sexual dimorphism in their coloration, the genus Selenidera being the most notable exception to this rule (hence their common name, "dichromatic toucanets"). However, the bills of female toucans are usually shorter, deeper and sometimes straighter, giving more of a "blocky" impression compared to male bills. The feathers in the genus containing the largest toucans are generally black, with touches of white, yellow, and scarlet. The underparts of the araçaris (smaller toucans) are yellow, crossed by one or more black or red bands. The toucanets have mostly green plumage with blue markings.Keel-billed Toucan (Ramphastos sulfuratus)The colorful and large bill, which in some large species measures more than half the length of the body, is the hallmark of toucans. Despite its size, the toucan's bill is very light, being composed of bone struts filled with spongy tissue of keratin between them. The bill has forward-facing serrations resembling teeth, which historically led naturalists to believe that toucans captured fish and were primarily carnivorous; today it is known that they eat mostly fruit. Researchers have discovered that the large bill of the toucan is a highly efficient thermoregulation system, though its size may still be advantageous in other ways. It does aid in their feeding behavior (as they sit in one spot and reach for all fruit in range, thereby reducing energy expenditure), and it has also been theorized that the bill may intimidate smaller birds, so that the toucan may plunder nests undisturbed (see Diet below). Also, the beak allows the bird to reach deep into tree-holes to access food unavailable to other birds, and also to ransack suspended nests built by smaller birds. However, as there is no sexual dimorphism in coloration it is unlikely to be a sexual signal. A toucan's tongue is long (up to 14 - 15 cm, or 6 inches), narrow, grey, and singularly frayed on each side, adding to its sensitivity as an organ of taste.A structural complex probably unique to toucans involves the modification of several tail vertebrae. The rear three vertebrae are fused and attached to the spine by a ball and socket joint. Because of this, toucans may snap their tail forwards until it touches the head. This is the posture in which they sleep, often appearing simply as a ball of feathers, with the tip of the tail sticking out over the head.Toucans are arboreal and typically lay 2 - 4 white eggs in their nests. They make their nests in tree hollows and holes excavated by other animals such as woodpeckers, the toucan bill has very limited use as an excavation tool. When the eggs hatch, the young emerge completely naked, without any down. Toucans are resident breeders and do not migrate. Toucans are usually found in pairs or small flocks. They sometimes fence with their bills and wrestle, which scientists hypothesize they do to establish dominance hierarchies.[H2]Habitat[\H2]	Toucans are native to Southern Mexico, Central and South America, and the Caribbean region. They generally live in tropical and sub-tropical regions. They make their nests in tree hollows and holes excavated by other animals such as woodpeckers the toucan bill has very limited use as an excavation tool.[PARAGRAPH:2]Source: Wikipedia</English>
 		<French>Toucan est le nom vernaculaire de 12 espèces (soit en tout, 23 taxons) d'oiseaux de l'ordre des Piciformes et de la famille des Ramphastidés, proches des araçaris et des toucanets qui, dans le langage courant, sont aussi appelés « toucans ».[PARAGRAPH:2]Son long bec très léger et vascularisé lui permet de réguler sa température. Le toucan régule sa température grâce à son bec. Glenn Tattersall, de la Brock University (Canada), a trouvé un rôle à cet appendice qui représente près de la moitié de la surface corporelle de ces oiseaux. En les filmant en infrarouge, dès que la température dépasse 16°C, le bec du toucan s'échauffe jusqu'à une dizaine de degrés supplémentaire. Dans cet organe richement vascularisé, c'est le sang qui joue le rôle de liquide de refroidissement. Les vaisseaux, contractés pour éviter la déperdition de chaleur lorsqu'il fait froid, sont dilatés et irradient de la chaleur vers l'extérieur quand la température ambiante augmente. Comme dans les oreilles de l'éléphant, à la différence que la climatisation du toucan est quatre fois plus efficace que celle du pachyderme.</French>
-		<German>Toucan</German>
-		<Italian>Toucan</Italian>
-		<Polish>Toucans are members of the family Ramphastidae of near passerine birds from the Neotropics. The Ramphastidae family is most closely related to the American barbets. They are brightly marked and have large, often colorful bills. The family includes five genera and about forty different species. The name of this bird group is derived from the Tupi word tukana, via Portuguese.[H2]Morphology[\H2]	Toucans range in size from the Lettered Aracari (Pteroglossus inscriptus), at 130 g (4.6 oz) and 29 cm (11.5 inches), to the Toco Toucan (Ramphastos toco), at 680 g (1.5 lb) and 63 cm (29 inches). Their bodies are short (of comparable size to a crow's) and compact. The tail is rounded and varies in length, from half the length to the whole length of the body. The neck is short and thick. The wings are small, as they are forest-dwelling birds who only need to travel short distances, and are often of about the same span as the bill-tip-to-tail-tip measurements of the bird.The legs of a toucan are strong and rather short. Their toes are arranged in pairs with the first and fourth toes turned backward. The majority of toucans do not show any sexual dimorphism in their coloration, the genus Selenidera being the most notable exception to this rule (hence their common name, "dichromatic toucanets"). However, the bills of female toucans are usually shorter, deeper and sometimes straighter, giving more of a "blocky" impression compared to male bills. The feathers in the genus containing the largest toucans are generally black, with touches of white, yellow, and scarlet. The underparts of the araCaris (smaller toucans) are yellow, crossed by one or more black or red bands. The toucanets have mostly green plumage with blue markings.Keel-billed Toucan (Ramphastos sulfuratus)The colorful and large bill, which in some large species measures more than half the length of the body, is the hallmark of toucans. Despite its size, the toucan's bill is very light, being composed of bone struts filled with spongy tissue of keratin between them. The bill has forward-facing serrations resembling teeth, which historically led naturalists to believe that toucans captured fish and were primarily carnivorous; today it is known that they eat mostly fruit. Researchers have discovered that the large bill of the toucan is a highly efficient thermoregulation system, though its size may still be advantageous in other ways. It does aid in their feeding behavior (as they sit in one spot and reach for all fruit in range, thereby reducing energy expenditure), and it has also been theorized that the bill may intimidate smaller birds, so that the toucan may plunder nests undisturbed (see Diet below). Also, the beak allows the bird to reach deep into tree-holes to access food unavailable to other birds, and also to ransack suspended nests built by smaller birds. However, as there is no sexual dimorphism in coloration it is unlikely to be a sexual signal.A toucan's tongue is long (up to 14 - 15 cm, or 6 inches), narrow, grey, and singularly frayed on each side, adding to its sensitivity as an organ of taste.A structural complex probably unique to toucans involves the modification of several tail vertebrae. The rear three vertebrae are fused and attached to the spine by a ball and socket joint. Because of this, toucans may snap their tail forwards until it touches the head. This is the posture in which they sleep, often appearing simply as a ball of feathers, with the tip of the tail sticking out over the head.Toucans are arboreal and typically lay 2 - 4 white eggs in their nests. They make their nests in tree hollows and holes excavated by other animals such as woodpeckers the toucan bill has very limited use as an excavation tool. When the eggs hatch, the young emerge completely naked, without any down. Toucans are resident breeders and do not migrate. Toucans are usually found in pairs or small flocks. They sometimes fence with their bills and wrestle, which scientists hypothesize they do to establish dominance hierarchies.[H2]Habitat[\H2]	Toucans are native to Southern Mexico, Central and South America, and the Caribbean region. They generally live in tropical and sub-tropical regions. They make their nests in tree hollows and holes excavated by other animals such as woodpeckers the toucan bill has very limited use as an excavation tool.[PARAGRAPH:2]Source: Wikipedia</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_TOWN_WATCHMEN</Tag>

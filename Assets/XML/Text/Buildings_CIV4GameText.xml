@@ -12615,7 +12615,8 @@ As the interrogation progresses, a handle and ratchet mechanism attached to the 
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_HIMEJI_CASTLE_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT]+100%[ICON_GOLD] from Pillaging[NEWLINE][ICON_BULLET]Enemies Can't Capture or Pillage [ICON_GOLD] Inside Cultural Borders</English>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT]+100%[ICON_GOLD] from Pillaging
+[ICON_BULLET]Enemies Can't Capture or Pillage [ICON_GOLD] Inside Cultural Borders</English>
 		<French>[ICON_BULLET]+100%[ICON_GOLD] lors des pillages[NEWLINE][ICON_BULLET]Ennemis ne récupère par [ICON_GOLD] de leurs pillages</French>
 		<German>[ICON_BULLET]+100%[ICON_GOLD] durch Plünderungen[NEWLINE][ICON_BULLET]Feinde können innerhalb der Grenzen kein [ICON_GOLD] erobern oder plündern.</German>
 		<Italian>[ICON_BULLET]+100%[ICON_GOLD] dal saccheggio[NEWLINE][ICON_BULLET]I nemici non possono catturare o saccheggiare [ICON_GOLD] all'interno dei confini culturali</Italian>
@@ -14998,7 +14999,8 @@ As the interrogation progresses, a handle and ratchet mechanism attached to the 
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_LASCAUX_CAVES_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][ICON_CULTURE] Boost in Cities when [ICON_GREATPEOPLE] Born[NEWLINE][ICON_BULLET]Bonus Doubles in Cities with [LINK=SPECIALIST_GREAT_ARTIST]Great Artists[\LINK]</English>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][ICON_CULTURE] Boost in Cities when [ICON_GREATPEOPLE] Born
+[ICON_BULLET]Bonus Doubles in Cities with [LINK=SPECIALIST_GREAT_ARTIST]Great Artists[\LINK]</English>
 		<French>[ICON_BULLET]Bonus de [ICON_CULTURE] dans les Villes lors de la naissance d'un [ICON_GREATPEOPLE][NEWLINE][ICON_BULLET]Le Bonus est doublé dans les villes avec un [LINK=SPECIALIST_GREAT_ARTIST]Artiste Illustre[\LINK]</French>
 		<Italian>[ICON_BULLET][ICON_CULTURE] Boost nelle città quando nascono [ICON_GREATPEOPLE][NEWLINE][ICON_BULLET]Bonus doppio nelle città con [LINK=SPECIALIST_GREAT_ARTIST]Grandi Artisti[\LINK]</Italian>
 		<Spanish>[ICON_BULLET]Bonificación a la [ICON_CULTURE] en las ciudades cuando nazcan [ICON_GREATPEOPLE][NEWLINE][ICON_BULLET]Bonificación doble en ciudades con [LINK=SPECIALIST_GREAT_ARTIST]Grandes artistas[\LINK]</Spanish>
@@ -16393,7 +16395,6 @@ As the interrogation progresses, a handle and ratchet mechanism attached to the 
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MEDICAL_ACHIEVEMENT_EFFECT_STRATEGY</Tag>
 		<English>TBD</English>
-		<French>AUCUN</French>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MEDICAL_CENTER</Tag>
@@ -22036,7 +22037,6 @@ As the interrogation progresses, a handle and ratchet mechanism attached to the 
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_PYRAMID_STRATEGY</Tag>
 		<English>The [COLOR_BUILDING_TEXT]Pyramids[COLOR_REVERT] grants free [COLOR_BUILDING_TEXT]Irrigation Canals[COLOR_REVERT] in every city. They also increase their city's chances of generating a [COLOR_UNIT_TEXT]Great Engineer[COLOR_REVERT].</English>
-		<French>The [COLOR_BUILDING_TEXT]Pyramids[COLOR_REVERT] grants free [COLOR_BUILDING_TEXT]un Canaux d'Irrigation[COLOR_REVERT] in every city. They also increase their city's chances of generating a [COLOR_UNIT_TEXT]Great Engineer[COLOR_REVERT].</French>
 		<German>verschaffen allen Städten [COLOR_HIGHLIGHT_TEXT]Bewässerungkanäle[COLOR_REVERT], erhöhen in der erbauenden Stadt die Wahrscheinlichkeit des Auftretens eines [COLOR_UNIT_TEXT]Großen Konstrukteurs[COLOR_REVERT].</German>
 		<Spanish>Las [COLOR_BUILDING_TEXT]Pirámides[COLOR_REVERT] proporcionan unos [COLOR_BUILDING_TEXT]Canales de riego[COLOR_REVERT] gratis en todas las ciudades. Aumentan también la probabilidad de que la ciudad engendre un [COLOR_UNIT_TEXT]Gran ingeniero[COLOR_REVERT].</Spanish>
 	</TEXT>
@@ -23322,7 +23322,6 @@ As the interrogation progresses, a handle and ratchet mechanism attached to the 
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SAFETY_ACHIEVEMENT_EFFECT_STRATEGY</Tag>
 		<English>TBD</English>
-		<French>AUCUN</French>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SAFETY_NAT_LEGAL_DATABASE</Tag>
@@ -26838,7 +26837,6 @@ As the interrogation progresses, a handle and ratchet mechanism attached to the 
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TOURISM_ACHIEVEMENT_EFFECT_STRATEGY</Tag>
 		<English>TBD</English>
-		<French>AUCUN</French>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TOURNAMENT</Tag>
@@ -28275,7 +28273,6 @@ As the interrogation progresses, a handle and ratchet mechanism attached to the 
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_WIKIPEDIA_STRATEGY</Tag>
 		<English>TBD</English>
-		<French>un Aucun</French>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_WILDWEST_HOTEL</Tag>
@@ -28543,7 +28540,6 @@ As the interrogation progresses, a handle and ratchet mechanism attached to the 
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ZHENG_HE_STRATEGY</Tag>
 		<English>TBD</English>
-		<French>un Aucun</French>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ZONE_OF_CONTROL</Tag>
