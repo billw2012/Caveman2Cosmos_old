@@ -793,51 +793,65 @@
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
 			<Cities>
-				<City>TXT_KEY_CITY_NAME_BIBRACTE</City>
-				<City>TXT_KEY_CITY_NAME_VIENNE</City>
-				<City>TXT_KEY_CITY_NAME_TOLOSA</City>
-				<City>TXT_KEY_CITY_NAME_GERGOVIA</City>
-				<City>TXT_KEY_CITY_NAME_CAMULODUNUM</City>
-				<City>TXT_KEY_CITY_NAME_VERLAMION</City>
-				<City>TXT_KEY_CITY_NAME_DURNOVARIA</City>
-				<City>TXT_KEY_CITY_NAME_ISCA</City>
-				<City>TXT_KEY_CITY_NAME_DUROCORTORUM</City>
-				<City>TXT_KEY_CITY_NAME_NEMETOCENNA</City>
-				<City>TXT_KEY_CITY_NAME_CALLEVA</City>
-				<City>TXT_KEY_CITY_NAME_VENTA</City>
-				<City>TXT_KEY_CITY_NAME_ISURIUM</City>
-				<City>TXT_KEY_CITY_NAME_RATAE</City>
-				<City>TXT_KEY_CITY_NAME_LUTETIA</City>
-				<City>TXT_KEY_CITY_NAME_ENTREMONT</City>
-				<City>TXT_KEY_CITY_NAME_BURDIGALA</City>
-				<City>TXT_KEY_CITY_NAME_NEMAUSUS</City>
-				<City>TXT_KEY_CITY_NAME_SAMAROBRIVA</City>
-				<City>TXT_KEY_CITY_NAME_BRIXIA</City>
-				<City>Mediolanum</City>
-				<City>Borbetomagus</City><!-- Later renamed 'Civitas Vangionum' and then to 'Worms' -->
-				<City>TXT_KEY_CITY_NAME_CREMONA</City>
-				<City>TXT_KEY_CITY_NAME_TAURASIA</City>
-				<City>TXT_KEY_CITY_NAME_SINIGAGLIA</City>
-				<City>TXT_KEY_CITY_NAME_NOVIOMAGUS</City>
-				<City>TXT_KEY_CITY_NAME_DUROVERNUM</City>
-				<City>TXT_KEY_CITY_NAME_LUGUVALIO</City>
-				<City>TXT_KEY_CITY_NAME_LINDINIS</City>
-				<City>TXT_KEY_CITY_NAME_OKILIS</City>
-				<City>TXT_KEY_CITY_NAME_NUMANTIA</City>
-				<City>TXT_KEY_CITY_NAME_TIERNES</City>
-				<City>TXT_KEY_CITY_NAME_BOTORRITA</City>
-				<City>TXT_KEY_CITY_NAME_MORIDUNUM</City>
-				<City>TXT_KEY_CITY_NAME_TARA</City>
-				<City>TXT_KEY_CITY_NAME_EBLANA</City>
-				<City>TXT_KEY_CITY_NAME_ALESIA</City>
-				<City>TXT_KEY_CITY_NAME_ANDEMATUNUM</City>
-				<City>TXT_KEY_CITY_NAME_UBIORUM</City>
-				<City>TXT_KEY_CITY_NAME_GENEVA</City>
-				<City>TXT_KEY_CITY_NAME_VINDOBONA</City>
-				<City>TXT_KEY_CITY_NAME_PISONIUM</City>
-				<City>TXT_KEY_CITY_NAME_ACQUINCUM</City>
-				<City>TXT_KEY_CITY_NAME_TYLIS</City>
-				<City>TXT_KEY_CITY_NAME_ANCYRA</City>
+				<City>TXT_KEY_CITY_NAME_KELEIA</City><!-- 800-600, Means "shelter", today Celje (Slovenia) -->
+				<City>TXT_KEY_CITY_NAME_BURDIGALA</City><!-- ~600 BC, today Bordeaux (France) -->
+				<City>TXT_KEY_CITY_NAME_MEDIOLANON</City><!-- ~600 BC, Roman Mediolanum, today Milan (Italy) -->
+				<City>TXT_KEY_CITY_NAME_WINDOBONA</City><!-- ~500 BC, Roman Vindobona, today Vienna (Austria). Means "white foundation" -->
+				<City>TXT_KEY_CITY_NAME_BRIGANTION</City><!-- ~500 BC, Roman Brigantium, today Bregenz (Austria) -->
+				<City>TXT_KEY_CITY_NAME_TURIKON</City><!-- Today Zürich (Switzerland) -->
+				<City>TXT_KEY_CITY_NAME_SAMAROBRIWA</City><!-- Means "bridge of Samara" (river Somme), today Amiens (France) -->
+				<City>TXT_KEY_CITY_NAME_ARGENTOMAGOS</City><!-- Argentan (France) -->
+				<City>TXT_KEY_CITY_NAME_TAURASIA</City><!-- 600-300, today Turin (Italy) -->
+				<City>TXT_KEY_CITY_NAME_NEMAUSUS</City><!-- 500-300, name is a reference to a celtic shrine, today Nîmes (France) -->
+				<City>TXT_KEY_CITY_NAME_ALESIA</City><!-- 500-300, near Alise-Sainte-Reine (France) -->
+				<City>TXT_KEY_CITY_NAME_DIVODUNON</City><!-- ~450 BC, means "divine hill/fortress", today Metz (France) -->
+				<City>TXT_KEY_CITY_NAME_SENONES</City><!-- ~400 BC, true name is unknown, capital of the Celtic tribe of the Senones, Roman Sena Gallica, today Senigallia (Italy) -->
+				<City>TXT_KEY_CITY_NAME_NUMANTIA</City><!-- 400-300, means "wide pasture", close to Soria (Spain) -->
+				<City>TXT_KEY_CITY_NAME_TIERNES</City><!-- 400-300, close to Soria (Spain) -->
+				<City>TXT_KEY_CITY_NAME_NOWIJO_MAGOS</City><!-- Means "new field"/clearing, many places had this name -->
+				<City>TXT_KEY_CITY_NAME_TOLOSA</City><!-- 400-200, name probably of baltic origin and predating celtic influence, today Toulouse (France) -->
+				<City>TXT_KEY_CITY_NAME_BHELDUNON</City><!-- Means "bright hill", today Belluno (Italy) -->
+				<City>TXT_KEY_CITY_NAME_BRACARA</City><!-- Name of a celtic tribe, today Braga (Portugal) -->
+				<City>TXT_KEY_CITY_NAME_SALODURON</City><!-- Today Solothurn (Switzerland) -->
+				<City>TXT_KEY_CITY_NAME_BOTORRITA</City><!-- Zaragoza (Spain) -->
+				<City>TXT_KEY_CITY_NAME_OKELIS</City><!-- Today Medinaceli (Spain) -->
+				<City>TXT_KEY_CITY_NAME_BORBETOMAGOS</City><!-- may mean "Water meadow", Roman Civitas Vangionum, today Worms (Germany) -->
+				<City>TXT_KEY_CITY_NAME_GENAWA</City><!-- Today Geneva (Switzerland) -->
+				<City>TXT_KEY_CITY_NAME_OLODUNON</City><!-- Means "river fort" olo may have been a name for the river Aar, today Olten (Switzerland) -->
+				<City>TXT_KEY_CITY_NAME_NOWIJODUNON</City><!-- Means "new fortress", many places had this name -->
+				<City>TXT_KEY_CITY_NAME_LUGUDUNON</City><!-- ~400 BC, means "Hill/Fortress of Lugus", Lugus is a celtic god, today Lyon (France) -->
+				<City>TXT_KEY_CITY_NAME_SEGOBRIGA</City><!-- 400-300, means "victorious/strong city", today Saelices (Spain) -->
+				<City>TXT_KEY_CITY_NAME_SINGIDUNON</City><!-- ~300 BC, today Belgrade (Serbia) -->
+				<City>TXT_KEY_CITY_NAME_TYLIS</City><!-- ~300 BC (Bulgaria) -->
+				<City>TXT_KEY_CITY_NAME_NEMETODURON</City><!-- ~300 BC, nemeto=shrine, duron=enduring (possibly "sacred fort"), today Nanterre (France) -->
+				<City>TXT_KEY_CITY_NAME_GERGOVIA</City><!-- 300-200, today Auvergne (France) -->
+				<City>TXT_KEY_CITY_NAME_EBORA</City><!-- 300-200, means "yew", today Évora (Portugal) -->
+				<City>TXT_KEY_CITY_NAME_LACOBRIGA</City><!-- 300-200, means "lake city", today Lagos (Portugal) -->
+				<City>TXT_KEY_CITY_NAME_BIBRACTE</City><!-- 300-200 -->
+				<City>TXT_KEY_CITY_NAME_DURNOVARIA</City><!-- Dorchester (England) -->
+				<City>TXT_KEY_CITY_NAME_ISCA</City><!-- Exeter (England) -->
+				<City>TXT_KEY_CITY_NAME_BOIODURON</City><!-- ~200 BC, means "fort of the Boii" or "cattle fort", Boii was a celtic tribe, today Passau (Germany) -->
+				<City>TXT_KEY_CITY_NAME_EBORAKON</City><!-- ~100 BC, means "place of the yew", today York (England) -->
+				<City>TXT_KEY_CITY_NAME_CAMULODUNON</City><!-- ~100 BC, Roman Camulodunum, today Colchester (England) -->
+				<City>TXT_KEY_CITY_NAME_AVARIKON</City><!-- Today Bourges (France) -->
+				<City>TXT_KEY_CITY_NAME_DURON</City><!-- Means "fortified town", many places had this name, e.g. Düren (Germany) -->
+				<City>TXT_KEY_CITY_NAME_VERNOMAGOS</City><!-- Means "plain of the alder-trees", today Vernon (France) -->
+				<City>TXT_KEY_CITY_NAME_KAMBODUNON</City><!-- ~100 BC, Means castle, today Kempten (Germany) -->
+				<City>TXT_KEY_CITY_NAME_DUROCORTERON</City><!-- ~80 BC, means "round fortress", today Reims (France) -->
+				<City>TXT_KEY_CITY_NAME_UBIORUM</City><!-- 38 BC, today Cologne (Germany) -->
+				<City>TXT_KEY_CITY_NAME_VERLAMION</City><!-- 25-5, today St Albans (England) -->
+				<City>TXT_KEY_CITY_NAME_DUROVERNON</City><!-- ~1 AD, means "fort of the alder-trees", today Cantebury (England)-->
+				<City>TXT_KEY_CITY_NAME_CARENTOMAGOS</City><!-- Means "beautiful field", today Carentan (France) -->
+				<City>TXT_KEY_CITY_NAME_DUROBRIWAS</City><!-- ~1 AD, means "fort by the bridges", today Water Newton (England) -->
+				<City>TXT_KEY_CITY_NAME_SEGODUNON</City><!-- Means "victorious/strong fortification", many places had this name -->
+				<City>TXT_KEY_CITY_NAME_ROTOMAGOS</City><!-- Means hippodrome/racecourse or wheel market, today Rouen (France) -->
+				<City>TXT_KEY_CITY_NAME_VERODUNON</City><!-- Means "mighty fortress", today Verdun (France) -->
+				<City>TXT_KEY_CITY_NAME_TEMAIR</City><!-- Hill of Tara was the seat of celtic kings in Ireland -->
+				<City>TXT_KEY_CITY_NAME_EBLANA</City><!-- Today Loughshinny (Ireland)-->
+				<City>TXT_KEY_CITY_NAME_NEMETOCENNA</City><!-- nemeto=shrine, today Arras (France) -->
+				<City>TXT_KEY_CITY_NAME_MORIDUNON</City><!-- Two places in southern England -->
+				<City>TXT_KEY_CITY_NAME_DIVONA</City><!-- Named after a celtic godess, today Cahors (France) -->
+				<City>TXT_KEY_CITY_NAME_CATUMAGOS</City><!-- Means battlefield -->
 			</Cities>
 			<Buildings>
 				<Building>
@@ -2428,7 +2442,7 @@
 				<City>TXT_KEY_CITY_NAME_WONSAN</City>
 				<City>TXT_KEY_CITY_NAME_PUSAN</City>
 				<City>TXT_KEY_CITY_NAME_NAMPO</City>
-				<City>TXT_KEY_CITY_NAME_CHEJU</City>
+				<City>TXT_KEY_CITY_NAME_JEJU</City>
 				<City>TXT_KEY_CITY_NAME_HYANGSAN</City>
 				<City>TXT_KEY_CITY_NAME_ULSAN</City>
 				<City>TXT_KEY_CITY_NAME_INCHON</City>
@@ -3436,7 +3450,7 @@
 				<City>Arpinum</City><!-- 305 BC -->
 				<City>TXT_KEY_CITY_NAME_ALBAFUCENS</City><!-- 304 BC -->
 				<City>TXT_KEY_CITY_NAME_SORA</City><!-- 303 BC -->
-				<City>TXT_KEY_CITY_NAME_SENIGALLIA</City><!-- 284 BC -->
+				<City>TXT_KEY_CITY_NAME_SENA_GALLICA</City><!-- 284 BC -->
 				<City>Tarentum</City><!-- 272 BC -->
 				<City>Barium</City><!-- 300-201 -->
 				<City>Ariminum</City><!-- 268 BC -->
