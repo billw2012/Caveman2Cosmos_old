@@ -149,6 +149,14 @@
 		<English>Aix-en-Provence</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_AKHETATEN</Tag>
+		<English>Akhetaten</English>
+		<French>Akhetaton</French>
+		<German>Achet-Aton</German>
+		<Italian>Akhetaton</Italian>
+		<Spanish>Akhetatón</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AKHMIN</Tag>
 		<English>Khent-min</English>
 		<French>Khent-Menou</French>
@@ -1051,6 +1059,10 @@
 		<English>Bhubaneshwar</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_BIBRACTE</Tag>
+		<English>Bibracte</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BIDAR</Tag>
 		<English>Bidar</English>
 	</TEXT>
@@ -1499,6 +1511,10 @@
 		<English>Chalco</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHALKIS</Tag>
+		<English>Chalkís</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CHAN_CHAN</Tag>
 		<English>Chan Chan</English>
 	</TEXT>
@@ -1658,6 +1674,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CHONDOTE</Tag>
 		<English>Chondote</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_CHONGJU</Tag>
+		<English>Chongju</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CHONGQING</Tag>
@@ -1851,6 +1871,15 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DABRUM</Tag>
 		<English>Dabrum</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_DAEGU</Tag>
+		<English>Daegu</English>
+		<Italian>Taegu</Italian>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_DAEJEON</Tag>
+		<English>Daejeon</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DAHLAK_KEBIR</Tag>
@@ -2165,13 +2194,6 @@
 		<English>Ecatepec</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_CITY_NAME_ECBATANNA</Tag>
-		<English>Ecbatanna</English>
-		<German>Ekbatana</German>
-		<Italian>Ecbatana</Italian>
-		<Spanish>Ecbatana</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ECHIZEN</Tag>
 		<English>Echizen</English>
 	</TEXT>
@@ -2222,6 +2244,11 @@
 		<French>Éléphantine</French>
 		<Italian>Elefantina</Italian>
 		<Spanish>Elefantina</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_ELIS</Tag>
+		<English>Elis</English>
+		<French>Élis</French>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ELLAHUN</Tag>
@@ -2451,6 +2478,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_FUTA_TOORO</Tag>
 		<English>Futa Tooro</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_GABAE</Tag>
+		<English>Gabae</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GABAZA</Tag>
@@ -2719,6 +2750,10 @@
 		<English>Hadrumetum</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAEJU</Tag>
+		<English>Haeju</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HAERBIN</Tag>
 		<English>Haerbin</English>
 	</TEXT>
@@ -2730,6 +2765,10 @@
 		<Tag>TXT_KEY_CITY_NAME_HAGENAU</Tag>
 		<English>Haguenau</English>
 		<German>Hagenau</German>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAGMATANA</Tag>
+		<English>Hagmatana</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HAKODATE</Tag>
@@ -2782,6 +2821,10 @@
 		<French>Hambourg</French>
 		<Italian>Amburgo</Italian>
 		<Spanish>Hamburgo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HAMHUNG</Tag>
+		<English>Hamhung</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HAMM</Tag>
@@ -2840,6 +2883,10 @@
 		<Tag>TXT_KEY_CITY_NAME_HARRAN</Tag>
 		<English>Harran</English>
 		<Spanish>Harrán</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HASANLU</Tag>
+		<English>Hasanlu</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HASTINGS</Tag>
@@ -3070,6 +3117,10 @@
 		<English>Huexotla</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HUICHON</Tag>
+		<English>Huichon</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HUN</Tag>
 		<English>Hun</English>
 		<French>Huns</French>
@@ -3088,6 +3139,10 @@
 		<German>Hurrier</German>
 		<Italian>Hurri</Italian>
 		<Spanish>Hurrita</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HYANGSAN</Tag>
+		<English>Hyangsan</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HYDERABAD</Tag>
@@ -3122,6 +3177,10 @@
 		<English>Igilgili</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_IKSAN</Tag>
+		<English>Iksan</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ILLINOIS</Tag>
 		<English>Illinois</English>
 	</TEXT>
@@ -3136,6 +3195,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_INANDA</Tag>
 		<English>Inanda</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_INCHEON</Tag>
+		<English>Incheon</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_INDORE</Tag>
@@ -3224,7 +3287,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ISVARAPURA</Tag>
-		<English>iśvarapura</English>
+		<English>Isvarapura</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ITUA</Tag>
@@ -3315,6 +3378,10 @@
 		<English>Jenne</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_JEONJU</Tag>
+		<English>Jeonju</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_JIDDA</Tag>
 		<English>Jidda</English>
 	</TEXT>
@@ -3331,6 +3398,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_JINAN</Tag>
 		<English>Jinan</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_JINJU</Tag>
+		<English>Jinju</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_JOARA</Tag>
@@ -3384,6 +3455,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KAENUGARTHR</Tag>
 		<English>Kœnugarðr</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KAESONG</Tag>
+		<English>Kaesong</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KAGA</Tag>
@@ -3874,6 +3949,10 @@
 		<English>Kullimeri</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_KUMGANG</Tag>
+		<English>Kumgang</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KUNMING</Tag>
 		<English>Kunming</English>
 	</TEXT>
@@ -4023,6 +4102,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LARAK</Tag>
 		<English>Larak</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_LARISA</Tag>
+		<English>Lárisa</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LARSA</Tag>
@@ -4444,6 +4527,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MANNHEIM</Tag>
 		<English>Mannheim</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_MANPO</Tag>
+		<English>Manpo</English>
+		<Spanish>Manp'o</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MAOMING</Tag>
@@ -4936,6 +5024,10 @@
 		<Italian>Namp'o</Italian>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NAMWON</Tag>
+		<English>Namwon</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NANGBEE_OWINGEH</Tag>
 		<English>Nąngbe'e Ôwîngeh</English>
 	</TEXT>
@@ -4972,12 +5064,20 @@
 		<English>Nashart</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NAUPLIA</Tag>
+		<English>Nauplia</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NAUTAKA</Tag>
 		<English>Nautaka</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NAVAJO</Tag>
 		<English>Navajo</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_NAXOS</Tag>
+		<English>Naxos</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NCANDU</Tag>
@@ -5504,6 +5604,10 @@
 		<Italian>Padova</Italian>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_PAEGAM</Tag>
+		<English>Paegam</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PAHARPUR</Tag>
 		<English>Paharpur</English>
 	</TEXT>
@@ -5560,6 +5664,10 @@
 		<English>Paris</English>
 		<Italian>Parigi</Italian>
 		<Spanish>París</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_PAROS</Tag>
+		<English>Paros</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PARTHIAN</Tag>
@@ -5887,6 +5995,16 @@
 		<English>Pusan</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_PYLOS</Tag>
+		<English>Pylos</English>
+		<Italian>Pilo</Italian>
+		<Spanish>Pilos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_PYONGSONG</Tag>
+		<English>Pyongsong</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PYONGYANG</Tag>
 		<English>Pyongyang</English>
 		<German>Pjöngjang</German>
@@ -5943,6 +6061,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_QUMARKAJ</Tag>
 		<English>Q'umarkaj</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_QUMIS</Tag>
+		<English>Qumis</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_QUNU</Tag>
@@ -6025,6 +6147,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_REWALSAR</Tag>
 		<English>Rewalsar</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_REY</Tag>
+		<English>Rey</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_REYKJAVIK</Tag>
@@ -6319,6 +6445,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SARIM_BATIM</Tag>
 		<English>Sarim Batim</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SARIWON</Tag>
+		<English>Sariwon</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SARKHADI</Tag>
@@ -6652,6 +6782,16 @@
 		<English>Smolensk</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SMYRNA</Tag>
+		<English>Smyrna</English>
+		<French>Smyrne</French>
+		<Italian>Smirne</Italian>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SOKCHO</Tag>
+		<English>Sokcho</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SOLAPUR</Tag>
 		<English>Solapur</English>
 	</TEXT>
@@ -6686,6 +6826,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SOUTHAMPTON</Tag>
 		<English>Southampton</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SPAHAN</Tag>
+		<English>Spahan</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SPARTA</Tag>
@@ -6853,6 +6997,10 @@
 		<English>Suurin</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_SUWON</Tag>
+		<English>Suwon</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SUZDAL</Tag>
 		<English>Suzdal</English>
 		<French>Souzdal</French>
@@ -6902,6 +7050,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TADMUR</Tag>
 		<English>Tadmur</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TAEGWAN</Tag>
+		<English>Taegwan</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TAGHAZA</Tag>
@@ -7297,6 +7449,10 @@
 		<Italian>Tobol'sk</Italian>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TOKCHON</Tag>
+		<English>Tokchon</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TOKONDA</Tag>
 		<English>Tokonda</English>
 	</TEXT>
@@ -7466,6 +7622,10 @@
 		<English>Turikon</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TUSHPA</Tag>
+		<English>Tushpa</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TUTTUL</Tag>
 		<English>Tuttul</English>
 	</TEXT>
@@ -7520,6 +7680,10 @@
 		<English>Udong</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_UIJEONGBU</Tag>
+		<English>Uijeongbu</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_UJJAIN</Tag>
 		<English>Ujjain</English>
 	</TEXT>
@@ -7555,6 +7719,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ULPA_SERDICA</Tag>
 		<English>Ulpia Serdica</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_ULSAN</Tag>
+		<English>Ulsan</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ULUNDI</Tag>
@@ -8168,7 +8336,6 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AKHAD</Tag>
 		<English>Akkad</English>
-		<Spanish>Agadé</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ANDAHUAYLAS</Tag>
@@ -8213,7 +8380,6 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CREMONA</Tag>
 		<English>Cremona</English>
-		<French>Crémone</French>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DJENNE</Tag>
@@ -8224,9 +8390,12 @@
 		<English>Djúra-bý</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_ECBATANNA</Tag>
+		<English>Ecbatanna</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_EKALLATUM</Tag>
 		<English>Ekallatum</English>
-		<French>Ekallâtum</French>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ELASHMUNEIN</Tag>

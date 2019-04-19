@@ -274,7 +274,6 @@
 				<City>TXT_KEY_CITY_NAME_TERGE</City>
 				<City>TXT_KEY_CITY_NAME_SURU</City>
 				<City>TXT_KEY_CITY_NAME_IVAH</City>
-				<City>TXT_KEY_CITY_NAME_ECBATANNA</City>
 				<City>TXT_KEY_CITY_NAME_NISIBIS</City>
 				<City>TXT_KEY_CITY_NAME_MEPSILA</City>
 				<City>TXT_KEY_CITY_NAME_CYROPOLIS</City>
@@ -1029,7 +1028,7 @@
 				<City>TXT_KEY_CITY_NAME_PIRAMESSES</City>
 				<City>TXT_KEY_CITY_NAME_GIZA</City>
 				<City>TXT_KEY_CITY_NAME_BYBLOS</City>
-				<City>TXT_KEY_CITY_NAME_AKHETATEN</City>
+				<City>TXT_KEY_CITY_NAME_AKHETATEN</City><!-- ~1346 BC, today Amarna-->
 				<City>TXT_KEY_CITY_NAME_NEKHEN</City>
 				<City>TXT_KEY_CITY_NAME_ABYDOS</City>
 				<City>TXT_KEY_CITY_NAME_ASYUT</City>
@@ -1608,6 +1607,9 @@
 				<City>TXT_KEY_CITY_NAME_ERETRIA</City>
 				<City>TXT_KEY_CITY_NAME_PERGAMON</City>
 				<City>TXT_KEY_CITY_NAME_MILETOS</City>
+				<City>TXT_KEY_CITY_NAME_CHALKIS</City>
+				<City>TXT_KEY_CITY_NAME_SMYRNA</City><!-- ~1000 BC, city state status ~700 BC -->
+				<City>TXT_KEY_CITY_NAME_NAXOS</City><!-- 735 BC -->
 				<City>TXT_KEY_CITY_NAME_ASTACUS</City><!-- 712-711 -->
 				<City>TXT_KEY_CITY_NAME_MEGARA</City>
 				<City>TXT_KEY_CITY_NAME_HALICARNASSUS</City>
@@ -1625,13 +1627,10 @@
 				<City>TXT_KEY_CITY_NAME_SYRAKOUSAI</City>
 				<City>TXT_KEY_CITY_NAME_HERAKLEIA</City>
 				<City>TXT_KEY_CITY_NAME_GORTYN</City>
-				<City>TXT_KEY_CITY_NAME_CHALKIS</City>
 				<City>TXT_KEY_CITY_NAME_PYLOS</City>
 				<City>TXT_KEY_CITY_NAME_ARTEMISION</City>
 				<City>TXT_KEY_CITY_NAME_PELLA</City>
-				<City>TXT_KEY_CITY_NAME_NAXOS</City>
-				<City>TXT_KEY_CITY_NAME_SMYRNA</City>
-				<City>TXT_KEY_CITY_NAME_LARISSA</City>
+				<City>TXT_KEY_CITY_NAME_LARISA</City><!-- Means fortress, many cities had this name, this refers to the city that is today known as Larissa -->
 				<City>TXT_KEY_CITY_NAME_APOLLONIA</City>
 				<City>TXT_KEY_CITY_NAME_ALEXANDRIA</City>
 				<City>TXT_KEY_CITY_NAME_MYRA</City>
@@ -1646,7 +1645,7 @@
 				<City>TXT_KEY_CITY_NAME_AMPHIPOLIS</City>
 				<City>TXT_KEY_CITY_NAME_PATRAS</City>
 				<City>TXT_KEY_CITY_NAME_LAMIA</City>
-				<City>TXT_KEY_CITY_NAME_NAFPLION</City>
+				<City>TXT_KEY_CITY_NAME_NAUPLIA</City>
 				<City>TXT_KEY_CITY_NAME_APAMEA</City>
 				<City>TXT_KEY_CITY_NAME_DURAEUROPOS</City>
 				<City>TXT_KEY_CITY_NAME_MARATHON</City>
@@ -2445,28 +2444,28 @@
 				<City>TXT_KEY_CITY_NAME_JEJU</City>
 				<City>TXT_KEY_CITY_NAME_HYANGSAN</City>
 				<City>TXT_KEY_CITY_NAME_ULSAN</City>
-				<City>TXT_KEY_CITY_NAME_INCHON</City>
+				<City>TXT_KEY_CITY_NAME_INCHEON</City>
 				<City>TXT_KEY_CITY_NAME_PYONGSONG</City>
-				<City>TXT_KEY_CITY_NAME_TAEJON</City>
+				<City>TXT_KEY_CITY_NAME_DAEJEON</City>
 				<City>TXT_KEY_CITY_NAME_PAEGAM</City>
 				<City>TXT_KEY_CITY_NAME_MANPO</City>
 				<City>TXT_KEY_CITY_NAME_KAESONG</City>
-				<City>TXT_KEY_CITY_NAME_CHONJU</City>
+				<City>TXT_KEY_CITY_NAME_JEONJU</City>
 				<City>TXT_KEY_CITY_NAME_SARIWON</City>
 				<City>TXT_KEY_CITY_NAME_SUWON</City>
 				<City>TXT_KEY_CITY_NAME_HAEJU</City>
-				<City>TXT_KEY_CITY_NAME_TAEGU</City>
-				<City>TXT_KEY_CITY_NAME_CHINJE</City>
+				<City>TXT_KEY_CITY_NAME_DAEGU</City>
+				<City>TXT_KEY_CITY_NAME_JINJU</City>
 				<City>TXT_KEY_CITY_NAME_TOKCHON</City>
-				<City>TXT_KEY_CITY_NAME_CHONGFU</City>
-				<City>TXT_KEY_CITY_NAME_TAEGWON</City>
+				<City>TXT_KEY_CITY_NAME_CHONGJU</City>
+				<City>TXT_KEY_CITY_NAME_TAEGWAN</City>
 				<City>TXT_KEY_CITY_NAME_SOKCHO</City>
 				<City>TXT_KEY_CITY_NAME_HAMHUNG</City>
-				<City>TXT_KEY_CITY_NAME_IRI</City>
+				<City>TXT_KEY_CITY_NAME_IKSAN</City>
 				<City>TXT_KEY_CITY_NAME_HUICHON</City>
 				<City>TXT_KEY_CITY_NAME_NAMWON</City>
 				<City>TXT_KEY_CITY_NAME_KUMGANG</City>
-				<City>TXT_KEY_CITY_NAME_OIJONGBU</City>
+				<City>TXT_KEY_CITY_NAME_UIJEONGBU</City>
 				<City>Chorwon</City>
 				<City>Pyoksang</City>
 				<City>Sangsong</City>
@@ -3207,10 +3206,11 @@
 				<City>TXT_KEY_CITY_NAME_PERSEPOLIS</City>
 				<City>TXT_KEY_CITY_NAME_PASARGADAE</City>
 				<City>TXT_KEY_CITY_NAME_SUSA</City>
-				<City>TXT_KEY_CITY_NAME_ECBATANA</City>
+				<City>TXT_KEY_CITY_NAME_HAGMATANA</City><!-- Town in the Median kingdom (700-529), unified with persia by Cyrus the great (559–529) -->
 				<City>TXT_KEY_CITY_NAME_BACTRA</City>
 				<City>TXT_KEY_CITY_NAME_SARDES</City>
 				<City>TXT_KEY_CITY_NAME_DASCYLIUM</City>
+				<City>TXT_KEY_CITY_NAME_SPAHAN</City><!-- Town in the Median kingdom (700-529), unified with persia by Cyrus the great (559–529) -->
 				<City>TXT_KEY_CITY_NAME_DARIUSHKABIR</City>
 				<City>TXT_KEY_CITY_NAME_GHULAMAN</City>
 				<City>TXT_KEY_CITY_NAME_ZEHAK</City>
@@ -3224,7 +3224,6 @@
 				<City>TXT_KEY_CITY_NAME_REY</City>
 				<City>TXT_KEY_CITY_NAME_TUSHPA</City>
 				<City>TXT_KEY_CITY_NAME_HASANLU</City>
-				<City>TXT_KEY_CITY_NAME_GABAE</City>
 				<City>TXT_KEY_CITY_NAME_MERV</City>
 				<City>TXT_KEY_CITY_NAME_BEHISTUN</City>
 				<City>TXT_KEY_CITY_NAME_KANDAHAR</City>
@@ -3232,6 +3231,7 @@
 				<City>TXT_KEY_CITY_NAME_BUNYAN</City>
 				<City>TXT_KEY_CITY_NAME_CHARSADDA</City>
 				<City>TXT_KEY_CITY_NAME_URATYUBE</City>
+				<City>TXT_KEY_CITY_NAME_GABAE</City>
 				<City>TXT_KEY_CITY_NAME_DERBENT</City>
 				<City>TXT_KEY_CITY_NAME_QATNA</City>
 				<City>TXT_KEY_CITY_NAME_KABUL</City>
@@ -3250,7 +3250,7 @@
 				<City>TXT_KEY_CITY_NAME_BALKH</City>
 				<City>TXT_KEY_CITY_NAME_GAUGAMELA</City>
 				<City>TXT_KEY_CITY_NAME_HARMOZEIA</City>
-				<City>TXT_KEY_CITY_NAME_EKATOMPYLOS</City>
+				<City>TXT_KEY_CITY_NAME_QUMIS</City>
 				<City>TXT_KEY_CITY_NAME_IZATA</City>
 				<City>TXT_KEY_CITY_NAME_KAMPADA</City>
 				<City>TXT_KEY_CITY_NAME_KAPISA</City>
