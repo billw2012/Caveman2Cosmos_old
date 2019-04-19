@@ -1460,6 +1460,7 @@ void CvPlayer::reset(PlayerTypes eID, bool bConstructorCall)
 	m_iCorporateTaxIncome = 0;
 
 	m_iCulture = 0;
+	m_iGreaterCulture = 0;
 
 	m_iUpgradeRoundCount = 0;
 	m_iSelectionRegroup = NULL;
@@ -26085,6 +26086,7 @@ void CvPlayer::read(FDataStreamBase* pStream)
 		WRAPPER_READ(wrapper, "CvPlayer", &m_iFreedomFighterCount);
 		WRAPPER_READ(wrapper, "CvPlayer", &m_iExtraFreedomFighters);
 		WRAPPER_READ(wrapper, "CvPlayer", &m_iGreaterGold);
+		WRAPPER_READ(wrapper, "CvPlayer", &m_iGreaterCulture);
 		
 		//Example of how to skip element
 		//WRAPPER_SKIP_ELEMENT(wrapper, "CvPlayer", m_iPopulationgrowthratepercentage, SAVE_VALUE_ANY);
@@ -26848,6 +26850,7 @@ void CvPlayer::write(FDataStreamBase* pStream)
 		WRAPPER_WRITE(wrapper, "CvPlayer", m_iFreedomFighterCount);
 		WRAPPER_WRITE(wrapper, "CvPlayer", m_iExtraFreedomFighters);
 		WRAPPER_WRITE(wrapper, "CvPlayer", m_iGreaterGold);
+		WRAPPER_WRITE(wrapper, "CvPlayer", m_iGreaterCulture);
 		//TB Traits end
 	}
 	//	Use condensed format now - only save non-default array elements
@@ -35175,7 +35178,34 @@ int CvPlayer::getCulture() const
 
 void CvPlayer::setCulture(int iNewValue)
 {
-	m_iCulture = iNewValue;
+	if (getCulture() != iNewValue)
+	{
+		int iSwitchPoint = GC.getGREATER_COMMERCE_SWITCH_POINT();
+		int iGreaterCulture = getGreaterCulture();
+		int iChangeGC = iNewValue / iSwitchPoint;
+		if (iNewValue >= iSwitchPoint)
+		{
+			iGreaterCulture += iChangeGC;
+			setGreaterCulture(iGreaterCulture);
+			iNewValue -= iSwitchPoint * iChangeGC;
+		}
+		else if (iNewValue <= (iSwitchPoint * iChangeGC))
+		{
+			while (iChangeGC < 1 && iGreaterCulture > 0)
+			{
+				changeGreaterCulture(-1);
+				iChangeGC++;
+				iNewValue += iSwitchPoint;
+			}
+			if (iChangeGC < 1 && iGreaterCulture < 1)
+			{
+				FAssert(true);//Something is probably wrong in that this transaction was allowed at all.
+				iNewValue = 0;
+			}
+		}
+
+		m_iCulture = iNewValue;
+	}
 }
 
 void CvPlayer::changeCulture(int iAddValue)
@@ -35185,6 +35215,21 @@ void CvPlayer::changeCulture(int iAddValue)
 		m_iCulture = processedNationalCulture();
 	}
 	m_iCulture += iAddValue;
+}
+
+int CvPlayer::getGreaterCulture() const
+{
+	return m_iGreaterCulture;
+}
+
+void CvPlayer::setGreaterCulture(int iNewValue)
+{
+	m_iGreaterCulture = iNewValue;
+}
+
+void CvPlayer::changeGreaterCulture(int iAddValue)
+{
+	m_iGreaterCulture += iAddValue;
 }
 
 
@@ -37220,36 +37265,91 @@ void CvPlayer::changeLeaderHeadLevel(int iChange)
     setLeaderHeadLevel(getLeaderHeadLevel() + iChange);
 }
 
-unsigned long long CvPlayer::getLeaderLevelupNextCultureTotal()
+unsigned long long CvPlayer::getLeaderLevelupNextCultureTotal(int& iGreaterCultureReq)
 {
-	unsigned long long iPromoThreshold;
-	iPromoThreshold = 100;
-	int iPromoThresholdExponent;
-	iPromoThresholdExponent = (getLeaderHeadLevel() + 1);
-	int iGameSpeedModifier;
-	iGameSpeedModifier = GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTraitGainPercent();
+	unsigned long long iPromoThreshold = 1000;
+	int iLL = getLeaderHeadLevel();//ill=6
+	int iIteratorA = iLL + 1;
+	unsigned long long iX = 1000;
+	unsigned long long iY = 10;
+	unsigned long long iZ = 0;
+	unsigned long long iIteratorB = 0;
+	unsigned long long iUnmodifiedMillions = 0;
+	unsigned long long iMillions = 0;
+	bool bMillionsTriggered = false; 
+	int iGameSpeedModifier = GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTraitGainPercent();
+
 	if (GC.getGameINLINE().isOption(GAMEOPTION_START_NO_POSITIVE_TRAITS))
 	{
-		iPromoThreshold = 10;
-		iPromoThresholdExponent = getLeaderHeadLevel();
+		iX = 10;
+		iY = 8;
+	}
+	for (int x = 0; x < iIteratorA; x++)
+	{
+		iZ = (iX * iY);
+		if (!bMillionsTriggered)
+		{
+			iPromoThreshold = iX + iZ;
+			iIteratorB = iPromoThreshold;
+			iIteratorB /= 1000000;
+			for (int y = 0; y < (int)iIteratorB; y++)
+			{
+				iUnmodifiedMillions++;
+				iPromoThreshold -= 1000000;
+				bMillionsTriggered = true;
+			}
+		}
+		else
+		{
+			iMillions = iX + iZ;
+		}
+		if (!bMillionsTriggered)
+		{
+			iX = iPromoThreshold;
+		}
+		else if (iUnmodifiedMillions > 0)
+		{ 
+			iX = iUnmodifiedMillions;
+			iMillions = iUnmodifiedMillions;
+			iPromoThreshold = 0;
+			iUnmodifiedMillions = 0;
+		}
+		iY--;
+		iY = std::max(1, (int)iY);
 	}
 
-	for (int iI = 0; iI < iPromoThresholdExponent; iI++)
-	{
-		iPromoThreshold *= 10;
-	}
 	iPromoThreshold *= iGameSpeedModifier;
 	iPromoThreshold /= 100;
+
+	if (bMillionsTriggered)
+	{
+		iMillions *= iGameSpeedModifier;
+		iMillions /= 100;
+		iGreaterCultureReq = std::max(1,(int)iMillions);
+	}
+	else
+	{
+		iGreaterCultureReq = 0;
+	}
 
 	return iPromoThreshold;
 }
 
-unsigned long long CvPlayer::getLeaderLevelupCultureToEarn()
+unsigned long long CvPlayer::getLeaderLevelupCultureToEarn(int& iGreaterCultureReq)
 {
-	unsigned long long iPromoThreshold = getLeaderLevelupNextCultureTotal();
-	unsigned long long iCurrentNationalCulture = countTotalCulture();
+	int iGreaterCultureThreshold = 0;
+	unsigned long long iPromoThreshold = getLeaderLevelupNextCultureTotal(iGreaterCultureThreshold);
+	unsigned long long iCurrentNationalCulture = getCulture();
 	unsigned long long iTotal = iPromoThreshold;
-	iTotal -= iCurrentNationalCulture;
+	int iGreaterCulture = getGreaterCulture();
+	if (iGreaterCulture >= 0)
+	{
+		iGreaterCultureReq = iGreaterCultureThreshold - iGreaterCulture;
+	}
+	else
+	{
+		iTotal -= iCurrentNationalCulture;
+	}
 
 	return iTotal;
 }
@@ -37261,10 +37361,19 @@ bool CvPlayer::canLeaderPromote()
 		return false;
 	}
 
-	unsigned long long iCultureRequired = getLeaderLevelupNextCultureTotal();
+	int iGreaterCultureRequired = 0;
+	int iGreaterCulture = getGreaterCulture();
+	unsigned long long iCultureRequired = getLeaderLevelupNextCultureTotal(iGreaterCultureRequired);
 	//Here we then need to manipulate iPromoThreshold by Gamespeed and Mapsize modifiers
 	unsigned long long iCurrentNationalCulture = countTotalCulture();
-	if (iCurrentNationalCulture >= iCultureRequired)
+	if (iGreaterCultureRequired > 0)
+	{
+		if (iGreaterCulture > iGreaterCultureRequired)
+		{
+			return true;
+		}
+	}
+	else if (iCurrentNationalCulture >= iCultureRequired)
 	{
 		return true;
 	}

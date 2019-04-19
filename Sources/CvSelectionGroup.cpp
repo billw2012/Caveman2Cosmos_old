@@ -534,32 +534,13 @@ void CvSelectionGroup::updateTimers()
 	{
 		bCombat = false;
 
-		pUnitNode = headUnitNode();std::set<int> movedUnitIds;
+		pUnitNode = headUnitNode();
 
-		while (true)
+		while (pUnitNode != NULL)
 		{
-			pUnitNode = headUnitNode();
-			pLoopUnit = NULL;
+			pLoopUnit = ::getUnit(pUnitNode->m_data);
+			pUnitNode = nextUnitNode(pUnitNode);
 
-			while (pUnitNode != NULL)
-			{
-				if (movedUnitIds.empty() || std::find(movedUnitIds.begin(), movedUnitIds.end(), pUnitNode->m_data.iID) == movedUnitIds.end())
-				{
-					pLoopUnit = ::getUnit(pUnitNode->m_data);
-
-					FAssertMsg(pLoopUnit != NULL, "NULL unit reached in the selection group");
-
-					if (pLoopUnit != NULL)
-						break;
-				}
-
-				pUnitNode = nextUnitNode(pUnitNode);
-			}
-
-			if (pLoopUnit == NULL)
-				break;
-			
-			movedUnitIds.insert(pLoopUnit->getID());
 			if (pLoopUnit->isCombat())
 			{
 				if (pLoopUnit->isAirCombat())

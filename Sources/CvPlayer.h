@@ -1021,6 +1021,11 @@ public:
 	int getCulture() const;
 	void setCulture(int iNewValue);
 	void changeCulture(int iAddValue);
+
+
+	int getGreaterCulture() const;
+	void setGreaterCulture(int iNewValue);
+	void changeGreaterCulture(int iAddValue);
 																																															
 	ReligionTypes getLastStateReligion() const;																												
 	DllExport ReligionTypes getStateReligion() const;																									// Exposed to Python					
@@ -2174,6 +2179,7 @@ protected:
 
 	// Members for culture accumulation
 	int m_iCulture;
+	int m_iGreaterCulture;
 
 	int m_iUpgradeRoundCount;
 	int m_iSelectionRegroup;
@@ -2384,8 +2390,8 @@ public:
 	void setLeaderHeadLevel(int iValue);
 	void changeLeaderHeadLevel(int iChange);
 
-	unsigned long long getLeaderLevelupNextCultureTotal();
-	unsigned long long getLeaderLevelupCultureToEarn();
+	unsigned long long getLeaderLevelupNextCultureTotal(int& iGreaterCultureReq);
+	unsigned long long getLeaderLevelupCultureToEarn(int& iGreaterCultureReq);
 
 	bool canLeaderPromote();
 	void doPromoteLeader();

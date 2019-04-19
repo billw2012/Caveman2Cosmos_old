@@ -36805,17 +36805,32 @@ void CvGameTextMgr::parsePlayerTraits(CvWStringBuffer &szBuffer, PlayerTypes ePl
 	if (GC.getGameINLINE().isOption(GAMEOPTION_LEADERHEAD_LEVELUPS))
 	{
 		int iLeaderLevel = GET_PLAYER(ePlayer).getLeaderHeadLevel();
-		unsigned long long iNationalCulture = GET_PLAYER(ePlayer).countTotalCulture();
-		unsigned long long iNextLevelup = GET_PLAYER(ePlayer).getLeaderLevelupNextCultureTotal();
-		unsigned long long iRemaining = GET_PLAYER(ePlayer).getLeaderLevelupCultureToEarn();
+		unsigned long long iNationalCulture = GET_PLAYER(ePlayer).getCulture();
+		int iGreaterCulture = GET_PLAYER(ePlayer).getGreaterCulture();
+		int iNextGreaterCulture = 0;
+		unsigned long long iNextLevelup = GET_PLAYER(ePlayer).getLeaderLevelupNextCultureTotal(iNextGreaterCulture);
+		int iNextGreaterCultureRemaining = 0;
+		unsigned long long iRemaining = GET_PLAYER(ePlayer).getLeaderLevelupCultureToEarn(iNextGreaterCultureRemaining);
 		szBuffer.append(NEWLINE);
 		szBuffer.append(gDLL->getText("TXT_KEY_LEADER_LEVEL", iLeaderLevel));
 		szBuffer.append(NEWLINE);
 		szBuffer.append(gDLL->getText("TXT_KEY_LEADER_LEVEL_PROGRESS_1", iNationalCulture));
+		if (iGreaterCulture > 0)
+		{
+			szBuffer.append(gDLL->getText("TXT_KEY_LEADER_LEVEL_PROGRESS_1_GC", iGreaterCulture));
+		}
 		szBuffer.append(NEWLINE);
 		szBuffer.append(gDLL->getText("TXT_KEY_LEADER_LEVEL_PROGRESS_2", iNextLevelup));
+		if (iNextGreaterCulture > 0)
+		{
+			szBuffer.append(gDLL->getText("TXT_KEY_LEADER_LEVEL_PROGRESS_1_GC", iNextGreaterCulture));
+		}
 		szBuffer.append(NEWLINE);
 		szBuffer.append(gDLL->getText("TXT_KEY_LEADER_LEVEL_PROGRESS_3", iRemaining));
+		if (iNextGreaterCultureRemaining > 0)
+		{
+			szBuffer.append(gDLL->getText("TXT_KEY_LEADER_LEVEL_PROGRESS_1_GC", iNextGreaterCultureRemaining));
+		}
 	}
 }
 
