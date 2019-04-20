@@ -37344,12 +37344,10 @@ unsigned long long CvPlayer::getLeaderLevelupCultureToEarn(int& iGreaterCultureR
 	int iGreaterCulture = getGreaterCulture();
 	if (iGreaterCulture >= 0)
 	{
-		iGreaterCultureReq = iGreaterCultureThreshold - iGreaterCulture;
+		iGreaterCultureReq = iGreaterCultureThreshold - iGreaterCulture - 1;
+		iTotal += 1000000;
 	}
-	else
-	{
-		iTotal -= iCurrentNationalCulture;
-	}
+	iTotal -= iCurrentNationalCulture;
 
 	return iTotal;
 }
