@@ -65,7 +65,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_INGOT_LEAD</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -341,7 +341,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_INGOT_LEAD</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -459,7 +459,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_INGOT_LEAD</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>

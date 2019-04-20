@@ -3086,7 +3086,7 @@
 				<iCommerce>15</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>30</iCommerce>
+				<iCommerce>15</iCommerce>
 			</CommerceModifiers>
 			<TechCommerceChanges>
 				<TechCommerceChange>
@@ -9652,7 +9652,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_NOVEL_SENSES</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -10176,13 +10176,13 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_NOVEL_SENSES</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_MITHRIL</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -10266,7 +10266,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_INDEFINITE_LIFESPAN</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -10427,13 +10427,13 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_NOVEL_SENSES</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_MITHRIL</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -10483,7 +10483,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_CHAOS_WANDS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -14279,7 +14279,7 @@
 			<PrereqTech>TECH_ENVIRONMENTAL_ECONOMICS</PrereqTech>
 			<iCost>4315</iCost>
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -22227,7 +22227,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_GILLS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -22389,7 +22389,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_GILLS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -22440,7 +22440,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_NOVEL_SENSES</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -22518,7 +22518,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WINGS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -22553,7 +22553,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WINGS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -22689,7 +22689,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_HEAT_TOLERANCE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -23207,7 +23207,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_CARBYNE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -24737,7 +24737,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_ENLIGHTENMENT</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 						<iCommerce>3</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
@@ -24899,7 +24899,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_ENLIGHTENMENT</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 						<iCommerce>3</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>

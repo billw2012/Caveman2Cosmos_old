@@ -472,7 +472,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_NATRON</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>

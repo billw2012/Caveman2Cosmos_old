@@ -651,31 +651,31 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_ANCIENTTEMPLE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_ELEPHANT</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_PEARLS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_HORSE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WHALE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -1822,13 +1822,13 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_COAL</BonusType>
 					<CommerceModifiers>
-						<iCommerce>6</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_BAUXITE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>6</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -2449,7 +2449,7 @@
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>20</iCommerce>
+				<iCommerce>10</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>10</iCommerce>
@@ -8059,19 +8059,19 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_APPLE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_BANANA</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_LEMON</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -8872,7 +8872,7 @@
 			<iCost>368</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>30</iCommerce>
+				<iCommerce>15</iCommerce>
 			</CommerceModifiers>
 			<!-- Defense effects -->
 			<iDCMAirbombMission>2</iDCMAirbombMission>
@@ -9494,7 +9494,7 @@
 			<bAutoBuild>1</bAutoBuild>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Specialist effects -->
 			<SpecialistCounts>
@@ -11230,31 +11230,31 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_COW</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_PIG</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_POTATO</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WHEAT</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SALT</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -16623,7 +16623,7 @@
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>5</iCommerce>
@@ -17399,31 +17399,31 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_COW</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_PIG</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_POTATO</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WHEAT</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_COFFEE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -19594,7 +19594,7 @@
 			<iCost>2505</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Other -->
 			<iHurryCostModifier>100</iHurryCostModifier>
@@ -20200,7 +20200,7 @@
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceModifiers>
-				<iCommerce>25</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -20725,7 +20725,7 @@
 			<iCost>150</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Defense effects -->
 			<iInvasionChance>5</iInvasionChance>
@@ -21458,7 +21458,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_INGOT_LEAD</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -21843,7 +21843,7 @@
 			<iCost>710</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Specialist effects -->
 			<FreeSpecialistCounts>
@@ -23868,7 +23868,7 @@
 				<TechCommerceModifier>
 					<PrereqTech>TECH_GUILDS</PrereqTech>
 					<TechCommerce>
-						<iCommerce>5</iCommerce>
+						<iCommerce>2</iCommerce>
 					</TechCommerce>
 				</TechCommerceModifier>
 			</TechCommerceModifiers>
@@ -24867,25 +24867,25 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_GOLD</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SILVER</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_GEMS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_PEARLS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -26671,37 +26671,37 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_FURS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SILK</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_ALCOHOL</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_IVORY</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WHALEOIL</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_DRUGS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -27237,7 +27237,7 @@
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>30</iCommerce>
 			</CommerceModifiers>
 			<!-- Specialist effects -->
@@ -27444,7 +27444,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_DYE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -27526,7 +27526,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_DYE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -29622,7 +29622,7 @@
 			<iCost>1080</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>30</iCommerce>
+				<iCommerce>15</iCommerce>
 			</CommerceModifiers>
 			<!-- Defense effects -->
 			<iDCMAirbombMission>2</iDCMAirbombMission>
@@ -29949,7 +29949,7 @@
 			<iHealth>-1</iHealth>
 			<iHappiness>4</iHappiness>
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
@@ -34082,7 +34082,7 @@
 				<iCommerce>0</iCommerce>
 			</YieldModifiers>
 			<CommerceModifiers>
-				<iCommerce>20</iCommerce>
+				<iCommerce>10</iCommerce>
 				<iCommerce>20</iCommerce>
 				<iCommerce>20</iCommerce>
 				<iCommerce>20</iCommerce>
@@ -34499,37 +34499,37 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_TOBACCO</BonusType>
 					<CommerceModifiers>
-						<iCommerce>10</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_CANNABIS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>10</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_OPIUM</BonusType>
 					<CommerceModifiers>
-						<iCommerce>10</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_ECSTASY</BonusType>
 					<CommerceModifiers>
-						<iCommerce>10</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_LSD</BonusType>
 					<CommerceModifiers>
-						<iCommerce>10</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_METH</BonusType>
 					<CommerceModifiers>
-						<iCommerce>10</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -36906,31 +36906,31 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SILK</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_DYE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_FUR</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SHEEP</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_COTTON</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -37572,7 +37572,7 @@
 			<iCost>2505</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>25</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<TechCommerceChanges>
@@ -37953,7 +37953,7 @@
 			<!-- Main effects -->
 			<iHappiness>4</iHappiness>
 			<CommerceModifiers>
-				<iCommerce>20</iCommerce>
+				<iCommerce>10</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>25</iCommerce>
 			</CommerceModifiers>
@@ -39456,31 +39456,31 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SILK</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_DYE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_FUR</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_COW</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_COTTON</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -43668,7 +43668,7 @@
 			<!-- Main effects -->
 			<iHappiness>-1</iHappiness>
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Other -->
 			<Flavors>
@@ -44346,37 +44346,37 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_DIAMOND</BonusType>
 					<CommerceModifiers>
-						<iCommerce>4</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SAPPHIRE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_RUBY</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_AMBER</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_JADE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_TURQUOISE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
@@ -44708,7 +44708,7 @@
 				<iCommerce>3</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>10</iCommerce>
@@ -46282,7 +46282,7 @@
 			<iCost>550</iCost>
 			<!-- Special Yield and Commerce modifiers -->
 			<GlobalCommerceModifiers>
-				<iCommerce>15</iCommerce>
+				<iCommerce>7</iCommerce>
 			</GlobalCommerceModifiers>
 			<!-- Other -->
 			<iAsset>4</iAsset>
@@ -50875,19 +50875,19 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_COPPER</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SILVER</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_GOLD</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -51601,7 +51601,7 @@
 			<!-- Main effects -->
 			<iHappiness>3</iHappiness>
 			<CommerceModifiers>
-				<iCommerce>15</iCommerce>
+				<iCommerce>7</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
@@ -52365,7 +52365,7 @@
 			<!-- Main effects -->
 			<iHappiness>3</iHappiness>
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -54515,55 +54515,55 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_FURS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SILK</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_ALCOHOL</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_IVORY</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WHALEOIL</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_DRUGS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_COMPUTERS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_AUTOMOBILES</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_FIREARMS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -56448,31 +56448,31 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WARE_PLATINUM</BonusType>
 					<CommerceModifiers>
-						<iCommerce>4</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WARE_ELECTRUM</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WARE_GOLD</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_GEMS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WARE_SILVER</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
@@ -57211,7 +57211,7 @@
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<BonusHappinessChanges>
@@ -57791,7 +57791,7 @@
 				<iCommerce>1000</iCommerce>
 			</CommerceChangeDoubleTimes>
 			<GlobalCommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</GlobalCommerceModifiers>
 			<!-- Misc. Effects -->
 			<iMaintenanceModifier>25</iMaintenanceModifier>
@@ -60974,7 +60974,7 @@
 			<iCost>332</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<PropertySpawnUnitClass>UNITCLASS_CUTTHROAT</PropertySpawnUnitClass>
 			<PropertySpawnProperty>PROPERTY_CRIME</PropertySpawnProperty>
@@ -63451,7 +63451,7 @@
 			<iCost>139</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Other -->
 			<iHurryCostModifier>100</iHurryCostModifier>
@@ -65554,7 +65554,7 @@
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Other -->
 			<iHurryCostModifier>100</iHurryCostModifier>
@@ -67229,31 +67229,31 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_ANCIENTTEMPLE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_ELEPHANT</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_CLAM</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_HORSE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WHALE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -68363,13 +68363,13 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_GOLD</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SILVER</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -70075,7 +70075,7 @@
 			<iCost>410</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Other -->
 			<iAsset>4</iAsset>
@@ -70451,31 +70451,31 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_COFFEE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_MUSIC</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_TEA</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_TOBACCO</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SUGAR</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -70794,7 +70794,7 @@
 			<!-- Main effects -->
 			<iHappiness>2</iHappiness>
 			<CommerceModifiers>
-				<iCommerce>3</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -71331,7 +71331,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_ANCIENTTEMPLE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -76222,7 +76222,7 @@
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Other -->
 			<iHurryCostModifier>100</iHurryCostModifier>
@@ -76604,7 +76604,7 @@
 				<iCommerce>2</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>15</iCommerce>
+				<iCommerce>7</iCommerce>
 			</CommerceModifiers>
 			<!-- Other -->
 			<iHurryCostModifier>100</iHurryCostModifier>
@@ -78240,7 +78240,7 @@
 			<iCost>475</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 				<iCommerce>15</iCommerce>
 			</CommerceModifiers>
 			<!-- Other -->
@@ -81817,7 +81817,7 @@
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<BonusHappinessChanges>
@@ -82793,7 +82793,7 @@
 			<iCost>475</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 				<iCommerce>5</iCommerce>
 				<iCommerce>5</iCommerce>
 				<iCommerce>5</iCommerce>
@@ -83041,7 +83041,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_INGOT_LEAD</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -83145,7 +83145,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_INGOT_LEAD</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -83911,7 +83911,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_BIOPOLYMERS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 						<iCommerce>2</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
@@ -86170,7 +86170,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SEMICONDUCTORS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -86325,19 +86325,19 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_MOVIES</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_MUSIC</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_DRAMA</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -86892,7 +86892,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WHALE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
@@ -89761,7 +89761,7 @@
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<BonusHappinessChanges>
@@ -89817,25 +89817,25 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_ELEPHANT</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_DEER</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_FUR</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WHALE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -93711,7 +93711,7 @@
 			<bAutoBuild>1</bAutoBuild>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>20</iCommerce>
+				<iCommerce>10</iCommerce>
 			</CommerceModifiers>
 			<!-- Specialist effects -->
 			<SpecialistCounts>
@@ -95301,25 +95301,25 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_TOBACCO</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_CANNABIS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_OPIUM</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_ALCOHOL</BonusType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -95832,7 +95832,7 @@
 			<!-- Main effects -->
 			<iHappiness>2</iHappiness>
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>15</iCommerce>
 			</CommerceModifiers>
@@ -98746,7 +98746,7 @@
 			<iCost>475</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>25</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Defense effects -->
 			<iDCMAirbombMission>2</iDCMAirbombMission>
@@ -103269,7 +103269,7 @@
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceModifiers>
-				<iCommerce>15</iCommerce>
+				<iCommerce>7</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>35</iCommerce>
 			</CommerceModifiers>
@@ -105847,7 +105847,7 @@
 			<bAutoBuild>1</bAutoBuild>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Specialist effects -->
 			<SpecialistCounts>
@@ -107153,19 +107153,19 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_AMMO</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WARE_STEEL</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SULPHUR</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -107343,7 +107343,7 @@
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<BonusHappinessChanges>
@@ -107964,7 +107964,7 @@
 			<!-- Main effects -->
 			<iHappiness>4</iHappiness>
 			<CommerceModifiers>
-				<iCommerce>15</iCommerce>
+				<iCommerce>7</iCommerce>
 			</CommerceModifiers>
 			<!-- Specialist effects -->
 			<SpecialistCounts>
@@ -109946,25 +109946,25 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WARE_SILVER</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WARE_GOLD</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WARE_ELECTRUM</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WARE_PLATINUM</BonusType>
 					<CommerceModifiers>
-						<iCommerce>4</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -111580,7 +111580,7 @@
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<BonusHappinessChanges>
@@ -112187,31 +112187,31 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_COFFEE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>4</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SALT</BonusType>
 					<CommerceModifiers>
-						<iCommerce>4</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SUGAR</BonusType>
 					<CommerceModifiers>
-						<iCommerce>4</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SPICES</BonusType>
 					<CommerceModifiers>
-						<iCommerce>4</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_TEA</BonusType>
 					<CommerceModifiers>
-						<iCommerce>4</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -113823,7 +113823,7 @@
 				<iCommerce>-1</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>2</iCommerce>
+				<iCommerce>1</iCommerce>
 			</CommerceModifiers>
 			<iInsidiousness>20</iInsidiousness>
 			<PropertySpawnUnitClass>UNITCLASS_ROBBER</PropertySpawnUnitClass>
@@ -113908,7 +113908,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_CANNABIS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
@@ -113938,7 +113938,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_DRUGS</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
@@ -113968,13 +113968,13 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_ECSTASY</BonusType>
 					<CommerceModifiers>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_METH</BonusType>
 					<CommerceModifiers>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -115416,7 +115416,7 @@
 				<iCommerce>1</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<iTradeRoutes>1</iTradeRoutes>
 			<iTradeRouteModifier>10</iTradeRouteModifier>

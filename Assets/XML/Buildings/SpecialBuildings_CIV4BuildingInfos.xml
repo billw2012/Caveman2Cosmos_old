@@ -10858,7 +10858,7 @@
 			<bAutoBuild>1</bAutoBuild>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>15</iCommerce>
+				<iCommerce>7</iCommerce>
 			</CommerceModifiers>
 			<!-- Special properties -->
 			<iAsset>4</iAsset>
@@ -10901,7 +10901,7 @@
 			<bAutoBuild>1</bAutoBuild>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Special properties -->
 			<iAsset>4</iAsset>
@@ -19091,7 +19091,7 @@
 			<iCost>-1</iCost>
 			<!-- Special Yield and Commerce modifiers -->
 			<GlobalCommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 				<iCommerce>5</iCommerce>
 			</GlobalCommerceModifiers>
 			<GlobalYieldModifiers>
@@ -19207,7 +19207,7 @@
 			<iHealth>5</iHealth>
 			<iHappiness>10</iHappiness>
 			<CommerceModifiers>
-				<iCommerce>15</iCommerce>
+				<iCommerce>7</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<!-- Special Yield and Commerce modifiers -->
@@ -19503,7 +19503,7 @@
 			<iCost>-1</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>3</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<PropertySpawnUnitClass>UNITCLASS_CUTTHROAT</PropertySpawnUnitClass>
 			<PropertySpawnProperty>PROPERTY_CRIME</PropertySpawnProperty>

@@ -1129,7 +1129,7 @@
 				<iCommerce>1000</iCommerce>
 			</CommerceChangeDoubleTimes>
 			<CommerceModifiers>
-				<iCommerce>50</iCommerce>
+				<iCommerce>25</iCommerce>
 				<iCommerce>25</iCommerce>
 			</CommerceModifiers>
 			<BuildingHappinessChanges>
@@ -1203,7 +1203,7 @@
 				<iCommerce>1000</iCommerce>
 			</CommerceChangeDoubleTimes>
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
@@ -1655,7 +1655,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<CommerceModifiers>
-				<iCommerce>25</iCommerce>
+				<iCommerce>12</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>25</iCommerce>
 			</CommerceModifiers>
@@ -2027,7 +2027,7 @@
 				<iCommerce>1000</iCommerce>
 			</CommerceChangeDoubleTimes>
 			<CommerceModifiers>
-				<iCommerce>50</iCommerce>
+				<iCommerce>25</iCommerce>
 			</CommerceModifiers>
 			<FreeSpecialistCounts>
 				<FreeSpecialistCount>
@@ -2111,7 +2111,7 @@
 				<iCommerce>1000</iCommerce>
 			</CommerceChangeDoubleTimes>
 			<CommerceModifiers>
-				<iCommerce>25</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<SpecialistYieldChanges>
 				<SpecialistYieldChange>
@@ -2154,7 +2154,7 @@
 				<iCommerce>1000</iCommerce>
 			</CommerceChangeDoubleTimes>
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>10</iCommerce>
 			</CommerceModifiers>
@@ -2215,7 +2215,7 @@
 				<iCommerce>1000</iCommerce>
 			</CommerceChangeDoubleTimes>
 			<CommerceModifiers>
-				<iCommerce>25</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<SpecialistCounts>
 				<SpecialistCount>
@@ -2364,7 +2364,7 @@
 				<iCommerce>1000</iCommerce>
 			</CommerceChangeDoubleTimes>
 			<CommerceModifiers>
-				<iCommerce>25</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<BonusProductionModifiers>
 				<BonusProductionModifier>
@@ -2661,7 +2661,7 @@
 				<iCommerce>1000</iCommerce>
 			</CommerceChangeDoubleTimes>
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>10</iCommerce>
 			</CommerceModifiers>
 			<PrereqBuildingClasses>
@@ -3982,7 +3982,7 @@
 				<iCommerce>2</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>25</iCommerce>
+				<iCommerce>12</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>25</iCommerce>
@@ -4019,7 +4019,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>20</iCommerce>

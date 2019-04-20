@@ -207,7 +207,7 @@
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -252,7 +252,7 @@
 				<iCommerce>20</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>20</iCommerce>
+				<iCommerce>10</iCommerce>
 			</CommerceModifiers>
 			<FreeSpecialistCounts>
 				<FreeSpecialistCount>
@@ -502,7 +502,7 @@
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>15</iCommerce>
+				<iCommerce>7</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
@@ -558,7 +558,7 @@
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
 			<CommerceModifiers>
-				<iCommerce>15</iCommerce>
+				<iCommerce>7</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>5</iCommerce>
 			</CommerceModifiers>

@@ -218,7 +218,7 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Global -->
 			<GlobalCommerceModifiers>
-				<iCommerce>8</iCommerce>
+				<iCommerce>4</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>8</iCommerce>
 			</GlobalCommerceModifiers>
@@ -802,7 +802,7 @@
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
 			<!-- Local -->
 			<CommerceModifiers>
-				<iCommerce>50</iCommerce>
+				<iCommerce>25</iCommerce>
 			</CommerceModifiers>
 			<CommerceChanges>
 				<iCommerce>3</iCommerce>
@@ -1639,7 +1639,7 @@
 			<!-- Global -->
 			<iGlobalHappiness>1</iGlobalHappiness>
 			<GlobalCommerceModifiers>
-				<iCommerce>2</iCommerce>
+				<iCommerce>1</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>2</iCommerce>
 			</GlobalCommerceModifiers>
@@ -3602,7 +3602,7 @@
 			<!-- Global -->
 			<iGlobalHappiness>2</iGlobalHappiness>
 			<GlobalCommerceModifiers>
-				<iCommerce>4</iCommerce>
+				<iCommerce>2</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>4</iCommerce>
 			</GlobalCommerceModifiers>
@@ -4878,31 +4878,31 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WARE_GOLD</BonusType>
 					<CommerceModifiers>
-						<iCommerce>25</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WARE_SILVER</BonusType>
 					<CommerceModifiers>
-						<iCommerce>15</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WARE_COPPER</BonusType>
 					<CommerceModifiers>
-						<iCommerce>8</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WARE_PLATINUM</BonusType>
 					<CommerceModifiers>
-						<iCommerce>30</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_WARE_ELECTRUM</BonusType>
 					<CommerceModifiers>
-						<iCommerce>20</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -5708,7 +5708,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_MOVIES</BonusType>
 					<CommerceModifiers>
-						<iCommerce>10</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -7860,7 +7860,7 @@
 			</PropertyManipulators>
 			<!-- Global -->
 			<GlobalCommerceModifiers>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 			</GlobalCommerceModifiers>
 			<!-- Misc -->
 			<iAsset>3</iAsset>
@@ -8017,7 +8017,7 @@
 			</SpecialistCounts>
 			<!-- Global -->
 			<GlobalCommerceModifiers>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</GlobalCommerceModifiers>
 			<!-- Units -->
 			<GreatPeopleUnitClass>UNITCLASS_MERCHANT</GreatPeopleUnitClass>
