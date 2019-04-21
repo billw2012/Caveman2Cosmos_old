@@ -446,8 +446,8 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_SANITATION</PrereqTech>
-			<iCost>270</iCost>
+			<PrereqTech>TECH_MODERN_SANITATION</PrereqTech>
+			<iCost>740</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<YieldChanges>

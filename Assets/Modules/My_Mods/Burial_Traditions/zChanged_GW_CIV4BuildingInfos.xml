@@ -24,12 +24,16 @@
 		<PrereqTech>TECH_DIVINE_RIGHT</PrereqTech>
 		<iPrereqPopulation>6</iPrereqPopulation>
 		<Bonus>BONUS_BONE</Bonus>
-		<BuildingClassNeededs>
-			<BuildingClassNeeded>
+		<PrereqOrBuildingClasses>
+			<PrereqOrBuildingClass>
 				<BuildingClassType>BUILDINGCLASS_FUNERARY_SERVICES</BuildingClassType>
-				<bNeededInCity>1</bNeededInCity>
-			</BuildingClassNeeded>
-		</BuildingClassNeededs>
+				<bPrereqBuildingClass>1</bPrereqBuildingClass>
+			</PrereqOrBuildingClass>
+			<PrereqOrBuildingClass>
+				<BuildingClassType>BUILDINGCLASS_INDIAN_MAUSOLEUM</BuildingClassType>
+				<bPrereqBuildingClass>1</bPrereqBuildingClass>
+			</PrereqOrBuildingClass>
+		</PrereqOrBuildingClasses>
 		<!-- Construction cost -->
 		<iCost>2640</iCost>
 		<!-- Main effects -->
