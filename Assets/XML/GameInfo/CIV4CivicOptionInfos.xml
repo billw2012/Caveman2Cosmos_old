@@ -55,16 +55,16 @@
             <Description>TXT_KEY_CIVICOPTION_LANGUAGE</Description>
         </CivicOptionInfo>
         <CivicOptionInfo>
-            <Type>CIVICOPTION_GARBAGE</Type>
-            <Description>TXT_KEY_CIVICOPTION_GARBAGE</Description>
-        </CivicOptionInfo>
-        <CivicOptionInfo>
             <Type>CIVICOPTION_IMMIGRATION</Type>
             <Description>TXT_KEY_CIVICOPTION_IMMIGRATION</Description>
         </CivicOptionInfo>
         <CivicOptionInfo>
             <Type>CIVICOPTION_AGICULTURE</Type>
             <Description>TXT_KEY_CIVICOPTION_AGICULTURE</Description>
+        </CivicOptionInfo>
+		<CivicOptionInfo>
+            <Type>CIVICOPTION_GARBAGE</Type>
+            <Description>TXT_KEY_CIVICOPTION_GARBAGE</Description>
         </CivicOptionInfo>
     </CivicOptionInfos>
 </Civ4CivicOptionInfos>
