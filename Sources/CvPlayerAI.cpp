@@ -5859,9 +5859,9 @@ int	 CvPlayerAI::techPathValuePerUnitCost(techPath* path, TechTypes eTech, bool 
 	int iIterator = ((int)GC.getGame().getCurrentEra() - 1);
 	for (int iI = 0; iI < iIterator; iI++)
 	{
-		iCostFactor /= 10;
+		iCostFactor /= 2;
 	}
-
+	iCostFactor = std::max(1, iCostFactor);
 	iValue = std::max(1,(100*iValue)/(bIgnoreCost ? 1 : iCostFactor));
 
 	if ( iValue > MAX_INT/iScaleFactor )
