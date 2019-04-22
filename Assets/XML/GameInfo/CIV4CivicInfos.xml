@@ -2959,7 +2959,6 @@
 			<iStateReligionUnitProductionModifier>0</iStateReligionUnitProductionModifier>
 			<iStateReligionBuildingProductionModifier>0</iStateReligionBuildingProductionModifier>
 			<iStateReligionFreeExperience>0</iStateReligionFreeExperience>
-			<iTaxRateUnhappiness>33</iTaxRateUnhappiness>
 			<YieldModifiers/>
 			<CapitalYieldModifiers/>
 			<TradeYieldModifiers/>
