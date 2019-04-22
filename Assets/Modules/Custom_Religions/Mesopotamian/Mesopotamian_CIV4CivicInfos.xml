@@ -13,7 +13,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_MESO_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>15</iCommerce>  
+						<iCommerce>7</iCommerce>  
 						<iCommerce>0</iCommerce> 
 						<iCommerce>20</iCommerce>  
 					</CommerceModifiers>
@@ -39,7 +39,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_MESO_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>15</iCommerce>
+						<iCommerce>7</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>20</iCommerce>
 					</CommerceModifiers>
