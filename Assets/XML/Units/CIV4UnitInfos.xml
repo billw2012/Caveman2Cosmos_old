@@ -5581,12 +5581,6 @@
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
 			</UnitCombatTargets>
-			<UnitCombatDefenders>
-				<UnitCombatDefender>
-					<UnitCombatDefenderType>UNITCOMBAT_ANIMAL</UnitCombatDefenderType>
-					<bUnitCombatDefender>1</bUnitCombatDefender>
-				</UnitCombatDefender>
-			</UnitCombatDefenders>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 		</UnitInfo>
 		<UnitInfo>
@@ -5678,12 +5672,6 @@
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
 			</UnitCombatTargets>
-			<UnitCombatDefenders>
-				<UnitCombatDefender>
-					<UnitCombatDefenderType>UNITCOMBAT_ANIMAL</UnitCombatDefenderType>
-					<bUnitCombatDefender>1</bUnitCombatDefender>
-				</UnitCombatDefender>
-			</UnitCombatDefenders>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
 				<FreePromotion>
@@ -5779,12 +5767,6 @@
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
 			</UnitCombatTargets>
-			<UnitCombatDefenders>
-				<UnitCombatDefender>
-					<UnitCombatDefenderType>UNITCOMBAT_ANIMAL</UnitCombatDefenderType>
-					<bUnitCombatDefender>1</bUnitCombatDefender>
-				</UnitCombatDefender>
-			</UnitCombatDefenders>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
 				<FreePromotion>
@@ -5975,12 +5957,6 @@
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
 			</UnitCombatTargets>
-			<UnitCombatDefenders>
-				<UnitCombatDefender>
-					<UnitCombatDefenderType>UNITCOMBAT_ANIMAL</UnitCombatDefenderType>
-					<bUnitCombatDefender>1</bUnitCombatDefender>
-				</UnitCombatDefender>
-			</UnitCombatDefenders>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
 				<FreePromotion>
@@ -6072,12 +6048,6 @@
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
 			</UnitCombatTargets>
-			<UnitCombatDefenders>
-				<UnitCombatDefender>
-					<UnitCombatDefenderType>UNITCOMBAT_ANIMAL</UnitCombatDefenderType>
-					<bUnitCombatDefender>1</bUnitCombatDefender>
-				</UnitCombatDefender>
-			</UnitCombatDefenders>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
 				<FreePromotion>
@@ -63626,12 +63596,6 @@ iTradeMultiplier>3</iTradeMultiplier>
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
 			</UnitCombatTargets>
-			<UnitCombatDefenders>
-				<UnitCombatDefender>
-					<UnitCombatDefenderType>UNITCOMBAT_ANIMAL</UnitCombatDefenderType>
-					<bUnitCombatDefender>1</bUnitCombatDefender>
-				</UnitCombatDefender>
-			</UnitCombatDefenders>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -63730,12 +63694,6 @@ iTradeMultiplier>3</iTradeMultiplier>
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
 			</UnitCombatTargets>
-			<UnitCombatDefenders>
-				<UnitCombatDefender>
-					<UnitCombatDefenderType>UNITCOMBAT_ANIMAL</UnitCombatDefenderType>
-					<bUnitCombatDefender>1</bUnitCombatDefender>
-				</UnitCombatDefender>
-			</UnitCombatDefenders>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -63841,12 +63799,6 @@ iTradeMultiplier>3</iTradeMultiplier>
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
 			</UnitCombatTargets>
-			<UnitCombatDefenders>
-				<UnitCombatDefender>
-					<UnitCombatDefenderType>UNITCOMBAT_ANIMAL</UnitCombatDefenderType>
-					<bUnitCombatDefender>1</bUnitCombatDefender>
-				</UnitCombatDefender>
-			</UnitCombatDefenders>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -63955,12 +63907,6 @@ iTradeMultiplier>3</iTradeMultiplier>
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
 			</UnitCombatTargets>
-			<UnitCombatDefenders>
-				<UnitCombatDefender>
-					<UnitCombatDefenderType>UNITCOMBAT_ANIMAL</UnitCombatDefenderType>
-					<bUnitCombatDefender>1</bUnitCombatDefender>
-				</UnitCombatDefender>
-			</UnitCombatDefenders>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -64073,12 +64019,6 @@ iTradeMultiplier>3</iTradeMultiplier>
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
 			</UnitCombatTargets>
-			<UnitCombatDefenders>
-				<UnitCombatDefender>
-					<UnitCombatDefenderType>UNITCOMBAT_ANIMAL</UnitCombatDefenderType>
-					<bUnitCombatDefender>1</bUnitCombatDefender>
-				</UnitCombatDefender>
-			</UnitCombatDefenders>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -64184,12 +64124,6 @@ iTradeMultiplier>3</iTradeMultiplier>
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
 			</UnitCombatTargets>
-			<UnitCombatDefenders>
-				<UnitCombatDefender>
-					<UnitCombatDefenderType>UNITCOMBAT_ANIMAL</UnitCombatDefenderType>
-					<bUnitCombatDefender>1</bUnitCombatDefender>
-				</UnitCombatDefender>
-			</UnitCombatDefenders>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>

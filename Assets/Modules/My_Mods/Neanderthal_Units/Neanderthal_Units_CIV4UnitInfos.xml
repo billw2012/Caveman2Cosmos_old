@@ -3668,12 +3668,6 @@
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
 			</UnitCombatTargets>
-			<UnitCombatDefenders>
-				<UnitCombatDefender>
-					<UnitCombatDefenderType>UNITCOMBAT_ANIMAL</UnitCombatDefenderType>
-					<bUnitCombatDefender>1</bUnitCombatDefender>
-				</UnitCombatDefender>
-			</UnitCombatDefenders>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
 				<FreePromotion>
@@ -3789,12 +3783,6 @@
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
 			</UnitCombatTargets>
-			<UnitCombatDefenders>
-				<UnitCombatDefender>
-					<UnitCombatDefenderType>UNITCOMBAT_ANIMAL</UnitCombatDefenderType>
-					<bUnitCombatDefender>1</bUnitCombatDefender>
-				</UnitCombatDefender>
-			</UnitCombatDefenders>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 		</UnitInfo>
 		<UnitInfo>
