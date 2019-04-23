@@ -2106,9 +2106,12 @@ void CvUnitAI::AI_settleMove()
 		if ((!getGroup()->canDefend() && ((plot()->getOwnerINLINE() == getOwnerINLINE()) || (iDanger > 2))) ||
 			GET_PLAYER(getOwnerINLINE()).AI_getVisiblePlotDanger(plot(), 2, false, getGroup(), 70))
 		{
-			if (AI_retreatToCity())
+			if (!getGroup()->canDefend())
 			{
-				return;
+				if (AI_retreatToCity())
+				{
+					return;
+				}
 			}
 			if (AI_safety())
 			{
@@ -2416,9 +2419,12 @@ void CvUnitAI::AI_settleMove()
 		}
 	}
 
-	if (AI_retreatToCity())
+	if (!getGroup()->canDefend())
 	{
-		return;
+		if (AI_retreatToCity())
+		{
+			return;
+		}
 	}
 
 /************************************************************************************************/
@@ -2436,7 +2442,6 @@ void CvUnitAI::AI_settleMove()
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                       END                                                  */
 /************************************************************************************************/
-
 	if (AI_safety())
 	{
 		return;
@@ -12472,6 +12477,7 @@ void CvUnitAI::AI_InfiltratorMove()
 		if (pLoopUnit->isWanted())
 		{
 			pLoopUnit->joinGroup(NULL);
+			break;
 		}
 		pUnitNode = getGroup()->nextUnitNode(pUnitNode);
 	}
