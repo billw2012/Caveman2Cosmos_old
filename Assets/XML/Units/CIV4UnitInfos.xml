@@ -4752,12 +4752,6 @@
 				</UnitAI>
 			</NotUnitAIs>
 			<PrereqTech>TECH_TRACKING</PrereqTech>
-			<UnitCombatDefenders>
-				<UnitCombatDefender>
-					<UnitCombatDefenderType>UNITCOMBAT_ANIMAL</UnitCombatDefenderType>
-					<bUnitCombatDefender>1</bUnitCombatDefender>
-				</UnitCombatDefender>
-			</UnitCombatDefenders>
 			<iCost>20</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>2</iCombat>
@@ -4840,12 +4834,6 @@
 				</UnitAI>
 			</NotUnitAIs>
 			<PrereqTech>TECH_EXPLORATION</PrereqTech>
-			<UnitCombatDefenders>
-				<UnitCombatDefender>
-					<UnitCombatDefenderType>UNITCOMBAT_ANIMAL</UnitCombatDefenderType>
-					<bUnitCombatDefender>1</bUnitCombatDefender>
-				</UnitCombatDefender>
-			</UnitCombatDefenders>
 			<iCost>105</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>4</iCombat>
@@ -4933,12 +4921,6 @@
 				</UnitAI>
 			</NotUnitAIs>
 			<PrereqTech>TECH_ROAD_BUILDING</PrereqTech>
-			<UnitCombatDefenders>
-				<UnitCombatDefender>
-					<UnitCombatDefenderType>UNITCOMBAT_ANIMAL</UnitCombatDefenderType>
-					<bUnitCombatDefender>1</bUnitCombatDefender>
-				</UnitCombatDefender>
-			</UnitCombatDefenders>
 			<iCost>170</iCost>
 			<iMoves>3</iMoves>
 			<iCombat>6</iCombat>
@@ -5211,12 +5193,6 @@
 			<PrereqBuilding>BUILDING_HORSE_TRAINER</PrereqBuilding>
 			<PrereqTech>TECH_COMPASS</PrereqTech>
 			<BonusType>BONUS_HORSE</BonusType>
-			<UnitCombatDefenders>
-				<UnitCombatDefender>
-					<UnitCombatDefenderType>UNITCOMBAT_ANIMAL</UnitCombatDefenderType>
-					<bUnitCombatDefender>1</bUnitCombatDefender>
-				</UnitCombatDefender>
-			</UnitCombatDefenders>
 			<iCost>285</iCost>
 			<iMoves>3</iMoves>
 			<iCombat>9</iCombat>
