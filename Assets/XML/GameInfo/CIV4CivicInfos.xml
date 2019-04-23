@@ -962,7 +962,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_MESOAMERICAN_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>10</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>20</iCommerce>
 					</CommerceModifiers>
@@ -978,7 +978,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_ZOROASTRIAN_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>10</iCommerce>
+						<iCommerce>20</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 					</CommerceModifiers>
@@ -986,7 +986,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_TAOIST_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>10</iCommerce>
+						<iCommerce>20</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 					</CommerceModifiers>
@@ -994,7 +994,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_CONFUCIAN_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>10</iCommerce>
+						<iCommerce>20</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>10</iCommerce>
 					</CommerceModifiers>
@@ -1002,7 +1002,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_BUDDHIST_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>10</iCommerce>
+						<iCommerce>20</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>10</iCommerce>
 					</CommerceModifiers>
@@ -1010,7 +1010,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_HINDU_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>10</iCommerce>
+						<iCommerce>20</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>5</iCommerce>
 					</CommerceModifiers>
@@ -1018,7 +1018,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_ISLAMIC_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>10</iCommerce>
+						<iCommerce>20</iCommerce>
 						<iCommerce>5</iCommerce>
 						<iCommerce>0</iCommerce>
 					</CommerceModifiers>
@@ -1026,7 +1026,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_CHRISTIAN_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>10</iCommerce>
+						<iCommerce>20</iCommerce>
 						<iCommerce>5</iCommerce>
 						<iCommerce>0</iCommerce>
 					</CommerceModifiers>
@@ -1034,7 +1034,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_JEWISH_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>10</iCommerce>
+						<iCommerce>20</iCommerce>
 						<iCommerce>5</iCommerce>
 						<iCommerce>0</iCommerce>
 					</CommerceModifiers>
@@ -9395,7 +9395,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_MESOAMERICAN_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>7</iCommerce>
+						<iCommerce>15</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>20</iCommerce>
 					</CommerceModifiers>
@@ -9411,7 +9411,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_ZOROASTRIAN_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>7</iCommerce>
+						<iCommerce>15</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 					</CommerceModifiers>
@@ -9419,7 +9419,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_TAOIST_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>7</iCommerce>
+						<iCommerce>15</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 					</CommerceModifiers>
@@ -9427,7 +9427,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_CONFUCIAN_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>7</iCommerce>
+						<iCommerce>15</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>20</iCommerce>
 					</CommerceModifiers>
@@ -9435,7 +9435,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_BUDDHIST_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>7</iCommerce>
+						<iCommerce>15</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>20</iCommerce>
 					</CommerceModifiers>
@@ -9443,7 +9443,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_HINDU_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>7</iCommerce>
+						<iCommerce>15</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 					</CommerceModifiers>
@@ -9451,7 +9451,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_ISLAMIC_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>7</iCommerce>
+						<iCommerce>15</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 					</CommerceModifiers>
@@ -9459,7 +9459,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_CHRISTIAN_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>7</iCommerce>
+						<iCommerce>15</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 					</CommerceModifiers>
@@ -9467,7 +9467,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_JEWISH_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>7</iCommerce>
+						<iCommerce>15</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 					</CommerceModifiers>
@@ -16150,7 +16150,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_BANK</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>10</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
@@ -16159,7 +16159,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_CENTRAL_BANK</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>5</iCommerce>
+						<iCommerce>10</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>

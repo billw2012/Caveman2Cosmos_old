@@ -8,7 +8,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_CANAANISM_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>7</iCommerce>  
+						<iCommerce>15</iCommerce>  
 						<iCommerce>0</iCommerce> 
 						<iCommerce>0</iCommerce>  
 					</CommerceModifiers>
@@ -34,7 +34,7 @@
 				<BuildingCommerceModifier>
 					<BuildingType>BUILDING_CANAANISM_SHRINE</BuildingType>
 					<CommerceModifiers>
-						<iCommerce>7</iCommerce>
+						<iCommerce>15</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 					</CommerceModifiers>
