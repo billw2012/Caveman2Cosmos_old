@@ -35186,22 +35186,8 @@ void CvPlayer::setCulture(int iNewValue)
 		if (iNewValue >= iSwitchPoint)
 		{
 			iGreaterCulture += iChangeGC;
-			setGreaterCulture(iGreaterCulture);
+			changeGreaterCulture(iGreaterCulture);
 			iNewValue -= iSwitchPoint * iChangeGC;
-		}
-		else if (iNewValue <= (iSwitchPoint * iChangeGC))
-		{
-			while (iChangeGC < 1 && iGreaterCulture > 0)
-			{
-				changeGreaterCulture(-1);
-				iChangeGC++;
-				iNewValue += iSwitchPoint;
-			}
-			if (iChangeGC < 1 && iGreaterCulture < 1)
-			{
-				FAssert(true);//Something is probably wrong in that this transaction was allowed at all.
-				iNewValue = 0;
-			}
 		}
 
 		m_iCulture = iNewValue;
@@ -35214,7 +35200,7 @@ void CvPlayer::changeCulture(int iAddValue)
 	{
 		m_iCulture = processedNationalCulture();
 	}
-	m_iCulture += iAddValue;
+	setCulture(m_iCulture + iAddValue);
 }
 
 int CvPlayer::getGreaterCulture() const
