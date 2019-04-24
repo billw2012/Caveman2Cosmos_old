@@ -14,8 +14,8 @@
 			<ArtDefineTag>ART_DEF_LEADER_BARBARIAN</ArtDefineTag>
 			<bNPC>1</bNPC>
 			<iRazeCityProb>10</iRazeCityProb>
-			<iBuildUnitProb>45</iBuildUnitProb>
-			<iAttackOddsChangeRand>16</iAttackOddsChangeRand>
+			<iBuildUnitProb>30</iBuildUnitProb>
+			<iAttackOddsChangeRand>20</iAttackOddsChangeRand>
 			<Traits>
 				<Trait>
 					<TraitType>TRAIT_BARBARIAN</TraitType>
@@ -238,7 +238,7 @@
 			<ArtDefineTag>ART_DEF_LEADER_GREEN_MAN</ArtDefineTag>
 			<bNPC>1</bNPC>
 			<iRazeCityProb>100</iRazeCityProb>
-			<iAttackOddsChangeRand>16</iAttackOddsChangeRand>
+			<iAttackOddsChangeRand>20</iAttackOddsChangeRand>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_PREHISTORIC</EraType>
@@ -451,8 +451,8 @@
 			<ArtDefineTag>ART_DEF_LEADER_NEANDERTHAL</ArtDefineTag>
 			<bNPC>1</bNPC>
 			<iRazeCityProb>10</iRazeCityProb>
-			<iBuildUnitProb>45</iBuildUnitProb>
-			<iAttackOddsChangeRand>18</iAttackOddsChangeRand>
+			<iBuildUnitProb>30</iBuildUnitProb>
+			<iAttackOddsChangeRand>20</iAttackOddsChangeRand>
 			<Traits>
 				<Trait>
 					<TraitType>TRAIT_BARBARIAN</TraitType>
