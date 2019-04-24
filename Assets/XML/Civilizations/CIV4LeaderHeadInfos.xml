@@ -238,6 +238,7 @@
 			<ArtDefineTag>ART_DEF_LEADER_GREEN_MAN</ArtDefineTag>
 			<bNPC>1</bNPC>
 			<iRazeCityProb>100</iRazeCityProb>
+			<iBaseAttackOddsChange>-10</iBaseAttackOddsChange>
 			<iAttackOddsChangeRand>20</iAttackOddsChangeRand>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
