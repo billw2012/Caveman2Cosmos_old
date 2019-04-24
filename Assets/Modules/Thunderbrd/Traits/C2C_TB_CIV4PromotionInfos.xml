@@ -959,7 +959,7 @@
 			<TechPrereq>TECH_DUMMY</TechPrereq>
 			<iWithdrawalChange>20</iWithdrawalChange>
 			<iMovesChange>1</iMovesChange>
-			<iMoveDiscountChange>-1</iMoveDiscountChange>
+			<iMoveDiscountChange>1</iMoveDiscountChange>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_EXPLORER</UnitCombatType>
@@ -1023,7 +1023,7 @@
 			</UnitCombats>
 			<iWithdrawalChange>10</iWithdrawalChange>
 			<iMovesChange>1</iMovesChange>
-			<iMoveDiscountChange>-1</iMoveDiscountChange>
+			<iMoveDiscountChange>1</iMoveDiscountChange>
 			<Button>Art/Buttons/Promotions/PromotionNomadic.dds</Button>
 		</PromotionInfo>
 		<PromotionInfo>

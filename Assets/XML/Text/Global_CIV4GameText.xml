@@ -12101,15 +12101,15 @@
 		<Tag>TXT_KEY_MISC_HELP_TRAITS_COMMERCE</Tag>
 		<English>[ICON_BULLET]%D1 %F2 from Traits</English>
 		<French>[ICON_BULLET]%D1 %F2 des Traits</French>
-		<Italian>[ICON_BULLET]%D1%F2 dai tratti</Italian>
+		<Italian>[ICON_BULLET]%D1 %F2 dai tratti</Italian>
 		<Polish>[ICON_BULLET]%D1 %F2 z Cech</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MISC_HELP_TRAIT_COMMERCE</Tag>
-		<English>[ICON_BULLET]%D1%F2 from %D2_Trait</English>
-		<French>[ICON_BULLET]%D1%F2 de %D2_Trait</French>
-		<Italian>[ICON_BULLET]%D1%F2 da %D2_Trait</Italian>
-		<Polish>[ICON_BULLET]%D1%F2 z %D2_Trait</Polish>
+		<English>[ICON_BULLET]%D1 %F2 from %s3_Trait</English>
+		<French>[ICON_BULLET]%D1 %F2 de %s3_Trait</French>
+		<Italian>[ICON_BULLET]%D1 %F2 da %s3_Trait</Italian>
+		<Polish>[ICON_BULLET]%D1 %F2 z %s3_Trait</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MISC_HELP_WASTED_FOOD</Tag>

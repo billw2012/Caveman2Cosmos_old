@@ -37936,24 +37936,23 @@ void CvGameTextMgr::parseGreatPeopleHelp(CvWStringBuffer &szBuffer, CvCity& city
 			szBuffer.append(gDLL->getText("TXT_KEY_MISC_HELP_BUILDING_COMMERCE", iRate, gDLL->getSymbolID(GREAT_PEOPLE_CHAR)));
 		}
 		//Trait Modifier by GP type
-		iRate = 0;
 		for (int i = 0; i < GC.getNumTraitInfos(); i++)
 		{
-			int iCount = owner.hasTrait((TraitTypes)i);
-			if (iCount > 0)
+			iRate = 0;
+			if (owner.hasTrait((TraitTypes)i))
 			{
-				iRate += iCount * GC.getTraitInfo((TraitTypes)i).getGreatPeopleRateChange();
+				iRate = GC.getTraitInfo((TraitTypes)i).getGreatPeopleRateChange();
+				if (iRate > 0)
+				{
+					if (bFirst)
+					{
+						szBuffer.append(SEPARATOR);
+						bFirst = false;
+					}
+					szBuffer.append(NEWLINE);
+					szBuffer.append(gDLL->getText("TXT_KEY_MISC_HELP_TRAIT_COMMERCE", iRate, gDLL->getSymbolID(GREAT_PEOPLE_CHAR), GC.getTraitInfo((TraitTypes)i).getDescription()));
+				}
 			}
-		}
-		if (iRate > 0)
-		{
-			if (bFirst)
-			{
-				szBuffer.append(SEPARATOR);
-				bFirst = false;
-			}
-			szBuffer.append(NEWLINE);
-			szBuffer.append(gDLL->getText("TXT_KEY_MISC_HELP_TRAIT_COMMERCE", iRate, gDLL->getSymbolID(GREAT_PEOPLE_CHAR)));
 		}
 	}
 // BUG - Great People Rate Breakdown - end
