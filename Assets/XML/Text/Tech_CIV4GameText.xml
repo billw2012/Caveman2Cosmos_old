@@ -2581,7 +2581,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_ASTROINDUSTRIALISM</Tag>
-		<English>Astroindustry</English>
+		<English>Forge Worlds</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_ASTROINDUSTRIALISM_PEDIA</Tag>
@@ -8601,11 +8601,11 @@ Some call it Evolution,
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_EXOMINING</Tag>
-		<English>Exomining</English>
+		<English>Planet Cracking</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_EXOMINING_PEDIA</Tag>
-		<English>Exomining is a highly automated process of resource extract that is ready to deploy upon arrival in a star system.</English>
+		<English>Planet Cracking, also known as exomining, is a highly automated process of resource extraction that is ready to deploy upon arrival in a star system.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_EXOMINING_QUOTE</Tag>
@@ -8673,7 +8673,7 @@ Some call it Evolution,
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_EXOTIC_STAR_COLONIZATION</Tag>
-		<English>Exotic Star Colonization</English>
+		<English>Exotic Stars</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_EXOTIC_STAR_COLONIZATION_PEDIA</Tag>
@@ -24571,7 +24571,7 @@ Limerick from 1923 by A. H. Reginald Buller</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_VASIMR_PROPULSION</Tag>
-		<English>VASIMR Propulsion</English>
+		<English>Fusion Spacecraft</English>
 		<French>Propulsion à Impulsion MagnétoPlasmique</French>
 		<Italian>Propulsione VASIMR</Italian>
 		<Spanish>
@@ -24994,7 +24994,7 @@ To crush your enemies, see them driven before you, and to hear the lamentation o
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_WAVE_MOTION_GUN</Tag>
-		<English>Wave Motion Gun</English>
+		<English>Extreme Energy Weapons</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_WAVE_MOTION_GUN_PEDIA</Tag>

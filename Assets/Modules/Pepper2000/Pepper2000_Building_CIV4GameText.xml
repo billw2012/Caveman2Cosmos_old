@@ -1645,6 +1645,42 @@
 		<English>In the fictional universe of Star Trek, the Prime Directive is the guiding principle of the United Federation of Planets. The Prime Directive, used in four of the five Star Trek-based series, prohibits Starfleet personnel from interfering with the internal development of alien civilizations.</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PESTICIDE_MANUFACTURER</Tag>
+		<English>Pesticide Manufacturer</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PESTICIDE_MANUFACTURER_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PESTICIDE_MANUFACTURER_PEDIA</Tag>
+		<English>Pesticides are substances that are meant to control pests, including weeds. The term pesticide includes all of the following: herbicide, insecticides (which may include insect growth regulators, termiticides, etc.) nematicide, molluscicide, piscicide, avicide, rodenticide, bactericide, insect repellent, animal repellent, antimicrobial, and fungicide. The most common of these are herbicides which account for approximately 80% of all pesticide use. Most pesticides are intended to serve as plant protection products (also known as crop protection products), which in general, protect plants from weeds, fungi, or insects.[PARAGRAPH:2] -Wikipedia</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ORGANIC_FARM</Tag>
+		<English>Organic Farm</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ORGANIC_FARM_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ORGANIC_FARM_PEDIA</Tag>
+		<English>Organic farming is an alternative agricultural system which originated early in the 20th century in reaction to rapidly changing farming practices. Organic farming continues to be developed by various organic agriculture organizations today. It relies on fertilizers of organic origin such as compost manure, green manure, and bone meal and places emphasis on techniques such as crop rotation and companion planting. Biological pest control, mixed cropping and the fostering of insect predators are encouraged. In general, organic standards are designed to allow the use of naturally occurring substances while prohibiting or strictly limiting synthetic substances. For instance, naturally occurring pesticides such as pyrethrin and rotenone are permitted, while synthetic fertilizers and pesticides are generally prohibited. Synthetic substances that are allowed include, for example, copper sulfate, elemental sulfur and Ivermectin. Genetically modified organisms, nanomaterials, human sewage sludge, plant growth regulators, hormones, and antibiotic use in livestock husbandry are prohibited. Reasons for advocation of organic farming include advantages in sustainability, openness, self-sufficiency, autonomy/independence health, food security, and food safety.[PARAGRAPH:2] -Wikipedia</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AGRICULTURAL_EXTENSION</Tag>
+		<English>Agricultural Extension</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AGRICULTURAL_EXTENSION_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AGRICULTURAL_EXTENSION_PEDIA</Tag>
+		<English>Agricultural extension is the application of scientific research and new knowledge to agricultural practices through farmer education. The field of 'extension' now encompasses a wider range of communication and learning activities organized for rural people by educators from different disciplines, including agriculture, agricultural marketing, health, and business studies.[PARAGRAPH:2] -Wikipedia</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_BUILDING_AUTONOMOUS_FARM</Tag>
 		<English>Precision Farm</English>
 	</TEXT>
@@ -1751,6 +1787,18 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_NEUTRINO_SURVEILLANE_PEDIA</Tag>
 		<English>Neutrino detectors deep underground for a new form of surveillance.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GAME_THEORY_RESEARCH_CENTER</Tag>
+		<English>Game Theory Research Center</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GAME_THEORY_RESEARCH_CENTER_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GAME_THEORY_RESEARCH_CENTER_PEDIA</Tag>
+		<English>Game theory is the study of mathematical models of strategic interaction between rational decision-makers. It has applications in all fields of social science, as well as in logic and computer science. Originally, it addressed zero-sum games, in which one person's gains result in losses for the other participants. Today, game theory applies to a wide range of behavioral relations, and is now an umbrella term for the science of logical decision making in humans, animals, and computers.[PARAGRAPH:2] Wikipedia</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_FUTARCHY_MARKET</Tag>
@@ -2207,6 +2255,30 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_AMUNDSEN_SCOTT_SOUTH_POLE_STATION_PEDIA</Tag>
 		<English>The Amundsen-Scott South Pole Station is a United States scientific research station at the South Pole, the southernmost place on the Earth. The station is located on the high plateau of Antarctica at an elevation of 2,835 metres (9,301 feet) above sea level and is administered by the Division of Polar Programs within the National Science Foundation under the United States Antarctic Program (USAP).[PARAGRAPH:2] Wikipedia</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_UNDERWATER_DATA_CENTER</Tag>
+		<English>Underwater Data Center</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_UNDERWATER_DATA_CENTER_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_UNDERWATER_DATA_CENTER_PEDIA</Tag>
+		<English>In 2018, Microsoft deplyed an underwater server near the Orkney Islands in Scotland. Underwater immersion saves energy by providing a natural heat sink for the server. Additionally, the servers can tap power provided by the region's marine energy sources. [PARAGRAPH:2] Source: https://news.microsoft.com/features/under-the-sea-microsoft-tests-a-datacenter-thats-quick-to-deploy-could-provide-internet-connectivity-for-years/</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARCTIC_DATA_CENTER</Tag>
+		<English>Arctic Data Center</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARCTIC_DATA_CENTER_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARCTIC_DATA_CENTER_PEDIA</Tag>
+		<English>The cold air of the Arctic allows your civilization's increasingly power hungry data centers to save energy.[PARAGRAPH:2] Wikipedia</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CLOUD_SERVER</Tag>
@@ -4047,6 +4119,54 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_NEO_PYRAMID_PEDIA</Tag>
 		<English>This bizarre pyramidal structure, inspired by the ancient Pyramids of Egypt, is capable of interstellar travel, time travel, and other amazing feats.  Little is known about it, even to its designers.  Its resemblance to ancient pyramids might not be entirely coincidental.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AUTOMATED_SWITCHBOARD</Tag>
+		<English>Automated Switchboard</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AUTOMATED_SWITCHBOARD_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AUTOMATED_SWITCHBOARD_PEDIA</Tag>
+		<English>The electromechanical automatic telephone exchange, invented by Almon Strowger in 1888, gradually replaced manual switchboards in central telephone exchanges around the world. In 1919, the Bell System in Canada also adopted automatic switching as its future technology, after years of reliance on manual systems.[PARAGRAPH:2]Source: Wikipedia</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PERIODIC_TABLE</Tag>
+		<English>Periodic Table of Elements</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PERIODIC_TABLE_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PERIODIC_TABLE_PEDIA</Tag>
+		<English>The periodic table, also known as the periodic table of elements, is a tabular display of the chemical elements, which are arranged by atomic number, electron configuration, and recurring chemical properties. The structure of the table shows periodic trends. The seven rows of the table, called periods, generally have metals on the left and non-metals on the right. The columns, called groups, contain elements with similar chemical behaviours. Six groups have accepted names as well as assigned numbers: for example, group 17 elements are the halogens; and group 18 are the noble gases. Also displayed are four simple rectangular areas or blocks associated with the filling of different atomic orbitals.[PARAGRAPH:2] Wikipedia</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SOCIAL_CREDIT_SYSTEM</Tag>
+		<English>Social Credit System</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SOCIAL_CREDIT_SYSTEM_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SOCIAL_CREDIT_SYSTEM_PEDIA</Tag>
+		<English>The Social Credit System is a national reputation system being developed by the Chinese government. By 2020, it is intended to standardise the assessment of citizens' and businesses' economic and social reputation, or 'Social Credit'.[PARAGRAPH:2] Wikipedia</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MORSE_CODE</Tag>
+		<English>Morse Code</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MORSE_CODE_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MORSE_CODE_PEDIA</Tag>
+		<English>Morse code is a character encoding scheme used in telecommunication that encodes text characters as standardized sequences of two different signal durations called dots and dashes or dits and dahs. Morse code is named for Samuel F. B. Morse, an inventor of the telegraph.[PARAGRAPH:2] Wikipedia</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MAIL_ORDER_CATALOGUE</Tag>
