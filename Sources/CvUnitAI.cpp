@@ -14640,7 +14640,7 @@ bool CvUnitAI::AI_load(UnitAITypes eUnitAI, MissionAITypes eMissionAI, UnitAITyp
 			getGroup()->setTransportUnit(pBestUnit, &pOtherGroup); // XXX is this dangerous (not pushing a mission...) XXX air units?
 
 			// If part of large group loaded, then try to keep loading the rest
-			if( eUnitAI == UNITAI_ASSAULT_SEA && eMissionAI == MISSIONAI_LOAD_ASSAULT )
+			if( eUnitAI == UNITAI_ASSAULT_SEA && (eMissionAI == MISSIONAI_LOAD_ASSAULT || eMissionAI == MISSIONAI_LOAD_SETTLER))
 			{
 				if( pOtherGroup != NULL && pOtherGroup->getNumUnits() > 0 )
 				{
@@ -14654,8 +14654,10 @@ bool CvUnitAI::AI_load(UnitAITypes eUnitAI, MissionAITypes eMissionAI, UnitAITyp
 					}
 				}
 			}
-
-			return true;
+			if (isCargo())
+			{
+				return true;
+			}
 		}
 		else
 		{

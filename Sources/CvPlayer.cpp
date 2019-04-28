@@ -37300,6 +37300,10 @@ unsigned long long CvPlayer::getLeaderLevelupNextCultureTotal(int& iGreaterCultu
 			iPromoThreshold = 0;
 			iUnmodifiedMillions = 0;
 		}
+		else
+		{
+			iX = iMillions;
+		}
 		iY--;
 		iY = std::max(1, (int)iY);
 	}
@@ -37350,14 +37354,11 @@ bool CvPlayer::canLeaderPromote()
 	unsigned long long iCultureRequired = getLeaderLevelupNextCultureTotal(iGreaterCultureRequired);
 	//Here we then need to manipulate iPromoThreshold by Gamespeed and Mapsize modifiers
 	unsigned long long iCurrentNationalCulture = countTotalCulture();
-	if (iGreaterCultureRequired > 0)
+	if (iGreaterCulture > iGreaterCultureRequired)
 	{
-		if (iGreaterCulture > iGreaterCultureRequired)
-		{
-			return true;
-		}
+		return true;
 	}
-	else if (iCurrentNationalCulture >= iCultureRequired)
+	else if (iGreaterCultureRequired == 0 && (iCurrentNationalCulture >= iCultureRequired))
 	{
 		return true;
 	}

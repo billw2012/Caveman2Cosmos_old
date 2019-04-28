@@ -6076,7 +6076,7 @@ void CvSelectionGroup::setTransportUnit(CvUnit* pTransportUnit, CvSelectionGroup
 			
 			FAssertMsg(iCargoSpaceAvailable >= getNumUnits(), "cargo size too small");
 		}
-		else if (iCargoSpaceAvailable < pTransportUnit->cargoSpaceAvailable(pHeadUnit->getSpecialUnitType(), pHeadUnit->getDomainType()))
+		else if (iCargoSpaceAvailable < getNumUnitCargoVolumeTotal()/*pTransportUnit->cargoSpaceAvailable(pHeadUnit->getSpecialUnitType(), pHeadUnit->getDomainType())*/)
 		{
 			CvSelectionGroup* pSplitGroup = splitGroup(1, NULL, pOtherGroup);
 			if (pSplitGroup != NULL)
