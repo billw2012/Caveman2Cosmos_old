@@ -115,29 +115,32 @@
 				</PrereqNotBuildingClass>
 			</PrereqNotBuildingClasses>
 		</BuildingInfo>
+		<!-- Severe penalties if slavery is active -->
 		<BuildingInfo>
 			<Type>BUILDING_STEEL_MILL</Type>
 			<AndDependencyTypes>
 				<DependencyType>BUILDING_STEEL_MILL</DependencyType>
 			</AndDependencyTypes>
-			<PrereqNotBuildingClasses>
-				<PrereqNotBuildingClass>
-					<BuildingClassMustNotHave>BUILDINGCLASS_SLAVERY</BuildingClassMustNotHave>
-					<bPrereqNot>1</bPrereqNot>
-				</PrereqNotBuildingClass>
-			</PrereqNotBuildingClasses>
+			<GlobalBuildingExtraCommerces>
+				<BuildingExtraCommerce>
+					<BuildingClass>BUILDINGCLASS_WV_SLAVERY</BuildingClass>
+					<CommerceType>COMMERCE_GOLD</CommerceType>
+					<iExtraCommerce>-20</iExtraCommerce>
+				</BuildingExtraCommerce>
+			</GlobalBuildingExtraCommerces>
 		</BuildingInfo>
 		<BuildingInfo>
 			<Type>BUILDING_FACTORY</Type>
 			<AndDependencyTypes>
 				<DependencyType>BUILDING_FACTORY</DependencyType>
 			</AndDependencyTypes>
-			<PrereqNotBuildingClasses>
-				<PrereqNotBuildingClass>
-					<BuildingClassMustNotHave>BUILDINGCLASS_SLAVERY</BuildingClassMustNotHave>
-					<bPrereqNot>1</bPrereqNot>
-				</PrereqNotBuildingClass>
-			</PrereqNotBuildingClasses>
+			<GlobalBuildingExtraCommerces>
+				<BuildingExtraCommerce>
+					<BuildingClass>BUILDINGCLASS_WV_SLAVERY</BuildingClass>
+					<CommerceType>COMMERCE_GOLD</CommerceType>
+					<iExtraCommerce>-100</iExtraCommerce>
+				</BuildingExtraCommerce>
+			</GlobalBuildingExtraCommerces>
 		</BuildingInfo>
 	</BuildingInfos>
 </Civ4BuildingInfos>
