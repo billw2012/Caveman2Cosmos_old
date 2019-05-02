@@ -913,7 +913,7 @@
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Specialist effects -->
@@ -1815,7 +1815,7 @@
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>15</iCommerce>
+				<iCommerce>7</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<BonusCommerceModifiers>
@@ -3152,28 +3152,28 @@
 					<BonusType>BONUS_RABBIT</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_GUINEA_PIG</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_DOG</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_CAT</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -5003,7 +5003,7 @@
 					<BonusType>BONUS_ANCIENTTEMPLE</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -6644,7 +6644,7 @@
 					<BonusType>BONUS_MARS_ROCKS</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -7742,7 +7742,7 @@
 					<BonusType>BONUS_EGGS</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -16704,7 +16704,7 @@
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -18321,7 +18321,7 @@
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -23259,7 +23259,7 @@
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -23576,7 +23576,7 @@
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 				<iCommerce>10</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
@@ -27238,7 +27238,7 @@
 			<iHealth>-1</iHealth>
 			<CommerceModifiers>
 				<iCommerce>5</iCommerce>
-				<iCommerce>30</iCommerce>
+				<iCommerce>15</iCommerce>
 			</CommerceModifiers>
 			<!-- Specialist effects -->
 			<SpecialistCounts>
@@ -27635,7 +27635,7 @@
 			<iHappiness>1</iHappiness>
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>20</iCommerce>
+				<iCommerce>10</iCommerce>
 				<iCommerce>30</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
@@ -27725,7 +27725,7 @@
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -31289,14 +31289,14 @@
 					<BonusType>BONUS_METHANE</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_GEOTHERMAL_SEA_VENT</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -34083,7 +34083,7 @@
 			</YieldModifiers>
 			<CommerceModifiers>
 				<iCommerce>10</iCommerce>
-				<iCommerce>20</iCommerce>
+				<iCommerce>10</iCommerce>
 				<iCommerce>20</iCommerce>
 				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
@@ -35702,7 +35702,7 @@
 			</CommerceChanges>
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<TechCommerceChanges>
@@ -49639,7 +49639,7 @@
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -51099,7 +51099,7 @@
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -54155,7 +54155,7 @@
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>25</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Specialist effects -->
 			<SpecialistCounts>
@@ -55387,7 +55387,7 @@
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -56582,7 +56582,7 @@
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -73737,14 +73737,14 @@
 					<BonusType>BONUS_BIOPOLYMERS</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_ENZYMES</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -76800,14 +76800,14 @@
 					<BonusType>BONUS_STONE</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_COAL</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
-						<iCommerce>3</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
@@ -78241,7 +78241,7 @@
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>2</iCommerce>
-				<iCommerce>15</iCommerce>
+				<iCommerce>7</iCommerce>
 			</CommerceModifiers>
 			<!-- Other -->
 			<PropertyManipulators>
@@ -82794,7 +82794,7 @@
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>2</iCommerce>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 				<iCommerce>5</iCommerce>
 				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
@@ -83912,14 +83912,14 @@
 					<BonusType>BONUS_BIOPOLYMERS</BonusType>
 					<CommerceModifiers>
 						<iCommerce>1</iCommerce>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_ENZYMES</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -101348,7 +101348,7 @@
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -102997,7 +102997,7 @@
 			<iHealth>1</iHealth>
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -108031,7 +108031,7 @@
 					<BonusType>BONUS_EGGS</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -113399,7 +113399,7 @@
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>

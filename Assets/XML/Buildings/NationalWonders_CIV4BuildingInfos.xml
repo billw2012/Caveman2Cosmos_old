@@ -930,7 +930,7 @@
 			<!-- Local -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>25</iCommerce>
 			</CommerceModifiers>
 			<PropertyManipulators>
 				<PropertySource>
@@ -994,7 +994,7 @@
 			<iHealth>5</iHealth>
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>35</iCommerce>
+				<iCommerce>17</iCommerce>
 			</CommerceModifiers>
 			<iSpaceProductionModifier>15</iSpaceProductionModifier>
 			<!-- Units -->
@@ -3966,7 +3966,7 @@
 			<iHealth>-1</iHealth>
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<SpecialistCounts>
 				<SpecialistCount>
@@ -4365,7 +4365,7 @@
 			<!-- Global -->
 			<GlobalCommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 			</GlobalCommerceModifiers>
 			<FreeBuilding>BUILDINGCLASS_EFFECT_NATIONAL_ACADEMY_DATABASE</FreeBuilding>
 			<!-- Misc -->
@@ -5007,7 +5007,7 @@
 			</CommerceChanges>
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>25</iCommerce>
 			</CommerceModifiers>
 			<SpecialistCounts>
 				<SpecialistCount>
@@ -5835,7 +5835,7 @@
 			<!-- Local -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>15</iCommerce>
+				<iCommerce>7</iCommerce>
 			</CommerceModifiers>
 			<SpecialistCounts>
 				<SpecialistCount>
@@ -5971,7 +5971,7 @@
 			<!-- Global -->
 			<GlobalCommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>5</iCommerce>
+				<iCommerce>2</iCommerce>
 				<iCommerce>5</iCommerce>
 			</GlobalCommerceModifiers>
 			<!-- Misc -->
@@ -6563,7 +6563,7 @@
 			</CommerceChanges>
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>25</iCommerce>
 			</CommerceModifiers>
 			<iSpaceProductionModifier>50</iSpaceProductionModifier>
 			<SpecialistCounts>
@@ -6949,7 +6949,7 @@
 			<!-- Local -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>25</iCommerce>
 			</CommerceModifiers>
 			<SpecialistCounts>
 				<SpecialistCount>
