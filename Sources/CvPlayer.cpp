@@ -35951,14 +35951,11 @@ void CvPlayer::processTrait(TraitTypes eTrait, int iChange)
 		changeGoldenAgeCommerce(((CommerceTypes)iI), (GC.getTraitInfo(eTrait).getGoldenAgeCommerceChanges(iI) * iChange));
 	}	
 
-	if (GC.getTraitInfo(eTrait).getGreatPeopleUnitClass() != NO_UNITCLASS)
+	int iGPRateChange = GC.getTraitInfo(eTrait).getGreatPeopleRateChange();
+	if (iGPRateChange > 0)
 	{
 		UnitTypes eGreatPeopleUnit = ((UnitTypes)(GC.getCivilizationInfo(getCivilizationType()).getCivilizationUnits(GC.getTraitInfo(eTrait).getGreatPeopleUnitClass())));
-
-		if (eGreatPeopleUnit != NO_UNIT)
-		{
-			changeNationalGreatPeopleUnitRate(eGreatPeopleUnit, GC.getTraitInfo(eTrait).getGreatPeopleRateChange() * iChange);
-		}
+		changeNationalGreatPeopleUnitRate(eGreatPeopleUnit, GC.getTraitInfo(eTrait).getGreatPeopleRateChange() * iChange);
 	}
 
 	//Team Project (6)
