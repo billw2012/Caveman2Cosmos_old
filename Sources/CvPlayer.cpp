@@ -37329,13 +37329,16 @@ unsigned long long CvPlayer::getLeaderLevelupCultureToEarn(int& iGreaterCultureR
 	unsigned long long iCurrentNationalCulture = getCulture();
 	unsigned long long iTotal = iPromoThreshold;
 	int iGreaterCulture = getGreaterCulture();
-	if (iGreaterCultureReq > 0)
+	if (iGreaterCultureThreshold > 0)
 	{
 		iGreaterCultureReq = iGreaterCultureThreshold - iGreaterCulture - 1;
 		iTotal += 1000000;
 	}
 	iTotal -= iCurrentNationalCulture;
-
+	if (iGreaterCultureReq < 0)
+	{
+		iTotal = 0;
+	}
 	return iTotal;
 }
 
