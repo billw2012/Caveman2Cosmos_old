@@ -35185,8 +35185,7 @@ void CvPlayer::setCulture(int iNewValue)
 		int iChangeGC = iNewValue / iSwitchPoint;
 		if (iNewValue >= iSwitchPoint)
 		{
-			iGreaterCulture += iChangeGC;
-			changeGreaterCulture(iGreaterCulture);
+			changeGreaterCulture(iChangeGC);
 			iNewValue -= iSwitchPoint * iChangeGC;
 		}
 
@@ -37316,7 +37315,15 @@ unsigned long long CvPlayer::getLeaderLevelupNextCultureTotal(int& iGreaterCultu
 	}
 	else
 	{
-		iGreaterCultureReq = 0;
+		if (iPromoThreshold >= 1000000)
+		{
+			iGreaterCultureReq = (int)iPromoThreshold / 1000000;
+			iPromoThreshold = 0;
+		}
+		else
+		{
+			iGreaterCultureReq = 0;
+		}
 	}
 
 	return iPromoThreshold;
@@ -37335,10 +37342,12 @@ unsigned long long CvPlayer::getLeaderLevelupCultureToEarn(int& iGreaterCultureR
 		iTotal += 1000000;
 	}
 	iTotal -= iCurrentNationalCulture;
+
 	if (iGreaterCultureReq < 0)
 	{
 		iTotal = 0;
 	}
+
 	return iTotal;
 }
 
@@ -37350,18 +37359,15 @@ bool CvPlayer::canLeaderPromote()
 	}
 
 	int iGreaterCultureRequired = 0;
-	int iGreaterCulture = getGreaterCulture();
-	unsigned long long iCultureRequired = getLeaderLevelupNextCultureTotal(iGreaterCultureRequired);
+	unsigned long long iCultureRequired = getLeaderLevelupCultureToEarn(iGreaterCultureRequired);
 	//Here we then need to manipulate iPromoThreshold by Gamespeed and Mapsize modifiers
-	unsigned long long iCurrentNationalCulture = countTotalCulture();
-	if (iGreaterCulture > iGreaterCultureRequired)
+	//unsigned long long iCurrentNationalCulture = getCulture();
+	//int iGreaterCulture = getGreaterCulture();
+	if (iGreaterCultureRequired < 1 && iCultureRequired < 1)
 	{
 		return true;
 	}
-	else if (iGreaterCultureRequired == 0 && (iCurrentNationalCulture >= iCultureRequired))
-	{
-		return true;
-	}
+
 	return false;
 }
 
