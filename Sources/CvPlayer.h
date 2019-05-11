@@ -2390,8 +2390,8 @@ public:
 	void setLeaderHeadLevel(int iValue);
 	void changeLeaderHeadLevel(int iChange);
 
-	unsigned long long getLeaderLevelupNextCultureTotal(int& iGreaterCultureReq);
-	unsigned long long getLeaderLevelupCultureToEarn(int& iGreaterCultureReq);
+	int getLeaderLevelupNextCultureTotal(int& iGreaterCultureReq);
+	int getLeaderLevelupCultureToEarn(int& iGreaterCultureReq);
 
 	bool canLeaderPromote();
 	void doPromoteLeader();

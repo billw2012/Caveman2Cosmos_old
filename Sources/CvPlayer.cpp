@@ -35953,7 +35953,12 @@ void CvPlayer::processTrait(TraitTypes eTrait, int iChange)
 	int iGPRateChange = GC.getTraitInfo(eTrait).getGreatPeopleRateChange();
 	if (iGPRateChange > 0)
 	{
-		UnitTypes eGreatPeopleUnit = ((UnitTypes)(GC.getCivilizationInfo(getCivilizationType()).getCivilizationUnits(GC.getTraitInfo(eTrait).getGreatPeopleUnitClass())));
+		UnitTypes eGreatPeopleUnit = NO_UNIT;
+		if (GC.getTraitInfo(eTrait).getGreatPeopleUnitClass() != NO_UNITCLASS)
+		{
+			eGreatPeopleUnit = ((UnitTypes)(GC.getCivilizationInfo(getCivilizationType()).getCivilizationUnits(GC.getTraitInfo(eTrait).getGreatPeopleUnitClass())));
+		}
+
 		changeNationalGreatPeopleUnitRate(eGreatPeopleUnit, GC.getTraitInfo(eTrait).getGreatPeopleRateChange() * iChange);
 	}
 
@@ -37247,17 +37252,17 @@ void CvPlayer::changeLeaderHeadLevel(int iChange)
     setLeaderHeadLevel(getLeaderHeadLevel() + iChange);
 }
 
-unsigned long long CvPlayer::getLeaderLevelupNextCultureTotal(int& iGreaterCultureReq)
+int CvPlayer::getLeaderLevelupNextCultureTotal(int& iGreaterCultureReq)
 {
-	unsigned long long iPromoThreshold = 1000;
+	int iPromoThreshold = 1000;
 	int iLL = getLeaderHeadLevel();//ill=6
 	int iIteratorA = iLL + 1;
-	unsigned long long iX = 1000;
-	unsigned long long iY = 10;
-	unsigned long long iZ = 0;
-	unsigned long long iIteratorB = 0;
-	unsigned long long iUnmodifiedMillions = 0;
-	unsigned long long iMillions = 0;
+	int iX = 1000;
+	int iY = 10;
+	int iZ = 0;
+	int iIteratorB = 0;
+	int iUnmodifiedMillions = 0;
+	int iMillions = 0;
 	bool bMillionsTriggered = false; 
 	int iGameSpeedModifier = GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTraitGainPercent();
 
@@ -37274,7 +37279,7 @@ unsigned long long CvPlayer::getLeaderLevelupNextCultureTotal(int& iGreaterCultu
 			iPromoThreshold = iX + iZ;
 			iIteratorB = iPromoThreshold;
 			iIteratorB /= 1000000;
-			for (int y = 0; y < (int)iIteratorB; y++)
+			for (int y = 0; y < iIteratorB; y++)
 			{
 				iUnmodifiedMillions++;
 				iPromoThreshold -= 1000000;
@@ -37301,7 +37306,7 @@ unsigned long long CvPlayer::getLeaderLevelupNextCultureTotal(int& iGreaterCultu
 			iX = iMillions;
 		}
 		iY--;
-		iY = std::max(1, (int)iY);
+		iY = std::max(1, iY);
 	}
 
 	iPromoThreshold *= iGameSpeedModifier;
@@ -37311,13 +37316,13 @@ unsigned long long CvPlayer::getLeaderLevelupNextCultureTotal(int& iGreaterCultu
 	{
 		iMillions *= iGameSpeedModifier;
 		iMillions /= 100;
-		iGreaterCultureReq = std::max(1,(int)iMillions);
+		iGreaterCultureReq = std::max(1,iMillions);
 	}
 	else
 	{
 		if (iPromoThreshold >= 1000000)
 		{
-			iGreaterCultureReq = (int)iPromoThreshold / 1000000;
+			iGreaterCultureReq = iPromoThreshold / 1000000;
 			iPromoThreshold = 0;
 		}
 		else
@@ -37329,17 +37334,21 @@ unsigned long long CvPlayer::getLeaderLevelupNextCultureTotal(int& iGreaterCultu
 	return iPromoThreshold;
 }
 
-unsigned long long CvPlayer::getLeaderLevelupCultureToEarn(int& iGreaterCultureReq)
+int CvPlayer::getLeaderLevelupCultureToEarn(int& iGreaterCultureReq)
 {
 	int iGreaterCultureThreshold = 0;
-	unsigned long long iPromoThreshold = getLeaderLevelupNextCultureTotal(iGreaterCultureThreshold);
-	unsigned long long iCurrentNationalCulture = getCulture();
-	unsigned long long iTotal = iPromoThreshold;
+	int iPromoThreshold = getLeaderLevelupNextCultureTotal(iGreaterCultureThreshold);
+	int iCurrentNationalCulture = getCulture();
+	int iTotal = iPromoThreshold;
 	int iGreaterCulture = getGreaterCulture();
 	if (iGreaterCultureThreshold > 0)
 	{
 		iGreaterCultureReq = iGreaterCultureThreshold - iGreaterCulture - 1;
 		iTotal += 1000000;
+	}
+	else
+	{
+		iGreaterCultureReq = 0;
 	}
 	iTotal -= iCurrentNationalCulture;
 
@@ -37347,7 +37356,10 @@ unsigned long long CvPlayer::getLeaderLevelupCultureToEarn(int& iGreaterCultureR
 	{
 		iTotal = 0;
 	}
-
+	if (iTotal < 0)
+	{
+		iTotal = 0;
+	}
 	return iTotal;
 }
 
@@ -37359,7 +37371,7 @@ bool CvPlayer::canLeaderPromote()
 	}
 
 	int iGreaterCultureRequired = 0;
-	unsigned long long iCultureRequired = getLeaderLevelupCultureToEarn(iGreaterCultureRequired);
+	int iCultureRequired = getLeaderLevelupCultureToEarn(iGreaterCultureRequired);
 	//Here we then need to manipulate iPromoThreshold by Gamespeed and Mapsize modifiers
 	//unsigned long long iCurrentNationalCulture = getCulture();
 	//int iGreaterCulture = getGreaterCulture();
@@ -37656,14 +37668,14 @@ void CvPlayer::changeInquisitionCount(int iChange)
 
 int CvPlayer::getNationalGreatPeopleUnitRate(UnitTypes eIndex) const
 {
-	FAssertMsg(eIndex >= 0, "eIndex expected to be >= 0");
+	FAssertMsg(eIndex >= -1, "eIndex expected to be >= -1");
 	FAssertMsg(eIndex < GC.getNumUnitInfos(), "eIndex expected to be < GC.getNumUnitInfos()");
 	return m_paiNationalGreatPeopleUnitRate[eIndex];
 }	
 
 void CvPlayer::setNationalGreatPeopleUnitRate(UnitTypes eIndex, int iValue)
 {
-	FAssertMsg(eIndex >= 0, "eIndex expected to be >= 0");
+	FAssertMsg(eIndex >= -1, "eIndex expected to be >= -1");
 	FAssertMsg(eIndex < GC.getNumUnitInfos(), "eIndex expected to be < GC.getNumUnitInfos()");
 	if (GC.getGameINLINE().isOption(GAMEOPTION_NO_ESPIONAGE) && GC.getUnitInfo(eIndex).getEspionagePoints() > 0)
 	{

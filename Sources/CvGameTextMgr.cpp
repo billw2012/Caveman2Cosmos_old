@@ -36805,12 +36805,12 @@ void CvGameTextMgr::parsePlayerTraits(CvWStringBuffer &szBuffer, PlayerTypes ePl
 	if (GC.getGameINLINE().isOption(GAMEOPTION_LEADERHEAD_LEVELUPS))
 	{
 		int iLeaderLevel = GET_PLAYER(ePlayer).getLeaderHeadLevel();
-		unsigned long long iNationalCulture = GET_PLAYER(ePlayer).getCulture();
+		int iNationalCulture = GET_PLAYER(ePlayer).getCulture();
 		int iGreaterCulture = GET_PLAYER(ePlayer).getGreaterCulture();
 		int iNextGreaterCulture = 0;
-		unsigned long long iNextLevelup = GET_PLAYER(ePlayer).getLeaderLevelupNextCultureTotal(iNextGreaterCulture);
+		int iNextLevelup = GET_PLAYER(ePlayer).getLeaderLevelupNextCultureTotal(iNextGreaterCulture);
 		int iNextGreaterCultureRemaining = 0;
-		unsigned long long iRemaining = GET_PLAYER(ePlayer).getLeaderLevelupCultureToEarn(iNextGreaterCultureRemaining);
+		int iRemaining = GET_PLAYER(ePlayer).getLeaderLevelupCultureToEarn(iNextGreaterCultureRemaining);
 		szBuffer.append(NEWLINE);
 		szBuffer.append(gDLL->getText("TXT_KEY_LEADER_LEVEL", iLeaderLevel));
 		szBuffer.append(NEWLINE);
