@@ -21684,8 +21684,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<iCitiesPrereq>20</iCitiesPrereq>
-			<iMinLatitude>30</iMinLatitude>
+			<iMinLatitude>-30</iMinLatitude>
 			<iMaxLatitude>60</iMaxLatitude>
 			<iAsset>4</iAsset>
 			<iPower>6</iPower>
