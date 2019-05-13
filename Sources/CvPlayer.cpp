@@ -6813,6 +6813,19 @@ unsigned long long CvPlayer::countTotalCulture() const
 	return iCount/100;
 }
 
+void CvPlayer::doCountTotalCulture()
+{
+	m_iCulture = 0;
+	m_iGreaterCulture = 0;
+	CvCity* pLoopCity;
+	int iLoop;
+	for (pLoopCity = firstCity(&iLoop); pLoopCity != NULL; pLoopCity = nextCity(&iLoop))
+	{
+		changeCulture(pLoopCity->getCultureTimes100(getID()));
+	}
+}
+
+
 
 int CvPlayer::countOwnedBonuses(BonusTypes eBonus) const
 {
@@ -26087,7 +26100,10 @@ void CvPlayer::read(FDataStreamBase* pStream)
 		WRAPPER_READ(wrapper, "CvPlayer", &m_iExtraFreedomFighters);
 		WRAPPER_READ(wrapper, "CvPlayer", &m_iGreaterGold);
 		WRAPPER_READ(wrapper, "CvPlayer", &m_iGreaterCulture);
-		
+		if (m_iGreaterCulture > 1000000)
+		{
+			doCountTotalCulture();
+		}
 		//Example of how to skip element
 		//WRAPPER_SKIP_ELEMENT(wrapper, "CvPlayer", m_iPopulationgrowthratepercentage, SAVE_VALUE_ANY);
 	}

@@ -311,7 +311,8 @@ public:
 	int countNumCoastalCitiesByArea(CvArea* pArea) const; // Exposed to Python
 	int countNumCitiesWithOrbitalInfrastructure() const;
 	inline void noteOrbitalInfrastructureCountDirty() { m_orbitalInfrastructureCountDirty = true; }
-	unsigned long long countTotalCulture() const;																																				// Exposed to Python
+	unsigned long long countTotalCulture() const;
+	void doCountTotalCulture();																																																	// Exposed to Python
 	int countOwnedBonuses(BonusTypes eBonus) const;																												// Exposed to Python
 	int countUnimprovedBonuses(CvArea* pArea, CvPlot* pFromPlot = NULL) const;														// Exposed to Python
 	int countCityFeatures(FeatureTypes eFeature) const;																										// Exposed to Python
