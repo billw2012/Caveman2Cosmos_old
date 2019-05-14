@@ -6827,6 +6827,8 @@
 					<iExperience>8</iExperience>
 				</UnitCombatFreeExperience>
 			</UnitCombatFreeExperiences>
+			<PropertySpawnUnitClass>UNITCLASS_STREET_GANG</PropertySpawnUnitClass>
+			<PropertySpawnProperty>PROPERTY_CRIME</PropertySpawnProperty>
 			<!-- Special properties -->
 			<bNukeImmune>1</bNukeImmune>
 			<iConquestProb>100</iConquestProb>
@@ -6956,8 +6958,6 @@
 					<iExperience>1</iExperience>
 				</UnitCombatFreeExperience>
 			</UnitCombatFreeExperiences>
-			<PropertySpawnUnitClass>UNITCLASS_STREET_GANG</PropertySpawnUnitClass>
-			<PropertySpawnProperty>PROPERTY_CRIME</PropertySpawnProperty>
 			<!-- Special Yield and Commerce modifiers -->
 			<BonusCommerceModifiers>
 				<BonusCommerceModifier>
@@ -7003,7 +7003,7 @@
 					<iExperience>2</iExperience>
 				</UnitCombatFreeExperience>
 			</UnitCombatFreeExperiences>
-			<PropertySpawnUnitClass>UNITCLASS_STREET_GANG</PropertySpawnUnitClass>
+			<PropertySpawnUnitClass>UNITCLASS_GUNFIGHTER</PropertySpawnUnitClass>
 			<PropertySpawnProperty>PROPERTY_CRIME</PropertySpawnProperty>
 			<!-- Special properties -->
 			<bNukeImmune>1</bNukeImmune>

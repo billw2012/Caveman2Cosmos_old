@@ -47948,7 +47948,7 @@
 					<PropertyType>PROPERTY_CRIME</PropertyType>
 					<GameObjectType>GAMEOBJECT_PLOT</GameObjectType>
 					<RelationType>RELATION_SAME_PLOT</RelationType>
-					<iAmountPerTurn>25</iAmountPerTurn>
+					<iAmountPerTurn>12</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
 		</UnitInfo>
@@ -49987,7 +49987,7 @@
 					<PropertyType>PROPERTY_CRIME</PropertyType>
 					<GameObjectType>GAMEOBJECT_PLOT</GameObjectType>
 					<RelationType>RELATION_SAME_PLOT</RelationType>
-					<iAmountPerTurn>20</iAmountPerTurn>
+					<iAmountPerTurn>10</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
 		</UnitInfo>
@@ -50155,14 +50155,14 @@
 					<PropertyType>PROPERTY_CRIME</PropertyType>
 					<GameObjectType>GAMEOBJECT_CITY</GameObjectType>
 					<RelationType>RELATION_SAME_PLOT</RelationType>
-					<iAmountPerTurn>17</iAmountPerTurn>
+					<iAmountPerTurn>15</iAmountPerTurn>
 				</PropertySource>
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
 					<PropertyType>PROPERTY_CRIME</PropertyType>
 					<GameObjectType>GAMEOBJECT_PLOT</GameObjectType>
 					<RelationType>RELATION_SAME_PLOT</RelationType>
-					<iAmountPerTurn>35</iAmountPerTurn>
+					<iAmountPerTurn>25</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
 		</UnitInfo>
@@ -50327,7 +50327,7 @@
 					<PropertyType>PROPERTY_CRIME</PropertyType>
 					<GameObjectType>GAMEOBJECT_PLOT</GameObjectType>
 					<RelationType>RELATION_SAME_PLOT</RelationType>
-					<iAmountPerTurn>20</iAmountPerTurn>
+					<iAmountPerTurn>15</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
 		</UnitInfo>
@@ -50521,14 +50521,14 @@
 					<PropertyType>PROPERTY_CRIME</PropertyType>
 					<GameObjectType>GAMEOBJECT_CITY</GameObjectType>
 					<RelationType>RELATION_SAME_PLOT</RelationType>
-					<iAmountPerTurn>15</iAmountPerTurn>
+					<iAmountPerTurn>12</iAmountPerTurn>
 				</PropertySource>
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
 					<PropertyType>PROPERTY_CRIME</PropertyType>
 					<GameObjectType>GAMEOBJECT_PLOT</GameObjectType>
 					<RelationType>RELATION_SAME_PLOT</RelationType>
-					<iAmountPerTurn>30</iAmountPerTurn>
+					<iAmountPerTurn>25</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
 		</UnitInfo>
@@ -50735,7 +50735,7 @@
 					<PropertyType>PROPERTY_CRIME</PropertyType>
 					<GameObjectType>GAMEOBJECT_CITY</GameObjectType>
 					<RelationType>RELATION_SAME_PLOT</RelationType>
-					<iAmountPerTurn>35</iAmountPerTurn>
+					<iAmountPerTurn>17</iAmountPerTurn>
 				</PropertySource>
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
