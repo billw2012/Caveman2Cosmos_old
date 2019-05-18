@@ -22752,7 +22752,7 @@ As the interrogation progresses, a handle and ratchet mechanism attached to the 
 		<Tag>TXT_KEY_BUILDING_REQUIRES_COAST</Tag>
 		<English>[COLOR_WARNING_TEXT]Requires Coast[COLOR_REVERT]</English>
 		<French>[COLOR_WARNING_TEXT]Requiert une zone côtière[COLOR_REVERT]</French>
-		<German>[COLOR_WARNING_TEXT]Benötigt Küstenzugang[COLOR_REVERT]</German>
+		<German>[ICON_BULLET][COLOR_WARNING_TEXT]benötigt Küstenzugang[COLOR_REVERT]</German>
 		<Italian>[COLOR_WARNING_TEXT]Richiede costa[COLOR_REVERT]</Italian>
 		<Spanish>[COLOR_WARNING_TEXT]Requiere Costa[COLOR_REVERT]</Spanish>
 		<Polish>[COLOR_WARNING_TEXT]Wymaga dostępu do wybrzeża[COLOR_REVERT]</Polish>

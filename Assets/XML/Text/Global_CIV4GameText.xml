@@ -19420,10 +19420,12 @@
 	<TEXT>
 		<Tag>TXT_KEY_REQUIRES_VICINITY_BONUS</Tag>
 		<English>[COLOR_WARNING_TEXT]Requires an Improved and Connected or Manufactured %s1_Text in City Vicinity[COLOR_REVERT]</English>
+		<German>[ICON_BULLET][COLOR_WARNING_TEXT]erforderlich: %s1_Text (hergestellt oder abgebaut im Stadtradius)[COLOR_REVERT]</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REQUIRES_RAW_VICINITY_BONUS</Tag>
 		<English>[COLOR_WARNING_TEXT]Requires %s1_Text in City Vicinity, either Manufactured or on a Plot (No need for Improving or Connecting)[COLOR_REVERT]</English>
+		<German>[ICON_BULLET][COLOR_WARNING_TEXT]erforderlich: %s1_Text (hergestellt oder vorhanden im Stadtradius)[COLOR_REVERT]</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_ROUTE_FLAT_MOVEMENT_COST</Tag>

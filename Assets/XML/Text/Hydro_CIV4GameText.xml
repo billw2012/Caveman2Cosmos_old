@@ -107,7 +107,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_BERRY_BUSHES_PEDIA</Tag>
 		<English>The botanical definition of a berry is a fleshy fruit produced from a single ovary.</English>
-		<German>Schon die frühen Menschen liebten es süße und saftige Beeren zu naschen. Beerensträucher in einer Siedlung oder in deren unmittelbarer Nähe stellten eine Bereicherung für den Speiseplan der Gemeinschaft dar. Beerensammeln war eine relativ leichte und ungefährliche Arbeit und ist auch heute noch eine beliebte Freizeitbeschäftigung.</German>
+		<German>Schon die frühen Menschen liebten es, süße und saftige Beeren zu naschen. Beerensträucher in einer Siedlung oder in deren unmittelbarer Nähe stellten eine Bereicherung für den Speiseplan der Gemeinschaft dar. Beerensammeln war eine relativ leichte und ungefährliche Arbeit und ist auch heute noch eine beliebte Freizeitbeschäftigung.</German>
 		<Italian>La definzione botanica di bacca è "frutto carnoso prodotto da un singolo uovo".</Italian>
 		<Polish>Jagoda (lac. bacca) - owoc o miesistej, niepekajacej owocni, zbudowanej z zewnetrznego egzokarpu oraz zmiesnialego mezokarpu, wypelniajacego cale wnetrze owocu. Cecha charakterystyczna jagody jest brak endokarpu. Bezposrednio w mezokarpie znajduja sie liczne (rzadko jedno) nasiona. Jagoda moze skladac sie glównie z lozyska, co ma miejsce u pomidora. Jednonasienna jagoda jest daktyl uwazany przez innych za pestkowca.</Polish>
 	</TEXT>
@@ -1442,7 +1442,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_WILD_MUSHROOMS_PEDIA</Tag>
 		<English>Mushroom hunting, mushrooming, mushroom picking, and similar terms describe the activity of gathering mushrooms in the wild, typically for eating. This is popular in most of Europe, including the Nordic, Baltic, and Slavic countries and the Mediterranean Basin, as well as in Australia, Japan, Korea, Canada, and the northwestern and Appalachian United States.</English>
-		<German>Das Sammeln von Pilzen ist eine beliebte Freizeitbeschäftigung in nahezu allen Teilen der Welt. Pilzsucher gehen auf die Suche nach essbaren Wildpilzen, normalerweise um diese zu verzehren oder zu verkaufen. Sie müssen dabei allerdings größte Sorgfalt walten lassen, um nicht durch versehentlich geerntete Giftpilze eine Pilzvergiftung zu riskieren. Da es teils ähnlich aussehende Speise- und Giftpilze gibt und manche Pilze erst nach entsprechender Zubereitung genießbar werden, sind botanische Kenntnisse dringend erforderlich und jeder Sammler sollte nur die Pilze verwenden, die er zweifelsfrei identifizieren kann.</German>	
+		<German>Das Sammeln von Pilzen ist eine beliebte Freizeitbeschäftigung in nahezu allen Teilen der Welt. Pilzsucher gehen auf die Suche nach essbaren Wildpilzen, normalerweise um diese zu verzehren oder zu verkaufen. Sie müssen dabei allerdings größte Sorgfalt walten lassen, um nicht durch versehentlich geerntete Giftpilze eine Pilzvergiftung zu riskieren. Da es teils ähnlich aussehende Speise- und Giftpilze gibt und manche Pilze erst nach entsprechender Zubereitung genießbar werden, sind botanische Kenntnisse zwingend erforderlich und jeder Sammler sollte nur die Pilze verwenden, die er zweifelsfrei identifizieren kann.</German>	
 		<Italian>I funghi selvatici vengono generalmente raccolti in aree non urbanizzate, solitamente per essere mangiati. Quest'attività è popolare in gran parte dell'Europa, in particolare nei paesi nordici, baltici, slavi e nel bacino mediterraneo; inoltre, l'attività è molto diffusa anche in Australia, Giappone, Corea, Canada e negli Stati Uniti nordoccidentali.</Italian>
 		<Polish>Grzyby są głęboko zakorzenione w kulturze (m.in. jadalne lub halucynogenne) i zajmują ważne miejsce w rozwoju cywilizacji ze względu na ich kluczowe znaczenie w wytwarzaniu chleba i wina. Wiele gatunków grzybów jest powszechnie wykorzystywanych w produkcji żywności (alkohole, pieczywo, sery). Niektóre, takie jak pędzlaki (Penicillium) i kropidlaki (Aspergillus), są przyczyną jej rozkładu, prowadząc do skażenia jej szkodliwymi dla ludzitoksynami. Grzyby z tych samych rodzajów są jednak wykorzystywane do produkcji leków (głownie antybiotyków) i związków organicznych (np. kwasu cytrynowego) oraz enzymów na skalę przemysłową.</Polish>
 	</TEXT>
@@ -13273,6 +13273,7 @@
 		<Tag>TXT_KEY_BUILDING_NEANDERTHAL_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Neanderthal) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Néanderthal) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Neanderthal) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Neanderthal) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13331,6 +13332,7 @@
 		<Tag>TXT_KEY_BUILDING_AMERICAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (American) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Statunitense) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (American) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13358,6 +13360,7 @@
 		<Tag>TXT_KEY_BUILDING_ARABIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Arabian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Araba) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Arabian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13385,6 +13388,7 @@
 		<Tag>TXT_KEY_BUILDING_ASSYRIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Assyrian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Assira) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Assyrian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13412,6 +13416,7 @@
 		<Tag>TXT_KEY_BUILDING_AZTEC_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Aztec) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Azteca) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Aztec) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13439,6 +13444,7 @@
 		<Tag>TXT_KEY_BUILDING_BABYLONIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Babylonian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Babilonese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Babylonian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13466,6 +13472,7 @@
 		<Tag>TXT_KEY_BUILDING_BYZANTINE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Byzantine) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Bizantina) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Byzantine) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13493,6 +13500,7 @@
 		<Tag>TXT_KEY_BUILDING_CARTHAGINIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Carthaginian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Cartaginese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Carthaginian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13520,6 +13528,7 @@
 		<Tag>TXT_KEY_BUILDING_CELTIC_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Celtic) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Celtica) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Celtic) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13547,6 +13556,7 @@
 		<Tag>TXT_KEY_BUILDING_CHINESE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Chinese) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Cinese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Chinese) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13574,6 +13584,7 @@
 		<Tag>TXT_KEY_BUILDING_DUTCH_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Dutch) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Olandese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Dutch) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13643,6 +13654,7 @@
 		<Tag>TXT_KEY_BUILDING_EGYPTIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Egyptian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Egiziana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Egyptian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13670,6 +13682,7 @@
 		<Tag>TXT_KEY_BUILDING_ENGLISH_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (English) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Inglese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (English) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13697,6 +13710,7 @@
 		<Tag>TXT_KEY_BUILDING_ETHIOPIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Ethiopian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Etiope) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Ethiopian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13724,6 +13738,7 @@
 		<Tag>TXT_KEY_BUILDING_FRENCH_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (French) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Francese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (French) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13751,6 +13766,7 @@
 		<Tag>TXT_KEY_BUILDING_GERMAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (German) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Tedesca) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (German) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13778,6 +13794,7 @@
 		<Tag>TXT_KEY_BUILDING_GREEK_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Greek) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Greca) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Greek) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13805,6 +13822,7 @@
 		<Tag>TXT_KEY_BUILDING_HITTITE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Hittite) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Ittita) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Hittite) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13834,6 +13852,7 @@
 		<Tag>TXT_KEY_BUILDING_HOLYROMAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Holy Roman) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Sacro Romano Impero) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Holy Roman) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13861,6 +13880,7 @@
 		<Tag>TXT_KEY_BUILDING_INCAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Incan) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Incaica) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Incan) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13889,6 +13909,7 @@
 		<Tag>TXT_KEY_BUILDING_INDIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Indian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Indiana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Indian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13919,6 +13940,7 @@
 		<Tag>TXT_KEY_BUILDING_IROQUOIS_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Iroquois) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Irochese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Iroquois) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13946,6 +13968,7 @@
 		<Tag>TXT_KEY_BUILDING_JAPANESE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Japanese) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Giapponese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Japanese) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -13973,6 +13996,7 @@
 		<Tag>TXT_KEY_BUILDING_KHMER_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Khmer) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Khmer) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Khmer) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14001,6 +14025,7 @@
 		<Tag>TXT_KEY_BUILDING_KOREAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Korean) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Coreana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Korean) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14029,6 +14054,7 @@
 		<Tag>TXT_KEY_BUILDING_MALINESE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Malinese) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Malinese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Malinese) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14056,6 +14082,7 @@
 		<Tag>TXT_KEY_BUILDING_MAYAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Mayan) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Maya) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Mayan) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14085,6 +14112,7 @@
 		<Tag>TXT_KEY_BUILDING_MONGOLIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Mongolian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Mongolica) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Spanish>Build Culture (Mongolian)to gain access to unique buildings and units.</Spanish>
 		<Polish>Zbuduj Culture (Mongolian) to gain access to unique buildings and units.</Polish>
@@ -14113,6 +14141,7 @@
 		<Tag>TXT_KEY_BUILDING_OTTOMAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Ottoman) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Ottomana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Ottoman) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14141,6 +14170,7 @@
 		<Tag>TXT_KEY_BUILDING_PERSIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Persian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Persiana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Persian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14169,6 +14199,7 @@
 		<Tag>TXT_KEY_BUILDING_PORTUGUESE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Portuguese) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Portoghese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Portuguese) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14196,6 +14227,7 @@
 		<Tag>TXT_KEY_BUILDING_ROMAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Roman) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Romana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Roman) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14223,6 +14255,7 @@
 		<Tag>TXT_KEY_BUILDING_RUSSIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Russian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Russa) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Russian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14250,6 +14283,7 @@
 		<Tag>TXT_KEY_BUILDING_SIAMESE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Siamese) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Siamese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Siamese) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14277,6 +14311,7 @@
 		<Tag>TXT_KEY_BUILDING_SPANISH_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Spanish) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Spagnola) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Spanish) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14304,6 +14339,7 @@
 		<Tag>TXT_KEY_BUILDING_SUMERIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Sumerian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Sumera) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Sumerian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14331,6 +14367,7 @@
 		<Tag>TXT_KEY_BUILDING_VIKING_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Viking) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Vichinga) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Viking) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14358,6 +14395,7 @@
 		<Tag>TXT_KEY_BUILDING_ZULU_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Zulu) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Zulù) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Zulu) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14385,6 +14423,7 @@
 		<Tag>TXT_KEY_BUILDING_SIOUX_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Sioux) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Sioux) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Sioux) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14413,6 +14452,7 @@
 		<Tag>TXT_KEY_BUILDING_AUSTRALIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Australian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Australiana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Australian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14441,6 +14481,7 @@
 		<Tag>TXT_KEY_BUILDING_POLYNESIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Polynesian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Polinesiana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Polynesian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14468,6 +14509,7 @@
 		<Tag>TXT_KEY_BUILDING_ABORIGINE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Aborigine) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Aborigena) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Aborigine) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14513,6 +14555,7 @@
 		<Tag>TXT_KEY_BUILDING_CHEROKEE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Cherokee) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Cherokee) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Czirokezi (nazwa własna Tsalagi, ang. Cherokee) - plemię Indian Ameryki Północnej pierwotnie wywodzące się od Irokezów i zamieszkujące podgórskie, zachodnie obszary Karoliny Południowej i Północnej, północnąGeorgię i wschodnie Tennessee. Później większość jego członków zostało przymusowo przesiedlona na tereny płaskowyżu Ozark. Byli jednym z plemion wliczanych w skład grupy Pięciu Cywilizowanych Plemion. Posługują się językiem czirokeskim.</Polish>
 	</TEXT>
@@ -14554,6 +14597,7 @@
 		<Tag>TXT_KEY_BUILDING_APACHE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Apache) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Apache) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Apache) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14581,6 +14625,7 @@
 		<Tag>TXT_KEY_BUILDING_MEXICAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Mexican) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Messicana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Mexican) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14622,6 +14667,7 @@
 		<Tag>TXT_KEY_BUILDING_OLMEC_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Olmec) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Olmec) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Olmec) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14649,6 +14695,7 @@
 		<Tag>TXT_KEY_BUILDING_INDONESIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Indonesian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Indonesiana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Indonesian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14676,6 +14723,7 @@
 		<Tag>TXT_KEY_BUILDING_BRAZILIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Brazilian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Brasiliana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Brazilian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14703,6 +14751,7 @@
 		<Tag>TXT_KEY_BUILDING_CANADIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Canadian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Canadese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Canadian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14730,6 +14779,7 @@
 		<Tag>TXT_KEY_BUILDING_ISRAELI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Israeli) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Israeliana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Israeli) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14757,6 +14807,7 @@
 		<Tag>TXT_KEY_BUILDING_MAORI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Maori) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Maori) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Maori) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14784,6 +14835,7 @@
 		<Tag>TXT_KEY_BUILDING_SWISS_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Swiss) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Svizzera) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Swiss) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14812,6 +14864,7 @@
 		<Tag>TXT_KEY_BUILDING_TIBETAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Tibetan) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Tibetana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Tibetan) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14839,6 +14892,7 @@
 		<Tag>TXT_KEY_BUILDING_CARIB_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Carib) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Caraibica) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Carib) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14867,6 +14921,7 @@
 		<Tag>TXT_KEY_BUILDING_CHEYENNE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Cheyenne) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Cheyenne) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Cheyenne) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14895,6 +14950,7 @@
 		<Tag>TXT_KEY_BUILDING_COMANCHE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Comanche) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Comanche) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Comanche) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14923,6 +14979,7 @@
 		<Tag>TXT_KEY_BUILDING_CREE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Cree) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Cree) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Cree) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14951,6 +15008,7 @@
 		<Tag>TXT_KEY_BUILDING_HURON_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Huron) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Uroni) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Huron) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -14979,6 +15037,7 @@
 		<Tag>TXT_KEY_BUILDING_INUIT_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Inuit) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Inuit) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Inuit) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15007,6 +15066,7 @@
 		<Tag>TXT_KEY_BUILDING_KLAMATH_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Klamath) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Klamath) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Klamath) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15035,6 +15095,7 @@
 		<Tag>TXT_KEY_BUILDING_MAPUCHE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Mapuche) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Mapuche) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Mapuche) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15063,6 +15124,7 @@
 		<Tag>TXT_KEY_BUILDING_NAVAJO_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Navajo) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Navajo) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Navajo) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15091,6 +15153,7 @@
 		<Tag>TXT_KEY_BUILDING_NOOTKA_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Nootka) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Nootka) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Nootka) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15119,6 +15182,7 @@
 		<Tag>TXT_KEY_BUILDING_SEMINOLE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Seminole) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Seminole) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Seminole) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15147,6 +15211,7 @@
 		<Tag>TXT_KEY_BUILDING_TOLTEC_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Toltec) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Tolteca) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Toltec) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15175,6 +15240,7 @@
 		<Tag>TXT_KEY_BUILDING_TUPI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Tupi) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Tupi) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Tupi) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15203,6 +15269,7 @@
 		<Tag>TXT_KEY_BUILDING_ZAPOTEC_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Zapotec) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Zapotec) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Zapotec) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15231,6 +15298,7 @@
 		<Tag>TXT_KEY_BUILDING_ARMENIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Armenian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Armena) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Armenian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15259,6 +15327,7 @@
 		<Tag>TXT_KEY_BUILDING_AUSTRIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Austrian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Austriaca) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Austrian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15287,6 +15356,7 @@
 		<Tag>TXT_KEY_BUILDING_BERBER_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Berber) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Berbera) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Berber) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15315,6 +15385,7 @@
 		<Tag>TXT_KEY_BUILDING_CEYLONESE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Ceylonese) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Ceylonese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Ceylonese) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15343,6 +15414,7 @@
 		<Tag>TXT_KEY_BUILDING_CHOLA_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Chola) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Chola) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Chola) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15370,6 +15442,7 @@
 		<Tag>TXT_KEY_BUILDING_GOTH_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Goth) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Gotica) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Goth) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15398,6 +15471,7 @@
 		<Tag>TXT_KEY_BUILDING_HUN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Hun) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Unna) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Hun) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15426,6 +15500,7 @@
 		<Tag>TXT_KEY_BUILDING_HUNGARIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Hungarian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Ungherese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Hungarian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15457,6 +15532,7 @@
 		<Tag>TXT_KEY_BUILDING_JIVARO_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Jivaro) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Jivaro) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Jivaro) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15485,6 +15561,7 @@
 		<Tag>TXT_KEY_BUILDING_MASAI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Masai) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Masai) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Masai) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15513,6 +15590,7 @@
 		<Tag>TXT_KEY_BUILDING_MINOAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Minoan) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Minoica) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Minoan) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15541,6 +15619,7 @@
 		<Tag>TXT_KEY_BUILDING_MOROCCAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Moroccan) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Marocchina) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Moroccan) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15569,6 +15648,7 @@
 		<Tag>TXT_KEY_BUILDING_NUBIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Nubian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Nubiana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Nubian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15597,6 +15677,7 @@
 		<Tag>TXT_KEY_BUILDING_PHOENICAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Phoenician) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Fenicia) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Phoenician) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15624,6 +15705,7 @@
 		<Tag>TXT_KEY_BUILDING_POLISH_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Polish) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Polacca) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Polish) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15651,6 +15733,7 @@
 		<Tag>TXT_KEY_BUILDING_SWAHILI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Swahili) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Swahili) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Swahili) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15678,6 +15761,7 @@
 		<Tag>TXT_KEY_BUILDING_TURKMEN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Turkmen) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Turkmena) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Turkmen) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15705,6 +15789,7 @@
 		<Tag>TXT_KEY_BUILDING_UIGHUR_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Uighur) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Uighura) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Uighur) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15732,6 +15817,7 @@
 		<Tag>TXT_KEY_BUILDING_VIETNAMESE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Vietnamese) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Vietnamita) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Vietnamese) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15759,6 +15845,7 @@
 		<Tag>TXT_KEY_BUILDING_VENEZUELAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Venezuelan) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Venezuelana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Venezuelan) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15786,6 +15873,7 @@
 		<Tag>TXT_KEY_BUILDING_AINU_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Ainu) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Ainu) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Ainu) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15802,6 +15890,11 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
+		<German>
+			<Text>Kultur Aka:Kultur Aka:Kultur Aka:Kultur Aka</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
 		<Italian>
 			<Text>Cultura (Aka)</Text>
 			<Gender>Female</Gender>
@@ -15813,12 +15906,14 @@
 		<Tag>TXT_KEY_BUILDING_AKA_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Aka) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Aka) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Aka) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_AKA_EMBASSY_PEDIA</Tag>
 		<English>The Aka are a nomadic Mbenga pygmy people who live by hunting in central Africa.</English>
+		<German>Bei den [COLOR_HIGHLIGHT_TEXT]Aka[COLOR_REVERT] (auch Bayaka, BiAka oder Babenzele genannt) handelt es sich um ein dunkelhäutiges, kleinwüchsiges, nomadisches Volk, das zu den Mbenga-Pygmäen gehört. Die Aka sind im nördlichen Kongo und der südwestlichen Zentralafrikanischen Republik heimisch. Im Gegensatz zu den Mbuti-Stämmen im Ostkongo verfügen sie über eine eigene Sprache. Die Aka leben traditionell als Jäger und Sammler in den Wäldern. Am Ende des 19. Jahrhundert waren sie als die besten Elefantenjäger für die Belieferung der Kolonialherren mit Elfenbein zuständig. Wegen der Konkurrenz durch Wilderer und ständigen Lebensraumverlust sind sie heutzutage gezwungen, auf Plantagen zu arbeiten. Weltweit bekannt wurden die Aka durch ihre mehrstimmigen Gesänge und den Film "Song from the Forest".</German>
 		<Italian>Gli Aka sono un popolo nomade di cacciatori pigmei che vivono nell'Africa centrale.</Italian>
 		<Polish>Pigmeje - ludy negroidalne, zamieszkujące dżungle Afryki Środkowej, charakteryzuje je niski wzrost, wahający się od 140 do 150 cm. Częściowo prowadzą koczowniczy tryb życia, zajmując się łowiectwem i zbieractwem. Zamieszkują różne regiony w Afryce równikowej. Ich populacja liczy około 100 tys. osób. Nie posługują się wspólnym językiem, nie mają świadomości wspólnej historii. Stanowią małe, odrębne społeczności, które nic nie wiedzą o istnieniu innych.</Polish>
 	</TEXT>
@@ -15841,6 +15936,7 @@
 		<Tag>TXT_KEY_BUILDING_BENGALI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Bengali) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Bengalese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Bengali) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15868,6 +15964,7 @@
 		<Tag>TXT_KEY_BUILDING_BENIN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Benin) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Benin) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Benin) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15899,6 +15996,7 @@
 		<Tag>TXT_KEY_BUILDING_FULANI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Fulani) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Fulani) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Fulani) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15926,6 +16024,7 @@
 		<Tag>TXT_KEY_BUILDING_HAUSA_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Hausa) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Hausa) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Hausa) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15953,6 +16052,7 @@
 		<Tag>TXT_KEY_BUILDING_HERERO_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Herero) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Herero) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Herero) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -15980,6 +16080,7 @@
 		<Tag>TXT_KEY_BUILDING_KANEMBORNU_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Kanem-Bornu) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Kanem-Bornu) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Kanem-Bornu) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16007,6 +16108,7 @@
 		<Tag>TXT_KEY_BUILDING_KONGOLESE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Kongolese) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Congolese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Kongolese) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16034,6 +16136,7 @@
 		<Tag>TXT_KEY_BUILDING_LUBA_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Luba) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Luba) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Luba) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16061,6 +16164,7 @@
 		<Tag>TXT_KEY_BUILDING_MERINA_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Merina) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Merina) per ottenere accesso ad unità ed edifici unici.</Italian>
 	</TEXT>
 	<TEXT>
@@ -16087,6 +16191,7 @@
 		<Tag>TXT_KEY_BUILDING_MUGHAL_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Mughal) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Mughal) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Mughal) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16114,6 +16219,7 @@
 		<Tag>TXT_KEY_BUILDING_MUTAPA_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Mutapa) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Mutapa) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Mutapa) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16141,6 +16247,7 @@
 		<Tag>TXT_KEY_BUILDING_NEPAL_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Nepalese) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Nepalese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Nepalese) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16168,6 +16275,7 @@
 		<Tag>TXT_KEY_BUILDING_PAKISTANI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Pakistani) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Pakistana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Pakistani) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16195,6 +16303,7 @@
 		<Tag>TXT_KEY_BUILDING_SOMALI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Somali) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Somala) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Somali) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16223,6 +16332,7 @@
 		<Tag>TXT_KEY_BUILDING_SWAZI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Swazi) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Swazi) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Swazi) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16251,6 +16361,7 @@
 		<Tag>TXT_KEY_BUILDING_TAMIL_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Tamil) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Tamil) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Tamil) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16279,6 +16390,7 @@
 		<Tag>TXT_KEY_BUILDING_TUAREG_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Tuareg) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Tuareg) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Tuareg) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16307,6 +16419,7 @@
 		<Tag>TXT_KEY_BUILDING_WELSH_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Welsh) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Gallese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Welsh) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16335,6 +16448,7 @@
 		<Tag>TXT_KEY_BUILDING_BANDANESE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Bandanese) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Bandanese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Bandanese) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16362,6 +16476,7 @@
 		<Tag>TXT_KEY_BUILDING_BASQUE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Basque) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Basca) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Basque) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16389,6 +16504,7 @@
 		<Tag>TXT_KEY_BUILDING_BURMESE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Burmese) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Burmese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Burmese) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16416,6 +16532,7 @@
 		<Tag>TXT_KEY_BUILDING_CANTONESE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Cantonese) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Cantonese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Cantonese) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16444,6 +16561,7 @@
 		<Tag>TXT_KEY_BUILDING_CHUMASH_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Chumash) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Chumash) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Chumash) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16471,6 +16589,7 @@
 		<Tag>TXT_KEY_BUILDING_CUBAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Cuban) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Cubana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Cuban) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16498,6 +16617,7 @@
 		<Tag>TXT_KEY_BUILDING_FRANKS_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Franks) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Franca) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Franks) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16525,6 +16645,7 @@
 		<Tag>TXT_KEY_BUILDING_HATTIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Haitian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Haitiana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Haitian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16552,6 +16673,7 @@
 		<Tag>TXT_KEY_BUILDING_HOPI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Hopi) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Hopi) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Hopi) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16579,6 +16701,7 @@
 		<Tag>TXT_KEY_BUILDING_ITALIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Italian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Italiana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Italian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16606,6 +16729,7 @@
 		<Tag>TXT_KEY_BUILDING_MANCHURIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Manchurian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Manciuriana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Manchurian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16634,6 +16758,7 @@
 		<Tag>TXT_KEY_BUILDING_PAPUAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Papuan) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Papuana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Papuan) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16661,6 +16786,7 @@
 		<Tag>TXT_KEY_BUILDING_PARTHIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Parthian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Parta) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Parthian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16689,6 +16815,7 @@
 		<Tag>TXT_KEY_BUILDING_PRUSSIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Prussian) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Prussiana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Prussian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16716,6 +16843,7 @@
 		<Tag>TXT_KEY_BUILDING_QUECHUA_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Quechua) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Quechua) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Quechua) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16743,6 +16871,7 @@
 		<Tag>TXT_KEY_BUILDING_RAPANUI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Rapa Nui) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Rapa Nui) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Rapa Nui) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16771,6 +16900,7 @@
 		<Tag>TXT_KEY_BUILDING_SAXON_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Saxon) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Sassone) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Saxon) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16798,6 +16928,7 @@
 		<Tag>TXT_KEY_BUILDING_SCOTTISH_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Scottish) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Scozzese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Scottish) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16825,6 +16956,7 @@
 		<Tag>TXT_KEY_BUILDING_SOUTHAFRICAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (South African) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Sudafricana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (South African) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16852,6 +16984,7 @@
 		<Tag>TXT_KEY_BUILDING_THAI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Thai) to gain access to unique buildings and units.</English>
 		<French>Permet d'accéder à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Tailandese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Thai) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16874,6 +17007,7 @@
 		<Tag>TXT_KEY_BUILDING_DOLPHIN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Cetacea Sapien) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Cetacea Sapien) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Cetacea Sapien) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Cetacea Sapien) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16896,6 +17030,7 @@
 		<Tag>TXT_KEY_BUILDING_CHAM_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Cham) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Cham) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Cham) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Cham) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16922,6 +17057,7 @@
 		<Tag>TXT_KEY_BUILDING_SYRIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Syrian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Syrienne) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Siriana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Syrian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16944,6 +17080,7 @@
 		<Tag>TXT_KEY_BUILDING_ARAWAK_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Arawak) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Arawak) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Arawak) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Arawak) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16967,6 +17104,7 @@
 		<Tag>TXT_KEY_BUILDING_BELGIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Belgian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Belge) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Belga) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Belgian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -16990,6 +17128,7 @@
 		<Tag>TXT_KEY_BUILDING_JOSEON_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Joseon) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Joseon) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Joseon) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Joseon) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17013,6 +17152,7 @@
 		<Tag>TXT_KEY_BUILDING_CONFEDERATE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Confederates) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Confédérés) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Confederata) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Confederates) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17035,6 +17175,7 @@
 		<Tag>TXT_KEY_BUILDING_DAHOMEY_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Dahomey) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Dahomey) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Dahomey) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Dahomey) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17057,6 +17198,7 @@
 		<Tag>TXT_KEY_BUILDING_DENE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Dene) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Dene) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Dene) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Dene) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17080,6 +17222,7 @@
 		<Tag>TXT_KEY_BUILDING_HAIDA_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Haida) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Haida) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Haida) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Haida) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17103,6 +17246,7 @@
 		<Tag>TXT_KEY_BUILDING_IRISH_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Irish) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Irlandaise) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Irlandese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Irish) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17126,6 +17270,7 @@
 		<Tag>TXT_KEY_BUILDING_JOMON_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Jomon) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Jomon) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Jomon) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Jomon) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17148,6 +17293,7 @@
 		<Tag>TXT_KEY_BUILDING_MOCHE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Moche) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Moche) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Moche) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Moche) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17170,6 +17316,7 @@
 		<Tag>TXT_KEY_BUILDING_NAZCA_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Nazca) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Nazca) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Nazca) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Nazca) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17193,6 +17340,7 @@
 		<Tag>TXT_KEY_BUILDING_NEWZEALAND_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (New Zealand) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Nouvelle-Zélande) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Nozelandese) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (New Zealand) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17220,6 +17368,7 @@
 		<Tag>TXT_KEY_BUILDING_SASSANIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Sassanian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Sassanienne) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Sassanide) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Sassanian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17243,6 +17392,7 @@
 		<Tag>TXT_KEY_BUILDING_SCYTHIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Scythian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Scythe) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Scita) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Scythian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17265,6 +17415,7 @@
 		<Tag>TXT_KEY_BUILDING_SHANG_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Shang) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Shang) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Shang) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Shang) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17292,6 +17443,7 @@
 		<Tag>TXT_KEY_BUILDING_SIBERIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Siberian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Sibérienne) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Siberiana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Siberian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17315,6 +17467,7 @@
 		<Tag>TXT_KEY_BUILDING_SPARTAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Spartan) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Spartiate) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Spartana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Spartan) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17343,6 +17496,7 @@
 		<Tag>TXT_KEY_BUILDING_TROJAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Trojan) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Troyenne) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Troiana) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Trojan) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17365,6 +17519,7 @@
 		<Tag>TXT_KEY_BUILDING_XIONGU_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Xiongnu) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Xiongnu) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Xiongnu) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Xiongnu) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17388,6 +17543,7 @@
 		<Tag>TXT_KEY_BUILDING_YAMATO_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Yamato) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Yamato) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Italian>Costruisci la Cultura (Yamato) per ottenere accesso ad unità ed edifici unici.</Italian>
 		<Polish>Zbuduj Culture (Yamato) to gain access to unique buildings and units.</Polish>
 	</TEXT>
@@ -17410,6 +17566,7 @@
 		<Tag>TXT_KEY_BUILDING_ARGENTINIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Argentinian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Argentine) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Argentinian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17431,6 +17588,7 @@
 		<Tag>TXT_KEY_BUILDING_CALIFORNIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Californian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Californienne) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Californian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17452,6 +17610,7 @@
 		<Tag>TXT_KEY_BUILDING_HAWAIIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Hawaiian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Hawaiienne) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Hawaiian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17468,6 +17627,7 @@
 		<Tag>TXT_KEY_BUILDING_HUASTEC_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Huastec) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Huastec) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Huastec) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17485,6 +17645,7 @@
 		<Tag>TXT_KEY_BUILDING_ICELANDIC_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Icelandic) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Icelandaise) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Icelandic) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17502,6 +17663,7 @@
 		<Tag>TXT_KEY_BUILDING_JAMAICAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Jamaican) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Jamaicaine) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Jamaican) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17518,6 +17680,7 @@
 		<Tag>TXT_KEY_BUILDING_MIXTEC_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Mixtec) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Mixtec) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Mistekowie (Misztekowie, Mixtekowie) - grupa rdzennych mieszkańców Meksyku, zamieszkująca górskie tereny i doliny obecnego stanu Oaxaca, a także stany Guerrero i Puebla, w południowym Meksyku. Region ten tradycyjnie nazywa się La Mixteca. Misteków (oraz ich region) dzieli się zwyczajowo na część wyżynną (mixteca alta, stąd nazwa określająca ich jako "mieszkańców krainy chmur") oraz nizinną (mixteca baja).</Polish>
 	</TEXT>
 	<TEXT>
@@ -17535,6 +17698,7 @@
 		<Tag>TXT_KEY_BUILDING_NORWEGIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Norwegian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Norvégienne) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Norwegian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17551,6 +17715,7 @@
 		<Tag>TXT_KEY_BUILDING_QUANG_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Qiang) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Qiang) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Qiang) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17568,6 +17733,7 @@
 		<Tag>TXT_KEY_BUILDING_RHODESIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Rhodesian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Rhodésien) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Rhodesian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17584,6 +17750,7 @@
 		<Tag>TXT_KEY_BUILDING_SAMI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Sami) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Sami) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Sami) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17605,6 +17772,7 @@
 		<Tag>TXT_KEY_BUILDING_SOVIET_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Soviet) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Soviétique) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Soviet) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17622,6 +17790,7 @@
 		<Tag>TXT_KEY_BUILDING_TAIWANESE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Taiwanese) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Taiwanaise) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Taiwanese) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17639,6 +17808,7 @@
 		<Tag>TXT_KEY_BUILDING_TARASCAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Tarascan) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Tarascane) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Tarascan) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17656,6 +17826,7 @@
 		<Tag>TXT_KEY_BUILDING_TASMANIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Tasmanian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Tasmanienne) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Tasmanian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17673,6 +17844,7 @@
 		<Tag>TXT_KEY_BUILDING_TEXAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Texan) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Texanne) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Texan) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17689,6 +17861,7 @@
 		<Tag>TXT_KEY_BUILDING_TLATILCO_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Tlatilco) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Tlatilco) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Tlatilco) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17705,6 +17878,7 @@
 		<Tag>TXT_KEY_BUILDING_TLAXCALTEC_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Tlaxcaltec) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Tlaxcaltec) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Grupa Indian zamieszkujących tereny środkowej i zachodniej Gwatemali, odłam Majów. W 1990 roku ich liczebność wynosiła ok. 900 tysięcy. Posługują się językiem kicze z rodziny majańskiej. W czasach prekolumbijskich tworzyli rozwiniętą cywilizację, w XVI wieku podbici przez Hiszpanów.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17726,6 +17900,7 @@
 		<Tag>TXT_KEY_BUILDING_TONGAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Tongan) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Touguienne) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Tongan) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17742,6 +17917,7 @@
 		<Tag>TXT_KEY_BUILDING_TOTONAC_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Totonac) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Totonac) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Totonac) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17758,6 +17934,7 @@
 		<Tag>TXT_KEY_BUILDING_AKKAD_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Akkadian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Akkadian) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Akkadian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17774,6 +17951,7 @@
 		<Tag>TXT_KEY_BUILDING_ANASAZI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Anasazi) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Anasazi) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Anasazi) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17790,6 +17968,7 @@
 		<Tag>TXT_KEY_BUILDING_AYMARA_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Aymara) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Aymara) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Aymara) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17806,6 +17985,7 @@
 		<Tag>TXT_KEY_BUILDING_BULGARIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Bulgarian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Bulgarian) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Bulgarian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17822,6 +18002,7 @@
 		<Tag>TXT_KEY_BUILDING_CASTILIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Castilian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Castilian) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Castilian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17838,6 +18019,7 @@
 		<Tag>TXT_KEY_BUILDING_COLOMBIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Colombian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Colombian) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Colombian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17854,6 +18036,7 @@
 		<Tag>TXT_KEY_BUILDING_DZUNGAR_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Dzungar) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Dzungar) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Dzungar) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17870,6 +18053,7 @@
 		<Tag>TXT_KEY_BUILDING_FINNISH_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Finnish) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Finnish) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Finnish) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17886,6 +18070,7 @@
 		<Tag>TXT_KEY_BUILDING_GYPSY_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Gypsy) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Gypsy) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Gypsy) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17902,6 +18087,7 @@
 		<Tag>TXT_KEY_BUILDING_JORDANIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Jordanian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Jordanian) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Jordanian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17918,6 +18104,7 @@
 		<Tag>TXT_KEY_BUILDING_KONJO_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Konjo) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Konjo) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Konjo) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17934,6 +18121,7 @@
 		<Tag>TXT_KEY_BUILDING_LEON_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Leon) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Leon) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Leon) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17950,6 +18138,7 @@
 		<Tag>TXT_KEY_BUILDING_LIANGZHU_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Liangzhu) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Liangzhu) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Liangzhu) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17966,6 +18155,7 @@
 		<Tag>TXT_KEY_BUILDING_LYDIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Lydian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Lydian) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Lydian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17982,6 +18172,7 @@
 		<Tag>TXT_KEY_BUILDING_MALAYSIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Malaysian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Malaysian) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Malaysian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -17998,6 +18189,7 @@
 		<Tag>TXT_KEY_BUILDING_MANDAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Mandan) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Mandan) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Mandan) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18014,6 +18206,7 @@
 		<Tag>TXT_KEY_BUILDING_NOK_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Nok) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Nok) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Nok) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18030,6 +18223,7 @@
 		<Tag>TXT_KEY_BUILDING_OMAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Oman) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Oman) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Oman) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18046,6 +18240,7 @@
 		<Tag>TXT_KEY_BUILDING_PAIUTE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Paiute) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Paiute) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Paiute) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18062,6 +18257,7 @@
 		<Tag>TXT_KEY_BUILDING_SAMOAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Samoan) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Samoan) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Samoan) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18078,6 +18274,7 @@
 		<Tag>TXT_KEY_BUILDING_SONGHAI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Songhai) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Songhai) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Songhai) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18094,6 +18291,7 @@
 		<Tag>TXT_KEY_BUILDING_TIMURID_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Timurid) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Timurid) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Timurid) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18110,6 +18308,7 @@
 		<Tag>TXT_KEY_BUILDING_VENETIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Venetian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Venetian) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Venetian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18126,6 +18325,7 @@
 		<Tag>TXT_KEY_BUILDING_WAYANA_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Wayana) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Wayana) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Wayana) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18141,6 +18341,7 @@
 		<Tag>TXT_KEY_BUILDING_YANOMAMI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Yanomami) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Yanomami) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Yanomami) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18157,6 +18358,7 @@
 		<Tag>TXT_KEY_BUILDING_YEMEN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Yemen) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Yemen) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Yemen) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18173,6 +18375,7 @@
 		<Tag>TXT_KEY_BUILDING_ATHENIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Athenian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Athenian) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Athenian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18189,6 +18392,7 @@
 		<Tag>TXT_KEY_BUILDING_ASHANTI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Ashanti) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Ashanti) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Ashanti) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18205,6 +18409,7 @@
 		<Tag>TXT_KEY_BUILDING_BLACKFOOT_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Blackfoot) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Blackfoot) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Blackfoot) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18221,6 +18426,7 @@
 		<Tag>TXT_KEY_BUILDING_CHIPPEWA_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Chippewa) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Chippewa) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Chippewa) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18238,6 +18444,7 @@
 		<Tag>TXT_KEY_BUILDING_CROATIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Croatian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Croate) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Croatian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18255,6 +18462,7 @@
 		<Tag>TXT_KEY_BUILDING_DANISH_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Danish) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Danoise) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Danish) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18271,6 +18479,7 @@
 		<Tag>TXT_KEY_BUILDING_EPIRUS_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Epirus) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Epirus) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Epirus) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18287,6 +18496,7 @@
 		<Tag>TXT_KEY_BUILDING_FIJIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Fijian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Fijian) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Fijian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18303,6 +18513,7 @@
 		<Tag>TXT_KEY_BUILDING_GHANA_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Ghana) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Ghana) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Ghana) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18319,6 +18530,7 @@
 		<Tag>TXT_KEY_BUILDING_MACEDONIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Macedonian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Macedonian) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Macedonian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18335,6 +18547,7 @@
 		<Tag>TXT_KEY_BUILDING_MASSAGETAE_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Massagetae) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Massagetae) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Massagetae) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18351,6 +18564,7 @@
 		<Tag>TXT_KEY_BUILDING_NAMA_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Nama) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Nama) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Nama) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18367,6 +18581,7 @@
 		<Tag>TXT_KEY_BUILDING_NIVKH_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Nivkh) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Nivkh) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Nivkh) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18383,6 +18598,7 @@
 		<Tag>TXT_KEY_BUILDING_PICTISH_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Pictish) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Pictish) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Pictish) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18399,6 +18615,7 @@
 		<Tag>TXT_KEY_BUILDING_PIMA_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Pima) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Pima) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Pima) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18415,6 +18632,7 @@
 		<Tag>TXT_KEY_BUILDING_ROXOLANI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Roxolani) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Roxolani) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Roxolani) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18431,6 +18649,7 @@
 		<Tag>TXT_KEY_BUILDING_SLOVAK_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Slovak) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Slovak) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Slovak) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18447,6 +18666,7 @@
 		<Tag>TXT_KEY_BUILDING_TAHITIAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Tahitian) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Tahitian) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Tahitian) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18463,6 +18683,7 @@
 		<Tag>TXT_KEY_BUILDING_YAGHAN_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Yaghan) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Yaghan) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Yaghan) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
@@ -18479,6 +18700,7 @@
 		<Tag>TXT_KEY_BUILDING_ZUNI_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Zuni) to gain access to unique buildings and units.</English>
 		<French>Construisez la Culture (Zuni) pour avoir accès à des bâtiments et unités uniques.</French>
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 		<Polish>Zbuduj Culture (Zuni) to gain access to unique buildings and units.</Polish>
 	</TEXT>
 	<TEXT>
