@@ -667,15 +667,20 @@ int limitedWonderClassLimit(BuildingClassTypes eBuildingClass)
 		iCount += iMax;
 		bIsLimited = true;
 	}
+	//BuildingTypes eLoopBuilding = ((BuildingTypes)(kCivilizationInfo.getCivilizationBuildings(iI)));
 
-	SpecialBuildingTypes eSpecialBuilding = (SpecialBuildingTypes)GC.getBuildingInfo((BuildingTypes)GC.getBuildingClassInfo(eBuildingClass).getDefaultBuildingIndex()).getSpecialBuildingType();
-	if (eSpecialBuilding != NO_SPECIALBUILDING)
+	BuildingTypes eBuilding = (BuildingTypes)GC.getBuildingClassInfo(eBuildingClass).getDefaultBuildingIndex();
+	if (eBuilding != NO_BUILDING)
 	{
-		iMax = GC.getSpecialBuildingInfo(eSpecialBuilding).getMaxPlayerInstances();
-		if (iMax != -1)
+		SpecialBuildingTypes eSpecialBuilding = (SpecialBuildingTypes)GC.getBuildingInfo(eBuilding).getSpecialBuildingType();
+		if (eSpecialBuilding != NO_SPECIALBUILDING)
 		{
-			iCount += iMax;
-			bIsLimited = true;
+			iMax = GC.getSpecialBuildingInfo(eSpecialBuilding).getMaxPlayerInstances();
+			if (iMax != -1)
+			{
+				iCount += iMax;
+				bIsLimited = true;
+			}
 		}
 	}
 
