@@ -6439,23 +6439,23 @@
 			<FootstepSounds>
 				<FootstepSound>
 					<FootstepAudioType>FOOTSTEP_AUDIO_HUMAN</FootstepAudioType>
-					<FootstepAudioScript>AS3D_UN_FOOT_UNIT_ASTEROIDS</FootstepAudioScript>
+					<FootstepAudioScript/>
 				</FootstepSound>
 				<FootstepSound>
 					<FootstepAudioType>FOOTSTEP_AUDIO_HUMAN_LOW</FootstepAudioType>
-					<FootstepAudioScript>AS3D_UN_FOOT_UNIT_LOW_ASTEROIDS</FootstepAudioScript>
+					<FootstepAudioScript/>
 				</FootstepSound>
 				<FootstepSound>
 					<FootstepAudioType>FOOTSTEP_AUDIO_ANIMAL</FootstepAudioType>
-					<FootstepAudioScript>AS3D_UN_ANIMAL_FOOT_LARGE_ASTEROIDS</FootstepAudioScript>
+					<FootstepAudioScript/>
 				</FootstepSound>
 				<FootstepSound>
 					<FootstepAudioType>FOOTSTEP_AUDIO_ANIMAL_LOW</FootstepAudioType>
-					<FootstepAudioScript>AS3D_UN_ANIMAL_FOOT_LARGE_LOW_ASTEROIDS</FootstepAudioScript>
+					<FootstepAudioScript/>
 				</FootstepSound>
 				<FootstepSound>
 					<FootstepAudioType>FOOTSTEP_AUDIO_HORSE</FootstepAudioType>
-					<FootstepAudioScript>AS3D_UN_HORSE_RUN_ASTEROIDS</FootstepAudioScript>
+					<FootstepAudioScript/>
 				</FootstepSound>
 				<FootstepSound>
 					<FootstepAudioType>LOOPSTEP_WHEELS</FootstepAudioType>
@@ -6475,35 +6475,35 @@
 				</FootstepSound>
 				<FootstepSound>
 					<FootstepAudioType>LOOPSTEP_TANK</FootstepAudioType>
-					<FootstepAudioScript>AS3D_UN_TANK_LOOP_ASTEROIDS</FootstepAudioScript>
+					<FootstepAudioScript/>
 				</FootstepSound>
 				<FootstepSound>
 					<FootstepAudioType>ENDSTEP_TANK</FootstepAudioType>
-					<FootstepAudioScript>AS3D_UN_TANK_END_ASTEROIDS</FootstepAudioScript>
+					<FootstepAudioScript/>
 				</FootstepSound>
 				<FootstepSound>
 					<FootstepAudioType>LOOPSTEP_MOD_ARMOUR</FootstepAudioType>
-					<FootstepAudioScript>AS3D_UN_MOD_ARMOUR_LOOP_ASTEROIDS</FootstepAudioScript>
+					<FootstepAudioScript/>
 				</FootstepSound>
 				<FootstepSound>
 					<FootstepAudioType>ENDSTEP_MOD_ARMOUR</FootstepAudioType>
-					<FootstepAudioScript>AS3D_UN_MOD_ARMOUR_END_ASTEROIDS</FootstepAudioScript>
+					<FootstepAudioScript/>
 				</FootstepSound>
 				<FootstepSound>
 					<FootstepAudioType>LOOPSTEP_ARTILLERY</FootstepAudioType>
-					<FootstepAudioScript>AS3D_UN_ARTILL_RUN_LOOP_ASTEROIDS</FootstepAudioScript>
+					<FootstepAudioScript/>
 				</FootstepSound>
 				<FootstepSound>
 					<FootstepAudioType>ENDSTEP_ARTILLERY</FootstepAudioType>
-					<FootstepAudioScript>AS3D_UN_ARTILL_RUN_END_ASTEROIDS</FootstepAudioScript>
+					<FootstepAudioScript/>
 				</FootstepSound>
 				<FootstepSound>
 					<FootstepAudioType>LOOPSTEP_WHEELS_3</FootstepAudioType>
-					<FootstepAudioScript>AS3D_UN_TREBUCHET_RUN_LEAVES</FootstepAudioScript>
+					<FootstepAudioScript/>
 				</FootstepSound>
 				<FootstepSound>
 					<FootstepAudioType>ENDSTEP_WHEELS_3</FootstepAudioType>
-					<FootstepAudioScript>AS3D_UN_TREBUCHET_STOP_LEAVES</FootstepAudioScript>
+					<FootstepAudioScript/>
 				</FootstepSound>
 			</FootstepSounds>
 			<WorldSoundscapeAudioScript>ASSS_ASTEROIDS_SELECT_AMB</WorldSoundscapeAudioScript>
