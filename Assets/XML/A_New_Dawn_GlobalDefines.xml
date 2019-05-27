@@ -263,7 +263,7 @@
 	</Define>
 	<Define>
 		<DefineName>USE_MULTIPLE_THREADS_PROPERTY_SOLVER</DefineName>
-		<bDefineBoolVal>1</bDefineBoolVal>
+		<bDefineBoolVal>0</bDefineBoolVal>
 	</Define>
 	<Define>
 		<DefineName>ZOOM_CITY_FOR_PRODUCTION_POPUP</DefineName>

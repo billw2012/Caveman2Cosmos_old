@@ -37843,7 +37843,7 @@ int CvPlayer::getCoastalAIInfluence()
 		iNumCities++;
 	}
 	iInfluence *= 100;
-	if (iModifier != 0)
+	if (iNumCities != 0)
 	{
 		iModifier = iInfluence/iNumCities;
 	}

@@ -1732,6 +1732,7 @@
 			<iDistanceMaintenanceModifier>-20</iDistanceMaintenanceModifier>
 			<iCityDefenseBonus>-20</iCityDefenseBonus>
 			<iCoastalTradeRoutes>1</iCoastalTradeRoutes>
+			<bCoastalAIInfluence>1</bCoastalAIInfluence>
 		</TraitInfo>
 		<TraitInfo>
 			<Type>TRAIT_SEAFARING</Type>
@@ -5220,6 +5221,7 @@
 			<iDistanceMaintenanceModifier>-20</iDistanceMaintenanceModifier>
 			<iCityDefenseBonus>-20</iCityDefenseBonus>
 			<iCoastalTradeRoutes>1</iCoastalTradeRoutes>
+			<bCoastalAIInfluence>1</bCoastalAIInfluence>
 		</TraitInfo>
 		<TraitInfo>
 			<Type>TRAIT_SEAFARING1</Type>
