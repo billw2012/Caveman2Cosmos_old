@@ -1400,6 +1400,7 @@
 				</BuildWorkerSpeedModifierType>
 			</BuildWorkerSpeedModifierTypes>
 			<iCoastalTradeRoutes>1</iCoastalTradeRoutes>
+			<bCoastalAIInfluence>1</bCoastalAIInfluence>
 			<ReplacementCondition>
 				<Has>
 					<GOMType>GOM_OPTION</GOMType>
@@ -4305,6 +4306,7 @@
 				</BuildWorkerSpeedModifierType>
 			</BuildWorkerSpeedModifierTypes>
 			<iCoastalTradeRoutes>1</iCoastalTradeRoutes>
+			<bCoastalAIInfluence>1</bCoastalAIInfluence>
 			<ReplacementCondition>
 				<Has>
 					<GOMType>GOM_OPTION</GOMType>
