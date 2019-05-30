@@ -54,6 +54,44 @@
 				</Hurry>
 			</Hurrys>
 			<iNationalCaptureProbabilityModifier>10</iNationalCaptureProbabilityModifier>
+			<GlobalBuildingClassProductionModifiers>
+				<BuildingClassProductionModifier>
+					<BuildingClassType>BUILDINGCLASS_STREET_CLEANER</BuildingClassType>
+					<iProductionModifier>-50</iProductionModifier>
+				</BuildingClassProductionModifier>
+				<BuildingClassProductionModifier>
+					<BuildingClassType>BUILDINGCLASS_TREADMILL_CRANE</BuildingClassType>
+					<iProductionModifier>-50</iProductionModifier>
+				</BuildingClassProductionModifier>
+				<BuildingClassProductionModifier>
+					<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
+					<iProductionModifier>-50</iProductionModifier>
+				</BuildingClassProductionModifier>
+				<BuildingClassProductionModifier>
+					<BuildingClassType>BUILDINGCLASS_WINDMILL</BuildingClassType>
+					<iProductionModifier>-50</iProductionModifier>
+				</BuildingClassProductionModifier>
+				<BuildingClassProductionModifier>
+					<BuildingClassType>BUILDINGCLASS_DONKEY_MILL</BuildingClassType>
+					<iProductionModifier>-50</iProductionModifier>
+				</BuildingClassProductionModifier>
+				<BuildingClassProductionModifier>
+					<BuildingClassType>BUILDINGCLASS_LUMBERMILL</BuildingClassType>
+					<iProductionModifier>-50</iProductionModifier>
+				</BuildingClassProductionModifier>
+				<BuildingClassProductionModifier>
+					<BuildingClassType>BUILDINGCLASS_MODERN_MILL</BuildingClassType>
+					<iProductionModifier>-50</iProductionModifier>
+				</BuildingClassProductionModifier>
+				<BuildingClassProductionModifier>
+					<BuildingClassType>BUILDINGCLASS_OXEN_MILL</BuildingClassType>
+					<iProductionModifier>-50</iProductionModifier>
+				</BuildingClassProductionModifier>
+				<BuildingClassProductionModifier>
+					<BuildingClassType>BUILDINGCLASS_STEEL_MILL</BuildingClassType>
+					<iProductionModifier>-50</iProductionModifier>
+				</BuildingClassProductionModifier>
+			</GlobalBuildingClassProductionModifiers>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_SLAVERY</BuildingClass>
