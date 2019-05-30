@@ -20,121 +20,49 @@
 		</BuildingInfo>
 		<!-- buildings that cost when running slavery -->
 		<BuildingInfo>
-			<Type>BUILDING_STREET_CLEANER</Type>
+			<Type>BUILDING_WV_SLAVERY</Type>
 			<AndDependencyTypes>
-				<DependencyType>BUILDING_STREET_CLEANER</DependencyType>
+				<DependencyType>BUILDING_WV_SLAVERY</DependencyType>
 			</AndDependencyTypes>
 			<GlobalBuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_SLAVERY</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_STREET_CLEANER</BuildingClassType>
 					<iProductionModifier>-50</iProductionModifier>
 				</BuildingClassProductionModifier>
-			</GlobalBuildingClassProductionModifiers>
-		</BuildingInfo>
-		<BuildingInfo>
-			<Type>BUILDING_TREADMILL_CRANE</Type>
-			<AndDependencyTypes>
-				<DependencyType>BUILDING_TREADMILL_CRANE</DependencyType>
-			</AndDependencyTypes>
-			<GlobalBuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_SLAVERY</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_TREADMILL_CRANE</BuildingClassType>
 					<iProductionModifier>-50</iProductionModifier>
 				</BuildingClassProductionModifier>
-			</GlobalBuildingClassProductionModifiers>
-		</BuildingInfo>
-		<BuildingInfo>
-			<Type>BUILDING_WATERMILL</Type>
-			<AndDependencyTypes>
-				<DependencyType>BUILDING_WATERMILL</DependencyType>
-			</AndDependencyTypes>
-			<GlobalBuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_SLAVERY</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
 					<iProductionModifier>-50</iProductionModifier>
 				</BuildingClassProductionModifier>
-			</GlobalBuildingClassProductionModifiers>
-		</BuildingInfo>
-		<BuildingInfo>
-			<Type>BUILDING_WINDMILL</Type>
-			<AndDependencyTypes>
-				<DependencyType>BUILDING_WINDMILL</DependencyType>
-			</AndDependencyTypes>
-			<GlobalBuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_SLAVERY</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_WINDMILL</BuildingClassType>
 					<iProductionModifier>-50</iProductionModifier>
 				</BuildingClassProductionModifier>
-			</GlobalBuildingClassProductionModifiers>
-		</BuildingInfo>
-		<BuildingInfo>
-			<Type>BUILDING_DONKEY_MILL</Type>
-			<AndDependencyTypes>
-				<DependencyType>BUILDING_DONKEY_MILL</DependencyType>
-			</AndDependencyTypes>
-			<GlobalBuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_SLAVERY</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_DONKEY_MILL</BuildingClassType>
 					<iProductionModifier>-50</iProductionModifier>
 				</BuildingClassProductionModifier>
-			</GlobalBuildingClassProductionModifiers>
-		</BuildingInfo>
-		<BuildingInfo>
-			<Type>BUILDING_LUMBERMILL</Type>
-			<AndDependencyTypes>
-				<DependencyType>BUILDING_LUMBERMILL</DependencyType>
-			</AndDependencyTypes>
-			<GlobalBuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_SLAVERY</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_LUMBERMILL</BuildingClassType>
 					<iProductionModifier>-50</iProductionModifier>
 				</BuildingClassProductionModifier>
-			</GlobalBuildingClassProductionModifiers>
-		</BuildingInfo>
-		<BuildingInfo>
-			<Type>BUILDING_MODERN_MILL</Type>
-			<AndDependencyTypes>
-				<DependencyType>BUILDING_MODERN_MILL</DependencyType>
-			</AndDependencyTypes>
-			<GlobalBuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_SLAVERY</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_MODERN_MILL</BuildingClassType>
 					<iProductionModifier>-50</iProductionModifier>
 				</BuildingClassProductionModifier>
-			</GlobalBuildingClassProductionModifiers>
-		</BuildingInfo>
-		<BuildingInfo>
-			<Type>BUILDING_OXEN_MILL</Type>
-			<AndDependencyTypes>
-				<DependencyType>BUILDING_OXEN_MILL</DependencyType>
-			</AndDependencyTypes>
-			<GlobalBuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_SLAVERY</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_OXEN_MILL</BuildingClassType>
 					<iProductionModifier>-50</iProductionModifier>
 				</BuildingClassProductionModifier>
-			</GlobalBuildingClassProductionModifiers>
-		</BuildingInfo>
-		<BuildingInfo>
-			<Type>BUILDING_STEEL_MILL</Type>
-			<AndDependencyTypes>
-				<DependencyType>BUILDING_STEEL_MILL</DependencyType>
-			</AndDependencyTypes>
-			<GlobalBuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_SLAVERY</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_STEEL_MILL</BuildingClassType>
 					<iProductionModifier>-50</iProductionModifier>
 				</BuildingClassProductionModifier>
-			</GlobalBuildingClassProductionModifiers>
-		</BuildingInfo>
-		<BuildingInfo>
-			<Type>BUILDING_FACTORY</Type>
-			<AndDependencyTypes>
-				<DependencyType>BUILDING_FACTORY</DependencyType>
-			</AndDependencyTypes>
-			<GlobalBuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
-					<BuildingClassType>BUILDINGCLASS_SLAVERY</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 					<iProductionModifier>-100</iProductionModifier>
 				</BuildingClassProductionModifier>
 			</GlobalBuildingClassProductionModifiers>
