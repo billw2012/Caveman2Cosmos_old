@@ -553,7 +553,6 @@
 			<PythonExpireCheck>expireHolyMountain1</PythonExpireCheck>
 			<PythonHelp>getHelpHolyMountain1</PythonHelp>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<iAIValue>1000</iAIValue>
 		</EventInfo>
 		<EventInfo>
 			<Type>EVENT_HOLY_MOUNTAIN_DONE_1</Type>
@@ -566,15 +565,14 @@
 					<iEventChance>100</iEventChance>
 				</EventChance>
 			</ClearEvents>
+			<PythonCallback>doHolyMountainRevealed</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<iAIValue>1000</iAIValue>
 		</EventInfo>
 		<EventInfo>
 			<Type>EVENT_HOLY_MOUNTAIN_REVEALED_1</Type>
 			<Description>TXT_KEY_EVENT_HOLY_MOUNTAIN_REVEALED_1</Description>
 			<PythonCallback>doHolyMountainRevealed</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<iAIValue>1000</iAIValue>
 		</EventInfo>
 		<EventInfo>
 			<Type>EVENT_HORTICULTURE_1</Type>

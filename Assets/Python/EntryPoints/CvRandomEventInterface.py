@@ -142,23 +142,24 @@ def canApplyBlessedSea2(argsList):
 ######## HOLY MOUNTAIN ###########
 
 def getHelpHolyMountain1(argsList):
-	iEvent = argsList[0]
-	kTriggeredData = argsList[1]
+	data = argsList[1]
 	szHelp = ""
 
-	map = GC.getMap()
-	iMinPoints = 2 * GC.getWorldInfo(map.getWorldSize()).getDefaultPlayers()
+	iReligion = GC.getPlayer(data.ePlayer).getStateReligion()
 
-	iBuilding = -1
-	iReligion = GC.getPlayer(kTriggeredData.ePlayer).getStateReligion()
-
-	if (-1 != iReligion):
+	if iReligion != -1:
+		iBuilding = -1
 		for i in range(GC.getNumBuildingInfos()):
-			if GC.getBuildingInfo(i).getSpecialBuildingType() == GC.getInfoTypeForString("SPECIALBUILDING_CATHEDRAL") or GC.getBuildingInfo(i).getSpecialBuildingType() == GC.getInfoTypeForString("SPECIALBUILDING_CATHEDRAL_II") or GC.getBuildingInfo(i).getSpecialBuildingType() == GC.getInfoTypeForString("SPECIALBUILDING_PANTHEON"):
-				if GC.getBuildingInfo(i).getReligionType() == iReligion:
-					iBuilding = i
-					break
+			if((GC.getBuildingInfo(i).getSpecialBuildingType() == GC.getInfoTypeForString("SPECIALBUILDING_CATHEDRAL")
+			or  GC.getBuildingInfo(i).getSpecialBuildingType() == GC.getInfoTypeForString("SPECIALBUILDING_CATHEDRAL_II")
+			or  GC.getBuildingInfo(i).getSpecialBuildingType() == GC.getInfoTypeForString("SPECIALBUILDING_PANTHEON")
+			)
+			and GC.getBuildingInfo(i).getReligionType() == iReligion
+			):
+				iBuilding = i
+				break
 
+		iMinPoints = 2 * GC.getWorldInfo(GC.getMap().getWorldSize()).getDefaultPlayers()
 		szHelp = TRNSLTR.getText("TXT_KEY_EVENT_HOLY_MOUNTAIN_PART_1_HELP", (iMinPoints, ))
 		if iBuilding != -1:
 			szHelp += TRNSLTR.getText("TXT_KEY_EVENT_HOLY_MOUNTAIN_PART_2_HELP", ( GC.getBuildingInfo(iBuilding).getTextKey(), ))
@@ -167,102 +168,93 @@ def getHelpHolyMountain1(argsList):
 	return szHelp
 
 def canTriggerHolyMountain(argsList):
-  kTriggeredData = argsList[0]
-  map = GC.getMap()
+	data = argsList[0]
 
-  if CyGame().isOption(GameOptionTypes.GAMEOPTION_ONE_CITY_CHALLENGE) and GC.getPlayer(kTriggeredData.ePlayer).isHuman():
-    return False
+	if GC.getGame().isOption(GameOptionTypes.GAMEOPTION_ONE_CITY_CHALLENGE):
+		return False
 
-  plot = GC.getMap().plot(kTriggeredData.iPlotX, kTriggeredData.iPlotY)
-  if (plot.getOwner() == -1):
-    return True
+	CyPlot = GC.getMap().plot(data.iPlotX, data.iPlotY)
+	if CyPlot.getOwner() != -1:
+		return False
 
-  return False
+	return True
 
 def expireHolyMountain1(argsList):
-  iEvent = argsList[0]
-  kTriggeredData = argsList[1]
-
-  plot = GC.getMap().plot(kTriggeredData.iPlotX, kTriggeredData.iPlotY)
-  if (plot == None):
-    return True
-
-  if (plot.getOwner() != kTriggeredData.ePlayer and plot.getOwner() != -1):
-    return True
-
-  return False
+	data = argsList[1]
+	CyPlot = GC.getMap().plot(data.iPlotX, data.iPlotY)
+	if CyPlot.getOwner() not in (-1, data.ePlayer):
+		return True
+	return False
 
 def canTriggerHolyMountainDone(argsList):
+	data = argsList[0]
 
-  kTriggeredData = argsList[0]
-  trigger = GC.getEventTriggerInfo(kTriggeredData.eTrigger)
-  player = GC.getPlayer(kTriggeredData.ePlayer)
+	CyPlayer = GC.getPlayer(data.ePlayer)
+	dataOriginal = CyPlayer.getEventOccured(GC.getEventTriggerInfo(data.eTrigger).getPrereqEvent(0))
 
-  kOrigTriggeredData = player.getEventOccured(trigger.getPrereqEvent(0))
+	if not dataOriginal: return False
 
-  if (kOrigTriggeredData == None):
-    return False
+	CyPlot = GC.getMap().plot(dataOriginal.iPlotX, dataOriginal.iPlotY)
 
-  plot = GC.getMap().plot(kOrigTriggeredData.iPlotX, kOrigTriggeredData.iPlotY)
-  if (plot == None):
-    return False
+	if CyPlot.getOwner() != data.ePlayer:
+		return False
 
-  if (plot.getOwner() != kTriggeredData.ePlayer):
-    return False
-
-  return True
+	# argsList[0] is just a shallow copy of the real EventTriggeredData object.
+	EventTriggeredData = CyPlayer.getEventTriggered(data.iId)
+	EventTriggeredData.iPlotX = dataOriginal.iPlotX
+	EventTriggeredData.iPlotY = dataOriginal.iPlotY
+	return True
 
 def canTriggerHolyMountainRevealed(argsList):
+	data = argsList[0]
 
-  kTriggeredData = argsList[0]
-  trigger = GC.getEventTriggerInfo(kTriggeredData.eTrigger)
-  player = GC.getPlayer(kTriggeredData.ePlayer)
+	CyPlayer = GC.getPlayer(data.ePlayer)
+	if not CyPlayer.isHuman(): return False
 
-  kOrigTriggeredData = player.getEventOccured(trigger.getPrereqEvent(0))
+	dataOriginal = CyPlayer.getEventOccured(GC.getEventTriggerInfo(data.eTrigger).getPrereqEvent(0))
+	if not dataOriginal: return False
 
-  if (kOrigTriggeredData == None):
-    return False
+	iPoints = 0
+	for i in range(GC.getNumBuildingInfos()):
+		CvBuildingInfo = GC.getBuildingInfo(i)
 
-  iNumPoints = 0
+		if CvBuildingInfo.getReligionType() == dataOriginal.eReligion:
 
-  for i in range(GC.getNumBuildingInfos()):
-    if (GC.getBuildingInfo(i).getReligionType() == kOrigTriggeredData.eReligion):
-      if (GC.getBuildingInfo(i).getSpecialBuildingType() == GC.getInfoTypeForString("SPECIALBUILDING_CATHEDRAL")):
-        iNumPoints += 4 * player.countNumBuildings(i)
-      if (GC.getBuildingInfo(i).getSpecialBuildingType() == GC.getInfoTypeForString("SPECIALBUILDING_CATHEDRAL_II")):
-        iNumPoints += 4 * player.countNumBuildings(i)
-      # Rise of mankind start
-      elif (GC.getBuildingInfo(i).getSpecialBuildingType() == GC.getInfoTypeForString("SPECIALBUILDING_PANTHEON")):
-        iNumPoints += 4 * player.countNumBuildings(i)
-      # Rise of Mankind end
-      elif (GC.getBuildingInfo(i).getSpecialBuildingType() == GC.getInfoTypeForString("SPECIALBUILDING_TEMPLE")):
-        iNumPoints += player.countNumBuildings(i)
-      elif (GC.getBuildingInfo(i).getSpecialBuildingType() == GC.getInfoTypeForString("SPECIALBUILDING_MONASTERY")):
-        iNumPoints += player.countNumBuildings(i)
+			iSpecialBuilding = CvBuildingInfo.getSpecialBuildingType()
 
-  if (iNumPoints < 2 * GC.getWorldInfo(GC.getMap().getWorldSize()).getDefaultPlayers()):
-    return False
+			if iSpecialBuilding in (
+				GC.getInfoTypeForString("SPECIALBUILDING_CATHEDRAL"),
+				GC.getInfoTypeForString("SPECIALBUILDING_CATHEDRAL_II"),
+				GC.getInfoTypeForString("SPECIALBUILDING_PANTHEON")
+			):
+				iPoints += 4 * CyPlayer.countNumBuildings(i)
 
-  plot = GC.getMap().plot(kOrigTriggeredData.iPlotX, kOrigTriggeredData.iPlotY)
-  if (plot == None):
-    return False
+			elif iSpecialBuilding in (
+				GC.getInfoTypeForString("SPECIALBUILDING_TEMPLE"),
+				GC.getInfoTypeForString("SPECIALBUILDING_MONASTERY")
+			):
+				iPoints += CyPlayer.countNumBuildings(i)
 
-  plot.setRevealed(player.getTeam(), True, True, -1)
+	MAP = GC.getMap()
+	if iPoints < 2 * GC.getWorldInfo(MAP.getWorldSize()).getDefaultPlayers():
+		return False
+	# No reason not to do this here when we already have the player and map objects.
+	MAP.plot(dataOriginal.iPlotX, dataOriginal.iPlotY).setRevealed(CyPlayer.getTeam(), True, True, -1)
 
-  kActualTriggeredDataObject = player.getEventTriggered(kTriggeredData.iId)
-  kActualTriggeredDataObject.iPlotX = kOrigTriggeredData.iPlotX
-  kActualTriggeredDataObject.iPlotY = kOrigTriggeredData.iPlotY
+	# argsList[0] is just a shallow copy of the real EventTriggeredData object.
+	EventTriggeredData = CyPlayer.getEventTriggered(data.iId)
+	EventTriggeredData.iPlotX = dataOriginal.iPlotX
+	EventTriggeredData.iPlotY = dataOriginal.iPlotY
 
-  return True
+	return True
 
 def doHolyMountainRevealed(argsList):
-  iEvent = argsList[0]
-  kTriggeredData = argsList[1]
+	data = argsList[1]
 
-  if (kTriggeredData.ePlayer == CyGame().getActivePlayer()):
-    CyCamera().JustLookAtPlot( CyMap().plot( kTriggeredData.iPlotX, kTriggeredData.iPlotY ) )
+	if data.ePlayer == GC.getGame().getActivePlayer():
+		CyCamera().JustLookAtPlot(GC.getMap().plot(data.iPlotX, data.iPlotY))
 
-  return 1
+	return 1
 
 ######## MARATHON ###########
 
