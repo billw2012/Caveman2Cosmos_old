@@ -14699,8 +14699,8 @@ As the interrogation progresses, a handle and ratchet mechanism attached to the 
 		<French>Les Grottes souterraines de Klasies</French>
 		<German>
 			<Text>Klasies-River-Höhlen (PH):Klasies-River-Höhlen (PH):Klasies-River-Höhlen (PH):Klasies-River-Höhlen (PH)</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>1:1:1:1</Plural>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
 		</German>
 		<Polish>Jaskinie Klasies River</Polish>
 	</TEXT>
@@ -17808,15 +17808,22 @@ As the interrogation progresses, a handle and ratchet mechanism attached to the 
 		<Tag>TXT_KEY_BUILDING_MONTE_VERDE</Tag>
 		<English>LL Monte Verde</English>
 		<French>Le Site de Monte Verde</French>
+		<German>
+			<Text>Monte Verde (LL):Monte Verde (LL):Monte Verde (LL):Monte Verde (LL)</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MONTE_VERDE_PEDIA</Tag>
 		<English>Monte Verde is an archaeological site in southern Chile, located near Puerto Montt, Southern Chile, which has been dated to 14,800 years BP. This dating adds to the evidence showing that the human settlement of the Americas pre-dates the Clovis culture by roughly 1000 years. This contradicts the previously accepted "Clovis first" model which holds that settlement of the Americas began after 13,500 BP. The Monte Verde findingswere initially dismissed by most of the scientific community, but in recent years the evidence has become more widely accepted in some archaeological circles, although vocal "Clovis First" advocates remain. Coastalmigration is a widely accepted model explaining the inhabitance of Monte Verde. Archaeological evidence shows that people arrived at Monte Verde about 1,800 years before the time that the Bering Land Bridge betweenAlaska and Siberia would have become impassable in 13,000 BP. This leaves traveling down the western coast of the Americas as the most plausible explanation for the earliest inhabitants of Chile. Paleoecological evidenceof the coastal landscape's ability to sustain human life further supports this model. However, no archaeological evidence has been found of pre-Clovis humans using a coastal migration route.</English>
+		<German>Monte Verde (deutsch: Grüner Berg) ist ein archäologischer Fundort in Zentralchile westlich von Puerto Montt. Er gehört zu den ältesten Spuren menschlicher Besiedlung auf dem amerikanischen Kontinent. Monte Verde wurde konserviert, da der Pegel des Chinchihuapi-Flusses kurz nach der Besiedlung stieg und das dabei entstandene Moor den Zerfall von organischem Material verhinderte. Dadurch wurden Artefakte wie Alltagsgegenstände über Jahrtausende konserviert.[NEWLINE]Wiederentdeckt wurde die Stätte bei Ausgrabungen durch Mario Pino und Tom Dillehay ab 1977. Dillehay beschrieb seine Entdeckungen als einen von etwa 20 bis 30 Personen besiedelten Wohnplatz, in dessen Zentrum sich eine über 6 m lange zeltähnliche Struktur befand, die von in den Boden gerammten Baumstämmen und Bohlen gesichert wurde. Jeder der mit Schilfstricken und Tierfellen abgegrenzten Wohnräume verfügte über eine mit Lehm umgebene Feuerstelle. Im Umfeld wurden viele Steinwerkzeuge und Überreste von verschütteten Samen, Nüssen und Beeren sowie Knochen von Mastodons gefunden. Das durch Radiokarbondatierung gesicherte Alter der Funde von etwa 12000–14000 Jahren zeigte, dass das bis dahin angenommenen Erstbesiedlungsdatum von Amerika (etwa 11000 v.Chr.) inkorrekt war.</German>
 		<Polish>Monte Verde - stanowisko archeologiczne w pobliżu miejscowości Puerto Montt w Chile ok. 56 km od wybrzeży Pacyfiku, odkryte w 1976. Tom Dillehay z University of Kentucky i geolog Mario Pino odkryli w 1977 ślady obecności człowieka szacowane na ok. 12,5 tys. lat. Zdaniem Dillehay są to ślady małej osady zamieszkiwanej przez grupę 20-30 osób ok. 12-11,8 tys. lat temu. Datowanie radiowęglowe stanowiska Monte Verde II, w których stwierdzono ślady działalności człowieka wskazuje wiek 15-12,5 tys. lat. Dalsze badania na stanowisku Monte Verde I (1997) przyniosły kolejne artefakty szacowane tą samą metodą na 35-33 tys. lat.</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MONTE_VERDE_STRATEGY</Tag>
 		<English>LEGENDARY LANDSCAPES, Group Wonder.  Only one from the group can be built by a nation.</English>
+		<German>ACHTUNG! Gruppenwunder - nur ein Wunder der Gruppe kann je Nation gebaut werden[NEWLINE][COLOR_BUILDING_TEXT]Monte Verde[COLOR_REVERT] ist ein Weltwunder der Gruppe "Legendäre Landschaften", das der Stadt einen entscheidenden Wirtschaftsbonus verschafft und außerdem auch noch [COLOR_HIGHLIGHT_TEXT]Steinwerkzeuge[COLOR_REVERT] liefert.</German> 
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MOON_DANCE</Tag>
@@ -25616,13 +25623,18 @@ As the interrogation progresses, a handle and ratchet mechanism attached to the 
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>Lagergrube</German>
+		<German>
+			<Text>Vorratsgrube:Vorratsgrube:Vorratsgrube:Vorratsgrube</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
 		<Italian>Fossa di stoccaggio</Italian>
 		<Polish>Spichlerz Ziemny</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_STORAGE_PIT_PEDIA</Tag>
 		<English>Burial of food can preserve it due to a variety of factors: lack of light, lack of oxygen, cool temperatures, pH level, or desiccants in the soil. Burial may be combined with other methods such as salting or fermentation.</English>
+		<German>Als die frühen Menschen erkannten, dass Lebensmittel konserviert werden, wenn man sie im Boden vergräbt, begannen sie Vorratsgruben für ihre Nahrungsvorräte anzulegen. Dabei handelte es sich meist um kegel- oder kugelförmige Erdlöcher mit geglätteten oder mit Lehm ausgekleideten Wänden. Unter günstigen Umständen verdarb in solchen Gruben nur die oberste eingelagerte Schicht, die dann bei Öffnung der Grube abgetragen wurde.</German>
 		<Italian>Seppellire il cibo può aumentarne la conservazione grazie auna grande varietà di fattori: mancanza di luce, mancanza di ossigeno, temperature basse, livello del PH o sostanze presenti nel terreno. La seppellitura può essere unita ad altri metodi di conservazione, come la salatura e la conservazione.</Italian>
 		<Polish>Przechowywanie jedzenie pod ziemią jest korzystne ze względu na kilka czynników: brak światła, brak tlenu, niska temperatura, poziom pH czy suchość gleby. Przechowywanie jedzenie pod ziemią może być łączone z innymi metodami konserwowania jak zasolenie czy fermentacja.</Polish>
 	</TEXT>
@@ -25630,6 +25642,7 @@ As the interrogation progresses, a handle and ratchet mechanism attached to the 
 		<Tag>TXT_KEY_BUILDING_STORAGE_PIT_STRATEGY</Tag>
 		<English>The [COLOR_BUILDING_TEXT]Storing Pit[COLOR_REVERT] is a prehistoric era building that allows a city to store [COLOR_GREEN]Food[COLOR_REVERT] after growing. The building is also important for being a prerequisite to enable other buildings ([COLOR_BUILDING_TEXT]Dining Hall[COLOR_REVERT], for example).</English>
 		<French>Conserve la Nourriture avant le Grenier.</French>
+		<German>Die [COLOR_BUILDING_TEXT]Vorratsgrube[COLOR_REVERT] speichert einen geringen Nahrungsanteil zur [COLOR_HIGHLIGHT_TEXT]Steigerung des Bevölkerungswachstums[COLOR_REVERT].</German>
 		<Italian>Conserva il cibo prima dell'invenzione del granaio.</Italian>
 		<Polish>Przechowuje żywność przed wynalezieniem Spichlerza</Polish>
 	</TEXT>
@@ -29601,6 +29614,7 @@ As the interrogation progresses, a handle and ratchet mechanism attached to the 
 	<TEXT>
 		<Tag>TXT_KEY_SPECIALBUILDING_GROUP_LEGENDARY_LANDSCAPES</Tag>
 		<English>Legendary Landscapes</English>
+		<German>Legendäre Landschaften</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_DISNEYLAND_EFFECT</Tag>

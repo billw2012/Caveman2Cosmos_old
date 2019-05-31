@@ -100,7 +100,7 @@
 		<Tag>TXT_KEY_BUILDING_BERRY_BUSHES_STRATEGY</Tag>
 		<English>Gather from Berry Bushes to increase your cities food.</English>
 		<French>La Cueillette de ces Arbustes à baie augmente votre nourriture.</French>
-		<German>[COLOR_BUILDING_TEXT]Beerensammler[COLOR_REVERT] sorgen für zusätzliche Nahrung in frühen Städten.</German>
+		<German>[COLOR_BUILDING_TEXT]Beerensammler[COLOR_REVERT] versorgen frühe Städte mit zusätzlicher Nahrung.</German>
 		<Italian>Raccogli dagli arbusti con bacche per incrementare il cibo delle tue città.</Italian>
 		<Polish>Gather from Berry Bushes by zwiększyć produkcję żywności w Twoich miastach.</Polish>
 	</TEXT>
@@ -734,7 +734,7 @@
 		<Tag>TXT_KEY_BUILDING_ROOT_TUBERS_STRATEGY</Tag>
 		<English>Gather Root Tubers to increase your cities food.</English>
 		<French>Augmente la nourriture de votre ville.</French>
-		<German>[COLOR_BUILDING_TEXT]Knollensammler[COLOR_REVERT] sorgen für zusätzliche Nahrung in frühen Städten.</German>
+		<German>[COLOR_BUILDING_TEXT]Knollensammler[COLOR_REVERT] versorgen frühe Städte mit zusätzlicher Nahrung.</German>
 		<Italian>Raccogli i tuberi per incrementare la produzione di cibo nella tua città.</Italian>
 		<Polish>Gather Root Tubers by zwiększyć produkcję żywności w Twoich miastach.</Polish>
 	</TEXT>
@@ -1435,7 +1435,7 @@
 		<Tag>TXT_KEY_BUILDING_WILD_MUSHROOMS_STRATEGY</Tag>
 		<English>Gather Wild Mushrooms to increase your cities food.</English>
 		<French>Augmente la nourriture de votre ville.</French>
-		<German>[COLOR_BUILDING_TEXT]Pilzsucher[COLOR_REVERT] sorgen für zusätzliche Nahrung in frühen Städten.</German>	
+		<German>[COLOR_BUILDING_TEXT]Pilzsucher[COLOR_REVERT] versorgen frühe Städte mit zusätzlicher Nahrung.</German>	
 		<Italian>Raccogli i funghi selvatici per incrementare la produzione di cibo della tua città.</Italian>
 		<Polish>Gather Wild Mushrooms by zwiększyć produkcję żywności w Twoich miastach.</Polish>
 	</TEXT>
@@ -2225,6 +2225,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
+		<German>
+			<Text>Reisigsammler:Reisigsammlers:Reisigsammler:Reisigsammler</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
 		<Italian>Raccoglitore di bastoncini</Italian>
 		<Polish>Zbieracz Patyków</Polish>
 	</TEXT>
@@ -2232,11 +2237,13 @@
 		<Tag>TXT_KEY_BUILDING_STICK_GATHERER_STRATEGY</Tag>
 		<English>Gather Sticks for fuel or building materals.</English>
 		<French>Récolte des Branchages comme combustible ou matière première.</French>
+		<German>[COLOR_BUILDING_TEXT]Reisigsammler[COLOR_REVERT] steigern die Produktivität früher Städte.</German>
 		<Italian>Raccogli dei bastoncini come combustibile o come materiale da costruzione.</Italian>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_STICK_GATHERER_PEDIA</Tag>
 		<English>A branch or tree branch is a woody structural member connected to but not part of the central trunk of a tree. Large branches are known as boughs and small branches are known as twigs.</English>
+		<German>Lange bevor die Menschen in der Lage waren, Bäume zu fällen, bedienten sie sich schon heruntergefallener Äste und Zweige, die sie als Werkzeuge, Waffen, Baumaterial oder Brennstoff verwendeten. Sowohl die Werkzeugnutzung als auch das Sammeln von Reisig für den Nestbau sind ebenfalls von diversen Tierarten (u.a. Vögeln und Primaten) bekannt, der Mensch fand aber nach und nach immer mehr Verwendungsmöglichkeiten für das gesammelte Holz.</German>
 		<Italian>Un ramo è una parte legnosa che fa parte della struttura di un albero, collegata ma non parte del tronco centrale. Le parti più grandi sono conosciute come rami, mentre quelle più piccole sono note come rametti e ramoscelli.</Italian>
 		<Polish>Osoba odpowiedzialna za zbieranie i przynoszenie patyków i chrustu do Twojej osady.</Polish>
 	</TEXT>
@@ -19824,7 +19831,7 @@
 		<English>Seed Camp</English>
 		<French>Dépot de Semences</French>
 		<German>
-			<Text>Kornlager:Kornlagers:Kornlager:Kornlager</Text>
+			<Text>Wildgetreidefeld:Wildgetreidefeldes:Wildgetreidefeld:Wildgetreidefeld</Text>
 			<Gender>Neuter</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -19835,7 +19842,7 @@
 		<Tag>TXT_KEY_BUILDING_SEED_CAMP_STRATEGY</Tag>
 		<English>Build a Seed Camp in your city to increase your food.</English>
 		<French>Construisez un [COLOR_BUILDING_TEXT]Dépot de Semences[COLOR_REVERT] pour accroître la nourriture de votre ville.</French>
-		<German>[COLOR_BUILDING_TEXT]Kornlager[COLOR_REVERT] sorgen für zusätzliche Nahrung in frühen Städten.</German>
+		<German>[COLOR_BUILDING_TEXT]Wildgetreidefelder[COLOR_REVERT] versorgen frühe Städte mit zusätzlicher Nahrung.</German>
 		<Italian>Costruisci un campo di semina per incrementare la produzione di cibo della tua città.</Italian>
 		<Polish>Ziarniak (caryopsis) - suchy, niepękający owoc traw będący jednonasienną niełupką. Ziarniak okryty jest okrywą owocowo-nasienną, która powstaje ze zrośnięcia się kilkuwarstwowej owocni, łupiny nasiennej i resztek obielma. Główną masę ziarniaka stanowi nasiono zawierające niewielki zarodek oraz bielmo stanowiące jego znaczną część. W rolnictwie i potocznie ziarniaki określa się zbiorczą nazwą "ziarno". Ziarna zbóżstanowią podstawowe źródło pokarmu roślinnego dla ludzi.</Polish>
 	</TEXT>
@@ -19843,7 +19850,7 @@
 		<Tag>TXT_KEY_BUILDING_SEED_CAMP_PEDIA</Tag>
 		<English>A Seed Camp is a place to gather seeds.</English>
 		<French>.</French>
-		<German>In einem Kornlager werden die gesammelten Körner der Gemeinschaft aufbewahrt. Bei den ersten Kornlagern handelte es sich um einfache Unterstände zum Schutz vor Regenwasser oder ausgehobene Gruben im Boden.</German>
+		<German>Wildgetreidefelder im Einzugsgebiet von Siedlungen waren eine gute Nahrungsquelle für die frühen Menschen. Sie wurden noch nicht selbstständig angelegt, sondern entstanden meist zufällig durch eingeschleppte Samen.</German>
 		<Italian>Un campo di semina è un posto per raccogliere i semi.</Italian>
 		<Polish>Zbuduj Seed Camp by zwiększyć produkcję żywności w Twoim mieście.</Polish>
 	</TEXT>

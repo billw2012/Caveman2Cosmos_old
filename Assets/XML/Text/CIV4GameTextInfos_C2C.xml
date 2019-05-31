@@ -477,7 +477,7 @@
 		<Tag>TXT_KEY_BUILDING_OBSOLETE_WITH</Tag>
 		<English>[COLOR_WARNING_TEXT]Obsolete with [LINK=%s1_TechType]%s2_TechName[\LINK][COLOR_REVERT]</English>
 		<French>[COLOR_WARNING_TEXT]Obsolète avec : [LINK=%s1_TechType]%s2_TechName[\LINK][COLOR_REVERT]</French>
-		<German>[COLOR_WARNING_TEXT]Veraltet durch die Technologie [LINK=%s1_TechType]%s2_TechName[\LINK][COLOR_REVERT]</German>
+		<German>[ICON_BULLET][COLOR_WARNING_TEXT]veraltet durch die Technologie [LINK=%s1_TechType]%s2_TechName[\LINK][COLOR_REVERT]</German>
 		<Italian>[COLOR_WARNING_TEXT]Diventa obsoleto con [NUM1:il:la:i:le] [LINK=%s1_TechType]%s2_TechName[\LINK][COLOR_REVERT]</Italian>
 		<Spanish>[COLOR_WARNING_TEXT]Caerá en desuso con [NUM1:el:la:los:las] [LINK=%s1_TechType]%s2_TechName[\LINK][COLOR_REVERT]</Spanish>
 	</TEXT>

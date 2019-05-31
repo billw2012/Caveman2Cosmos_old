@@ -6313,12 +6313,18 @@
 		<Tag>TXT_KEY_BONUS_STONETOOLS</Tag>
 		<English>Stone Tools</English>
 		<French>Outils en pierre</French>
+		<German>
+			<Text>Steinwerkzeuge:Steinwerkzeuge:Steinwerkzeugen:Steinwerkzeuge</Text>
+			<Gender>Neuter</Gender>
+			<Plural>1</Plural>
+		</German>
 		<Italian>Utensili in pietra</Italian>
 		<Polish>Narzędzia Kamienne</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BONUS_STONETOOLS_PEDIA</Tag>
 		<English>A stone tool is, in the most general sense, any tool made either partially or entirely out of stone. Although stone tool-dependent societies and cultures still exist today, most stone tools are associated with prehistoric, particularly Stone Age cultures that have become extinct.</English>
+		<German>Als [COLOR_HIGHLIGHT_TEXT]Steinwerkzeuge[COLOR_REVERT] bezeichnen Archäologen alle von Menschen oder ihren Vorfahren bearbeiteten Steine, die als Werkzeuge genutzt wurden. Auch heutzutage werden regional noch Steinwerkzeuge z.B. in Form von Mahlsteinen oder Mörsern verwendet.</German>
 		<Italian>Un utensile in pietra è un qualsiasi utensile fatto parzialmente o interamente in pietra. Anche se esistono ancora società dipendenti da utensili in pietra, la maggior parte di essi sono associati all'era preistorica.</Italian>
 		<Polish>Narzędzie kamienne, w najbardziej ogólnym sensie, jakieś narzędzie, wykonane w całości lub częściowo z kamienia. Chociaż kamienne narzędzie społeczeństw i kultur nadal istnieją zależne od dziś, większość narzędzi kamiennych są związane z prehistorycznych kultur, zwłaszcza z epoki kamienia, które wymarły.</Polish>
 	</TEXT>
