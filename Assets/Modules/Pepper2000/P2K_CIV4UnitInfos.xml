@@ -280,6 +280,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_MOON</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreMoon</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -325,6 +326,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_MOON_SURFACE</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreMoonSurface</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -424,6 +426,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_UPGRADE_TO_PLANET_SETTLER</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>BuildCityCislunar</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 def isPossible(unit,plot):
@@ -518,6 +521,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_UPGRADE_TO_PLANET_SETTLER</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>BuildCityLunar</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 def isPossible(unit,plot):
@@ -622,6 +626,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_UPGRADE_TO_PLANET_SETTLER</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>BuildCityOnPlanet</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 def isPossible(unit,plot):
@@ -753,6 +758,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_UPGRADE_TO_PLANET_SETTLER</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>BuildCitySolarSystem</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 def isPossible(unit,plot):
@@ -844,6 +850,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_UPGRADE_TO_PLANET_SETTLER</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>BuildCityInterstellar</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 def isPossible(unit,plot):
@@ -950,6 +957,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_UPGRADE_TO_PLANET_SETTLER</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>BuildCityInterstellar2</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 def isPossible(unit,plot):
@@ -1074,6 +1082,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_UPGRADE_TO_PLANET_SETTLER</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>BuildCityInterstellar3</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 def isPossible(unit,plot):
@@ -1179,6 +1188,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_UPGRADE_TO_PLANET_SETTLER</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>BuildCityInterstellar4</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 def isPossible(unit,plot):
@@ -1297,6 +1307,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_UPGRADE_TO_PLANET_SETTLER</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>BuildCityHyperspace</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 def isPossible(unit,plot):
@@ -2830,6 +2841,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_CAPTURE_ASTEROID</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>BuildCapturedAsteroidSolarSail</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -3009,6 +3021,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_CAPTURE_ASTEROID</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>BuildCapturedAsteroidMagsail</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -3194,6 +3207,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_CAPTURE_ASTEROID</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>BuildCapturedAsteroidNanoworker</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -4464,6 +4478,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_LAUNCH_SATELLITE</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>LaunchSatellite</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -4496,6 +4511,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_LAUNCH_SATELLITE_CISLUNAR</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreMoonSurface</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -4621,6 +4637,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_SS1</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreSS1</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -4653,6 +4670,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_SS2</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreSS1</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -4685,6 +4703,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_SS3</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreSS3</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -4717,6 +4736,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_UPGRADE_SS2</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>UpgradeSS2</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 def isPossible(unit,plot):
@@ -4747,6 +4767,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_UPGRADE_SS3</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>UpgradeSS3</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 def isPossible(unit,plot):
@@ -4846,6 +4867,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_INNER_SOLAR_SYSTEM</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreInnerSolarSystem</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -4878,6 +4900,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_OUTER_SOLAR_SYSTEM</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreOuterSolarSystem</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -4910,6 +4933,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_TRANSNEPTUNIAN</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreTransneptunian</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -4942,6 +4966,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_PLANET</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreMercury</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -4976,6 +5001,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_PLANET</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreVenus</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -5010,6 +5036,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_PLANET</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreMars</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -5044,6 +5071,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_ASTEROID</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreAsteroid</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -5078,6 +5106,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_PLANET</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreJupiter</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -5112,6 +5141,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_PLANET</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreSaturn</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -5146,6 +5176,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_JMOON</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreEuropa</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -5180,6 +5211,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_JMOON</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreTitan</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -5214,6 +5246,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_PLANET</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreUranus</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -5248,6 +5281,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_PLANET</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreNeptune</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -5282,6 +5316,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_ASTEROID</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreKBO</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -5316,6 +5351,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_SEDNOID</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreSednoid</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -5348,6 +5384,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_SOLAR_SYSTEM_LIFE</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreInterstellarLife</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -5454,6 +5491,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_OORT_CLOUD</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreOortCloud</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -5488,6 +5526,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_INTERSTELLAR</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreInterstellar</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -5520,6 +5559,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_EXOPLANET</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreExoplanet</PythonName>
                             <Python>
                                 from CvPythonExtensions import CyGlobalContext
                                 from CvPythonExtensions import *
@@ -5554,6 +5594,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_INTERSTELLAR_LIFE</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreInterstellarLife</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -5652,6 +5693,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_BRACEWELL</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreBracewell</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -5684,6 +5726,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_ANCIENT_CIVILIZATION</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreAncientCivilization</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -5716,6 +5759,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_GALACTIC_CORE</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreGalacticCore</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -5815,6 +5859,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_VON_NEUMANN</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreVonNeumann</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -5847,6 +5892,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_ANCIENT_CIVILIZATION</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreAncientCivilization</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -5946,6 +5992,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_DISTANT_COSMOS</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreQuantum</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -6045,6 +6092,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_HYPERSPACE</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreInterdimensional</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -6077,6 +6125,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_MULTIVERSE</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreMultiverse</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -6193,6 +6242,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_SS1</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreSS1</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -6225,6 +6275,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_SS2</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreSS2</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -6257,6 +6308,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_EXPLORE_SS3</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>ExploreSS3</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -6289,6 +6341,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_UPGRADE_SS2</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>UpgradeSS2</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 def isPossible(unit,plot):
@@ -6319,6 +6372,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_UPGRADE_SS3</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>UpgradeSS3</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 def isPossible(unit,plot):
@@ -6349,6 +6403,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_UPGRADE_CISLUNAR_SETTLER</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>UpgradeCislunarSettler</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -6380,6 +6435,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_UPGRADE_LUNAR_SETTLER</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>UpgradeLunarSettler</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
@@ -6411,6 +6467,7 @@
 						<Outcome>
 							<OutcomeType>OUTCOME_UPGRADE_PLANET_SETTLER</OutcomeType>
 							<iChance>100</iChance>
+                            <PythonName>UpgradePlanetSettler</PythonName>
                             <Python>
                                 from CvPythonExtensions import *
                                 import random
