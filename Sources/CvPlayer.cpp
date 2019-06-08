@@ -37848,7 +37848,7 @@ int CvPlayer::getCoastalAIInfluence()
 		iModifier = iInfluence/iNumCities;
 	}
 	iModifier += 50;
-	return std::max(0, iModifier);
+	return iModifier;
 }
 
 	//Team Project (6)

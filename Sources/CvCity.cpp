@@ -8991,27 +8991,27 @@ int CvCity::foodConsumption(bool bNoAngry, int iExtra, bool bIncludeWastage) con
 	return result;
 }
 
-float CvCity::foodWastage(int surplass) const
+float CvCity::foodWastage(int surplass) const//Included by Thunderbrd 6/8/2019, code contributed by Sorcdk
 {
-#define	MAX_SURPLASS	500
-	static	float	calculatedWaste[MAX_SURPLASS];
-	static	int calculatedTo = -1;
-	int		startWasteAtConsumptionPercent = GC.getDefineINT("WASTAGE_START_CONSUMPTION_PERCENT");
-	float	wastageGrowthFactor = GC.getDefineFLOAT("WASTAGE_GROWTH_FACTOR");
+#define    MAX_SURPLASS    2000
+	static    float    calculatedWaste[MAX_SURPLASS];
+	static    int calculatedTo = -1;
+	int        startWasteAtConsumptionPercent = GC.getDefineINT("WASTAGE_START_CONSUMPTION_PERCENT");
+	float    wastageGrowthFactor = GC.getDefineFLOAT("WASTAGE_GROWTH_FACTOR");
 
-	if ( wastageGrowthFactor == 0 )
+	if (wastageGrowthFactor == 0)
 	{
-		wastageGrowthFactor = (float)0.05;	//	default
+		wastageGrowthFactor = (float)0.05;    //    default
 	}
 
-	if ( startWasteAtConsumptionPercent >= 0 )
+	if (startWasteAtConsumptionPercent >= 0)
 	{
-		if ( surplass == -1 )
+		if (surplass == -1)
 		{
 			int iPopulationExponent = getPopulation() - 1; // Each pop past the first increases consumption per population by .1, rounded down.  Each point of population means more actual people the higher the amount goes.
 			int iConsumptionPerPopulationBase = iPopulationExponent + (GC.getFOOD_CONSUMPTION_PER_POPULATION() * 10);
 			int iConsumptionbyPopulation = (getPopulation() * iConsumptionPerPopulationBase) / 10;
-			surplass = foodDifference(true, false) - (iConsumptionbyPopulation * startWasteAtConsumptionPercent)/100;
+			surplass = foodDifference(true, false) - (iConsumptionbyPopulation * startWasteAtConsumptionPercent) / 100;
 		}
 	}
 	else
@@ -9019,32 +9019,91 @@ float CvCity::foodWastage(int surplass) const
 		surplass = -1;
 	}
 
-	//	Nothing wasted if there is no surplass
-	if ( surplass <= 0 )
+	//    Nothing wasted if there is no surplass
+	if (surplass <= 0)
 	{
 		return 0;
 	}
-	//	Cache what we can as it's not a trivially cheap computation
-	else if ( surplass <= calculatedTo )
+	//    Cache what we can as it's not a trivially cheap computation
+	else if (surplass <= calculatedTo)
 	{
 		return calculatedWaste[surplass];
 	}
 	else
 	{
-		if ( surplass >= MAX_SURPLASS )
+		if (surplass >= MAX_SURPLASS)
 		{
-			//	After the max we bother calculating it all gets wasted
-			return calculatedWaste[MAX_SURPLASS-1] + (surplass - MAX_SURPLASS + 1);
+			//    After the max we shift to from assymtotic behavior toward the limit to the limit of efficiency
+			return foodWastage(MAX_SURPLASS - 1) + (foodWastage(MAX_SURPLASS - 1) - foodWastage(MAX_SURPLASS - 2)) * (surplass - MAX_SURPLASS + 1);
+			//return foodWastage(MAX_SURPLASS - 1) + ((float)1.0 - wastageGrowthFactor/((float)1.0+wastageGrowthFactor)) * (surplass - MAX_SURPLASS + 1);
+			//    After the max we bother calculating it all gets wasted
+			//return calculatedWaste[MAX_SURPLASS-1] + ((float)1.0 - wastageGrowthFactor) * (surplass - MAX_SURPLASS + 1);
 		}
 		else
 		{
-			calculatedWaste[surplass] = foodWastage(surplass-1) + ((float)1 - (wastageGrowthFactor + pow((float)1.0 - wastageGrowthFactor, surplass))/((float)1.0+wastageGrowthFactor));
+			calculatedWaste[surplass] = foodWastage(surplass - 1) + (float)1.0 - (wastageGrowthFactor + ((float)1.0 - wastageGrowthFactor) / ((float)1.0 + (float)0.05 * (float)surplass));
+			//calculatedWaste[surplass] = foodWastage(surplass-1) + ((float)1 - (wastageGrowthFactor + pow((float)1.0 - wastageGrowthFactor, surplass))/((float)1.0+wastageGrowthFactor));
 			calculatedTo = surplass;
 
 			return calculatedWaste[surplass];
 		}
 	}
 }
+//Old version
+//float CvCity::foodWastage(int surplass) const
+//{
+//#define	MAX_SURPLASS	500
+//	static	float	calculatedWaste[MAX_SURPLASS];
+//	static	int calculatedTo = -1;
+//	int		startWasteAtConsumptionPercent = GC.getDefineINT("WASTAGE_START_CONSUMPTION_PERCENT");
+//	float	wastageGrowthFactor = GC.getDefineFLOAT("WASTAGE_GROWTH_FACTOR");
+//
+//	if ( wastageGrowthFactor == 0 )
+//	{
+//		wastageGrowthFactor = (float)0.05;	//	default
+//	}
+//
+//	if ( startWasteAtConsumptionPercent >= 0 )
+//	{
+//		if ( surplass == -1 )
+//		{
+//			int iPopulationExponent = getPopulation() - 1; // Each pop past the first increases consumption per population by .1, rounded down.  Each point of population means more actual people the higher the amount goes.
+//			int iConsumptionPerPopulationBase = iPopulationExponent + (GC.getFOOD_CONSUMPTION_PER_POPULATION() * 10);
+//			int iConsumptionbyPopulation = (getPopulation() * iConsumptionPerPopulationBase) / 10;
+//			surplass = foodDifference(true, false) - (iConsumptionbyPopulation * startWasteAtConsumptionPercent)/100;
+//		}
+//	}
+//	else
+//	{
+//		surplass = -1;
+//	}
+//
+//	//	Nothing wasted if there is no surplass
+//	if ( surplass <= 0 )
+//	{
+//		return 0;
+//	}
+//	//	Cache what we can as it's not a trivially cheap computation
+//	else if ( surplass <= calculatedTo )
+//	{
+//		return calculatedWaste[surplass];
+//	}
+//	else
+//	{
+//		if ( surplass >= MAX_SURPLASS )
+//		{
+//			//	After the max we bother calculating it all gets wasted
+//			return calculatedWaste[MAX_SURPLASS-1] + (surplass - MAX_SURPLASS + 1);
+//		}
+//		else
+//		{
+//			calculatedWaste[surplass] = foodWastage(surplass-1) + ((float)1 - (wastageGrowthFactor + pow((float)1.0 - wastageGrowthFactor, surplass))/((float)1.0+wastageGrowthFactor));
+//			calculatedTo = surplass;
+//
+//			return calculatedWaste[surplass];
+//		}
+//	}
+//}
 
 int CvCity::foodDifference(bool bBottom, bool bIncludeWastage, bool bIgnoreFoodBuildOrRev) const
 {
@@ -17084,17 +17143,17 @@ int CvCity::calculateTeamCulturePercent(TeamTypes eIndex) const
 }
 
 
-void CvCity::setCulture(PlayerTypes eIndex, int iNewValue, bool bPlots, bool bUpdatePlotGroups)
+void CvCity::setCulture(PlayerTypes eIndex, int iNewValue, bool bPlots, bool bUpdatePlotGroups, bool bNationalSet)
 {
 	if ( iNewValue > MAX_INT/100 )
 	{
 		iNewValue = MAX_INT/100;
 	}
 
-	setCultureTimes100(eIndex, 100 * iNewValue, bPlots, bUpdatePlotGroups);
+	setCultureTimes100(eIndex, 100 * iNewValue, bPlots, bUpdatePlotGroups, bNationalSet);
 }
 
-void CvCity::setCultureTimes100(PlayerTypes eIndex, int iNewValue, bool bPlots, bool bUpdatePlotGroups)
+void CvCity::setCultureTimes100(PlayerTypes eIndex, int iNewValue, bool bPlots, bool bUpdatePlotGroups, bool bNationalSet)
 {
 	FAssertMsg(eIndex >= 0, "eIndex expected to be >= 0");
 	FAssertMsg(eIndex < MAX_PLAYERS, "eIndex expected to be < MAX_PLAYERS");
@@ -17111,7 +17170,7 @@ void CvCity::setCultureTimes100(PlayerTypes eIndex, int iNewValue, bool bPlots, 
 			doPlotCulture(true, eIndex, 0);
 		}
 	}
-	if (iOldCulture < iNewValue)
+	if (!bNationalSet && (iOldCulture < iNewValue))
 	{
 		GET_PLAYER(getOwner()).changeCulture((iNewValue - iOldCulture) / 100);
 	}
@@ -17122,6 +17181,9 @@ void CvCity::changeCulture(PlayerTypes eIndex, int iChange, bool bPlots, bool bU
 {
 	int	iOld = getCultureTimes100(eIndex);
 	int iNew;
+
+	GET_PLAYER(getOwner()).changeCulture(iChange);
+	bool bNationalSet = true;
 
 	if ( iChange > 0 )
 	{
@@ -17139,13 +17201,16 @@ void CvCity::changeCulture(PlayerTypes eIndex, int iChange, bool bPlots, bool bU
 		iNew = iOld + 100 * iChange;
 	}
 
-	setCultureTimes100(eIndex, iNew, bPlots, bUpdatePlotGroups);
+	setCultureTimes100(eIndex, iNew, bPlots, bUpdatePlotGroups, bNationalSet);
 }
 
 void CvCity::changeCultureTimes100(PlayerTypes eIndex, int iChange, bool bPlots, bool bUpdatePlotGroups)
 {
 	int iOld = getCultureTimes100(eIndex);
 	int iNew;
+
+	GET_PLAYER(getOwner()).changeCulture( iChange / 100 );
+	bool bNationalSet = true;
 
 	if ( iChange > 0 )
 	{
@@ -17163,7 +17228,7 @@ void CvCity::changeCultureTimes100(PlayerTypes eIndex, int iChange, bool bPlots,
 		iNew = iOld + iChange;
 	}
 
-	setCultureTimes100(eIndex, iNew, bPlots, bUpdatePlotGroups);
+	setCultureTimes100(eIndex, iNew, bPlots, bUpdatePlotGroups, bNationalSet);
 }
 
 
