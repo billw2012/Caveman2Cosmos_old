@@ -869,7 +869,7 @@
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
@@ -877,7 +877,7 @@
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
@@ -885,7 +885,7 @@
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
@@ -893,7 +893,7 @@
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -1523,7 +1523,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<FreeBonus>BONUS_DRAMA</FreeBonus>
 			<iNumFreeBonuses>6</iNumFreeBonuses>
@@ -5225,7 +5225,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>100</iCommerce>
+				<iCommerce>25</iCommerce>
 			</CommerceModifiers>
 			<!-- Great People effects -->
 			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
@@ -5561,7 +5561,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<FreeBonus>BONUS_MOVIES</FreeBonus>
 			<iNumFreeBonuses>6</iNumFreeBonuses>
@@ -6460,7 +6460,7 @@
 			<GlobalCommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>5</iCommerce>
+				<iCommerce>1</iCommerce>
 			</GlobalCommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -6845,7 +6845,7 @@
 			<GlobalCommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 			</GlobalCommerceModifiers>
 			<!-- Great People effects -->
 			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
@@ -7038,7 +7038,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -7054,7 +7054,7 @@
 			<GlobalCommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 			</GlobalCommerceModifiers>
 			<SpecialistExtraCommerces>
 				<iCommerce>0</iCommerce>
@@ -8496,7 +8496,7 @@
 			<CommerceModifiers>
 				<iCommerce>10</iCommerce>
 				<iCommerce>25</iCommerce>
-				<iCommerce>20</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -9317,7 +9317,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<FreeBonus>BONUS_MUSIC</FreeBonus>
 			<iNumFreeBonuses>6</iNumFreeBonuses>
@@ -11037,7 +11037,7 @@
 			<GlobalCommerceModifiers>
 				<iCommerce>5</iCommerce>
 				<iCommerce>5</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 				<iCommerce>10</iCommerce>
 			</GlobalCommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
@@ -13038,7 +13038,7 @@
 			<GlobalCommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>25</iCommerce>
+				<iCommerce>6</iCommerce>
 			</GlobalCommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -14732,7 +14732,7 @@
 			<CommerceModifiers>
 				<iCommerce>25</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Misc -->
 			<iAsset>15</iAsset>
@@ -15642,7 +15642,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>10</iCommerce>
-				<iCommerce>20</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<ObsoleteSafeCommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -15771,7 +15771,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>10</iCommerce>
-				<iCommerce>20</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<ObsoleteSafeCommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -15900,7 +15900,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>10</iCommerce>
-				<iCommerce>20</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<ObsoleteSafeCommerceChanges>
 				<iCommerce>0</iCommerce>

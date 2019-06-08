@@ -913,7 +913,7 @@
 			<FreeBonus>BONUS_ANIMATED_MOVIES</FreeBonus>
 			<iNumFreeBonuses>1</iNumFreeBonuses>
 			<iAsset>18</iAsset>
-			<iAdvancedStartCost>-1</iAdvancedStartCost>
+			<iCost>-1</iCost>
             <bAutoBuild>1</bAutoBuild>
 		</BuildingInfo>
 	</BuildingInfos>

@@ -914,7 +914,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>5</iCommerce>
-				<iCommerce>5</iCommerce>
+				<iCommerce>1</iCommerce>
 			</CommerceModifiers>
 			<!-- Specialist effects -->
 			<SpecialistCounts>
@@ -2889,7 +2889,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>15</iCommerce>
+				<iCommerce>4</iCommerce>
 			</CommerceModifiers>
 			<!-- Specialist effects -->
 			<SpecialistCounts>
@@ -5656,7 +5656,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>25</iCommerce>
+				<iCommerce>6</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<BonusHappinessChanges>
@@ -6210,7 +6210,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -12797,7 +12797,7 @@
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -16401,7 +16401,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>30</iCommerce>
+				<iCommerce>7</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<BonusHappinessChanges>
@@ -16821,7 +16821,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -23170,7 +23170,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -23482,7 +23482,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>5</iCommerce>
+				<iCommerce>1</iCommerce>
 			</CommerceModifiers>
 			<!-- Specialist effects -->
 			<SpecialistCounts>
@@ -23577,7 +23577,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>2</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -26834,7 +26834,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>30</iCommerce>
+				<iCommerce>7</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<BonusHappinessChanges>
@@ -27636,7 +27636,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>10</iCommerce>
-				<iCommerce>30</iCommerce>
+				<iCommerce>7</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -28011,7 +28011,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Great People effects -->
 			<iGreatPeopleRateModifier>25</iGreatPeopleRateModifier>
@@ -29951,7 +29951,7 @@
 			<CommerceModifiers>
 				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>20</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<TechHealthChanges>
@@ -34084,7 +34084,7 @@
 			<CommerceModifiers>
 				<iCommerce>10</iCommerce>
 				<iCommerce>10</iCommerce>
-				<iCommerce>20</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
 			<!-- Other -->
@@ -37955,7 +37955,7 @@
 			<CommerceModifiers>
 				<iCommerce>10</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>25</iCommerce>
+				<iCommerce>6</iCommerce>
 			</CommerceModifiers>
 			<!-- Specialist effects -->
 			<FreeSpecialistCounts>
@@ -38521,7 +38521,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>-15</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Unit effects -->
 			<FreePromotion>PROMOTION_FANATIC</FreePromotion>
@@ -44484,7 +44484,7 @@
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
@@ -44492,7 +44492,7 @@
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 				<BonusCommerceModifier>
@@ -44500,7 +44500,7 @@
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>2</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -49758,7 +49758,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -51024,7 +51024,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -51603,7 +51603,7 @@
 			<CommerceModifiers>
 				<iCommerce>7</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>20</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Specialist effects -->
 			<FreeSpecialistCounts>
@@ -54697,7 +54697,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<BonusHappinessChanges>
@@ -55504,7 +55504,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -56699,7 +56699,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -64921,7 +64921,7 @@
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>15</iCommerce>
+				<iCommerce>4</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<BonusHealthChanges>
@@ -71745,7 +71745,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Misc. Effects -->
 			<iMilitaryProductionModifier>10</iMilitaryProductionModifier>
@@ -72976,7 +72976,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<BonusHappinessChanges>
@@ -82446,7 +82446,7 @@
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -82521,7 +82521,7 @@
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -82795,7 +82795,7 @@
 			<CommerceModifiers>
 				<iCommerce>2</iCommerce>
 				<iCommerce>2</iCommerce>
-				<iCommerce>5</iCommerce>
+				<iCommerce>1</iCommerce>
 				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Other -->
@@ -83546,7 +83546,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 				<iCommerce>10</iCommerce>
 			</CommerceModifiers>
 			<!-- Defense effects -->
@@ -87438,7 +87438,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Great People effects -->
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
@@ -95834,7 +95834,7 @@
 			<CommerceModifiers>
 				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>15</iCommerce>
+				<iCommerce>4</iCommerce>
 			</CommerceModifiers>
 			<!-- Specialist effects -->
 			<FreeSpecialistCounts>
@@ -101466,7 +101466,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -102137,7 +102137,7 @@
 					<TechCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</TechCommerce>
 				</TechCommerceModifier>
 				<TechCommerceModifier>
@@ -102145,7 +102145,7 @@
 					<TechCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</TechCommerce>
 				</TechCommerceModifier>
 				<TechCommerceModifier>
@@ -102153,7 +102153,7 @@
 					<TechCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>5</iCommerce>
+						<iCommerce>1</iCommerce>
 					</TechCommerce>
 				</TechCommerceModifier>
 			</TechCommerceModifiers>
@@ -102667,7 +102667,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Defense effects -->
 			<iDCMAirbombMission>2</iDCMAirbombMission>
@@ -103110,7 +103110,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -103271,7 +103271,7 @@
 			<CommerceModifiers>
 				<iCommerce>7</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>35</iCommerce>
+				<iCommerce>9</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -107025,7 +107025,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Other -->
 			<iHurryCostModifier>100</iHurryCostModifier>
@@ -107467,7 +107467,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -113327,7 +113327,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>

@@ -72,7 +72,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>100</iCommerce>
+				<iCommerce>25</iCommerce>
 			</CommerceModifiers>
 			<!-- Misc. Effects -->
             <iPopulationgrowthratepercentage>-25</iPopulationgrowthratepercentage>
@@ -193,7 +193,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>100</iCommerce>
+				<iCommerce>25</iCommerce>
 			</CommerceModifiers>
 			<!-- Misc. Effects -->
             <iMilitaryProductionModifier>25</iMilitaryProductionModifier>

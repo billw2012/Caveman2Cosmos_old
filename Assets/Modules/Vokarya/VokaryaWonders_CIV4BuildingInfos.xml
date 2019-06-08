@@ -874,7 +874,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -1657,7 +1657,7 @@
 			<CommerceModifiers>
 				<iCommerce>12</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>25</iCommerce>
+				<iCommerce>6</iCommerce>
 			</CommerceModifiers>
 			<BuildingHappinessChanges>
 				<BuildingHappinessChange>
@@ -2156,7 +2156,7 @@
 			<CommerceModifiers>
 				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<SpecialistCounts>
 				<SpecialistCount>
@@ -3446,7 +3446,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>100</iCommerce>
+				<iCommerce>25</iCommerce>
 			</CommerceModifiers>
 			<BuildingHappinessChanges>
 				<BuildingHappinessChange>
@@ -3499,7 +3499,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
+				<iCommerce>12</iCommerce>
 			</CommerceModifiers>
 			<BuildingHappinessChanges>
 				<BuildingHappinessChange>

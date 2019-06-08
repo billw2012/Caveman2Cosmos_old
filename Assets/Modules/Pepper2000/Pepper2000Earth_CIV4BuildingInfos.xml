@@ -28517,7 +28517,7 @@
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 			</GlobalCommerceModifiers>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -28694,7 +28694,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>20</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<GlobalBuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>

@@ -28,7 +28,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>5</iCommerce>
+				<iCommerce>1</iCommerce>
 			</CommerceModifiers>
 			<PropertyManipulators>
 				<PropertySource>
@@ -220,7 +220,7 @@
 			<GlobalCommerceModifiers>
 				<iCommerce>4</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>8</iCommerce>
+				<iCommerce>2</iCommerce>
 			</GlobalCommerceModifiers>
 			<iGlobalHappiness>4</iGlobalHappiness>
 			<!-- Misc -->
@@ -1641,7 +1641,7 @@
 			<GlobalCommerceModifiers>
 				<iCommerce>1</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>2</iCommerce>
+				<iCommerce>1</iCommerce>
 			</GlobalCommerceModifiers>
 			<!-- Misc -->
 			<bNeverCapture>1</bNeverCapture>
@@ -3604,7 +3604,7 @@
 			<GlobalCommerceModifiers>
 				<iCommerce>2</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>4</iCommerce>
+				<iCommerce>1</iCommerce>
 			</GlobalCommerceModifiers>
 			<!-- Misc -->
 			<bNeverCapture>1</bNeverCapture>
@@ -4176,7 +4176,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>25</iCommerce>
+				<iCommerce>6</iCommerce>
 			</CommerceModifiers>
 			<SpecialistCounts>
 				<SpecialistCount>
@@ -5695,7 +5695,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>25</iCommerce>
+				<iCommerce>6</iCommerce>
 			</CommerceModifiers>
 			<FreeSpecialistCounts>
 				<FreeSpecialistCount>
@@ -5972,7 +5972,7 @@
 			<GlobalCommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>2</iCommerce>
-				<iCommerce>5</iCommerce>
+				<iCommerce>1</iCommerce>
 			</GlobalCommerceModifiers>
 			<!-- Misc -->
 			<bNeverCapture>1</bNeverCapture>
@@ -6804,7 +6804,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<iWarWearinessModifier>-50</iWarWearinessModifier>
 			<!-- Synergy -->
@@ -7107,7 +7107,7 @@
 			<GlobalCommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 			</GlobalCommerceModifiers>
 			<SpecialistCounts>
 				<SpecialistCount>
@@ -7210,7 +7210,7 @@
 			<GlobalCommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 			</GlobalCommerceModifiers>
 			<ReligionChanges>
 				<ReligionChange>
@@ -7299,7 +7299,7 @@
 			<GlobalCommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 			</GlobalCommerceModifiers>
 			<iGreatGeneralRateModifier>10</iGreatGeneralRateModifier>
 			<ReligionChanges>
@@ -7571,7 +7571,7 @@
 			<GlobalCommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>2</iCommerce>
 			</GlobalCommerceModifiers>
 			<FreeBuilding>BUILDINGCLASS_TRADITION_ASTHETIC_APPRECIATION_EFFECT</FreeBuilding>
 			<!-- Misc -->
@@ -7730,7 +7730,7 @@
 			<GlobalCommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>5</iCommerce>
+				<iCommerce>1</iCommerce>
 			</GlobalCommerceModifiers>
 			<GlobalBuildingClassProductionModifiers>
 				<BuildingClassProductionModifier>
