@@ -2392,7 +2392,8 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BEAR_STORY</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
-			<iCost>50</iCost>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<iCost>176</iCost>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -2440,6 +2441,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BEAR_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<iCost>450</iCost>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -11823,6 +11825,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HIPPOS_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<iCost>450</iCost>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>

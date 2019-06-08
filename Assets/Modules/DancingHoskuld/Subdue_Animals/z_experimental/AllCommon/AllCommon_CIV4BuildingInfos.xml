@@ -80,7 +80,8 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_AMPHIBIAN_STORY</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
-			<iCost>50</iCost>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<iCost>176</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -128,6 +129,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_AMPHIBIAN_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<iCost>450</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
@@ -278,7 +280,8 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BIRD_STORY</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
-			<iCost>50</iCost>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<iCost>176</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -326,6 +329,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BIRD_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<iCost>450</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
@@ -482,7 +486,8 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BUG_STORY</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
-			<iCost>50</iCost>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<iCost>176</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -530,6 +535,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BUG_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<iCost>450</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
@@ -680,7 +686,8 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FISH_STORY</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
-			<iCost>50</iCost>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<iCost>176</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -728,6 +735,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FISH_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<iCost>450</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
@@ -948,7 +956,8 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FLIGHTLESS_BIRD_STORY</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
-			<iCost>50</iCost>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<iCost>176</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -996,6 +1005,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FLIGHTLESS_BIRD_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<iCost>450</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
@@ -1146,7 +1156,8 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_OWL_STORY</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
-			<iCost>50</iCost>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<iCost>176</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -1194,6 +1205,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_OWL_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<iCost>450</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
@@ -1362,7 +1374,8 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PENGUIN_STORY</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
-			<iCost>50</iCost>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<iCost>176</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -1410,6 +1423,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PENGUIN_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<iCost>450</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
@@ -1580,7 +1594,8 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_RAPTOR_STORY</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
-			<iCost>50</iCost>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<iCost>176</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -1628,6 +1643,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_RAPTOR_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<iCost>450</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
@@ -1778,7 +1794,8 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_REPTILE_STORY</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
-			<iCost>50</iCost>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<iCost>176</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -1826,6 +1843,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_REPTILE_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<iCost>450</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
@@ -1976,7 +1994,8 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_RODENT_STORY</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
-			<iCost>50</iCost>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<iCost>176</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -2024,6 +2043,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_RODENT_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<iCost>450</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
@@ -2174,7 +2194,8 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SEA_BIRD_STORY</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
-			<iCost>50</iCost>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<iCost>176</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -2222,6 +2243,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SEA_BIRD_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<iCost>450</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
@@ -2414,7 +2436,8 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_WOLF_STORY</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
-			<iCost>50</iCost>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<iCost>176</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -2462,6 +2485,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_WOLF_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<iCost>450</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>

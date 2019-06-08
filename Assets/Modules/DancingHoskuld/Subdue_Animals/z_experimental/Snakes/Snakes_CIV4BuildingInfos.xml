@@ -91,7 +91,8 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SNAKES_STORY</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
-			<iCost>50</iCost>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<iCost>176</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -139,6 +140,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SNAKES_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<iCost>450</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
