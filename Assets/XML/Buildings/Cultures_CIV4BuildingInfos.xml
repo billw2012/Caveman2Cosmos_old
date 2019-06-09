@@ -6482,11 +6482,14 @@ PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech
 			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_CAVE_DWELLING</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_HARD_HAMMER_PERCUSSION</PrereqTech>
+			</TechTypes>
 			<VicinityBonus>BONUS_STONE</VicinityBonus>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
 			<!-- Construction -->
-			<iCost>120</iCost>
+			<iCost>180</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>

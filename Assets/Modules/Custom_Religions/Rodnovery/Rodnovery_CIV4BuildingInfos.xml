@@ -621,7 +621,8 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>-1</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
-			<iAdvancedStartCost>-1</iAdvancedStartCost><iMinAreaSize>-1</iMinAreaSize>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
+			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iCitiesPrereq>0</iCitiesPrereq>
 			<iLevelPrereq>0</iLevelPrereq>

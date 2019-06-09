@@ -1187,7 +1187,7 @@
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
@@ -2146,18 +2146,16 @@
 				<PrereqTech>TECH_ALCHEMY</PrereqTech>
 			</TechTypes>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_APOTHECARY_SHOP</BuildingClassType>
-					<iNumBuildingNeeded>3</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_APOTHECARY_SHOP</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PHARMACY</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_MODERN_HEALTH_CARE</ObsoleteTech>
 			<!-- Cost -->
@@ -2335,18 +2333,16 @@
 				<PrereqTech>TECH_SMITHING</PrereqTech>
 			</TechTypes>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_FORGE</BuildingClassType>
-					<iNumBuildingNeeded>3</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_FORGE</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_FOUNDRY</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_GLOBALIZATION</ObsoleteTech>
 			<!-- Cost -->
@@ -2395,18 +2391,16 @@
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_GUILDS</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_BUTCHERY</BuildingClassType>
-					<iNumBuildingNeeded>3</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_BUTCHERY</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_MEATPACKING_PLANT</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_GLOBALIZATION</ObsoleteTech>
 			<!-- Cost -->
@@ -2506,7 +2500,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_GUILD_CARPENTER</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
-			<!-- Clerks Guild -->
+			<!-- Printers Guild -->
 			<BuildingClass>BUILDINGCLASS_GUILD_CLERKS</BuildingClass>
 			<Type>BUILDING_GUILD_CLERKS</Type>
 			<MapCategoryTypes>
@@ -2521,18 +2515,16 @@
 				<PrereqTech>TECH_GUILDS</PrereqTech>
 			</TechTypes>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
+			<ReplaceBuildings>
+				<ReplaceBuilding>
 					<BuildingClassType>BUILDINGCLASS_PAPER_MAKER</BuildingClassType>
-					<iNumBuildingNeeded>3</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_PAPER_MAKER</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_PAPER_FACTORY</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+			</ReplaceBuildings>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_GLOBALIZATION</ObsoleteTech>
 			<!-- Cost -->
@@ -2569,7 +2561,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_GUILD_CLERKS</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
-			<!-- Crafts Guild -->
+			<!-- Artisans Guild -->
 			<BuildingClass>BUILDINGCLASS_GUILD_CRAFTS</BuildingClass>
 			<Type>BUILDING_GUILD_CRAFTS</Type>
 			<MapCategoryTypes>
@@ -2584,22 +2576,16 @@
 				<PrereqTech>TECH_INVENTION</PrereqTech>
 			</TechTypes>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_CRAFT_HUT</BuildingClassType>
-					<iNumBuildingNeeded>3</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_CRAFT_HUT</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_VIKING_TRADING_POST</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_AMERICAN_MALL</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_APPLIED_ECONOMICS</ObsoleteTech>
 			<!-- Cost -->
@@ -2651,18 +2637,20 @@
 				<PrereqTech>TECH_HERALDRY</PrereqTech>
 			</TechTypes>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_SEAMSTRESS_HUT</BuildingClassType>
-					<iNumBuildingNeeded>3</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_SEAMSTRESS_HUT</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_TEXTILE_MILL</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_TEXTILE_FACTORY</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_GLOBALIZATION</ObsoleteTech>
 			<!-- Cost -->
@@ -2699,7 +2687,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_GUILD_DRAPERS</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
-			<!-- Equestrian Guild -->
+			<!-- Hostler Guild -->
 			<BuildingClass>BUILDINGCLASS_GUILD_EQUESTRIAN</BuildingClass>
 			<Type>BUILDING_GUILD_EQUESTRIAN</Type>
 			<MapCategoryTypes>
@@ -2714,18 +2702,16 @@
 				<PrereqTech>TECH_GUILDS</PrereqTech>
 			</TechTypes>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_KNIGHT_STABLE</BuildingClassType>
-					<iNumBuildingNeeded>3</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_KNIGHT_STABLE</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_MODERN_STABLE</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_VERTICAL_FLIGHT</ObsoleteTech>
 			<!-- Cost -->
@@ -2972,12 +2958,16 @@
 					<iNumBuildingNeeded>3</iNumBuildingNeeded>
 				</PrereqBuildingClass>
 			</PrereqBuildingClasses>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_GROCER</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_SUPERMARKET</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_GLOBALIZATION</ObsoleteTech>
 			<!-- Cost -->
@@ -3040,10 +3030,6 @@
 					<BuildingClassType>BUILDINGCLASS_LUMBER_CAMP</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_VIKING_TRADING_POST</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_GLOBALIZATION</ObsoleteTech>
@@ -3096,18 +3082,16 @@
 				<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
 			</TechTypes>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_BRICK_MASON</BuildingClassType>
-					<iNumBuildingNeeded>3</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_BRICK_MASON</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BRICK_FACTORY</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_GLOBALIZATION</ObsoleteTech>
 			<!-- Cost -->
@@ -3144,7 +3128,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_GUILD_MASON</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
-			<!-- Mercers Guild -->
+			<!-- Merchants Guild -->
 			<BuildingClass>BUILDINGCLASS_GUILD_MERCERS</BuildingClass>
 			<Type>BUILDING_GUILD_MERCERS</Type>
 			<MapCategoryTypes>
@@ -3159,18 +3143,16 @@
 				<PrereqTech>TECH_USURY</PrereqTech>
 			</TechTypes>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_BAZAAR</BuildingClassType>
-					<iNumBuildingNeeded>3</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_BAZAAR</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_AMERICAN_MALL</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_APPLIED_ECONOMICS</ObsoleteTech>
 			<!-- Cost -->
@@ -3415,22 +3397,16 @@
 				<PrereqTech>TECH_AGRICULTURAL_TOOLS</PrereqTech>
 			</TechTypes>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_PUB</BuildingClassType>
-					<iNumBuildingNeeded>3</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_PUB</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_VIKING_TRADING_POST</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_DIVE_BAR</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_GLOBALIZATION</ObsoleteTech>
 			<!-- Cost -->
@@ -3479,7 +3455,6 @@
 			<Strategy>TXT_KEY_BUILDING_HEROIC_EPIC_STRATEGY</Strategy>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_LITERATURE</PrereqTech>
-			<iLevelPrereq>6</iLevelPrereq>
 			<!-- Cost -->
 			<iCost>450</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
@@ -3589,12 +3564,16 @@
 			<PrereqBonuses>
 				<Bonus>BONUS_HOLO_PROJECTORS</Bonus>
 			</PrereqBonuses>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_HOLOGRAPHIC_NETWORKS</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_EXOCORTEX_NETWORKS</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Cost -->
 			<iCost>7050</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
@@ -3712,7 +3691,6 @@
 					</Has>
 				</Or>
 			</ConstructCondition>
-			<iCitiesPrereq>6</iCitiesPrereq>
 			<PrereqAndCivics>
 				<PrereqCivic>
 					<CivicOption>CIVIC_SENATE</CivicOption>
@@ -3945,15 +3923,19 @@
 				<Bonus>BONUS_URANIUM</Bonus>
 				<Bonus>BONUS_HEAVY_WATER</Bonus>
 			</PrereqBonuses>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
-					<iNumBuildingNeeded>1</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_MILITARY_AIRBASE</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_AEROSPACE_COMPLEX</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_MILITARY_AIRBASE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
@@ -4006,12 +3988,16 @@
 			<TechTypes>
 				<PrereqTech>TECH_SHELTER_BUILDING</PrereqTech>
 			</TechTypes>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_STORAGE_PIT</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_IRON_WORKING</ObsoleteTech>
 			<!-- Cost -->
@@ -5608,6 +5594,7 @@
 			<Strategy>TXT_KEY_BUILDING_NATIONAL_SPORTS_LEAGUE_STRATEGY</Strategy>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_MODERN_SPORTS</PrereqTech>
+			<ObsoleteTech>TECH_BINARY_PYSCHOKINESIS</ObsoleteTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -6089,14 +6076,20 @@
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_POLICE_STATION</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_POLICE_STATION</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_POLICE_PRECINCT</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Cost -->
 			<iCost>1600</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
@@ -6763,7 +6756,6 @@
 				<Bonus>BONUS_BRICKS</Bonus>
 				<Bonus>BONUS_CEMENT</Bonus>
 			</PrereqBonuses>
-			<iLevelPrereq>4</iLevelPrereq>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_ARENA</BuildingClassType>
@@ -6775,6 +6767,14 @@
 				</PrereqOrBuildingClass>
 				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_FLAVIAN</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_MINOR_LEAGUE_STADIUM</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_MAJOR_LEAGUE_STADIUM</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
@@ -6843,18 +6843,16 @@
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_POTTERY</PrereqTech>
 			<bRiver>1</bRiver>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
-					<iNumBuildingNeeded>3</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_MODERN_GRANARY</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Cost -->
 			<iCost>250</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
@@ -7887,7 +7885,6 @@
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_MILITARY_TRAINING</PrereqTech>
 			<Bonus>BONUS_BRICKS</Bonus>
-			<iLevelPrereq>5</iLevelPrereq>
 			<!-- Cost -->
 			<iCost>432</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
@@ -7990,7 +7987,6 @@
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
-			<iCitiesPrereq>5</iCitiesPrereq>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>

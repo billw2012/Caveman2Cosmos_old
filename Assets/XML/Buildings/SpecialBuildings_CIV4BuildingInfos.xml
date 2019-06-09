@@ -14918,6 +14918,9 @@
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_SMOKING_PROHIBITION</ArtDefineTag>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
 			<PrereqTech>TECH_URBAN_CULTURE</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<PrereqOrBuildingClasses>
@@ -14987,6 +14990,9 @@
 			<ArtDefineTag>ART_DEF_BUILDING_EMISSION_ACT</ArtDefineTag>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<BuildingClassNeededs>
@@ -15050,6 +15056,9 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CARPOOL</ArtDefineTag>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
 			<PrereqTech>TECH_MOTORIZED_TRANSPORTATION</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<BuildingClassNeededs>
@@ -15243,6 +15252,9 @@
 			<ArtDefineTag>ART_DEF_BUILDING_SHUTTLE_SERVICE</ArtDefineTag>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
 			<PrereqTech>TECH_MOTORIZED_TRANSPORTATION</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<BuildingClassNeededs>
@@ -15335,6 +15347,9 @@
 			<ConstructSound>AS2D_BUILD_FIRE_BRIGADES</ConstructSound>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
 			<PrereqTech>TECH_CIVIL_ENGINEERING</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<BuildingClassNeededs>
@@ -15415,7 +15430,10 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
-			<PrereqTech>TECH_LABOR_UNION</PrereqTech>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CRIMINOLOGY</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -15501,6 +15519,9 @@
 			<ConstructSound>AS2D_BUILD_FIRE_BRIGADES</ConstructSound>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
 			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<BuildingClassNeededs>
@@ -15594,6 +15615,9 @@
 			<ArtDefineTag>ART_DEF_BUILDING_TIRE_RECYCLE</ArtDefineTag>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
 			<PrereqTech>TECH_RECYCLING</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<Bonus>BONUS_TIRES</Bonus>
@@ -15660,6 +15684,9 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
 			<PrereqTech>TECH_COMPULSORY_EDUCATION</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<BuildingClassNeededs>
@@ -17614,7 +17641,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_GOOD_NEIGHBORHOOD_WATCH</ArtDefineTag>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
-			<PrereqTech>TECH_LABOR_UNION</PrereqTech>
+			<PrereqTech>TECH_CRIMINOLOGY</PrereqTech>
 			<!-- Construction cost -->
 			<iCost>-1</iCost>
 			<!-- Special properties -->

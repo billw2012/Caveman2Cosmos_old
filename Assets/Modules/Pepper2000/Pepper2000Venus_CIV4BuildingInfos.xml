@@ -604,7 +604,7 @@
 			</TechCommerceChanges>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_VENUS_CITY</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_VENUS_COLONY</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
@@ -636,7 +636,7 @@
 			</YieldChanges>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_VENUS_CITY</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_VENUS_COLONY</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>

@@ -611,10 +611,6 @@
 			<Path>Art/movies/Wonders/Babel.bik</Path>
 		</MovieArtInfo>
 		<MovieArtInfo>
-			<Type>ART_DEF_MOVIE_SHRINE_MORMON</Type>
-			<Path>Art/Movies/Wonders/MormonShrine.bik</Path>
-		</MovieArtInfo>
-		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_OLDOINYO</Type>
 			<Path>Art/Movies/Wonders/Oldoinyolengai.bik</Path>
 		</MovieArtInfo>
@@ -1604,7 +1600,7 @@
 		</MovieArtInfo>
 		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_TRADITION_ARCHERY</Type>
-			<Path>Art/Movies/Wonders/Tradition_Archery_Ethic.bik</Path>
+			<Path>Art/Movies/Wonders/Tradition_Archery.bik</Path>
 		</MovieArtInfo>
 		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_NOBLEGARDEN</Type>

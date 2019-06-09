@@ -26,6 +26,9 @@
 				<SubCombatType>UNITCOMBAT_HEALS_AS_ANIMALS</SubCombatType>
 			</SubCombatTypes>
 			<Domain>DOMAIN_LAND</Domain>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
 			<DefaultUnitAI>UNITAI_SUBDUED_ANIMAL</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_TAMED_DONKEY_PAIR</Description>
 			<Civilopedia>TXT_KEY_UNIT_TAMED_ANIMAL_PEDIA</Civilopedia>
@@ -117,6 +120,9 @@
 				<SubCombatType>UNITCOMBAT_HEALS_AS_ANIMALS</SubCombatType>
 			</SubCombatTypes>
 			<Domain>DOMAIN_LAND</Domain>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
 			<bOnlyDefensive>1</bOnlyDefensive>
 			<DefaultUnitAI>UNITAI_SUBDUED_ANIMAL</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_TAMED_HORSE_PAIR</Description>
@@ -216,6 +222,9 @@
 				<SubCombatType>UNITCOMBAT_HEALS_AS_ANIMALS</SubCombatType>
 			</SubCombatTypes>
 			<Domain>DOMAIN_LAND</Domain>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<SeeInvisible>INVISIBLE_CAMOUFLAGE</SeeInvisible>
 			<Description>TXT_KEY_UNIT_TAMED_WOLF_PAIR</Description>

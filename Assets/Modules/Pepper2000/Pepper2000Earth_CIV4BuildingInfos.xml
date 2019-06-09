@@ -1507,7 +1507,15 @@
 			<iNumFreeBonuses>1</iNumFreeBonuses>
 			<ExtraFreeBonuses>
 				<ExtraFreeBonus>
+					<FreeBonus>BONUS_ALUMINUM</FreeBonus>
+					<iNumFreeBonuses>1</iNumFreeBonuses>
+				</ExtraFreeBonus>
+				<ExtraFreeBonus>
 					<FreeBonus>BONUS_WARE_BRASS</FreeBonus>
+					<iNumFreeBonuses>1</iNumFreeBonuses>
+				</ExtraFreeBonus>
+				<ExtraFreeBonus>
+					<FreeBonus>BONUS_INGOT_BRASS</FreeBonus>
 					<iNumFreeBonuses>1</iNumFreeBonuses>
 				</ExtraFreeBonus>
 				<ExtraFreeBonus>
@@ -1516,6 +1524,14 @@
 				</ExtraFreeBonus>
 				<ExtraFreeBonus>
 					<FreeBonus>BONUS_WARE_ELECTRUM</FreeBonus>
+					<iNumFreeBonuses>1</iNumFreeBonuses>
+				</ExtraFreeBonus>
+				<ExtraFreeBonus>
+					<FreeBonus>BONUS_INGOT_ELECTRUM</FreeBonus>
+					<iNumFreeBonuses>1</iNumFreeBonuses>
+				</ExtraFreeBonus>
+				<ExtraFreeBonus>
+					<FreeBonus>BONUS_INGOT_GOLD</FreeBonus>
 					<iNumFreeBonuses>1</iNumFreeBonuses>
 				</ExtraFreeBonus>
 				<ExtraFreeBonus>
@@ -1543,11 +1559,23 @@
 					<iNumFreeBonuses>1</iNumFreeBonuses>
 				</ExtraFreeBonus>
 				<ExtraFreeBonus>
+					<FreeBonus>BONUS_INGOT_SILVER</FreeBonus>
+					<iNumFreeBonuses>1</iNumFreeBonuses>
+				</ExtraFreeBonus>
+				<ExtraFreeBonus>
 					<FreeBonus>BONUS_WARE_TIN</FreeBonus>
 					<iNumFreeBonuses>1</iNumFreeBonuses>
 				</ExtraFreeBonus>
 				<ExtraFreeBonus>
+					<FreeBonus>BONUS_INGOT_TIN</FreeBonus>
+					<iNumFreeBonuses>1</iNumFreeBonuses>
+				</ExtraFreeBonus>
+				<ExtraFreeBonus>
 					<FreeBonus>BONUS_WARE_TITANIUM</FreeBonus>
+					<iNumFreeBonuses>1</iNumFreeBonuses>
+				</ExtraFreeBonus>
+				<ExtraFreeBonus>
+					<FreeBonus>BONUS_INGOT_TITANIUM</FreeBonus>
 					<iNumFreeBonuses>1</iNumFreeBonuses>
 				</ExtraFreeBonus>
 			</ExtraFreeBonuses>
@@ -3119,7 +3147,6 @@
 					<bPrereqCivic>1</bPrereqCivic>
 				</PrereqCivic>
 			</PrereqOrCivics>
-			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -3718,6 +3745,10 @@
 				</ExtraFreeBonus>
 				<ExtraFreeBonus>
 					<FreeBonus>BONUS_WOOL</FreeBonus>
+					<iNumFreeBonuses>1</iNumFreeBonuses>
+				</ExtraFreeBonus>
+				<ExtraFreeBonus>
+					<FreeBonus>BONUS_BONE</FreeBonus>
 					<iNumFreeBonuses>1</iNumFreeBonuses>
 				</ExtraFreeBonus>
 			</ExtraFreeBonuses>
@@ -13358,11 +13389,17 @@
 					<BuildingClassType>BUILDINGCLASS_MEGATOWER_OFFICE</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_VACTRAIN_TERMINAL</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
 			</BuildingClassNeededs>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_VACTRAIN_TERMINAL</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_GRAVITY_TRAIN</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_GRAVITY_TRAIN</BuildingClass>
@@ -13502,12 +13539,20 @@
 					<iProductonModifier>100</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_URBAN_HIGH_SPEED_RAIL</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_VACTRAIN_TERMINAL</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_GRAVITY_TRAIN</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<iPrereqPopulation>40</iPrereqPopulation>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -14915,12 +14960,16 @@
 					<iProductionModifier>100</iProductionModifier>
 				</BuildingClassProductionModifier>
 			</GlobalBuildingClassProductionModifiers>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_TELEGRAPH_OFFICE</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_TELEPHONE_NETWORK</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_MAIL_ORDER_CATALOGUE</BuildingClass>
@@ -15464,6 +15513,11 @@
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_MAJOR_LEAGUE_STADIUM</BuildingClass>
 			<Type>BUILDING_MAJOR_LEAGUE_STADIUM</Type>
+			<ObsoleteTech>TECH_BINARY_PYSCHOKINESIS</ObsoleteTech>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_STATUE_OF_CHAMPION</BuildingClass>
+			<Type>BUILDING_STATUE_OF_CHAMPION</Type>
 			<ObsoleteTech>TECH_BINARY_PYSCHOKINESIS</ObsoleteTech>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -16081,6 +16135,17 @@
 			<BuildingClass>BUILDINGCLASS_BASKETWEAVER</BuildingClass>
 			<Type>BUILDING_BASKETWEAVER</Type>
 			<ObsoleteTech>TECH_NANOBOTICS</ObsoleteTech>
+			<ReplaceBuildings>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_MANUFACTURING_DISTRICT</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+			</ReplaceBuildings>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_FURNITURE_WORKSHOP</BuildingClass>
+			<Type>BUILDING_FURNITURE_WORKSHOP</Type>
+			<ObsoleteTech>TECH_ANDROIDS</ObsoleteTech>
 			<ReplaceBuildings>
 				<ReplaceBuilding>
 					<BuildingClassType>BUILDINGCLASS_MANUFACTURING_DISTRICT</BuildingClassType>
@@ -23184,12 +23249,16 @@
 					<iFreeSpecialistCount>2</iFreeSpecialistCount>
 				</FreeSpecialistCount>
 			</FreeSpecialistCounts>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_AIRCRAFT_FACTORY</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_MILITARY_INDUSTRIAL_COMPLEX</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_JEDDAH_TOWER</BuildingClass>

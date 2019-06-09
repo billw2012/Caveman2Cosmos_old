@@ -3672,7 +3672,6 @@
 			<iCost>5269</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<MapCategoryTypes>
-				<MapCategoryType>MAPCATEGORY_PLASMA</MapCategoryType>
 				<MapCategoryType>MAPCATEGORY_MILKYWAY</MapCategoryType>
 			</MapCategoryTypes>
 			<YieldChanges>
@@ -3748,7 +3747,8 @@
 			<iCost>7629</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<MapCategoryTypes>
-				<MapCategoryType>MAPCATEGORY_GALACTIC</MapCategoryType>
+				<MapCategoryType>MAPCATEGORY_PLASMA</MapCategoryType>
+				<MapCategoryType>MAPCATEGORY_MILKYWAY</MapCategoryType>
 			</MapCategoryTypes>
 			<CommerceChanges>
 				<iCommerce>25</iCommerce>
@@ -4015,7 +4015,6 @@
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_PLASMA</MapCategoryType>
-				<MapCategoryType>MAPCATEGORY_MILKYWAY</MapCategoryType>
 			</MapCategoryTypes>
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -5093,7 +5092,8 @@
 			<iCost>3212</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<MapCategoryTypes>
-				<MapCategoryType>MAPCATEGORY_GALACTIC</MapCategoryType>
+				<MapCategoryType>MAPCATEGORY_INTERSTELLAR</MapCategoryType>
+				<MapCategoryType>MAPCATEGORY_MILKYWAY</MapCategoryType>
 			</MapCategoryTypes>
 			<CommerceChanges>
 				<iCommerce>-10</iCommerce>

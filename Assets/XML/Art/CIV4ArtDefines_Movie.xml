@@ -1604,7 +1604,7 @@
 		</MovieArtInfo>
 		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_TRADITION_ARCHERY</Type>
-			<Path>Art/Movies/Wonders/Tradition_Archery_Ethic.bik</Path>
+			<Path>Art/Movies/Wonders/Tradition_Archery.bik</Path>
 		</MovieArtInfo>
 		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_NOBLEGARDEN</Type>

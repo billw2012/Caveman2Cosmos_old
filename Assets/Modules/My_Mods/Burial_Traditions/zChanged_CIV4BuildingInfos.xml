@@ -105,7 +105,7 @@
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_CRIMINOLOGY</PrereqTech>
@@ -258,7 +258,7 @@
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_FIRE_MAKING</PrereqTech>
@@ -327,7 +327,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<ConstructSound>AS2D_BUILD_WALLS</ConstructSound>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_SCRIPTURES</PrereqTech>
@@ -419,7 +419,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<ConstructSound>AS2D_BUILD_WALLS</ConstructSound>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_SCRIPTURES</PrereqTech>
@@ -545,7 +545,7 @@
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_ANATOMY</PrereqTech>

@@ -349,7 +349,7 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BURIAL_PLATFORMS</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_WALLS</ConstructSound>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>

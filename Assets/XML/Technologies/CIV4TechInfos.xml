@@ -22052,49 +22052,6 @@ Current techs which are not in this file:-
 			<Button>Art/Interface/Buttons/TechTree/Sentient_robots.dds</Button>
 		</TechInfo>
 		<TechInfo>
-			<Type>TECH_LUNAR_BASES</Type>
-			<Description>TXT_KEY_TECH_LUNAR_BASES</Description>
-			<Civilopedia>TXT_KEY_TECH_LUNAR_BASES_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_LUNAR_BASES_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>23650</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>48</iAsset>
-			<iPower>4</iPower>
-			<bTrade>1</bTrade>
-			<iGridX>92</iGridX>
-			<iGridY>17</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GOLD</FlavorType>
-					<iFlavor>2</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-					<iFlavor>2</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_SCIENCE</FlavorType>
-					<iFlavor>7</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_SPACE_TOURISM</PrereqTech>
-			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_3D_PRINTING</PrereqTech>
-			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_LUNAR_BASES_QUOTE</Quote>
-			<Sound>AS2D_TECH_LUNAR_BASES</Sound>
-			<SoundMP>AS2D_TECH_LUNAR_BASES</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/moonbases.dds</Button>
-		</TechInfo>
-		<TechInfo>
 			<Type>TECH_WEARABLE_ELECTRONICS</Type>
 			<Description>TXT_KEY_TECH_WEARABLE_ELECTRONICS</Description>
 			<Civilopedia>TXT_KEY_TECH_WEARABLE_ELECTRONICS_PEDIA</Civilopedia>
@@ -22982,6 +22939,49 @@ Current techs which are not in this file:-
 			<Sound>AS2D_TECH_GENCYCLOPEDIA</Sound>
 			<SoundMP>AS2D_TECH_GENCYCLOPEDIA</SoundMP>
 			<Button>Art/Interface/Buttons/TechTree/Gencyclopedia.dds</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_LUNAR_BASES</Type>
+			<Description>TXT_KEY_TECH_LUNAR_BASES</Description>
+			<Civilopedia>TXT_KEY_TECH_LUNAR_BASES_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_LUNAR_BASES_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iAITradeModifier>10</iAITradeModifier>
+			<iCost>27203</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>48</iAsset>
+			<iPower>4</iPower>
+			<bTrade>1</bTrade>
+			<iGridX>96</iGridX>
+			<iGridY>9</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>2</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>2</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_SCIENCE</FlavorType>
+					<iFlavor>7</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_CSPACECRAFT</PrereqTech>
+			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_3D_PRINTING</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_LUNAR_BASES_QUOTE</Quote>
+			<Sound>AS2D_TECH_LUNAR_BASES</Sound>
+			<SoundMP>AS2D_TECH_LUNAR_BASES</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/moonbases.dds</Button>
 		</TechInfo>
 		<TechInfo>
 			<Type>TECH_LEDLIGHTING</Type>

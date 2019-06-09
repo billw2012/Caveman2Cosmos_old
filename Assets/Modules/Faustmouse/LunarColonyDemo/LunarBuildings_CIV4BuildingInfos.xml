@@ -1113,7 +1113,6 @@
 				</Flavor>				
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
-			<iPrereqPopulation>6</iPrereqPopulation>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_LUNAR_HOTEL</BuildingClass>
@@ -1150,7 +1149,6 @@
 				</Flavor>				
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
-			<iPrereqPopulation>12</iPrereqPopulation>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_LUNAR_ASSEMBLY_PLANT</BuildingClass>
@@ -1367,7 +1365,6 @@
 				</Flavor>				
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
-			<iPrereqPopulation>12</iPrereqPopulation>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_LUNAR_DROID_FACTORY</BuildingClass>
@@ -1530,7 +1527,6 @@
 					<iAmountPerTurn>-25</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
-			<iPrereqPopulation>12</iPrereqPopulation>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_LUNAR_KREEP_MINE</BuildingClass>

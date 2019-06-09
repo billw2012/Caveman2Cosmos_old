@@ -556,8 +556,11 @@
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_HYDROPONICS</ArtDefineTag>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
-			<PrereqTech>TECH_AUGMENT_CONSUMABLES</PrereqTech>
-			<iCost>702</iCost>
+			<PrereqTech>TECH_SUPERFLUOUS_MANUFACTURING</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_AUGMENT_CONSUMABLES</PrereqTech>
+			</TechTypes>
+			<iCost>905</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_MARTIAN</MapCategoryType>
@@ -1514,7 +1517,7 @@
 			</TechCommerceChanges>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_MARS_METRO</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_MARS_COLONY</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>

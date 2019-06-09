@@ -685,12 +685,16 @@
 					<iProductonModifier>100</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_HIGH_WALLS</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BARRICADES</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<Help>TXT_KEY_HELP_BLARNEY</Help>
 		</BuildingInfo>
@@ -1673,29 +1677,19 @@
 					<iHappinessChange>1</iHappinessChange>
 				</BuildingHappinessChange>
 			</BuildingHappinessChanges>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_HOCKEY_RINK</BuildingClassType>
-					<iNumBuildingNeeded>4</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-				<PrereqBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_NHL</BuildingClassType>
-					<iNumBuildingNeeded>1</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_HOCKEY_RINK</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_NHL</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_HOCKEY_RINK</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
 				<PrereqOrBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_COMMUNICATION_TOWER</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_ATHLETIC_MEGACOMPLEX</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
@@ -1904,12 +1898,16 @@
 					<iNumBuildingNeeded>4</iNumBuildingNeeded>
 				</PrereqBuildingClass>
 			</PrereqBuildingClasses>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_KNIGHT_STABLE</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_MODERN_STABLE</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -2564,12 +2562,16 @@
 				<iCommerce>0</iCommerce>
 				<iCommerce>1000</iCommerce>
 			</CommerceChangeDoubleTimes>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_DRYDOCK</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_NAVAL_YARD</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<iLineOfSight>2</iLineOfSight>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<PrereqNotBuildingClasses>
@@ -3069,12 +3071,16 @@
 				<iCommerce>0</iCommerce>
 				<iCommerce>1000</iCommerce>
 			</CommerceChangeDoubleTimes>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_DRYDOCK</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_NAVAL_YARD</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<PrereqNotBuildingClasses>
 				<PrereqNotBuildingClass>

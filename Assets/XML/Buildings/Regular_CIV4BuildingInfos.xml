@@ -10861,10 +10861,10 @@
 			<TechTypes>
 				<PrereqTech>TECH_SHELTER_BUILDING</PrereqTech>
 			</TechTypes>
-			<VicinityBonus>BONUS_WINE</VicinityBonus>
-			<PrereqVicinityBonuses>
-				<VicinityBonus>BONUS_INDIGO</VicinityBonus>
-			</PrereqVicinityBonuses>
+			<RawVicinityBonus>BONUS_WINE</RawVicinityBonus>
+			<PrereqRawVicinityBonuses>
+				<RawVicinityBonus>BONUS_INDIGO</RawVicinityBonus>
+			</PrereqRawVicinityBonuses>
 			<PrereqOrFeature>
 				<PrereqFeature>
 					<FeatureType>FEATURE_FOREST</FeatureType>
@@ -12981,7 +12981,7 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BOATYARD</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_PORT</ConstructSound>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -13065,7 +13065,6 @@
 			<PrereqTech>TECH_ARTIFICIAL_LIFE</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
-			<iCitiesPrereq>4</iCitiesPrereq>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_CLONING_FACTORY</BuildingClassType>
@@ -16045,6 +16044,10 @@
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
 				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BARTER_POST</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
@@ -17893,7 +17896,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_RAILROAD</PrereqTech>
+			<PrereqTech>TECH_MOTORIZED_TRANSPORTATION</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_WARE_STEEL</Bonus>
@@ -17906,7 +17909,7 @@
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_AUTOMATED_TRAFFIC</ObsoleteTech>
 			<!-- Construction cost -->
-			<iCost>655</iCost>
+			<iCost>830</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -20008,16 +20011,39 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_SCAVENGING</PrereqTech>
+			<PrereqRawVicinityBonuses>
+				<RawVicinityBonus>BONUS_CAMEL</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_COW</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_DONKEY</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_HORSE</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_LLAMA</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_PIG</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_SHEEP</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_FUR</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_BISON</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_DEER</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_ELEPHANT</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_GUINEA_PIG</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_KANGAROO</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_MAMMOTH</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_PARROTS</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_POULTRY</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_RABBIT</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_WALRUS</RawVicinityBonus>
+				<RawVicinityBonus>BONUS_SEA_LIONS</RawVicinityBonus>
+			</PrereqRawVicinityBonuses>
 			<!-- Obsolescence -->
-			<ObsoleteTech>TECH_COOKING</ObsoleteTech>
+			<ObsoleteTech>TECH_HUNTING_TACTICS</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>20</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<!-- Main effects -->
-			<iHealth>-1</iHealth>
+			<iHealth>-2</iHealth>
 			<YieldChanges>
 				<iYield>1</iYield>
 			</YieldChanges>
+			<FreeBonus>BONUS_CARCASS</FreeBonus>
+			<iNumFreeBonuses>1</iNumFreeBonuses>
 			<!-- Other -->
 		</BuildingInfo>
 		<BuildingInfo>
@@ -23779,6 +23805,10 @@
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
 				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BARTER_POST</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
@@ -24657,7 +24687,7 @@
 			<Strategy>TXT_KEY_BUILDING_CITY_MORGUE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CITY_MORGUE</ArtDefineTag>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -29701,9 +29731,9 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_SERICULTURE</PrereqTech>
 			<VicinityBonus>BONUS_SILK</VicinityBonus>
-			<PrereqVicinityBonuses>
+			<PrereqRawVicinityBonuses>
 				<VicinityBonus>BONUS_SPICES</VicinityBonus>
-			</PrereqVicinityBonuses>
+			</PrereqRawVicinityBonuses>
 			<!-- Construction cost -->
 			<iCost>160</iCost>
 			<!-- Main effects -->
@@ -30206,9 +30236,9 @@
 				<PrereqTech>TECH_SHELTER_BUILDING</PrereqTech>
 			</TechTypes>
 			<RawVicinityBonus>BONUS_TIMBER</RawVicinityBonus>
-			<PrereqVicinityBonuses>
+			<PrereqRawVicinityBonuses>
 				<VicinityBonus>BONUS_INDIGO</VicinityBonus>
-			</PrereqVicinityBonuses>
+			</PrereqRawVicinityBonuses>
 			<PrereqOrFeature>
 				<PrereqFeature>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
@@ -34329,9 +34359,6 @@
 			</TechTypes>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<Bonus>BONUS_AUTOMOBILES</Bonus>
-			<PrereqBonuses>
-				<Bonus>BONUS_MOVIES</Bonus>
-			</PrereqBonuses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_WEARABLE_ELECTRONICS</ObsoleteTech>
 			<!-- Construction cost -->
@@ -34641,7 +34668,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DRYDOCK</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_DRYDOCK</ConstructSound>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -36969,10 +36996,10 @@
 			<TechTypes>
 				<PrereqTech>TECH_SHELTER_BUILDING</PrereqTech>
 			</TechTypes>
-			<VicinityBonus>BONUS_POULTRY</VicinityBonus>
-			<PrereqVicinityBonuses>
-				<VicinityBonus>BONUS_KANGAROO</VicinityBonus>
-			</PrereqVicinityBonuses>
+			<RawVicinityBonus>BONUS_POULTRY</RawVicinityBonus>
+			<PrereqRawVicinityBonuses>
+				<RawVicinityBonus>BONUS_KANGAROO</RawVicinityBonus>
+			</PrereqRawVicinityBonuses>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_HUNTERS_CAMP</BuildingClassType>
@@ -42773,12 +42800,6 @@
 				<PrereqTech>TECH_SHELTER_BUILDING</PrereqTech>
 			</TechTypes>
 			<VicinityBonus>BONUS_FUR</VicinityBonus>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_HUNTERS_CAMP</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_GLOBALIZATION</ObsoleteTech>
 			<!-- Construction cost -->
@@ -43112,7 +43133,7 @@
 			<Strategy>TXT_KEY_BUILDING_FUNERAL_PYRE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FUNERAL_PYRE</ArtDefineTag>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -45479,9 +45500,9 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_SERICULTURE</PrereqTech>
 			<VicinityBonus>BONUS_SILK</VicinityBonus>
-			<PrereqVicinityBonuses>
+			<PrereqRawVicinityBonuses>
 				<VicinityBonus>BONUS_COFFEE</VicinityBonus>
-			</PrereqVicinityBonuses>
+			</PrereqRawVicinityBonuses>
 			<!-- Construction cost -->
 			<iCost>160</iCost>
 			<!-- Main effects -->
@@ -46876,7 +46897,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_FEUDALISM</PrereqTech>
-			<iCitiesPrereq>3</iCitiesPrereq>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
@@ -47226,7 +47246,7 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_GRAVEYARD</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_WALLS</ConstructSound>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -56086,7 +56106,6 @@
 			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
-			<Bonus>BONUS_MUSIC</Bonus>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_NIGHT_CLUB</BuildingClassType>
@@ -57443,7 +57462,6 @@
 			<PrereqTech>TECH_COMPUTERS</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
-			<Bonus>BONUS_MUSIC</Bonus>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_NIGHT_CLUB</BuildingClassType>
@@ -58478,9 +58496,9 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_SERICULTURE</PrereqTech>
 			<VicinityBonus>BONUS_SILK</VicinityBonus>
-			<PrereqVicinityBonuses>
+			<PrereqRawVicinityBonuses>
 				<VicinityBonus>BONUS_SUGAR</VicinityBonus>
-			</PrereqVicinityBonuses>
+			</PrereqRawVicinityBonuses>
 			<!-- Construction cost -->
 			<iCost>160</iCost>
 			<!-- Main effects -->
@@ -58854,7 +58872,10 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_CIVIL_ENGINEERING</PrereqTech>
+			<PrereqTech>TECH_MOTORIZED_TRANSPORTATION</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_CIVIL_ENGINEERING</PrereqTech>
+			</TechTypes>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bRiver>1</bRiver>
 			<Bonus>BONUS_WARE_STEEL</Bonus>
@@ -58871,7 +58892,7 @@
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_TELEPORTATION</ObsoleteTech>
 			<!-- Construction cost -->
-			<iCost>800</iCost>
+			<iCost>830</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-10</iCommerce>
@@ -60093,7 +60114,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_CARVING</PrereqTech>
+			<PrereqTech>TECH_CELEBRATION</PrereqTech>
 			<Bonus>BONUS_JADE</Bonus>
 			<PrereqBonuses>
 				<Bonus>BONUS_LIANGZHU</Bonus>
@@ -60111,7 +60132,7 @@
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_PLASTICS</ObsoleteTech>
 			<!-- Construction cost -->
-			<iCost>45</iCost>
+			<iCost>98</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_FINANCIAL</ProductionTraitType>
@@ -63082,7 +63103,7 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARINA</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_PORT</ConstructSound>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -63430,6 +63451,7 @@
 			<PrereqTech>TECH_STANDARDIZATION</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<PrereqBonuses>
+				<Bonus>BONUS_STONE</Bonus>
 				<Bonus>BONUS_WARE_COPPER</Bonus>
 				<Bonus>BONUS_WARE_BRONZE</Bonus>
 				<Bonus>BONUS_WARE_IRON</Bonus>
@@ -63676,12 +63698,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_PERSONAL_ADORNMENT</PrereqTech>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_WOODCARVERS_HUT</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_STORAGE_PIT</BuildingClassType>
@@ -63963,7 +63979,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_INDIAN_MAUSOLEUM</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_WALLS</ConstructSound>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -64618,7 +64634,6 @@
 			<PrereqTech>TECH_MODERN_HEALTH_CARE</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
-			<iCitiesPrereq>4</iCitiesPrereq>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
@@ -64908,7 +64923,6 @@
 				<Bonus>BONUS_TIMBER</Bonus>
 				<Bonus>BONUS_BAMBOO</Bonus>
 			</PrereqBonuses>
-			<iLevelPrereq>4</iLevelPrereq>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_RADAR</ObsoleteTech>
 			<!-- Construction cost -->
@@ -66186,6 +66200,9 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_ANIMAL_RIDING</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			</TechTypes>
 			<Bonus>BONUS_SADDLES</Bonus>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -66200,7 +66217,7 @@
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_NATIONALISM</ObsoleteTech>
 			<!-- Construction cost -->
-			<iCost>98</iCost>
+			<iCost>184</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_AGGRESSIVE</ProductionTraitType>
@@ -70675,7 +70692,7 @@
 			<Strategy>TXT_KEY_BUILDING_MORTURARY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MORTURARY</ArtDefineTag>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -70971,7 +70988,6 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MOTION_PICTURES</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<Bonus>BONUS_MOVIES</Bonus>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_VIKING_TRADING_POST</BuildingClassType>
@@ -72701,7 +72717,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_NAVAL_YARD</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_DRYDOCK_NEW</ConstructSound>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -72795,6 +72811,9 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_CAVE_DWELLING</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_HARD_HAMMER_PERCUSSION</PrereqTech>
+			</TechTypes>
 			<Bonus>BONUS_NEANDERTHAL</Bonus>
 			<PrereqOrFeature>
 				<PrereqFeature>
@@ -72805,7 +72824,7 @@
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
 			<!-- Construction cost -->
-			<iCost>20</iCost>
+			<iCost>30</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
@@ -74860,7 +74879,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_CARVING</PrereqTech>
+			<PrereqTech>TECH_MEGALITH_CONSTRUCTION</PrereqTech>
 			<Bonus>BONUS_JADE</Bonus>
 			<PrereqBonuses>
 				<Bonus>BONUS_OLMEC</Bonus>
@@ -74878,7 +74897,7 @@
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_PLASTICS</ObsoleteTech>
 			<!-- Construction cost -->
-			<iCost>45</iCost>
+			<iCost>92</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_FINANCIAL</ProductionTraitType>
@@ -75392,7 +75411,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ORBITAL_DRYDOCK</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_DRYDOCK</ConstructSound>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -79464,7 +79483,6 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MEDICINE</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_DRUGS</Bonus>
 			<PrereqBonuses>
 				<Bonus>BONUS_CHEMICALS</Bonus>
@@ -83333,10 +83351,10 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_SERICULTURE</PrereqTech>
-			<VicinityBonus>BONUS_TEA</VicinityBonus>
-			<PrereqVicinityBonuses>
-				<VicinityBonus>BONUS_PEYOTE</VicinityBonus>
-			</PrereqVicinityBonuses>
+			<VicinityBonus>BONUS_PEYOTE</VicinityBonus>
+			<PrereqRawVicinityBonuses>
+				<VicinityBonus>BONUS_TEA</VicinityBonus>
+			</PrereqRawVicinityBonuses>
 			<!-- Construction cost -->
 			<iCost>160</iCost>
 			<!-- Main effects -->
@@ -85936,7 +85954,6 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<Bonus>BONUS_MUSIC</Bonus>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_VIKING_TRADING_POST</BuildingClassType>
@@ -85991,7 +86008,6 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
-			<Bonus>BONUS_MUSIC</Bonus>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_OFFICES</BuildingClassType>
@@ -90903,9 +90919,9 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_SERICULTURE</PrereqTech>
 			<VicinityBonus>BONUS_SILK</VicinityBonus>
-			<PrereqVicinityBonuses>
+			<PrereqRawVicinityBonuses>
 				<VicinityBonus>BONUS_INCENSE</VicinityBonus>
-			</PrereqVicinityBonuses>
+			</PrereqRawVicinityBonuses>
 			<!-- Construction cost -->
 			<iCost>160</iCost>
 			<!-- Main effects -->
@@ -91792,12 +91808,6 @@
 			<PrereqVicinityBonuses>
 				<VicinityBonus>BONUS_CLAM</VicinityBonus>
 			</PrereqVicinityBonuses>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_HUNTERS_CAMP</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_GLOBALIZATION</ObsoleteTech>
 			<!-- Construction cost -->
@@ -92946,7 +92956,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_CARVING</PrereqTech>
+			<PrereqTech>TECH_BLOOD_CULT</PrereqTech>
 			<Bonus>BONUS_JADE</Bonus>
 			<PrereqBonuses>
 				<Bonus>BONUS_SHANG</Bonus>
@@ -92964,7 +92974,7 @@
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_PLASTICS</ObsoleteTech>
 			<!-- Construction cost -->
-			<iCost>45</iCost>
+			<iCost>139</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_FINANCIAL</ProductionTraitType>
@@ -93387,7 +93397,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SHIPYARD</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_DRYDOCK</ConstructSound>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -94546,7 +94556,6 @@
 				<Bonus>BONUS_TIMBER</Bonus>
 			</PrereqBonuses>
 			<iMinLatitude>40</iMinLatitude>
-			<bBuildOnlyOnPeaks>1</bBuildOnlyOnPeaks>
 			<PrereqOrTerrain>
 				<PrereqTerrain>
 					<TerrainType>TERRAIN_PEAK</TerrainType>
@@ -95004,7 +95013,10 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_CIVIL_ENGINEERING</PrereqTech>
+			<PrereqTech>TECH_MOTORIZED_TRANSPORTATION</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_CIVIL_ENGINEERING</PrereqTech>
+			</TechTypes>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<bRiver>1</bRiver>
 			<Bonus>BONUS_WARE_STEEL</Bonus>
@@ -95027,7 +95039,7 @@
 				</ReplaceBuilding>
 			</ReplaceBuildings>
 			<!-- Construction cost -->
-			<iCost>800</iCost>
+			<iCost>830</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-9</iCommerce>
@@ -103074,6 +103086,10 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_TOWN_HALL</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
 				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_CITY_COUNCIL</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
@@ -112580,6 +112596,16 @@
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
+			<PrereqOrImprovement>
+				<PrereqImprovement>
+					<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+					<bPrereqImprovement>1</bPrereqImprovement>
+				</PrereqImprovement>
+				<PrereqImprovement>
+					<ImprovementType>IMPROVEMENT_WHALING_BOATS</ImprovementType>
+					<bPrereqImprovement>1</bPrereqImprovement>
+				</PrereqImprovement>
+			</PrereqOrImprovement>
 			<!-- Construction cost -->
 			<iCost>535</iCost>
 			<ProductionTraits>
@@ -113291,6 +113317,10 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_TOWN_HALL</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
 				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_CITY_COUNCIL</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
@@ -114437,7 +114467,7 @@
 				</Flavor>
 			</Flavors>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
-			<iMinAreaSize>220</iMinAreaSize>
+			<iMinAreaSize>-1</iMinAreaSize>
 			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -114499,7 +114529,7 @@
 				</Flavor>
 			</Flavors>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
-			<iMinAreaSize>220</iMinAreaSize>
+			<iMinAreaSize>-1</iMinAreaSize>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_SCHOOL_OF_RHETORIC</BuildingClass>

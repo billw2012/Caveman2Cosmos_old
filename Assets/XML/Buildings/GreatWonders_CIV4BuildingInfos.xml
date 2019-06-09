@@ -1120,7 +1120,6 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MODERN_SPORTS</PrereqTech>
 			<iPrereqPopulation>25</iPrereqPopulation>
-			<iCitiesPrereq>4</iCitiesPrereq>
 			<!-- Cost -->
 			<iCost>7380</iCost>
 			<!-- Main effects -->
@@ -2417,7 +2416,6 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
 			<iPrereqPopulation>25</iPrereqPopulation>
-			<iCitiesPrereq>4</iCitiesPrereq>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_NATIONAL_TV_STATION</BuildingClassType>
@@ -2849,7 +2847,6 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<iCitiesPrereq>4</iCitiesPrereq>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
@@ -3326,12 +3323,16 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_MINOR_LEAGUE_STADIUM</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_MODERN_SPORTS</ObsoleteTech>
@@ -3824,7 +3825,10 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_CIVIL_ENGINEERING</PrereqTech>
+			<PrereqTech>TECH_MOTORIZED_TRANSPORTATION</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_CIVIL_ENGINEERING</PrereqTech>
+			</TechTypes>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bRiver>1</bRiver>
 			<Bonus>BONUS_WARE_STEEL</Bonus>
@@ -3847,7 +3851,7 @@
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_TELEPORTATION</ObsoleteTech>
 			<!-- Cost -->
-			<iCost>4800</iCost>
+			<iCost>4980</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -4130,10 +4134,6 @@
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_FIRE_MYTH_EFFECT</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_TORCHES</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
@@ -5315,15 +5315,19 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_VASSALAGE</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_STAR_FORT</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
 			<!-- Obsolescence -->
-			<ObsoleteTech>TECH_UTOPIA</ObsoleteTech>
+			<ObsoleteTech>TECH_ARTILLERY</ObsoleteTech>
 			<!-- Cost -->
 			<iCost>1800</iCost>
 			<!-- Special Yield and Commerce modifiers -->
@@ -5670,10 +5674,11 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MODERN_SPORTS</PrereqTech>
+			<ObsoleteTech>TECH_BINARY_PYSCHOKINESIS</ObsoleteTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_MINOR_LEAGUE_STADIUM</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_MAJOR_LEAGUE_STADIUM</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
@@ -5720,6 +5725,10 @@
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_STORAGE_PIT</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
 				<PrereqOrBuildingClass>
@@ -5849,12 +5858,16 @@
 			<PrereqTech>TECH_ZOOLOGY</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<Bonus>BONUS_DOG</Bonus>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_DOG_BREEDER</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_RE_PET_SHOP</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Cost -->
 			<iCost>3210</iCost>
 			<!-- Main effects -->
@@ -5900,7 +5913,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_NEWTON</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_NEWTON</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_UNIVERSITY</ConstructSound>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -6672,12 +6685,16 @@
 					<bPrereqFeature>1</bPrereqFeature>
 				</PrereqFeature>
 			</PrereqOrFeature>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_CAVE_PAINTING</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_FRESCO</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<MaxStartEra>ERA_ANCIENT</MaxStartEra>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_LITERATURE</ObsoleteTech>
@@ -7190,7 +7207,7 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MAGELLAN</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_MAGELLAN</MovieDefineTag>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -7921,12 +7938,16 @@
 			<PrereqBonuses>
 				<Bonus>BONUS_STONE</Bonus>
 			</PrereqBonuses>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_STAR_FORT</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_NATIONALISM</ObsoleteTech>
 			<!-- Cost -->
@@ -11247,6 +11268,10 @@
 					<BuildingClassType>BUILDINGCLASS_STEEL_MILL</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_ADVANCED_IRONWORKS</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<!-- Cost -->
 			<iCost>5220</iCost>
@@ -11367,8 +11392,6 @@
 			<PrereqTech>TECH_CIVIL_ENGINEERING</PrereqTech>
 			<iPrereqPopulation>25</iPrereqPopulation>
 			<Bonus>BONUS_CEMENT</Bonus>
-			<iCitiesPrereq>4</iCitiesPrereq>
-			<iLevelPrereq>4</iLevelPrereq>
 			<!-- Cost -->
 			<iCost>4800</iCost>
 			<!-- Special Yield and Commerce modifiers -->
@@ -13527,22 +13550,22 @@
 			<PrereqBonuses>
 				<Bonus>BONUS_WARE_STEEL</Bonus>
 			</PrereqBonuses>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_INSURANCE_OFFICE</BuildingClassType>
-					<iNumBuildingNeeded>3</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_SKYSCRAPER</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_INSURANCE_OFFICE</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
 			</BuildingClassNeededs>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_INSURANCE_OFFICE</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BLOCKCHAIN_FINANCIAL_SERVICES</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<MaxStartEra>ERA_MODERN</MaxStartEra>
 			<!-- Cost -->
 			<iCost>7080</iCost>
@@ -13673,12 +13696,16 @@
 			<PrereqBonuses>
 				<Bonus>BONUS_WARE_SILVER</Bonus>
 			</PrereqBonuses>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_FOUNTAIN</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_CITY_PARK</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_VIRTUALSOCIETY</ObsoleteTech>
 			<!-- Cost -->
@@ -13800,7 +13827,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_VENETIAN_ARSENAL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_VENETIAN_ARSENAL</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_DRYDOCK</ConstructSound>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -14077,11 +14104,17 @@
 					<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_FORGE</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
 			</BuildingClassNeededs>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_FORGE</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_FOUNDRY</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_STEAM_POWER</ObsoleteTech>
 			<!-- Cost -->
@@ -14262,22 +14295,22 @@
 			<PrereqBonuses>
 				<Bonus>BONUS_WARE_STEEL</Bonus>
 			</PrereqBonuses>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_DEPARTMENT_STORE</BuildingClassType>
-					<iNumBuildingNeeded>3</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_SKYSCRAPER</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
-				<BuildingClassNeeded>
+			</BuildingClassNeededs>	
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_DEPARTMENT_STORE</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_HYPERMARKET</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<MaxStartEra>ERA_MODERN</MaxStartEra>
 			<!-- Cost -->
 			<iCost>7080</iCost>
@@ -17243,7 +17276,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_DUALISM</PrereqTech>
 			<PrereqBonuses>
-				<Bonus>BONUS_WARE_BRONZE</Bonus>
+				<Bonus>BONUS_WARE_COPPER</Bonus>
 			</PrereqBonuses>
 			<iPrereqPopulation>15</iPrereqPopulation>
 			<!-- Obsolescence -->
@@ -18083,6 +18116,9 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
 			<PrereqTech>TECH_LEAD_GLASS</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<PrereqBuildingClasses>

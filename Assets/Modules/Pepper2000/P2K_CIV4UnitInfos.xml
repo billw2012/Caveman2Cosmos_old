@@ -7366,6 +7366,10 @@
 					<BuildingType>BUILDING_MOON_ROCK_LAB</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_DEEP_SPACE_GATEWAY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
             <Actions>
 				<Action>
