@@ -4501,7 +4501,7 @@ bool CvCity::canConstructInternal(BuildingTypes eBuilding, bool bContinue, bool 
 			bRequiresBonus = false;
 			bNeedsBonus = true;
 
-			for (iI = 0; iI < GC.getNUM_BUILDING_PREREQ_OR_BONUSES(); iI++)
+			for (iI = 0; iI < kBuilding.getNumPrereqOrBonuses(); iI++)
 			{
 				if (kBuilding.getPrereqOrBonuses(iI) != NO_BONUS)
 				{
@@ -26434,7 +26434,7 @@ void CvCity::checkBuildings(bool bBonus, bool bCivics, bool bWar, bool bPower, b
 							bool bHasORBonus = false;
 							bool bNeedsORBonus = false;
 
-							for (int iJ = 0; iJ < GC.getNUM_BUILDING_PREREQ_OR_BONUSES(); iJ++)
+							for (int iJ = 0; iJ < kBuilding.getNumPrereqOrBonuses(); iJ++)
 							{
 								if (kBuilding.getPrereqOrBonuses(iJ) != NO_BONUS)
 								{

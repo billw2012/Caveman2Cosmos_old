@@ -4032,7 +4032,6 @@ public:
 	bool isAnyDomainFreeExperience() const;
 	int getDomainProductionModifier(int i) const;				// Exposed to Python
 	int getPrereqAndTechs(int i) const;				// Exposed to Python
-	int getPrereqOrBonuses(int i) const;				// Exposed to Python
 	//int getProductionTraits(int i) const;				// Exposed to Python
 	//int getHappinessTraits(int i) const;				// Exposed to Python
 	int getBuildingHappinessChanges(int i) const;				// Exposed to Python
@@ -4435,6 +4434,9 @@ public:
 /************************************************************************************************/
 
 	void copyNonDefaults(CvBuildingInfo* pClassInfo = NULL, CvXMLLoadUtility* pXML = NULL);
+	//Alberts2 PrereqBonuses
+	int getNumPrereqOrBonuses() const;	// Exposed to Python
+	BonusTypes getPrereqOrBonuses(int i) const;	// Exposed to Python
 
 	//---------------------------------------PUBLIC MEMBER VARIABLES---------------------------------
 protected:
@@ -4603,7 +4605,6 @@ protected:
 	// Arrays
 
 	int* m_piPrereqAndTechs;
-	int* m_piPrereqOrBonuses;
 	//int* m_piProductionTraits;
 	//int* m_piHappinessTraits;
 	int* m_piSeaPlotYieldChange;
@@ -4722,6 +4723,8 @@ protected:
 	//arrays
 	int** m_ppaiLocalSpecialistYieldChange;
 	int** m_ppaiLocalSpecialistCommerceChange;
+	//Alberts2 PrereqBonuses
+	std::vector<int> m_aePrereqOrBonuses;
 public:
 	bool m_bAnyLocalSpecialistYieldChanges;
 	bool m_bAnyLocalSpecialistCommerceChanges;

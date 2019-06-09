@@ -26954,7 +26954,7 @@ void CvGameTextMgr::buildBuildingRequiresString(CvWStringBuffer& szBuffer, Build
 /************************************************************************************************/
 			bFirst = true;
 
-			for (iI = 0; iI < GC.getNUM_BUILDING_PREREQ_OR_BONUSES(); ++iI)
+			for (iI = 0; iI < kBuilding.getNumPrereqOrBonuses(); ++iI)
 			{
 				if (kBuilding.getPrereqOrBonuses(iI) != NO_BONUS)
 				{

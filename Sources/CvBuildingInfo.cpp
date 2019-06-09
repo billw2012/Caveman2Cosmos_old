@@ -194,7 +194,6 @@ m_bCenterInCity(false),
 m_bStateReligion(false),
 m_bAllowsNukes(false),
 m_piPrereqAndTechs(NULL),
-m_piPrereqOrBonuses(NULL),
 //m_piProductionTraits(NULL),
 //m_piHappinessTraits(NULL),
 m_piSeaPlotYieldChange(NULL),
@@ -416,7 +415,6 @@ m_ppaiBonusYieldModifier(NULL)
 CvBuildingInfo::~CvBuildingInfo()
 {
 	SAFE_DELETE_ARRAY(m_piPrereqAndTechs);
-	SAFE_DELETE_ARRAY(m_piPrereqOrBonuses);
 	//SAFE_DELETE_ARRAY(m_piProductionTraits);
 	//SAFE_DELETE_ARRAY(m_piHappinessTraits);
 	SAFE_DELETE_ARRAY(m_piSeaPlotYieldChange);
@@ -1826,12 +1824,6 @@ int CvBuildingInfo::getPrereqAndTechs(int i) const
 	return m_piPrereqAndTechs ? m_piPrereqAndTechs[i] : -1;
 }
 
-int CvBuildingInfo::getPrereqOrBonuses(int i) const		
-{
-	FAssertMsg(i < GC.getNUM_BUILDING_PREREQ_OR_BONUSES(), "Index out of bounds");
-	FAssertMsg(i > -1, "Index out of bounds");
-	return m_piPrereqOrBonuses ? m_piPrereqOrBonuses[i] : -1;
-}
 
 //int CvBuildingInfo::getProductionTraits(int i) const		
 //{
@@ -3343,7 +3335,7 @@ bool CvBuildingInfo::EnablesOtherBuildings() const
 						break;
 					}
 
-					for(int iI = 0; iI < GC.getNUM_BUILDING_PREREQ_OR_BONUSES(); iI++)
+					for(int iI = 0; iI < GC.getBuildingInfo((BuildingTypes)iJ).getNumPrereqOrBonuses(); iI++)
 					{
 						if ( GC.getBuildingInfo((BuildingTypes)iJ).getPrereqOrBonuses(iI) == eFreeBonus )
 						{
@@ -3604,7 +3596,6 @@ void CvBuildingInfo::getCheckSum(unsigned int& iSum)
 	CheckSum(iSum, m_bAllowsNukes);
 
 	CheckSumI(iSum, GC.getNUM_BUILDING_AND_TECH_PREREQS(), m_piPrereqAndTechs);
-	CheckSumI(iSum, GC.getNUM_BUILDING_PREREQ_OR_BONUSES(), m_piPrereqOrBonuses);
 	//CheckSumI(iSum, GC.getNumTraitInfos(), m_piProductionTraits);
 	//CheckSumI(iSum, GC.getNumTraitInfos(), m_piHappinessTraits);
 	CheckSumI(iSum, NUM_YIELD_TYPES, m_piSeaPlotYieldChange);
@@ -3950,6 +3941,8 @@ void CvBuildingInfo::getCheckSum(unsigned int& iSum)
 		CheckSum(iSum, (*it).eCommerce);
 		CheckSum(iSum, (*it).iChange);
 	}
+	//Alberts2 PrereqBonuses
+	CheckSumC(iSum, m_aePrereqOrBonuses);
 }
 
 //
@@ -4107,60 +4100,8 @@ bool CvBuildingInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetOptionalChildXmlValByName(szTextVal, L"Bonus");
 	m_iPrereqAndBonus = pXML->GetInfoClass(szTextVal);
 
-	// if we can set the current xml node to it's next sibling
-	if (pXML->TryMoveToXmlFirstChild(L"PrereqBonuses"))
-	{
-		// get the total number of children the current xml node has
-		iNumChildren = pXML->GetXmlChildrenNumber();
-
-		if (0 < iNumChildren)
-		{
-			pXML->CvXMLLoadUtility::InitList(&m_piPrereqOrBonuses, GC.getNUM_BUILDING_PREREQ_OR_BONUSES(), -1);
-			// if the call to the function that sets the current xml node to it's first non-comment
-			// child and sets the parameter with the new node's value succeeds
-			if (pXML->GetChildXmlVal(szTextVal))
-			{
-				FAssertMsg((iNumChildren <= GC.getNUM_BUILDING_PREREQ_OR_BONUSES()),"For loop iterator is greater than array size");
-				// loop through all the siblings
-				for (j=0;j<iNumChildren;j++)
-				{
-					// call the find in list function to return either -1 if no value is found
-					// or the index in the list the match is found at
-					m_piPrereqOrBonuses[j] = pXML->GetInfoClass(szTextVal);
-
-					// if the call to the function that sets the current xml node to it's first non-comment
-					// sibling and sets the parameter with the new node's value does not succeed
-					// we will break out of this for loop
-					if (!pXML->GetNextXmlVal(szTextVal))
-					{
-						break;
-					}
-				}
-
-				// set the current xml node to it's parent node
-				pXML->MoveToXmlParent();
-			}
-		}
-		else
-		{
-			SAFE_DELETE_ARRAY(m_piPrereqOrBonuses);
-		}
-
-		// set the current xml node to it's parent node
-		pXML->MoveToXmlParent();
-	}
-/************************************************************************************************/
-/* XMLCOPY                                 10/10/07                                MRGENIE      */
-/*                                                                                              */
-/*                                                                                              */
-/************************************************************************************************/
-	else
-	{
-		SAFE_DELETE_ARRAY(m_piPrereqOrBonuses);
-	}
-/************************************************************************************************/
-/* XMLCOPY                                 END                                                  */
-/************************************************************************************************/
+	//Alberts2 PrereqBonuses
+	pXML->SetOptionalIntVector(&m_aePrereqOrBonuses, L"PrereqBonuses");
 
 	//pXML->SetVariableListTagPair(&m_piProductionTraits, L"ProductionTraits", GC.getNumTraitInfos());
 
@@ -6277,17 +6218,6 @@ void CvBuildingInfo::copyNonDefaults(CvBuildingInfo* pClassInfo, CvXMLLoadUtilit
 	}
 
 	if (getPrereqAndBonus() == NO_BONUS) m_iPrereqAndBonus = pClassInfo->getPrereqAndBonus();
-	for ( int j = 0; j < GC.getNUM_BUILDING_PREREQ_OR_BONUSES(); j++)
-	{
-		if (getPrereqOrBonuses(j) == iTextDefault && pClassInfo->getPrereqOrBonuses(j) != iTextDefault)
-		{
-			if ( NULL == m_piPrereqOrBonuses )
-			{
-				CvXMLLoadUtility::InitList(&m_piPrereqOrBonuses,GC.getNUM_BUILDING_PREREQ_OR_BONUSES(),iTextDefault);
-			}
-			m_piPrereqOrBonuses[j] = pClassInfo->getPrereqOrBonuses(j);
-		}
-	}
 
 	//for ( int j = 0; j < GC.getNumTraitInfos(); j++)
 	//{
@@ -7921,6 +7851,12 @@ void CvBuildingInfo::copyNonDefaults(CvBuildingInfo* pClassInfo, CvXMLLoadUtilit
 	//	pClassInfo->m_pExprFreePromotionCondition = NULL;
 	//}
 	//TB Combat Mods (Buildings) end
+
+	//Alberts2 PrereqBonuses
+	if (!pClassInfo->m_aePrereqOrBonuses.empty())
+	{
+		pXML->CopyNonDefaultsFromIntVector(m_aePrereqOrBonuses, pClassInfo->m_aePrereqOrBonuses);	
+	}
 }
 /************************************************************************************************/
 /* XMLCOPY                                 END                                                  */
@@ -7963,4 +7899,17 @@ bool CvBuildingInfo::getNotShowInCity() const
 void CvBuildingInfo::setNotShowInCity()
 {
 	m_bNotShowInCity = (m_szArtDefineTag == "" || getArtInfo()->getScale() == 0.0 || stricmp(getArtInfo()->getNIF(), "Art/empty.nif") == 0);
+}
+
+//Alberts2 PrereqBonuses
+int CvBuildingInfo::getNumPrereqOrBonuses() const
+{
+	return m_aePrereqOrBonuses.size();
+}
+
+BonusTypes CvBuildingInfo::getPrereqOrBonuses(int i) const
+{
+	FAssertMsg(i < getNumPrereqOrBonuses(), "Index out of bounds");
+	FAssertMsg(i > -1, "Index out of bounds");
+	return static_cast<BonusTypes>(m_aePrereqOrBonuses[i]);
 }

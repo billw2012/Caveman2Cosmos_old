@@ -4128,39 +4128,6 @@ void CvXMLLoadUtility::SetVariableListTagPair(CvString **ppszList, const wchar_t
 	}
 }
 
-void CvXMLLoadUtility::SetOptionalIntVector(std::vector<int>* aInfos, const wchar_t* szRootTagName)
-{
-	aInfos->clear();
-	if (TryMoveToXmlFirstChild(szRootTagName))
-	{
-		int iNumSibs = GetXmlChildrenNumber();
-		CvString szTextVal;
-
-		if (0 < iNumSibs)
-		{
-			if (GetChildXmlVal(szTextVal))
-			{
-				for (int j = 0; j < iNumSibs; j++)
-				{
-					int value = GetInfoClass(szTextVal);
-					if (value > -1  && find(aInfos->begin(), aInfos->end(), value) == aInfos->end())
-					{
-						aInfos->push_back(value);
-					}
-					if (!GetNextXmlVal(szTextVal))
-					{
-						break;
-					}
-				}
-
-				MoveToXmlParent();
-			}
-		}
-
-		MoveToXmlParent();
-	}
-}
-
 void CvXMLLoadUtility::SetOptionalIntVectorWithDelayedResolution(std::vector<int>& aInfos, const wchar_t* szRootTagName)
 {
 	if (TryMoveToXmlFirstChild(szRootTagName))

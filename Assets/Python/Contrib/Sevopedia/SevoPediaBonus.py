@@ -155,7 +155,7 @@ class SevoPediaBonus:
 					bShow = True
 				else:
 					j = 0
-					while (not bShow and j < gc.getNUM_BUILDING_PREREQ_OR_BONUSES()):
+					while (not bShow and j < buildingInfo.getNumPrereqOrBonuses()):
 						if (buildingInfo.getPrereqOrBonuses(j) == self.iBonus):
 							self.aRequiresBuildings[iBuilding] = iBuilding
 							bShow = True

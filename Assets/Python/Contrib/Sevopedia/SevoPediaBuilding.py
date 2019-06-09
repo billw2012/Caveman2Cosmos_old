@@ -207,7 +207,7 @@ class SevoPediaBuilding:
 			bFirst = False
 			screen.attachImageButton(panelName, "", gc.getBonusInfo(iPrereq).getButton(), GenericButtonSizes.BUTTON_SIZE_CUSTOM, WidgetTypes.WIDGET_PEDIA_JUMP_TO_BONUS, iPrereq, -1, False)
 		nOr = 0
-		for j in range(gc.getNUM_BUILDING_PREREQ_OR_BONUSES()):
+		for j in range(gc.getBuildingInfo(self.iBuilding).getNumPrereqOrBonuses()):
 			if (gc.getBuildingInfo(self.iBuilding).getPrereqOrBonuses(j) > -1):
 				nOr += 1
 		szLeftDelimeter = ""
@@ -221,7 +221,7 @@ class SevoPediaBuilding:
 		if len(szLeftDelimeter) > 0:
 			screen.attachLabel(panelName, "", szLeftDelimeter)
 		bFirst = True
-		for j in range(gc.getNUM_BUILDING_PREREQ_OR_BONUSES()):
+		for j in range(gc.getBuildingInfo(self.iBuilding).getNumPrereqOrBonuses()):
 			eBonus = gc.getBuildingInfo(self.iBuilding).getPrereqOrBonuses(j)
 			if (eBonus > -1):
 				if (not bFirst):

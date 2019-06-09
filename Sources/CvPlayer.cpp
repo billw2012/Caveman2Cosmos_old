@@ -34167,7 +34167,7 @@ void CvPlayer::recalculateResourceConsumption(BonusTypes eBonus)
 			if ((kBuilding.getPrereqAndBonus() == eBonus) || (kBuilding.getPrereqVicinityBonus() == eBonus))
 				iConsumption += kBuilding.getProductionCost();
 				
-			for (iI = 0; iI < GC.getNUM_BUILDING_PREREQ_OR_BONUSES(); iI++)
+			for (iI = 0; iI < kBuilding.getNumPrereqOrBonuses(); iI++)
 			{
 				if ((kBuilding.getPrereqOrBonuses(iI) == eBonus) || (kBuilding.getPrereqOrVicinityBonuses(iI) == eBonus))
 				{
