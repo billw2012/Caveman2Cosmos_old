@@ -76,7 +76,7 @@
 			</CommerceModifiers>
 			<!-- Misc. Effects -->
             <iPopulationgrowthratepercentage>-25</iPopulationgrowthratepercentage>
-            <iMilitaryProductionModifier>25</iMilitaryProductionModifier>
+            <iMilitaryProductionModifier>20</iMilitaryProductionModifier>
 			<!-- Special properties -->
 			<bNukeImmune>1</bNukeImmune>
 			<iMinAreaSize>-1</iMinAreaSize>
@@ -196,7 +196,7 @@
 				<iCommerce>25</iCommerce>
 			</CommerceModifiers>
 			<!-- Misc. Effects -->
-            <iMilitaryProductionModifier>25</iMilitaryProductionModifier>
+            <iMilitaryProductionModifier>20</iMilitaryProductionModifier>
 			<FreeBonus>BONUS_NEANDERTHAL</FreeBonus>
 			<iNumFreeBonuses>1</iNumFreeBonuses>
 			<!-- Special properties -->

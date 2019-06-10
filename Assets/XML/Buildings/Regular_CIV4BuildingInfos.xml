@@ -914,7 +914,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>5</iCommerce>
-				<iCommerce>1</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Specialist effects -->
 			<SpecialistCounts>
@@ -5656,7 +5656,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>6</iCommerce>
+				<iCommerce>10</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<BonusHappinessChanges>
@@ -6210,7 +6210,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>12</iCommerce>
+				<iCommerce>15</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -12797,7 +12797,7 @@
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>1</iCommerce>
+						<iCommerce>5</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -12823,7 +12823,7 @@
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
 					<PropertyType>PROPERTY_DISEASE</PropertyType>
-					<iAmountPerTurn>2</iAmountPerTurn>
+					<iAmountPerTurn>1</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
@@ -16824,7 +16824,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>12</iCommerce>
+				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -23196,7 +23196,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>12</iCommerce>
+				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -23603,7 +23603,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>2</iCommerce>
-				<iCommerce>2</iCommerce>
+				<iCommerce>7</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -27666,7 +27666,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>10</iCommerce>
-				<iCommerce>7</iCommerce>
+				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -38547,7 +38547,7 @@
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
-				<iCommerce>-15</iCommerce>
+				<iCommerce>-10</iCommerce>
 				<iCommerce>2</iCommerce>
 			</CommerceModifiers>
 			<!-- Unit effects -->
@@ -38567,7 +38567,7 @@
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
 					<PropertyType>PROPERTY_CRIME</PropertyType>
-					<iAmountPerTurn>10</iAmountPerTurn>
+					<iAmountPerTurn>5</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
@@ -49778,7 +49778,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>12</iCommerce>
+				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -51044,7 +51044,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>12</iCommerce>
+				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -55524,7 +55524,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>12</iCommerce>
+				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -56718,7 +56718,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>12</iCommerce>
+				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -64934,8 +64934,8 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>0</iCommerce>
 				<iCommerce>4</iCommerce>
+				<iCommerce>10</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<BonusHealthChanges>
@@ -71761,7 +71761,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>2</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Misc. Effects -->
 			<iMilitaryProductionModifier>10</iMilitaryProductionModifier>
@@ -82526,9 +82526,10 @@
 			<!-- Construction cost -->
 			<iCost>261</iCost>
 			<!-- Main effects -->
-			<iHealth>-1</iHealth>
 			<CommerceChanges>
 				<iCommerce>4</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>3</iCommerce>
 			</CommerceChanges>
 			<FreeBonus>BONUS_WARES_PORCELAIN</FreeBonus>
 			<iNumFreeBonuses>1</iNumFreeBonuses>
@@ -82537,7 +82538,7 @@
 				<BonusCommerceModifier>
 					<BonusType>BONUS_DYE</BonusType>
 					<CommerceModifiers>
-						<iCommerce>0</iCommerce>
+						<iCommerce>1</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>1</iCommerce>
 					</CommerceModifiers>
@@ -82549,16 +82550,9 @@
 			<Properties>
 				<Property>
 					<PropertyType>PROPERTY_FLAMMABILITY</PropertyType>
-					<iPropertyValue>5</iPropertyValue>
+					<iPropertyValue>1</iPropertyValue>
 				</Property>
 			</Properties>
-			<PropertyManipulators>
-				<PropertySource>
-					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
-					<PropertyType>PROPERTY_AIR_POLLUTION</PropertyType>
-					<iAmountPerTurn>1</iAmountPerTurn>
-				</PropertySource>
-			</PropertyManipulators>
 			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -82813,7 +82807,7 @@
 			<CommerceModifiers>
 				<iCommerce>2</iCommerce>
 				<iCommerce>2</iCommerce>
-				<iCommerce>1</iCommerce>
+				<iCommerce>5</iCommerce>
 				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Other -->
@@ -83103,16 +83097,9 @@
 			<Properties>
 				<Property>
 					<PropertyType>PROPERTY_FLAMMABILITY</PropertyType>
-					<iPropertyValue>5</iPropertyValue>
+					<iPropertyValue>1</iPropertyValue>
 				</Property>
 			</Properties>
-			<PropertyManipulators>
-				<PropertySource>
-					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
-					<PropertyType>PROPERTY_AIR_POLLUTION</PropertyType>
-					<iAmountPerTurn>3</iAmountPerTurn>
-				</PropertySource>
-			</PropertyManipulators>
 			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -83201,13 +83188,13 @@
 					<iPropertyValue>2</iPropertyValue>
 				</Property>
 			</Properties>
-		<!--	<PropertyManipulators>
+			<PropertyManipulators>
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
 					<PropertyType>PROPERTY_AIR_POLLUTION</PropertyType>
-					<iAmountPerTurn>3</iAmountPerTurn>
+					<iAmountPerTurn>1</iAmountPerTurn>
 				</PropertySource>
-			</PropertyManipulators> -->
+			</PropertyManipulators>
 			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -83562,10 +83549,10 @@
 			<iCost>655</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>0</iCommerce>
-				<iCommerce>0</iCommerce>
-				<iCommerce>2</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>5</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Defense effects -->
 			<iEspionageDefense>2</iEspionageDefense>
@@ -83622,6 +83609,8 @@
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>2</iCommerce>
+				<iCommerce>2</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceChanges>
 			<FreeBonus>BONUS_BOOKS</FreeBonus>
 			<iNumFreeBonuses>1</iNumFreeBonuses>
@@ -83633,7 +83622,14 @@
 				</BonusHappinessChange>
 			</BonusHappinessChanges>
 			<!-- Other -->
-			<iHurryCostModifier>100</iHurryCostModifier>
+			<iHurryCostModifier>100</iHurryCostModifier>			
+			<PropertyManipulators>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_EDUCATION</PropertyType>
+					<iAmountPerTurn>5</iAmountPerTurn>
+				</PropertySource>
+			</PropertyManipulators>
 		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Private School -->
@@ -87452,9 +87448,9 @@
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
 			<CommerceModifiers>
-				<iCommerce>0</iCommerce>
-				<iCommerce>0</iCommerce>
-				<iCommerce>2</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Great People effects -->
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
@@ -101478,7 +101474,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>12</iCommerce>
+				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -102078,16 +102074,16 @@
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>1</iCommerce>
+				<iCommerce>2</iCommerce>
 			</CommerceChanges>
 			<!-- Special Yield and Commerce modifiers -->
 			<BonusCommerceModifiers>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_DYE</BonusType>
 					<CommerceModifiers>
+						<iCommerce>1</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>0</iCommerce>
-						<iCommerce>5</iCommerce>
+						<iCommerce>3</iCommerce>
 					</CommerceModifiers>
 				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
@@ -102192,7 +102188,7 @@
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
 					<PropertyType>PROPERTY_CRIME</PropertyType>
-					<iAmountPerTurn>3</iAmountPerTurn>
+					<iAmountPerTurn>2</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
 			<!-- Revolution mod -->
@@ -102661,7 +102657,6 @@
 			<bPrereqPower>1</bPrereqPower>
 			<PrereqBonuses>
 				<Bonus>BONUS_COPPERWIRES</Bonus>
-				<Bonus>BONUS_FIBEROPTICS</Bonus>
 			</PrereqBonuses>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
@@ -102677,9 +102672,9 @@
 			<iCost>830</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
-				<iCommerce>0</iCommerce>
-				<iCommerce>0</iCommerce>
 				<iCommerce>2</iCommerce>
+				<iCommerce>1</iCommerce>
+				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<!-- Defense effects -->
 			<iDCMAirbombMission>2</iDCMAirbombMission>
@@ -103287,7 +103282,7 @@
 			<CommerceModifiers>
 				<iCommerce>7</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>9</iCommerce>
+				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
@@ -113357,7 +113352,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>12</iCommerce>
+				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
 			<!-- Special Health and Happiness  modifiers -->
 			<ReligionChanges>
