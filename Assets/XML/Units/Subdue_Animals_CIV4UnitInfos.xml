@@ -22100,7 +22100,7 @@
 			<Description>TXT_KEY_UNIT_SUBDUED_WOMBAT</Description>
 			<Civilopedia>TXT_KEY_UNIT_WOMBAT_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_SUBDUED_ANIMAL_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_WOMBAT_HELP</Help>
+			<Help>TXT_KEY_UNIT_SUBDUED_WOMBAT_HELP</Help>
 			<bMilitaryTrade>1</bMilitaryTrade>
 			<bOnlyDefensive>1</bOnlyDefensive>
 			<Buildings>

@@ -1657,6 +1657,10 @@
 		<Polish>Gołąb domowy (Columba livia), jest udomowioną formą dzikiego gołębia skalnego. Udomowienie tego gatunku nastąpiło prawdopodobnie ok. 4000 lat p.n.e. na Bliskim Wschodzie. Różnorodna hodowla tych ptaków doprowadziła do uzyskania ok. 300 różnych podgatunków i ras, różniących się między sobą wielkością, ubarwieniem, upierzeniem, rozmiarami dzioba i nóg itp. Należy wymienić tutaj najciekawsze pod względem wyglądu i zwyczajów: turkoty, latawce, prukarze, mewki, pawiki, olbrzymy, kuraki, brodawczaki, pocztowe oraz garłacze. Ta ostatnia rasa posiada niezwykle rozwinięte wole, które u samców w okresie godowym powiększają się do niebywałych rozmiarów po nadęciu powietrzem (mogą się powiększyć nawet do 8 cm).[PARAGRAPH:2]źródło: Wikipedia</Polish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUBDUED_PIGEON_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories - Pigeon</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_PLATYPUS</Tag>
 		<English>Platypus</English>
 		<French>Ornithorynque</French>
@@ -4516,7 +4520,7 @@ The animal kingdom is home to fascinating and mysterious creatures that can amaz
 		<French>Le Gorfou sauteur (Eudyptes chrysocome) est une espèce d'oiseaux de la famille des Spheniscidae. Comme les autres gorfous, il se distingue des manchots par une touffe de plumes noires de chaque côté de sa tête appelée aigrette.[PARAGRAPH:2]Source: Wikipedia</French>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UNIT_SUBDUED_ROCKHOPPER_PENGUIN_HELP</Tag>
+		<Tag>TXT_KEY_UNIT_SUBDUED_ROCKHOPPER_HELP</Tag>
 		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories - Rockhopper Penguin[NEWLINE][ICON_BULLET]Myths of Sea, Flightless Birds and Sea Birds[NEWLINE][ICON_BULLET]Bird Cage and Enclosure</English>
 		<French>[COLOR_HIGHLIGHT_TEXT]Construisez[COLOR_REVERT] les Mythes et Histoires des Gorfous[NEWLINE][ICON_BULLET]Permet les Mythes de la mer, Oiseaux terrestres et Oiseaux marins[NEWLINE][ICON_BULLET]Cages et enclos à Oiseaux</French>
 	</TEXT>
@@ -4552,6 +4556,14 @@ The animal kingdom is home to fascinating and mysterious creatures that can amaz
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUBDUED_SEALION_HELP</Tag>
 		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories -  Sea Lion and Pinnipeds[NEWLINE][ICON_BULLET]Pinniped Cage and Enclosure[NEWLINE][ICON_BULLET]Trained Seal</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUBDUED_SEALION_LAND_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories - Sea Lion</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUBDUED_SEALION_SEA_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT][COLOR_HIGHLIGHT_TEXT]Build[COLOR_REVERT] Myth, Story and Stories - Sea Lion</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SEALION_MYTH</Tag>
