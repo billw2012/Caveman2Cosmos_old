@@ -19644,6 +19644,10 @@
 		<English>Build Up (Counter Espionage) V</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_PROMOTIONLINE_BUILD_UP_SECURITY_HELP</Tag>
+		<English>Each round spent building up Counter Espionage, the unit gains +5% [COLOR_HIGHLIGHT_TEXT]Interception Chance[COLOR_REVERT] (to catch enemy spies) up to a maximum of +25%, provided each promotion level is qualified for by the unit.</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_PREREQ_NORM_INVISIBLE_TEXT</Tag>
 		<English>[ICON_BULLET]Only units that have some natural invisibility ability can select this promotion.</English>
 	</TEXT>
