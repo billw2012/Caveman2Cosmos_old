@@ -30,6 +30,10 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_1_HQ</Tag>
+		<English>Cereal Mills HQ</English>		
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CORPORATION_2</Tag>
 		<English>Sid's Sushi Co</English>
 		<French>
@@ -52,6 +56,10 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_2_HQ</Tag>
+		<English>Sid's Sushi Co HQ</English>		
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CORPORATION_3</Tag>
@@ -78,6 +86,10 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_3_HQ</Tag>
+		<English>Ethanol Inc. HQ</English>		
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CORPORATION_4</Tag>
 		<English>Creative Constructions</English>
 		<French>
@@ -100,6 +112,10 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_4_HQ</Tag>
+		<English>Creative Constructions HQ</English>		
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CORPORATION_5</Tag>
@@ -126,6 +142,10 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_5_HQ</Tag>
+		<English>Mining Inc HQ</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CORPORATION_6</Tag>
 		<English>Aluminum Co</English>
 		<French>
@@ -150,6 +170,10 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_6_HQ</Tag>
+		<English>Aluminum Co HQ</English>		
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CORPORATION_7</Tag>
 		<English>Civilized Jewelers Inc</English>
 		<French>
@@ -172,6 +196,10 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_7_HQ</Tag>
+		<English>Civilized Jewelers Inc HQ</English>		
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CORPORATION_ADVENTURE</Tag>
@@ -757,6 +785,10 @@
 		<Tag>TXT_KEY_CORPORATION_MILEHIGH_FRANCHISE_PEDIA</Tag>
 		<English>A travel agency is a retail business, that sells travel related products and services to customers, on behalf of suppliers, such as airlines, car rentals, cruise lines, hotels, railways, sightseeing tours and package holidays that combine several products. In addition to dealing with ordinary tourists, most travel agencies have a separate department devoted to making travel arrangements for business travellers and some travel agencies specialize in commercial and business travel only. There are also travel agencies that serve as general sales agents for foreign travel companies, allowing them to have offices in countries other than where their headquarters are located.[NEWLINE]The British company Cox and Kings is sometimes said to be the oldest travel agency in the world, but this rests upon the services that the original bank, established in 1758, supplied to its wealthy clients. The modern travel agency first appeared in the second half of the 19th century. Thomas Cook, in addition to developing the package tour, established a chain of agencies in the last quarter of the 19th century, in association with the Midland Railway. They not only sold their own tours to the public, but in addition, represented other tour companies. Other British pioneer travel agencies were Dean and Dawson, the Polytechnic Touring Association and the Co-operative Wholesale Society. The oldest travel agency in North America is Brownell Travel; on July 4, 1887, Walter T. Brownell led ten travelers on a European tour, setting sail from New York on the SS Devonia.[NEWLINE]Travel agencies became more commonplace with the development of commercial aviation, starting in the 1920s. Originally, travel agencies largely catered to middle and upper class customers, but the post-war boom in mass-market package holidays resulted in travel agencies on the main streets of most British towns, catering to a working class clientèle, looking for a convenient way to book overseas beach holidays.</English>
 		<Italian>Un'agenzia di viaggio è un business che vende ai propri cleinti prodotti e servizi legati al viaggio, come linee aree, noleggi auto, viaggi in crociera, hotel, ferrovie, visite guidate e pacchetti vacanza che combiano diveri prodotti. Oltre ai normali turisti, la maggior parte delle agenzie di viaggio hanno una sezione separata che si occupa di organizzare i viaggi per uomini di affari; alcune agenzie si specializzano solo nei viaggi d'affari. Ci sono anche agenzie di viaggio che servono come agenti di vendita per compagnie di viaggio straniere, permettendo loro di avere uffici in nazioni diverse da quella del loro QG.[NEWLINE]La compagnia inglese Cox and Kings è spesso ritenuta la più antica agenzia di viaggio in tutto il mondo, anche se questo si affida ai servizi che a banca originale, fondata nel 1758, forniva ai suoi clienti più ricchi. La moderna agenzia di viaggio apparve per la prima volta nella seconda metà del 19° secolo. Thomas Cook, oltre a sviluppare le spedizioni dei bagagli, fondò una catena di agenzie nell'ultimo quarto del 19° secolo, in associazione con le Midland Railway. Non solo vendevano i loro tour al pubblico, ma rappresentavano anche altre compagnie. Altre agenzie di viaggio inglesi erano Dean and Dawson, Polytechnic Touring Association e Co-operative Wholesale Society. La più antica agenzia di viaggio del Nord-America è Brownell Travel; il 4 luglio 1887, Walter T. Brownell condusse dieci viaggiatori in un tour dell'Europa, a bordo dell'SS Devonia.[NEWLINE]Le agenzie di viaggio divennero più comuni con lo sviluppo dell'aviazione commerciale, che iniziò negli anni 20. All'inizio le agenzie di viaggio erano destinate soprattutto alle classi medio-alte, ma il boom economico post-bellico che portò a un mercato di massa dei pacchetti vacanza portò le agenzie di viaggio sulle strade principali di molte città inglesi, rivolgendosi a una clientela della classe operaia, che cercava un modo conveniente per trascorrere le proprie vacanze.</Italian>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_MILEHIGH_PEDIA</Tag>
+		<English>Your local choice for planning exotic vacations.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CORPORATION_MOBBY</Tag>

@@ -710,7 +710,7 @@
 			<BuildingClass>BUILDINGCLASS_CORPORATION_1</BuildingClass>
 			<Type>BUILDING_CORPORATION_1</Type>
 			<SpecialBuildingType>SPECIALBUILDING_CORPORATION_HQ</SpecialBuildingType>
-			<Description>TXT_KEY_CORPORATION_1</Description>
+			<Description>TXT_KEY_CORPORATION_1_HQ</Description>
 			<Civilopedia>TXT_KEY_CORPORATION_1_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_CORPORATION_1_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
@@ -782,7 +782,7 @@
 			<BuildingClass>BUILDINGCLASS_CORPORATION_2</BuildingClass>
 			<Type>BUILDING_CORPORATION_2</Type>
 			<SpecialBuildingType>SPECIALBUILDING_CORPORATION_HQ</SpecialBuildingType>
-			<Description>CHANGED_TXT_KEY_CORPORATION_2</Description>
+			<Description>TXT_KEY_CORPORATION_2_HQ</Description>
 			<Civilopedia>TXT_KEY_CORPORATION_2_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_CORPORATION_2_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
@@ -855,7 +855,7 @@
 			<BuildingClass>BUILDINGCLASS_CORPORATION_3</BuildingClass>
 			<Type>BUILDING_CORPORATION_3</Type>
 			<SpecialBuildingType>SPECIALBUILDING_CORPORATION_HQ</SpecialBuildingType>
-			<Description>TXT_KEY_CORPORATION_3</Description>
+			<Description>TXT_KEY_CORPORATION_3_HQ</Description>
 			<Civilopedia>TXT_KEY_CORPORATION_3_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_CORPORATION_3_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
@@ -927,7 +927,7 @@
 			<BuildingClass>BUILDINGCLASS_CORPORATION_4</BuildingClass>
 			<Type>BUILDING_CORPORATION_4</Type>
 			<SpecialBuildingType>SPECIALBUILDING_CORPORATION_HQ</SpecialBuildingType>
-			<Description>TXT_KEY_CORPORATION_4</Description>
+			<Description>TXT_KEY_CORPORATION_4_HQ</Description>
 			<Civilopedia>TXT_KEY_CORPORATION_4_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_CORPORATION_4_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
@@ -999,7 +999,7 @@
 			<BuildingClass>BUILDINGCLASS_CORPORATION_5</BuildingClass>
 			<Type>BUILDING_CORPORATION_5</Type>
 			<SpecialBuildingType>SPECIALBUILDING_CORPORATION_HQ</SpecialBuildingType>
-			<Description>TXT_KEY_CORPORATION_5</Description>
+			<Description>TXT_KEY_CORPORATION_5_HQ</Description>
 			<Civilopedia>TXT_KEY_CORPORATION_5_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_CORPORATION_5_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
@@ -1071,7 +1071,7 @@
 			<BuildingClass>BUILDINGCLASS_CORPORATION_6</BuildingClass>
 			<Type>BUILDING_CORPORATION_6</Type>
 			<SpecialBuildingType>SPECIALBUILDING_CORPORATION_HQ</SpecialBuildingType>
-			<Description>TXT_KEY_CORPORATION_6</Description>
+			<Description>TXT_KEY_CORPORATION_6_HQ</Description>
 			<Civilopedia>TXT_KEY_CORPORATION_6_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_CORPORATION_6_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
@@ -1143,7 +1143,7 @@
 			<BuildingClass>BUILDINGCLASS_CORPORATION_7</BuildingClass>
 			<Type>BUILDING_CORPORATION_7</Type>
 			<SpecialBuildingType>SPECIALBUILDING_CORPORATION_HQ</SpecialBuildingType>
-			<Description>TXT_KEY_CORPORATION_7</Description>
+			<Description>TXT_KEY_CORPORATION_7_HQ</Description>
 			<Civilopedia>TXT_KEY_CORPORATION_7_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_CORPORATION_7_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
