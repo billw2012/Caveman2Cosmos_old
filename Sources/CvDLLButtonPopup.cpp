@@ -4,7 +4,6 @@
 #include "CvDLLButtonPopup.h"
 #include "CvGlobals.h"
 #include "CvPlayerAI.h"
-#include "CvGameAI.h"
 #include "CvTeamAI.h"
 #include "CvMap.h" 
 #include "CvViewport.h" 
@@ -18,10 +17,8 @@
 #include "CvGameTextMgr.h"
 #include "CvDLLPythonIFaceBase.h"
 #include "CvDLLInterfaceIFaceBase.h"
-#include "CvDLLEntityIFaceBase.h"
 #include "CvGameCoreUtils.h"
 #include "CvDLLEngineIFaceBase.h"
-#include "CvEventReporter.h"
 #include "CvMessageControl.h"
 
 // BUG - start
@@ -910,7 +907,7 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 		}
 		else
 		{
-			GET_PLAYER(GC.getGameINLINE().getActivePlayer()).setArrestingUnit(NO_UNIT);
+			GET_PLAYER(GC.getGameINLINE().getActivePlayer()).setArrestingUnit(FFreeList::INVALID_INDEX);
 		}
 		break;
 
@@ -922,7 +919,7 @@ void CvDLLButtonPopup::OnOkClicked(CvPopup* pPopup, PopupReturn *pPopupReturn, C
 		else
 		{
 			CvMessageControl::getInstance().sendAmbushConfirmation(false);
-			GET_PLAYER(GC.getGameINLINE().getActivePlayer()).setAmbushingUnit(NO_UNIT);
+			GET_PLAYER(GC.getGameINLINE().getActivePlayer()).setAmbushingUnit(FFreeList::INVALID_INDEX);
 		}
 		break;
 

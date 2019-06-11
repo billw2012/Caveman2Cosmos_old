@@ -435,11 +435,7 @@ void CvCity::init(int iID, PlayerTypes eOwner, int iX, int iY, bool bBumpUnits, 
 				int iPopDestroys = GC.getFeatureInfo(pPlot->getFeatureType()).getPopDestroys();
 				if (iPopDestroys == 0 || iPopDestroys == 1)
 				{
-//#ifdef MULTI_FEATURE_MOD
-		//			pPlot->removeAllFeatures();
-//#else
 					pPlot->setFeatureType(NO_FEATURE);
-//#endif
 				}
 			}
 		}
@@ -1772,27 +1768,12 @@ void CvCity::kill(bool bUpdatePlotGroups, bool bUpdateCulture)
 			if (GC.getFeatureInfo((FeatureTypes)iJ).isRequiresRiver())
 			*/
 			{
-//#ifdef MULTI_FEATURE_MOD
-//				if (pPlot->canHaveFeature((FeatureTypes)iJ), GC.getFeatureInfo((FeatureTypes)iJ).canBeSecondary())
-//#else
 				if (pPlot->canHaveFeature((FeatureTypes)iJ))
-//#endif
 				{
 					if (GC.getFeatureInfo((FeatureTypes)iJ).getAppearanceProbability() == 10000)
 					{
-//#ifdef MULTI_FEATURE_MOD
-//						if (GC.getFeatureInfo((FeatureTypes)iJ).canBeSecondary())
-//						{
-//							pPlot->setHasFeature((FeatureTypes)iJ, true);
-//						}
-//						else
-//						{
-//							pPlot->setFeatureType((FeatureTypes)iJ);
-//						}
-//#else
 						pPlot->setFeatureType((FeatureTypes)iJ);
 						break;
-//#endif
 					}
 				}
 			}
@@ -4030,7 +4011,7 @@ bool CvCity::canConstruct(BuildingTypes eBuilding, bool bContinue, bool bTestVis
 	{
 		return false;
 	}
-	else if ( !bContinue && !bTestVisible && !bIgnoreCost && !bIgnoreAmount && !bIgnoreBuildings && eIgnoreTechReq == NO_TECH && probabilityEverConstructable == NULL)
+	else if ( !bContinue && !bTestVisible && !bIgnoreCost && !bIgnoreAmount && !bIgnoreBuildings && eIgnoreTechReq == NO_TECH && probabilityEverConstructable == NULL && !bAffliction && !bExposed)
 	{
 		bool bResult;
 		bool bHaveCachedResult;
@@ -4057,7 +4038,7 @@ bool CvCity::canConstruct(BuildingTypes eBuilding, bool bContinue, bool bTestVis
 				bHaveCachedResult = true;
 #ifdef VALIDATE_CAN_CONSTRUCT_CACHE
 				//	Verify if required
-				if ( bResult != canConstructInternal(eBuilding, bContinue, bTestVisible, bIgnoreCost, bIgnoreAmount) )
+				if ( bResult != canConstructInternal(eBuilding, bContinue, bTestVisible, bIgnoreCost, bIgnoreAmount, NO_BUILDINGCLASS, bIgnoreBuildings, eIgnoreTechReq, NULL, bAffliction, bExposed) )
 				{
 					MessageBox(NULL,"canConstruct cached result mismatch","cvGameCore",MB_OK);
 					FAssertMsg(false, "canConstruct cached result mismatch");
@@ -4070,7 +4051,7 @@ bool CvCity::canConstruct(BuildingTypes eBuilding, bool bContinue, bool bTestVis
 
 		if ( !bHaveCachedResult )
 		{
-			bResult = canConstructInternal(eBuilding, bContinue, bTestVisible, bIgnoreCost, bIgnoreAmount);
+			bResult = canConstructInternal(eBuilding, bContinue, bTestVisible, bIgnoreCost, bIgnoreAmount, NO_BUILDINGCLASS, bIgnoreBuildings, eIgnoreTechReq, NULL, bAffliction, bExposed);
 			{
 				MEMORY_TRACK_EXEMPT()
 
@@ -10187,11 +10168,7 @@ void CvCity::setPopulation(int iNewValue)
 			int iPopDestroys = GC.getFeatureInfo(plot()->getFeatureType()).getPopDestroys();
 			if (iPopDestroys != -1 && getPopulation() >= iPopDestroys)
 			{
-	//#ifdef MULTI_FEATURE_MOD
-	//			pPlot->removeAllFeatures();
-	//#else
 				plot()->setFeatureType(NO_FEATURE);
-	//#endif
 			}
 		}
 
@@ -11553,22 +11530,6 @@ void CvCity::calculateFeatureHealthPercent(int& iGood, int& iBad) const
 
 		if (pLoopPlot != NULL)
 		{
-//#ifdef MULTI_FEATURE_MOD
-//			for (int i=0; i<pLoopPlot->getNumFeatures(); i++)
-//			{
-//				eFeature = pLoopPlot->getFeatureByIndex(i);
-//				int iHealth = GC.getFeatureInfo(eFeature).getHealthPercent();
-//
-//				if (iHealth > 0)
-//				{
-//					iGood += iHealth;
-//				}
-//				else
-//				{
-//					iBad -= iHealth;
-//				}
-//			}
-//#else
 			eFeature = pLoopPlot->getFeatureType();
 
 			if (eFeature != NO_FEATURE)
@@ -11584,7 +11545,6 @@ void CvCity::calculateFeatureHealthPercent(int& iGood, int& iBad) const
 					iBad -= iHealth;
 				}
 			}
-//#endif
 		}
 	}
 }
@@ -12324,11 +12284,7 @@ int CvCity::getAdditionalHappinessByCivic(CivicTypes eCivic, bool bDifferenceToC
 
 							if (pLoopPlot != NULL)
 							{
-//#ifdef MULTI_FEATURE_MOD
-//								if (pLoopPlot->getHasFeature((FeatureTypes)iI))
-//#else
 								if (pLoopPlot->getFeatureType() == (FeatureTypes)iI)
-//#endif
 								{
 									iCount++;
 								}
@@ -13056,22 +13012,6 @@ void CvCity::updateFeatureHappiness(bool bLimited)
 
 		if (pLoopPlot != NULL)
 		{
-//#ifdef MULTI_FEATURE_MOD
-//			for (int j=0; j<pLoopPlot->getNumFeatures(); j++)
-//			{
-//				FeatureTypes eFeature = pLoopPlot->getFeatureByIndex(j);
-//
-//				int iHappy = GET_PLAYER(getOwnerINLINE()).getFeatureHappiness(eFeature);
-//				if (iHappy > 0)
-//				{
-//					iNewFeatureGoodHappiness += iHappy;
-//				}
-//				else
-//				{
-//					iNewFeatureBadHappiness += iHappy;
-//				}
-//			}
-//#else
 			FeatureTypes eFeature = pLoopPlot->getFeatureType();
 
 			if (eFeature != NO_FEATURE)
@@ -13086,7 +13026,6 @@ void CvCity::updateFeatureHappiness(bool bLimited)
 					iNewFeatureBadHappiness += iHappy;
 				}
 			}
-//#endif
 
 			ImprovementTypes eImprovement = pLoopPlot->getImprovementType();
 
@@ -19096,13 +19035,6 @@ void CvCity::setNumFreeBuilding(BuildingTypes eIndex, int iNewValue)
 	CvBuildingInfo& kBuilding = GC.getBuildingInfo(eIndex);
 	if (iNewValue != 0)
 	{
-		if (kBuilding.getConstructCondition())
-		{
-			if (!kBuilding.getConstructCondition()->evaluate(const_cast<CvGameObjectCity*>(getGameObjectConst()))) // Const wegcasten ist hier ok da evaluate nicht wirklich etwas ändert
-			{
-				iNewValue = 0;
-			}
-		}
 		if (!isValidBuildingLocation(eIndex))
 		{
 			iNewValue = 0;
@@ -19130,13 +19062,6 @@ void CvCity::setNumFreeAreaBuilding(BuildingTypes eIndex, int iNewValue)
 	CvBuildingInfo& kBuilding = GC.getBuildingInfo(eIndex);
 	if (iNewValue != 0)
 	{
-		if (kBuilding.getConstructCondition())
-		{
-			if (!kBuilding.getConstructCondition()->evaluate(const_cast<CvGameObjectCity*>(getGameObjectConst()))) // Const wegcasten ist hier ok da evaluate nicht wirklich etwas ändert
-			{
-				iNewValue = 0;
-			}
-		}
 		if (!isValidBuildingLocation(eIndex))
 		{
 			iNewValue = 0;
@@ -19165,13 +19090,6 @@ void CvCity::setNumFreeTradeRegionBuilding(BuildingTypes eIndex, int iNewValue)
 	CvBuildingInfo& kBuilding = GC.getBuildingInfo(eIndex);
 	if (iNewValue != 0)
 	{
-		if (kBuilding.getConstructCondition())
-		{
-			if (!kBuilding.getConstructCondition()->evaluate(const_cast<CvGameObjectCity*>(getGameObjectConst()))) // Const wegcasten ist hier ok da evaluate nicht wirklich etwas ändert
-			{
-				iNewValue = 0;
-			}
-		}
 		if (!isValidBuildingLocation(eIndex))
 		{
 			iNewValue = 0;
@@ -26153,11 +26071,7 @@ bool CvCity::isValidTerrainForBuildings(BuildingTypes eBuilding) const
 				pLoopPlot = getCityIndexPlot(iJ);
 				if (pLoopPlot != NULL)
 				{
-//#ifdef MULTI_FEATURE_MOD
-//					if (pLoopPlot->getHasFeature((FeatureTypes)iI))
-//#else
 					if (pLoopPlot->getFeatureType() == iI)
-//#endif
 					{
 						bHasValidFeature = true;
 						break;
@@ -28807,238 +28721,6 @@ UnitTypes CvCity::getUnitListSelected()
 void CvCity::setUnitListSelected(UnitTypes eUnit)
 {
 	m_UnitList.setSelectedUnit(eUnit);
-}
-
-int CvCity::getTradeImportance() const
-{
-	return m_iTradeImportance;
-}
-
-void CvCity::calculateTradeImportance()
-{
-	int iTI = 0;
-	
-	iTI += 100 * getPopulation();
-	iTI += 500 * getTradeRoutes();
-	iTI *= 100 + getTradeRouteModifier();
-	iTI /= 100;
-
-	m_iTradeImportance = iTI;
-}
-
-int CvCity::getTradeCosts(CvPlot* pFromPlot, CvPlot* pToPlot) const
-{
-	if (pToPlot->getBlockadedCount(getTeam()) > 0)
-	{
-		return 50000;
-	}
-
-	int iCost = 200; // base cost
-
-	DirectionTypes eDir = directionXY(pFromPlot, pToPlot);
-	
-	if (!isCardinalDirection(eDir))
-	{
-		iCost = 280;
-	}
-
-	// distance based increase of base cost
-	int iDX = xDistance(getX_INLINE(), pToPlot->getX_INLINE());
-	int iDY = yDistance(getY_INLINE(), pToPlot->getY_INLINE());
-	if ((iDX > 2) || (iDY > 2))
-		iCost += (iDX * iDX + iDY * iDY) * 100 / getTradeImportance();
-	
-//#ifdef MULTI_FEATURE_MOD
-//	if (pToPlot->getNumFeatures() == 0)
-//	{
-//		iCost += 50 * GC.getTerrainInfo(pToPlot->getTerrainType()).getMovementCost();
-//	}
-//	else
-//	{
-//		int iRegularCost = 0;
-//		for (int i=0; i<pToPlot->getNumFeatures(); i++)
-//		{
-//			iRegularCost = std::max(iRegularCost, GC.getFeatureInfo(pToPlot->getFeatureByIndex(i)).getMovementCost());
-//		}
-//		iCost += 50 * iRegularCost;
-//	}
-//#else
-	iCost += 50 * ((pToPlot->getFeatureType() == NO_FEATURE) ? GC.getTerrainInfo(pToPlot->getTerrainType()).getMovementCost() : GC.getFeatureInfo(pToPlot->getFeatureType()).getMovementCost());
-//#endif
-
-	if (pToPlot->isHills())
-	{
-		iCost += 50 * GC.getHILLS_EXTRA_MOVEMENT();
-	}
-
-	if (pToPlot->isPeak2(true))
-	{
-		if (GET_TEAM(getTeam()).isMoveFastPeaks())
-		{
-			iCost += 300;
-		}
-		else if (GET_TEAM(getTeam()).isCanPassPeaks())
-		{
-			iCost += 500;
-		}
-		else
-		{
-			iCost = 50000;
-		}
-	}
-
-	if (pFromPlot->isRoute() && pToPlot->isRoute() && ((GET_TEAM(getTeam()).isBridgeBuilding() || !(pFromPlot->isRiverCrossing(eDir)))))
-	{
-		RouteTypes fromRouteType = pFromPlot->getRouteType();
-		CvRouteInfo& fromRoute = GC.getRouteInfo(fromRouteType);
-		RouteTypes toRouteType = pToPlot->getRouteType();
-		CvRouteInfo& toRoute = GC.getRouteInfo(toRouteType);
-
-		int iRouteCost = fromRoute.getMovementCost() + GET_TEAM(getTeam()).getRouteChange(fromRouteType);
-		if ( toRouteType != fromRouteType )
-		{
-			int iToRouteCost = toRoute.getMovementCost() + GET_TEAM(getTeam()).getRouteChange(toRouteType);
-
-			if ( iToRouteCost > iRouteCost )
-			{
-				iRouteCost = iToRouteCost;
-			}
-		}
-		if (iRouteCost < iCost)
-		{
-			iCost = (iCost + iRouteCost) / 2;
-		}
-	}
-
-	if (pFromPlot->isRiverConnection(eDir) && GET_TEAM(getTeam()).isRiverTrade())
-	{
-		iCost = iCost * 2 / 3;
-	}
-
-	if (pFromPlot->isWater() || pToPlot->isWater())
-	{	
-		if (pFromPlot->isWater() && pToPlot->isWater())
-		{
-			if (!GET_TEAM(getTeam()).isTerrainTrade(pFromPlot->getTerrainType()) || !GET_TEAM(getTeam()).isTerrainTrade(pToPlot->getTerrainType()))
-			{
-				return 50000;
-			}
-		}
-		else
-		{
-			if (pFromPlot->isWater() && !GET_TEAM(getTeam()).isTerrainTrade(pFromPlot->getTerrainType()))
-			{
-				return 50000;
-			}
-			else if (pToPlot->isWater() && !GET_TEAM(getTeam()).isTerrainTrade(pToPlot->getTerrainType()))
-			{
-				return 50000;
-			}
-			else if (pFromPlot->isCity(true) || pToPlot->isCity(true))
-			{
-				iCost += 200;
-			}
-			else
-			{
-				iCost += 1000;
-			}
-		}
-	}
-
-	if (pFromPlot->getTeam() != pToPlot->getTeam())
-	{
-		if (GET_PLAYER(getOwnerINLINE()).isNoForeignTrade())
-		{
-			// only smuggling
-			iCost += 2000;
-		}
-		else
-		{
-			// border crossing
-			TeamTypes eFromTeam = pFromPlot->getTeam();
-			TeamTypes eToTeam = pToPlot->getTeam();
-			if ((eFromTeam == NO_TEAM) || (eToTeam == NO_TEAM))
-			{
-				// crossing into or from neutral territory
-				if (eToTeam == NO_TEAM)
-				{
-					iCost += 50;
-				}
-				else if (GET_PLAYER(pToPlot->getOwnerINLINE()).isNoForeignTrade())
-				{
-					// only smuggling
-					iCost += 2000;
-				}
-				else if (GET_TEAM(eToTeam).isOpenBorders(getTeam()))
-				{
-					iCost += 70;
-				}
-				else
-				{
-					// only smuggling
-					iCost += 2000;
-				}
-			}
-			else
-			{
-				CvTeam& kFromTeam = GET_TEAM(eFromTeam);
-				
-				if (GET_PLAYER(pToPlot->getOwnerINLINE()).isNoForeignTrade())
-				{
-					// only smuggling
-					iCost += 2000;
-				}
-				else if (kFromTeam.isOpenBorders(eToTeam))
-				{
-					iCost += 100;
-				}
-				else
-				{
-					// only smuggling
-					iCost += 2000;
-				}
-			}
-		}
-	}
-
-	return iCost;
-}
-
-int CvCity::getNumTradeAuraPlots() const
-{
-	return (int)m_apTradeAuraPlots.size();
-}
-
-CvPlot* CvCity::getTradeAuraPlot(int index)
-{
-	FAssert(index >= 0);
-	FAssert(index < getNumTradeAuraPlots());
-	return m_apTradeAuraPlots[index];
-}
-
-void CvCity::clearTradeAuraPlots()
-{
-	m_apTradeAuraPlots.clear();
-}
-
-void CvCity::addTradeAuraPlot(CvPlot* pPlot)
-{
-	m_apTradeAuraPlots.push_back(pPlot);
-}
-
-void CvCity::removeTradeAuraPlot(CvPlot* pPlot)
-{
-	m_apTradeAuraPlots.erase(std::remove(m_apTradeAuraPlots.begin(), m_apTradeAuraPlots.end(), pPlot));
-}
-
-int CvCity::getTradeGraphVertex() const
-{
-	return m_tradeGraphVertex;
-}
-
-void CvCity::setTradeGraphVertex(int vertex)
-{
-	m_tradeGraphVertex = vertex;
 }
 
 int CvCity::getTotalBuildingSourcedProperty(PropertyTypes eProperty) const

@@ -223,17 +223,7 @@ void CvPlot::uninit()
 {
 	SAFE_DELETE_ARRAY(m_szScriptData);
 
-//#ifdef MULTI_FEATURE_MOD
-//	for (int i=0; i<(int)m_aFeatures.size(); i++)
-//	{
-//		if (m_aFeatures[i].pSymbol)
-//		{
-//			gDLL->getFeatureIFace()->destroy(m_aFeatures[i].pSymbol);
-//		}
-//	}
-//#else
 	gDLL->getFeatureIFace()->destroy(m_pFeatureSymbol);
-//#endif
 	if(m_pPlotBuilder)
 	{
 		gDLL->getPlotBuilderIFace()->destroy(m_pPlotBuilder);
@@ -405,10 +395,6 @@ void CvPlot::reset(int iX, int iY, bool bConstructorCall)
 	m_eRouteType = NO_ROUTE;
 	m_eRiverNSDirection = NO_CARDINALDIRECTION;
 	m_eRiverWEDirection = NO_CARDINALDIRECTION;
-
-//#ifdef MULTI_FEATURE_MOD
-//	m_aFeatures.clear();
-//#endif
 
 	m_plotCity.reset();
 	m_workingCity.reset();
@@ -759,11 +745,7 @@ void CvPlot::erase()
 	setBonusType(NO_BONUS);
 	setImprovementType(NO_IMPROVEMENT);
 	setRouteType(NO_ROUTE, false);
-//#ifdef MULTI_FEATURE_MOD
-//	removeAllFeatures();
-//#else
 	setFeatureType(NO_FEATURE);
-//#endif
 
 	// disable rivers
 	setNOfRiver(false, NO_CARDINALDIRECTION);
@@ -2192,15 +2174,7 @@ bool CvPlot::isFreshWater(bool bIgnoreJungle) const
 				{
 					return true;
 				}
-//#ifdef MULTI_FEATURE_MOD
-//				for (int i=0; i<pLoopPlot->getNumFeatures(); i++)
-//				{
-//					if (GC.getFeatureInfo(pLoopPlot->getFeatureByIndex(i)).isAddsFreshWater() && (!bIgnoreJungle || GC.getFeatureInfo(pLoopPlot->getFeatureByIndex(i)).getHealthPercent() >= 0))
-//					{
-//						return true;
-//					}
-//				}
-//#else
+
 				if (pLoopPlot->getFeatureType() != NO_FEATURE)
 				{
 					if (GC.getFeatureInfo(pLoopPlot->getFeatureType()).isAddsFreshWater() && (!bIgnoreJungle || GC.getFeatureInfo(pLoopPlot->getFeatureType()).getHealthPercent() >= 0))
@@ -2208,7 +2182,6 @@ bool CvPlot::isFreshWater(bool bIgnoreJungle) const
 						return true;
 					}
 				}
-//#endif
 				/************************************************************************************************/
 				/* Afforess	                  Start		 12/13/09                                                */
 				/*                                                                                              */
@@ -2535,17 +2508,10 @@ int CvPlot::seeThroughLevel() const
 
 	iLevel = GC.getTerrainInfo(getTerrainType()).getSeeThroughLevel();
 
-//#ifdef MULTI_FEATURE_MOD
-//	for (int i=0; i<getNumFeatures(); i++)
-//	{
-//		iLevel += GC.getFeatureInfo(getFeatureByIndex(i)).getSeeThroughChange();
-//	}
-//#else
 	if (getFeatureType() != NO_FEATURE)
 	{
 		iLevel += GC.getFeatureInfo(getFeatureType()).getSeeThroughChange();
 	}
-//#endif
 
 	if (isPeak2(true))
 	{
@@ -3053,26 +3019,6 @@ bool CvPlot::canHaveBonus(BonusTypes eBonus, bool bIgnoreLatitude) const
 /************************************************************************************************/
 /* Afforess	Mountains End       END        		                                             */
 /************************************************************************************************/
-//#ifdef MULTI_FEATURE_MOD
-//	if (getNumFeatures() > 0)
-//	{
-//		if (!(GC.getBonusInfo(eBonus).isFeatureTerrain(getTerrainType())))
-//		{
-//			return false;
-//		}
-//		bool bValid = false;
-//		for (int i=0; i<getNumFeatures(); i++)
-//		{
-//			if (GC.getBonusInfo(eBonus).isFeature(getFeatureByIndex(i)))
-//			{
-//				bValid = true;
-//				break;
-//			}
-//		}
-//		if (!bValid)
-//			return false;
-//	}
-//#else
 	if (getFeatureType() != NO_FEATURE)
 	{
 		if (!(GC.getBonusInfo(eBonus).isFeature(getFeatureType())))
@@ -3085,7 +3031,6 @@ bool CvPlot::canHaveBonus(BonusTypes eBonus, bool bIgnoreLatitude) const
 			return false;
 		}
 	}
-//#endif
 	else
 	{
 		if (!(GC.getBonusInfo(eBonus).isTerrain(getTerrainType())))
@@ -3297,15 +3242,6 @@ bool CvPlot::canHaveImprovement(ImprovementTypes eImprovement, TeamTypes eTeam, 
 		return false;
 	}
 
-//#ifdef MULTI_FEATURE_MOD
-//	for (int i=0; i<getNumFeatures(); i++)
-//	{
-//		if (GC.getFeatureInfo(getFeatureByIndex(i)).isNoImprovement())
-//		{
-//			return false;
-//		}
-//	}
-//#else
 	if (getFeatureType() != NO_FEATURE)
 	{
 		if (GC.getFeatureInfo(getFeatureType()).isNoImprovement())
@@ -3313,7 +3249,6 @@ bool CvPlot::canHaveImprovement(ImprovementTypes eImprovement, TeamTypes eTeam, 
 			return false;
 		}
 	}
-//#endif
 /************************************************************************************************/
 /* Afforess	                  Start		 05/24/10                                               */
 /*                                                                                              */
@@ -3364,11 +3299,7 @@ bool CvPlot::canHaveImprovement(ImprovementTypes eImprovement, TeamTypes eTeam, 
 		return false;
 	}
 
-//#ifdef MULTI_FEATURE_MOD
-//	if (GC.getImprovementInfo(eImprovement).isRequiresFeature() && (getNumFeatures() == 0))
-//#else
 	if (GC.getImprovementInfo(eImprovement).isRequiresFeature() && (getFeatureType() == NO_FEATURE))
-//#endif
 	{
 		return false;
 	}
@@ -3393,21 +3324,10 @@ bool CvPlot::canHaveImprovement(ImprovementTypes eImprovement, TeamTypes eTeam, 
 		bValid = true;
 	}
 
-//#ifdef MULTI_FEATURE_MOD
-//	for (int i=0; i<getNumFeatures(); i++)
-//	{
-//		if (GC.getImprovementInfo(eImprovement).getFeatureMakesValid(getFeatureByIndex(i)))
-//		{
-//			bValid = true;
-//			break;
-//		}
-//	}
-//#else
 	if ((getFeatureType() != NO_FEATURE) && GC.getImprovementInfo(eImprovement).getFeatureMakesValid(getFeatureType()))
 	{
 		bValid = true;
 	}
-//#endif
 	
 
 	//Desert has negative defense
@@ -3957,20 +3877,6 @@ bool CvPlot::canBuild(BuildTypes eBuild, PlayerTypes ePlayer, bool bTestVisible,
 		bValid = true;
 	}
 
-//#ifdef MULTI_FEATURE_MOD
-//	for (int i=0; i<getNumFeatures(); i++)
-//	{
-//		if (GC.getBuildInfo(eBuild).isFeatureRemove(getFeatureByIndex(i)))
-//		{
-//			if (isOwned() && (GET_PLAYER(ePlayer).getTeam() != getTeam()) && !atWar(GET_PLAYER(ePlayer).getTeam(), getTeam()))
-//			{
-//				return false;
-//			}
-//
-//			bValid = true;
-//		}
-//	}
-//#else
 	if (getFeatureType() != NO_FEATURE)
 	{
 		if (GC.getBuildInfo(eBuild).isFeatureRemove(getFeatureType()))
@@ -3983,7 +3889,6 @@ bool CvPlot::canBuild(BuildTypes eBuild, PlayerTypes ePlayer, bool bTestVisible,
 			bValid = true;
 		}
 	}
-//#endif
 /************************************************************************************************/
 /* JOOYO_ADDON, Added by Jooyo, 06/13/09                                                        */
 /*                                                                                              */
@@ -4005,12 +3910,6 @@ bool CvPlot::canBuild(BuildTypes eBuild, PlayerTypes ePlayer, bool bTestVisible,
 	FeatureTypes eFeature;
 	eFeature = ((FeatureTypes)(GC.getBuildInfo(eBuild).getFeatureChange()));
 
-//#ifdef MULTI_FEATURE_MOD
-//	if (getHasFeature(eFeature))
-//	{
-//		return false;
-//	}
-//#else
 	if (eFeature != NO_FEATURE)
 	{
 		if (getFeatureType() == eFeature)
@@ -4035,7 +3934,6 @@ bool CvPlot::canBuild(BuildTypes eBuild, PlayerTypes ePlayer, bool bTestVisible,
 
 		bValid = true;
 	}
-//#endif
 /************************************************************************************************/
 /* JOOYO_ADDON                          END                                                     */
 /************************************************************************************************/
@@ -4213,18 +4111,7 @@ int CvPlot::getFeatureProduction(BuildTypes eBuild, TeamTypes eTeam, CvCity** pp
 		return 0;
 	}
 
-	int iProduction = 0;
-//#ifdef MULTI_FEATURE_MOD
-//	for (int i=0; i<getNumFeatures(); i++)
-//	{
-//		if (GET_TEAM(eTeam).isHasTech((TechTypes)GC.getBuildInfo(eBuild).getFeatureTech(getFeatureByIndex(i))))
-//		{
-//			iProduction += GC.getBuildInfo(eBuild).getFeatureProduction(getFeatureByIndex(i));
-//		}
-//	}
-//#else
-	iProduction = GC.getBuildInfo(eBuild).getFeatureProduction(getFeatureType());
-//#endif
+	int iProduction = GC.getBuildInfo(eBuild).getFeatureProduction(getFeatureType());
 	iProduction -= std::max(0, plotDistance(getX_INLINE(), getY_INLINE(), (*ppCity)->getX_INLINE(), (*ppCity)->getY_INLINE()) - 2) * 5;
 
 	iProduction *= std::max(0, (GET_PLAYER((*ppCity)->getOwnerINLINE()).getFeatureProductionModifier() + 100));
@@ -4247,12 +4134,10 @@ int CvPlot::getFeatureProduction(BuildTypes eBuild, TeamTypes eTeam, CvCity** pp
 /*                                                                                              */
 /*                                                                                              */
 /************************************************************************************************/
-//#ifndef MULTI_FEATURE_MOD
 	if (!GET_TEAM(eTeam).isHasTech((TechTypes)GC.getBuildInfo(eBuild).getFeatureTech(getFeatureType())))
 	{
 		return 0;
 	}
-//#endif
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
 /************************************************************************************************/
@@ -5163,24 +5048,11 @@ int CvPlot::defenseModifier(TeamTypes eDefender, bool bIgnoreBuilding, bool bHel
 
 	FAssertMsg(getTerrainType() != NO_TERRAIN, "TerrainType is not assigned a valid value");
 
-//#ifdef MULTI_FEATURE_MOD
-//	if (getNumFeatures() == 0)
-//		iModifier = GC.getTerrainInfo(getTerrainType()).getDefenseModifier();
-//	else
-//	{
-//		iModifier = 0;
-//		for (int i=0; i<getNumFeatures(); i++)
-//		{
-//			iModifier += GC.getFeatureInfo(getFeatureByIndex(i)).getDefenseModifier();
-//		}
-//	}
-//#else
 	iModifier += GC.getTerrainInfo(getTerrainType()).getDefenseModifier();
 	if (getFeatureType() != NO_FEATURE)
 	{
 		iModifier += GC.getFeatureInfo(getFeatureType()).getDefenseModifier();
 	}
-//#endif
 
 	if (isHills())
 	{
@@ -6846,11 +6718,7 @@ bool CvPlot::canHaveFeature(FeatureTypes eFeature, bool bOverExistingFeature) co
 
 	if (!bOverExistingFeature)
 	{
-//#ifdef MULTI_FEATURE_MOD
-//		if (getNumFeatures() > 0)
-//#else
 		if (getFeatureType() != NO_FEATURE)
-//#endif
 		{
 			return false;
 		}
@@ -6897,11 +6765,7 @@ bool CvPlot::canHaveFeature(FeatureTypes eFeature, bool bOverExistingFeature) co
 
 			if (pAdjacentPlot != NULL)
 			{
-//#ifdef MULTI_FEATURE_MOD
-//				if (pAdjacentPlot->getHasFeature(eFeature))
-//#else
 				if (pAdjacentPlot->getFeatureType() == eFeature)
-//#endif
 				{
 					return false;
 				}
@@ -7313,25 +7177,7 @@ bool CvPlot::isImpassable(TeamTypes eTeam) const
 		return false;
 	}
 
-//#ifdef MULTI_FEATURE_MOD
-//	if (getNumFeatures() == 0)
-//	{
-//		return GC.getTerrainInfo(getTerrainType()).isImpassable();
-//	}
-//	else
-//	{
-//		for (int i=0; i<getNumFeatures(); i++)
-//		{
-//			if (GC.getFeatureInfo(getFeatureByIndex(i)).isImpassable())
-//			{
-//				return true;
-//			}
-//		}
-//		return false;
-//	}
-//#else
 	return ((getFeatureType() == NO_FEATURE) ? GC.getTerrainInfo(getTerrainType()).isImpassable() : GC.getFeatureInfo(getFeatureType()).isImpassable());
-//#endif
 }
 
 int CvPlot::getViewportX() const
@@ -7595,13 +7441,9 @@ void CvPlot::setArea(int iNewValue)
 
 int CvPlot::getFeatureVariety() const
 {
-//#ifdef MULTI_FEATURE_MOD
-//	return getFeatureVariety((FeatureTypes)m_eFeatureType);
-//#else
 	FAssert((getFeatureType() == NO_FEATURE) || (m_iFeatureVariety < GC.getFeatureInfo(getFeatureType()).getArtInfo()->getNumVarieties()));
 	FAssert(m_iFeatureVariety >= 0);
 	return m_iFeatureVariety;
-//#endif
 }
 
 
@@ -8934,35 +8776,7 @@ FeatureTypes CvPlot::getFeatureType() const
 void CvPlot::setFeatureType(FeatureTypes eNewValue, int iVariety, bool bImprovementSet)
 {
 
-	FeatureTypes eOldFeature;
-
-	eOldFeature = getFeatureType();
-
-//#ifdef MULTI_FEATURE_MOD
-//	if (eNewValue != eOldFeature)
-//	{
-//		if (eOldFeature != NO_FEATURE)
-//		{
-//			setHasFeature(eOldFeature, false);
-//		}
-//		m_eFeatureType = eNewValue;
-//		if (eNewValue != NO_FEATURE)
-//		{
-//			setHasFeature(eNewValue, true, iVariety);
-//		}
-//		m_eFeatureType = eNewValue;
-//	}
-//	else
-//	{
-//		if (eNewValue != NO_FEATURE)
-//		{
-//			if (getFeatureVariety(eNewValue) != iVariety)
-//			{
-//				setHasFeature(eNewValue, true, iVariety);
-//			}
-//		}
-//	}
-//#else
+	FeatureTypes eOldFeature = getFeatureType();
 
 	CvCity* pLoopCity;
 	CvPlot* pLoopPlot;
@@ -9120,7 +8934,6 @@ void CvPlot::setFeatureType(FeatureTypes eNewValue, int iVariety, bool bImprovem
 		//
 		// Mongoose FeatureDamageFix END
 	}
-//#endif
 }
 
 void CvPlot::setFeatureDummyVisibility(const char *dummyTag, bool show)
@@ -9168,15 +8981,6 @@ void CvPlot::resetFeatureModel()
 	{
 		gDLL->getFeatureIFace()->resetModel(m_pFeatureSymbol);
 	}
-//#ifdef MULTI_FEATURE_MOD
-//	for (int i=0; i<(int)m_aFeatures.size(); i++)
-//	{
-//		if(m_aFeatures[i].pSymbol != NULL)
-//		{
-//			gDLL->getFeatureIFace()->resetModel(m_aFeatures[i].pSymbol);
-//		}
-//	}
-//#endif
 }
 
 BonusTypes CvPlot::getBonusType(TeamTypes eTeam) const
@@ -9386,18 +9190,8 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 				FeatureTypes eAddingFeature = (FeatureTypes)GC.getImprovementInfo(eNewValue).getFeatureChangeType(iI);
 				if (canHaveFeature(eAddingFeature, true))
 				{
-	//#ifdef MULTI_FEATURE_MOD
-	//						if (GC.getFeatureInfo(eAddingFeature).canBeSecondary())
-	//						{
-	//							setHasFeature(eAddingFeature, true);
-	//						}
-	//						else
-	//						{
-	//							setFeatureType(eAddingFeature);
-	//						}
-	//#else
 						setFeatureType(eAddingFeature, -1, true);
-						break; //#ifndef MULTI_FEATURE_MOD
+						break;
 				}
 			}
 			if (GC.getImprovementInfo(eNewValue).getBonusChange() != NO_BONUS)
@@ -10095,45 +9889,20 @@ int CvPlot::calculateNatureYield(YieldTypes eYield, TeamTypes eTeam, bool bIgnor
 
 	if (isRiver())
 	{
-//#ifdef MULTI_FEATURE_MOD
-//		if (bIgnoreFeature || (getNumFeatures() == 0))
-//			iYield += GC.getTerrainInfo(getTerrainType()).getRiverYieldChange(eYield);
-//#else
 		iYield += ((bIgnoreFeature || (getFeatureType() == NO_FEATURE)) ? GC.getTerrainInfo(getTerrainType()).getRiverYieldChange(eYield) : GC.getFeatureInfo(getFeatureType()).getRiverYieldChange(eYield));
-//#endif
 	}
 
 	if (isHills())
 	{
-//#ifdef MULTI_FEATURE_MOD
-//		if (bIgnoreFeature || (getNumFeatures() == 0))
-//			iYield += GC.getTerrainInfo(getTerrainType()).getHillsYieldChange(eYield);
-//#else
 		iYield += ((bIgnoreFeature || (getFeatureType() == NO_FEATURE)) ? GC.getTerrainInfo(getTerrainType()).getHillsYieldChange(eYield) : GC.getFeatureInfo(getFeatureType()).getHillsYieldChange(eYield));
-//#endif
 	}
 
 	if (!bIgnoreFeature)
 	{
-//#ifdef MULTI_FEATURE_MOD
-//		for (int i=0; i<getNumFeatures(); i++)
-//		{
-//			iYield += GC.getFeatureInfo(getFeatureByIndex(i)).getYieldChange(eYield);
-//			if (isRiver())
-//			{
-//				iYield += GC.getFeatureInfo(getFeatureByIndex(i)).getRiverYieldChange(eYield);
-//			}
-//			if (isHills())
-//			{
-//				iYield += GC.getFeatureInfo(getFeatureByIndex(i)).getHillsYieldChange(eYield);
-//			}
-//		}
-//#else
 		if (getFeatureType() != NO_FEATURE)
 		{
 			iYield += GC.getFeatureInfo(getFeatureType()).getYieldChange(eYield);
 		}
-//#endif
 	}
 
 	return std::max(0, iYield);
@@ -12453,45 +12222,6 @@ bool CvPlot::changeBuildProgress(BuildTypes eBuild, int iChange, TeamTypes eTeam
 /* JOOYO_ADDON                          END                                                     */
 /************************************************************************************************/
 			//TB Note: Apparently isFeatureRemove is based entirely on the BUILD definition - changing it to the improvement definition would enable us to restructure where this takes place so that a 'natural' upgrade can have the same effect.
-//#ifdef MULTI_FEATURE_MOD
-//			for (int i=0; i<(int)m_aFeatures.size(); i++)
-//			{
-//				FeatureTypes eFeature = m_aFeatures[i].eFeature;
-//				if (GC.getBuildInfo(eBuild).isFeatureRemove(eFeature))
-//				{
-//					FAssertMsg(eTeam != NO_TEAM, "eTeam should be valid");
-//
-//					iProduction = getFeatureProduction(eBuild, eTeam, &pCity);
-//
-//					if (iProduction > 0)
-//					{
-//						pCity->changeFeatureProduction(iProduction);
-//
-//						MEMORY_TRACK_EXEMPT();
-//
-//						szBuffer = gDLL->getText("TXT_KEY_MISC_CLEARING_FEATURE_BONUS", GC.getFeatureInfo(eFeature).getTextKeyWide(), iProduction, pCity->getNameKey());
-//						AddDLLMessage(pCity->getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer,  ARTFILEMGR.getInterfaceArtInfo("WORLDBUILDER_CITY_EDIT")->getPath(), MESSAGE_TYPE_INFO, GC.getFeatureInfo(eFeature).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), getX_INLINE(), getY_INLINE(), true, true);
-//					}
-//
-//					// Python Event
-//					CvEventReporter::getInstance().plotFeatureRemoved(this, eFeature, pCity);
-//
-//					setHasFeature(eFeature, false);
-//
-///************************************************************************************************/
-///* phunny_pharmer                Start		 04/28/10                                           */
-///*   the cache of culture distances should be recomputed now that this feature has been removed */
-///************************************************************************************************/
-//					if ( pCity != NULL )
-//					{
-//						pCity->clearCultureDistanceCache();
-//					}
-///************************************************************************************************/
-///* phunny_pharmer                    END                                                        */
-///************************************************************************************************/
-//				}
-//			}
-//#else
 			if (getFeatureType() != NO_FEATURE)
 			{
 				if (GC.getBuildInfo(eBuild).isFeatureRemove(getFeatureType()))
@@ -12531,8 +12261,6 @@ bool CvPlot::changeBuildProgress(BuildTypes eBuild, int iChange, TeamTypes eTeam
 /************************************************************************************************/
 				}
 			}
-//#endif
-
 			bFinished = true;
 		}
 	}
@@ -12562,25 +12290,7 @@ void CvPlot::updateFeatureSymbolVisibility()
 	{
 		return;
 	}
-
-//#ifdef MULTI_FEATURE_MOD
-//	for (int i=0; i<(int)m_aFeatures.size(); i++)
-//	{
-//		if (m_aFeatures[i].pSymbol != NULL)
-//		{
-//			bool bVisible = isRevealed(GC.getGameINLINE().getActiveTeam(), true);
-//			if(GC.getFeatureInfo(m_aFeatures[i].eFeature).isVisibleAlways())
-//				bVisible = true;
-//
-//			bool wasVisible = !gDLL->getFeatureIFace()->IsHidden(m_aFeatures[i].pSymbol);
-//			if(wasVisible != bVisible)
-//			{
-//				gDLL->getFeatureIFace()->Hide(m_aFeatures[i].pSymbol, !bVisible);
-//				gDLL->getEngineIFace()->MarkPlotTextureAsDirty(getViewportX(),getViewportY());
-//			}
-//		}
-//	}
-//#else
+	
 	if (m_pFeatureSymbol != NULL)
 	{
 		bool bVisible = isRevealed(GC.getGameINLINE().getActiveTeam(), true);
@@ -12597,7 +12307,6 @@ void CvPlot::updateFeatureSymbolVisibility()
 			gDLL->getEngineIFace()->MarkPlotTextureAsDirty(getViewportX(),getViewportY());
 		}
 	}
-//#endif
 }
 
 
@@ -12626,39 +12335,6 @@ void CvPlot::updateFeatureSymbol(bool bForce)
 		return;
 	}
 
-//#ifdef MULTI_FEATURE_MOD
-//	for (int i=0; i<(int)m_aFeatures.size(); i++)
-//	{
-//		// River and tile art do not have feature symbols
-//		if ((!GC.getFeatureInfo(m_aFeatures[i].eFeature).canBeSecondary()) ||
-//		   (GC.viewportsEnabled() && !isRevealed(GC.getGame().getActiveTeam(), true)) )
-//		{
-//			if (m_aFeatures[i].pSymbol)
-//			{
-//				gDLL->getFeatureIFace()->destroy(m_aFeatures[i].pSymbol);
-//				m_aFeatures[i].pSymbol = NULL;
-//			}
-//		}
-//		else if (bForce || !m_aFeatures[i].pSymbol)
-//		{
-//			if (m_aFeatures[i].pSymbol)
-//			{
-//				gDLL->getFeatureIFace()->destroy(m_aFeatures[i].pSymbol);
-//				m_aFeatures[i].pSymbol = NULL;
-//			}
-//			m_aFeatures[i].pSymbol = gDLL->getFeatureIFace()->createFeature();
-//			FAssertMsg(m_aFeatures[i].pSymbol != NULL, "m_pFeatureSymbol is not expected to be equal with NULL");
-//
-//			gDLL->getFeatureIFace()->init(m_aFeatures[i].pSymbol, 0, 0, m_aFeatures[i].eFeature, this);
-//
-//			updateFeatureSymbolVisibility();
-//		}
-//		else
-//		{
-//			gDLL->getEntityIFace()->updatePosition((CvEntity*)m_aFeatures[i].pSymbol); //update position and contours
-//		}
-//	}
-//#else
 	if ( eFeature == NO_FEATURE ||
 		 GC.getFeatureInfo(eFeature).getArtInfo()->isRiverArt() ||
 		 GC.getFeatureInfo(eFeature).getArtInfo()->getTileArtType() != TILE_ART_TYPE_NONE ||
@@ -12683,7 +12359,6 @@ void CvPlot::updateFeatureSymbol(bool bForce)
 	{
 		gDLL->getEntityIFace()->updatePosition((CvEntity*)m_pFeatureSymbol); //update position and contours
 	}
-//#endif
 }
 
 
@@ -13538,111 +13213,6 @@ void CvPlot::doFeature()
 /************************************************************************************************/
 /* DCM                                     END                                                  */
 /************************************************************************************************/
-//#ifdef MULTI_FEATURE_MOD
-//	for (int i=(int)m_aFeatures.size()-1; i>=0; i--)
-//	{
-//		iProbability = GC.getFeatureInfo(m_aFeatures[i].eFeature).getDisappearanceProbability();
-//
-//		if (iProbability > 0)
-//		{
-//			int iOdds = (10000*GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getVictoryDelayPercent())/100;
-//			if (GC.getGameINLINE().getSorenRandNum(iOdds, "Feature Disappearance") < iProbability)
-//			{
-//				setHasFeature(m_aFeatures[i].eFeature, false);
-//			}
-//		}
-//	}
-//	int iStorm = GC.getInfoTypeForString("FEATURE_STORM", true);
-//	bool bNoStorms = GC.getGameINLINE().isModderGameOption(MODDERGAMEOPTION_NO_STORMS);
-//		
-//	for (iI = 0; iI < GC.getNumFeatureInfos(); ++iI)
-//	{
-//		CvFeatureInfo& kFeature = GC.getFeatureInfo((FeatureTypes)iI);
-//		if ((kFeature.getGrowthProbability() > 0 && !isUnit()) || kFeature.getSpreadProbability() > 0)
-//		{
-//			if (getImprovementType() == NO_IMPROVEMENT || (kFeature.isCanGrowAnywhere() && !isBeingWorked() && !isWater()))
-//			{
-//				if (!((iStorm == iI) && bNoStorms))
-//				{
-//					if (canHaveFeature((FeatureTypes)iI, kFeature.getSpreadProbability() > 0))
-//					{
-//						if ((getBonusType() == NO_BONUS) || (GC.getBonusInfo(getBonusType()).isFeature(iI)) || kFeature.getSpreadProbability() > 0)
-//						{
-//							iProbability = kFeature.isCanGrowAnywhere() ? kFeature.getGrowthProbability() : 0;
-//
-//							for (iJ = 0; iJ < NUM_CARDINALDIRECTION_TYPES; iJ++)
-//							{
-//								pLoopPlot = plotCardinalDirection(getX_INLINE(), getY_INLINE(), ((CardinalDirectionTypes)iJ));
-//
-//								if (pLoopPlot != NULL)
-//								{
-//									if (pLoopPlot->getHasFeature((FeatureTypes)iI))
-//									{
-//										if (pLoopPlot->getImprovementType() == NO_IMPROVEMENT)
-//										{
-//											iProbability += kFeature.getGrowthProbability();
-//										}
-//										else
-//										{
-//											iProbability += GC.getImprovementInfo(pLoopPlot->getImprovementType()).getFeatureGrowthProbability();
-//										}
-//										iProbability += kFeature.getSpreadProbability();
-//									}
-//								}
-//							}
-//
-//							iProbability *= std::max(0, (GC.getFEATURE_GROWTH_MODIFIER() + 100));
-//							iProbability /= 100;
-//
-//							if (isRoute())
-//							{
-//								iProbability *= std::max(0, (GC.getROUTE_FEATURE_GROWTH_MODIFIER() + 100));
-//								iProbability /= 100;
-//							}
-//
-//							if (iProbability > 0)
-//							{
-//								int iOdds = (10000*GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getVictoryDelayPercent())/100;
-//								if (GC.getGameINLINE().getSorenRandNum(iOdds, "Feature Growth") < iProbability)
-//								{
-//									// Grow river and tile art only as main feature
-//									if (!kFeature.canBeSecondary())
-//									{
-//										setFeatureType((FeatureTypes)iI);
-//									}
-//									else
-//									{
-//										setHasFeature((FeatureTypes)iI, true);
-//									}
-//									strcpy(szSound, kFeature.getGrowthSound());
-//									pCity = GC.getMapINLINE().findCity(getX_INLINE(), getY_INLINE(), getOwnerINLINE(), NO_TEAM, false);
-//
-//									if (pCity != NULL && !isOvergrown() && isInViewport())
-//									{
-//										MEMORY_TRACK_EXEMPT();
-//
-//										// Tell the owner of this city.
-//										if (iI == iStorm)
-//										{
-//											szBuffer = gDLL->getText("TXT_KEY_MISC_STORM_GROWN_NEAR_CITY", pCity->getNameKey());
-//										}
-//										else
-//										{
-//											szBuffer = gDLL->getText("TXT_KEY_MISC_FEATURE_GROWN_NEAR_CITY", kFeature.getTextKeyWide(), pCity->getNameKey());
-//										}
-//										
-//										AddDLLMessage(getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, szSound, MESSAGE_TYPE_INFO, kFeature.getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), getX_INLINE(), getY_INLINE(), true, true);
-//									}
-//									break;
-//								}
-//							}
-//						}
-//					}
-//				}
-//			}
-//		}
-//	}
-//#else
 	if (getFeatureType() != NO_FEATURE)
 	{
 		iProbability = GC.getFeatureInfo(getFeatureType()).getDisappearanceProbability();
@@ -13769,7 +13339,6 @@ void CvPlot::doFeature()
 			}
 		}
 	}
-//#endif
 }
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
@@ -14150,21 +13719,7 @@ void CvPlot::read(FDataStreamBase* pStream)
 
 	int iNum = 0;
 	WRAPPER_READ(wrapper, "CvPlot", &iNum);
-//#ifdef MULTI_FEATURE_MOD
-//	m_aFeatures.clear();
-//	for (int i=0; i<iNum; i++)
-//	{
-//		int eFeature = -1;
-//		int iVariety = -1;
-//		WRAPPER_READ_CLASS_ENUM_ALLOW_MISSING(wrapper, "CvPlot", REMAPPED_CLASS_TYPE_FEATURES, &eFeature);
-//		WRAPPER_READ(wrapper, "CvPlot", &iVariety);
-//		if (eFeature != -1)
-//		{
-//			m_aFeatures.push_back(PlotFeature((FeatureTypes)eFeature, iVariety));
-//		}			
-//	}
-//#else
-	// Multi Feature mod might be removed
+
 	for (int i=0; i<iNum; i++)
 	{
 		int eFeature = -1;
@@ -14172,7 +13727,6 @@ void CvPlot::read(FDataStreamBase* pStream)
 		WRAPPER_READ_CLASS_ENUM_ALLOW_MISSING(wrapper, "CvPlot", REMAPPED_CLASS_TYPE_FEATURES, &eFeature);
 		WRAPPER_READ(wrapper, "CvPlot", &iVariety);
 	}
-//#endif
 
 	WRAPPER_READ(wrapper, "CvPlot", &m_iFeatureVariety);
 	WRAPPER_READ(wrapper, "CvPlot", &m_iOwnershipDuration);
@@ -14242,35 +13796,6 @@ void CvPlot::read(FDataStreamBase* pStream)
 	WRAPPER_READ(wrapper, "CvPlot", &m_ePlotType);
 	WRAPPER_READ_CLASS_ENUM(wrapper, "CvPlot", REMAPPED_CLASS_TYPE_TERRAINS, &m_eTerrainType);
 	WRAPPER_READ_CLASS_ENUM_ALLOW_MISSING(wrapper, "CvPlot", REMAPPED_CLASS_TYPE_FEATURES, &m_eFeatureType);
-
-//#ifdef MULTI_FEATURE_MOD
-//	// handle old savegame
-//	if ((int)m_aFeatures.empty() && (m_eFeatureType != NO_FEATURE))
-//	{
-//		m_aFeatures.push_back(PlotFeature());
-//		m_aFeatures[0].eFeature = (FeatureTypes)m_eFeatureType;
-//		m_aFeatures[0].iVariety = m_iFeatureVariety;
-//		if (m_iFeatureVariety == -1)
-//		{
-//			m_iFeatureVariety = 0;
-//			m_aFeatures[0].iVariety = 0;
-//		}
-//	}
-//
-//	// AIAndy: temporary code for fixing that some river art and tile art features became secondary features, remove after some time
-//	if (m_eFeatureType == NO_FEATURE)
-//	{
-//		for (int i=0; i<(int)m_aFeatures.size(); i++)
-//		{
-//			if (!GC.getFeatureInfo(m_aFeatures[i].eFeature).canBeSecondary())
-//			{
-//				m_eFeatureType = m_aFeatures[i].eFeature;
-//				m_iFeatureVariety = m_aFeatures[i].iVariety;
-//				break;
-//			}
-//		}
-//	}
-//#endif
 
 	WRAPPER_READ_CLASS_ENUM_ALLOW_MISSING(wrapper, "CvPlot", REMAPPED_CLASS_TYPE_BONUSES, &m_eBonusType);
 	WRAPPER_READ_CLASS_ENUM_ALLOW_MISSING(wrapper, "CvPlot", REMAPPED_CLASS_TYPE_IMPROVEMENTS, &m_eImprovementType);
@@ -14684,17 +14209,10 @@ void CvPlot::read(FDataStreamBase* pStream)
 	{
 		m_movementCharacteristicsHash ^= g_plotTypeZobristHashes[getPlotType()];
 	}
-//#ifdef MULTI_FEATURE_MOD
-//	for (int i=0; i<getNumFeatures(); i++)
-//	{
-//		m_movementCharacteristicsHash ^= GC.getFeatureInfo(getFeatureByIndex(i)).getZobristValue();
-//	}
-//#else
 	if ( getFeatureType() != NO_FEATURE )
 	{
 		m_movementCharacteristicsHash ^= GC.getFeatureInfo(getFeatureType()).getZobristValue();
 	}
-//#endif
 	if ( getTerrainType() != NO_TERRAIN )
 	{
 		m_movementCharacteristicsHash ^= GC.getTerrainInfo(getTerrainType()).getZobristValue();
@@ -14746,16 +14264,6 @@ void CvPlot::write(FDataStreamBase* pStream)
 	WRAPPER_WRITE(wrapper, "CvPlot", m_iY);
 	WRAPPER_WRITE(wrapper, "CvPlot", m_iArea);
 	// m_pPlotArea not saved
-
-//#ifdef MULTI_FEATURE_MOD
-//	int iNum = (int)m_aFeatures.size();
-//	WRAPPER_WRITE(wrapper, "CvPlot", iNum);
-//	for (int i=0; i<iNum; i++)
-//	{
-//		WRAPPER_WRITE_CLASS_ENUM_DECORATED(wrapper, "CvPlot", REMAPPED_CLASS_TYPE_FEATURES, m_aFeatures[i].eFeature, "eFeature");
-//		WRAPPER_WRITE_DECORATED(wrapper, "CvPlot", m_aFeatures[i].iVariety, "iVariety");
-//	}
-//#endif
 
 	WRAPPER_WRITE(wrapper, "CvPlot", m_iFeatureVariety);
 	WRAPPER_WRITE(wrapper, "CvPlot", m_iOwnershipDuration);
@@ -15441,11 +14949,7 @@ bool CvPlot::canTrigger(EventTriggerTypes eTrigger, PlayerTypes ePlayer) const
 
 		for (int i = 0; i < kTrigger.getNumFeaturesRequired(); ++i)
 		{
-//#ifdef MULTI_FEATURE_MOD
-//			if (getHasFeature((FeatureTypes)kTrigger.getFeatureRequired(i)))
-//#else
 			if (kTrigger.getFeatureRequired(i) == getFeatureType())
-//#endif
 			{
 				bFoundValid = true;
 				break;
@@ -16125,25 +15629,8 @@ int CvPlot::get3DAudioScriptFootstepIndex(int iFootstepTag) const
 float CvPlot::getAqueductSourceWeight() const
 {
 	float fWeight = 0.0f;
-//#ifdef MULTI_FEATURE_MOD
-//	bool bFreshWater = false;
-//	if (isLake() || isPeak2(true))
-//		bFreshWater = true;
-//	else
-//	{
-//		for (int i=0; i<getNumFeatures(); i++)
-//		{
-//			if (GC.getFeatureInfo(getFeatureByIndex(i)).isAddsFreshWater())
-//			{
-//				bFreshWater = true;
-//				break;
-//			}
-//		}
-//	}
-//	if (bFreshWater)
-//#else
+
 	if (isLake() || isPeak2(true) || (getFeatureType() != NO_FEATURE && GC.getFeatureInfo(getFeatureType()).isAddsFreshWater()))
-//#endif
 	{
 		fWeight = 1.0f;
 	}
@@ -16904,24 +16391,19 @@ bool CvPlot::isInCityZoneOfControl(PlayerTypes ePlayer) const
 }
 
 
-int CvPlot::getTerrainTurnDamage(CvSelectionGroup* pGroup) const
+int CvPlot::getTotalTurnDamage(const CvSelectionGroup* pGroup) const
 {
-	if (!GC.getGameINLINE().isModderGameOption(MODDERGAMEOPTION_TERRAIN_DAMAGE))
-	{
-		return 0;
-	}
 	CLLNode<IDInfo>* pUnitNode = pGroup->headUnitNode();
-	CvUnit* pLoopUnit;
 	int		iMaxDamage = 0;
 
 	FAssertMsg(pUnitNode != NULL, "headUnitNode() expected to be non-NULL");
 
 	while (pUnitNode != NULL)
 	{
-		pLoopUnit = ::getUnit(pUnitNode->m_data);
+		CvUnit* pLoopUnit = ::getUnit(pUnitNode->m_data);
 		pUnitNode = pGroup->nextUnitNode(pUnitNode);
 
-		int iDamage = getTerrainTurnDamage(pLoopUnit) + getFeatureTurnDamage();
+		const int iDamage = getTotalTurnDamage(pLoopUnit);
 
 		if ( iDamage > iMaxDamage )
 		{
@@ -16932,7 +16414,7 @@ int CvPlot::getTerrainTurnDamage(CvSelectionGroup* pGroup) const
 	return iMaxDamage;
 }
 
-int CvPlot::getTerrainTurnDamage(CvUnit* pUnit) const
+int CvPlot::getTerrainTurnDamage(const CvUnit* pUnit) const
 {
 	//PROFILE_FUNC();
 
@@ -16941,16 +16423,6 @@ int CvPlot::getTerrainTurnDamage(CvUnit* pUnit) const
 	{
 		return 0;
 	}
-//#ifdef MULTI_FEATURE_MOD
-//	for (int i=0; i<getNumFeatures(); i++)
-//	{
-//		//Oasis or Flood Plain
-//		if (GC.getFeatureInfo(getFeatureByIndex(i)).getYieldChange(YIELD_FOOD) > 0)
-//		{
-//			return 0;
-//		}
-//	}
-//#else
 	if (getFeatureType() != NO_FEATURE)
 	{	
 		//Oasis or Flood Plain
@@ -16959,7 +16431,6 @@ int CvPlot::getTerrainTurnDamage(CvUnit* pUnit) const
 			return 0;
 		}
 	}
-//#endif
 	if (isCity(true))
 	{
 		return 0;
@@ -16994,21 +16465,15 @@ int CvPlot::getTerrainTurnDamage(CvUnit* pUnit) const
 int CvPlot::getFeatureTurnDamage() const
 {
 	int iDamage = 0;
-//#ifdef MULTI_FEATURE_MOD
-//	for (int i=0; i<getNumFeatures(); i++)
-//	{
-//		iDamage += GC.getFeatureInfo(getFeatureByIndex(i)).getTurnDamage();
-//	}
-//#else
+
 	if (getFeatureType() != NO_FEATURE)
 	{
 		iDamage = GC.getFeatureInfo(getFeatureType()).getTurnDamage();
 	}
-//#endif
 	return iDamage;
 }
 
-int CvPlot::getTotalTurnDamage(CvUnit* pUnit) const
+int CvPlot::getTotalTurnDamage(const CvUnit* pUnit) const
 {
 	return getTerrainTurnDamage(pUnit) + getFeatureTurnDamage();
 }
@@ -17279,271 +16744,13 @@ void	CvPlot::NextCachePathEpoch()
 	m_iGlobalCachePathEpoch++;
 }
 
-
-//#ifdef MULTI_FEATURE_MOD
-//bool CvPlot::getHasFeature(FeatureTypes eFeature) const
-//{
-//	for (int iI=0; iI<(int)m_aFeatures.size(); iI++)
-//	{
-//		if (m_aFeatures[iI].eFeature == eFeature)
-//		{
-//			return true;
-//		}
-//	}
-//	return false;
-//}
-//
-//void CvPlot::setHasFeature(FeatureTypes eFeature, bool bHasFeature, int iVariety)
-//{
-//	if (eFeature == NO_FEATURE)
-//	{
-//		return;
-//	}
-//
-//	int index = -1;
-//	for (int iI=0; iI<(int)m_aFeatures.size(); iI++)
-//	{
-//		if (m_aFeatures[iI].eFeature == eFeature)
-//		{
-//			index = iI;
-//		}
-//	}
-//	bool bOldHasFeature = index != -1;
-//
-//	if (bHasFeature)
-//	{
-//		if (iVariety == -1)
-//		{
-//			iVariety = ((GC.getFeatureInfo(eFeature).getArtInfo()->getNumVarieties() * ((getLatitude() * 9) / 8)) / 90);
-//		}
-//
-//		iVariety = range(iVariety, 0, (GC.getFeatureInfo(eFeature).getArtInfo()->getNumVarieties() - 1));
-//	}
-//	else
-//	{
-//		iVariety = 0;
-//	}
-//
-//	if (bHasFeature == bOldHasFeature)
-//	{
-//		if (bHasFeature)
-//		{
-//			if (m_aFeatures[index].iVariety != iVariety)
-//			{
-//				m_aFeatures[index].iVariety = iVariety;
-//				// TODO: Update graphics here
-//				updateFeatureSymbol();
-//				if (GC.getFeatureInfo(eFeature).getArtInfo()->isRiverArt())
-//				{
-//					updateRiverSymbolArt(true);
-//				}
-//			}
-//		}
-//		return;
-//	}
-//
-//	if (GC.getFeatureInfo(eFeature).getSeeThroughChange())
-//	{
-//		updateSeeFromSight(false, true);
-//	}
-//
-//	if (bOldHasFeature)
-//	{
-//		if (m_eFeatureType == eFeature)
-//		{
-//			m_eFeatureType = NO_FEATURE;
-//		}
-//
-//		if (m_aFeatures[index].pSymbol)
-//			gDLL->getFeatureIFace()->destroy(m_aFeatures[index].pSymbol);
-//		m_aFeatures.erase(m_aFeatures.begin() + index);
-//		removeFeatureEffect(eFeature);
-//	}
-//	else
-//	{
-//		// TODO: Add a layer to feature info and insert feature accordingly
-//		m_aFeatures.push_back(PlotFeature(eFeature, iVariety));
-//		applyFeatureEffect(eFeature);
-//	}
-//
-//	if (GC.getFeatureInfo(eFeature).getSeeThroughChange())
-//	{
-//		updateSeeFromSight(true, true);
-//	}
-//
-//	updateFeatureSymbol();
-//	if (GC.getFeatureInfo(eFeature).getArtInfo()->isRiverArt())
-//	{
-//		updateRiverSymbolArt(true);
-//	}
-//}
-//
-//void CvPlot::applyFeatureEffect(FeatureTypes eFeature)
-//{
-//	//bool bUpdateSight = false;
-//
-//	m_movementCharacteristicsHash ^= GC.getFeatureInfo(eFeature).getZobristValue();
-//
-//	updateYield();
-//
-//	for (int iI = 0; iI < NUM_CITY_PLOTS; ++iI)
-//	{
-//		CvPlot* pLoopPlot = plotCity(getX_INLINE(), getY_INLINE(), iI);
-//
-//		if (pLoopPlot != NULL)
-//		{
-//			CvCity* pLoopCity = pLoopPlot->getPlotCity();
-//
-//			if (pLoopCity != NULL)
-//			{
-//				pLoopCity->updateFeatureHealth();
-//				pLoopCity->updateFeatureHappiness();
-//			}
-//		}
-//	}
-//
-//	// Mongoose FeatureDamageFix BEGIN
-//	//
-//	if (GC.getFeatureInfo(eFeature).getTurnDamage() > 0)
-//	{
-//		CLLNode<IDInfo>* pUnitNode;
-//		CvUnit* pLoopUnit;
-//		pUnitNode = headUnitNode();
-//		while (pUnitNode != NULL)
-//		{
-//			pLoopUnit = ::getUnit(pUnitNode->m_data);
-//			pUnitNode = nextUnitNode(pUnitNode);
-//			// AIAndy: Only awaken units that take damage from features
-//			if (pLoopUnit->getUnitInfo().getCombat() > 0)
-//			{
-//				pLoopUnit->getGroup()->clearMissionQueue();
-//				pLoopUnit->getGroup()->setActivityType(ACTIVITY_AWAKE);
-//			}
-//		}
-//	}
-//	//
-//	// Mongoose FeatureDamageFix END
-//}
-//
-//void CvPlot::removeFeatureEffect(FeatureTypes eFeature)
-//{
-//	//Feature Removed or Fallout
-//	if (GC.getGameINLINE().isOption(GAMEOPTION_PERSONALIZED_MAP))
-//	{
-//		if (getLandmarkType() == LANDMARK_FOREST || getLandmarkType() == LANDMARK_JUNGLE)
-//		{
-//			if ((eFeature == (FeatureTypes)GC.getInfoTypeForString("FEATURE_FOREST")) || (eFeature == (FeatureTypes)GC.getInfoTypeForString("FEATURE_JUNGLE")))
-//			{
-//				if (getOwnerINLINE() != NO_PLAYER)
-//				{
-//					for (int iI = 0; iI < NUM_CITY_PLOTS; ++iI)
-//					{
-//						CvPlot* pLoopPlot = plotCity(getX_INLINE(), getY_INLINE(), iI);
-//						if (pLoopPlot != NULL)
-//						{
-//							CvCity* pLoopCity = pLoopPlot->getPlotCity();
-//							if (pLoopCity != NULL)
-//							{
-//								if (pLoopCity->getOwnerINLINE() == getOwnerINLINE())
-//								{
-//									pLoopCity->changeLandmarkAngerTimer(GC.getDefineINT("LANDMARK_ANGER_DIVISOR") * 2);								
-//								}
-//							}
-//						}
-//					}
-//				}
-//				
-//				setLandmarkType(NO_LANDMARK);
-//				removeSignForAllPlayers();
-//			}
-//		}
-//	}
-//
-//	m_movementCharacteristicsHash ^= GC.getFeatureInfo(eFeature).getZobristValue();
-//
-//	updateYield();
-//
-//	for (int iI = 0; iI < NUM_CITY_PLOTS; ++iI)
-//	{
-//		CvPlot* pLoopPlot = plotCity(getX_INLINE(), getY_INLINE(), iI);
-//
-//		if (pLoopPlot != NULL)
-//		{
-//			CvCity* pLoopCity = pLoopPlot->getPlotCity();
-//
-//			if (pLoopCity != NULL)
-//			{
-//				pLoopCity->updateFeatureHealth();
-//				pLoopCity->updateFeatureHappiness();
-//			}
-//		}
-//	}
-//
-//	if (getImprovementType() != NO_IMPROVEMENT)
-//	{
-//		if (!canHaveImprovement(getImprovementType(), NO_TEAM, true, true))
-//		{
-//			setImprovementType(NO_IMPROVEMENT);
-//		}
-//	}
-//}
-//
-//int CvPlot::getNumFeatures() const
-//{
-//	return (int)m_aFeatures.size();
-//}
-//
-//FeatureTypes CvPlot::getFeatureByIndex(int index) const
-//{
-//	FAssert(index >= 0);
-//	FAssert(index < (int)m_aFeatures.size());
-//	return m_aFeatures[index].eFeature;
-//}
-//
-//int CvPlot::getFeatureVariety(FeatureTypes eFeature) const
-//{
-//	for (int iI=0; iI<(int)m_aFeatures.size(); iI++)
-//	{
-//		if (m_aFeatures[iI].eFeature == eFeature)
-//		{
-//			return m_aFeatures[iI].iVariety;
-//		}
-//	}
-//	return -1;
-//}
-//
-//void CvPlot::removeAllFeatures()
-//{
-//	for (int i=0; i<(int)m_aFeatures.size(); i++)
-//	{
-//		setHasFeature(m_aFeatures[i].eFeature, false);
-//	}
-//}
-//
-//void CvPlot::destroyFeatureSymbols()
-//{
-//	for (int i=0; i<(int)m_aFeatures.size(); i++)
-//	{
-//		if (m_aFeatures[i].pSymbol)
-//		{
-//			gDLL->getFeatureIFace()->destroy(m_aFeatures[i].pSymbol);
-//			m_aFeatures[i].pSymbol = NULL;
-//		}
-//	}
-//}
-//#endif
-
 /*********************************/
 /***** Parallel Maps - Begin *****/
 /*********************************/
 
 void CvPlot::destroyGraphics()
 {
-//#ifdef MULTI_FEATURE_MOD
-//	destroyFeatureSymbols();
-//#else
 	gDLL->getFeatureIFace()->destroy(m_pFeatureSymbol);
-//#endif
 	if(m_pPlotBuilder)
 	{
 		gDLL->getPlotBuilderIFace()->destroy(m_pPlotBuilder);

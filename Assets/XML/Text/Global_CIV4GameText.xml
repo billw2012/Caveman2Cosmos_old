@@ -19473,10 +19473,14 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_ROUTE_MOVEMENT_COST</Tag>
-		<English>[ICON_BULLET]Movement Cost: %D1_Change</English>
-		<French>[ICON_BULLET]Coût de déplacement: %D1_Change</French>
-		<Italian>[ICON_BULLET]Costo di movimento: %D1_Change</Italian>
-		<Polish>[ICON_BULLET]Koszt ruchu: %D1_Change</Polish>
+		<English>[ICON_BULLET]Movement Cost: %s1</English>
+		<French>[ICON_BULLET]Coût de déplacement: %s1</French>
+		<Italian>[ICON_BULLET]Costo di movimento: %s1</Italian>
+		<Polish>[ICON_BULLET]Koszt ruchu: %s1</Polish>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_MOVEMENT_ROUTE_WITH_TECH</Tag>
+		<English>[ICON_BULLET]%s1_Change if the %s2_Tech Tech is known.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_ROUTE_PATH</Tag>
@@ -19555,10 +19559,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_ROUTE_REQUIRES_BONUS_OR</Tag>
-		<English>[ICON_BULLET][COLOR_WARNING_TEXT] OR %s1_Bonus[COLOR_REVERT]</English>
-		<French>[ICON_BULLET][COLOR_WARNING_TEXT] OU %s1_Bonus[COLOR_REVERT]</French>
-		<Italian>[ICON_BULLET][COLOR_WARNING_TEXT] O %s1_Bonus[COLOR_REVERT]</Italian>
-		<Polish>[ICON_BULLET][COLOR_WARNING_TEXT] LUB %s1_Bonus[COLOR_REVERT]</Polish>
+		<English>[COLOR_WARNING_TEXT] OR %s1_Bonus[COLOR_REVERT]</English>
+		<French>[COLOR_WARNING_TEXT] OU %s1_Bonus[COLOR_REVERT]</French>
+		<Italian>[COLOR_WARNING_TEXT] O %s1_Bonus[COLOR_REVERT]</Italian>
+		<Polish>[COLOR_WARNING_TEXT] LUB %s1_Bonus[COLOR_REVERT]</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_ROUTE_ROAD</Tag>

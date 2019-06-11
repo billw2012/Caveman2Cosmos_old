@@ -1694,7 +1694,7 @@ void CvNetChooseMergeUnit::Execute()
 {
 	if (m_ePlayer != NO_PLAYER)
 	{
-		if (GET_PLAYER(m_ePlayer).getBaseMergeSelectionUnit() != NO_UNIT && GET_PLAYER(m_ePlayer).getFirstMergeSelectionUnit() == NO_UNIT)
+		if (GET_PLAYER(m_ePlayer).getBaseMergeSelectionUnit() != FFreeList::INVALID_INDEX && GET_PLAYER(m_ePlayer).getFirstMergeSelectionUnit() == FFreeList::INVALID_INDEX)
 		{
 			GET_PLAYER(m_ePlayer).setFirstMergeSelectionUnit(m_iUnitID);
 			CvUnit* pUnit1 = GET_PLAYER(m_ePlayer).getUnit(GET_PLAYER(m_ePlayer).getBaseMergeSelectionUnit());
@@ -1702,7 +1702,7 @@ void CvNetChooseMergeUnit::Execute()
 			// go to select second unit
 		}
 
-		else if (GET_PLAYER(m_ePlayer).getBaseMergeSelectionUnit() != NO_UNIT && GET_PLAYER(m_ePlayer).getFirstMergeSelectionUnit() != NO_UNIT)
+		else if (GET_PLAYER(m_ePlayer).getBaseMergeSelectionUnit() != FFreeList::INVALID_INDEX && GET_PLAYER(m_ePlayer).getFirstMergeSelectionUnit() != FFreeList::INVALID_INDEX)
 		{
 			GET_PLAYER(m_ePlayer).setSecondMergeSelectionUnit(m_iUnitID);
 			CvUnit* pUnit1 = GET_PLAYER(m_ePlayer).getUnit(GET_PLAYER(m_ePlayer).getBaseMergeSelectionUnit());
@@ -1898,9 +1898,9 @@ void CvNetChooseMergeUnit::Execute()
 			pUnit3->getGroup()->AI_setMissionAI(MISSIONAI_DELIBERATE_KILL, NULL, NULL);
 			pUnit3->kill(true, NO_PLAYER, true);
 
-			GET_PLAYER(m_ePlayer).setBaseMergeSelectionUnit(NO_UNIT);
-			GET_PLAYER(m_ePlayer).setFirstMergeSelectionUnit(NO_UNIT);
-			GET_PLAYER(m_ePlayer).setSecondMergeSelectionUnit(NO_UNIT);
+			GET_PLAYER(m_ePlayer).setBaseMergeSelectionUnit(FFreeList::INVALID_INDEX);
+			GET_PLAYER(m_ePlayer).setFirstMergeSelectionUnit(FFreeList::INVALID_INDEX);
+			GET_PLAYER(m_ePlayer).setSecondMergeSelectionUnit(FFreeList::INVALID_INDEX);
 		}
 	}
 }
@@ -1934,7 +1934,7 @@ void CvNetConfirmSplitUnit::Execute()
 {
 	if (m_ePlayer != NO_PLAYER)
 	{
-		if (GET_PLAYER(m_ePlayer).getSplittingUnit() != NO_UNIT && m_bConfirm)
+		if (GET_PLAYER(m_ePlayer).getSplittingUnit() != FFreeList::INVALID_INDEX && m_bConfirm)
 		{
 			CvUnit* pUnit0 = GET_PLAYER(m_ePlayer).getUnit(GET_PLAYER(m_ePlayer).getSplittingUnit());
 			UnitTypes eUnitType = pUnit0->getUnitType();
@@ -2127,9 +2127,9 @@ void CvNetConfirmSplitUnit::Execute()
 			pUnit0->getGroup()->AI_setMissionAI(MISSIONAI_DELIBERATE_KILL, NULL, NULL);
 			pUnit0->kill(true, NO_PLAYER, true);
 
-			GET_PLAYER(m_ePlayer).setSplittingUnit(NO_UNIT);
-			GET_PLAYER(m_ePlayer).setFirstMergeSelectionUnit(NO_UNIT);
-			GET_PLAYER(m_ePlayer).setSecondMergeSelectionUnit(NO_UNIT);
+			GET_PLAYER(m_ePlayer).setSplittingUnit(FFreeList::INVALID_INDEX);
+			GET_PLAYER(m_ePlayer).setFirstMergeSelectionUnit(FFreeList::INVALID_INDEX);
+			GET_PLAYER(m_ePlayer).setSecondMergeSelectionUnit(FFreeList::INVALID_INDEX);
 		}
 	}
 }
@@ -2203,7 +2203,7 @@ void CvNetChooseArrestUnit::Execute()
 {
 	if (m_ePlayer != NO_PLAYER && m_ePlayerT != NO_PLAYER)
 	{
-		if (GET_PLAYER(m_ePlayer).getArrestingUnit() != NO_UNIT)
+		if (GET_PLAYER(m_ePlayer).getArrestingUnit() != FFreeList::INVALID_INDEX)
 		{
 			GET_PLAYER(m_ePlayerT).setArrestedUnit(m_iUnitID);
 			CvUnit* pArrestingUnit = GET_PLAYER(m_ePlayer).getUnit(GET_PLAYER(m_ePlayer).getArrestingUnit());
@@ -2211,8 +2211,8 @@ void CvNetChooseArrestUnit::Execute()
 
 			pArrestingUnit->attackSamePlotSpecifiedUnit(pArrestedUnit, true);
 
-			GET_PLAYER(m_ePlayer).setArrestingUnit(NO_UNIT);
-			GET_PLAYER(m_ePlayerT).setArrestedUnit(NO_UNIT);
+			GET_PLAYER(m_ePlayer).setArrestingUnit(FFreeList::INVALID_INDEX);
+			GET_PLAYER(m_ePlayerT).setArrestedUnit(FFreeList::INVALID_INDEX);
 		}
 	}
 }
@@ -2248,7 +2248,7 @@ void CvNetConfirmAmbush::Execute()
 {
 	if (m_ePlayer != NO_PLAYER)
 	{
-		if (GET_PLAYER(m_ePlayer).getAmbushingUnit() != NO_UNIT && m_bConfirm)
+		if (GET_PLAYER(m_ePlayer).getAmbushingUnit() != FFreeList::INVALID_INDEX && m_bConfirm)
 		{
 			CvUnit* pAttacker = GET_PLAYER(m_ePlayer).getUnit(GET_PLAYER(m_ePlayer).getAmbushingUnit());
 			bool bAssassinate = GET_PLAYER(m_ePlayer).isAssassinate();
@@ -2257,7 +2257,7 @@ void CvNetConfirmAmbush::Execute()
 				return;
 			}
 			pAttacker->enactAmbush(bAssassinate);
-			GET_PLAYER(m_ePlayer).setAmbushingUnit(NO_UNIT);
+			GET_PLAYER(m_ePlayer).setAmbushingUnit(FFreeList::INVALID_INDEX);
 		}
 	}
 }

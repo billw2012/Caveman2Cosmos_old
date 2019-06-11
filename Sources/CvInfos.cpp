@@ -12491,7 +12491,7 @@ void CvCivicInfo::copyNonDefaults(CvCivicInfo* pClassInfo, CvXMLLoadUtility* pXM
 
 	for ( int i = 0; i < GC.getNumHurryInfos(); i++ )
 	{
-		if ( pClassInfo->isHurry(i) == bDefault && pClassInfo->isHurry(i) != bDefault)
+		if ( isHurry(i) == bDefault && pClassInfo->isHurry(i) != bDefault)
 		{
 			if ( NULL == m_pabHurry )
 			{

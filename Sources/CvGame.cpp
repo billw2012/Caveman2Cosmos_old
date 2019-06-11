@@ -11568,7 +11568,7 @@ void CvGame::logDebugMsg(char* format, ...)
 	if (GC.getGameINLINE().getActivePlayer() != -1)
 		sprintf(szOut, "Player %d - Multiplayer Game Log.log", GC.getGameINLINE().getActivePlayer());
 	else
-		sprintf(szOut, "Pitboss Multiplayer Game Log.log", GC.getGameINLINE().getActivePlayer());
+		sprintf(szOut, "Pitboss Multiplayer Game Log.log");
 
 	static char buf[2048];
 	_vsnprintf(buf, 2048 - 4, format, (char*)(&format + 1));
@@ -12007,10 +12007,10 @@ int CvGame::getCultureThreshold(CultureLevelTypes eLevel) const
 	if (isOption(GAMEOPTION_NO_ESPIONAGE))
 	{
 		//Alberts2: made this a long because a integer overflow is possible here.
-		long lThreshold = iThreshold;
+		long long lThreshold = iThreshold;
 		lThreshold *= 100 + GC.getDefineINT("NO_ESPIONAGE_CULTURE_LEVEL_MODIFIER");
 		lThreshold /= 100;
-		iThreshold = std::min((long)INT_MAX, lThreshold);
+		iThreshold = static_cast<int>(lThreshold);
 	}
 	return iThreshold;
 }
@@ -14601,7 +14601,8 @@ bool CvGame::canEverConstruct(BuildingTypes eBuilding) const
 	
 	bool bFound = false;
 	bool bRequires = false;
-	for (int iI = 0; iI < GC.getNumGameSpeedInfos(); iI++)
+	const int numGameSpeedInfos = GC.getNumGameSpeedInfos();
+	for (int iI = 0; iI < numGameSpeedInfos; iI++)
 	{
 		if (kBuilding.isPrereqOrGameSpeed(iI))
 		{

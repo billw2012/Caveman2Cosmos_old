@@ -1082,41 +1082,6 @@ CyPlot* CyPlot::cloneToViewport()
 	return new CyPlot(m_pPlot,true);
 }
 
-//#ifdef MULTI_FEATURE_MOD
-//bool CyPlot::getHasFeature(int /*FeatureTypes*/ eFeature)
-//{
-//	return m_pPlot ? m_pPlot->getHasFeature((FeatureTypes)eFeature) : false;
-//}
-//
-//void CyPlot::setHasFeature(int /*FeatureTypes*/ eFeature, bool bHasFeature, int iVariety)
-//{
-//	if (m_pPlot)
-//		m_pPlot->setHasFeature((FeatureTypes)eFeature, bHasFeature, iVariety);
-//}
-//
-//int CyPlot::getNumFeatures()
-//{
-//	return m_pPlot ? m_pPlot->getNumFeatures() : 0;
-//}
-//
-//int /*FeatureTypes*/ CyPlot::getFeatureByIndex(int index)
-//{
-//	return m_pPlot ? m_pPlot->getFeatureByIndex(index) : -1;
-//}
-//
-//int CyPlot::getVarietyByFeature(int /*FeatureTypes*/ eFeature)
-//{
-//	return m_pPlot ? m_pPlot->getFeatureVariety((FeatureTypes)eFeature) : -1;
-//}
-//
-//void CyPlot::removeAllFeatures()
-//{
-//	if (m_pPlot)
-//		m_pPlot->removeAllFeatures();
-//}
-//#endif
-
-
 // Super Forts begin *canal* *choke*
 int CyPlot::getCanalValue()
 {

@@ -2326,7 +2326,7 @@ void CvUnitAI::AI_settleMove()
 			}
 		}
 
-		if (!getGroup()->canDefend() || getGroup()->getStrength() <= (AI_minSettlerDefense() + (AI_genericUnitValueTimes100(UNITVALUE_FLAGS_DEFENSIVE | UNITVALUE_FLAGS_OFFENSIVE)/100)))
+		if (!getGroup()->canDefend() || getGroup()->getStrength() <= AI_minSettlerDefense())
 		{
 			//	If we're already in a city advertise for an escort
 			if (plot()->isCity() && (plot()->getOwnerINLINE() == getOwnerINLINE()) && !isCargo())
@@ -5817,8 +5817,12 @@ void CvUnitAI::AI_cityDefenseMove()
 	}
 	// Dale - ARB: Archer Bombard END
 
+	if (AI_guardCity(true))
+	{
+		return;
+	}
+
 	//	No high priority actions to take so see if anyone requesting help
-	//  TB: Moved above AI_guardCity since this may have been requested for a good reason!
 	if ( processContracts() )
 	{
 		return;
@@ -5837,12 +5841,6 @@ void CvUnitAI::AI_cityDefenseMove()
 	{
 		return;
 	}
-
-	if (AI_guardCity(true))
-	{
-		return;
-	}
-
 	
 	if (!bDanger)
 	{
@@ -15006,7 +15004,7 @@ bool CvUnitAI::AI_guardCity(bool bLeave, bool bSearch, int iMaxPath)
 									iValue = (iValue*(100+pLoopPlot->getDangerCount(getTeam())))/100;
 									
 									// ls612: If the terrain is damaging, don't guard there
-									bool	bHasTerrainDamage = (pLoopPlot->getTerrainTurnDamage(getGroup()) > 0 || pLoopPlot->getFeatureTurnDamage() > 0);	
+									bool	bHasTerrainDamage = (pLoopPlot->getTotalTurnDamage(getGroup()) > 0 || pLoopPlot->getFeatureTurnDamage() > 0);	
 									if (bHasTerrainDamage)
 									{
 										iValue = 0;
@@ -16265,19 +16263,12 @@ bool CvUnitAI::AI_heal(int iDamagePercent, int iMaxPath)
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
 /************************************************************************************************/	
-	if (plot()->getFeatureTurnDamage() > 0)
-	{
-		//Pass through
-		//(actively seeking a safe spot may result in unit getting stuck)
-		OutputDebugString("AI_heal: denying heal due to feature damage\n");
-		return false;
-	}
 /************************************************************************************************/
 /* Afforess	                  Start		 05/17/10                                                */
 /*                                                                                              */
 /*                                                                                              */
 /************************************************************************************************/
-	if (plot()->getTerrainTurnDamage(getGroup()) > 0)
+	if (plot()->getTotalTurnDamage(getGroup()) > 0)
 	{
 		OutputDebugString("AI_heal: denying heal due to terrain damage\n");
 		return false;
@@ -19515,8 +19506,7 @@ bool CvUnitAI::AI_safety(int iRange)
 										iValue += GC.getGameINLINE().getSorenRandNum(50, "AI Safety");
 									}
 
-									int iTerrainDamage = pLoopPlot->getTerrainTurnDamage(getGroup());
-									iTerrainDamage += pLoopPlot->getFeatureTurnDamage();
+									int iTerrainDamage = pLoopPlot->getTotalTurnDamage(getGroup());
 
 									if ( iTerrainDamage > 0 )
 									{
@@ -19637,8 +19627,7 @@ bool CvUnitAI::AI_safety(int iRange)
 										//GC.getGameINLINE().logOOSSpecial(6,iValue,getID());
 									}
 
-									int iTerrainDamage = pLoopPlot->getTerrainTurnDamage(getGroup());
-									iTerrainDamage += pLoopPlot->getFeatureTurnDamage();
+									int iTerrainDamage = pLoopPlot->getTotalTurnDamage(getGroup());
 
 									if ( iTerrainDamage > 0 )
 									{
@@ -20100,7 +20089,7 @@ bool CvUnitAI::AI_explore()
 							}
 							
 							//ls612: Make exploring AI aware of terrain damage
-							bool	bHasTerrainDamage = (pLoopPlot->getTerrainTurnDamage(getGroup()) > 0 || pLoopPlot->getFeatureTurnDamage() > 0);	
+							bool	bHasTerrainDamage = (pLoopPlot->getTotalTurnDamage(getGroup()) > 0 || pLoopPlot->getFeatureTurnDamage() > 0);	
 
 							if (bHasTerrainDamage)
 							{
@@ -20382,7 +20371,7 @@ bool CvUnitAI::AI_exploreRange(int iRange)
 /*************************************************************************************************/
 								
 								//ls612: Make exploring AI aware of terrain damage
-								bool	bHasTerrainDamage = (pLoopPlot->getTerrainTurnDamage(getGroup()) > 0 || pLoopPlot->getFeatureTurnDamage() > 0 );	
+								bool	bHasTerrainDamage = (pLoopPlot->getTotalTurnDamage(getGroup()) > 0 || pLoopPlot->getFeatureTurnDamage() > 0 );	
 
 								if (bHasTerrainDamage)
 								{
@@ -20701,7 +20690,7 @@ bool CvUnitAI::AI_refreshExploreRange(int iRange, bool bIncludeVisibilityRefresh
 										}
 
 										//ls612: Make exploring AI aware of terrain damage
-										bool	bHasTerrainDamage = (pLoopPlot->getTerrainTurnDamage(getGroup()) > 0 || pLoopPlot->getFeatureTurnDamage() > 0 );	
+										bool	bHasTerrainDamage = (pLoopPlot->getTotalTurnDamage(getGroup()) > 0 || pLoopPlot->getFeatureTurnDamage() > 0 );	
 
 										if (bHasTerrainDamage)
 										{
@@ -22764,7 +22753,7 @@ bool CvUnitAI::AI_pirateBlockade()
 	
 	bool bIsInDanger = aiDeathZone[GC.getMap().plotNumINLINE(getX_INLINE(), getY_INLINE())] > 0;
 	bool bNeedsHeal = (getDamage() > 0);
-	bool bHasTerrainDamage = (plot()->getTerrainTurnDamage(getGroup()) > 0 || plot()->getFeatureTurnDamage() > 0);	
+	bool bHasTerrainDamage = (plot()->getTotalTurnDamage(getGroup()) > 0 || plot()->getFeatureTurnDamage() > 0);	
 
 	if (!bIsInDanger)
 	{
@@ -22775,7 +22764,7 @@ bool CvUnitAI::AI_pirateBlockade()
 				//	If we only have damage explained by teh curretn plot for one turn
 				//	don't use that as an excuse to immediately turn around and go hide
 				//	in a city!
-				if ( !bHasTerrainDamage || getDamage() > (plot()->getTerrainTurnDamage(getGroup()) + plot()->getFeatureTurnDamage()) )
+				if ( !bHasTerrainDamage || getDamage() > (plot()->getTotalTurnDamage(getGroup()) + plot()->getFeatureTurnDamage()) )
 				{
 					if (AI_retreatToCity(false, false, 1 + getDamagePercent() / 20))
 					{
@@ -22963,7 +22952,7 @@ bool CvUnitAI::AI_pirateBlockade()
 					CvPlot*	pPlot = itr.plot();
 
 					bool bIsInDanger = aiDeathZone[GC.getMap().plotNumINLINE(pPlot->getX_INLINE(), pPlot->getY_INLINE())] > 0;
-					bool bHasTerrainDamage = (pPlot->getTerrainTurnDamage(getGroup()) > 0 || pPlot->getFeatureTurnDamage() > 0);	
+					bool bHasTerrainDamage = (pPlot->getTotalTurnDamage(getGroup()) > 0 || pPlot->getFeatureTurnDamage() > 0);	
 
 					//	If an intermediary plot is one that the heal decsion logic (near the start of this method)
 					//	would choose to heal in, then just stop there on our way
@@ -25940,8 +25929,12 @@ bool CvUnitAI::AI_improveCity(CvCity* pCity)
 			}
 			else if (plot()->getRouteType() == NO_ROUTE)
 			{
-				int iPlotMoveCost = 0;
-				iPlotMoveCost = ((plot()->getFeatureType() == NO_FEATURE) ? GC.getTerrainInfo(plot()->getTerrainType()).getMovementCost() : GC.getFeatureInfo(plot()->getFeatureType()).getMovementCost());
+				int iPlotMoveCost = GC.getTerrainInfo(plot()->getTerrainType()).getMovementCost();
+
+				if (plot()->getFeatureType() != NO_FEATURE)
+				{
+					iPlotMoveCost += GC.getFeatureInfo(plot()->getFeatureType()).getMovementCost();
+				}
 
 				if (plot()->isHills())
 				{
@@ -25954,7 +25947,14 @@ bool CvUnitAI::AI_improveCity(CvCity* pCity)
 /************************************************************************************************/
 				if (plot()->isPeak2(true))
 				{
-					iPlotMoveCost += GC.getPEAK_EXTRA_MOVEMENT();
+					if (!GET_TEAM(getTeam()).isMoveFastPeaks())
+					{
+						iPlotMoveCost += GC.getPEAK_EXTRA_MOVEMENT();
+					}
+					else
+					{
+						iPlotMoveCost += 1;
+					}
 				}
 /************************************************************************************************/
 /* Afforess	Mountains End       END    		                                                 */
@@ -26104,9 +26104,12 @@ bool CvUnitAI::AI_improveLocalPlot(int iRange, CvCity* pIgnoreCity)
 		}
 		else if (plot()->getRouteType() == NO_ROUTE)
 		{
-			int iPlotMoveCost = 0;
-			iPlotMoveCost = ((plot()->getFeatureType() == NO_FEATURE) ? GC.getTerrainInfo(plot()->getTerrainType()).getMovementCost() : GC.getFeatureInfo(plot()->getFeatureType()).getMovementCost());
+			int iPlotMoveCost = GC.getTerrainInfo(plot()->getTerrainType()).getMovementCost();
 
+			if (plot()->getFeatureType() != NO_FEATURE)
+			{
+				iPlotMoveCost += GC.getFeatureInfo(plot()->getFeatureType()).getMovementCost();
+			}
 			if (plot()->isHills())
 			{
 				iPlotMoveCost += GC.getHILLS_EXTRA_MOVEMENT();
@@ -26118,7 +26121,14 @@ bool CvUnitAI::AI_improveLocalPlot(int iRange, CvCity* pIgnoreCity)
 /************************************************************************************************/
 			if (plot()->isPeak2(true))
 			{
-				iPlotMoveCost += GC.getPEAK_EXTRA_MOVEMENT();
+				if (!GET_TEAM(getTeam()).isMoveFastPeaks())
+				{
+					iPlotMoveCost += GC.getPEAK_EXTRA_MOVEMENT();
+				}
+				else
+				{
+					iPlotMoveCost += 1;
+				}
 			}
 /************************************************************************************************/
 /* Afforess	Mountains End       END        		                                             */
@@ -31243,7 +31253,7 @@ bool CvUnitAI::AI_defendPlot(CvPlot* pPlot)
 		return false;
 	}
 
-	bool	bHasTerrainDamage = (plot()->getTerrainTurnDamage(getGroup()) > 0 || plot()->getFeatureTurnDamage() > 0);	
+	bool	bHasTerrainDamage = (plot()->getTotalTurnDamage(getGroup()) > 0 || plot()->getFeatureTurnDamage() > 0);	
 	
 	pCity = pPlot->getPlotCity();
 
@@ -32285,7 +32295,7 @@ bool CvUnitAI::AI_choke(int iRange, bool bDefensive)
 					CvCity* pWorkingCity = pLoopPlot->getWorkingCity();
 					if ((pWorkingCity != NULL) && (pWorkingCity->getTeam() == pLoopPlot->getTeam()))
 					{
-						bool	bHasTerrainDamage = (plot()->getTerrainTurnDamage(getGroup()) > 0 || plot()->getFeatureTurnDamage() > 0);	
+						bool	bHasTerrainDamage = (plot()->getTotalTurnDamage(getGroup()) > 0 || plot()->getFeatureTurnDamage() > 0);	
 
 						if(!bHasTerrainDamage)
 						{
@@ -33889,7 +33899,7 @@ void CvUnitAI::AI_SearchAndDestroyMove(bool bWithCommander)
 	}
 
 	//	If we have any animal hangers-on and are in our territory drop them off
-	if ( !isHuman() && (getGroup()->countNumUnitAIType(UNITAI_SUBDUED_ANIMAL) > 0 || getGroup()->countNumUnitAIType(UNITAI_WORKER) > 0) && plot()->getOwnerINLINE() == getOwnerINLINE() )
+	if ( !isHuman() && plot()->getOwnerINLINE() == getOwnerINLINE() && (getGroup()->countNumUnitAIType(UNITAI_SUBDUED_ANIMAL) > 0 || getGroup()->countNumUnitAIType(UNITAI_WORKER) > 0))
 	{
 		getGroup()->AI_separateAI(UNITAI_SUBDUED_ANIMAL);
 	}
@@ -33965,7 +33975,8 @@ void CvUnitAI::AI_SearchAndDestroyMove(bool bWithCommander)
 			{
 				if ( m_contractsLastEstablishedTurn != GC.getGameINLINE().getGameTurn() )
 				{
-					GET_PLAYER(getOwnerINLINE()).getContractBroker().advertiseWork(HIGHEST_PRIORITY_ESCORT_PRIORITY,
+					const int priority = HIGHEST_PRIORITY_ESCORT_PRIORITY;
+					GET_PLAYER(getOwnerINLINE()).getContractBroker().advertiseWork(priority,
 						NO_UNITCAPABILITIES,
 						getX_INLINE(),
 						getY_INLINE(),
@@ -33977,7 +33988,7 @@ void CvUnitAI::AI_SearchAndDestroyMove(bool bWithCommander)
 
 					if( gUnitLogLevel > 2 )
 					{
-						logBBAI("    %S's hunter (%d) at (%d,%d) [stack size %d] requests escort at priority %d", GET_PLAYER(getOwnerINLINE()).getCivilizationDescription(0), getID(), getX_INLINE(), getY_INLINE(), getGroup()->getNumUnits(), HIGH_PRIORITY_ESCORT_PRIORITY);
+						logBBAI("    %S's hunter (%d) at (%d,%d) [stack size %d] requests escort at priority %d", GET_PLAYER(getOwnerINLINE()).getCivilizationDescription(0), getID(), getX_INLINE(), getY_INLINE(), getGroup()->getNumUnits(), priority);
 					}
 				}
 				getGroup()->pushMission(MISSION_SKIP);
@@ -33995,6 +34006,15 @@ void CvUnitAI::AI_SearchAndDestroyMove(bool bWithCommander)
 		else
 		{
 			bReadytoHunt = true;
+		}
+	}
+
+	//	If we have more than 4 animal hangers-on escort them back to our territory
+	if (!isHuman() && (getGroup()->countNumUnitAIType(UNITAI_WORKER) + getGroup()->countNumUnitAIType(UNITAI_SUBDUED_ANIMAL) > 4) && plot()->getOwnerINLINE() != getOwnerINLINE())
+	{
+		if (AI_retreatToCity())
+		{
+			return;
 		}
 	}
 
@@ -34032,19 +34052,6 @@ void CvUnitAI::AI_SearchAndDestroyMove(bool bWithCommander)
 		{
 			return;
 		}
-	}
-
-	//	If we have more than 2 animal hangers-on escort them back to our territory
-	if ( !isHuman() && (getGroup()->countNumUnitAIType(UNITAI_WORKER) + getGroup()->countNumUnitAIType(UNITAI_SUBDUED_ANIMAL) > 2) && plot()->getOwnerINLINE() != getOwnerINLINE() )
-	{
-		if (AI_retreatToCity())
-		{
-			return;
-		}
-	}
-	
-	if (bReadytoHunt)
-	{		
 		if (AI_huntRange(5, iMinimumOdds, false))
 		{
 			return;
@@ -35947,7 +35954,7 @@ bool CvUnitAI::AI_cureAffliction(PromotionLineTypes eAfflictionLine)
 #endif
 /*TB Prophet Mod end*/
 
-void unitSourcesValueToCity(CvGameObject* pObject, CvPropertyManipulators* pMani, const CvUnit* pUnit, const CvCityAI* pCity, int* iValue)
+void unitSourcesValueToCity(CvGameObject* pObject, CvPropertyManipulators* pMani, const CvUnit* pUnit, const CvCityAI* pCity, int* iValue, PropertyTypes eProperty)
 {
 	if ( pCity == NULL )
 	{
@@ -35962,35 +35969,38 @@ void unitSourcesValueToCity(CvGameObject* pObject, CvPropertyManipulators* pMani
 		{
 			CvPropertySource* pSource = pMani->getSource(i);
 
-			//	Sources that deliver to the city or the plot are both considered since the city plot diffuses
-			//	to the city for most properties anyway
-			if (pSource->getType() == PROPERTYSOURCE_CONSTANT &&
-				(pSource->getObjectType() == GAMEOBJECT_CITY || pSource->getObjectType() == GAMEOBJECT_PLOT))
+			if (eProperty == NO_PROPERTY || pSource->getProperty() == eProperty)
 			{
-				PropertyTypes eProperty = pSource->getProperty();
-				int iCurrentSourceSize = pCity->getTotalBuildingSourcedProperty(eProperty) + pCity->getTotalUnitSourcedProperty(eProperty) + pCity->getPropertyNonBuildingSource(eProperty);
-				int iNewSourceSize = iCurrentSourceSize + ((CvPropertySourceConstant*)pSource)->getAmountPerTurn(pCity->getGameObjectConst());
-				int iDecayPercent = pCity->getPropertyDecay(eProperty);
+				//	Sources that deliver to the city or the plot are both considered since the city plot diffuses
+		//	to the city for most properties anyway
+				if (pSource->getType() == PROPERTYSOURCE_CONSTANT &&
+					(pSource->getObjectType() == GAMEOBJECT_CITY || pSource->getObjectType() == GAMEOBJECT_PLOT))
+				{
+					PropertyTypes eProperty = pSource->getProperty();
+					int iCurrentSourceSize = pCity->getTotalBuildingSourcedProperty(eProperty) + pCity->getTotalUnitSourcedProperty(eProperty) + pCity->getPropertyNonBuildingSource(eProperty);
+					int iNewSourceSize = iCurrentSourceSize + ((CvPropertySourceConstant*)pSource)->getAmountPerTurn(pCity->getGameObjectConst());
+					int iDecayPercent = pCity->getPropertyDecay(eProperty);
 
-				//	Steady state occurs at a level where the decay removes as much per turn as the sources add
-				//	Decay can be 0 if the current level is below the threshold at which decay cuts in, so for the
-				//	purposes of calculation just treat this as very slow decay
-				int	iCurrentSteadyStateLevel = (100*iCurrentSourceSize)/std::max(1,iDecayPercent);
-				int	iNewSteadyStateLevel = (100*iNewSourceSize)/std::max(1,iDecayPercent);
+					//	Steady state occurs at a level where the decay removes as much per turn as the sources add
+					//	Decay can be 0 if the current level is below the threshold at which decay cuts in, so for the
+					//	purposes of calculation just treat this as very slow decay
+					int	iCurrentSteadyStateLevel = (100 * iCurrentSourceSize) / std::max(1, iDecayPercent);
+					int	iNewSteadyStateLevel = (100 * iNewSourceSize) / std::max(1, iDecayPercent);
 
-				*iValue += pCity->getPropertySourceValue(eProperty,
-														 iNewSteadyStateLevel - iCurrentSteadyStateLevel)/100;
+					*iValue += pCity->getPropertySourceValue(eProperty,
+						iNewSteadyStateLevel - iCurrentSteadyStateLevel) / 100;
+				}
 			}
 		}
 	}
 }
 
 //	Find the total beneficial bnet value to a given city of this unit's property sources
-int CvUnitAI::AI_beneficialPropertyValueToCity(CvCity* pCity) const
+int CvUnitAI::AI_beneficialPropertyValueToCity(CvCity* pCity, PropertyTypes eProperty) const
 {
 	int iValue = 0;
 
-	((CvUnitAI*)this)->getGameObject()->foreachManipulator(boost::bind(unitSourcesValueToCity, _1, _2, this, static_cast<const CvCityAI*>(pCity), &iValue));
+	((CvUnitAI*)this)->getGameObject()->foreachManipulator(boost::bind(unitSourcesValueToCity, _1, _2, this, static_cast<const CvCityAI*>(pCity), &iValue, eProperty));
 
 	return iValue;
 }
@@ -37125,7 +37135,7 @@ bool CvUnitAI::AI_establishStackSeeInvisibleCoverage()
 		else if (getDomainType() == DOMAIN_SEA)
 		{
 			iUnitValue = GET_PLAYER(getOwner()).AI_bestAreaUnitAIValue(UNITAI_SEE_INVISIBLE_SEA, area(), &eBestUnit, &criteria);
-			if (eBestUnit != NULL)
+			if (eBestUnit != NO_UNIT)
 			{
 				if (getGroup()->countSeeInvisibleActive(eBestUnit) < 1)
 				{	

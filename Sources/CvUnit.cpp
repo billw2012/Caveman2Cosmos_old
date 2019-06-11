@@ -1732,25 +1732,11 @@ void CvUnit::doTurn()
 
 	if (baseCombatStr() > 0)
 	{
-//#ifdef MULTI_FEATURE_MOD
-//		for (int i=0; i<plot()->getNumFeatures(); i++)
-//		{
-//			FeatureTypes eFeature = plot()->getFeatureByIndex(i);
-//			if (0 != GC.getFeatureInfo(eFeature).getTurnDamage())
-//			{
-//				changeDamage(GC.getFeatureInfo(eFeature).getTurnDamage(), NO_PLAYER);
-//			}
-//		}
-//#else
 		FeatureTypes eFeature = plot()->getFeatureType();
-		if (NO_FEATURE != eFeature)
+		if (plot()->getFeatureTurnDamage() != 0)
 		{
-			if (0 != GC.getFeatureInfo(eFeature).getTurnDamage())
-			{
-				changeDamagePercent(GC.getFeatureInfo(eFeature).getTurnDamage(), NO_PLAYER);
-			}
+			changeDamagePercent(plot()->getFeatureTurnDamage(), NO_PLAYER);
 		}
-//#endif
 /************************************************************************************************/
 /* Afforess	                  Start		 05/17/10                                                */
 /*                                                                                              */
@@ -4132,7 +4118,7 @@ void CvUnit::updateCombat(bool bQuick, CvUnit* pSelectedDefender, bool bSamePlot
 
 			if (pDefender->getDefensiveVictoryMoveCount() > 0)
 			{
-				pDefender->changeMoves(-1);
+				pDefender->changeMoves(-GC.getMOVE_DENOMINATOR());
 			}
 
 			bool bSurvivor = false;
@@ -4553,7 +4539,7 @@ void CvUnit::updateCombat(bool bQuick, CvUnit* pSelectedDefender, bool bSamePlot
 
 			if (getOffensiveVictoryMoveCount() > 0)
 			{
-				changeMoves(-1);
+				changeMoves(-GC.getMOVE_DENOMINATOR());
 			}
 
 			bool bDefendingSurvivor = false;
@@ -7565,7 +7551,7 @@ bool CvUnit::jumpToNearestValidPlot(bool bKill)
 /*                                                                                              */
 /*                                                                                              */
 /************************************************************************************************/
-							iValue *= std::max(1, ((pLoopPlot->getTerrainTurnDamage(this)+pLoopPlot->getFeatureTurnDamage()) / 2));
+							iValue *= std::max(1, ((pLoopPlot->getTotalTurnDamage(this)) / 2));
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
 /************************************************************************************************/
@@ -8769,8 +8755,7 @@ int CvUnit::healRate(const CvPlot* pPlot, bool bHealCheck) const
 	int iNumHealAs = m_pUnitInfo->getNumHealAsTypes();
 	bool bHasHealAs = (iNumHealAs > 0);
 	
-	//TB Note: This sorta creates a bug - should be checking for just this unit but can't convert this as it's a const.
-	if (pPlot->getTerrainTurnDamage(getGroup()) > 0)
+	if (pPlot->getTotalTurnDamage(this) > 0)
 	{
 		return 0;
 	}
@@ -8975,8 +8960,7 @@ int CvUnit::getHealRateAsType(const CvPlot* pPlot, bool bHealCheck, UnitCombatTy
 
 	iTotalHeal = 0;
 	
-	//TB Note: This sorta creates a bug - should be checking for just this unit but can't convert this as it's a const.
-	if (pPlot->getTerrainTurnDamage(getGroup()) > 0)
+	if (pPlot->getTotalTurnDamage(this) > 0)
 	{
 		return 0;
 	}
@@ -9136,7 +9120,7 @@ int CvUnit::healTurns(const CvPlot* pPlot) const
 		return 0;
 	}
 
-	if (pPlot->getTerrainTurnDamage(getGroup()) > 0)
+	if (pPlot->getTotalTurnDamage(this) > 0)
 	{
 		return 0;
 	}
@@ -39658,36 +39642,36 @@ bool CvUnit::meetsUnitSelectionCriteria(CvUnitSelectionCriteria* criteria) const
 			return false;
 		}
 
-		bool bProperty = criteria->m_eProperty != NO_PROPERTY;
-		bool bNoNegative = criteria->m_bNoNegativeProperties;
-		if ( bProperty || bNoNegative)
+		if (criteria->m_bNoNegativeProperties || criteria->m_bPropertyBeneficial)
 		{
-			int iPropertyDelta = AI_beneficialPropertyValueToCity(NULL);
+			int iPropertyDelta = AI_beneficialPropertyValueToCity(NULL, NO_PROPERTY);
 
-			if (bProperty)
+			if (iPropertyDelta < 0)
 			{
-				if ( iPropertyDelta == 0 )
+				return false;
+			}
+		}
+		if (criteria->m_eProperty != NO_PROPERTY)
+		{
+			int iPropertyDelta = AI_beneficialPropertyValueToCity(NULL, criteria->m_eProperty);
+
+			if ( iPropertyDelta == 0 )
+			{
+				return false;
+			}
+			else if ( iPropertyDelta > 0 )
+			{
+				if ( !criteria->m_bPropertyBeneficial )
 				{
 					return false;
 				}
-				else if ( iPropertyDelta > 0 )
-				{
-					if ( !criteria->m_bPropertyBeneficial )
-					{
-						return false;
-					}
-				}
-				else
-				{
-					if ( criteria->m_bPropertyBeneficial )
-					{
-						return false;
-					}
-				}
 			}
-			if (bNoNegative && iPropertyDelta < 0)
+			else
 			{
-				return false;
+				if ( criteria->m_bPropertyBeneficial )
+				{
+					return false;
+				}
 			}
 		}
 
@@ -42636,11 +42620,11 @@ void CvUnit::doMerge()
 					{
 						if (!pLoopUnit->isHurt() && !pLoopUnit->isDead() && !pLoopUnit->isFighting() && !pLoopUnit->isCargo() && !pLoopUnit->hasCargo() && !pLoopUnit->isDelayedDeath() && !pLoopUnit->isSpy() && !pLoopUnit->hasMoved())
 						{
-							if (GET_PLAYER(getOwner()).getFirstMergeSelectionUnit() == NO_UNIT)
+							if (GET_PLAYER(getOwner()).getFirstMergeSelectionUnit() == FFreeList::INVALID_INDEX)
 							{
 								GET_PLAYER(getOwner()).setFirstMergeSelectionUnit(pLoopUnit->getID());
 							}
-							else if (GET_PLAYER(getOwner()).getSecondMergeSelectionUnit() == NO_UNIT)
+							else if (GET_PLAYER(getOwner()).getSecondMergeSelectionUnit() == FFreeList::INVALID_INDEX)
 							{
 								GET_PLAYER(getOwner()).setSecondMergeSelectionUnit(pLoopUnit->getID());
 								break;
@@ -42834,9 +42818,9 @@ void CvUnit::doMerge()
 		pkMergedUnit->setInhibitSplit(true);
 		pkMergedUnit->joinGroup(pMergingGroup);
 
-		GET_PLAYER(getOwner()).setBaseMergeSelectionUnit(NO_UNIT);
-		GET_PLAYER(getOwner()).setFirstMergeSelectionUnit(NO_UNIT);
-		GET_PLAYER(getOwner()).setSecondMergeSelectionUnit(NO_UNIT);
+		GET_PLAYER(getOwner()).setBaseMergeSelectionUnit(FFreeList::INVALID_INDEX);
+		GET_PLAYER(getOwner()).setFirstMergeSelectionUnit(FFreeList::INVALID_INDEX);
+		GET_PLAYER(getOwner()).setSecondMergeSelectionUnit(FFreeList::INVALID_INDEX);
 
 		pUnit1->joinGroup(NULL);
 		pUnit2->joinGroup(NULL);
@@ -43066,7 +43050,7 @@ void CvUnit::doSplit()
 		pUnit3->joinGroup(pSplittingGroup);
 
 
-		GET_PLAYER(getOwner()).setSplittingUnit(NO_UNIT);
+		GET_PLAYER(getOwner()).setSplittingUnit(FFreeList::INVALID_INDEX);
 		//GET_PLAYER(getOwner()).setFirstMergeSelectionUnit(NO_UNIT);
 		//GET_PLAYER(getOwner()).setSecondMergeSelectionUnit(NO_UNIT);
 
@@ -44217,13 +44201,8 @@ int CvUnit::workRate(bool bMax) const
 	{
 		for (iI = 0; iI < GC.getNumFeatureInfos(); iI++)
 		{
-//#ifdef MULTI_FEATURE_MOD
-//			if (plot()->getHasFeature((FeatureTypes)iI))
-//			{
-//#else
 			if (plot()->getFeatureType() == (FeatureTypes)iI)
 			{
-//#endif
 				if (featureWorkPercent((FeatureTypes)iI) != 0)
 				{
 					iRate *= (featureWorkPercent((FeatureTypes)iI) + 100);
@@ -46515,7 +46494,7 @@ void CvUnit::doArrest()
 			attackSamePlotSpecifiedUnit(pBestUnit, true);
 		}
 		
-		GET_PLAYER(getOwner()).setArrestingUnit(NO_UNIT);
+		GET_PLAYER(getOwner()).setArrestingUnit(FFreeList::INVALID_INDEX);
 	}
 }
 
@@ -46602,7 +46581,7 @@ bool CvUnit::doAmbush(bool bAssassinate)
 	{
 		doInsidiousnessVSInvestigationCheck();
 	}
-	if (GET_PLAYER(getOwner()).getAmbushingUnit() == NO_UNIT)
+	if (GET_PLAYER(getOwner()).getAmbushingUnit() == FFreeList::INVALID_INDEX)
 	{
 		//Get best attacker from selected and send it to be the one selected to attack by setting it as the ambushing unit.
 		if (isHuman())
@@ -46627,7 +46606,7 @@ bool CvUnit::doAmbush(bool bAssassinate)
 					attackSamePlotSpecifiedUnit(pDefender, false);
 				}
 			}
-			GET_PLAYER(getOwner()).setAmbushingUnit(NO_UNIT);
+			GET_PLAYER(getOwner()).setAmbushingUnit(FFreeList::INVALID_INDEX);
 		}
 	}
 	return true;
@@ -47045,8 +47024,7 @@ int CvUnit::getExtraTrapDisableUnitCombatType(UnitCombatTypes eIndex) const
 	
 	const UnitCombatKeyedInfo* info = findUnitCombatKeyedInfo(eIndex);
 
-	int iBaseAmount = (info == NULL ? 0 : info->m_iExtraTrapDisableUnitCombatType);
-	return iBaseAmount;
+	return (info == NULL ? 0 : info->m_iExtraTrapDisableUnitCombatType);
 }
 
 void CvUnit::changeExtraTrapDisableUnitCombatType(UnitCombatTypes eIndex, int iChange)
@@ -47084,8 +47062,7 @@ int CvUnit::getExtraTrapAvoidanceUnitCombatType(UnitCombatTypes eIndex) const
 	
 	const UnitCombatKeyedInfo* info = findUnitCombatKeyedInfo(eIndex);
 
-	int iBaseAmount = (info == NULL ? 0 : info->m_iExtraTrapAvoidanceUnitCombatType);
-	return iBaseAmount;
+	return  (info == NULL ? 0 : info->m_iExtraTrapAvoidanceUnitCombatType);
 }
 
 void CvUnit::changeExtraTrapAvoidanceUnitCombatType(UnitCombatTypes eIndex, int iChange)
@@ -47122,8 +47099,7 @@ int CvUnit::getExtraTrapTriggerUnitCombatType(UnitCombatTypes eIndex) const
 	
 	const UnitCombatKeyedInfo* info = findUnitCombatKeyedInfo(eIndex);
 
-	int iBaseAmount = (info == NULL ? 0 : info->m_iExtraTrapTriggerUnitCombatType);
-	return iBaseAmount;
+	return (info == NULL ? 0 : info->m_iExtraTrapTriggerUnitCombatType);
 }
 
 void CvUnit::changeExtraTrapTriggerUnitCombatType(UnitCombatTypes eIndex, int iChange)

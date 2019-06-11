@@ -1761,18 +1761,6 @@ public:
 	void setUnitListSelected(UnitTypes eUnit);
 	UnitTypes getUnitListSelected();
 
-	int getTradeImportance() const;
-	void calculateTradeImportance();
-	int getTradeCosts(CvPlot* pFromPlot, CvPlot* pToPlot) const;
-	int getNumTradeAuraPlots() const;
-	CvPlot* getTradeAuraPlot(int index);
-	void clearTradeAuraPlots();
-	void addTradeAuraPlot(CvPlot* pPlot);
-	void removeTradeAuraPlot(CvPlot* pPlot);
-	// this is a hack to avoid having to include the vertex reference here without having to include the BGL headers here (which causes an overflow with all the Boost python stuff)
-	int getTradeGraphVertex() const;
-	void setTradeGraphVertex(int vertex);
-
 	bool isDirectAttackable() const;
 
 protected:
@@ -2121,12 +2109,6 @@ protected:
 	CvUnitList m_UnitList;
 
 	IDInfo* m_paTradeCities;
-
-	// trade network info
-	int m_iTradeImportance; // calculated once per turn
-	std::vector<CvPlot*> m_apTradeAuraPlots;
-	int m_tradeGraphVertex;
-
 
 	mutable CLinkList<OrderData> m_orderQueue;
 

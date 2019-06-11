@@ -646,33 +646,32 @@ int limitedWonderClassLimit(BuildingClassTypes eBuildingClass)
 	int iMax;
 	int iCount = 0;
 	bool bIsLimited = false;
+	CvBuildingClassInfo& kBuildingClass = GC.getBuildingClassInfo(eBuildingClass);
 
-	iMax = GC.getBuildingClassInfo(eBuildingClass).getMaxGlobalInstances();
+	iMax = kBuildingClass.getMaxGlobalInstances();
 	if (iMax != -1)
 	{
 		iCount += iMax;
 		bIsLimited = true;
 	}
 
-	iMax = GC.getBuildingClassInfo(eBuildingClass).getMaxTeamInstances();
+	iMax = kBuildingClass.getMaxTeamInstances();
 	if (iMax != -1)
 	{
 		iCount += iMax;
 		bIsLimited = true;
 	}
 
-	iMax = GC.getBuildingClassInfo(eBuildingClass).getMaxPlayerInstances();
+	iMax = kBuildingClass.getMaxPlayerInstances();
 	if (iMax != -1)
 	{
 		iCount += iMax;
 		bIsLimited = true;
 	}
-	//BuildingTypes eLoopBuilding = ((BuildingTypes)(kCivilizationInfo.getCivilizationBuildings(iI)));
 
-	BuildingTypes eBuilding = (BuildingTypes)GC.getBuildingClassInfo(eBuildingClass).getDefaultBuildingIndex();
-	if (eBuilding != NO_BUILDING)
+	if (kBuildingClass.getDefaultBuildingIndex() != NO_BUILDING)
 	{
-		SpecialBuildingTypes eSpecialBuilding = (SpecialBuildingTypes)GC.getBuildingInfo(eBuilding).getSpecialBuildingType();
+		SpecialBuildingTypes eSpecialBuilding = (SpecialBuildingTypes)GC.getBuildingInfo((BuildingTypes)kBuildingClass.getDefaultBuildingIndex()).getSpecialBuildingType();
 		if (eSpecialBuilding != NO_SPECIALBUILDING)
 		{
 			iMax = GC.getSpecialBuildingInfo(eSpecialBuilding).getMaxPlayerInstances();
@@ -3410,7 +3409,7 @@ int	NewPathCostFunc(CvPathGeneratorBase* generator, CvSelectionGroup* pSelection
 						bHasDefensiveBonusUnit = true;
 					}
 
-					int pPlotDamage = pToPlot->getTerrainTurnDamage(pLoopUnit) + pToPlot->getFeatureTurnDamage();
+					int pPlotDamage = pToPlot->getTerrainTurnDamage(pLoopUnit);
 					if ( pPlotDamage > iMaxTerrainDamage )
 					{
 						iMaxTerrainDamage = pPlotDamage;
@@ -3506,22 +3505,10 @@ int	NewPathCostFunc(CvPathGeneratorBase* generator, CvSelectionGroup* pSelection
 			// Damage caused by features (mods)
 			if (0 != GC.getPATH_DAMAGE_WEIGHT())
 			{
-//#ifdef MULTI_FEATURE_MOD
-//				if (pToPlot->getNumFeatures() > 0)
-//				{
-//					int iSumTurnDamage = 0;
-//					for (int i=0; i<pToPlot->getNumFeatures(); i++)
-//					{
-//						iSumTurnDamage += GC.getFeatureInfo(pToPlot->getFeatureByIndex(i)).getTurnDamage();
-//					}
-//					iExtraNodeCost += (GC.getPATH_DAMAGE_WEIGHT() * std::max(0, iSumTurnDamage / pToPlot->getNumFeatures())) / GC.getMAX_HIT_POINTS();
-//				}
-//#else
 				if (pToPlot->getFeatureType() != NO_FEATURE)
 				{
-					iExtraNodeCost += (GC.getPATH_DAMAGE_WEIGHT() * std::max(0, GC.getFeatureInfo(pToPlot->getFeatureType()).getTurnDamage())) / GC.getMAX_HIT_POINTS();
+					iExtraNodeCost += (GC.getPATH_DAMAGE_WEIGHT() * std::max(0, pToPlot->getFeatureTurnDamage())) / GC.getMAX_HIT_POINTS();
 				}
-//#endif
 	/************************************************************************************************/
 	/* Afforess	                  Start		 05/17/10                                                */
 	/*                                                                                              */
@@ -4740,6 +4727,8 @@ void getActivityTypeString(CvWString& szString, ActivityTypes eActivityType)
 // BUG - Sentry Actions - end
 	case ACTIVITY_INTERCEPT: szString = L"ACTIVITY_INTERCEPT"; break;
 	case ACTIVITY_MISSION: szString = L"ACTIVITY_MISSION"; break;
+	case ACTIVITY_PATROL: szString = L"ACTIVITY_PATROL";  break;
+	case ACTIVITY_PLUNDER: szString = L"ACTIVITY_PLUNDER";  break;
 
 	default: szString = CvWString::format(L"UNKNOWN_ACTIVITY(%d)", eActivityType); break;
 	}
@@ -4862,6 +4851,17 @@ void getMissionTypeString(CvWString& szString, MissionTypes eMissionType)
 	case MISSION_ANIMAL_STUDY: szString = L"MISSION_ANIMAL_STUDY"; break;
 	case MISSION_ANIMAL_SACRIFICE: szString = L"MISSION_ANIMAL_SACRIFICE"; break;
 	case MISSION_BUILD_DOMESTICATED_HERD: szString = L"MISSION_BUILD_DOMESTICATED_HERD"; break;
+	case MISSION_RANGE_ATTACK: szString = L"MISSION_RANGE_ATTACK"; break;
+	case MISSION_AIRBOMB1: szString = L"MISSION_AIRBOMB1"; break;
+	case MISSION_AIRBOMB2: szString = L"MISSION_AIRBOMB2"; break;
+	case MISSION_AIRBOMB3: szString = L"MISSION_AIRBOMB3"; break;
+	case MISSION_AIRBOMB4: szString = L"MISSION_AIRBOMB4"; break;
+	case MISSION_AIRBOMB5: szString = L"MISSION_AIRBOMB5"; break;
+	case MISSION_RBOMBARD: szString = L"MISSION_RBOMBARD"; break;
+	case MISSION_ABOMBARD: szString = L"MISSION_ABOMBARD"; break;
+	case MISSION_FENGAGE: szString = L"MISSION_FENGAGE"; break;
+	case MISSION_CAPTIVE_UPGRADE_TO_NEANDERTHAL_GATHERER: szString = L"MISSION_CAPTIVE_UPGRADE_TO_NEANDERTHAL_GATHERER"; break;
+	case MISSION_CAPTIVE_UPGRADE_TO_NEANDERTHAL_TRACKER: szString = L"MISSION_CAPTIVE_UPGRADE_TO_NEANDERTHAL_TRACKER"; break;
 
 	default: szString = CvWString::format(L"UNKOWN_MISSION(%d)", eMissionType); break;
 	}
@@ -4919,6 +4919,8 @@ void getMissionAIString(CvWString& szString, MissionAITypes eMissionAI)
 	case MISSIONAI_SEE_INVISIBLE_SEA_MAINTAIN: szString = L"MISSIONAI_SEE_INVISIBLE_SEA_MAINTAIN"; break;
 	case MISSIONAI_WAIT_FOR_ESCORT: szString = L"MISSIONAI_WAIT_FOR_ESCORT"; break;
 	case MISSIONAI_WAIT_FOR_SEE_INVISIBLE: szString = L"MISSIONAI_WAIT_FOR_SEE_INVISIBLE"; break;
+	case MISSIONAI_GUARD_TRADE_NET: szString = L"MISSIONAI_GUARD_TRADE_NET"; break;
+	case MISSIONAI_SPREAD_CORPORATION: szString = L"MISSIONAI_SPREAD_CORPORATION"; break;
 
 	default: szString = CvWString::format(L"UNKNOWN_MISSION_AI(%d)", eMissionAI); break;
 	}
@@ -4986,6 +4988,9 @@ void getUnitAIString(CvWString& szString, UnitAITypes eUnitAI)
 	case UNITAI_SEE_INVISIBLE: szString = L"see invisible"; break;
 	case UNITAI_SEE_INVISIBLE_SEA: szString = L"see invisible sea"; break;
 	case UNITAI_ESCORT: szString = L"escort"; break;
+	case UNITAI_MISSILE_AIR: szString = L"missile air"; break;
+	case UNITAI_PILLAGE_COUNTER: szString = L"pillage counter"; break;
+	case UNITAI_SUBDUED_ANIMAL: szString = L"subdued animal"; break;
 
 	default: szString = CvWString::format(L"unknown(%d)", eUnitAI); break;
 	}

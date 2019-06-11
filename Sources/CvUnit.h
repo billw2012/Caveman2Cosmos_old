@@ -194,7 +194,7 @@ public:
 			m_iAfflictOnAttackTypeImmediateCount == 0 &&
 			m_iAfflictOnAttackTypeAttemptedCount == 0 &&
 			m_iDistanceAttackCommunicability == 0 &&
-			m_bValidBuildUp == false,
+			!m_bValidBuildUp &&
 			m_iAfflictOnAttackTypeMeleeCount == 0 &&
 			m_iAfflictOnAttackTypeDistanceCount == 0);
 	}
@@ -2257,7 +2257,7 @@ public:
 	virtual int AI_getPredictedHitPoints() const = 0;
 	virtual void AI_setPredictedHitPoints(int iPredictedHitPoints) = 0;
 	virtual bool AI_getHasAttacked() = 0;
-	virtual int AI_beneficialPropertyValueToCity(CvCity* pCity) const = 0;
+	virtual int AI_beneficialPropertyValueToCity(CvCity* pCity, PropertyTypes eProperty) const = 0;
 
 	bool isUsingDummyEntities();
 	static bool isDummyEntity(const CvEntity* entity);

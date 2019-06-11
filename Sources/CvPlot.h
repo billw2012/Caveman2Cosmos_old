@@ -63,20 +63,6 @@ public:
 };
 #endif
 
-//#ifdef MULTI_FEATURE_MOD
-//
-//class PlotFeature
-//{
-//public:
-//	PlotFeature() : eFeature(NO_FEATURE), iVariety(0), pSymbol(NULL) {}
-//	PlotFeature(FeatureTypes eFeat, int iVar) : eFeature(eFeat), iVariety(iVar), pSymbol(NULL) {}
-//	FeatureTypes eFeature;
-//	int iVariety;
-//	CvFeature* pSymbol;
-//};
-//
-//#endif
-
 class CvPlot
 {
 friend CvPathPlotInfoStore;
@@ -371,10 +357,10 @@ public:
 	PlayerTypes controlsAdjacentZOCSource(TeamTypes eAttackingTeam) const;
 	bool isInCityZoneOfControl(PlayerTypes ePlayer) const;
 	bool isInUnitZoneOfControl(PlayerTypes ePlayer) const;
-	int getTerrainTurnDamage(CvSelectionGroup* pGroup) const;
-	int getTerrainTurnDamage(CvUnit* pUnit = NULL) const;
+	int getTotalTurnDamage(const CvSelectionGroup* pGroup) const;
+	int getTerrainTurnDamage(const CvUnit* pUnit = NULL) const;
 	int getFeatureTurnDamage() const;
-	int getTotalTurnDamage(CvUnit* pUnit = NULL) const;
+	int getTotalTurnDamage(const CvUnit* pUnit = NULL) const;
 	CvUnit* getWorstDefender(PlayerTypes eOwner, PlayerTypes eAttackingPlayer = NO_PLAYER, const CvUnit* pAttacker = NULL, bool bTestAtWar = false, bool bTestPotentialEnemy = false, bool bTestCanMove = false) const;
 	bool isBorder(bool bIgnoreWater = false) const;
 	
@@ -1090,22 +1076,6 @@ protected:
 	bool m_bInhibitCenterUnitCalculation;
 	bool m_bIgnoringImprovementUpgrade;
 	short m_iGraphicsPageIndex;
-
-//#ifdef MULTI_FEATURE_MOD
-//public:
-//	bool getHasFeature(FeatureTypes eFeature) const;
-//	void setHasFeature(FeatureTypes eFeature, bool bHasFeature, int iVariety = -1);
-//	void applyFeatureEffect(FeatureTypes eFeature);
-//	void removeFeatureEffect(FeatureTypes eFeature);
-//	int getNumFeatures() const;
-//	FeatureTypes getFeatureByIndex(int index) const;
-//	int getFeatureVariety(FeatureTypes eFeature) const;
-//	void removeAllFeatures();
-//	void destroyFeatureSymbols();
-//
-//protected:
-//	std::vector<PlotFeature> m_aFeatures;
-//#endif
 };
 
 #endif

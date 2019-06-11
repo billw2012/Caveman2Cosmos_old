@@ -2398,22 +2398,46 @@ int CvBuildingInfo::getBonusDefenseChanges(int i) const
 int CvBuildingInfo::getUnitClassProductionModifier(int i) const
 {
 	FAssertMsg(i < GC.getNumUnitClassInfos(), "Index out of bounds");
-	FAssertMsg(i > -1, "Index out of bounds");
-	return m_piUnitClassProductionModifier ? m_piUnitClassProductionModifier[i] : 0;
+	FAssertMsg(i >= -1, "Index out of bounds");
+
+	if (i == -1)
+	{
+		return (m_piUnitClassProductionModifier == NULL) ? 0 : 1;
+	}
+	else
+	{
+		return m_piUnitClassProductionModifier ? m_piUnitClassProductionModifier[i] : 0;
+	}
 }
 
 int CvBuildingInfo::getBuildingClassProductionModifier(int i) const
 {
 	FAssertMsg(i < GC.getNumBuildingClassInfos(), "Index out of bounds");
-	FAssertMsg(i > -1, "Index out of bounds");
-	return m_piBuildingClassProductionModifier ? m_piBuildingClassProductionModifier[i] : 0;
+	FAssertMsg(i >= -1, "Index out of bounds");
+
+	if (i == -1)
+	{
+		return (m_piBuildingClassProductionModifier == NULL) ? 0 : 1;
+	}
+	else
+	{
+		return m_piBuildingClassProductionModifier ? m_piBuildingClassProductionModifier[i] : 0;
+	}
 }
 
 int CvBuildingInfo::getGlobalBuildingClassProductionModifier(int i) const
 {
 	FAssertMsg(i < GC.getNumBuildingClassInfos(), "Index out of bounds");
-	FAssertMsg(i > -1, "Index out of bounds");
-	return m_piGlobalBuildingClassProductionModifier ? m_piGlobalBuildingClassProductionModifier[i] : 0;
+	FAssertMsg(i >= -1, "Index out of bounds");
+
+	if (i == -1)
+	{
+		return (m_piGlobalBuildingClassProductionModifier == NULL) ? 0 : 1;
+	}
+	else
+	{
+		return m_piGlobalBuildingClassProductionModifier ? m_piGlobalBuildingClassProductionModifier[i] : 0;
+	}
 }
 
 int CvBuildingInfo::getTechHappinessChanges(int i) const
@@ -7835,7 +7859,7 @@ void CvBuildingInfo::copyNonDefaults(CvBuildingInfo* pClassInfo, CvXMLLoadUtilit
 
 	for ( int i = 0; i < GC.getNumHurryInfos(); i++ )
 	{
-		if ( pClassInfo->isHurry(i) == bDefault && pClassInfo->isHurry(i) != bDefault)
+		if ( isHurry(i) == bDefault && pClassInfo->isHurry(i) != bDefault)
 		{
 			if ( NULL == m_pabHurry )
 			{

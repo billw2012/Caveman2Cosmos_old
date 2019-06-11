@@ -282,15 +282,7 @@ public:
 	//	Multi-maps
 	bool isInViewport();
 	CyPlot* cloneToViewport();
-//#ifdef MULTI_FEATURE_MOD
-//public:
-//	bool getHasFeature(int /*FeatureTypes*/ eFeature);
-//	void setHasFeature(int /*FeatureTypes*/ eFeature, bool bHasFeature, int iVariety = -1);
-//	int getNumFeatures();
-//	int /*FeatureTypes*/ getFeatureByIndex(int index);
-//	int getVarietyByFeature(int /*FeatureTypes*/ eFeature);
-//	void removeAllFeatures();
-//#endif
+
 private:
 	CvPlot* m_pPlot;
 	bool	m_bIsInViewportSpace;

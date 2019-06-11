@@ -1397,7 +1397,7 @@ bool CvSelectionGroupAI::AI_hasBeneficialPropertyEffectForCity(CvCity* pCity) co
 		pLoopUnit = ::getUnit(pUnitNode->m_data);
 		pUnitNode = nextUnitNode(pUnitNode);
 
-		if ( pLoopUnit->AI_beneficialPropertyValueToCity(pCity) > 0 )
+		if ( pLoopUnit->AI_beneficialPropertyValueToCity(pCity, NO_PROPERTY) > 0 )
 		{
 			return true;
 		}
@@ -1421,7 +1421,7 @@ CvUnit* CvSelectionGroupAI::AI_ejectBestPropertyManipulator(CvCity* pTargetCity)
 		pLoopUnit = ::getUnit(pEntityNode->m_data);
 		pEntityNode = nextUnitNode(pEntityNode);
 		
-		int iValue = pLoopUnit->AI_beneficialPropertyValueToCity(pTargetCity);
+		int iValue = pLoopUnit->AI_beneficialPropertyValueToCity(pTargetCity, NO_PROPERTY);
 
 		if (iValue > iBestUnitValue)
 		{

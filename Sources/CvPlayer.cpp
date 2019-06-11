@@ -1339,13 +1339,13 @@ void CvPlayer::reset(PlayerTypes eID, bool bConstructorCall)
 	m_iExtraStateReligionSpreadModifier = 0;
 	m_iExtraNonStateReligionSpreadModifier = 0;
 	//TB Traits end
-	m_iBaseMergeSelection = NO_UNIT;
-	m_iFirstMergeSelection = NO_UNIT;
-	m_iSecondMergeSelection = NO_UNIT;
-	m_iSplittingUnit = NO_UNIT;
-	m_iArrestingUnit = NO_UNIT;
-	m_iArrestedUnit = NO_UNIT;
-	m_iAmbushingUnit = NO_UNIT;
+	m_iBaseMergeSelection = FFreeList::INVALID_INDEX;
+	m_iFirstMergeSelection = FFreeList::INVALID_INDEX;
+	m_iSecondMergeSelection = FFreeList::INVALID_INDEX;
+	m_iSplittingUnit = FFreeList::INVALID_INDEX;
+	m_iArrestingUnit = FFreeList::INVALID_INDEX;
+	m_iArrestedUnit = FFreeList::INVALID_INDEX;
+	m_iAmbushingUnit = FFreeList::INVALID_INDEX;
 	m_bAssassinate = false;
 
 	m_Properties.clear();
@@ -1463,7 +1463,7 @@ void CvPlayer::reset(PlayerTypes eID, bool bConstructorCall)
 	m_iGreaterCulture = 0;
 
 	m_iUpgradeRoundCount = 0;
-	m_iSelectionRegroup = NULL;
+	m_iSelectionRegroup = 0;
 	
 	m_iFractionalCombatExperience = 0;
 
@@ -5720,6 +5720,8 @@ void CvPlayer::dumpStats() const
 	logBBAI("    Treasury: %d%d", getGreaterGold(),getGold());
 	logBBAI("    Total gold income from self: %d", getCommerceRate(COMMERCE_GOLD));
 	logBBAI("    Total gold income from trade agreements: %d", getGoldPerTurn());
+	logBBAI("    Num units: %d", getNumUnits());
+	logBBAI("    Num selection groups: %d", getNumSelectionGroups());
 	logBBAI("    Unit cost (pre inflation): %d", iUnitCosts);
 	logBBAI("    Unit supply cost (pre inflation): %d", iUnitSupplyCosts);
 	logBBAI("    Maintenance cost (pre inflation): %d", iMaintenanceCosts);
@@ -9864,7 +9866,7 @@ bool CvPlayer::canConstruct(BuildingTypes eBuilding, bool bContinue, bool bTestV
 
 	//	Cache the param variant with false, true, true as this is used VERY heavily and
 	//	also the default param flavor
-	if ( !bContinue && bTestVisible && bIgnoreCost && eIgnoreTechReq == NO_TECH && probabilityEverConstructable == NULL )
+	if ( !bContinue && bTestVisible && bIgnoreCost && eIgnoreTechReq == NO_TECH && probabilityEverConstructable == NULL && !bAffliction && !bExposed)
 	{
 		EnterCriticalSection(&c_canConstructCacheSection);
 
@@ -9892,7 +9894,7 @@ bool CvPlayer::canConstruct(BuildingTypes eBuilding, bool bContinue, bool bTestV
 			LeaveCriticalSection(&c_canConstructCacheSection);
 		}
 	}
-	else if ( !bContinue && !bTestVisible && !bIgnoreCost && eIgnoreTechReq == NO_TECH && probabilityEverConstructable == NULL )
+	else if ( !bContinue && !bTestVisible && !bIgnoreCost && eIgnoreTechReq == NO_TECH && probabilityEverConstructable == NULL && !bAffliction && !bExposed)
 	{
 		EnterCriticalSection(&c_canConstructCacheSection);
 
@@ -11309,7 +11311,6 @@ RouteTypes CvPlayer::getBestRoute(CvPlot* pPlot, bool bConnect, CvUnit* pBuilder
 
 RouteTypes CvPlayer::getBestRouteInternal(CvPlot* pPlot, bool bConnect, CvUnit* pBuilder, BuildTypes* eBestRouteBuild) const
 {
-	RouteTypes eRoute;
 	RouteTypes eBestRoute;
 	int iValue;
 	int iBestValue;
@@ -11318,11 +11319,13 @@ RouteTypes CvPlayer::getBestRouteInternal(CvPlot* pPlot, bool bConnect, CvUnit* 
 	iBestValue = 0;
 	eBestRoute = NO_ROUTE;
 
-	int baseMoves = GC.getDefineINT("MOVE_DENOMINATOR");
+	const int numBuildInfos = GC.getNumBuildInfos();
 
-	for (iI = 0; iI < GC.getNumBuildInfos(); iI++)
+	const int baseMoves = GC.getMOVE_DENOMINATOR();
+
+	for (iI = 0; iI < numBuildInfos; iI++)
 	{
-		eRoute = ((RouteTypes)(GC.getBuildInfo((BuildTypes)iI).getRoute()));
+		const RouteTypes eRoute = ((RouteTypes)(GC.getBuildInfo((BuildTypes)iI).getRoute()));
 
 		if (eRoute != NO_ROUTE)
 		{
@@ -14592,7 +14595,6 @@ void CvPlayer::changeNumNukeUnits(int iChange)
 
 int CvPlayer::getNumOutsideUnits() const
 {
-	int iTotal = m_iNumOutsideUnits;
 	return m_iNumOutsideUnits;
 }
 
@@ -35476,13 +35478,13 @@ void CvPlayer::clearModifierTotals()
 	m_iExtraNonStateReligionSpreadModifier = 0;
 	m_iNumUnitPercentCountForCostAdjustment = 0;
 
-	m_iBaseMergeSelection = NO_UNIT;
-	m_iFirstMergeSelection = NO_UNIT;
-	m_iSecondMergeSelection = NO_UNIT;
-	m_iSplittingUnit = NO_UNIT;
-	m_iArrestingUnit = NO_UNIT;
-	m_iArrestedUnit = NO_UNIT;
-	m_iAmbushingUnit = NO_UNIT;
+	m_iBaseMergeSelection = FFreeList::INVALID_INDEX;
+	m_iFirstMergeSelection = FFreeList::INVALID_INDEX;
+	m_iSecondMergeSelection = FFreeList::INVALID_INDEX;
+	m_iSplittingUnit = FFreeList::INVALID_INDEX;
+	m_iArrestingUnit = FFreeList::INVALID_INDEX;
+	m_iArrestedUnit = FFreeList::INVALID_INDEX;
+	m_iAmbushingUnit = FFreeList::INVALID_INDEX;
 	m_bAssassinate = false;
 	//m_Properties.clear();
 

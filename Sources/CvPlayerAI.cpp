@@ -32864,13 +32864,13 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 		if (kPromotion.getEvasionChange())
 		{
 			//Lean towards more deception if deception is already present
-			iValue += ((kPromotion.getEvasionChange() * 2) + pUnit == NULL ? 0 : pUnit->evasionProbability());
+			iValue += ((kPromotion.getEvasionChange() * 2) + (pUnit == NULL ? 0 : pUnit->evasionProbability()));
 		}//total 20, 30, 40 points
 
 		//Security
 		iValue += (kPromotion.getVisibilityChange()*10);
 		//Lean towards more security if security is already present
-		iValue += (kPromotion.getInterceptChange() +  pUnit == NULL ? kUnit.getInterceptionProbability() : pUnit->currInterceptionProbability());
+		iValue += (kPromotion.getInterceptChange() +  (pUnit == NULL ? kUnit.getInterceptionProbability() : pUnit->currInterceptionProbability()));
 		//total 20, 30, 40 points
 
 		//Escape
@@ -37360,7 +37360,7 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 				}
 			}
 
-			if (kPromotion.getIgnoreTerrainDamage() == iI)
+			if (GC.getGameINLINE().isModderGameOption(MODDERGAMEOPTION_TERRAIN_DAMAGE) && kPromotion.getIgnoreTerrainDamage() == iI)
 			{
 				if (eUnitAI == UNITAI_EXPLORE ||
 					eUnitAI == UNITAI_HUNTER ||
@@ -38290,13 +38290,13 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 		if (kUnitCombat.getEvasionChange())
 		{
 			//Lean towards more deception if deception is already present
-			iValue += ((kUnitCombat.getEvasionChange() * 2) + pUnit == NULL ? 0 : pUnit->evasionProbability());
+			iValue += ((kUnitCombat.getEvasionChange() * 2) + (pUnit == NULL ? 0 : pUnit->evasionProbability()));
 		}//total 20, 30, 40 points
 
 		//Security
 		iValue += (kUnitCombat.getVisibilityChange()*10);
 		//Lean towards more security if security is already present
-		iValue += (kUnitCombat.getInterceptChange() +  pUnit == NULL ? kUnit.getInterceptionProbability() : pUnit->currInterceptionProbability());
+		iValue += (kUnitCombat.getInterceptChange() +  (pUnit == NULL ? kUnit.getInterceptionProbability() : pUnit->currInterceptionProbability()));
 		//total 20, 30, 40 points
 
 		//Escape

@@ -501,7 +501,7 @@ public:
 	virtual int AI_getPredictedHitPoints() const;
 	virtual void AI_setPredictedHitPoints(int iPredictedHitPoints);
 	virtual bool AI_getHasAttacked();
-	virtual int AI_beneficialPropertyValueToCity(CvCity* pCity) const;
+	virtual int AI_beneficialPropertyValueToCity(CvCity* pCity, PropertyTypes eProperty) const;
 
 	//	KOSHLING - inform the AI of unit losses so that it can adjust internal counts
 	virtual void AI_killed();

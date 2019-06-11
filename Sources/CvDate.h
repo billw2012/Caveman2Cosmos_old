@@ -12,7 +12,6 @@
 #define CV_DATE_H
 
 #include "CvEnums.h"
-#include <vector>
 
 struct CvDateIncrement;
 

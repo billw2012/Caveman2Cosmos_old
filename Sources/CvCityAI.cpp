@@ -7076,49 +7076,52 @@ int CvCityAI::AI_buildingValueThresholdOriginalUncached(BuildingTypes eBuilding,
 					}
 					iValue += iTempValue;
 					iTempValue = 0;
-					for (iI = 0; iI < GC.getNumUnitClassInfos(); iI++)
+					if (kBuilding.getUnitClassProductionModifier(NO_UNITCLASS) != 0)
 					{
-						PROFILE("CvCityAI::AI_buildingValueThresholdOriginal.UnitClass");
-
-						int iModifier = kBuilding.getUnitClassProductionModifier(iI);
-						if (iModifier != 0)
+						for (iI = 0; iI < GC.getNumUnitClassInfos(); iI++)
 						{
-							UnitTypes eLoopUnit = (UnitTypes)kCivilization.getCivilizationUnits(iI);
-							int iBuildCost;
-							
-							if (eLoopUnit != NO_UNIT && canTrain(eLoopUnit))
+							PROFILE("CvCityAI::AI_buildingValueThresholdOriginal.UnitClass");
+
+							int iModifier = kBuilding.getUnitClassProductionModifier(iI);
+							if (iModifier != 0)
 							{
-								UnitAITypes eUnitAI = (UnitAITypes) GC.getUnitInfo(eLoopUnit).getDefaultUnitAIType();
-								//iTempValue += GET_PLAYER(getOwnerINLINE()).AI_unitValue(eLoopUnit, eUnitAI, area()) * iModifier / 100;
-
-								UnitTypes eBestUnit = kOwner.bestBuildableUnitForAIType((DomainTypes)GC.getUnitInfo(eLoopUnit).getDomainType(), eUnitAI);
-
-								if ( eBestUnit == NO_UNIT )
+								UnitTypes eLoopUnit = (UnitTypes)kCivilization.getCivilizationUnits(iI);
+								int iBuildCost;
+							
+								if (eLoopUnit != NO_UNIT && canTrain(eLoopUnit))
 								{
-									iBuildCost = GC.getUnitInfo(eLoopUnit).getProductionCost();
+									UnitAITypes eUnitAI = (UnitAITypes) GC.getUnitInfo(eLoopUnit).getDefaultUnitAIType();
+									//iTempValue += GET_PLAYER(getOwnerINLINE()).AI_unitValue(eLoopUnit, eUnitAI, area()) * iModifier / 100;
+
+									UnitTypes eBestUnit = kOwner.bestBuildableUnitForAIType((DomainTypes)GC.getUnitInfo(eLoopUnit).getDomainType(), eUnitAI);
+
+									if ( eBestUnit == NO_UNIT )
+									{
+										iBuildCost = GC.getUnitInfo(eLoopUnit).getProductionCost();
+									}
+									else
+									{
+										int	iBestUnitAIValue = kOwner.AI_unitValue(eBestUnit, eUnitAI, area());
+										int	iThisUnitAIValue = kOwner.AI_unitValue(eLoopUnit, eUnitAI, area());
+
+										//	Value as cost of production of the unit we can build scaled by their relative AI value (non-linear - we're squaring the ratio)
+										int	iComparisonToBestFactor = (10*iThisUnitAIValue)/std::max(1,iBestUnitAIValue);
+
+										iBuildCost = (iComparisonToBestFactor * iComparisonToBestFactor * GC.getUnitInfo(eBestUnit).getProductionCost())/100;
+									}
+
+									iTempValue += (iBuildCost*2*iModifier)/100;
 								}
-								else
-								{
-									int	iBestUnitAIValue = kOwner.AI_unitValue(eBestUnit, eUnitAI, area());
-									int	iThisUnitAIValue = kOwner.AI_unitValue(eLoopUnit, eUnitAI, area());
-
-									//	Value as cost of production of the unit we can build scaled by their relative AI value (non-linear - we're squaring the ratio)
-									int	iComparisonToBestFactor = (10*iThisUnitAIValue)/std::max(1,iBestUnitAIValue);
-
-									iBuildCost = (iComparisonToBestFactor * iComparisonToBestFactor * GC.getUnitInfo(eBestUnit).getProductionCost())/100;
-								}
-
-								iTempValue += (iBuildCost*2*iModifier)/100;
 							}
 						}
-					}
-					if (bIsHighProductionCity)
-					{
-						iTempValue *= 3; // adding 10% and 20% is same as adding 30% or 3 * 10%
-					}	
+						if (bIsHighProductionCity)
+						{
+							iTempValue *= 3; // adding 10% and 20% is same as adding 30% or 3 * 10%
+						}	
 
-					iValue += iTempValue;
-					iTempValue = 0;
+						iValue += iTempValue;
+						iTempValue = 0;
+					}
 					if (kBuilding.getPopulationgrowthratepercentage() != 0)
 					{
 						int iCityHappy = happyLevel() - unhappyLevel();
@@ -7163,79 +7166,85 @@ int CvCityAI::AI_buildingValueThresholdOriginalUncached(BuildingTypes eBuilding,
 							iValue += (kBuilding.getGlobalPopulationgrowthratepercentage()*iTempValue)/(iCityCount*100);
 						}
 					}
-					
-					iTempValue = 0;
-					for (iI = 0; iI < GC.getNumBuildingClassInfos(); iI++)
+
+					if (kBuilding.getBuildingClassProductionModifier(NO_BUILDINGCLASS) != 0)
 					{
-						PROFILE("CvCityAI::AI_buildingValueThresholdOriginal.BuildingClass1");
-
-						if (kBuilding.getBuildingClassProductionModifier(iI) != 0)
+						iTempValue = 0;
+						for (iI = 0; iI < GC.getNumBuildingClassInfos(); iI++)
 						{
-							BuildingTypes eLoopBuilding = ((BuildingTypes)(kCivilization.getCivilizationBuildings(iI)));
-							if (eLoopBuilding != NO_BUILDING)
+							PROFILE("CvCityAI::AI_buildingValueThresholdOriginal.BuildingClass1");
+
+							if (kBuilding.getBuildingClassProductionModifier(iI) != 0)
 							{
-								if (canConstruct(eLoopBuilding))
+								BuildingTypes eLoopBuilding = ((BuildingTypes)(kCivilization.getCivilizationBuildings(iI)));
+								if (eLoopBuilding != NO_BUILDING)
 								{
-									int iModifier = kBuilding.getBuildingClassProductionModifier(iI);
-									int iOriginalCost = getHurryCost(true, eLoopBuilding, false);
-									int iNewCost;
-									if (iModifier > -100)
+									if (canConstruct(eLoopBuilding))
 									{
-										iNewCost = (iOriginalCost * (100 / (100 + iModifier)));
-										iTempValue +=  (iOriginalCost - iNewCost) / 10;
-									}
-									else
-									{//If the modifier is less than -100, avoid it like the plague
-										iTempValue -= 100;
-									}
-								}
-							}
-						}
-					}
-					iValue += iTempValue;
-					
-					iTempValue = 0;
-					for (iI = 0; iI < GC.getNumBuildingClassInfos(); iI++)
-					{
-						PROFILE("CvCityAI::AI_buildingValueThresholdOriginal.BuildingClass2");
-
-						if (kBuilding.getGlobalBuildingClassProductionModifier(iI) != 0)
-						{
-							BuildingTypes eLoopBuilding = ((BuildingTypes)(kCivilization.getCivilizationBuildings(iI)));
-							if (eLoopBuilding != NO_BUILDING)
-							{
-
-								if (canConstruct(eLoopBuilding))
-								{
-									int iModifier = kBuilding.getGlobalBuildingClassProductionModifier(iI);
-									int iOriginalCost = getHurryCost(true, eLoopBuilding, false);
-									int iNewCost;
-
-									if (iModifier > -100)
-									{
-										int iLoop;
-										int iCount = 0;
-
-										for (CvCity* pLoopCity = GET_PLAYER(getOwnerINLINE()).firstCity(&iLoop); pLoopCity != NULL; pLoopCity = GET_PLAYER(getOwnerINLINE()).nextCity(&iLoop))
+										int iModifier = kBuilding.getBuildingClassProductionModifier(iI);
+										int iOriginalCost = getHurryCost(true, eLoopBuilding, false);
+										int iNewCost;
+										if (iModifier > -100)
 										{
-											if ( pLoopCity->getNumBuilding(eLoopBuilding) == 0 )
-											{
-												iCount++;
-											}
+											iNewCost = (iOriginalCost * (100 / (100 + iModifier)));
+											iTempValue +=  (iOriginalCost - iNewCost) / 10;
 										}
-
-										iNewCost = (iOriginalCost * (100 / (100 + iModifier)));
-										iTempValue += ((iOriginalCost - iNewCost)*iCount) / 10;
-									}
-									else
-									{//If the modifier is less than -100, avoid it like the plague
-										iTempValue -= 100;
+										else
+										{//If the modifier is less than -100, avoid it like the plague
+											iTempValue -= 100;
+										}
 									}
 								}
 							}
 						}
+						iValue += iTempValue;
 					}
-					iValue += iTempValue;
+
+					if (kBuilding.getGlobalBuildingClassProductionModifier(NO_BUILDINGCLASS) != 0)
+					{
+						iTempValue = 0;
+						for (iI = 0; iI < GC.getNumBuildingClassInfos(); iI++)
+						{
+							PROFILE("CvCityAI::AI_buildingValueThresholdOriginal.BuildingClass2");
+
+							if (kBuilding.getGlobalBuildingClassProductionModifier(iI) != 0)
+							{
+								BuildingTypes eLoopBuilding = ((BuildingTypes)(kCivilization.getCivilizationBuildings(iI)));
+								if (eLoopBuilding != NO_BUILDING)
+								{
+
+									if (canConstruct(eLoopBuilding))
+									{
+										int iModifier = kBuilding.getGlobalBuildingClassProductionModifier(iI);
+										int iOriginalCost = getHurryCost(true, eLoopBuilding, false);
+										int iNewCost;
+
+										if (iModifier > -100)
+										{
+											int iLoop;
+											int iCount = 0;
+
+											for (CvCity* pLoopCity = GET_PLAYER(getOwnerINLINE()).firstCity(&iLoop); pLoopCity != NULL; pLoopCity = GET_PLAYER(getOwnerINLINE()).nextCity(&iLoop))
+											{
+												if ( pLoopCity->getNumBuilding(eLoopBuilding) == 0 )
+												{
+													iCount++;
+												}
+											}
+
+											iNewCost = (iOriginalCost * (100 / (100 + iModifier)));
+											iTempValue += ((iOriginalCost - iNewCost)*iCount) / 10;
+										}
+										else
+										{//If the modifier is less than -100, avoid it like the plague
+											iTempValue -= 100;
+										}
+									}
+								}
+							}
+						}
+						iValue += iTempValue;
+					}
 					iTempValue = 0;
 					if (kBuilding.isProvidesFreshWater() && !plot()->isFreshWater())
 					{
@@ -19483,47 +19492,50 @@ void CvCityAI::CalculateAllBuildingValues(int iFocusFlags)
 							}
 							iValue += iTempValue;
 							iTempValue = 0;
-							for (iI = 0; iI < GC.getNumUnitClassInfos(); iI++)
+							if (kBuilding.getUnitClassProductionModifier(NO_UNITCLASS) != 0)
 							{
-								int iModifier = kBuilding.getUnitClassProductionModifier(iI);
-								if (iModifier != 0)
+								for (iI = 0; iI < GC.getNumUnitClassInfos(); iI++)
 								{
-									UnitTypes eLoopUnit = (UnitTypes)GC.getCivilizationInfo(getCivilizationType()).getCivilizationUnits(iI);
-									
-									if (canTrain(eLoopUnit))
+									int iModifier = kBuilding.getUnitClassProductionModifier(iI);
+									if (iModifier != 0)
 									{
-										UnitAITypes eUnitAI = (UnitAITypes) GC.getUnitInfo(eLoopUnit).getDefaultUnitAIType();
-										//iTempValue += GET_PLAYER(getOwnerINLINE()).AI_unitValue(eLoopUnit, eUnitAI, area()) * iModifier / 100;
-
-										UnitTypes eBestUnit = kOwner.bestBuildableUnitForAIType((DomainTypes)GC.getUnitInfo(eLoopUnit).getDomainType(), eUnitAI);
-										int iBuildCost;
-
-										if ( eBestUnit == NO_UNIT )
+										UnitTypes eLoopUnit = (UnitTypes)GC.getCivilizationInfo(getCivilizationType()).getCivilizationUnits(iI);
+									
+										if (canTrain(eLoopUnit))
 										{
-											iBuildCost = GC.getUnitInfo(eLoopUnit).getProductionCost();
+											UnitAITypes eUnitAI = (UnitAITypes) GC.getUnitInfo(eLoopUnit).getDefaultUnitAIType();
+											//iTempValue += GET_PLAYER(getOwnerINLINE()).AI_unitValue(eLoopUnit, eUnitAI, area()) * iModifier / 100;
+
+											UnitTypes eBestUnit = kOwner.bestBuildableUnitForAIType((DomainTypes)GC.getUnitInfo(eLoopUnit).getDomainType(), eUnitAI);
+											int iBuildCost;
+
+											if ( eBestUnit == NO_UNIT )
+											{
+												iBuildCost = GC.getUnitInfo(eLoopUnit).getProductionCost();
+											}
+											else
+											{
+												int	iBestUnitAIValue = kOwner.AI_unitValue(eBestUnit, eUnitAI, area());
+												int	iThisUnitAIValue = kOwner.AI_unitValue(eLoopUnit, eUnitAI, area());
+
+												//	Value as cost of production of the unit we can build scaled by their relative AI value (non-linear - we're squaring the ratio)
+												int	iComparisonToBestFactor = (10*iThisUnitAIValue)/std::max(1,iBestUnitAIValue);
+
+												iBuildCost = (iComparisonToBestFactor * iComparisonToBestFactor * GC.getUnitInfo(eBestUnit).getProductionCost())/100;
+											}
+
+											iTempValue += (iBuildCost*2*iModifier)/100;
 										}
-										else
-										{
-											int	iBestUnitAIValue = kOwner.AI_unitValue(eBestUnit, eUnitAI, area());
-											int	iThisUnitAIValue = kOwner.AI_unitValue(eLoopUnit, eUnitAI, area());
-
-											//	Value as cost of production of the unit we can build scaled by their relative AI value (non-linear - we're squaring the ratio)
-											int	iComparisonToBestFactor = (10*iThisUnitAIValue)/std::max(1,iBestUnitAIValue);
-
-											iBuildCost = (iComparisonToBestFactor * iComparisonToBestFactor * GC.getUnitInfo(eBestUnit).getProductionCost())/100;
-										}
-
-										iTempValue += (iBuildCost*2*iModifier)/100;
 									}
 								}
-							}
-							if (bIsHighProductionCity)
-							{
-								iTempValue *= 3; // adding 10% and 20% is same as adding 30% or 3 * 10%
-							}	
+								if (bIsHighProductionCity)
+								{
+									iTempValue *= 3; // adding 10% and 20% is same as adding 30% or 3 * 10%
+								}	
 
-							iValue += iTempValue;
-							iTempValue = 0;
+								iValue += iTempValue;
+								iTempValue = 0;
+							}
 							if (kBuilding.getPopulationgrowthratepercentage() != 0)
 							{
 								int iCityHappy = happyLevel() - unhappyLevel();
@@ -19569,74 +19581,80 @@ void CvCityAI::CalculateAllBuildingValues(int iFocusFlags)
 									iValue += (kBuilding.getGlobalPopulationgrowthratepercentage()*iTempValue)/(iCityCount*100);
 								}
 							}
-							
-							iTempValue = 0;
-							for (iI = 0; iI < numNumBuildingClassInfos; iI++)
-							{
-								if (kBuilding.getBuildingClassProductionModifier(iI) != 0)
-								{
-									BuildingTypes eLoopBuilding = ((BuildingTypes)(GC.getCivilizationInfo(getCivilizationType()).getCivilizationBuildings(iI)));
-									if (eLoopBuilding != NO_BUILDING)
-									{
-										if (canConstruct(eLoopBuilding))
-										{
-											int iModifier = kBuilding.getBuildingClassProductionModifier(iI);
-											int iOriginalCost = getHurryCost(true, eLoopBuilding, false);
-											int iNewCost;
-											if (iModifier > -100)
-											{
-												iNewCost = (iOriginalCost * (100 / (100 + iModifier)));
-												iTempValue +=  (iOriginalCost - iNewCost) / 10;
-											}
-											else
-											{//If the modifier is less than -100, avoid it like the plague
-												iTempValue -= 100;
-											}
-										}
-									}
-								}
-							}
-							iValue += iTempValue;
-							
-							iTempValue = 0;
-							for (iI = 0; iI < numNumBuildingClassInfos; iI++)
-							{
-								if (kBuilding.getGlobalBuildingClassProductionModifier(iI) != 0)
-								{
-									BuildingTypes eLoopBuilding = ((BuildingTypes)(GC.getCivilizationInfo(getCivilizationType()).getCivilizationBuildings(iI)));
-									if (eLoopBuilding != NO_BUILDING)
-									{
-										if (canConstruct(eLoopBuilding))
-										{
-											int iModifier = kBuilding.getGlobalBuildingClassProductionModifier(iI);
-											int iOriginalCost = getHurryCost(true, eLoopBuilding, false);
-											int iNewCost;
 
-											if (iModifier > -100)
+							if (kBuilding.getBuildingClassProductionModifier(NO_BUILDINGCLASS) != 0)
+							{
+								iTempValue = 0;
+								for (iI = 0; iI < numNumBuildingClassInfos; iI++)
+								{
+									if (kBuilding.getBuildingClassProductionModifier(iI) != 0)
+									{
+										BuildingTypes eLoopBuilding = ((BuildingTypes)(GC.getCivilizationInfo(getCivilizationType()).getCivilizationBuildings(iI)));
+										if (eLoopBuilding != NO_BUILDING)
+										{
+											if (canConstruct(eLoopBuilding))
 											{
-												int iLoop;
-												int iCount = 0;
-
-												for (CvCity* pLoopCity = GET_PLAYER(getOwnerINLINE()).firstCity(&iLoop); pLoopCity != NULL; pLoopCity = GET_PLAYER(getOwnerINLINE()).nextCity(&iLoop))
+												int iModifier = kBuilding.getBuildingClassProductionModifier(iI);
+												int iOriginalCost = getHurryCost(true, eLoopBuilding, false);
+												int iNewCost;
+												if (iModifier > -100)
 												{
-													if ( pLoopCity->getNumBuilding(eLoopBuilding) == 0 )
-													{
-														iCount++;
-													}
+													iNewCost = (iOriginalCost * (100 / (100 + iModifier)));
+													iTempValue +=  (iOriginalCost - iNewCost) / 10;
 												}
-
-												iNewCost = (iOriginalCost * (100 / (100 + iModifier)));
-												iTempValue += ((iOriginalCost - iNewCost)*iCount) / 10;
-											}
-											else
-											{//If the modifier is less than -100, avoid it like the plague
-												iTempValue -= 100;
+												else
+												{//If the modifier is less than -100, avoid it like the plague
+													iTempValue -= 100;
+												}
 											}
 										}
 									}
 								}
+								iValue += iTempValue;
 							}
-							iValue += iTempValue;
+
+							if (kBuilding.getGlobalBuildingClassProductionModifier(NO_BUILDINGCLASS) != 0)
+							{
+								iTempValue = 0;
+								for (iI = 0; iI < numNumBuildingClassInfos; iI++)
+								{
+									if (kBuilding.getGlobalBuildingClassProductionModifier(iI) != 0)
+									{
+										BuildingTypes eLoopBuilding = ((BuildingTypes)(GC.getCivilizationInfo(getCivilizationType()).getCivilizationBuildings(iI)));
+										if (eLoopBuilding != NO_BUILDING)
+										{
+											if (canConstruct(eLoopBuilding))
+											{
+												int iModifier = kBuilding.getGlobalBuildingClassProductionModifier(iI);
+												int iOriginalCost = getHurryCost(true, eLoopBuilding, false);
+												int iNewCost;
+
+												if (iModifier > -100)
+												{
+													int iLoop;
+													int iCount = 0;
+
+													for (CvCity* pLoopCity = GET_PLAYER(getOwnerINLINE()).firstCity(&iLoop); pLoopCity != NULL; pLoopCity = GET_PLAYER(getOwnerINLINE()).nextCity(&iLoop))
+													{
+														if ( pLoopCity->getNumBuilding(eLoopBuilding) == 0 )
+														{
+															iCount++;
+														}
+													}
+
+													iNewCost = (iOriginalCost * (100 / (100 + iModifier)));
+													iTempValue += ((iOriginalCost - iNewCost)*iCount) / 10;
+												}
+												else
+												{//If the modifier is less than -100, avoid it like the plague
+													iTempValue -= 100;
+												}
+											}
+										}
+									}
+								}
+								iValue += iTempValue;
+							}
 							iTempValue = 0;
 							if (kBuilding.isProvidesFreshWater() && !plot()->isFreshWater())
 							{
@@ -20691,7 +20709,6 @@ bool CvCityAI::AI_choosePropertyControlUnit(int iTriggerPercentOfPropertyOpRange
 	int iResponders = 0;
 	bool bSuccessful = false;
 	bool bAnySuccessful = false;
-	bool bCheckDefined = pProperty != NO_PROPERTY;
 	CvPlot* pPlot = plot();
 	int iGameTurn = GC.getGameINLINE().getGameTurn();
 
@@ -20704,7 +20721,7 @@ bool CvCityAI::AI_choosePropertyControlUnit(int iTriggerPercentOfPropertyOpRange
 	{
 		PropertyTypes eProperty = (PropertyTypes)iI;
 		
-		if (!bCheckDefined || pProperty == eProperty)
+		if (pProperty == NO_PROPERTY || pProperty == eProperty)
 		{
 			if ( GC.getPropertyInfo(eProperty).getAIWeight() != 0 && GC.getPropertyInfo(eProperty).isSourceDrain() )
 			{

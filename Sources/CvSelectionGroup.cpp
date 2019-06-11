@@ -1079,7 +1079,7 @@ bool CvSelectionGroup::canStartMission(int iMission, int iData1, int iData2, CvP
 			break;
 
 		case MISSION_HEAL_BUILDUP:
-			if (pLoopUnit->canHeal(pPlot) && pPlot->getTerrainTurnDamage(this) == 0)
+			if (pLoopUnit->canHeal(pPlot) && pPlot->getTotalTurnDamage(this) <= 0)
 			{
 				return true;
 			}
@@ -1101,7 +1101,7 @@ bool CvSelectionGroup::canStartMission(int iMission, int iData1, int iData2, CvP
 		
 		case MISSION_HEAL:
 			//ls612: Fix for Terrain damage, apparently that wasn't factored in anywhere else.
-			if (pLoopUnit->canHeal(pPlot) && pPlot->getTerrainTurnDamage(this) == 0)
+			if (pLoopUnit->canHeal(pPlot) && pPlot->getTotalTurnDamage(this) <= 0)
 			{
 				return true;
 			}
@@ -5830,7 +5830,7 @@ bool CvSelectionGroup::groupPathTo(int iX, int iY, int iFlags)
 		if ( (iFlags & MOVE_HEAL_AS_NEEDED25) && getHeadUnit()->getDamagePercent() > 25 )
 		{
 			if ( !GET_PLAYER(getOwnerINLINE()).AI_getVisiblePlotDanger(plot(), 2, false) &&
-				 plot()->getTerrainTurnDamage(this) <= 0)
+				 plot()->getTotalTurnDamage(this) <= 0)
 			{
 				return false;
 			}
@@ -7115,7 +7115,7 @@ void CvSelectionGroup::CachePathEdgeCosts(CvPlot* pFromPlot, CvPlot* pToPlot, bo
 	{
 		//	Could use Zobrist hashes of the plots, but actually since we're only combining two sets of coordinates we can
 		//	fit it all in an int for any reasonable map
-		//FAssert(GC.getMapINLINE().getGridHeightINLINE()*GC.getMapINLINE().getGridHeightINLINE()*GC.getMapINLINE().getGridWidthINLINE()*(GC.getMapINLINE().getGridWidthINLINE()/2) < MAXINT);
+		FAssert(GC.getMapINLINE().getGridHeightINLINE()*GC.getMapINLINE().getGridHeightINLINE()*GC.getMapINLINE().getGridWidthINLINE()*(GC.getMapINLINE().getGridWidthINLINE()/2) < MAXINT);
 		int cacheKey = GC.getMapINLINE().plotNumINLINE(pFromPlot->getX_INLINE(),pFromPlot->getY_INLINE()) + (GC.getMapINLINE().plotNumINLINE(pToPlot->getX_INLINE(),pToPlot->getY_INLINE()) << 16);
 
 		edgeCosts costs;

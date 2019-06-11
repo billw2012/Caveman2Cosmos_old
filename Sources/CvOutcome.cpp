@@ -495,11 +495,7 @@ bool CvOutcome::isPossible(const CvUnit& kUnit) const
 		{
 			return false;
 		}
-//#ifdef MULTI_FEATURE_MOD
-//		if (kUnit.plot()->getNumFeatures() == 0)
-//#else
 		if (kUnit.plot()->getFeatureType() == NO_FEATURE)
-//#endif
 		{
 			if (!kBonus.isTerrain(kUnit.plot()->getTerrainType()))
 			{
@@ -508,26 +504,10 @@ bool CvOutcome::isPossible(const CvUnit& kUnit) const
 		}
 		else
 		{
-//#ifdef MULTI_FEATURE_MOD
-//			bool bValid = false;
-//			for (int i=0; i<kUnit.plot()->getNumFeatures(); i++)
-//			{
-//				if (kBonus.isFeature(kUnit.plot()->getFeatureByIndex(i)))
-//				{
-//					bValid = true;
-//					break;
-//				}
-//			}
-//			if (!bValid)
-//			{
-//				return false;
-//			}
-//#else
 			if (!kBonus.isFeature(kUnit.plot()->getFeatureType()))
 			{
 				return false;
 			}
-//#endif
 			if (!kBonus.isFeatureTerrain(kUnit.plot()->getTerrainType()))
 			{
 				return false;
@@ -859,11 +839,7 @@ bool CvOutcome::isPossibleInPlot(const CvUnit& kUnit, const CvPlot& kPlot, bool 
 		{
 			return false;
 		}
-//#ifdef MULTI_FEATURE_MOD
-//		if (kPlot.getNumFeatures() == 0)
-//#else
 		if (kPlot.getFeatureType() == NO_FEATURE)
-//#endif
 		{
 			if (!kBonus.isTerrain(kPlot.getTerrainType()))
 			{
@@ -872,26 +848,10 @@ bool CvOutcome::isPossibleInPlot(const CvUnit& kUnit, const CvPlot& kPlot, bool 
 		}
 		else
 		{
-//#ifdef MULTI_FEATURE_MOD
-//			bool bValid = false;
-//			for (int i=0; i<kPlot.getNumFeatures(); i++)
-//			{
-//				if (kBonus.isFeature(kPlot.getFeatureByIndex(i)))
-//				{
-//					bValid = true;
-//					break;
-//				}
-//			}
-//			if (!bValid)
-//			{
-//				return false;
-//			}
-//#else
 			if (!kBonus.isFeature(kPlot.getFeatureType()))
 			{
 				return false;
 			}
-//#endif
 			if (!kBonus.isFeatureTerrain(kPlot.getTerrainType()))
 			{
 				return false;

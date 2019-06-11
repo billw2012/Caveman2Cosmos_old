@@ -20,17 +20,10 @@ friend class CLinkList<tVARTYPE>;
 
 public:
 
-    CLLNode()
-	{
-	}
+    CLLNode(): m_pNext(NULL), m_pPrev(NULL){}
 
-	CLLNode(const tVARTYPE& val) : m_data(val), m_pNext(NULL), m_pPrev(NULL)
-          {
-	          //m_data = val;
+	CLLNode(const tVARTYPE& val) : m_data(val), m_pNext(NULL), m_pPrev(NULL){}
 
-	          //m_pNext = NULL;
-	          //m_pPrev = NULL;
-          }
 	virtual ~CLLNode() {}
 
 	tVARTYPE	m_data;		//list of vartype
@@ -58,7 +51,7 @@ public:
 	void insertBefore(const tVARTYPE& val, CLLNode<tVARTYPE>* pThisNode);
 	void insertAfter(const tVARTYPE& val, CLLNode<tVARTYPE>* pThisNode);
 	CLLNode<tVARTYPE>* deleteNode(CLLNode<tVARTYPE>* pNode);
-	void moveToEnd(CLLNode<tVARTYPE>* pThisNode);
+	void moveToEnd(CLLNode<tVARTYPE>* pNode);
 
 	CLLNode<tVARTYPE>* next(CLLNode<tVARTYPE>* pNode) const;
 	CLLNode<tVARTYPE>* prev(CLLNode<tVARTYPE>* pNode) const;

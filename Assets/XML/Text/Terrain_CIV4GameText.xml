@@ -29,6 +29,21 @@
 		<English>[NEWLINE][ICON_BULLET]This feature is destroyed by a city founded on the same plot as soon as the city acheives %d1_pop Population.</English>
 		<German>[NEWLINE][ICON_BULLET]Dieses Geländemerkmal wird zerstört, wenn eine Stadt auf demselben Feld auf Stufe %d1_pop anwächst.</German>
 	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TERRAIN_TURN_DAMAGE</Tag>
+		<English>[NEWLINE][ICON_BULLET]Damage per Turn: %d1_Amt%%</English>
+		<German>[NEWLINE][ICON_BULLET]Schaden pro Runde: %d1_Amt%%</German>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLOT_MOVEMENT_COST</Tag>
+		<English>[NEWLINE]Movement Cost: %d1[ICON_MOVES]</English>
+		<German>[NEWLINE]Fortbewegungskosten: %d1[ICON_MOVES]</German>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLOT_ROUTE_MOVEMENT_COST</Tag>
+		<English>[NEWLINE]Route Movement: %s1(%s2)</English>
+		<German>[NEWLINE]Weg-Fortbewegung: %s1(%s2)</German>
+	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TERRAIN_BARREN</Tag>
 		<English>Barren</English>

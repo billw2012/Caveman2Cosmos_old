@@ -267,14 +267,6 @@ void CyPlotPythonInterface1(python::class_<CyPlot>& x)
 /************************************************************************************************/
 		.def("isInViewport", &CyPlot::isInViewport, "bool ()")
 		.def("cloneToViewport", &CyPlot::cloneToViewport, python::return_value_policy<python::manage_new_object>(), "CyPlot* ()")
-//#ifdef MULTI_FEATURE_MOD
-//		.def("getHasFeature", &CyPlot::getHasFeature, "bool (int)")
-//		.def("setHasFeature", &CyPlot::setHasFeature, "void (int, bool, int)")
-//		.def("getNumFeatures", &CyPlot::getNumFeatures, "int ()")
-//		.def("getFeatureByIndex", &CyPlot::getFeatureByIndex, "int (int)")
-//		.def("getFeatureVariety", &CyPlot::getVarietyByFeature, "int (int)")
-//		.def("removeAllFeatures", &CyPlot::removeAllFeatures, "void ()")
-//#endif
 
 		// Super Forts begin *canal* *choke*
 		.def("getCanalValue", &CyPlot::getCanalValue, "int ()")

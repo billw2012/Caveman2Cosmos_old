@@ -626,7 +626,7 @@ void CvDLLWidgetData::parseHelp(CvWStringBuffer &szBuffer, CvWidgetDataStruct &w
 		break;
 
 	case WIDGET_PEDIA_JUMP_TO_ROUTE:
-		parseRouteHelp(widgetDataStruct, szBuffer, true);
+		parseRouteHelp(widgetDataStruct, szBuffer);
 		break;
 
 	case WIDGET_PEDIA_JUMP_TO_CIVIC:
@@ -4161,7 +4161,7 @@ void CvDLLWidgetData::parseActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWS
 
 				if (pSelectedUnit->plot()->getOwner() == pSelectedUnit->getOwner())	//units have to be inside cultural borders
 				{
-					if (GC.getDefineINT("DISBANDING_EARNS_GOLD"))
+					if (GC.getGame().isOption(GAMEOPTION_DOWNSIZING_IS_PROFITABLE))
 					{
 						int iGold = 0;
 						int iTrainPercent = GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent();
