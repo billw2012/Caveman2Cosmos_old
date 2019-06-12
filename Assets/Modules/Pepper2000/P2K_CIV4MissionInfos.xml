@@ -204,7 +204,7 @@
         <MissionInfo>
 			<Type>MISSION_EXPLORE_OUTER_SOLAR_SYSTEM</Type>
 			<Description>TXT_KEY_MISSION_EXPLORE_OUTER_SOLAR_SYSTEM</Description>
-			<Help>TXT_KEY_MISSION_EXPLORE_OUTER_SYSTEM_HELP</Help>
+			<Help>TXT_KEY_MISSION_EXPLORE_OUTER_SOLAR_SYSTEM_HELP</Help>
 			<Waypoint>NONE</Waypoint>
             <HotKey>KB_E</HotKey>
 			<EntityEventType>NONE</EntityEventType>
