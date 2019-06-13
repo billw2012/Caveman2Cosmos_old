@@ -7802,10 +7802,6 @@
 					<BuildingType>BUILDING_BRACEWELL_PROBES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
-				<Building>
-					<BuildingType>BUILDING_GALACTIC_CORE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
 			</Buildings>
             <Actions>
 				<Action>
@@ -9541,6 +9537,12 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_ANTIMATTER_ROCKET</PrereqTech>
+			<Buildings>
+				<Building>
+					<BuildingType>BUILDING_GALACTIC_CORE</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+			</Buildings>
             <Actions>
 				<Action>
 					<MissionType>MISSION_SAMPLE_STUDY</MissionType>
