@@ -235,7 +235,7 @@ class RoMEventManager:
 				for unit in PlayerUtil.playerUnits(player):
 					if (unit.getUnitCombatType() == gc.getInfoTypeForString("UNITCOMBAT_DOOM") or unit.nukeRange() > 0 or unit.getUnitAIType() == UnitAITypes.UNITAI_ICBM and not unit.isNone()):
 						unit.kill( 0, -1 )
-				CyInterface().addMessage(pPID,False,15,CyTranslator().getText("TXT_KEY_NANITE_DEFUSER_PYTHON",()),'',0,'Art/Interface/Buttons/Buildings/Ascension_Gate.dds',ColorTypes(44), iX, iY, True,True)
+				CyInterface().addMessage(pPID,False,15,CyTranslator().getText("TXT_KEY_NANITE_DEFUSER_PYTHON",()),'',0,'Art/Interface/Buttons/Great_wonders/Nanite_defuser.dds',ColorTypes(44), iX, iY, True,True)
 
 
 	def onProjectBuilt(self, argsList):
