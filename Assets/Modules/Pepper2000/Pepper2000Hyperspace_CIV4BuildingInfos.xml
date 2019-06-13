@@ -699,8 +699,8 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HYPERPLANET</ArtDefineTag>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
-			<PrereqTech>TECH_HYPERSTRUCTURE_ENGINEERING</PrereqTech>
-			<iCost>1485</iCost>
+			<PrereqTech>TECH_EUCLIDEAN_FIVESPACE_GEOMETRY</PrereqTech>
+			<iCost>1713</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_HYPERSPACE</MapCategoryType>

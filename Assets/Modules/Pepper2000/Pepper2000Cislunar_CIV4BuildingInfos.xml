@@ -236,8 +236,8 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_SUPPLY_BASE</ArtDefineTag>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
-			<PrereqTech>TECH_COILGUN</PrereqTech>
-			<iCost>380</iCost>
+			<PrereqTech>TECH_MASS_DRIVER</PrereqTech>
+			<iCost>612</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<TechTypes>
 				<PrereqTech>TECH_SPACE_COLONIES</PrereqTech>

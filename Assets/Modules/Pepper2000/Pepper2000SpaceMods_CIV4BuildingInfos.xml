@@ -1315,8 +1315,8 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HYDROGEN_SULFIDE_LIFE</ArtDefineTag>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
-			<PrereqTech>TECH_HYPOTHETICAL_BIOCHEMISTRY</PrereqTech>
-			<iCost>1744</iCost>
+			<PrereqTech>TECH_KUIPER_BELT</PrereqTech>
+			<iCost>1918</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_SOLAR_SYSTEM</MapCategoryType>

@@ -10922,8 +10922,8 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_ULTRACOMPUTING</PrereqTech>
-			<iCost>91530</iCost>
+			<PrereqTech>TECH_STABLE_TIME_LOOPS</PrereqTech>
+			<iCost>118530</iCost>
 			<CommerceChanges>
 				<iCommerce>42</iCommerce>
 				<iCommerce>42</iCommerce>
@@ -15571,6 +15571,12 @@
 			<BuildingClass>BUILDINGCLASS_OXEN_MILL</BuildingClass>
 			<Type>BUILDING_OXEN_MILL</Type>
 			<ObsoleteTech>TECH_MOLECULAR_ASSEMBLY</ObsoleteTech>
+			<ReplaceBuildings>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_FOOD_MANUFACTURING_DISTRICT</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+			</ReplaceBuildings>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_MODERN_MILL</BuildingClass>
@@ -16682,6 +16688,17 @@
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_NUTELLA_FACTORY</BuildingClass>
 			<Type>BUILDING_NUTELLA_FACTORY</Type>
+			<ObsoleteTech>TECH_BOTANICAL_ALCHEMY</ObsoleteTech>
+			<ReplaceBuildings>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_FOOD_MANUFACTURING_DISTRICT</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+			</ReplaceBuildings>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_PASTA_MAKER_SHOP</BuildingClass>
+			<Type>BUILDING_PASTA_MAKER_SHOP</Type>
 			<ObsoleteTech>TECH_BOTANICAL_ALCHEMY</ObsoleteTech>
 			<ReplaceBuildings>
 				<ReplaceBuilding>

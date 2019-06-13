@@ -26402,4 +26402,13 @@ feindliche Einheit scrollen[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Anzeige der Siegc
 		<Spanish>[ICON_BULLET]Permite [NUM1:al:a la:a los:a las] %s1 mejorar a %s2</Spanish>
 		<Polish>[ICON_BULLET]Umożliwia ulepszenie %s1 do %s2.</Polish>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DJENNE_PYTHON</Tag>
+		<English>[COLOR_BUILDING_TEXT]The Great Mosque of Djenné [COLOR_SELECTED_TEXT]Increases Desert Trade[COLOR_REVERT]!</English>
+		<French>[COLOR_SELECTED_TEXT]La Grande Mosquée de Djenné augmente le commerce dans le Désert![COLOR_REVERT]</French>
+		<German>[COLOR_SELECTED_TEXT]Die Große Moschee von Djenné erhöht den Wüstenhandel![COLOR_REVERT]</German>
+		<Italian>[COLOR_SELECTED_TEXT]La grande moschea di Djenné incrementa il commercio nel deserto![COLOR_REVERT]</Italian>
+		<Spanish>[COLOR_SELECTED_TEXT]¡La Gran Mezquita de Djenné aumenta el comercio en el Desierto![COLOR_REVERT]</Spanish>
+		<Polish>[COLOR_BUILDING_TEXT]Wielki Meczet w Dżenne [COLOR_SELECTED_TEXT]zwiększa handel na polach pustyni[COLOR_REVERT]!</Polish>
+	</TEXT>
 </Civ4GameText>

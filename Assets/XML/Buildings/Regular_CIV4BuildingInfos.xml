@@ -42573,6 +42573,7 @@
 			<PrereqTech>TECH_USURY</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<PrereqBonuses>
+				<Bonus>BONUS_SCROLLS</Bonus>
 				<Bonus>BONUS_BOOKS</Bonus>
 				<Bonus>BONUS_COMPUTERS</Bonus>
 				<Bonus>BONUS_PAPER</Bonus>
@@ -97629,12 +97630,16 @@
 			</TechTypes>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<PrereqCorporation>CORPORATION_3</PrereqCorporation>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_VIKING_TRADING_POST</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Construction cost -->
 			<iCost>680</iCost>
 			<!-- Main effects -->

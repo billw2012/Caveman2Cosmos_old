@@ -6899,6 +6899,10 @@
 					<BuildingType>BUILDING_WMAP</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_CLIMATE_SATELLITE</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
             <Actions>
 				<Action>
@@ -7249,10 +7253,6 @@
             <Buildings>
                 <Building>
 					<BuildingType>BUILDING_COMMERCIAL_SATELLITES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_CLIMATE_SATELLITE</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
                 <Building>
@@ -7800,6 +7800,10 @@
             <Buildings>
 				<Building>
 					<BuildingType>BUILDING_BRACEWELL_PROBES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GALACTIC_CORE</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>

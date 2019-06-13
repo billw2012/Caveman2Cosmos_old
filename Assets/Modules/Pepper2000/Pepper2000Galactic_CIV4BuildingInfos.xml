@@ -4038,7 +4038,10 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SUPERSYMMETRIC_PARTICLE_CONSTRUCTION</PrereqTech>
-			<iCost>6806</iCost>
+			<TechTypes>
+				<PrereqTech>TECH_ELECTROWEAK_MATTER</PrereqTech>
+			</TechTypes>
+			<iCost>7629</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_PLASMA</MapCategoryType>
@@ -5309,12 +5312,6 @@
 				<iYield>0</iYield>
 				<iYield>5</iYield>
 			</YieldChanges>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_CAPTURED_NEUTRON_STAR</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_GRAVITON_DETECTOR</BuildingClass>
@@ -6480,7 +6477,7 @@
 			<iHappiness>3</iHappiness>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_INTERSTELLAR_METROPOLIS</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_PLANETARY_LANDING</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
 				<PrereqOrBuildingClass>
@@ -8121,7 +8118,7 @@
 			<iMilitaryProductionModifier>100</iMilitaryProductionModifier>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_CAPITAL_CITY</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_PLANETARY_LANDING</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
 				<PrereqOrBuildingClass>

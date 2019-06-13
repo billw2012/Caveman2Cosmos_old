@@ -6010,6 +6010,10 @@
 			<Bonus>BONUS_JADE</Bonus>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_JADE_CARVER</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_JADE_MERCHANT_IMPORTER</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>

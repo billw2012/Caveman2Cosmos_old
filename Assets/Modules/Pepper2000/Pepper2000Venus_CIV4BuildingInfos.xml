@@ -920,8 +920,8 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CALCIUM_CARBONATE</ArtDefineTag>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
-			<PrereqTech>TECH_PLANETARY_MEGASTRUCTURES</PrereqTech>
-			<iCost>5294</iCost>
+			<PrereqTech>TECH_ASTROECOLOGY</PrereqTech>
+			<iCost>6372</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_VENUSIAN</MapCategoryType>

@@ -204,7 +204,10 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SUPERSYMMETRIC_PARTICLE_CONSTRUCTION</PrereqTech>
-			<iCost>4004</iCost>
+			<TechTypes>
+				<PrereqTech>TECH_OMEGA_MINUS_ENGINEERING</PrereqTech>
+			</TechTypes>
+			<iCost>4492</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_UNIVERSAL</MapCategoryType>
