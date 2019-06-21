@@ -59,3 +59,4 @@ EXPORTS
 ?updateVisibility@CvMap@@QAEXXZ=?updateVisibility@CvMapExternal@@QAEXXZ
 ?write@CvMap@@UAEXPAVFDataStreamBase@@@Z=?write@CvMapExternal@@UAEXPAVFDataStreamBase@@@Z
 ?getMap@CvGlobals@@QAEAAVCvMap@@XZ=?getMap@CvGlobals@@QAEAAVCvMapExternal@@XZ
+?getBestDefender@CvPlot@@QBEPAVCvUnit@@W4PlayerTypes@@0PBV2@_N22@Z=?getBestDefenderExternal@CvPlot@@QBEPAVCvUnit@@W4PlayerTypes@@0PBV2@_N22@Z
