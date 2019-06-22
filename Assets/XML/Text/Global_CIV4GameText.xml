@@ -5745,8 +5745,8 @@
 		</French>
 		<German>
 			<Text>Kultur:Kultur:Kultur:Kultur</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Cultura</Text>
@@ -5770,8 +5770,8 @@
 		</French>
 		<German>
 			<Text>Wirtschaft:Wirtschaft:Wirtschaft:Wirtschaft</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Oro</Text>
@@ -5803,8 +5803,8 @@
 		</French>
 		<German>
 			<Text>Forschung:Forschung:Forschung:Forschung</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Ricerca</Text>
@@ -6622,8 +6622,8 @@
 		</French>
 		<German>
 			<Text>Antike:Antike:Antike:Antike</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Antica</Text>
@@ -6642,8 +6642,8 @@
 		<English>Atomic</English>
 		<German>
 			<Text>Atomzeitalter:Atomzeitalters:Atomzeitalter:Atomzeitalter</Text>
-			<Gender>neuter:neuter:neuter:neuter</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
 		</German>
 	</TEXT>
 	<TEXT>
@@ -6660,8 +6660,8 @@
 		</French>
 		<German>
 			<Text>Klassik:Klassik:Klassik:Klassik</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Classica</Text>
@@ -6680,8 +6680,8 @@
 		<English>Cosmic</English>
 		<German>
 			<Text>Kosmisches Zeitalter:Kosmischen Zeitalters:Kosmischen Zeitalter:Kosmische Zeitalter</Text>
-			<Gender>neuter:neuter:neuter:neuter</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
 		</German>
 	</TEXT>
 	<TEXT>
@@ -6698,8 +6698,8 @@
 		</French>
 		<German>
 			<Text>Zukunft:Zukunft:Zukunft:Zukunft</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Futura</Text>
@@ -6719,8 +6719,8 @@
 		<French>Galactique</French>
 		<German>
 			<Text>Galaktisches Zeitalter:Galaktischen Zeitalters:Galaktischen Zeitalter:Galaktische Zeitalter</Text>
-			<Gender>neuter:neuter:neuter:neuter</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>Galattica</Italian>
 		<Spanish>Época galáctica</Spanish>
@@ -6736,8 +6736,8 @@
 		</French>
 		<German>
 			<Text>Industriezeitalter:Industriezeitalters:Industriezeitalter:Industriezeitalter</Text>
-			<Gender>neuter:neuter:neuter:neuter</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Industriale</Text>
@@ -6756,8 +6756,8 @@
 		<English>Information</English>
 		<German>
 			<Text>Informationszeitalter:Informationszeitalters:Informationszeitalter:Informationszeitalter</Text>
-			<Gender>neuter:neuter:neuter:neuter</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
 		</German>
 	</TEXT>
 	<TEXT>
@@ -6774,8 +6774,8 @@
 		</French>
 		<German>
 			<Text>Mittelalter:Mittelalters:Mittelalter:Mittelalter</Text>
-			<Gender>neuter:neuter:neuter:neuter</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Medioevale</Text>
@@ -6795,8 +6795,8 @@
 		<French>Mésolithique</French>
 		<German>
 			<Text>Mesolithikum:Mesolithikums:Mesolithikum:Mesolithikum</Text>
-			<Gender>neuter:neuter:neuter:neuter</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>Mesolitico</Italian>
 		<Spanish>Mesolítico</Spanish>
@@ -6811,8 +6811,8 @@
 		<English>Nanotech</English>
 		<German>
 			<Text>Nanozeitalter:Nanozeitalters:Nanozeitalter:Nanozeitalter</Text>
-			<Gender>neuter:neuter:neuter:neuter</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
 		</German>
 	</TEXT>
 	<TEXT>
@@ -6825,8 +6825,8 @@
 		<French>Néolithique</French>
 		<German>
 			<Text>Neolithikum:Neolithikums:Neolithikum:Neolithikum</Text>
-			<Gender>neuter:neuter:neuter:neuter</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>Neolitico</Italian>
 		<Spanish>Neolítico</Spanish>
@@ -6842,8 +6842,8 @@
 		<French>Epi-paléolithique</French>
 		<German>
 			<Text>Paläolithikum:Paläolithikums:Paläolithikum:Paläolithikum</Text>
-			<Gender>neuter:neuter:neuter:neuter</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>Paleolitico</Italian>
 		<Spanish>Epipaleolítico</Spanish>
@@ -6855,8 +6855,8 @@
 		<French>Préhistoire</French>
 		<German>
 			<Text>Vorgeschichte:Vorgeschichte:Vorgeschichte:Vorgeschichte</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>preistorica.</Italian>
 		<Spanish>Prehistoria</Spanish>
@@ -6879,8 +6879,8 @@
 		</French>
 		<German>
 			<Text>Renaissance:Renaissance:Renaissance:Renaissance</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Rinascimentale</Text>
@@ -6899,8 +6899,8 @@
 		<English>Transcendent</English>
 		<German>
 			<Text>Transzendenz:Transzendenz:Transzendenz:Transzendenz</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 	</TEXT>
 	<TEXT>
@@ -6913,8 +6913,8 @@
 		<French>Transhumain</French>
 		<German>
 			<Text>Transhumanismus:Transhumanismus:Transhumanismus:Transhumanismus</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>Transumana</Italian>
 		<Spanish>Época transhumana</Spanish>
@@ -17912,8 +17912,8 @@
 		</French>
 		<German>
 			<Text>Kultur:Kultur:Kultur:Kultur</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Cultura</Text>
@@ -17950,8 +17950,8 @@
 		<French>Faible Culture</French>
 		<German>
 			<Text>Kultur (gering):Kultur (gering):Kultur (gering):Kultur (gering)</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>Cultura minore</Italian>
 		<Spanish>Cultura (menor)</Spanish>
@@ -17971,8 +17971,8 @@
 		<French>Faible Recherche</French>
 		<German>
 			<Text>Forschung (gering):Forschung (gering):Forschung (gering):Forschung (gering)</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>Ricerca minore</Italian>
 		<Spanish>Investigación (menor)</Spanish>
@@ -17991,8 +17991,8 @@
 		<French>Faible Richesse</French>
 		<German>
 			<Text>Reichtum (gering):Reichtums (gering):Reichtum (gering):Reichtum (gering)</Text>
-			<Gender>male:male:male:male</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>Ricchezza minore</Italian>
 		<Spanish>Riqueza (menor)</Spanish>
@@ -18012,8 +18012,8 @@
 		<French>Maigre Culture</French>
 		<German>
 			<Text>Kultur (spärlich):Kultur (spärlich):Kultur (spärlich):Kultur (spärlich)</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>Magra cultura</Italian>
 		<Spanish>Cultura (exigua)</Spanish>
@@ -18033,8 +18033,8 @@
 		<French>Maigre Recherche</French>
 		<German>
 			<Text>Forschung (spärlich):Forschung (spärlich):Forschung (spärlich):Forschung (spärlich)</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>Magra ricerca</Italian>
 		<Spanish>Investigación (exigua)</Spanish>
@@ -18054,8 +18054,8 @@
 		<French>Maigre Richesse</French>
 		<German>
 			<Text>Reichtum (spärlich):Reichtums (spärlich):Reichtum (spärlich):Reichtum (spärlich)</Text>
-			<Gender>male:male:male:male</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>Magra ricchezza</Italian>
 		<Spanish>Riqueza (exigua)</Spanish>
@@ -18080,8 +18080,8 @@
 		</French>
 		<German>
 			<Text>Forschung:Forschung:Forschung:Forschung</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Ricerca</Text>
@@ -18138,8 +18138,8 @@
 		</French>
 		<German>
 			<Text>Reichtum:Reichtums:Reichtum:Reichtum</Text>
-			<Gender>male:male:male:male</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Ricchezza</Text>
@@ -18473,8 +18473,8 @@
 		</French>
 		<German>
 			<Text>Buddhismus:Buddhismus:Buddhismus:Buddhismus</Text>
-			<Gender>male:male:male:male</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Buddismo:Buddista</Text>
@@ -18543,8 +18543,8 @@
 		</French>
 		<German>
 			<Text>Christentum:Christentums:Christentum:Christentum</Text>
-			<Gender>neuter:neuter:neuter:neuter</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Cristianesimo:Cristiana</Text>
@@ -18614,8 +18614,8 @@
 		</French>
 		<German>
 			<Text>Konfuzianismus:Konfuzianismus:Konfuzianismus:Konfuzianismus</Text>
-			<Gender>male:male:male:male</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Confucianesimo:Confuciana</Text>
@@ -18779,8 +18779,8 @@
 		</French>
 		<German>
 			<Text>Hinduismus:Hinduismus:Hinduismus:Hinduismus</Text>
-			<Gender>male:male:male:male</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Induismo</Text>
@@ -18850,8 +18850,8 @@
 		</French>
 		<German>
 			<Text>Islam:Islams:Islam:Islam</Text>
-			<Gender>male:male:male:male</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Islamismo:Islamica</Text>
@@ -18920,8 +18920,8 @@
 		</French>
 		<German>
 			<Text>Judentum:Judentums:Judentum:Judentum</Text>
-			<Gender>neuter:neuter:neuter:neuter</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Giudaismo:Giudaica</Text>
@@ -19020,8 +19020,8 @@
 		</French>
 		<German>
 			<Text>Taoismus:Taoismus:Taoismus:Taoismus</Text>
-			<Gender>male:male:male:male</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Taoismo:Taoista</Text>
@@ -25210,8 +25210,8 @@ feindliche Einheit scrollen[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Anzeige der Siegc
 		</French>
 		<German>
 			<Text>Eroberungssieg:Eroberungssieges:Eroberungssieg:Eroberungssieg</Text>
-			<Gender>male:male:male:male</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Conquista</Text>
@@ -25235,8 +25235,8 @@ feindliche Einheit scrollen[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Anzeige der Siegc
 		</French>
 		<German>
 			<Text>Kultursieg:Kultursieges:Kultursieg:Kultursieg</Text>
-			<Gender>male:male:male:male</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Culturale</Text>
@@ -25260,8 +25260,8 @@ feindliche Einheit scrollen[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Anzeige der Siegc
 		</French>
 		<German>
 			<Text>Diplomatiesieg:Diplomatiesieges:Diplomatiesieg:Diplomatiesieg</Text>
-			<Gender>male:male:male:male</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Diplomatica</Text>
@@ -25285,8 +25285,8 @@ feindliche Einheit scrollen[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Anzeige der Siegc
 		</French>
 		<German>
 			<Text>Vorherrschaftssieg:Vorherrschaftssieges:Vorherrschaftssieg:Vorherrschaftssieg</Text>
-			<Gender>male:male:male:male</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Dominazione</Text>
@@ -25306,8 +25306,8 @@ feindliche Einheit scrollen[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Anzeige der Siegc
 		<French>Religieuse</French>
 		<German>
 			<Text>Religionssieg:Religionssieges:Religionssieg:Religionssieg</Text>
-			<Gender>male:male:male:male</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Religiosa</Text>
@@ -25336,8 +25336,8 @@ feindliche Einheit scrollen[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Anzeige der Siegc
 		<French>Scientifique</French>
 		<German>
 			<Text>Wissenschaftssieg:Wissenschaftssieges:Wissenschaftssieg:Wissenschaftssieg</Text>
-			<Gender>male:male:male:male</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>Scientifica</Italian>
 		<Spanish>Científica</Spanish>
@@ -25357,8 +25357,8 @@ feindliche Einheit scrollen[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Anzeige der Siegc
 		</French>
 		<German>
 			<Text>Wertungssieg:Wertungssieges:Wertungssieg:Wertungssieg</Text>
-			<Gender>male:male:male:male</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>A punti</Text>
@@ -25510,8 +25510,8 @@ feindliche Einheit scrollen[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Anzeige der Siegc
 		</French>
 		<German>
 			<Text>Weltraumsieg:Weltraumsieges:Weltraumsieg:Weltraumsieg</Text>
-			<Gender>male:male:male:male</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Corsa spaziale</Text>
@@ -25535,8 +25535,8 @@ feindliche Einheit scrollen[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Anzeige der Siegc
 		</French>
 		<German>
 			<Text>Zeitsieg:Zeitsieges:Zeitsieg:Zeitsieg</Text>
-			<Gender>male:male:male:male</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>A tempo</Text>
@@ -26107,8 +26107,8 @@ feindliche Einheit scrollen[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Anzeige der Siegc
 		</French>
 		<German>
 			<Text>Wirtschaft:Wirtschaft:Wirtschaft:Wirtschaft</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Commercio</Text>
@@ -26132,8 +26132,8 @@ feindliche Einheit scrollen[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Anzeige der Siegc
 		</French>
 		<German>
 			<Text>Nahrung:Nahrung:Nahrung:Nahrung</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Cibo</Text>
@@ -26157,8 +26157,8 @@ feindliche Einheit scrollen[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Anzeige der Siegc
 		</French>
 		<German>
 			<Text>Produktion:Produktion:Produktion:Produktion</Text>
-			<Gender>female:female:female:female</Gender>
-			<Plural>0:0:0:0</Plural>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
 		</German>
 		<Italian>
 			<Text>Produzione</Text>
