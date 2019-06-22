@@ -982,7 +982,7 @@
 	</Define>
 	<Define>
 		<DefineName>BUILDING_PRODUCTION_PERCENT</DefineName>
-		<iDefineIntVal>105</iDefineIntVal>
+		<iDefineIntVal>100</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>UNIT_PRODUCTION_PERCENT_SM</DefineName>
@@ -994,7 +994,7 @@
 	</Define>
 	<Define>
 		<DefineName>TECH_COST_MODIFIER</DefineName>
-		<iDefineIntVal>630</iDefineIntVal>
+		<iDefineIntVal>600</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MAXED_UNIT_GOLD_PERCENT</DefineName>
@@ -1819,7 +1819,7 @@
 	<!-- Original Value was set to 50 - I've adjusted to 40.-->
 	<Define>
 		<DefineName>SAFE_GOLD_PERCENT</DefineName>
-		<iDefineIntVal>40</iDefineIntVal>
+		<iDefineIntVal>100</iDefineIntVal>
 	</Define>
 	<!-- AI Gold Slider Safety Percent -->
 	<!-- More XP to Level begin -->
