@@ -1819,7 +1819,7 @@
 	<!-- Original Value was set to 50 - I've adjusted to 40.-->
 	<Define>
 		<DefineName>SAFE_GOLD_PERCENT</DefineName>
-		<iDefineIntVal>100</iDefineIntVal>
+		<iDefineIntVal>40</iDefineIntVal>
 	</Define>
 	<!-- AI Gold Slider Safety Percent -->
 	<!-- More XP to Level begin -->
