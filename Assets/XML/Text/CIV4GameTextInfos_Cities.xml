@@ -713,6 +713,10 @@
 		<English>Avarikon</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_AVARIS</Tag>
+		<English>Avaris</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AVEIRO</Tag>
 		<English>Aveiro</English>
 	</TEXT>
@@ -2852,7 +2856,7 @@
 		<English>Haradum</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_CITY_NAME_HARAPPAN</Tag>
+		<Tag>TXT_KEY_CITY_NAME_HARAPPA</Tag>
 		<English>Harappa</English>
 	</TEXT>
 	<TEXT>
@@ -7559,6 +7563,10 @@
 		<Spanish>Troya</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_TSABRATAN</Tag>
+		<English>Tsabratan</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TSAGAAN</Tag>
 		<English>Tsagaan</English>
 	</TEXT>
@@ -8422,6 +8430,10 @@
 		<English>Hieraconpolis</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_HSIA</Tag>
+		<English>Hsia</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HUANUCO</Tag>
 		<English>Huánuco</English>
 	</TEXT>
@@ -8440,6 +8452,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KUFAH</Tag>
 		<English>al-Kufah</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_NAME_LYONS</Tag>
+		<English>Lyon</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MACHU</Tag>
