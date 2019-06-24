@@ -115177,13 +115177,6 @@
 			</CommerceChanges>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<ConstructSound>AS2D_BUILD_BARRACKS</ConstructSound>
-			<bForceNoPrereqScaling>1</bForceNoPrereqScaling>
-			<PrereqBuildingClasses>
-                <PrereqBuildingClass>
-                    <BuildingClassType>BUILDINGCLASS_REPTILE_MYTH</BuildingClassType>
-                    <iNumBuildingNeeded>1</iNumBuildingNeeded>
-                </PrereqBuildingClass>
-            </PrereqBuildingClasses>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_EARTH_MYTH_EFFECT</BuildingClassType>
@@ -115266,13 +115259,6 @@
 			</CommerceChanges>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<ConstructSound>AS2D_BUILD_BARRACKS</ConstructSound>
-			<bForceNoPrereqScaling>1</bForceNoPrereqScaling>
-			<PrereqBuildingClasses>
-                <PrereqBuildingClass>
-                    <BuildingClassType>BUILDINGCLASS_BIRD_MYTH</BuildingClassType>
-                    <iNumBuildingNeeded>1</iNumBuildingNeeded>
-                </PrereqBuildingClass>
-            </PrereqBuildingClasses>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_FIRE_MYTH_EFFECT</BuildingClassType>
@@ -115312,13 +115298,6 @@
 			</CommerceChanges>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<ConstructSound>AS2D_BUILD_BARRACKS</ConstructSound>
-			<bForceNoPrereqScaling>1</bForceNoPrereqScaling>
-			<PrereqBuildingClasses>
-                <PrereqBuildingClass>
-                    <BuildingClassType>BUILDINGCLASS_HORSE_MYTH</BuildingClassType>
-                    <iNumBuildingNeeded>1</iNumBuildingNeeded>
-                </PrereqBuildingClass>
-            </PrereqBuildingClasses>
 			<UnitCombatFreeExperiences>
 				<UnitCombatFreeExperience>
 					<UnitCombatType>UNITCOMBAT_HEALTH_CARE</UnitCombatType>
