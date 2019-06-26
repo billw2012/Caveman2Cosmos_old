@@ -8141,6 +8141,11 @@ bool CvUnit::canLoadUnit(const CvUnit* pUnit, const CvPlot* pPlot) const
 	{
 		return false;
 	}
+
+	if (pUnit->getUnitType() == getUnitType())
+	{
+		return false;
+	}
 /*	if (GC.getGameINLINE().isOption(GAMEOPTION_SIZE_MATTERS))
 	{
 		if (pUnit->getTeam() == getTeam())
@@ -43671,16 +43676,20 @@ int CvUnit::SMCargoVolume() const
 		iData = getCargoVolume();
 	}
 
-	if (!isCarrier())
-	{
-		iData = std::max(1, iData);
-	}
-	else
-	{
-		iData = 0;
-	}
+	//if (!isCarrier())//Carriers can be carried so they need Cargo Volume as well.
+	//{
+	iData = std::max(1, iData);
+	//}
+	//else
+	//{
+	//	iData = 0;
+	//}
 	if (GC.getGameINLINE().isOption(GAMEOPTION_SIZE_MATTERS))
 	{
+		if (isCarrier())
+		{
+			iData += SMgetCargo();
+		}
 		return iData;
 	}
 	return 0;
@@ -43712,14 +43721,14 @@ void CvUnit::setSMCargoVolume()
 	}
 	iBase /= 100;
 
-	if (!isCarrier())
-	{
+	//if (!isCarrier())//Carriers can be carried so they need Cargo Volume as well.
+	//{
 		iBase = std::max(1, iBase);
-	}
-	else
-	{
-		iBase = 0;
-	}
+	//}
+	//else
+	//{
+	//	iBase = 0;
+	//}
 	m_iSMCargoVolume = iBase;
 	FAssert(getSMPowerValue() >= 0);
 }

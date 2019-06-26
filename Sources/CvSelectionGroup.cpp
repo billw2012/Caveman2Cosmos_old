@@ -2526,7 +2526,7 @@ bool CvSelectionGroup::continueMission(int iSteps)
 
 	if (headQueueNode == NULL ||
 		((headQueueNode->m_data.eMissionType == MISSION_MOVE_TO ||
-		headQueueNode->m_data.eMissionType == MISSION_MOVE_TO_SENTRY || 
+		/*headQueueNode->m_data.eMissionType == MISSION_MOVE_TO_SENTRY ||*/ 
 		 headQueueNode->m_data.eMissionType == MISSION_ROUTE_TO ||
 		 headQueueNode->m_data.eMissionType == MISSION_MOVE_TO_UNIT) && (headQueueNode->m_data.iData1 == -1 || headQueueNode->m_data.iData2 == -1)))
 	{
@@ -7115,7 +7115,7 @@ void CvSelectionGroup::CachePathEdgeCosts(CvPlot* pFromPlot, CvPlot* pToPlot, bo
 	{
 		//	Could use Zobrist hashes of the plots, but actually since we're only combining two sets of coordinates we can
 		//	fit it all in an int for any reasonable map
-		FAssert(GC.getMapINLINE().getGridHeightINLINE()*GC.getMapINLINE().getGridHeightINLINE()*GC.getMapINLINE().getGridWidthINLINE()*(GC.getMapINLINE().getGridWidthINLINE()/2) < MAXINT);
+		FAssert(GC.getMapINLINE().getGridHeightINLINE()*GC.getMapINLINE().getGridHeightINLINE()*GC.getMapINLINE().getGridWidthINLINE()*(GC.getMapINLINE().getGridWidthINLINE()/2) < MAX_INT);
 		int cacheKey = GC.getMapINLINE().plotNumINLINE(pFromPlot->getX_INLINE(),pFromPlot->getY_INLINE()) + (GC.getMapINLINE().plotNumINLINE(pToPlot->getX_INLINE(),pToPlot->getY_INLINE()) << 16);
 
 		edgeCosts costs;

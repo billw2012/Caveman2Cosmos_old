@@ -1694,6 +1694,14 @@ void CvNetChooseMergeUnit::Execute()
 {
 	if (m_ePlayer != NO_PLAYER)
 	{
+		if (m_iUnitID == -1) // cancel signal is detected (-1 != 0, thus signal is delivered, cf. 848@CvDLLButtonPopup::OnOKClicked()::case BUTTONPOPUP_CHOOSE_MERGE_UNIT)
+		{
+			// Code to clear all three registers
+			GET_PLAYER(m_ePlayer).setBaseMergeSelectionUnit(FFreeList::INVALID_INDEX);
+			GET_PLAYER(m_ePlayer).setFirstMergeSelectionUnit(FFreeList::INVALID_INDEX);
+			GET_PLAYER(m_ePlayer).setSecondMergeSelectionUnit(FFreeList::INVALID_INDEX);
+			return;
+		}
 		if (GET_PLAYER(m_ePlayer).getBaseMergeSelectionUnit() != FFreeList::INVALID_INDEX && GET_PLAYER(m_ePlayer).getFirstMergeSelectionUnit() == FFreeList::INVALID_INDEX)
 		{
 			GET_PLAYER(m_ePlayer).setFirstMergeSelectionUnit(m_iUnitID);
