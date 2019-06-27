@@ -1789,7 +1789,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_ROCK_GATHERER2_PEDIA</Tag>
-		<English>If built on a resource ([COLOR_HIGHLIGHT_TEXT]stone[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]marble[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]obsidian[COLOR_REVERT]) Special Stone Workshop provides that resource.  It upgrades to a quary if worked after getting the [COLOR_TECH_TEXT]masonary[COLOR_REVERT] technology.</English>
+		<English>If built on a resource ([COLOR_HIGHLIGHT_TEXT]stone[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]marble[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]obsidian[COLOR_REVERT]) Special Stone Workshop provides that resource.</English>
 		<German>Eine Spezialsteinwerkstatt kann eine Ressource wie [COLOR_HIGHLIGHT_TEXT]Stein[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Marmor[COLOR_REVERT] oder [COLOR_HIGHLIGHT_TEXT]Obsidian[COLOR_REVERT] abbauen. Nach der Entwicklung der [COLOR_TECH_TEXT]Steinmetzkunst[COLOR_REVERT] entwickelt sie sich zu einem Steinbruch weiter, wenn sie bearbeitet wird.</German>
 		<Italian>Se costruito su una risorsa di [COLOR_HIGHLIGHT_TEXT]pietra[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]marmo[COLOR_REVERT] o [COLOR_HIGHLIGHT_TEXT]ossidiana[COLOR_REVERT], fornisce quella risorsa.  Diveta una cava, se la casella viene lavorata, quando viene ricercata la tecnologia [COLOR_TECH_TEXT]Muratura[COLOR_REVERT].</Italian>
 		<Spanish>Si se construye sobre un recurso (siempre que sea [COLOR_HIGHLIGHT_TEXT]Piedra[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Mármol[COLOR_REVERT] u [COLOR_HIGHLIGHT_TEXT]Obsidiana[COLOR_REVERT]), el Taller de piedra tallada proporcionará dicho recurso. Mejora a Cantera si se trabaja la casilla tras obtener la tecnología de la [COLOR_TECH_TEXT]Mampostería[COLOR_REVERT].</Spanish>
@@ -1869,7 +1869,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_SCAVENGING_CAMP_PEDIA</Tag>
-		<English>A Scavenging Camp provides extra food.  If built on an animal resource (for example [COLOR_HIGHLIGHT_TEXT]cow[COLOR_REVERT]) it also provides the resource.  It upgrades, if worked, to a Nomadic Herd with [COLOR_TECH_TEXT]Megafauna Domestication[COLOR_REVERT].</English>
+		<English>A Scavenging Camp provides extra food.  If built on an animal resource (for example [COLOR_HIGHLIGHT_TEXT]cow[COLOR_REVERT]) it also provides the resource.</English>
 		<German>Ein Aasverwerterlager liefert zusätzliche [ICON_FOOD]. Wenn es auf einer Tierressource (z.B. einer [COLOR_HIGHLIGHT_TEXT]Kuh[COLOR_REVERT]) angelegt wird, stellt es auch diese zur Verfügung. Das Lager kann sich nach der Erforschung der [COLOR_TECH_TEXT]Megafaunadomestizierung[COLOR_REVERT] zu einer Nomadenherde weiterentwickeln, wenn es bearbeitet wird.</German>
 		<Italian>Un campo dei recuperatori fornisce cibo extra. Se costruito su una risorsa di animali (ad esempio [COLOR_HIGHLIGHT_TEXT]Bovino[COLOR_REVERT]) fornisce anche la risorsa. Diventa, se lavorato, un pascolo nomade con la tecnologia [COLOR_TECH_TEXT]Addomesticazione della megafauna[COLOR_REVERT].</Italian>
 		<Spanish>Un Campamento de recolección proporciona alimentos adicionales. Si se construye sobre un recurso animal (como las [COLOR_HIGHLIGHT_TEXT]Reses[COLOR_REVERT]) proporciona también dicho recurso. Mejora, si se trabaja la casilla, a un Pastizal nómada con la [COLOR_TECH_TEXT]Domesticación de mastodontes[COLOR_REVERT].</Spanish>
