@@ -173,7 +173,6 @@ class Dispatcher:
 		self._setDefault("isActionRecommended", False)
 		self._setDefault("unitCannotMoveInto", False)
 		self._setDefault("cannotHandleAction", False)
-		self._setDefault("canBuild", -1)
 		self._setDefault("cannotFoundCity", False)
 		self._setDefault("cannotSelectionListMove", False)
 		self._setDefault("cannotSelectionListGameNetMessage", False)
