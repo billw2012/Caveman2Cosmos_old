@@ -2371,6 +2371,10 @@
 		<Spanish>Valores base</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_CITYBAR__BUILDINGACTUALEFFECTS_HOVER</Tag>
+		<English>When checked, displays actual effects of buildings.</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_CITYBAR__BUILDINGACTUALEFFECTS_TEXT</Tag>
 		<English>Building Actual Effects</English>
 		<French>Effets des Bâtiments</French>
