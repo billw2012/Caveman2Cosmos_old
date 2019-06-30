@@ -10244,6 +10244,38 @@
 						<iYield>1</iYield>
 					</RouteYields>
 				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVTUBE</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_JUMPLANE</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
 			</RouteYieldChanges>
 		</ImprovementInfo>
 		<!-- Geoglyph -->
