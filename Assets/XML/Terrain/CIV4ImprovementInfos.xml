@@ -1239,6 +1239,20 @@
 					</RouteYields>
 				</RouteYieldChange>
 				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
 					<RouteType>ROUTE_JUMPLANE</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
@@ -1402,6 +1416,22 @@
 					</RouteYields>
 				</RouteYieldChange>
 				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
 					<RouteType>ROUTE_JUMPLANE</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
@@ -1535,6 +1565,22 @@
 				</RouteYieldChange>
 				<RouteYieldChange>
 					<RouteType>ROUTE_GRAVTUBE</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
@@ -1713,6 +1759,22 @@
 				</RouteYieldChange>
 				<RouteYieldChange>
 					<RouteType>ROUTE_GRAVTUBE</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
@@ -1905,6 +1967,22 @@
 				</RouteYieldChange>
 				<RouteYieldChange>
 					<RouteType>ROUTE_GRAVTUBE</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
@@ -2654,6 +2732,20 @@
 				</RouteYieldChange>
 				<RouteYieldChange>
 					<RouteType>ROUTE_GRAVTUBE</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
@@ -3760,6 +3852,30 @@
 						<iYield>1</iYield>
 					</RouteYields>
 				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_JUMPLANE</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
 			</RouteYieldChanges>
 			<iCulture>6</iCulture>
 		</ImprovementInfo>
@@ -3877,6 +3993,22 @@
 				</RouteYieldChange>
 				<RouteYieldChange>
 					<RouteType>ROUTE_GRAVTUBE</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>2</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>2</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
@@ -4021,6 +4153,22 @@
 					</RouteYields>
 				</RouteYieldChange>
 				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>2</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>2</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
 					<RouteType>ROUTE_JUMPLANE</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
@@ -4139,6 +4287,22 @@
 					</RouteYields>
 				</RouteYieldChange>
 				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
 					<RouteType>ROUTE_JUMPLANE</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
@@ -4245,6 +4409,30 @@
 				</RouteYieldChange>
 				<RouteYieldChange>
 					<RouteType>ROUTE_GRAVTUBE</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>					
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_JUMPLANE</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
@@ -4544,6 +4732,22 @@
 					</RouteYields>
 				</RouteYieldChange>
 				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
 					<RouteType>ROUTE_JUMPLANE</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
@@ -4719,6 +4923,22 @@
 				</RouteYieldChange>
 				<RouteYieldChange>
 					<RouteType>ROUTE_GRAVTUBE</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
@@ -5386,6 +5606,22 @@
 					</RouteYields>
 				</RouteYieldChange>
 				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
 					<RouteType>ROUTE_JUMPLANE</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
@@ -5588,6 +5824,22 @@
 					</RouteYields>
 				</RouteYieldChange>
 				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
 					<RouteType>ROUTE_JUMPLANE</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
@@ -5745,6 +5997,22 @@
 				</RouteYieldChange>
 				<RouteYieldChange>
 					<RouteType>ROUTE_GRAVTUBE</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
@@ -7631,6 +7899,22 @@
 					</RouteYields>
 				</RouteYieldChange>
 				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
 					<RouteType>ROUTE_JUMPLANE</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
@@ -7880,6 +8164,22 @@
 				</RouteYieldChange>
 				<RouteYieldChange>
 					<RouteType>ROUTE_GRAVTUBE</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
@@ -9219,6 +9519,38 @@
 				</RouteYieldChange>
 				<RouteYieldChange>
 					<RouteType>ROUTE_RAILROAD_ELECTRIC</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVTUBE</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_JUMPLANE</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
@@ -11711,6 +12043,20 @@ ImprovementUpgrade>IMPROVEMENT_STONE_TOWER</ImprovementUpgrade
 					</RouteYields>
 				</RouteYieldChange>
 				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
 					<RouteType>ROUTE_JUMPLANE</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
@@ -12040,6 +12386,20 @@ ImprovementUpgrade>IMPROVEMENT_STONE_TOWER</ImprovementUpgrade
 					</RouteYields>
 				</RouteYieldChange>
 				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
 					<RouteType>ROUTE_JUMPLANE</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
@@ -12347,6 +12707,20 @@ ImprovementUpgrade>IMPROVEMENT_STONE_TOWER</ImprovementUpgrade
 				</RouteYieldChange>
 				<RouteYieldChange>
 					<RouteType>ROUTE_GRAVTUBE</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
@@ -12717,6 +13091,20 @@ ImprovementUpgrade>IMPROVEMENT_STONE_TOWER</ImprovementUpgrade
 				</RouteYieldChange>
 				<RouteYieldChange>
 					<RouteType>ROUTE_GRAVTUBE</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
@@ -13106,6 +13494,20 @@ ImprovementUpgrade>IMPROVEMENT_STONE_TOWER</ImprovementUpgrade
 				</RouteYieldChange>
 				<RouteYieldChange>
 					<RouteType>ROUTE_GRAVTUBE</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_HYPERLOOP</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_GRAVITY_TRAIN</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
