@@ -219,7 +219,7 @@ public:
 /*                                                                                              */
 /************************************************************************************************/
 	DllExport void reviveActivePlayer();																		// Exposed to Python
-	DllExport void reviveActivePlayer(PlayerTypes iPlayer);																		// Exposed to Python
+	void reviveActivePlayer(PlayerTypes iPlayer);																		// Exposed to Python
 /************************************************************************************************/
 /* REVOLUTION_MOD                          END                                                  */
 /************************************************************************************************/
@@ -285,7 +285,7 @@ public:
 	DllExport int countNumHumanGameTurnActive() const;														// Exposed to Python
 	void changeNumGameTurnActive(int iChange);
 
-	DllExport int getNumCities() const;																						// Exposed to Python
+	int getNumCities() const;																						// Exposed to Python
 	int getNumCivCities() const;																				// Exposed to Python
 	void changeNumCities(int iChange);
 
@@ -488,8 +488,8 @@ public:
 	DllExport void toggleDebugMode();																				// Exposed to Python
 	DllExport void updateDebugModeCache();
 
-	DllExport int getPitbossTurnTime() const;																			// Exposed to Python
-	DllExport void setPitbossTurnTime(int iHours);																			// Exposed to Python
+	int getPitbossTurnTime() const;																			// Exposed to Python
+	void setPitbossTurnTime(int iHours);																			// Exposed to Python
 
 	DllExport bool isHotSeat() const;																							// Exposed to Python
 	DllExport bool isPbem() const;																								// Exposed to Python

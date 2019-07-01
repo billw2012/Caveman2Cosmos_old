@@ -15,7 +15,7 @@ public:
 	};
 	CyArgsList() : m_iCnt(0) {}
 	DllExport void add(int i);
-	DllExport void add(uint ui) { add((int)ui);	}
+	void add(uint ui) { add((int)ui);	}
 	DllExport void add(float f);
 	DllExport void add(const char* s);					// null-terminated string
 	DllExport void add(const wchar* s);					// null-terminated widestring

@@ -424,8 +424,8 @@ public:
 
 	bool isResearch() const;																																							// Exposed to Python
 	bool canEverResearch(TechTypes eTech) const;																								// Exposed to Python
-	DllExport bool canResearch(TechTypes eTech, bool bTrade = false) const;																// Exposed to Python
-	DllExport TechTypes getCurrentResearch() const;																												// Exposed to Python
+	bool canResearch(TechTypes eTech, bool bTrade = false) const;																// Exposed to Python
+	TechTypes getCurrentResearch() const;																												// Exposed to Python
 	bool isCurrentResearchRepeat() const;																																	// Exposed to Python
 	bool isNoResearchAvailable() const;																																		// Exposed to Python
 	int getResearchTurnsLeft(TechTypes eTech, bool bOverflow) const;														// Exposed to Python
@@ -439,7 +439,7 @@ public:
 	bool canDoReligion(ReligionTypes eReligion) const;																										// Exposed to Python
 	bool canChangeReligion() const;																																				// Exposed to Python
 	bool canConvert(ReligionTypes eReligion) const;																							// Exposed to Python
-	DllExport void convert(ReligionTypes eReligion);																								// Exposed to Python
+	void convert(ReligionTypes eReligion);																								// Exposed to Python
 	bool hasHolyCity(ReligionTypes eReligion) const;																											// Exposed to Python
 /************************************************************************************************/
 /* REVDCM                                 04/29/10                                phungus420    */
@@ -460,8 +460,8 @@ public:
 	int countCorporations(CorporationTypes eCorporation) const;																																					// Exposed to Python
 	void foundCorporation(CorporationTypes eCorporation);																										// Exposed to Python
 
-	DllExport int getCivicAnarchyLength(CivicTypes* paeNewCivics) const;																	// Exposed to Python
-	DllExport int getReligionAnarchyLength() const;																												// Exposed to Python
+	int getCivicAnarchyLength(CivicTypes* paeNewCivics) const;																	// Exposed to Python
+	int getReligionAnarchyLength() const;																												// Exposed to Python
 
 	int unitsRequiredForGoldenAge() const;																											// Exposed to Python
 	int unitsGoldenAgeCapable() const;																																		// Exposed to Python
@@ -490,7 +490,7 @@ public:
 
 	int getEffectiveGold() const;
 
-	DllExport int getGold() const;																																				// Exposed to Python
+	int getGold() const;																																				// Exposed to Python
 	DllExport void setGold(int iNewValue);																													// Exposed to Python
 	DllExport void changeGold(int iChange);	
 
@@ -997,7 +997,7 @@ public:
 	DllExport bool isTurnDone() const;
 
 	bool isExtendedGame() const;																																			// Exposed to Python					
-	DllExport void makeExtendedGame();																													
+	void makeExtendedGame();																													
 																																															
 	bool isFoundedFirstCity() const;																																	// Exposed to Python					
 	void setFoundedFirstCity(bool bNewValue);																										
@@ -1057,7 +1057,7 @@ public:
 	DllExport int getPlayerTextColorR() const;																												// Exposed to Python								
 	DllExport int getPlayerTextColorG() const;																												// Exposed to Python									
 	DllExport int getPlayerTextColorB() const;																												// Exposed to Python									
-	DllExport int getPlayerTextColorA() const;
+	int getPlayerTextColorA() const;
 	
 	int getSeaPlotYield(YieldTypes eIndex) const;
 	void changeSeaPlotYield(YieldTypes eIndex, int iChange);
@@ -1089,7 +1089,7 @@ public:
 
 	int getCommercePercent(CommerceTypes eIndex) const;																								// Exposed to Python
 	void setCommercePercent(CommerceTypes eIndex, int iNewValue);																// Exposed to Python
-	DllExport void changeCommercePercent(CommerceTypes eIndex, int iChange);										// Exposed to Python
+	void changeCommercePercent(CommerceTypes eIndex, int iChange);										// Exposed to Python
 
 	int getTotalCityBaseCommerceRate(CommerceTypes eIndex) const;
 	int getCommerceRate(CommerceTypes eIndex) const;																									// Exposed to Python
@@ -1227,7 +1227,7 @@ public:
 	void changeUpkeepCount(UpkeepTypes eIndex, int iChange);
 
 	int getSpecialistValidCount(SpecialistTypes eIndex) const;
-	DllExport bool isSpecialistValid(SpecialistTypes eIndex) const;																		// Exposed to Python					
+	bool isSpecialistValid(SpecialistTypes eIndex) const;																		// Exposed to Python					
 
 	CvProperties* getProperties();
 	const CvProperties* getPropertiesConst() const;
@@ -1377,7 +1377,7 @@ public:
 	DllExport const CvString getPbemEmailAddress() const;
 	DllExport void setPbemEmailAddress(const char* szAddress);
 	DllExport const CvString getSmtpHost() const;
-	DllExport void setSmtpHost(const char* szHost);
+	void setSmtpHost(const char* szHost);
 
 	const EventTriggeredData* getEventOccured(EventTypes eEvent, bool bIncludeExpiredEvents = false) const;			// Exposed to python
 	bool isTriggerFired(EventTriggerTypes eEventTrigger) const;

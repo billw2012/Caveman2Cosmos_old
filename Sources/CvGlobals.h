@@ -302,7 +302,7 @@ public:
 	std::vector<CvInterfaceModeInfo*>& getInterfaceModeInfos();
 	CvInterfaceModeInfo& getInterfaceModeInfo(InterfaceModeTypes e);
 
-	DllExport NiPoint3& getPt3CameraDir();
+	NiPoint3& getPt3CameraDir();
 
 	bool& getLogging();
 	bool& getRandLogging();
@@ -1026,7 +1026,7 @@ public:
 
 	int& getNumArtStyleTypes();
 	CvString*& getArtStyleTypes();
-	DllExport CvString& getArtStyleTypes(ArtStyleTypes e);
+	CvString& getArtStyleTypes(ArtStyleTypes e);
 
 	int& getNumCitySizeTypes();
 	CvString*& getCitySizeTypes();
@@ -2532,7 +2532,7 @@ public:
 		PROXY_TRACK("getNumRiverInfos");	
 		return gGlobals->getNumRiverInfos();	
 	}
-	DllExport CvRiverInfo& getRiverInfo(RiverTypes e)
+	CvRiverInfo& getRiverInfo(RiverTypes e)
 	{
 		PROXY_TRACK("getRiverInfo");	
 		return gGlobals->getRiverInfo(e);	
@@ -3006,7 +3006,7 @@ public:
 		return gGlobals->getCommandInfo(eCommandNum);	
 	}
 
-	DllExport int getNumAutomateInfos()
+	int getNumAutomateInfos()
 	{
 		PROXY_TRACK("getNumAutomateInfos");	
 		return gGlobals->getNumAutomateInfos();	
@@ -3106,7 +3106,7 @@ public:
 		PROXY_TRACK("getNumEntityEventTypes");	
 		return gGlobals->getNumEntityEventTypes();	
 	}
-	DllExport CvString& getEntityEventTypes(EntityEventTypes e)
+	CvString& getEntityEventTypes(EntityEventTypes e)
 	{
 		PROXY_TRACK("getEntityEventTypes");	
 		return gGlobals->getEntityEventTypes(e);	

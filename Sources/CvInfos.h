@@ -218,17 +218,17 @@ public:
 	int getOrderPriority() const;
 	void setOrderPriority(int i);
 
-	DllExport bool isAltDown() const;
+	bool isAltDown() const;
 	void setAltDown(bool b);
-	DllExport bool isShiftDown() const;
+	bool isShiftDown() const;
 	void setShiftDown(bool b);
-	DllExport bool isCtrlDown() const;
+	bool isCtrlDown() const;
 	void setCtrlDown(bool b);
-	DllExport bool isAltDownAlt() const;
+	bool isAltDownAlt() const;
 	void setAltDownAlt(bool b);
-	DllExport bool isShiftDownAlt() const;
+	bool isShiftDownAlt() const;
 	void setShiftDownAlt(bool b);
-	DllExport bool isCtrlDownAlt() const;
+	bool isCtrlDownAlt() const;
 	void setCtrlDownAlt(bool b);
 	const TCHAR* getHotKey() const;			// Exposed to Python
 	void setHotKey(const TCHAR* szVal);
@@ -1858,7 +1858,7 @@ public:
 
 	int getAutomateType() const;
 	int getInterfaceModeType() const;				// Exposed to Python
-	DllExport int getMissionType() const;				// Exposed to Python
+	int getMissionType() const;				// Exposed to Python
 	int getCommandType() const;				// Exposed to Python
 	int getControlType() const;				// Exposed to Python
 	int getOriginalIndex() const;
@@ -1871,9 +1871,9 @@ public:
 
 	// functions to replace the CvInfoBase calls
 	const TCHAR* getType() const;
-	DllExport const wchar* getDescription() const;
+	const wchar* getDescription() const;
 	const wchar* getCivilopedia() const;
-	DllExport const wchar* getHelp() const;
+	const wchar* getHelp() const;
 	const wchar* getStrategy() const;/*
 	const wchar* getGenericCategory() const;*/
 	virtual const TCHAR* getButton() const;
@@ -3164,7 +3164,7 @@ class CvUnitFormationInfo : public CvInfoBase
 public:
 
 	DllExport CvUnitFormationInfo();
-	DllExport virtual ~CvUnitFormationInfo();
+	virtual ~CvUnitFormationInfo();
 
 	DllExport const TCHAR* getFormationType() const;
 /************************************************************************************************/
@@ -10107,7 +10107,7 @@ public:
 	CvCameraInfo() {}
 	virtual ~CvCameraInfo() {}
 
-	DllExport const TCHAR* getPath() const { return m_szPath; }
+	const TCHAR* getPath() const { return m_szPath; }
 	void setPath(const TCHAR* szVal) { m_szPath = szVal; }
 
 	bool read(CvXMLLoadUtility* pXML);
@@ -10345,7 +10345,7 @@ public:
 	CvForceControlInfo();
 	virtual ~CvForceControlInfo();
 
-	DllExport bool getDefault() const;
+	bool getDefault() const;
 
 	bool read(CvXMLLoadUtility* pXML);
 
