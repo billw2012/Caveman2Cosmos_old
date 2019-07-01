@@ -17679,6 +17679,18 @@
 		<Polish>Jamajka została odkryta przez Krzysztofa Kolumba w 1494, początkowo nazwana Santiago. Pierwsi skolonizowali ją Hiszpanie. Ze względu na brak rąk do pracy Hiszpanie zaczęli sprowadzać na wyspę mieszkańców Afryki, którzy byli wykorzystywani do niewolniczej pracy na plantacjach zamiast Indian. Ludność indiańska wyginęła do roku 1655. W 1655, w ciągu zaledwie dwóch dni (10-11 maja), została podbita przez Anglików. Flotą inwazyjną dowodzili: admirał William Penn i generał Robert Venables. Na pokładach 38 angielskich statków było 7 tys. żołnierzy i 1 tys. marynarzy. Mimo że Anglia formalnie nie była w stanie wojny z Hiszpanią, angielska marynarka wojenna na rozkaz Cromwella agresywnie operowała na Karaibach, nieustannie nękając osłabionych Hiszpanów. Flota Penna usiłowała już wcześniej bez powodzenia zdobyć Santo Domingo. Po fiasku tej akcji okręty skierowały się ku Jamajce, zdobywając ją bez żadnych strat - Hiszpanie w obliczu wroga zrejterowali i wycofali się w głąb wyspy. W latach 1780-1787 z powodu spadku popytu na cukier, zginęło z głodu 15 tys. niewolników. W 1833 roku na skutek powstań niewolników, na wyspie zniesiono niewolnictwo murzynów. 1865 roku wyspa uzyskała konstytucję nadającą jej status kolonii (który został utrzymany do 1945 roku). Doszło do tego w wyniku powstania spowodowanego pogarszającymi się warunkami życia ludności murzyńskiej, które zostało zapoczątkowane rebelią w Morant Bay, wkrótce stłumioną. Po I wojnie światowej doszło do coraz większego uzależnienia wyspy od Stanów Zjednoczonych których rząd wpływał na sytuację w kraju poprzez korporację United Fruit Company. Wzrosła też emigracja Jamajczyków do USA, na Kubęi do państw Ameryki Środkowej.</Polish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MISSISSIPPI_EMBASSY</Tag>
+		<English>Culture (Mississippi)</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MISSISSIPPI_EMBASSY_STRATEGY</Tag>
+		<English>Build Culture (Mississippi) to gain access to unique buildings and units.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MISSISSIPPI_EMBASSY_PEDIA</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MIXTEC_EMBASSY</Tag>
 		<English>Culture (Mixtec)</English>
 		<Polish>Kultura (Misteków)</Polish>

@@ -1474,6 +1474,15 @@
 			<DefaultBuilding>BUILDING_JAMAICAN_EMBASSY</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_MISSISSIPPI_EMBASSY</Type>
+			<Description>TXT_KEY_BUILDING_MISSISSIPPI_EMBASSY</Description>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<bNoLimit>1</bNoLimit>
+			<DefaultBuilding>BUILDING_MISSISSIPPI_EMBASSY</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_MIXTEC_EMBASSY</Type>
 			<Description>TXT_KEY_BUILDING_MIXTEC_EMBASSY</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>

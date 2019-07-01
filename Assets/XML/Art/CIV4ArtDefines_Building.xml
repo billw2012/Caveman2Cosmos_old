@@ -19310,6 +19310,16 @@
 			<Button>art/Embassy/art/jamaicanembassy.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_MISSISSIPPI_EMBASSY</Type>
+			<LSystem/>
+			<bAnimated/>
+			<fScale/>
+			<fInterfaceScale/>
+			<NIF/>
+			<KFM/>
+			<Button>art/Embassy/art/missiembassy.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MIXTEC_EMBASSY</Type>
 			<LSystem/>
 			<bAnimated/>
