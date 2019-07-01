@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 
 #ifndef CvString_h
 #define CvString_h

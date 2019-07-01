@@ -232,9 +232,9 @@ public:
 	bool AI_considerOffer(PlayerTypes ePlayer, const CLinkList<TradeData>* pTheirList, const CLinkList<TradeData>* pOurList, int iChange = 1) const;
 	bool AI_counterPropose(PlayerTypes ePlayer, const CLinkList<TradeData>* pTheirList, const CLinkList<TradeData>* pOurList, CLinkList<TradeData>* pTheirInventory, CLinkList<TradeData>* pOurInventory, CLinkList<TradeData>* pTheirCounter, CLinkList<TradeData>* pOurCounter) const;
 
-	DllExport int AI_maxGoldTrade(PlayerTypes ePlayer) const;
+	int AI_maxGoldTrade(PlayerTypes ePlayer) const;
 
-	DllExport int AI_maxGoldPerTurnTrade(PlayerTypes ePlayer) const;
+	int AI_maxGoldPerTurnTrade(PlayerTypes ePlayer) const;
 	int AI_goldPerTurnTradeVal(int iGoldPerTurn) const;
 
 	int AI_bonusVal(BonusTypes eBonus, int iChange = 1, bool bForTrade = false) const;

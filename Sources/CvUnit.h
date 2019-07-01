@@ -72,7 +72,7 @@ struct CombatResult
 /************************************************************************************************/
 /* Afforess	                     END                                                            */
 /************************************************************************************************/
-struct DllExport CombatDetails					// Exposed to Python
+struct CombatDetails					// Exposed to Python
 {
 	int iExtraCombatPercent;
 	int iAnimalCombatModifierTA;
@@ -828,7 +828,7 @@ public:
 							
 	int withdrawalHP(int maxHitPoints, int iAttackerEarly) const;
 	DllExport int maxHitPoints() const;																		// Exposed to Python						
-	DllExport int currHitPoints() const;																	// Exposed to Python						
+	int currHitPoints() const;																	// Exposed to Python						
 	bool isHurt() const;																				// Exposed to Python						
 	DllExport bool isDead() const;																				// Exposed to Python						
 
@@ -865,7 +865,7 @@ public:
 	int combatLimit(const CvUnit* pOpponent = NULL) const;																												// Exposed to Python
 	int airCombatLimit(const CvUnit* pOpponent = NULL) const;																												// Exposed to Python
 	DllExport bool canAirAttack() const;																							// Exposed to Python
-	DllExport bool canAirDefend(const CvPlot* pPlot = NULL) const;										// Exposed to Python
+	bool canAirDefend(const CvPlot* pPlot = NULL) const;										// Exposed to Python
 	int airCombatDamage(const CvUnit* pDefender) const;																// Exposed to Python
 	int rangeCombatDamage(const CvUnit* pDefender) const;																// Exposed to Python
 	CvUnit* bestInterceptor(const CvPlot* pPlot) const;																// Exposed to Python
@@ -1023,7 +1023,7 @@ public:
 	bool isGroupHead() const;																								// Exposed to Python
 	DllExport CvSelectionGroup* getGroup() const;																			// Exposed to Python
 	bool canJoinGroup(const CvPlot* pPlot, CvSelectionGroup* pSelectionGroup) const;
-	DllExport void joinGroup(CvSelectionGroup* pSelectionGroup, bool bRemoveSelected = false, bool bRejoin = true);
+	void joinGroup(CvSelectionGroup* pSelectionGroup, bool bRemoveSelected = false, bool bRejoin = true);
 
 	DllExport int getHotKeyNumber();																													// Exposed to Python
 	void setHotKeyNumber(int iNewValue);																											// Exposed to Python
@@ -1563,7 +1563,7 @@ public:
 // BUG - Unit Name - start
 	bool isDescInName() const;
 // BUG - Unit Name - end
-	DllExport const wchar* getNameKey() const;																							// Exposed to Python
+	const wchar* getNameKey() const;																							// Exposed to Python
 	const CvWString& getNameNoDesc() const;																				// Exposed to Python
 	void setName(const CvWString szNewValue);																			// Exposed to Python
 
@@ -1622,7 +1622,7 @@ public:
 	UnitCombatTypes getBestHealingType();
 	UnitCombatTypes getBestHealingTypeConst() const;
 
-	DllExport int getSubUnitCount() const;
+	int getSubUnitCount() const;
 	DllExport int getSubUnitsAlive() const;
 	int getSubUnitsAlive(int iDamage) const;
 
@@ -2809,13 +2809,13 @@ public:
 	int getBaseRBombardDamageMaxUnits() const;
 	void changeBaseRBombardDamageMaxUnits(int iChange, bool bAdding, UnitCombatTypes eUnitCombat);
 
-	DllExport int getDCMBombRange() const;
+	int getDCMBombRange() const;
 	int getExtraDCMBombRange() const;
 	void changeExtraDCMBombRange(int iChange);
 	int getBaseDCMBombRange() const;
 	void changeBaseDCMBombRange(int iChange, bool bAdding, UnitCombatTypes eUnitCombat);
 
-	DllExport int getDCMBombAccuracy() const;
+	int getDCMBombAccuracy() const;
 	int getExtraDCMBombAccuracy() const;
 	void changeExtraDCMBombAccuracy(int iChange);
 	int getBaseDCMBombAccuracy() const;

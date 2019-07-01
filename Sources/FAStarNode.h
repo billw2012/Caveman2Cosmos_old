@@ -17,7 +17,6 @@
 
 #ifndef		FASTARNODE_H
 #define		FASTARNODE_H
-#pragma		once
 
 #define ASNL_ADDOPEN			0
 #define ASNL_STARTOPEN		1

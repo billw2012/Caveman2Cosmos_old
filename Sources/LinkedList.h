@@ -8,7 +8,6 @@
 
 #ifndef		LINKEDLIST_H
 #define		LINKEDLIST_H
-#pragma		once
 
 template <class tVARTYPE> class CLinkList;
 

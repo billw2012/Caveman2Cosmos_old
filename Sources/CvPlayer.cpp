@@ -20533,31 +20533,6 @@ CvSelectionGroup* CvPlayer::nextSelectionGroup(int *pIterIdx, bool bRev) const
 	return pResult;
 }
 
-CvSelectionGroup* CvPlayer::firstSelectionGroupExternal(int *pIterIdx, bool bRev) const
-{
-	CvSelectionGroup*	pResult = firstSelectionGroup(pIterIdx, bRev);
-
-	if(pResult && pResult->getHeadUnit() != NULL && !pResult->getHeadUnit()->isInViewport())
-	{
-		pResult = nextSelectionGroupExternal(pIterIdx, bRev);
-	}
-
-	return pResult;
-}
-
-
-CvSelectionGroup* CvPlayer::nextSelectionGroupExternal(int *pIterIdx, bool bRev) const
-{
-	CvSelectionGroup*	pResult = nextSelectionGroup(pIterIdx, bRev);
-
-	while(pResult && pResult->getHeadUnit() != NULL && !pResult->getHeadUnit()->isInViewport())
-	{
-		pResult = nextSelectionGroup(pIterIdx, bRev);
-	}
-
-	return pResult;
-}
-
 
 int CvPlayer::getNumSelectionGroups() const																
 {

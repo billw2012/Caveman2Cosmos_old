@@ -39,7 +39,7 @@ public:
 	DllExport void setTarget(ChatTargetTypes eType);
 	DllExport PlayerTypes getFromPlayer() const;
 	DllExport void setFromPlayer(PlayerTypes eFromPlayer);
-	DllExport bool getShown() const;
+	bool getShown() const;
 	DllExport void setShown(bool bShown);
 
 	int getExpireTurn();

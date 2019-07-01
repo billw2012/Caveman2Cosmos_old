@@ -22,7 +22,7 @@ class CvCity;
 class CvUnit;
 class CvPlot;
 
-class DllExport CvDLLEntity
+class CvDLLEntity
 {
 public:
 	CvDLLEntity();
@@ -44,7 +44,7 @@ public:
 	void createUnitEntity(CvUnit*);
 	void destroyEntity();
 
-	bool IsSelected() const;
+	DllExport bool IsSelected() const;
 	void PlayAnimation(AnimationTypes eAnim, float fSpeed = 1.0f, bool bQueue = false, int iLayer = 0, 
 		float fStartPct = 0.0f, float fEndPct = 1.0f);
 	void StopAnimation(AnimationTypes eAnim);

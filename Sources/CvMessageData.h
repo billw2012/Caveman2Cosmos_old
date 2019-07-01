@@ -10,10 +10,10 @@ class CvMessageData
 public:
 	CvMessageData(GameMessageTypes eType);
 	virtual ~CvMessageData();
-	DllExport virtual void Debug(char* szAddendum) = 0;
-	DllExport virtual void Execute() = 0;
-	DllExport virtual void PutInBuffer(FDataStreamBase* pStream) = 0;
-	DllExport virtual void SetFromBuffer(FDataStreamBase* pStream) = 0;
+	virtual void Debug(char* szAddendum) = 0;
+	virtual void Execute() = 0;
+	virtual void PutInBuffer(FDataStreamBase* pStream) = 0;
+	virtual void SetFromBuffer(FDataStreamBase* pStream) = 0;
 
 	DllExport GameMessageTypes getType() const;
 
@@ -522,10 +522,10 @@ class CvNetBuildListEdit : public CvMessageData
 public:
 	CvNetBuildListEdit();
 	CvNetBuildListEdit(PlayerTypes ePlayer, int iID, CvString szName, bool bDelete);
-	DllExport virtual void Debug(char* szAddendum);
-	DllExport virtual void Execute();
-	DllExport virtual void PutInBuffer(FDataStreamBase* pStream);
-	DllExport virtual void SetFromBuffer(FDataStreamBase* pStream);
+	virtual void Debug(char* szAddendum);
+	virtual void Execute();
+	virtual void PutInBuffer(FDataStreamBase* pStream);
+	virtual void SetFromBuffer(FDataStreamBase* pStream);
 private:
 	PlayerTypes m_ePlayer;
 	int m_iID;
@@ -539,10 +539,10 @@ class CvNetChooseBuildUp : public CvMessageData
 public:
 	CvNetChooseBuildUp();
 	CvNetChooseBuildUp(PlayerTypes ePlayer, PromotionLineTypes ePromotionLine, int iID);
-	DllExport virtual void Debug(char* szAddendum);
-	DllExport virtual void Execute();
-	DllExport virtual void PutInBuffer(FDataStreamBase* pStream);
-	DllExport virtual void SetFromBuffer(FDataStreamBase* pStream);
+	virtual void Debug(char* szAddendum);
+	virtual void Execute();
+	virtual void PutInBuffer(FDataStreamBase* pStream);
+	virtual void SetFromBuffer(FDataStreamBase* pStream);
 private:
 	PlayerTypes m_ePlayer;
 	PromotionLineTypes m_ePromotionLine;
@@ -555,10 +555,10 @@ class CvNetChooseTrait : public CvMessageData
 public:
 	CvNetChooseTrait();
 	CvNetChooseTrait(PlayerTypes ePlayer, TraitTypes eTrait, bool bNewValue);
-	DllExport virtual void Debug(char* szAddendum);
-	DllExport virtual void Execute();
-	DllExport virtual void PutInBuffer(FDataStreamBase* pStream);
-	DllExport virtual void SetFromBuffer(FDataStreamBase* pStream);
+	virtual void Debug(char* szAddendum);
+	virtual void Execute();
+	virtual void PutInBuffer(FDataStreamBase* pStream);
+	virtual void SetFromBuffer(FDataStreamBase* pStream);
 private:
 	PlayerTypes m_ePlayer;
 	TraitTypes m_eTrait;
@@ -571,10 +571,10 @@ class CvNetChooseMergeUnit : public CvMessageData
 public:
 	CvNetChooseMergeUnit();
 	CvNetChooseMergeUnit(PlayerTypes ePlayer, int iUnitID);
-	DllExport virtual void Debug(char* szAddendum);
-	DllExport virtual void Execute();
-	DllExport virtual void PutInBuffer(FDataStreamBase* pStream);
-	DllExport virtual void SetFromBuffer(FDataStreamBase* pStream);
+	virtual void Debug(char* szAddendum);
+	virtual void Execute();
+	virtual void PutInBuffer(FDataStreamBase* pStream);
+	virtual void SetFromBuffer(FDataStreamBase* pStream);
 private:
 	PlayerTypes m_ePlayer;
 	int m_iUnitID;
@@ -586,10 +586,10 @@ class CvNetConfirmSplitUnit : public CvMessageData
 public:
 	CvNetConfirmSplitUnit();
 	CvNetConfirmSplitUnit(PlayerTypes ePlayer, bool bConfirm);
-	DllExport virtual void Debug(char* szAddendum);
-	DllExport virtual void Execute();
-	DllExport virtual void PutInBuffer(FDataStreamBase* pStream);
-	DllExport virtual void SetFromBuffer(FDataStreamBase* pStream);
+	virtual void Debug(char* szAddendum);
+	virtual void Execute();
+	virtual void PutInBuffer(FDataStreamBase* pStream);
+	virtual void SetFromBuffer(FDataStreamBase* pStream);
 private:
 	PlayerTypes m_ePlayer;
 	bool m_bConfirm;
@@ -601,10 +601,10 @@ class CvNetImprovementUpgrade : public CvMessageData
 public:
 	CvNetImprovementUpgrade();
 	CvNetImprovementUpgrade(PlayerTypes ePlayer, ImprovementTypes eImprovement, int iX, int iY, bool bConfirm);
-	DllExport virtual void Debug(char* szAddendum);
-	DllExport virtual void Execute();
-	DllExport virtual void PutInBuffer(FDataStreamBase* pStream);
-	DllExport virtual void SetFromBuffer(FDataStreamBase* pStream);
+	virtual void Debug(char* szAddendum);
+	virtual void Execute();
+	virtual void PutInBuffer(FDataStreamBase* pStream);
+	virtual void SetFromBuffer(FDataStreamBase* pStream);
 private:
 	PlayerTypes m_ePlayer;
 	ImprovementTypes m_eImprovement;
@@ -619,10 +619,10 @@ class CvNetChooseArrestUnit : public CvMessageData
 public:
 	CvNetChooseArrestUnit();
 	CvNetChooseArrestUnit(PlayerTypes ePlayer, PlayerTypes ePlayerT, int iUnitID);
-	DllExport virtual void Debug(char* szAddendum);
-	DllExport virtual void Execute();
-	DllExport virtual void PutInBuffer(FDataStreamBase* pStream);
-	DllExport virtual void SetFromBuffer(FDataStreamBase* pStream);
+	virtual void Debug(char* szAddendum);
+	virtual void Execute();
+	virtual void PutInBuffer(FDataStreamBase* pStream);
+	virtual void SetFromBuffer(FDataStreamBase* pStream);
 private:
 	PlayerTypes m_ePlayer;
 	PlayerTypes m_ePlayerT;
@@ -635,10 +635,10 @@ class CvNetConfirmAmbush : public CvMessageData
 public:
 	CvNetConfirmAmbush();
 	CvNetConfirmAmbush(PlayerTypes ePlayer, bool bConfirm);
-	DllExport virtual void Debug(char* szAddendum);
-	DllExport virtual void Execute();
-	DllExport virtual void PutInBuffer(FDataStreamBase* pStream);
-	DllExport virtual void SetFromBuffer(FDataStreamBase* pStream);
+	virtual void Debug(char* szAddendum);
+	virtual void Execute();
+	virtual void PutInBuffer(FDataStreamBase* pStream);
+	virtual void SetFromBuffer(FDataStreamBase* pStream);
 private:
 	PlayerTypes m_ePlayer;
 	bool m_bConfirm;

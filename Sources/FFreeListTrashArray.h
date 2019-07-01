@@ -17,7 +17,6 @@
 
 #ifndef		FFREELISTTRASHARRAY_H
 #define		FFREELISTTRASHARRAY_H
-#pragma		once
 
 #include	"FFreeListArrayBase.h"
 #include	"FDataStreamBase.h"

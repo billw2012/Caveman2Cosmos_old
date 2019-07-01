@@ -60,8 +60,8 @@ protected:
 	OutcomeTypes m_eType;
 	IntExpr* m_iChance;
 	int m_iChancePerPop;
-	(IntExpr*) m_aiYield[NUM_YIELD_TYPES];
-	(IntExpr*) m_aiCommerce[NUM_COMMERCE_TYPES];
+	IntExpr* m_aiYield[NUM_YIELD_TYPES];
+	IntExpr* m_aiCommerce[NUM_COMMERCE_TYPES];
 	UnitTypes m_eUnitType;
 	BoolExpr* m_bUnitToCity;
 	PromotionTypes m_ePromotionType;

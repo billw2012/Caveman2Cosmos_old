@@ -17,7 +17,6 @@
 
 #ifndef		FFREELISTARRAYBASE_H
 #define		FFREELISTARRAYBASE_H
-#pragma		once
 
 namespace FFreeList
 {

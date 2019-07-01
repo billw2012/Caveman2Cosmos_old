@@ -19,7 +19,6 @@
 
 #ifndef		FDATASTREAMBASE_H
 #define		FDATASTREAMBASE_H
-#pragma		once
 
 //
 // Stream abstract base class

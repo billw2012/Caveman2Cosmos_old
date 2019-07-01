@@ -78,11 +78,11 @@ public:
 /* War Strategy AI                                                                              */
 /************************************************************************************************/
 	bool canEventuallyDeclareWar(TeamTypes eTeam) const;
-	DllExport void declareWar(TeamTypes eTeam, bool bNewDiplo, WarPlanTypes eWarPlan, bool bCancelPacts = true);										// Exposed to Python
+	void declareWar(TeamTypes eTeam, bool bNewDiplo, WarPlanTypes eWarPlan, bool bCancelPacts = true);										// Exposed to Python
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                       END                                                  */
 /************************************************************************************************/
-	DllExport void makePeace(TeamTypes eTeam, bool bBumpUnits = true);																		// Exposed to Python
+	void makePeace(TeamTypes eTeam, bool bBumpUnits = true);																		// Exposed to Python
 	bool canContact(TeamTypes eTeam) const;																							// Exposed to Python
 	void meet(TeamTypes eTeam, bool bNewDiplo);																		// Exposed to Python
 	void signOpenBorders(TeamTypes eTeam);																				// Exposed to Python
@@ -181,13 +181,13 @@ public:
 	PlayerTypes getLeaderID() const;																										// Exposed to Python
 	PlayerTypes getSecretaryID() const;																									// Exposed to Python
 	HandicapTypes getHandicapType() const;																							// Exposed to Python
-	DllExport CvWString getName() const;																								// Exposed to Python
+	CvWString getName() const;																								// Exposed to Python
 
 	DllExport int getNumMembers() const;																								// Exposed to Python
 	void changeNumMembers(int iChange);
 
-	DllExport int getAliveCount() const;
-	DllExport int isAlive() const;																											// Exposed to Python
+	int getAliveCount() const;
+	int isAlive() const;																											// Exposed to Python
 	void changeAliveCount(int iChange);
 
 	int getEverAliveCount() const;
@@ -413,7 +413,7 @@ public:
 	void makeHasMet(TeamTypes eIndex, bool bNewDiplo);
 
 	DllExport bool isAtWar(TeamTypes eIndex) const;																			// Exposed to Python
-	DllExport void setAtWar(TeamTypes eIndex, bool bNewValue);
+	void setAtWar(TeamTypes eIndex, bool bNewValue);
 
 	bool isPermanentWarPeace(TeamTypes eIndex) const;																		// Exposed to Python
 	void setPermanentWarPeace(TeamTypes eIndex, bool bNewValue);									// Exposed to Python
@@ -507,7 +507,7 @@ public:
 	void setVictoryCountdown(VictoryTypes eIndex, int iTurnsLeft);
 	void changeVictoryCountdown(VictoryTypes eIndex, int iChange);
 	int getVictoryDelay(VictoryTypes eVictory) const;
-	DllExport bool canLaunch(VictoryTypes eVictory) const;		// Exposed to Python 
+	bool canLaunch(VictoryTypes eVictory) const;		// Exposed to Python 
 	void setCanLaunch(VictoryTypes eVictory, bool bCan);
 	int getLaunchSuccessRate(VictoryTypes eVictory) const;		// Exposed to Python
 	void resetVictoryProgress();
@@ -535,7 +535,7 @@ public:
 	void setForceRevealedBonus(BonusTypes eBonus, bool bRevealed);
 	bool isForceRevealedBonus(BonusTypes eBonus) const;
 
-	DllExport int countNumHumanGameTurnActive() const;
+	int countNumHumanGameTurnActive() const;
 	void setTurnActive(bool bNewValue, bool bTurn = true);
 	bool isTurnActive() const;
 

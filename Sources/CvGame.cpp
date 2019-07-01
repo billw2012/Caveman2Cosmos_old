@@ -4957,6 +4957,12 @@ void CvGame::setAIAutoPlay(PlayerTypes iPlayer, int iNewValue, bool bForced)
 	}
 }
 
+void CvGame::setAIAutoPlayExternal(int iNewValue)
+{
+    PlayerTypes iPlayer = getActivePlayer();
+    return setAIAutoPlay(iPlayer, iNewValue);
+}
+
 void CvGame::changeAIAutoPlay(PlayerTypes iPlayer, int iChange)
 {
 	setAIAutoPlay(iPlayer, (getAIAutoPlay(iPlayer) + iChange));

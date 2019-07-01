@@ -18,7 +18,6 @@
 class CvPlot;
 class CvPlotGroup;
 class CvArea;
-class CvGenericBuilding;
 class CvArtInfoBuilding;
 class CvCityTurnPipelineWorkItem;
 
@@ -376,7 +375,7 @@ public:
 	CivilizationTypes getCivilizationType() const;								// Exposed to Python
 	LeaderHeadTypes getPersonalityType() const;															// Exposed to Python
 	DllExport ArtStyleTypes getArtStyleType() const;														// Exposed to Python
-	DllExport CitySizeTypes getCitySizeType() const;												// Exposed to Python
+	CitySizeTypes getCitySizeType() const;												// Exposed to Python
 	DllExport const CvArtInfoBuilding* getBuildingArtInfo(BuildingTypes eBuilding) const;
 	DllExport float getBuildingVisibilityPriority(BuildingTypes eBuilding) const;
 
@@ -569,7 +568,7 @@ public:
 	bool isCachedBestSeeInvisibleUnit(InvisibleTypes eInvisible, bool bSea = false) const;
 
 	DllExport int getID() const;																			// Exposed to Python
-	DllExport int getIndex() const;
+	int getIndex() const;
 	DllExport IDInfo getIDInfo() const;
 	void setID(int iID);
 
@@ -1367,7 +1366,7 @@ public:
 	DllExport bool isStarCity() const;
 	
 	// Exposed to Python
-	DllExport void setWallOverridePoints(const std::vector< std::pair<float, float> >& kPoints); /* points are given in world space ... i.e. PlotXToPointX, etc */
+	void setWallOverridePoints(const std::vector< std::pair<float, float> >& kPoints); /* points are given in world space ... i.e. PlotXToPointX, etc */
 	DllExport const std::vector< std::pair<float, float> >& getWallOverridePoints() const;
 
 	bool isEventTriggerPossible(EventTriggerTypes eTrigger) const;

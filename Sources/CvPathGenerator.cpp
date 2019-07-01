@@ -5,9 +5,6 @@
 #include "CvBugOptions.h"
 #include "CvPathGenerator.h"
 
-#define BOOST_THREAD_NO_LIB
-#define BOOST_THREAD_USE_LIB
-#include <boost/thread/thread.hpp>
 #include <boost/bind.hpp>
 
 #include "CvGameAI.h"

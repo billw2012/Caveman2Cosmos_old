@@ -15,7 +15,6 @@
 
 #ifndef		FVARIABLESYSTEM_H
 #define		FVARIABLESYSTEM_H
-#pragma		once
 
 //! Represents the different types of data an FVariable can represent.
 enum eVariableType

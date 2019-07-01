@@ -22,7 +22,7 @@ public:
 	unsigned int getInt();
 
 	void reseed(unsigned long ulNewValue);
-	DllExport unsigned long getSeed();
+	unsigned long getSeed();
 
 	// for serialization
 	void read(FDataStreamBase* pStream);

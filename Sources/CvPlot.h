@@ -108,7 +108,7 @@ public:
 	void setupGraphical();
 	void updateGraphicEra();
 
-	DllExport void erase();																																								// Exposed to Python
+	void erase();																																								// Exposed to Python
 																																							// Exposed to Python
 /*********************************/
 /***** Parallel Maps - Begin *****/
@@ -187,7 +187,7 @@ public:
 	bool canHavePotentialIrrigation() const;																										// Exposed to Python
 	DllExport bool isIrrigationAvailable(bool bIgnoreSelf = false) const;												// Exposed to Python
 
-	DllExport bool isRiverMask() const;
+	bool isRiverMask() const;
 	DllExport bool isRiverCrossingFlowClockwise(DirectionTypes eDirection) const;
 	bool isRiverSide() const;																																		// Exposed to Python
 	bool isRiver() const;																																				// Exposed to Python
@@ -413,7 +413,7 @@ public:
 	bool isHominid() const;																																					// Exposed to Python
 	bool isRevealedBarbarian() const;																																	// Exposed to Python
 
-	DllExport bool isVisible(TeamTypes eTeam, bool bDebug) const;																			// Exposed to Python
+	bool isVisible(TeamTypes eTeam, bool bDebug) const;																			// Exposed to Python
 	DllExport bool isActiveVisible(bool bDebug) const;																								// Exposed to Python
 	bool isVisibleToCivTeam() const;																																	// Exposed to Python
 	bool isVisibleToWatchingHuman() const;																														// Exposed to Python
@@ -565,10 +565,10 @@ public:
 	void setStartingPlot(bool bNewValue);																															// Exposed to Python
 	
 	DllExport bool isNOfRiver() const;																																// Exposed to Python					
-	DllExport void setNOfRiver(bool bNewValue, CardinalDirectionTypes eRiverDir);											// Exposed to Python					
+	void setNOfRiver(bool bNewValue, CardinalDirectionTypes eRiverDir);											// Exposed to Python					
 																																																		
 	DllExport bool isWOfRiver() const;																																// Exposed to Python					
-	DllExport void setWOfRiver(bool bNewValue, CardinalDirectionTypes eRiverDir);											// Exposed to Python					
+	void setWOfRiver(bool bNewValue, CardinalDirectionTypes eRiverDir);											// Exposed to Python					
 																																																		
 	DllExport CardinalDirectionTypes getRiverNSDirection() const;																			// Exposed to Python					
 	DllExport CardinalDirectionTypes getRiverWEDirection() const;																			// Exposed to Python					
@@ -615,12 +615,12 @@ public:
 
 	DllExport FeatureTypes getFeatureTypeExternal() const;																																	// Exposed to Python
 	FeatureTypes getFeatureType() const;																																	// Exposed to Python
-	DllExport void setFeatureType(FeatureTypes eNewValue, int iVariety = -1, bool bImprovementSet = false);																				// Exposed to Python
-	DllExport void setFeatureDummyVisibility(const char *dummyTag, bool show);																				// Exposed to Python
-	DllExport void addFeatureDummyModel(const char *dummyTag, const char *modelTag);
-	DllExport void setFeatureDummyTexture(const char *dummyTag, const char *textureTag);
-	DllExport CvString pickFeatureDummyTag(int mouseX, int mouseY);
-	DllExport void resetFeatureModel();
+	void setFeatureType(FeatureTypes eNewValue, int iVariety = -1, bool bImprovementSet = false);																				// Exposed to Python
+	void setFeatureDummyVisibility(const char *dummyTag, bool show);																				// Exposed to Python
+	void addFeatureDummyModel(const char *dummyTag, const char *modelTag);
+	void setFeatureDummyTexture(const char *dummyTag, const char *textureTag);
+	CvString pickFeatureDummyTag(int mouseX, int mouseY);
+	void resetFeatureModel();
 
 	DllExport BonusTypes getBonusType(TeamTypes eTeam = NO_TEAM) const;																							// Exposed to Python
 	BonusTypes getNonObsoleteBonusType(TeamTypes eTeam = NO_TEAM) const;																	// Exposed to Python
@@ -630,10 +630,10 @@ public:
 	int getImprovementCurrentValue() const;
 
 	DllExport ImprovementTypes getImprovementType() const;																													// Exposed to Python
-	DllExport void setImprovementType(ImprovementTypes eNewValue);																									// Exposed to Python
+	void setImprovementType(ImprovementTypes eNewValue);																									// Exposed to Python
 
-	DllExport RouteTypes getRouteType() const;																																			// Exposed to Python
-	DllExport void setRouteType(RouteTypes eNewValue, bool bUpdatePlotGroup);																															// Exposed to Python
+	RouteTypes getRouteType() const;																																			// Exposed to Python
+	void setRouteType(RouteTypes eNewValue, bool bUpdatePlotGroup);																															// Exposed to Python
 	void updateCityRoute(bool bUpdatePlotGroup);
 
 	DllExport CvCity* getPlotCity() const;																																					// Exposed to Python
@@ -733,7 +733,7 @@ public:
 	void resetBlockadedCounts();
 
 	DllExport PlayerTypes getRevealedOwner(TeamTypes eTeam, bool bDebug) const;													// Exposed to Python
-	DllExport TeamTypes getRevealedTeam(TeamTypes eTeam, bool bDebug) const;														// Exposed to Python
+	TeamTypes getRevealedTeam(TeamTypes eTeam, bool bDebug) const;														// Exposed to Python
 	void setRevealedOwner(TeamTypes eTeam, PlayerTypes eNewValue);
 	void updateRevealedOwner(TeamTypes eTeam);
 
@@ -742,14 +742,14 @@ public:
 	void updateRiverCrossing();
 
 	DllExport bool isRevealed(TeamTypes eTeam, bool bDebug) const;																								// Exposed to Python
-	DllExport void setRevealed(TeamTypes eTeam, bool bNewValue, bool bTerrainOnly, TeamTypes eFromTeam, bool bUpdatePlotGroup);	// Exposed to Python
+	void setRevealed(TeamTypes eTeam, bool bNewValue, bool bTerrainOnly, TeamTypes eFromTeam, bool bUpdatePlotGroup);	// Exposed to Python
 	bool isAdjacentRevealed(TeamTypes eTeam, bool bDebug = false) const;																				// Exposed to Python
 	bool isAdjacentNonrevealed(TeamTypes eTeam) const;																				// Exposed to Python
 
-	DllExport ImprovementTypes getRevealedImprovementType(TeamTypes eTeam, bool bDebug) const;					// Exposed to Python
+	ImprovementTypes getRevealedImprovementType(TeamTypes eTeam, bool bDebug) const;					// Exposed to Python
 	void setRevealedImprovementType(TeamTypes eTeam, ImprovementTypes eNewValue);			
 
-	DllExport RouteTypes getRevealedRouteType(TeamTypes eTeam, bool bDebug) const;											// Exposed to Python
+	RouteTypes getRevealedRouteType(TeamTypes eTeam, bool bDebug) const;											// Exposed to Python
 	void setRevealedRouteType(TeamTypes eTeam, RouteTypes eNewValue);							
 
 	int getBuildProgress(BuildTypes eBuild) const;																											// Exposed to Python  
@@ -770,8 +770,8 @@ public:
 
 	DllExport void getVisibleImprovementState(ImprovementTypes& eType, bool& bWorked);				// determines how the improvement state is shown in the engine
 	DllExport void getVisibleBonusState(BonusTypes& eType, bool& bImproved, bool& bWorked);		// determines how the bonus state is shown in the engine
-	DllExport bool shouldUsePlotBuilder();
-	DllExport CvPlotBuilder* getPlotBuilder() { return m_pPlotBuilder; }
+	bool shouldUsePlotBuilder();
+	CvPlotBuilder* getPlotBuilder() { return m_pPlotBuilder; }
 
 	DllExport CvRoute* getRouteSymbol() const;
 	void updateRouteSymbol(bool bForce = false, bool bAdjacent = false);
@@ -783,7 +783,7 @@ public:
 	CvFeature* getFeatureSymbol() const;
 
 	DllExport CvFlagEntity* getFlagSymbol() const;
-	DllExport CvFlagEntity* getFlagSymbolOffset() const;
+	CvFlagEntity* getFlagSymbolOffset() const;
 	DllExport void updateFlagSymbol();
 
 	DllExport CvUnit* getCenterUnit() const;
@@ -809,16 +809,16 @@ public:
 	bool HaveCachedPathValidityResult(void* entity, bool bIsAlternateResult, bool& cachedResult);
 	void CachePathValidityResult(void* entity, bool bIsAlternateResult, bool cachedResult);
 
-	DllExport int getNumUnits() const;																																		// Exposed to Python
-	DllExport CvUnit* getUnitByIndex(int iIndex) const;																													// Exposed to Python
+	int getNumUnits() const;																																		// Exposed to Python
+	CvUnit* getUnitByIndex(int iIndex) const;																													// Exposed to Python
 	void addUnit(CvUnit* pUnit, bool bUpdate = true);
 	void removeUnit(CvUnit* pUnit, bool bUpdate = true);
 	DllExport CLLNode<IDInfo>* nextUnitNode(CLLNode<IDInfo>* pNode) const;
-	DllExport CLLNode<IDInfo>* prevUnitNode(CLLNode<IDInfo>* pNode) const;
+	CLLNode<IDInfo>* prevUnitNode(CLLNode<IDInfo>* pNode) const;
 	DllExport CLLNode<IDInfo>* headUnitNode() const;
-	DllExport CLLNode<IDInfo>* tailUnitNode() const;
+	CLLNode<IDInfo>* tailUnitNode() const;
 
-	DllExport int getNumSymbols() const;
+	int getNumSymbols() const;
 	CvSymbol* getSymbol(int iID) const;
 	CvSymbol* addSymbol();
 

@@ -17,7 +17,6 @@
 
 #ifndef		FINPUTDEVICE_H
 #define		FINPUTDEVICE_H
-#pragma		once
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //

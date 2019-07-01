@@ -72,8 +72,8 @@ public:
 	// default destructor
 	DllExport ~CvXMLLoadUtility();
 
-	DllExport bool CreateFXml();
-	DllExport void DestroyFXml();
+	bool CreateFXml();
+	void DestroyFXml();
 
 	DllExport bool LoadPostMenuGlobals();
 	DllExport bool LoadPreMenuGlobals();
@@ -82,13 +82,13 @@ public:
 	DllExport bool LoadGraphicOptions();
 
 	// read the global defines from a specific file
-	DllExport bool ReadGlobalDefines(const TCHAR* szXMLFileName, CvCacheObject* cache);
+	bool ReadGlobalDefines(const TCHAR* szXMLFileName, CvCacheObject* cache);
 	// loads globaldefines.xml and calls various other functions to load relevant global variables
 	DllExport bool SetGlobalDefines();
 	// loads globaltypes.xml and calls various other functions to load relevant global variables
 	DllExport bool SetGlobalTypes();
 	// loads calls various functions that load xml files that in turn load relevant global variables
-	DllExport bool SetGlobals();
+	bool SetGlobals();
 	// loads globaldefines.xml and calls various other functions to load relevant global variables
 	DllExport bool SetPostGlobalsGlobalDefines();
 
@@ -100,23 +100,23 @@ public:
 	DllExport bool SetupGlobalLandscapeInfo();
 	DllExport bool SetGlobalArtDefines();
 	DllExport bool LoadGlobalText();
-	DllExport bool SetHelpText();
+	bool SetHelpText();
 	DllExport void ResetGlobalEffectInfo();
 
 	// for progress bars
 	typedef void (*ProgressCB)(int iStepNum, int iTotalSteps, const char* szMessage);
-	DllExport static int GetNumProgressSteps();
-	DllExport void RegisterProgressCB(ProgressCB cbFxn) { m_pCBFxn = cbFxn; }
+	static int GetNumProgressSteps();
+	void RegisterProgressCB(ProgressCB cbFxn) { m_pCBFxn = cbFxn; }
 
 	// moves the current xml node from where it is now to the next non-comment node, returns false if it can't find one
 	// CHANGE 2013-10-15 (n47): now stored node is always an XML element, so it can't be a comment, thus we do not really need this method
 	// Change 2013-11-24 (alberts2): removed all references
-	DllExport bool SkipToNextVal() {return true;}
+	bool SkipToNextVal() {return true;}
 
 	// overloaded function that gets the child value of the tag with szName if there is only one child
 	// value of that name
 	// TODO 2013-11-21 (alberts2): check if this can be done with xerxes or remove all references.
-	DllExport void MapChildren();	// call this before GetChildXMLValByName to use fast searching
+	void MapChildren();	// call this before GetChildXMLValByName to use fast searching
 
 	// overloaded function that gets the child value of the tag with szName if there is only one child
 	// value of that name
@@ -167,19 +167,19 @@ public:
 	bool GetChildXmlValByName(bool* pbVal, const wchar_t* szName, bool bDefault = false)	{ return GetChildXmlValByName<bool> (pbVal, szName, bDefault); }
 
 	
-	DllExport bool GetChildXmlValByName(std::string& pszVal, const char* szName, char* pszDefault = NULL)
+	bool GetChildXmlValByName(std::string& pszVal, const char* szName, char* pszDefault = NULL)
 	{ OutputDebugString("Call: bool GetChildXmlValByName(std::string& pszVal, const char* szName, char* pszDefault = NULL)");	FAssert(false); return false; }
-	DllExport bool GetChildXmlValByName(std::wstring& pszVal, const char* szName, wchar* pszDefault = NULL)
+	bool GetChildXmlValByName(std::wstring& pszVal, const char* szName, wchar* pszDefault = NULL)
 	{ OutputDebugString("Call: bool GetChildXmlValByName(std::wstring& pszVal, const char* szName, wchar* pszDefault = NULL)");	FAssert(false); return false; }
-	DllExport bool GetChildXmlValByName(char* pszVal, const char* szName, char* pszDefault = NULL) // TO DO - unsafe
+	bool GetChildXmlValByName(char* pszVal, const char* szName, char* pszDefault = NULL) // TO DO - unsafe
 	{ OutputDebugString("Call: GetChildXmlValByName(char* pszVal, const char* szName, char* pszDefault = NULL)");				FAssert(false); return false; }
-	DllExport bool GetChildXmlValByName(wchar* pszVal, const char* szName, wchar* pszDefault = NULL) // TO DO - unsafe
+	bool GetChildXmlValByName(wchar* pszVal, const char* szName, wchar* pszDefault = NULL) // TO DO - unsafe
 	{ OutputDebugString("Call: bool GetChildXmlValByName(wchar* pszVal, const char* szName, wchar* pszDefault = NULL)");		FAssert(false); return false; }
-	DllExport bool GetChildXmlValByName(int* piVal, const char* szName, int iDefault = 0)
+	bool GetChildXmlValByName(int* piVal, const char* szName, int iDefault = 0)
 	{ OutputDebugString("Call: bool GetChildXmlValByName(int* piVal, const char* szName, int iDefault = 0)");					FAssert(false); return false; }
-	DllExport bool GetChildXmlValByName(float* pfVal, const char* szName, float fDefault = 0.0f)
+	bool GetChildXmlValByName(float* pfVal, const char* szName, float fDefault = 0.0f)
 	{ OutputDebugString("Call: bool GetChildXmlValByName(float* pfVal, const char* szName, float fDefault = 0.0f)");			FAssert(false); return false; }
-	DllExport bool GetChildXmlValByName(bool* pbVal, const char* szName, bool bDefault = false)
+	bool GetChildXmlValByName(bool* pbVal, const char* szName, bool bDefault = false)
 	{ OutputDebugString("Call: bool GetChildXmlValByName(bool* pbVal, const char* szName, bool bDefault = false)");				FAssert(false); return false; }
 
 

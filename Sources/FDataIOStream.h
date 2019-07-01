@@ -4,7 +4,6 @@
 
 #ifndef		FDATAIOSTREAM_H
 #define		FDATAIOSTREAM_H
-#pragma		once
 
 #include <iostream>
 #include <fstream>

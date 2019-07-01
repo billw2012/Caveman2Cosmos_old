@@ -58,13 +58,13 @@ public:
 	void playActionSound();
 
 	bool pushMissionInternal(MissionTypes eMission, int iData1 = -1, int iData2 = -1, int iFlags = 0, bool bAppend = false, bool bManual = false, MissionAITypes eMissionAI = NO_MISSIONAI, CvPlot* pMissionAIPlot = NULL, CvUnit* pMissionAIUnit = NULL);		// Exposed to Python
-	DllExport void pushMission(MissionTypes eMission, int iData1 = -1, int iData2 = -1, int iFlags = 0, bool bAppend = false, bool bManual = false, MissionAITypes eMissionAI = NO_MISSIONAI, CvPlot* pMissionAIPlot = NULL, CvUnit* pMissionAIUnit = NULL);		// Exposed to Python
+	void pushMission(MissionTypes eMission, int iData1 = -1, int iData2 = -1, int iFlags = 0, bool bAppend = false, bool bManual = false, MissionAITypes eMissionAI = NO_MISSIONAI, CvPlot* pMissionAIPlot = NULL, CvUnit* pMissionAIUnit = NULL);		// Exposed to Python
 	void popMission();																																										// Exposed to Python
 	DllExport void autoMission();
 	void updateMission();
 	DllExport CvPlot* lastMissionPlot();																																					// Exposed to Python
 
-	DllExport bool canStartMission(int iMission, int iData1, int iData2, CvPlot* pPlot = NULL, bool bTestVisible = false, bool bUseCache = false);		// Exposed to Python
+	bool canStartMission(int iMission, int iData1, int iData2, CvPlot* pPlot = NULL, bool bTestVisible = false, bool bUseCache = false);		// Exposed to Python
 	bool startMission();
 	bool continueMission(int iSteps = 0);
 	bool checkMoveSafety(int iX, int iY, int iFlags);
@@ -73,7 +73,7 @@ public:
 	DllExport bool canDoInterfaceModeAt(InterfaceModeTypes eInterfaceMode, CvPlot* pPlot);				// Exposed to Python
 
 	void doCommand(CommandTypes eCommand, int iData1, int iData2);
-	DllExport bool canDoCommand(CommandTypes eCommand, int iData1, int iData2, bool bTestVisible = false, bool bUseCache = false, bool bAll = false);		// Exposed to Python
+	bool canDoCommand(CommandTypes eCommand, int iData1, int iData2, bool bTestVisible = false, bool bUseCache = false, bool bAll = false);		// Exposed to Python
 	bool canEverDoCommand(CommandTypes eCommand, int iData1, int iData2, bool bTestVisible, bool bUseCache);
 	void setupActionCache();
 
@@ -186,7 +186,7 @@ public:
 
 	bool isChoosingNewLeader() const { return m_bIsChoosingNewLeader; }
 
-	DllExport PlayerTypes getOwner() const;																															// Exposed to Python
+	PlayerTypes getOwner() const;																															// Exposed to Python
 #ifdef _USRDLL
 	inline PlayerTypes getOwnerINLINE() const
 	{
@@ -236,14 +236,14 @@ public:
 	DllExport int getUnitIndex(CvUnit* pUnit, int maxIndex = -1) const;
 	DllExport CLLNode<IDInfo>* headUnitNode() const;
 	DllExport CvUnit* getHeadUnit() const;
-	DllExport CvUnit* getUnitAt(int index) const;
+	CvUnit* getUnitAt(int index) const;
 	UnitAITypes getHeadUnitAI() const;
 	PlayerTypes getHeadOwner() const;
 	TeamTypes getHeadTeam() const;
 
 	void clearMissionQueue();
 	void setMissionPaneDirty();																																	// Exposed to Python
-	DllExport int getLengthMissionQueue() const;																											// Exposed to Python
+	int getLengthMissionQueue() const;																											// Exposed to Python
 	MissionData* getMissionFromQueue(int iIndex) const;																							// Exposed to Python
 	bool insertAtEndMissionQueue(MissionData mission, bool bStart = true);
 	CLLNode<MissionData>* deleteMissionQueueNode(CLLNode<MissionData>* pNode);
