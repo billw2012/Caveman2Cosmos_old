@@ -12348,9 +12348,6 @@ ImprovementUpgrade>IMPROVEMENT_STONE_TOWER</ImprovementUpgrade
 				</BonusTypeStruct>
 			</BonusTypeStructs>
 			<ImprovementUpgrade>IMPROVEMENT_MODERN_MINE</ImprovementUpgrade>
-			<AlternativeImprovementUpgradeTypes>
-				<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
-			</AlternativeImprovementUpgradeTypes>
 			<TechYieldChanges>
 				<TechYieldChange>
 					<PrereqTech>TECH_STEAM_POWER</PrereqTech>

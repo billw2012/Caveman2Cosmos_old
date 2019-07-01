@@ -94,7 +94,7 @@
 				<iYieldChange>0</iYieldChange>
 				<iYieldChange>10</iYieldChange>
 			</YieldChanges>
-			<PrereqTech>TECH_CSPACECRAFT</PrereqTech>
+			<PrereqTech>TECH_LUNAR_COLONIZATION</PrereqTech>
 			<iPillageGold>1000</iPillageGold>
 			<bOutsideBorders>1</bOutsideBorders>
 			<TerrainMakesValids>
