@@ -142,7 +142,7 @@ void CvPlotGroup::removePlot(CvPlot* pPlot, bool bRecalculateBonuses)
 	}
 }
 
-#ifdef CVDEBUG
+#ifdef _DEBUG
 void CvPlotGroup::Validate()
 {
 #if 0
@@ -260,7 +260,7 @@ void CvPlotGroup::recalculatePlots()
 
 	m_sessionRecalcSeq = ++m_recalcSeqForSession;
 
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	Validate();
 #endif
 

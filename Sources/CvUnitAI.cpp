@@ -156,7 +156,7 @@ bool CvUnitAI::AI_update()
 	
 	OutputDebugString(CvString::format("AI_Update for unit %d of owner %d\n", m_iID, m_eOwner).c_str());
 
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	getGroup()->validateLocations(true);
 #endif
 
@@ -445,7 +445,7 @@ bool CvUnitAI::AI_update()
 		}
 	}
 
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	if ( NULL != getGroup() && !isDelayedDeath() )
 	{
 		getGroup()->validateLocations(true);

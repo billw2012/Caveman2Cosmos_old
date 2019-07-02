@@ -303,7 +303,7 @@ void CyTeam::setIsMinorCiv( bool bNewValue, bool bDoBarbCivCheck )
 				if (GET_PLAYER((PlayerTypes)iI).getCivilizationType() < 0)
 				{
 					FAssertMsg(false, "GET_PLAYER((PlayerTypes)iI) of m_pTeam should have a civilizationType");
-#ifdef CVDEBUG
+#ifdef _DEBUG
 					throw new std::exception();
 #endif
 				}
@@ -713,7 +713,7 @@ bool CyTeam::isHasMet(int /*TeamTypes*/ eIndex)
 	FAssertMsg(eIndex < MAX_TEAMS, "eIndex is expected to be within maximum bounds (invalid Index) (Python)");
 	if (eIndex < 0 || eIndex >= MAX_TEAMS)
 	{
-#ifdef CVDEBUG
+#ifdef _DEBUG
 		throw new std::exception();
 #endif
         return false;

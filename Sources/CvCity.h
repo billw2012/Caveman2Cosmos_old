@@ -2254,7 +2254,7 @@ public:
 	virtual void AI_NoteSpecialistChange() = 0;
 public:
 	virtual void ClearYieldValueCache() = 0;
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	virtual void CheckYieldValueCache(char* label) = 0;
 #define CHECK_YIELD_VALUE_CACHE(label) CheckYieldValueCache(label);
 #else

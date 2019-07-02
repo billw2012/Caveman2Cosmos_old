@@ -458,7 +458,7 @@ void CvPlayerAI::AI_doTurnPre()
 	//	reliabilty reasons (more robust to bugs)
 	m_missionTargetCache.clear();
 
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	//	Validate AI unit counts
 	{
 		CvUnit*	pLoopUnit;
@@ -4711,7 +4711,7 @@ int CvPlayerAI::AI_getPlotDanger(CvPlot* pPlot, int iRange, bool bTestMoves) con
 	}
 
 #ifdef PLOT_DANGER_CACHING
-#ifdef CVDEBUG
+#ifdef _DEBUG
 //	Uncomment this to perform functional verification
 //#define VERIFY_PLOT_DANGER_CACHE_RESULTS
 #endif

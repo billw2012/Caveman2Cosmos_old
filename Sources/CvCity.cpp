@@ -2493,7 +2493,7 @@ void CvCity::doTurnPostProduction()
 	CvEventReporter::getInstance().cityDoTurn(this, getOwnerINLINE());
 
 	// XXX
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	{
 		CvPlot* pPlot;
 		int iCount;
@@ -3770,7 +3770,7 @@ bool CvCity::canTrainInternal(UnitTypes eUnit, bool bContinue, bool bTestVisible
 }
 
 #ifdef CAN_TRAIN_CACHING
-#ifdef CVDEBUG
+#ifdef _DEBUG
 //	Uncomment this for consistency testing of the canTrain cache
 //#define VALIDATE_CAN_TRAIN_CACHE_CONSISTENCY
 #endif
@@ -3969,7 +3969,7 @@ bool CvCity::canTrain(UnitCombatTypes eUnitCombat) const
 }
 
 //	KOSHLING - cache can construct values
-#ifdef CVDEBUG
+#ifdef _DEBUG
 //	Uncomment to add runtime results checking
 //#define VALIDATE_CAN_CONSTRUCT_CACHE
 #endif

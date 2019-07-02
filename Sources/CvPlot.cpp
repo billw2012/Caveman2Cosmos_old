@@ -963,7 +963,7 @@ void CvPlot::doImprovementSpawn()
 	*/
 
 	// XXX
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	{
 		CLLNode<IDInfo>* pUnitNode;
 		CvUnit* pLoopUnit;
@@ -3474,7 +3474,7 @@ long CvPlot::canBuildFromPython(BuildTypes eBuild, PlayerTypes ePlayer) const
 	PYTHON_ACCESS_LOCK_SCOPE
 
 #ifdef CAN_BUILD_VALUE_CACHING
-#ifdef CVDEBUG
+#ifdef _DEBUG
 //	Uncomment this to perform functional verification
 //#define VERIFY_CAN_BUILD_CACHE_RESULTS
 #endif

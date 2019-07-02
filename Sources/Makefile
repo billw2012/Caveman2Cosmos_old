@@ -84,7 +84,7 @@ Final_Release_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
 #### LIBS ####
 GLOBAL_LIBS=/LIBPATH:"$(TOOLKIT)/lib" /LIBPATH:"$(PSDK)/Lib" winmm.lib user32.lib psapi.lib advapi32.lib
 PROJECT_LIBS=/LIBPATH:"$(GLOBALPYTHON)/libs" /LIBPATH:"$(GLOBALBOOST)/libs" /LIBPATH:"./lib" boost_python-vc71-mt-1_32.lib libboost_thread-vc71-mt-1_32.lib XercesLib-3.1.1-x86-windows-vc-7.1.lib
-Debug_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS) msvcprt.lib
+Debug_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS) msvcprt.lib /NODEFAULTLIB:msvcprtd.lib
 Release_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS)
 Final_Release_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS)
 

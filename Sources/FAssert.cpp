@@ -1,7 +1,7 @@
 #include "CvGameCoreDll.h"
 #include "version.h"
 
-#if (defined(FASSERT_ENABLE)|| !defined(CVDEBUG)) && defined(WIN32)
+#if (defined(FASSERT_ENABLE)|| !defined(_DEBUG)) && defined(WIN32)
 
 #include "FDialogTemplate.h"
 

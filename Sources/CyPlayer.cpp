@@ -2491,7 +2491,7 @@ AttitudeTypes CyPlayer::AI_getAttitude(int /*PlayerTypes*/ ePlayer)
 		FAssertMsg(m_pPlayer->getID() != (PlayerTypes)ePlayer, "shouldn't call this function on ourselves (Python)");
 		if (m_pPlayer->getID() == (PlayerTypes)ePlayer)
 		{
-#ifdef CVDEBUG
+#ifdef _DEBUG
 			throw new std::exception();
 #endif
 		   return NO_ATTITUDE;

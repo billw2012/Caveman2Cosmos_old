@@ -844,12 +844,12 @@
             </incDir>
             <preprocessorList>
               <Elem>C2C_BUILD</Elem>
-              <Elem>CVDEBUG</Elem>
               <Elem>FP_PROFILE_ENABLE</Elem>
               <Elem>LOG_AI</Elem>
               <Elem>MULTI_FEATURE_MOD</Elem>
               <Elem>QC_MASTERY_VICTORY</Elem>
               <Elem>USE_INTERNAL_PROFILER</Elem>
+              <Elem>_DEBUG</Elem>
               <Elem>_MOD_FRACTRADE</Elem>
               <Elem>_MOD_GOVWORKERS</Elem>
               <Elem>_MOD_GWARM</Elem>

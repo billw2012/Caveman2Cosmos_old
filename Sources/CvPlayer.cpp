@@ -25609,7 +25609,7 @@ void CvPlayer::read(FDataStreamBase* pStream)
 			}
 		}
 
-#ifdef CVDEBUG
+#ifdef _DEBUG
 		if (!isNPC())
 		{
 			for (CvSelectionGroup* pLoopGroup = firstSelectionGroup(&iLoop); pLoopGroup != NULL; pLoopGroup = nextSelectionGroup(&iLoop))
@@ -36478,7 +36478,7 @@ void CvPlayer::makeNukesValid(bool bValid)
 	m_bNukesValid = bValid;
 }
 
-#ifdef CVDEBUG
+#ifdef _DEBUG
 void CvPlayer::ValidatePlotGroup(CvPlot* plot, CvPlotGroup* group)
 {
 #if 0

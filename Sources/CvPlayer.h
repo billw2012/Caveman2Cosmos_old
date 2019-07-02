@@ -2626,7 +2626,7 @@ public:
 
 	CvBuildLists* m_pBuildLists;
 
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	void ValidatePlotGroup(CvPlot* plot, CvPlotGroup* group);
 #endif
 

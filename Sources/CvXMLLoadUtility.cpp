@@ -33,7 +33,7 @@ static const int kBufSize = 2048;
 //
 void CvXMLLoadUtility::logMsg(char* format, ... )
 {
-//#ifdef CVDEBUG
+//#ifdef _DEBUG
 	static char buf[kBufSize];
 	_vsnprintf( buf, kBufSize-4, format, (char*)(&format+1) );
 	OutputDebugString(buf);
@@ -43,7 +43,7 @@ void CvXMLLoadUtility::logMsg(char* format, ... )
 
 void CvXMLLoadUtility::logMsgW(wchar_t* format, ... )
 {
-//#ifdef CVDEBUG
+//#ifdef _DEBUG
 		static wchar_t buf[kBufSize];
 		_vsnwprintf( buf, kBufSize-4, format, (char*)(&format+1) );
 		OutputDebugStringW(buf);
@@ -58,7 +58,7 @@ void CvXMLLoadUtility::logMsgW(wchar_t* format, ... )
 /*                                                                                              */
 /*                                                                                              */
 /************************************************************************************************/
-#ifdef CVDEBUG
+#ifdef _DEBUG
 void CvXMLLoadUtility::logXmlCheckDoubleTypes(char* format, ... )
 {
 	{
@@ -76,7 +76,7 @@ void CvXMLLoadUtility::logXmlCheckDoubleTypes(char* format, ... )
 /*                                                                                              */
 /*                                                                                              */
 /************************************************************************************************/
-#ifdef CVDEBUG
+#ifdef _DEBUG
 void CvXMLLoadUtility::XmlArtTagVerification(char* format, ... )
 {
 	{
@@ -96,7 +96,7 @@ void CvXMLLoadUtility::XmlArtTagVerification(char* format, ... )
 /************************************************************************************************/
 void CvXMLLoadUtility::logMLF(char* format, ... )
 {
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	{
 		static char buf[kBufSize];
 		_vsnprintf( buf, kBufSize-4, format, (char*)(&format+1) );
@@ -115,7 +115,7 @@ void CvXMLLoadUtility::logMLF(char* format, ... )
 //
 void CvXMLLoadUtility::logXmlDependencyTypes(char* format, ... )
 {
-#ifdef CVDEBUG	
+#ifdef _DEBUG	
 	{
 		static char buf[kBufSize];
 		_vsnprintf( buf, kBufSize-4, format, (char*)(&format+1) );
@@ -134,7 +134,7 @@ void CvXMLLoadUtility::logXmlDependencyTypes(char* format, ... )
 /************************************************************************************************/
 void CvXMLLoadUtility::logXML(char* format, ... )
 {
-#ifdef CVDEBUG	
+#ifdef _DEBUG	
 	{
 		static char buf[kBufSize];
 		_vsnprintf( buf, kBufSize-4, format, (char*)(&format+1) );
@@ -151,7 +151,7 @@ bool CvXMLLoadUtility::CreateFXml()
 
 /*	try
 	{
-#ifdef CVDEBUG
+#ifdef _DEBUG
 		m_pFXml = GETXML->CreateFXml();
 #else
 		m_pFXml = GETXML->CreateFXml(m_pSchemaCache);
@@ -597,7 +597,7 @@ bool CvXMLLoadUtility::LoadCivXml(FXml* pFXml, const TCHAR* szFilename)
 /*                                                                                              */
 /*                                                                                              */
 /************************************************************************************************/
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	logXmlCheckDoubleTypes("Loading XML file %s\n", szPath.c_str());
 #endif
 /************************************************************************************************/

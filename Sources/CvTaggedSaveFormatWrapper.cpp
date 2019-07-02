@@ -6,7 +6,7 @@
 #include "CvTaggedSaveFormatWrapper.h"
 #include "CvInfos.h"
 
-#ifdef CVDEBUG
+#ifdef _DEBUG
 //#define	DETAILED_TRACE	1
 #endif
 

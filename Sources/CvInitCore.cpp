@@ -2668,7 +2668,7 @@ void CvInitCore::calculateAssetCheckSum()
 {
 	m_uiAssetCheckSum = GC.getAssetCheckSum();
 
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	//	Perform some validation checks of the loaded info classes (add as needed)
 	CvTechInfo::validate();
 #endif

@@ -61,7 +61,7 @@
 nmake /NOLOGO /K Debug</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>nmake Debug_clean</NMakeCleanCommandLine>
     <NMakeOutput>CvGameCoreDLL.dll</NMakeOutput>
-    <NMakePreprocessorDefinitions>WIN32;CVDEBUG;_USRDLL;_MOD_SENTRY;_MOD_FRACTRADE;_MOD_GOVWORKERS;QC_MASTERY_VICTORY;LOG_AI;_MOD_GWARM;_MOD_SHAM_SPOILER;C2C_BUILD;MULTI_FEATURE_MOD;FP_PROFILE_ENABLE;USE_INTERNAL_PROFILER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;_USRDLL;_MOD_SENTRY;_MOD_FRACTRADE;_MOD_GOVWORKERS;QC_MASTERY_VICTORY;LOG_AI;_MOD_GWARM;_MOD_SHAM_SPOILER;C2C_BUILD;MULTI_FEATURE_MOD;FP_PROFILE_ENABLE;USE_INTERNAL_PROFILER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <IncludePath>..\..\..\CvGameCoreDLL\Python24\include;..\..\..\CvGameCoreDLL\Boost-1.32.0\include;.\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'">

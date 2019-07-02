@@ -60,7 +60,7 @@ unsigned short CvRandom::get(unsigned short usNum, const TCHAR* pszLog)
 /**		Horrible method of logging randoms.  Removed to save from uselessly flooding filesize	**/
 /*************************************************************************************************/
 /**								---- Start Original Code ----									**/
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	if (pszLog != NULL)
 	{
 		if (GC.getLogging() && GC.getRandLogging() && GC.getGameINLINE().isNetworkMultiPlayer())

@@ -7073,7 +7073,7 @@ bool CvSelectionGroup::HaveCachedPathEdgeCosts(CvPlot* pFromPlot, CvPlot* pToPlo
 			iBestMoveCost = (itr->second).iBestMoveCost;
 			iWorstMoveCost = (itr->second).iWorstMoveCost;
 			iToPlotNodeCost = (itr->second).iToPlotNodeCost;
-#ifdef CVDEBUG
+#ifdef _DEBUG
 			FAssert((itr->second).pFromPlot == pFromPlot);
 			FAssert((itr->second).pToPlot == pToPlot);
 #endif
@@ -7094,7 +7094,7 @@ bool CvSelectionGroup::HaveCachedPathEdgeCosts(CvPlot* pFromPlot, CvPlot* pToPlo
 			iBestMoveCost = (itr->second).iBestMoveCost;
 			iWorstMoveCost = (itr->second).iWorstMoveCost;
 			iToPlotNodeCost = (itr->second).iToPlotNodeCost;
-#ifdef CVDEBUG
+#ifdef _DEBUG
 			FAssert((itr->second).pFromPlot == pFromPlot);
 			FAssert((itr->second).pToPlot == pToPlot);
 #endif
@@ -7124,7 +7124,7 @@ void CvSelectionGroup::CachePathEdgeCosts(CvPlot* pFromPlot, CvPlot* pToPlot, bo
 		costs.iBestMoveCost = iBestMoveCost;
 		costs.iWorstMoveCost = iWorstMoveCost;
 		costs.iToPlotNodeCost = iToPlotNodeCost;
-#ifdef CVDEBUG
+#ifdef _DEBUG
 		costs.pFromPlot = pFromPlot;
 		costs.pToPlot = pToPlot;
 #endif
@@ -7305,7 +7305,7 @@ bool CvSelectionGroup::addUnit(CvUnit* pUnit, bool bMinimalChange)
 		return false;
 	}
 
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	if (pPlot!=NULL)
 	{
 		validateLocations();
@@ -7369,7 +7369,7 @@ bool CvSelectionGroup::addUnit(CvUnit* pUnit, bool bMinimalChange)
 		}
 	}
 
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	if (pPlot != NULL)
 	{
 		validateLocations();

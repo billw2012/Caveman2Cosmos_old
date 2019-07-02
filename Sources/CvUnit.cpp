@@ -19486,7 +19486,7 @@ void CvUnit::setXY(int iX, int iY, bool bGroup, bool bUpdate, bool bShow, bool b
 					pLoopUnit->setXY(iX, iY, bGroup, false);
 				}
 			}
-#ifdef CVDEBUG
+#ifdef _DEBUG
 			pUnitNode = pOldPlot->headUnitNode();
 
 			while (pUnitNode != NULL)
@@ -23139,7 +23139,7 @@ void CvUnit::setTransportUnit(CvUnit* pTransportUnit)
 			getGroup()->AI_setMissionAI(MISSIONAI_REGROUP, NULL, NULL);
 		}
 
-#ifdef CVDEBUG
+#ifdef _DEBUG
 		std::vector<CvUnit*> aCargoUnits;
 		if (pOldTransportUnit != NULL)
 		{

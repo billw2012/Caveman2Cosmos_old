@@ -278,7 +278,7 @@ void CvXMLLoadUtilitySetMod::MLFEnumerateFiles(
 
 	strPattern = refcstrRootDirectory + "\\*.*";
 
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	{
 		szDebugBuffer.Format("=== MLFEnumerateFiles begin in root directory %s ===", refcstrRootDirectory.c_str());
 		gDLL->logMsg("CvXMLLoadUtilitySetMod_MLFEnumerateFiles.log", szDebugBuffer.c_str());
@@ -300,7 +300,7 @@ void CvXMLLoadUtilitySetMod::MLFEnumerateFiles(
 				{
 					if(bSearchSubdirectories)
 					{
-#ifdef CVDEBUG
+#ifdef _DEBUG
 						{
 							szDebugBuffer.Format(" * Search subdirectory %s", strFilePath.c_str());
 							gDLL->logMsg("CvXMLLoadUtilitySetMod_MLFEnumerateFiles.log", szDebugBuffer.c_str());

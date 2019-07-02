@@ -171,7 +171,7 @@ bool CvXMLLoadUtility::SetGlobalDefines()
 	/*                                                                                              */
 	/*                                                                                              */
 	/************************************************************************************************/
-	#ifdef CVDEBUG
+	#ifdef _DEBUG
 		logXmlCheckDoubleTypes("\nEntering: GlobalDefines\n");
 	#endif
 	/************************************************************************************************/
@@ -617,7 +617,7 @@ bool CvXMLLoadUtility::SetGlobalTypes()
 /*                                                                                              */
 /*                                                                                              */
 /************************************************************************************************/
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	logXmlCheckDoubleTypes("\nEntering: GlobalTypes\n");
 #endif
 /************************************************************************************************/
@@ -643,7 +643,7 @@ bool CvXMLLoadUtility::SetGlobalTypes()
 /*                                                                                              */
 /************************************************************************************************/
 	// Debugging dependencies problems - BEGIN
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	GC.logInfoTypeMap("SetGlobalTypes PRE");
 #endif
 	// Debugging dependencies problems - END
@@ -681,7 +681,7 @@ bool CvXMLLoadUtility::SetGlobalTypes()
 /*                                                                                              */
 /************************************************************************************************/
 	// Debugging dependencies problems - BEGIN
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	GC.logInfoTypeMap("SetGlobalTypes POST");
 #endif
 	// Debugging dependencies problems - END
@@ -842,7 +842,7 @@ bool CvXMLLoadUtility::LoadGlobalText()
 /*                                                                                              */
 /*                                                                                              */
 /************************************************************************************************/
-#ifdef CVDEBUG	
+#ifdef _DEBUG	
 	logXmlCheckDoubleTypes("\nEntering: GameText\n");
 #endif
 /************************************************************************************************/
@@ -1420,7 +1420,7 @@ void CvXMLLoadUtility::SetGlobalStringArray(CvString **ppszString, wchar_t* szTa
 /*                                                                                              */
 /* adding to hash map - used for the dependencies                                               */
 /************************************************************************************************/
-#ifdef CVDEBUG
+#ifdef _DEBUG
 			logMsg(" Adding info type %s with ID %i", pszString[i].c_str(), i);
 #endif
 			GC.setInfoTypeFromString(pszString[i], i);
@@ -1932,7 +1932,7 @@ void CvXMLLoadUtility::SetGlobalClassInfo(std::vector<T*>& aInfos, const wchar_t
 					//FAssertMsg(bSuccess, szAssertBuffer.c_str());
 					if (!bSuccess)
 					{
-				    //#ifdef CVDEBUG
+				    //#ifdef _DEBUG
 						logXmlDependencyTypes("\n\nOWN TYPE - dependency not found: %s, in file: \"%s\"", pClassInfo->getType(), GC.getModDir().c_str());
 						logXmlDependencyTypes("My new check!");
 					//#endif
@@ -1951,7 +1951,7 @@ void CvXMLLoadUtility::SetGlobalClassInfo(std::vector<T*>& aInfos, const wchar_t
 					// TYPE dependency? (Condition 1)
 					if ( GC.getTypeDependency() && (-1 == iTypeIndex))
 					{
-						//#ifdef CVDEBUG
+						//#ifdef _DEBUG
 							logXmlDependencyTypes("\n\nOWN TYPE - dependency not found: %s, in file: \"%s\"", pClassInfo->getType(), GC.getModDir().c_str());
 							logXmlDependencyTypes("Possible reasons: missing module, wrong MLF order, bLoad set to 0?");
 						//#endif
@@ -1968,7 +1968,7 @@ void CvXMLLoadUtility::SetGlobalClassInfo(std::vector<T*>& aInfos, const wchar_t
 						// the moment ANY condition is met, we can safely load the ClassInfo and set the
 						// dependency to false
 						GC.setTypeDependency(true);
-						//#ifdef CVDEBUG
+						//#ifdef _DEBUG
 							logXmlDependencyTypes("\n\nOR - dependencies will be checked here for, TYPE: %s, in file: \"%s\"", pClassInfo->getType(), GC.getModDir().c_str());
 						//#endif
 					}
@@ -1977,7 +1977,7 @@ void CvXMLLoadUtility::SetGlobalClassInfo(std::vector<T*>& aInfos, const wchar_t
 						iTypeIndex = GC.getInfoTypeForString( GC.getOrDependencyTypes(iI), true );
 						if ( iTypeIndex == -1 )
 						{
-							//#ifdef CVDEBUG
+							//#ifdef _DEBUG
 								logXmlDependencyTypes("OR - Dependency not found, TYPE: %s", GC.getOrDependencyTypes(iI).c_str());
 							//#endif
 						}
@@ -1985,7 +1985,7 @@ void CvXMLLoadUtility::SetGlobalClassInfo(std::vector<T*>& aInfos, const wchar_t
 						{
 							// we found a OR dependent Type, so we can load safely!
 							// dependency will be set disabled(false)
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	logXmlDependencyTypes("OR - Dependency found, TYPE: %s", GC.getOrDependencyTypes(iI).c_str());
 #endif
 							GC.setTypeDependency(false);
@@ -1995,11 +1995,11 @@ void CvXMLLoadUtility::SetGlobalClassInfo(std::vector<T*>& aInfos, const wchar_t
 					// AND Dependencies (Condition 3)
 					if (!(GC.getAndNumDependencyTypes() > 0 ))
 					{
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	logXmlDependencyTypes("\n\n");
 #endif
 					}
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	logXmlDependencyTypes("AND - dependencies will be checked here for, TYPE: %s, in file: \"%s\"", pClassInfo->getType(), GC.getModDir().c_str());
 #endif
 
@@ -2012,7 +2012,7 @@ void CvXMLLoadUtility::SetGlobalClassInfo(std::vector<T*>& aInfos, const wchar_t
 							if ( iTypeIndex == -1 )
 							{
 								// if any AND condition is not met, we disable the loading of the Class Info!
-								//#ifdef CVDEBUG
+								//#ifdef _DEBUG
 									logXmlDependencyTypes("AND - Dependency not found, TYPE: %s", GC.getAndDependencyTypes(iI).c_str());
 								//#endif
 								GC.setTypeDependency(true);
@@ -2020,7 +2020,7 @@ void CvXMLLoadUtility::SetGlobalClassInfo(std::vector<T*>& aInfos, const wchar_t
 							}
 							else
 							{
-	#ifdef CVDEBUG
+	#ifdef _DEBUG
 		logXmlDependencyTypes("AND - Dependency found, TYPE: %s", GC.getAndDependencyTypes(iI).c_str());
 	#endif
 							}
@@ -2028,7 +2028,7 @@ void CvXMLLoadUtility::SetGlobalClassInfo(std::vector<T*>& aInfos, const wchar_t
 
 						if (bAllAndDepsFound)
 						{
-							//#ifdef CVDEBUG
+							//#ifdef _DEBUG
 								logXmlDependencyTypes("AND - dependencies were ALL met for TYPE: %s, in file: \"%s\"", pClassInfo->getType(), GC.getModDir().c_str());
 							//#endif
 						}
@@ -2038,7 +2038,7 @@ void CvXMLLoadUtility::SetGlobalClassInfo(std::vector<T*>& aInfos, const wchar_t
 					if ( GC.getTypeDependency() )
 					{
 						// We found that any of the 3! conditions NOT to load this class info has been met!
-						//#ifdef CVDEBUG
+						//#ifdef _DEBUG
 							logXmlDependencyTypes("TYPE: %s, NOT LOADED", pClassInfo->getType());
 						//#endif
 						delete pClassInfo;
@@ -2047,7 +2047,7 @@ void CvXMLLoadUtility::SetGlobalClassInfo(std::vector<T*>& aInfos, const wchar_t
 					}
 					else
 					{
-						//#ifdef CVDEBUG
+						//#ifdef _DEBUG
 							logXmlDependencyTypes("OK!");
 						//#endif
 						bool bSuccess = pClassInfo->read(this);
@@ -2537,7 +2537,7 @@ void CvXMLLoadUtility::LoadGlobalClassInfo(std::vector<T*>& aInfos, const char* 
 /*                                                                                              */
 /*                                                                                              */
 /************************************************************************************************/
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	logXmlCheckDoubleTypes("\nEntering: %s\n", szFileRoot);
 #endif
 	CvXMLLoadUtilitySetMod* pModEnumVector = new CvXMLLoadUtilitySetMod;
@@ -2827,7 +2827,7 @@ void CvXMLLoadUtility::LoadGlobalClassInfoModular(std::vector<T*>& aInfos, const
 	bool bLoaded = false;
 	GC.addToInfosVectors(&aInfos);
 
-#ifdef CVDEBUG	
+#ifdef _DEBUG	
 	logXmlCheckDoubleTypes("\nEntering: %s\n", szFileRoot);
 #endif
 	CvXMLLoadUtilitySetMod* pModEnumVector = new CvXMLLoadUtilitySetMod;
@@ -4220,7 +4220,7 @@ void CvXMLLoadUtility::LoadPythonModulesInfo(std::vector<T*>& aInfos, const char
 	GC.addToInfosVectors(&aInfos);
 
 //	XML_CHECK_DOUBLE_TYPE						10/10/07							MRGENIE
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	logXmlCheckDoubleTypes("Entering: %s\n", szFileRoot);
 #endif
 //	XML_CHECK_DOUBLE_TYPE						END   
@@ -4273,7 +4273,7 @@ bool CvXMLLoadUtility::LoadModLoadControlInfo(std::vector<T*>& aInfos, const cha
 /*                                                                                              */
 /*                                                                                              */
 /************************************************************************************************/
-#ifdef CVDEBUG	
+#ifdef _DEBUG	
 	logXmlCheckDoubleTypes("\nEntering: MLF_CIV4ModularLoadingControls\n");
 #endif
 /************************************************************************************************/

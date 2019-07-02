@@ -21,7 +21,7 @@ typedef struct
 	int		iBestMoveCost;
 	int		iWorstMoveCost;
 	int		iToPlotNodeCost;
-#ifdef CVDEBUG
+#ifdef _DEBUG
 	CvPlot*	pFromPlot;
 	CvPlot*	pToPlot;
 #endif
