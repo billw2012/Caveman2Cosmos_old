@@ -13,7 +13,6 @@
 #YOURMOD=C:\Users\Danny\Documents\My Games\beyond the sword\MODS\MyMod
 
 include MakefilePaths
-include xerces.mk
 
 #### Tools ####
 CC="$(TOOLKIT)\bin\cl.exe"
@@ -76,7 +75,7 @@ Release_LDFLAGS=/INCREMENTAL:NO /DEBUG /OPT:REF /OPT:ICF /IMPLIB:"$(Release_STAT
 Final_Release_LDFLAGS=/INCREMENTAL:NO /DEBUG /OPT:REF /OPT:ICF /IMPLIB:"$(Final_Release_LIBDEF)" /PDB:"$(Final_Release_PDB)" $(GLOBAL_LDFLAGS)
 
 #### INCLUDES ####
-GLOBAL_INCS=/I"$(TOOLKIT)/include" /I"$(PSDK)/Include" /I"$(PSDK)/Include/mfc" /I"$(GLOBALBOOST)/include" /I"$(GLOBALPYTHON)/include" /I"./xerces-c-3.1.1-x86-windows-vc-7.1/src"
+GLOBAL_INCS=/I"$(TOOLKIT)/include" /I"$(PSDK)/Include" /I"$(PSDK)/Include/mfc" /I"$(GLOBALBOOST)/include" /I"$(GLOBALPYTHON)/include" /I"./include"
 PROJECT_INCS=/IBoost-1.32.0/include /IPython24/include
 Debug_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
 Release_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
@@ -84,10 +83,10 @@ Final_Release_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
 
 #### LIBS ####
 GLOBAL_LIBS=/LIBPATH:"$(TOOLKIT)/lib" /LIBPATH:"$(PSDK)/Lib" winmm.lib user32.lib psapi.lib advapi32.lib
-PROJECT_LIBS=/LIBPATH:"$(GLOBALPYTHON)/libs" /LIBPATH:"$(GLOBALBOOST)/libs/" boost_python-vc71-mt-1_32.lib thread.obj exceptions.obj condition.obj xtime.obj mutex.obj once.obj recursive_mutex.obj read_write_mutex.obj tss_hooks.obj
-Debug_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS) $(Xerces_OBJS) msvcprt.lib
-Release_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS) $(Xerces_OBJS)
-Final_Release_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS) $(Xerces_OBJS)
+PROJECT_LIBS=/LIBPATH:"$(GLOBALPYTHON)/libs" /LIBPATH:"$(GLOBALBOOST)/libs" /LIBPATH:"./lib" boost_python-vc71-mt-1_32.lib libboost_thread-vc71-mt-1_32.lib XercesLib-3.1.1-x86-windows-vc-7.1.lib
+Debug_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS) msvcprt.lib
+Release_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS)
+Final_Release_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS)
 
 #### Objects ####
 Debug_LINKOBJS=$(Debug_OBJS)
