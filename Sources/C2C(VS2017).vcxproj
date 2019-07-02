@@ -24,11 +24,7 @@
     <Keyword>MakeFileProj</Keyword>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final_Release2|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
-  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Makefile</ConfigurationType>
     <PlatformToolset>v142</PlatformToolset>
@@ -43,9 +39,6 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
-  </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Final_Release2|Win32'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -69,9 +62,7 @@ nmake /NOLOGO /K Debug</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>nmake Debug_clean</NMakeCleanCommandLine>
     <NMakeOutput>CvGameCoreDLL.dll</NMakeOutput>
     <NMakePreprocessorDefinitions>WIN32;CVDEBUG;_USRDLL;C2C_BUILD;USE_INTERNAL_PROFILER;QC_MASTERY_VICTORY;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-    <NMakeIncludeSearchPath>E:\Civ4\CvGameCoreDLL\Boost-1.32.0\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
-    <NMakeForcedIncludes>E:\Civ4\CvGameCoreDLL\Boost-1.32.0\include;$(NMakeForcedIncludes)</NMakeForcedIncludes>
-    <IncludePath>D:\Program Files %28x86%29\Civilization IV Complete\Civ4\Beyond the Sword\CvGameCoreDLL\Python24\include;D:\Program Files %28x86%29\Civilization IV Complete\Civ4\Beyond the Sword\CvGameCoreDLL\Boost-1.32.0\include;.\xerces-c-3.1.1-x86-windows-vc-7.1\src;$(IncludePath)</IncludePath>
+    <IncludePath>..\..\..\CvGameCoreDLL\Python24\include;..\..\..\CvGameCoreDLL\Boost-1.32.0\include;.\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'">
     <ReferencePath>..\Sources;$(ReferencePath)</ReferencePath>
@@ -83,9 +74,7 @@ nmake Final_Release</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>nmake Final_Release_clean</NMakeCleanCommandLine>
     <NMakeOutput />
     <NMakePreprocessorDefinitions>WIN32;NDEBUG;_USRDLL;C2C_BUILD;MULTI_FEATURE_MOD;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-    <IncludePath>D:\Program Files %28x86%29\Civilization IV Complete\Civ4\Beyond the Sword\CvGameCoreDLL\Python24\include;D:\Program Files %28x86%29\Civilization IV Complete\Civ4\Beyond the Sword\CvGameCoreDLL\Boost-1.32.0\include;.\xerces-c-3.1.1-x86-windows-vc-7.1\src;$(IncludePath)</IncludePath>
-    <NMakeIncludeSearchPath>
-    </NMakeIncludeSearchPath>
+    <IncludePath>..\..\..\CvGameCoreDLL\Python24\include;..\..\..\CvGameCoreDLL\Boost-1.32.0\include;.\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ReferencePath>..\Sources;$(ReferencePath)</ReferencePath>
@@ -97,16 +86,8 @@ nmake Release</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>nmake Release_clean</NMakeCleanCommandLine>
     <NMakeOutput />
     <NMakePreprocessorDefinitions>WIN32;NDEBUG;_USRDLL;FP_PROFILE_ENABLE;C2C_BUILD;USE_INTERNAL_PROFILER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-    <IncludePath>D:\Program Files %28x86%29\Civilization IV Complete\Civ4\Beyond the Sword\CvGameCoreDLL\Python24\include;D:\Program Files %28x86%29\Civilization IV Complete\Civ4\Beyond the Sword\CvGameCoreDLL\Boost-1.32.0\include;.\xerces-c-3.1.1-x86-windows-vc-7.1\src;$(IncludePath)</IncludePath>
+    <IncludePath>..\..\..\CvGameCoreDLL\Python24\include;..\..\..\CvGameCoreDLL\Boost-1.32.0\include;.\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final_Release2|Win32'">
-    <ReferencePath>..\Sources;$(ReferencePath)</ReferencePath>
-    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
-    <IntDir>$(Configuration)\</IntDir>
-    <IncludePath>.\xerces-c-3.1.1-x86-windows-vc-7.1\src;$(IncludePath)</IncludePath>
-  </PropertyGroup>
-  <ItemDefinitionGroup>
-  </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CyPlayerInterface3.cpp" />
     <ClCompile Include="_precompile.cpp" />
@@ -391,15 +372,11 @@ nmake Release</NMakeReBuildCommandLine>
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\..\..\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring" />
     <None Include="FVariableSystem.inl" />
     <None Include="interfaceDirtyBits.inl" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="CvGameCoreDLL.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="readme.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
