@@ -30,8 +30,7 @@
 				CleanCommandLine="nmake Debug_clean"
 				Output="CvGameCoreDLL.dll"
 				PreprocessorDefinitions="WIN32;CVDEBUG;_USRDLL;C2C_BUILD;USE_INTERNAL_PROFILER;QC_MASTERY_VICTORY"
-				IncludeSearchPath="E:\Civ4\CvGameCoreDLL\Boost-1.32.0\include"
-				ForcedIncludes="E:\Civ4\CvGameCoreDLL\Boost-1.32.0\include"
+				IncludeSearchPath=""
 				AssemblySearchPath=""
 				ForcedUsingAssemblies=""
 				CompileAsManaged=""
@@ -76,64 +75,6 @@
 				AssemblySearchPath=""
 				ForcedUsingAssemblies=""
 				CompileAsManaged=""
-			/>
-		</Configuration>
-		<Configuration
-			Name="Final_Release2|Win32"
-			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
-			IntermediateDirectory="$(ConfigurationName)"
-			ConfigurationType="1"
-			>
-			<Tool
-				Name="VCPreBuildEventTool"
-			/>
-			<Tool
-				Name="VCCustomBuildTool"
-			/>
-			<Tool
-				Name="VCXMLDataGeneratorTool"
-			/>
-			<Tool
-				Name="VCWebServiceProxyGeneratorTool"
-			/>
-			<Tool
-				Name="VCMIDLTool"
-			/>
-			<Tool
-				Name="VCCLCompilerTool"
-			/>
-			<Tool
-				Name="VCManagedResourceCompilerTool"
-			/>
-			<Tool
-				Name="VCResourceCompilerTool"
-			/>
-			<Tool
-				Name="VCPreLinkEventTool"
-			/>
-			<Tool
-				Name="VCLinkerTool"
-			/>
-			<Tool
-				Name="VCALinkTool"
-			/>
-			<Tool
-				Name="VCManifestTool"
-			/>
-			<Tool
-				Name="VCXDCMakeTool"
-			/>
-			<Tool
-				Name="VCBscMakeTool"
-			/>
-			<Tool
-				Name="VCFxCopTool"
-			/>
-			<Tool
-				Name="VCAppVerifierTool"
-			/>
-			<Tool
-				Name="VCPostBuildEventTool"
 			/>
 		</Configuration>
 	</Configurations>
@@ -1278,10 +1219,6 @@
 				>
 			</File>
 		</Filter>
-		<File
-			RelativePath=".\readme.txt"
-			>
-		</File>
 	</Files>
 	<Globals>
 	</Globals>
