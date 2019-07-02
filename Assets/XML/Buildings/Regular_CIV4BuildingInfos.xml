@@ -10863,7 +10863,7 @@
 			</TechTypes>
 			<RawVicinityBonus>BONUS_WINE</RawVicinityBonus>
 			<PrereqRawVicinityBonuses>
-				<RawVicinityBonus>BONUS_INDIGO</RawVicinityBonus>
+				<VicinityBonus>BONUS_INDIGO</VicinityBonus>
 			</PrereqRawVicinityBonuses>
 			<PrereqOrFeature>
 				<PrereqFeature>
@@ -20012,25 +20012,25 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_SCAVENGING</PrereqTech>
 			<PrereqRawVicinityBonuses>
-				<RawVicinityBonus>BONUS_CAMEL</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_COW</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_DONKEY</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_HORSE</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_LLAMA</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_PIG</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_SHEEP</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_FUR</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_BISON</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_DEER</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_ELEPHANT</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_GUINEA_PIG</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_KANGAROO</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_MAMMOTH</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_PARROTS</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_POULTRY</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_RABBIT</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_WALRUS</RawVicinityBonus>
-				<RawVicinityBonus>BONUS_SEA_LIONS</RawVicinityBonus>
+				<VicinityBonus>BONUS_CAMEL</VicinityBonus>
+				<VicinityBonus>BONUS_COW</VicinityBonus>
+				<VicinityBonus>BONUS_DONKEY</VicinityBonus>
+				<VicinityBonus>BONUS_HORSE</VicinityBonus>
+				<VicinityBonus>BONUS_LLAMA</VicinityBonus>
+				<VicinityBonus>BONUS_PIG</VicinityBonus>
+				<VicinityBonus>BONUS_SHEEP</VicinityBonus>
+				<VicinityBonus>BONUS_FUR</VicinityBonus>
+				<VicinityBonus>BONUS_BISON</VicinityBonus>
+				<VicinityBonus>BONUS_DEER</VicinityBonus>
+				<VicinityBonus>BONUS_ELEPHANT</VicinityBonus>
+				<VicinityBonus>BONUS_GUINEA_PIG</VicinityBonus>
+				<VicinityBonus>BONUS_KANGAROO</VicinityBonus>
+				<VicinityBonus>BONUS_MAMMOTH</VicinityBonus>
+				<VicinityBonus>BONUS_PARROTS</VicinityBonus>
+				<VicinityBonus>BONUS_POULTRY</VicinityBonus>
+				<VicinityBonus>BONUS_RABBIT</VicinityBonus>
+				<VicinityBonus>BONUS_WALRUS</VicinityBonus>
+				<VicinityBonus>BONUS_SEA_LIONS</VicinityBonus>
 			</PrereqRawVicinityBonuses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_HUNTING_TACTICS</ObsoleteTech>
@@ -36998,7 +36998,7 @@
 			</TechTypes>
 			<RawVicinityBonus>BONUS_POULTRY</RawVicinityBonus>
 			<PrereqRawVicinityBonuses>
-				<RawVicinityBonus>BONUS_KANGAROO</RawVicinityBonus>
+				<VicinityBonus>BONUS_KANGAROO</VicinityBonus>
 			</PrereqRawVicinityBonuses>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -95395,7 +95395,7 @@
 			<PrereqTech>TECH_TRAP_FISHING</PrereqTech>
 			<RawVicinityBonus>BONUS_SILK</RawVicinityBonus>
 			<PrereqRawVicinityBonuses>
-				<RawVicinityBonus>BONUS_MUREX</RawVicinityBonus>
+				<VicinityBonus>BONUS_MUREX</VicinityBonus>
 			</PrereqRawVicinityBonuses>
 			<!-- Construction cost -->
 			<iCost>56</iCost>
