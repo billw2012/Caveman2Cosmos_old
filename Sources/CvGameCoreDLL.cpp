@@ -183,7 +183,7 @@ BOOL APIENTRY DllMain(HANDLE hModule,
 // BUG - EXE/DLL Paths - start
 		dllModule = hModule;
 
-#ifdef _DEBUG
+#ifdef CVDEBUG
 /************************************************************************************************/
 /* Afforess	                  Start		 07/30/10                                               */
 /*                                                                                              */

@@ -12900,7 +12900,7 @@ int CvCityAI::yieldValueCacheReads = 0;
 int CvCityAI::AI_yieldValue(short* piYields, short* piCommerceYields, bool bAvoidGrowth, bool bRemove, bool bIgnoreFood, bool bIgnoreGrowth, bool bIgnoreStarvation, bool bWorkerOptimization)
 {
 #ifdef YIELD_VALUE_CACHING
-#ifdef _DEBUG
+#ifdef CVDEBUG
 //	Uncomment this to perform functional verification
 //#define VERIFY_YIELD_CACHE_RESULTS
 #endif
@@ -17111,7 +17111,7 @@ int CvCityAI::AI_getNavalMilitaryProductionRateRank() const
 //	KOSHLING Mod - pre-calculate and cache building values for all focuses
 //
 //	Simple class to hold the calculated values for one building type and city
-#ifdef _DEBUG
+#ifdef CVDEBUG
 //#define VALIDATE_BUILDING_CACHE_CONSISTENCY
 #endif
 

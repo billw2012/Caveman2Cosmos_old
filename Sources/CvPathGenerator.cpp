@@ -3236,7 +3236,7 @@ void CvPathGenerator::SelfTest()
 				{
 					iPathsRemaining--;
 
-#ifdef _DEBUG
+#ifdef CVDEBUG
 					sprintf(buffer, "Attempt to path from (%d,%d) to (%d,%d)\r\n", pStartPlot->getX_INLINE(), pStartPlot->getY_INLINE(), pEndPlot->getX_INLINE(), pEndPlot->getY_INLINE());
 					OutputDebugString(buffer);
 
@@ -3246,13 +3246,13 @@ void CvPathGenerator::SelfTest()
 					}
 #endif
 					attemptTrace[iI].bResult = generatePath(pStartPlot, pEndPlot, pTempUnit->getGroup(), 0, MAX_INT);
-#ifdef _DEBUG
+#ifdef CVDEBUG
 					g_tracePathing = false;
 #endif
 
 					if ( attemptTrace[iI].bResult )
 					{
-#ifdef _DEBUG
+#ifdef CVDEBUG
 						OutputDebugString("    successful\r\n");
 #endif
 						iPathsSuccessful++;
@@ -3262,7 +3262,7 @@ void CvPathGenerator::SelfTest()
 						attemptTrace[iI].iPathLen = path.length();
 						attemptTrace[iI].iEndCost = path.cost();
 					}
-#ifdef _DEBUG
+#ifdef CVDEBUG
 					else
 					{
 						OutputDebugString("    failed\r\n");
@@ -3278,14 +3278,14 @@ void CvPathGenerator::SelfTest()
 				//	For now just land paths considered
 				if ( !pEndPlot->isWater() )
 				{
-#ifdef _DEBUG
+#ifdef CVDEBUG
 					if ( 113 == attemptTrace[iI].iStartX && 21 == attemptTrace[iI].iStartY && 133 == attemptTrace[iI].iEndX && 9 == attemptTrace[iI].iEndY)
 					{
 						g_tracePathing = true;
 					}
 #endif
 					bool bMTResult = generatorMT.generatePath(pStartPlot, pEndPlot, pTempUnit->getGroup(), 0, MAX_INT);
-#ifdef _DEBUG
+#ifdef CVDEBUG
 					g_tracePathing = false;
 #endif
 

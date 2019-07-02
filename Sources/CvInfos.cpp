@@ -1794,7 +1794,7 @@ CvTechInfo::~CvTechInfo()
 //	Validate tech info data after load (debug only)
 void CvTechInfo::validate()
 {
-#ifdef _DEBUG
+#ifdef CVDEBUG
 	for(int iI = 0; iI < GC.getNumTechInfos(); iI++)
 	{
 		CvTechInfo&	info = GC.getTechInfo((TechTypes)iI);

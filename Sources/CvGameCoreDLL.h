@@ -18,7 +18,7 @@
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 #include <MMSystem.h>
-//#if defined _DEBUG && !defined USE_MEMMANAGER
+//#if defined CVDEBUG && !defined USE_MEMMANAGER
 //#define USE_MEMMANAGER
 //#include <crtdbg.h>
 //#endif
@@ -166,7 +166,7 @@ __forceinline float MaxFloat() { return DWtoF(0x7f7fffff); }
 //	to be added on plot chaches that are used by pathing)
 //#define	SUPPORT_MULTITHREADED_PATHING 
 
-#ifdef _DEBUG
+#ifdef CVDEBUG
 //#define	MEMORY_TRACKING
 #endif
 
@@ -243,13 +243,8 @@ void DumpMemUsage(const char* fn, int line);
 #endif
 
 // Python
-#ifdef _DEBUG
-  #undef _DEBUG
-  #include "Python.h"
-  #define _DEBUG
-#else
-  #include "Python.h"
-#endif
+// Anq comment: since _DEBUG is replaced with CVDEBUG, undef _DEBUG is unneeded.
+#include "Python.h"
 
 //
 // Boost Python

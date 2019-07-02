@@ -33,7 +33,7 @@ CyGlobalContext& CyGlobalContext::getInstance()
 
 bool CyGlobalContext::isDebugBuild() const
 {
-#ifdef _DEBUG
+#ifdef CVDEBUG
 	return true;
 #else
 	return false;

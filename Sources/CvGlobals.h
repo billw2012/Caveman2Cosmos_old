@@ -2066,7 +2066,7 @@ extern cvInternalGlobals* gGlobals;	// for debugging
 
 class CvGlobals;
 
-#ifdef _DEBUG
+#ifdef CVDEBUG
 extern int inDLL;
 extern const char* fnName;
 

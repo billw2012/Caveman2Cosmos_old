@@ -4,13 +4,13 @@
 #define FASSERT_H
 
 // Only compile in FAssert's if FASSERT_ENABLE is defined.  By default, however, let's key off of
-// _DEBUG.  Sometimes, however, it's useful to enable asserts in release builds, and you can do that
+// CVDEBUG.  Sometimes, however, it's useful to enable asserts in release builds, and you can do that
 // simply by changing the following lines to define FASSERT_ENABLE or using project settings to override
-#ifdef _DEBUG
+#ifdef CVDEBUG
 #define FASSERT_ENABLE
 #endif
 
-#if defined(FASSERT_ENABLE) || !defined(_DEBUG)
+#if defined(FASSERT_ENABLE) || !defined(CVDEBUG)
 #ifdef WIN32
 bool FAssertDlg( const char*, const char*, const char*, unsigned int, bool& );
 #endif
@@ -53,7 +53,7 @@ bool FAssertDlg( const char*, const char*, const char*, unsigned int, bool& );
 
 #endif
 
-#if defined(FASSERT_ENABLE) || !defined(_DEBUG)
+#if defined(FASSERT_ENABLE) || !defined(CVDEBUG)
 #ifdef WIN32
 
 //This AssertMsg is also shown in non debug builds

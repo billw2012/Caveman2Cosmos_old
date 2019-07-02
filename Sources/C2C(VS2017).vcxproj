@@ -68,7 +68,7 @@
 nmake /NOLOGO /K Debug</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>nmake Debug_clean</NMakeCleanCommandLine>
     <NMakeOutput>CvGameCoreDLL.dll</NMakeOutput>
-    <NMakePreprocessorDefinitions>WIN32;_DEBUG;_USRDLL;C2C_BUILD;USE_INTERNAL_PROFILER;QC_MASTERY_VICTORY;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakePreprocessorDefinitions>WIN32;CVDEBUG;_USRDLL;C2C_BUILD;USE_INTERNAL_PROFILER;QC_MASTERY_VICTORY;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakeIncludeSearchPath>E:\Civ4\CvGameCoreDLL\Boost-1.32.0\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
     <NMakeForcedIncludes>E:\Civ4\CvGameCoreDLL\Boost-1.32.0\include;$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <IncludePath>D:\Program Files %28x86%29\Civilization IV Complete\Civ4\Beyond the Sword\CvGameCoreDLL\Python24\include;D:\Program Files %28x86%29\Civilization IV Complete\Civ4\Beyond the Sword\CvGameCoreDLL\Boost-1.32.0\include;.\xerces-c-3.1.1-x86-windows-vc-7.1\src;$(IncludePath)</IncludePath>

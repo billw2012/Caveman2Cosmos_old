@@ -469,7 +469,7 @@ int CvSelectionGroupAI::AI_attackOdds(const CvPlot* pPlot, bool bPotentialEnemy,
 		int iNumDefenders = 0;
 		bool bAttackingGroupHasAlwaysHostileUnits = false;
 
-#ifdef _DEBUG
+#ifdef CVDEBUG
 		char buffer[300];
 #endif
 
@@ -482,7 +482,7 @@ int CvSelectionGroupAI::AI_attackOdds(const CvPlot* pPlot, bool bPotentialEnemy,
 
 			pLoopUnit->AI_setPredictedHitPoints(-1);
 
-#ifdef _DEBUG
+#ifdef CVDEBUG
 			sprintf(buffer,"Attacker id %d has start cur HP %d\n",pLoopUnit->getID(),pLoopUnit->currHitPoints());
 			OutputDebugString(buffer);
 #endif
@@ -494,7 +494,7 @@ int CvSelectionGroupAI::AI_attackOdds(const CvPlot* pPlot, bool bPotentialEnemy,
 				iStartAttackerMaxStrength += iStr;	//	Really want a more general valuation here that accounts
 													//	for all promotions, not just those in action at this plot
 
-#ifdef _DEBUG
+#ifdef CVDEBUG
 				sprintf(buffer,"Attacker id %d has start str %d\n",pLoopUnit->getID(),iStr);
 				OutputDebugString(buffer);
 #endif
@@ -530,7 +530,7 @@ int CvSelectionGroupAI::AI_attackOdds(const CvPlot* pPlot, bool bPotentialEnemy,
 					iStartDefenderMaxStrength += iStr;	//	Really want a more general valuation here that accounts
 														//	for all promotions, not just those in action at this plot
 
-#ifdef _DEBUG
+#ifdef CVDEBUG
 					sprintf(buffer,"Defender id %d has start str %d\n",pLoopUnit->getID(),iStr);
 					OutputDebugString(buffer);
 #endif
@@ -608,7 +608,7 @@ int CvSelectionGroupAI::AI_attackOdds(const CvPlot* pPlot, bool bPotentialEnemy,
 				pLoopUnit = ::getUnit(pUnitNode->m_data);
 				pUnitNode = nextUnitNode(pUnitNode);
 
-#ifdef _DEBUG
+#ifdef CVDEBUG
 				sprintf(buffer,"Attacker id %d has end cur HP %d, predicted %d\n",pLoopUnit->getID(),pLoopUnit->currHitPoints(),pLoopUnit->AI_getPredictedHitPoints());
 				OutputDebugString(buffer);
 #endif
@@ -620,7 +620,7 @@ int CvSelectionGroupAI::AI_attackOdds(const CvPlot* pPlot, bool bPotentialEnemy,
 					iEndAttackerMaxStrength += iStr;	//	Really want a more general valuation here that accounts
 														//	for all promotions, not just those in action at this plot
 
-#ifdef _DEBUG
+#ifdef CVDEBUG
 					sprintf(buffer,"Attacker id %d has end str %d\n",pLoopUnit->getID(),iStr);
 					OutputDebugString(buffer);
 #endif
@@ -649,7 +649,7 @@ int CvSelectionGroupAI::AI_attackOdds(const CvPlot* pPlot, bool bPotentialEnemy,
 
 							iEndDefenderMaxStrength += iStr;	//	Really want a more general valuation here that accounts
 																//	for all promotions, not just those in action at this plot
-#ifdef _DEBUG
+#ifdef CVDEBUG
 							sprintf(buffer,"Defender id %d has end str %d\n",pLoopUnit->getID(),iStr);
 							OutputDebugString(buffer);
 #endif

@@ -19486,7 +19486,7 @@ void CvUnit::setXY(int iX, int iY, bool bGroup, bool bUpdate, bool bShow, bool b
 					pLoopUnit->setXY(iX, iY, bGroup, false);
 				}
 			}
-#ifdef _DEBUG
+#ifdef CVDEBUG
 			pUnitNode = pOldPlot->headUnitNode();
 
 			while (pUnitNode != NULL)
@@ -23139,7 +23139,7 @@ void CvUnit::setTransportUnit(CvUnit* pTransportUnit)
 			getGroup()->AI_setMissionAI(MISSIONAI_REGROUP, NULL, NULL);
 		}
 
-#ifdef _DEBUG
+#ifdef CVDEBUG
 		std::vector<CvUnit*> aCargoUnits;
 		if (pOldTransportUnit != NULL)
 		{
@@ -24780,7 +24780,7 @@ const PromotionKeyedInfo*	CvUnit::findPromotionKeyedInfo(PromotionTypes ePromoti
 	}
 	else if (m_promotionKeyedInfo.size() > 32 && itr->second.Empty())
 	{
-		//Alberts2 Erase empty eleménts to save memory
+		//Alberts2 Erase empty elemï¿½nts to save memory
 		m_promotionKeyedInfo.erase(itr->first);
 		return NULL;
 	}
@@ -24829,7 +24829,7 @@ const PromotionLineKeyedInfo*	CvUnit::findPromotionLineKeyedInfo(PromotionLineTy
 	}
 	else if (m_promotionLineKeyedInfo.size() > 16 && itr->second.Empty())
 	{
-		//Alberts2 Erase empty eleménts to save memory
+		//Alberts2 Erase empty elemï¿½nts to save memory
 		m_promotionLineKeyedInfo.erase(itr->first);
 		return NULL;
 	}
@@ -24873,7 +24873,7 @@ const TerrainKeyedInfo*	CvUnit::findTerrainKeyedInfo(TerrainTypes eTerrain) cons
 	}
 	else if (m_terrainKeyedInfo.size() > 16 && itr->second.Empty())
 	{
-		//Alberts2 Erase empty eleménts to save memory
+		//Alberts2 Erase empty elemï¿½nts to save memory
 		m_terrainKeyedInfo.erase(itr->first);
 		return NULL;
 	}
@@ -24912,7 +24912,7 @@ const FeatureKeyedInfo*	CvUnit::findFeatureKeyedInfo(FeatureTypes eFeature) cons
 	}
 	else if (m_featureKeyedInfo.size() > 16 && itr->second.Empty())
 	{
-		//Alberts2 Erase empty eleménts to save memory
+		//Alberts2 Erase empty elemï¿½nts to save memory
 		m_featureKeyedInfo.erase(itr->first);
 		return NULL;
 	}
@@ -24951,7 +24951,7 @@ const UnitCombatKeyedInfo*	CvUnit::findUnitCombatKeyedInfo(UnitCombatTypes eUnit
 	}
 	else if (m_unitCombatKeyedInfo.size() > 32 && itr->second.Empty())
 	{
-		//Alberts2 Erase empty eleménts to save memory
+		//Alberts2 Erase empty elemï¿½nts to save memory
 		m_unitCombatKeyedInfo.erase(itr->first);
 		return NULL;
 	}

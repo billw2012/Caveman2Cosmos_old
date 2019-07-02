@@ -64,8 +64,8 @@ Release_OTHER=Release\CvGameCoreDLL.exp
 Final_Release_OTHER=Final_Release\CvGameCoreDLL.exp
 
 #### CFLAGS ####
-GLOBAL_CFLAGS=/GR /Gy /W3 /EHsc /arch:SSE2 /Gd /Gm- /DWIN32 /D_WINDOWS /D_USRDLL /DCVGAMECOREDLL_EXPORTS /Yu"CvGameCoreDLL.h" /Zm200 /DXERCES_STATIC_LIBRARY
-Debug_CFLAGS=/MD /Zi /Od /D_DEBUG /RTC1 /Fp"$(Debug_PCH)" /Fd"./Debug/" $(GLOBAL_CFLAGS) $(Debug_GLOBAL_CFLAGS)
+GLOBAL_CFLAGS=/GR /Gy /W3 /EHsc /arch:SSE2 /Gd /Gm- /DWIN32 /D_WINDOWS /D_USRDLL /Yu"CvGameCoreDLL.h" /Zm200 /DXERCES_STATIC_LIBRARY
+Debug_CFLAGS=/MD /Zi /Od /DCVDEBUG /RTC1 /Fp"$(Debug_PCH)" /Fd"./Debug/" $(GLOBAL_CFLAGS) $(Debug_GLOBAL_CFLAGS)
 Release_CFLAGS=/MD /Zi /O2 /Oy /Oi /G7 /DNDEBUG /Fp"$(Release_PCH)" /Fd"./Release/" $(GLOBAL_CFLAGS) $(Release_GLOBAL_CFLAGS)
 Final_Release_CFLAGS=/MD /Zi /O2 /Oy /Oi /G7 /DNDEBUG /DFINAL_RELEASE /Fp"$(Final_Release_PCH)" /Fd"./Final_Release/" $(GLOBAL_CFLAGS) $(Final_Release_GLOBAL_CFLAGS)
 
@@ -85,7 +85,7 @@ Final_Release_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
 #### LIBS ####
 GLOBAL_LIBS=/LIBPATH:"$(TOOLKIT)/lib" /LIBPATH:"$(PSDK)/Lib" winmm.lib user32.lib psapi.lib advapi32.lib
 PROJECT_LIBS=/LIBPATH:"$(GLOBALPYTHON)/libs" /LIBPATH:"$(GLOBALBOOST)/libs/" boost_python-vc71-mt-1_32.lib thread.obj exceptions.obj condition.obj xtime.obj mutex.obj once.obj recursive_mutex.obj read_write_mutex.obj tss_hooks.obj
-Debug_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS) $(Xerces_OBJS) msvcprt.lib /NODEFAULTLIB:msvcprtd.lib
+Debug_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS) $(Xerces_OBJS) msvcprt.lib
 Release_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS) $(Xerces_OBJS)
 Final_Release_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS) $(Xerces_OBJS)
 

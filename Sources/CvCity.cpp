@@ -2493,7 +2493,7 @@ void CvCity::doTurnPostProduction()
 	CvEventReporter::getInstance().cityDoTurn(this, getOwnerINLINE());
 
 	// XXX
-#ifdef _DEBUG
+#ifdef CVDEBUG
 	{
 		CvPlot* pPlot;
 		int iCount;
@@ -3770,7 +3770,7 @@ bool CvCity::canTrainInternal(UnitTypes eUnit, bool bContinue, bool bTestVisible
 }
 
 #ifdef CAN_TRAIN_CACHING
-#ifdef _DEBUG
+#ifdef CVDEBUG
 //	Uncomment this for consistency testing of the canTrain cache
 //#define VALIDATE_CAN_TRAIN_CACHE_CONSISTENCY
 #endif
@@ -3969,7 +3969,7 @@ bool CvCity::canTrain(UnitCombatTypes eUnitCombat) const
 }
 
 //	KOSHLING - cache can construct values
-#ifdef _DEBUG
+#ifdef CVDEBUG
 //	Uncomment to add runtime results checking
 //#define VALIDATE_CAN_CONSTRUCT_CACHE
 #endif
@@ -4725,7 +4725,7 @@ bool CvCity::canConstructInternal(BuildingTypes eBuilding, bool bContinue, bool 
 
 	if (!bTestVisible && kBuilding.getConstructCondition() && !bExposed)
 	{
-		if (!kBuilding.getConstructCondition()->evaluate(const_cast<CvGameObjectCity*>(getGameObjectConst()))) // Const wegcasten ist hier ok da evaluate nicht wirklich etwas ändert
+		if (!kBuilding.getConstructCondition()->evaluate(const_cast<CvGameObjectCity*>(getGameObjectConst()))) // Const wegcasten ist hier ok da evaluate nicht wirklich etwas ï¿½ndert
 		{
 			return false;
 		}

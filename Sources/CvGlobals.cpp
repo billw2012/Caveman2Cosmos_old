@@ -135,7 +135,7 @@ CvDLLUtilityIFaceBase* g_DLL = NULL;
 int g_iPercentDefault = 100;
 int g_iModifierDefault = 0;
 
-#ifdef _DEBUG
+#ifdef CVDEBUG
 int inDLL = 0;
 const char* fnName = NULL;
 
@@ -5649,7 +5649,7 @@ void cvInternalGlobals::LogMissingType( const char* szType ) const
 void cvInternalGlobals::setInfoTypeFromString(const char* szType, int idx)
 {
 	FAssertMsg(szType, "null info type string");
-#ifdef _DEBUG
+#ifdef CVDEBUG
 	InfosMap::const_iterator it = m_infosMap.find(szType);
 	int iExisting = (it!=m_infosMap.end()) ? it->second : -1;
 	FAssertMsg(iExisting==-1 || iExisting==idx || strcmp(szType, "ERROR")==0, CvString::format("xml info type entry %s already exists", szType).c_str());
@@ -5660,7 +5660,7 @@ void cvInternalGlobals::setInfoTypeFromString(const char* szType, int idx)
 void cvInternalGlobals::setInfoTypeFromString(const char* szType, int idx)
 {
 	FAssertMsg(szType, "null info type string");
-#ifdef _DEBUG
+#ifdef CVDEBUG
 	OutputDebugString(CvString::format("%s -> %d\n", szType, idx).c_str());
 #endif
 	m_infosMap[szType] = idx;

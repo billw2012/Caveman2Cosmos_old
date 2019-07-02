@@ -186,7 +186,7 @@ void CvXMLLoadUtilityModTools::setLocationName( CvString *pszTextVal, const char
 		}
 		else
 		{
-#ifdef _DEBUG
+#ifdef CVDEBUG
 		//the passed is crap, we don't want to continue anything with it
 /*
 		if ( szTextVal == "" )	// this shouldn't exist
@@ -207,7 +207,7 @@ void CvXMLLoadUtilityModTools::setLocationName( CvString *pszTextVal, const char
 	}
 	else if (isCommaFile(&szTextVal, szDirName)) // These are tags with a comma, mostly having 2button types even
 	{
-#ifdef _DEBUG
+#ifdef CVDEBUG
 		//the passed is crap, we don't want to continue anything with it
 		if ( szTextVal == "" )
 		{
@@ -231,7 +231,7 @@ void CvXMLLoadUtilityModTools::setLocationName( CvString *pszTextVal, const char
 		}
 		else
 		{
-#ifdef _DEBUG
+#ifdef CVDEBUG
 		//the passed is crap, we don't want to continue anything with it
 		if ( szTextVal == "" )
 		{
@@ -282,7 +282,7 @@ bool CvXMLLoadUtilityModTools::isExcludedFile(const char* szLocationName)
 		//compare
 		if ( szLocationNameStripTemp == "mht" )  //if its a thema file, force static linking
 		{
-#ifdef _DEBUG
+#ifdef CVDEBUG
 		CvXMLLoadUtility* p_szLogWrite = new CvXMLLoadUtility;
 		p_szLogWrite->XmlArtTagVerification("You are now loading an alternative theme: %s", szLocationName);
 		SAFE_DELETE(p_szLogWrite);
@@ -658,7 +658,7 @@ void CvXMLLoadUtilityModTools::writeThm(const char* szTextVal)
 	{
 		return;
 /*
-#ifdef _DEBUG
+#ifdef CVDEBUG
 		CvString szPrint = GetProgramDir();
 		szPrint.append(szTextVal);
 		CvXMLLoadUtility* p_szLogWrite = new CvXMLLoadUtility;

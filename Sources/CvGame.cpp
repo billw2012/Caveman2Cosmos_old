@@ -11569,7 +11569,7 @@ void CvGame::logMsg(char* format, ... )
 
 void CvGame::logDebugMsg(char* format, ...)
 {
-#ifdef _DEBUG
+#ifdef CVDEBUG
 	TCHAR szOut[1024];
 	if (GC.getGameINLINE().getActivePlayer() != -1)
 		sprintf(szOut, "Player %d - Multiplayer Game Log.log", GC.getGameINLINE().getActivePlayer());
