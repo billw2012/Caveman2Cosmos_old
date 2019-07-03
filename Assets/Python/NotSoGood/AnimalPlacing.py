@@ -85,18 +85,13 @@ def onImprovementBuilt(argsList):
 
 def canBuild(argsList):
 	iX, iY, iBuild, iPlayer = argsList
-	# NotSoGood start
-	plot = CyMap().plot(iX, iY)
-	
-	CvUtil.pyPrint("AnimalPlacing %d at (%d,%d)"%(iBuild,iX,iY))
-	if plot.getPlotType() == 3: #  OCEAN
-		return 0
+
 	if iBuild in gia_BonusBuildList:
-		CvUtil.pyPrint("In acceptable list")
+		plot = CyMap().plot(iX, iY)
+		if plot.getPlotType() == 3: #  Water
+			return 0
 		if plot.isPlotGroupConnectedBonus(iPlayer, gia_BonusBuildList[iBuild]) and plot.getBonusType(-1) == -1:
 			return 1
-		else:
-			return 0
+		return 0
 
-	# NotSoGood end
 	return -1	# Returning -1 means ignore; 0 means Build cannot be performed; 1 or greater means it can
