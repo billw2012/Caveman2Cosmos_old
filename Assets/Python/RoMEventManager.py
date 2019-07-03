@@ -203,7 +203,7 @@ class RoMEventManager:
 							if ( pPlot.getTerrainType()==tt_desert ):
 								CyGame().setPlotExtraYield(iXLoop, iYLoop, YieldTypes.YIELD_COMMERCE, 2)
 			
-			CyInterface().addMessage(pPID,False,15,CyTranslator().getText("TXT_KEY_DJENNE_PYTHON",()),'',0,'Art/Interface/Buttons/Buildings/Djenne.dds',ColorTypes(44), iX, iY, True,True)
+			CyInterface().addMessage(pPID,False,15,CyTranslator().getText("TXT_KEY_DJENNE_PYTHON",()),'',0,'Art/Interface/Buttons/Great_Wonders/great_mosque_of_djenne.dds',ColorTypes(44), iX, iY, True,True)
 
 		
 		# world bank national wonder
