@@ -4002,7 +4002,7 @@
 			<PrereqTech>TECH_COMPASS</PrereqTech>
 			<BonusType>BONUS_PORTUGUESE</BonusType>
 			<iCost>340</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iCombat>9</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -4113,7 +4113,7 @@
 			</TechTypes>
 			<BonusType>BONUS_DUTCH</BonusType>
 			<iCost>440</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iCombat>18</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -12171,7 +12171,7 @@
 				<BonusType>BONUS_DIESEL</BonusType>
 			</PrereqBonuses>
 			<iCost>1100</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>6</iMoves>
 			<iCombat>55</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>

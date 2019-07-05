@@ -29525,7 +29525,7 @@
 			<PrereqBuilding>BUILDING_SHIPWRIGHT</PrereqBuilding>
 			<PrereqTech>TECH_RUDDER</PrereqTech>
 			<iCost>280</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_OCEAN</TerrainType>
@@ -29661,7 +29661,7 @@
 				<PrereqTech>TECH_GUNPOWDER</PrereqTech>
 			</TechTypes>
 			<iCost>370</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -29767,7 +29767,7 @@
 				<PrereqTech>TECH_ASTROLABE</PrereqTech>
 			</TechTypes>
 			<iCost>400</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -29862,7 +29862,7 @@
 				<BonusType>BONUS_COAL</BonusType>
 			</PrereqBonuses>
 			<iCost>570</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>22</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -29953,7 +29953,7 @@
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
 			<iCost>750</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>30</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -30045,7 +30045,7 @@
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
 			<iCost>1180</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>6</iMoves>
 			<iCombat>40</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -30132,7 +30132,7 @@
 				<BonusType>BONUS_DIESEL</BonusType>
 			</PrereqBonuses>
 			<iCost>1650</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>10</iMoves>
 			<iCombat>55</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -30235,7 +30235,7 @@
 				<PrereqTech>TECH_FUSION</PrereqTech>
 			</TechTypes>
 			<iCost>2900</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>10</iMoves>
 			<iCombat>60</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -30451,7 +30451,7 @@
 			<PrereqBuilding>BUILDING_SHIPWRIGHT</PrereqBuilding>
 			<PrereqTech>TECH_NAVAL_WARFARE</PrereqTech>
 			<iCost>150</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_SEA_TROPICAL</TerrainType>
@@ -30693,7 +30693,7 @@
 			<PrereqBuilding>BUILDING_SHIPWRIGHT</PrereqBuilding>
 			<PrereqTech>TECH_SHIP_BUILDING</PrereqTech>
 			<iCost>240</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_OCEAN</TerrainType>
@@ -30793,7 +30793,7 @@
 			<PrereqBuilding>BUILDING_SHIPWRIGHT</PrereqBuilding>
 			<PrereqTech>TECH_ANCIENT_BALLISTICS</PrereqTech>
 			<iCost>270</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_OCEAN</TerrainType>
@@ -30899,7 +30899,7 @@
 			<PrereqTech>TECH_ANCIENT_BALLISTICS</PrereqTech>
 			<BonusType>BONUS_SULPHUR</BonusType>
 			<iCost>300</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_OCEAN</TerrainType>
@@ -31018,7 +31018,7 @@
 				<PrereqTech>TECH_ANCIENT_MACHINERY</PrereqTech>
 			</TechTypes>
 			<iCost>250</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_OCEAN</TerrainType>
@@ -31129,7 +31129,7 @@
 				<PrereqTech>TECH_RUDDER</PrereqTech>
 			</TechTypes>
 			<iCost>360</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_OCEAN</TerrainType>
@@ -31299,7 +31299,7 @@
 				<BonusType>BONUS_SULPHUR</BonusType>
 			</PrereqBonuses>
 			<iCost>450</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iCombat>15</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -31424,7 +31424,7 @@
 				<BonusType>BONUS_SULPHUR</BonusType>
 			</PrereqBonuses>
 			<iCost>640</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iCombat>24</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -31557,7 +31557,7 @@
 				<BonusType>BONUS_SULPHUR</BonusType>
 			</PrereqBonuses>
 			<iCost>525</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iCombat>24</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -31679,7 +31679,7 @@
 				<BonusType>BONUS_WARE_STEEL</BonusType>
 			</PrereqBonuses>
 			<iCost>720</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_OCEAN</TerrainType>
@@ -31794,7 +31794,7 @@
 				<BonusType>BONUS_WARE_IRON</BonusType>
 			</PrereqBonuses>
 			<iCost>1000</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iCombat>39</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -31902,7 +31902,7 @@
 				<BonusType>BONUS_WARE_IRON</BonusType>
 			</PrereqBonuses>
 			<iCost>1150</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>48</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -32008,7 +32008,7 @@
 				<BonusType>BONUS_WARE_STEEL</BonusType>
 			</PrereqBonuses>
 			<iCost>1100</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>7</iMoves>
 			<iCombat>48</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -32105,7 +32105,7 @@
 				<BonusType>BONUS_DIESEL</BonusType>
 			</PrereqBonuses>
 			<iCost>1300</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>7</iMoves>
 			<iCombat>64</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -32211,7 +32211,7 @@
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
 			<iCost>1420</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>9</iMoves>
 			<iCombat>78</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -32322,7 +32322,7 @@
 				<BonusType>BONUS_WARE_STEEL</BonusType>
 			</PrereqBonuses>
 			<iCost>1250</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>8</iMoves>
 			<iCombat>60</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -32434,7 +32434,7 @@
 				<BonusType>BONUS_WARE_STEEL</BonusType>
 			</PrereqBonuses>
 			<iCost>1350</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>7</iMoves>
 			<iCombat>60</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -32560,7 +32560,7 @@
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
 			<iCost>2400</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>10</iMoves>
 			<iCombat>80</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -32687,7 +32687,7 @@
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
 			<iCost>3000</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>11</iMoves>
 			<iCombat>110</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -32817,7 +32817,7 @@
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
 			<iCost>1845</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>10</iMoves>
 			<iCombat>94</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -32934,7 +32934,7 @@
 				<PrereqTech>TECH_NANOBOTICS</PrereqTech>
 			</TechTypes>
 			<iCost>4600</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>12</iMoves>
 			<iCombat>130</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -33056,7 +33056,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_ADVANCED_WARMACHINES</PrereqTech>
 			<iCost>7700</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>11</iMoves>
 			<iCombat>150</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -33398,7 +33398,7 @@
 			<PrereqBuilding>BUILDING_SHIPWRIGHT</PrereqBuilding>
 			<PrereqTech>TECH_COMPASS</PrereqTech>
 			<iCost>300</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iCombat>9</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -33511,7 +33511,7 @@
 				<BonusType>BONUS_SULPHUR</BonusType>
 			</PrereqBonuses>
 			<iCost>450</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -33649,7 +33649,7 @@
 				<BonusType>BONUS_SULPHUR</BonusType>
 			</PrereqBonuses>
 			<iCost>350</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>18</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -33766,7 +33766,7 @@
 				<BonusType>BONUS_WARE_IRON</BonusType>
 			</PrereqBonuses>
 			<iCost>600</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>30</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -33882,7 +33882,7 @@
 				<BonusType>BONUS_WARE_IRON</BonusType>
 			</PrereqBonuses>
 			<iCost>900</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>6</iMoves>
 			<iCombat>36</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -33987,7 +33987,7 @@
 				<BonusType>BONUS_COAL</BonusType>
 			</PrereqBonuses>
 			<iCost>1150</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>8</iMoves>
 			<iCombat>46</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -34113,7 +34113,7 @@
 				<BonusType>BONUS_DIESEL</BonusType>
 			</PrereqBonuses>
 			<iCost>1300</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>9</iMoves>
 			<iCombat>62</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -34214,7 +34214,7 @@
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
 			<iCost>1765</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>10</iMoves>
 			<iCombat>72</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -34340,7 +34340,7 @@
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
 			<iCost>2000</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>11</iMoves>
 			<iCombat>80</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -34476,7 +34476,7 @@
 				</Or>
 			</TrainCondition>
 			<iCost>2425</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>9</iMoves>
 			<iCombat>105</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -34625,7 +34625,7 @@
 			</TechTypes>
 			<iCost>3600</iCost>
 			<iAdvancedStartCost>200</iAdvancedStartCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>13</iMoves>
 			<iCombat>120</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -34788,7 +34788,7 @@
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
 			<iCost>1290</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>6</iMoves>
 			<iCombat>35</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -34941,7 +34941,7 @@
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
 			<iCost>1680</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>7</iMoves>
 			<iCombat>54</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -35105,7 +35105,7 @@
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
 			<iCost>2400</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>7</iMoves>
 			<iCombat>80</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -35273,7 +35273,7 @@
 			</TechTypes>
 			<BonusType>BONUS_WARE_STEEL</BonusType>
 			<iCost>2900</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>8</iMoves>
 			<iCombat>110</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -35451,7 +35451,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>2755</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>9</iMoves>
 			<iCombat>125</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -35616,7 +35616,7 @@
 			</TechTypes>
 			<BonusType>BONUS_WARE_STEEL</BonusType>
 			<iCost>4750</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>12</iMoves>
 			<iCombat>120</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -35739,7 +35739,7 @@
 				<BonusType>BONUS_DIESEL</BonusType>
 			</PrereqBonuses>
 			<iCost>1300</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>32</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -35861,7 +35861,7 @@
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
 			<iCost>1660</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>40</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -35986,7 +35986,7 @@
 				<BonusType>BONUS_WARE_ALUMINUM</BonusType>
 			</PrereqBonuses>
 			<iCost>1920</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>6</iMoves>
 			<iCombat>50</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -36108,7 +36108,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_MEGASTRUCTURE_ENGINEERING</PrereqTech>
 			<iCost>7100</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>8</iMoves>
 			<iCombat>75</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -36238,7 +36238,7 @@
 			<PrereqTech>TECH_COMPASS</PrereqTech>
 			<BonusType>BONUS_WARE_IRON</BonusType>
 			<iCost>420</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>14</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -36338,7 +36338,7 @@
 				<BonusType>BONUS_DIESEL</BonusType>
 			</PrereqBonuses>
 			<iCost>1130</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>35</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -36432,7 +36432,7 @@
 				<BonusType>BONUS_DIESEL</BonusType>
 			</PrereqBonuses>
 			<iCost>1200</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>6</iMoves>
 			<iCombat>43</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -36548,7 +36548,7 @@
 			<PrereqBuilding>BUILDING_SMUGGLERS_SHANTY</PrereqBuilding>
 			<PrereqTech>TECH_SHIP_BUILDING</PrereqTech>
 			<iCost>215</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_SEA_TROPICAL</TerrainType>
@@ -36750,7 +36750,7 @@
 			<PrereqBuilding>BUILDING_SMUGGLERS_SHANTY</PrereqBuilding>
 			<PrereqTech>TECH_ASTROLABE</PrereqTech>
 			<iCost>410</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iCombat>14</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -36902,7 +36902,7 @@
 				<BonusType>BONUS_WARE_IRON</BonusType>
 			</PrereqBonuses>
 			<iCost>455</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -37046,7 +37046,7 @@
 				<BonusType>BONUS_DIESEL</BonusType>
 			</PrereqBonuses>
 			<iCost>710</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>40</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -37204,7 +37204,7 @@
 				<BonusType>BONUS_DIESEL</BonusType>
 			</PrereqBonuses>
 			<iCost>1230</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>6</iMoves>
 			<iCombat>35</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -37336,7 +37336,7 @@
 			</NotUnitAIs>
 			<PrereqTech>TECH_COAST_GUARD</PrereqTech>
 			<iCost>1050</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>6</iMoves>
 			<iCombat>55</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -37478,7 +37478,7 @@
 				</Or>
 			</TrainCondition>
 			<iCost>2205</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>12</iMoves>
 			<iCombat>100</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -37736,7 +37736,7 @@
 				</Flavor>
 			</Flavors>
 			<iCost>95</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iBaseTrade>50</iBaseTrade>
 			<iTradeMultiplier>1</iTradeMultiplier>
@@ -37855,7 +37855,7 @@
 				</Flavor>
 			</Flavors>
 			<iCost>250</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iBaseTrade>75</iBaseTrade>
 			<iTradeMultiplier>1</iTradeMultiplier>
@@ -37946,7 +37946,7 @@
 				</Flavor>
 			</Flavors>
 			<iCost>300</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iBaseTrade>85</iBaseTrade>
 			<iTradeMultiplier>1</iTradeMultiplier>
@@ -38036,7 +38036,7 @@
 				</Flavor>
 			</Flavors>
 			<iCost>620</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iBaseTrade>150</iBaseTrade>
 			<iTradeMultiplier>1</iTradeMultiplier>
@@ -38124,7 +38124,7 @@
 				</Flavor>
 			</Flavors>
 			<iCost>740</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iBaseTrade>200</iBaseTrade>
 			<iTradeMultiplier>1</iTradeMultiplier>
@@ -60743,7 +60743,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>830</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iCombat>14</iCombat>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -60880,7 +60880,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>1200</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iCombat>30</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>

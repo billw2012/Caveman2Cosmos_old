@@ -121,7 +121,7 @@
 				<BonusType>BONUS_WARE_STEEL</BonusType>
 			</PrereqBonuses>
 			<iCost>885</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>34</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>

@@ -2443,7 +2443,7 @@
 				</Flavor>
 			</Flavors>
 			<iCost>740</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iBaseTrade>250</iBaseTrade>
 			<iTradeMultiplier>1</iTradeMultiplier>
@@ -6103,7 +6103,7 @@
 			<PrereqTech>TECH_COAST_GUARD</PrereqTech>
 			<BonusType>BONUS_MALAYSIAN</BonusType>
 			<iCost>1150</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>6</iMoves>
 			<iCombat>55</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -8400,7 +8400,7 @@
 			</TechTypes>
 			<BonusType>BONUS_MING</BonusType>
 			<iCost>440</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -14413,7 +14413,7 @@
 				</Flavor>
 			</Flavors>
 			<iCost>125</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iBaseTrade>50</iBaseTrade>
 			<iTradeMultiplier>2</iTradeMultiplier>
@@ -29511,7 +29511,7 @@
 			<PrereqTech>TECH_SHIP_BUILDING</PrereqTech>
 			<BonusType>BONUS_TAHITI</BonusType>
 			<iCost>240</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_SEA_TROPICAL</TerrainType>
@@ -30601,7 +30601,7 @@
 				</Flavor>
 			</Flavors>
 			<iCost>345</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>7</iMoves>
 			<iBaseTrade>90</iBaseTrade>
 			<iTradeMultiplier>1</iTradeMultiplier>
@@ -32535,7 +32535,7 @@
 			</TechTypes>
 			<BonusType>BONUS_THREE_KINGDOMS</BonusType>
 			<iCost>270</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_OCEAN</TerrainType>
@@ -36696,7 +36696,7 @@
 				</Flavor>
 			</Flavors>
 			<iCost>125</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iBaseTrade>75</iBaseTrade>
 			<iTradeMultiplier>1</iTradeMultiplier>
@@ -37779,7 +37779,7 @@
 				</Flavor>
 			</Flavors>
 			<iCost>125</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iBaseTrade>40</iBaseTrade>
 			<iTradeMultiplier>2</iTradeMultiplier>
@@ -39731,7 +39731,7 @@
 			</TechTypes>
 			<BonusType>BONUS_BANGLADESH</BonusType>
 			<iCost>440</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -42594,7 +42594,7 @@
 			<PrereqTech>TECH_ASTROLABE</PrereqTech>
 			<BonusType>BONUS_ZANZIBAR</BonusType>
 			<iCost>450</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>14</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -49739,7 +49739,7 @@
 				</And>
 			</TrainCondition>
 			<iCost>570</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iCombat>24</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -59280,7 +59280,7 @@
 				</Flavor>
 			</Flavors>
 			<iCost>345</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>6</iMoves>
 			<iBaseTrade>80</iBaseTrade>
 			<iTradeMultiplier>1</iTradeMultiplier>
@@ -60263,7 +60263,7 @@
 				<BonusType>BONUS_WARE_IRON</BonusType>
 			</PrereqBonuses>
 			<iCost>500</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -60571,7 +60571,7 @@
 				</Flavor>
 			</Flavors>
 			<iCost>345</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iBaseTrade>100</iBaseTrade>
 			<iTradeMultiplier>1</iTradeMultiplier>
@@ -62154,7 +62154,7 @@
 			<PrereqTech>TECH_SHIP_BUILDING</PrereqTech>
 			<BonusType>BONUS_ILLYRIAN</BonusType>
 			<iCost>240</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_SEA_TROPICAL</TerrainType>
@@ -62476,7 +62476,7 @@
 			<PrereqTech>TECH_COMPASS</PrereqTech>
 			<BonusType>BONUS_ILOCANO</BonusType>
 			<iCost>340</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>9</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -64561,7 +64561,7 @@
 			<PrereqTech>TECH_RUDDER</PrereqTech>
 			<BonusType>BONUS_JUTES</BonusType>
 			<iCost>310</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_OCEAN</TerrainType>

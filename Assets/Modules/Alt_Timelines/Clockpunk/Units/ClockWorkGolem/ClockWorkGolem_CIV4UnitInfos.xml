@@ -69,7 +69,6 @@
 			</PrereqBonuses>
 			<iCost>350</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>18</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>14</iCombat>
 			<iXPValueAttack>9</iXPValueAttack>

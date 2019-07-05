@@ -10749,7 +10749,7 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_HUMPBACK_WHALE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>

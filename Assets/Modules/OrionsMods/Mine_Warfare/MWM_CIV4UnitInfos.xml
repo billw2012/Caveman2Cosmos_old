@@ -346,7 +346,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_MINE_WARFARE</PrereqTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
+			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iCombat>20</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -680,7 +680,6 @@
 			</UnitAIs>
 			<PrereqTech>TECH_MINE_WARFARE</PrereqTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iCombat>20</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
