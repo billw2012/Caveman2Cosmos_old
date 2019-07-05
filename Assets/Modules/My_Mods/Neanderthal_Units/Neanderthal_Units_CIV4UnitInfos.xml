@@ -76,11 +76,11 @@
 			<BonusType>BONUS_NEANDERTHAL</BonusType>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_NEANDERTHAL</UnitClassUpgradeType>
+					<UnitClassUpgradeType>UNITCLASS_NEANDERTHAL_WARRIOR</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
-			<ForceObsoleteTech>TECH_FLINTLOCK</ForceObsoleteTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>6</iCost>
 			<iMoves>1</iMoves>
 			<iCombat>2</iCombat>
@@ -180,7 +180,7 @@
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
-			<ForceObsoleteTech>TECH_FLINTLOCK</ForceObsoleteTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>10</iCost>
 			<iMoves>1</iMoves>
 			<iCombat>2</iCombat>
@@ -794,7 +794,7 @@
 					<bBuild>1</bBuild>
 				</Build>
 			</Builds>
-			<ForceObsoleteTech>TECH_NITROGLYCERIN</ForceObsoleteTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<PrereqTech>TECH_SEDENTARY_LIFESTYLE</PrereqTech>
 			<iCost>180</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
@@ -894,6 +894,7 @@
 			<bNoCapture>1</bNoCapture>
 			<bOnlyDefensive>1</bOnlyDefensive>
 			<PrereqTech>TECH_HERBALISM</PrereqTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<PrereqBuilding>BUILDING_WILD_HERBS</PrereqBuilding>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -1034,6 +1035,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<PrereqBonuses>
 				<BonusType>BONUS_BISON</BonusType>
 				<BonusType>BONUS_DEER</BonusType>
@@ -1089,6 +1091,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</UnitInfo>
+		<!--
 		<UnitInfo>
 			<Type>UNIT_WARDOG</Type>
 			<ForceObsoleteUnitClasses>
@@ -1163,6 +1166,7 @@
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bPassage>1</bPassage>
 			<PrereqTech>TECH_MILITARY_TRAINING</PrereqTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<PrereqBonuses>
 				<BonusType>BONUS_DOG</BonusType>
 			</PrereqBonuses>
@@ -1209,6 +1213,7 @@
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 		</UnitInfo>
+		-->
 		<UnitInfo>
 			<Type>UNIT_TRAINEDDOG</Type>
 			<ForceObsoleteUnitClasses>
@@ -1283,13 +1288,14 @@
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bPassage>1</bPassage>
 			<PrereqTech>TECH_CANINE_DOMESTICATION</PrereqTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<PrereqBonuses>
 				<BonusType>BONUS_DOG</BonusType>
 			</PrereqBonuses>
 			<PrereqBuilding>BUILDING_DOG_BREEDER</PrereqBuilding>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_NEANDERTHAL_WARDOG</UnitClassUpgradeType>
+					<UnitClassUpgradeType>UNITCLASS_WARDOG</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
@@ -1401,7 +1407,7 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<ForceObsoleteTech>TECH_OPTICS</ForceObsoleteTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<PrereqBuilding>BUILDING_CANOEBUILDERS_HUT</PrereqBuilding>
 			<PrereqTech>TECH_SAILING</PrereqTech>
 			<iCost>210</iCost>
@@ -1539,7 +1545,7 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<ForceObsoleteTech>TECH_OPTICS</ForceObsoleteTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<PrereqBuilding>BUILDING_CANOEBUILDERS_HUT</PrereqBuilding>
 			<PrereqTech>TECH_BOAT_BUILDING</PrereqTech>
 			<PrereqBonuses>
@@ -1661,7 +1667,7 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<ForceObsoleteTech>TECH_OPTICS</ForceObsoleteTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<PrereqBuilding>BUILDING_CANOEBUILDERS_HUT</PrereqBuilding>
 			<PrereqTech>TECH_HARPOON_MAKING</PrereqTech>
 			<iCost>200</iCost>
@@ -1777,7 +1783,7 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<ForceObsoleteTech>TECH_OPTICS</ForceObsoleteTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<PrereqBuilding>BUILDING_CANOEBUILDERS_HUT</PrereqBuilding>
 			<PrereqTech>TECH_BOAT_BUILDING</PrereqTech>
 			<iCost>150</iCost>
@@ -1899,7 +1905,7 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<ForceObsoleteTech>TECH_OPTICS</ForceObsoleteTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<PrereqTech>TECH_RAFT_BUILDING</PrereqTech>
 			<PrereqBonuses>
 				<BonusType>BONUS_TIMBER</BonusType>
@@ -2050,6 +2056,7 @@
 			</Builds>
 			<PrereqBuilding>BUILDING_SHIPWRIGHT</PrereqBuilding>
 			<PrereqTech>TECH_SAILING</PrereqTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SEAFARING</ProductionTraitType>
@@ -2209,6 +2216,7 @@
 				</Build>
 			</Builds>
 			<PrereqTech>TECH_FISHING</PrereqTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SEAFARING</ProductionTraitType>
@@ -2328,6 +2336,7 @@
 			<TechTypes>
 				<PrereqTech>TECH_WARFARE</PrereqTech>
 			</TechTypes>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>130</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -2449,6 +2458,7 @@
 			</NotUnitAIs>
 			<PrereqBuilding>BUILDING_ELEPHANT_TRAINER</PrereqBuilding>
 			<PrereqTech>TECH_PACHYDERM_DOMESTICATION</PrereqTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<TechTypes>
 				<PrereqTech>TECH_ANIMAL_RIDING</PrereqTech>
 			</TechTypes>
@@ -2582,6 +2592,7 @@
 				<BuildingType>BUILDING_MAMMOTH_TRAINER</BuildingType>
 			</PrereqOrBuildings>
 			<PrereqTech>TECH_MEGAFAUNA_DOMESTICATION</PrereqTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<PrereqBonuses>
 				<BonusType>BONUS_MAMMOTH</BonusType>
 			</PrereqBonuses>
@@ -2712,6 +2723,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_OBSIDIAN_WEAPONS</PrereqTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<PrereqBonuses>
 				<BonusType>BONUS_OBSIDIAN</BonusType>
 			</PrereqBonuses>
@@ -2826,7 +2838,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_SPEAR_MAKING</PrereqTech>
-			<ForceObsoleteTech>TECH_FLINTLOCK</ForceObsoleteTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>88</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -2945,7 +2957,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_SIMPLE_WOOD_WORKING</PrereqTech>
-			<ForceObsoleteTech>TECH_FLINTLOCK</ForceObsoleteTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>70</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -3050,6 +3062,7 @@
 			<bMilitarySupport>1</bMilitarySupport>
 			<bPillage>1</bPillage>
 			<PrereqTech>TECH_OBSIDIAN_WEAPONS</PrereqTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<PrereqBonuses>
 				<BonusType>BONUS_OBSIDIAN</BonusType>
 			</PrereqBonuses>
@@ -3161,6 +3174,7 @@
 			</MapCategoryTypes>
 			<BonusType>BONUS_NEANDERTHAL</BonusType>
 			<PrereqTech>TECH_OBSIDIAN_WEAPONS</PrereqTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<PrereqBonuses>
 				<BonusType>BONUS_OBSIDIAN</BonusType>
 			</PrereqBonuses>
@@ -3284,7 +3298,7 @@
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
-			<ForceObsoleteTech>TECH_FLINTLOCK</ForceObsoleteTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>92</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -3399,6 +3413,7 @@
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<PrereqTech>TECH_OBSIDIAN_WEAPONS</PrereqTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<PrereqBonuses>
 				<BonusType>BONUS_OBSIDIAN</BonusType>
 			</PrereqBonuses>
@@ -3520,7 +3535,7 @@
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
-			<ForceObsoleteTech>TECH_FLINTLOCK</ForceObsoleteTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>84</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -3634,6 +3649,7 @@
 				</UnitAI>
 			</NotUnitAIs>
 			<PrereqTech>TECH_HUNTING_TACTICS</PrereqTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>120</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -3675,7 +3691,6 @@
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 			</FreePromotions>
-			<ForceObsoleteTech>TECH_BRONZE_WORKING</ForceObsoleteTech>
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_TRACKER</Type>
@@ -3926,6 +3941,12 @@
 			<bOnlyDefensive>1</bOnlyDefensive>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
+			<UnitClassUpgrades>
+				<UnitClassUpgrade>
+					<UnitClassUpgradeType>UNITCLASS_GUIDE</UnitClassUpgradeType>
+					<bUnitClassUpgrade>1</bUnitClassUpgrade>
+				</UnitClassUpgrade>
+			</UnitClassUpgrades>
 			<bPillage>1</bPillage>
 			<UnitAIs>
 				<UnitAI>
@@ -3952,6 +3973,7 @@
 				</UnitAI>
 			</NotUnitAIs>
 			<PrereqTech>TECH_TRACKING</PrereqTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>40</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -3974,7 +3996,6 @@
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
-			<ForceObsoleteTech>TECH_WRITING</ForceObsoleteTech>
 		</UnitInfo>
 	</UnitInfos>
 </Civ4UnitInfos>

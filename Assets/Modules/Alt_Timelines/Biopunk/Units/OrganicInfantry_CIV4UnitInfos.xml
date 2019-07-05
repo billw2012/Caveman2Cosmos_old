@@ -73,8 +73,11 @@
 			</UnitAIs>
 			<PrereqBuilding>BUILDING_BIOPUNK_LAB</PrereqBuilding>
 			<PrereqTech>TECH_BIOPUNK</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_GBIOLOGY</PrereqTech>
+			</TechTypes>
 			<BonusType>BONUS_ORGANIC_COMPUTERS</BonusType>
-			<iCost>2050</iCost>
+			<iCost>2865</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>100</iCombat>

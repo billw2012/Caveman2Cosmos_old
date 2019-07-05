@@ -62,6 +62,7 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultUnit>UNIT_NEANDERTHAL_SHEPHERD</DefaultUnit>
 		</UnitClassInfo>
+		<!--
 		<UnitClassInfo>
 			<Type>UNITCLASS_NEANDERTHAL_WARDOG</Type>
 			<Description>TXT_KEY_UNIT_NEANDERTHAL_WARDOG</Description>
@@ -70,6 +71,7 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultUnit>UNIT_NEANDERTHAL_WARDOG</DefaultUnit>
 		</UnitClassInfo>
+		-->
 		<UnitClassInfo>
 			<Type>UNITCLASS_NEANDERTHAL_TRAINEDDOG</Type>
 			<Description>TXT_KEY_UNIT_NEANDERTHAL_TRAINEDDOG</Description>

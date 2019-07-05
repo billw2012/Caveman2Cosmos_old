@@ -19107,7 +19107,7 @@
 				<Bonus>BONUS_SULPHUR</Bonus>
 			</PrereqBonuses>
 			<!-- Obsolescence -->
-			<ObsoleteTech>TECH_AUTOMATIC_WEAPONS</ObsoleteTech>
+			<ObsoleteTech>TECH_ARMORED_VEHICLES</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>410</iCost>
 			<ProductionTraits>
@@ -69217,7 +69217,10 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_AUTOMATIC_WEAPONS</PrereqTech>
+			<PrereqTech>TECH_SEMI_AUTOMATIC_WEAPONS</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_MOTORIZED_TRANSPORTATION</PrereqTech>
+			</TechTypes>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_VIKING_TRADING_POST</BuildingClassType>
@@ -69231,7 +69234,7 @@
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_BRAIN_SCAN</ObsoleteTech>
 			<!-- Construction cost -->
-			<iCost>990</iCost>
+			<iCost>830</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_AGGRESSIVE</ProductionTraitType>
@@ -72812,9 +72815,6 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_CAVE_DWELLING</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_HARD_HAMMER_PERCUSSION</PrereqTech>
-			</TechTypes>
 			<Bonus>BONUS_NEANDERTHAL</Bonus>
 			<PrereqOrFeature>
 				<PrereqFeature>
@@ -72825,7 +72825,7 @@
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ObsoleteTech>
 			<!-- Construction cost -->
-			<iCost>30</iCost>
+			<iCost>20</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
@@ -88725,7 +88725,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_ADVANCED_ROCKETRY</PrereqTech>
+			<PrereqTech>TECH_ROCKETRY</PrereqTech>
 			<iPrereqPopulation>12</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
 			<BuildingClassNeededs>
@@ -88743,7 +88743,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1345</iCost>
+			<iCost>1080</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -94707,8 +94707,6 @@
 				<Bonus>BONUS_DIESEL</Bonus>
 				<Bonus>BONUS_BIOFUEL</Bonus>
 			</PrereqBonuses>
-			<!-- Obsolescence -->
-			<ObsoleteTech>TECH_TELEPORTATION</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>4315</iCost>
 			<!-- Main effects -->

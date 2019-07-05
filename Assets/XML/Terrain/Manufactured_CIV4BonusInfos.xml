@@ -1800,8 +1800,8 @@
 			<Civilopedia>TXT_KEY_BONUS_ORGANIC_COMPUTERS_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_MANUFACTURED</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_ORGANIC_COMPUTERS</ArtDefineTag>
-			<TechReveal>TECH_DNA_COMPUTING</TechReveal>
-			<TechCityTrade>TECH_DNA_COMPUTING</TechCityTrade>
+			<TechReveal>TECH_GBIOLOGY</TechReveal>
+			<TechCityTrade>TECH_GBIOLOGY</TechCityTrade>
 			<iPlacementOrder>-1</iPlacementOrder>
 		</BonusInfo>
 	<!-- Organic Photonic Cells -->
@@ -2137,8 +2137,8 @@
 			<Civilopedia>TXT_KEY_BONUS_ROCKETFUEL_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_MANUFACTURED</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_ROCKETFUEL</ArtDefineTag>
-			<TechReveal>TECH_ADVANCED_ROCKETRY</TechReveal>
-			<TechCityTrade>TECH_ADVANCED_ROCKETRY</TechCityTrade>
+			<TechReveal>TECH_ROCKETRY</TechReveal>
+			<TechCityTrade>TECH_ROCKETRY</TechCityTrade>
 			<iPlacementOrder>-1</iPlacementOrder>
 		</BonusInfo>
 	<!-- Rope -->
@@ -2701,8 +2701,8 @@
 			<Civilopedia>TXT_KEY_BONUS_WARES_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_MANUFACTURED</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_WARE_COPPER</ArtDefineTag>
-			<TechReveal>TECH_METAL_CASTING</TechReveal>
-			<TechCityTrade>TECH_METAL_CASTING</TechCityTrade>
+			<TechReveal>TECH_COPPER_WORKING</TechReveal>
+			<TechCityTrade>TECH_COPPER_WORKING</TechCityTrade>
 			<iPlacementOrder>-1</iPlacementOrder>
 		</BonusInfo>
 	<!-- Electrum Wares -->

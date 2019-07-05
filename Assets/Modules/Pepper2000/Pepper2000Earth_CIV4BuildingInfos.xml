@@ -17275,6 +17275,10 @@
 					<BuildingClassType>BUILDINGCLASS_ELECTRONIC_SECURITY_SYSTEM</BuildingClassType>
 					<bReplace>1</bReplace>
 				</ReplaceBuilding>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_BIOMETRIC_SECURITY</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
 			</ReplaceBuildings>
 		</BuildingInfo>
 		<BuildingInfo>

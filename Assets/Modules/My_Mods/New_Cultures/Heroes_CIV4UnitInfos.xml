@@ -7103,18 +7103,10 @@
 			<bNoCapture>1</bNoCapture>
 			<PrereqTech>TECH_FOLK_MEDICINE</PrereqTech>
 			<BonusType>BONUS_MANI</BonusType>
-			<TrainCondition>
-				<And>
-					<Has>
-						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_ALCOHOL</ID>
-					</Has>
-					<Has>
-						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_SOAP</ID>
-					</Has>
-				</And>
-			</TrainCondition>
+			<PrereqBonuses>
+				<BonusType>BONUS_ALCOHOL</BonusType>
+				<BonusType>BONUS_SOAP</BonusType>
+			</PrereqBonuses>
 			<PrereqBuilding>BUILDING_HEALERHUT</PrereqBuilding>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -9585,7 +9577,10 @@
 			</UnitCombatDefenders>
 			<PrereqTech>TECH_DECREES</PrereqTech>
 			<BonusType>BONUS_MOCHE</BonusType>
-			<PrereqBuilding>BUILDING_TOWN_PATROL</PrereqBuilding>
+			<PrereqOrBuildings>
+				<BuildingType>BUILDING_TOWN_PATROL</BuildingType>
+				<BuildingType>BUILDING_GUARDHOUSE</BuildingType>
+			</PrereqOrBuildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_CITY_GUARD</UnitClassUpgradeType>
@@ -9876,7 +9871,11 @@
 				</UnitCombatTarget>
 			</UnitCombatTargets>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
-			<PrereqBuilding>BUILDING_FIRING_RANGE</PrereqBuilding>
+			<PrereqOrBuildings>
+				<BuildingType>BUILDING_FIRING_RANGE</BuildingType>
+				<BuildingType>BUILDING_AUTOMATED_FIRING_RANGE</BuildingType>
+				<BuildingType>BUILDING_ORBITAL_TARGETS</BuildingType>
+			</PrereqOrBuildings>			
 			<BonusType>BONUS_MOCOVI</BonusType>
 			<TrainCondition>
 				<And>
@@ -10234,7 +10233,11 @@
 				</UnitCombatTarget>
 			</UnitCombatTargets>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
-			<PrereqBuilding>BUILDING_FIRING_RANGE</PrereqBuilding>
+			<PrereqOrBuildings>
+				<BuildingType>BUILDING_FIRING_RANGE</BuildingType>
+				<BuildingType>BUILDING_AUTOMATED_FIRING_RANGE</BuildingType>
+				<BuildingType>BUILDING_ORBITAL_TARGETS</BuildingType>
+			</PrereqOrBuildings>
 			<BonusType>BONUS_MOHAWK</BonusType>
 			<TrainCondition>
 				<And>
@@ -11493,7 +11496,10 @@
 			</UnitCombatDefenders>
 			<PrereqTech>TECH_DECREES</PrereqTech>
 			<BonusType>BONUS_NABATEANS</BonusType>
-			<PrereqBuilding>BUILDING_TOWN_PATROL</PrereqBuilding>
+			<PrereqOrBuildings>
+				<BuildingType>BUILDING_TOWN_PATROL</BuildingType>
+				<BuildingType>BUILDING_GUARDHOUSE</BuildingType>
+			</PrereqOrBuildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_CITY_GUARD</UnitClassUpgradeType>
@@ -16286,10 +16292,6 @@
 					<Has>
 						<GOMType>GOM_BONUS</GOMType>
 						<ID>BONUS_TIRES</ID>
-					</Has>
-					<Has>
-						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_BIOPOLYMERS</ID>
 					</Has>
 					<Has>
 						<GOMType>GOM_BONUS</GOMType>
@@ -25420,18 +25422,10 @@
 				<PrereqTech>TECH_MATCHLOCK</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_SERBIAN</BonusType>
-			<TrainCondition>
-				<And>
-					<Has>
-						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_FIREARMS</ID>
-					</Has>
-					<Has>
-						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_AMMO</ID>
-					</Has>
-				</And>
-			</TrainCondition>
+			<PrereqBonuses>
+				<BonusType>BONUS_FIREARMS</BonusType>
+				<BonusType>BONUS_AMMO</BonusType>
+			</PrereqBonuses>
 			<BonusProductionModifiers>
 				<BonusProductionModifier>
 					<BonusType>BONUS_WARE_IRON</BonusType>
@@ -26564,18 +26558,10 @@
 			<PrereqTech>TECH_MATCHLOCK</PrereqTech>
 			<PrereqBuilding>BUILDING_HIGHWAY_HIDEOUT</PrereqBuilding>
 			<BonusType>BONUS_SLOVAKIA</BonusType>
-			<TrainCondition>
-				<And>
-					<Has>
-						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_FIREARMS</ID>
-					</Has>
-					<Has>
-						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_AMMO</ID>
-					</Has>
-				</And>
-			</TrainCondition>
+			<PrereqBonuses>
+				<BonusType>BONUS_FIREARMS</BonusType>
+				<BonusType>BONUS_AMMO</BonusType>
+			</PrereqBonuses>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_OUTLAW</UnitClassUpgradeType>
@@ -27172,20 +27158,17 @@
 			<TechTypes>
 				<PrereqTech>TECH_LEADERSHIP</PrereqTech>
 			</TechTypes>
-			<PrereqBuilding>BUILDING_SHOOTING_CLUB</PrereqBuilding>
+			<PrereqOrBuildings>
+				<BuildingType>BUILDING_SHOOTING_CLUB</BuildingType>
+				<BuildingType>BUILDING_FIRING_RANGE</BuildingType>
+				<BuildingType>BUILDING_AUTOMATED_FIRING_RANGE</BuildingType>
+				<BuildingType>BUILDING_ORBITAL_TARGETS</BuildingType>
+			</PrereqOrBuildings>
 			<BonusType>BONUS_AZANDE</BonusType>
-			<TrainCondition>
-				<And>
-					<Has>
-						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_FIREARMS</ID>
-					</Has>
-					<Has>
-						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_AMMO</ID>
-					</Has>
-				</And>
-			</TrainCondition>
+			<PrereqBonuses>
+				<BonusType>BONUS_FIREARMS</BonusType>
+				<BonusType>BONUS_AMMO</BonusType>
+			</PrereqBonuses>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_SNIPER</UnitClassUpgradeType>
@@ -54915,7 +54898,11 @@
 				</UnitCombatTarget>
 			</UnitCombatTargets>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
-			<PrereqBuilding>BUILDING_FIRING_RANGE</PrereqBuilding>
+			<PrereqOrBuildings>
+				<BuildingType>BUILDING_FIRING_RANGE</BuildingType>
+				<BuildingType>BUILDING_AUTOMATED_FIRING_RANGE</BuildingType>
+				<BuildingType>BUILDING_ORBITAL_TARGETS</BuildingType>
+			</PrereqOrBuildings>
 			<BonusType>BONUS_FINNISH</BonusType>
 			<TrainCondition>
 				<And>
@@ -61068,20 +61055,17 @@
 			<TechTypes>
 				<PrereqTech>TECH_LEADERSHIP</PrereqTech>
 			</TechTypes>
-			<PrereqBuilding>BUILDING_SHOOTING_CLUB</PrereqBuilding>
+			<PrereqOrBuildings>
+				<BuildingType>BUILDING_SHOOTING_CLUB</BuildingType>
+				<BuildingType>BUILDING_FIRING_RANGE</BuildingType>
+				<BuildingType>BUILDING_AUTOMATED_FIRING_RANGE</BuildingType>
+				<BuildingType>BUILDING_ORBITAL_TARGETS</BuildingType>
+			</PrereqOrBuildings>
 			<BonusType>BONUS_HOPI</BonusType>
-			<TrainCondition>
-				<And>
-					<Has>
-						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_FIREARMS</ID>
-					</Has>
-					<Has>
-						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_AMMO</ID>
-					</Has>
-				</And>
-			</TrainCondition>
+			<PrereqBonuses>
+				<BonusType>BONUS_FIREARMS</BonusType>
+				<BonusType>BONUS_AMMO</BonusType>
+			</PrereqBonuses>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_SNIPER</UnitClassUpgradeType>

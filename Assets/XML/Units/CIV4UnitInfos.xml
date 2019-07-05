@@ -40063,7 +40063,7 @@
 					</Has>
 					<Has>
 						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_COMPUTERS</ID>
+						<ID>BONUS_SEMICONDUCTORS</ID>
 					</Has>
 				</And>
 			</TrainCondition>
@@ -41823,7 +41823,7 @@
 					</Has>
 					<Has>
 						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_COMPUTERS</ID>
+						<ID>BONUS_SEMICONDUCTORS</ID>
 					</Has>
 				</And>
 			</TrainCondition>
@@ -42192,7 +42192,7 @@
 					</Has>
 					<Has>
 						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_COMPUTERS</ID>
+						<ID>BONUS_SEMICONDUCTORS</ID>
 					</Has>
 				</And>
 			</TrainCondition>
@@ -42592,7 +42592,7 @@
 					</Has>
 					<Has>
 						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_COMPUTERS</ID>
+						<ID>BONUS_SEMICONDUCTORS</ID>
 					</Has>
 				</And>
 			</TrainCondition>
@@ -46404,7 +46404,10 @@
 					</Has>
 				</And>
 			</TrainCondition>
-			<PrereqBuilding>BUILDING_POLICE_STATION</PrereqBuilding>
+			<PrereqOrBuildings>
+				<BuildingType>BUILDING_POLICE_STATION</BuildingType>
+				<BuildingType>BUILDING_POLICE_PRECINCT</BuildingType>
+			</PrereqOrBuildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_POLICE_MECH</UnitClassUpgradeType>
@@ -46552,10 +46555,6 @@
 					<Has>
 						<GOMType>GOM_BONUS</GOMType>
 						<ID>BONUS_TIRES</ID>
-					</Has>
-					<Has>
-						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_BIOPOLYMERS</ID>
 					</Has>
 					<Has>
 						<GOMType>GOM_BONUS</GOMType>
@@ -51344,7 +51343,10 @@
 				<PrereqTech>TECH_LEADERSHIP</PrereqTech>
 			</TechTypes>
 			<ForceObsoleteTech>TECH_MILITARY_SCIENCE</ForceObsoleteTech>
-			<PrereqBuilding>BUILDING_SHOOTING_CLUB</PrereqBuilding>
+			<PrereqOrBuildings>
+				<BuildingType>BUILDING_SHOOTING_CLUB</BuildingType>
+				<BuildingType>BUILDING_FIRING_RANGE</BuildingType>
+			</PrereqOrBuildings>
 			<TrainCondition>
 				<And>
 					<Has>
@@ -51512,7 +51514,10 @@
 			</UnitCombatTargets>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
 			<ForceObsoleteTech>TECH_LASER</ForceObsoleteTech>
-			<PrereqBuilding>BUILDING_FIRING_RANGE</PrereqBuilding>
+			<PrereqOrBuildings>
+				<BuildingType>BUILDING_FIRING_RANGE</BuildingType>
+				<BuildingType>BUILDING_AUTOMATED_FIRING_RANGE</BuildingType>
+			</PrereqOrBuildings>
 			<TrainCondition>
 				<And>
 					<Has>
@@ -51888,7 +51893,10 @@
 			</UnitCombatTargets>
 			<PrereqTech>TECH_LASER</PrereqTech>
 			<ForceObsoleteTech>TECH_SUPERSTRONG_ALLOYS</ForceObsoleteTech>
-			<PrereqBuilding>BUILDING_AUTOMATED_FIRING_RANGE</PrereqBuilding>
+			<PrereqOrBuildings>
+				<BuildingType>BUILDING_AUTOMATED_FIRING_RANGE</BuildingType>
+				<BuildingType>BUILDING_ORBITAL_TARGETS</BuildingType>
+			</PrereqOrBuildings>
 			<TrainCondition>
 				<And>
 					<Has>
@@ -52989,7 +52997,10 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<PrereqBuilding>BUILDING_APOTHECARY_SHOP</PrereqBuilding>
+			<PrereqOrBuildings>
+				<BuildingType>BUILDING_APOTHECARY_SHOP</BuildingType>
+				<BuildingType>BUILDING_PHARMACY</BuildingType>
+			</PrereqOrBuildings>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<BonusType>BONUS_SOAP</BonusType>
 			<PrereqBonuses>
@@ -56462,6 +56473,7 @@
 			<bMilitaryProduction>1</bMilitaryProduction>
 			<bPillage>1</bPillage>
 			<PrereqTech>TECH_DUMMY_NEANDERTHAL</PrereqTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>15</iCost>
 			<iMoves>1</iMoves>
 			<iCombat>3</iCombat>
@@ -56528,11 +56540,8 @@
 			<bMilitaryProduction>1</bMilitaryProduction>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bPillage>1</bPillage>
-			<PrereqOrBuildings>
-				<BuildingType>BUILDING_CULTURE_NEANDERTHAL</BuildingType>
-				<BuildingType>BUILDING_NEANDERTHAL_EMBASSY</BuildingType>
-			</PrereqOrBuildings>
 			<PrereqTech>TECH_TOOL_MAKING</PrereqTech>
+			<BonusType>BONUS_NEANDERTHAL</BonusType>
 			<iCost>20</iCost>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -56540,7 +56549,7 @@
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
-			<ForceObsoleteTech>TECH_SEDENTARY_LIFESTYLE</ForceObsoleteTech>
+			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iMoves>1</iMoves>
 			<iCombat>4</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -58152,8 +58161,15 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<PrereqBuilding>BUILDING_3DPRINTING_MILL</PrereqBuilding>
 			<PrereqTech>TECH_3D_PRINTING</PrereqTech>
+			<PrereqOrBuildings>
+				<BuildingType>BUILDING_3DPRINTING_MILL</BuildingType>
+				<BuildingType>BUILDING_NANOPRINTING_MILL</BuildingType>
+				<BuildingType>BUILDING_MOLECULAR_ASSEMBLER</BuildingType>
+				<BuildingType>BUILDING_ATOMIC_ASSEMBLER</BuildingType>
+				<BuildingType>BUILDING_QUANTUM_ASSEMBLER</BuildingType>
+				<BuildingType>BUILDING_MATERIALIZER</BuildingType>
+			</PrereqOrBuildings>
 			<BonusType>BONUS_POWER_TOOLS</BonusType>
 			<PrereqBonuses>
 				<BonusType>BONUS_FIREARMS</BonusType>
@@ -58256,7 +58272,10 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<PrereqBuilding>BUILDING_JET_AIRCRAFT_FACTORY</PrereqBuilding>
+			<PrereqOrBuildings>
+				<BuildingType>BUILDING_JET_AIRCRAFT_FACTORY</BuildingType>
+				<BuildingType>BUILDING_MILITARY_INDUSTRIAL_COMPLEX</BuildingType>
+			</PrereqOrBuildings>
 			<PrereqTech>TECH_SPACE_FLIGHT</PrereqTech>
 			<BonusType>BONUS_JET_AIRCRAFTS</BonusType>
 			<PrereqBonuses>
@@ -58274,12 +58293,18 @@
 					</Has>
 					<Has>
 						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_PERSONAL_ELECTRONICS</ID>
+						<ID>BONUS_COMPUTERS</ID>
 					</Has>
-					<Has>
-						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_DISKETTES</ID>
-					</Has>
+					<Or>
+						<Has>
+							<GOMType>GOM_BONUS</GOMType>
+							<ID>BONUS_DISKETTES</ID>
+						</Has>
+						<Has>
+							<GOMType>GOM_BONUS</GOMType>
+							<ID>BONUS_FLASH_MEMORY_DEVICES</ID>
+						</Has>
+					</Or>
 				</And>
 			</TrainCondition>
 			<iCost>1180</iCost>
@@ -58371,10 +58396,16 @@
 						<GOMType>GOM_BONUS</GOMType>
 						<ID>BONUS_SEMICONDUCTORS</ID>
 					</Has>
-					<Has>
-						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_DISKETTES</ID>
-					</Has>
+					<Or>
+						<Has>
+							<GOMType>GOM_BONUS</GOMType>
+							<ID>BONUS_DISKETTES</ID>
+						</Has>
+						<Has>
+							<GOMType>GOM_BONUS</GOMType>
+							<ID>BONUS_FLASH_MEMORY_DEVICES</ID>
+						</Has>
+					</Or>
 				</And>
 			</TrainCondition>
 			<iCost>1540</iCost>
@@ -58482,6 +58513,9 @@
 			</UnitAIs>
 			<PrereqBuilding>BUILDING_ARTIFICIAL_INTELLIGENCE_CORE</PrereqBuilding>
 			<PrereqTech>TECH_DROIDS</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_QUANTUM_COMPUTING</PrereqTech>
+			</TechTypes>
 			<BonusType>BONUS_SERVICE_BOTS</BonusType>
 			<PrereqBonuses>
 				<BonusType>BONUS_FLASH_MEMORY_DEVICES</BonusType>
@@ -58504,7 +58538,7 @@
 					</Has>
 				</And>
 			</TrainCondition>
-			<iCost>2900</iCost>
+			<iCost>4315</iCost>
 			<iHurryCostModifier>25</iHurryCostModifier>
 			<iMoves>6</iMoves>
 			<iCombat>60</iCombat>
@@ -59410,7 +59444,10 @@
 			<bOnlyDefensive>1</bOnlyDefensive>
 			<PrereqTech>TECH_PLAGUE_MEDICINE</PrereqTech>
 			<BonusType>BONUS_DRUGS</BonusType>
-			<PrereqBuilding>BUILDING_DOCTOR</PrereqBuilding>
+			<PrereqOrBuildings>
+				<BuildingType>BUILDING_DOCTOR</BuildingType>
+				<BuildingType>BUILDING_SURGICAL_OFFICE</BuildingType>
+			</PrereqOrBuildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_SURGEON</UnitClassUpgradeType>

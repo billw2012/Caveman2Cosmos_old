@@ -64,6 +64,9 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_CLOCKPUNK</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			</TechTypes>
 			<BonusType>BONUS_CLOCKPUNK</BonusType>
 			<PrereqBonuses>
 				<BonusType>BONUS_SULPHUR</BonusType>
@@ -76,7 +79,7 @@
 					</Has>
 				</And>
 			</TrainCondition>
-			<iCost>420</iCost>
+			<iCost>410</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>26</iCombat>

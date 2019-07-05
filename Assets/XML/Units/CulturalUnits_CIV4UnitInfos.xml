@@ -4988,18 +4988,10 @@
 			</UnitAIs>
 			<PrereqTech>TECH_FLINTLOCK</PrereqTech>
 			<BonusType>BONUS_CHEROKEE</BonusType>
-			<TrainCondition>
-				<And>
-					<Has>
-						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_FIREARMS</ID>
-					</Has>
-					<Has>
-						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_AMMO</ID>
-					</Has>
-				</And>
-			</TrainCondition>
+			<PrereqBonuses>
+				<BonusType>BONUS_FIREARMS</BonusType>
+				<BonusType>BONUS_AMMO</BonusType>
+			</PrereqBonuses>
 			<iCost>455</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
