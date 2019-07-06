@@ -8,9 +8,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_OXPECKER_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Oxpecker.dds</Button>
@@ -20,9 +20,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_OXPECKER_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Oxpecker.dds</Button>
@@ -31,9 +31,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_OXPECKER_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Oxpecker.dds</Button>

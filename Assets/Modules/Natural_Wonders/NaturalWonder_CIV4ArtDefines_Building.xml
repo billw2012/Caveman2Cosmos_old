@@ -8,9 +8,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_MT_SINAI</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Sinai/Sinai.dds</Button>
@@ -18,9 +18,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_GREAT_BARRIER_REEF</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Great_Barrier/Coral.dds</Button>
@@ -28,9 +28,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_MT_EVEREST</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Everest/button.dds</Button>
@@ -38,9 +38,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_MT_FUJI</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Fuji/button.dds</Button>
@@ -48,9 +48,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_BAIKAL</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Baikal/Baikal.dds</Button>
@@ -58,9 +58,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_BARRINGER_CRATER</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Barringer_Crater/button.dds</Button>
@@ -68,9 +68,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_BASALT_ORGAN</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Basalt/Basalt.dds</Button>
@@ -78,9 +78,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_DEVILS_TABLE</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Devil's_Table/button.dds</Button>
@@ -88,9 +88,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_SOPKA</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/sopka/button.dds</Button>
@@ -98,9 +98,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_KRAKATOA</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Krakatoa/Krakatoa.dds</Button>
@@ -108,9 +108,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_NGORONGORO_CRATER</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Ngorongoro/button.dds</Button>
@@ -118,9 +118,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_NUKUORO</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Nukuoro/button.dds</Button>
@@ -128,9 +128,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_PAMUKKALE</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Pamukkale/button.dds</Button>
@@ -138,9 +138,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_PRAVCICKA_BRANA</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Pravcicka_Brana/Pravcicka.dds</Button>
@@ -148,9 +148,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_SHARK_BAY</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Shark_Bay/button.dds</Button>
@@ -158,9 +158,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_SUGARLOAF</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Sugarloaf_Mountain/button.dds</Button>
@@ -168,9 +168,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_ULURU</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/uluru/button.dds</Button>
@@ -178,9 +178,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_VICTORIA_FALLS</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Victoria_Falls/button.dds</Button>
@@ -188,9 +188,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_KILIMANJARO</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/kilimanjaro/button.dds</Button>
@@ -198,9 +198,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_DEAD_SEA</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Dead_Sea/button.dds</Button>
@@ -208,9 +208,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NATURAL_WONDER_AUYANTEPUI</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Terrain/Natural_Wonders/Auyantepui/Button_Auyantepui.dds</Button>
@@ -220,9 +220,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_OASIS_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/TerrainFeatures/Oasis.dds</Button>
@@ -230,9 +230,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FALL_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/TerrainFeatures/Crater.dds</Button>
@@ -240,9 +240,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_OUTCROP_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/TerrainFeatures/polar_outcrop.dds</Button>
@@ -250,9 +250,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_VOLCANO_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/TerrainFeatures/Volcano.dds</Button>
@@ -260,9 +260,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_REEF_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/baseterrain/reef.dds</Button>
@@ -270,9 +270,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CORAL_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/terrainfeatures/coral.dds</Button>

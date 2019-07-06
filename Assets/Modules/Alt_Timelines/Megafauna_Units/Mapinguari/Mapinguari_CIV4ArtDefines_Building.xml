@@ -9,9 +9,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MAPINGUARI_COMPOUND</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Groundsloth.dds</Button>
@@ -20,9 +20,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MAPINGUARI_GUARD</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Groundsloth.dds</Button>

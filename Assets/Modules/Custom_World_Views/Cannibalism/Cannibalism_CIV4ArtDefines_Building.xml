@@ -8,9 +8,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WV_CANNIBALISM</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/WorldViewCannibalism.dds</Button>
@@ -18,9 +18,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CANNIBALISM</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/cannibalism.dds</Button>
@@ -28,9 +28,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CANNIBALISM_BAD_I</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/worldview_cannibalism_dowside_1.dds</Button>
@@ -38,9 +38,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CANNIBALISM_BAD_II</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/worldview_cannibalism_dowside_2.dds</Button>
@@ -48,9 +48,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CANNIBALISM_BAD_III</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/worldview_cannibalism_dowside_3.dds</Button>

@@ -113,9 +113,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BEHISTUN_INSCRIPTION</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/buildings/Religions/Zoroastrian/behistun_inscription.dds</Button>
@@ -123,9 +123,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PIR_E_NARAKI</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/buildings/Religions/Zoroastrian/pir_e_naraki.dds</Button>
@@ -133,9 +133,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SETI_PIR</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/buildings/Religions/Zoroastrian/seti_pir.dds</Button>
@@ -143,9 +143,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TOWER_OF_SILENCE</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/Religions/Zoroastrian/Tower_of_Silence.dds</Button>

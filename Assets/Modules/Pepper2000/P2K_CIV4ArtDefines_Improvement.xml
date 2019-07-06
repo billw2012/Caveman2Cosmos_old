@@ -9,7 +9,7 @@
 	<ImprovementArtInfos>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SPACE_STATION1</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
             <NIF>Art/Units/FinalFrontier_Starbase/Starbase.nif</NIF>
@@ -18,7 +18,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SPACE_STATION2</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Units/FinalFrontier_Starbase/Starbase.nif</NIF>
@@ -27,7 +27,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SPACE_STATION3</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Units/FinalFrontier_Starbase/Starbase.nif</NIF>
@@ -36,7 +36,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SPACE_SOLAR_PANELS</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Solar/soltown.nif</NIF>
@@ -45,7 +45,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_MERCURY_SOLAR_ARRAY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Solar/soltown.nif</NIF>
@@ -54,7 +54,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_LUNAR_ARCOLOGY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/Arcology/Arcology_Destroyed.nif</NIF>
@@ -63,7 +63,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_JOVIAN_LUNAR_BASE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.15</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Condenser/condenser.nif</NIF>
@@ -72,7 +72,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_JOVIAN_LUNAR_ARCOLOGY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/Arcology/Arcology_Destroyed.nif</NIF>
@@ -81,7 +81,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_INTERSTELLAR_RESEARCH_BASE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.15</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Condenser/condenser.nif</NIF>
@@ -90,7 +90,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_INTERGALACTIC_RESEARCH_BASE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.15</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Condenser/condenser.nif</NIF>
@@ -99,7 +99,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_DISTANT_RESEARCH_BASE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.15</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Condenser/condenser.nif</NIF>
@@ -108,7 +108,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_DYSON_SPHERE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/Arcology/Arcology_Destroyed.nif</NIF>
@@ -117,7 +117,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_CISLUNAR_MILITARY_BASE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>3.5</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Future_Fort/Bunker.nif</NIF>
@@ -126,7 +126,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_DEEP_SPACE_MILITARY_BASE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>3.5</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Future_Fort/Bunker.nif</NIF>
@@ -135,7 +135,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_INTERSTELLAR_MILITARY_BASE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>3.5</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Future_Fort/Bunker.nif</NIF>
@@ -144,7 +144,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_INTERGALACTIC_BASE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>3.5</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Future_Fort/Bunker.nif</NIF>
@@ -153,7 +153,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_HYPERSPACE_BUNKER</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>3.5</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Future_Fort/Bunker.nif</NIF>
@@ -162,7 +162,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_NEUTRON_STAR_COLONY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>3.5</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Future_Fort/Bunker.nif</NIF>
@@ -171,7 +171,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_JOVIAN_SCOOP</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>3.5</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Future_Fort/Bunker.nif</NIF>
@@ -180,7 +180,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_JOVIAN_FLOATING_CITY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Town/Town.nif</NIF>
@@ -189,7 +189,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_DISTANT_PAST_CITY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Town/Town.nif</NIF>
@@ -198,7 +198,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_DISTANT_FUTURE_CITY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Town/Town.nif</NIF>
@@ -207,7 +207,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_MERCURY_COLONY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Town/Town.nif</NIF>
@@ -216,7 +216,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_BRANE_FACTORY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.2</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/IronWorks/IronWorks.nif</NIF>
@@ -225,7 +225,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SUN_SCOOP</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>3.5</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Future_Fort/Bunker.nif</NIF>
@@ -234,7 +234,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_BLUE_SUPERGIANT_COLONY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/Arcology/Arcology_Destroyed.nif</NIF>
@@ -243,7 +243,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_STAR_SCOOP</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>3.5</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Future_Fort/Bunker.nif</NIF>
@@ -252,7 +252,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_COSMIC_EXPANSION_NODE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>3.5</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Future_Fort/Bunker.nif</NIF>
@@ -261,7 +261,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_EXPANDED_HABITAT</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.25</fScale>
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Units/FinalFrontier_Starbase/Starbase.nif</NIF>
@@ -270,7 +270,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SATELLITE_STATION</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.25</fScale>
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Units/FinalFrontier_Starbase/Starbase.nif</NIF>
@@ -279,7 +279,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_ARCOLOGY_MOON</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/Arcology/Arcology_Destroyed.nif</NIF>
@@ -288,7 +288,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_INTERSTELLAR_COLONY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.25</fScale>
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Units/FinalFrontier_Starbase/Starbase.nif</NIF>
@@ -297,7 +297,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_INTERGALACTIC_COLONY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.25</fScale>
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Units/FinalFrontier_Starbase/Starbase.nif</NIF>
@@ -306,7 +306,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SUPERCLUSTER_COLONY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.25</fScale>
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Units/FinalFrontier_Starbase/Starbase.nif</NIF>
@@ -315,7 +315,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_OBSERVABLE_UNIVERSE_COLONY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.25</fScale>
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Units/FinalFrontier_Starbase/Starbase.nif</NIF>
@@ -324,7 +324,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_PARALLEL_UNIVERSE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.25</fScale>
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Units/FinalFrontier_Starbase/Starbase.nif</NIF>
@@ -333,7 +333,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_TIME_MANIFOLD</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.25</fScale>
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Units/FinalFrontier_Starbase/Starbase.nif</NIF>
@@ -342,7 +342,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SPIRITUAL_REALM</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.25</fScale>
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Units/FinalFrontier_Starbase/Starbase.nif</NIF>
@@ -351,7 +351,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_HELIOFORM</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.1</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/geothermal/mine_modern.nif</NIF>
@@ -360,7 +360,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_BUILD_ASTEROID</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Terrain/Features/TreeLeafy/Leafy15_01.nif</NIF>
@@ -369,7 +369,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_BUILD_GALAXY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Terrain/Features/TreeLeafy/Leafy15_01.nif</NIF>
@@ -378,7 +378,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_MARS_FARM</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.15</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Condenser/condenser.nif</NIF>
@@ -387,7 +387,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_BRANE_FARM</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.15</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Condenser/condenser.nif</NIF>
@@ -396,7 +396,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_VENUS_AERIAL_FARM</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.15</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Condenser/condenser.nif</NIF>
@@ -405,7 +405,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_MARS_MINE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>0.4</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Core_Mine/quarrymodern.nif</NIF>
@@ -414,7 +414,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_VENUS_SURFACE_MINE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>0.4</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Core_Mine/quarrymodern.nif</NIF>
@@ -423,7 +423,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_ASTEROID_MINE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>0.4</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Core_Mine/quarrymodern.nif</NIF>
@@ -432,7 +432,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SUPERNOVA_MINE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>0.4</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Core_Mine/quarrymodern.nif</NIF>
@@ -441,7 +441,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_TRUE_VACUUM</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>0.4</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Core_Mine/quarrymodern.nif</NIF>
@@ -450,7 +450,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_TRADING_PLANET</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/buildings/Lighthouse/Lighthouse.nif</NIF>
@@ -459,7 +459,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SOLAR_TRADING_POST</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/buildings/Lighthouse/Lighthouse.nif</NIF>
@@ -468,7 +468,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_TERRAFORMED_PLANET</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.6</fScale>
 			<fInterfaceScale>0.75</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/GoodyIsland/island.nif</NIF>
@@ -477,7 +477,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_BIOTIC_NEUTRON_STAR</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.6</fScale>
 			<fInterfaceScale>0.75</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/GoodyIsland/island.nif</NIF>
@@ -486,7 +486,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_PARATERRAFORMED_ASTEROID</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.6</fScale>
 			<fInterfaceScale>0.75</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/GoodyIsland/island.nif</NIF>
@@ -495,7 +495,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_ARTIFICIAL_PLANET</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.6</fScale>
 			<fInterfaceScale>0.75</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/GoodyIsland/island.nif</NIF>
@@ -504,7 +504,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_TERRAFORM_NEUTRON_STAR</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>2</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/LandWorked/sm_farm_house.nif</NIF>
@@ -513,7 +513,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_TERRAFORM_HYPERSPACE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>2</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/LandWorked/sm_farm_house.nif</NIF>
@@ -522,7 +522,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_TERRAFORM_PAST</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>2</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/LandWorked/sm_farm_house.nif</NIF>
@@ -531,7 +531,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_TERRAFORM_FUTURE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>2</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/LandWorked/sm_farm_house.nif</NIF>
@@ -540,7 +540,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_TERRAFORM_BRANESPACE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>2</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/LandWorked/sm_farm_house.nif</NIF>
@@ -549,7 +549,7 @@
 		</ImprovementArtInfo>
         <ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_BIOTIC_GALAXY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.6</fScale>
 			<fInterfaceScale>0.75</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/GoodyIsland/island.nif</NIF>

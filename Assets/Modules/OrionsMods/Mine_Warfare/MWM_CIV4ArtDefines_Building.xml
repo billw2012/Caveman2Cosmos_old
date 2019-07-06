@@ -9,9 +9,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ADVANCED_MINE_TECHNOLOGY_CENTER</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Builds/Mine_Tech_Center_Button.dds</Button>

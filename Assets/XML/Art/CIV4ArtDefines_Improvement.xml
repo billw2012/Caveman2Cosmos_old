@@ -9,7 +9,7 @@
 	<ImprovementArtInfos>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_LAND_WORKED</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/LandWorked/sm_farm_house.nif</NIF>
@@ -18,7 +18,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_WATER_WORKED</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.5</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/WaterWorked/WaterWorked.nif</NIF>
@@ -27,7 +27,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_CITY_RUINS</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.5</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Cities/destroyed_city.nif</NIF>
@@ -36,7 +36,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_GOODY_HUT</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/TribalVillage/TribalVillage.nif</NIF>
@@ -54,7 +54,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_FISHING_BOATS</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Nets/Nets.nif</NIF>
@@ -63,7 +63,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_WHALING_BOATS</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Whalingboat_Ancient/Whalingboat_Ancient.nif</NIF>
@@ -72,7 +72,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_MINE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Mine/Mine.nif</NIF>
@@ -81,7 +81,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_MOUNT_MINE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/terrain/Improvements/MountMine/MountMine.nif</NIF>
@@ -90,7 +90,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_RADIO_TOWER</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/terrain/Improvements/RadioTower/RadioTower.nif</NIF>
@@ -99,7 +99,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_WORKSHOP</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Workshop/Workshop.nif</NIF>
@@ -108,7 +108,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_LUMBERMILL</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Lumbermill/Lumbermill.nif</NIF>
@@ -117,7 +117,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_WINDMILL</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>.66</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/WindMill/WindMill.nif</NIF>
@@ -126,7 +126,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_WATERMILL</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/WaterMill/WaterMill.nif</NIF>
@@ -135,7 +135,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_PLANTATION</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Plantation/Plantation.nif</NIF>
@@ -144,7 +144,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_QUARRY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Quarry/Quarry.nif</NIF>
@@ -153,7 +153,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_PASTURE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Pasture/Pasture.nif</NIF>
@@ -162,7 +162,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_CAMP</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Camp/Camp.nif</NIF>
@@ -171,7 +171,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_WELL</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/OilWell/OilWell.nif</NIF>
@@ -180,7 +180,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_OFFSHORE_PLATFORM</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>0.4</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/OilRig/OilRig.nif</NIF>
@@ -189,7 +189,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_WINERY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Winery/Winery.nif</NIF>
@@ -198,7 +198,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_COTTAGE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Cottage/Cottage.nif</NIF>
@@ -207,7 +207,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_HAMLET</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Hamlet/Hamlet.nif</NIF>
@@ -216,7 +216,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_VILLAGE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Village/Village.nif</NIF>
@@ -225,7 +225,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_TOWN</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Town/Town.nif</NIF>
@@ -234,7 +234,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_FORT</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.5</fScale>
 			<fInterfaceScale>1.5</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Fort/eu_med_fort.nif</NIF>
@@ -243,7 +243,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_FOREST_PRESERVE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/ForestPreserve/ForestPreserve.nif</NIF>
@@ -252,7 +252,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_TREEFARM</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/hybridforest/ForestPreserve.nif</NIF>
@@ -261,7 +261,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_HYBRID_FOREST</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/hybridforest/ForestPreserve2.nif</NIF>
@@ -270,7 +270,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_BUNKER</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Bunker/Bunker.nif</NIF>
@@ -279,7 +279,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SUBURB</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Town/Town.nif</NIF>
@@ -288,7 +288,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_DESERTWINDMILL</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.3</fScale>
 			<fInterfaceScale>0.6</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/WindFarm/WindMill_Mod.nif</NIF>
@@ -297,7 +297,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_WASTEREFINEMENT</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.9</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/IronWorks/IronWorks.nif</NIF>
@@ -306,7 +306,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_GREENFACILITY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.7</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/Arcology/Arcology.nif</NIF>
@@ -315,7 +315,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SILK_FARM</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Plantation/Plantation.nif</NIF>
@@ -324,7 +324,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SUBMERGED_TOWN</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.25</fScale>
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Units/FinalFrontier_Starbase/Starbase.nif</NIF>
@@ -333,7 +333,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_CITY_RUINS_ARCOLOGY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/Arcology/Arcology_Destroyed.nif</NIF>
@@ -342,7 +342,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_BUOY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>2.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/WaterWorked/WaterWorked.nif</NIF>
@@ -351,7 +351,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_BUOY_PILLAGED</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/WaterWorked/WaterWorked.nif</NIF>
@@ -360,7 +360,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_EXTRACTION_FACILITY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.4</fScale>
 			<fInterfaceScale>0.8</fInterfaceScale>
 			<NIF>Art\Structures\Improvements\ExtractionFacility/ExtractionFacility.nif</NIF>
@@ -370,7 +370,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_ORCHARD</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Plantation/Plantation.nif</NIF>
@@ -379,7 +379,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_GEOTHERMAL_BOREHOLE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.1</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/geothermal/mine_modern.nif</NIF>
@@ -388,7 +388,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_ARCHEOLOGICAL_SITE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.0</fScale>
 			<fInterfaceScale>0.0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
@@ -397,7 +397,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SEA_FORT</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.14</fScale>
 			<fInterfaceScale>3.8</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/StarFortress/StarFortress.nif</NIF>
@@ -406,7 +406,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SEA_AIR_DEFENSE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Anti-Air Defense/SquadronDefense.nif</NIF>
@@ -415,7 +415,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_MODERN_MINE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Mine/mine_modern.nif</NIF>
@@ -433,7 +433,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_FUTURE_BUNKER</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>3.5</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Future_Fort/Bunker.nif</NIF>
@@ -451,7 +451,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SHAFT_MINE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Mine/Mine.nif</NIF>
@@ -460,7 +460,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_GROUNDWATER_WELL</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/OilWell/OilWell.nif</NIF>
@@ -469,7 +469,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_DEPLETED_MINE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>art/structures/improvements/depletedmines/mine.nif</NIF>
@@ -478,7 +478,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_JUNGLE_CAMP</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>2.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/JungleCamp/Jungle2.nif</NIF>
@@ -487,7 +487,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SANITIZE_WATER</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/WaterWorked/WaterWorked.nif</NIF>
@@ -496,7 +496,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_3FACTORY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.9</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/German_Assembly_Plant/German_Assembly_Plant.nif</NIF>
@@ -505,7 +505,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_5FACTORY</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.2</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/IronWorks/IronWorks.nif</NIF>
@@ -514,7 +514,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_MAKE_JUNGLE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Terrain/Features/Jungle/Jungle15_01.nif</NIF>
@@ -523,7 +523,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_PLANT_FOREST</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Terrain/Features/TreeLeafy/Leafy15_01.nif</NIF>
@@ -532,7 +532,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_TERRAFORM_GRASS</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>2</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/LandWorked/sm_farm_house.nif</NIF>
@@ -541,7 +541,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_TERRAFORM_PLAINS</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>2</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/LandWorked/sm_farm_house.nif</NIF>
@@ -550,7 +550,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_TERRAFORM_TUNDRA</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>2</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/LandWorked/sm_farm_house.nif</NIF>
@@ -560,7 +560,7 @@
 		<!-- Prehistoric -->
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_GRAIN_GATHERER</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.6</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/SeedGatherer/camp_fx.nif</NIF>
@@ -569,7 +569,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_PLANT_GATHERER</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.6</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/SeedGatherer/camp_fx.nif</NIF>
@@ -578,7 +578,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_FRUIT_GATHERER</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.6</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/SeedGatherer/camp_fx.nif</NIF>
@@ -587,7 +587,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_WOOD_GATHERER</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.9</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Gatherers/Camp_fx.nif</NIF>
@@ -596,7 +596,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_LUMBERJACK</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Lumberjack/Lumberjack.nif</NIF>
@@ -605,7 +605,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_ROCK_GATHERER</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.6</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/RockGatherer/camp_fx.nif</NIF>
@@ -614,7 +614,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_STONE_CAMP</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.6</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/RockGatherer/camp_fx.nif</NIF>
@@ -623,7 +623,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_ROCK_CAMP</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.6</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/RockGatherer/camp_fx.nif</NIF>
@@ -632,7 +632,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_BEACON</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.5</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/Lighthouse/Lighthouse.nif</NIF>
@@ -641,7 +641,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_HARVEST_KELP</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Nets/Nets.nif</NIF>
@@ -650,7 +650,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_LIGHTHOUSE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/buildings/Lighthouse/Lighthouse.nif</NIF>
@@ -659,7 +659,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_PLANT_BAMBOO</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Terrain/Features/Bamboo/Corn.nif</NIF>
@@ -668,7 +668,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_PLANT_SAVANNA</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Terrain/Features/Savanna/palms15_01.nif</NIF>
@@ -677,7 +677,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_CRASHED_PROBE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.75</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Wreckage/Wreckage.nif</NIF>
@@ -686,7 +686,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_INDIGENOUS_PEOPLE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.35</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Terrain/Features/NativeCamp/lm_stonehead.nif</NIF>
@@ -695,7 +695,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_THATCH_CUTTER</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.6</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/improvements/Gatherers/Camp_fx.nif</NIF>
@@ -704,7 +704,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_PEAT_CUTTER</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.6</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/improvements/RockGatherer/camp_fx.nif</NIF>
@@ -713,7 +713,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_HABITAT1</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.55</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/habitats/seawall.nif</NIF>
@@ -722,7 +722,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_HABITAT2</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.55</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/habitats/seawall2.nif</NIF>
@@ -731,7 +731,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_HABITAT3</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.50</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/habitats/seawall3.nif</NIF>
@@ -740,7 +740,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_HABITAT4</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.50</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/habitats/seawall4.nif</NIF>
@@ -749,7 +749,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_WINDMILL_SEA</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>.66</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/WindFarm/WindMill_mod.nif</NIF>
@@ -758,7 +758,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_TIDAL_HARNESS</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>0.4</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Tidal Harness/Tidal.nif</NIF>
@@ -767,7 +767,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_FARMSCRAPER</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.15</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Condenser/condenser.nif</NIF>
@@ -776,7 +776,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_GREENHOUSE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.8</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Greenhouse/greenhouse.nif</NIF>
@@ -785,7 +785,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_CORE_MINE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>0.4</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Core_Mine/quarrymodern.nif</NIF>
@@ -794,7 +794,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_GEOGLYPH</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.8</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Geoglyph/Geoglyph2.nif</NIF>
@@ -803,7 +803,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_GOODY_ISLAND</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.6</fScale>
 			<fInterfaceScale>0.75</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/GoodyIsland/island.nif</NIF>
@@ -812,7 +812,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_MOAI</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.08</fScale>
 			<fInterfaceScale>0.45</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/maoi_statues/moai_statutes.nif</NIF>
@@ -821,7 +821,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_HYDRO_PLANT</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.2</fScale>
 			<fInterfaceScale>0.75</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/HydroPlant/watermill.nif</NIF>
@@ -830,7 +830,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_DESERT_CAMP</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.75</fScale>
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/desert_camp/Camp.nif</NIF>
@@ -839,7 +839,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_WETLANDS_CAMP</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.75</fScale>
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/wetland_camp/Camp.nif</NIF>
@@ -848,7 +848,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_ANCIENT_TEMPLE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.08</fScale>
 			<fInterfaceScale>1.08</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/LostCiv1/oldtemple.nif</NIF>
@@ -857,7 +857,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_STONEHENGE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.25</fScale>
 			<fInterfaceScale>0.57</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/Stonehenge/Stonehenge.nif</NIF>
@@ -866,7 +866,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_PYRAMIDS</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.35</fScale>
 			<fInterfaceScale>0.6</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/Pyramid/Pyramid.nif</NIF>
@@ -875,7 +875,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_ASIAN_TEMPLE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.68</fScale>
 			<fInterfaceScale>0.75</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/AngkorWat/AngkorWat.nif</NIF>
@@ -884,7 +884,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_ZIGGARUT</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.63</fScale>
 			<fInterfaceScale>0.6</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/Sumerian_Ziggurat/Sumerian_Ziggurat.nif</NIF>
@@ -893,7 +893,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SOLAR_PANELS</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Solar/soltown.nif</NIF>
@@ -902,7 +902,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_ABATIS</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.5</fScale>
 			<fInterfaceScale>1.5</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Fort/eu_med_fort.nif</NIF>
@@ -911,7 +911,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_PALISADE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1</fScale>
 			<fInterfaceScale>1</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Palisade/Palisade.nif</NIF>
@@ -920,7 +920,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_FORTIFIED_CAVE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.5</fScale>
 			<fInterfaceScale>1.5</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Fort/eu_med_fort.nif</NIF>
@@ -929,7 +929,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_FORTIFIED_CAVE_CACHE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.5</fScale>
 			<fInterfaceScale>1.5</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Fort/eu_med_fort.nif</NIF>
@@ -938,7 +938,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_WOODEN_TOWER</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>2.0</fScale>
 			<fInterfaceScale>0.8</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Woodentower/wooden_tower.blend.nif</NIF>
@@ -947,7 +947,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_STONE_TOWER</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.2</fScale>
 			<fInterfaceScale>0.7</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/stone_tower/watchtower_eu.blend.nif</NIF>
@@ -956,7 +956,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_STEEL_TOWER</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.2</fScale>
 			<fInterfaceScale>0.7</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/stone_tower/watchtower_eu.blend.nif</NIF>
@@ -965,7 +965,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_RADAR</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.6</fScale>
 			<fInterfaceScale>0.30</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/radar/Radar.nif</NIF>
@@ -974,7 +974,7 @@
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_LISTENING_NODE</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.6</fScale>
 			<fInterfaceScale>0.30</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/radar/Radar.nif</NIF>

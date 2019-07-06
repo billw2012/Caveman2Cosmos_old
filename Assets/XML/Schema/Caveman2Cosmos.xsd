@@ -912,12 +912,12 @@
     </xs:restriction>
   </xs:simpleType>
   <xs:simpleType name="Civ4Boolean">
-    <xs:union memberTypes="int-01 emptyString"/>
+    <xs:restriction base="int-01"/>
   </xs:simpleType>
   <xs:simpleType name="Civ4Integer">
-    <xs:union memberTypes="xs:integer emptyString"/>
+    <xs:restriction base="xs:integer"/>
   </xs:simpleType>
   <xs:simpleType name="Civ4Float">
-    <xs:union memberTypes="xs:float emptyString"/>
+    <xs:restriction base="xs:float"/>
   </xs:simpleType> 
 </xs:schema>

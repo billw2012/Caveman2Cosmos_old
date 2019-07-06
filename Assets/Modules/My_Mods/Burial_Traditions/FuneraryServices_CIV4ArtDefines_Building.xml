@@ -9,9 +9,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BURIAL_TRADITION_CAVE</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/CaveBurial.dds</Button>
@@ -19,9 +19,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BURIAL_TRADITION_EARTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/EarthBurial.dds</Button>
@@ -29,9 +29,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BURIAL_TRADITION_FIRE</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/FireBurial.dds</Button>
@@ -39,9 +39,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BURIAL_TRADITION_SKY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/SkyBurial.dds</Button>
@@ -50,9 +50,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BURIAL_TRADITION_BONE</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/TraditionBone.dds</Button>
@@ -60,9 +60,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BURIAL_TRADITION_MUMMY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/TraditionMummy.dds</Button>
@@ -71,9 +71,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BURIAL_PLATFORMS</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/BurialPlatforms.dds</Button>
@@ -81,9 +81,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FUNERARY_SERVICES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/FuneraryServices.dds</Button>

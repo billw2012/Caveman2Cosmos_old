@@ -29,9 +29,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GATOR_ASIAN_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/gator.dds</Button>
@@ -42,9 +42,9 @@ Button>Art/Interface/Buttons/Buildings/myth_gator.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GATOR_ASIAN_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/gator.dds</Button>
@@ -55,9 +55,9 @@ Button>Art/Interface/Buttons/Buildings/story_gator.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GATOR_ASIAN_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/gator.dds</Button>
@@ -68,9 +68,9 @@ Button>Art/Interface/Buttons/Buildings/stories_gator.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CROCODILE_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_Crocodile.dds</Button>
@@ -78,9 +78,9 @@ Button>Art/Interface/Buttons/Buildings/stories_gator.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CROCODILE_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Crocodile.dds</Button>
@@ -91,9 +91,9 @@ Button>Art/Interface/Buttons/Buildings/story_Crocodile.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CROCODILE_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Crocodile.dds</Button>
@@ -104,9 +104,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Crocodile.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GATOR_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/gator.dds</Button>
@@ -117,9 +117,9 @@ Button>Art/Interface/Buttons/Buildings/myth_gator.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GATOR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/gator.dds</Button>
@@ -130,9 +130,9 @@ Button>Art/Interface/Buttons/Buildings/story_gator.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GATOR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/gator.dds</Button>
@@ -143,9 +143,9 @@ Button>Art/Interface/Buttons/Buildings/stories_gator.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GHARIAL_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/GHARIAL.dds</Button>
@@ -156,9 +156,9 @@ Button>Art/Interface/Buttons/Buildings/myth_GHARIAL.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GHARIAL_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/GHARIAL.dds</Button>
@@ -169,9 +169,9 @@ Button>Art/Interface/Buttons/Buildings/story_GHARIAL.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GHARIAL_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/GHARIAL.dds</Button>
@@ -182,9 +182,9 @@ Button>Art/Interface/Buttons/Buildings/stories_GHARIAL.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NILECROC_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/NileCroc.dds</Button>
@@ -195,9 +195,9 @@ Button>Art/Interface/Buttons/Buildings/myth_NileCroc.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NILECROC_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/NileCroc.dds</Button>
@@ -208,9 +208,9 @@ Button>Art/Interface/Buttons/Buildings/story_NileCroc.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NILECROC_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/NileCroc.dds</Button>
@@ -221,9 +221,9 @@ Button>Art/Interface/Buttons/Buildings/stories_NileCroc.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RIVER_CROC_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_crocodile.dds</Button>
@@ -231,9 +231,9 @@ Button>Art/Interface/Buttons/Buildings/stories_NileCroc.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RIVER_CROC_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/crocodile.dds</Button>
@@ -244,9 +244,9 @@ Button>Art/Interface/Buttons/Buildings/story_crocodile.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RIVER_CROC_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/crocodile.dds</Button>
@@ -257,9 +257,9 @@ Button>Art/Interface/Buttons/Buildings/stories_crocodile.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SALTWATER_CROC_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_crocodile.dds</Button>
@@ -267,9 +267,9 @@ Button>Art/Interface/Buttons/Buildings/stories_crocodile.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SALTWATER_CROC_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/crocodile.dds</Button>
@@ -280,9 +280,9 @@ Button>Art/Interface/Buttons/Buildings/story_crocodile.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SALTWATER_CROC_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/crocodile.dds</Button>
@@ -293,9 +293,9 @@ Button>Art/Interface/Buttons/Buildings/stories_crocodile.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CAIMAN_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Caiman.dds</Button>
@@ -306,9 +306,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Caiman.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CAIMAN_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Caiman.dds</Button>
@@ -319,9 +319,9 @@ Button>Art/Interface/Buttons/Buildings/story_Caiman.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CAIMAN_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Caiman.dds</Button>
@@ -332,9 +332,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Caiman.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BEAR_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_bear.dds</Button>
@@ -342,9 +342,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Caiman.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BEAR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_bear.dds</Button>
@@ -352,9 +352,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Caiman.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BEAR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_bear.dds</Button>
@@ -362,9 +362,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Caiman.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ASIANBEAR_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Asianbear.dds</Button>
@@ -375,9 +375,9 @@ Button>Art/Interface/Buttons/Buildings/story_asianbear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ASIANBEAR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_asianbear.dds</Button>
@@ -385,9 +385,9 @@ Button>Art/Interface/Buttons/Buildings/story_asianbear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ASIANBEAR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_asianbear.dds</Button>
@@ -395,9 +395,9 @@ Button>Art/Interface/Buttons/Buildings/story_asianbear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BROWN_BEAR_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Bear.dds</Button>
@@ -408,9 +408,9 @@ Button>Art/Interface/Buttons/Buildings/myth_BrownBear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BROWN_BEAR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_bear.dds</Button>
@@ -418,9 +418,9 @@ Button>Art/Interface/Buttons/Buildings/myth_BrownBear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BROWN_BEAR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_bear.dds</Button>
@@ -428,9 +428,9 @@ Button>Art/Interface/Buttons/Buildings/myth_BrownBear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BLACK_BEAR_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Blackbear.dds</Button>
@@ -441,9 +441,9 @@ Button>Art/Interface/Buttons/Buildings/myth_blackBear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BLACK_BEAR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_blackbear.dds</Button>
@@ -451,9 +451,9 @@ Button>Art/Interface/Buttons/Buildings/myth_blackBear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BLACK_BEAR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_blackbear.dds</Button>
@@ -461,9 +461,9 @@ Button>Art/Interface/Buttons/Buildings/myth_blackBear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GRIZZLY_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Grizzly.dds</Button>
@@ -474,9 +474,9 @@ Button>Art/Interface/Buttons/Buildings/myth_grizzly.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GRIZZLY_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_grizzly.dds</Button>
@@ -484,9 +484,9 @@ Button>Art/Interface/Buttons/Buildings/myth_grizzly.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GRIZZLY_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_grizzly.dds</Button>
@@ -494,9 +494,9 @@ Button>Art/Interface/Buttons/Buildings/myth_grizzly.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PANDA_BEAR_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_panda.dds</Button>
@@ -504,9 +504,9 @@ Button>Art/Interface/Buttons/Buildings/myth_grizzly.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PANDA_BEAR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_pandabear.dds</Button>
@@ -514,9 +514,9 @@ Button>Art/Interface/Buttons/Buildings/myth_grizzly.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PANDA_BEAR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_pandabear.dds</Button>
@@ -524,9 +524,9 @@ Button>Art/Interface/Buttons/Buildings/myth_grizzly.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_POLAR_BEAR_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_polarbear.dds</Button>
@@ -534,9 +534,9 @@ Button>Art/Interface/Buttons/Buildings/myth_grizzly.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_POLAR_BEAR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_polarbear.dds</Button>
@@ -544,9 +544,9 @@ Button>Art/Interface/Buttons/Buildings/myth_grizzly.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_POLAR_BEAR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_polarbear.dds</Button>
@@ -554,9 +554,9 @@ Button>Art/Interface/Buttons/Buildings/myth_grizzly.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_REDPANDA_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_bear.dds</Button>
@@ -564,9 +564,9 @@ Button>Art/Interface/Buttons/Buildings/myth_grizzly.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_REDPANDA_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Redpanda.dds</Button>
@@ -577,9 +577,9 @@ Button>Art/Interface/Buttons/Buildings/myth_redpanda.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_REDPANDA_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_bear.dds</Button>
@@ -587,9 +587,9 @@ Button>Art/Interface/Buttons/Buildings/myth_redpanda.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SLOTH_BEAR_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Slothbear.dds</Button>
@@ -600,9 +600,9 @@ Button>Art/Interface/Buttons/Buildings/myth_slothbear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SLOTH_BEAR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Slothbear.dds</Button>
@@ -613,9 +613,9 @@ Button>Art/Interface/Buttons/Buildings/story_slothbear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SLOTH_BEAR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Slothbear.dds</Button>
@@ -626,9 +626,9 @@ Button>Art/Interface/Buttons/Buildings/stories_slothbear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SPECTACLED_BEAR_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Spectacledbear.dds</Button>
@@ -639,9 +639,9 @@ Button>Art/Interface/Buttons/Buildings/myth_spectacledbear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SPECTACLED_BEAR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_spectacledbear.dds</Button>
@@ -649,9 +649,9 @@ Button>Art/Interface/Buttons/Buildings/myth_spectacledbear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SPECTACLED_BEAR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_spectacledbear.dds</Button>
@@ -659,9 +659,9 @@ Button>Art/Interface/Buttons/Buildings/myth_spectacledbear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SUN_BEAR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_sunbear.dds</Button>
@@ -669,9 +669,9 @@ Button>Art/Interface/Buttons/Buildings/myth_spectacledbear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SUN_BEAR_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Sunbear.dds</Button>
@@ -682,9 +682,9 @@ Button>Art/Interface/Buttons/Buildings/myth_sunbear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SUN_BEAR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_sunbear.dds</Button>
@@ -692,9 +692,9 @@ Button>Art/Interface/Buttons/Buildings/myth_sunbear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CAVE_BEAR_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/PaleolithicBearMyth.dds</Button>
@@ -702,9 +702,9 @@ Button>Art/Interface/Buttons/Buildings/myth_sunbear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CAVE_BEAR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_cavebear.dds</Button>
@@ -712,9 +712,9 @@ Button>Art/Interface/Buttons/Buildings/myth_sunbear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CAVE_BEAR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_cavebear.dds</Button>
@@ -722,9 +722,9 @@ Button>Art/Interface/Buttons/Buildings/myth_sunbear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CAVE_BEAR_REMAINS</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/CaveBear.dds</Button>
@@ -735,9 +735,9 @@ Button>Art/Interface/Buttons/Buildings/remains_cavebear.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TARANTULA_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Tarantula.dds</Button>
@@ -748,9 +748,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Tarantula.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TARANTULA_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Tarantula.dds</Button>
@@ -761,9 +761,9 @@ Button>Art/Interface/Buttons/Buildings/story_Tarantula.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TARANTULA_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Tarantula.dds</Button>
@@ -774,9 +774,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Tarantula.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DART_FROG_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/DartFrog.dds</Button>
@@ -787,9 +787,9 @@ Button>Art/Interface/Buttons/Buildings/myth_DartFrog.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DART_FROG_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_dartfrog.dds</Button>
@@ -797,9 +797,9 @@ Button>Art/Interface/Buttons/Buildings/myth_DartFrog.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DART_FROG_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_dartfrog.dds</Button>
@@ -807,9 +807,9 @@ Button>Art/Interface/Buttons/Buildings/myth_DartFrog.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ARCTICFOX_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_ethowolf.dds</Button>
@@ -817,9 +817,9 @@ Button>Art/Interface/Buttons/Buildings/myth_DartFrog.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ARCTICFOX_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Arcticfox2.dds</Button>
@@ -830,9 +830,9 @@ Button>Art/Interface/Buttons/Buildings/story_Arcticfox2.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ARCTICFOX_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Arcticfox2.dds</Button>
@@ -843,9 +843,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Arcticfox2.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GREY_WOLF_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_wolf.dds</Button>
@@ -853,9 +853,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Arcticfox2.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GREY_WOLF_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Wolf.dds</Button>
@@ -866,9 +866,9 @@ Button>Art/Interface/Buttons/Buildings/story_Wolf.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GREY_WOLF_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Wolf.dds</Button>
@@ -879,9 +879,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Wolf.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_DOG_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/PaleolithicDogMyth.dds</Button>
@@ -889,9 +889,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Wolf.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_DOG_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_direwolf.dds</Button>
@@ -899,9 +899,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Wolf.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_DOG_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_direwolf.dds</Button>
@@ -909,9 +909,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Wolf.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_DOG_REMAINS</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/PaleolithicDogMyth.dds</Button>
@@ -919,9 +919,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Wolf.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DHOLE_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Dhole.dds</Button>
@@ -932,9 +932,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Dhole.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DHOLE_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Dhole.dds</Button>
@@ -945,9 +945,9 @@ Button>Art/Interface/Buttons/Buildings/story_Dhole.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DHOLE_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Dhole.dds</Button>
@@ -958,9 +958,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Dhole.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DINGO_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Dingo.dds</Button>
@@ -971,9 +971,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Dingo.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DINGO_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Dingo.dds</Button>
@@ -984,9 +984,9 @@ Button>Art/Interface/Buttons/Buildings/story_Dingo.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DINGO_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Dingo.dds</Button>
@@ -997,9 +997,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Dingo.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_REDFOX_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_ethowolf.dds</Button>
@@ -1007,9 +1007,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Dingo.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_REDFOX_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Redfox.dds</Button>
@@ -1020,9 +1020,9 @@ Button>Art/Interface/Buttons/Buildings/story_Redfox.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_REDFOX_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Redfox.dds</Button>
@@ -1033,9 +1033,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Redfox.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DHOLE_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Dhole.dds</Button>
@@ -1046,9 +1046,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Dhole.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DHOLE_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Dhole.dds</Button>
@@ -1059,9 +1059,9 @@ Button>Art/Interface/Buttons/Buildings/story_Dhole.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DHOLE_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Dhole.dds</Button>
@@ -1072,9 +1072,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Dhole.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DINGO_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Dingo.dds</Button>
@@ -1085,9 +1085,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Dingo.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DINGO_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Dingo.dds</Button>
@@ -1098,9 +1098,9 @@ Button>Art/Interface/Buttons/Buildings/story_Dingo.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DINGO_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Dingo.dds</Button>
@@ -1111,9 +1111,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Dingo.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_EWOLF_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_ethowolf.dds</Button>
@@ -1121,9 +1121,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Dingo.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_EWOLF_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/ewolf.dds</Button>
@@ -1134,9 +1134,9 @@ Button>Art/Interface/Buttons/Buildings/story_ewolf.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_EWOLF_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/ewolf.dds</Button>
@@ -1147,9 +1147,9 @@ Button>Art/Interface/Buttons/Buildings/stories_ewolf.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FENNECFOX_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Fennecfox.dds</Button>
@@ -1160,9 +1160,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Fennecfox.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FENNECFOX_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Fennecfox.dds</Button>
@@ -1173,9 +1173,9 @@ Button>Art/Interface/Buttons/Buildings/story_Fennecfox.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FENNECFOX_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Fennecfox.dds</Button>
@@ -1186,9 +1186,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Fennecfox.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MANEDWOLF_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Manedwolf.dds</Button>
@@ -1199,9 +1199,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Manedwolf.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MANEDWOLF_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Manedwolf.dds</Button>
@@ -1212,9 +1212,9 @@ Button>Art/Interface/Buttons/Buildings/story_Manedwolf.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MANEDWOLF_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Manedwolf.dds</Button>
@@ -1225,9 +1225,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Manedwolf.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_THYLACINE_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_thylacine.dds</Button>
@@ -1235,9 +1235,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Manedwolf.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_THYLACINE_REMAINS</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/thylacine.dds</Button>
@@ -1248,9 +1248,9 @@ Button>Art/Interface/Buttons/Buildings/remains_thylacine.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_THYLACINE_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/thylacine.dds</Button>
@@ -1261,9 +1261,9 @@ Button>Art/Interface/Buttons/Buildings/story_thylacine.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_THYLACINE_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/thylacine.dds</Button>
@@ -1274,9 +1274,9 @@ Button>Art/Interface/Buttons/Buildings/stories_thylacine.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GIRAFFE_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_Giraffe.dds</Button>
@@ -1284,9 +1284,9 @@ Button>Art/Interface/Buttons/Buildings/stories_thylacine.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GIRAFFE_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Giraffe.dds</Button>
@@ -1294,9 +1294,9 @@ Button>Art/Interface/Buttons/Buildings/stories_thylacine.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GIRAFFE_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Giraffe.dds</Button>
@@ -1304,9 +1304,9 @@ Button>Art/Interface/Buttons/Buildings/stories_thylacine.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MONOTREMES_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Platypus.dds</Button>
@@ -1317,9 +1317,9 @@ Button>Art/Interface/Buttons/Buildings/totem_Monotremes.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MONOTREMES_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Platypus.dds</Button>
@@ -1330,9 +1330,9 @@ Button>Art/Interface/Buttons/Buildings/story_Monotremes.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MONOTREMES_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Platypus.dds</Button>
@@ -1343,9 +1343,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Monotremes.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PLATYPUS_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Platypus.dds</Button>
@@ -1356,9 +1356,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Platypus.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PLATYPUS_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Platypus.dds</Button>
@@ -1369,9 +1369,9 @@ Button>Art/Interface/Buttons/Buildings/story_Platypus.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PLATYPUS_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Platypus.dds</Button>
@@ -1382,9 +1382,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Platypus.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ELASMOTHERIUM_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Elasmotherium.dds</Button>
@@ -1395,9 +1395,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Elasmotherium.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ELASMOTHERIUM_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Elasmotherium.dds</Button>
@@ -1408,9 +1408,9 @@ Button>Art/Interface/Buttons/Buildings/story_Elasmotherium.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ELASMOTHERIUM_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Elasmotherium.dds</Button>
@@ -1421,9 +1421,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Elasmotherium.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ELASMOTHERIUM_REMAINS</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Elasmotherium.dds</Button>
@@ -1434,9 +1434,9 @@ Button>Art/Interface/Buttons/Buildings/remains_Elasmotherium.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RHINO_TAXONOMY_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/button_rhino.dds</Button>
@@ -1444,9 +1444,9 @@ Button>Art/Interface/Buttons/Buildings/remains_Elasmotherium.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BLACK_RHINO_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/button_rhino.dds</Button>
@@ -1457,9 +1457,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Blackrhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BLACK_RHINO_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/button_rhino.dds</Button>
@@ -1470,9 +1470,9 @@ Button>Art/Interface/Buttons/Buildings/story_Blackrhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BLACK_RHINO_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/button_rhino.dds</Button>
@@ -1483,9 +1483,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Blackrhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_INDIAN_RHINO_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Indianrhino.dds</Button>
@@ -1496,9 +1496,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Indianrhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_INDIAN_RHINO_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Indianrhino.dds</Button>
@@ -1509,9 +1509,9 @@ Button>Art/Interface/Buttons/Buildings/story_Indianrhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_INDIAN_RHINO_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Indianrhino.dds</Button>
@@ -1522,9 +1522,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Indianrhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_JAVA_RHINO_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/javarhino.dds</Button>
@@ -1535,9 +1535,9 @@ Button>Art/Interface/Buttons/Buildings/myth_javarhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_JAVA_RHINO_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/javarhino.dds</Button>
@@ -1548,9 +1548,9 @@ Button>Art/Interface/Buttons/Buildings/story_javarhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_JAVA_RHINO_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/javarhino.dds</Button>
@@ -1561,9 +1561,9 @@ Button>Art/Interface/Buttons/Buildings/stories_javarhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WHITE_RHINO_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Whiterhino.dds</Button>
@@ -1574,9 +1574,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WHITE_RHINO_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Whiterhino.dds</Button>
@@ -1587,9 +1587,9 @@ Button>Art/Interface/Buttons/Buildings/story_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WHITE_RHINO_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Whiterhino.dds</Button>
@@ -1600,9 +1600,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TAPIR_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/myth_tapir.dds</Button>
@@ -1610,9 +1610,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TAPIR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/myth_tapir.dds</Button>
@@ -1620,9 +1620,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TAPIR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/myth_tapir.dds</Button>
@@ -1630,9 +1630,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MALAYAN_TAPIR_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_mtapir.dds</Button>
@@ -1640,9 +1640,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MALAYAN_TAPIR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_mtapir.dds</Button>
@@ -1650,9 +1650,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MALAYAN_TAPIR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_mtapir.dds</Button>
@@ -1660,9 +1660,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MOUNTAIN_TAPIR_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_mttapir.dds</Button>
@@ -1670,9 +1670,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MOUNTAIN_TAPIR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_mttapir.dds</Button>
@@ -1680,9 +1680,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MOUNTAIN_TAPIR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_mttapir.dds</Button>
@@ -1690,9 +1690,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BAIRDS_TAPIR_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_bairds_tapir.dds</Button>
@@ -1700,9 +1700,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BAIRDS_TAPIR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_bairds_tapir.dds</Button>
@@ -1710,9 +1710,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BAIRDS_TAPIR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_bairds_tapir.dds</Button>
@@ -1720,9 +1720,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BRAZILIAN_TAPIR_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_Brazilian_tapir.dds</Button>
@@ -1730,9 +1730,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BRAZILIAN_TAPIR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_Brazilian_tapir.dds</Button>
@@ -1740,9 +1740,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BRAZILIAN_TAPIR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_Brazilian_tapir.dds</Button>
@@ -1750,9 +1750,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Whiterhino.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ASIANELEPHANT_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/elephant.dds</Button>
@@ -1763,9 +1763,9 @@ Button>Art/Interface/Buttons/Buildings/myth_asianelephant.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ASIANELEPHANT_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/elephant.dds</Button>
@@ -1776,9 +1776,9 @@ Button>Art/Interface/Buttons/Buildings/story_asianelephant.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ASIANELEPHANT_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/elephant.dds</Button>
@@ -1789,9 +1789,9 @@ Button>Art/Interface/Buttons/Buildings/stories_asianelephant.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_AFRICANELEPHANT_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Africanelephant.dds</Button>
@@ -1802,9 +1802,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Africanelephant.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_AFRICANELEPHANT_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Africanelephant.dds</Button>
@@ -1815,9 +1815,9 @@ Button>Art/Interface/Buttons/Buildings/story_Africanelephant.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_AFRICANELEPHANT_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Africanelephant.dds</Button>
@@ -1828,9 +1828,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanelephant.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_AFRICANGREY_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/africangrey.dds</Button>
@@ -1841,9 +1841,9 @@ Button>Art/Interface/Buttons/Buildings/myth_africangrey.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_AFRICANGREY_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/africangrey.dds</Button>
@@ -1854,9 +1854,9 @@ Button>Art/Interface/Buttons/Buildings/story_africangrey.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_AFRICANGREY_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/africangrey.dds</Button>
@@ -1867,9 +1867,9 @@ Button>Art/Interface/Buttons/Buildings/stories_africangrey.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ARMADILLO_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Armadillo.dds</Button>
@@ -1880,9 +1880,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Armadillo.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ARMADILLO_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Armadillo.dds</Button>
@@ -1893,9 +1893,9 @@ Button>Art/Interface/Buttons/Buildings/story_Armadillo.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ARMADILLO_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Armadillo.dds</Button>
@@ -1906,9 +1906,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Armadillo.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BABIRUSA_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Babirusa.dds</Button>
@@ -1919,9 +1919,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Babirusa.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BABIRUSA_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Babirusa.dds</Button>
@@ -1932,9 +1932,9 @@ Button>Art/Interface/Buttons/Buildings/story_Babirusa.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BABIRUSA_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Babirusa.dds</Button>
@@ -1945,9 +1945,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Babirusa.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CUSCUS_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Cuscus.dds</Button>
@@ -1958,9 +1958,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Cuscus.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CUSCUS_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Cuscus.dds</Button>
@@ -1971,9 +1971,9 @@ Button>Art/Interface/Buttons/Buildings/story_Cuscus.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CUSCUS_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Cuscus.dds</Button>
@@ -1984,9 +1984,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Cuscus.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GLYPTO_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Glypto.dds</Button>
@@ -1997,9 +1997,9 @@ Button>Art/Interface/Buttons/Buildings/myth_glypto.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GLYPTO_REMAINS</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Glypto.dds</Button>
@@ -2010,9 +2010,9 @@ Button>Art/Interface/Buttons/Buildings/remains_glypto.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GLYPTO_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Glypto.dds</Button>
@@ -2023,9 +2023,9 @@ Button>Art/Interface/Buttons/Buildings/story_glypto.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GLYPTO_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Glypto.dds</Button>
@@ -2036,9 +2036,9 @@ Button>Art/Interface/Buttons/Buildings/stories_glypto.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_GROUNDSLOTH_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Groundsloth.dds</Button>
@@ -2046,9 +2046,9 @@ Button>Art/Interface/Buttons/Buildings/stories_glypto.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_GROUNDSLOTH_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_Groundsloth.dds</Button>
@@ -2056,9 +2056,9 @@ Button>Art/Interface/Buttons/Buildings/stories_glypto.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_GROUNDSLOTH_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_Groundsloth.dds</Button>
@@ -2066,9 +2066,9 @@ Button>Art/Interface/Buttons/Buildings/stories_glypto.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_GROUNDSLOTH_REMAINS</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Groundsloth.dds</Button>
@@ -2079,9 +2079,9 @@ Button>Art/Interface/Buttons/Buildings/story_Groundsloth.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LIZARD_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Lizard.dds</Button>
@@ -2092,9 +2092,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Lizard.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LIZARD_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Lizard.dds</Button>
@@ -2105,9 +2105,9 @@ Button>Art/Interface/Buttons/Buildings/story_Lizard.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LIZARD_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Lizard.dds</Button>
@@ -2118,9 +2118,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Lizard.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NUMBAT_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Numbat.dds</Button>
@@ -2131,9 +2131,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Numbat.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NUMBAT_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Numbat.dds</Button>
@@ -2144,9 +2144,9 @@ Button>Art/Interface/Buttons/Buildings/story_Numbat.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NUMBAT_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Numbat.dds</Button>
@@ -2157,9 +2157,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Numbat.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_OPOSSUM_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Opossum.dds</Button>
@@ -2170,9 +2170,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Opossum.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_OPOSSUM_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Opossum.dds</Button>
@@ -2183,9 +2183,9 @@ Button>Art/Interface/Buttons/Buildings/story_Opossum.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_OPOSSUM_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Opossum.dds</Button>
@@ -2196,9 +2196,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Opossum.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PARROT_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Parrot.dds</Button>
@@ -2209,9 +2209,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Parrot.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PARROT_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Parrot.dds</Button>
@@ -2222,9 +2222,9 @@ Button>Art/Interface/Buttons/Buildings/story_Parrot.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PARROT_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Parrot.dds</Button>
@@ -2235,9 +2235,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Parrot.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_POSSUM_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Possum.dds</Button>
@@ -2248,9 +2248,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Possum.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_POSSUM_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Possum.dds</Button>
@@ -2261,9 +2261,9 @@ Button>Art/Interface/Buttons/Buildings/story_Possum.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_POSSUM_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Possum.dds</Button>
@@ -2274,9 +2274,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Possum.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PYGMYHIPPO_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_hippo.dds</Button>
@@ -2284,9 +2284,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Possum.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PYGMYHIPPO_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_hippo.dds</Button>
@@ -2294,9 +2294,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Possum.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PYGMYHIPPO_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_hippo.dds</Button>
@@ -2304,9 +2304,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Possum.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAVEN_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Raven.dds</Button>
@@ -2317,9 +2317,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Raven.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAVEN_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Raven.dds</Button>
@@ -2330,9 +2330,9 @@ Button>Art/Interface/Buttons/Buildings/story_Raven.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAVEN_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Raven.dds</Button>
@@ -2343,9 +2343,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Raven.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SECRETARYBIRD_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Secretarybird.dds</Button>
@@ -2356,9 +2356,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Secretarybird.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SECRETARYBIRD_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Secretarybird.dds</Button>
@@ -2369,9 +2369,9 @@ Button>Art/Interface/Buttons/Buildings/story_Secretarybird.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SECRETARYBIRD_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Secretarybird.dds</Button>
@@ -2382,9 +2382,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Secretarybird.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TREESLOTH_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Treesloth.dds</Button>
@@ -2395,9 +2395,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Treesloth.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TREESLOTH_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Treesloth.dds</Button>
@@ -2408,9 +2408,9 @@ Button>Art/Interface/Buttons/Buildings/story_Treesloth.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TREESLOTH_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Treesloth.dds</Button>
@@ -2421,9 +2421,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Treesloth.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WOMBAT_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Wombat.dds</Button>
@@ -2434,9 +2434,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Wombat.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WOMBAT_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Wombat.dds</Button>
@@ -2447,9 +2447,9 @@ Button>Art/Interface/Buttons/Buildings/story_Wombat.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WOMBAT_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Wombat.dds</Button>
@@ -2460,9 +2460,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Wombat.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BIRD_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_cassowary.dds</Button>
@@ -2473,9 +2473,9 @@ Button>Art/Interface/Buttons/Buildings/myth_totem_cassowary.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BIRD_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_cassowary.dds</Button>
@@ -2486,9 +2486,9 @@ Button>Art/Interface/Buttons/Buildings/story_totem_cassowary.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BIRD_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_cassowary.dds</Button>
@@ -2499,9 +2499,9 @@ Button>Art/Interface/Buttons/Buildings/stories_totem_cassowary.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_OWL_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_cassowary.dds</Button>
@@ -2512,9 +2512,9 @@ Button>Art/Interface/Buttons/Buildings/myth_totem_cassowary.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_OWL_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_cassowary.dds</Button>
@@ -2525,9 +2525,9 @@ Button>Art/Interface/Buttons/Buildings/story_totem_cassowary.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_OWL_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_cassowary.dds</Button>
@@ -2538,9 +2538,9 @@ Button>Art/Interface/Buttons/Buildings/stories_totem_cassowary.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FLIGHTLESS_BIRD_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_cassowary.dds</Button>
@@ -2551,9 +2551,9 @@ Button>Art/Interface/Buttons/Buildings/myth_totem_cassowary.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FLIGHTLESS_BIRD_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_cassowary.dds</Button>
@@ -2561,9 +2561,9 @@ Button>Art/Interface/Buttons/Buildings/myth_totem_cassowary.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FLIGHTLESS_BIRD_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_cassowary.dds</Button>
@@ -2571,9 +2571,9 @@ Button>Art/Interface/Buttons/Buildings/myth_totem_cassowary.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SEA_BIRD_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_cassowary.dds</Button>
@@ -2584,9 +2584,9 @@ Button>Art/Interface/Buttons/Buildings/myth_totem_cassowary.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SEA_BIRD_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_cassowary.dds</Button>
@@ -2594,9 +2594,9 @@ Button>Art/Interface/Buttons/Buildings/myth_totem_cassowary.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SEA_BIRD_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_cassowary.dds</Button>
@@ -2604,9 +2604,9 @@ Button>Art/Interface/Buttons/Buildings/myth_totem_cassowary.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BUG_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art/Craft/Art/bugcatcher.dds</Button>
@@ -2617,9 +2617,9 @@ Button>Art/Interface/Buttons/Buildings/totem_Bug.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BUG_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art/Craft/Art/bugcatcher.dds</Button>
@@ -2630,9 +2630,9 @@ Button>Art/Interface/Buttons/Buildings/story_Bug.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BUG_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art/Craft/Art/bugcatcher.dds</Button>
@@ -2643,9 +2643,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Bug.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LOCAL_FISH_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_fish.dds</Button>
@@ -2656,9 +2656,9 @@ Button>Art/Interface/Buttons/Buildings/myth_totem_fish.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FISH_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_fish.dds</Button>
@@ -2669,9 +2669,9 @@ Button>Art/Interface/Buttons/Buildings/myth_totem_fish.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FISH_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_fish.dds</Button>
@@ -2682,9 +2682,9 @@ Button>Art/Interface/Buttons/Buildings/story_totem_fish.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FISH_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_fish.dds</Button>
@@ -2695,9 +2695,9 @@ Button>Art/Interface/Buttons/Buildings/stories_totem_fish.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_REPTILE_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_komododragon.dds</Button>
@@ -2708,9 +2708,9 @@ Button>Art/Interface/Buttons/Buildings/myth_totem_komododragon.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_REPTILE_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_komododragon.dds</Button>
@@ -2721,9 +2721,9 @@ Button>Art/Interface/Buttons/Buildings/story_totem_komododragon.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_REPTILE_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_komododragon.dds</Button>
@@ -2734,9 +2734,9 @@ Button>Art/Interface/Buttons/Buildings/stories_totem_komododragon.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RODENT_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_chipmonk.dds</Button>
@@ -2747,9 +2747,9 @@ Button>Art/Interface/Buttons/Buildings/myth_totem_chipmonk.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RODENT_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_chipmonk.dds</Button>
@@ -2760,9 +2760,9 @@ Button>Art/Interface/Buttons/Buildings/story_totem_chipmonk.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RODENT_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/buildings/totem_chipmonk.dds</Button>
@@ -2773,9 +2773,9 @@ Button>Art/Interface/Buttons/Buildings/stories_totem_chipmonk.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WOLF_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_wolf.dds</Button>
@@ -2783,9 +2783,9 @@ Button>Art/Interface/Buttons/Buildings/stories_totem_chipmonk.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WOLF_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Wolf.dds</Button>
@@ -2796,9 +2796,9 @@ Button>Art/Interface/Buttons/Buildings/story_Wolf.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WOLF_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Wolf.dds</Button>
@@ -2809,9 +2809,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Wolf.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BOOBY_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/booby.dds</Button>
@@ -2822,9 +2822,9 @@ Button>Art/Interface/Buttons/Buildings/myth_booby.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BOOBY_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/booby.dds</Button>
@@ -2835,9 +2835,9 @@ Button>Art/Interface/Buttons/Buildings/story_booby.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BOOBY_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/booby.dds</Button>
@@ -2848,9 +2848,9 @@ Button>Art/Interface/Buttons/Buildings/stories_booby.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BARREDOWL_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Barredowl.dds</Button>
@@ -2861,9 +2861,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Barredowl.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BARREDOWL_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Barredowl.dds</Button>
@@ -2874,9 +2874,9 @@ Button>Art/Interface/Buttons/Buildings/story_Barredowl.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BARREDOWL_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Barredowl.dds</Button>
@@ -2887,9 +2887,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Barredowl.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAPTOR_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_eagle.dds</Button>
@@ -2897,9 +2897,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Barredowl.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAPTOR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_eagle.dds</Button>
@@ -2907,9 +2907,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Barredowl.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAPTOR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_eagle.dds</Button>
@@ -2917,9 +2917,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Barredowl.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_AFRICAN_PENGUIN_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Africanpenguin.dds</Button>
@@ -2930,9 +2930,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_AFRICAN_PENGUIN_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Africanpenguin.dds</Button>
@@ -2943,9 +2943,9 @@ Button>Art/Interface/Buttons/Buildings/story_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_AFRICAN_PENGUIN_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Africanpenguin.dds</Button>
@@ -2956,9 +2956,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BARNOWL_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Barnowl.dds</Button>
@@ -2969,9 +2969,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Barnowl.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BARNOWL_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Barnowl.dds</Button>
@@ -2982,9 +2982,9 @@ Button>Art/Interface/Buttons/Buildings/story_Barnowl.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BARNOWL_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Barnowl.dds</Button>
@@ -2995,9 +2995,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Barnowl.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CASSOWARY_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Cassowary.dds</Button>
@@ -3008,9 +3008,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Cassowary.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CASSOWARY_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Cassowary.dds</Button>
@@ -3021,9 +3021,9 @@ Button>Art/Interface/Buttons/Buildings/story_Cassowary.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CASSOWARY_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Cassowary.dds</Button>
@@ -3034,9 +3034,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Cassowary.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_EAGLE_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_eagle.dds</Button>
@@ -3044,9 +3044,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Cassowary.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_EAGLE_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_eagle.dds</Button>
@@ -3057,9 +3057,9 @@ Button>Art/Interface/Buttons/Buildings/story_totem_eagle.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_EAGLE_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_eagle.dds</Button>
@@ -3070,9 +3070,9 @@ Button>Art/Interface/Buttons/Buildings/stories_totem_eagle.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_EMU_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Emu.dds</Button>
@@ -3083,9 +3083,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Emu.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_EMU_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Emu.dds</Button>
@@ -3096,9 +3096,9 @@ Button>Art/Interface/Buttons/Buildings/story_Emu.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_EMU_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Emu.dds</Button>
@@ -3109,9 +3109,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Emu.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GALAPAGOS_PENGUIN_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Galapagospenguin.dds</Button>
@@ -3122,9 +3122,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Galapagospenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GALAPAGOS_PENGUIN_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Galapagospenguin.dds</Button>
@@ -3135,9 +3135,9 @@ Button>Art/Interface/Buttons/Buildings/story_Galapagospenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GALAPAGOS_PENGUIN_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Galapagospenguin.dds</Button>
@@ -3148,9 +3148,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Galapagospenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HAAST_EAGLE_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Haastseagle.dds</Button>
@@ -3161,9 +3161,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Haastseagle.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HAAST_EAGLE_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Haastseagle.dds</Button>
@@ -3174,9 +3174,9 @@ Button>Art/Interface/Buttons/Buildings/story_Haastseagle.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HAAST_EAGLE_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Haastseagle.dds</Button>
@@ -3187,9 +3187,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Haastseagle.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HAAST_EAGLE_REMAINS</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Haastseagle.dds</Button>
@@ -3197,9 +3197,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Haastseagle.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HARPYEAGLE_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/harpyeagle.dds</Button>
@@ -3210,9 +3210,9 @@ Button>Art/Interface/Buttons/Buildings/myth_harpyeagle.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HARPYEAGLE_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/harpyeagle.dds</Button>
@@ -3223,9 +3223,9 @@ Button>Art/Interface/Buttons/Buildings/story_harpyeagle.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HARPYEAGLE_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/harpyeagle.dds</Button>
@@ -3236,9 +3236,9 @@ Button>Art/Interface/Buttons/Buildings/stories_harpyeagle.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HAWK_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_eagle.dds</Button>
@@ -3246,9 +3246,9 @@ Button>Art/Interface/Buttons/Buildings/stories_harpyeagle.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HAWK_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_eagle.dds</Button>
@@ -3259,9 +3259,9 @@ Button>Art/Interface/Buttons/Buildings/story_totem_eagle.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HAWK_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_eagle.dds</Button>
@@ -3272,9 +3272,9 @@ Button>Art/Interface/Buttons/Buildings/stories_totem_eagle.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MACAW_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Macaw.dds</Button>
@@ -3285,9 +3285,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Macaw.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MACAW_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Macaw.dds</Button>
@@ -3298,9 +3298,9 @@ Button>Art/Interface/Buttons/Buildings/story_Macaw.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MACAW_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Macaw.dds</Button>
@@ -3311,9 +3311,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Macaw.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MOA_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Moa.dds</Button>
@@ -3324,9 +3324,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Moa.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MOA_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Moa.dds</Button>
@@ -3337,9 +3337,9 @@ Button>Art/Interface/Buttons/Buildings/story_Moa.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MOA_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Moa.dds</Button>
@@ -3350,9 +3350,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Moa.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MOA_REMAINS</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Moa.dds</Button>
@@ -3360,9 +3360,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Moa.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_OSTRICH_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Ostrich.dds</Button>
@@ -3373,9 +3373,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Ostrich.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_OSTRICH_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Ostrich.dds</Button>
@@ -3386,9 +3386,9 @@ Button>Art/Interface/Buttons/Buildings/story_Ostrich.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_OSTRICH_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Ostrich.dds</Button>
@@ -3399,9 +3399,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Ostrich.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAZORBILL_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Razorbill.dds</Button>
@@ -3412,9 +3412,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Razorbill.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAZORBILL_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Razorbill.dds</Button>
@@ -3425,9 +3425,9 @@ Button>Art/Interface/Buttons/Buildings/story_Razorbill.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAZORBILL_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Razorbill.dds</Button>
@@ -3438,9 +3438,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Razorbill.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RHEA_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Rhea.dds</Button>
@@ -3451,9 +3451,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Rhea.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RHEA_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Rhea.dds</Button>
@@ -3464,9 +3464,9 @@ Button>Art/Interface/Buttons/Buildings/story_Rhea.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RHEA_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Rhea.dds</Button>
@@ -3477,9 +3477,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Rhea.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SEAEAGLE_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_eagle.dds</Button>
@@ -3490,9 +3490,9 @@ Button>Art/Interface/Buttons/Buildings/myth_seaeagle.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SEAEAGLE_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/seaeagle.dds</Button>
@@ -3503,9 +3503,9 @@ Button>Art/Interface/Buttons/Buildings/story_seaeagle.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SEAEAGLE_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/seaeagle.dds</Button>
@@ -3516,9 +3516,9 @@ Button>Art/Interface/Buttons/Buildings/stories_seaeagle.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HIPPOPOTAMUS_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_hippo.dds</Button>
@@ -3526,9 +3526,9 @@ Button>Art/Interface/Buttons/Buildings/stories_seaeagle.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HIPPOPOTAMUS_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/hippo.dds</Button>
@@ -3539,9 +3539,9 @@ Button>Art/Interface/Buttons/Buildings/story_hippo.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HIPPOPOTAMUS_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/hippo.dds</Button>
@@ -3552,9 +3552,9 @@ Button>Art/Interface/Buttons/Buildings/stories_hippo.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HIPPOS_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_hippo.dds</Button>
@@ -3562,9 +3562,9 @@ Button>Art/Interface/Buttons/Buildings/stories_hippo.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HIPPOS_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/hippo.dds</Button>
@@ -3575,9 +3575,9 @@ Button>Art/Interface/Buttons/Buildings/story_hippo.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HIPPOS_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/hippo.dds</Button>
@@ -3588,9 +3588,9 @@ Button>Art/Interface/Buttons/Buildings/stories_hippo.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_AARDVARK_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Aardvark.dds</Button>
@@ -3601,9 +3601,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Aardvark.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_AARDVARK_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Aardvark.dds</Button>
@@ -3614,9 +3614,9 @@ Button>Art/Interface/Buttons/Buildings/story_Aardvark.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_AARDVARK_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Aardvark.dds</Button>
@@ -3627,9 +3627,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Aardvark.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SABRETOOTH_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/SabretoothB.dds</Button>
@@ -3640,9 +3640,9 @@ Button>Art/Interface/Buttons/Buildings/myth_sabretooth.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SABRETOOTH_REMAINS</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/SabretoothB.dds</Button>
@@ -3653,9 +3653,9 @@ Button>Art/Interface/Buttons/Buildings/remains_sabretooth.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SABRETOOTH_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/SabretoothB.dds</Button>
@@ -3666,9 +3666,9 @@ Button>Art/Interface/Buttons/Buildings/story_sabretooth.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SABRETOOTH_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/SabretoothB.dds</Button>
@@ -3680,9 +3680,9 @@ Button>Art/Interface/Buttons/Buildings/stories_sabretooth.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PENGUIN_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Africanpenguin.dds</Button>
@@ -3693,9 +3693,9 @@ Button>Art/Interface/Buttons/Buildings/myth_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PENGUIN_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Africanpenguin.dds</Button>
@@ -3706,9 +3706,9 @@ Button>Art/Interface/Buttons/Buildings/story_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PENGUIN_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Africanpenguin.dds</Button>
@@ -3719,9 +3719,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_COD_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/COD.dds</Button>
@@ -3730,9 +3730,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_COD_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/COD.dds</Button>
@@ -3741,9 +3741,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_COD_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/COD.dds</Button>
@@ -3752,9 +3752,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CRAB_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/TalesOf_Crab.dds</Button>
@@ -3763,9 +3763,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CRAB_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/TalesOf_Crab.dds</Button>
@@ -3774,9 +3774,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAY_EAGLE_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/RAY.dds</Button>
@@ -3785,9 +3785,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAY_EAGLE_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/RAY.dds</Button>
@@ -3796,9 +3796,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAY_EAGLE_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/RAY.dds</Button>
@@ -3807,9 +3807,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MACKEREL_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/MACKEREL.dds</Button>
@@ -3818,9 +3818,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MACKEREL_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/MACKEREL.dds</Button>
@@ -3829,9 +3829,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MACKEREL_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/MACKEREL.dds</Button>
@@ -3840,9 +3840,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAY_MANTA_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Manta_Ray.dds</Button>
@@ -3851,9 +3851,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAY_MANTA_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Manta_Ray.dds</Button>
@@ -3862,9 +3862,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAY_MANTA_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Manta_Ray.dds</Button>
@@ -3873,9 +3873,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MARLIN_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/MARLIN.dds</Button>
@@ -3884,9 +3884,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MARLIN_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/MARLIN.dds</Button>
@@ -3895,9 +3895,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MARLIN_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/MARLIN.dds</Button>
@@ -3906,9 +3906,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAYS_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_fish.dds</Button>
@@ -3916,9 +3916,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAYS_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_fish.dds</Button>
@@ -3926,9 +3926,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TUNA_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_fish.dds</Button>
@@ -3937,9 +3937,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TUNA_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_fish.dds</Button>
@@ -3948,9 +3948,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CAVE_LION_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_cavelion.dds</Button>
@@ -3958,9 +3958,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CAVE_LION_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_cavelion.dds</Button>
@@ -3968,9 +3968,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CAVE_LION_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_cavelion.dds</Button>
@@ -3978,9 +3978,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CAVE_LION_REMAINS</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_cavelion.dds</Button>
@@ -3988,9 +3988,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MOOSE_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Moose.dds</Button>
@@ -3998,9 +3998,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MOOSE_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Moose.dds</Button>
@@ -4008,9 +4008,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MOOSE_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Moose.dds</Button>
@@ -4018,9 +4018,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CARIBOU_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Caribou.dds</Button>
@@ -4028,9 +4028,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CARIBOU_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Caribou.dds</Button>
@@ -4038,9 +4038,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CARIBOU_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Caribou.dds</Button>
@@ -4048,9 +4048,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TERN_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Tern.dds</Button>
@@ -4058,9 +4058,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TERN_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Tern.dds</Button>
@@ -4068,9 +4068,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TERN_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Tern.dds</Button>
@@ -4078,9 +4078,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SIBERIAN_TIGER_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/SiberianTiger.dds</Button>
@@ -4088,9 +4088,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SIBERIAN_TIGER_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/SiberianTiger.dds</Button>
@@ -4098,9 +4098,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SIBERIAN_TIGER_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/SiberianTiger.dds</Button>
@@ -4108,9 +4108,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_IBEX_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Ibex.dds</Button>
@@ -4118,9 +4118,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_IBEX_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Ibex.dds</Button>
@@ -4128,9 +4128,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_IBEX_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Ibex.dds</Button>
@@ -4138,9 +4138,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SKUNK_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Skunk.dds</Button>
@@ -4148,9 +4148,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SKUNK_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Skunk.dds</Button>
@@ -4158,9 +4158,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SKUNK_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Skunk.dds</Button>
@@ -4169,9 +4169,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PIGEON_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Pigeon.dds</Button>
@@ -4179,9 +4179,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PIGEON_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Pigeon.dds</Button>
@@ -4189,9 +4189,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PIGEON_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Pigeon.dds</Button>
@@ -4199,9 +4199,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PANTHER_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Panther.dds</Button>
@@ -4209,9 +4209,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PANTHER_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Panther.dds</Button>
@@ -4219,9 +4219,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PANTHER_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Panther.dds</Button>
@@ -4229,9 +4229,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LYNX_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Lynx.dds</Button>
@@ -4239,9 +4239,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LYNX_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Lynx.dds</Button>
@@ -4249,9 +4249,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LYNX_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Lynx.dds</Button>
@@ -4259,9 +4259,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_BIRD_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_moa.dds</Button>
@@ -4269,9 +4269,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_BIRD_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_moa.dds</Button>
@@ -4279,9 +4279,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_CAT_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_cavelion.dds</Button>
@@ -4289,9 +4289,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_CAT_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_cavelion.dds</Button>
@@ -4299,9 +4299,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_MARSUPIAL_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_Paleo_marsupial.dds</Button>
@@ -4309,9 +4309,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_MARSUPIAL_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_Paleo_marsupial.dds</Button>
@@ -4319,9 +4319,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HUMPBACK_MYTH</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/totem_whale.dds</Button>
@@ -4329,9 +4329,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HUMPBACK_STORY</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Humpback_whale.dds</Button>
@@ -4339,9 +4339,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HUMPBACK_STORIES</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Humpback_whale.dds</Button>
@@ -4350,9 +4350,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WOLVERINE_MYTH</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Wolverine.dds</Button>
@@ -4360,9 +4360,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WOLVERINE_STORY</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Wolverine.dds</Button>
@@ -4370,9 +4370,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WOLVERINE_STORIES</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Wolverine.dds</Button>
@@ -4380,9 +4380,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_VULTURE_MYTH</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Vulture.dds</Button>
@@ -4390,9 +4390,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_VULTURE_STORY</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Vulture.dds</Button>
@@ -4400,9 +4400,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_VULTURE_STORIES</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Vulture.dds</Button>
@@ -4410,9 +4410,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TURKEY_MYTH</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Turkey.dds</Button>
@@ -4420,9 +4420,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TURKEY_STORY</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Turkey.dds</Button>
@@ -4430,9 +4430,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TURKEY_STORIES</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Turkey.dds</Button>
@@ -4440,9 +4440,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SNOW_LEOPARD_MYTH</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/SnowLeopard.dds</Button>
@@ -4450,9 +4450,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SNOW_LEOPARD_STORY</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/SnowLeopard.dds</Button>
@@ -4460,9 +4460,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SNOW_LEOPARD_STORIES</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/SnowLeopard.dds</Button>
@@ -4471,9 +4471,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SAIGA_MYTH</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Saiga.dds</Button>
@@ -4481,9 +4481,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SAIGA_STORY</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Saiga.dds</Button>
@@ -4491,9 +4491,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SAIGA_STORIES</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Saiga.dds</Button>
@@ -4501,9 +4501,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MUSKOX_MYTH</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Muskox.dds</Button>
@@ -4511,9 +4511,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MUSKOX_STORY</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Muskox.dds</Button>
@@ -4521,9 +4521,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MUSKOX_STORIES</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Muskox.dds</Button>
@@ -4531,9 +4531,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RACCOON_MYTH</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Raccoon.dds</Button>
@@ -4541,9 +4541,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RACCOON_STORY</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Raccoon.dds</Button>
@@ -4551,9 +4551,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RACCOON_STORIES</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Raccoon.dds</Button>
@@ -4562,9 +4562,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DUCK_MYTH</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Duck.dds</Button>
@@ -4572,9 +4572,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DUCK_STORY</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Duck.dds</Button>
@@ -4582,9 +4582,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DUCK_STORIES</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Duck.dds</Button>
@@ -4592,9 +4592,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PHEASANT_MYTH</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Pheasant.dds</Button>
@@ -4602,9 +4602,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PHEASANT_STORY</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Pheasant.dds</Button>
@@ -4612,9 +4612,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PHEASANT_STORIES</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Pheasant.dds</Button>
@@ -4622,9 +4622,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HORNED_OWL_MYTH</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Hornedowl.dds</Button>
@@ -4632,9 +4632,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HORNED_OWL_STORY</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Hornedowl.dds</Button>
@@ -4642,9 +4642,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HORNED_OWL_STORIES</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Units/Hornedowl.dds</Button>
@@ -4652,9 +4652,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_EMPEROR_PENGUIN_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Penguin_b.dds</Button>
@@ -4663,9 +4663,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_EMPEROR_PENGUIN_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Penguin_b.dds</Button>
@@ -4674,9 +4674,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_EMPEROR_PENGUIN_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Penguin_b.dds</Button>
@@ -4685,9 +4685,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ROCKHOPPER_PENGUIN_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Rockhopper.dds</Button>
@@ -4696,9 +4696,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ROCKHOPPER_PENGUIN_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Rockhopper.dds</Button>
@@ -4707,9 +4707,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ROCKHOPPER_PENGUIN_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Rockhopper.dds</Button>
@@ -4718,9 +4718,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SEALION_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/sealion.dds</Button>
@@ -4729,9 +4729,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SEALION_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/sealion.dds</Button>
@@ -4740,9 +4740,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SEALION_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/sealion.dds</Button>
@@ -4751,9 +4751,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WALRUS_MYTH</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/totem_walrus.dds</Button>
@@ -4761,9 +4761,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WALRUS_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/walrus.dds</Button>
@@ -4772,9 +4772,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WALRUS_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/walrus.dds</Button>
@@ -4783,9 +4783,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GREATWHITE_SHARK_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Greatwhite.dds</Button>
@@ -4794,9 +4794,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GREATWHITE_SHARK_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Greatwhite.dds</Button>
@@ -4805,9 +4805,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GREATWHITE_SHARK_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Greatwhite.dds</Button>
@@ -4816,9 +4816,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HAMMERHEAD_SHARK_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Hammerhead.dds</Button>
@@ -4827,9 +4827,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HAMMERHEAD_SHARK_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Hammerhead.dds</Button>
@@ -4838,9 +4838,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HAMMERHEAD_SHARK_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Hammerhead.dds</Button>
@@ -4849,9 +4849,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_REEF_SHARK_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Shark.dds</Button>
@@ -4860,9 +4860,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_REEF_SHARK_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Shark.dds</Button>
@@ -4871,9 +4871,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_REEF_SHARK_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Shark.dds</Button>
@@ -4882,9 +4882,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SHARK_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_shark.dds</Button>
@@ -4892,9 +4892,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SHARK_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_shark.dds</Button>
@@ -4902,9 +4902,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WHALESHARK_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Whaleshark.dds</Button>
@@ -4913,9 +4913,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WHALESHARK_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Whaleshark.dds</Button>
@@ -4924,9 +4924,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WHALESHARK_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Whaleshark.dds</Button>
@@ -4935,9 +4935,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MINKIE_WHALE_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Whale.dds</Button>
@@ -4946,9 +4946,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MINKIE_WHALE_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Whale.dds</Button>
@@ -4957,9 +4957,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MINKIE_WHALE_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Whale.dds</Button>
@@ -4968,9 +4968,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SEA_OTTER_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Seaotter.dds</Button>
@@ -4979,9 +4979,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SEA_OTTER_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Seaotter.dds</Button>
@@ -4990,9 +4990,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SEA_OTTER_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Seaotter.dds</Button>
@@ -5001,9 +5001,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LOON_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Loon.dds</Button>
@@ -5011,9 +5011,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LOON_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Loon.dds</Button>
@@ -5021,9 +5021,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LOON_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Loon.dds</Button>
@@ -5031,9 +5031,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TOUCAN_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Toucan.dds</Button>
@@ -5041,9 +5041,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TOUCAN_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Toucan.dds</Button>
@@ -5051,9 +5051,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TOUCAN_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Toucan.dds</Button>
@@ -5061,9 +5061,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FLAMINGO_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Flamingo.dds</Button>
@@ -5071,9 +5071,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FLAMINGO_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Flamingo.dds</Button>
@@ -5081,9 +5081,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FLAMINGO_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Flamingo.dds</Button>
@@ -5091,9 +5091,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_EAGLE_BALD_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Eagle.dds</Button>
@@ -5102,9 +5102,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_EAGLE_BALD_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Eagle.dds</Button>
@@ -5113,9 +5113,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_EAGLE_BALD_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Eagle.dds</Button>
@@ -5124,9 +5124,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CAPUCHIN_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Capuchin.dds</Button>
@@ -5135,9 +5135,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CAPUCHIN_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Capuchin.dds</Button>
@@ -5146,9 +5146,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CAPUCHIN_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Capuchin.dds</Button>
@@ -5157,9 +5157,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CAPYBARA_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Capybara.dds</Button>
@@ -5168,9 +5168,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CAPYBARA_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Capybara.dds</Button>
@@ -5179,9 +5179,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CAPYBARA_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Capybara.dds</Button>
@@ -5190,9 +5190,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CHEETAH_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Cheetah.dds</Button>
@@ -5201,9 +5201,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CHEETAH_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Cheetah.dds</Button>
@@ -5212,9 +5212,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CHEETAH_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Cheetah.dds</Button>
@@ -5223,9 +5223,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CHIMPANZEE_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Chimp.dds</Button>
@@ -5234,9 +5234,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CHIMPANZEE_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Chimp.dds</Button>
@@ -5245,9 +5245,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CHIMPANZEE_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Chimp.dds</Button>
@@ -5256,9 +5256,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DESERT_TORTOISE_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Tortoise.dds</Button>
@@ -5267,9 +5267,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DESERT_TORTOISE_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Tortoise.dds</Button>
@@ -5278,9 +5278,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DESERT_TORTOISE_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Tortoise.dds</Button>
@@ -5289,9 +5289,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PENGUIN_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Penguin_b.dds</Button>
@@ -5300,9 +5300,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PENGUIN_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Penguin_b.dds</Button>
@@ -5311,9 +5311,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PENGUIN_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Penguin_b.dds</Button>
@@ -5322,9 +5322,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ZEBRA_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Zebra.dds</Button>
@@ -5333,9 +5333,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ZEBRA_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Zebra.dds</Button>
@@ -5344,9 +5344,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ZEBRA_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Zebra.dds</Button>
@@ -5355,9 +5355,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_MAMMOTH_MYTH</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/PaleolithicMammothMyth.dds</Button>
@@ -5365,9 +5365,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_MAMMOTH_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/story_mammoth.dds</Button>
@@ -5375,9 +5375,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_MAMMOTH_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/stories_mammoth.dds</Button>
@@ -5385,9 +5385,9 @@ Button>Art/Interface/Buttons/Buildings/stories_Africanpenguin.dds</Button
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALEOLITHIC_MAMMOTH_REMAINS</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/herd_mammoth.dds</Button>

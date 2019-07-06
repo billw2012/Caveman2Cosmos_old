@@ -8,9 +8,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GAZELLE_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Gazelle.dds</Button>
@@ -20,9 +20,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GAZELLE_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Gazelle.dds</Button>
@@ -31,9 +31,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GAZELLE_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Gazelle.dds</Button>

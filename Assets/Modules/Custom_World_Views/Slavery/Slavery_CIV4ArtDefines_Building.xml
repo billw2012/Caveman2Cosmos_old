@@ -8,9 +8,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WV_SLAVERY</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/WorldViewSlavery.dds</Button>
@@ -18,9 +18,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SLAVERY_BAD_ZORO</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/slavery_bad_zoro.dds</Button>
@@ -28,9 +28,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SLAVE_COMPOUND_MILITARY</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/SlaveMilitary.dds</Button>
@@ -38,9 +38,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SLAVE_COMPOUND_ENTERTAINMENT</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/SlaveEntertain.dds</Button>
@@ -48,9 +48,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SLAVE_COMPOUND_ENTERTAINMENT</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/SlaveEntertain.dds</Button>
@@ -58,9 +58,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SLAVE_COMPOUND_FOOD</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/SlaveFood.dds</Button>
@@ -68,9 +68,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SLAVE_COMPOUND_PRODUCTION</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/SlaveProd.dds</Button>
@@ -78,9 +78,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SLAVE_COMPOUND_COMMERCE</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/SlaveCom.dds</Button>
@@ -88,9 +88,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SLAVE_COMPOUND_SANITATION</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/SlaveHealth.dds</Button>
@@ -98,9 +98,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SLAVE_COMPOUND_CRIME_PREVENTION</Type>
 			<LSystem />
-			<bAnimated />
-			<fScale />
-			<fInterfaceScale />
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF />
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/SlaveMilitary.dds</Button>

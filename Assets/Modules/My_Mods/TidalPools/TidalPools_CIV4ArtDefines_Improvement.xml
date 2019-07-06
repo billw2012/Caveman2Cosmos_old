@@ -9,7 +9,7 @@
 	<ImprovementArtInfos>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_TIDAL_POOLS</Type>
-			<bExtraAnimations/>
+			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Nets/Nets.nif</NIF>

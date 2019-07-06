@@ -12,7 +12,7 @@
 			<Help>TXT_KEY_MAPSWITCH_EXAMPLE_HELP</Help>
 			<Map>MAP_EXAMPLE2</Map>
 			<SwitchEvent>EndGameTurn</SwitchEvent>
-			<bManual />
+			<bManual>0</bManual>
 		</MapSwitchInfo>
 		<MapSwitchInfo>
 			<Type>MAPSWITCH_EXAMPLE2</Type>
@@ -20,7 +20,7 @@
 			<Help>TXT_KEY_MAPSWITCH_EXAMPLE_HELP</Help>
 			<Map>MAP_EXAMPLE</Map>
 			<SwitchEvent>EndGameTurn</SwitchEvent>
-			<bManual />
+			<bManual>0</bManual>
 		</MapSwitchInfo>
 	</MapSwitchInfos>
 </Civ4MapSwitchInfos>

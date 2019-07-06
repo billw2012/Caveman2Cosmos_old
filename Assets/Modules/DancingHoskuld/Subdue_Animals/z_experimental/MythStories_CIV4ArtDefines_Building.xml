@@ -8,9 +8,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ANTEATER_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Anteater.dds</Button>
@@ -19,9 +19,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ANTEATER_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Anteater.dds</Button>
@@ -30,9 +30,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ANTEATER_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Anteater.dds</Button>
@@ -41,9 +41,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BADGER_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Badger.dds</Button>
@@ -52,9 +52,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BADGER_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Badger.dds</Button>
@@ -63,9 +63,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BADGER_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Badger.dds</Button>
@@ -74,9 +74,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BALLPYTHON_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Ballpython.dds</Button>
@@ -85,9 +85,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BALLPYTHON_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Ballpython.dds</Button>
@@ -96,9 +96,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BALLPYTHON_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Ballpython.dds</Button>
@@ -107,9 +107,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BARBARYAPE_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Barbaryape.dds</Button>
@@ -118,9 +118,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BARBARYAPE_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Barbaryape.dds</Button>
@@ -129,9 +129,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BARBARYAPE_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Barbaryape.dds</Button>
@@ -140,9 +140,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BEAVER_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Beaver.dds</Button>
@@ -151,9 +151,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BEAVER_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Beaver.dds</Button>
@@ -162,9 +162,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BEAVER_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Beaver.dds</Button>
@@ -173,9 +173,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BENGALTIGER_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/BengalTiger.dds</Button>
@@ -184,9 +184,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BENGALTIGER_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/BengalTiger.dds</Button>
@@ -195,9 +195,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BENGALTIGER_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/BengalTiger.dds</Button>
@@ -206,9 +206,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BISON_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/button_bison.dds</Button>
@@ -217,9 +217,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BISON_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/button_bison.dds</Button>
@@ -228,9 +228,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BISON_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/button_bison.dds</Button>
@@ -239,9 +239,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BOAR_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/button_boar.dds</Button>
@@ -250,9 +250,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BOAR_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/button_boar.dds</Button>
@@ -261,9 +261,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WARTHOG_MYTH</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/warthog.dds</Button>
@@ -272,9 +272,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WARTHOG_STORY</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/warthog.dds</Button>
@@ -283,9 +283,9 @@
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WARTHOG_STORIES</Type>
 			<LSystem/>
-			<bAnimated/>
-			<fScale/>
-			<fInterfaceScale/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/warthog.dds</Button>
