@@ -813,7 +813,7 @@
       <itemPath>nbproject/private/launcher.properties</itemPath>
     </logicalFolder>
   </logicalFolder>
-  <sourceFolderFilter>^(nbproject|Debug|Release|Final_Release)$</sourceFolderFilter>
+  <sourceFolderFilter>^(nbproject|Debug|Release|Final_Release|.vs)$</sourceFolderFilter>
   <sourceRootList>
     <Elem>.</Elem>
   </sourceRootList>
