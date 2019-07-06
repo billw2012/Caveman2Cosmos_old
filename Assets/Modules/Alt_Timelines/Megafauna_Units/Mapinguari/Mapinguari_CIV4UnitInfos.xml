@@ -400,19 +400,13 @@
 			<bMilitaryProduction>1</bMilitaryProduction>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryTrade>1</bMilitaryTrade>
-			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_MAPINGUARI_GUARD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-			</Buildings>
 			<PrereqTech>TECH_SIEGE_WARFARE</PrereqTech>
 			<PrereqBuilding>BUILDING_MAPINGUARI_COMPOUND</PrereqBuilding>
 			<PrereqBonuses>
 				<BonusType>BONUS_WARE_BRONZE</BonusType>
 				<BonusType>BONUS_WARE_IRON</BonusType>
 			</PrereqBonuses>
-			<ForceObsoleteTech>TECH_RIFLING</ForceObsoleteTech>
+			<ForceObsoleteTech>TECH_GUNPOWDER</ForceObsoleteTech>
 			<iCost>480</iCost>
 			<iMoves>1</iMoves>
 			<iCombat>8</iCombat>

@@ -49495,12 +49495,18 @@
 				<And>
 					<Has>
 						<GOMType>GOM_BONUS</GOMType>
-						<ID>BONUS_FLASH_MEMORY_DEVICES</ID>
-					</Has>
-					<Has>
-						<GOMType>GOM_BONUS</GOMType>
 						<ID>BONUS_PERSONAL_ELECTRONICS</ID>
 					</Has>
+					<Or>
+						<Has>
+							<GOMType>GOM_BONUS</GOMType>
+							<ID>BONUS_FLASH_MEMORY_DEVICES</ID>
+						</Has>
+						<Has>
+							<GOMType>GOM_BONUS</GOMType>
+							<ID>BONUS_DISKETTES</ID>
+						</Has>
+					</Or>
 				</And>
 			</TrainCondition>
 			<PrereqBuilding>BUILDING_BLACK_HAT_HIDEOUT</PrereqBuilding>
