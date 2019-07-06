@@ -217,7 +217,7 @@ public:
 	void buildTerrainTradeString( CvWStringBuffer& szBuffer, TechTypes eTech, int iTerrainType, bool bList = false, bool bPlayerContext = false );
 	void buildRiverTradeString( CvWStringBuffer& szBuffer, TechTypes eTech, bool bList = false, bool bPlayerContext = false );
 	void buildSpecialBuildingString( CvWStringBuffer& szBuffer, TechTypes eTech, int iBuildingType, bool bList = false, bool bPlayerContext = false );
-	void buildYieldChangeString( CvWStringBuffer& szBuffer, TechTypes eTech, int iTieldType, bool bList = false, bool bPlayerContext = false );
+	void buildYieldChangeString( CvWStringBuffer& szBuffer, TechTypes eTech, int iYieldType, bool bList = false, bool bPlayerContext = false );
 /************************************************************************************************/
 /* Afforess	                  Start		 01/01/10                                               */
 /*                                                                                              */
