@@ -867,9 +867,5 @@
     <None Include="interfaceDirtyBits.inl">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="..\..\..\..\..\..\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="readme.txt" />
   </ItemGroup>
 </Project>

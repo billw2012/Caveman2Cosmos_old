@@ -51,13 +51,12 @@
     <ReferencePath>..\Sources;$(ReferencePath)</ReferencePath>
     <OutDir>Debug\</OutDir>
     <IntDir>Debug\</IntDir>
-    <NMakeBuildCommandLine>nmake /NOLOGO /K Debug</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>nmake /NOLOGO Debug_clean
-nmake /NOLOGO /K Debug</NMakeReBuildCommandLine>
+    <NMakeBuildCommandLine>nmake Debug</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>nmake Debug_clean
+nmake Debug</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>nmake Debug_clean</NMakeCleanCommandLine>
-    <NMakeOutput>CvGameCoreDLL.dll</NMakeOutput>
     <NMakePreprocessorDefinitions>WIN32;_DEBUG;_USRDLL;_MOD_SENTRY;_MOD_FRACTRADE;_MOD_GOVWORKERS;QC_MASTERY_VICTORY;LOG_AI;_MOD_GWARM;_MOD_SHAM_SPOILER;C2C_BUILD;MULTI_FEATURE_MOD;FP_PROFILE_ENABLE;USE_INTERNAL_PROFILER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-    <IncludePath>..\..\..\CvGameCoreDLL\Python24\include;..\..\..\CvGameCoreDLL\Boost-1.32.0\include;.\include;$(IncludePath)</IncludePath>
+    <NMakeIncludeSearchPath>include;C:\Program Files\Microsoft Platform SDK\Include;C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003\include</NMakeIncludeSearchPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'">
     <ReferencePath>..\Sources;$(ReferencePath)</ReferencePath>
@@ -67,9 +66,8 @@ nmake /NOLOGO /K Debug</NMakeReBuildCommandLine>
     <NMakeReBuildCommandLine>nmake Final_Release_clean
 nmake Final_Release</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>nmake Final_Release_clean</NMakeCleanCommandLine>
-    <NMakeOutput />
     <NMakePreprocessorDefinitions>WIN32;NDEBUG;_USRDLL;_MOD_SENTRY;_MOD_FRACTRADE;_MOD_GOVWORKERS;QC_MASTERY_VICTORY;LOG_AI;_MOD_GWARM;_MOD_SHAM_SPOILER;C2C_BUILD;MULTI_FEATURE_MOD;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-    <IncludePath>..\..\..\CvGameCoreDLL\Python24\include;..\..\..\CvGameCoreDLL\Boost-1.32.0\include;.\include;$(IncludePath)</IncludePath>
+    <NMakeIncludeSearchPath>include;C:\Program Files\Microsoft Platform SDK\Include;C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003\include</NMakeIncludeSearchPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ReferencePath>..\Sources;$(ReferencePath)</ReferencePath>
@@ -79,9 +77,8 @@ nmake Final_Release</NMakeReBuildCommandLine>
     <NMakeReBuildCommandLine>nmake Release_clean
 nmake Release</NMakeReBuildCommandLine>
     <NMakeCleanCommandLine>nmake Release_clean</NMakeCleanCommandLine>
-    <NMakeOutput />
     <NMakePreprocessorDefinitions>WIN32;NDEBUG;_USRDLL;_MOD_SENTRY;_MOD_FRACTRADE;_MOD_GOVWORKERS;QC_MASTERY_VICTORY;LOG_AI;_MOD_GWARM;_MOD_SHAM_SPOILER;C2C_BUILD;MULTI_FEATURE_MOD;FP_PROFILE_ENABLE;USE_INTERNAL_PROFILER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-    <IncludePath>..\..\..\CvGameCoreDLL\Python24\include;..\..\..\CvGameCoreDLL\Boost-1.32.0\include;.\include;$(IncludePath)</IncludePath>
+    <NMakeIncludeSearchPath>include;C:\Program Files\Microsoft Platform SDK\Include;C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003\include</NMakeIncludeSearchPath>
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="CyPlayerInterface3.cpp" />
