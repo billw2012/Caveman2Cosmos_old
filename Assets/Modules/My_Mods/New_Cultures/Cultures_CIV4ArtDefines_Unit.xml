@@ -6400,7 +6400,7 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/unique/Zimbabwe/Sheba_Elites/Militia_Swordsman.nif</NIF>
+			<NIF>Art/unique/Zimbabwe/Sheba_Elites/Militia Swordsman.nif</NIF>
 			<KFM>Art/Units/unique/inca/quechua/incanquechua.kfm</KFM>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
@@ -7761,7 +7761,7 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/unique/Dravidian/Kalaripayatt/Militia_Swordsman.nif</NIF>
+			<NIF>Art/unique/Dravidian/Kalaripayatt/Militia Swordsman.nif</NIF>
 			<KFM>Art/Units/warrior/warrior.kfm</KFM>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
