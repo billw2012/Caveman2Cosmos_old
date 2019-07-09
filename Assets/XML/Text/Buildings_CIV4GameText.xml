@@ -23401,6 +23401,10 @@ As the interrogation progresses, a handle and ratchet mechanism attached to the 
 		<Polish>Salina - zakład przemysłowy produkujący sól kamienną poprzez odparowanie wody z solanki pochodzącej z mórz lub słonych jezior ewentualnie podziemnych złóż lub źródeł mineralnych. Najczęściej spotykane saliny mają postać płytkich zbiorników zlokalizowanych w strefie przybrzeżnej mórz lub słonych jezior i oddzielonych od nich groblami.</Polish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SALT_EVAPORATION_WORKS_STRATEGY</Tag>
+		<English>Build an Evaporation Works to get access to Salt.</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SALT_FLAT_QUARRY</Tag>
 		<English>Salt Flat Quarry</English>
 		<French>

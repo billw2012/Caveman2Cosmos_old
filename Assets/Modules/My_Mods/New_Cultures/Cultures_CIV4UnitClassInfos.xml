@@ -1487,12 +1487,12 @@
 			<DefaultUnit>UNIT_AMAZON_RIDER</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_TUPAC_KATARI</Type>
-			<Description>TXT_KEY_UNIT_TUPAC_KATARI</Description>
+			<Type>UNITCLASS_KATARI</Type>
+			<Description>TXT_KEY_UNIT_KATARI</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultUnit>UNIT_TUPAC_KATARI</DefaultUnit>
+			<DefaultUnit>UNIT_KATARI</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_KATARI_INSURGENTS</Type>

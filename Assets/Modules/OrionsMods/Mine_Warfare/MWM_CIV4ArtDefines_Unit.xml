@@ -99,7 +99,7 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Naval_Mine_Sweeper/Naval_Mine_Sweeper.nif</NIF>
+			<NIF>Art/Units/Naval_Mine Sweeper/Naval Mine Sweeper.nif</NIF>
 			<KFM></KFM>
 			<SHADERNIF></SHADERNIF>
 			<ShadowDef>

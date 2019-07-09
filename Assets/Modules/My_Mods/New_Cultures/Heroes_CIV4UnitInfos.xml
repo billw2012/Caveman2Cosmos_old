@@ -24081,8 +24081,8 @@
 			</FreePromotions>
 		</UnitInfo>
 		<UnitInfo>
-			<Class>UNITCLASS_TUPAC_KATARI</Class>
-			<Type>UNIT_TUPAC_KATARI</Type>
+			<Class>UNITCLASS_KATARI</Class>
+			<Type>UNIT_KATARI</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_MOUNTED</SubCombatType>
