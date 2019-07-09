@@ -9049,7 +9049,7 @@ int CvUnit::getHealRateAsType(const CvPlot* pPlot, bool bHealCheck, UnitCombatTy
 
 					while (pUnitNode != NULL)
 					{
-						if (movedUnitIds.empty() || std::find(movedUnitIds.begin(), movedUnitIds.end(), pUnitNode->m_data.iID) == movedUnitIds.end())
+						if (movedUnitIds.empty() || movedUnitIds.find(pUnitNode->m_data.iID) == movedUnitIds.end())
 						{
 							pLoopUnit = ::getUnit(pUnitNode->m_data);
 
@@ -19462,7 +19462,7 @@ void CvUnit::setXY(int iX, int iY, bool bGroup, bool bUpdate, bool bShow, bool b
 
 				while (pUnitNode != NULL)
 				{
-					if (movedUnitIds.empty() || std::find(movedUnitIds.begin(), movedUnitIds.end(), pUnitNode->m_data.iID) == movedUnitIds.end())
+					if (movedUnitIds.empty() || movedUnitIds.find(pUnitNode->m_data.iID) == movedUnitIds.end())
 					{
 						pLoopUnit = ::getUnit(pUnitNode->m_data);
 

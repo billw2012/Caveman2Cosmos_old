@@ -8705,7 +8705,7 @@ void CvSelectionGroup::validateLocations(bool bFixup) const
 
 		while (pUnitNode != NULL)
 		{
-			if (movedUnitIds.empty() || std::find(movedUnitIds.begin(), movedUnitIds.end(), pUnitNode->m_data.iID) == movedUnitIds.end())
+			if (movedUnitIds.empty() || movedUnitIds.find(pUnitNode->m_data.iID) == movedUnitIds.end())
 			{
 				pLoopUnit = ::getUnit(pUnitNode->m_data);
 
