@@ -132,17 +132,18 @@ class CvTopCivs:
 
 		# Loop through all players
 		for iPlayerLoop in range(GC.getMAX_PC_PLAYERS()):
+			CyPlayer = GC.getPlayer(iPlayerLoop)
 
-			if GC.getPlayer(iPlayerLoop).isAlive():
+			if CyPlayer.isAlive():
 
 				if (szType == localText.getText("TXT_KEY_TOPCIVS_WEALTH", ())):
 
-					self.aiTopCivsValues.append([GC.getPlayer(iPlayerLoop).getGold(), iPlayerLoop])
-					print("Player %d Num Gold: %d" %(iPlayerLoop, GC.getPlayer(iPlayerLoop).getGold()))
+					iGold = 1000000 * CyPlayer.getGreaterGold() + CyPlayer.getGold()
+					self.aiTopCivsValues.append([iGold, iPlayerLoop])
 
 				if (szType == localText.getText("TXT_KEY_TOPCIVS_POWER", ())):
 
-					self.aiTopCivsValues.append([GC.getPlayer(iPlayerLoop).getPower(), iPlayerLoop])
+					self.aiTopCivsValues.append([CyPlayer.getPower(), iPlayerLoop])
 
 				if (szType == localText.getText("TXT_KEY_TOPCIVS_TECH", ())):
 
@@ -151,7 +152,7 @@ class CvTopCivs:
 
 					for iTechLoop in range(iNumTotalTechs):
 
-						bPlayerHasTech = GC.getTeam(GC.getPlayer(iPlayerLoop).getTeam()).isHasTech(iTechLoop)
+						bPlayerHasTech = GC.getTeam(CyPlayer.getTeam()).isHasTech(iTechLoop)
 
 						if (bPlayerHasTech):
 							iPlayerNumTechs = iPlayerNumTechs + 1
@@ -160,11 +161,11 @@ class CvTopCivs:
 
 				if (szType == localText.getText("TXT_KEY_TOPCIVS_CULTURE", ())):
 
-					self.aiTopCivsValues.append([GC.getPlayer(iPlayerLoop).countTotalCulture(), iPlayerLoop])
+					self.aiTopCivsValues.append([CyPlayer.countTotalCulture(), iPlayerLoop])
 
 				if (szType == localText.getText("TXT_KEY_TOPCIVS_SIZE", ())):
 
-					self.aiTopCivsValues.append([GC.getPlayer(iPlayerLoop).getTotalLand(), iPlayerLoop])
+					self.aiTopCivsValues.append([CyPlayer.getTotalLand(), iPlayerLoop])
 
 		# Lowest to Highest
 		self.aiTopCivsValues.sort()
