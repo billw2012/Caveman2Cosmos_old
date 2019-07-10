@@ -362,7 +362,7 @@
 			<SpecialBuildingType>NONE</SpecialBuildingType>
 			<Description>TXT_KEY_BUILDING_CAODAI_SHRINE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CAODAI_SHRINE_PEDIA</Civilopedia>
-			<Strategy>NONE</Strategy>
+			<Strategy>TXT_KEY_BUILDING_CAODAI_SHRINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CAODAI_SHRINE</ArtDefineTag>
 			<MovieDefineTag>NONE</MovieDefineTag>

@@ -10,8 +10,8 @@
 			<Type>BUILDING_BAHAI_CATHEDRAL</Type>
 			<SpecialBuildingType>SPECIALBUILDING_CATHEDRAL</SpecialBuildingType>
 			<Description>TXT_KEY_BUILDING_BAHAI_CATHEDRAL</Description>
-			<Civilopedia>TXT_KEY_BUILDING_CATHEDRAL_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_CATHEDRAL_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_BUILDING_BAHAI_CATHEDRAL_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BAHAI_CATHEDRAL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BAHAI_CATHEDRAL</ArtDefineTag>			
 			<ReligionType>RELIGION_BAHAI</ReligionType>			
@@ -91,8 +91,8 @@
 			<Type>BUILDING_BAHAI_MONASTERY</Type>
 			<SpecialBuildingType>SPECIALBUILDING_MONASTERY</SpecialBuildingType>
 			<Description>TXT_KEY_BUILDING_BAHAI_MONASTERY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_MONASTERY_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_MONASTERY_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_BUILDING_BAHAI_MONASTERY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BAHAI_MONASTERY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BAHAI_MONASTERY</ArtDefineTag>		
 			<ReligionType>RELIGION_BAHAI</ReligionType>			
@@ -229,8 +229,8 @@
 			<Type>BUILDING_BAHAI_TEMPLE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_TEMPLE</SpecialBuildingType>
 			<Description>TXT_KEY_BUILDING_BAHAI_TEMPLE</Description>
-			<Civilopedia>TXT_KEY_BUILDING_TEMPLE_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_TEMPLE_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_BUILDING_BAHAI_TEMPLE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BAHAI_TEMPLE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BAHAI_TEMPLE</ArtDefineTag>			
 			<ReligionType>RELIGION_BAHAI</ReligionType>			
