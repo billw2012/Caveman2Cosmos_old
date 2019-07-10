@@ -13,7 +13,7 @@
 		<fInterfaceScale>1.0</fInterfaceScale>
 		<NIF>Art/Empty.nif</NIF>
 		<KFM></KFM>
-		<Button>Modules/Alt_Timelines/Cyberpunk/Art/cyberpunkembassy.dds</Button>
+		<Button>art/cyberpunkembassy.dds</Button>
 		<FontButtonIndex>104</FontButtonIndex>
 	</BonusArtInfo>
 </BonusArtInfos>

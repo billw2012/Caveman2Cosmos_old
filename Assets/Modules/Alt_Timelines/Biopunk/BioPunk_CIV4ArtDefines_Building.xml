@@ -14,7 +14,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Biopunk/Art/biopunkembassy.dds</Button>
+			<Button>art/biopunkembassy.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PROTEIN_ARTIST</Type>
@@ -24,7 +24,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Biopunk/Art/proteinartist.dds</Button>
+			<Button>art/proteinartist.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DESIGNED_ANIMAL_SHOW</Type>
@@ -44,7 +44,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Biopunk/Art/animaldesigner.dds</Button>
+			<Button>art/animaldesigner.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MICROBIOLOGY_ARTIST</Type>
@@ -54,7 +54,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Biopunk/Art/microbiologyartist.dds</Button>
+			<Button>art/microbiologyartist.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DESIGNED_ANIMAL_BATTLE_ARENA</Type>
@@ -64,7 +64,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Biopunk/Art/animalbattle.dds</Button>
+			<Button>art/animalbattle.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PURE_ORGANIC_CITY</Type>
@@ -74,7 +74,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Biopunk/Art/pureorganiccity.dds</Button>
+			<Button>art/pureorganiccity.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BIOPUNK_LAB</Type>
@@ -84,7 +84,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Biopunk/Art/biopunklab.dds</Button>
+			<Button>art/biopunklab.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PHEROMONE_LAB</Type>
@@ -94,7 +94,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Biopunk/Art/pheromonelab.dds</Button>
+			<Button>art/pheromonelab.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SPECIES_REVIVAL_LAB</Type>
@@ -104,7 +104,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Biopunk/Art/revivallab.dds</Button>
+			<Button>art/revivallab.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WEAPONIZED_FLORA</Type>
@@ -114,7 +114,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Biopunk/Art/weaponizedflora.dds</Button>
+			<Button>art/weaponizedflora.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DESIGNED_ANIMAL_ZOO</Type>
@@ -124,7 +124,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Biopunk/Art/designedanimalzoo.dds</Button>
+			<Button>art/designedanimalzoo.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CHIMERA_SURGERY_CLINIC</Type>
@@ -134,7 +134,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Biopunk/Art/chimerasurgeryclinic.dds</Button>
+			<Button>art/chimerasurgeryclinic.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ORGANIC_COMPUTER_LAB</Type>
@@ -144,7 +144,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Biopunk/Art/organiccomputerlab.dds</Button>
+			<Button>art/organiccomputerlab.dds</Button>
 		</BuildingArtInfo>
 	</BuildingArtInfos>
 </Civ4ArtDefines>

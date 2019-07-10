@@ -12,7 +12,7 @@
 			<bAnimated>0</bAnimated>
 			<fScale>0.5</fScale>
 			<fInterfaceScale>0.5</fInterfaceScale>
-			<NIF>Modules/Platyping/GreatZimbabwe/Art/great_zimbabwe.nif</NIF>
+			<NIF>art/great_zimbabwe.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Great_Wonders/great_zimbabwe.dds</Button>
 		</BuildingArtInfo>

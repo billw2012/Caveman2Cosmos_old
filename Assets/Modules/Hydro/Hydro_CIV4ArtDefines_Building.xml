@@ -14,7 +14,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Hydro/Art/scarecrows.dds</Button>
+			<Button>art/scarecrows.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RAT_CATCHER</Type>
@@ -24,7 +24,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Hydro/Art/ratcatcher.dds</Button>
+			<Button>art/ratcatcher.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CRYPTOLOGY_CENTER</Type>
@@ -34,7 +34,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Hydro/Art/cryptologycenter.dds</Button>
+			<Button>art/cryptologycenter.dds</Button>
 		</BuildingArtInfo>			
 	</BuildingArtInfos>
 </Civ4ArtDefines>

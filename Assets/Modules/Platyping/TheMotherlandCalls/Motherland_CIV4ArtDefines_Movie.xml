@@ -3,7 +3,7 @@
 	<MovieArtInfos>
 		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_THE_MOTHERLAND_CALLS</Type>
-			<Path>Modules/Platyping/TheMotherlandCalls/Art/The Motherland Calls.bik</Path>
+			<Path>art/The Motherland Calls.bik</Path>
 		</MovieArtInfo>
 	</MovieArtInfos>
 </Civ4ArtDefines>

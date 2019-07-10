@@ -12,7 +12,7 @@
 			<bAnimated>0</bAnimated>
 			<fScale>0.3</fScale>
 			<fInterfaceScale>0.5</fInterfaceScale>
-			<NIF>Modules/Platyping/Reichstag/Art/Reichstag.nif</NIF>
+			<NIF>art/Reichstag.nif</NIF>
 			<KFM />
 			<Button>Art/Interface/Buttons/Great_Wonders/reichstag.dds</Button>
 		</BuildingArtInfo>

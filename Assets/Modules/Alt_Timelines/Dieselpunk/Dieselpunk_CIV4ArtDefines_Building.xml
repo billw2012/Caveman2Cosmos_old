@@ -14,7 +14,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Dieselpunk/Art/dieselpunkembassy.dds</Button>
+			<Button>art/dieselpunkembassy.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_AERODROME</Type>
@@ -24,7 +24,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Dieselpunk/Art/aerodrome.dds</Button>
+			<Button>art/aerodrome.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GRAND_AERODROME</Type>
@@ -34,7 +34,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Dieselpunk/Art/grandaerodome.dds</Button>
+			<Button>art/grandaerodome.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ZUSE_COMPUTER</Type>
@@ -44,7 +44,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Dieselpunk/Art/zusecomputer.dds</Button>
+			<Button>art/zusecomputer.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DIRIGIBLE_TERMINAL</Type>
@@ -54,7 +54,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Dieselpunk/Art/dirigibleterminal.dds</Button>
+			<Button>art/dirigibleterminal.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FARNSWORTH_LAB</Type>
@@ -64,7 +64,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Dieselpunk/Art/farnsworthlab.dds</Button>
+			<Button>art/farnsworthlab.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_THEREMIN_FACTORY</Type>
@@ -74,7 +74,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Dieselpunk/Art/thereminfactory.dds</Button>
+			<Button>art/thereminfactory.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RADIOPLEX</Type>
@@ -84,7 +84,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Dieselpunk/Art/radioplex.dds</Button>
+			<Button>art/radioplex.dds</Button>
 		</BuildingArtInfo>
 	</BuildingArtInfos>
 </Civ4ArtDefines>

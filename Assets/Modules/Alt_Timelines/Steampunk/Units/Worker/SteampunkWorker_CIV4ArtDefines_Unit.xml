@@ -13,7 +13,7 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Modules/Alt_Timelines/Steampunk/Units/Worker/Art/steampunkrobot.nif</NIF>
+			<NIF>art/steampunkrobot.nif</NIF>
 			<KFM>Art/Units/Great_Spy_Modern/Great_Spy_Modern.kfm</KFM>
 			<SHADERNIF />
 			<ShadowDef>

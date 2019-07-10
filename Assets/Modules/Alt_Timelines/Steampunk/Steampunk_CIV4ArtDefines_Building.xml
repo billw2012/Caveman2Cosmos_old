@@ -14,7 +14,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Steampunk/Art/steampunkembassy.dds</Button>
+			<Button>art/steampunkembassy.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_COMPUTING_ENGINE</Type>
@@ -24,7 +24,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Steampunk/Art/computing_engine_button.dds</Button>
+			<Button>art/computing_engine_button.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TR_WORKSHOP</Type>
@@ -34,7 +34,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Steampunk/Art/trworkshop.dds</Button>
+			<Button>art/trworkshop.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PANOPTICON_PRISON</Type>
@@ -44,7 +44,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Steampunk/Art/panopticonprison.dds</Button>
+			<Button>art/panopticonprison.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MADSCIENTIST_CASTLE</Type>
@@ -54,7 +54,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Steampunk/Art/madscientistcastle.dds</Button>
+			<Button>art/madscientistcastle.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_COAL_DYNAMO</Type>
@@ -64,7 +64,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Steampunk/Art/coaldynamo.dds</Button>
+			<Button>art/coaldynamo.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WOOD_DYNAMO</Type>
@@ -74,7 +74,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Steampunk/Art/wooddynamo.dds</Button>
+			<Button>art/wooddynamo.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PEAT_DYNAMO</Type>
@@ -84,7 +84,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Steampunk/Art/peatdynamo.dds</Button>
+			<Button>art/peatdynamo.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NEMO_ACADEMY</Type>

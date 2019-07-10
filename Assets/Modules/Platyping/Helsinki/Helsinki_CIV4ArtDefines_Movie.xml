@@ -3,7 +3,7 @@
 	<MovieArtInfos>
 		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_HELSINKI</Type>
-			<Path>Modules/Platyping/Helsinki/Art/Helsinki Cathedral.bik</Path>
+			<Path>art/Helsinki Cathedral.bik</Path>
 		</MovieArtInfo>
 	</MovieArtInfos>
 </Civ4ArtDefines>

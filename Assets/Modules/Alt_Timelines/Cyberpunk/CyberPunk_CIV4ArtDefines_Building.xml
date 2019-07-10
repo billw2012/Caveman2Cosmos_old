@@ -14,7 +14,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Cyberpunk/Art/cyberpunkembassy.dds</Button>
+			<Button>art/cyberpunkembassy.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DREAM_SIMULATION_CENTER</Type>
@@ -24,7 +24,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Cyberpunk/Art/dreamsimulationcenter.dds</Button>
+			<Button>art/dreamsimulationcenter.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DREAM_ARTIST</Type>
@@ -34,7 +34,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Cyberpunk/Art/dreamartist.dds</Button>
+			<Button>art/dreamartist.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CYBER_INSECT_LAB</Type>
@@ -44,7 +44,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Cyberpunk/Art/cyberinsectlab.dds</Button>
+			<Button>art/cyberinsectlab.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_INSECT_MANIPULATION_LAB</Type>
@@ -54,7 +54,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Cyberpunk/Art/insectmanipulationlab.dds</Button>
+			<Button>art/insectmanipulationlab.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_DREAM_PROPAGANDA</Type>
@@ -64,7 +64,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Cyberpunk/Art/dreampropaganda.dds</Button>
+			<Button>art/dreampropaganda.dds</Button>
 		</BuildingArtInfo>
 	</BuildingArtInfos>
 </Civ4ArtDefines>

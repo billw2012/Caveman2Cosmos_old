@@ -3,7 +3,7 @@
 	<MovieArtInfos>
 		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_REICHSTAG</Type>
-			<Path>Modules/Platyping/Reichstag/Art/Reichstag.bik</Path>
+			<Path>art/Reichstag.bik</Path>
 		</MovieArtInfo>
 	</MovieArtInfos>
 </Civ4ArtDefines>

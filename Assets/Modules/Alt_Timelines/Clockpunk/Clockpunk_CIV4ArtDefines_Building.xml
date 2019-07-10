@@ -14,7 +14,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Clockpunk/Art/clockpunkembassy.dds</Button>
+			<Button>art/clockpunkembassy.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_AUTOMATION_CLOCK</Type>
@@ -24,7 +24,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Clockpunk/Art/automatonclock.dds</Button>
+			<Button>art/automatonclock.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ORCHESTRION_THEATER</Type>
@@ -34,7 +34,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Clockpunk/Art/orchestriontheater.dds</Button>
+			<Button>art/orchestriontheater.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_STEPRECKONER_MANUFACTORY</Type>
@@ -44,7 +44,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Clockpunk/Art/stepreckonermanufactory.dds</Button>
+			<Button>art/stepreckonermanufactory.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CLOCKWORK_WORKSHOP</Type>
@@ -54,7 +54,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Clockpunk/Art/clockworkworkshop.dds</Button>
+			<Button>art/clockworkworkshop.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CLOCKPUNK_AIRPORT</Type>
@@ -64,7 +64,7 @@
 			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/Empty.nif</NIF>
 			<KFM />
-			<Button>Modules/Alt_Timelines/Clockpunk/Art/clockpunkairport.dds</Button>
+			<Button>art/clockpunkairport.dds</Button>
 		</BuildingArtInfo>
 	</BuildingArtInfos>
 </Civ4ArtDefines>

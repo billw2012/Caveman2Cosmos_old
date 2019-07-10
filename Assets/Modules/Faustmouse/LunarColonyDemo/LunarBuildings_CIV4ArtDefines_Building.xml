@@ -14,7 +14,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\lunarbase.dds</Button>
+			<Button>art\lunarbase.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_WATER_EXTRACTION_FACILITY</Type>
@@ -24,7 +24,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\lunarwaterextraction.dds</Button>
+			<Button>art\lunarwaterextraction.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_ROCK_QUARRY</Type>
@@ -34,7 +34,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\rockquarry.dds</Button>
+			<Button>art\rockquarry.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_CONCRETE_MILL</Type>
@@ -44,7 +44,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\lunarcementmill.dds</Button>
+			<Button>art\lunarcementmill.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_GLASS_FACTORY</Type>
@@ -54,7 +54,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\lunarcementmill.dds</Button>
+			<Button>art\lunarcementmill.dds</Button>
 		  </BuildingArtInfo>
 		  <BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_HYDROPONICS_FARM</Type>
@@ -64,7 +64,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\lunargreenhouse.dds</Button>
+			<Button>art\lunargreenhouse.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_ALGAE_FARM</Type>
@@ -74,7 +74,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\lunaralgaefarm.dds</Button>
+			<Button>art\lunaralgaefarm.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_ALGAE_LAB</Type>
@@ -84,7 +84,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\lunaralgaelab.dds</Button>
+			<Button>art\lunaralgaelab.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_LAUNCH_SITE</Type>
@@ -94,7 +94,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_ALUMINIUM_EXTRACTION_FACILITY</Type>
@@ -104,7 +104,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\extraction2.dds</Button>
+			<Button>art\extraction2.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_IRON_EXTRACTION_FACILITY</Type>
@@ -114,7 +114,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\extraction3.dds</Button>
+			<Button>art\extraction3.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_TITANIUM_EXTRACTION_FACILITY</Type>
@@ -124,7 +124,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_MANGANESE_EXTRACTION_FACILITY</Type>
@@ -134,7 +134,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_MAGNESIUM_EXTRACTION_FACILITY</Type>
@@ -144,7 +144,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		  </BuildingArtInfo>
 		  <BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_ORGANIC_POLYMERE_FACTORY</Type>
@@ -154,7 +154,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_RESEARCH_BASE</Type>
@@ -164,7 +164,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_GREENHOUSE_COMPLEX</Type>
@@ -174,7 +174,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_MANUFACTURING_PLANT</Type>
@@ -184,7 +184,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_SPACE_PORT</Type>
@@ -194,7 +194,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_HOTEL</Type>
@@ -204,7 +204,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_ASSEMBLY_PLANT</Type>
@@ -214,7 +214,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		  </BuildingArtInfo>
 		  <BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_SILICON_EXTRACTION_FACILITY</Type>
@@ -224,7 +224,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_SHIPYARD</Type>
@@ -234,7 +234,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_DROID_FACTORY</Type>
@@ -244,7 +244,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_SOLAR_ARRAY</Type>
@@ -254,7 +254,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\lunarsolarworld.dds</Button>
+			<Button>art\lunarsolarworld.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_PARCOLOGY</Type>
@@ -264,7 +264,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\lunarparcology.dds</Button>
+			<Button>art\lunarparcology.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_KREEP_MINE</Type>
@@ -274,7 +274,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_HE3_EXTRACTION_FACILITY</Type>
@@ -284,7 +284,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_OBSERVATORY</Type>
@@ -294,7 +294,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\lunarobservatory.dds</Button>
+			<Button>art\lunarobservatory.dds</Button>
 		  </BuildingArtInfo>
 		  <BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_CHEMICAL_STORAGE</Type>
@@ -304,7 +304,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		  <BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_ORGANIC_MATERIAL_STORAGE</Type>
@@ -314,7 +314,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_FERTILIZER_STORAGE</Type>
@@ -324,7 +324,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_SOLAR_PANELS</Type>
@@ -334,7 +334,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\lunarsolarpanel.dds</Button>
+			<Button>art\lunarsolarpanel.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_BUG_FARM</Type>
@@ -344,7 +344,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_FISH_FARM</Type>
@@ -354,7 +354,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_ROCKET_FUEL_REFIENERY</Type>
@@ -364,7 +364,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LUNAR_BIOMASS_POWERPLANT</Type>
@@ -374,7 +374,7 @@
 			<fInterfaceScale>0</fInterfaceScale>	
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
-			<Button>Modules\Faustmouse\LunarColonyDemo\art\placeholder.dds</Button>
+			<Button>art\placeholder.dds</Button>
 		</BuildingArtInfo>
 	</BuildingArtInfos>
 </Civ4ArtDefines>
