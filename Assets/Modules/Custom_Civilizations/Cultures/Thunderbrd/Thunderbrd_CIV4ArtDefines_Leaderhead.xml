@@ -8,8 +8,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_THUNDERBRD</Type>
-			<Button>Modules/Custom_Civilizations/Cultures/Thunderbrd/Thunderbrd_b.dds</Button>
-			<NIF>Modules/Custom_Civilizations/Cultures/Thunderbrd/Thunderbrd.dds</NIF>
+			<Button>art/Custom_Civilizations/Cultures/Thunderbrd/Thunderbrd_b.dds</Button>
+			<NIF>art/Custom_Civilizations/Cultures/Thunderbrd/Thunderbrd.dds</NIF>
 			<KFM/>
 			<NoShaderNIF/>
 			<BackgroundKFM/>

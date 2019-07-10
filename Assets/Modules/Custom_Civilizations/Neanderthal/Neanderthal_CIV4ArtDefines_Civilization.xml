@@ -9,8 +9,8 @@
 	<CivilizationArtInfos>
 		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_NEANDERTHAL_EMPIRE</Type>
-			<Button>Modules/Custom_Civilizations/Neanderthal/Flags/Neanderthal_Empire.dds</Button>
-			<Path>Modules/Custom_Civilizations/Neanderthal/Flags/FlagDecal_Neanderthal_Empire.dds</Path>
+			<Button>art/Custom_Civilizations/Neanderthal/Flags/Neanderthal_Empire.dds</Button>
+			<Path>art/Custom_Civilizations/Neanderthal/Flags/FlagDecal_Neanderthal_Empire.dds</Path>
 			<bWhiteFlag>1</bWhiteFlag>
 		</CivilizationArtInfo>
 	</CivilizationArtInfos>

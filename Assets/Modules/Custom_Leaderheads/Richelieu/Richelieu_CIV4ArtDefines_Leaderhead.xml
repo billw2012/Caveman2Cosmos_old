@@ -6,8 +6,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_RICHELIEU</Type>
-			<Button>Modules/Custom_Leaderheads/Richelieu/RichelieuSmall.dds</Button>
-			<NIF>Modules/Custom_Leaderheads/Richelieu/Richelieu.dds</NIF>
+			<Button>art/Custom_Leaderheads/Richelieu/RichelieuSmall.dds</Button>
+			<NIF>art/Custom_Leaderheads/Richelieu/Richelieu.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>

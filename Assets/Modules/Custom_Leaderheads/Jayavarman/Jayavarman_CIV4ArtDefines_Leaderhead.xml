@@ -6,8 +6,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_JAYAVARMAN</Type>
-			<Button>Modules/Custom_Leaderheads/Jayavarman/JayavarmanSmall.dds</Button>
-			<NIF>Modules/Custom_Leaderheads/Jayavarman/Jayavarman.dds</NIF>
+			<Button>art/Custom_Leaderheads/Jayavarman/JayavarmanSmall.dds</Button>
+			<NIF>art/Custom_Leaderheads/Jayavarman/Jayavarman.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>

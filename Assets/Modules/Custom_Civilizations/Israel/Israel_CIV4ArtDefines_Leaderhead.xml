@@ -8,24 +8,24 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_SOLOMON</Type>
-			<Button>Modules/Custom_Civilizations/Israel/leaders/Solomon_small.dds</Button>
-			<NIF>Modules/Custom_Civilizations/Israel/leaders/Solomon.dds</NIF>
+			<Button>art/Custom_Civilizations/Israel/leaders/Solomon_small.dds</Button>
+			<NIF>art/Custom_Civilizations/Israel/leaders/Solomon.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_BEN_GURION</Type>
-			<Button>Modules/Custom_Civilizations/Israel/leaders/Ben_Gurion_small.dds</Button>
-			<NIF>Modules/Custom_Civilizations/Israel/leaders/Ben_Gurion.dds</NIF>
+			<Button>art/Custom_Civilizations/Israel/leaders/Ben_Gurion_small.dds</Button>
+			<NIF>art/Custom_Civilizations/Israel/leaders/Ben_Gurion.dds</NIF>
 			<KFM />
 			<NoShaderNIF />
 			<BackgroundKFM />
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_DAVID</Type>
-			<Button>Modules/Custom_Civilizations/Israel/leaders/David_small.dds</Button>
-			<NIF>Modules/Custom_Civilizations/Israel/leaders/David.dds</NIF>
+			<Button>art/Custom_Civilizations/Israel/leaders/David_small.dds</Button>
+			<NIF>art/Custom_Civilizations/Israel/leaders/David.dds</NIF>
 			<KFM />
 			<NoShaderNIF />
 			<BackgroundKFM />

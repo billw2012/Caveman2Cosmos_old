@@ -6,8 +6,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_SA</Type>
-			<Button>Modules/Custom_Leaderheads/Sa/SaSmall.dds</Button>
-			<NIF>Modules/Custom_Leaderheads/Sa/Sa.dds</NIF>
+			<Button>art/Custom_Leaderheads/Sa/SaSmall.dds</Button>
+			<NIF>art/Custom_Leaderheads/Sa/Sa.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>

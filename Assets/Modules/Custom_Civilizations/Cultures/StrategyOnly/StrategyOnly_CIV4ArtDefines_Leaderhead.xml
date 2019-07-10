@@ -8,8 +8,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_STRATEGYONLY</Type>
-			<Button>Modules/Custom_Civilizations/Cultures/StrategyOnly/Ezio_b.dds</Button>
-			<NIF>Modules/Custom_Civilizations/Cultures/StrategyOnly/Ezio.dds</NIF>
+			<Button>art/Custom_Civilizations/Cultures/StrategyOnly/Ezio_b.dds</Button>
+			<NIF>art/Custom_Civilizations/Cultures/StrategyOnly/Ezio.dds</NIF>
 			<KFM/>
 			<NoShaderNIF/>
 			<BackgroundKFM/>

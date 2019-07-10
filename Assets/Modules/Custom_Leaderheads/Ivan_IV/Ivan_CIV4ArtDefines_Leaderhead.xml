@@ -6,8 +6,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_IVAN</Type>
-			<Button>Modules/Custom_Leaderheads/Ivan_IV/IvanSmall.dds</Button>
-			<NIF>Modules/Custom_Leaderheads/Ivan_IV/Ivan.dds</NIF>
+			<Button>art/Custom_Leaderheads/Ivan_IV/IvanSmall.dds</Button>
+			<NIF>art/Custom_Leaderheads/Ivan_IV/Ivan.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>

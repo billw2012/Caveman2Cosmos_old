@@ -6,8 +6,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_ITZCOATL</Type>
-			<Button>Modules/Custom_Leaderheads/Itzcoatl/ItzcoatlSmall.dds</Button>
-			<NIF>Modules/Custom_Leaderheads/Itzcoatl/Itzcoatl.dds</NIF>
+			<Button>art/Custom_Leaderheads/Itzcoatl/ItzcoatlSmall.dds</Button>
+			<NIF>art/Custom_Leaderheads/Itzcoatl/Itzcoatl.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>

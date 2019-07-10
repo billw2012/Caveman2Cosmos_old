@@ -8,8 +8,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_DIDO</Type>
-			<Button>Modules\Custom_Leaderheads\Dido\btn_dido.dds</Button>
-			<NIF>Modules\Custom_Leaderheads\Dido\Dido.dds</NIF>
+			<Button>art\Custom_Leaderheads\Dido\btn_dido.dds</Button>
+			<NIF>art\Custom_Leaderheads\Dido\Dido.dds</NIF>
 			<KFM />
 			<NoShaderNIF />
 			<BackgroundKFM />

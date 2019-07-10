@@ -8,8 +8,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_TAIZONG</Type>
-			<Button>Modules/Custom_Leaderheads/Taizong/TaizongSmall.dds</Button>
-			<NIF>Modules/Custom_Leaderheads/Taizong/Taizong.dds</NIF>
+			<Button>art/Custom_Leaderheads/Taizong/TaizongSmall.dds</Button>
+			<NIF>art/Custom_Leaderheads/Taizong/Taizong.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>

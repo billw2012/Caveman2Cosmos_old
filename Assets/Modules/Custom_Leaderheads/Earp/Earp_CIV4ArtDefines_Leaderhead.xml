@@ -8,8 +8,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_EARP</Type>
-			<Button>Modules/Custom_Leaderheads/Earp/Earp_btn.dds</Button>
-			<NIF>Modules/Custom_Leaderheads/Earp/Earp.dds</NIF>
+			<Button>art/Custom_Leaderheads/Earp/Earp_btn.dds</Button>
+			<NIF>art/Custom_Leaderheads/Earp/Earp.dds</NIF>
 			<KFM />
 			<NoShaderNIF />
 			<BackgroundKFM />

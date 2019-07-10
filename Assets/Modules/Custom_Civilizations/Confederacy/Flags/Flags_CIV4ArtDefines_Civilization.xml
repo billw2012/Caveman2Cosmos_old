@@ -6,8 +6,8 @@
 	<CivilizationArtInfos>
 		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_AMERICAN_CONFEDERACY</Type>
-			<Button>Modules/Custom_Civilizations/Confederacy/Flags/battle_flag_b.dds</Button>
-			<Path>Modules/Custom_Civilizations/Confederacy/Flags/battle_flag.dds</Path>
+			<Button>art/Custom_Civilizations/Confederacy/Flags/battle_flag_b.dds</Button>
+			<Path>art/Custom_Civilizations/Confederacy/Flags/battle_flag.dds</Path>
 			<bWhiteFlag>1</bWhiteFlag>
 		</CivilizationArtInfo>
 	</CivilizationArtInfos>

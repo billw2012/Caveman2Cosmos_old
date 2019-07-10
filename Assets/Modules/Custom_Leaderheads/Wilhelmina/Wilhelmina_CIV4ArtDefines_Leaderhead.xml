@@ -6,8 +6,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_WILHELMINA</Type>
-			<Button>Modules/Custom_LeaderHeads/Wilhelmina/WilhelminaSmall.dds</Button>
-			<NIF>Modules/Custom_LeaderHeads/Wilhelmina/Wilhelmina.dds</NIF>
+			<Button>art/Custom_LeaderHeads/Wilhelmina/WilhelminaSmall.dds</Button>
+			<NIF>art/Custom_LeaderHeads/Wilhelmina/Wilhelmina.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>

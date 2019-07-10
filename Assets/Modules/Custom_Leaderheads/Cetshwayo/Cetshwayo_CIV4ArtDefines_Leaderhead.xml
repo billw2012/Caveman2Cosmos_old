@@ -6,8 +6,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_CETSHWAYO</Type>
-			<Button>Modules/Custom_Leaderheads/Cetshwayo/CetshwayoSmall.dds</Button>
-			<NIF>Modules/Custom_Leaderheads/Cetshwayo/Cetshwayo.dds</NIF>
+			<Button>art/Custom_Leaderheads/Cetshwayo/CetshwayoSmall.dds</Button>
+			<NIF>art/Custom_Leaderheads/Cetshwayo/Cetshwayo.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>

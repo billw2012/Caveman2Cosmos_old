@@ -6,8 +6,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_HEKE</Type>
-			<Button>Modules/Custom_Civilizations/Maori/Heke/Heke.dds</Button>
-			<NIF>Modules/Custom_Civilizations/Maori/Heke/Heke_LH.dds</NIF>
+			<Button>art/Custom_Civilizations/Maori/Heke/Heke.dds</Button>
+			<NIF>art/Custom_Civilizations/Maori/Heke/Heke_LH.dds</NIF>
 			<KFM />
 			<NoShaderNIF />
 			<BackgroundKFM />

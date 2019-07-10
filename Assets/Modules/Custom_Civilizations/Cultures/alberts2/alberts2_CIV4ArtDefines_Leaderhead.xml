@@ -8,8 +8,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_ALBERTS2</Type>
-			<Button>Modules/Custom_Civilizations/Cultures/alberts2/alberts2_b.dds</Button>
-			<NIF>Modules/Custom_Civilizations/Cultures/alberts2/alberts2.dds</NIF>
+			<Button>art/Custom_Civilizations/Cultures/alberts2/alberts2_b.dds</Button>
+			<NIF>art/Custom_Civilizations/Cultures/alberts2/alberts2.dds</NIF>
 			<KFM/>
 			<NoShaderNIF/>
 			<BackgroundKFM/>

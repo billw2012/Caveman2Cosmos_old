@@ -6,8 +6,8 @@
 	<CivilizationArtInfos>
 		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_BRAZIL</Type>
-			<Button>Modules/Custom_Civilizations/Brazil/Brazil.dds</Button>
-			<Path>Modules/Custom_Civilizations/Brazil/FlagDECAL_Brazil.dds</Path>
+			<Button>art/Custom_Civilizations/Brazil/Brazil.dds</Button>
+			<Path>art/Custom_Civilizations/Brazil/FlagDECAL_Brazil.dds</Path>
 			<bWhiteFlag>1</bWhiteFlag>
 		</CivilizationArtInfo>
 	</CivilizationArtInfos>

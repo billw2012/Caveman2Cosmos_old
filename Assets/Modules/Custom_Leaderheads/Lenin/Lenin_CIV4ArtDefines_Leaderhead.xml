@@ -6,8 +6,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_LENIN</Type>
-			<Button>Modules/Custom_Leaderheads/Lenin/LeninSmall.dds</Button>
-			<NIF>Modules/Custom_Leaderheads/Lenin/Lenin.dds</NIF>
+			<Button>art/Custom_Leaderheads/Lenin/LeninSmall.dds</Button>
+			<NIF>art/Custom_Leaderheads/Lenin/Lenin.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>

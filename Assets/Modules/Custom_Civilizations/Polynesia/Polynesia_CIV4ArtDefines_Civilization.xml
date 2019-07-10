@@ -9,8 +9,8 @@
 	<CivilizationArtInfos>
 		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_POLYNESIA</Type>
-			<Button>Modules/Custom_Civilizations/Polynesia/Polynesia.dds</Button>
-			<Path>Modules/Custom_Civilizations/Polynesia/FlagDECAL_Polynesia.dds</Path>
+			<Button>art/Custom_Civilizations/Polynesia/Polynesia.dds</Button>
+			<Path>art/Custom_Civilizations/Polynesia/FlagDECAL_Polynesia.dds</Path>
 			<bWhiteFlag>0</bWhiteFlag>
 		</CivilizationArtInfo>
 	</CivilizationArtInfos>

@@ -7,8 +7,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_CHIEF_HEAD_HUNTER</Type>
-			<Button>Modules/Custom_Civilizations/Jivaro/Leaders/Smoke.dds</Button>
-			<NIF>Modules/Custom_Civilizations/Jivaro/Leaders/HH.dds</NIF>
+			<Button>art/Custom_Civilizations/Jivaro/Leaders/Smoke.dds</Button>
+			<NIF>art/Custom_Civilizations/Jivaro/Leaders/HH.dds</NIF>
 			<KFM />
 			<NoShaderNIF />
 			<BackgroundKFM />

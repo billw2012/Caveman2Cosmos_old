@@ -6,8 +6,8 @@
 	<CivilizationArtInfos>
 		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_TUPI</Type>
-			<Button>Modules/Custom_Civilizations/Tupi/Tupi.dds</Button>
-			<Path>Modules/Custom_Civilizations/Tupi/FlagDECAL_Tupi.dds</Path>
+			<Button>art/Custom_Civilizations/Tupi/Tupi.dds</Button>
+			<Path>art/Custom_Civilizations/Tupi/FlagDECAL_Tupi.dds</Path>
 			<bWhiteFlag>0</bWhiteFlag>
 		</CivilizationArtInfo>
 	</CivilizationArtInfos>

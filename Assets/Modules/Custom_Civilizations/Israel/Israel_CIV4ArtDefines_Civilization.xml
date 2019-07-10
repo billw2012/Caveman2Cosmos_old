@@ -9,8 +9,8 @@
 	<CivilizationArtInfos>
 		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_ISRAEL</Type>
-			<Button>Modules/Custom_Civilizations/Israel/flags/israeli_small.dds</Button>
-			<Path>Modules/Custom_Civilizations/Israel/flags/FlagDECAL_Israel.dds</Path>
+			<Button>art/Custom_Civilizations/Israel/flags/israeli_small.dds</Button>
+			<Path>art/Custom_Civilizations/Israel/flags/FlagDECAL_Israel.dds</Path>
 			<bWhiteFlag>1</bWhiteFlag>
 		</CivilizationArtInfo>
 	</CivilizationArtInfos>

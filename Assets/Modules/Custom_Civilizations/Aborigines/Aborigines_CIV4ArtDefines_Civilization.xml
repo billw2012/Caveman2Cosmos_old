@@ -6,8 +6,8 @@
 	<CivilizationArtInfos>
 		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_ABORIGINES</Type>
-			<Button>Modules/Custom_Civilizations/Aborigines/Aborigines.dds</Button>
-			<Path>Modules/Custom_Civilizations/Aborigines/FlagDECAL_Aborigines.dds</Path>
+			<Button>art/Custom_Civilizations/Aborigines/Aborigines.dds</Button>
+			<Path>art/Custom_Civilizations/Aborigines/FlagDECAL_Aborigines.dds</Path>
 			<bWhiteFlag>0</bWhiteFlag>
 		</CivilizationArtInfo>
 	</CivilizationArtInfos>

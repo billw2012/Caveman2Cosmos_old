@@ -6,8 +6,8 @@
 	<CivilizationArtInfos>
 		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_JIVARO</Type>
-			<Button>Modules/Custom_Civilizations/Jivaro/Jivaro.dds</Button>
-			<Path>Modules/Custom_Civilizations/Jivaro/FlagDECAL_Jivaro.dds</Path>
+			<Button>art/Custom_Civilizations/Jivaro/Jivaro.dds</Button>
+			<Path>art/Custom_Civilizations/Jivaro/FlagDECAL_Jivaro.dds</Path>
 			<bWhiteFlag>1</bWhiteFlag>
 		</CivilizationArtInfo>
 	</CivilizationArtInfos>

@@ -8,8 +8,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_HOLLIDAY</Type>
-			<Button>Modules/Custom_Leaderheads/Holliday/Holliday_btn.dds</Button>
-			<NIF>Modules/Custom_Leaderheads/Holliday/Holliday.dds</NIF>
+			<Button>art/Custom_Leaderheads/Holliday/Holliday_btn.dds</Button>
+			<NIF>art/Custom_Leaderheads/Holliday/Holliday.dds</NIF>
 			<KFM />
 			<NoShaderNIF />
 			<BackgroundKFM />

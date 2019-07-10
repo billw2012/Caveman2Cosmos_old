@@ -8,8 +8,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_LOGAN</Type>
-			<Button>Modules/Custom_Leaderheads/Logan/logan_btn.dds</Button>
-			<NIF>Modules/Custom_Leaderheads/Logan/Logan.dds</NIF>
+			<Button>art/Custom_Leaderheads/Logan/logan_btn.dds</Button>
+			<NIF>art/Custom_Leaderheads/Logan/Logan.dds</NIF>
 			<KFM />
 			<NoShaderNIF />
 			<BackgroundKFM />

@@ -6,8 +6,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_ABUBAKR</Type>
-			<Button>Modules/Custom_Leaderheads/AbuBakr/AbuBakrSmall.dds</Button>
-			<NIF>Modules/Custom_Leaderheads/AbuBakr/AbuBakr.dds</NIF>
+			<Button>art/Custom_Leaderheads/AbuBakr/AbuBakrSmall.dds</Button>
+			<NIF>art/Custom_Leaderheads/AbuBakr/AbuBakr.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>

@@ -8,8 +8,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_KELLY</Type>
-			<Button>Modules/Custom_Leaderheads/Kelly/ned1.dds</Button>
-			<NIF>Modules/Custom_Leaderheads/Kelly/Kelly.dds</NIF>
+			<Button>art/Custom_Leaderheads/Kelly/ned1.dds</Button>
+			<NIF>art/Custom_Leaderheads/Kelly/Kelly.dds</NIF>
 			<KFM />
 			<NoShaderNIF />
 			<BackgroundKFM />

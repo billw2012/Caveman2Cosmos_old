@@ -6,8 +6,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_YUNUPINGU</Type>
-			<Button>Modules/Custom_Civilizations/Aborigines/Yunupingu/yunupinguSmall.dds</Button>
-			<NIF>Modules/Custom_Civilizations/Aborigines/Yunupingu/yunupingu.dds</NIF>
+			<Button>art/Custom_Civilizations/Aborigines/Yunupingu/yunupinguSmall.dds</Button>
+			<NIF>art/Custom_Civilizations/Aborigines/Yunupingu/yunupingu.dds</NIF>
 			<KFM />
 			<NoShaderNIF />
 			<BackgroundKFM />

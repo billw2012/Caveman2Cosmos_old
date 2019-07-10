@@ -6,8 +6,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_CHARLES_V</Type>
-			<Button>Modules/Custom_LeaderHeads/Charles_V/CharlesVSmall.dds</Button>
-			<NIF>Modules/Custom_LeaderHeads/Charles_V/CharlesV.dds</NIF>
+			<Button>art/Custom_LeaderHeads/Charles_V/CharlesVSmall.dds</Button>
+			<NIF>art/Custom_LeaderHeads/Charles_V/CharlesV.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>

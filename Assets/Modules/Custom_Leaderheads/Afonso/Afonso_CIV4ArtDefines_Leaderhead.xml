@@ -8,8 +8,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_AFONSO</Type>
-			<Button>Modules/Custom_Leaderheads/Afonso/AfonsoSmall.dds</Button>
-			<NIF>Modules/Custom_Leaderheads/Afonso/Afonso.dds</NIF>
+			<Button>art/Custom_Leaderheads/Afonso/AfonsoSmall.dds</Button>
+			<NIF>art/Custom_Leaderheads/Afonso/Afonso.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>

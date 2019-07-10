@@ -8,8 +8,8 @@
 	<LeaderheadArtInfos>
 		<LeaderheadArtInfo>
 			<Type>ART_DEF_LEADER_THEODORA</Type>
-			<Button>Modules\Custom_Leaderheads\Theodora\TheodoraSmall.dds</Button>
-			<NIF>Modules\Custom_Leaderheads\Theodora\Theodora.dds</NIF>
+			<Button>art\Custom_Leaderheads\Theodora\TheodoraSmall.dds</Button>
+			<NIF>art\Custom_Leaderheads\Theodora\Theodora.dds</NIF>
 			<KFM></KFM>
 			<NoShaderNIF></NoShaderNIF>
 			<BackgroundKFM></BackgroundKFM>

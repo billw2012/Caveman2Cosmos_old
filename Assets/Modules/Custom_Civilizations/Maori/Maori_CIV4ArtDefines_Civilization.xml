@@ -6,8 +6,8 @@
 	<CivilizationArtInfos>
 		<CivilizationArtInfo>
 			<Type>ART_DEF_CIVILIZATION_MAORI</Type>
-			<Button>Modules/Custom_Civilizations/Maori/Maori.dds</Button>
-			<Path>Modules/Custom_Civilizations/Maori/FlagDECAL_Maori.dds</Path>
+			<Button>art/Custom_Civilizations/Maori/Maori.dds</Button>
+			<Path>art/Custom_Civilizations/Maori/FlagDECAL_Maori.dds</Path>
 			<bWhiteFlag>1</bWhiteFlag>
 		</CivilizationArtInfo>
 	</CivilizationArtInfos>
