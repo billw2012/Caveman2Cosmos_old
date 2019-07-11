@@ -7415,10 +7415,15 @@
 				<iYield>6</iYield>
 				<iYield>7</iYield>
 			</TradeYieldModifiers>
-			<CommerceModifiers/>
+			<CommerceModifiers>
+				<iCommerce>5</iCommerce>
+				<iCommerce>4</iCommerce>
+				<iCommerce>3</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
 			<CapitalCommerceModifiers>
 				<iCommerce>5</iCommerce>
-				<iCommerce>3</iCommerce>
+				<iCommerce>4</iCommerce>
 				<iCommerce>3</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CapitalCommerceModifiers>
