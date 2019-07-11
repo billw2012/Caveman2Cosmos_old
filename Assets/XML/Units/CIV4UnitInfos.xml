@@ -42774,6 +42774,7 @@
 			</PrereqBonuses>
 			<iCost>1405</iCost>
 			<iMoves>1</iMoves>
+			<iNukeRange>1</iNukeRange>
 			<iAirRange>7</iAirRange>
 			<iAirCombat>1</iAirCombat>
 			<iAirCombatLimit>10</iAirCombatLimit>
@@ -43154,6 +43155,7 @@
 			<iCost>1765</iCost>
 			<iAdvancedStartCost>90</iAdvancedStartCost>
 			<iMoves>1</iMoves>
+			<iNukeRange>0</iNukeRange>
 			<iAirRange>4</iAirRange>
 			<iAirCombat>40</iAirCombat>
 			<iAirCombatLimit>100</iAirCombatLimit>
