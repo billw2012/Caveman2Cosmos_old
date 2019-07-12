@@ -1685,7 +1685,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Rüstung] Flugzeug</German>
+		<German>(Rüstung) Flugzeug</German>
 		<Spanish>
 			<Text>Armadura de aeronave:Unidades con armadura de aeronave</Text>
 			<Gender>Female</Gender>
@@ -1701,7 +1701,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Rüstung] Schwere Rüstung</German>
+		<German>(Rüstung) Schwere Rüstung</German>
 		<Spanish>
 			<Text>Armadura pesada:Unidades con armadura pesada</Text>
 			<Gender>Female</Gender>
@@ -1717,7 +1717,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Rüstung] Leichte Rüstung</German>
+		<German>(Rüstung) Leichte Rüstung</German>
 		<Spanish>
 			<Text>Armadura ligera:Unidades con armadura ligera</Text>
 			<Gender>Female</Gender>
@@ -2063,7 +2063,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Rüstung] Mittlere Rüstung</German>
+		<German>(Rüstung) Mittlere Rüstung</German>
 		<Spanish>
 			<Text>Armadura media:Unidades con armadura media</Text>
 			<Gender>Female</Gender>
@@ -2079,7 +2079,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Rüstung] Moderne Rüstung</German>
+		<German>(Rüstung) Moderne Rüstung</German>
 		<Spanish>
 			<Text>Armadura moderna:Unidades con armadura moderna</Text>
 			<Gender>Female</Gender>
@@ -2095,7 +2095,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Rüstung] Schiff</German>
+		<German>(Rüstung) Schiff</German>
 		<Spanish>
 			<Text>Armadura naval:Unidades con armadura naval</Text>
 			<Gender>Female</Gender>
@@ -2111,7 +2111,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Rüstung] Raumschiff</German>
+		<German>(Rüstung) Raumschiff</German>
 		<Spanish>
 			<Text>Armadura de nave espacial:Unidades con armadura de nave espacial</Text>
 			<Gender>Female</Gender>
@@ -6743,7 +6743,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Epoche] Vorgeschichte</German>
+		<German>(Epoche) Vorgeschichte</German>
 		<Spanish>
 			<Text>Prehistoria:Unidades de la Prehistoria</Text>
 			<Gender>Female</Gender>
@@ -6759,7 +6759,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Epoche] Antike</German>
+		<German>(Epoche) Antike</German>
 		<Spanish>
 			<Text>Edad Antigua:Unidades de la Edad Antigua</Text>
 			<Gender>Female</Gender>
@@ -6775,7 +6775,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Epoche] Klassik</German>
+		<German>(Epoche) Klassik</German>
 		<Spanish>
 			<Text>Época clásica:Unidades de la Época clásica</Text>
 			<Gender>Female</Gender>
@@ -6791,7 +6791,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Epoche] Mittelalter</German>
+		<German>(Epoche) Mittelalter</German>
 		<Spanish>
 			<Text>Edad Media:Unidades de la Edad Media</Text>
 			<Gender>Female</Gender>
@@ -6807,7 +6807,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Epoche] Renaissance</German>
+		<German>(Epoche) Renaissance</German>
 		<Spanish>
 			<Text>Renacimiento:Unidades del Renacimiento</Text>
 			<Gender>Male:Female</Gender>
@@ -6823,7 +6823,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Epoche] Industriezeitalter</German>
+		<German>(Epoche) Industriezeitalter</German>
 		<Spanish>
 			<Text>Época industrial:Unidades de la Época industrial</Text>
 			<Gender>Female</Gender>
@@ -6839,7 +6839,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Epoche] Moderne</German>
+		<German>(Epoche) Moderne</German>
 		<Spanish>
 			<Text>Edad Moderna:Unidades de la Edad Moderna</Text>
 			<Gender>Female</Gender>
@@ -6850,12 +6850,12 @@
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_ERA_INFORMATION</Tag>
 		<English>Era(Information)</English>
-		<German>[Epoche] Informationszeitalter</German>
+		<German>(Epoche) Informationszeitalter</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_ERA_NANOTECH</Tag>
 		<English>Era(Nanotech)</English>
-		<German>[Epoche] Nanozeitalter</German>
+		<German>(Epoche) Nanozeitalter</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_ERA_TRANSHUMAN</Tag>
@@ -6865,7 +6865,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Epoche] Transhumanismus</German>
+		<German>(Epoche) Transhumanismus</German>
 		<Spanish>
 			<Text>Época transhumana:Unidades de la Época transhumana</Text>
 			<Gender>Female</Gender>
@@ -6881,7 +6881,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Epoche] Galaktisches Zeitalter</German>
+		<German>(Epoche) Galaktisches Zeitalter</German>
 		<Spanish>
 			<Text>Época galáctica:Unidades de la Época galáctica</Text>
 			<Gender>Female</Gender>
@@ -6892,12 +6892,12 @@
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_ERA_COSMIC</Tag>
 		<English>Era(Cosmic)</English>
-		<German>[Epoche] Kosmisches Zeitalter</German>
+		<German>(Epoche) Kosmisches Zeitalter</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_ERA_TRANSCENDENT</Tag>
 		<English>Era(Transcendent)</English>
-		<German>[Epoche] Transzendenz</German>
+		<German>(Epoche) Transzendenz</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_ERA_FUTURE</Tag>
@@ -6907,7 +6907,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Epoche] Zukunft</German>
+		<German>(Epoche) Zukunft</German>
 		<Spanish>
 			<Text>Futuro:Unidades del Futuro</Text>
 			<Gender>Male:Female</Gender>
@@ -7036,7 +7036,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Anzahl] 101-600 (Bataillon)</German>
+		<German>(Anzahl) 101-600 (Bataillon)</German>
 		<Spanish>
 			<Text>Batallón (101-600):Unidades en batallón (101-600)</Text>
 			<Gender>Female</Gender>
@@ -7052,7 +7052,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Anzahl] 1 Milliarde-1 Trillion</German>
+		<German>(Anzahl) 1 Milliarde-1 Trillion</German>
 		<Spanish>
 			<Text>Miles de millones (1000M-1Bil):Unidades en miles de millones (1000M-1Bil)</Text>
 			<Gender>Female</Gender>
@@ -7068,7 +7068,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Anzahl] 2501-10000 (Division)</German>
+		<German>(Anzahl) 2501-10000 (Division)</German>
 		<Spanish>
 			<Text>Clan (2501-10K):Unidades en clan (2501-10K)</Text>
 			<Gender>Female</Gender>
@@ -7084,7 +7084,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Anzahl] 21-100 (Kompanie)</German>
+		<German>(Anzahl) 21-100 (Kompanie)</German>
 		<Spanish>
 			<Text>Compañía (21-100):Unidades en compañía (21-100)</Text>
 			<Gender>Female</Gender>
@@ -7100,7 +7100,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Anzahl] unzählbar</German>
+		<German>(Anzahl) unzählbar</German>
 		<Spanish>
 			<Text>Incontables:Unidades incontables</Text>
 			<Gender>Female</Gender>
@@ -7116,7 +7116,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Anzahl] 601-2500 (Regiment)</German>
+		<German>(Anzahl) 601-2500 (Regiment)</German>
 		<Spanish>
 			<Text>Ejército (601-2500):Unidades en ejército (601-2500)</Text>
 			<Gender>Female</Gender>
@@ -7132,7 +7132,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Anzahl] 10001-100000 (Korps)</German>
+		<German>(Anzahl) 10001-100000 (Korps)</German>
 		<Spanish>
 			<Text>Horda (10K-100K):Unidades en horda (10K-100K)</Text>
 			<Gender>Female</Gender>
@@ -7148,7 +7148,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Anzahl] 1 Million-1 Milliarde (Oberkommando)</German>
+		<German>(Anzahl) 1 Million-1 Milliarde (Oberkommando)</German>
 		<Spanish>
 			<Text>Millones (1M-1000M):Unidades en millones (1M-1000M)</Text>
 			<Gender>Female</Gender>
@@ -7164,7 +7164,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Anzahl] 100001-1 Million (Armee)</German>
+		<German>(Anzahl) 100001-1 Million (Armee)</German>
 		<Spanish>
 			<Text>Multitud (100K-1M):Unidades en multitud (100K-1M)</Text>
 			<Gender>Female</Gender>
@@ -7180,7 +7180,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Anzahl] 2-6 (Gruppe)</German>
+		<German>(Anzahl) 2-6 (Gruppe)</German>
 		<Spanish>
 			<Text>Grupo (2-6):Unidades en grupo (2-6)</Text>
 			<Gender>Female</Gender>
@@ -7196,7 +7196,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Anzahl] 1 (Einzelgänger)</German>
+		<German>(Anzahl) 1 (Einzelgänger)</German>
 		<Spanish>
 			<Text>Solitaria (1):Unidades en solitario (1)</Text>
 			<Gender>Female</Gender>
@@ -7212,7 +7212,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Anzahl] 7-20 (Zug)</German>
+		<German>(Anzahl) 7-20 (Zug)</German>
 		<Spanish>
 			<Text>Escuadrón (7-20):Unidades en escuadrón (7-20)</Text>
 			<Gender>Female</Gender>
@@ -7228,7 +7228,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Anzahl] mehr als 1 Trillion</German>
+		<German>(Anzahl) mehr als 1 Trillion</German>
 		<Spanish>
 			<Text>Billones (1Bil+):Unidades en billones (1Bil+)</Text>
 			<Gender>Female</Gender>
@@ -7265,119 +7265,119 @@
 		<Tag>TXT_KEY_UNITCOMBAT_HEALS_AIRCRAFT</Tag>
 		<English>Heals(Aircraft)</English>
 		<French>Soigne(Avions)</French>
-		<German>[Versorgung] repariert Flugzeuge</German>
+		<German>(Versorgung) repariert Flugzeuge</German>
 		<Polish>Leczy (Samoloty)</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_HEALS_ALL</Tag>
 		<English>Heals(All)</English>
 		<French>Soigne(Tous)</French>
-		<German>[Versorgung] heilt/repariert alles</German>
+		<German>(Versorgung) heilt/repariert alles</German>
 		<Polish>Leczy (Wszytko)</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_HEALS_ANIMALS</Tag>
 		<English>Heals(Animals)</English>
 		<French>Soigne(Animaux)</French>
-		<German>[Versorgung] heilt Tiere</German>
+		<German>(Versorgung) heilt Tiere</German>
 		<Polish>Leczy (Zwierzęta)</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_HEALS_AS_AIRCRAFT</Tag>
 		<English>Heals As(Aircraft)</English>
 		<French>Assist. Répar.(Avions)</French>
-		<German>[Regeneration] Flugzeuge</German>
+		<German>(Regeneration) Flugzeuge</German>
 		<Polish>Leczy Asyst. (Samoloty)</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_HEALS_AS_ANIMALS</Tag>
 		<English>Heals As(Animals)</English>
 		<French>Assist. Soins(Animaux)</French>
-		<German>[Regeneration] Tiere</German>
+		<German>(Regeneration) Tiere</German>
 		<Polish>Leczy Asyst. (Zwierzęta)</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_HEALS_AS_MECHANICAL</Tag>
 		<English>Heals As(Mechanical)</English>
 		<French>Assist. Répar.(Mécanique)</French>
-		<German>[Regeneration] Maschinen</German>
+		<German>(Regeneration) Maschinen</German>
 		<Polish>Leczy Asyst. (Mechaniczne)</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_HEALS_AS_NANOMORPH</Tag>
 		<English>Heals As(Nanomorph)</English>
 		<French>Assist. Soins(Nanomorphe)</French>
-		<German>[Regeneration] Nanomorphs</German>
+		<German>(Regeneration) Nanomorphs</German>
 		<Polish>Leczy Asyst. (Nanomorfy)</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_HEALS_AS_NAVAL</Tag>
 		<English>Heals As(Naval)</English>
 		<French>Assist. Répar.(Navires)</French>
-		<German>[Regeneration] Schiffe</German>
+		<German>(Regeneration) Schiffe</German>
 		<Polish>Leczy Asyst. (Okręty)</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_HEALS_AS_PEOPLE</Tag>
 		<English>Heals As(People)</English>
 		<French>Assist. Soins(Humains)</French>
-		<German>[Regeneration] Menschen</German>
+		<German>(Regeneration) Menschen</German>
 		<Polish>Leczy Asyst. (Ludzi)</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_HEALS_AS_SPACECRAFT</Tag>
 		<English>Heals As(Spacecraft)</English>
 		<French>Assist. Répar.(Vaisseaux Spatiaux)</French>
-		<German>[Regeneration] Raumschiffe</German>
+		<German>(Regeneration) Raumschiffe</German>
 		<Polish>Leczy Asyst. (Statki Kosmiczne)</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_HEALS_AS_SWARM</Tag>
 		<English>Heals As(Swarm)</English>
 		<French>Assist. Soins(Nuées)</French>
-		<German>[Regeneration] Schwärme</German>
+		<German>(Regeneration) Schwärme</German>
 		<Polish>Leczy Asyst. (Roje)</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_HEALS_AS_TECH</Tag>
 		<English>Heals As(Tech)</English>
 		<French>Assist. Répar.(Tech.)</French>
-		<German>[Regeneration] Technologie</German>
+		<German>(Regeneration) Technologie</German>
 		<Polish>Leczy Asyst. (Jedn. Technologiczne)</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_HEALS_MECHANICAL</Tag>
 		<English>Heals(Mechanical)</English>
 		<French>Répare(Mécanique)</French>
-		<German>[Versorgung] repariert Maschinen</German>
+		<German>(Versorgung) repariert Maschinen</German>
 		<Polish>Leczy (Mechaniczne)</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_HEALS_NAVAL</Tag>
 		<English>Heals(Naval)</English>
 		<French>Répare(Navires)</French>
-		<German>[Versorgung] repariert Schiffe</German>
+		<German>(Versorgung) repariert Schiffe</German>
 		<Polish>Leczy (Okręty)</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_HEALS_PEOPLE</Tag>
 		<English>Heals(People)</English>
 		<French>Soigne(Civils)</French>
-		<German>[Versorgung] heilt Menschen</German>
+		<German>(Versorgung) heilt Menschen</German>
 		<Polish>Leczy (Ludzi)</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_HEALS_SPACECRAFT</Tag>
 		<English>Heals(Spacecraft)</English>
 		<French>Répare(Vaisseaux Spatiaux)</French>
-		<German>[Versorgung] repariert Raumschiffe</German>
+		<German>(Versorgung) repariert Raumschiffe</German>
 		<Polish>Leczy (Statki Kosmiczne)</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_HEALS_TECH</Tag>
 		<English>Heals(Tech)</English>
 		<French>Répare (Tech)</French>
-		<German>[Versorgung] repariert Technologie</German>
+		<German>(Versorgung) repariert Technologie</German>
 		<Polish>Leczy (Jedn. Technologiczne)</Polish>
 	</TEXT>
 	<TEXT>
@@ -7543,7 +7543,7 @@
 		<German>
 			<Text>Polizeieinheiten:Polizeieinheiten:Polizeieinheiten:Polizeieinheiten</Text>
 			<Gender>Female</Gender>
-			<Plural>1</Plural>			
+			<Plural>1</Plural>
 		</German>
 		<Spanish>
 			<Text>Unidad de policía:Unidades de policía</Text>
@@ -8027,7 +8027,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Fortbewegung] fliegend</German>
+		<German>(Fortbewegung) fliegend</German>
 		<Spanish>
 			<Text>Volante:Unidades volantes</Text>
 			<Gender>Male:Female</Gender>
@@ -8043,7 +8043,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Fortbewegung] von Tieren gezogen</German>
+		<German>(Fortbewegung) von Tieren gezogen</German>
 		<Spanish>
 			<Text>Tracción animal:Unidades a tracción animal</Text>
 			<Gender>Female</Gender>
@@ -8059,7 +8059,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Fortbewegung] motorisiert</German>
+		<German>(Fortbewegung) motorisiert</German>
 		<Spanish>
 			<Text>Conductor:Unidades conductoras</Text>
 			<Gender>Male:Female</Gender>
@@ -8075,7 +8075,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Fortbewegung] zu Fuß</German>
+		<German>(Fortbewegung) zu Fuß</German>
 		<Spanish>
 			<Text>A pie:Unidades a pie</Text>
 			<Gender>Female</Gender>
@@ -8091,7 +8091,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Fortbewegung] schwebend</German>
+		<German>(Fortbewegung) schwebend</German>
 		<Spanish>
 			<Text>Flotante:Unidades flotantes</Text>
 			<Gender>Male</Gender>
@@ -8107,7 +8107,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Fortbewegung] schwimmend</German>
+		<German>(Fortbewegung) schwimmend</German>
 		<Spanish>
 			<Text>Por mar:Unidades por mar</Text>
 			<Gender>Female</Gender>
@@ -8123,7 +8123,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Fortbewegung] ferngesteuert</German>
+		<German>(Fortbewegung) ferngesteuert</German>
 		<Spanish>
 			<Text>Piloto:Unidades piloto</Text>
 			<Gender>Male:Female</Gender>
@@ -8139,7 +8139,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Fortbewegung] beritten</German>
+		<German>(Fortbewegung) beritten</German>
 		<Spanish>
 			<Text>A lomo:Unidades a lomo</Text>
 			<Gender>Female</Gender>
@@ -8155,7 +8155,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Fortbewegung] unbemannt</German>
+		<German>(Fortbewegung) unbemannt</German>
 		<Spanish>
 			<Text>No tripulado:Unidades no tripuladas</Text>
 			<Gender>Male:Female</Gender>
@@ -8510,7 +8510,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Beförderung] Obacht</German>
+		<German>(Beförderung) Obacht</German>
 		<Spanish>
 			<Text>Ascendida con prudencia:Unidades ascendidas con prudencia</Text>
 			<Gender>Female</Gender>
@@ -8625,7 +8625,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Qualität] göttergleich</German>
+		<German>(Qualität) göttergleich</German>
 		<Spanish>
 			<Text>Desempeño divino:Unidades de desempeño divino</Text>
 			<Gender>Female</Gender>
@@ -8641,7 +8641,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Qualität] Elite</German>
+		<German>(Qualität) Elite</German>
 		<Spanish>
 			<Text>Desempeño de élite:Unidades de desempeño de élite</Text>
 			<Gender>Female</Gender>
@@ -8657,13 +8657,13 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Qualität] episch</German>
+		<German>(Qualität) episch</German>
 		<Spanish>
 			<Text>Desempeño épico:Unidades de desempeño épico</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
-		<Polish>Sprawność Bojowa (Epicka )</Polish>
+		<Polish>Sprawność Bojowa (Epicka)</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_QUALITY_EXCEPTIONAL</Tag>
@@ -8673,7 +8673,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Qualität] außergewöhnlich</German>
+		<German>(Qualität) außergewöhnlich</German>
 		<Spanish>
 			<Text>Desempeño excepcional:Unidades de desempeño excepcional</Text>
 			<Gender>Female</Gender>
@@ -8689,7 +8689,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Qualität] unfähig</German>
+		<German>(Qualität) unfähig</German>
 		<Spanish>
 			<Text>Desempeño incapaz:Unidades de desempeño incapaz</Text>
 			<Gender>Female</Gender>
@@ -8705,7 +8705,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Qualität] minderwertig</German>
+		<German>(Qualität) minderwertig</German>
 		<Spanish>
 			<Text>Desempeño inferior:Unidades de desempeño inferior</Text>
 			<Gender>Female</Gender>
@@ -8721,7 +8721,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Qualität] mittelmäßig</German>
+		<German>(Qualität) mittelmäßig</German>
 		<Spanish>
 			<Text>Desempeño mediocre:Unidades de desempeño mediocre</Text>
 			<Gender>Female</Gender>
@@ -8737,7 +8737,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Qualität] lächerlich</German>
+		<German>(Qualität) lächerlich</German>
 		<Spanish>
 			<Text>Desempeño patético:Unidades de desempeño patético</Text>
 			<Gender>Female</Gender>
@@ -8753,7 +8753,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Qualität] schwach</German>
+		<German>(Qualität) schwach</German>
 		<Spanish>
 			<Text>Desempeño pobre:Unidades de desempeño pobre</Text>
 			<Gender>Female</Gender>
@@ -8769,7 +8769,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Qualität] Standard</German>
+		<German>(Qualität) Standard</German>
 		<Spanish>
 			<Text>Desempeño estándar:Unidades de desempeño estándar</Text>
 			<Gender>Female</Gender>
@@ -8785,7 +8785,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Qualität] überragend</German>
+		<German>(Qualität) überragend</German>
 		<Spanish>
 			<Text>Desempeño superior:Unidades de desempeño superior</Text>
 			<Gender>Female</Gender>
@@ -9840,7 +9840,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Größe] kolossal</German>
+		<German>(Größe) kolossal</German>
 		<Spanish>
 			<Text>Tamaño colosal:Unidades de tamaño colosal</Text>
 			<Gender>Female</Gender>
@@ -9856,7 +9856,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Größe] winzig</German>
+		<German>(Größe) winzig</German>
 		<Spanish>
 			<Text>Tamaño diminuto:Unidades de tamaño diminuto</Text>
 			<Gender>Female</Gender>
@@ -9872,7 +9872,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Größe] normal</German>
+		<German>(Größe) normal</German>
 		<Spanish>
 			<Text>Tamaño fino:Unidades de tamaño fino</Text>
 			<Gender>Female</Gender>
@@ -9888,7 +9888,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Größe] gigantisch</German>
+		<German>(Größe) gigantisch</German>
 		<Spanish>
 			<Text>Tamaño gigantesco:Unidades de tamaño gigantesco</Text>
 			<Gender>Female</Gender>
@@ -9904,7 +9904,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Größe] riesig</German>
+		<German>(Größe) riesig</German>
 		<Spanish>
 			<Text>Tamaño enorme:Unidades de tamaño enorme</Text>
 			<Gender>Female</Gender>
@@ -9920,7 +9920,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Größe] groß</German>
+		<German>(Größe) groß</German>
 		<Spanish>
 			<Text>Tamaño grande:Unidades de tamaño grande</Text>
 			<Gender>Female</Gender>
@@ -9936,7 +9936,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Größe] mittel</German>
+		<German>(Größe) mittel</German>
 		<Spanish>
 			<Text>Tamaño medio:Unidades de tamaño medio</Text>
 			<Gender>Female</Gender>
@@ -9948,7 +9948,7 @@
 		<Tag>TXT_KEY_UNITCOMBAT_SIZE_MICROSCOPIC</Tag>
 		<English>Size(Microscopic)</English>
 		<French>Taille (Microscopique)</French>
-		<German>[Größe] mikroskopisch klein</German>
+		<German>(Größe) mikroskopisch klein</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_SPACE_WORKER</Tag>
@@ -9962,7 +9962,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Größe] klein</German>
+		<German>(Größe) klein</German>
 		<Spanish>
 			<Text>Tamaño pequeño:Unidades de tamaño pequeño</Text>
 			<Gender>Female</Gender>
@@ -9978,7 +9978,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Größe] sehr klein</German>
+		<German>(Größe) sehr klein</German>
 		<Spanish>
 			<Text>Tamaño minúsculo:Unidades de tamaño minúsculo</Text>
 			<Gender>Female</Gender>
@@ -10009,7 +10009,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Spezies] KI</German>
+		<German>(Spezies) KI</German>
 		<Spanish>
 			<Text>Unidad con inteligencia artificial:Unidades con inteligencia artificial</Text>
 			<Gender>Female</Gender>
@@ -10025,7 +10025,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Spezies] Alien</German>
+		<German>(Spezies) Alien</German>
 		<Spanish>
 			<Text>Unidad alienígena:Unidades alienígenas</Text>
 			<Gender>Female</Gender>
@@ -10041,7 +10041,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Spezies] Mensch</German>
+		<German>(Spezies) Mensch</German>
 		<Spanish>
 			<Text>Unidad humana:Unidades humanas</Text>
 			<Gender>Female</Gender>
@@ -10057,7 +10057,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Spezies] Neandertaler</German>
+		<German>(Spezies) Neandertaler</German>
 		<Spanish>
 			<Text>Unidad neandertal:Unidades neandertales</Text>
 			<Gender>Female</Gender>
@@ -10073,7 +10073,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Geschwindigkeit] schnell</German>
+		<German>(Geschwindigkeit) schnell</German>
 		<Spanish>
 			<Text>Velocidad rápida:Unidades rápidas</Text>
 			<Gender>Female</Gender>
@@ -10089,7 +10089,7 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>[Geschwindigkeit] langsam</German>
+		<German>(Geschwindigkeit) langsam</German>
 		<Spanish>
 			<Text>Velocidad lenta:Unidades lentas</Text>
 			<Gender>Female</Gender>
@@ -11933,7 +11933,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Waffe] Steine (Fernkampf)</German>
+		<German>(Waffe) Steine (Fernkampf)</German>
 		<Spanish>
 			<Text>Piedras (a distancia):Unidades con piedras (a distancia)</Text>
 			<Gender>Female</Gender>
@@ -12096,7 +12096,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Waffe] Keule (Nahkampf)</German>
+		<German>(Waffe) Keule (Nahkampf)</German>
 		<Spanish>
 			<Text>Garrote (CaC):Unidades con garrote (CaC)</Text>
 			<Gender>Female</Gender>
@@ -12157,7 +12157,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Waffe] Fäuste (Nahkampf)</German>
+		<German>(Waffe) Fäuste (Nahkampf)</German>
 		<Spanish>
 			<Text>Puños (CaC):Unidades con puños (CaC)</Text>
 			<Gender>Female</Gender>
@@ -12368,7 +12368,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Waffe] Steine (Nahkampf)</German>
+		<German>(Waffe) Steine (Nahkampf)</German>
 		<Spanish>
 			<Text>Piedras (CaC):Unidades con piedras (CaC)</Text>
 			<Gender>Female</Gender>
@@ -12429,7 +12429,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Waffe] Stab (Nahkampf)</German>
+		<German>(Waffe) Stab (Nahkampf)</German>
 		<Spanish>
 			<Text>Bastón (CaC):Unidades con bastón (CaC)</Text>
 			<Gender>Female</Gender>
@@ -12460,7 +12460,7 @@
 			<Gender>Male</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Kampfart] ausschließlich Fernkampf</German>
+		<German>(Kampfart) ausschließlich Fernkampf</German>
 		<Spanish>
 			<Text>Estilo solo a distancia:Unidades de estilo solo a distancia</Text>
 			<Gender>Female</Gender>
@@ -12476,7 +12476,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Kampfart] hauptsächlich Fernkampf</German>
+		<German>(Kampfart) hauptsächlich Fernkampf</German>
 		<Spanish>
 			<Text>Estilo a distancia principal:Unidades de estilo a distancia principal</Text>
 			<Gender>Female</Gender>
@@ -12492,7 +12492,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Kampfart] hauptsächlich Nahkampf</German>
+		<German>(Kampfart) hauptsächlich Nahkampf</German>
 		<Spanish>
 			<Text>Estilo a distancia secundario:Unidades de estilo a distancia secundario</Text>
 			<Gender>Female</Gender>
@@ -12508,7 +12508,7 @@
 			<Gender>Male</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Kampfart] ausschließlich Nahkampf</German>
+		<German>(Kampfart) ausschließlich Nahkampf</German>
 		<Spanish>
 			<Text>Estilo solo cuerpo a cuerpo:Unidades de estilo solo cuerpo a cuerpo</Text>
 			<Gender>Female</Gender>
@@ -12524,7 +12524,7 @@
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
-		<German>[Kampfart] Sprengkopf</German>
+		<German>(Kampfart) Sprengkopf</German>
 		<Spanish>
 			<Text>Ojiva lanzada:Ojivas lanzadas</Text>
 			<Gender>Female</Gender>
