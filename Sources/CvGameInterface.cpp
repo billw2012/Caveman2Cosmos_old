@@ -1008,7 +1008,7 @@ void CvGame::getPlotUnits(const CvPlot *pPlot, std::vector<CvUnit *> &plotUnits)
 
 				while (pUnitNode1 != NULL)
 				{
-					if (movedUnitIds1.empty() || std::find(movedUnitIds1.begin(), movedUnitIds1.end(), pUnitNode1->m_data.iID) == movedUnitIds1.end())
+					if (movedUnitIds1.empty() || movedUnitIds1.find(pUnitNode1->m_data.iID) == movedUnitIds1.end())
 					{
 						pLoopUnit1 = ::getUnit(pUnitNode1->m_data);
 
@@ -1050,7 +1050,7 @@ void CvGame::getPlotUnits(const CvPlot *pPlot, std::vector<CvUnit *> &plotUnits)
 
 										while (pUnitNode2 != NULL)
 										{
-											if (movedUnitIds2.empty() || std::find(movedUnitIds2.begin(), movedUnitIds2.end(), pUnitNode2->m_data.iID) == movedUnitIds2.end())
+											if (movedUnitIds2.empty() || movedUnitIds2.find(pUnitNode2->m_data.iID) == movedUnitIds2.end())
 											{
 												pLoopUnit2 = ::getUnit(pUnitNode2->m_data);
 
