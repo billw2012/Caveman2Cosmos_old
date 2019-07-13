@@ -15115,11 +15115,6 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>
-			<Text>Steel Armor</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
 		<Italian>
 			<Text>Corazza in acciaio</Text>
 			<Gender>Male</Gender>
@@ -15140,11 +15135,6 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>
-			<Text>Steel Weapons</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
 		<Italian>
 			<Text>Armi di acciaio</Text>
 			<Gender>Male</Gender>
@@ -15165,21 +15155,6 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>
-			<Text>Sting I</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Sting I</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Sting I</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
 		<Polish>Żądło I</Polish>
 	</TEXT>
 	<TEXT>
@@ -15190,21 +15165,6 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>
-			<Text>Sting II</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Sting II</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Sting II</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
 		<Polish>Żądło II</Polish>
 	</TEXT>
 	<TEXT>
@@ -15215,21 +15175,6 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>
-			<Text>Sting III</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Sting III</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Sting III</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
 		<Polish>Żądło III</Polish>
 	</TEXT>
 	<TEXT>
@@ -15240,21 +15185,6 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>
-			<Text>Sting IV</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Sting IV</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Sting IV</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
 		<Polish>Żądło IV</Polish>
 	</TEXT>
 	<TEXT>
@@ -15271,11 +15201,6 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Italian>
-		<Spanish>
-			<Text>Stinging Insults I</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
 		<Polish>Żądlące Wyzwiska I</Polish>
 	</TEXT>
 	<TEXT>
@@ -15292,11 +15217,6 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Italian>
-		<Spanish>
-			<Text>Stinging Insults II</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
 		<Polish>Żądlące Wyzwiska II</Polish>
 	</TEXT>
 	<TEXT>
@@ -15313,11 +15233,6 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Italian>
-		<Spanish>
-			<Text>Stinging Insults III</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
 		<Polish>Żądlące Wyzwiska III</Polish>
 	</TEXT>
 	<TEXT>
@@ -15328,11 +15243,6 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>
-			<Text>Stone Weapons</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
 		<Italian>
 			<Text>Armi in pietra</Text>
 			<Gender>Male</Gender>
@@ -15375,21 +15285,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>
-			<Text>Street Fighter I</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
 		<Italian>
 			<Text>Combattente di strada I</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Italian>
-		<Spanish>
-			<Text>Street Fighter I</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
 		<Polish>Wojownik Ulicy I</Polish>
 	</TEXT>
 	<TEXT>
@@ -15400,21 +15300,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>
-			<Text>Street Fighter II</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
 		<Italian>
 			<Text>Combattente di strada II</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Italian>
-		<Spanish>
-			<Text>Street Fighter II</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
 		<Polish>Wojownik Ulicy II</Polish>
 	</TEXT>
 	<TEXT>
@@ -15425,21 +15315,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>
-			<Text>Street Fighter III</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
 		<Italian>
 			<Text>Combattente di strada III</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Italian>
-		<Spanish>
-			<Text>Street Fighter III</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
 		<Polish>Wojownik Ulicy III</Polish>
 	</TEXT>
 	<TEXT>
@@ -15450,21 +15330,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
-		<German>
-			<Text>Street Fighter IV</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
 		<Italian>
 			<Text>Combattente di strada IV</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Italian>
-		<Spanish>
-			<Text>Street Fighter IV</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
 		<Polish>Wojownik Ulicy IV</Polish>
 	</TEXT>
 	<TEXT>
