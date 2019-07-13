@@ -5,7 +5,7 @@
 	<!-- re-Modified by Strategyonly -->
 	<!-- -->
 	<!-- Leader Infos and AI Settings -->
-<Civ4LeaderHeadInfos xmlns="x-schema:Kamehameha_CIV4CivilizationsSchema.xml">
+<Civ4LeaderHeadInfos xmlns="x-schema:../../../../XML/Schema/C2C_CIV4CivilizationsSchema.xml">
 	<LeaderHeadInfos>
 		<LeaderHeadInfo>
 			<Type>LEADER_KAMEHAMEHA</Type>

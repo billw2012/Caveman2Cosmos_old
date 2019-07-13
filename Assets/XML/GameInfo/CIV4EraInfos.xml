@@ -13,7 +13,7 @@
 <!-- 4. Clean up the references to the ERA's in CIV4CityLSystem -->
 <!-- 5. Clean up the references to the ERA's in CIV4PlotLSystem -->
 <!-- Good luck! -->
-<Civ4EraInfos xmlns="x-schema:C2C_CIV4GameInfoSchema.xml">
+<Civ4EraInfos xmlns="x-schema:../Schema/C2C_CIV4GameInfoSchema.xml">
 	<EraInfos>
 <!-- Prehistoric -->
 		<EraInfo>

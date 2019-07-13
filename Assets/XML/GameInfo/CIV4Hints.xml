@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Hints Infos -->
-<Civ4Hints xmlns="x-schema:C2C_CIV4GameInfoSchema.xml">
+<Civ4Hints xmlns="x-schema:../Schema/C2C_CIV4GameInfoSchema.xml">
 	<HintInfos>
 		<HintInfo>
 			<Description>TXT_KEY_HINT_INTERFACE_1</Description>

@@ -5,7 +5,7 @@
 <!-- ReModified by StrategyOnly -->
 <!-- -->
 <!-- Effect Infos -->
-<Civ4EffectInfos xmlns="x-schema:C2C_CIV4MiscSchema.xml">
+<Civ4EffectInfos xmlns="x-schema:../Schema/C2C_CIV4MiscSchema.xml">
 	<EffectInfos>
 		<!-- Interface:-->
 		<EffectInfo>

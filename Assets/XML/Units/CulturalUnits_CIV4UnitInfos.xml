@@ -4,7 +4,7 @@
 	<!-- Copyright Firaxis Games 2005 -->
 	<!-- ReModified by StrategyOnly -->
 	<!-- -->
-<Civ4UnitInfos xmlns="x-schema:C2C_CIV4UnitSchema.xml">
+<Civ4UnitInfos xmlns="x-schema:../Schema/C2C_CIV4UnitSchema.xml">
 	<UnitInfos>
 		<UnitInfo>
 			<Class>UNITCLASS_INCAN_QUECHUA</Class>

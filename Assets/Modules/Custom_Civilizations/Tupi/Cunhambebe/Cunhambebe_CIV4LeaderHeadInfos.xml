@@ -2,7 +2,7 @@
 <!-- Sid Meier's Civilization 4 Beyond the Sword -->
 <!-- ReModified by the StrategyOnly -->
 <!-- -->
-<Civ4LeaderHeadInfos xmlns="x-schema:Cunhambebe_CIV4CivilizationsSchema.xml">
+<Civ4LeaderHeadInfos xmlns="x-schema:../../../../XML/Schema/C2C_CIV4CivilizationsSchema.xml">
 	<LeaderHeadInfos>
 		<LeaderHeadInfo>
 			<Type>LEADER_CUNHAMBEBE</Type>

@@ -4,7 +4,7 @@
 <!-- Civilization Infos -->
 <!-- ReModified by StrategyOnly -->
 <!-- -->
-<Civ4CivilizationInfos xmlns="x-schema:Kelly_CIV4CivilizationsSchema.xml">
+<Civ4CivilizationInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4CivilizationsSchema.xml">
 	<CivilizationInfos>
 		<CivilizationInfo>
 			<Type>CIVILIZATION_OUTLAWZZ</Type>

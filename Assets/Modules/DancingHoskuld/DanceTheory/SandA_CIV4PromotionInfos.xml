@@ -5,7 +5,7 @@
 <!-- ReModified by StrategyOnly -->
 <!-- -->
 <!-- Promotion Infos -->
-<Civ4PromotionInfos xmlns="x-schema:DT_CIV4UnitSchema.xml">
+<Civ4PromotionInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<PromotionInfos>
 		<PromotionInfo>
 			<Type>PROMOTION_WAR_CRY</Type>

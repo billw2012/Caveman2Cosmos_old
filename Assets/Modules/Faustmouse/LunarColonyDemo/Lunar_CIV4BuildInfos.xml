@@ -5,7 +5,7 @@
 	<!-- By Faustmouse -->
 	<!-- -->
 	<!-- Build Infos -->
-<Civ4BuildInfos xmlns="x-schema:Lunar_CIV4UnitSchema.xml">
+<Civ4BuildInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<BuildInfos>
 		<BuildInfo>
 			<Type>BUILD_LUNAR_BASE_IMPROVEMENT</Type>

@@ -2,7 +2,7 @@
 <!-- Sid Meier's Civilization 4 Beyond the Sword -->
 <!-- Modified by the Civ Gold Team -->
 <!-- -->
-<Civ4UnitClassInfos xmlns="x-schema:SubdueAnimals_CIV4UnitSchema.xml">
+<Civ4UnitClassInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<UnitClassInfos>
 		<UnitClassInfo>
 			<Type>UNITCLASS_TAMED_HORSE_PAIR</Type>

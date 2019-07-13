@@ -4,7 +4,7 @@
 <!-- Diplomacy Infos -->
 <!-- ReModified by StrategyOnly -->
 <!-- -->
-<Civ4DiplomacyInfos xmlns="x-schema:C2C_LH_CIV4GameInfoSchema.xml">
+<Civ4DiplomacyInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4GameInfoSchema.xml">
 	<DiplomacyInfos>
 		<DiplomacyInfo>
 			<Type>AI_DIPLOCOMMENT_FIRST_CONTACT</Type>

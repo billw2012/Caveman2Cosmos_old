@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<Civ4ProcessInfo xmlns="x-schema:C2C_CIV4GameInfoSchema.xml">
+<Civ4ProcessInfo xmlns="x-schema:../Schema/C2C_CIV4GameInfoSchema.xml">
 	<ProcessInfos>
 		<ProcessInfo>
 			<Type>PROCESS_WEALTH_MEAGER</Type>

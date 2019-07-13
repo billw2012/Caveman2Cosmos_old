@@ -4,7 +4,7 @@
 	<!-- Copyright Firaxis Games 2005 -->
 	<!-- -->
 	<!-- Bonus Class -->
-<Civ4BonusClassInfos xmlns="x-schema:C2C_CIV4TerrainSchema.xml">
+<Civ4BonusClassInfos xmlns="x-schema:../Schema/C2C_CIV4TerrainSchema.xml">
 	<BonusClassInfos>
 		<BonusClassInfo>
 			<Type>BONUSCLASS_GENERAL</Type>

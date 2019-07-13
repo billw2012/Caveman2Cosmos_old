@@ -5,7 +5,7 @@
 <!-- Modified by strategyonly -->
 <!-- -->
 <!-- Player Color -->
-<Civ4PlayerColorInfos xmlns="x-schema:Israel_CIV4InterfaceSchema.xml">
+<Civ4PlayerColorInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4InterfaceSchema.xml">
 	<PlayerColorInfos>
 		<PlayerColorInfo>
 			<Type>PLAYERCOLOR_ISRAEL</Type>

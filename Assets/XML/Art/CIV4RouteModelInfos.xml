@@ -5,7 +5,7 @@
 <!-- ReModified by StrategyOnly -->
 <!-- -->
 <!-- Route art path information -->
-<Civ4RouteModelInfos xmlns="x-schema:CIV4ArtDefinesSchema.xml">
+<Civ4RouteModelInfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\Xml\Schema\Caveman2Cosmos.xsd">
 	<RouteModelInfos>
 		<RouteModelInfo>
 			<ModelFile>Art/Terrain/Routes/Roads/RoadA00.nif</ModelFile>

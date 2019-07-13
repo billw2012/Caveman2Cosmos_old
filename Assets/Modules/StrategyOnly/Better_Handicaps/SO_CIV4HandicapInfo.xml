@@ -5,7 +5,7 @@
 <!-- ReModified by StrategyOnly -->
 <!-- -->
 <!-- Handicap Infos -->
-<Civ4HandicapInfo xmlns="x-schema:SO_CIV4GameInfoSchema.xml">
+<Civ4HandicapInfo xmlns="x-schema:../../../XML/Schema/C2C_CIV4GameInfoSchema.xml">
 	<HandicapInfos>
 		<HandicapInfo>
 			<Type>HANDICAP_DEITY</Type>

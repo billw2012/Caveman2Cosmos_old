@@ -4,7 +4,7 @@
 	<!-- Copyright Firaxis Games 2005 -->
 	<!-- -->
 	<!-- Terrain Infos -->
-<Civ4TerrainInfos xmlns="x-schema:C2C_CIV4TerrainSchema.xml">
+<Civ4TerrainInfos xmlns="x-schema:../Schema/C2C_CIV4TerrainSchema.xml">
 	<TerrainInfos>
 		<TerrainInfo>
 			<Type>TERRAIN_GRASS</Type>

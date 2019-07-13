@@ -6,7 +6,7 @@
 	<!-- ReModified by StrategyOnly -->
 	<!-- -->
 	<!-- Improvement -->
-<Civ4ImprovementInfos xmlns="x-schema:C2C_CIV4TerrainSchema.xml">
+<Civ4ImprovementInfos xmlns="x-schema:../Schema/C2C_CIV4TerrainSchema.xml">
 	<ImprovementInfos>
 		<!-- Prehistoric -->
 		<!-- Seed Camp -->

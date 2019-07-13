@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Effect Infos -->
-<Civ4EffectInfos xmlns="x-schema:Custom_Religions_CIV4MiscSchema.xml">
+<Civ4EffectInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4MiscSchema.xml">
 	<EffectInfos>
 		<EffectInfo>
 			<Type>EFFECT_MISSIONARY_ACTIVE_BAHAI</Type>

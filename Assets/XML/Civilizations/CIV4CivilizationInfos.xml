@@ -5,7 +5,7 @@
 	<!-- ReModified by StrategyOnly -->
 	<!-- -->
 	<!-- Civilization Infos -->
-<Civ4CivilizationInfos xmlns="x-schema:C2C_CIV4CivilizationsSchema.xml">
+<Civ4CivilizationInfos xmlns="x-schema:../Schema/C2C_CIV4CivilizationsSchema.xml">
 	<CivilizationInfos>
 		<CivilizationInfo>
 			<Type>CIVILIZATION_UNITED_STATES</Type>

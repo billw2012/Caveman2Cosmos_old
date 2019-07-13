@@ -4,7 +4,7 @@
 	<!-- Copyright Firaxis Games 2005 -->
 	<!-- -->
 	<!-- Leader Trait Infos -->
-<Civ4TraitInfos xmlns="x-schema:C2C_CIV4CivilizationsSchema.xml">
+<Civ4TraitInfos xmlns="x-schema:../Schema/C2C_CIV4CivilizationsSchema.xml">
 	<TraitInfos>
 		<TraitInfo>
 			<!-- BEGIN: MainGame Core Traits -->

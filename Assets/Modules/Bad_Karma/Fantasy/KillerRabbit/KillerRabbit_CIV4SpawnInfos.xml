@@ -3,7 +3,7 @@
 <!-- Sid Meier's Civilization 4 -->
 <!-- -->
 <!-- Spawn Infos -->
-<Civ4SpawnInfos xmlns="x-schema:KillerRabbit_CIV4UnitSchema.xml">
+<Civ4SpawnInfos xmlns="x-schema:../../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<SpawnInfos>
 		<SpawnInfo>
 			<Type>SPAWN_KILLERRABBIT_BASE</Type>

@@ -7,7 +7,7 @@
 	<!-- ReModified by StrategyOnly -->
 	<!-- -->
 	<!-- Event Trigger Infos -->
-<Civ4EventTriggerInfos xmlns="x-schema:C2C_CIV4EventSchema.xml">
+<Civ4EventTriggerInfos xmlns="x-schema:../Schema/C2C_CIV4EventSchema.xml">
 	<EventTriggerInfos>
 		<EventTriggerInfo>
 			<Type>EVENTTRIGGER_FOREST_FIRE</Type>

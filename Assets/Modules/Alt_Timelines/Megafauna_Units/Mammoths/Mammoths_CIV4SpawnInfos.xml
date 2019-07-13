@@ -16,7 +16,7 @@
 <!-- 41 = NPC2_PLAYER - Note here what that player means once it is defined -->
 <!-- 40 = NPC1_PLAYER - Note here what that player means once it is defined -->
 <!-- Spawn Infos -->
-<Civ4SpawnInfos xmlns="x-schema:Mammoth_CIV4UnitSchema.xml">
+<Civ4SpawnInfos xmlns="x-schema:../../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<SpawnInfos>
 		<SpawnInfo>
 			<Type>SPAWN_NEANDERTHAL_MAMMOTH_RIDER</Type>

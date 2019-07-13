@@ -4,7 +4,7 @@
 <!-- ReModified by the StrategyOnly -->
 <!-- -->
 <!-- Event Trigger Infos -->
-<Civ4EventTriggerInfos xmlns="x-schema:Tusk_CIV4EventSchema.xml">
+<Civ4EventTriggerInfos xmlns="x-schema:../../../../XML/Schema/C2C_CIV4EventSchema.xml">
 	<EventTriggerInfos>
 		<EventTriggerInfo>
 			<Type>EVENTTRIGGER_TUSK</Type>

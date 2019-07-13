@@ -8,7 +8,7 @@
 	<!-- Leader Infos and AI Settings -->
 	<!-- ReModified by StrategyOnly -->
 	<!-- -->
-<Civ4LeaderHeadInfos xmlns="x-schema:C2C_LH_CIV4CivilizationsSchema.xml">
+<Civ4LeaderHeadInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4CivilizationsSchema.xml">
 	<LeaderHeadInfos>
 		<LeaderHeadInfo>
 			<Type>LEADER_SMOKE_JAGUAR</Type>

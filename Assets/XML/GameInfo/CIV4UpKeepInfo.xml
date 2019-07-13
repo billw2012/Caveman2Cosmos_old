@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Upkeep -->
-<Civ4UpkeepInfo xmlns="x-schema:C2C_CIV4GameInfoSchema.xml">
+<Civ4UpkeepInfo xmlns="x-schema:../Schema/C2C_CIV4GameInfoSchema.xml">
 	<UpkeepInfos>
 		<UpkeepInfo>
 			<Type>UPKEEP_LOW</Type>

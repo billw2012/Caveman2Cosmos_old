@@ -5,7 +5,7 @@
 <!-- ReModified by StrategyOnly -->
 <!-- -->
 <!-- Route Infos -->
-<Civ4RouteInfos xmlns="x-schema:C2C_CIV4MiscSchema.xml">
+<Civ4RouteInfos xmlns="x-schema:../Schema/C2C_CIV4MiscSchema.xml">
 	<RouteInfos>
 		<RouteInfo>
 			<Type>ROUTE_TRAIL</Type>

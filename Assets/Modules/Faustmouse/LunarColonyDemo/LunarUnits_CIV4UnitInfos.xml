@@ -5,7 +5,7 @@
 	<!-- ReModified by StrategyOnly -->
 	<!-- by Faustmouse -->
 	<!-- Unit Infos -->
-<Civ4UnitInfos xmlns="x-schema:Lunar_CIV4UnitSchema.xml">
+<Civ4UnitInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<UnitInfos>
 		<UnitInfo>
 			<Class>UNITCLASS_CONSTRUCTION_SHIP</Class>

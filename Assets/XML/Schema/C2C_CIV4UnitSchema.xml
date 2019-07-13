@@ -11,6 +11,7 @@
   <ElementType name="Constant" content="textOnly"/>
   <ElementType name="Is" content="textOnly"/>
   <ElementType name="Python" content="textOnly"/>
+  <ElementType name="PythonName" content="textOnly"/>
   <ElementType name="BoolExpr"/>
   <ElementType name="Not"/>
   <ElementType name="And"/>
@@ -199,6 +200,7 @@
 		<element type="TerrainChange" minOccurs="0"/>
 		<element type="FeatureChange" minOccurs="0"/>
 <!-- JOOYO_ADDON							END		-->
+		<element type="PlaceBonusTypes" minOccurs="0"/>
 		<element type="EntityEvent" minOccurs="0"/>
 		<element type="FeatureStructs" minOccurs="0"/>
 		<element type="TerrainStructs" minOccurs="0"/>
@@ -407,6 +409,9 @@
 	<ElementType name="iChange" content="textOnly" dt:type="int"/>
 	<ElementType name="iBaseFoodChange" content="textOnly" dt:type="int"/>
 	<ElementType name="iNoDefensiveBonusChange" content="textOnly" dt:type="int"/>
+	<ElementType name="iGatherHerdChange" content="textOnly" dt:type="int"/>
+	<ElementType name="iReligiousCombatModifier" content="textOnly" dt:type="int"/>
+	<ElementType name="iReligiousCombatModifierChange" content="textOnly" dt:type="int"/>
 	<!--Booleans-->
 	<ElementType name="bParalyze" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bUnlimitedException" content="textOnly" dt:type="boolean"/>
@@ -464,6 +469,7 @@
 	<ElementType name="bTriggerBeforeAttack" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bPoison" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bNoNonTypeProdMods" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bGatherHerd" content="textOnly" dt:type="boolean"/>
 	<!--Declarations-->
 	<ElementType name="AfflictionType" content="textOnly"/>
 	<ElementType name="GameOptionType" content="textOnly"/>
@@ -1126,8 +1132,8 @@
 		<element type="UnitCombatType"/>
 		<element type="iModifier"/>
 	</ElementType>
-	<ElementType name="iImmediate" content="textOnly" dt:type="boolean"/>
-	<ElementType name="iMelee" content="textOnly" dt:type="boolean"/>
+	<ElementType name="iImmediate" content="textOnly" dt:type="int"/>
+	<ElementType name="iMelee" content="textOnly" dt:type="int"/>
 	<ElementType name="iProbability" content="textOnly" dt:type="int"/>
 	<ElementType name="AfflictOnAttackType" content="eltOnly">
 		<element type="PromotionLineType" minOccurs="0" maxOccurs="*"/>
@@ -1138,6 +1144,19 @@
 	</ElementType>
 	<ElementType name="AfflictOnAttackTypes" content="eltOnly">
 		<element type="AfflictOnAttackType" minOccurs="0" maxOccurs="*"/>
+	</ElementType>
+	<ElementType name="bRequiresAccess" content="textOnly" dt:type="boolean"/>
+	<ElementType name="PlaceBonusType" content="eltOnly">
+		<element type="BonusType" minOccurs="0" maxOccurs="*"/>
+		<element type="iProbability" minOccurs="0" maxOccurs="*"/>
+		<element type="bRequiresAccess" minOccurs="0" maxOccurs="*"/>
+		<element type="TechType" minOccurs="0" maxOccurs="*"/>
+		<element type="TerrainType" minOccurs="0" maxOccurs="*"/>
+		<element type="FeatureType" minOccurs="0" maxOccurs="*"/>
+		<element type="MapCategoryType" minOccurs="0" maxOccurs="*"/>
+	</ElementType>
+	<ElementType name="PlaceBonusTypes" content="eltOnly">
+		<element type="PlaceBonusType" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
 	<ElementType name="iHeal" content="textOnly" dt:type="int"/>
 	<ElementType name="iAdjacentHeal" content="textOnly" dt:type="int"/>
@@ -1879,6 +1898,8 @@
 		<element type="EventTrigger" minOccurs="0"/>
 		<element type="PlotCondition" minOccurs="0"/>
 		<element type="UnitCondition" minOccurs="0"/>
+		<element type="Python" minOccurs="0"/>
+		<element type="PythonName" minOccurs="0"/>
 		<element type="PythonCallback" minOccurs="0"/>
 		<element type="bKill" minOccurs="0"/>
 	</ElementType>
@@ -2006,6 +2027,7 @@
 		<element type="bAssassin" minOccurs="0"/>
 		<element type="bStealthDefense" minOccurs="0"/>
 		<element type="bNoInvisibility" minOccurs="0"/>
+		<element type="bGatherHerd" minOccurs="0"/>
 		<element type="iSelfHealModifier" minOccurs="0"/>
 		<element type="iNumHealSupport" minOccurs="0"/>
 		<element type="HealUnitCombatTypes" minOccurs="0"/>
@@ -2182,6 +2204,7 @@
 		<element type="iNumTriggers" minOccurs="0"/>
 		<element type="bTriggerBeforeAttack" minOccurs="0"/>
 		<element type="iAggression" minOccurs="0"/>
+		<element type="iReligiousCombatModifier" minOccurs="0"/>
 		<!--TB Combat Mods end-->
 		<element type="iCollateralDamage" minOccurs="0"/>
 		<element type="iCollateralDamageLimit" minOccurs="0"/>
@@ -2591,6 +2614,7 @@
 		<element type="iPowerShotCriticalModifierChange" minOccurs="0"/>
 		<element type="iCriticalModifierChange" minOccurs="0"/>
 		<element type="iEnduranceChange" minOccurs="0"/>
+		<element type="iGatherHerdChange" minOccurs="0"/>
 		<element type="bMakesDamageCold" minOccurs="0"/>
 		<element type="bMakesDamageNotCold" minOccurs="0"/>
 		<element type="bAddsColdImmunity" minOccurs="0"/>
@@ -2658,6 +2682,7 @@
 		<element type="iTrapComplexity" minOccurs="0"/>
 		<element type="iNumTriggers" minOccurs="0"/>
 		<element type="iTriggerBeforeAttackChange" minOccurs="0"/>
+		<element type="iReligiousCombatModifierChange" minOccurs="0"/>
 		<!--TB Combat Mods end-->
 		<!--TB Converted TLOTags Start-->
 		<element type="bFreeDrop" minOccurs="0"/>
@@ -3202,6 +3227,8 @@
 		<element type="iStealthDefenseChange" minOccurs="0"/>
 		<element type="iDefenseOnlyChange" minOccurs="0"/>
 		<element type="iNoInvisibilityChange" minOccurs="0"/>
+		<element type="iGatherHerdChange" minOccurs="0"/>
+		<element type="iReligiousCombatModifierChange" minOccurs="0"/>
 		<element type="bNoSelfHeal" minOccurs="0"/>	
 		<element type="bCannotMergeSplit" minOccurs="0"/>
 		<element type="bDefensiveVictoryMove" minOccurs="0"/>

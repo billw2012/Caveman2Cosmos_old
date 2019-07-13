@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 	<!-- -->
 	<!-- Unit Infos -->
-<Civ4UnitInfos xmlns="x-schema:C2C_CIV4UnitSchema.xml">
+<Civ4UnitInfos xmlns="x-schema:../Schema/C2C_CIV4UnitSchema.xml">
 	<UnitInfos>
 		<UnitInfo>
 			<Class>UNITCLASS_AARDVARK</Class>

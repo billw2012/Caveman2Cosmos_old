@@ -3,7 +3,7 @@
 	<!-- Copyright C2C team 2016 and Firaxis Games 2016 -->
 	<!-- -->
 	<!-- Idea Infos -->
-<Civ4IdeaInfos xmlns="x-schema:C2C_CIV4GameInfoSchema.xml">
+<Civ4IdeaInfos xmlns="x-schema:../Schema/C2C_CIV4GameInfoSchema.xml">
 	<IdeaInfos>
 		<IdeaInfo>
 			<Type>IDEA_HERITAGE_EUROPEAN</Type>

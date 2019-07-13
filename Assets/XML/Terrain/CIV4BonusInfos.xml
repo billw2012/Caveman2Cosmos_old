@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<Civ4BonusInfos xmlns="x-schema:C2C_CIV4TerrainSchema.xml">
+<Civ4BonusInfos xmlns="x-schema:../Schema/C2C_CIV4TerrainSchema.xml">
 	<BonusInfos>
 		<BonusInfo>
 			<Type>BONUS_BARLEY</Type>

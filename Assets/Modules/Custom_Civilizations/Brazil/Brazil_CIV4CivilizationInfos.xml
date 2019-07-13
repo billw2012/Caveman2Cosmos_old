@@ -3,7 +3,7 @@
 <!-- re-Modified by Strategyonly -->
 <!-- Civilization Infos -->
 <!-- -->
-<Civ4CivilizationInfos xmlns="x-schema:Brazil_CIV4CivilizationsSchema.xml">
+<Civ4CivilizationInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4CivilizationsSchema.xml">
 	<CivilizationInfos>
 		<CivilizationInfo>
 			<Type>CIVILIZATION_BRAZIL</Type>

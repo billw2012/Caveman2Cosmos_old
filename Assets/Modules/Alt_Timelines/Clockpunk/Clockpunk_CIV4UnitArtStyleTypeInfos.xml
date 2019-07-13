@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Civilization Infos -->
-<Civ4UnitArtStyleTypeInfos xmlns="x-schema:Clockpunk_CIV4CivilizationsSchema.xml">
+<Civ4UnitArtStyleTypeInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4CivilizationsSchema.xml">
 	<UnitArtStyleTypeInfos>
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_AFRICAN</Type>

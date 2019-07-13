@@ -24,7 +24,7 @@
 		bFreeSpeech: 
 		bCanDoElection: 
 	-->
-<Civ4CivicInfos xmlns="x-schema:C2C_CIV4GameInfoSchema.xml">
+<Civ4CivicInfos xmlns="x-schema:../Schema/C2C_CIV4GameInfoSchema.xml">
 	<CivicInfos>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>

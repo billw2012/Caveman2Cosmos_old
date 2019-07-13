@@ -5,7 +5,7 @@
 	<!-- ReModified by StrategyOnly -->
 	<!-- -->
 	<!-- Build Infos -->
-<Civ4BuildInfos xmlns="x-schema:Custom_Religions_CIV4UnitSchema.xml">
+<Civ4BuildInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<BuildInfos>
 		<!-- Machu Picchu -->
 		<BuildInfo>

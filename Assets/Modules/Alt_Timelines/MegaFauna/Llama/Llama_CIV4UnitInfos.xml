@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- Assets\Modules\Alt_Timelines\MegaFauna\Llama\Llama_CIV4UnitInfos.xml -->
 <!-- Unit art path information -->
-<Civ4UnitInfos xmlns="x-schema:Llama_CIV4UnitSchema.xml">
+<Civ4UnitInfos xmlns="x-schema:../../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<UnitInfos>
 		<UnitInfo>
 			<Class>UNITCLASS_LLAMA_RIDER</Class>

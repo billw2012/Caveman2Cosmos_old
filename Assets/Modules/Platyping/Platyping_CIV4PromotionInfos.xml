@@ -5,7 +5,7 @@
 <!-- ReModified by StrategyOnly -->
 <!-- -->
 <!-- Promotion Infos -->
-<Civ4PromotionInfos xmlns="x-schema:P_C2C_CIV4UnitSchema.xml">
+<Civ4PromotionInfos xmlns="x-schema:../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<PromotionInfos>
 		<PromotionInfo>
 			<Type>PROMOTION_FA_MEN_SI_INSPIRED</Type>

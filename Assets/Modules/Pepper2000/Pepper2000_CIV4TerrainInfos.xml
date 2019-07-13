@@ -4,7 +4,7 @@
 	<!-- Copyright Firaxis Games 2005 -->
 	<!-- -->
 	<!-- Terrain Infos -->
-<Civ4TerrainInfos xmlns="x-schema:P2K_CIV4TerrainSchema.xml">
+<Civ4TerrainInfos xmlns="x-schema:../../XML/Schema/C2C_CIV4TerrainSchema.xml">
 	<TerrainInfos>
         <TerrainInfo>
 			<Type>TERRAIN_SPACE</Type>

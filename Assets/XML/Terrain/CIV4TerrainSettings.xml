@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Terrain Settings -->
-<Civ4TerrainSettings xmlns="x-schema:C2C_CIV4TerrainSchema.xml">
+<Civ4TerrainSettings xmlns="x-schema:../Schema/C2C_CIV4TerrainSchema.xml">
 	<LandscapeInfos>
 		<LandscapeInfo>
 			<Type>LANDSCAPE_DEFAULT</Type>

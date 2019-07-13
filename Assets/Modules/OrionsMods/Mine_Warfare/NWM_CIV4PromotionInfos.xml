@@ -5,7 +5,7 @@
 <!-- ReModified by StrategyOnly -->
 <!-- -->
 <!-- Promotion Infos -->
-<Civ4PromotionInfos xmlns="x-schema:MineWarfare_CIV4UnitSchema.xml">
+<Civ4PromotionInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<PromotionInfos>
 		<PromotionInfo>
 			<Type>PROMOTION_MINE_ARMED</Type>

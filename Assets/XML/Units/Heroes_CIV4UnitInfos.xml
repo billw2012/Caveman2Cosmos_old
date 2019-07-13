@@ -5,7 +5,7 @@
 <!-- ReModified by StrategyOnly -->
 <!-- -->
 <!-- Unit Infos -->
-<Civ4UnitInfos xmlns="x-schema:C2C_CIV4UnitSchema.xml">
+<Civ4UnitInfos xmlns="x-schema:../Schema/C2C_CIV4UnitSchema.xml">
 	<UnitInfos>
 		<!-- FAKE HEROES -->
 		<UnitInfo>

@@ -42,7 +42,7 @@ Current techs which are not in this file:-
 	( 094, 17 ) TECH_CYBERPUNK
 	( 102, 11 ) TECH_NANOPUNK
 -->
-<Civ4TechInfos xmlns="x-schema:C2C_CIV4TechnologiesSchema.xml">
+<Civ4TechInfos xmlns="x-schema:../Schema/C2C_CIV4TechnologiesSchema.xml">
 	<TechInfos>
 		<TechInfo>
 			<Type>TECH_NOMADIC_LIFESTYLE</Type>

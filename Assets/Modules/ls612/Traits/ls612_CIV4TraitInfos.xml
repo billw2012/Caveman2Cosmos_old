@@ -4,7 +4,7 @@
 	<!-- Copyright Firaxis Games 2005 -->
 	<!-- -->
 	<!-- Leader Trait Infos -->
-<Civ4TraitInfos xmlns="x-schema:ls612_CIV4CivilizationsSchema.xml">
+<Civ4TraitInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4CivilizationsSchema.xml">
 	<TraitInfos>
 		<TraitInfo>
 			<Type>TRAIT_PHILOSOPHICAL</Type>

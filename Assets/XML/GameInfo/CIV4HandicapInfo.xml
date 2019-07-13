@@ -6,7 +6,7 @@
 <!-- -->
 <!-- Handicap Infos -->
 <!-- Revolution Mod only changed settings relating to creation of barbarian cities and units -->
-<Civ4HandicapInfo xmlns="x-schema:C2C_CIV4GameInfoSchema.xml">
+<Civ4HandicapInfo xmlns="x-schema:../Schema/C2C_CIV4GameInfoSchema.xml">
 	<HandicapInfos>
 		<HandicapInfo>
 			<Type>HANDICAP_SETTLER</Type>

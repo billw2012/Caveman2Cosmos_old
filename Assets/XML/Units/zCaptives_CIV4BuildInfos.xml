@@ -5,7 +5,7 @@
 	<!-- ReModified by StrategyOnly -->
 	<!-- -->
 	<!-- Build Infos -->
-<Civ4BuildInfos xmlns="x-schema:C2C_CIV4UnitSchema.xml">
+<Civ4BuildInfos xmlns="x-schema:../Schema/C2C_CIV4UnitSchema.xml">
 	<BuildInfos>
 		<!-- Prehistoric -->
 		<BuildInfo>

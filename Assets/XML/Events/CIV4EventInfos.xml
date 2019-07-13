@@ -7,7 +7,7 @@
 <!-- -->
 <!-- Event Infos -->
 <!-- DAS: Adding Callbacks to all events which change plot yields in order to add landmarks -->
-<Civ4EventInfos xmlns="x-schema:C2C_CIV4EventSchema.xml">
+<Civ4EventInfos xmlns="x-schema:../Schema/C2C_CIV4EventSchema.xml">
 	<EventInfos>
 		<EventInfo>
 			<Type>EVENT_FOREST_FIRE_1</Type>

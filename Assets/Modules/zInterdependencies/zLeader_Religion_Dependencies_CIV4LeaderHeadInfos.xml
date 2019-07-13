@@ -8,7 +8,7 @@
 <!--  -->
 <!-- E.G. Ragnar will have Druidism as his favorite religion if Asatru is not in game. -->
 <!--  -->
-<Civ4LeaderHeadInfos xmlns="x-schema:zD_CIV4CivilizationsSchema.xml">
+<Civ4LeaderHeadInfos xmlns="x-schema:../../XML/Schema/C2C_CIV4CivilizationsSchema.xml">
 <LeaderHeadInfos>
 	<LeaderHeadInfo>
 		<Type>LEADER_ABUBAKR</Type>

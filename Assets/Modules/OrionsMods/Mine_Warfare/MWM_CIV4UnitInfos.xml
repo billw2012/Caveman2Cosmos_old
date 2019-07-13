@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Unit Infos -->
-<Civ4UnitInfos xmlns="x-schema:MineWarfare_CIV4UnitSchema.xml">
+<Civ4UnitInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<UnitInfos>
 		<!-- Mine Warfare Mod -->
 		<!-- Naval Mine -->

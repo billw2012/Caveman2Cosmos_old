@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- World Picker -->
-<Civ4WorldPickerInfos xmlns="x-schema:CIV4InterfaceSchema.xml">
+<Civ4WorldPickerInfos xmlns="x-schema:../Schema/C2C_CIV4InterfaceSchema.xml">
 	<WorldPickerInfos>
 		<WorldPickerInfo>
 			<MapName>DefaultWorldPicker</MapName>

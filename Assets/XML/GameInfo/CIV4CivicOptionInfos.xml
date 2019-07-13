@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Civic Option -->
-<Civ4CivicOptionInfos xmlns = "x-schema:C2C_CIV4GameInfoSchema.xml">
+<Civ4CivicOptionInfos xmlns = "x-schema:../Schema/C2C_CIV4GameInfoSchema.xml">
     <CivicOptionInfos>
         <CivicOptionInfo>
             <Type>CIVICOPTION_GOVERNMENT</Type>

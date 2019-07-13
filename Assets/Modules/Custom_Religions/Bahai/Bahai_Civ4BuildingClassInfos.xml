@@ -3,7 +3,7 @@
 <!-- Modified by the World of Civilization Team -->
 <!-- Building Class Infos -->
 <!-- -->
-<Civ4BuildingClassInfos xmlns="x-schema:Custom_Religions_CIV4BuildingsSchema.xml">
+<Civ4BuildingClassInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4BuildingsSchema.xml">
 	<BuildingClassInfos>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_BAHAI_CATHEDRAL</Type>

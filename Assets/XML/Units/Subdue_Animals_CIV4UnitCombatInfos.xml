@@ -5,7 +5,7 @@
 <!-- ReModified by StrategyOnly -->
 <!-- -->
 <!-- Basic Infos -->
-<Civ4UnitCombatInfos xmlns="x-schema:C2C_CIV4UnitSchema.xml">
+<Civ4UnitCombatInfos xmlns="x-schema:../Schema/C2C_CIV4UnitSchema.xml">
 	<UnitCombatInfos>
 		<UnitCombatInfo>
 			<Type>UNITCOMBAT_SUBDUED</Type>

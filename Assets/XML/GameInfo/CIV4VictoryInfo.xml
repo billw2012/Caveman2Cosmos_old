@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Victory Infos -->
-<Civ4VictoryInfo xmlns="x-schema:C2C_CIV4GameInfoSchema.xml">
+<Civ4VictoryInfo xmlns="x-schema:../Schema/C2C_CIV4GameInfoSchema.xml">
 	<VictoryInfos>
 		<VictoryInfo>
 			<Type>VICTORY_SCORE</Type>

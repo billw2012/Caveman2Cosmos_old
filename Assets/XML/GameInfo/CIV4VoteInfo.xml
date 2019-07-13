@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Vote Infos -->
-<Civ4VoteInfo xmlns="x-schema:C2C_CIV4GameInfoSchema.xml">
+<Civ4VoteInfo xmlns="x-schema:../Schema/C2C_CIV4GameInfoSchema.xml">
 	<VoteInfos>
 		<VoteInfo>
 			<Type>VOTE_SECRETARY_GENERAL</Type>

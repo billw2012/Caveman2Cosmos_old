@@ -60,7 +60,7 @@ Eternity	-	20000		- Normal*10
 
 NOTE: If you remove any of these you need to update GameInfo/CultureLevelInfos.xml.
 Also you will need to change the STANDARD_GAMESPEED in GlobalDefines.xml if you remove GAMESPEED_SNAIL -->
-<Civ4GameSpeedInfo xmlns="x-schema:C2C_CIV4GameInfoSchema.xml">
+<Civ4GameSpeedInfo xmlns="x-schema:../Schema/C2C_CIV4GameInfoSchema.xml">
 	<GameSpeedInfos>
 		<GameSpeedInfo>
 			<Type>GAMESPEED_ETERNITY</Type>

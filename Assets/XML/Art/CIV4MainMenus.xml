@@ -5,7 +5,7 @@
 <!-- ReModified by StrategyOnly -->
 <!-- -->
 <!-- Main Menu Infos -->
-<Civ4MainMenus xmlns="x-schema:CIV4ArtDefinesSchema.xml">
+<Civ4MainMenus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\Xml\Schema\Caveman2Cosmos.xsd">
 	<MainMenus>
 		<MainMenu>
 			<Type>MAIN_MENU_BEYOND_SWORD</Type>

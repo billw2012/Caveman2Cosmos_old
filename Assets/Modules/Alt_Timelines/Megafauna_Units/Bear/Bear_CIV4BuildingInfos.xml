@@ -4,7 +4,7 @@
 	<!-- Copyright Firaxis Games 2005 -->
 	<!-- -->
 	<!-- Building Infos -->
-<Civ4BuildingInfos xmlns="x-schema:Bear_CIV4BuildingsSchema.xml">
+<Civ4BuildingInfos xmlns="x-schema:../../../../XML/Schema/C2C_CIV4BuildingsSchema.xml">
 	<BuildingInfos>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_BEAR_TRAINER</BuildingClass>

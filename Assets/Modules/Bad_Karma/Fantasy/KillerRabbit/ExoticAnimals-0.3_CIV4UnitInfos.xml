@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- Assets\Modules\Alt_Timelines\Fantasy\KillerRabbit\ExoticAnimals-0.3_CIV4UnitInfos.xml-->
 <!-- Unit Infos -->
-<Civ4UnitInfos xmlns="x-schema:KillerRabbit_CIV4UnitSchema.xml">
+<Civ4UnitInfos xmlns="x-schema:../../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<UnitInfos>
 		<UnitInfo>
 			<Class>UNITCLASS_KILLERRABBIT</Class>

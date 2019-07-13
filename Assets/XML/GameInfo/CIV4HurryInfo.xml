@@ -5,7 +5,7 @@
 <!-- -->
 <!-- Civ4HurryInfo - This structure describes the name for each multiplayer option. -->
 <!-- Caveman2Cosmos -->
-<Civ4HurryInfo xmlns="x-schema:C2C_CIV4GameInfoSchema.xml">
+<Civ4HurryInfo xmlns="x-schema:../Schema/C2C_CIV4GameInfoSchema.xml">
 	<HurryInfos>
 		<HurryInfo>
 			<Type>HURRY_POPULATION</Type>

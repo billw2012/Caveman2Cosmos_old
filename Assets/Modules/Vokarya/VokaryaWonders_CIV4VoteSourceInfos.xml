@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Basic Infos -->
-<Civ4VoteSourceInfos xmlns="x-schema:VW_CIV4GameInfoSchema.xml">
+<Civ4VoteSourceInfos xmlns="x-schema:../../XML/Schema/C2C_CIV4GameInfoSchema.xml">
 	<VoteSourceInfos>
 		<VoteSourceInfo>
 			<Type>DIPLOVOTE_CVIENNA</Type>

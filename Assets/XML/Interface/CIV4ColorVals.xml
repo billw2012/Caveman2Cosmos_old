@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Color Vals -->
-<Civ4ColorVals xmlns="x-schema:CIV4InterfaceSchema.xml">
+<Civ4ColorVals xmlns="x-schema:../Schema/C2C_CIV4InterfaceSchema.xml">
 	<ColorVals>
 		<ColorVal>
 			<Type>COLOR_ASSYRIA_TEXT</Type>

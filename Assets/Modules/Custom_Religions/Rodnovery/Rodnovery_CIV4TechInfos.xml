@@ -6,7 +6,7 @@
 	<!-- ReModified by StrategyOnly -->
 	<!-- -->
 	<!-- Tech Infos -->
-<Civ4TechInfos xmlns="x-schema:Custom_Religions_CIV4TechnologiesSchema.xml">
+<Civ4TechInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4TechnologiesSchema.xml">
 	<TechInfos>
 		<TechInfo>
 			<Type>TECH_RODNOVERY</Type>

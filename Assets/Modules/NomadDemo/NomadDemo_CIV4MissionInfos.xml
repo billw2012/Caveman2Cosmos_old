@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Mission Infos -->
-<Civ4MissionInfos xmlns="x-schema:NomadDemo_CIV4UnitSchema.xml">
+<Civ4MissionInfos xmlns="x-schema:../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<!--Changes must be reflected in CvEnums.h-->
 	<MissionInfos>
 		<MissionInfo>

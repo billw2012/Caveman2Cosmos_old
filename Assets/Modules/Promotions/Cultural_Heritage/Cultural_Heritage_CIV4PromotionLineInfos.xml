@@ -5,7 +5,7 @@
 <!-- ReModified by StrategyOnly -->
 <!-- -->
 <!-- Promotion Line Infos -->
-<Civ4PromotionLineInfos xmlns="x-schema:Cultural_Heritage_CIV4UnitSchema.xml">
+<Civ4PromotionLineInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<PromotionLineInfos>
 		<PromotionLineInfo>
 			<Type>PROMOTIONLINE_NATIVE_HIGHLANDER</Type>

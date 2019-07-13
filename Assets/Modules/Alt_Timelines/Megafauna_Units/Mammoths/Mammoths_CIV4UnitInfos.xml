@@ -5,7 +5,7 @@
 <!-- ReModified by StrategyOnly -->
 <!-- Assets\Modules\Alt_Timelines\MegaFauna\Mammoths\Mammoth_CIV4UnitInfos.xml -->
 <!-- Unit Infos -->
-<Civ4UnitInfos xmlns="x-schema:Mammoth_CIV4UnitSchema.xml">
+<Civ4UnitInfos xmlns="x-schema:../../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<UnitInfos>
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_MAMMOTH</Type>

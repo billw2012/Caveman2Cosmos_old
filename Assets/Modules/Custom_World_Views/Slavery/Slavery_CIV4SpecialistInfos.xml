@@ -5,7 +5,7 @@
 	<!-- ReModified by StrategyOnly -->
 	<!-- -->
 	<!-- Specialist -->
-<Civ4SpecialistInfos xmlns="x-schema:Slavery_CIV4GameInfoSchema.xml">
+<Civ4SpecialistInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4GameInfoSchema.xml">
 	<SpecialistInfos>
 		<SpecialistInfo>
 			<Type>SPECIALIST_SETTLED_SLAVE_FOOD</Type>

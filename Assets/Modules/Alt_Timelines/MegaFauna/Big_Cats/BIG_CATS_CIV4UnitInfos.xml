@@ -2,7 +2,7 @@
 <!-- Created with Notepad by strategyonly -->
 <!-- Assets\Modules\Alt_Timelines\MegaFauna\Big_Cats\BIG_CATS_CIV4UnitInfos.xml -->
 <!-- ###################################################################################### -->
-<Civ4UnitInfos xmlns="x-schema:Big_Cats_CIV4UnitSchema.xml">
+<Civ4UnitInfos xmlns="x-schema:../../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<UnitInfos>
 <!--Trained Cats (Feline Domestication) -> Warcats (Military Training) -> Guard Cats (Leadership) -> Police Cats (Criminology) -> Feline Superior (Homo Superior) -->
 		<UnitInfo>

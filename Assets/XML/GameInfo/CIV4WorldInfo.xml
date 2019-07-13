@@ -34,7 +34,7 @@ Integer Tags
 -->
 
 
-<Civ4WorldInfo xmlns="x-schema:C2C_CIV4GameInfoSchema.xml">
+<Civ4WorldInfo xmlns="x-schema:../Schema/C2C_CIV4GameInfoSchema.xml">
 	<WorldInfos>
 		<WorldInfo>
 			<Type>WORLDSIZE_DUEL</Type>

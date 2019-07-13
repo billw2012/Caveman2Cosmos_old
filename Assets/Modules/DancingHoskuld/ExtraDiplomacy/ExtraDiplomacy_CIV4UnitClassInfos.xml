@@ -5,7 +5,7 @@
 <!-- ReModified by StrategyOnly -->
 <!-- -->
 <!-- UnitClass Schema -->
-<Civ4UnitClassInfos xmlns="x-schema:GS_CIV4UnitSchema.xml">
+<Civ4UnitClassInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<UnitClassInfos>
 		<UnitClassInfo>
 			<Type>UNITCLASS_DIPLOMAT_MESSENGER</Type>

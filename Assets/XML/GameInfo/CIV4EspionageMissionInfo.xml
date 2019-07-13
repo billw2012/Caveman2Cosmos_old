@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- EspionageMissionMission Infos -->
-<Civ4EspionageMissionInfo xmlns="x-schema:C2C_CIV4GameInfoSchema.xml">
+<Civ4EspionageMissionInfo xmlns="x-schema:../Schema/C2C_CIV4GameInfoSchema.xml">
 	<EspionageMissionInfos>
 		<EspionageMissionInfo>
 			<Type>ESPIONAGEMISSION_SEE_DEMOGRAPHICS</Type>

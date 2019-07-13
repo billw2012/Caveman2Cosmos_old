@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<UnitFormations xmlns="x-schema:C2C_Civ4FormationSchema.xml">
+<UnitFormations xmlns="x-schema:../Schema/C2C_Civ4FormationSchema.xml">
 	<UnitFormation>
 		<Name>IDLE (1)</Name>
 		<FormationType>FORMATION_TYPE_DEFAULT</FormationType>

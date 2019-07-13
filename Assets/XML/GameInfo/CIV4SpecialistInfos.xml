@@ -5,7 +5,7 @@
 	<!-- ReModified by StrategyOnly -->
 	<!-- -->
 	<!-- Specialist -->
-<Civ4SpecialistInfos xmlns="x-schema:C2C_CIV4GameInfoSchema.xml">
+<Civ4SpecialistInfos xmlns="x-schema:../Schema/C2C_CIV4GameInfoSchema.xml">
 	<SpecialistInfos>
 		<SpecialistInfo>
 			<Type>SPECIALIST_CITIZEN</Type>

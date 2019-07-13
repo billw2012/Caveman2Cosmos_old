@@ -5,7 +5,7 @@
 <!-- -->
 <!-- Project Infos -->
 <!-- You must have atleast one project in order for the game to load properly. -->
-<Civ4ProjectInfo xmlns="x-schema:C2C_CIV4GameInfoSchema.xml">
+<Civ4ProjectInfo xmlns="x-schema:../Schema/C2C_CIV4GameInfoSchema.xml">
 	<ProjectInfos>
 		<ProjectInfo>
 			<Type>PROJECT_THE_INTERNET</Type>

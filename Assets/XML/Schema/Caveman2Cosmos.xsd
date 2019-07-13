@@ -525,7 +525,7 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element ref="Type"/>
-        <xs:element ref="Description"/>
+        <xs:element name="Description" type="xs:string"/>
         <xs:element ref="Scene"/>
         <xs:element ref="SceneNoShader"/>
         <xs:element ref="Soundtrack"/>

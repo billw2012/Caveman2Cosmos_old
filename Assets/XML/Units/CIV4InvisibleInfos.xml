@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Basic Infos -->
-<Civ4InvisibleInfos xmlns="x-schema:C2C_CIV4UnitSchema.xml">
+<Civ4InvisibleInfos xmlns="x-schema:../Schema/C2C_CIV4UnitSchema.xml">
 	<InvisibleInfos>
 		<InvisibleInfo>
 			<Type>INVISIBLE_SUBMARINE</Type>

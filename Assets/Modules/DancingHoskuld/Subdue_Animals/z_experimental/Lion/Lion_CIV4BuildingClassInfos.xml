@@ -3,7 +3,7 @@
 	<!-- Modified by Strategyonly -->
 	<!-- Building Class Infos -->
 	<!-- -->
-<Civ4BuildingClassInfos xmlns="x-schema:SubdueAnimals_CIV4BuildingsSchema.xml">
+<Civ4BuildingClassInfos xmlns="x-schema:../../../../../XML/Schema/C2C_CIV4BuildingsSchema.xml">
 	<BuildingClassInfos>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_LION_MYTH</Type>

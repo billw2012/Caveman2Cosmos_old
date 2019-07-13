@@ -6,7 +6,7 @@
 	<!-- ReModified by StrategyOnly -->
 	<!-- -->
 	<!-- Improvement -->
-<Civ4ImprovementInfos xmlns="x-schema:NaturalWonder_CIV4TerrainSchema.xml">
+<Civ4ImprovementInfos xmlns="x-schema:../../XML/Schema/C2C_CIV4TerrainSchema.xml">
 	<ImprovementInfos>
 		<!-- Beacon -->
 		<ImprovementInfo>

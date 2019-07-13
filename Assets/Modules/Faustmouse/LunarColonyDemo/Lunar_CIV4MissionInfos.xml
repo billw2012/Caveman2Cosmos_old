@@ -4,7 +4,7 @@
 	<!-- Copyright Firaxis Games 2005 -->
 	<!-- By Faustmouse -->
 	<!-- Mission Infos -->
-<Civ4MissionInfos xmlns="x-schema:Lunar_CIV4UnitSchema.xml">
+<Civ4MissionInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<MissionInfos>
 		<MissionInfo>
 			<Type>MISSION_SUPPLY_SHIP_UPGRADE_TO_LUNAR_BULLDOZER</Type>

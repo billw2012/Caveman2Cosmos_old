@@ -6,7 +6,7 @@
 <!-- Copyright Firaxis Games 2006 -->
 <!-- -->
 <!-- Event Trigger Infos -->
-<Civ4EventTriggerInfos xmlns="x-schema:Civil_War_CIV4EventSchema.xml">
+<Civ4EventTriggerInfos xmlns="x-schema:../../../../XML/Schema/C2C_CIV4EventSchema.xml">
 	<EventTriggerInfos>
 		<EventTriggerInfo>
 			<Type>EVENTTRIGGER_CIVIL_WAR</Type>

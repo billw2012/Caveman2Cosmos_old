@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Yield Infos -->
-<Civ4YieldInfos xmlns="x-schema:C2C_CIV4TerrainSchema.xml">
+<Civ4YieldInfos xmlns="x-schema:../Schema/C2C_CIV4TerrainSchema.xml">
 	<YieldInfos>
 		<YieldInfo>
 			<Type>YIELD_FOOD</Type>

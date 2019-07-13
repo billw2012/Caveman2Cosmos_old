@@ -5,7 +5,7 @@
 <!-- ReModified by StrategyOnly -->
 <!-- -->
 <!-- UnitClass Schema -->
-<Civ4UnitClassInfos xmlns="x-schema:Giraffe_CIV4UnitSchema.xml">
+<Civ4UnitClassInfos xmlns="x-schema:../../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<UnitClassInfos>
 		<UnitClassInfo>
 			<Type>UNITCLASS_GIRAFFE_ARCHER</Type>

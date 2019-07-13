@@ -5,7 +5,7 @@
 <!-- ReModified by StrategyOnly -->
 <!-- -->
 <!-- Promotion Line Infos -->
-<Civ4PromotionLineInfos xmlns="x-schema:C2C_CIV4UnitSchema.xml">
+<Civ4PromotionLineInfos xmlns="x-schema:../Schema/C2C_CIV4UnitSchema.xml">
 	<PromotionLineInfos>
 		<PromotionLineInfo>
 			<Type>PROMOTIONLINE_COMBAT</Type>

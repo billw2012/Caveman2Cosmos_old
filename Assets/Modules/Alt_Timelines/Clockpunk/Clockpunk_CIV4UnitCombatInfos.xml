@@ -5,7 +5,7 @@
 <!-- ReModified by StrategyOnly -->
 <!-- -->
 <!-- Basic Infos -->
-<Civ4UnitCombatInfos xmlns="x-schema:Clockpunk_CIV4UnitSchema.xml">
+<Civ4UnitCombatInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4UnitSchema.xml">
 	<UnitCombatInfos>
 		<UnitCombatInfo>
 			<Type>UNITCOMBAT_CULTURE_CLOCKPUNK</Type>

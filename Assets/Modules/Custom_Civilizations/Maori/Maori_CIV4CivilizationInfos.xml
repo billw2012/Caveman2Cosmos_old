@@ -3,7 +3,7 @@
 <!-- re-Modified by Strategyonly -->
 <!-- Civilization Infos -->
 <!-- -->
-<Civ4CivilizationInfos xmlns="x-schema:Maori_CIV4CivilizationsSchema.xml">
+<Civ4CivilizationInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4CivilizationsSchema.xml">
 	<CivilizationInfos>
 		<CivilizationInfo>
 			<Type>CIVILIZATION_MAORI</Type>

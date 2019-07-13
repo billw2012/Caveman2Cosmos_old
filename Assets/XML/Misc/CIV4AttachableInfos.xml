@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Attachables -->
-<Civ4AttachableInfos xmlns="x-schema:C2C_CIV4MiscSchema.xml">
+<Civ4AttachableInfos xmlns="x-schema:../Schema/C2C_CIV4MiscSchema.xml">
 	<AttachableInfos>
 		<!-- Units: -->
 		<AttachableInfo>

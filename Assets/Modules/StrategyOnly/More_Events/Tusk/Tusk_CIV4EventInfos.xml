@@ -6,7 +6,7 @@
 <!-- ReModified by the StrategyOnly -->
 <!-- -->
 <!-- Event Infos -->
-<Civ4EventInfos xmlns="x-schema:Tusk_CIV4EventSchema.xml">
+<Civ4EventInfos xmlns="x-schema:../../../../XML/Schema/C2C_CIV4EventSchema.xml">
 	<EventInfos>
 		<EventInfo>
 			<Type>EVENT_TUSK_1</Type>
