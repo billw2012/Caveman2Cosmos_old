@@ -31,7 +31,7 @@
 			bExtraGoalOnly:1	- same behavior as bGoalOnly, but when placing nodes defined by szExtra attributes on a goal artref
 			
 		-->
-<LSystemInfos xmlns="x-schema:../Schema/CIV4LSystemSchema.xml">
+<LSystemInfos xmlns="x-schema:CIV4LSystemSchema.xml">
 	<!-- ******************************************************************************************** -->
 	<!-- Modders: this might help you understand what is going on ... -->
 	<!-- ******************************************************************************************** -->

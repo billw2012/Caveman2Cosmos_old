@@ -31,7 +31,7 @@
 			<Attribute Class="ScalarList">szWithCityNameEqualTo:CityName1,CityName2</Attribute>    : inhibits the production/node when a city not is in the list			
 		
   -->
-<LSystemInfos xmlns="x-schema:../Schema/CIV4LSystemSchema.xml">
+<LSystemInfos xmlns="x-schema:CIV4LSystemSchema.xml">
 	<!-- ******************************************************************************************** -->
 	<!-- Modders: this might help you understand what is going on ... -->
 	<!-- ******************************************************************************************** -->
