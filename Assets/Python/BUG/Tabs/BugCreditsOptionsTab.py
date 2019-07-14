@@ -29,7 +29,6 @@ credits = [
 			"Nimek - C2C Combat Mod ideas developer, Feedback",
 			"RidetheSpiral23 - C2C Maps, Feedback",
 			"DRJ - Ideas, Feedback",
-			"Acularius - C2C GEM Map Team, Ideas, Feedback",
 			"Anq - C++ Coding",
 			"Toffer90 - Designer, Python, PPIO Modmod",
 			"aztur - Ideas, Feedback",
