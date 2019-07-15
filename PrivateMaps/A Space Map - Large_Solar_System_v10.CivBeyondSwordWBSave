@@ -3,8 +3,6 @@ BeginGame
 	Era=ERA_PREHISTORIC
 	Speed=GAMESPEED_NORMAL
 	Calendar=CALENDAR_DEFAULT
-	Option=GAMEOPTION_NO_CITY_RAZING
-	Option=GAMEOPTION_FLIPPING_AFTER_CONQUEST
 	Option=GAMEOPTION_NO_BARBARIANS
 	Option=GAMEOPTION_NO_VASSAL_STATES
 	Option=GAMEOPTION_NO_REVOLUTION
@@ -20,32 +18,38 @@ BeginGame
 	Option=GAMEOPTION_REALISTIC_CULTURE_SPREAD
 	Option=GAMEOPTION_LARGER_CITIES
 	Option=GAMEOPTION_REALISTIC_CORPORATIONS
+	Option=GAMEOPTION_RELIGION_DECAY
 	Option=GAMEOPTION_UNITED_NATIONS
 	Option=GAMEOPTION_ADVANCED_ESPIONAGE
-	Option=GAMEOPTION_DIVINE_PROPHETS
+	Option=GAMEOPTION_ADVANCED_NUKES
 	Option=GAMEOPTION_NO_CITY_LIMITS
 	Option=GAMEOPTION_INFINITE_XP
+	Option=GAMEOPTION_PURE_TRAITS
 	Option=GAMEOPTION_LEADERHEAD_LEVELUPS
 	Option=GAMEOPTION_START_NO_POSITIVE_TRAITS
-	Option=GAMEOPTION_NO_NUKES
+	Option=GAMEOPTION_COMPLEX_TRAITS
+	Option=GAMEOPTION_RELIGIOUS_DISABLING
 	Option=GAMEOPTION_FIGHT_OR_FLIGHT
 	Option=GAMEOPTION_SIZE_MATTERS
-	Option=GAMEOPTION_MORE_RIVERS
 	Option=GAMEOPTION_XP_FROM_ASSIGNED_SPECIALISTS
 	Option=GAMEOPTION_ECOLOGICAL_ANIMALS
 	Option=GAMEOPTION_TELEPORT_HUNTING_AWARDS
+	Option=GAMEOPTION_AMNESTY
 	Option=GAMEOPTION_HIDE_AND_SEEK
+	Option=GAMEOPTION_PEACE_AMONG_NPCS
 	Option=GAMEOPTION_1_CITY_TILE_FOUNDING
 	Option=GAMEOPTION_REALISTIC_SIEGE
 	Option=GAMEOPTION_WITHOUT_WARNING
 	Option=GAMEOPTION_DOWNSIZING_IS_PROFITABLE
 	Victory=VICTORY_TIME
+	Victory=VICTORY_SCIENTIFIC
 	GameTurn=0
+	MaxTurns=2000
 	MaxCityElimination=0
 	NumAdvancedStartPoints=4000
 	TargetScore=0
 	StartYear=-200000
-	Description=Take control of a civilization at the dawn of mankind and guide it until they become extradimensional gods themselves!
+	Description=The map is divided into three sections: a realistic and proportional Earth where you start, our Solar System, and the space beyond it.
 	ModPath=
 EndGame
 BeginTeam
@@ -250,16 +254,16 @@ BeginTeam
 EndTeam
 BeginPlayer
 	Team=0
-	LeaderType=LEADER_ATOTOZTLI
-	LeaderName=TXT_KEY_LEADER_ATOTOZTLI
-	CivDesc=TXT_KEY_CIV_AZTEC_DESC
-	CivShortDesc=TXT_KEY_CIV_AZTEC_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_AZTEC_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Aztec.dds
+	LeaderType=LEADER_HIAWATHA
+	LeaderName=TXT_KEY_LEADER_HIAWATHA
+	CivDesc=TXT_KEY_CIV_IROQUOIS_DESC
+	CivShortDesc=TXT_KEY_CIV_IROQUOIS_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_IROQUOIS_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Iroquois.dds
 	WhiteFlag=1
-	CivType=CIVILIZATION_AZTEC
-	Color=PLAYERCOLOR_GREEN
-	ArtStyle=ARTSTYLE_MESO_AMERICA
+	CivType=CIVILIZATION_IROQUOIS
+	Color=PLAYERCOLOR_IROQUOIS
+	ArtStyle=ARTSTYLE_NATIVE_AMERICA
 	PlayableCiv=1
 	MinorNationStatus=0
 	StartingGold=50
@@ -286,16 +290,16 @@ BeginPlayer
 EndPlayer
 BeginPlayer
 	Team=2
-	LeaderType=LEADER_ALEXANDER
-	LeaderName=TXT_KEY_LEADER_ALEXANDER
-	CivDesc=TXT_KEY_CIV_GREECE_DESC
-	CivShortDesc=TXT_KEY_CIV_GREECE_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_GREECE_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Greece.dds
+	LeaderType=LEADER_BOUDICA
+	LeaderName=TXT_KEY_LEADER_BOUDICA
+	CivDesc=TXT_KEY_CIV_CELT_DESC
+	CivShortDesc=TXT_KEY_CIV_CELT_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_CELT_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Celts.dds
 	WhiteFlag=1
-	CivType=CIVILIZATION_GREECE
-	Color=PLAYERCOLOR_LIGHT_BLUE
-	ArtStyle=ARTSTYLE_GRECO_ROMAN
+	CivType=CIVILIZATION_CELT
+	Color=PLAYERCOLOR_LIGHT_ORANGE
+	ArtStyle=ARTSTYLE_EUROPE
 	PlayableCiv=1
 	MinorNationStatus=0
 	StartingGold=50
@@ -304,16 +308,16 @@ BeginPlayer
 EndPlayer
 BeginPlayer
 	Team=3
-	LeaderType=LEADER_CLEOPATRA
-	LeaderName=TXT_KEY_LEADER_CLEOPATRA
-	CivDesc=TXT_KEY_CIV_EGYPT_DESC
-	CivShortDesc=TXT_KEY_CIV_EGYPT_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_EGYPT_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Egypt.dds
+	LeaderType=LEADER_SHAKA
+	LeaderName=TXT_KEY_LEADER_SHAKA
+	CivDesc=TXT_KEY_CIV_ZULU_DESC
+	CivShortDesc=TXT_KEY_CIV_ZULU_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_ZULU_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Zulu.dds
 	WhiteFlag=1
-	CivType=CIVILIZATION_EGYPT
-	Color=PLAYERCOLOR_YELLOW
-	ArtStyle=ARTSTYLE_EGYPT
+	CivType=CIVILIZATION_ZULU
+	Color=PLAYERCOLOR_LIGHT_YELLOW
+	ArtStyle=ARTSTYLE_AFRICA
 	PlayableCiv=1
 	MinorNationStatus=0
 	StartingGold=50
@@ -322,20 +326,20 @@ BeginPlayer
 EndPlayer
 BeginPlayer
 	Team=4
-	LeaderType=LEADER_HAMMURABI
-	LeaderName=TXT_KEY_LEADER_HAMMURABI
-	CivDesc=TXT_KEY_CIV_BABYLON_DESC
-	CivShortDesc=TXT_KEY_CIV_BABYLON_SHORT_DESC
-	CivAdjective=TXT_KEY_CIV_BABYLON_ADJECTIVE
-	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Babylon.dds
+	LeaderType=LEADER_GILGAMESH
+	LeaderName=TXT_KEY_LEADER_GILGAMESH
+	CivDesc=TXT_KEY_CIV_SUMERIA_DESC
+	CivShortDesc=TXT_KEY_CIV_SUMERIA_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_SUMERIA_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Sumeria.dds
 	WhiteFlag=1
-	CivType=CIVILIZATION_BABYLON
-	Color=PLAYERCOLOR_MIDDLE_PURPLE
+	CivType=CIVILIZATION_SUMERIA
+	Color=PLAYERCOLOR_DARK_INDIGO
 	ArtStyle=ARTSTYLE_CRESCENT
 	PlayableCiv=1
 	MinorNationStatus=0
 	StartingGold=50
-	StartingX=92, StartingY=28
+	StartingX=83, StartingY=32
 	RandomStartLocation=false
 EndPlayer
 BeginPlayer
@@ -596,7 +600,7 @@ BeginMap
 	bottom latitude=-14
 	wrap X=1
 	wrap Y=0
-	world size=WORLDSIZE_LARGE
+	world size=WORLDSIZE_GIGANTIC
 	climate=CLIMATE_TEMPERATE
 	sealevel=SEALEVEL_MEDIUM
 	num plots written=24800
@@ -685,7 +689,7 @@ EndPlot
 BeginPlot
 	x=0,y=14
 	FeatureType=FEATURE_CORAL, FeatureVariety=0
-	TerrainType=TERRAIN_COAST
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
@@ -697,7 +701,7 @@ EndPlot
 BeginPlot
 	x=0,y=16
 	FeatureType=FEATURE_SEAGRASS, FeatureVariety=0
-	TerrainType=TERRAIN_COAST
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
@@ -732,17 +736,17 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=0,y=23
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
 	x=0,y=24
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
 	x=0,y=25
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
@@ -1696,18 +1700,18 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=1,y=12
-	TerrainType=TERRAIN_COAST_TROPICAL
+	TerrainType=TERRAIN_OCEAN
 	PlotType=3
 EndPlot
 BeginPlot
 	x=1,y=13
 	FeatureType=FEATURE_CORAL, FeatureVariety=0
-	TerrainType=TERRAIN_COAST_TROPICAL
+	TerrainType=TERRAIN_OCEAN
 	PlotType=3
 EndPlot
 BeginPlot
 	x=1,y=14
-	TerrainType=TERRAIN_COAST
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
@@ -1719,7 +1723,7 @@ EndPlot
 BeginPlot
 	x=1,y=16
 	FeatureType=FEATURE_SEAGRASS, FeatureVariety=0
-	TerrainType=TERRAIN_COAST
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
@@ -1749,17 +1753,17 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=1,y=22
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
 	x=1,y=23
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
 	x=1,y=24
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
@@ -2717,7 +2721,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=2,y=12
-	TerrainType=TERRAIN_COAST_TROPICAL
+	TerrainType=TERRAIN_OCEAN
 	PlotType=3
 EndPlot
 BeginPlot
@@ -3736,7 +3740,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=3,y=12
-	TerrainType=TERRAIN_COAST_TROPICAL
+	TerrainType=TERRAIN_OCEAN
 	PlotType=3
 EndPlot
 BeginPlot
@@ -4764,19 +4768,19 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=4,y=12
-	TerrainType=TERRAIN_COAST_TROPICAL
+	TerrainType=TERRAIN_OCEAN
 	PlotType=3
 EndPlot
 BeginPlot
 	x=4,y=13
 	FeatureType=FEATURE_CORAL, FeatureVariety=0
-	TerrainType=TERRAIN_COAST_TROPICAL
+	TerrainType=TERRAIN_OCEAN
 	PlotType=3
 EndPlot
 BeginPlot
 	x=4,y=14
 	FeatureType=FEATURE_CORAL, FeatureVariety=0
-	TerrainType=TERRAIN_COAST
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
@@ -5857,7 +5861,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=5,y=24
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
@@ -6880,17 +6884,17 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=6,y=23
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
 	x=6,y=24
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
 	x=6,y=25
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
@@ -7912,17 +7916,17 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=7,y=24
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
 	x=7,y=25
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
 	x=7,y=26
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
@@ -8943,12 +8947,12 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=8,y=25
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
 	x=8,y=26
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
@@ -9935,7 +9939,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=9,y=17
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
@@ -9980,7 +9984,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=9,y=26
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
@@ -31948,7 +31952,6 @@ EndPlot
 BeginPlot
 	x=30,y=37
 	FeatureType=FEATURE_FOREST, FeatureVariety=0
-	RouteType=ROUTE_TRAIL
 	TerrainType=TERRAIN_LUSH
 	PlotType=2
 EndPlot
@@ -62010,6 +62013,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=59,y=25
+	RiverNSDirection=2
+	isWOfRiver
 	ImprovementType=IMPROVEMENT_GOODY_HUT
 	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
 	TerrainType=TERRAIN_LUSH
@@ -63049,8 +63054,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=60,y=25
-	RiverNSDirection=2
-	isWOfRiver
 	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
@@ -64098,6 +64101,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=61,y=25
+	RiverNSDirection=0
+	isWOfRiver
 	BonusType=BONUS_MELON
 	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
 	TerrainType=TERRAIN_GRASS
@@ -65162,12 +65167,17 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=62,y=26
+	RiverNSDirection=0
+	isNOfRiver
+	RiverWEDirection=1
+	isWOfRiver
 	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=62,y=27
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DUNES
 	PlotType=2
 EndPlot
@@ -66224,6 +66234,9 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=63,y=27
+	isNOfRiver
+	RiverWEDirection=1
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DUNES
 	PlotType=2
 EndPlot
@@ -66266,8 +66279,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=63,y=35
-	BonusType=BONUS_COW
-	FeatureType=FEATURE_SAVANNA, FeatureVariety=0
+	BonusType=BONUS_PIG
+	FeatureType=FEATURE_SWORD_GRASS, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -67269,13 +67282,18 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=64,y=26
-	TerrainType=TERRAIN_DUNES
+	RiverNSDirection=2
+	isWOfRiver
+	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
 BeginPlot
 	x=64,y=27
+	isNOfRiver
+	RiverWEDirection=1
 	BonusType=BONUS_CAMEL
-	TerrainType=TERRAIN_DUNES
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
@@ -68309,11 +68327,15 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=65,y=26
+	isNOfRiver
+	RiverWEDirection=1
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DUNES
 	PlotType=2
 EndPlot
 BeginPlot
 	x=65,y=27
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
@@ -69353,13 +69375,17 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=66,y=25
+	RiverNSDirection=2
+	isWOfRiver
 	FeatureType=FEATURE_SWORD_GRASS, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
 BeginPlot
 	x=66,y=26
-	FeatureType=FEATURE_ROCK_ARCH, FeatureVariety=0
+	isNOfRiver
+	RiverWEDirection=1
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DUNES
 	PlotType=2
 EndPlot
@@ -69371,6 +69397,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=66,y=28
+	FeatureType=FEATURE_ROCK_FORM2, FeatureVariety=0
 	TerrainType=TERRAIN_DUNES
 	PlotType=2
 EndPlot
@@ -77968,6 +77995,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=74,y=30
+	BonusType=BONUS_STONE
 	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
@@ -87639,9 +87667,8 @@ BeginPlot
 	isNOfRiver
 	RiverWEDirection=1
 	isWOfRiver
-	ImprovementType=IMPROVEMENT_GOODY_HUT
-	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
-	TerrainType=TERRAIN_PLAINS
+	FeatureType=FEATURE_FOREST
+	TerrainType=TERRAIN_LUSH
 	PlotType=2
 EndPlot
 BeginPlot
@@ -89722,7 +89749,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=85,y=32
-	FeatureType=FEATURE_SWORD_GRASS, FeatureVariety=0
+	BonusType=BONUS_STONE
+	FeatureType=FEATURE_CAVE, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -99167,8 +99195,7 @@ BeginPlot
 	x=94,y=29
 	RiverNSDirection=2
 	isWOfRiver
-	BonusType=BONUS_STONE
-	FeatureType=FEATURE_CAVE, FeatureVariety=0
+	BonusType=BONUS_MARBLE
 	TerrainType=TERRAIN_GRASS
 	PlotType=1
 EndPlot
@@ -122435,7 +122462,7 @@ BeginPlot
 	x=116,y=20
 	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
 	TerrainType=TERRAIN_LUSH
-	PlotType=1
+	PlotType=2
 EndPlot
 BeginPlot
 	x=116,y=21
@@ -126641,7 +126668,6 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=120,y=19
-	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
 	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
@@ -129716,17 +129742,17 @@ EndPlot
 BeginPlot
 	x=123,y=14
 	FeatureType=FEATURE_CORAL, FeatureVariety=0
-	TerrainType=TERRAIN_COAST
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
 	x=123,y=15
-	TerrainType=TERRAIN_COAST
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
 	x=123,y=16
-	TerrainType=TERRAIN_COAST
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
@@ -129761,7 +129787,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=123,y=23
-	TerrainType=TERRAIN_OCEAN_TROPICAL
+	TerrainType=TERRAIN_COAST_TROPICAL
 	PlotType=3
 EndPlot
 BeginPlot
