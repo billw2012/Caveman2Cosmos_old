@@ -46699,7 +46699,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_HERITAGE</PrereqTech>
-			<iPrereqPopulation>7</iPrereqPopulation>
+			<iPrereqPopulation>6</iPrereqPopulation>
 			<PrereqBonuses>
 				<Bonus>BONUS_TABLETS</Bonus>
 				<Bonus>BONUS_SCROLLS</Bonus>
@@ -46718,7 +46718,7 @@
 			<iCost>139</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
-				<iCommerce>-4</iCommerce>
+				<iCommerce>-3</iCommerce>
 				<iCommerce>1</iCommerce>
 			</CommerceChanges>
 			<!-- Special Yield and Commerce modifiers -->
