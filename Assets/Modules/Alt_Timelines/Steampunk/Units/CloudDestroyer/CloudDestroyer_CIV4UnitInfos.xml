@@ -9,7 +9,7 @@
 	<UnitInfos>
 		<UnitInfo>
 			<Class>UNITCLASS_CLOUD_DESTROYER</Class>
-			<Type>UNIT_CLOUDDESTROYER</Type>
+			<Type>UNIT_CLOUD_DESTROYER</Type>
 			<Combat>UNITCOMBAT_BALLOON</Combat>
 			<SubCombatTypes>
 				<SubCombatType>UNITCOMBAT_COMBATANT</SubCombatType>

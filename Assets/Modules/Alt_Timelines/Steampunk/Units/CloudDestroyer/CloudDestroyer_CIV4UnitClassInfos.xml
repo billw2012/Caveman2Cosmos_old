@@ -13,7 +13,7 @@
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>15</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
-            		<DefaultUnit>UNIT_CLOUD_DESTROYER</DefaultUnit>
+            <DefaultUnit>UNIT_CLOUD_DESTROYER</DefaultUnit>
 		</UnitClassInfo>
 	</UnitClassInfos>
 </Civ4UnitClassInfos>
