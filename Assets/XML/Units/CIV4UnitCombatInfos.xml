@@ -18,6 +18,10 @@
 			<iPrecisionModifierChange>10</iPrecisionModifierChange>
 			<iDamageModifierChange>-10</iDamageModifierChange>
 			<iCaptureResistanceModifierChange>-20</iCaptureResistanceModifierChange>
+			<FeatureDoubleMoveChangeTypes>
+				<FeatureType>FEATURE_REEF</FeatureType>
+				<FeatureType>FEATURE_CORAL</FeatureType>
+			</FeatureDoubleMoveChangeTypes>
 			<bForMilitary>1</bForMilitary>
 			<bForNavalMilitary>1</bForNavalMilitary>
 			<Button>Art/Interface/Buttons/units/sparth/categories/recons.dds</Button>

@@ -275,7 +275,7 @@
 	</Define>
 	<Define>
 		<DefineName>MOVE_DENOMINATOR</DefineName>
-		<iDefineIntVal>120</iDefineIntVal>
+		<iDefineIntVal>100</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>STARTING_DISTANCE_PERCENT</DefineName>

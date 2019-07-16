@@ -5279,10 +5279,10 @@ int CvPlot::movementCost(const CvUnit* pUnit, const CvPlot* pFromPlot) const
 			{
 				iRegularCost = std::max(1, (iRegularCost - pUnit->getExtraMoveDiscount()));
 
-				if (iRegularCost > pUnit->baseMoves())
-				{
-					iRegularCost = pUnit->baseMoves();
-				}
+				//if (iRegularCost > pUnit->baseMoves())
+				//{
+				//	iRegularCost = pUnit->baseMoves();
+				//}
 			}
 
 			FAssert(iRegularCost > 0);
