@@ -13,8 +13,8 @@
 			<iValue>1</iValue>
 			<iAdvancedStartCost>5</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
-			<iMovement>90</iMovement>
-			<iFlatMovement>90</iFlatMovement>
+			<iMovement>100</iMovement>
+			<iFlatMovement>100</iFlatMovement>
 			<BonusType>NONE</BonusType>
 			<PrereqOrBonuses/>
 			<Yields/>
