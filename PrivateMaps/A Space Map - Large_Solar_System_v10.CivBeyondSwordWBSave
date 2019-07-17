@@ -44,7 +44,6 @@ BeginGame
 	Victory=VICTORY_TIME
 	Victory=VICTORY_SCIENTIFIC
 	GameTurn=0
-	MaxTurns=2000
 	MaxCityElimination=0
 	NumAdvancedStartPoints=4000
 	TargetScore=0
