@@ -13263,10 +13263,14 @@
 				<TerrainType>TERRAIN_SEA_POLAR</TerrainType>
 				<TerrainType>TERRAIN_SEA</TerrainType>
 				<TerrainType>TERRAIN_SEA_DEEP</TerrainType>
+				<TerrainType>TERRAIN_SEA_DEEP_POLAR</TerrainType>
+				<TerrainType>TERRAIN_SEA_DEEP_TROPICAL</TerrainType>
 				<TerrainType>TERRAIN_OCEAN</TerrainType>
 				<TerrainType>TERRAIN_OCEAN_POLAR</TerrainType>
 				<TerrainType>TERRAIN_OCEAN_TROPICAL</TerrainType>
 				<TerrainType>TERRAIN_TRENCH</TerrainType>
+				<TerrainType>TERRAIN_TRENCH_POLAR</TerrainType>
+				<TerrainType>TERRAIN_TRENCH_TROPICAL</TerrainType>
 			</TerrainImpassableTypes>
 			<TerrainPassableTechs>
 				<TerrainPassableTech>
@@ -13283,6 +13287,14 @@
 				</TerrainPassableTech>
 				<TerrainPassableTech>
 					<TerrainType>TERRAIN_SEA_DEEP</TerrainType>
+					<PassableTech>TECH_SEAFARING</PassableTech>
+				</TerrainPassableTech>
+				<TerrainPassableTech>
+					<TerrainType>TERRAIN_SEA_DEEP_POLAR</TerrainType>
+					<PassableTech>TECH_SEAFARING</PassableTech>
+				</TerrainPassableTech>
+				<TerrainPassableTech>
+					<TerrainType>TERRAIN_SEA_DEEP_TROPICAL</TerrainType>
 					<PassableTech>TECH_SEAFARING</PassableTech>
 				</TerrainPassableTech>
 			</TerrainPassableTechs>
@@ -13944,10 +13956,14 @@
 				<TerrainType>TERRAIN_SEA_POLAR</TerrainType>
 				<TerrainType>TERRAIN_SEA</TerrainType>
 				<TerrainType>TERRAIN_SEA_DEEP</TerrainType>
+				<TerrainType>TERRAIN_SEA_DEEP_POLAR</TerrainType>
+				<TerrainType>TERRAIN_SEA_DEEP_TROPICAL</TerrainType>
 				<TerrainType>TERRAIN_OCEAN</TerrainType>
 				<TerrainType>TERRAIN_OCEAN_POLAR</TerrainType>
 				<TerrainType>TERRAIN_OCEAN_TROPICAL</TerrainType>
 				<TerrainType>TERRAIN_TRENCH</TerrainType>
+				<TerrainType>TERRAIN_TRENCH_POLAR</TerrainType>
+				<TerrainType>TERRAIN_TRENCH_TROPICAL</TerrainType>
 			</TerrainImpassableTypes>
 			<iCombat>2</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -16155,6 +16171,8 @@
 				<TerrainType>TERRAIN_OCEAN_POLAR</TerrainType>
 				<TerrainType>TERRAIN_OCEAN_TROPICAL</TerrainType>
 				<TerrainType>TERRAIN_TRENCH</TerrainType>
+				<TerrainType>TERRAIN_TRENCH_POLAR</TerrainType>
+				<TerrainType>TERRAIN_TRENCH_TROPICAL</TerrainType>
 			</TerrainImpassableTypes>
 			<iCombat>8</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -16676,6 +16694,8 @@
 				<TerrainType>TERRAIN_OCEAN_POLAR</TerrainType>
 				<TerrainType>TERRAIN_OCEAN_TROPICAL</TerrainType>
 				<TerrainType>TERRAIN_TRENCH</TerrainType>
+				<TerrainType>TERRAIN_TRENCH_POLAR</TerrainType>
+				<TerrainType>TERRAIN_TRENCH_TROPICAL</TerrainType>
 			</TerrainImpassableTypes>
 			<iCombat>3</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -18471,10 +18491,14 @@
 				<TerrainType>TERRAIN_SEA_POLAR</TerrainType>
 				<TerrainType>TERRAIN_SEA</TerrainType>
 				<TerrainType>TERRAIN_SEA_DEEP</TerrainType>
+				<TerrainType>TERRAIN_SEA_DEEP_POLAR</TerrainType>
+				<TerrainType>TERRAIN_SEA_DEEP_TROPICAL</TerrainType>
 				<TerrainType>TERRAIN_OCEAN</TerrainType>
 				<TerrainType>TERRAIN_OCEAN_POLAR</TerrainType>
 				<TerrainType>TERRAIN_OCEAN_TROPICAL</TerrainType>
 				<TerrainType>TERRAIN_TRENCH</TerrainType>
+				<TerrainType>TERRAIN_TRENCH_POLAR</TerrainType>
+				<TerrainType>TERRAIN_TRENCH_TROPICAL</TerrainType>
 			</TerrainImpassableTypes>
 			<iCombat>3</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
