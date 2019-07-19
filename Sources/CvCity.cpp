@@ -10398,7 +10398,7 @@ void CvCity::changeNumGreatPeople(int iChange)
 
 int CvCity::getBaseGreatPeopleRate() const
 {
-	return m_iBaseGreatPeopleRate;
+	return m_iBaseGreatPeopleRate + GET_PLAYER(getOwnerINLINE()).getNationalGreatPeopleRate();
 }
 
 
@@ -17994,7 +17994,6 @@ void CvCity::setGreatPeopleUnitRate(UnitTypes eIndex, int iNewValue)
 	}
 
 	m_paiGreatPeopleUnitRate[eIndex] = iNewValue;
-	FAssert(getGreatPeopleUnitRate(eIndex) >= 0);
 }
 
 

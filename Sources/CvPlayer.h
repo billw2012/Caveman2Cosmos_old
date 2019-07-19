@@ -2021,6 +2021,7 @@ protected:
 	bool m_bInquisitionConditions;
 	bool m_bPopBad;
 	int m_iUnitUpgradePriceModifier;
+	int m_iNationalGreatPeopleRate;
 /************************************************************************************************/
 /* REVDCM                                  END                                                  */
 /************************************************************************************************/
@@ -2415,6 +2416,10 @@ public:
 	int getNationalGreatPeopleUnitRate(UnitTypes eIndex) const;
 	void setNationalGreatPeopleUnitRate(UnitTypes eIndex, int iNewValue);
 	void changeNationalGreatPeopleUnitRate(UnitTypes eIndex, int iChange);
+
+	int getNationalGreatPeopleRate() const;
+	void setNationalGreatPeopleRate(int iNewValue);
+	void changeNationalGreatPeopleRate(int iChange);
 
 	int getMaxTradeRoutesAdjustment() const;
 	void setMaxTradeRoutesAdjustment(int iNewValue);

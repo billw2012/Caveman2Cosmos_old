@@ -392,6 +392,7 @@ m_cachedBonusCount(NULL)
 	
 	m_bRebel = false;
 	m_iMotherPlayer = -1;
+	m_iNationalGreatPeopleRate = 0;
 
 	// Used for DynamicCivNames
 	CvWString m_szName;
@@ -1338,6 +1339,7 @@ void CvPlayer::reset(PlayerTypes eID, bool bConstructorCall)
 	//Team Project (6)
 	m_iExtraStateReligionSpreadModifier = 0;
 	m_iExtraNonStateReligionSpreadModifier = 0;
+	m_iNationalGreatPeopleRate = 0;
 	//TB Traits end
 	m_iBaseMergeSelection = FFreeList::INVALID_INDEX;
 	m_iFirstMergeSelection = FFreeList::INVALID_INDEX;
@@ -1427,6 +1429,7 @@ void CvPlayer::reset(PlayerTypes eID, bool bConstructorCall)
 	m_iTaxRateUnhappiness = 0;
 	m_iCivicHappiness = 0;
 	m_iUnitUpgradePriceModifier = 0;
+	m_iNationalGreatPeopleRate = 0;
 	
 	m_iWorldHappiness = 0;
 	m_iProjectHappiness = 0;
@@ -1466,6 +1469,7 @@ void CvPlayer::reset(PlayerTypes eID, bool bConstructorCall)
 	m_iSelectionRegroup = 0;
 	
 	m_iFractionalCombatExperience = 0;
+	m_iNationalGreatPeopleRate = 0;
 
 	m_bInhibitPlotGroupRecalc = false;
 
@@ -26077,6 +26081,7 @@ void CvPlayer::read(FDataStreamBase* pStream)
 		WRAPPER_READ(wrapper, "CvPlayer", &m_iExtraFreedomFighters);
 		WRAPPER_READ(wrapper, "CvPlayer", &m_iGreaterGold);
 		WRAPPER_READ(wrapper, "CvPlayer", &m_iGreaterCulture);
+		WRAPPER_READ(wrapper, "CvPlayer", &m_iNationalGreatPeopleRate);
 		if (m_iGreaterCulture > 1000000)
 		{
 			doCountTotalCulture();
@@ -26844,6 +26849,7 @@ void CvPlayer::write(FDataStreamBase* pStream)
 		WRAPPER_WRITE(wrapper, "CvPlayer", m_iExtraFreedomFighters);
 		WRAPPER_WRITE(wrapper, "CvPlayer", m_iGreaterGold);
 		WRAPPER_WRITE(wrapper, "CvPlayer", m_iGreaterCulture);
+		WRAPPER_WRITE(wrapper, "CvPlayer", m_iNationalGreatPeopleRate);
 		//TB Traits end
 	}
 	//	Use condensed format now - only save non-default array elements
@@ -35452,6 +35458,7 @@ void CvPlayer::clearModifierTotals()
 	m_iExtraStateReligionSpreadModifier = 0;
 	m_iExtraNonStateReligionSpreadModifier = 0;
 	m_iNumUnitPercentCountForCostAdjustment = 0;
+	m_iNationalGreatPeopleRate = 0;
 
 	m_iBaseMergeSelection = FFreeList::INVALID_INDEX;
 	m_iFirstMergeSelection = FFreeList::INVALID_INDEX;
@@ -37680,7 +37687,30 @@ void CvPlayer::setNationalGreatPeopleUnitRate(UnitTypes eIndex, int iValue)
 
 void CvPlayer::changeNationalGreatPeopleUnitRate(UnitTypes eIndex, int iChange)
 {
-	setNationalGreatPeopleUnitRate(eIndex, (getNationalGreatPeopleUnitRate(eIndex) + iChange));
+	if (GC.getGameINLINE().isOption(GAMEOPTION_NO_ESPIONAGE) && GC.getUnitInfo(eIndex).getEspionagePoints() > 0)
+	{
+		return;
+	}
+	changeNationalGreatPeopleRate(iChange);
+	if (eIndex != NO_UNIT)
+	{
+		setNationalGreatPeopleUnitRate(eIndex, (m_paiNationalGreatPeopleUnitRate[eIndex] + iChange));
+	}
+}
+
+int CvPlayer::getNationalGreatPeopleRate() const
+{
+	return m_iNationalGreatPeopleRate;
+}
+
+void CvPlayer::setNationalGreatPeopleRate(int iValue)
+{
+	m_iNationalGreatPeopleRate = iValue;
+}
+
+void CvPlayer::changeNationalGreatPeopleRate(int iChange)
+{
+	setNationalGreatPeopleRate(m_iNationalGreatPeopleRate + iChange);
 }
 
 int CvPlayer::getMaxTradeRoutesAdjustment() const
