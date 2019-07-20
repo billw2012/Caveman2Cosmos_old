@@ -10859,7 +10859,6 @@
 			<ImprovementUpgrade>IMPROVEMENT_FORT</ImprovementUpgrade>
 			<iCulture>5</iCulture>
 			<iSeeFrom>1</iSeeFrom>
-			<iUnique>2</iUnique>
 			<bBombardable>1</bBombardable>
 			<bUpgradeRequiresFortify>1</bUpgradeRequiresFortify>
 		</ImprovementInfo>
@@ -11552,7 +11551,9 @@ ImprovementUpgrade>IMPROVEMENT_STONE_TOWER</ImprovementUpgrade
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
 			</TerrainMakesValids>
-			<ImprovementUpgrade>IMPROVEMENT_LISTENING_NODE</ImprovementUpgrade>
+			<!--
+ImprovementUpgrade>IMPROVEMENT_LISTENING_NODE</ImprovementUpgrade
+			-->
 			<iCulture>10</iCulture>
 			<iVisibilityChange>8</iVisibilityChange>
 			<iSeeFrom>1</iSeeFrom>
