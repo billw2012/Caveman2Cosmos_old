@@ -2,7 +2,7 @@
 
 modName = "Caveman2Cosmos"
 displayName = "Caveman2Cosmos"
-modVersion = "Vpre39"
+modVersion = "V39"
 
 civName = "BtS"
 civVersion = "3.19"
