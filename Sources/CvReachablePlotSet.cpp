@@ -1,10 +1,6 @@
 //	Class representing a set of plots reachable in a fixed number of tiles with given flags
 #include "CvGameCoreDLL.h"
-#include "CvPlot.h"
 #include "CvReachablePlotSet.h"
-#include "CvSelectionGroup.h"
-#include "CvMap.h"
-#include "CvGameCoreUtils.h"
 
 CvReachablePlotSet::const_iterator::const_iterator(CvReachablePlotSet& parent, stdext::hash_map<CvPlot*,CvReachablePlotInfo>::const_iterator& itr) : m_parent(parent)
 {

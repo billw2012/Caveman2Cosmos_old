@@ -1,44 +1,7 @@
 // selectionGroup.cpp
 
 #include "CvGameCoreDLL.h"
-#include "CvGlobals.h"
-#include "CvSelectionGroup.h"
-#include "CvGameAI.h"
-#include "CvPlayerAI.h"
-#include "CvTeamAI.h"
-#include "CvUnit.h"
-#include "CvGameCoreUtils.h"
-#include "CvMap.h"
-#include "CvViewport.h"
-#include "CvPlot.h"
-#include "CvDLLEntityIFaceBase.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvDLLFAStarIFaceBase.h"
-#include "FAStarNode.h"
-#include "CvInfos.h"
-#include "FProfiler.h"
-#include "CyPlot.h"
-#include "CySelectionGroup.h"
-#include "CyArgsList.h"
-#include "CvDLLPythonIFaceBase.h"
-#include <set>
-#include "CvEventReporter.h"
-#include "CvPathGenerator.h"
-#include "CvArtFileMgr.h"
 #include "CvReachablePlotSet.h"
-
-// BUG - start
-#include "CvBugOptions.h"
-// BUG - end
-/************************************************************************************************/
-/* Afforess	                  Start		 09/18/10                                               */
-/*                                                                                              */
-/*                                                                                              */
-/************************************************************************************************/
-#include "CvPopupInfo.h"
-/************************************************************************************************/
-/* Afforess	                     END                                                            */
-/************************************************************************************************/
 
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                      03/30/10                                jdog5000      */

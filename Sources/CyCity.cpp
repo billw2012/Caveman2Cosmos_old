@@ -2,14 +2,6 @@
 // Python wrapper class for CvCity
 //
 #include "CvGameCoreDLL.h"
-#include "CyCity.h"
-#include "CvCity.h"
-#include "CyPlot.h"
-#include "CyArea.h"
-#include "CyUnit.h"
-#include "CvDLLPythonIFaceBase.h"
-#include "CvGlobals.h"
-#include "CvPlayerAI.h"
 
 CyCity::CyCity() : m_pCity(NULL)
 {

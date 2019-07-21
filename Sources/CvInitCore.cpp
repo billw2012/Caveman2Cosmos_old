@@ -1,37 +1,8 @@
 // game.cpp
 #include "CvGameCoreDLL.h"
 #include "version.h"
-#include "CvInitCore.h"
-#include "CvDLLPythonIFaceBase.h"
-#include "CyArgsList.h"
-#include "CvInfos.h"
-#include "CvGlobals.h"
-#include "CvDLLUtilityIFaceBase.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvGameAI.h"
-#include "CvGameCoreUtils.h"
-#include "CvViewport.h"
-/************************************************************************************************/
-/* TGA_INDEXATION                          01/21/08                                MRGENIE      */
-/*                                                                                              */
-/* deleting bogus Corporations and Religions elements from the vectors                          */
-/************************************************************************************************/
-#include "CvXMLLoadUtility.h"
-/************************************************************************************************/
-/* TGA_INDEXATION                          END                                                  */
-/************************************************************************************************/
-#include "CvPopupInfo.h"
-#include "CvPlayerAI.h"
-
-// BUG - start
-// RevolutionDCM - BugMod included in cvGlobals.h
-//#include "BugMod.h"
-// BUG - end
-
 
 // BUG - EXE/DLL Paths - start
-#include "moduleobject.h"
-#include "CvDLLIniParserIFaceBase.h"
 #include <shlobj.h>
 
 CvString* CvInitCore::dllPath = NULL;

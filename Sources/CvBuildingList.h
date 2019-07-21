@@ -15,8 +15,6 @@
 #include "CvBuildingGrouping.h"
 #include "CvBuildingSort.h"
 
-void CyEnumsBuildingListPythonInterface();
-
 class CvBuildingList
 {
 public:

@@ -3,24 +3,8 @@
 // 
 
 #include "CvGameCoreDLL.h"
-#include "CyGame.h"
-#include "CvGameAI.h"
-#include "CyGlobalContext.h"
-#include "CyPlayer.h"
-//#include "CvEnums.h"
-#include "CyCity.h"
-#include "CyDeal.h"
 #include "CyReplayInfo.h"
 #include "CvReplayInfo.h"
-#include "CyPlot.h"
-
-// BUG - MapFinder - start
-#include "CvDLLEngineIFaceBase.h"
-// BUG - MapFinder - end
-
-// BUG - EXE/DLL Paths - start
-#include "CvInitCore.h"
-// BUG - EXE/DLL Paths - end
 
 CyGame::CyGame() : m_pGame(NULL)
 {

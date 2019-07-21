@@ -1,8 +1,5 @@
 #include "CvGameCoreDLL.h"
 #include "CvDllTranslator.h"
-#include "CvInfos.h"
-#include "CvPlayerAI.h"
-#include "CvGameAI.h"
 
 void CvDllTranslator::initializeTags(CvWString& szTagStartIcon, CvWString& szTagStartOur, CvWString& szTagStartCT, CvWString& szTagStartColor, CvWString& szTagStartLink, CvWString& szTagEndLink, CvWString& szEndLinkReplacement, std::map<std::wstring, CvWString>& aIconMap, std::map<std::wstring, CvWString>& aColorMap)
 {

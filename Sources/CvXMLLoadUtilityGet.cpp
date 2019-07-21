@@ -3,12 +3,7 @@
 //
 
 #include "CvGameCoreDLL.h"
-#include "CvDLLXMLIFaceBase.h"
-#include "CvXMLLoadUtility.h"
-#include "CvGlobals.h"
-#include "CvArtFileMgr.h"
 #include "FInputDevice.h"
-#include "FProfiler.h"
 #include <sstream>
 
 //

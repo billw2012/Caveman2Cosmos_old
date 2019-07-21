@@ -1,6 +1,5 @@
 #include "CvGameCoreDLL.h"
 #include "CyReplayInfo.h"
-#include "CyMap.h"
 
 CyReplayInfo::CyReplayInfo()
 {

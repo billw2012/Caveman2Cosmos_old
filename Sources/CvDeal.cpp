@@ -1,16 +1,6 @@
 // CvDeal.cpp
 
 #include "CvGameCoreDLL.h"
-#include "CvGlobals.h"
-#include "CvTeamAI.h"
-#include "CvPlayerAI.h"
-#include "CvMap.h"
-#include "CvPlot.h"
-#include "CvGameCoreUtils.h"
-#include "CvGameTextMgr.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvEventReporter.h"
-#include "CvTaggedSaveFormatWrapper.h"
 
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                      10/02/09                                jdog5000      */

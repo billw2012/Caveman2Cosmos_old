@@ -7,35 +7,12 @@
 
 #include "CvGameCoreDLL.h"
 #include "CvMapExternal.h"
-#include "CvCity.h"
-#include "CvPlotGroup.h"
-#include "CvGlobals.h"
-#include "CvGameAI.h"
-#include "CvPlayerAI.h"
-#include "CvRandom.h"
-#include "CvGameCoreUtils.h"
-#include "CvFractal.h"
-#include "CvPlot.h"
-#include "CvGameCoreUtils.h"
-#include "CvMap.h"
 #include "CvMapGenerator.h"
-#include "CvViewport.h"
-#include "FAStarNode.h"
-#include "CvInitCore.h"
-#include "CvInfos.h"
-#include "FProfiler.h"
-#include "CyArgsList.h"
-
-#include "CvDLLEngineIFaceBase.h"
-#include "CvDLLIniParserIFaceBase.h"
-#include "CvDLLFAStarIFaceBase.h"
-#include "CvDLLFAStarIFaceBase.h"
-#include "CvDLLPythonIFaceBase.h"
+#include "CvFractal.h"
 
 /*********************************/
 /***** Parallel Maps - Begin *****/
 /*********************************/
-#include "CvDLLInterfaceIFaceBase.h"
 #include <direct.h>			// for getcwd()
 #include <stdlib.h>			// for MAX_PATH
 /*******************************/

@@ -7,18 +7,6 @@
 //
 //------------------------------------------------------------------------------------------------
 #include "CvGameCoreDLL.h"
-#include "CvBuildingList.h"
-#include "CvCity.h"
-#include "CvPlayerAI.h"
-#include "CvGameCoreUtils.h"
-
-void CyEnumsBuildingListPythonInterface()
-{
-	CyEnumsBuildingFiltersPythonInterface();
-	CyEnumsBuildingGroupingPythonInterface();
-	CyEnumsBuildingSortPythonInterface();
-}
-
 
 CvBuildingList::CvBuildingList(CvPlayer* pPlayer, CvCity* pCity) :
 m_bFilteringValid(false),

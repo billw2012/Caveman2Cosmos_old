@@ -1,23 +1,7 @@
 // cityAI.cpp
 
 #include "CvGameCoreDLL.h"
-#include "CvGlobals.h"
-#include "CvGameCoreUtils.h"
-#include "CvCityAI.h"
-#include "CvGameAI.h"
-#include "CvPlot.h"
-#include "CvArea.h"
-#include "CvPlayerAI.h"
-#include "CvTeamAI.h"
-#include "CyCity.h"
-#include "CyArgsList.h"
-#include "CvInfos.h"
 #include "CvReachablePlotSet.h"
-#include "FProfiler.h"
-
-#include "CvDLLPythonIFaceBase.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvDLLFAStarIFaceBase.h"
 
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                      10/02/09                                jdog5000      */

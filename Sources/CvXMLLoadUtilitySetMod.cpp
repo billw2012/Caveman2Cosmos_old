@@ -11,20 +11,7 @@
 //  Copyright (c) 2003 Firaxis Games, Inc. All rights reserved.
 //------------------------------------------------------------------------------------------------
 #include "CvGameCoreDLL.h"
-#include "CvDLLXMLIFaceBase.h"
-#include "CvXMLLoadUtility.h"
 #include "CvXMLLoadUtilitySetMod.h"
-/************************************************************************************************/
-/* Afforess	                  Start		 06/15/10                                               */
-/*                                                                                              */
-/*                                                                                              */
-/************************************************************************************************/
-#include "CvInitCore.h"
-/************************************************************************************************/
-/* Afforess	                     END                                                            */
-/************************************************************************************************/
-
-#include "CvArtFileMgr.h"
 
 // In the following method we set the order of loading properly
 void CvXMLLoadUtilitySetMod::setModLoadControlDirArray(bool bSetModControl)

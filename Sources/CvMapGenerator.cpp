@@ -1,18 +1,6 @@
 #include "CvGameCoreDLL.h"
 #include "CvMapGenerator.h"
-#include "CvMap.h"
 #include "CvFractal.h"
-#include "CvPlot.h"
-#include "CvGlobals.h"
-#include "CvRandom.h"
-#include "CvGameCoreUtils.h"
-#include "CvGameAI.h"
-//#include "CvEnums.h"
-#include "CvInfos.h"
-#include "CvDLLPythonIFaceBase.h"
-#include "FProfiler.h"
-#include "CyPlot.h"
-#include "CyArgsList.h"
 
 //
 // static

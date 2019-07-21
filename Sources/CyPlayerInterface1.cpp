@@ -1,10 +1,4 @@
 #include "CvGameCoreDLL.h"
-#include "CyPlayer.h"
-#include "CyUnit.h"
-#include "CyCity.h"
-#include "CyPlot.h"
-#include "CySelectionGroup.h"
-#include "CyArea.h"
 
 //
 // published python interface for CyPlayer

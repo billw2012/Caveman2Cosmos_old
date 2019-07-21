@@ -1,8 +1,5 @@
 #include "CvGameCoreDLL.h"
 #include "CyGameTextMgr.h"
-#include "CyUnit.h"
-#include "CyDeal.h"
-#include "CyCity.h"
 
 //
 // published python interface for CyGameTextMgr

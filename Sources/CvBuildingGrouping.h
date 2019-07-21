@@ -22,17 +22,15 @@ enum BuildingGroupingTypes
 
 	BUILDING_GROUPING_SINGLE, // only one group
 	BUILDING_GROUPING_WONDER_TYPE, // group by normal building, national wonder, team wonder, world wonder
-	BUILDING_GROUPING_DOMAIN // group by military, city defense, other
+	BUILDING_GROUPING_DOMAIN, // group by military, city defense, other
+
+	NUM_BUILDING_GROUPING
 };
-
-#define NUM_BUILDING_GROUPING 3
-
-void CyEnumsBuildingGroupingPythonInterface();
 
 class BuildingGroupingBase
 {
 public:
-	BuildingGroupingBase(bool bInvert = false);
+	BuildingGroupingBase(bool bInvert = false) : m_bInvert(bInvert) {};
 	virtual ~BuildingGroupingBase();
 	// Returns the number of the group of the building
 	int getGroup(CvPlayer *pPlayer, CvCity *pCity, BuildingTypes eBuilding);

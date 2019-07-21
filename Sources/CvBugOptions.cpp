@@ -9,13 +9,6 @@ Created:	2009-01-21
 **********************************************************************/
 
 #include "CvGameCoreDLL.h"
-#include "CyArgsList.h"
-#include "CvDLLPythonIFaceBase.h"
-#include "FVariableSystem.h"
-
-#include "CvBugOptions.h"
-#include "CvUnitFilters.h"
-#include "CvBuildingFilters.h"
 
 bool g_bIsBug = false;
 

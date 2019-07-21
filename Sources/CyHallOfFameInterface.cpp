@@ -1,7 +1,6 @@
 #include "CvGameCoreDLL.h"
 #include "CyReplayInfo.h"
 #include "CyHallOfFameInfo.h"
-#include "CyMap.h"
 
 //
 // published python interface for CyReplayInfo

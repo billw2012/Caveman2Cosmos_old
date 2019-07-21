@@ -8,11 +8,7 @@
 //------------------------------------------------------------------------------------------------
 #include "CvGameCoreDLL.h"
 #include "IntExpr.h"
-#include "CvDLLXMLIFaceBase.h"
 #include <boost/bind.hpp>
-
-#include "CvGameAI.h"
-#include "CvDLLPythonIFaceBase.h"
 
 IntExpr::~IntExpr()
 {

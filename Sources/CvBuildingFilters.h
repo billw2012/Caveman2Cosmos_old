@@ -49,12 +49,10 @@ enum BuildingFilterTypes
 	NUM_BUILDING_FILTERS
 };
 
-void CyEnumsBuildingFiltersPythonInterface();
-
 class BuildingFilterBase
 {
 public:
-	BuildingFilterBase(bool bInvert = false);
+	BuildingFilterBase(bool bInvert = false): m_bInvert(bInvert), m_bActive(false) {};
 	virtual ~BuildingFilterBase();
 	// Returns true if the building has the filter property
 	bool isFiltered(CvPlayer *pPlayer, CvCity *pCity, BuildingTypes eBuilding);

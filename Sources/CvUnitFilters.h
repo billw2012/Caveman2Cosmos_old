@@ -39,12 +39,10 @@ enum UnitFilterTypes
 	NUM_UNIT_FILTERS
 };
 
-void CyEnumsUnitFiltersPythonInterface();
-
 class UnitFilterBase
 {
 public:
-	UnitFilterBase(bool bInvert = false);
+	UnitFilterBase(bool bInvert = false): m_bInvert(bInvert), m_bActive(false) {};
 	virtual ~UnitFilterBase();
 	// Returns true if the unit has the filter property
 	bool isFiltered(CvPlayer *pPlayer, CvCity *pCity, UnitTypes eUnit);

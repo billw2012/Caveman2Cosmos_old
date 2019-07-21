@@ -1,11 +1,6 @@
 // random.cpp
 
 #include "CvGameCoreDLL.h"
-#include "CvRandom.h"
-#include "cvGlobals.h"
-#include "CyArgsList.h"
-#include "CvGameAI.h"
-#include "CvTaggedSaveFormatWrapper.h"
 
 #define RANDOM_A      (1103515245)
 #define RANDOM_C      (12345)

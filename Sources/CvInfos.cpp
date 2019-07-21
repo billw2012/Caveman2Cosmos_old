@@ -10,15 +10,6 @@
 //  Copyright (c) 2003 Firaxis Games, Inc. All rights reserved.
 //------------------------------------------------------------------------------------------------
 #include "CvGameCoreDLL.h"
-#include "CvInfos.h"
-#include "CvGlobals.h"
-#include "CvArtFileMgr.h"
-#include "CvXMLLoadUtility.h"
-#include "CvDLLXMLIFaceBase.h"
-#include "CvGameTextMgr.h"
-#include "CvGameCoreUtils.h"
-#include "CvGameAI.h"
-#include "CvPlayerAI.h"
 
 static CRITICAL_SECTION cInfoCacheSection;
 static bool criticalSectionsInitialized = false;

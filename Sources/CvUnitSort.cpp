@@ -7,34 +7,8 @@
 //
 //------------------------------------------------------------------------------------------------
 #include "CvGameCoreDLL.h"
-#include "CvUnitSort.h"
 #include "CvGameCoreDLLUnDefNew.h"
-#include <boost/python/enum.hpp>
 #include "CvGameCoreDLLDefNew.h"
-#include "CvInfos.h"
-#include "CvCity.h"
-#include "CvPlayerAI.h"
-
-void CyEnumsUnitSortPythonInterface()
-{
-	python::enum_<UnitSortTypes>("UnitSortTypes")
-		.value("NO_UNIT_SORT", NO_UNIT_SORT)
-		.value("UNIT_SORT_NAME", UNIT_SORT_NAME)
-		.value("UNIT_SORT_COST", UNIT_SORT_COST)
-		.value("UNIT_SORT_STRENGTH", UNIT_SORT_STRENGTH)
-		.value("UNIT_SORT_MOVE", UNIT_SORT_MOVE)
-		.value("UNIT_SORT_COLLATERAL", UNIT_SORT_COLLATERAL)
-		.value("UNIT_SORT_RANGE", UNIT_SORT_RANGE)
-		.value("UNIT_SORT_BOMBARD", UNIT_SORT_BOMBARD)
-		.value("UNIT_SORT_CARGO", UNIT_SORT_CARGO)
-		.value("UNIT_SORT_WITHDRAWAL", UNIT_SORT_WITHDRAWAL)
-		.value("UNIT_SORT_POWER", UNIT_SORT_POWER)
-		;
-}
-
-UnitSortBase::UnitSortBase(bool bInvert) : m_bInvert(bInvert)
-{
-}
 
 bool UnitSortBase::isLesserUnit(CvPlayer *pPlayer, CvCity *pCity, UnitTypes eUnit1, UnitTypes eUnit2)
 {

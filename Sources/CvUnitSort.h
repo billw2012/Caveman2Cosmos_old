@@ -29,17 +29,15 @@ enum UnitSortTypes
 	UNIT_SORT_BOMBARD,
 	UNIT_SORT_CARGO,
 	UNIT_SORT_WITHDRAWAL,
-	UNIT_SORT_POWER
+	UNIT_SORT_POWER,
+
+	NUM_UNIT_SORT
 };
-
-void CyEnumsUnitSortPythonInterface();
-
-#define NUM_UNIT_SORT 10
 
 class UnitSortBase
 {
 public:
-	UnitSortBase(bool bInvert = false);
+	UnitSortBase(bool bInvert = false): m_bInvert(bInvert) {};
 	virtual ~UnitSortBase();
 	// Returns the value of eUnit in the sorting category
 	virtual int getUnitValue(CvPlayer *pPlayer, CvCity *pCity, UnitTypes eUnit) = 0;

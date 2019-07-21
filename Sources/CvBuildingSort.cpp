@@ -7,35 +7,8 @@
 //
 //------------------------------------------------------------------------------------------------
 #include "CvGameCoreDLL.h"
-#include "CvBuildingSort.h"
 #include "CvGameCoreDLLUnDefNew.h"
-#include <boost/python/enum.hpp>
 #include "CvGameCoreDLLDefNew.h"
-#include "CvCity.h"
-#include "CvPlayerAI.h"
-
-void CyEnumsBuildingSortPythonInterface()
-{
-	python::enum_<BuildingSortTypes>("BuildingSortTypes")
-		.value("NO_BUILDING_SORT", NO_BUILDING_SORT)
-		.value("BUILDING_SORT_NAME", BUILDING_SORT_NAME)
-		.value("BUILDING_SORT_COST", BUILDING_SORT_COST)
-		.value("BUILDING_SORT_SCIENCE", BUILDING_SORT_SCIENCE)
-		.value("BUILDING_SORT_CULTURE", BUILDING_SORT_CULTURE)
-		.value("BUILDING_SORT_ESPIONAGE", BUILDING_SORT_ESPIONAGE)
-		.value("BUILDING_SORT_GOLD", BUILDING_SORT_GOLD)
-		.value("BUILDING_SORT_FOOD", BUILDING_SORT_FOOD)
-		.value("BUILDING_SORT_PRODUCTION", BUILDING_SORT_PRODUCTION)
-		.value("BUILDING_SORT_HAPPINESS", BUILDING_SORT_HAPPINESS)
-		.value("BUILDING_SORT_HEALTH", BUILDING_SORT_HEALTH)
-		.value("BUILDING_SORT_CRIME", BUILDING_SORT_CRIME)
-		.value("BUILDING_SORT_FLAMMABILITY", BUILDING_SORT_FLAMMABILITY)
-		;
-}
-
-BuildingSortBase::BuildingSortBase(bool bInvert) : m_bInvert(bInvert)
-{
-}
 
 bool BuildingSortBase::isLesserBuilding(CvPlayer *pPlayer, CvCity *pCity, BuildingTypes eBuilding1, BuildingTypes eBuilding2)
 {

@@ -3,10 +3,6 @@
 // updated 6-5
 //
 #include "CvGameCoreDLL.h"
-#include "CyTeam.h"
-#include "CyArea.h"
-#include "CvTeam.h"
-#include "CvPlayerAI.h"
 
 CyTeam::CyTeam() : m_pTeam(NULL)
 {

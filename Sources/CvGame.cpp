@@ -1,38 +1,10 @@
 // game.cpp
 
-
 #include "CvGameCoreDLL.h"
-#include "CvGameCoreUtils.h"
-#include "CvGame.h"
-#include "CvGameAI.h"
-#include "CvMap.h"
-#include "CvViewport.h"
-#include "CvPlot.h"
-#include "CvPlayerAI.h"
-#include "CvRandom.h"
-#include "CvTeamAI.h"
-#include "CvGlobals.h"
-#include "CvInitCore.h"
 #include "CvMapGenerator.h"
-#include "CvArtFileMgr.h"
 #include "CvDiploParameters.h"
 #include "CvReplayMessage.h"
-#include "CyArgsList.h"
-#include "CvInfos.h"
-#include "CvPopupInfo.h"
-#include "FProfiler.h"
 #include "CvReplayInfo.h"
-#include "CvGameTextMgr.h"
-#include "CvBugOptions.h"
-#include <set>
-#include "CvEventReporter.h"
-#include "CvMessageControl.h"
-#include "CvTaggedSaveFormatWrapper.h"
-
-// interface uses
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvDLLEngineIFaceBase.h"
-#include "CvDLLPythonIFaceBase.h"
 
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                      10/02/09                                jdog5000      */

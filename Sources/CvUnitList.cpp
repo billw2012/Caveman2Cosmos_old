@@ -7,18 +7,6 @@
 //
 //------------------------------------------------------------------------------------------------
 #include "CvGameCoreDLL.h"
-#include "CvUnitList.h"
-
-#include "CvCity.h"
-#include "CvPlayerAI.h"
-
-void CyEnumsUnitListPythonInterface()
-{
-	CyEnumsUnitFiltersPythonInterface();
-	CyEnumsUnitGroupingPythonInterface();
-	CyEnumsUnitSortPythonInterface();
-}
-
 
 CvUnitList::CvUnitList(CvPlayer* pPlayer, CvCity* pCity) :
 m_bFilteringValid(false),

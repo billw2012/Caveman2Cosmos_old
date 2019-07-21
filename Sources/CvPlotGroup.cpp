@@ -1,16 +1,6 @@
 // plotGroup.cpp
 
 #include "CvGameCoreDLL.h"
-#include "CvPlotGroup.h"
-#include "CvPlot.h"
-#include "cvGlobals.h"
-#include "CvPlayerAI.h"
-#include "CvMap.h"
-#include "CvCity.h"
-#include "CvDLLFAStarIFaceBase.h"
-#include "FProfiler.h"
-
-#include "CvGameCoreUtils.h"
 
 //#define VALIDATION_FOR_PLOT_GROUPS
 

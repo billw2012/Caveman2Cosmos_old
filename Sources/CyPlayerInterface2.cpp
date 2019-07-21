@@ -1,15 +1,4 @@
 #include "CvGameCoreDLL.h"
-#include "CyPlayer.h"
-#include "CyUnit.h"
-#include "CyCity.h"
-#include "CyPlot.h"
-#include "CySelectionGroup.h"
-#include "CyArea.h"
-//# include <boost/python/manage_new_object.hpp>
-//# include <boost/python/return_value_policy.hpp>
-//# include <boost/python/scope.hpp>
-
-#include "CvProperties.h"
 
 //
 // published python interface for CyPlayer

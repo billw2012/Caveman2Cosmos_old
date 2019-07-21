@@ -1,28 +1,7 @@
 // unitAI.cpp
 
 #include "CvGameCoreDLL.h"
-#include "CvUnitAI.h"
-#include "CvMap.h"
-#include "CvArea.h"
-#include "CvPlot.h"
-#include "CvGlobals.h"
-#include "CvGameAI.h"
-#include "CvTeamAI.h"
-#include "CvPlayerAI.h"
-#include "CvGameCoreUtils.h"
-#include "CvRandom.h"
-#include "CyUnit.h"
-#include "CyArgsList.h"
-#include "CvDLLPythonIFaceBase.h"
-#include "CvInfos.h"
-#include "FProfiler.h"
-#include "FAStarNode.h"
 #include "CvReachablePlotSet.h"
-
-// interface uses
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvDLLFAStarIFaceBase.h"
-
 #include <boost/bind.hpp>
 
 /************************************************************************************************/

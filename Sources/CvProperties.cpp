@@ -7,21 +7,7 @@
 //
 //------------------------------------------------------------------------------------------------
 #include "CvGameCoreDLL.h"
-#include "CvProperties.h"
-//#include "CvGlobals.h"
-//#include "CvArtFileMgr.h"
-#include "CvXMLLoadUtility.h"
-#include "CvDLLXMLIFaceBase.h"
-//#include "CvGameTextMgr.h"
-//#include "CvGameCoreUtils.h"
-#include "CvTaggedSaveFormatWrapper.h"
 #include <boost/bind.hpp>
-
-#include "CvGame.h"
-#include "CvTeam.h"
-#include "CvPlayer.h"
-#include "CvUnit.h"
-#include "CvPlot.h"
 
 CvProperties::CvProperties()
 {

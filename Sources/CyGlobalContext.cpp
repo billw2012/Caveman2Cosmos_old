@@ -4,18 +4,6 @@
 //
 
 #include "CvGameCoreDLL.h"
-#include "CyGlobalContext.h"
-#include "CyGame.h"
-#include "CyPlayer.h"
-#include "CyMap.h"
-#include "CvGlobals.h"
-#include "CvPlayerAI.h"
-#include "CvGameAI.h"
-//#include "CvStructs.h"
-#include "CvInfos.h"
-#include "CyTeam.h"
-#include "CvTeamAI.h"
-#include "CyArtFileMgr.h"
 
 CyGlobalContext::CyGlobalContext()
 {

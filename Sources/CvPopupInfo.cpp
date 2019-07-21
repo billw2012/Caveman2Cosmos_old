@@ -1,5 +1,4 @@
 #include "CvGameCoreDLL.h"
-#include ".\cvpopupinfo.h"
 
 CvPopupInfo::CvPopupInfo(ButtonPopupTypes eButtonPopupType, int iData1, int iData2, int iData3, int iFlags, bool bOption1, bool bOption2) :
 	m_iData1(iData1),

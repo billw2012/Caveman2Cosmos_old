@@ -1,29 +1,6 @@
 // playerAI.cpp
 
 #include "CvGameCoreDLL.h"
-#include "CvPlayerAI.h"
-#include "CvRandom.h"
-#include "CvGlobals.h"
-#include "CvGameCoreUtils.h"
-#include "CvMap.h"
-#include "CvArea.h"
-#include "CvPlot.h"
-#include "CvGameAI.h"
-#include "CvTeamAI.h"
-#include "CvGameCoreUtils.h"
-#include "CvDiploParameters.h"
-#include "CvInitCore.h"
-#include "CyArgsList.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvDLLEntityIFaceBase.h"
-#include "CvDLLPythonIFaceBase.h"
-#include "CvDLLEngineIFaceBase.h"
-#include "CvInfos.h"
-#include "CvPopupInfo.h"
-#include "FProfiler.h"
-#include "CvDLLFAStarIFaceBase.h"
-#include "FAStarNode.h"
-#include "CvEventReporter.h"
 
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                      10/02/09                                jdog5000      */

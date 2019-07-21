@@ -4,14 +4,7 @@
 
 #include <new>
 
-#include "CvGlobals.h"
-#include "FProfiler.h"
-#include "CvDLLInterfaceIFaceBase.h"
-
 #include <psapi.h>
-
-#include "CvDLLPythonIFaceBase.h"
-#include "CvGameCoreUtils.h"
 
 #ifdef MEMORY_TRACKING
 void	ProfileTrackAlloc(void* ptr, int size);
