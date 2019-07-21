@@ -1,4 +1,8 @@
 @echo off
-cd /d "%~dp0.."
+PUSHD "%~dp0.."
 echo Pulling latest changes for Caveman2Cosmos ...
 git pull
+POPD
+PUSHD "%~dp0"
+PackFPKs.bat
+POPD
