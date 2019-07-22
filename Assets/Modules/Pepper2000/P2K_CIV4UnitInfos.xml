@@ -167,13 +167,6 @@
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-        </UnitInfo>
-        <UnitInfo>
-            <Class>UNITCLASS_ALBANIAN_JANISSARY</Class>
-            <Type>UNIT_ALBANIAN_JANISSARY</Type>
-            <MapCategoryTypes>
-				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
-			</MapCategoryTypes>
         </UnitInfo>-->
         <UnitInfo>
             <Class>UNITCLASS_LUNAR_BULLDOZER</Class>
