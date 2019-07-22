@@ -38286,4 +38286,40 @@
 		<Tag>TXT_KEY_BUILDING_ZIMBABWE_EMBASSY_PEDIA</Tag>
 		<English>Great Zimbabwe served as a royal palace for the Zimbabwean monarch and would have been used as the seat of political power. One of its most prominent features were the walls, some of which were over five metres high and which were constructed without mortar. Eventually the city was abandoned and fell into ruin. The earliest known written mention of the ruins was in 1531 by Vicente Pegado, captain of the Portuguese garrison of Sofala, who recorded it as Symbaoe. The first European visit may have been made by the Portuguese traveler António Fernandes in 1513-1515, who crossed twice and reported in detail the region of present-day Zimbabwe (including the Shona kingdoms) and also fortified centers in stone without mortar. However, passing en route a few miles north and about 35 miles south of the site, he did not make a reference to the Great Zimbabwe riddle.</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SCARECROWS</Tag>
+		<English>Scarecrows</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SCARECROWS_STRATEGY</Tag>
+		<English>Build Scarecrows to remove Crows from your city.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SCARECROWS_PEDIA</Tag>
+		<English>A scarecrow or hay-man is a decoy or mannequin in the shape of a human. It is usually dressed in old clothes and placed in open fields to discourage birds such as crows or sparrows from disturbing and feeding on recently cast seed and growing crops.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RAT_CATCHER</Tag>
+		<English>Rat Catcher</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RAT_CATCHER_STRATEGY</Tag>
+		<English>Build a Rat Catcher to remove Rats from your city.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RAT_CATCHER_PEDIA</Tag>
+		<English>A rat-catcher is person who practices rat-catching, the occupation of catching rats as a form of pest control. In developed countries the role may be merged with, or the title inflated to, pest control operative or pest technician.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CRYPTOLOGY_CENTER</Tag>
+		<English>Cryptology Center</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CRYPTOLOGY_CENTER_STRATEGY</Tag>
+		<English>Build a Cryptology Center to reduce crime and improve espionage.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CRYPTOLOGY_CENTER_PEDIA</Tag>
+		<English>The study of codes, or the art of writing and solving them.</English>
+	</TEXT>
 </Civ4GameText>
