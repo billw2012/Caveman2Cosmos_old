@@ -1826,13 +1826,17 @@
 			<PrereqTech>TECH_DIVINE_RIGHT</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<Bonus>BONUS_BONE</Bonus>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_GRAVEYARD</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
-			<!-- Cost -->
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_FUNERARY_SERVICES</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_INDIAN_MAUSOLEUM</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
+			<!-- Construction cost -->
 			<iCost>2640</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
@@ -6736,7 +6740,7 @@
 			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>1</iGreatPeopleRateChange>
 			<!-- Misc. Effects -->
-			<FreeBuilding>BUILDINGCLASS_CAVE_PAINTING</FreeBuilding>
+			<FreeBuilding>BUILDINGCLASS_LASCAUX_EFFECT</FreeBuilding>
 			<!-- Misc -->
 			<iAsset>6</iAsset>
 			<Flavors>

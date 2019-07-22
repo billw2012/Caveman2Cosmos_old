@@ -329,14 +329,6 @@
 			<DefaultBuilding>BUILDING_BROTHEL</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_HEALERHUT</Type>
-			<Description>TXT_KEY_BUILDING_HEALERHUT</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_HEALERHUT</DefaultBuilding>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_DOCTOR</Type>
 			<Description>TXT_KEY_BUILDING_DOCTOR</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -2473,14 +2465,6 @@
 			<DefaultBuilding>BUILDING_RADIO_TELESCOPE</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_TOURNAMENT</Type>
-			<Description>TXT_KEY_BUILDING_TOURNAMENT</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_TOURNAMENT</DefaultBuilding>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_SECRET_ARMY_BASE</Type>
 			<Description>TXT_KEY_BUILDING_SECRET_ARMY_BASE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -2901,14 +2885,6 @@
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_NWS</DefaultBuilding>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_UN_MISSION</Type>
-			<Description>TXT_KEY_UN_MISSION</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_UN_MISSION</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_WEAVER</Type>
@@ -3437,14 +3413,6 @@
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
 			<DefaultBuilding>BUILDING_PORCELAIN_TOWER</DefaultBuilding>			
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_TERRACOTTA</Type>
-			<Description>TXT_KEY_BUILDING_TERRACOTTA</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_TERRACOTTA</DefaultBuilding>			
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_WORLD_TRADE_CENTER</Type>
@@ -11640,14 +11608,6 @@
 			<DefaultBuilding>BUILDING_CRIME_TRUANCY</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_CRIME_SHOPLIFTING</Type>
-			<Description>TXT_KEY_BUILDING_CRIME_SHOPLIFTING</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_CRIME_SHOPLIFTING</DefaultBuilding>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_CRIME_DOMESTICVIOLENCE</Type>
 			<Description>TXT_KEY_BUILDING_CRIME_DOMESTICVIOLENCE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -18714,14 +18674,6 @@
 			<DefaultBuilding>BUILDING_CHURCH_OF_STATE</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_BRAHMIN_LIBRARY</Type>
-			<Description>TXT_KEY_BUILDING_BRAHMIN_LIBRARY</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_BRAHMIN_LIBRARY</DefaultBuilding>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_AZTEC_SACRIFICIAL_ALTAR</Type>
 			<Description>TXT_KEY_BUILDING_WONDER_SACRIFICIAL_ALTAR</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -21355,6 +21307,78 @@
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_AUTOBUILD_HORSE_NEAR</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_LASCAUX_EFFECT</Type>
+			<Description>TXT_KEY_BUILDING_LASCAUX_EFFECT</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_LASCAUX_EFFECT</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_BURIAL_TRADITION_CAVE</Type>
+			<Description>TXT_KEY_BURIAL_TRADITION_CAVE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BURIAL_TRADITION_CAVE</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_BURIAL_TRADITION_EARTH</Type>
+			<Description>TXT_KEY_BURIAL_TRADITION_EARTH</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BURIAL_TRADITION_EARTH</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_BURIAL_TRADITION_FIRE</Type>
+			<Description>TXT_KEY_BURIAL_TRADITION_FIRE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BURIAL_TRADITION_FIRE</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_BURIAL_TRADITION_SKY</Type>
+			<Description>TXT_KEY_BURIAL_TRADITION_SKY</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BURIAL_TRADITION_SKY</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_BURIAL_TRADITION_BONE</Type>
+			<Description>TXT_KEY_BURIAL_TRADITION_BONE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BURIAL_TRADITION_BONE</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_BURIAL_TRADITION_MUMMY</Type>
+			<Description>TXT_KEY_BURIAL_TRADITION_MUMMY</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BURIAL_TRADITION_MUMMY</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_BURIAL_PLATFORMS</Type>
+			<Description>TXT_KEY_BURIAL_PLATFORMS</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BURIAL_PLATFORMS</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_FUNERARY_SERVICES</Type>
+			<Description>TXT_KEY_FUNERARY_SERVICES</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_FUNERARY_SERVICES</DefaultBuilding>
 		</BuildingClassInfo>
 	</BuildingClassInfos>
 </Civ4BuildingClassInfos>

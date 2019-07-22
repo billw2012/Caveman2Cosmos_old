@@ -70,14 +70,6 @@
 			<DefaultBuilding>BUILDING_CAMEL_STORY</DefaultBuilding>
 		</BuildingClassInfo-->
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_CRAB_MYTH</Type>
-			<Description>TXT_KEY_BUILDING_CRAB_MYTH</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_CRAB_MYTH</DefaultBuilding>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_DEER_MYTH</Type>
 			<Description>TXT_KEY_BUILDING_DEER_MYTH</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -158,22 +150,6 @@
 			<DefaultBuilding>BUILDING_GOAT_STORY</DefaultBuilding>
 		</BuildingClassInfo-->
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_GREATWHITE_SHARK_MYTH</Type>
-			<Description>TXT_KEY_BUILDING_GREATWHITE_SHARK_MYTH</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_GREATWHITE_SHARK_MYTH</DefaultBuilding>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_HAMMERHEAD_SHARK_MYTH</Type>
-			<Description>TXT_KEY_BUILDING_HAMMERHEAD_SHARK_MYTH</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_HAMMERHEAD_SHARK_MYTH</DefaultBuilding>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_HORSE_MYTH</Type>
 			<Description>TXT_KEY_BUILDING_HORSE_MYTH</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -188,14 +164,6 @@
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_LLAMA_MYTH</DefaultBuilding>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_LION_MYTH</Type>
-			<Description>TXT_KEY_BUILDING_LION_MYTH</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_LION_MYTH</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_MARSUPIAL_MYTH</Type>
@@ -269,14 +237,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_RAY_STORY</DefaultBuilding>
 		</BuildingClassInfo-->
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_REEF_SHARK_MYTH</Type>
-			<Description>TXT_KEY_BUILDING_REEF_SHARK_MYTH</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_REEF_SHARK_MYTH</DefaultBuilding>
-		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_SCAVENGER_MYTH</Type>
 			<Description>TXT_KEY_BUILDING_SCAVENGER_MYTH</Description>
@@ -381,14 +341,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_WEASEL_STORY</DefaultBuilding>
 		</BuildingClassInfo-->
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_WHALESHARK_MYTH</Type>
-			<Description>TXT_KEY_BUILDING_WHALESHARK_MYTH</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_WHALESHARK_MYTH</DefaultBuilding>
-		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_UNICORN_MYTH</Type>
 			<Description>TXT_KEY_BUILDING_UNICORN_MYTH</Description>
@@ -508,30 +460,6 @@
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_PALEOLITHIC_GROUNDSLOTH_MYTH_EFFECT</DefaultBuilding>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_PALEOLITHIC_GROUNDSLOTH_STORY</Type>
-			<Description>TXT_KEY_BUILDING_PALEOLITHIC_GROUNDSLOTH_STORY</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_PALEOLITHIC_GROUNDSLOTH_STORY</DefaultBuilding>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_PALEOLITHIC_GROUNDSLOTH_STORIES</Type>
-			<Description>TXT_KEY_BUILDING_PALEOLITHIC_GROUNDSLOTH_STORIES</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_PALEOLITHIC_GROUNDSLOTH_STORIES</DefaultBuilding>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_PALEOLITHIC_GROUNDSLOTH_STORIES_EFFECT</Type>
-			<Description>TXT_KEY_BUILDING_PALEOLITHIC_GROUNDSLOTH_STORIES_EFFECT</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_PALEOLITHIC_GROUNDSLOTH_STORIES_EFFECT</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_PALEOLITHIC_MARSUPIAL_MYTH</Type>
