@@ -3,14 +3,14 @@
 #########################################
 
 #### Paths ####
-#TOOLKIT=C:\Microsoft Visual C++ Toolkit 2003
-#PSDK=C:\Program Files\Microsoft SDKs\Windows\v7.0
-#CIVINSTALL=E:\Civ4\Beyond the Sword
-#GLOBALBOOST=$(CIVINSTALL)\CvGameCoreDLL\Boost-1.32.0
-#GLOBALPYTHON=$(CIVINSTALL)\CvGameCoreDLL\Python24
-#TORTOISE="C:\Programme\TortoiseSVN"
-## Uncomment to have newly compiled dlls copied to your mod's Assets directory
-#YOURMOD=C:\Users\Danny\Documents\My Games\beyond the sword\MODS\MyMod
+# These rely on the deps folder extracted from deps.exe.
+# This should happen automatically when using the build batch files, otherwise run Tools\InstallDeps.bat
+TOOLKIT=deps\Microsoft Visual C++ Toolkit 2003
+COMPILER_TOOLKIT=$(TOOLKIT)
+PSDK=deps\Microsoft Platform SDK
+GLOBALBOOST=deps\Boost-1.32.0
+GLOBALPYTHON=deps\Python24
+# TORTOISE="C:\Program files\TortoiseSVN"
 
 include MakefilePaths
 
@@ -19,9 +19,9 @@ CC="$(TOOLKIT)\bin\cl.exe"
 CPP="$(TOOLKIT)\bin\cl.exe"
 LD="$(TOOLKIT)\bin\link.exe"
 RC="$(PSDK)\bin\rc.exe"
-WCREV="$(TORTOISE)\bin\SubWCRev.exe"
+# WCREV="$(TORTOISE)\bin\SubWCRev.exe"
 ## Uncomment to build dependencies using fastdep
-FD="$(MAKEDIR)\bin\fastdep.exe"
+FD="$(MAKEDIR)\deps\fastdep\fastdep.exe"
 
 #### You shouldn't need to modify anything beyond this point ####
 #################################################################
@@ -240,9 +240,10 @@ $(Final_Release_PCH) Final_Release\_precompile.obj:
 	$(RC) /Fo$@ $(Final_Release_INCS) $<
 	@DEL "$*.res.@"
 
-!IF [$(WCREV) . version.svn version.h] != 0
-!MESSAGE Error running SubWCRev
-!ENDIF
+# TODO: version.h for git!
+# !IF [$(WCREV) . version.svn version.h] != 0
+# !MESSAGE Error running SubWCRev
+# !ENDIF
 
 !IFDEF FD
 

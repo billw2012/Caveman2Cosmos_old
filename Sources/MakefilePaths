@@ -3,13 +3,6 @@
 #########################################
 
 #### Paths ####
-TOOLKIT=C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003
-COMPILER_TOOLKIT=$(TOOLKIT)
-SUB_DLL_COMPILER_TOOLKIT=C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003
-PSDK=C:\Program Files\Microsoft Platform SDK
-CIVINSTALL=C:\Program Files (x86)\Civilization IV Complete\Civ4\Beyond the Sword
-GLOBALBOOST=$(CIVINSTALL)\CvGameCoreDLL\Boost-1.32.0
-GLOBALPYTHON=$(CIVINSTALL)\CvGameCoreDLL\Python24
-TORTOISE="C:\Program files\TortoiseSVN"
+
 ## Uncomment to have newly compiled dlls copied to your mod's Assets directory
-YOURMOD=C:\Program Files (x86)\Civilization IV Complete\Civ4\Beyond the Sword\Mods\Caveman2Cosmos\
+# YOURMOD=C:\Program Files (x86)\Civilization IV Complete\Civ4\Beyond the Sword\Mods\Caveman2Cosmos\
