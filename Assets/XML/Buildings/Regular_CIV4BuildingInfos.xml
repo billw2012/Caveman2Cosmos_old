@@ -56847,7 +56847,7 @@
 			<!-- Jousting Tournament -->
 			<BuildingClass>BUILDINGCLASS_TOURNAMENT</BuildingClass>
 			<Type>BUILDING_TOURNAMENT</Type>
-			<Description>TXT_KEY_BUILDING_TOURNAMRNT</Description>
+			<Description>TXT_KEY_BUILDING_TOURNAMENT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TOURNAMENT_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_TOURNAMENT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
