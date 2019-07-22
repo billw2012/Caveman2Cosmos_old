@@ -13,10 +13,6 @@
 //  Copyright (c) 2003 Firaxis Games, Inc. All rights reserved.
 //------------------------------------------------------------------------------------------------
 #include "CvGameCoreDLL.h"
-#include "CvInfoWater.h"
-#include "CvXMLLoadUtility.h"
-#include "CvDLLXMLIFaceBase.h"
-#include "CvGlobals.h"
 
 //======================================================================================================
 //					CvWaterPlaneInfo

@@ -19521,4 +19521,16 @@
 		<Tag>TXT_KEY_PROMOTION_PREREQ_NORM_INVISIBLE_TEXT</Tag>
 		<English>[ICON_BULLET]Only units that have some natural invisibility ability can select this promotion.</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTIONLINE_MAMMOTH_HUNTER</Tag>
+		<English>Mammoth Hunter</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MAMMOTH_HUNTER1</Tag>
+		<English>Mammoth Hunter I</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MAMMOTH_HUNTER2</Tag>
+		<English>Mammoth Hunter II</English>
+	</TEXT>
 </Civ4GameText>

@@ -1,26 +1,6 @@
 // team.cpp
 
 #include "CvGameCoreDLL.h"
-#include "CvPlayerAI.h"
-#include "CvDefines.h"
-#include "CvGameCoreUtils.h"
-#include "cvGlobals.h"
-#include "CvTeamAI.h"
-#include "CvPlayerAI.h"
-#include "CvGameAI.h"
-#include "CvMap.h"
-#include "CvPlot.h"
-#include "CvTeam.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvEventReporter.h"
-#include "CvDLLEngineIFaceBase.h"
-#include "CvArtFileMgr.h"
-#include "CvDiploParameters.h"
-#include "CvInfos.h"
-#include "CvPopupInfo.h"
-#include "CvDLLPythonIFaceBase.h"
-#include "CyArgsList.h"
-#include "FProfiler.h"
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                      10/02/09                                jdog5000      */
 /*                                                                                              */
@@ -29,15 +9,6 @@
 #include "BetterBTSAI.h"
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                       END                                                  */
-/************************************************************************************************/
-/************************************************************************************************/
-/* REVOLUTION_MOD                         10/22/08                                jdog5000      */
-/*                                                                                              */
-/*                                                                                              */
-/************************************************************************************************/
-#include "CvInitCore.h"
-/************************************************************************************************/
-/* REVOLUTION_MOD                          END                                                  */
 /************************************************************************************************/
 
 // Public Functions...

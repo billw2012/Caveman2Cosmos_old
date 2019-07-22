@@ -46,16 +46,6 @@
 			<KFM />
 			<Button>Art/Interface/buttons/Buildings/Religions/Andean/04.dds</Button>
 		</BuildingArtInfo>
-		<!--BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_CHOQUEQUIRAO</Type>
-			<LSystem>LSYSTEM_3x2</LSystem>
-			<bAnimated>1</bAnimated>
-			<fScale>3.9</fScale>
-			<fInterfaceScale>3.9</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Choquequirao/GauriFort.nif</NIF>
-			<KFM />
-			<Button>Art/Interface/Buttons/Great_Wonders/Choquequirao.dds</Button>
-		</BuildingArtInfo-->
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MACHU_PICCHU</Type>
 			<LSystem>LSYSTEM_2x2</LSystem>

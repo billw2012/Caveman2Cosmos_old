@@ -1,38 +1,5 @@
 #include "CvGameCoreDLL.h"
-#include "CvGameCoreUtils.h"
-#include "CvInitCore.h"
-#include "CvCity.h"
-#include "CvUnit.h"
-#include "CvGlobals.h"
-#include "CvGameAI.h"
-#include "CvMap.h"
-#include "CvViewport.h"
-#include "CvPlot.h"
-#include "CvTeamAI.h"
-#include "CvPlayerAI.h"
-#include "CvGameCoreUtils.h"
-#include "CyArgsList.h"
-#include "CvGameTextMgr.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvDLLPythonIFaceBase.h"
-#include "CvDLLEngineIFaceBase.h"
-#include "CvEventReporter.h"
 #include "CvDLLWidgetData.h"
-#include "CvPopupInfo.h"
-#include "FProfiler.h"
-#include "CvMessageControl.h"
-
-// BUG - start
-// RevolutionDCM - BugMod included in CvGlobals.h
-//#include "BugMod.h"
-#include "CvBugOptions.h"
-// BUG - end
-
-// BUFFY - start
-#ifdef _BUFFY
-#include "Buffy.h"
-#endif
-// BUFFY - end
 
 CvDLLWidgetData* CvDLLWidgetData::m_pInst = NULL;
 

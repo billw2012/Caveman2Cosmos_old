@@ -85,7 +85,7 @@
 			  </PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
-		<!--BuildingInfo>
+		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_CATACOMBS</BuildingClass>
 			<Type>BUILDING_CATACOMBS</Type>
 			<Description>TXT_KEY_BUILDING_CATACOMBS</Description>
@@ -103,7 +103,7 @@
 			<GreatPeopleUnitClass>UNITCLASS_ENGINEER</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<bNukeImmune>1</bNukeImmune>
-			<iCost>300</iCost>
+			<iCost>876</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
@@ -134,7 +134,7 @@
 					<iProductonModifier>100</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
-		</BuildingInfo-->
+		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_CYRUS_CYLINDER</BuildingClass>
 			<Type>BUILDING_CYRUS_CYLINDER</Type>
@@ -622,7 +622,7 @@
 				</Flavor>
 			</Flavors>
 		</BuildingInfo>
-		<!--BuildingInfo>
+		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_ZIZKOV</BuildingClass>
 			<Type>BUILDING_ZIZKOV</Type>
 			<Description>TXT_KEY_BUILDING_ZIZKOV</Description>
@@ -638,7 +638,7 @@
 			<GreatPeopleUnitClass>UNITCLASS_GREAT_SPY</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<bNukeImmune>1</bNukeImmune>
-			<iCost>1250</iCost>
+			<iCost>7080</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
@@ -667,6 +667,6 @@
 				<bCommerceChangeOriginalOwner>0</bCommerceChangeOriginalOwner>
 				<bCommerceChangeOriginalOwner>1</bCommerceChangeOriginalOwner>
 			</CommerceChangeOriginalOwners>
-		</BuildingInfo-->
+		</BuildingInfo>
 	</BuildingInfos>
 </Civ4BuildingInfos>

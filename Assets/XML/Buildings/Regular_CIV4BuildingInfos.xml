@@ -2297,17 +2297,31 @@
 			</PrereqBonuses>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_GRAVEYARD</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_HEALERHUT</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_CAVE</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_EARTH</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_FIRE</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_MEDICINE</ObsoleteTech>
 			<ReplaceBuildings>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_FUNERARY_SERVICES</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
 				<ReplaceBuilding>
 					<BuildingClassType>BUILDINGCLASS_MODERN_EMBALMER</BuildingClassType>
 					<bReplace>1</bReplace>
@@ -20960,6 +20974,10 @@
 					<BuildingClassType>BUILDINGCLASS_FRESCO</BuildingClassType>
 					<bReplace>1</bReplace>
 				</ReplaceBuilding>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_LASCAUX_EFFECT</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
 			</ReplaceBuildings>
 			<!-- Construction cost -->
 			<iCost>45</iCost>
@@ -24686,6 +24704,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_CITY_MORGUE_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_CITY_MORGUE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
+			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CITY_MORGUE</ArtDefineTag>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -24697,7 +24716,7 @@
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_GRAVEYARD</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_FUNERARY_SERVICES</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
@@ -42989,12 +43008,16 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_IDEOGRAMS</PrereqTech>
 			<Bonus>BONUS_DYE</Bonus>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_ROCK_ART</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_LASCAUX_EFFECT</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_MASS_MEDIA</ObsoleteTech>
 			<!-- Construction cost -->
@@ -43148,19 +43171,13 @@
 				<Bonus>BONUS_WOOD</Bonus>
 				<Bonus>BONUS_TIMBER</Bonus>
 			</PrereqBonuses>
-			<PrereqOrBuildingClasses>
-				<PrereqOrBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_BURIAL_GROUND</BuildingClassType>
-					<bPrereqBuildingClass>1</bPrereqBuildingClass>
-				</PrereqOrBuildingClass>
-				<PrereqOrBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_GRAVEYARD</BuildingClassType>
-					<bPrereqBuildingClass>1</bPrereqBuildingClass>
-				</PrereqOrBuildingClass>
-			</PrereqOrBuildingClasses>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_BONFIRE</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_FIRE</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
@@ -43190,7 +43207,12 @@
 					<PropertyType>PROPERTY_DISEASE</PropertyType>
 					<iAmountPerTurn>-5</iAmountPerTurn>
 				</PropertySource>
-			</PropertyManipulators> 
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_AIR_POLLUTION</PropertyType>
+					<iAmountPerTurn>5</iAmountPerTurn>
+				</PropertySource>
+			</PropertyManipulators>
 			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -47254,12 +47276,12 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_SCRIPTURES</PrereqTech>
-			<PrereqNotBuildingClasses>
-				<PrereqNotBuildingClass>
-					<BuildingClassMustNotHave>BUILDINGCLASS_TOWER_OF_SILENCE</BuildingClassMustNotHave>
-					<bPrereqNot>1</bPrereqNot>
-				</PrereqNotBuildingClass>
-			</PrereqNotBuildingClasses>
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_EARTH</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
 			<!-- Construction cost -->
 			<iCost>192</iCost>
 			<BonusProductionModifiers>
@@ -47282,7 +47304,7 @@
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
-				<iCommerce>-4</iCommerce>
+				<iCommerce>-1</iCommerce>
 			</CommerceChanges>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
@@ -47311,6 +47333,12 @@
 				</Flavor>
 			</Flavors>
 			<iConquestProb>95</iConquestProb>
+			<ReplaceBuildings>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_FUNERARY_SERVICES</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+			</ReplaceBuildings>
 			<!-- Properties diffusion -->
 			<PropertyManipulators>
 				<PropertySource>
@@ -56847,7 +56875,7 @@
 			<!-- Jousting Tournament -->
 			<BuildingClass>BUILDINGCLASS_TOURNAMENT</BuildingClass>
 			<Type>BUILDING_TOURNAMENT</Type>
-			<Description>TXT_KEY_BUILDING_JOUSTING_ARENA</Description>
+			<Description>TXT_KEY_BUILDING_TOURNAMENT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TOURNAMENT_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_TOURNAMENT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
@@ -64000,6 +64028,36 @@
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_HOUSE_ERA1_LDHW</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_HOUSE_ERA1_MDHW</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_HOUSE_ERA2_LDHW</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_HOUSE_ERA2_MDHW</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+					<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_HOUSE_ERA3_LDHW</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_HOUSE_ERA3_MDHW</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+		       </PrereqOrBuildingClasses>
 			<!-- Construction cost -->
 			<iCost>192</iCost>
 			<BonusProductionModifiers>
@@ -64046,6 +64104,12 @@
 				</Flavor>
 			</Flavors>
 			<iConquestProb>95</iConquestProb>
+			<ReplaceBuildings>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_FUNERARY_SERVICES</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+			</ReplaceBuildings>
 			<!-- Properties diffusion -->
 			<PropertyManipulators>
 				<PropertySource>
@@ -70704,12 +70768,28 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_ANATOMY</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<BuildingClassNeededs>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_GRAVEYARD</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-			</BuildingClassNeededs>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_CAVE</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_EARTH</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_FIRE</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_SKY</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_FUNERARY_SERVICES</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
 			<!-- Construction cost -->
 			<iCost>380</iCost>
 			<!-- Main effects -->
@@ -88624,7 +88704,12 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Obsolescence -->
-			<ObsoleteTech>TECH_LITERATURE</ObsoleteTech>
+			<ReplaceBuildings>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_LASCAUX_EFFECT</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+			</ReplaceBuildings>
 			<!-- Construction cost -->
 			<iCost>80</iCost>
 			<!-- Main effects -->
@@ -88633,6 +88718,16 @@
 				<iCommerce>1</iCommerce>
 				<iCommerce>1</iCommerce>
 			</CommerceChanges>
+			<TechCommerceChanges>
+				<TechCommerceChange>
+					<PrereqTech>TECH_LITERATURE</PrereqTech>
+					<TechCommerce>
+						<iCommerce>0</iCommerce>
+						<iCommerce>-1</iCommerce>
+						<iCommerce>-1</iCommerce>
+					</TechCommerce>
+				</TechCommerceChange>
+			</TechCommerceChanges>
 			<!-- Other -->
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<!-- Properties diffusion -->
@@ -88641,6 +88736,17 @@
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
 					<PropertyType>PROPERTY_EDUCATION</PropertyType>
 					<iAmountPerTurn>1</iAmountPerTurn>
+				</PropertySource>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_EDUCATION</PropertyType>
+					<iAmountPerTurn>-1</iAmountPerTurn>
+					<Active>
+						<Has>
+							<GOMType>GOM_TECH</GOMType>
+							<ID>TECH_LITERATURE</ID>
+						</Has>
+					</Active>
 				</PropertySource>
 			</PropertyManipulators>
 			<iAIWeight>1</iAIWeight>
@@ -96736,22 +96842,23 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_CEREMONIAL_BURIAL</PrereqTech>
-			<Bonus>BONUS_MAMMOTH</Bonus>
 			<PrereqBonuses>
 				<Bonus>BONUS_FLINT</Bonus>
 			</PrereqBonuses>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_BURIAL_GROUND</BuildingClassType>
-					<bPrereqBuildingClass>1</bPrereqBuildingClass>
-				</PrereqOrBuildingClass>
-				<PrereqOrBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_GRAVEYARD</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_PALEOLITHIC_MAMMOTH_MYTH_EFFECT</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_IRON_WORKING</ObsoleteTech>
+			<ReplaceBuildings>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_FUNERARY_SERVICES</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+			</ReplaceBuildings>
 			<!-- Construction cost -->
 			<iCost>80</iCost>
 			<!-- Main effects -->
@@ -96772,6 +96879,8 @@
 				</TechHappinessType>
 			</TechHappinessTypes>
 			<!-- Other -->
+			<FreePromotion>PROMOTION_MAMMOTH_HUNTER1</FreePromotion>
+			<bApplyFreePromotionOnMove>1</bApplyFreePromotionOnMove>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_CULTURE</FlavorType>
@@ -98351,16 +98460,30 @@
 			</PrereqBonuses>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_BURIAL_GROUND</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_CAVE</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
 				<PrereqOrBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_GRAVEYARD</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_EARTH</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_FIRE</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_SKY</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<!-- Obsolescence -->
-			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<ObsoleteTech>TECH_PROPAGANDA</ObsoleteTech>
+			<ReplaceBuildings>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_FUNERARY_SERVICES</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+			</ReplaceBuildings>
 			<!-- Construction cost -->
 			<iCost>80</iCost>
 			<!-- Main effects -->
@@ -116513,6 +116636,656 @@
 			<iCost>-1</iCost>
 			<!-- Other -->
             <bAutoBuild>1</bAutoBuild>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_BURIAL_TRADITION_CAVE</BuildingClass>
+			<Type>BUILDING_BURIAL_TRADITION_CAVE</Type>
+			<Description>TXT_KEY_BUILDING_BURIAL_TRADITION_CAVE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BURIAL_TRADITION_CAVE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BURIAL_TRADITION_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_BURIAL_TRADITION_CAVE</ArtDefineTag>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CEREMONIAL_BURIAL</PrereqTech>
+			<ObsoleteTech>TECH_COMPULSORY_EDUCATION</ObsoleteTech>
+			<iCost>80</iCost>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<iConquestProb>70</iConquestProb>
+			<CommerceChanges>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>1</iCommerce>
+			</CommerceChanges>
+			<PrereqOrFeature>
+				<PrereqFeature>
+					<FeatureType>FEATURE_CAVE</FeatureType>
+					<bPrereqFeature>1</bPrereqFeature>
+				</PrereqFeature>
+			</PrereqOrFeature>
+			<PrereqNotBuildingClasses>
+				<PrereqNotBuildingClass>
+					<BuildingClassMustNotHave>BUILDINGCLASS_BURIAL_TRADITION_EARTH</BuildingClassMustNotHave>
+					<bPrereqNot>1</bPrereqNot>
+				</PrereqNotBuildingClass>
+				<PrereqNotBuildingClass>
+					<BuildingClassMustNotHave>BUILDINGCLASS_BURIAL_TRADITION_FIRE</BuildingClassMustNotHave>
+					<bPrereqNot>1</bPrereqNot>
+				</PrereqNotBuildingClass>
+				<PrereqNotBuildingClass>
+					<BuildingClassMustNotHave>BUILDINGCLASS_BURIAL_TRADITION_SKY</BuildingClassMustNotHave>
+					<bPrereqNot>1</bPrereqNot>
+				</PrereqNotBuildingClass>
+			</PrereqNotBuildingClasses>
+			<ReplaceBuildings>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_FUNERARY_SERVICES</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+			</ReplaceBuildings>
+			<PropertyManipulators>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_DISEASE</PropertyType>
+					<iAmountPerTurn>-2</iAmountPerTurn>
+				</PropertySource>
+			</PropertyManipulators>
+			<iAIWeight>1</iAIWeight>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_BURIAL_TRADITION_EARTH</BuildingClass>
+			<Type>BUILDING_BURIAL_TRADITION_EARTH</Type>
+			<Description>TXT_KEY_BUILDING_BURIAL_TRADITION_EARTH</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BURIAL_TRADITION_EARTH_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BURIAL_TRADITION_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_BURIAL_TRADITION_EARTH</ArtDefineTag>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CEREMONIAL_BURIAL</PrereqTech>
+			<ObsoleteTech>TECH_COMPULSORY_EDUCATION</ObsoleteTech>
+			<iCost>80</iCost>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<iConquestProb>70</iConquestProb>
+			<CommerceChanges>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>1</iCommerce>
+			</CommerceChanges>
+			<PrereqNotBuildingClasses>
+				<PrereqNotBuildingClass>
+					<BuildingClassMustNotHave>BUILDINGCLASS_BURIAL_TRADITION_CAVE</BuildingClassMustNotHave>
+					<bPrereqNot>1</bPrereqNot>
+				</PrereqNotBuildingClass>
+				<PrereqNotBuildingClass>
+					<BuildingClassMustNotHave>BUILDINGCLASS_BURIAL_TRADITION_FIRE</BuildingClassMustNotHave>
+					<bPrereqNot>1</bPrereqNot>
+				</PrereqNotBuildingClass>
+				<PrereqNotBuildingClass>
+					<BuildingClassMustNotHave>BUILDINGCLASS_BURIAL_TRADITION_SKY</BuildingClassMustNotHave>
+					<bPrereqNot>1</bPrereqNot>
+				</PrereqNotBuildingClass>
+			</PrereqNotBuildingClasses>
+			<ReplaceBuildings>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_FUNERARY_SERVICES</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+			</ReplaceBuildings>
+			<iAIWeight>1</iAIWeight>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_BURIAL_TRADITION_FIRE</BuildingClass>
+			<Type>BUILDING_BURIAL_TRADITION_FIRE</Type>
+			<Description>TXT_KEY_BUILDING_BURIAL_TRADITION_FIRE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BURIAL_TRADITION_FIRE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BURIAL_TRADITION_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_BURIAL_TRADITION_FIRE</ArtDefineTag>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CEREMONIAL_BURIAL</PrereqTech>
+			<ObsoleteTech>TECH_COMPULSORY_EDUCATION</ObsoleteTech>
+			<iCost>80</iCost>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<iConquestProb>70</iConquestProb>
+			<CommerceChanges>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>1</iCommerce>
+			</CommerceChanges>
+			<PrereqNotBuildingClasses>
+				<PrereqNotBuildingClass>
+					<BuildingClassMustNotHave>BUILDINGCLASS_BURIAL_TRADITION_CAVE</BuildingClassMustNotHave>
+					<bPrereqNot>1</bPrereqNot>
+				</PrereqNotBuildingClass>
+				<PrereqNotBuildingClass>
+					<BuildingClassMustNotHave>BUILDINGCLASS_BURIAL_TRADITION_EARTH</BuildingClassMustNotHave>
+					<bPrereqNot>1</bPrereqNot>
+				</PrereqNotBuildingClass>
+				<PrereqNotBuildingClass>
+					<BuildingClassMustNotHave>BUILDINGCLASS_BURIAL_TRADITION_SKY</BuildingClassMustNotHave>
+					<bPrereqNot>1</bPrereqNot>
+				</PrereqNotBuildingClass>
+			</PrereqNotBuildingClasses>
+			<ReplaceBuildings>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_FUNERARY_SERVICES</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+			</ReplaceBuildings>
+			<iAIWeight>1</iAIWeight>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_BURIAL_TRADITION_SKY</BuildingClass>
+			<Type>BUILDING_BURIAL_TRADITION_SKY</Type>
+			<Description>TXT_KEY_BUILDING_BURIAL_TRADITION_SKY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BURIAL_TRADITION_SKY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BURIAL_TRADITION_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_BURIAL_TRADITION_SKY</ArtDefineTag>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CEREMONIAL_BURIAL</PrereqTech>
+			<ObsoleteTech>TECH_COMPULSORY_EDUCATION</ObsoleteTech>
+			<iCost>80</iCost>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<iConquestProb>70</iConquestProb>
+			<CommerceChanges>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>1</iCommerce>
+			</CommerceChanges>
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_SKY_MYTH_EFFECT</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
+			<PrereqNotBuildingClasses>
+				<PrereqNotBuildingClass>
+					<BuildingClassMustNotHave>BUILDINGCLASS_BURIAL_TRADITION_CAVE</BuildingClassMustNotHave>
+					<bPrereqNot>1</bPrereqNot>
+				</PrereqNotBuildingClass>
+				<PrereqNotBuildingClass>
+					<BuildingClassMustNotHave>BUILDINGCLASS_BURIAL_TRADITION_EARTH</BuildingClassMustNotHave>
+					<bPrereqNot>1</bPrereqNot>
+				</PrereqNotBuildingClass>
+				<PrereqNotBuildingClass>
+					<BuildingClassMustNotHave>BUILDINGCLASS_BURIAL_TRADITION_FIRE</BuildingClassMustNotHave>
+					<bPrereqNot>1</bPrereqNot>
+				</PrereqNotBuildingClass>
+			</PrereqNotBuildingClasses>
+			<ReplaceBuildings>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_FUNERARY_SERVICES</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+			</ReplaceBuildings>
+			<iAIWeight>1</iAIWeight>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_BURIAL_TRADITION_BONE</BuildingClass>
+			<Type>BUILDING_BURIAL_TRADITION_BONE</Type>
+			<Description>TXT_KEY_BUILDING_BURIAL_TRADITION_BONE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BURIAL_TRADITION_BONE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BURIAL_TRADITION_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_BURIAL_TRADITION_BONE</ArtDefineTag>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CEREMONIAL_BURIAL</PrereqTech>
+			<ObsoleteTech>TECH_COMPULSORY_EDUCATION</ObsoleteTech>
+			<iCost>80</iCost>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<iConquestProb>70</iConquestProb>
+			<CommerceChanges>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>1</iCommerce>
+			</CommerceChanges>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_CAVE</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_EARTH</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_SKY</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
+			<PrereqNotBuildingClasses>
+				<PrereqNotBuildingClass>
+					<BuildingClassMustNotHave>BUILDINGCLASS_BURIAL_TRADITION_MUMMY</BuildingClassMustNotHave>
+					<bPrereqNot>1</bPrereqNot>
+				</PrereqNotBuildingClass>
+			</PrereqNotBuildingClasses>
+			<GlobalBuildingClassProductionModifiers>
+				<BuildingClassProductionModifier>
+					<BuildingClassType>BUILDINGCLASS_CAPUCHIN</BuildingClassType>
+					<iProductionModifier>10</iProductionModifier>
+				</BuildingClassProductionModifier>
+			</GlobalBuildingClassProductionModifiers>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_BURIAL_TRADITION_MUMMY</BuildingClass>
+			<Type>BUILDING_BURIAL_TRADITION_MUMMY</Type>
+			<Description>TXT_KEY_BUILDING_BURIAL_TRADITION_MUMMY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BURIAL_TRADITION_MUMMY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BURIAL_TRADITION_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_BURIAL_TRADITION_MUMMY</ArtDefineTag>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_MUMMIFICATION</PrereqTech>
+			<ObsoleteTech>TECH_COMPULSORY_EDUCATION</ObsoleteTech>
+			<iCost>139</iCost>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<iConquestProb>70</iConquestProb>
+			<CommerceChanges>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>1</iCommerce>
+			</CommerceChanges>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_CAVE</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_EARTH</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_SKY</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
+			<PrereqNotBuildingClasses>
+				<PrereqNotBuildingClass>
+					<BuildingClassMustNotHave>BUILDINGCLASS_BURIAL_TRADITION_BONE</BuildingClassMustNotHave>
+					<bPrereqNot>1</bPrereqNot>
+				</PrereqNotBuildingClass>
+			</PrereqNotBuildingClasses>
+			<ReplaceBuildings>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_FUNERARY_SERVICES</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+			</ReplaceBuildings>
+			<!-- Special Yield and Commerce modifiers -->
+			<BonusYieldChanges>
+				<BonusYieldChange>
+					<BonusType>BONUS_NATRON</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+			</BonusYieldChanges>
+			<BonusCommerceModifiers>
+				<BonusCommerceModifier>
+					<BonusType>BONUS_NATRON</BonusType>
+					<CommerceModifiers>
+						<iCommerce>1</iCommerce>
+					</CommerceModifiers>
+				</BonusCommerceModifier>
+			</BonusCommerceModifiers>
+			<GlobalBuildingClassProductionModifiers>
+				<BuildingClassProductionModifier>
+					<BuildingClassType>BUILDINGCLASS_PYRAMID</BuildingClassType>
+					<iProductionModifier>10</iProductionModifier>
+				</BuildingClassProductionModifier>
+			</GlobalBuildingClassProductionModifiers>
+		</BuildingInfo>
+		<BuildingInfo>
+			<!-- Burial Platforms -->
+			<BuildingClass>BUILDINGCLASS_BURIAL_PLATFORMS</BuildingClass>
+			<Type>BUILDING_BURIAL_PLATFORMS</Type>
+			<Description>TXT_KEY_BUILDING_BURIAL_PLATFORMS</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BURIAL_PLATFORMS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BURIAL_PLATFORMS_STRATEGY</Strategy>
+			<Advisor>ADVISOR_GROWTH</Advisor>
+			<!-- Graphical and interface -->
+			<ArtDefineTag>ART_DEF_BUILDING_BURIAL_PLATFORMS</ArtDefineTag>
+			<ConstructSound>AS2D_BUILD_WALLS</ConstructSound>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<fVisibilityPriority>1</fVisibilityPriority>
+			<!-- Prerequisites -->
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_CEREMONIAL_BURIAL</PrereqTech>
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_SKY</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
+			<!-- Construction cost -->
+			<iCost>80</iCost>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_WOOD</BonusType>
+					<iProductonModifier>10</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_TIMBER</BonusType>
+					<iProductonModifier>5</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
+			<ProductionTraits>
+				<ProductionTrait>
+					<ProductionTraitType>TRAIT_SPIRITUAL</ProductionTraitType>
+					<iProductionTrait>100</iProductionTrait>
+				</ProductionTrait>
+			</ProductionTraits>
+			<!-- Main effects -->
+			<iHealth>1</iHealth>
+			<iHappiness>1</iHappiness>
+			<CommerceChanges>
+				<iCommerce>-1</iCommerce>
+			</CommerceChanges>
+			<!-- Special Yield and Commerce modifiers -->
+			<ObsoleteSafeCommerceChanges>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>1</iCommerce>
+			</ObsoleteSafeCommerceChanges>
+			<!-- Special Health and Happiness  modifiers -->
+			<BonusHappinessChanges>
+				<BonusHappinessChange>
+					<BonusType>BONUS_INCENSE</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_TIMBER</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+			</BonusHappinessChanges>
+			<!-- Misc. Effects -->
+			<iWarWearinessModifier>10</iWarWearinessModifier>
+			<!-- Special properties -->
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_GROWTH</FlavorType>
+					<iFlavor>6</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_CULTURE</FlavorType>
+					<iFlavor>4</iFlavor>
+				</Flavor>
+			</Flavors>
+			<iConquestProb>95</iConquestProb>
+			<ReplaceBuildings>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_FUNERARY_SERVICES</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+			</ReplaceBuildings>
+			<!-- Properties diffusion -->
+			<PropertyManipulators>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_DISEASE</PropertyType>
+					<iAmountPerTurn>-10</iAmountPerTurn>
+				</PropertySource>
+			</PropertyManipulators>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_FUNERARY_SERVICES</BuildingClass>
+			<Type>BUILDING_FUNERARY_SERVICES</Type>
+			<Description>TXT_KEY_BUILDING_FUNERARY_SERVICES</Description>
+			<Civilopedia>TXT_KEY_BUILDING_FUNERARY_SERVICES_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_FUNERARY_SERVICES_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_FUNERARY_SERVICES</ArtDefineTag>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_MODERN_SANITATION</PrereqTech>
+			<iCost>740</iCost>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<iConquestProb>70</iConquestProb>
+			<YieldChanges>
+				<iYield>0</iYield>
+				<iYield>1</iYield>
+			</YieldChanges>
+			<CommerceChanges>
+				<iCommerce>5</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>5</iCommerce>
+			</CommerceChanges>
+			<BonusYieldChanges>
+				<BonusYieldChange>
+					<BonusType>BONUS_NATRON</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+			</BonusYieldChanges>
+			<BonusCommerceModifiers>
+				<BonusCommerceModifier>
+					<BonusType>BONUS_NATRON</BonusType>
+					<CommerceModifiers>
+						<iCommerce>1</iCommerce>
+					</CommerceModifiers>
+				</BonusCommerceModifier>
+			</BonusCommerceModifiers>
+			<PropertyManipulators>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_DISEASE</PropertyType>
+					<iAmountPerTurn>-25</iAmountPerTurn>
+				</PropertySource>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_EDUCATION</PropertyType>
+					<iAmountPerTurn>5</iAmountPerTurn>
+				</PropertySource>
+			</PropertyManipulators>
+			<iAIWeight>1</iAIWeight>
+		</BuildingInfo>
+		<BuildingInfo>
+			<!-- Scarecrows -->
+			<BuildingClass>BUILDINGCLASS_SCARECROWS</BuildingClass>
+			<Type>BUILDING_SCARESCROWS</Type>
+			<Description>TXT_KEY_BUILDING_SCARECROWS</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SCARECROWS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SCARECROWS_STRATEGY</Strategy>
+			<Advisor>ADVISOR_CULTURE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_SCARECROWS</ArtDefineTag>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<fVisibilityPriority>1</fVisibilityPriority>
+			<!-- Prerequisites -->
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<iPrereqPopulation>6</iPrereqPopulation>
+			<PrereqBonuses>
+				<Bonus>BONUS_CLOTHES</Bonus>
+				<Bonus>BONUS_STRAW</Bonus>			
+			</PrereqBonuses>		
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_PEST_CROWS</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
+			<!-- Construction cost -->
+			<iCost>118</iCost>
+			<!-- Main effects -->
+			<CommerceChanges>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>1</iCommerce>
+			</CommerceChanges>
+			<!-- Other -->
+			<iConquestProb>70</iConquestProb>
+			<iAIWeight>1</iAIWeight>
+		</BuildingInfo>
+		<BuildingInfo>
+			<!-- Rat Catcher -->
+			<BuildingClass>BUILDINGCLASS_RAT_CATCHER</BuildingClass>
+			<Type>BUILDING_RAT_CATCHER</Type>
+			<Description>TXT_KEY_BUILDING_RAT_CATCHER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_RAT_CATCHER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_RAT_CATCHER_STRATEGY</Strategy>
+			<Advisor>ADVISOR_CULTURE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_RAT_CATCHER</ArtDefineTag>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<fVisibilityPriority>1</fVisibilityPriority>
+			<!-- Prerequisites -->
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_RAT_CATCHING</PrereqTech>
+			<iPrereqPopulation>8</iPrereqPopulation>
+			<PrereqBonuses>
+				<Bonus>BONUS_GRAIN</Bonus>
+				<Bonus>BONUS_CHEESE</Bonus>
+			</PrereqBonuses>
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_PEST_RATS</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
+			<!-- Construction cost -->
+			<iCost>332</iCost>
+			<!-- Main effects -->
+			<CommerceChanges>
+				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceChanges>
+			<!-- Other -->
+			<iConquestProb>70</iConquestProb>
+			<iAIWeight>1</iAIWeight>
+		</BuildingInfo>
+		<BuildingInfo>
+			<!-- Intelligence Agency -->
+			<BuildingClass>BUILDINGCLASS_CRYPTOLOGY_CENTER</BuildingClass>
+			<Type>BUILDING_CRYPTOLOGY_CENTER</Type>
+			<Description>TXT_KEY_BUILDING_CRYPTOLOGY_CENTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_CRYPTOLOGY_CENTER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CRYPTOLOGY_CENTER_STRATEGY</Strategy>
+			<Advisor>ADVISOR_MILITARY</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_CRYPTOLOGY_CENTER</ArtDefineTag>
+			<ConstructSound>AS2D_BUILD_INTELLIGENCE_AGENCY</ConstructSound>
+			<iMinAreaSize>-1</iMinAreaSize>
+			<fVisibilityPriority>1</fVisibilityPriority>
+			<!-- Prerequisites -->
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
+			<PrereqTech>TECH_DECRYPTION_MACHINES</PrereqTech>
+			<iPrereqPopulation>13</iPrereqPopulation>
+			<PrereqBonuses>
+				<Bonus>BONUS_PARTS</Bonus>		
+			</PrereqBonuses>				
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
+			<!-- Construction cost -->
+			<iCost>1030</iCost>
+			<ProductionTraits>
+				<ProductionTrait>
+					<ProductionTraitType>TRAIT_DECEIVER</ProductionTraitType>
+					<iProductionTrait>100</iProductionTrait>
+				</ProductionTrait>
+			</ProductionTraits>
+			<!-- Main effects -->
+			<CommerceChanges>
+				<iCommerce>-16</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>8</iCommerce>
+			</CommerceChanges>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<!-- Special Yield and Commerce modifiers -->
+			<TechCommerceChanges>
+				<TechCommerceChange>
+					<PrereqTech>TECH_WARSIMULATION</PrereqTech>
+					<TechCommerce>
+						<iCommerce>0</iCommerce>
+						<iCommerce>0</iCommerce>
+						<iCommerce>0</iCommerce>
+						<iCommerce>2</iCommerce>						
+					</TechCommerce>
+				</TechCommerceChange>
+				<TechCommerceChange>
+					<PrereqTech>TECH_KNOWLEDGE_MANAGEMENT</PrereqTech>
+					<TechCommerce>
+						<iCommerce>0</iCommerce>
+						<iCommerce>0</iCommerce>
+						<iCommerce>0</iCommerce>
+						<iCommerce>2</iCommerce>						
+					</TechCommerce>
+				</TechCommerceChange>			
+				<TechCommerceChange>
+					<PrereqTech>TECH_CYBERWARFARE</PrereqTech>
+					<TechCommerce>
+						<iCommerce>0</iCommerce>
+						<iCommerce>0</iCommerce>
+						<iCommerce>0</iCommerce>
+						<iCommerce>2</iCommerce>						
+					</TechCommerce>
+				</TechCommerceChange>
+				<TechCommerceChange>
+					<PrereqTech>TECH_MASS_SURVEILLANCE</PrereqTech>
+					<TechCommerce>
+						<iCommerce>0</iCommerce>
+						<iCommerce>0</iCommerce>
+						<iCommerce>0</iCommerce>
+						<iCommerce>2</iCommerce>						
+					</TechCommerce>
+				</TechCommerceChange>					
+			</TechCommerceChanges>			
+			<!-- Specialist effects -->
+			<SpecialistCounts>
+				<SpecialistCount>
+					<SpecialistType>SPECIALIST_SPY</SpecialistType>
+					<iSpecialistCount>1</iSpecialistCount>
+				</SpecialistCount>
+			</SpecialistCounts>
+			<!-- Other -->
+			<iAsset>5</iAsset>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+					<iFlavor>10</iFlavor>
+				</Flavor>
+			</Flavors>
+			<iConquestProb>75</iConquestProb>
+			<!-- Properties diffusion -->
+			<PropertyManipulators>
+				<PropertySource>
+					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+					<PropertyType>PROPERTY_CRIME</PropertyType>
+					<iAmountPerTurn>-8</iAmountPerTurn>
+				</PropertySource>
+			</PropertyManipulators>
 		</BuildingInfo>
 	</BuildingInfos>
 </Civ4BuildingInfos>

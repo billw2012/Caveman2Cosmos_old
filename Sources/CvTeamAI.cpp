@@ -1,19 +1,6 @@
 // teamAI.cpp
 
 #include "CvGameCoreDLL.h"
-#include "CvTeamAI.h"
-#include "CvPlayerAI.h"
-#include "CvRandom.h"
-#include "CvGlobals.h"
-#include "CvGameCoreUtils.h"
-#include "CvMap.h"
-#include "CvPlot.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvGameAI.h"
-#include "CvInfos.h"
-#include "FProfiler.h"
-#include "CyArgsList.h"
-#include "CvDLLPythonIFaceBase.h"
 
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                      10/02/09                                jdog5000      */

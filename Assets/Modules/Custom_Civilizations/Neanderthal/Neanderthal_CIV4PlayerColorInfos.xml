@@ -8,7 +8,7 @@
 			<Type>PLAYERCOLOR_NEANDERTHAL_EMPIRE</Type>
 			<ColorTypePrimary>COLOR_BROWNNEANDERTHAL1</ColorTypePrimary>
 			<ColorTypeSecondary>COLOR_BROWNNEANDERTHAL2</ColorTypeSecondary>
-			<TextColorType>COLOR_PLAYER_BLACK_TEXT</TextColorType>
+			<TextColorType>COLOR_BROWNNEANDERTHAL1</TextColorType>
 		</PlayerColorInfo>
 	</PlayerColorInfos>
 </Civ4PlayerColorInfos>

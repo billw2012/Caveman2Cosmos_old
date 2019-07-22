@@ -11,7 +11,7 @@
 			<Type>PLAYERCOLOR_ISRAEL</Type>
 			<ColorTypePrimary>COLOR_PLAYER_ISRAEL</ColorTypePrimary>
 			<ColorTypeSecondary>COLOR_PLAYER_WHITE</ColorTypeSecondary>
-			<TextColorType>COLOR_PLAYER_ISRAEL_TEXT</TextColorType>
+			<TextColorType>COLOR_PLAYER_ISRAEL</TextColorType>
 		</PlayerColorInfo>
 	</PlayerColorInfos>
 </Civ4PlayerColorInfos>

@@ -1,15 +1,6 @@
 // selectionGroupAI.cpp
 
 #include "CvGameCoreDLL.h"
-#include "CvSelectionGroupAI.h"
-#include "CvPlayerAI.h"
-#include "CvMap.h"
-#include "CvPlot.h"
-#include "CvTeamAI.h"
-#include "CvDLLEntityIFaceBase.h"
-#include "CvGameCoreUtils.h"
-#include "FProfiler.h"
-#include "CVInfos.h"
 
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                      10/02/09                                jdog5000      */

@@ -1,16 +1,4 @@
 #include "CvGameCoreDLL.h"
-#include "CvDLLUtilityIFaceBase.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvViewport.h"
-#include "CvMap.h"
-#include "CvEventReporter.h"
-#include "CyArgsList.h"
-
-#include "CvDLLEngineIFaceBase.h"
-
-#include "CvGameCoreUtils.h"
-#include "CvDLLPythonIFaceBase.h"
-#include "CvGameAI.h"
 
 CvViewport::CvViewport(
 	CvMap*	pMap,

@@ -1,24 +1,5 @@
 #include "CvGameCoreDLL.h"
-#include "CvGameCoreUtils.h"
-#include <algorithm>
-#include "CvUnit.h"
-#include "CvGameAI.h"
-#include "CvPlayerAI.h"
-#include "CvMap.h"
 #include "CvMapExternal.h"
-#include "CvPlot.h"
-#include "CvRandom.h"
-#include "FAStarNode.h"
-#include "CvCity.h"
-#include "CvTeamAI.h"
-#include "CvInfos.h"
-#include "cvGlobals.h"
-#include "FProfiler.h"
-
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvDLLEntityIFaceBase.h"
-#include "CvDLLFAStarIFaceBase.h"
-#include "CvDLLPythonIFaceBase.h"
 
 //	Moved exp for next level calc into the DLL.  If you need to undefine this
 //	and go back to using Python you need to make sure that the Python is not

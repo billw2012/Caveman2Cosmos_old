@@ -8,23 +8,7 @@
 //------------------------------------------------------------------------------------------------
 
 #include "CvGameCoreDLL.h"
-#include "CvGameObject.h"
 #include <boost/bind.hpp>
-#include "CyGame.h"
-#include "CyTeam.h"
-#include "CyPlayer.h"
-#include "CyCity.h"
-#include "CyUnit.h"
-#include "CyPlot.h"
-#include "CvGameAI.h"
-#include "CvTeamAI.h"
-#include "CvPlayerAI.h"
-#include "CvCity.h"
-#include "CvUnit.h"
-#include "CvPlot.h"
-#include "CvMap.h"
-#include "CvGameCoreUtils.h"
-#include "CvDLLPythonIFaceBase.h"
 
 CvGameObjectGame::CvGameObjectGame()
 {

@@ -14,6 +14,7 @@ class CvUnit;
 class CvCity;
 class CvPlot;
 class CvSelectionGroup;
+class CvDiploParameters;
 class CvPopupInfo;
 class CvPopup;
 class CvTalkingHeadMessage;

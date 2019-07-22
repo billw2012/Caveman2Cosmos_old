@@ -1,11 +1,4 @@
 #include "CvGameCoreDLL.h"
-#include "CyMap.h"
-#include "CyPlayer.h"
-#include "CyPlot.h"
-#include "CyGame.h"
-#include "CyUnit.h"
-#include "CyGlobalContext.h"
-#include "CyCity.h"
 
 void CyCityPythonInterface1(python::class_<CyCity>& x);
 /************************************************************************************************/

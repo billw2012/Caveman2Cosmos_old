@@ -2,30 +2,7 @@
 
 #include "CvGameCoreDLL.h"
 #include "CvDLLButtonPopup.h"
-#include "CvGlobals.h"
-#include "CvPlayerAI.h"
-#include "CvTeamAI.h"
-#include "CvMap.h" 
-#include "CvViewport.h" 
-#include "CvPlot.h"
-#include "CvArtFileMgr.h"
-#include "CyCity.h"
-#include "CyArgsList.h"
 #include "CvPopupReturn.h"
-#include "CvInfos.h"
-#include "CvInitCore.h"
-#include "CvGameTextMgr.h"
-#include "CvDLLPythonIFaceBase.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvGameCoreUtils.h"
-#include "CvDLLEngineIFaceBase.h"
-#include "CvMessageControl.h"
-
-// BUG - start
-// RevolutionDCM - BugMod included in CvGlobals.h
-//#include "BugMod.h"
-#include "CvBugOptions.h"
-// BUG - end
 
 // Public Functions...
 

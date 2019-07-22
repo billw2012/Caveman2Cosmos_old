@@ -7,19 +7,6 @@
 //
 //------------------------------------------------------------------------------------------------
 #include "CvGameCoreDLL.h"
-#include "CvOutcome.h"
-#include "CvXMLLoadUtility.h"
-#include "CvDLLXMLIFaceBase.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CyArgsList.h"
-#include "CyUnit.h"
-#include "CvUnit.h"
-#include "CyPlot.h"
-#include "CvPlot.h"
-#include "CvTeamAI.h"
-#include "CvPlayerAI.h"
-#include "CvGameCoreUtils.h"
-#include "CvDLLPythonIFaceBase.h"
 #include <boost/algorithm/string.hpp>
 
 

@@ -5,9 +5,6 @@
 
 #include "FDialogTemplate.h"
 
-#include <tchar.h>
-#include <stdio.h>
-
 namespace
 {
 	// These are the return values from the modal Assert Dialog

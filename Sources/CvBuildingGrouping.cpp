@@ -7,28 +7,8 @@
 //
 //------------------------------------------------------------------------------------------------
 #include "CvGameCoreDLL.h"
-#include "CvBuildingGrouping.h"
 #include "CvGameCoreDLLUnDefNew.h"
-#include <boost/python/enum.hpp>
 #include "CvGameCoreDLLDefNew.h"
-#include "CvInfos.h"
-#include "CvGameCoreUtils.h"
-
-void CyEnumsBuildingGroupingPythonInterface()
-{
-	python::enum_<BuildingGroupingTypes>("BuildingGroupingTypes")
-		.value("NO_BUILDING_GROUPING", NO_BUILDING_GROUPING)
-		.value("BUILDING_GROUPING_SINGLE", BUILDING_GROUPING_SINGLE)
-		.value("BUILDING_GROUPING_WONDER_TYPE", BUILDING_GROUPING_WONDER_TYPE)
-		.value("BUILDING_GROUPING_DOMAIN", BUILDING_GROUPING_DOMAIN)
-		;
-}
-
-
-BuildingGroupingBase::BuildingGroupingBase(bool bInvert)
-{
-	m_bInvert = bInvert;
-}
 
 int BuildingGroupingBase::getGroup(CvPlayer *pPlayer, CvCity *pCity, BuildingTypes eBuilding)
 {

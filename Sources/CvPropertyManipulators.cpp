@@ -8,9 +8,6 @@
 //------------------------------------------------------------------------------------------------
 
 #include "CvGameCoreDLL.h"
-#include "CvPropertyManipulators.h"
-#include "CvXMLLoadUtility.h"
-#include "CvDLLXMLIFaceBase.h"
 
 CvPropertyManipulators::~CvPropertyManipulators()
 {

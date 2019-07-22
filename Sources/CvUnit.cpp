@@ -1,37 +1,6 @@
 // unit.cpp
 
 #include "CvGameCoreDLL.h"
-#include "CvUnit.h"
-#include "CvArea.h"
-#include "CvPlot.h"
-#include "CvCity.h"
-#include "CvGlobals.h"
-#include "CvGameCoreUtils.h"
-#include "CvGameAI.h"
-#include "CvMap.h"
-#include "CvViewport.h"
-#include "CvPlayerAI.h"
-#include "CvRandom.h"
-#include "CvTeamAI.h"
-#include "CyUnit.h"
-#include "CyArgsList.h"
-#include "CyPlot.h"
-#include "CvDLLEntityIFaceBase.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvDLLEngineIFaceBase.h"
-#include "CvEventReporter.h"
-#include "CvDLLPythonIFaceBase.h"
-#include "CvDLLFAStarIFaceBase.h"
-#include "CvInfos.h"
-#include "FProfiler.h"
-#include "CvPopupInfo.h"
-#include "CvInitCore.h"
-#include <string>
-#include <vector>
-
-// BUG - start
-#include "CvBugOptions.h"
-// BUG - end
 
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                      02/24/10                                jdog5000      */
@@ -19453,36 +19422,24 @@ void CvUnit::setXY(int iX, int iY, bool bGroup, bool bUpdate, bool bShow, bool b
 
 		if (hasCargo())
 		{
-			std::set<int> movedUnitIds;
-
-			while (true)
+			pUnitNode = pOldPlot->headUnitNode();
+			std::vector<IDInfo> cargoUnits;
+			while (pUnitNode != NULL)
 			{
-				pUnitNode = pOldPlot->headUnitNode();
-				pLoopUnit = NULL;
-
-				while (pUnitNode != NULL)
-				{
-					if (movedUnitIds.empty() || movedUnitIds.find(pUnitNode->m_data.iID) == movedUnitIds.end())
-					{
-						pLoopUnit = ::getUnit(pUnitNode->m_data);
-
-						FAssertMsg(pLoopUnit != NULL, "NULL unit reached in the selection group");
-
-						if (pLoopUnit != NULL)
-							break;
-					}
-
-					pUnitNode = pOldPlot->nextUnitNode(pUnitNode);
-				}
-
-				if (pLoopUnit == NULL)
-					break;
-				
-				movedUnitIds.insert(pLoopUnit->getID());
+				pLoopUnit = ::getUnit(pUnitNode->m_data);
+				pUnitNode = pOldPlot->nextUnitNode(pUnitNode);
 
 				if (pLoopUnit->getTransportUnit() == this)
 				{
 					//GC.getGameINLINE().logOOSSpecial(22, pLoopUnit->getID(), iX, iY);
+					cargoUnits.push_back(pLoopUnit->getIDInfo());
+				}
+			}
+			for(std::vector<IDInfo>::const_iterator it = cargoUnits.begin(), end = cargoUnits.end(); it != end; ++it)
+			{
+				pLoopUnit = ::getUnit(*it);
+				if (pLoopUnit != NULL)
+				{
 					pLoopUnit->setXY(iX, iY, bGroup, false);
 				}
 			}

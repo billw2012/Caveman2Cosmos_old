@@ -1,5 +1,4 @@
 #include "CvGameCoreDLL.h"
-#include "CvProperties.h"
 
 //
 // Python interface for CvProperties class

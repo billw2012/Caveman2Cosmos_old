@@ -11,37 +11,7 @@
 //---------------------------------------------------------------------------------------
 
 #include "CvGameCoreDLL.h"
-#include "CvGameTextMgr.h"
-#include "CvGameCoreUtils.h"
-#include "CvDLLUtilityIFaceBase.h"
-#include "CvDLLInterfaceIFaceBase.h"
 #include "CvDLLSymbolIFaceBase.h"
-#include "CvInfos.h"
-#include "CvXMLLoadUtility.h"
-#include "CvCity.h"
-#include "CvPlayerAI.h"
-#include "CvTeamAI.h"
-#include "CvGameAI.h"
-#include "CvSelectionGroup.h"
-#include "CvMap.h"
-#include "CvArea.h"
-#include "CvPlot.h"
-#include "CvPopupInfo.h"
-#include "FProfiler.h"
-#include "CyArgsList.h"
-#include "CvDLLPythonIFaceBase.h"
-#include "CvArtFileMgr.h"
-
-#include <hash_map>
-
-// BUG - start
-#include "CvBugOptions.h"
-// BUG - end
-
-// BUG - Advanced Combat Odds - start
-// RevolutionDCM - AdvancedCombatOdds.h included in CvGlobals.h
-//#include "AdvancedCombatOdds.h"
-// BUG - Advanced Combat Odds - end
 
 int shortenID(int iId)
 {

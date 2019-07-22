@@ -7,18 +7,7 @@
 //
 //------------------------------------------------------------------------------------------------
 #include "CvGameCoreDLL.h"
-#include "CvOutcomeMission.h"
-
-#include "CvGameObject.h"
-
-#include "CvXMLLoadUtility.h"
-#include "CvDLLXMLIFaceBase.h"
-
 #include <boost/bind.hpp>
-
-#include "CvUnit.h"
-#include "CvPlayerAI.h"
-#include "CvPlot.h"
 
 CvOutcomeMission::CvOutcomeMission() :
 m_eMission(NO_MISSION),

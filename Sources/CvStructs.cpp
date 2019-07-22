@@ -12,9 +12,6 @@
 //------------------------------------------------------------------------------------------------
 
 #include "CvGameCoreDLL.h"
-#include "CvUnit.h"
-#include "CvTaggedSaveFormatWrapper.h"
-//#include "CvStructs.h"
 
 int EventTriggeredData::getID() const 
 { 

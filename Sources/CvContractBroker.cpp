@@ -2,12 +2,6 @@
 
 #include "CvGameCoreDLL.h"
 #include "BetterBTSAI.h"
-#include "CvPathGenerator.h"
-#include "CvContractBroker.h"
-#include "CvGameAI.h"
-#include "CvPlayerAI.h"
-#include "CvMap.h"
-#include "CvGameCoreUtils.h"
 
 CvContractBroker::CvContractBroker() : m_eOwner(NO_PLAYER)
 {

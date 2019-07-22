@@ -3,23 +3,6 @@
 //
 
 #include "CvGameCoreDLL.h"
-#include "CyPlayer.h"
-#include "CyUnit.h"
-#include "CyCity.h"
-#include "CyArea.h"
-#include "CyPlot.h"
-#include "CvPlayerAI.h"
-//#include "CvEnums.h"
-#include "CvCity.h"
-#include "CvMap.h"
-#include "CvPlot.h"
-#include "CySelectionGroup.h"
-#include "CvDLLPythonIFaceBase.h"
-#include "CvGlobals.h"
-#include "CvMessageControl.h"
-#include "CvPopupInfo.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvGameAI.h"
 
 CyPlayer::CyPlayer() : m_pPlayer(NULL)
 {

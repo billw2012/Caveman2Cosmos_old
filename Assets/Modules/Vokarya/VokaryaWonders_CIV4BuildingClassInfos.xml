@@ -375,24 +375,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_PALACE_SOV</DefaultBuilding>
 		</BuildingClassInfo>
-		<!-- Pearl Harbor -->
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_PEARL_HARBOR</Type>
-			<Description>TXT_KEY_BUILDING_PEARL_HARBOR</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_PEARL_HARBOR</DefaultBuilding>
-		</BuildingClassInfo>
-		<!-- Scapa Flow -->
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_SCAPA_FLOW</Type>
-			<Description>TXT_KEY_BUILDING_SCAPA_FLOW</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_SCAPA_FLOW</DefaultBuilding>
-		</BuildingClassInfo>
 		<!-- Pere Lachaise Cemetery -->
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_PERE_LACHAISE</Type>

@@ -2470,18 +2470,6 @@
 			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_DHOLE</Type>
-			<Button>Art/Interface/Buttons/Units/Dhole.dds</Button>
-			<fScale>35.0</fScale>
-			<fInterfaceScale>1</fInterfaceScale>
-			<NIF>Art/Units/animals/Dhole/Dhole.nif</NIF>
-			<KFM>Art/Units/Panther/Panther.kfm</KFM>
-			<SHADERNIF>Art/Units/animals/Dhole/Dhole.nif</SHADERNIF>
-			<fBattleDistance>1.1</fBattleDistance>
-			<fRangedDeathTime>0.35</fRangedDeathTime>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-		</UnitArtInfo>
-		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_DINGO</Type>
 			<Button>Art/Interface/Buttons/Units/Dingo.dds</Button>
 			<fScale>35.0</fScale>

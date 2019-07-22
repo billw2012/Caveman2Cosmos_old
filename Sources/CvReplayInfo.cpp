@@ -1,14 +1,6 @@
 #include "CvGameCoreDLL.h"
 #include "CvReplayInfo.h"
-#include "CvInfos.h"
-#include "CvGlobals.h"
-#include "CvGameAI.h"
-#include "CvPlayerAI.h"
-#include "CvMap.h"
 #include "CvReplayMessage.h"
-#include "CvGameTextMgr.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvInitCore.h"
 
 int CvReplayInfo::REPLAY_VERSION = 4;
 

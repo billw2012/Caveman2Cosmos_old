@@ -4,7 +4,6 @@
 
 #if defined(WIN32)
 
-#include <tchar.h>
 #include "CvGameCoreDLLUndefNew.h"
 
 CDialogTemplate::CDialogTemplate(LPCSTR caption, DWORD style, int x, int y, int w, int h,

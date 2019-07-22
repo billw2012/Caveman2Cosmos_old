@@ -36,12 +36,10 @@ enum BuildingSortTypes
 	NUM_BUILDING_SORT
 };
 
-void CyEnumsBuildingSortPythonInterface();
-
 class BuildingSortBase
 {
 public:
-	BuildingSortBase(bool bInvert = false);
+	BuildingSortBase(bool bInvert = false): m_bInvert(bInvert) {};
 	virtual ~BuildingSortBase();
 	// Returns the value of eBuilding in the sorting category
 	virtual int getBuildingValue(CvPlayer *pPlayer, CvCity *pCity, BuildingTypes eBuilding) = 0;

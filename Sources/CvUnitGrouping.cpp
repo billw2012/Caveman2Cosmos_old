@@ -7,29 +7,8 @@
 //
 //------------------------------------------------------------------------------------------------
 #include "CvGameCoreDLL.h"
-#include "CvUnitGrouping.h"
 #include "CvGameCoreDLLUnDefNew.h"
-#include <boost/python/enum.hpp>
 #include "CvGameCoreDLLDefNew.h"
-
-#include "CvInfos.h"
-
-void CyEnumsUnitGroupingPythonInterface()
-{
-	python::enum_<UnitGroupingTypes>("UnitGroupingTypes")
-		.value("NO_UNIT_GROUPING", NO_UNIT_GROUPING)
-		.value("UNIT_GROUPING_SINGLE", UNIT_GROUPING_SINGLE)
-		.value("UNIT_GROUPING_COMBAT", UNIT_GROUPING_COMBAT)
-		.value("UNIT_GROUPING_DOMAIN", UNIT_GROUPING_DOMAIN)
-		.value("UNIT_GROUPING_HERO", UNIT_GROUPING_HERO)
-		;
-}
-
-
-UnitGroupingBase::UnitGroupingBase(bool bInvert)
-{
-	m_bInvert = bInvert;
-}
 
 int UnitGroupingBase::getGroup(CvPlayer *pPlayer, CvCity *pCity, UnitTypes eUnit)
 {

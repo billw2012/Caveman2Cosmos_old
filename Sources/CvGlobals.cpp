@@ -2,66 +2,8 @@
 // globals.cpp
 //
 #include "CvGameCoreDLL.h"
-#include "cvGlobals.h"
-#include "CvRandom.h"
-#include "CvGameAI.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvMap.h"
 #include "CvMapExternal.h"
-#include "CvViewport.h"
-#include "CvPlayerAI.h"
-#include "CvTeamAI.h"
-#include "CvInfos.h"
-#include "CvDLLUtilityIFaceBase.h"
-#include "CvArtFileMgr.h"
-#include "CvDLLXMLIFaceBase.h"
-#include "CvPlayerAI.h"
-#include "CvInfoWater.h"
-#include "CvGameTextMgr.h"
-#include "FProfiler.h"
-#include "FVariableSystem.h"
-#include "CvInitCore.h"
 #include "version.h"
-/************************************************************************************************/
-/* Afforess	                  Start		 08/18/10                                               */
-/*                                                                                              */
-/*                                                                                              */
-/************************************************************************************************/
-#include "CvMessageControl.h"
-/************************************************************************************************/
-/* Afforess	                     END                                                            */
-/************************************************************************************************/
-#include "CvDLLEngineIFaceBase.h"
-#include "CyArgsList.h"
-#include "CyPlot.h"
-#include "CvDLLPythonIFaceBase.h"
-
-
-// BUG - start
-// RevolutionDCM - BugMod included in cvGlobals.h
-//#include "BugMod.h"
-// BUG - end
-
-// BUG - BUG Info - start
-#include "CvBugOptions.h"
-// BUG - BUG Info - end
-
-// BUFFY - DLL Info - start
-#ifdef _BUFFY
-#include "Buffy.h"
-#endif
-// BUFFY - DLL Info - end
-
-
-/************************************************************************************************/
-/* MODULAR_LOADING_CONTROL                 11/30/07                                MRGENIE      */
-/*                                                                                              */
-/* Savegame compatibility                                                                       */
-/************************************************************************************************/
-#include "CvXMLLoadUtility.h"
-/************************************************************************************************/
-/* MODULAR_LOADING_CONTROL                 END                                                  */
-/************************************************************************************************/
 
 #define COPY(dst, src, typeName) \
 	{ \

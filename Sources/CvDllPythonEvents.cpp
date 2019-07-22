@@ -1,16 +1,4 @@
 #include "CvGameCoreDLL.h"
-#include "CvDllPythonEvents.h"
-#include "CvDLLEngineIFaceBase.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CyArgsList.h"
-#include "CyUnit.h"
-#include "CyPlot.h"
-#include "CvDLLPythonIFaceBase.h"
-#include "CvGameAI.h"
-#include "CvPlot.h"
-#include "CyCity.h"
-#include "CvSelectionGroup.h"
-#include "CvGameCoreUtils.h"
 
 bool CvDllPythonEvents::preEvent()
 {

@@ -4562,10 +4562,6 @@
 			<Path>Art/interface/great_people/manetho.dds</Path>
 		</InterfaceArtInfo>
 		<InterfaceArtInfo>
-			<Type>ART_DEF_GREAT_PERSON_MANFRED_VON_RICHTHOFEN</Type>
-			<Path>Art/interface/great_people/manfred_von_richthofen.dds</Path>
-		</InterfaceArtInfo>
-		<InterfaceArtInfo>
 			<Type>ART_DEF_GREAT_PERSON_MANI</Type>
 			<Path>Art/interface/great_people/mani.dds</Path>
 		</InterfaceArtInfo>
@@ -5168,10 +5164,6 @@
 		<InterfaceArtInfo>
 			<Type>ART_DEF_GREAT_PERSON_PEDRO_DE_MENEZES</Type>
 			<Path>Art/interface/great_people/pedro_de_menezes.dds</Path>
-		</InterfaceArtInfo>
-		<InterfaceArtInfo>
-			<Type>ART_DEF_GREAT_PERSON_PERICLES</Type>
-			<Path>Art/interface/great_people/pericles.dds</Path>
 		</InterfaceArtInfo>
 		<InterfaceArtInfo>
 			<Type>ART_DEF_GREAT_PERSON_PETIESE</Type>
@@ -5788,10 +5780,6 @@
 		<InterfaceArtInfo>
 			<Type>ART_DEF_GREAT_PERSON_SIGMUND_FREUD</Type>
 			<Path>Art/interface/great_people/sigmund_freud.dds</Path>
-		</InterfaceArtInfo>
-		<InterfaceArtInfo>
-			<Type>ART_DEF_GREAT_PERSON_SIMON_BOLIVAR</Type>
-			<Path>Art/interface/great_people/simon_bolivar.dds</Path>
 		</InterfaceArtInfo>
 		<InterfaceArtInfo>
 			<Type>ART_DEF_GREAT_PERSON_SINAN</Type>
@@ -6526,10 +6514,6 @@
 			<Path>Art/interface/great_people/zhou_zhengyi.dds</Path>
 		</InterfaceArtInfo>
 		<InterfaceArtInfo>
-			<Type>ART_DEF_GREAT_PERSON_ZHUGE_LIANG</Type>
-			<Path>Art/interface/great_people/zhuge_liang.dds</Path>
-		</InterfaceArtInfo>
-		<InterfaceArtInfo>
 			<Type>ART_DEF_GREAT_PERSON_ZU_CHONGZHI</Type>
 			<Path>Art/interface/great_people/zu_chongzhi.dds</Path>
 		</InterfaceArtInfo>
@@ -6576,5 +6560,185 @@
 			<Type>INTERFACE_FILTER_CULTURE</Type>
 			<Path>Art/Interface/buttons/filters/showculture.dds</Path>
 		</InterfaceArtInfo>		
+		<InterfaceArtInfo>
+			<Type>ART_DEF_BACKGROUND_STATESMAN</Type>
+			<Path>Art/interface/great_people/bg_statesman.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_NIKITA_KHRUSHCHEV</Type>
+			<Path>Art/interface/great_people/nikita_khrushchev.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_JAMES_MADISON</Type>
+			<Path>Art/interface/great_people/james_madison.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_JOSEPH_STALIN</Type>
+			<Path>Art/interface/great_people/JOSEPH_STALIN.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_EMPEROR_AKIHITO</Type>
+			<Path>Art/interface/great_people/EMPEROR_AKIHITO.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_VLADIMIR_LENIN</Type>
+			<Path>Art/interface/great_people/VLADIMIR_LENIN.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_AARON_BURR</Type>
+			<Path>Art/interface/great_people/AARON_BURR.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_THOMAS_JEFFERSON</Type>
+			<Path>Art/interface/great_people/THOMAS_JEFFERSON.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_ALEXANDER_HAMILTON</Type>
+			<Path>Art/interface/great_people/ALEXANDER_HAMILTON.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_NELSON_MANDELA</Type>
+			<Path>Art/interface/great_people/NELSON_MANDELA.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_MARTIN_VAN_BUREN</Type>
+			<Path>Art/interface/great_people/MARTIN_VAN_BUREN.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_ROBERT_LIVINGSTON</Type>
+			<Path>Art/interface/great_people/ROBERT_LIVINGSTON.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_MANFRED_VON_RICHTHOFEN</Type>
+			<Path>Art/interface/great_people/manfred_von_richthofen.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_DR._HENRY_KISSINGER</Type>
+			<Path>Art/interface/great_people/DR_HENRY_KISSINGER.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_JOHN_QUINCY_ADAMS</Type>
+			<Path>Art/interface/great_people/JOHN_QUINCY_ADAMS.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_HAROLD_MACMILLAN</Type>
+			<Path>Art/interface/great_people/HAROLD_MACMILLAN.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_JOHN_F._KENNEDY</Type>
+			<Path>Art/interface/great_people/JOHN_F_KENNEDY.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_MIKHAIL_GORBACHEV</Type>
+			<Path>Art/interface/great_people/MIKHAIL_GORBACHEV.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_MARGARET_THATCHER</Type>
+			<Path>Art/interface/great_people/MARGARET_THATCHER.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_LEON_TROTSKY</Type>
+			<Path>Art/interface/great_people/LEON_TROTSKY.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_EMILIANO_ZAPATA</Type>
+			<Path>Art/interface/great_people/EMILIANO_ZAPATA.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_RONALD_REAGAN</Type>
+			<Path>Art/interface/great_people/RONALD_REAGAN.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_QIN_SHI_HUANG</Type>
+			<Path>Art/interface/great_people/QIN_SHI_HUANG.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_MAO_ZEDONG</Type>
+			<Path>Art/interface/great_people/MAO_ZEDONG.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_PANCHO_VILLA</Type>
+			<Path>Art/interface/great_people/PANCHO_VILLA.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_PASCUAL_OROZCO</Type>
+			<Path>Art/interface/great_people/PASCUAL_OROZCO.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_LORD_CHESTERFIELD</Type>
+			<Path>Art/interface/great_people/LORD_CHESTERFIELD.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_LORD_MELBOURNE</Type>
+			<Path>Art/interface/great_people/LORD_MELBOURNE.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_ALCIBIADES</Type>
+			<Path>Art/interface/great_people/ALCIBIADES.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_YASSER_ARAFAT</Type>
+			<Path>Art/interface/great_people/YASSER_ARAFAT.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_SIR_FRANCIS_BACON</Type>
+			<Path>Art/interface/great_people/SIR_FRANCIS_BACON.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_DAVID_GEN_GURION</Type>
+			<Path>Art/interface/great_people/DAVID_GEN_GURION.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_MENACHEM_BEGIN</Type>
+			<Path>Art/interface/great_people/MENACHEM_BEGIN.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_SIMON_BOLIVAR</Type>
+			<Path>Art/interface/great_people/SIMON_BOLIVAR.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_WILLY_BRANDT</Type>
+			<Path>Art/interface/great_people/WILLY_BRANDT.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_MARCUS_JUNIUS_BRUTUS</Type>
+			<Path>Art/interface/great_people/MARCUS_JUNIUS_BRUTUS.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_EDMUND_BURKE</Type>
+			<Path>Art/interface/great_people/EDMUND_BURKE.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_KEMAL_ATATURK</Type>
+			<Path>Art/interface/great_people/KEMAL_ATATURK.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_BIRGER_JARL</Type>
+			<Path>Art/interface/great_people/BIRGER_JARL.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_ZHUGE_LIANG</Type>
+			<Path>Art/interface/great_people/ZHUGE_LIANG.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_YITZHAK_RABIN</Type>
+			<Path>Art/interface/great_people/YITZHAK_RABIN.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_PERICLES</Type>
+			<Path>Art/interface/great_people/PERICLES.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_KIMON</Type>
+			<Path>Art/interface/great_people/KIMON.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_ARISTIDES</Type>
+			<Path>Art/interface/great_people/ARISTIDES.dds</Path>
+		</InterfaceArtInfo>
+		<InterfaceArtInfo>
+			<Type>ART_DEF_GREAT_PERSON_MARK_ANTONY</Type>
+			<Path>Art/interface/great_people/MARK_ANTONY.dds</Path>
+		</InterfaceArtInfo>
 	</InterfaceArtInfos>
 </Civ4ArtDefines>

@@ -1,39 +1,6 @@
 // player.cpp
 
 #include "CvGameCoreDLL.h"
-#include "CvGlobals.h"
-#include "CvArea.h"
-#include "CvGameAI.h"
-#include "CvMap.h"
-#include "CvViewport.h"
-#include "CvPlot.h"
-#include "CvRandom.h"
-#include "CvTeamAI.h"
-#include "CvGameCoreUtils.h"
-#include "CvPlayerAI.h"
-#include "CvPlayer.h"
-#include "CvGameCoreUtils.h"
-#include "CvArtFileMgr.h"
-#include "CvDiploParameters.h"
-#include "CvInitCore.h"
-#include "CyArgsList.h"
-#include "CvInfos.h"
-#include "CvPopupInfo.h"
-#include "CvDiploParameters.h"
-#include "FProfiler.h"
-#include "CvGameTextMgr.h"
-#include "CyCity.h"
-#include "CyPlot.h"
-#include "CyUnit.h"
-#include "CvEventReporter.h"
-#include "CvTaggedSaveFormatWrapper.h"
-#include "CvPipeline.h"
-
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvDLLEntityIFaceBase.h"
-#include "CvDLLEngineIFaceBase.h"
-#include "CvDLLFAStarIFaceBase.h"
-#include "CvDLLPythonIFaceBase.h"
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                      05/09/09                                jdog5000      */
 /*                                                                                              */
@@ -52,10 +19,6 @@
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                       END                                                  */
 /************************************************************************************************/
-#include <math.h>
-// BUG - Ignore Harmless Barbarians - start
-#include "CvBugOptions.h"
-// BUG - Ignore Harmless Barbarians - end
 
 //	Koshling - save flag indicating this player has no data in the save as they have never
 //	been alive
@@ -9970,6 +9933,10 @@ bool CvPlayer::canConstructInternal(BuildingTypes eBuilding, bool bContinue, boo
 	SpecialBuildingTypes eSpecialBuilding = (SpecialBuildingTypes)kBuilding.getSpecialBuildingType();
 	if (!bExposed)
 	{
+		if (isNationalWonderClass((BuildingClassTypes)kBuilding.getBuildingClassType()) && getBuildingClassCount((BuildingClassTypes)kBuilding.getBuildingClassType()))
+		{
+			return false;
+		}
 		if (eIgnoreTechReq != kBuilding.getPrereqAndTech() && !(currentTeam.isHasTech((TechTypes)(kBuilding.getPrereqAndTech()))))
 		{
 			return false;

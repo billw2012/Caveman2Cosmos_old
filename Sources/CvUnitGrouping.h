@@ -23,17 +23,15 @@ enum UnitGroupingTypes
 	UNIT_GROUPING_SINGLE, // only one group
 	UNIT_GROUPING_COMBAT, // group by type
 	UNIT_GROUPING_DOMAIN, // group by land, air, water
-	UNIT_GROUPING_HERO // group by hero, limited, normal
+	UNIT_GROUPING_HERO, // group by hero, limited, normal
+
+	NUM_UNIT_GROUPING
 };
-
-#define NUM_UNIT_GROUPING 4
-
-void CyEnumsUnitGroupingPythonInterface();
 
 class UnitGroupingBase
 {
 public:
-	UnitGroupingBase(bool bInvert = false);
+	UnitGroupingBase(bool bInvert = false): m_bInvert(bInvert) {};
 	virtual ~UnitGroupingBase();
 	// Returns the number of the group of the unit
 	int getGroup(CvPlayer *pPlayer, CvCity *pCity, UnitTypes eUnit);

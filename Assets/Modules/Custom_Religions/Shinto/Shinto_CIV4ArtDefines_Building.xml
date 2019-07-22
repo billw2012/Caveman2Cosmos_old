@@ -57,16 +57,6 @@
 			<Button>Art/Interface/buttons/Buildings/Religions/Shinto/matsumoto_castle.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_SHAMANHUT</Type>
-			<LSystem>LSYSTEM_1x1</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>0.25</fScale>
-			<fInterfaceScale>.8</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Shaman_Hut/Eldercouncil.nif</NIF>
-			<KFM />
-			<Button>Art/Structures/Buildings/Shaman_Hut/Shaman_Hut.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ITSUKUSHIMA_SHRINE</Type>
 			<LSystem>LSYSTEM_3x2</LSystem>
 			<bAnimated>0</bAnimated>

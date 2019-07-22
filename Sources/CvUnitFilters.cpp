@@ -7,43 +7,9 @@
 //
 //------------------------------------------------------------------------------------------------
 #include "CvGameCoreDLL.h"
-#include "CvUnitFilters.h"
 #include "CvGameCoreDLLUnDefNew.h"
-#include <boost/python/enum.hpp>
 #include "CvGameCoreDLLDefNew.h"
 #include "CvBugOptions.h"
-#include "CvPlayerAI.h"
-#include "CvInfos.h"
-#include "CvCity.h"
-#include "CvGameCoreUtils.h"
-
-void CyEnumsUnitFiltersPythonInterface()
-{
-	python::enum_<UnitFilterTypes>("UnitFilterTypes")
-		.value("NO_UNIT_FILTER", NO_UNIT_FILTER)
-		.value("UNIT_FILTER_HIDE_BASIC_INVISIBLE", UNIT_FILTER_HIDE_BASIC_INVISIBLE)
-		.value("UNIT_FILTER_HIDE_BUILDABLE", UNIT_FILTER_HIDE_BUILDABLE)
-		.value("UNIT_FILTER_HIDE_UNBUILDABLE", UNIT_FILTER_HIDE_UNBUILDABLE)
-		.value("UNIT_FILTER_HIDE_LIMITED", UNIT_FILTER_HIDE_LIMITED)
-		.value("UNIT_FILTER_SHOW_LAND", UNIT_FILTER_SHOW_LAND)
-		.value("UNIT_FILTER_SHOW_AIR", UNIT_FILTER_SHOW_AIR)
-		.value("UNIT_FILTER_SHOW_WATER", UNIT_FILTER_SHOW_WATER)
-		.value("UNIT_FILTER_SHOW_WORKERS", UNIT_FILTER_SHOW_WORKERS)
-		.value("UNIT_FILTER_SHOW_CIVILIAN", UNIT_FILTER_SHOW_CIVILIAN)
-		.value("UNIT_FILTER_SHOW_SIEGE", UNIT_FILTER_SHOW_SIEGE)
-		.value("UNIT_FILTER_SHOW_MOUNTED", UNIT_FILTER_SHOW_MOUNTED)
-		.value("UNIT_FILTER_SHOW_HEROES", UNIT_FILTER_SHOW_HEROES)
-		.value("UNIT_FILTER_SHOW_MILITARY", UNIT_FILTER_SHOW_MILITARY)
-		.value("UNIT_FILTER_SHOW_DEFENSE", UNIT_FILTER_SHOW_DEFENSE)
-		.value("UNIT_FILTER_SHOW_MISSIONARY", UNIT_FILTER_SHOW_MISSIONARY)
-		;
-}
-
-UnitFilterBase::UnitFilterBase(bool bInvert)
-{
-	m_bInvert = bInvert;
-	m_bActive = false;
-}
 
 void UnitFilterBase::Activate()
 {

@@ -1712,7 +1712,7 @@
 			</PropertyManipulators>
 		</BuildingInfo>
 	<!-- Platyping -->
-<!--		<BuildingInfo>
+		<BuildingInfo>
 			<Type>BUILDING_CATACOMBS</Type>
 			<AndDependencyTypes>
 				<DependencyType>BUILDING_CATACOMBS</DependencyType>
@@ -1725,7 +1725,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
--->		<BuildingInfo>
+		<BuildingInfo>
 			<Type>BUILDING_CYRUS_TOMB</Type>
 			<AndDependencyTypes>
 				<DependencyType>BUILDING_CYRUS_TOMB</DependencyType>

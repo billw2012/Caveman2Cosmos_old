@@ -14,10 +14,6 @@
 
 
 #include "CvGameCoreDLL.h"
-#include "CvDLLXMLIFaceBase.h"
-#include "CvXMLLoadUtility.h"
-#include "FProfiler.h"
-#include "CvDLLUtilityIFaceBase.h"
 
 #include <xercesc/sax/SAXException.hpp>
 #include <xercesc/sax/HandlerBase.hpp>

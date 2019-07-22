@@ -46,16 +46,6 @@
 			<Button>Art/Interface/Buttons/Buildings/SlaveEntertain.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_SLAVE_COMPOUND_ENTERTAINMENT</Type>
-			<LSystem />
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF />
-			<KFM />
-			<Button>Art/Interface/Buttons/Buildings/SlaveEntertain.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SLAVE_COMPOUND_FOOD</Type>
 			<LSystem />
 			<bAnimated>0</bAnimated>

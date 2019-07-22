@@ -1924,24 +1924,22 @@
 			<Strategy>TXT_KEY_BUILDING_TOWER_OF_SILENCE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TOWER_OF_SILENCE</ArtDefineTag>
-			<HolyCity>NONE</HolyCity>
+            <MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
+			</MapCategoryTypes>
 			<ReligionType>RELIGION_ZOROASTRIANISM</ReligionType>
-			<StateReligion>NONE</StateReligion>
 			<bStateReligion>1</bStateReligion>
 			<PrereqReligion>RELIGION_ZOROASTRIANISM</PrereqReligion>
 			<PrereqTech>TECH_PRIESTHOOD</PrereqTech>
-			<ObsoleteTech>NONE</ObsoleteTech>
 			<Bonus>BONUS_BRICKS</Bonus>
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>1</iGreatPeopleRateChange>
-			<iAIWeight>0</iAIWeight>
 			<iCost>160</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iHealth>2</iHealth>
 			<iHappiness>1</iHappiness>
 			<iAsset>2</iAsset>
-			<iPower>0</iPower>
 			<SpecialistCounts>
 				<SpecialistCount>
 					<SpecialistType>SPECIALIST_PRIEST</SpecialistType>
@@ -1956,12 +1954,18 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<PrereqNotBuildingClasses>
-				<PrereqNotBuildingClass>
-					<BuildingClassMustNotHave>BUILDINGCLASS_GRAVEYARD</BuildingClassMustNotHave>
-					<bPrereqNot>1</bPrereqNot>
-				</PrereqNotBuildingClass>
-			</PrereqNotBuildingClasses>
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_BURIAL_TRADITION_SKY</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
+			<ReplaceBuildings>
+				<ReplaceBuilding>
+					<BuildingClassType>BUILDINGCLASS_FUNERARY_SERVICES</BuildingClassType>
+					<bReplace>1</bReplace>
+				</ReplaceBuilding>
+			</ReplaceBuildings>
 		</BuildingInfo>
 	</BuildingInfos>
 </Civ4BuildingInfos>

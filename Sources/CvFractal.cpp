@@ -2,11 +2,6 @@
 
 #include "CvGameCoreDLL.h"
 #include "CvFractal.h"
-#include "CvRandom.h"
-#include "CvGameCoreUtils.h"
-#include "CvGameCoreUtils.h"
-#include "FProfiler.h"
-
 
 #define FLOAT_PRECISION		(1000)
 

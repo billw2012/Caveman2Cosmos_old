@@ -75,14 +75,6 @@
 			<DefaultBuilding>BUILDING_HAMMURABI</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_ISHTAR</Type>
-			<Description>TXT_KEY_BUILDING_ISHTAR</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_ISHTAR</DefaultBuilding>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_NIMRUD_PALACE</Type>
 			<Description>TXT_KEY_BUILDING_NIMRUD_PALACE</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>

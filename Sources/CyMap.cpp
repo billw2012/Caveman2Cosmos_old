@@ -3,17 +3,7 @@
 // 
 
 #include "CvGameCoreDLL.h"
-#include "CyMap.h"
-#include "CyPlot.h"
-#include "CvMap.h"
-#include "CvViewport.h"
-#include "CyCity.h"
-#include "CySelectionGroup.h"
-#include "CyUnit.h"
-#include "CyArea.h"
-#include "CvGlobals.h"
 #include "CvMapGenerator.h"
-#include "CvInitCore.h"
 
 CyMap::CyMap() : m_pMap(NULL)
 {

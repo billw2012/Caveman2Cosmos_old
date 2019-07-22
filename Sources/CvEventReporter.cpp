@@ -1,11 +1,5 @@
 #include "CvGameCoreDLL.h"
-#include "CvEventReporter.h"
-#include "CvDllPythonEvents.h"
-#include "CvInitCore.h"
-#include "CvMessageControl.h"
-#include "CvViewport.h"
 #include "FInputDevice.h"
-#include "CvPlayerAI.h"
 
 //
 // static, singleton accessor

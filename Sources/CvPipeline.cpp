@@ -1,9 +1,4 @@
 #include "CvGameCoreDLL.h"
-#include "CvGameCoreUtils.h"
-#include "CvGame.h"
-#include "CvGameAI.h"
-#include "CvPipeline.h"
-
 #include <boost/bind.hpp>
 
 CvPipelineWorkItem::CvPipelineWorkItem()

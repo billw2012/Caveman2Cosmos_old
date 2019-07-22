@@ -1,25 +1,4 @@
 #include "CvGameCoreDLL.h"
-#include "CvGame.h"
-#include "CvInitCore.h"
-#include "CyPlot.h"
-#include "CyArgsList.h"
-#include "CvPopupInfo.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvDLLEngineIFaceBase.h"
-#include "CvDLLFAStarIFaceBase.h"
-#include "FAStarNode.h"
-#include "CvGameTextMgr.h"
-#include "CvMessageControl.h"
-#include "CvViewport.h"
-#include "CvPlayerAI.h"
-#include "CvDLLPythonIFaceBase.h"
-#include "CvGameCoreUtils.h"
-#include "CvGameAI.h"
-#include "CvTeamAI.h"
-
-// BUG - start
-#include "CvBugOptions.h"
-// BUG - end
 
 void CvGame::updateColoredPlots()
 {

@@ -3,17 +3,6 @@
 //
 //
 #include "CvGameCoreDLL.h"
-#include "CyUnit.h"
-#include "CyCity.h"
-#include "CvArea.h"
-#include "CvPlot.h"
-#include "CvUnit.h"
-#include "CyPlot.h"
-#include "CyArea.h"
-#include "CvArtFileMgr.h"
-#include "CySelectionGroup.h"
-#include "CvDLLInterfaceIFaceBase.h"
-#include "CvGlobals.h"
 
 CyUnit::CyUnit() : m_pUnit(NULL)
 {

@@ -8,7 +8,7 @@
 			<Type>PLAYERCOLOR_JIVARO</Type>
 			<ColorTypePrimary>COLOR_PLAYER_DARK_RED</ColorTypePrimary>
 			<ColorTypeSecondary>COLOR_PLAYER_WHITE</ColorTypeSecondary>
-			<TextColorType>COLOR_PLAYER_PALE_RED</TextColorType>
+			<TextColorType>COLOR_PLAYER_DARK_RED</TextColorType>
 		</PlayerColorInfo>
 	</PlayerColorInfos>
 </Civ4PlayerColorInfos>

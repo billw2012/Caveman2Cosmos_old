@@ -8,11 +8,6 @@
 //------------------------------------------------------------------------------------------------
 
 #include "CvGameCoreDLL.h"
-#include "CvPropertySource.h"
-#include "CvXMLLoadUtility.h"
-#include "CvDLLXMLIFaceBase.h"
-#include "CvGameTextMgr.h"
-#include "CvPropertySolver.h"
 
 CvPropertySource::CvPropertySource() : 
 									m_eProperty(NO_PROPERTY),

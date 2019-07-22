@@ -1,48 +1,14 @@
 // plot.cpp
 
 #include "CvGameCoreDLL.h"
-#include "CvPlot.h"
-#include "CvCity.h"
-#include "CvUnit.h"
-#include "CvSelectionGroup.h"
-#include "CvGlobals.h"
-#include "CvArea.h"
-#include "CvGameAI.h"
-#include "CvDLLInterfaceIFaceBase.h"
 #include "CvDLLSymbolIFaceBase.h"
-#include "CvDLLEntityIFaceBase.h"
 #include "CvDLLPlotBuilderIFaceBase.h"
-#include "CvDLLEngineIFaceBase.h"
 #include "CvDLLFlagEntityIFaceBase.h"
-#include "CvMapInterfaceBase.h"
-#include "CvViewport.h"
-#include "CvPlayerAI.h"
-#include "CvTeamAI.h"
-#include "CvGameCoreUtils.h"
-#include "CvRandom.h"
-#include "CvDLLFAStarIFaceBase.h"
-#include "CvInfos.h"
-#include "FProfiler.h"
-#include "CvArtFileMgr.h"
-#include "CyArgsList.h"
-#include "CvDLLPythonIFaceBase.h"
-#include "CvEventReporter.h"
-#include "CvInitCore.h"
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                      11/30/08                                jdog5000      */
-/*                                                                                              */
-/* General AI                                                                                   */
-/************************************************************************************************/
-#include "FAStarNode.h"
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                       END                                                  */
-/************************************************************************************************/
 /************************************************************************************************/
 /* Afforess	                  Start		 04/14/10                                               */
 /*                                                                                              */
 /*                                                                                              */
 /************************************************************************************************/
-#include "CyPlot.h"
 #include <time.h>
 #include <psapi.h>
 /************************************************************************************************/

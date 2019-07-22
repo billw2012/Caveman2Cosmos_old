@@ -8,7 +8,6 @@
 //------------------------------------------------------------------------------------------------
 #include "CvGameCoreDLL.h"
 #include "BoolExpr.h"
-#include "CvDLLXMLIFaceBase.h"
 #include <boost/bind.hpp>
 #include "wchar_utils.h"
 

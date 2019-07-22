@@ -1,13 +1,4 @@
 #include "CvGameCoreDLL.h"
-#include "CyMap.h"
-#include "CyArea.h"
-#include "CyCity.h"
-#include "CySelectionGroup.h"
-#include "CyUnit.h"
-#include "CyPlot.h"
-//#include "CvStructs.h"
-//# include <boost/python/manage_new_object.hpp>
-//# include <boost/python/return_value_policy.hpp>
 
 //
 // published python interface for CyMap

@@ -8,7 +8,7 @@
 			<Type>PLAYERCOLOR_CONFEDERACY</Type>
 			<ColorTypePrimary>COLOR_PLAYER_CONFEDERACY_RED</ColorTypePrimary>
 			<ColorTypeSecondary>COLOR_PLAYER_BLUE</ColorTypeSecondary>
-			<TextColorType>COLOR_PLAYER_RED_TEXT</TextColorType>
+			<TextColorType>COLOR_PLAYER_CONFEDERACY_RED</TextColorType>
 		</PlayerColorInfo>
 	</PlayerColorInfos>
 </Civ4PlayerColorInfos>
