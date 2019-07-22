@@ -1066,16 +1066,6 @@
 			<ArtDefineTag>ART_DEF_BONUS_LEON</ArtDefineTag>
 			<iPlacementOrder>-1</iPlacementOrder>
 		</BonusInfo>
-	<!-- Liangzhu -->
-	<!-- by Hydromancerx -->
-		<BonusInfo>
-			<Type>BONUS_LIANGZHU</Type>
-			<Description>TXT_KEY_BONUS_LIANGZHU</Description>
-			<Civilopedia>TXT_KEY_BONUS_CULTURE_PEDIA</Civilopedia>
-			<BonusClassType>BONUSCLASS_CULTURE</BonusClassType>
-			<ArtDefineTag>ART_DEF_BONUS_LIANGZHU</ArtDefineTag>
-			<iPlacementOrder>-1</iPlacementOrder>
-		</BonusInfo>
 	<!-- Luba -->
 	<!-- by Hydromancerx -->
 		<BonusInfo>
@@ -1396,16 +1386,6 @@
 			<ArtDefineTag>ART_DEF_BONUS_OLMEC</ArtDefineTag>
 			<iPlacementOrder>-1</iPlacementOrder>
 		</BonusInfo>
-	<!-- Oman -->
-	<!-- by Hydromancerx -->
-		<BonusInfo>
-			<Type>BONUS_OMAN</Type>
-			<Description>TXT_KEY_BONUS_OMAN</Description>
-			<Civilopedia>TXT_KEY_BONUS_CULTURE_PEDIA</Civilopedia>
-			<BonusClassType>BONUSCLASS_CULTURE</BonusClassType>
-			<ArtDefineTag>ART_DEF_BONUS_OMAN</ArtDefineTag>
-			<iPlacementOrder>-1</iPlacementOrder>
-		</BonusInfo>
 	<!-- Ottoman -->
 	<!-- by Hydromancerx -->
 		<BonusInfo>
@@ -1414,16 +1394,6 @@
 			<Civilopedia>TXT_KEY_BONUS_CULTURE_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_CULTURE</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_OTTOMAN</ArtDefineTag>
-			<iPlacementOrder>-1</iPlacementOrder>
-		</BonusInfo>
-	<!-- Paiute -->
-	<!-- by Hydromancerx -->
-		<BonusInfo>
-			<Type>BONUS_PAIUTE</Type>
-			<Description>TXT_KEY_BONUS_PAIUTE</Description>
-			<Civilopedia>TXT_KEY_BONUS_CULTURE_PEDIA</Civilopedia>
-			<BonusClassType>BONUSCLASS_CULTURE</BonusClassType>
-			<ArtDefineTag>ART_DEF_BONUS_PAIUTE</ArtDefineTag>
 			<iPlacementOrder>-1</iPlacementOrder>
 		</BonusInfo>
 	<!-- Pakistani -->
@@ -1876,16 +1846,6 @@
 			<ArtDefineTag>ART_DEF_BONUS_TARASCAN</ArtDefineTag>
 			<iPlacementOrder>-1</iPlacementOrder>
 		</BonusInfo>
-	<!-- Tasmanian -->
-	<!-- by Hydromancerx -->
-		<BonusInfo>
-			<Type>BONUS_TASMANIAN</Type>
-			<Description>TXT_KEY_BONUS_TASMANIAN</Description>
-			<Civilopedia>TXT_KEY_BONUS_CULTURE_PEDIA</Civilopedia>
-			<BonusClassType>BONUSCLASS_CULTURE</BonusClassType>
-			<ArtDefineTag>ART_DEF_BONUS_TASMANIAN</ArtDefineTag>
-			<iPlacementOrder>-1</iPlacementOrder>
-		</BonusInfo>
 	<!-- Texan -->
 	<!-- by Hydromancerx -->
 		<BonusInfo>
@@ -1964,16 +1924,6 @@
 			<Civilopedia>TXT_KEY_BONUS_CULTURE_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_CULTURE</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_TONGAN</ArtDefineTag>
-			<iPlacementOrder>-1</iPlacementOrder>
-		</BonusInfo>
-	<!-- Totonac -->
-	<!-- by Hydromancerx -->
-		<BonusInfo>
-			<Type>BONUS_TOTONAC</Type>
-			<Description>TXT_KEY_BONUS_TOTONAC</Description>
-			<Civilopedia>TXT_KEY_BONUS_CULTURE_PEDIA</Civilopedia>
-			<BonusClassType>BONUSCLASS_CULTURE</BonusClassType>
-			<ArtDefineTag>ART_DEF_BONUS_TOTONAC</ArtDefineTag>
 			<iPlacementOrder>-1</iPlacementOrder>
 		</BonusInfo>
 	<!-- Trojan -->
