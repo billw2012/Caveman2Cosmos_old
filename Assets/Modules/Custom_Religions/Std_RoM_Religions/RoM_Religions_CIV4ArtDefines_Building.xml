@@ -91,16 +91,6 @@
 			<Button>Art/Interface/Buttons/Buildings/Religions/Mesopotamia/hammurabi_stele_of_laws.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_ISHTAR</Type>
-			<LSystem>LSYSTEM_2x1</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>1.66</fScale>
-			<fInterfaceScale>0.55</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Zoroasterism/IshtarGate.nif</NIF>
-			<KFM />
-			<Button>Art/Interface/Buttons/Buildings/Religions/Mesopotamia/ishtar.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_NIMRUD_PALACE</Type>
 			<LSystem>LSYSTEM_2x2</LSystem>
 			<bAnimated>0</bAnimated>

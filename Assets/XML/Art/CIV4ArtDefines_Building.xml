@@ -107,16 +107,6 @@
 			<Button>Art/Interface/Buttons/Great_Wonders/ikhanda.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_COURIER_SYSTEM</Type>
-			<LSystem>LSYSTEM_2x1</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>0.8</fScale>
-			<fInterfaceScale>0.75</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Stable/Stable.nif</NIF>
-			<KFM/>
-			<Button>Art/Interface/Buttons/National_Wonders/national_courier_service.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_STABLE</Type>
 			<LSystem>LSYSTEM_2x1</LSystem>
 			<bAnimated>0</bAnimated>
@@ -716,16 +706,6 @@
 			<NIF>Art/Structures/Buildings/Courthouse/Courthouse.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/National_Wonders/district_courthouse.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_AZTEC_SACRIFICIAL_ALTAR</Type>
-			<LSystem>LSYSTEM_3x2</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>1.62</fScale>
-			<fInterfaceScale>0.42</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Aztec Altar/Aztec_Altar.nif</NIF>
-			<KFM/>
-			<Button>,Art/Interface/Buttons/Buildings/Courthouse.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,2,2</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HOLY_ROMAN_RATHAUS</Type>
@@ -1978,16 +1958,6 @@
 			<Button>,Art/Interface/Buttons/Buildings/tournament.dds,Art/Interface/Buttons/RoM_Building_Atlas.dds,2,12</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_OLYMPIC</Type>
-			<LSystem>LSYSTEM_3x3</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>1.05</fScale>
-			<fInterfaceScale>1.3</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Colosseum/Colosseum.nif</NIF>
-			<KFM/>
-			<Button>,Art/Interface/Buttons/Buildings/OlympicGames.dds,Art/Interface/Buttons/RoM_Building_Atlas.dds,8,5</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ELEMENTARY_SCHOOL</Type>
 			<LSystem/>
 			<bAnimated>0</bAnimated>
@@ -2798,16 +2768,6 @@
 			<Button>Art/Interface/Buttons/Buildings/ammofactory.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_HEALERHUT</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/Healers_Hut.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CASINO</Type>
 			<LSystem/>
 			<bAnimated>0</bAnimated>
@@ -3027,16 +2987,6 @@
 			<NIF/>
 			<KFM/>
 			<Button>,Art/Interface/Buttons/Buildings/tannery.dds,Art/Interface/Buttons/RoM_Building_Atlas.dds,5,8</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_MANHATTAN</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>,Art/Structures/Buildings/ChainReactor/silos_button_03.dds,Art/Interface/Buttons/RoM_Building_Atlas.dds,8,12</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FUSION_PLANT</Type>
@@ -3669,16 +3619,6 @@
 			<Button>Art/Interface/Buttons/Buildings/replicator_plant.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_MODERN_ART_THEATRE</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>Art/Interface/Buttons/National_Wonders/modern_art_theatre.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WNN</Type>
 			<LSystem/>
 			<bAnimated>0</bAnimated>
@@ -3939,16 +3879,6 @@
 			<Button>Art/Interface/Buttons/Buildings/Draft_Office.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_SHANTYTOWN</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/Shanty_Town.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MARCHING_PAVILION</Type>
 			<LSystem/>
 			<bAnimated>0</bAnimated>
@@ -4019,16 +3949,6 @@
 			<Button>Art/Interface/Buttons/National_Wonders/national_mint.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_UN_MISSION</Type>
-			<LSystem>LSYSTEM_2x2</LSystem>
-			<bAnimated>1</bAnimated>
-			<fScale>0.25</fScale>
-			<fInterfaceScale>0.45</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/unmission/UNMission.nif</NIF>
-			<KFM/>
-			<Button>Art/Interface/Buttons/National_Wonders/un_mission.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MANHATTAN</Type>
 			<LSystem>LSYSTEM_2x2</LSystem>
 			<bAnimated>0</bAnimated>
@@ -4057,16 +3977,6 @@
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/NuclearLab.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_BASKETWEAVER</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/basketweaver.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_WEAVER</Type>
@@ -4219,16 +4129,6 @@
 			<Button>Art/Interface/Buttons/Buildings/fishtraps.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_SUNDIAL</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/timekeeper.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TOWNWATCH</Type>
 			<LSystem/>
 			<bAnimated>0</bAnimated>
@@ -4289,16 +4189,6 @@
 			<Button>Art/Interface/Buttons/Buildings/wheelwright.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_STORAGE_PIT</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/storagepit.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TAILOR_SHOP</Type>
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
@@ -4317,16 +4207,6 @@
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/Marina.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_POACHER_CAMP</Type>
-			<LSystem>LSYSTEM_2x2</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>0.35</fScale>
-			<fInterfaceScale>1</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Poacher_Camp/tradingpost.nif</NIF>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/PoacherCamp.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GAMBLING_HALL</Type>
@@ -4839,16 +4719,6 @@
 			<Button>Art/Interface/Buttons/Buildings/checkpoint.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_TOWN_HALL</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/town_hall.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_INTERROGATION_BUILDING</Type>
 			<LSystem/>
 			<bAnimated>0</bAnimated>
@@ -4857,16 +4727,6 @@
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/Interrogation_Building.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_VILLA</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/Villa.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CIVIL_SERVANT_SCHOOL</Type>
@@ -4909,26 +4769,6 @@
 			<Button>Art/Interface/Buttons/Buildings/presidential_monument.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_WARRIOR_HUT</Type>
-			<LSystem>LSYSTEM_2x2</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>0.25</fScale>
-			<fInterfaceScale>.8</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Hut/Eldercouncil.nif</NIF>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/WarriorHut.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_ART_PATRONAGE</Type>
-			<LSystem>LSYSTEM_2x2</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>0.4</fScale>
-			<fInterfaceScale>0.2</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/ArtPatronage/fountain03.nif</NIF>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/art_patronage.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FESTIVAL</Type>
 			<LSystem>LSYSTEM_2x3</LSystem>
 			<bAnimated>0</bAnimated>
@@ -4937,16 +4777,6 @@
 			<NIF>Art/Structures/Buildings/Festival/circus.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/festival.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_BRAHMIN_LIBRARY</Type>
-			<LSystem>LSYSTEM_2x2</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>1.53</fScale>
-			<fInterfaceScale>0.76</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Monastery/Hindu/Hindu_monastery.nif</NIF>
-			<KFM/>
-			<Button>Art/Interface/buttons/Buildings/Religions/Hindu/brahmin_library.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PARAMILITARY_CORPS</Type>
@@ -4977,16 +4807,6 @@
 			<NIF>Art/Structures/Buildings/SocialJustice/trophyhall.nif</NIF>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/social_justice_organization.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_CARAVAN_POST</Type>
-			<LSystem>LSYSTEM_2x2</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>0.35</fScale>
-			<fInterfaceScale>1</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/CaravanPost/tradingpost.nif</NIF>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/CaravanPost.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_IMPERIAL_MINT</Type>
@@ -5059,26 +4879,6 @@
 			<Button>Art/Interface/Buttons/Buildings/IdolShrine.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_DIVINE_MONUMENT</Type>
-			<LSystem>LSYSTEM_1x1</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>1</fScale>
-			<fInterfaceScale>0.5</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/DivineMonument/virtue4_glory.nif</NIF>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/divine_monument.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_MYSTIC_HUT</Type>
-			<LSystem>LSYSTEM_2x2</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>0.25</fScale>
-			<fInterfaceScale>.8</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Hut/Eldercouncil.nif</NIF>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/mystichut.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SEMINARY</Type>
 			<LSystem/>
 			<bAnimated>0</bAnimated>
@@ -5087,16 +4887,6 @@
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/seminary.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_CHURCH_SCHOOL</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/church_schools.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_REVIVALIST_CHURCH</Type>
@@ -5117,26 +4907,6 @@
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/universal_church.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_CHURCH_OF_STATE</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/church_of_the_state.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_MERCENARY_CAMP</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/MercCamp.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PLAGUE_HOSPITAL</Type>
@@ -19390,16 +19160,6 @@
 			<Button>art/Embassy/art/tarascanembassy.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_TASMANIAN_EMBASSY</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>art/Embassy/art/tasmanianembassy.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_TEXAN_EMBASSY</Type>
 			<LSystem/>
 			<bAnimated>0</bAnimated>
@@ -19438,16 +19198,6 @@
 			<NIF/>
 			<KFM/>
 			<Button>art/Embassy/art/tonganembassy.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_TOTONAC_EMBASSY</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>art/Embassy/art/totonacembassy.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_AKKAD_EMBASSY</Type>
@@ -19618,26 +19368,6 @@
 			<NIF/>
 			<KFM/>
 			<Button>art/Embassy/art/nokembassy.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_OMAN_EMBASSY</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>art/Embassy/art/omanembassy.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_PAIUTE_EMBASSY</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>art/Embassy/art/pauiteembassy.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SAMOAN_EMBASSY</Type>
@@ -25080,16 +24810,6 @@
 			<Button>art/Pets/Art/muletrainer.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_BUFFALO_TRAINER</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>art/Pets/Art/buffalotrainer.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ELEPHANT_TRAINER</Type>
 			<LSystem/>
 			<bAnimated>0</bAnimated>
@@ -26388,27 +26108,7 @@
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Great_Wonders/mars_colony_hesperia.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_COLONY_ICARIA</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Great_Wonders/mars_colony_icaria.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_COLONY_ICARIA</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Great_Wonders/mars_colony_icaria.dds</Button>
-		</BuildingArtInfo>
+		</BuildingArtInfo>		
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_COLONY_ICARIA</Type>
 			<LSystem/>
@@ -27518,16 +27218,6 @@
 			<NIF/>
 			<KFM/>
 			<Button>art/Transportation/Art/roads.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_ASPHALT_ROADS</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>art/Transportation/Art/asphaltroads.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ASPHALT_ROADS</Type>
@@ -29370,16 +29060,6 @@
 			<Button>Art/Interface/Buttons/Buildings/totem_elephant.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_GIRAFFE_MYTH</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/totem_giraffe.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HORSE_MYTH</Type>
 			<LSystem/>
 			<bAnimated>0</bAnimated>
@@ -29388,16 +29068,6 @@
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_horse.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_LION_MYTH</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/totem_lion.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_OLD_MAN_MYTH</Type>
@@ -29569,17 +29239,7 @@
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/totem_metal.dds</Button>
 		</BuildingArtInfo>
-<!--		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_RODENT_MYTH</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/totem_chipmonk.dds</Button>
-		</BuildingArtInfo>
--->		<BuildingArtInfo>
+		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RODENT_CAGE</Type>
 			<LSystem>LSYSTEM_2x2</LSystem>
 			<bAnimated>0</bAnimated>
@@ -30040,16 +29700,6 @@
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Buildings/marine_institute.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_BAD_BOY_CAGE</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Buildings/totem_honeybadger.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HAWKING_HUT</Type>
@@ -32040,16 +31690,6 @@
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>Art/Embassy/melanesianembassy.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_MICRONESIAN_EMBASSY</Type>
-			<LSystem>LSYSTEM_1x1</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF>Art/empty.nif</NIF>
-			<KFM/>
-			<Button>Art/Embassy/micronesianembassy.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_MICRONESIAN_EMBASSY</Type>

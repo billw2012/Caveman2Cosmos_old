@@ -1386,16 +1386,6 @@
 			<Button>art/Embassy/art/olmecembassy.dds</Button>
 			<FontButtonIndex>145</FontButtonIndex>
 		</BonusArtInfo>
-	<!-- Oman -->
-		<BonusArtInfo>
-			<Type>ART_DEF_BONUS_OMAN</Type>
-			<fScale>1.0</fScale>
-			<fInterfaceScale>1.0</fInterfaceScale>
-			<NIF>Art/Empty.nif</NIF>
-			<KFM></KFM>
-			<Button>art/Embassy/art/omanembassy.dds</Button>
-			<FontButtonIndex>145</FontButtonIndex>
-		</BonusArtInfo>
 	<!-- Ottoman -->
 		<BonusArtInfo>
 			<Type>ART_DEF_BONUS_OTTOMAN</Type>
@@ -1404,16 +1394,6 @@
 			<NIF>Art/Empty.nif</NIF>
 			<KFM></KFM>
 			<Button>,Art/Interface/Buttons/Civilizations/Spain.dds,Art/Interface/Buttons/Warlords_Atlas_2.dds,2,1</Button>
-			<FontButtonIndex>145</FontButtonIndex>
-		</BonusArtInfo>
-	<!-- Paiute -->
-		<BonusArtInfo>
-			<Type>ART_DEF_BONUS_PAIUTE</Type>
-			<fScale>1.0</fScale>
-			<fInterfaceScale>1.0</fInterfaceScale>
-			<NIF>Art/Empty.nif</NIF>
-			<KFM></KFM>
-			<Button>art/Embassy/art/pauiteembassy.dds</Button>
 			<FontButtonIndex>145</FontButtonIndex>
 		</BonusArtInfo>
 	<!-- Pakistani -->
@@ -1866,16 +1846,6 @@
 			<Button>art/Embassy/art/tarascanembassy.dds</Button>
 			<FontButtonIndex>145</FontButtonIndex>
 		</BonusArtInfo>
-	<!-- Tasmanian -->
-		<BonusArtInfo>
-			<Type>ART_DEF_BONUS_TASMANIAN</Type>
-			<fScale>1.0</fScale>
-			<fInterfaceScale>1.0</fInterfaceScale>
-			<NIF>Art/Empty.nif</NIF>
-			<KFM></KFM>
-			<Button>art/Embassy/art/tasmanianembassy.dds</Button>
-			<FontButtonIndex>145</FontButtonIndex>
-		</BonusArtInfo>
 	<!-- Texan -->
 		<BonusArtInfo>
 			<Type>ART_DEF_BONUS_TEXAN</Type>
@@ -1954,16 +1924,6 @@
 			<NIF>Art/Empty.nif</NIF>
 			<KFM></KFM>
 			<Button>art/Embassy/art/tonganembassy.dds</Button>
-			<FontButtonIndex>145</FontButtonIndex>
-		</BonusArtInfo>
-	<!-- Totonac -->
-		<BonusArtInfo>
-			<Type>ART_DEF_BONUS_TOTONAC</Type>
-			<fScale>1.0</fScale>
-			<fInterfaceScale>1.0</fInterfaceScale>
-			<NIF>Art/Empty.nif</NIF>
-			<KFM></KFM>
-			<Button>art/Embassy/art/totonacembassy.dds</Button>
 			<FontButtonIndex>145</FontButtonIndex>
 		</BonusArtInfo>
 	<!-- Trojan -->

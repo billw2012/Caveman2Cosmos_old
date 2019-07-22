@@ -6843,23 +6843,6 @@
 			<ActionSound>AS3D_UN_GUNSHIP_FORT</ActionSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_MEDIC</Type>
-			<Button>Art/Interface/Buttons/Units/sparth/medic.dds</Button>
-			<fScale>0.44</fScale>
-			<fInterfaceScale>1.0</fInterfaceScale>
-			<NIF>Art/Units/Medic/Medic.nif</NIF>
-			<KFM>Art/Units/Settler/Settler_Female.kfm</KFM>
-			<SHADERNIF>Art/Units/Medic/Medic.nif</SHADERNIF>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>1.0</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-		</UnitArtInfo>
-		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_MEDICAL_VET</Type>
 			<Button>Art/Interface/Buttons/Units/sparth/medical_vet.dds</Button>
 			<fScale>0.42</fScale>
@@ -13330,23 +13313,6 @@
 			<TrainSound>AS2D_UNIT_BUILD_UNIQUE_UNIT</TrainSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_POLYNESIAN_KOA</Type>
-			<Button>Art/Interface/Buttons/Units/sparth/culture/koa.dds</Button>
-			<fScale>0.44</fScale>
-			<fInterfaceScale>1.0</fInterfaceScale>
-			<NIF>Art/Units/Polynesia_Sparth/light_swordsman/polyaxeman.nif</NIF>
-			<KFM>Art/Units/Unique_NativeAmerica_DogSoldier/Dogsoldier.kfm</KFM>
-			<SHADERNIF>Art/Units/Polynesia_Sparth/light_swordsman/polyaxeman.nif</SHADERNIF>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>1.0</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-		</UnitArtInfo>
-		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_PORTUGAL_CARRACK</Type>
 			<Button>Art/Interface/Buttons/Units/sparth/culture/portugal_carrack.dds</Button>
 			<fScale>0.20</fScale>
@@ -13642,23 +13608,6 @@
 		</UnitArtInfo>
 		<!-- HERO UNITS -->
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_ABAOJI</Type>
-			<Button>Art/Interface/Buttons/Units/heroes/Khitan_Abaoji.dds</Button>
-			<fScale>0.48</fScale>
-			<fInterfaceScale>0.8</fInterfaceScale>
-			<NIF>Art/Units/MountedSwordsman_Mongol/Mounted_Swordsman_Mongol.nif</NIF>
-			<KFM>Art/Units/MountedSwordsman_Mongol/Mounted_Swordsman_Mongol.kfm</KFM>
-			<SHADERNIF>Art/Units/MountedSwordsman_Mongol/Mounted_Swordsman_Mongol_FX.nif</SHADERNIF>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
-				<ShadowAttachNode>HorseBip Spine1</ShadowAttachNode>
-				<fShadowScale>1.0</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-		</UnitArtInfo>
-		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_AFONSO_HENRIQUES</Type>
 			<Button>Art/Interface/Buttons/Units/Heroes/Afonso_Henriques.dds</Button>
 			<fScale>0.48</fScale>
@@ -13710,24 +13659,6 @@
 			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_ALP_ARSLAN</Type>
-			<Button>Art/Interface/Buttons/Units/heroes/Seljuks_Alp_Arslan.dds</Button>
-			<fScale>0.48</fScale>
-			<fInterfaceScale>0.8</fInterfaceScale>
-			<NIF>Art/Units/Ottoman_Sparth/horse_archer/TurkishHorsearcher.nif</NIF>
-			<KFM>Art/Units/horsearcher/horsearcher.kfm</KFM>
-			<SHADERNIF>Art/Units/Ottoman_Sparth/horse_archer/TurkishHorsearcher.nif</SHADERNIF>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>1.0</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<bActAsRanged>1</bActAsRanged>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-		</UnitArtInfo>
-		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_AMINA</Type>
 			<Button>Art/Interface/Buttons/Units/Heroes/Amina.dds</Button>
 			<fScale>0.49</fScale>
@@ -13742,24 +13673,6 @@
 			</ShadowDef>
 			<fBattleDistance>0.35</fBattleDistance>
 			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-		</UnitArtInfo>
-		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_ANTONIO</Type>
-			<Button>Art/Interface/Buttons/Units/Heroes/antonio_jose_de_sucre.dds</Button>
-			<fScale>0.48</fScale>
-			<fInterfaceScale>0.9</fInterfaceScale>
-			<NIF>Art/Units/Unique/mexican/Rurales/Villista.nif</NIF>
-			<KFM>Art/Units/Cuirassier/Cuirassier.kfm</KFM>
-			<SHADERNIF>Art/Units/Unique/mexican/Rurales/Villista.nif</SHADERNIF>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
-				<ShadowAttachNode>HorseBip Spine1</ShadowAttachNode>
-				<fShadowScale>1.0</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<bActAsRanged>1</bActAsRanged>
 			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
@@ -13985,23 +13898,6 @@
 			<TrainSound>AS2D_UNIT_BUILD_UNIQUE_UNIT</TrainSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_CAO_CAO</Type>
-			<Button>Art/Interface/Buttons/Units/heroes/Wei_Cao_Cao.dds</Button>
-			<fScale>0.49</fScale>
-			<fInterfaceScale>0.9</fInterfaceScale>
-			<NIF>Art/Units/asian_sparth/warlord_ancient/zhangfei.nif</NIF>
-			<KFM>Art/Units/Warlord_Modern/Warlord_Modern.kfm</KFM>
-			<SHADERNIF>Art/Units/asian_sparth/warlord_ancient/zhangfei.nif</SHADERNIF>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>1.0</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-		</UnitArtInfo>
-		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_CANUTE</Type>
 			<Button>Art/Interface/Buttons/Units/Heroes/Canute.dds</Button>
 			<fScale>0.49</fScale>
@@ -14171,24 +14067,6 @@
 			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
 			<SelectionSound>AS3D_UN_SPY_SURR_VOX</SelectionSound>
 			<ActionSound>AS3D_UN_SPY_SURR_VOX</ActionSound>
-		</UnitArtInfo>
-		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_DIPONEGORO</Type>
-			<Button>Art/Interface/Buttons/Units/Heroes/Diponegoro.dds</Button>
-			<fScale>0.48</fScale>
-			<fInterfaceScale>0.9</fInterfaceScale>
-			<NIF>Art/Units/Indian_Sparth/Cavalry/SepoyMutineerCavalry.nif</NIF>
-			<KFM>Art/Units/Cavalry/Cavalry.kfm</KFM>
-			<SHADERNIF>Art/Units/Indian_Sparth/Cavalry/SepoyMutineerCavalry.nif</SHADERNIF>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
-				<ShadowAttachNode>HorseBip Spine1</ShadowAttachNode>
-				<fShadowScale>1.0</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<bActAsRanged>1</bActAsRanged>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_ERWIN_ROMMEL</Type>
@@ -14411,23 +14289,6 @@
 			<fBattleDistance>0.35</fBattleDistance>
 			<fRangedDeathTime>0.31</fRangedDeathTime>
 			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-		</UnitArtInfo>
-		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_GUSTAVUS_ADOLPHUS</Type>
-			<Button>Art/Interface/Buttons/Units/Heroes/Gustavus_Adolphus.dds</Button>
-			<fScale>0.48</fScale>
-			<fInterfaceScale>0.8</fInterfaceScale>
-			<NIF>Art/Units/Viking_Sparth/carabinier/SwedishCuirassierfinal.nif</NIF>
-			<KFM>Art/Units/Cuirassier/Cuirassier.kfm</KFM>
-			<SHADERNIF>Art/Units/Viking_Sparth/carabinier/SwedishCuirassierfinal.nif</SHADERNIF>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
-				<ShadowAttachNode>HorseBip Spine1</ShadowAttachNode>
-				<fShadowScale>1.0</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<TrainSound>AS2D_UNIT_BUILD_UNIQUE_UNIT</TrainSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_GWANGGAETO</Type>
@@ -22846,24 +22707,6 @@
 			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_SETTLER_CHILD_SOUTH_AMERICA</Type>
-			<Button>Art/Interface/Buttons/Units/sparth/settler.dds</Button>
-			<fScale>0.44</fScale>
-			<fInterfaceScale>1.0</fInterfaceScale>
-			<NIF>Art/Units/Settler_South_America/Settler_South_America_child.nif</NIF>
-			<KFM>Art/Units/Settler_South_America/Settler_Child.kfm</KFM>
-			<SHADERNIF>Art/Units/Settler_South_America/Settler_South_America_child_fx.nif</SHADERNIF>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>0.7</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<bCombatExempt>1</bCombatExempt>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-		</UnitArtInfo>
-		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_SETTLER_SOUTH_AMERICA</Type>
 			<Button>Art/Interface/Buttons/Units/sparth/settler.dds</Button>
 			<fScale>0.44</fScale>
@@ -23172,23 +23015,6 @@
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
 				<fShadowScale>0.8</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-		</UnitArtInfo>
-		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_SWORDSMAN_SOUTH_AMERICA</Type>
-			<Button>Art/Interface/Buttons/Units/sparth/swordsman.dds</Button>
-			<fScale>0.44</fScale>
-			<fInterfaceScale>1.0</fInterfaceScale>
-			<NIF>Art/Units/south_american_sparth/swordsman/andesmidsword_fx.nif</NIF>
-			<KFM>Art/Units/Unique/Japan/Samurai/JapaneseSamurai.kfm</KFM>
-			<SHADERNIF>Art/Units/south_american_sparth/swordsman/andesmidsword_fx.nif</SHADERNIF>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>1.0</fShadowScale>
 			</ShadowDef>
 			<fBattleDistance>0.35</fBattleDistance>
 			<fRangedDeathTime>0.31</fRangedDeathTime>
