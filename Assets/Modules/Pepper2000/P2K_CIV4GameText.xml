@@ -1012,6 +1012,38 @@
 		<Tag>TXT_KEY_UNIT_WARLORDVIIIS</Tag>
 		<English>Great Overlord</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CONSTRUCTION_SHIP</Tag>
+		<English>Construction Ship</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CONSTRUCTION_SHIP_PEDIA</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CONSTRUCTION_SHIP_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUPPLY_SHIP</Tag>
+		<English>Supply Ship</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUPPLY_SHIP_PEDIA</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SUPPLY_SHIP_STRATEGY</Tag>
+		<English>TBD</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LUNAR_BULLDOZER</Tag>
+		<English>Lunar Bulldozer</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LUNAR_WORKER</Tag>
+		<English>Lunar Worker</English>
+	</TEXT>
 	<!-- Routes -->
 	<TEXT>
 		<Tag>TXT_KEY_ROUTE_HYPERLOOP</Tag>
@@ -1774,6 +1806,38 @@
 		<Tag>TXT_KEY_IMPROVEMENT_MERCURY_SOLAR_ARRAY_PEDIA</Tag>
 		<English>This small town on the surface of Mercury is a rough place to live.</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_LUNAR_MINE</Tag>
+		<English>Lunar Mine</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_LUNAR_MINE_PEDIA</Tag>
+		<English>Lunar Mine</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_LUNAR_MINING_OUTPOST</Tag>
+		<English>Lunar Mining Outpost</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_LUNAR_MINING_OUTPOST</Tag>
+		<English>Lunar Mining Outpost</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_LUNAR_MINING_OUTPOST_PEDIA</Tag>
+		<English>Lunar Mining Outpost</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_LUNAR_HABITATION_COMPLEX</Tag>
+		<English>Lunar Habitation Complex</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_LUNAR_HABITATION_COMPLEX</Tag>
+		<English>Lunar Habitation Complex</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_LUNAR_HABITATION_COMPLEX_PEDIA</Tag>
+		<English>TBD</English>
+	</TEXT>
 	<!-- Missions and Outcomes-->
 	<TEXT>
 		<Tag>TXT_KEY_MISSION_LAUNCH_SATELLITE</Tag>
@@ -2126,6 +2190,22 @@
 	<TEXT>
 		<Tag>TXT_KEY_MISSION_CAPTURE_ASTEROID_HELP</Tag>
 		<English>Capture an asteroid</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_SUPPLY_SHIP_UPGRADE_TO_LUNAR_BULLDOZER</Tag>
+		<English>Become Bulldozert</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_SUPPLY_SHIP_UPGRADE_TO_LUNAR_BULLDOZER_HELP</Tag>
+		<English>Transforms the Supply Ship into a Bulldozer to connect resources to your city on the moon.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_OUTCOME_UPGRADE_TO_LUNAR_BULLDOZER</Tag>
+		<English>Will transform the Supply Ship into a Bulldozer.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_OUTCOME_UPGRADE_TO_LUNAR_BULLDOZER_MESSAGE</Tag>
+		<English>Your Supply Ship was transformed into a Bulldozer.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_OUTCOME_LAUNCH_SATELLITE</Tag>
