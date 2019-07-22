@@ -1950,15 +1950,6 @@
 			<bNoLimit>1</bNoLimit>
 			<DefaultBuilding>BUILDING_NAMA_EMBASSY</DefaultBuilding>
 		</BuildingClassInfo>
-		<!--<BuildingClassInfo>
-			<Type>BUILDINGCLASS_NIVKH_EMBASSY</Type>
-			<Description>TXT_KEY_BUILDING_NIVKH_EMBASSY</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<bNoLimit>1</bNoLimit>
-			<DefaultBuilding>BUILDING_NIVKH_EMBASSY</DefaultBuilding>
-		</BuildingClassInfo>-->
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_PICTISH_EMBASSY</Type>
 			<Description>TXT_KEY_BUILDING_PICTISH_EMBASSY</Description>

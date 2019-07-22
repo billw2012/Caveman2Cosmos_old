@@ -174,21 +174,6 @@ meaning 'Golden Courtyard'), originally named Inti Kancha (' Temple of the Sun')
 		<English>[COLOR_BUILDING_TEXT]The Coricancha[COLOR_REVERT]</English>
 		<Italian>Usa un grande profeta per costruire il Santuario Andino; in questo modo, otterrai dell'oro per ogni città del mondo in cui è diffuso l'Andinismo.</Italian>
 	</TEXT>
-	<!--TEXT>
-		<Tag>TXT_KEY_BUILDING_CHOQUEQUIRAO</Tag>
-		<English>Choquequirao</English>
-		<Polish>Choquequirao</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_CHOQUEQUIRAO_PEDIA</Tag>
-		<English>Choquequirao is a partly excavated ruined city of the Inca in the south of Peru. It bears a striking similarity in structure and architecture to Machu Picchu and is referred to as its 'sister'. Choquequirao receives far fewer tourists than its sister but the ruin is no less delightful and is a good alternative to the sometimes overcrowded Machu Picchu. Unlike Machupicchu, Choquequirao cannot be reached by train or bus. The only way to visit the site is to go on a scenic 2-day hike from outside CuscoThe site was most likely built during the reign of the Inca king Pachacuti Inca Yupanqui and is considered to be the last bastion of resistance and refuge of the Sons of the Sun who fled from the city of Cusco when it was under siege in 1535. Led by Manco Inca Yupanqui they took refuge in Choquequirao.</English>
-		<Italian>Choquequirao è una città Inca in rovina in parte riportata alla luce nel sud del Perù. Essa ha una sorprendente somiglianza nella struttura e nell'architettura con Machu Picchu, tanto che viene ritenuta la sua 'sorella'. Choquequirao riceve molti meno turisti rispetto alla sorella, ma la rovina è non meno carina ed è una buona alternativa alla sovraffollata Machu Picchu. A differenza di Machu Picchu, Choquequirao non può essere raggiunto in treno o in autobus. L'unico modo per visitare il sito è andare con una passeggiata panoramica di 2 giorni nei dintorni di Cusco.Il sito è stato probabilmente costruito durante il regno del re Inca Pachacuti Inca Yupanqui ed è considerata l'ultimo bastione di resistenza e di rifugio dei figli del sole che sono fuggiti dalla città di Cusco quando era sotto assedio nel 1535. Guidati da Manco Inca Yupanqui si rifugiarono a Choquequirao.</Italian>
-		<Polish>Choquequirao is a partly excavated ruined city of the Inca in the south of Peru. It bears a striking similarity in structure and architecture to Machu Picchu and is referred to as its 'sister'. Choquequirao receives far fewer tourists than its sister but the ruin is no less delightful and is a good alternative to the sometimes overcrowded Machu Picchu. Unlike Machupicchu, Choquequirao cannot be reached by train or bus. The only way to visit the site is to go on a scenic 2-day hike from outside CuscoThe site was most likely built during the reign of the Inca king Pachacuti Inca Yupanqui and is considered to be the last bastion of resistance and refuge of the Sons of the Sun who fled from the city of Cusco when it was under siege in 1535. Led by Manco Inca Yupanqui they took refuge in Choquequirao.</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_CHOQUEQUIRAO_STRATEGY</Tag>
-		<English>[COLOR_BUILDING_TEXT]Choquequirao[COLOR_REVERT]</English>
-	</TEXT-->
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_DORADO</Tag>
 		<English>El Dorado</English>

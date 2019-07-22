@@ -29,22 +29,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_ANTELOPE_STORY</DefaultBuilding>
 		</BuildingClassInfo-->
-		<!--BuildingClassInfo>
-			<Type>BUILDINGCLASS_BIRD_STORY</Type>
-			<Description>TXT_KEY_BUILDING_BIRD_STORY</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_BIRD_STORY</DefaultBuilding>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_BOAR_STORY</Type>
-			<Description>TXT_KEY_BUILDING_BOAR_STORY</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_BOAR_STORY</DefaultBuilding>
-		</BuildingClassInfo-->
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_BULL_MYTH</Type>
 			<Description>TXT_KEY_BUILDING_BULL_MYTH</Description>
@@ -93,14 +77,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_CRAB_MYTH</DefaultBuilding>
 		</BuildingClassInfo>
-		<!--BuildingClassInfo>
-			<Type>BUILDINGCLASS_CRAB_STORY</Type>
-			<Description>TXT_KEY_BUILDING_CRAB_STORY</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_CRAB_STORY</DefaultBuilding>
-		</BuildingClassInfo-->
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_DEER_MYTH</Type>
 			<Description>TXT_KEY_BUILDING_DEER_MYTH</Description>
@@ -165,14 +141,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_FIRE_MYTH_EFFECT</DefaultBuilding>
 		</BuildingClassInfo>
-		<!--BuildingClassInfo>
-			<Type>BUILDINGCLASS_FISH_STORY</Type>
-			<Description>TXT_KEY_BUILDING_FISH_STORY</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_FISH_STORY</DefaultBuilding>
-		</BuildingClassInfo-->
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_GOAT_MYTH</Type>
 			<Description>TXT_KEY_BUILDING_GOAT_MYTH</Description>
@@ -221,14 +189,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_LLAMA_MYTH</DefaultBuilding>
 		</BuildingClassInfo>
-		<!--BuildingClassInfo>
-			<Type>BUILDINGCLASS_LLAMA_STORY</Type>
-			<Description>TXT_KEY_BUILDING_LLAMA_STORY</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_LLAMA_STORY</DefaultBuilding>
-		</BuildingClassInfo-->
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_LION_MYTH</Type>
 			<Description>TXT_KEY_BUILDING_LION_MYTH</Description>
@@ -237,14 +197,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_LION_MYTH</DefaultBuilding>
 		</BuildingClassInfo>
-		<!--BuildingClassInfo>
-			<Type>BUILDINGCLASS_LION_STORY</Type>
-			<Description>TXT_KEY_BUILDING_LION_STORY</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_LION_STORY</DefaultBuilding>
-		</BuildingClassInfo-->
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_MARSUPIAL_MYTH</Type>
 			<Description>TXT_KEY_BUILDING_MARSUPIAL_MYTH</Description>
@@ -405,14 +357,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_TUNA_MYTH</DefaultBuilding>
 		</BuildingClassInfo>
-		<!--BuildingClassInfo>
-			<Type>BUILDINGCLASS_TUNA_STORY</Type>
-			<Description>TXT_KEY_BUILDING_TUNA_STORY</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_TUNA_STORY</DefaultBuilding>
-		</BuildingClassInfo-->
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_WEASEL_MYTH</Type>
 			<Description>TXT_KEY_BUILDING_WEASEL_MYTH</Description>

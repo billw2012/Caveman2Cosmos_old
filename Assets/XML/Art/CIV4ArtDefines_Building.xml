@@ -13340,16 +13340,6 @@
 			<Button>art/Craft/Art/smeltercopper.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_SMELTER_BRONZE</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>art/Craft/Art/smelterbronze.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_SMELTER_IRON</Type>
 			<LSystem/>
 			<bAnimated>0</bAnimated>
@@ -19840,16 +19830,6 @@
 			<Button>art/Embassy/art/namaembassy.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_NIVKH_EMBASSY</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>art/Embassy/art/nivkhembassy.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PICTISH_EMBASSY</Type>
 			<LSystem/>
 			<bAnimated>0</bAnimated>
@@ -22389,16 +22369,6 @@
 			<KFM/>
 			<Button>Art/Interface/Buttons/National_Wonders/research_hostpital.dds</Button>
 		</BuildingArtInfo>
-		<!--BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_HOLIDAY_HALLOWEEN</Type>
-			<LSystem/>
-			<bAnimated>0</bAnimated>
-			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>
-			<NIF/>
-			<KFM/>
-			<Button>art/Holidays/art/halloween.dds</Button>
-		</BuildingArtInfo-->
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GRASS_HUT</Type>
 			<LSystem/>
@@ -26670,16 +26640,6 @@
 			<Button>art/Sports/Buttons/Masters_Dojo.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_JOUSTING_ARENA</Type>
-			<LSystem>LSYSTEM_1x1</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>.95</fScale>
-			<fInterfaceScale>.95</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Jousting Arena/colosseum.nif</NIF>
-			<KFM/>
-			<Button>art/Sports/Buttons/Jousting_Arena.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_FENCING_ACADEMY</Type>
 			<LSystem/>
 			<bAnimated>0</bAnimated>
@@ -26698,16 +26658,6 @@
 			<NIF/>
 			<KFM/>
 			<Button>art/Sports/Buttons/Indoor_Rec_Center.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_OUTDOOR_RECREATION_CENTER</Type>
-			<LSystem>LSYSTEM_1x1</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>0.45</fScale>
-			<fInterfaceScale>0.45</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Outdoor Rec Center/Swing Set.nif</NIF>
-			<KFM/>
-			<Button>art/Sports/Buttons/Outdoor_Rec_Center.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ICE_RINK</Type>
@@ -26738,16 +26688,6 @@
 			<NIF>Art/Structures/Buildings/Major League Stadium/yankee.nif</NIF>
 			<KFM/>
 			<Button>art/Sports/Buttons/Major_League_Stadium.dds</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_OLYMPICS</Type>
-			<LSystem>LSYSTEM_3x3</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>0.5</fScale>
-			<fInterfaceScale>1</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/veterans/veterans04.nif</NIF>
-			<KFM/>
-			<Button>Art/Interface/Buttons/Great_Wonders/olympic_games.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_OLYMPIC</Type>

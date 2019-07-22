@@ -3738,30 +3738,6 @@
 		<Polish>Miedź (Cu, łac. cuprum) - pierwiastek chemiczny, z grupy metali przejściowych układu okresowego. Nazwa miedzi po łacinie (a za nią także w wielu innych językach, w tym angielskim) pochodzi od Cypru, gdzie w starożytności wydobywano ten metal. Początkowo nazywano go metalem cypryjskim (łac. cyprum aes), a następnie cuprum. Posiada 26 izotopów z przedziału mas 55-80. Trwałe są dwa: 63 i 65.</Polish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUILDING_SMELTER_BRONZE</Tag>
-		<English>Smelter (Bronze)</English>
-		<French>
-			<Text>Fondeur de Bronze</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<Italian>Fonditore di bronzo</Italian>
-		<Polish>Odlewnik Brązu</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_SMELTER_BRONZE_STRATEGY</Tag>
-		<English>Build a Bronze Smelter to increase your cities wealth and production.</English>
-		<French>Construire un [COLOR_BUILDING_TEXT]Fondeur de Bronze[COLOR_REVERT] pour augmenter la richesse et la production de la ville.</French>
-		<Italian>Costruisci un fonditore di bronzo per incrementare la produzione e la ricchezza della tua città.</Italian>
-		<Polish>Zbuduj Bronze Smelter by zwiększyć produkcję i bogactwo w Twoich miastach.</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_SMELTER_BRONZE_PEDIA</Tag>
-		<English>Bronze is an alloy consisting primarily of copper, usually with tin as the main additive. It is hard and tough, and it was so significant in antiquity that the Bronze Age was named after the metal. However, historical pieces were often made interchangeably of brasses (copper and zinc), and bronzes with different compositions, so modern museum and scholarly descriptions of older objects increasingly use the more inclusive term "copper alloy" instead.</English>
-		<Italian>Il bronzo è una lega costituita principalmente da rame, solitamente con lo stagno come additivo principale. E' duro e resistente, ed è stato così significativo in antichità che l'Età del Bronzo è stata chiamata così in onoredi questo metallo. Tuttavia, i pezzi storici sono stati spesso realizzati indifferentemente di ottone (rame e zinco) e bronzo con diversa composizione; perciò imusei moderni e gli studiosi di oggetti antichi utilizzano sempre più il termine generale "leghe di rame".</Italian>
-		<Polish>Brązy - stopy miedzi z cyną lub innymi metalami[a] i ewentualnie innymi pierwiastkami, w których zawartość miedzi zawiera się w granicach 80-90% wagowych (stopy miedzi, które nie noszą nazwy "brąz", to mosiądze - stopy miedzi i cynku - oraz miedzionikiel - stop miedzi z niklem).</Polish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SMELTER_IRON</Tag>
 		<English>Smelter (Iron)</English>
 		<French>
@@ -18592,23 +18568,6 @@
 		<Polish>Nama - grupa etniczna w Namibii i RPA</Polish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUILDING_NIVKH_EMBASSY</Tag>
-		<English>Culture (Nivkh)</English>
-		<Polish>Kultura (Nivkh)</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_NIVKH_EMBASSY_STRATEGY</Tag>
-		<English>Build Culture (Nivkh) to gain access to unique buildings and units.</English>
-		<French>Construisez la Culture (Nivkh) pour avoir accès à des bâtiments et unités uniques.</French>
-		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
-		<Polish>Zbuduj Culture (Nivkh) to gain access to unique buildings and units.</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_NIVKH_EMBASSY_PEDIA</Tag>
-		<English>TBD</English>
-		<Polish>Niwchowie (dawna nazwa: Gilacy) - autochotoniczny lud paleoazjatycki, zamieszkujący na wschodzie Rosji, głównie u ujścia rzeki Amur, a także na wyspie Sachalin. Liczba Niwchów wynosi 5162 (spis powszechny z 2002 r.). Posługują się głównie językiem rosyjskim, ale część (około 20%) zna jeszcze język niwchijski, należący dojęzyków paleoazjatyckich, odmienny od wszystkich innych na Ziemi, prawdopodobnie spokrewniony tylko z językiem ajnu.</Polish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUILDING_PICTISH_EMBASSY</Tag>
 		<English>Culture (Pictish)</English>
 		<Polish>Kultura (Piktyjska)</Polish>
@@ -21630,25 +21589,6 @@
 		<Tag>TXT_KEY_BUILDING_YOUTH_CENTER_PEDIA</Tag>
 		<English>A youth club or youth social club is a place where young people can meet and participate in activities such as football, soccer, basketball, table tennis, or video games, or religious activities.</English>
 	</TEXT>
-	<!--TEXT>
-		<Tag>TXT_KEY_BUILDING_HOLIDAY_HALLOWEEN</Tag>
-		<English>Holiday (Halloween)</English>
-		<French>Vacances (Halloween)</French>
-		<Italian>Vacanza (Halloween)</Italian>
-		<Polish>święto (Halloween)</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_HOLIDAY_HALLOWEEN_STRATEGY</Tag>
-		<English>A Type of Holiday.</English>
-		<French>un type de vacances.</French>
-		<Italian>Un tipo di vacanza.</Italian>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_HOLIDAY_HALLOWEEN_PEDIA</Tag>
-		<English>Halloween, also known as All Hallows' Eve, is a yearly holiday observed around the world on October 31, the eve of the Western Christian feast of All Hallows. Most scholars believe that All Hallows' Eve was originally influenced by western European harvest festivals and festivals of the dead with pagan roots, particularly the Celtic Samhain. Others maintain that it originated independently of Samhain.</English>
-		<Italian>Halloween, nota come Giorni di tutti i Santi, è una festività celebrata in tutto il mondo il 31 ottobre, giorno in cui la Cristianità festeggia Ognissanti. La maggio parte degli studiosi sostengono la festa di Ognissanti sia stata influenzata da rituali pagani, in particolare da quelli celtici dello Samhain; altri invece sostengono che si sia sviluppata indipendentemente.</Italian>
-		<Polish>Halloween - zwyczaj zwiazany z maskarada i odnoszacy sie do swieta zmarlych, obchodzony w wielu krajach w wieczór 31 pazdziernika, czyli przed dniem Wszystkich Swietych. Odniesienia do Halloween sa czesto widoczne w kulturze popularnej, glównie amerykanskiej.</Polish>
-	</TEXT-->
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_LONGHOUSE2</Tag>
 		<English>Housing (Longhouse)</English>
@@ -31439,7 +31379,7 @@
 		<Polish>Sala Mistrzów Dojo</Polish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUILDING_JOUSTING_ARENA</Tag>
+		<Tag>TXT_KEY_BUILDING_TOURNAMRNT</Tag>
 		<English>Jousting Tournament</English>
 		<French>
 			<Text>Tournoi de Joutes</Text>
@@ -31485,22 +31425,6 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Polish>Ośrodek Sportowy</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_OUTDOOR_RECREATION_CENTER</Tag>
-		<English>Outdoor Recreation Center</English>
-		<French>
-			<Text>Centre de Loisirs d'extérieur</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>Outdoor-Freizeitzentrum</German>
-		<Italian>
-			<Text>Centro ricreativo all'aperto</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Polish>Centrum Rekreacyjne</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ICE_RINK</Tag>
@@ -31549,22 +31473,6 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Polish>Stadion Pierwszej Ligi</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_OLYMPICS</Tag>
-		<English>Olympics</English>
-		<French>
-			<Text>Olympiades</Text>
-			<Gender>Female</Gender>
-			<Plural>1</Plural>
-		</French>
-		<German>Olympiade</German>
-		<Italian>
-			<Text>Olimpiadi</Text>
-			<Gender>Female</Gender>
-			<Plural>1</Plural>
-		</Italian>
-		<Polish>Olimpiada</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_X_GAMES</Tag>
@@ -31685,15 +31593,6 @@
 		<English>A dojo is a Japanese term which literally means "place of the way". Initially, dojo were adjunct to temples. The term can refer to a formal training place for any of the Japanese do arts but typically it is considered the formal gathering place for students of any Japanese martial arts style to conduct training, examinations and other related encounters.</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUILDING_JOUSTING_ARENA_PEDIA</Tag>
-		<English>Jousting is a sport played by two knights mounted on horses. It consists of martial competition between two mounted knights using a variety of weapons, usually in sets of three per weapon (such as tilting with a lance, blows with the battle axe, strokes with the dagger, or strokes with a sword), often as part of a tournament.[NEWLINE]Jousting was just one of a number of popular martial games in the Middle Ages referred to generically as hastiludes and took great skill to do.</English>
-		<French>Jousting is a sport played by two knights mounted on horses. It consists of martial competition between two mounted knights using a variety of weapons, usually in sets of three per weapon (such as tilting with a lance, blows with the battle axe, strokes with the dagger, or strokes with a sword), often as part of a tournament.[NEWLINE]Jousting was just one of a number of popular martial games in the Middle Ages referred to generically as hastiludes and took great skill to do</French>
-		<German>Jousting is a sport played by two knights mounted on horses. It consists of martial competition between two mounted knights using a variety of weapons, usually in sets of three per weapon (such as tilting with a lance, blows with the battle axe, strokes with the dagger, or strokes with a sword), often as part of a tournament.[NEWLINE]Jousting was just one of a number of popular martial games in the Middle Ages referred to generically as hastiludes and took great skill to do</German>
-		<Italian>Jousting is a sport played by two knights mounted on horses. It consists of martial competition between two mounted knights using a variety of weapons, usually in sets of three per weapon (such as tilting with a lance, blows with the battle axe, strokes with the dagger, or strokes with a sword), often as part of a tournament.[NEWLINE]Jousting was just one of a number of popular martial games in the Middle Ages referred to generically as hastiludes and took great skill to do</Italian>
-		<Spanish>Jousting is a sport played by two knights mounted on horses. It consists of martial competition between two mounted knights using a variety of weapons, usually in sets of three per weapon (such as tilting with a lance, blows with the battle axe, strokes with the dagger, or strokes with a sword), often as part of a tournament.[NEWLINE]Jousting was just one of a number of popular martial games in the Middle Ages referred to generically as hastiludes and took great skill to do</Spanish>
-		<Polish>Turniej (st.niem. turnei) - rozgrywki sportowe, indywidualne lub drużynowe o mistrzostwo. Mianem turnieju często określa się rozgrywki "każdy z każdym", tj. każda drużyna musi stanąć do rywalizacji ze wszystkimi innymi z osobna (nazwa takiej formuły to system kołowy).</Polish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUILDING_FENCING_ACADEMY_PEDIA</Tag>
 		<English>Fencing is a family of sports and activities that feature armed combat involving cutting, stabbing, or bludgeoning weapons that are directly manipulated by hand, rather than shot, thrown or positioned. Examples include swords, knives, pikes, bayonets, batons, clubs, and similar weapons. In contemporary common usage, fencing tends to refer specifically to European schools of swordsmanship and to the modern Olympic sport that has evolved out of them.</English>
 	</TEXT>
@@ -31715,12 +31614,6 @@
 		<Tag>TXT_KEY_BUILDING_MAJOR_LEAGUE_STADIUM_PEDIA</Tag>
 		<English>Major League Baseball (MLB) is the highest level of play in North American professional baseball. [NEWLINE]Specifically, Major League Baseball refers to the organization that operates the National League and the American League, by means of a joint organizational structure that has developed gradually between them since 1903 (the National League having been in existence since 1876). In 2000, the two leagues were officially disbanded as separate legal entities with all their rights and functions consolidated in the commissioner's office. MLB effectively operates as a single league and as such it constitutes one of the major professional sports leagues of the United States. It is currently composed of 30 teams - 29 in the United States and 1 in Canada. In conjunction with the International Baseball Federation, the MLB also manages the World Baseball Classic.[NEWLINE]Each season consists of 162 games (with an additional game, or games, in case of a tie breaker needed to determine postseason participation), which generally begins on the first Sunday in April and ends on the first Sunday in October, with the postseason played in October and sometimes into early November. The same rules and regulations are played between the two leagues with one exception: the American League operates under the Designated Hitter Rule, while the National League does not. Utilization of the DH Rule in interleague play, the All-Star and World Series games is determined by the home team's league rules.[NEWLINE]MLB is controlled by the Major League Baseball Constitution that has undergone several incarnations since 1876 with the most recent revisions being made in 2005. Under the direction of Commissioner of Baseball (currently Bud Selig), Major League Baseball hires and maintains the sport's umpiring crews, and negotiates marketing, labor, and television contracts. As is the case for most of the sports leagues in the United States and Canada, the "closed shop" aspect of MLB effectively prevents the yearly promotion and relegation of teams into and out of Major League Baseball by virtue of their performance. Major League Baseball maintains a unique, controlling relationship over the sport, including most aspects of minor league baseball. This is due in large part to a 1922 U.S. Supreme Court ruling in Federal Baseball Club v. National League, which held that baseball is not interstate commerce and therefore not subject to federal antitrust law. This ruling has been weakened only slightly in subsequent years.</English>
 		<Polish>Stadion - budowla sportowa, przeznaczona do rozgrywania zawodów różnych dyscyplin sportowych oraz innych masowych imprez widowiskowych lub komercyjnych (targi).</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_OLYMPICS_PEDIA</Tag>
-		<English>The Olympic Games are a major international event of summer and winter sports, in which thousands of athletes compete in a wide variety of events. The Games are currently held every two years, with Summer and Winter Olympic Games alternating. Originally, the ancient Olympic Games were held in Olympia, Greece, from the 8th century BC to the 5th century AD. In the late 19th century, Baron Pierre de Coubertin was inspired by Olympic festivals to revive the Games. For this purpose, he founded the International Olympic Committee (IOC) in 1894, and two years later, the modern Olympic Games were established in Athens. The IOC has since become the governing body of the Olympic Movement, whose structure and actions are defined by the Olympic Charter. [NEWLINE]The evolution of the Olympic Movement during the 20th century forced the IOC to adapt the Games to the world's changing social circumstances. Some of these adjustments included the creation of the Winter Games for ice and snow sports, the Paralympic Games for athletes with physical disabilities, and the Youth Olympic Games for teenage athletes. The IOC also had to accommodate the Games to the varying economical, political, and technological realities of the 20th century. As a result, the Olympics shifted away from pure amateurism, as envisioned by Coubertin, to allow participation of professional athletes. The growing importance of the mass media created the issue of corporate sponsorship and commercialization of the Games.[NEWLINE]The Olympic Movement currently comprises international sports federations (IFs), National Olympic Committees (NOCs), and organizing committees for each specific Olympic Games. As the decision-making body, the IOC is responsible for choosing the host city for each Olympic Games. The host city is responsible for organizing and funding a celebration of the Games consistent with the Olympic Charter. The Olympic program, consisting of the sports to be contested at each Olympic Games, is also determined by the IOC. The celebration of the Games encompasses many rituals and symbols, such as the Olympic flag and torch, as well as the opening and closing ceremonies. There are over 13,000 athletes that compete at the Summer and Winter Olympics in 33 different sports and nearly 400 events. The first, second, and third place finishers in each event receive gold, silver or bronze Olympic medals, respectively.</English>
-		<French>The Olympic Games are a major international event of summer and winter sports, in which thousands of athletes compete in a wide variety of events. The Games are currently held every two years, with Summer and Winter Olympic Games alternating. Originally, the ancient Olympic Games were held in Olympia, Greece, from the 8th century BC to the 5th century AD. In the late 19th century, Baron Pierre de Coubertin was inspired by Olympic festivals to revive the Games. For this purpose, he founded the International Olympic Committee (IOC) in 1894, and two years later, the modern Olympic Games were established in Athens. The IOC has since become the governing body of the Olympic Movement, whose structure and actions are defined by the Olympic Charter. [NEWLINE]The evolution of the Olympic Movement during the 20th century forced the IOC to adapt the Games to the world's changing social circumstances. Some of these adjustments included the creation of the Winter Games for ice and snow sports, the Paralympic Games for athletes with physical disabilities, and the Youth Olympic Games for teenage athletes. The IOC also had to accommodate the Games to the varying economical, political, and technological realities of the 20th century. As a result, the une Olympiades shifted away from pure amateurism, as envisioned by Coubertin, to allow participation of professional athletes. The growing importance of the mass media created the issue of corporate sponsorship and commercialization of the Games.[NEWLINE]The Olympic Movement currently comprises international sports federations (IFs), National Olympic Committees (NOCs), and organizing committees for each specific Olympic Games. As the decision-making body, the IOC is responsible for choosing the host city for each Olympic Games. The host city is responsible for organizing and funding a celebration of the Games consistent with the Olympic Charter. The Olympic program, consisting of the sports to be contested at each Olympic Games, is also determined by the IOC. The celebration of the Games encompasses many rituals and symbols, such as the Olympic flag and torch, as well as the opening and closing ceremonies. There are over 13,000 athletes that compete at the Summer and Winter une Olympiades in 33 different sports and nearly 400 events. The first, second, and third place finishers in each event receive gold, silver or bronze Olympic medals, respectively.</French>
-		<Polish>Olimpiada - okres pomiędzy dwoma następującymi po sobie igrzyskami. Zazwyczaj trwał około 4 lat. Co tyle lat odbywały się starożytne igrzyska w Olimpii i właśnie stąd wywodzi się nazwa tego okresu. Olimpiada była często wykorzystywana w starożytności (a także później) jako jednostka chronologiczna lub odnośnik w chronologii (Timajos). Najbardziej znany zapis za pomocą olimpiady dotyczy założenia Rzymu. Miało się to odbyć wedle Warronaw "trzecim roku VI Olimpiady". Z czasem słowo "olimpiada" w użyciu powszechnym zaczęło powoli tracić swoje dawne znaczenie i mieszać się pojęciowo z "igrzyskami". Należy jednak pamiętać, że impreza[styl do poprawy] sportowa organizowana co cztery lata oficjalnie nosi właśnie miano "igrzysk olimpijskich", a nie "olimpiady".</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_X_GAMES_PEDIA</Tag>
@@ -31776,12 +31669,6 @@
 		<Polish>Sale Mistrzów Dojo są przydatne do nauczania oddziałów zaawansowanej sztuki wojennej.</Polish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUILDING_JOUSTING_ARENA_STRATEGY</Tag>
-		<English>Jousting Arena's are a useful diversion for your populace and can help train your to-be knights.</English>
-		<French>L'Arène de Joutes est un divertissement utile pour votre population, et permet d'améliorer l'expérience de vos chevaliers.</French>
-		<Italian>Le giostre cavalleresche sono un'ottima distrazione per la popolazione, e permettono di addestrare i tuoi aspiranti cavalieri.</Italian>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUILDING_FENCING_ACADEMY_STRATEGY</Tag>
 		<English>Fencing Academy's can train troops the art of swordsmanship, improving their performance in combat.</English>
 		<French>une Académie d'escrime peut enseigner à vos troupes l'art de l'épée, améliorant leur expérience au combat.</French>
@@ -31793,15 +31680,6 @@
 		<French>un Centre Omnisports et utile pour inciter votre population à faire du sport et ainsi améliorer la santé.</French>
 		<Italian>I centri ricreativi sono utili per migliorare la salute della tua popolazione.</Italian>
 	</TEXT>
-	<!--<TEXT>
-		<Tag>TXT_KEY_BUILDING_OUTDOOR_RECREATION_CENTER_STRATEGY</Tag>
-		<English>Outdoor Recreation Center's give your people open grassy area's to have picnics, parties, and hold games.</English>
-		<French>Outdoor un Centre Omnisports's give your people open grassy area's to have picnics, parties, and hold games.</French>
-		<German>Outdoor Recreation Center's give your people open grassy area's to have picnics, parties, and hold games.</German>
-		<Italian>Outdoor Recreation Center's give your people open grassy area's to have picnics, parties, and hold games.</Italian>
-		<Spanish>Outdoor Recreation Center's give your people open grassy area's to have picnics, parties, and hold games.</Spanish>
-		<Polish>Centrum Rekreacyjne są przydatne do ulepszania stanu zdrowia Twojej populacji.</Polish		
-	</TEXT>-->
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ICE_RINK_STRATEGY</Tag>
 		<English>Build Ice Rinks to appease your population.</English>
@@ -31822,11 +31700,6 @@
 		<French>un Stade de Ligue des Champions attire les foules de loin. Construisez-en un et vous récolterez des revenus supplémentaires.</French>
 		<Italian>Gli stasi cittadini attirano grandi folle; costruiscine uno per ottenerne i benefici.</Italian>
 		<Polish>Stadion Pierwszej Ligi widać z daleka. Zbuduj jeden i zbierzesz nagrody.</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_OLYMPICS_STRATEGY</Tag>
-		<English>TBD</English>
-		<!--No one can actually build the Olympics, so no one will ever see this text.-->
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_X_GAMES_STRATEGY</Tag>

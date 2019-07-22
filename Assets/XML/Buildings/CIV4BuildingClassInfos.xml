@@ -2304,14 +2304,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_PONT_DU_GARD_AQUEDUCT</DefaultBuilding>
 		</BuildingClassInfo>
-	<!--	<BuildingClassInfo>
-			<Type>BUILDINGCLASS_CANCER</Type>
-			<Description>TXT_KEY_BUILDING_CANCER</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_CANCER</DefaultBuilding>
-		</BuildingClassInfo> -->
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_EDINBURGH_CASTLE</Type>
 			<Description>TXT_KEY_BUILDING_EDINBURGH_CASTLE</Description>
@@ -10375,16 +10367,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_SMELTER_COPPER</DefaultBuilding>
 		</BuildingClassInfo>
-<!--
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_SMELTER_BRONZE</Type>
-			<Description>TXT_KEY_BUILDING_SMELTER_BRONZE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_SMELTER_BRONZE</DefaultBuilding>
-		</BuildingClassInfo>
--->
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_SMELTER_IRON</Type>
 			<Description>TXT_KEY_BUILDING_SMELTER_IRON</Description>
@@ -15042,14 +15024,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_YOUTH_CENTER</DefaultBuilding>
 		</BuildingClassInfo>
-		<!--BuildingClassInfo>
-			<Type>BUILDINGCLASS_HOLIDAY_HALLOWEEN</Type>
-			<Description>TXT_KEY_BUILDING_HOLIDAY_HALLOWEEN</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_HOLIDAY_HALLOWEEN</DefaultBuilding>
-		</BuildingClassInfo-->
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_GRASS_HUT</Type>
 			<Description>TXT_KEY_BUILDING_GRASS_HUT</Description>
@@ -18819,14 +18793,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_MASTERS_DOJO</DefaultBuilding>
 		</BuildingClassInfo>
-		<!--<BuildingClassInfo>
-			<Type>BUILDINGCLASS_JOUSTING_ARENA</Type>
-			<Description>TXT_KEY_BUILDING_JOUSTING_ARENA</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_JOUSTING_ARENA</DefaultBuilding>
-		</BuildingClassInfo>-->		
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_TOURNAMENT</Type>
 			<Description>TXT_KEY_BUILDING_TOURNAMENT</Description>
@@ -18851,14 +18817,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_RECREATION_CENTER</DefaultBuilding>
 		</BuildingClassInfo>
-		<!--<BuildingClassInfo>
-			<Type>BUILDINGCLASS_OUTDOOR_RECREATION_CENTER</Type>
-			<Description>TXT_KEY_BUILDING_OUTDOOR_RECREATION_CENTER</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_OUTDOOR_RECREATION_CENTER</DefaultBuilding>
-		</BuildingClassInfo>-->
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_ICE_RINK</Type>
 			<Description>TXT_KEY_BUILDING_ICE_RINK</Description>
@@ -18883,14 +18841,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_MAJOR_LEAGUE_STADIUM</DefaultBuilding>
 		</BuildingClassInfo>
-		<!--<BuildingClassInfo>
-			<Type>BUILDINGCLASS_OLYMPICS</Type>
-			<Description>TXT_KEY_BUILDING_OLYMPICS</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_OLYMPICS</DefaultBuilding>
-		</BuildingClassInfo>-->
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_X_GAMES</Type>
 			<Description>TXT_KEY_BUILDING_X_GAMES</Description>

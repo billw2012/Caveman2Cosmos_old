@@ -38,14 +38,6 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_ANDEAN_TEMPLE</DefaultBuilding>
 		</BuildingClassInfo>
-		<!--BuildingClassInfo>
-			<Type>BUILDINGCLASS_CHOQUEQUIRAO</Type>
-			<Description>TXT_KEY_BUILDING_CHOQUEQUIRAO</Description>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultBuilding>BUILDING_CHOQUEQUIRAO</DefaultBuilding>
-		</BuildingClassInfo-->
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_MACHU_PICCHU</Type>
 			<Description>TXT_KEY_BUILDING_MACHU_PICCHU</Description>

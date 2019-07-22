@@ -16,7 +16,7 @@
 			<KFM />
 			<Button>Art/Interface/Buttons/National_Wonders/montreal_biodome.dds</Button>
 		</BuildingArtInfo>
-<!--		<BuildingArtInfo>
+		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CATACOMBS</Type>
 			<LSystem>LSYSTEM_3x3</LSystem>
 			<bAnimated>0</bAnimated>
@@ -26,7 +26,7 @@
 			<KFM />
 			<Button>Art/Interface/Buttons/Buildings/Catacombs.dds</Button>
 		</BuildingArtInfo>
--->		<BuildingArtInfo>
+		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CYRUS_CYLINDER</Type>
 			<LSystem>LSYSTEM_2x2</LSystem>
 			<bAnimated>0</bAnimated>
