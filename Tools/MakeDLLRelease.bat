@@ -1,4 +1,4 @@
 @echo off
 PUSHD "%~dp0"
-call MakeDLL.bat Release
+call _MakeDLL.bat Release
 POPD
