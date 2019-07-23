@@ -14,12 +14,14 @@
 # GJD modifications start here
 # **********************************
 
-import BugEventManager
-
-eventManager = BugEventManager.BugEventManager()
-
-def getEventManager():
+def getEventManager(bInit = False):
+	if bInit:
+		import BugEventManager
+		global eventManager
+		eventManager = BugEventManager.BugEventManager()
 	return eventManager
+
+getEventManager(True)
 
 # **********************************
 # GJD modifications end here
@@ -27,14 +29,13 @@ def getEventManager():
 
 def onEvent(argsList):
 	"""Called when a game event happens - return 1 if the event was consumed."""
-	return getEventManager().handleEvent(argsList)
+	return eventManager.handleEvent(argsList)
 
 def applyEvent(argsList):
-	context, playerID, netUserData, popupReturn = argsList
-	return getEventManager().applyEvent(argsList)
+	return eventManager.applyEvent(argsList)
 
 def beginEvent(context, argsList = -1):
-	return getEventManager().beginEvent(context, argsList)
+	return eventManager.beginEvent(context, argsList)
 
 def initAfterReload():
 	"""
@@ -45,14 +46,11 @@ def initAfterReload():
 	this will reinitialize BUG and the main interface.
 	"""
 	import BugInit
-	import BugPath
-	if not BugPath.isMac() and BugInit.init():
-		try:
-			import CvScreensInterface
-			CvScreensInterface.reinitMainInterface()
-		except:
-			import BugUtil
-			BugUtil.error("BugInit - failure rebuilding main interface after reloading Python modules")
-		getEventManager().fireEvent("PythonReloaded")
-
-initAfterReload()
+	BugInit.init()
+	try:
+		import CvScreensInterface
+		CvScreensInterface.reinitMainInterface()
+	except:
+		import BugUtil
+		BugUtil.error("BugInit - failure rebuilding main interface after reloading Python modules")
+	eventManager.fireEvent("PythonReloaded")

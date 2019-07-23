@@ -22,15 +22,6 @@
 #	NOTES:
 #  - Not really intended for 'Final Frontier' based maps.
 #
-#  - Compatible with BtS 3.19.
-#    I've run a short test with Warlords 2.13 and that worked fine too.
-#    The above statement seems to imply compatibility to BtS 3.13/3.17, but this isn't tested.
-#
-#    Actually the question of compatibility arises mostly with respect of
-#    recognizing and showing the right mod-versions.
-#    Unless recognition of 'Planetfall', 'Mars Now!' and 'Fall from Heaven 2' fails,
-#    there shouldn't be any problems beyond logging False identifications.
-#
 #  - Multiplayer compatibility is unknown.
 #    (Seems probable though as all randomizations are centralized within the choose..() functions.)
 #    Please tell me.
@@ -53,16 +44,23 @@ from CvPythonExtensions import *
 import CvMapGeneratorUtil
 import CvUtil
 import inspect
-import os
-import os.path
-import sys
+from os import path
 
+# Globals
+GC = CyGlobalContext()
+
+DEBUG = False
+
+bFF = False
+bPfall = False
+bMars = False
+
+bMarsh = True
 
 #################################################
 ### Defined Class Instances
 #################################################
 ### randomList = RandomList()
-### civFolders = CivFolders()
 ### deepOcean = DeepOcean()
 ### planetFallMap = PlanetFallMap()
 ### mapPrettifier = MapPrettifier()
@@ -76,28 +74,21 @@ import sys
 ### mapStats = MapStats()
 #################################################
 
-DEBUG = False
-
-def getVersion():
-	return "1.00"
-def getDescription():
-	return "MapScriptTools:\n Tools to facilitate map making.\n This is not a map-script!"
-
 ####################################################################################################
 ########## Set ModInfo Global Variables - should be called: first thing in beforeGeneration()
 ####################################################################################################
 # get infos about the mod, print infos
-def getModInfo( mapVersion=None, defLatitude=None, sMapInfo=None ):
-	print "[MST] ===== getModInfo()"
+def getModInfo(mapVersion=None, defLatitude=None, sMapInfo=None):
+	print "[MST] getModInfo()"
 
 	if DEBUG:
 		global callModule
 		stackList = inspect.stack()
-		printList( stackList, "stack:", 1, prefix="[MST] " )
+		printList(stackList, "stack:", 1, prefix="[MST] ")
 		callModule = ""
-		if len( stackList ) > 1:
+		if len(stackList) > 1:
 			callModule = stackList[1][1]
-		print "[MST] callModule: %s" % ( callModule )
+		print "[MST] callModule: %s" %callModule
 
 	########################
 	### initialization check
@@ -112,14 +103,11 @@ def getModInfo( mapVersion=None, defLatitude=None, sMapInfo=None ):
 	###########################
 	### civ universal constants
 	###########################
-	global gc, map, game, dice
+	global MAP
 	global iNumPlotsX, iNumPlotsY
-	gc   		  = CyGlobalContext()
-	map  		  = CyMap()
-	game 		  = CyGame()
-	dice 		  = gc.getGame().getMapRand()
-	iNumPlotsX = map.getGridWidth()
-	iNumPlotsY = map.getGridHeight()
+	MAP = CyMap()
+	iNumPlotsX = MAP.getGridWidth()
+	iNumPlotsY = MAP.getGridHeight()
 
 	##############################
 	### define cardinal directions
@@ -132,161 +120,6 @@ def getModInfo( mapVersion=None, defLatitude=None, sMapInfo=None ):
 	ecSouth = CardinalDirectionTypes.CARDINALDIRECTION_SOUTH
 	ecWest  = CardinalDirectionTypes.CARDINALDIRECTION_WEST
 
-	#######################
-	### retrieve parameters
-	#######################
-	global mapGetLatitude
-
-	# defLatitude should evaluate to a value between 0 .. 90, using y and/or x
-	sMapName = map.getMapScriptName()
-	if not mapVersion==None:
-		sMapName += " " + mapVersion
-	if defLatitude==None:
-		mapGetLatitude = "noPolesGetLatitude(x,y)"		# default - gives value between 0..90
-	else:
-		mapGetLatitude = defLatitude							# shoud give value between 0..90 but negative is ok
-	# adjust sMapInfo for Python Error with percent chars
-	if sMapInfo == None:
-		mapInfo = ""
-	else:
-		mapInfo = str( sMapInfo )
-		mapInfo = mapInfo.replace( "%", "%%" )
-
-	################
-	### get mod name
-	################
-	modName = ""
-	if bInitialized:
-		civFolders.getModPaths()
-		modName   = civFolders.modName
-		modFolder = civFolders.modFolder
-		modDir    = civFolders.modDir
-
-	###########################
-	### recongnize civ versions
-	###########################
-	global bBTS, bWarlords, bVanilla
-
-	sVersion = unicode(CyTranslator().getText("TXT_KEY_BTS_CIVS", ()))					# check for BtS
-#	print "[MST] " + sVersion
-	bBTS = (sVersion.find("Beyond the Sword") > -1)
-
-	sVersion = unicode(CyTranslator().getText("TXT_KEY_MAIN_MENU_WARLORS", ()))		# check for Warlords
-#	print "[MST] " + sVersion
-	bWarlords = (not bBTS) and (sVersion.find("Warlords") > -1)
-
-	sVersion = unicode(CyTranslator().getText("TXT_KEY_MAIN_MENU_ABOUT_CIV4", ()))	# check for Vanilla
-#	print "[MST] " + sVersion
-	bVanilla = (not bBTS) and (not bWarlords) and (sVersion.find("Civ 4") > -1)
-
-	#########################
-	### recongnize super mods
-	#########################
-	global bPatch, bAIAuto, bBBAI, bBUG
-
-	bPatch = checkPatch()												# Unofficial patch
-	bAIAuto = checkAIAuto()												# AI AutoPlay
-	bBBAI = checkBBAI()													# Better BtS AI
-	bBUG = checkBUG()														# BtS Unaltered Gameplay
-
-	# get BUG-ModName and BUG-ModVersion if possible
-	if bBUG:
-		bugModName = None
-		try:
-			import CvModName as BUGname
-			bugModName = BUGname.modName
-			bugModVersion = BUGname.modVersion
-			if bugModName.find( bugModVersion ) == -1:
-				bugModName += " " + bugModVersion
-			sprint  = "[MST] bugModName: %r\n" % bugModName
-			sprint +="[MST] bugModVersion: %r" % bugModVersion
-			print sprint
-
-		except:
-			pass
-
-	########################
-	### recongnize base mods
-	########################
-	global bFFH, bPfall, bMars, bFFront
-
-	bPfall = isBonus( "Fungicide" )													# Fungicide means 'Planetfall'
-	bFFH = isBonus( "Mana" )															# Mana means 'Fall from Heaven'
-	bFFront = gc.getInfoTypeForString('FEATURE_SOLAR_SYSTEM') > -1			# SolarSystem means 'Final Frontier'
-
-	sTxt = unicode(CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_CONCEPT_NEW", ()))		# 'Mars Now!'
-	bMars = (sTxt.find("Mars, Now!") > 1) or (sTxt.find("Mars, Jetzt!") > 1)				# 'Mars Now!'
-
-	#############################
-	### recongnize different mods
-	#############################
-	global bFF, bFFlat, bOrbis, bRoD, bLE, bWMana, bRifE
-	global bTrek, bMOO
-	global bLoR, bRoM, bTW, bHoTK, bHitM, bOver, bQC
-
-	# FFH - Fall Further
-	sVersion = unicode(CyTranslator().getText("TXT_KEY_VERSION", ()))		# Fall Further does it right !
-	bFF = (sVersion.find("Fall Further") > -1)									# we can even get the patch version
-	if bFF:
-		n1 = sVersion.find( '(' )
-		n2 = sVersion.find( ')' )
-		modName = " Fall Further " + sVersion[n1+1:n2]
-
-	# FFH - Fall Flat
-	sVersion = unicode(CyTranslator().getText("TXT_KEY_VERSION", ()))		# Fall Flat does it right !
-	bFFlat = (sVersion.find("Fall Flat") > -1)
-
-	# FFH - Orbis
-	sVersion = unicode(CyTranslator().getText("TXT_KEY_VERSION", ()))		# Orbis does it right !
-	bOrbis = (sVersion.find("Orbis") > -1)
-
-	# FFH - Rise of Darkness
-	bRoD   = ( modName.lower().find( "rise of darkness") >-1 ) and bFFH	# 'Rise of Darkness' Mod
-
-	# FFH - Leaders Enhanced
-	sVersion = unicode(CyTranslator().getText("TXT_KEY_VERSION", ()))		# Leaders Enhanced does it right !
-	bLE = (sVersion.find("LeadersEnhanced") > -1)
-
-	# FFH - Wildmana
-	bWMana = ( modName.lower().find( "wild mana")>-1 ) and bFFH				# 'WildMana' Mod
-
-	# FFH - Rise from Erebus
-	sVersion = unicode(CyTranslator().getText("TXT_KEY_VERSION", ()))		# Rise from Erebus does it right !
-	bRifE = (sVersion.find("Rise from Erebus") > -1)
-
-	# FinalFrontier - Star Trek
-	bTrek  = ( gc.getInfoTypeForString('ERA_TOS') > -1 )						# 'Tos' means Star Trek
-
-	# FinalFrontier - Master of Orion
-	bMOO   = ( gc.getInfoTypeForString('CIVILIZATION_SAKKRA') > -1 )		# 'Sakkra' means Master of Orion
-
-	# Legends Of Revolution
-	sVersion = unicode(CyTranslator().getText("TXT_KEY_CONCEPT_LOR_REVOLUTIONS_PEDIA", ()))
-	bLoR = (sVersion.find("Legends of Revolution") > -1)
-
-	# Rise of Mankind
-	sVersion = unicode(CyTranslator().getText("TXT_KEY_CONCEPT_ROM_RELIGION_PEDIA", ()))
-	bRoM = (sVersion.find("Caveman2Cosmos") > -1)
-
-	# Thomas' War
-	sVersion = unicode(CyTranslator().getText("TXT_KEY_NEW_CIV", ()))
-	bTW = (sVersion.find("Thomas' War") > -1)
-
-	# The History of Three Kingdoms
-	sVersion = unicode(CyTranslator().getText("TXT_KEY_BUG_CREATED_BY_HEADER", ()))
-	bHoTK = (sVersion.find("History of Three Kingdoms") > -1)
-
-	# History in the Making
-	sVersion = unicode(CyTranslator().getText("TXT_KEY_DCM_TEXT", ()))
-	bHitM = (sVersion.find("History in the Making") > -1)
-
-	# Overlord
-	sVersion = unicode(CyTranslator().getText("TXT_KEY_GAMESPEED_FXOVERLORD", ()))
-	bOver = (sVersion.find("OverLord") > -1)
-
-	# Quot Capita
-	bQC = ( modName.lower().find( "quot capita")>-1 )
-
 	###############################
 	### define globals for terrains
 	###############################
@@ -294,102 +127,36 @@ def getModInfo( mapVersion=None, defLatitude=None, sMapInfo=None ):
 	global etTrench, etShelf, etFlatRainy, etRockyRainy
 	global etFlatMoist, etRockyMoist, etFlatArid, etRockyArid, etFlatPolar, etRockyPolar
 	global etBurningSands, etBrokenLands, etFieldsOfPerdition, etShallows
-	global etMarsh, etBlightedCoast, etBlackwater
-	global bMarsh, bBlightedCoast, bBlackwater
-	global etOceanDeep, bOceanDeep
+	global etMarsh
 
 	# define known terrains
-	bMarsh  = False
-	etOcean     = gc.getInfoTypeForString('TERRAIN_OCEAN')
-	etCoast     = gc.getInfoTypeForString('TERRAIN_COAST')
-	etOceanDeep = gc.getInfoTypeForString('TERRAIN_OCEAN_DEEP')
-	bOceanDeep  = ( etOceanDeep >= 0 )
-	if etOceanDeep == -1: etOceanDeep = etOcean
-	if bPfall:
-		etFlatRainy		= gc.getInfoTypeForString('TERRAIN_FLAT_RAINY')		# Marsh, Grass
-		etRockyRainy	= gc.getInfoTypeForString('TERRAIN_ROCKY_RAINY')	# Grass
-		etFlatMoist		= gc.getInfoTypeForString('TERRAIN_FLAT_MOIST')		# Plains 1
-		etRockyMoist	= gc.getInfoTypeForString('TERRAIN_ROCKY_MOIST')	# Plains 2, Tundra
-		etFlatArid		= gc.getInfoTypeForString('TERRAIN_FLAT_ARID')		# Desert 1
-		etRockyArid		= gc.getInfoTypeForString('TERRAIN_ROCKY_ARID')		# Desert 2
-		etFlatPolar		= gc.getInfoTypeForString('TERRAIN_FLAT_POLAR')		# Tundra, Snow
-		etRockyPolar	= gc.getInfoTypeForString('TERRAIN_ROCKY_POLAR')	# Snow
-		etShelf			= gc.getInfoTypeForString('TERRAIN_SHELF')
-		etTrench			= gc.getInfoTypeForString('TERRAIN_TRENCH')
-	else:
-		etDesert			= gc.getInfoTypeForString('TERRAIN_DESERT')			# FlatArid, RockyArid
-		etPlains			= gc.getInfoTypeForString('TERRAIN_PLAINS')			# FlatMoist, RockyMoist
-		etGrass 			= gc.getInfoTypeForString('TERRAIN_GRASS')			# FlatRainy, RockyRainy
-		etTundra			= gc.getInfoTypeForString('TERRAIN_TAIGA')			# RockyMoist, FlatPolar
-		etSnow			= gc.getInfoTypeForString('TERRAIN_ICE')				# FlatPolar, RockyPolar
-		etMarsh 			= gc.getInfoTypeForString("TERRAIN_MARSH")			# FlatRainy
-		if etMarsh<0: etMarsh = etGrass
-		bMarsh = ( etMarsh != etGrass )
-		if bFFH:
-			etBurningSands		  = gc.getInfoTypeForString('TERRAIN_BURNING_SANDS')			# Hell-Terrain Desert
-			etBrokenLands		  = gc.getInfoTypeForString('TERRAIN_BROKEN_LANDS')				# Hell-Terrain Grass
-			etFieldsOfPerdition = gc.getInfoTypeForString('TERRAIN_FIELDS_OF_PERDITION')		# Hell-Terrain Plains
-			etShallows			  = gc.getInfoTypeForString('TERRAIN_SHALLOWS')					# Hell-Terrain Marsh
-	# known other terrains, which may exist - or not
-	etBlightedCoast = gc.getInfoTypeForString('TERRAIN_BLIGHTED_COAST')		# Hell-Terrain Coast
-	bBlightedCoast  = ( etBlightedCoast >= 0 )
-	etBlackwater	 = gc.getInfoTypeForString('TERRAIN_BLACKWATER')		# Hell-Terrain Ocean
-	bBlackwater     = ( etBlackwater >= 0 )
+	etOcean = GC.getInfoTypeForString('TERRAIN_OCEAN')
+	etCoast = GC.getInfoTypeForString('TERRAIN_COAST')
+
+	etDesert	= GC.getInfoTypeForString('TERRAIN_DESERT')	# FlatArid, RockyArid
+	etPlains	= GC.getInfoTypeForString('TERRAIN_PLAINS')	# FlatMoist, RockyMoist
+	etGrass 	= GC.getInfoTypeForString('TERRAIN_GRASS')	# FlatRainy, RockyRainy
+	etTundra	= GC.getInfoTypeForString('TERRAIN_TAIGA')	# RockyMoist, FlatPolar
+	etSnow		= GC.getInfoTypeForString('TERRAIN_ICE')	# FlatPolar, RockyPolar
+	etMarsh 	= GC.getInfoTypeForString("TERRAIN_MARSH")	# FlatRainy
 
 	###############################
 	### define globals for features
 	###############################
 	global efIce, efFallout, efForest, efJungle, efOasis, efFloodPlains
-	global efTrench, efSeaFungus, efXenoFungus, efHybridForest, efRadiation
-	global efForestBurnt, efForestNew, efForestAncient, efFlames, efTormentedSouls
-	global efSwamp, efStorm, efKelp, efVolcano, efVolcanoDormant, efScrub, efCrystalPlains
-	global efHauntedLands, efBlizzard, efObsidianPlains
-	global bSwamp, bStorm, bKelp, bVolcano, bVolcanoDormant, bScrub, bCrystalPlains
-	global bHauntedLands, bBlizzard, bObsidianPlains
+	global efSwamp, efStorm, efKelp, efVolcano
 
 	# define known features
-	efIce         = gc.getInfoTypeForString('FEATURE_ICE')
-	efFallout     = gc.getInfoTypeForString('FEATURE_FALLOUT')
-	efForest      = gc.getInfoTypeForString('FEATURE_FOREST')
-	efJungle      = gc.getInfoTypeForString('FEATURE_JUNGLE')
-	if bPfall:
-		efTrench       = gc.getInfoTypeForString('FEATURE_TRENCH')
-		efSeaFungus    = gc.getInfoTypeForString('FEATURE_SEA_FUNGUS')
-		efXenoFungus   = gc.getInfoTypeForString('FEATURE_XENOFUNGUS')
-		efHybridForest = gc.getInfoTypeForString('FEATURE_HYBRID_FOREST')
-		efRadiation    = gc.getInfoTypeForString('FEATURE_RADIATION')
-	else:
-		efOasis       = gc.getInfoTypeForString('FEATURE_OASIS')
-		efFloodPlains = gc.getInfoTypeForString('FEATURE_FLOOD_PLAINS')
-		if bFFH:
-			efForestBurnt    = gc.getInfoTypeForString('FEATURE_FOREST_BURNT')
-			efForestNew      = gc.getInfoTypeForString('FEATURE_FOREST_NEW')
-			efForestAncient  = gc.getInfoTypeForString('FEATURE_FOREST_OLD')
-			efFlames         = gc.getInfoTypeForString('FEATURE_FLAMES')
-			efTormentedSouls = gc.getInfoTypeForString('FEATURE_TORMENTED_SOULS')
-			# plus walls and doors - are they used?
-
-	# known other features, which may exist - or not
-	efSwamp          = gc.getInfoTypeForString('FEATURE_SWAMP')					#
-	bSwamp           = ( efSwamp >= 0 )
-	efStorm          = gc.getInfoTypeForString('FEATURE_STORM')					#
-	bStorm           = ( efStorm >= 0 )
-	efKelp           = gc.getInfoTypeForString('FEATURE_KELP')					# terain_coast
-	bKelp            = ( efKelp >= 0 )
-	efVolcano        = gc.getInfoTypeForString('FEATURE_VOLCANO')				# plot_peak
-	bVolcano         = False #( efVolcano >= 0 )                        # Volcano deactivated, it does not fit for that
-	efVolcanoDormant = gc.getInfoTypeForString('FEATURE_VOLCANO_DORMANT')		# plot_peak
-	bVolcanoDormant  = ( efVolcanoDormant >= 0 )
-	efScrub          = gc.getInfoTypeForString('FEATURE_SCRUB')					# terrain_desert
-	bScrub           = ( efScrub >= 0 )
-	efBlizzard       = gc.getInfoTypeForString('FEATURE_BLIZZARD')				# TERRAIN_ICE, TERRAIN_TAIGA
-	bBlizzard        = ( efBlizzard >= 0 )
-	efCrystalPlains  = gc.getInfoTypeForString('FEATURE_CRYSTAL_PLAINS')		# TERRAIN_ICE, riverside & flat
-	bCrystalPlains   = ( efCrystalPlains >= 0 )
-	efHauntedLands   = gc.getInfoTypeForString('FEATURE_HAUNTED_LANDS')			# plot_land, plot_hill
-	bHauntedLands    = ( efHauntedLands >= 0 )
-	efObsidianPlains = gc.getInfoTypeForString('FEATURE_OBSIDIAN_PLAINS')		# terrain_burning_sands / terrain_marsh
-	bObsidianPlains  = ( efObsidianPlains >= 0 )
+	efIce			= GC.getInfoTypeForString('FEATURE_ICE')
+	efFallout		= GC.getInfoTypeForString('FEATURE_FALLOUT')
+	efForest		= GC.getInfoTypeForString('FEATURE_FOREST')
+	efJungle		= GC.getInfoTypeForString('FEATURE_JUNGLE')
+	efOasis			= GC.getInfoTypeForString('FEATURE_OASIS')
+	efFloodPlains	= GC.getInfoTypeForString('FEATURE_FLOOD_PLAINS')
+	efSwamp			= GC.getInfoTypeForString('FEATURE_SWAMP')
+	efStorm			= GC.getInfoTypeForString('FEATURE_STORM')
+	efKelp			= GC.getInfoTypeForString('FEATURE_KELP')		# terain_coast
+	efVolcano		= GC.getInfoTypeForString('FEATURE_VOLCANO')	# plot_peak
 
 	################################
 	### define globals for some boni
@@ -408,152 +175,156 @@ def getModInfo( mapVersion=None, defLatitude=None, sMapInfo=None ):
 	global ebAlgaeCyan, ebMineral, ebEnergy
 
 	# strategic boni
-	ebAluminum        = gc.getInfoTypeForString('BONUS_ALUMINUM')				#
-	ebBauxite         = gc.getInfoTypeForString('BONUS_BAUXITE')				#
-	ebCopper          = gc.getInfoTypeForString('BONUS_COPPER')					#
-	ebHorse           = gc.getInfoTypeForString('BONUS_HORSE')					#
-	ebIron            = gc.getInfoTypeForString('BONUS_IRON')					#
-	ebMithril         = gc.getInfoTypeForString('BONUS_MITHRIL')				# FFH:
-	ebNaturalGas      = gc.getInfoTypeForString('BONUS_NATURAL_GAS')			#
-	ebOil             = gc.getInfoTypeForString('BONUS_OIL')						# not plains, Pfall: water
-	ebReagens         = gc.getInfoTypeForString('BONUS_REAGENS')				# FFH:
-	ebRubber          = gc.getInfoTypeForString('BONUS_RUBBER')					#
-	ebSulphur         = gc.getInfoTypeForString('BONUS_SULPHUR')				#
-	ebTitanium        = gc.getInfoTypeForString('BONUS_TITANIUM')				#
-	ebUranium         = gc.getInfoTypeForString('BONUS_URANIUM')				#
+	ebAluminum        = GC.getInfoTypeForString('BONUS_ALUMINUM')				#
+	ebBauxite         = GC.getInfoTypeForString('BONUS_BAUXITE')				#
+	ebCopper          = GC.getInfoTypeForString('BONUS_COPPER')					#
+	ebHorse           = GC.getInfoTypeForString('BONUS_HORSE')					#
+	ebIron            = GC.getInfoTypeForString('BONUS_IRON')					#
+	ebMithril         = GC.getInfoTypeForString('BONUS_MITHRIL')				# FFH:
+	ebNaturalGas      = GC.getInfoTypeForString('BONUS_NATURAL_GAS')			#
+	ebOil             = GC.getInfoTypeForString('BONUS_OIL')						# not plains, Pfall: water
+	ebReagens         = GC.getInfoTypeForString('BONUS_REAGENS')				# FFH:
+	ebRubber          = GC.getInfoTypeForString('BONUS_RUBBER')					#
+	ebSulphur         = GC.getInfoTypeForString('BONUS_SULPHUR')				#
+	ebTitanium        = GC.getInfoTypeForString('BONUS_TITANIUM')				#
+	ebUranium         = GC.getInfoTypeForString('BONUS_URANIUM')				#
 
 	# mana boni
-	ebMana            = gc.getInfoTypeForString('BONUS_MANA')					# FFH:
-	ebManaEarth       = gc.getInfoTypeForString('BONUS_MANA_EARTH')			# FFH:
-	ebManaWater       = gc.getInfoTypeForString('BONUS_MANA_WATER')			# FFH:
-	ebManaAir         = gc.getInfoTypeForString('BONUS_MANA_AIR')				# FFH:
-	ebManaFire        = gc.getInfoTypeForString('BONUS_MANA_FIRE')				# FFH:
-	ebManaChaos       = gc.getInfoTypeForString('BONUS_MANA_CHAOS')			# FFH:
-	ebManaEntropy     = gc.getInfoTypeForString('BONUS_MANA_ENTROPY')			# FFH:
-	ebManaDeath       = gc.getInfoTypeForString('BONUS_MANA_DEATH')			# FFH:
-	ebManaShadow      = gc.getInfoTypeForString('BONUS_MANA_SHADOW')			# FFH:
-	ebManaSun         = gc.getInfoTypeForString('BONUS_MANA_SUN')				# FFH:
-	ebManaSpirit      = gc.getInfoTypeForString('BONUS_MANA_SPIRIT')			# FFH:
-	ebManaMind        = gc.getInfoTypeForString('BONUS_MANA_MIND')				# FFH:
-	ebManaLaw         = gc.getInfoTypeForString('BONUS_MANA_LAW')				# FFH:
-	ebManaNature      = gc.getInfoTypeForString('BONUS_MANA_NATURE')			# FFH:
-	ebManaLife        = gc.getInfoTypeForString('BONUS_MANA_LIFE')				# FFH:
-	ebManaBody        = gc.getInfoTypeForString('BONUS_MANA_BODY')				# FFH:
-	ebManaEnchantment = gc.getInfoTypeForString('BONUS_MANA_ENCHANTMENT')	# FFH:
-	ebManaMetamagic   = gc.getInfoTypeForString('BONUS_MANA_METAMAGIC')		# FFH:
-	ebManaIce         = gc.getInfoTypeForString('BONUS_MANA_ICE')				# FFH:
-	ebManaDimensional = gc.getInfoTypeForString('BONUS_MANA_DIMENSIONAL')	# FFH:
-	ebManaCreation    = gc.getInfoTypeForString('BONUS_MANA_CREATION')		# FFH:
-	ebManaForce       = gc.getInfoTypeForString('BONUS_MANA_FORCE')			# FFH:
-	ebManaRefined     = gc.getInfoTypeForString('BONUS_REFINED_MANA')			# FFH: Orbis
+	ebMana            = GC.getInfoTypeForString('BONUS_MANA')					# FFH:
+	ebManaEarth       = GC.getInfoTypeForString('BONUS_MANA_EARTH')			# FFH:
+	ebManaWater       = GC.getInfoTypeForString('BONUS_MANA_WATER')			# FFH:
+	ebManaAir         = GC.getInfoTypeForString('BONUS_MANA_AIR')				# FFH:
+	ebManaFire        = GC.getInfoTypeForString('BONUS_MANA_FIRE')				# FFH:
+	ebManaChaos       = GC.getInfoTypeForString('BONUS_MANA_CHAOS')			# FFH:
+	ebManaEntropy     = GC.getInfoTypeForString('BONUS_MANA_ENTROPY')			# FFH:
+	ebManaDeath       = GC.getInfoTypeForString('BONUS_MANA_DEATH')			# FFH:
+	ebManaShadow      = GC.getInfoTypeForString('BONUS_MANA_SHADOW')			# FFH:
+	ebManaSun         = GC.getInfoTypeForString('BONUS_MANA_SUN')				# FFH:
+	ebManaSpirit      = GC.getInfoTypeForString('BONUS_MANA_SPIRIT')			# FFH:
+	ebManaMind        = GC.getInfoTypeForString('BONUS_MANA_MIND')				# FFH:
+	ebManaLaw         = GC.getInfoTypeForString('BONUS_MANA_LAW')				# FFH:
+	ebManaNature      = GC.getInfoTypeForString('BONUS_MANA_NATURE')			# FFH:
+	ebManaLife        = GC.getInfoTypeForString('BONUS_MANA_LIFE')				# FFH:
+	ebManaBody        = GC.getInfoTypeForString('BONUS_MANA_BODY')				# FFH:
+	ebManaEnchantment = GC.getInfoTypeForString('BONUS_MANA_ENCHANTMENT')	# FFH:
+	ebManaMetamagic   = GC.getInfoTypeForString('BONUS_MANA_METAMAGIC')		# FFH:
+	ebManaIce         = GC.getInfoTypeForString('BONUS_MANA_ICE')				# FFH:
+	ebManaDimensional = GC.getInfoTypeForString('BONUS_MANA_DIMENSIONAL')	# FFH:
+	ebManaCreation    = GC.getInfoTypeForString('BONUS_MANA_CREATION')		# FFH:
+	ebManaForce       = GC.getInfoTypeForString('BONUS_MANA_FORCE')			# FFH:
+	ebManaRefined     = GC.getInfoTypeForString('BONUS_REFINED_MANA')			# FFH: Orbis
 
 	# define other known boni
-	ebClam            = gc.getInfoTypeForString('BONUS_CLAM')					# water
-	ebCrab            = gc.getInfoTypeForString('BONUS_CRAB')					# water
-	ebFish            = gc.getInfoTypeForString('BONUS_FISH')					# water
-	ebShrimp          = gc.getInfoTypeForString('BONUS_SHRIMP')					# water
-	ebCoal            = gc.getInfoTypeForString('BONUS_COAL')					#
-	ebGold            = gc.getInfoTypeForString('BONUS_GOLD')					# plains, desert, Pfall: any
-	ebSilver          = gc.getInfoTypeForString('BONUS_SILVER')					# tundra or snow, Pfall: any
-	ebBanana          = gc.getInfoTypeForString('BONUS_BANANA')					# grass & jungle
-	ebCow             = gc.getInfoTypeForString('BONUS_COW')						# grass, plains
-	ebDeer            = gc.getInfoTypeForString('BONUS_DEER')					# tundra & forest
-	ebFur             = gc.getInfoTypeForString('BONUS_FUR')						# tundra or snow, forest
-	ebGems            = gc.getInfoTypeForString('BONUS_GEMS')					# grass, jungle
-	ebMarble          = gc.getInfoTypeForString('BONUS_MARBLE')					# plains, tundra or snow
-	ebSheep           = gc.getInfoTypeForString('BONUS_SHEEP')					# grass or plains
+	ebClam            = GC.getInfoTypeForString('BONUS_CLAM')					# water
+	ebCrab            = GC.getInfoTypeForString('BONUS_CRAB')					# water
+	ebFish            = GC.getInfoTypeForString('BONUS_FISH')					# water
+	ebShrimp          = GC.getInfoTypeForString('BONUS_SHRIMP')					# water
+	ebCoal            = GC.getInfoTypeForString('BONUS_COAL')					#
+	ebGold            = GC.getInfoTypeForString('BONUS_GOLD')					# plains, desert, Pfall: any
+	ebSilver          = GC.getInfoTypeForString('BONUS_SILVER')					# tundra or snow, Pfall: any
+	ebBanana          = GC.getInfoTypeForString('BONUS_BANANA')					# grass & jungle
+	ebCow             = GC.getInfoTypeForString('BONUS_COW')						# grass, plains
+	ebDeer            = GC.getInfoTypeForString('BONUS_DEER')					# tundra & forest
+	ebFur             = GC.getInfoTypeForString('BONUS_FUR')						# tundra or snow, forest
+	ebGems            = GC.getInfoTypeForString('BONUS_GEMS')					# grass, jungle
+	ebMarble          = GC.getInfoTypeForString('BONUS_MARBLE')					# plains, tundra or snow
+	ebSheep           = GC.getInfoTypeForString('BONUS_SHEEP')					# grass or plains
 
-	ebFungicide        = gc.getInfoTypeForString('BONUS_FUNGICIDE')			# Pfall: non polar
-	ebFungalGin        = gc.getInfoTypeForString('BONUS_FUNGAL_GIN')			# Pfall:
-	ebGrenadeFruits    = gc.getInfoTypeForString('BONUS_GRENADE_FRUITS')		# Pfall: flat, not polar
-	ebPholusMutagen    = gc.getInfoTypeForString('BONUS_PHOLUS_MUTAGEN')		# Pfall:
-	ebRareDnaMoist     = gc.getInfoTypeForString('BONUS_RARE_DNA_MOIST')		# Pfall: moist
-	ebRareDnaOcean     = gc.getInfoTypeForString('BONUS_RARE_DNA_OCEAN')		# Pfall: ocean
-	ebRareDnaRainy     = gc.getInfoTypeForString('BONUS_RARE_DNA_RAINY')		# Pfall: rainy
-	ebRareDnaTropical  = gc.getInfoTypeForString('BONUS_RARE_DNA_TROPICAL')	# Pfall: rainy
-	ebBoreHoleCluster  = gc.getInfoTypeForString('BONUS_BOREHOLE_CLUSTER')	# Pfall:
-	ebResonanceCluster = gc.getInfoTypeForString('BONUS_RESONANCE_CLUSTER')	# Pfall:
-	ebArtifact         = gc.getInfoTypeForString('BONUS_ARTIFACT')				# Pfall:
-	ebDimensionalGate  = gc.getInfoTypeForString('BONUS_DIMENSIONAL_GATE')	# Pfall:
-	ebManifoldNexus    = gc.getInfoTypeForString('BONUS_MANIFOLD_NEXUS')		# Pfall:
-	ebMonolith         = gc.getInfoTypeForString('BONUS_MONOLITH')				# Pfall:
-	ebTheRuins         = gc.getInfoTypeForString('BONUS_THE_RUINS')			# Pfall:
-	ebThorium          = gc.getInfoTypeForString('BONUS_THORIUM')				# Pfall:
-	ebIridium          = gc.getInfoTypeForString('BONUS_IRIDIUM')				# Pfall:
-	ebAlgaeCyan        = gc.getInfoTypeForString('BONUS_ALGAE_CYAN')			# Pfall:
-	ebEnergy           = gc.getInfoTypeForString('BONUS_ENERGY')				# Pfall:
-	ebMineral          = gc.getInfoTypeForString('BONUS_MINERAL')				# Pfall:
+	ebFungicide        = GC.getInfoTypeForString('BONUS_FUNGICIDE')			# Pfall: non polar
+	ebFungalGin        = GC.getInfoTypeForString('BONUS_FUNGAL_GIN')			# Pfall:
+	ebGrenadeFruits    = GC.getInfoTypeForString('BONUS_GRENADE_FRUITS')		# Pfall: flat, not polar
+	ebPholusMutagen    = GC.getInfoTypeForString('BONUS_PHOLUS_MUTAGEN')		# Pfall:
+	ebRareDnaMoist     = GC.getInfoTypeForString('BONUS_RARE_DNA_MOIST')		# Pfall: moist
+	ebRareDnaOcean     = GC.getInfoTypeForString('BONUS_RARE_DNA_OCEAN')		# Pfall: ocean
+	ebRareDnaRainy     = GC.getInfoTypeForString('BONUS_RARE_DNA_RAINY')		# Pfall: rainy
+	ebRareDnaTropical  = GC.getInfoTypeForString('BONUS_RARE_DNA_TROPICAL')	# Pfall: rainy
+	ebBoreHoleCluster  = GC.getInfoTypeForString('BONUS_BOREHOLE_CLUSTER')	# Pfall:
+	ebResonanceCluster = GC.getInfoTypeForString('BONUS_RESONANCE_CLUSTER')	# Pfall:
+	ebArtifact         = GC.getInfoTypeForString('BONUS_ARTIFACT')				# Pfall:
+	ebDimensionalGate  = GC.getInfoTypeForString('BONUS_DIMENSIONAL_GATE')	# Pfall:
+	ebManifoldNexus    = GC.getInfoTypeForString('BONUS_MANIFOLD_NEXUS')		# Pfall:
+	ebMonolith         = GC.getInfoTypeForString('BONUS_MONOLITH')				# Pfall:
+	ebTheRuins         = GC.getInfoTypeForString('BONUS_THE_RUINS')			# Pfall:
+	ebThorium          = GC.getInfoTypeForString('BONUS_THORIUM')				# Pfall:
+	ebIridium          = GC.getInfoTypeForString('BONUS_IRIDIUM')				# Pfall:
+	ebAlgaeCyan        = GC.getInfoTypeForString('BONUS_ALGAE_CYAN')			# Pfall:
+	ebEnergy           = GC.getInfoTypeForString('BONUS_ENERGY')				# Pfall:
+	ebMineral          = GC.getInfoTypeForString('BONUS_MINERAL')				# Pfall:
 
 	###################################
 	### define globals for improvements
 	###################################
 	global eiCityRuins, eiGoody
 	global eiFarm, eiMine, eiWindmill
-	global eiTrench, eiSolarCollector									# Planetfall
 
 	# define known improvements
-	eiCityRuins = gc.getInfoTypeForString('IMPROVEMENT_CITY_RUINS')			# plot_land, plot_hill
-	eiGoody = gc.getInfoTypeForString( 'IMPROVEMENT_GOODY_HUT' )
-	eiFarm = gc.getInfoTypeForString( 'IMPROVEMENT_FARM' )
-	eiMine = gc.getInfoTypeForString( 'IMPROVEMENT_MINE' )
+	eiCityRuins = GC.getInfoTypeForString('IMPROVEMENT_CITY_RUINS')			# plot_land, plot_hill
+	eiGoody = GC.getInfoTypeForString( 'IMPROVEMENT_GOODY_HUT' )
+	eiFarm = GC.getInfoTypeForString( 'IMPROVEMENT_FARM' )
+	eiMine = GC.getInfoTypeForString( 'IMPROVEMENT_MINE' )
 	if eiMine < 0:
-		eiMine = gc.getInfoTypeForString( 'IMPROVEMENT_MINE2' )
-	eiWindmill = gc.getInfoTypeForString( 'IMPROVEMENT_WINDMILL' )
-
-	if bPfall:
-		eiTrench = gc.getInfoTypeForString('IMPROVEMENT_TRENCH')
-		eiSolarCollector = gc.getInfoTypeForString( 'IMPROVEMENT_SOLAR_COLLECTOR' )
+		eiMine = GC.getInfoTypeForString( 'IMPROVEMENT_MINE2' )
+	eiWindmill = GC.getInfoTypeForString( 'IMPROVEMENT_WINDMILL' )
 
 	##############################
 	### Not available at init time
 	##############################
-	global sClimateType, sSeaType, sWorldType, sEraType
-	global iPlayers, bTeams
 
 	sprint = ""
 	if not bInitialized:
-		civ = ' Civ 4 - ' + iif( bBTS, 'Beyond the Sword', iif( bVanilla, '(Vanilla)', 'Warlords' ) )
-		iName = len(civ) + 1
-		sprint += "[MST]   " + "-" * iName + "\n"
-		sprint += "[MST]   " + civ + "\n"
-		sprint += "[MST]   " + "-" * iName + "\n"
-		sprint += "\n"
-		sprint += "[MST]   Mod Capabilities for Maps:\n"
-		sprint += "[MST]   --------------------------\n"
-		print sprint
-		mapStats.mapStatistics( False )
+		if DEBUG:
+			mapStats.mapStatistics()
 	else:
-		print
+		global sClimateType, sSeaType, sWorldType, sEraType
+		global iPlayers, bTeams
+		#######################
+		### retrieve parameters
+		#######################
+		global mapGetLatitude
+
+		# defLatitude should evaluate to a value between 0 .. 90, using y and/or x
+		sMapName = MAP.getMapScriptName()
+		if not mapVersion==None:
+			sMapName += " " + mapVersion
+		if defLatitude==None:
+			mapGetLatitude = "noPolesGetLatitude(x,y)"		# default - gives value between 0..90
+		else:
+			mapGetLatitude = defLatitude							# shoud give value between 0..90 but negative is ok
+		# adjust sMapInfo for Python Error with percent chars
+		if sMapInfo == None:
+			mapInfo = ""
+		else:
+			mapInfo = str(sMapInfo)
+			mapInfo = mapInfo.replace("%", "%%")
+
 		sprint += "[MST] " + "################################################################### MapScriptTools:getModInfo() ### \n"
 		sprint += "[MST] " + "Initialization Parameters: - %s, - %s \n\n" % (sMapName, mapGetLatitude)
 
 		###############################
 		### user selected map constants
 		###############################
+		GAME = CyGame()
 		# MapType
-		sClimateType = gc.getClimateInfo(map.getClimate()).getType()
-		sSeaType     = gc.getSeaLevelInfo(map.getSeaLevel()).getType()
-		sWorldType   = gc.getWorldInfo(map.getWorldSize()).getType()
-		sEraType     = gc.getEraInfo(game.getStartEra()).getType()
+		sClimateType = GC.getClimateInfo(MAP.getClimate()).getType()
+		sSeaType     = GC.getSeaLevelInfo(MAP.getSeaLevel()).getType()
+		sWorldType   = GC.getWorldInfo(MAP.getWorldSize()).getType()
+		sEraType     = GC.getEraInfo(GAME.getStartEra()).getType()
 		# Difficulty
-		sDifficulty = gc.getHandicapInfo(gc.getGame().getHandicapType()).getType()
+		sDifficulty = GC.getHandicapInfo(GAME.getHandicapType()).getType()
 		# GameSpeed
-		sGameSpeed = gc.getGameSpeedInfo(gc.getGame().getGameSpeedType()).getType()
-		iGameTurns = game.getMaxTurns()
-		iGameYears = gc.getGame().getTurnYear(iGameTurns) - gc.getGame().getTurnYear(0)
+		sGameSpeed = GC.getGameSpeedInfo(GAME.getGameSpeedType()).getType()
+		iGameTurns = GAME.getMaxTurns()
+		iGameYears = GAME.getTurnYear(iGameTurns) - GAME.getTurnYear(0)
 		# PlayerNumber, HasTeams
-		iPlayers = gc.getGame().countCivPlayersEverAlive()				# number of players
-		bTeams = teamStart.getTeams()											# check if there are teams
+		iPlayers = GAME.countCivPlayersEverAlive()				# number of players
+		bTeams = teamStart.getTeams()									# check if there are teams
 
 		########################
 		### print map & mod info
 		########################
-		iName = max( len(modName), len(sMapName) - 5 )
-		sprint += "[MST] " + "==============================%s \n" % ( '='*iName )
-		sprint += "[MST] " + "Map Script Features      Mod: %s \n" % ( capWords( modName ) )
-		sprint += "[MST] " + "----------------------   -----%s \n" % ( '-'*iName )
+		sprint += "[MST] " + "============================== \n"
 		sprint += "[MST] " + "MapScriptName:           %s \n\n" % ( sMapName )
-		sprint += "[MST] " + "Players/MaxPlayers:      %i / %i \n" % ( iPlayers, gc.getMAX_PLAYERS()-1 )
+		sprint += "[MST] " + "Players/MaxPlayers:      %i / %i \n" % ( iPlayers, GC.getMAX_PLAYERS()-1 )
 		sprint += "[MST] " + "Difficulty Level:        %s \n" % ( sDifficulty[9:].capitalize() )
 		if bTeams:
 			sprint += "[MST] " + "- Teams:                 %r \n" % ( teamStart.teamDict )
@@ -561,87 +332,16 @@ def getModInfo( mapVersion=None, defLatitude=None, sMapInfo=None ):
 			for k in teamStart.humanDict: humDict[k] = iif(teamStart.humanDict[k]==2,'True',iif(teamStart.humanDict[k]==1,'Some','False'))
 			sprint += "[MST] " + "- Team-Humanity:         %r \n" % ( humDict )
 		sprint += "[MST] " + "WorldArea: Size          %i x %i \n"  % ( iNumPlotsX, iNumPlotsY )
-		sprint += "[MST] " + "Mapsize:                 %s Map - %i Plots \n" % ( sWorldType[10:].capitalize(), map.numPlots() )
+		sprint += "[MST] " + "Mapsize:                 %s Map - %i Plots \n" % ( sWorldType[10:].capitalize(), MAP.numPlots() )
 		sprint += "[MST] " + "GameSpeed:               %s Speed - %i Turns, %i Years \n" % ( sGameSpeed[10:].capitalize(), iGameTurns, iGameYears )
 		sprint += "[MST] " + "Era:                     %s Era \n" % ( sEraType[4:].capitalize() )
-		if bFFront:
-			sprint += "\n"
-		else:
-			sprint += "[MST] " + "Climate, Sealevel:       %s, %s Seas \n" % ( sClimateType[8:].capitalize(), sSeaType[9:].capitalize() )
-			neg = ( evalLatitude(map.plot(iNumPlotsX-1,iNumPlotsY-1)) > evalLatitude(map.plot(iNumPlotsX-2,iNumPlotsY-2)) )
-			sprint += "[MST] " + "Latitude: Max,Min        %i, %s%i \n" % ( evalLatitude( map.plot(0,0) ), iif(neg,"-",""), evalLatitude( map.plot(iNumPlotsX-1,iNumPlotsY-1) ) )
+		sprint += "[MST] " + "Climate, Sealevel:       %s, %s Seas \n" % ( sClimateType[8:].capitalize(), sSeaType[9:].capitalize() )
+		neg = ( evalLatitude(MAP.plot(iNumPlotsX-1,iNumPlotsY-1)) > evalLatitude(MAP.plot(iNumPlotsX-2,iNumPlotsY-2)) )
+		sprint += "[MST] " + "Latitude: Max,Min        %i, %s%i \n" % ( evalLatitude( MAP.plot(0,0) ), iif(neg,"-",""), evalLatitude( MAP.plot(iNumPlotsX-1,iNumPlotsY-1) ) )
 		if sMapInfo != None:
-			sprint += "[MST] " + "----------------------   -----%s \n" % ( '-'*iName )
+			sprint += "[MST] " + "------------------------------ \n"
 			sprint += mapInfo
-			sprint += "[MST] " + "----------------------   -----%s \n" % ( '-'*iName )
-		sprint += "[MST] " + "Deep Ocean:              %r \n" % ( bOceanDeep )
-		sprint += "[MST] " + "Marsh, Volcano:          %r, %r \n" % ( bMarsh, bVolcano )
-		sprint += "[MST] " + "Kelp, Scrub:             %r, %r \n" % ( bKelp, bScrub )
-		if bFFH:
-			sprint += "[MST] " + "Haunted Lands            %r \n" % ( bHauntedLands )
-			sprint += "[MST] " + "Crystal Plains           %r \n" % ( bCrystalPlains )
-		sprint += "\n"
-
-		sprint += "[MST] " + "Mod-DLL is patched:      %r\n" % ( bPatch )
-		sprint += "[MST] " + "Uses AI AutoPlay:        %r\n" % ( bAIAuto )
-		sprint += "[MST] " + "Uses Better BtS AI:      %r\n" % ( bBBAI )
-		sprint += "[MST] " + "Uses BUG:                %r\n" % ( bBUG )
-		sprint += "[MST] " + "----------------------   -----%s \n" % ( '-'*iName )
-		sprint += "[MST] " + "Planetfall:              %r\n" % ( bPfall )
-		sprint += "[MST] " + "Mars Now!:               %r\n" % ( bMars )
-		if not bFFront:
-			sprint += "[MST] " + "Final Frontier:          %r\n" % ( bFFront )
-		else:
-			sprint += "[MST] " + "Final Frontier:          %r\n" % ( bFFront )
-			if bTrek:
-				sprint += "[MST] " + "  - Star Trek:           %r\n" % (bTrek)
-			elif bMOO:
-				sprint += "[MST] " + "  - MOO2Civ:             %r\n" % (bMOO)
-		if not bFFH:
-			sprint += "[MST] " + "Fall From Heaven:        %r\n" % ( bFFH )
-		else:
-			sprint += "[MST] " + "Fall From Heaven:        %r\n" % ( bFFH )
-			if bFF or bFFlat:
-				sprint += "[MST] " + "- Fall Further:          %r\n" % (bFF)
-			if bFFlat:
-				sprint += "[MST] " + "  - Fall Flat:           %r\n" % (bFFlat)
-			if bOrbis or bLE:
-				sprint += "[MST] " + "- Orbis:                 %r\n" % (bOrbis)
-			if bLE:
-				sprint += "[MST] " + "  - Leaders Enhanced:    %r\n" % (bLE)
-			if bRoD:
-				sprint += "[MST] " + "- Rise of Darkness:      %r\n" % (bRoD)
-			if bWMana:
-				sprint += "[MST] " + "- Wild Mana:             %r\n" % (bWMana)
-			if bRifE:
-				sprint += "[MST] " + "- Rise from Erebus:      %r\n" % (bRifE)
-		if bBUG and	(bugModName != None):
-			sprint += "\n"
-			sprint += "[MST] " + "%s \n" % ( capWords( bugModName ) )
-		else:
-			if bLoR:
-				sprint += "\n"
-				sprint += "[MST] " + "Legends of Revolution \n"
-			elif bTW:
-				sprint += "\n"
-				sprint += "[MST] " + "Thomas' War \n"
-			elif bHoTK:
-				sprint += "\n"
-				sprint += "[MST] " + "History of Three Kingdoms \n"
-			elif bRoM:
-				sprint += "\n"
-				sprint += "[MST] " + "Rise of Mankind \n"
-			elif bHitM:
-				sprint += "\n"
-				sprint += "[MST] " + "History in the Making \n"
-			elif bQC:
-				sprint += "\n"
-				sprint += "[MST] " + "Quot Capita \n"
-			elif bOver:
-				sprint += "\n"
-				sprint += "[MST] " + "Overlord \n"
-
-		sprint += "[MST] " + "==============================%s \n" % ( '='*iName )
+		sprint += "[MST] " + "============================== \n"
 		print sprint
 		print "[MST] " + "################################################################### MapScriptTools:getModInfo() ###"
 
@@ -663,10 +363,6 @@ def getModInfo( mapVersion=None, defLatitude=None, sMapInfo=None ):
 # iLat = noPolesGetLatitude( x, y )
 # iLat = dllGetLatitude( x, y )
 # iLat = floatGetLatitude( x, y )
-# bPatch = checkPatch()
-# bAIAuto = checkAIAuto()
-# bBBAI = checkBBAI()
-# bBUG = checkBUG()
 # testLatitude()
 # bool = isCivilization( sInfo )
 # bool = isBonus( sInfo )
@@ -723,7 +419,7 @@ def noPolesGetLatitude( x, y ):
 #   uses int and has rounding errors (actual values may vary slightly)
 #   includes only one pole and equator: like (90,60,30,0,30,60)
 def dllGetLatitude( x, y ):
-	return map.plot(x,y).getLatitude()
+	return MAP.plot(x,y).getLatitude()
 
 # get latitude 0..90 for given x,y coordinates
 # - simulates version from BtS_3.19 with Jdog's Unofficial Patch 1.00+
@@ -745,33 +441,17 @@ def checkPatch():
 				bPatch = True
 	return bPatch
 
-# test if AutoAI is available
-def checkAIAuto():
-	txt = unicode(CyTranslator().getText("TXT_KEY_AIAUTOPLAY_TURNS", ()))
-	return txt.find("AI to control") > -1
-
-# test if BBAI was incorporated into mod
-def checkBBAI():
-	txt = unicode(CyTranslator().getText("TXT_KEY_MISC_SHIFT_ALT_PREPARE_WAR", ()))
-	return txt.find("War Plan") > -1
-
-# test if BUG was incorporated into mod
-def checkBUG():
-	txt_0 = unicode(CyTranslator().getText("TXT_KEY_BUG_OPTIONS_KEY_REMINDER", ()))
-	txt_1 = unicode(CyTranslator().getText("TXT_KEY_BUG_OPTTAB_CREDITS", ()))
-	return ( txt_0.find("BUG Mod") > -1 ) or ( txt_1.find("Credits") > -1 )
-
 # test latitude evaluations
 def testLatitude():
 	sprint  = "[MST] " + "-" * 72 + " testLatitude() ----- \n"
 	sprint += "[MST] " + "Coordinates   DLL.getLatitude   Patch.getLatitude   noPolesGetLatitude   evalLatitude \n"
-	if map.isWrapX() or (not map.isWrapY()):
+	if MAP.isWrapX() or (not MAP.isWrapY()):
 		x = 0
 		for y in range(iNumPlotsY):
 			iLat1 = dllGetLatitude( x, y )				# actual latitude from DLL
 			iLat2 = floatGetLatitude( x, y )				# should be latitude (as in UnOffPatch and BBAI)
 			iLat3 = noPolesGetLatitude( x, y ) 			# equalized latitude
-			iLat4 = evalLatitude( map.plot(x,y) ) 		# evaluated latitude from defLatitude param
+			iLat4 = evalLatitude( MAP.plot(x,y) ) 		# evaluated latitude from defLatitude param
 			sprint += "[MST] " + "xy: %3i,%2i -> lat1: %2i - %6.3f, lat2: %2i - %6.3f, lat3: %2i - %6.3f,   lat4: %2i - %6.3f \n" % (0,y,iLat1,iLat1/90.0,iLat2,iLat2/90.0,iLat3,iLat3/90.0,iLat4,iLat4/90.0)
 	else:
 		y = 0
@@ -779,7 +459,7 @@ def testLatitude():
 			iLat1 = dllGetLatitude( x, y )				# actual latitude from DLL
 			iLat2 = floatGetLatitude( x, y )				# should be latitude (as in UnOffPatch and BBAI)
 			iLat3 = noPolesGetLatitude( x, y ) 			# equalized latitude
-			iLat4 = evalLatitude( map.plot(x,y) ) 		# evaluated latitude from defLatitude param
+			iLat4 = evalLatitude( MAP.plot(x,y) ) 		# evaluated latitude from defLatitude param
 			sprint += "[MST] " + "xy: %3i,%2i -> lat1: %2i - %6.3f, lat2: %2i - %6.3f, lat3: %2i - %6.3f,   lat4: %2i - %6.3f \n" % (x,0,iLat1,iLat1/90.0,iLat2,iLat2/90.0,iLat3,iLat3/90.0,iLat4,iLat4/90.0)
 	sprint += "[MST] " + "-" * 72 + " testLatitude() -----"
 	print sprint
@@ -787,8 +467,8 @@ def testLatitude():
 # test if civ exists in mod
 def isCivilization( sInfo ):
 	sInfo = "CIVILIZATION_" + sInfo.upper()
-	for i in range(gc.getNumCivilizationInfos()):
-		info_string = gc.getCivilizationInfo(i).getType()
+	for i in range(GC.getNumCivilizationInfos()):
+		info_string = GC.getCivilizationInfo(i).getType()
 		if info_string==sInfo: return True
 	return False
 
@@ -796,24 +476,24 @@ def isCivilization( sInfo ):
 def isBonus( sInfo ):
 	if not (sInfo[0:5] == "BONUS"):
 		sInfo = "BONUS_" + sInfo.upper()
-	for i in range(gc.getNumBonusInfos()):
-		info_string = gc.getBonusInfo(i).getType()
+	for i in range(GC.getNumBonusInfos()):
+		info_string = GC.getBonusInfo(i).getType()
 		if info_string==sInfo: return True
 	return False
 
 # test if leader exists in mod
 def isLeaderHead( sInfo ):
 	sInfo = "LEADER_" + sInfo.upper()
-	for i in range(gc.getNumLeaderHeadInfos()):
-		info_string = gc.getLeaderHeadInfo(i).getType()
+	for i in range(GC.getNumLeaderHeadInfos()):
+		info_string = GC.getLeaderHeadInfo(i).getType()
 		if info_string==sInfo: return True
 	return False
 
 # test if mapsize exists in mod
 def isWorldSize( sInfo ):
 	sInfo = "WORLDSIZE_" + sInfo.upper()
-	for i in range(gc.getNumWorldInfos()):
-		info_string = gc.getWorldInfo(i).getType()
+	for i in range(GC.getNumWorldInfos()):
+		info_string = GC.getWorldInfo(i).getType()
 		if info_string==sInfo: return True
 	return False
 
@@ -1041,7 +721,6 @@ def coordDirection( x, y, fx, fy ):
 ##########################################################################################################
 ########## Mapping Functions
 ##########################################################################################################
-# log = mapSetSign( plot, sTxt, noSign=False, iPlayerNum=None )
 # lBorders = getLatitudeBorders( fSnow=0.7, fTundra=0.6, fDesertTop=0.5, fDesertBottom=0.2, fGrass=0.1,  terGen=None )
 # bWater = isHighSeas( x, y, dist=1, data=None, bWrap=False, treshold=0 )
 # bWater = isWaterNeighbors( x, y, dist=1, data=None, bWrap=False )
@@ -1054,59 +733,35 @@ def coordDirection( x, y, fx, fy ):
 # cnt = numNeighborType( x, y, sType, eType, dist=1, bWrap=False )
 # bPass = isMountainPass( plot, bStrict=True )
 # plot = findPlotNearMountainRange( x, y )
-# (eDir0, eDir1) = checkLandBridge( x, y )
-# (eDir0, eDir1) = checkDiagonalLandBridge( x, y )
-# bWater = isWaterTerrain( eTerrain )
 # cntTer = getTerrainPercentage( eTerrain, bPercent=True )
 ##########################################################################################################
-
-# set landmark/sign at plot
-def mapSetSign( plot, sTxt, noSign=False, iPlayerNum=None ):
-	#Afforess - Disable Signs
-	return ""
-	#Afforess - Disable Signs
-	signText = CvUtil.convertToStr( sTxt )
-	log = ""
-	if iPlayerNum == None:
-		CyEngine().removeLandmark( plot )
-		if not noSign: CyEngine().addLandmark( plot, signText )
-	else:
-		player = gc.getPlayer( iPlayerNum )
-		CyEngine().removeSign( plot, player )
-		if not noSign: CyEngine().addSign(plot, player, signText )
-		log += " Player %i:" % (player)
-	log += " Plot %i,%i named: %s \n" % ( plot.getX(), plot.getY(), sTxt )
-	return log
 
 # get list of latitude borders
 def getLatitudeBorders( fSnow=0.7, fTundra=0.6, fDesertTop=0.5, fDesertBottom=0.2, fGrass=0.1, terGen=None ):
 	try:
-		lBorders = [ terGen.fSnowLatitude, terGen.fTundraLatitude, terGen.fDesertTopLatitude, \
-		             terGen.fDesertBottomLatitude, terGen.fGrassLatitude ]
-#		print "terrainGenerator BorderLatitudes: %r" % (lBorders)
+		lBorders = [terGen.fSnowLatitude, terGen.fTundraLatitude, terGen.fDesertTopLatitude, terGen.fDesertBottomLatitude, terGen.fGrassLatitude]
 	except:
-		fSnow += gc.getClimateInfo(map.getClimate()).getSnowLatitudeChange()
+		fSnow += GC.getClimateInfo(MAP.getClimate()).getSnowLatitudeChange()
 		fSnow = min(fSnow, 1.0)
 		fSnow = max(fSnow, 0.0)
 
-		fTundra += gc.getClimateInfo(map.getClimate()).getTundraLatitudeChange()
+		fTundra += GC.getClimateInfo(MAP.getClimate()).getTundraLatitudeChange()
 		fTundra = min(fTundra, 1.0)
 		fTundra = max(fTundra, 0.0)
 
-		fDesertTop += gc.getClimateInfo(map.getClimate()).getDesertTopLatitudeChange()
+		fDesertTop += GC.getClimateInfo(MAP.getClimate()).getDesertTopLatitudeChange()
 		fDesertTop = min(fDesertTop, 1.0)
 		fDesertTop = max(fDesertTop, 0.0)
 
-		fDesertBottom += gc.getClimateInfo(map.getClimate()).getDesertBottomLatitudeChange()
+		fDesertBottom += GC.getClimateInfo(MAP.getClimate()).getDesertBottomLatitudeChange()
 		fDesertBottom = min(fDesertBottom, 1.0)
 		fDesertBottom = max(fDesertBottom, 0.0)
 
-		fGrass += gc.getClimateInfo(map.getClimate()).getGrassLatitudeChange()
+		fGrass += GC.getClimateInfo(MAP.getClimate()).getGrassLatitudeChange()
 		fGrass = min(fGrass, 1.0)
 		fGrass = max(fGrass, 0.0)
 
 		lBorders = [ fSnow, fTundra, fDesertTop, fDesertBottom, fGrass]
-#		print "default BorderLatitudes: %r" % (lBorders)
 	return lBorders
 
 # check if there are (or more than treshold) any non-water plots in the vicinity; excluding the center spot
@@ -1119,9 +774,9 @@ def isHighSeas( x, y, dist=1, data=None, bWrap=False, treshold=0 ):
 			if bWrap:
 				# if not wrapped, ignore plots on the other side of the map
 				xx, yy = normalizeXY( x, y )
-				if not map.isWrapX():
+				if not MAP.isWrapX():
 					if (xx+dx)<0 or (xx+dx)>=iNumPlotsX: continue
-				if not map.isWrapY():
+				if not MAP.isWrapY():
 					if (yy+dy)<0 or (yy+dy)>=iNumPlotsY: continue
 			if data==None:
 				plot = GetPlot( x+dx, y+dy )
@@ -1155,9 +810,9 @@ def numHillNeighbors( x, y, bPeak=False, dist=1, data=None, bWrap=False ):
 			if bWrap:
 				# don't count plots on the other side of the map
 				xx, yy = normalizeXY( x, y )
-				if not map.isWrapX():
+				if not MAP.isWrapX():
 					if (xx+dx)<0 or (xx+dx)>=iNumPlotsX: continue
-				if not map.isWrapY():
+				if not MAP.isWrapY():
 					if (yy+dy)<0 or (yy+dy)>=iNumPlotsY: continue
 			if data == None:
 				plot = GetPlot( x+dx, y+dy )
@@ -1179,9 +834,9 @@ def numPlotNeighbors( x, y, ePlotType, dist=1, data=None, bWrap=False ):
 			if bWrap:
 				# don't count plots on the other side of the map
 				xx, yy = normalizeXY( x, y )
-				if not map.isWrapX():
+				if not MAP.isWrapX():
 					if (xx+dx)<0 or (xx+dx)>=iNumPlotsX: continue
-				if not map.isWrapY():
+				if not MAP.isWrapY():
 					if (yy+dy)<0 or (yy+dy)>=iNumPlotsY: continue
 			if data == None:
 				plot = GetPlot( x+dx, y+dy )
@@ -1203,9 +858,9 @@ def numTerrainNeighbors( x, y, eTerrain, dist=1, data=None, bWrap=False ):
 			if bWrap:
 				# don't count plots on the other side of the map
 				xx, yy = normalizeXY( x, y )
-				if not map.isWrapX():
+				if not MAP.isWrapX():
 					if (xx+dx)<0 or (xx+dx)>=iNumPlotsX: continue
-				if not map.isWrapY():
+				if not MAP.isWrapY():
 					if (yy+dy)<0 or (yy+dy)>=iNumPlotsY: continue
 			if data == None:
 				plot = GetPlot( x+dx, y+dy )
@@ -1232,9 +887,9 @@ def numFeatureNeighbors( x, y, eFeatures, dist=1, bWrap=False ):
 			if bWrap:
 				# don't count plots on the other side of the map
 				xx, yy = normalizeXY( x, y )
-				if not map.isWrapX():
+				if not MAP.isWrapX():
 					if (xx+dx)<0 or (xx+dx)>=iNumPlotsX: continue
-				if not map.isWrapY():
+				if not MAP.isWrapY():
 					if (yy+dy)<0 or (yy+dy)>=iNumPlotsY: continue
 			plot = GetPlot( x+dx, y+dy )
 			if plot.getFeatureType() in fList:
@@ -1252,12 +907,12 @@ def numNeighborType( x, y, sType, eType, dist=1, bWrap=False ):
 			if bWrap:
 				# don't count plots on the other side of the map
 				xx, yy = normalizeXY( x, y )
-				if not map.isWrapX():
+				if not MAP.isWrapX():
 					if (xx+dx)<0 or (xx+dx)>=iNumPlotsX: continue
-				if not map.isWrapY():
+				if not MAP.isWrapY():
 					if (yy+dy)<0 or (yy+dy)>=iNumPlotsY: continue
 			i = GetIndex( x+dx, y+dy )
-			plot = map.plotByIndex( i )
+			plot = MAP.plotByIndex( i )
 			if sType.upper() == 'TERRAIN':
 				if plot.getTerrainType() == eType:
 					cnt += 1
@@ -1344,9 +999,8 @@ def isMountainPass( plot, bStrict=True ):
 
 # distance to nearest starting-plot
 def startingPlotDistance( x, y ):
-	playerList = [ gc.getPlayer( playerID ) for playerID in range( gc.getMAX_PC_PLAYERS() )
-		                                     if gc.getPlayer( playerID ).isAlive() ]
-	sPlotList = [ player.getStartingPlot() for player in playerList ]
+	playerList = [GC.getPlayer(playerID) for playerID in range(GC.getMAX_PC_PLAYERS()) if GC.getPlayer(playerID).isAlive()]
+	sPlotList = [player.getStartingPlot() for player in playerList]
 	minDist = 99999
 	for pl in sPlotList:
 		dx,dy = pl.getX(), pl.getY()
@@ -1372,68 +1026,21 @@ def findPlotNearMountainRange( x, y ):
 	# return plot or None if empty
 	return chooseListElement( pHeight )
 
-# Check if tile is a land-bridge.
-# Return connecting land-plots or None.
-# A land-bridge is a tile connecting two parts of a land-area.
-def checkLandBridge( x, y ):
-	dirList = []
-	cnt = 0
-	for eDir in range( DirectionTypes.NUM_DIRECTION_TYPES ):
-		pl = plotDirection( x, y, DirectionTypes(eDir) )
-		if pl.isNone(): continue
-		if not pl.isWater():
-			if cnt > 1: return None
-			cnt += 1
-			dirList.append( eDir )
-	if len( dirList ) != 2: return None
-	d = dirList[1] - dirList[0]
-	if ( d < 2 ) or ( d > 6 ): return None
-	return (dirList[0], dirList[1])
-
-# Check if tile is a diagonal land-bridge.
-# Return connecting land-plots or None.
-# ---------------------------------------------------------
-# A diagonal land-bridge is a tile
-# diagonally connecting two parts of a land-area.
-#
-# ........   or   ........	   Note that only      .........
-# .xxx....        .xxx....    the nearby          .xxxx....
-# .xxx....        .xxx....    tiles are           .x.xx....
-# ....O...        ....O...    analyzed.           .x...O...
-# .....xx.        ..xx....                        .xx...xx.
-# .....xx.        ...xxx..    This is a diag.     .xxxxxxx.
-# ........        ........    land-bridge too:    .........
-# ---------------------------------------------------------
-def checkDiagonalLandBridge( x, y ):
-	dirList = []
-	for eDir in range( DirectionTypes.NUM_DIRECTION_TYPES ):
-		pl = plotDirection( x, y, DirectionTypes(eDir) )
-		if pl.isNone(): return None
-		if not pl.isWater():
-			if not odd( eDir ): return None
-			dirList.append( eDir )
-	if len( dirList ) != 2: return None
-	return (dirList[0], dirList[1])
-
-# check if terrain needs water-plot - like coast
-def isWaterTerrain( eTerrain ):
-	return gc.getTerrainInfo( eTerrain ).isWater()
-
 # get number of plots which have a specific terrain
 # return either the absolute number or a percentage of land / water, depending on terrain
 def getTerrainPercentage( eTerrain, bPercent=True ):
 	cntWater = 0
 	cntTer = 0
-	for inx in range( map.numPlots() ):
-		plot = map.plotByIndex( inx )
+	for inx in range( MAP.numPlots() ):
+		plot = MAP.plotByIndex( inx )
 		ter = plot.getTerrainType()
 		if plot.isWater(): cntWater += 1
 		if ter == eTerrain: cntTer += 1
 	if bPercent:
-		if isWaterTerrain( eTerrain ):
-			return round( ( (cntTer * 100.0) / cntWater ), 2 )
+		if GC.getTerrainInfo(eTerrain).isWater():
+			return round(cntTer * 100.0 / cntWater, 2)
 		else:
-			return round( ( (cntTer * 100.0) / (map.numPlots() - cntWater) ), 2 )
+			return round(cntTer * 100.0 / (MAP.numPlots() - cntWater), 2)
 	else:
 		return cntTer
 
@@ -1451,12 +1058,12 @@ def getTerrainPercentage( eTerrain, bPercent=True ):
 # ----------------------------------------
 # Already implemented area civ4-functions
 # ----------------------------------------
-# map.recalculateAreas()
+# MAP.recalculateAreas()
 # areaID = plot.getArea()
 # areaID = area.getID()
 # area = plot.area()
-# area = map.getArea( areaID )
-# area = map.findBiggestArea( bWater )
+# area = MAP.getArea( areaID )
+# area = MAP.findBiggestArea( bWater )
 # bTest = plot.isAdjacentToArea( area )
 # areaList = CvMapGeneratorUtil.getAreas()
 ################################################################################
@@ -1481,7 +1088,7 @@ def getRegion( areaData=None, iSurround=0 ):
 			yDict = {}
 			for x in range( iNumPlotsX ):
 				for y in range( iNumPlotsY ):
-					pl = map.plot( x, y )
+					pl = MAP.plot( x, y )
 					if areaData == pl.getArea():
 						xDict[ x ] = True
 						yDict[ y ] = True
@@ -1514,8 +1121,8 @@ def getRegion( areaData=None, iSurround=0 ):
 # returns a list of plots
 def getAreaPlots( areaID=None, isValidFn = None ):
 	areaPlots = []
-	for i in range( map.numPlots() ):
-		plot = map.plotByIndex(i)
+	for i in range( MAP.numPlots() ):
+		plot = MAP.plotByIndex(i)
 		if areaID == None:
 			if plot.isWater(): continue
 		else:
@@ -1566,7 +1173,7 @@ def getContinentCoastXY( continentPlots, bLakes=False ):
 def getContinentDistance( areaID, otherAreaID=None ):
 	if areaID == otherAreaID: return 0
 	# get 1st area
-	area = map.getArea( areaID )
+	area = MAP.getArea( areaID )
 	if area.isWater(): return -1
 	aPlotList = getAreaPlots( areaID )
 	if len(aPlotList) == 0: return -1
@@ -1577,15 +1184,15 @@ def getContinentDistance( areaID, otherAreaID=None ):
 	if otherAreaID == None:
 		# get coast of all other continents
 		otherCoastList = []
-		for inx in range( map.numPlots() ):
-			pl = map.plotByIndex( inx )
+		for inx in range( MAP.numPlots() ):
+			pl = MAP.plotByIndex( inx )
 			if pl.isCoastalLand():
 				if pl.getArea() != areaID:
 					x,y = coordByPlot( pl )
 					otherCoastList.append( (x,y) )
 	else:
 		# get coast of given continent
-		otherArea = map.getArea( otherAreaID )
+		otherArea = MAP.getArea( otherAreaID )
 		if otherArea.isWater(): return -1
 		otherPlotList = getAreaPlots( otherAreaID )
 		if len(otherPlotList) == 0: return -1
@@ -1643,14 +1250,14 @@ def getBigAreas( iTop, bCoord=True, noGoAreaPlots=None, iMinPlots=30 ):
 ################################################################################
 ########## Coordinate, Plot and Index Conversions
 ################################################################################
-# plot = GetPlot(x,y)				# same as plot = map.plot(x,y), but AutoWrap					#
-# inx = GetIndex(x,y)				# same as inx = map.plotNum(x,y), but AutoWrap
+# plot = GetPlot(x,y)				# same as plot = MAP.plot(x,y), but AutoWrap					#
+# inx = GetIndex(x,y)				# same as inx = MAP.plotNum(x,y), but AutoWrap
 # xx,yy = coordByPlot( plot )
 # xx,yy = coordByIndex( inx )
 # inx = indexByPlot( plot )
-# inx = map.plotNum(x,y)			# regular civ4 function
-# plot = map.plotByIndex( inx ) 	# regular civ4 function
-# plot = map.plot(x,y)				# regular civ4 function
+# inx = MAP.plotNum(x,y)			# regular civ4 function
+# plot = MAP.plotByIndex( inx ) 	# regular civ4 function
+# plot = MAP.plot(x,y)				# regular civ4 function
 # xx,yy = normalizeXY(x,y)
 ################################################################################
 
@@ -1658,7 +1265,7 @@ def getBigAreas( iTop, bCoord=True, noGoAreaPlots=None, iMinPlots=30 ):
 # allways gives usable plot
 def GetPlot(x,y):
 	xx, yy = normalizeXY( x, y )
-	return map.plot( xx, yy )
+	return MAP.plot( xx, yy )
 
 # convert x and y to an index (Auto-Wrap)
 # allways gives usable index
@@ -1674,7 +1281,7 @@ def coordByPlot( plot ):
 
 # get plot-coordinates from index
 def coordByIndex( inx ):
-	if (inx < 0) or (inx > map.numPlots()): return -1, -1
+	if (inx < 0) or (inx > MAP.numPlots()): return -1, -1
 	yy, xx = divmod( inx, iNumPlotsX )
 	return xx, yy
 
@@ -1705,7 +1312,7 @@ def normalizeXY( x, y ):
 
 # choose with iPercent chance
 def choose( iPercent, a, b ):
-	iRand = dice.get(100, "MapTools.choose()")
+	iRand = CyGame().getMapRand().get(100, "MapTools.choose()")
 	if iRand<iPercent: return a
 	return b
 
@@ -1714,8 +1321,8 @@ def choose( iPercent, a, b ):
 # Usage:
 # bon = chooseMore( (10,"BONUS_SILVER"), (35,"BONUS_GOLD"), (50,"BONUS_COPPER"), (85,"BONUS_IRON") )
 # will give the boni names with 10%, 25%, 15% and 35% probability or None with 15% probability
-def chooseMore( *t ):
-	iRand = dice.get(100, "MapScriptTools.chooseMore()")
+def chooseMore(*t):
+	iRand = CyGame().getMapRand().get(100, "MapScriptTools.chooseMore()")
 	li = []
 	if len(t)==1:
 		li = t[0]
@@ -1728,28 +1335,28 @@ def chooseMore( *t ):
 	return None
 
 # randomly pick item from dictionary
-def chooseDictElement( aDict ):
-	if len(aDict)==0: return None
+def chooseDictElement(aDict):
+	if not len(aDict): return None
 	aList = aDict.keys()
-	iRand = dice.get( len(aList), "MapScriptTools.chooseDictElement()" )
+	iRand = CyGame().getMapRand().get( len(aList), "MapScriptTools.chooseDictElement()" )
 	return aDict[ aList[iRand] ]
 
 # randomly pick item from list
-def chooseListElement( aList ):
-	if len(aList)==0: return None
-	iRand = dice.get( len(aList), "MapScriptTools.chooseListElement()" )
+def chooseListElement(aList):
+	if not len(aList): return None
+	iRand = CyGame().getMapRand().get( len(aList), "MapScriptTools.chooseListElement()" )
 	return aList[ iRand ]
 
 # randomly pick index from list
-def chooseListIndex( aList ):
-	if len(aList)==0: return -1
-	iRand = dice.get( len(aList), "MapScriptTools.chooseListIndex()" )
+def chooseListIndex(aList):
+	if not len(aList): return -1
+	iRand = CyGame().getMapRand().get( len(aList), "MapScriptTools.chooseListIndex()" )
 	return iRand
 
 # randomly pick index from list, delete index and return element
-def chooseListPop( aList ):
-	if len(aList)==0: return None
-	iRand = dice.get( len(aList), "MapScriptTools.chooseListPop()" )
+def chooseListPop(aList):
+	if not len(aList): return None
+	iRand = CyGame().getMapRand().get( len(aList), "MapScriptTools.chooseListPop()" )
 	return aList.pop( iRand )
 
 # get random number within [0 .. iRand-1] or [iRand .. iMax-1]
@@ -1757,7 +1364,7 @@ def chooseNumber( iRand, iMax=None ):
 	if iMax == None: iMax, iRand = iRand, 0
 	if iMax < iRand: iMax, iRand = iRand, iMax
 	iDice = iMax - iRand
-	return dice.get( iDice, "MapScriptTools.chooseNumber()" ) + iRand
+	return CyGame().getMapRand().get( iDice, "MapScriptTools.chooseNumber()" ) + iRand
 
 
 #######################################################################################
@@ -1808,564 +1415,31 @@ class RandomList:
 randomList = RandomList()
 
 
-############################################################################
-### CLASS CivFolders - check registry to find civ and mod files
-############################################################################
-# Class Variables (Example):
-# --- always accessible
-# appName:    Beyond the Sword
-# userDir:    ....\My Documents\My Games
-# rootDir:    ....\My Documents\My Games\Beyond the Sword
-# logDir:     ....\My Documents\My Games\Beyond the Sword\Logs
-# appDir:     ..\Civilization 4\Beyond the Sword
-# --- accessible only after calling getModPaths()
-# modDir:     ..\Civilization 4\Beyond the Sword\Mods\Caveman2Cosmos
-# modName:    Caveman2Cosmos
-# modFolder:  Mods\Caveman2Cosmos
-############################################################################
-# getModPaths()
-# --- private ---
-# getCivPaths()
-############################################################################
-class CivFolders:
-
-	# class vars
-	appName = "Beyond the Sword"
-	logDir = None
-	rootDir = None
-	appDir = None
-	userDir = None
-	modName = None
-	modFolder = None
-	modDir = None
-
-	def __init__( self ):
-		print "[MST] " + "===== initialize Class::CivFolders"
-		self.getCivPaths()
-
-	# get path for actual mod
-	# - this function can't go into __init__() since replay won't be ready
-	def getModPaths( self ):
-		print "[MST] " + "===== civFolders.getModPaths()"
-
-		# get modName and modFolder
-		self.modDir = None
-		try:
-			from CvPythonExtensions import CyReplayInfo
-			replay = CyReplayInfo()
-			replay.createInfo( 0 )
-			mod = replay.getModName()
-			self.modFolder = os.path.normpath( mod )
-			mDir, self.modName = os.path.split( self.modFolder )
-
-			if self.modName=='Hills':
-				self.modName = "No Mod"
-				self.modFolder = None
-		except:
-			self.modName = "? Unknown Mod"
-
-		# get modDir
-		if self.rootDir!=None and self.modFolder!=None and self.modName!=None:
-			mod = os.path.join( self.rootDir, self.modFolder, self.modName + ".ini" )
-			if (os.path.isfile( mod )):
-				self.modDir = os.path.join( self.rootDir, self.modFolder )
-			else:
-				if self.appDir!=None and self.modFolder!=None and self.modName!=None:
-					mod = os.path.join( self.appDir, self.modFolder, self.modName + ".ini" )
-					if (os.path.isfile( mod )):
-						self.modDir = os.path.join( self.appDir, self.modFolder )
-					else:
-						self.modDir = None
-		sprint = "\n"
-		sprint += "[MST] ------------------------------------ civFolders:getModPaths ---\n"
-		sprint += "[MST] " + "modDir:    %s\n" % (self.modDir)
-		sprint += "[MST] " + "modName:   %s\n" % (self.modName)
-		sprint += "[MST] " + "modFolder: %s\n" % (self.modFolder)
-		sprint += "[MST] ---------------------------------------------------------------"
-		print sprint
-
-	###############
-	### Helpers ###
-	###############
-
-	# get paths for civ
-	def getCivPaths( self ):
-		print "[MST] " + "===== civFolders.getCivPaths()"
-		try:
-			import CvAltRoot
-			if os.path.isdir( CvAltRoot.rootDir ):
-				if os.path.isfile( os.path.join(CvAltRoot.rootDir, "CivilizationIV.ini") ):
-					self.rootDir = CvAltRoot.rootDir
-					print "[MST] " + "Overriding rootDir using CvAltRoot!"
-				else:
-					print "[MST] " + "Cannot find CivilizationIV.ini in directory from CvAltRoot.py"
-			else:
-				print "[MST] " + "Directory from CvAltRoot.py is not valid"
-		except:
-			pass
-
-		if self.rootDir:
-			self.userDir = os.path.dirname( self.rootDir )
-		else:
-			# Determine the base user directory (e.g. "C:\...\My Documents\My Games").
-			self.userDir = None
-			if (sys.platform == 'darwin'):
-				"Mac OS X"
-				self.userDir = os.path.join(os.environ['HOME'], "Documents")
-			else:
-				import _winreg
-				"Windows"
-				#############################################
-				def __getRegValue(root, subkey, name):
-					key = _winreg.OpenKey(root, subkey)
-					try:
-						value = _winreg.QueryValueEx(key, name)
-						return value[0]
-					finally:
-						key.Close()
-				#############################################
-
-				myDocuments = None
-				try:
-					myDocuments = __getRegValue(_winreg.HKEY_CURRENT_USER,
-							r"Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders",
-							"Personal")
-				except:
-					try:
-						# Vista
-						myDocuments = __getRegValue(_winreg.HKEY_CURRENT_USER,
-								r"Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders",
-								"Personal")
-					except:
-						pass
-
-				if myDocuments is None:
-					print "[MST] " + "Cannot find My Documents folder registry key"
-					self.userDir = "\\"
-				else:
-					self.userDir = os.path.join(myDocuments, "My Games")
-
-		# Determine the root directory that holds the executable and mods
-		# as well as the directory inside "My Games" that holds CustomAssets and mods.
-		if ( sys.executable ):
-			self.appDir = os.path.dirname( sys.executable )
-			self.appName = os.path.basename( self.appDir )
-		else:
-			print "[MST] " + "No executable ??"
-
-		if self.rootDir is None:
-			self.rootDir = os.path.join( self.userDir, self.appName )
-		self.logDir = os.path.join( self.rootDir, "Logs" )
-		sprint  = "[MST] ------------------------------------ civFolders:getCivPaths ---\n"
-		sprint += "[MST] " + "appName: %s\n" % (self.appName)
-		sprint += "[MST] " + "userDir: %s\n" % (self.userDir)
-		sprint += "[MST] " + "rootDir: %s\n" % (self.rootDir)
-		sprint += "[MST] " + "logDir:  %s\n" % (self.logDir)
-		sprint += "[MST] " + "appDir:  %s\n" % (self.appDir)
-		sprint += "[MST] ---------------------------------------------------------------"
-		print sprint
-
-#######################################################################################
-### CLASS CivFolders END
-#######################################################################################
-civFolders = CivFolders()
-
-
 #######################################################################################
 ### CLASS DeepOcean - put Deep Ocean onto map
 #######################################################################################
-# buildDeepOcean( dist=3, chDeep=80 )
-#######################################################################################
 class DeepOcean:
+	def buildDeepOcean( self, dist=4, chDeep=75 ): return
 
-	# put Deep Ocean in the middle of the worlds oceans, if supported by mod
-	# - don't do it with Planetfall
-	def buildDeepOcean( self, dist=4, chDeep=75 ):
-		if not bOceanDeep: return
-		if bPfall or bMars: return
-		print "[MST] ===== DeepOcean:buildDeepOcean()"
-
-		deepList = []
-		for x in range( iNumPlotsX ):
-			for y in range( iNumPlotsY ):
-				if isHighSeas( x, y, dist, bWrap=True ):
-					if choose( chDeep, True, False ):
-						plot = map.plot( x, y )
-						plot.setTerrainType( etOceanDeep, False, False )
-						deepList.append( plot )
-
-		for passes in [1,2,3]:
-			for pl in deepList:
-				x,y = coordByPlot( pl )
-				eCard = chooseNumber( 4 )
-				p = plotCardinalDirection( x, y, CardinalDirectionTypes(eCard) )
-				if p.isNone(): continue
-				if p.getTerrainType() == etOcean:
-					if choose( chDeep/(passes+1), True, False ):
-						p.setTerrainType( etOceanDeep, False, False )
-						deepList.append( p )
-
-		print "[MST] %i plots with Deep Ocean terrain built" % ( len(deepList) )
-
+deepOcean = DeepOcean()
 #######################################################################################
 ### CLASS DeepOcean END
 #######################################################################################
-deepOcean = DeepOcean()
 
 
 #######################################################################################
 ### CLASS PlanetFallMap - adjust map for use with Planetfall-Mod
 #######################################################################################
-# buildPfallOcean()
-# pFallTerrain = mapPfallTerrain( eTerrain, terList, plot, terrainGen=None )
-# buildPfallHighlands( iBaseChance=None )
-# --- private ---
-# moveLonlyHills()
-# buildPfallShelfAndTrenches( chShelf=50, chTrench=45 )
-# adjustShelfTrenches()
-# cnt = numTrenchNeighbors( x, y, dist=1 )
-# ok = setTrench( plot )
-# getValidTrenchTerrain()
-#######################################################################################
 class PlanetFallMap:
 
-	validTrenchTerrain = []
+	def buildPfallOcean(self, chShelf=45, chTrench=45): return
 
-	# put shelfs and trenches into ocean
-	def buildPfallOcean( self, chShelf=45, chTrench=45 ):
-		if not bPfall: return
-		print "[MST] ===== PlanetFallMap:buildPfallOcean()"
+	def buildPfallHighlands(self, iBaseChance=None): return
 
-		# build trenches and shelves
-		self.buildPfallShelfAndTrenches( chShelf, chTrench )			# default: slightly less shelves
-		# prettify trenches and shelves
-		self.adjustShelfTrenches()
-
-	# give eTerrain and latitude of plot (0.0 .. 1.0), get pfallTerrain
-	def mapPfallTerrain( self, eTerrain, terList, plot, terrainGen=None ):
-#		print "[MST] ===== PlanetFallMap:mapToPfallTerrain)"
-
-		# get latitude ranges
-		latList = getLatitudeBorders( terGen=terrainGen )
-		pLatitude = evalLatitude( plot, False )						# 0 .. 1
-
-		fSnow   = latList[0]
-		fTundra = latList[1]
-		fDesBot = latList[2]
-		fDesTop = latList[3]
-		fGrass  = latList[4]
-
-		itOcean  = terList[0]
-		itCoast  = terList[1]
-		itDesert = terList[2]
-		itPlains = terList[3]
-		itGrass  = terList[4]
-		itMarsh  = terList[5]
-		itTundra = terList[6]
-		itSnow   = terList[7]
-
-		pfallTerrain = etOcean
-		if eTerrain==itDesert:   pfallTerrain = choose( 66, etFlatArid, etRockyArid )
-		elif eTerrain==itPlains: pfallTerrain = choose( 66, etFlatMoist, etRockyMoist )
-		elif eTerrain==itGrass:  pfallTerrain = choose( 66, etFlatRainy, etRockyRainy )
-		elif eTerrain==itMarsh:  pfallTerrain = etFlatRainy
-		elif eTerrain==itTundra: pfallTerrain = choose( 66, etRockyMoist, etFlatPolar )
-		elif eTerrain==itSnow:   pfallTerrain = choose( 66, etFlatPolar, etRockyPolar )
-		elif eTerrain==itCoast:  pfallTerrain = etCoast
-
-		if pfallTerrain==etRockyArid and pLatitude<fDesBot: pfallTerrain = choose( 66, etRockyMoist, etRockyArid )
-		elif pfallTerrain==etFlatArid and pLatitude<fDesBot: pfallTerrain = choose( 66, etFlatMoist, etFlatArid )
-		elif pfallTerrain==etRockyArid and pLatitude>fDesTop: pfallTerrain = choose( 66, etRockyMoist, etRockyArid )
-		elif pfallTerrain==etFlatArid and pLatitude>fDesTop: pfallTerrain = choose( 66, etFlatMoist, etFlatArid )
-		elif pfallTerrain==etFlatRainy and pLatitude>fDesBot and pLatitude<fDesTop: pfallTerrain = choose( 80, etFlatRainy, etFlatMoist )
-		elif pfallTerrain==etFlatPolar and pLatitude<fDesTop: pfallTerrain = choose( 80, etRockyMoist, etFlatMoist )
-		elif pfallTerrain==etFlatPolar and pLatitude<fTundra: pfallTerrain = choose( 80, etRockyMoist, etFlatPolar )
-		elif pfallTerrain==etFlatPolar and pLatitude<fSnow: pfallTerrain = choose( 66, etRockyMoist, etFlatPolar )
-		elif pfallTerrain==etRockyPolar and pLatitude<fTundra: pfallTerrain = etRockyMoist
-		elif pfallTerrain==etRockyPolar and pLatitude<fSnow: pfallTerrain = choose( 66, etFlatPolar, etRockyPolar )
-		return pfallTerrain
-
-	# build Highlands and Foothills using existing peaks and hills as seeder
-	def buildPfallHighlands( self, iBaseChance=None ):
-		if not bPfall: return
-		print "[MST] ===== PlanetFallMap:buildPfallHighlands()"
-
-		aPlots = mapStats.statPlotCount( " ----- PlanetFallMap.buildPfallHighlands() before -----" )
-		iChance = 35 - aPlots[1] - aPlots[2]						# fHills, fPeaks
-		iChance = min( 33, iChance )
-		iChance = max(  1, iChance )
-		chBase = iChance
-		if iBaseChance != None:											# give basechance depending on stats
-			iChance = iBaseChance										# given basechance
-
-		iMult = 4															# default size multiplier
-		if sClimateType=="CLIMATE_ROCKY": iMult += 1
-		if sSeaType=="SEALEVEL_LOW": iMult += 1
-
-		nChance = int( (iChance + 4*map.getWorldSize()) * iMult / 10 )
-		print "[MST] iChance: %4.2f, iMult %i -> nChance %i" % (iChance, iMult, nChance)
-		print "[MST] default: chBase: %4.2f, iMult %i -> nChance %i" % (chBase, iMult, int((chBase+4*map.getWorldSize())*iMult/10 ))
-
-		# pass 1 - build highlands and foothills
-		cntH = 0
-		cntP = 0
-		for x in range( iNumPlotsX ):
-			for y in range( iNumPlotsY ):
-				plot = plotXY( x, y, 0, 0 )
-				if plot.isHills() or plot.isPeak():
-					for iDir in range( DirectionTypes.NUM_DIRECTION_TYPES ):
-						p = plotDirection( x, y, DirectionTypes(iDir) )
-						if p.isNone(): continue
-						if p.isFlatlands():
-							if choose( nChance, True, False ):
-								p.setPlotType( PlotTypes.PLOT_HILLS, True, True )
-#								print "[MST] Flat -> Hills  @ %i,%i" % ( p.getX(), p.getY() )
-								cntH += 1
-						elif p.isHills():
-							if choose( nChance/2, True, False ):
-								p.setPlotType( PlotTypes.PLOT_PEAK, True, True )
-#								print "[MST] Hills -> Peak  @ %i,%i" % ( p.getX(), p.getY() )
-								cntP += 1
-		sprint = "[MST] Changed Pass-1: Flat->Hill %i,  Hill->Peak %i, nChance: %i \n" % (cntH, cntP, nChance)
-		cntH, cntP = 0, 0
-
-		# pass 2 - do it some more for foothills
-		for x in range(iNumPlotsX):
-			for y in range(iNumPlotsY):
-				plot = plotXY(x,y,0,0)
-				if plot.isFlatlands():
-					iHills = numHillNeighbors( x, y )
-					nChance = iHills * iHills * iHills / 3
-					if choose( nChance, True, False ):
-						plot.setPlotType( PlotTypes.PLOT_HILLS, True, True )
-#						print "[MST] Flat -> Hills  @ %i,%i - 2nd pass" % ( p.getX(), p.getY() )
-						cntH += 1
-		sprint += "[MST] Changed Pass-2: Flat->Hill %i,  Hill->Peak %i, nChance: %i \n" % (cntH, cntP, nChance)
-		print sprint
-		self.moveLonlyHills() 	# improve valleys
-		aPlots = mapStats.statPlotCount( " ----- PlanetFallMap.buildPfallHighlands() after -----" )
-
-	###############
-	### Helpers ###
-	###############
-
-	# move single hills (or mountains) into ranges
-	def moveLonlyHills( self ):
-		print "[MST] ======== PlanetFallMap:moveLonlyHills()"
-		nChance = 80
-		cntH = 0
-		sprint = ""
-		for x in range(iNumPlotsX):
-			for y in range(iNumPlotsY):
-				plot = plotXY(x,y,0,0)
-				if plot.isWater() or plot.isFlatlands(): continue
-				if numHillNeighbors( x, y, True ) == 0:
-					pl = findPlotNearMountainRange( x, y )
-					if pl != None:
-#						print "[MST] chance to move hill/peak to %i,%i" % (pl.getX(), pl.getY())
-						if choose( nChance, True, False ):
-							pType = plot.getPlotType()
-							plot.setPlotType( PlotTypes.PLOT_LAND, True, True )
-							pl.setPlotType( pType, True, True )
-							cntH += 1
-							sprint += "[MST] single hill/peak moved to @ %i,%i \n" % (pl.getX(),pl.getY())
-		if cntH>0:
-			sprint += "[MST] Moved %i lonely Hills/Mountains toward ranges, nChance: %i \n" % (cntH, nChance)
-		else:
-			sprint += "[MST] No lonely mountains moved \n"
-		print sprint
-
-	# builds trenches and shelves on 'Planetfall' ocean
-	# >>> algorithm taken from Planetfall.py <<<
-	def buildPfallShelfAndTrenches( self, chShelf=45, chTrench=45 ):
-		if not bPfall: return
-		print "[MST] ======== PlanetFallMap:buildPfallShelfAndTrenches()"
-
-		self.getValidTrenchTerrain()
-
-		prob_base = 1.00
-		prob_shelf = 0
-		prob_mod = 0.30
-		prob_spawn = -0.30
-		prob_trench = chTrench / 100.0
-
-		for x in range( iNumPlotsX ):
-			for y in range( iNumPlotsY ):
-				plot = map.plot( x, y )
-				if plot.isNone(): continue
-				if plot.getTerrainType() not in self.validTrenchTerrain: continue
-				if plot.isLake(): continue									# no trenches/shelves in lakes
-
-				# try to avoid inland trenches or shelves
-				if numWaterNeighbors(x, y, 1) <  5: continue
-				if numWaterNeighbors(x, y, 2) < 13: continue
-
-				ocean_counter = 0
-				trench_counter = 0
-				highland_counter = 0
-				prob_drop = 0.0
-
-				for iDir in range( DirectionTypes.NUM_DIRECTION_TYPES ):
-					p = plotDirection( x, y, DirectionTypes(iDir) )
-					if p.isNone(): continue
-					if p.isWater(): ocean_counter += 1
-					if p.isHills(): highland_counter += 1
-					if p.isPeak():  highland_counter += 1
-					if self.isTrench( p ):
-						trench_counter += 1
-					if p.getTerrainType() in self.validTrenchTerrain:
-						prob_drop = prob_drop * prob_mod + prob_mod
-
-				prob = prob_base - prob_drop
-				if( trench_counter == 0 ):   prob = prob + prob_spawn
-				elif( trench_counter == 1 ): prob = prob + prob_trench
-				elif( trench_counter > 2 ):  prob = 0
-				if( ocean_counter == 0 ):    prob = 0
-				if( highland_counter == 0 ): prob = 0
-
-				if choose( prob*100, True, False ):						# trench lines
-					self.setTrench( plot )
-
-		for x in range( iNumPlotsX ):
-			for y in range( iNumPlotsY ):
-				plot = map.plot( x, y )
-				if plot.isNone(): continue
-				if plot.getTerrainType() != etOcean: continue
-				prob_shelf = 0
-
-				for iDir in range( DirectionTypes.NUM_DIRECTION_TYPES ):
-					p = plotDirection( x, y, DirectionTypes(iDir) )
-					if p.isNone(): continue
-					if not p.isWater(): continue
-					if not self.isTrench( p ):
-						if p.getTerrainType() in [etCoast, etShelf]:
-							prob_shelf = chShelf
-
-				if choose( prob_shelf, True, False ):						# shelf extension
-					plot.setTerrainType( etShelf, True, True )
-
-	# connect diagonal trenches and kill isolated shelves or trenches
-	def adjustShelfTrenches( self ):
-		if not bPfall: return
-		print "[MST] ======== PlanetFallMap:adjustShelfTrenches()"
-		cntKillShelves = 0
-		cntKillTrenches = 0
-		cntAddTrenches = 0
-
-		# kill orphan shelves
-		for x in range( iNumPlotsX ):
-			for y in range( iNumPlotsY ):
-				plot = map.plot( x, y )
-				if plot.getTerrainType() == etShelf:
-					terCnt = numTerrainNeighbors( x, y, etShelf )
-					if terCnt == 0:
-						plot.setTerrainType( etOcean, True, True )
-						cntKillShelves += 1
-
-		# trenchify diagonal trench-connections
-		for x in range( iNumPlotsX ):
-			for y in range( iNumPlotsY ):
-				plot = map.plot( x, y )
-				if self.isTrench( plot ):
-					# diagonal directions
-					diagDirSet = set( [1, 3, 5, 7] )
-					# cardinal directions
-					for eDir in [0, 2, 4, 6]:
-						pl = plotDirection( x, y, DirectionTypes(eDir) )
-						if pl.isNone(): continue
-						if self.isTrench( pl ):
-							diag1 = (eDir + 8 - 1) % 8
-							diag2 = (eDir + 8 + 1) % 8
-							diagDirSet -= set( [diag1, diag2] )
-					# remaining diagonal directions
-					for eDir in diagDirSet:
-						pl = plotDirection( x, y, DirectionTypes(eDir) )
-						if pl.isNone(): continue
-						if self.isTrench( pl ):
-							card1 = (eDir + 8 - 1) % 8
-							card2 = (eDir + 8 + 1) % 8
-							cardList = [ card1, card2 ]
-							buildList = []
-							bTrench = False
-							for eCard in cardList:
-								p = plotDirection( x, y, DirectionTypes(eCard) )
-								if self.isTrench( p ):
-									bTrench = True
-									break
-								if p.getTerrainType() in self.validTrenchTerrain:
-									buildList.append( eCard )
-							if not bTrench:
-								if len( buildList ) > 0:
-									eCard = chooseListElement( buildList )
-									p = plotDirection( x, y, DirectionTypes(eCard) )
-									self.setTrench( p )
-									cntAddTrenches += 1
-
-		# kill orphan trenches
-		for x in range( iNumPlotsX ):
-			for y in range( iNumPlotsY ):
-				plot = map.plot( x, y )
-				if self.isTrench( plot ):
-					terCnt = self.numTrenchNeighbors(x, y)
-					if terCnt == 0:
-						if plot.getFeatureType() == efTrench:
-							plot.setFeatureType( FeatureTypes.NO_FEATURE, -1 )
-							cntKillTrenches += 1
-						elif plot.getImprovementType() == eiTrench:
-							plot.setImprovementType( ImprovementTypes.NO_IMPROVEMENT )
-							cntKillTrenches += 1
-		print "[MST] Connected %i Trenches - Eliminated isolated Shelves: %i, Trenches: %i" % (cntAddTrenches, cntKillShelves, cntKillTrenches)
-
-	# number of trenches surrounding the plot; excluding center
-	def numTrenchNeighbors( self, x, y, dist=1 ):
-#		print "[MST] ======== PlanetFallMap:numTrenchNeighbors()"
-		cnt = 0
-		for dx in range( x-dist, x+dist+1 ):
-			for dy in range( y-dist, y+dist+1 ):
-				if (dx == x) and (dy == y): continue
-				plot = map.plot(dx, dy)
-				if plot.getTerrainType() == etTrench:
-					cnt += 1
-				elif plot.getFeatureType() == efTrench:
-					cnt += 1
-				elif plot.getImprovementType() == eiTrench:
-					cnt += 1
-		return cnt
-
-	def isTrench( self, plot ):
-#		print "[MST] ======== PlanetFallMap:isTrench()"
-		return ( (plot.getFeatureType() == efTrench) or (plot.getImprovementType() == eiTrench) )
-
-	def setTrench( self, plot ):
-#		print "[MST] ======== PlanetFallMap:setTrench()"
-		# set trench if terrain is valid
-		ok = False
-		ter = plot.getTerrainType()
-		if ter in self.validTrenchTerrain:
-			feat = plot.getFeatureType()
-			if feat == efIce:
-				plot.setImprovementType( eiTrench )
-				ok = True
-			else:
-				# trumps all other features
-				plot.setFeatureType( efTrench, -1 )
-				ok = True
-		return ok
-
-	# get valid terrains for FEATURE_TRENCH
-	def getValidTrenchTerrain( self ):
-		print "[MST] ======== PlanetFallMap:getValidTrenchTerrain()"
-		self.validTrenchTerrain = []
-		for i in range( gc.getNumTerrainInfos() ):
-			if gc.getFeatureInfo( efTrench ).isTerrain( i ):
-				self.validTrenchTerrain.append( i )
-
-
+planetFallMap = PlanetFallMap()
 #######################################################################################
 ### CLASS PlanetFallMap END
 #######################################################################################
-planetFallMap = PlanetFallMap()
-
 
 #####################################################################################
 ### CLASS MapPrettifier - small changes to beautify you map
@@ -2393,9 +1467,9 @@ class MapPrettifier:
 		edList = [ DirectionTypes.DIRECTION_NORTHWEST, DirectionTypes.DIRECTION_NORTHEAST,
 		           DirectionTypes.DIRECTION_SOUTHEAST, DirectionTypes.DIRECTION_SOUTHEAST ]
 		for x in range( 1, iNumPlotsX-1 ):
-			map.recalculateAreas()
+			MAP.recalculateAreas()
 			for y in range( 1, iNumPlotsY-1 ):
-				plot = map.plot(x, y)
+				plot = MAP.plot(x, y)
 				if not plot.isWater(): continue
 				for eDir in edList:
 					cardPlots = self.checkDiagonalWater( x, y, eDir )
@@ -2406,12 +1480,12 @@ class MapPrettifier:
 					if riverMaker.hasRiverAtPlot( plot ): continue
 					if riverMaker.hasRiverAtPlot( pl ): continue
 					# now we have a landbridge without rivers separating two lakes
-					if (map.getArea(plot.getArea()).getNumTiles() == 1):
+					if (MAP.getArea(plot.getArea()).getNumTiles() == 1):
 						if choose(chConnect, True, False):
 							plot.setPlotType( choose(90,PlotTypes.PLOT_LAND,PlotTypes.PLOT_HILLS), False, False)
 							lCnt += 1
 							break
-					elif (map.getArea(pl.getArea()).getNumTiles() == 1):
+					elif (MAP.getArea(pl.getArea()).getNumTiles() == 1):
 						if choose(chConnect, True, False):
 							pl.setPlotType( choose(90,PlotTypes.PLOT_LAND,PlotTypes.PLOT_HILLS), False, False)
 							lCnt += 1
@@ -2420,7 +1494,6 @@ class MapPrettifier:
 						for p in cardPlots:
 							if choose( chConnect, True, False ):
 								p.setPlotType( PlotTypes.PLOT_OCEAN, False, False)
-								#map.recalculateAreas()  # we choose speed over precision here
 								wCnt += 1
 		print "[MST] %i lakes connected and %i single-plot lakes filled in" % ( wCnt, lCnt )
 
@@ -2428,31 +1501,31 @@ class MapPrettifier:
 	# - only works if called after or at the end of normalizeAddExtras()
 	def deIcifyEdges( self, iLat=66, addToroidIce=True ):
 		print "[MST] ===== MapPrettifier:deIcifyEdges()"
-		if not map.isWrapY():
+		if not MAP.isWrapY():
 			# deIcify SouthPole and southern hemisphere
-			if evalLatitude( map.plot(0,0), True ) < iLat:
+			if evalLatitude( MAP.plot(0,0), True ) < iLat:
 				print "[MST] DeIcify the south between %i and %i" % (0, iNumPlotsY/2 - 1)
 				for x in range( iNumPlotsX ):
 					for y in range( iNumPlotsY / 2 ):
-						plot = map.plot( x, y )
+						plot = MAP.plot( x, y )
 						if plot.getFeatureType() == efIce:
 							if not plot.isPeak():
 								plot.setFeatureType( FeatureTypes.NO_FEATURE, -1 )
 			# deIcify NorthPole and northern hemisphere
-			if evalLatitude( map.plot(iNumPlotsX-1, iNumPlotsY-1) ) < iLat:
+			if evalLatitude( MAP.plot(iNumPlotsX-1, iNumPlotsY-1) ) < iLat:
 				print "[MST] DeIcify the north between %i and %i" % ((iNumPlotsY-1)/2, iNumPlotsY-1)
 				for x in range( iNumPlotsX ):
 					for y in range( (iNumPlotsY-1)/2, iNumPlotsY ):
-						plot = map.plot( x, y )
+						plot = MAP.plot( x, y )
 						if plot.getFeatureType() == efIce:
 							if not plot.isPeak():
 								plot.setFeatureType( FeatureTypes.NO_FEATURE, -1 )
 		# put some ice on the polar waters on toroid shaped worlds
 		if addToroidIce:
-			if	map.isWrapX() and map.isWrapY():
+			if	MAP.isWrapX() and MAP.isWrapY():
 				cnt = 0
-				for inx in range( map.numPlots() ):
-					plot = map.plotByIndex( inx )
+				for inx in range( MAP.numPlots() ):
+					plot = MAP.plotByIndex( inx )
 					lat = evalLatitude( plot ) + chooseNumber(13) - 6					# random drift
 					# Ice only beyond at least 65 degrees latitude
 					if lat > 65:
@@ -2461,15 +1534,10 @@ class MapPrettifier:
 								if plot.getBonusType(-1) == BonusTypes.NO_BONUS:
 									if plot.canHaveFeature( efIce ):
 										x,y = coordByIndex( inx )
-										nIce  = numFeatureNeighbors(x, y, efIce)
-										if bPfall:
-											nIce += numTerrainNeighbors(x, y, etFlatPolar)
-											nIce += numTerrainNeighbors(x, y, etRockyPolar)
-										else:
-											nIce += numTerrainNeighbors(x, y, etSnow)
+										nIce  = numFeatureNeighbors(x, y, efIce) + numTerrainNeighbors(x, y, etSnow)
 										ch = (110 - lat) * 2 - (nIce * 5)
-										if map.getClimate() == 1: ch += 12						# tropical
-										if map.getClimate() == 4: ch -= 12						# cold
+										if MAP.getClimate() == 1: ch += 12						# tropical
+										if MAP.getClimate() == 4: ch -= 12						# cold
 										if choose( ch, False, True ):
 											plot.setFeatureType( efIce, -1 )
 											cnt += 1
@@ -2479,8 +1547,8 @@ class MapPrettifier:
 				chIceAdd  = 75
 				zone = [ (0,2), (2,0), (0,-2), (1,2), (2,1), (1,-2), (2,-1) ]
 				for passes in [1,2]:
-					for inx in range( map.numPlots() ):
-						plot = map.plotByIndex( inx )
+					for inx in range( MAP.numPlots() ):
+						plot = MAP.plotByIndex( inx )
 						x,y = coordByIndex( inx )
 						if not plot.isWater(): continue
 						if plot.getFeatureType() == efIce:
@@ -2503,17 +1571,16 @@ class MapPrettifier:
 				print "[MST] Added %i ice tiles on toroid world" % (cnt2)
 
 	# change peaks on coast to hills
-	def hillifyCoast( self, chHills=66 ):
-		if bPfall or bMars: return
+	def hillifyCoast(self, chHills=66):
 		print "[MST] ===== MapPrettifier:hillifyCoast()"
 		iCnt = 0
-		x0 = iif( map.isWrapX(), 0, 1 )
-		x1 = iif( map.isWrapX(), iNumPlotsX, iNumPlotsX-1 )
-		y0 = iif( map.isWrapY(), 0, 1 )
-		y1 = iif( map.isWrapY(), iNumPlotsY, iNumPlotsY-1 )
+		x0 = iif( MAP.isWrapX(), 0, 1 )
+		x1 = iif( MAP.isWrapX(), iNumPlotsX, iNumPlotsX-1 )
+		y0 = iif( MAP.isWrapY(), 0, 1 )
+		y1 = iif( MAP.isWrapY(), iNumPlotsY, iNumPlotsY-1 )
 		for x in range( x0, x1 ):
 			for y in range( y0, y1 ):
-				pl = map.plot(x, y)
+				pl = MAP.plot(x, y)
 				if pl.isPeak() and pl.isCoastalLand():
 					if pl.getFeatureType() < 0:					# don't transform volcanos
 						if choose( chHills, True, False ):
@@ -2523,32 +1590,7 @@ class MapPrettifier:
 		print "[MST] %i coastal peaks transformed to hills" % ( iCnt )
 
 	# change volcanos on coast to hills / peaks - they really look bad sometimes
-	def beautifyVolcanos( self, chHills=66 ):
-		if bPfall or bMars: return
-		print "[MST] ===== MapPrettifier:beautifyVolcanos()"
-		if not bVolcano: return
-		cntVol = 0
-		cntHill = 0
-		x0 = iif( map.isWrapX(), 0, 1 )
-		x1 = iif( map.isWrapX(), iNumPlotsX, iNumPlotsX-1 )
-		y0 = iif( map.isWrapY(), 0, 1 )
-		y1 = iif( map.isWrapY(), iNumPlotsY, iNumPlotsY-1 )
-		for x in range( x0, x1 ):
-			for y in range( y0, y1 ):
-				cnt = 0
-				plot = map.plot(x, y)
-				if plot.getFeatureType() == efVolcano:
-					for eCard in range( CardinalDirectionTypes.NUM_CARDINALDIRECTION_TYPES ):
-						p = plotCardinalDirection( x, y, CardinalDirectionTypes(eCard) )
-						if p.isNone(): continue
-						if p.isWater(): cnt += 1
-					if cnt > 1:
-						plot.setFeatureType( FeatureTypes.NO_FEATURE, -1 )
-						cntVol += 1
-						if choose( chHills, True, False ):
-							plot.setPlotType( PlotTypes.PLOT_HILLS, True, True )
-							cntHill += 1
-		if cntVol > 0: print "[MST] %i coastal volcanos eliminated and %i coastal peaks transformed to hills" % ( cntVol,cntHill )
+	def beautifyVolcanos( self, chHills=66 ): return
 
 	# change plains/grass surrounded by desert to desert; or any other terrain combinations
 	def lumpifyTerrain( self, targetTerrain, sourceTer1, sourceTer2=None ):
@@ -2556,13 +1598,16 @@ class MapPrettifier:
 		cnt = 0
 		chChange = 40
 		passes = [1]
-		if not bPfall:
-			if (targetTerrain == etDesert) and (map.getClimate() == 2): passes.append(2)		# arid climate
-			elif (targetTerrain == etGrass) and (map.getClimate() == 1): passes.append(2)		# tropical climate
+		if targetTerrain == etDesert and MAP.getClimate() == 2:
+			# arid climate
+			passes.append(2)
+		elif targetTerrain == etGrass and MAP.getClimate() == 1:
+			# tropical climate
+			passes.append(2)
 		for pa in passes:
 			for x in range( iNumPlotsX ):
 				for y in range( iNumPlotsY ):
-					plot = map.plot( x, y )
+					plot = MAP.plot( x, y )
 					if plot.getTerrainType() == sourceTer1:
 						tarNum = numTerrainNeighbors( x, y, targetTerrain )
 						if tarNum > 3:
@@ -2582,8 +1627,8 @@ class MapPrettifier:
 	def bulkifyIslands( self, chConnect=66, maxIsle=4 ):
 		print "[MST] ===== MapPrettifier:bulkifyIslands()"
 		cnt = 0
-		for inx in range( map.numPlots() ):
-			plot = map.plotByIndex( inx )
+		for inx in range( MAP.numPlots() ):
+			plot = MAP.plotByIndex( inx )
 			x,y = coordByIndex( inx )
 			if plot.isWater(): continue								# islands!
 			area = plot.area()
@@ -2643,19 +1688,19 @@ class MapPrettifier:
 			return
 		# read parameter
 		eTerrain, chPercent = targetTerTuple
-		bWater = isWaterTerrain( eTerrain )
+		bWater = GC.getTerrainInfo(eTerrain).isWater()
 		srcTer = []
 		chTer = []
 		for i in range( len(sourceTerTuples) ):
 			srcTerrain, srcChance = sourceTerTuples[i]
 			# we don't change plots
-			if isWaterTerrain( srcTerrain ) == bWater:
+			if GC.getTerrainInfo(srcTerrain).isWater() == bWater:
 				srcTer.append( srcTerrain )
 				chTer.append( srcChance )
 		# check seed terrain
 		cntTer = 0
-		for inx in range( map.numPlots() ):
-			plot = map.plotByIndex( inx )
+		for inx in range( MAP.numPlots() ):
+			plot = MAP.plotByIndex( inx )
 			if eTerrain == plot.getTerrainType():
 				cntTer += 1
 		if cntTer == 0:
@@ -2678,8 +1723,8 @@ class MapPrettifier:
 			cntTer = 0
 			terList = []
 			srcList = []
-			for inx in range( map.numPlots() ):
-				plot = map.plotByIndex( inx )
+			for inx in range( MAP.numPlots() ):
+				plot = MAP.plotByIndex( inx )
 				ter = plot.getTerrainType()
 				if plot.isWater(): cntWater += 1
 				if ter == eTerrain:
@@ -2692,26 +1737,21 @@ class MapPrettifier:
 						if choose( 33, True, False ):
 							srcList.append( inx )
 			# more or less
-			baseTer = iif( bWater, cntWater, map.numPlots()-cntWater )
+			baseTer = iif( bWater, cntWater, MAP.numPlots()-cntWater )
 			wantTer = baseTer * chPercent / 100
 			if loop == 0:
 				print "[MST] Target percentage: %i, Terrain percentage before: %4.2f(%i)" % (chPercent,cntTer*100.0/baseTer,cntTer)
 				if ( abs(wantTer-cntTer) * 100.0 / baseTer ) <= 0.5:
 					print "[MST] Target percentage already reached."
 					return
-			if	wantTer < cntTer:
+			if wantTer < cntTer:
 				# have too many already
 				randomList.shuffle( terList )
 				for inx in terList:
 					newTer = chooseMore( srcChList )
 					if not (newTer == None):
-						plot = map.plotByIndex( inx )
-						# make sure there are no marshy hills
-						if plot.isHills():
-							if bMarsh:
-								if newTer == etMarsh:
-									continue
-						plot.setTerrainType( newTer, True, True )
+						plot = MAP.plotByIndex( inx )
+						plot.setTerrainType(newTer, True, True)
 						cntTer -= 1
 						if	wantTer == cntTer:
 							print "[MST] Target percentage reached. \n Target percentage: %i, Terrain percentage after %i passes: %4.2f(%i)" % (chPercent,loop+1,cntTer*100.0/baseTer,cntTer)
@@ -2720,15 +1760,10 @@ class MapPrettifier:
 				# need some more
 				randomList.shuffle( srcList )
 				for inx in srcList:
-					plot = map.plotByIndex( inx )
-					# make sure there are no marshy hills
-					if plot.isHills():
-						if bMarsh:
-							if eTerrain == etMarsh:
-								continue
-					plot.setTerrainType( eTerrain, True, True )
+					plot = MAP.plotByIndex( inx )
+					plot.setTerrainType(eTerrain, True, True)
 					cntTer += 1
-					if	wantTer == cntTer:
+					if wantTer == cntTer:
 						print "[MST] Target percentage reached. \n Target percentage: %i, Terrain percentage after %i passes: %4.2f(%i)" % (chPercent,loop+1,cntTer*100.0/baseTer,cntTer)
 						return
 		print "[MST] Target percentage: %i, Terrain percentage after %i passes: %4.2f(%i)" % (chPercent,loop,cntTer*100.0/baseTer,cntTer)
@@ -2750,9 +1785,9 @@ class MapPrettifier:
 
 		# check seed plots (more than 3)
 		cntPlot = 0
-		for inx in range( map.numPlots() ):
+		for inx in range( MAP.numPlots() ):
 			if data == None:
-				plot = map.plotByIndex( inx )
+				plot = MAP.plotByIndex( inx )
 				pType = plot.getPlotType()
 			else:
 				pType = data[inx]
@@ -2771,10 +1806,10 @@ class MapPrettifier:
 			cntPlot = 0
 			plotList = []
 			srcList = []
-			for inx in range( map.numPlots() ):
+			for inx in range( MAP.numPlots() ):
 				x, y = coordByIndex(	inx )
 				if data == None:
-					plot = map.plotByIndex( inx )
+					plot = MAP.plotByIndex( inx )
 					plType = plot.getPlotType()
 				else:
 					plType = data[inx]
@@ -2788,9 +1823,9 @@ class MapPrettifier:
 						if choose( 33, True, False ):
 							srcList.append( inx )
 			# more or less
-			wantPlots = int( map.numPlots() * fTargetPlotPercent / 100.0 )
+			wantPlots = int( MAP.numPlots() * fTargetPlotPercent / 100.0 )
 			if loop == 0:
-				print "[MST] Target percentage: %4.2f, plotType percentage before: %4.2f(%i)" % (fTargetPlotPercent,cntPlot*100.0/map.numPlots(),cntPlot)
+				print "[MST] Target percentage: %4.2f, plotType percentage before: %4.2f(%i)" % (fTargetPlotPercent,cntPlot*100.0/MAP.numPlots(),cntPlot)
 				if ( abs(wantPlots-cntPlot) * 100.0 / wantPlots ) <= 0.5:
 					print "[MST] Target percentage already reached."
 					return data
@@ -2799,7 +1834,7 @@ class MapPrettifier:
 				randomList.shuffle( plotList )
 				for inx in plotList:
 					if data==None:
-						plot = map.plotByIndex( inx )
+						plot = MAP.plotByIndex( inx )
 						plot.setPlotType( src, False, False )
 						if terGenerator != None:
 							x,y = coordByPlot( plot )
@@ -2808,14 +1843,14 @@ class MapPrettifier:
 						data[inx] = src
 					cntPlot -= 1
 					if	abs(wantPlots - cntPlot) <= 1:
-						print "[MST] Target percentage reached. \n Target percentage: %4.2f, PlotType percentage after %i passes: %4.2f(%i)" % (fTargetPlotPercent,loop+1,cntPlot*100.0/map.numPlots(),cntPlot)
+						print "[MST] Target percentage reached. \n Target percentage: %4.2f, PlotType percentage after %i passes: %4.2f(%i)" % (fTargetPlotPercent,loop+1,cntPlot*100.0/MAP.numPlots(),cntPlot)
 						return data
 			else:
 				# need some more
 				randomList.shuffle( srcList )
 				for inx in srcList:
 					if data==None:
-						plot = map.plotByIndex( inx )
+						plot = MAP.plotByIndex( inx )
 						plot.setPlotType( targetPlotType, False, False )
 						if terGenerator != None:
 							x,y = coordByPlot( plot )
@@ -2824,9 +1859,9 @@ class MapPrettifier:
 						data[inx] = targetPlotType
 					cntPlot += 1
 					if	abs(wantPlots - cntPlot) <= 1:
-						print "[MST] Target percentage reached. \n Target percentage: %4.2f, PlotType percentage after %i passes: %4.2f(%i)" % (fTargetPlotPercent,loop+1,cntPlot*100.0/map.numPlots(),cntPlot)
+						print "[MST] Target percentage reached. \n Target percentage: %4.2f, PlotType percentage after %i passes: %4.2f(%i)" % (fTargetPlotPercent,loop+1,cntPlot*100.0/MAP.numPlots(),cntPlot)
 						return data
-		print "[MST] Target percentage: %4.2f, PlotType percentage after %i passes: %4.2f(%i)" % (fTargetPlotPercent,loop,cntPlot*100.0/map.numPlots(),cntPlot)
+		print "[MST] Target percentage: %4.2f, PlotType percentage after %i passes: %4.2f(%i)" % (fTargetPlotPercent,loop,cntPlot*100.0/MAP.numPlots(),cntPlot)
 		return data
 
 	###############
@@ -2837,7 +1872,7 @@ class MapPrettifier:
 	# (x,y) is not checked!
 	def checkDiagonalWater( self, x, y, eDir ):
 #		print "[MST] ======== MapPrettifier:checkDiagonalWater()"
-		if map.plot(x, y).getPlotType() != PlotTypes.PLOT_OCEAN: return None
+		if MAP.plot(x, y).getPlotType() != PlotTypes.PLOT_OCEAN: return None
 		x0,y0 = xyDirection( eDir )
 		p = plotXY(x, y, x0, y0)
 		if p.isNone(): return None
@@ -2898,17 +1933,17 @@ class MarshMaker:
 		self.iMarshHotBottom   = max( self.iMarshHotBottom, 0 )
 
 		self.iMarshHotTop      = tMarshHotRange[1]
-		self.iMarshHotTop     += int( 90 * gc.getClimateInfo(map.getClimate()).getSnowLatitudeChange() )
+		self.iMarshHotTop     += int( 90 * GC.getClimateInfo(MAP.getClimate()).getSnowLatitudeChange() )
 		self.iMarshHotTop      = min( self.iMarshHotTop, 90 )
 		self.iMarshHotTop      = max( self.iMarshHotTop, 0 )
 
 		self.iMarshColdBottom  = tMarshColdRange[0]
-		self.iMarshColdBottom += int( 90 * gc.getClimateInfo(map.getClimate()).getDesertBottomLatitudeChange() )
+		self.iMarshColdBottom += int( 90 * GC.getClimateInfo(MAP.getClimate()).getDesertBottomLatitudeChange() )
 		self.iMarshColdBottom  = min( self.iMarshColdBottom, 90 )
 		self.iMarshColdBottom  = max( self.iMarshColdBottom, 0 )
 
 		self.iMarshColdTop     = tMarshColdRange[1]
-		self.iMarshColdTop    += int( 90 * gc.getClimateInfo(map.getClimate()).getDesertTopLatitudeChange() )
+		self.iMarshColdTop    += int( 90 * GC.getClimateInfo(MAP.getClimate()).getDesertTopLatitudeChange() )
 		self.iMarshColdTop     = min( self.iMarshColdTop, 90 )
 		self.iMarshColdTop     = max( self.iMarshColdTop, 0 )
 		sprint = "[MST] Marsh ranges for %s - Hot Swamp: [%r,%r], Cold Fen: [%r,%r] \n" % (sClimateType,self.iMarshHotBottom,self.iMarshHotTop,self.iMarshColdBottom,self.iMarshColdTop)
@@ -2929,10 +1964,7 @@ class MarshMaker:
 		sprint += "[MST] Base chances to change: %s - Grass->Marsh %i%s, Tundra->Marsh %i%s \n" % (sClimateType, self.chGrass, "%%", self.chTundra, "%%")
 
 		# test if Mod supports marsh
-		if bPfall:
-			self.bModHasMarsh = False
-		else:
-			self.bModHasMarsh = (etMarsh >= 0) and (etMarsh != etGrass)
+		self.bModHasMarsh = (etMarsh >= 0) and (etMarsh != etGrass)
 		sprint += "[MST] Mod supports Marsh: %r \n" % (self.bModHasMarsh)
 		print sprint
 		return self.bModHasMarsh
@@ -2941,18 +1973,15 @@ class MarshMaker:
 	# tAreaRange is a 3-tuple (x,y,iRange) describing the area around x,y up to iRange distance
 	def convertTerrain( self, tAreaRange=None, areaID=None ):
 		print "[MST] ===== MarshMaker:convertTerrain()"
-		if bPfall or bMars:
-			print "[MST] No Marshes on Mars or in Planetfall"
-			return
 		if not self.bModHasMarsh:
 			print "[MST] No Marshes in this Mod"
 			return
 
 		if tAreaRange == None:
 			minX = 0
-			maxX = map.getGridWidth() - 1
+			maxX = MAP.getGridWidth() - 1
 			minY = 0
-			maxY = map.getGridHeight() - 1
+			maxY = MAP.getGridHeight() - 1
 		else:
 			minX = tAreaRange[0] - tAreaRange[2]
 			maxX = tAreaRange[0] + tAreaRange[2]
@@ -2990,10 +2019,10 @@ class MarshMaker:
 	# make sure marshes are only on flatlands
 	def normalizeMarshes( self ):
 		print "[MST] ===== MarshMaker:normalizeMarsh()"
-		if bPfall or (not self.bModHasMarsh): return
+		if not self.bModHasMarsh: return
 		pcnt = 0
-		for inx in range( map.numPlots() ):
-			plot = map.plotByIndex( inx )
+		for inx in range( MAP.numPlots() ):
+			plot = MAP.plotByIndex( inx )
 			if plot.isHills():
 				if plot.getTerrainType() == etMarsh:
 					plot.setTerrainType(etGrass, True, True)
@@ -3189,7 +2218,7 @@ class MapRegions:
 		self.noSigns = noSigns
 		self.regionNames = []
 		self.regionList = []
-		self.regionDist = regDist + map.getWorldSize()
+		self.regionDist = regDist + MAP.getWorldSize()
 		# bigbog
 		self.bogList = []
 		self.bogLakes = []
@@ -3217,7 +2246,6 @@ class MapRegions:
 
 	# build formerly populated island
 	def buildLostIsle( self, chance=33, minDist=7, bAliens=False ):
-		if bPfall: bAliens = True
 		print "[MST] ===== MapRegions:buildLostIsle(%r,%r,%r)" % (chance, minDist, bAliens)
 
 		if choose( chance, False, True ):
@@ -3225,7 +2253,7 @@ class MapRegions:
 			return
 
 		# get continents and islands
-		map.recalculateAreas()
+		MAP.recalculateAreas()
 		areaList = CvMapGeneratorUtil.getAreas()
 		isleList = []
 
@@ -3240,7 +2268,6 @@ class MapRegions:
 		# build Lost Isle
 		x,y = islePlotCoordList[0]		# should be the plot to the upper right
 		namePlot = self.theLostIsle( GetPlot(x,y), islePlotCoordList, bAliens )
-		mapSetSign( namePlot, "The Lost Isle", self.noSigns )
 		self.regionNames.append( ('LostIsle', "The Lost Isle", namePlot) )
 		printList( islePlotCoordList, "islePlotCoordList:", rows = 1, prefix = "[MST] " )
 		print "[MST] Lost Isle built @ (%r,%r)" % (x,y)
@@ -3280,9 +2307,6 @@ class MapRegions:
 	def buildBigBogs( self, iBogs=3 ):
 		print "[MST] ===== MapRegions:buildBigBogs()"
 
-		# no bogs on Mars
-		if bMars: return
-
 		# init marshMaker if neccessary
 		if marshMaker.bModHasMarsh == None: marshMaker.initialize()
 
@@ -3310,11 +2334,6 @@ class MapRegions:
 				plot = chooseListElement( validPlots )
 				namePlot = self.theBigBog( plot, True )									# do the big bog
 				nBog += 1
-				# set landmark
-				if plot.isWater():
-					mapSetSign( namePlot, "Big Bog Lake", self.noSigns )
-				else:
-					mapSetSign( namePlot, "The Big Bog", self.noSigns )
 				self.regionNames.append( ('Bog', "Big Bog", namePlot) )
 			else:
 				print "[MST] No Big Bog"
@@ -3339,9 +2358,8 @@ class MapRegions:
 				namePlot = self.theBigBog( plot, False, True )							# do the small bog with lake
 				nBog += 1
 				# set landmark
-				mapSetSign( namePlot, "Darkwater Lake", self.noSigns )
 				self.regionNames.append( ('Bog', "Darkwater", namePlot) )
-				if map.getWorldSize() < 2: chSmallBog = chSmallBog / 2
+				if MAP.getWorldSize() < 2: chSmallBog = chSmallBog / 2
 			else:
 				print "[MST] No Small Bog with Lake"
 
@@ -3365,12 +2383,7 @@ class MapRegions:
 				namePlot = self.theBigBog( plot, False, False )						# do the small bog without lake
 				nBog += 1
 				# set landmark
-				if bMarsh:
-					if namePlot.isFlatlands():
-						if namePlot.getTerrainType() != etMarsh:
-							namePlot.setTerrainType( etMarsh, True, True )
-				mapSetSign( namePlot, "Darkwater Moor", self.noSigns )
-				self.regionNames.append( ('Bog', "Darkwater", namePlot) )
+				self.regionNames.append(('Bog', "Darkwater", namePlot))
 			else:
 				print "[MST] No Small Bog without Lake"
 		print "[MST] %i bogs built: %r" % ( nBog, self.bogList )
@@ -3385,13 +2398,13 @@ class MapRegions:
 		# get template
 		if bBigBog:
 			template = self.bigBogTemplate.copy()
-			if map.getWorldSize() < 4:
+			if MAP.getWorldSize() < 4:
 				del template[5]
 		else:
 			template = self.smallBogTemplate.copy()
-			if (map.getWorldSize() < 4) and choose(80, True, False):
+			if (MAP.getWorldSize() < 4) and choose(80, True, False):
 				del template[5]
-			if (map.getWorldSize() < 2) and choose(80, True, False):
+			if (MAP.getWorldSize() < 2) and choose(80, True, False):
 				del template[3]
 		rot = chooseNumber( 4 )
 		template = self.rotateTemplate( template, rot )
@@ -3412,7 +2425,7 @@ class MapRegions:
 		for dy in range( minY, maxY + 1 ):
 			for dx in range( minX, maxX + 1 ):
 				if template[dy-minY][dx-minX] == 1:
-					namePlot = map.plot( dx, dy )
+					namePlot = MAP.plot( dx, dy )
 					break
 		if namePlot == None:
 			namePlot = GetPlot( minX + (maxX - minX) / 2, minY - 1 + (maxY - minY) / 2 )
@@ -3481,17 +2494,15 @@ class MapRegions:
 		for dx in range( minX, maxX + 1 ):
 			for dy in range( minY, maxY + 1 ):
 				temp = template[dy-minY][dx-minX]
-				if temp==0: continue															# ignore
+				if temp==0: continue											# ignore
 				plot = plotXY( dx, dy, 0, 0 )
-				if plot.isNone(): continue													# no plot -> ignore
-				if plot.isWater(): continue												# ignore lakes
-				if plot.isPeak(): continue													# ignore peaks
-				log = self.changeBogTerrain( plot, temp )								# change terrain to bog
+				if plot.isNone(): continue										# no plot -> ignore
+				if plot.isWater(): continue										# ignore lakes
+				if plot.isPeak(): continue										# ignore peaks
+				log = self.changeBogTerrain( plot, temp )						# change terrain to bog
 				# sprint += log
-				if not bPfall:
-					if plot.isHills() and plot.getTerrainType()==etMarsh:			# no marsh on hills
-						plot.setTerrainType( etGrass, True, True )
-				else: pass																		# PlanetFall has no such restriction
+				if plot.isHills() and plot.getTerrainType()==etMarsh:			# no marsh on hills
+					plot.setTerrainType(etGrass, True, True)
 
 		# pass 3 - change surrounding desert to plains (arid to moist)
 		sprint += "[MST] pass 3 - change surrounding desert/snow \n"
@@ -3500,16 +2511,10 @@ class MapRegions:
 				if ( (dy==minY-1) or (dy==maxY+1) or (dx==minX-1) or (dx==maxX+1) ):
 					plot = plotXY( dx, dy, 0, 0 )
 					if not plot.isNone():
-						if bPfall:
-							if plot.getTerrainType()==etFlatArid:						# no arid bog neighbor
-								plot.setTerrainType( etFlatMoist, True, True )
-							elif plot.getTerrainType()==etRockyArid:
-								plot.setTerrainType( etRockyMoist, True, True )
-						else:
-							if plot.getTerrainType()==etSnow:								# no snow bog neighbor
-								plot.setTerrainType( etTundra, True, True )
-							elif plot.getTerrainType()==etDesert:						# no desert bog neighbor
-								plot.setTerrainType( etPlains, True, True )
+						if plot.getTerrainType() == etSnow:							# no snow bog neighbor
+							plot.setTerrainType(etTundra, True, True)
+						elif plot.getTerrainType() == etDesert:						# no desert bog neighbor
+							plot.setTerrainType(etPlains, True, True)
 
 		# pass 4 - build river(s) ending in water
 		sprint += "[MST] pass 4 - build river(s) ending in water \n"
@@ -3517,10 +2522,10 @@ class MapRegions:
 		sprint = ""
 		rStart = []
 		# start rivers
-		map.recalculateAreas()
+		MAP.recalculateAreas()
 		if namePlot.isWater:
 			# bog-lake found: start river(s) here
-			id = map.plot( x0, y0 ).getArea()
+			id = MAP.plot( x0, y0 ).getArea()
 			riverMaker.buildRiversFromLake( id, 100, iif(bBigBog, 2, 1), 1 )
 		else:
 			# no bog-lake found: start rivers from rim
@@ -3622,18 +2627,11 @@ class MapRegions:
 							}
 						]
 
-		if bPfall:
-			dentBoni =	{
-								'Flat':		[ ebSilver, ebGrenadeFruits, ebRareDnaMoist, ebRareDnaRainy, ebFungalGin, ebThorium ],
-								'Hills':		[ ebSilver, ebGrenadeFruits, None, ebFungicide, ebGold, ebThorium ],
-								'Terrain':	[ etFlatArid, etFlatMoist, etFlatMoist, etFlatRainy, etFlatMoist, etFlatPolar ]
-							}
-		else:
-			dentBoni =	{
-								'Flat':		[ ebSilver, ebFur, ebDeer, ebMarble, ebCow, ebHorse ],
-								'Hills':		[ ebSilver, ebMarble, ebGold, ebGems, ebSheep, None ],
-								'Terrain':	[ etSnow, etTundra, etTundra, etMarsh, etGrass, etGrass ]
-							}
+		dentBoni = {
+			'Flat':		[ebSilver, ebFur, ebDeer, ebMarble, ebCow, ebHorse],
+			'Hills':	[ebSilver, ebMarble, ebGold, ebGems, ebSheep, None],
+			'Terrain':	[etSnow, etTundra, etTundra, etMarsh, etGrass, etGrass]
+		}
 
 		# start building
 		nDent = 0
@@ -3655,7 +2653,7 @@ class MapRegions:
 			                 for p in pList
 			                 if self.regionCheck( p ) and self.wrapCheck( p ) ]
 			# build first dent
-			if len( validPlots ) > 0:
+			if len(validPlots) > 0:
 				plot = chooseListElement( validPlots )
 				self.adjustBigDentsTemplate()
 				namePlot = self.theBigDent( plot, False )											# do the first dent
@@ -3669,20 +2667,15 @@ class MapRegions:
 				dentDict = chooseListPop( dentNames )
 				dentDict['Plot'] = namePlot
 				eForest = -1
-				if not bPfall:
-					if eTerr in [etMarsh, etGrass]:
-						eForest = chooseMore( (25,efJungle), (66,efForest), (100,-1) )
-					if (eForest == efJungle) and (evalLatitude(namePlot) > 60):
-						eForest = efForest
+				if eTerr in [etMarsh, etGrass]:
+					eForest = chooseMore( (25,efJungle), (66,efForest), (100,-1) )
+				if eForest == efJungle and evalLatitude(namePlot) > 60:
+					eForest = efForest
 				dentDict['Flat'] = [ dentDict['Flat'], eTerr, eForest, eFlat ]
-				if bFFH and (eHills == ebSilver):
-					if choose(33, True, False):
-						eHills = ebMithril
 				dentDict['Hills'] = [ dentDict['Hills'], eHills ]
-				mapSetSign( namePlot, dentDict['Hills'][0], self.noSigns )
 				self.regionNames.append( ('Dent', dentDict) )
 				# check for double dent
-				if (map.getWorldSize() > 2) and (iDents > 1):
+				if (MAP.getWorldSize() > 2) and (iDents > 1):
 					if choose( chDoubleDent, True, False ):
 						rad = 12 + chooseNumber( 6 )
 						x0 = plot.getX()
@@ -3713,23 +2706,21 @@ class MapRegions:
 							dentDict = chooseListPop( dentNames )
 							dentDict['Plot'] = namePlot
 							eForest = -1
-							if not bPfall:
-								if eTerr in [etMarsh, etGrass]:
-									eForest = chooseMore( (25,efJungle), (66,efForest), (100,-1) )
-								if (eForest == efJungle) and (evalLatitude(namePlot) > 60):
-									eForest = efForest
-								if (eForest == efJungle) and (evalLatitude(namePlot) < 45):
-									if choose(33, True, False):
-										eFlat = ebBanana
+							if eTerr in [etMarsh, etGrass]:
+								eForest = chooseMore((25,efJungle), (66,efForest), (100,-1))
+							if eForest == efJungle and evalLatitude(namePlot) > 60:
+								eForest = efForest
+							if eForest == efJungle and evalLatitude(namePlot) < 45:
+								if choose(33, True, False):
+									eFlat = ebBanana
 							dentDict['Flat'] = [ dentDict['Flat'], eTerr, eForest, eFlat ]
 							dentDict['Hills'] = [ dentDict['Hills'], eHills ]
-							mapSetSign( namePlot, dentDict['Hills'][0], self.noSigns )
 							self.regionNames.append( ('Dent', dentDict) )
 						else: sprint += " No room for DoubleDent \n"
 
 		# Later BigDents
 		minMap = 2
-		while (map.getWorldSize() > minMap) and (iDents > nDent):
+		while (MAP.getWorldSize() > minMap) and (iDents > nDent):
 			if choose( chDent/(minMap-1), True, False ):
 				# get two biggest continents
 				noAreas = []
@@ -3760,14 +2751,12 @@ class MapRegions:
 					dentDict = chooseListPop( dentNames )
 					dentDict['Plot'] = namePlot
 					eForest = -1
-					if not bPfall:
-						if eTerr in [etMarsh, etGrass]:
-							eForest = chooseMore( (25,efJungle), (66,efForest), (100,-1) )
-						if (eForest == efJungle) and (evalLatitude(namePlot) > 60):
-							eForest = efForest
+					if eTerr in [etMarsh, etGrass]:
+						eForest = chooseMore( (25,efJungle), (66,efForest), (100,-1) )
+					if eForest == efJungle and evalLatitude(namePlot) > 60:
+						eForest = efForest
 					dentDict['Flat'] = [ dentDict['Flat'], eTerr, eForest, eFlat ]
 					dentDict['Hills'] = [ dentDict['Hills'], eHills ]
-					mapSetSign( namePlot, dentDict['Hills'][0], self.noSigns )
 					self.regionNames.append( ('Dent', dentDict) )
 				else:
 					sprint += "[MST] No room for Dent \n"
@@ -3832,33 +2821,27 @@ class MapRegions:
 					if plot.isWater():
 						if choose( chWaterFlat, True, False ):
 							plot.setPlotType( PlotTypes.PLOT_LAND, True, True )
-#							sprint += "[MST] @ %3i,%2i: Water -> Land \n" % ( plot.getX(), plot.getY() )
 					if plot.isFlatlands():
-						iChance = iif( bPfall, chFlatHill/3, chFlatHill )
+						iChance = chFlatHill
 						if choose( iChance, True, False ):
 							plot.setPlotType( PlotTypes.PLOT_HILLS, True, True )
-#							sprint += "[MST] @ %3i,%2i: Flat -> Hills \n" % ( plot.getX(), plot.getY() )
 					if plot.isHills():
-						iChance = iif( bPfall, (100-chHillPeak)/3, (100-chHillPeak) )
+						iChance = 100 - chHillPeak
 						if choose( iChance, True, False ):
 							plot.setPlotType( PlotTypes.PLOT_PEAK, True, True )
-#							sprint += "[MST] @ %3i,%2i: Hills -> Peak \n" % ( plot.getX(), plot.getY() )
 				if temp==3:																			# hills or peaks
 					if plot.isWater():
 						iChance = (100-chWaterFlat)*(100-chWaterFlat)/100
-						if choose( iChance, False, True ):
+						if choose(iChance, False, True):
 							plot.setPlotType( PlotTypes.PLOT_LAND, True, True )
-#							sprint += "[MST] @ %3i,%2i: Water -> Land \n" % ( plot.getX(), plot.getY() )
 					if plot.isFlatlands():
-						iChance = iif( bPfall, chFlatHill/2, chFlatHill )
-						if choose( iChance, True, False ):
+						iChance = chFlatHill
+						if choose(iChance, True, False):
 							plot.setPlotType( PlotTypes.PLOT_HILLS, True, True )
-#							sprint += "[MST] @ %3i,%2i: Flat -> Hills \n" % ( plot.getX(), plot.getY() )
 					if plot.isHills():
-						iChance = iif( bPfall, chHillPeak/2, chHillPeak )
-						if choose( iChance, True, False ):
+						iChance = chHillPeak
+						if choose(iChance, True, False):
 							plot.setPlotType( PlotTypes.PLOT_PEAK, True, True )
-#							sprint += "[MST] @ %3i,%2i: Hills -> Peak \n" % ( plot.getX(), plot.getY() )
 				if temp==2:																			# mountainous
 					if plot.isWater():
 						plot.setPlotType( PlotTypes.PLOT_LAND, True, True )
@@ -3913,60 +2896,31 @@ class MapRegions:
 				temp = template[dy-minY][dx-minX]
 				plot = plotXY( dx, dy, 0, 0 )
 				if plot.isNone(): continue														# no plot -> ignore
-				if bPfall:
-					if temp==0: continue
-					if temp==1:
-						plot.setTerrainType( etRockyPolar, True, True )
-					if temp==2 or temp==3:
-						if plot.getTerrainType()==etFlatPolar:
-							plot.setTerrainType( etRockyPolar, True, True )
-						elif plot.getTerrainType()==etFlatArid:
-							plot.setTerrainType( etRockyArid, True, True )
-						elif plot.getTerrainType()==etFlatMoist:
-							plot.setTerrainType( etRockyMoist, True, True )
-						elif plot.getTerrainType()==etFlatRainy:
-							plot.setTerrainType( etRockyRainy, True, True )
-				else:
-					if temp==1:
-						if plot.isFlatlands():
-							plot.setTerrainType( etGrass, True, True )
-						else:
-							plot.setTerrainType( etSnow, True, True )
-					elif temp==2:
-						if plot.getTerrainType() == etSnow: continue
-						iChance = chSnow
-						if evalLatitude( plot ) < 25: iChance = 100 - chSnow
-						if choose( iChance, True, False ):
-							plot.setTerrainType( etSnow, True, True )
-						else:
-							plot.setTerrainType( etTundra, True, True )
-					elif temp==3:
-						if plot.getTerrainType() == etSnow: continue
-						if plot.getTerrainType() == etTundra: continue
-						iChance = chTundra
-						if evalLatitude( plot ) < 30: iChance = 100 - chTundra
-						if choose( iChance, True, False ):
-							plot.setTerrainType( etTundra, True, True )
-						elif plot.getTerrainType() == etDesert:
-							plot.setTerrainType( etPlains, True, True )
-					if plot.isHills():											# no marsh on hills
-						if plot.getTerrainType()==etMarsh:
-							plot.setTerrainType( etGrass, True, True )
-
-		# pass 4 - add volcanos
-		sprint += "[MST] pass 4 - add volcanos \n"
-		if bVolcano:
-			for dx in range( minX, maxX + 1 ):
-				for dy in range( minY, maxY + 1 ):
-					plot = plotXY( dx, dy, 0, 0 )
-					if bHasVolcano: break
-					if plot.isNone(): continue														# no plot -> ignore
-					if plot.isPeak():
-						if choose( chVolcano, True, False ):
-							plot.setFeatureType( efVolcano, -1 )
-							self.dentVolcanos.append( plot )
-							bHasVolcano = True
-							sprint += "[MST] Volcano @ %3i,%2i \n" % ( plot.getX(), plot.getY() )
+				if temp == 1:
+					if plot.isFlatlands():
+						plot.setTerrainType( etGrass, True, True )
+					else:
+						plot.setTerrainType( etSnow, True, True )
+				elif temp == 2:
+					if plot.getTerrainType() == etSnow: continue
+					iChance = chSnow
+					if evalLatitude( plot ) < 25: iChance = 100 - chSnow
+					if choose( iChance, True, False ):
+						plot.setTerrainType( etSnow, True, True )
+					else:
+						plot.setTerrainType( etTundra, True, True )
+				elif temp == 3:
+					if plot.getTerrainType() == etSnow: continue
+					if plot.getTerrainType() == etTundra: continue
+					iChance = chTundra
+					if evalLatitude( plot ) < 30: iChance = 100 - chTundra
+					if choose( iChance, True, False ):
+						plot.setTerrainType( etTundra, True, True )
+					elif plot.getTerrainType() == etDesert:
+						plot.setTerrainType( etPlains, True, True )
+				if plot.isHills():											# no marsh on hills
+					if plot.getTerrainType()==etMarsh:
+						plot.setTerrainType( etGrass, True, True )
 
 		# pass 5 - add rivers
 		sprint += "[MST] pass 5 - add rivers \n"
@@ -4023,9 +2977,6 @@ class MapRegions:
 	def buildElementalQuarter( self, chEQ=66 ):
 		print "[MST] ===== MapRegions:buildElementalQuarter()"
 		minOcean = 25
-		if not bFFH:
-			print "[MST] No elemental magic in this mod"
-			return
 		if chEQ == 0:
 			print "[MST] No Elemental Quarter selected"
 			return
@@ -4037,7 +2988,7 @@ class MapRegions:
 		validPlots = []
 		for x in range( 5, iNumPlotsX-5 ):
 			for y in range( 5, iNumPlotsY-5 ):
-				plot = map.plot(x,y)
+				plot = MAP.plot(x,y)
 				if plot.isWater() and (numWaterNeighbors(x, y) < 8):
 					if (evalLatitude( plot ) < 80) and (evalLatitude( plot ) > 10):
 						if plot.area().getNumTiles() >= minOcean:
@@ -4071,7 +3022,7 @@ class MapRegions:
 		printList(validPlots, "Valid Plots", prefix="[MST] ")
 		if len( validPlots ) > 0:
 			x, y, rot = chooseListElement( validPlots )
-			plot = map.plot(x, y)
+			plot = MAP.plot(x, y)
 			template = self.rotateTemplate( self.eqTemplate, rot )
 			printDict( self.eqTemplate, prefix="[MST] " )
 			self.theElementalQuarter( plot, template, rot )
@@ -4115,7 +3066,7 @@ class MapRegions:
 	# adjust BigDent for mapsize
 	def adjustBigDentsTemplate( self, bRandom=False ):
 		print "[MST] ======== MapRegions:adjustBigDentsTemplate()"
-		siz = iif( bRandom, chooseNumber( 7 ), map.getWorldSize() )
+		siz = iif( bRandom, chooseNumber( 7 ), MAP.getWorldSize() )
 		#printDict( self.bigDentTemplate, "before:", prefix="[MST] " )
 		self.dentTemplate = self.bigDentTemplate.copy()
 		if (siz < 5) and choose(80, True, False):			# duel - large
@@ -4171,14 +3122,6 @@ class MapRegions:
 		for x0,y0,pList,bAliens in self.lostIsleList:
 			plDone = []
 
-			# volcano
-			if bVolcano:
-				pListPeak = [ GetPlot(x,y) for x,y in pList if GetPlot(x,y).isPeak() ]
-				if len(pListPeak) > 0:
-					vpl = chooseListElement( pListPeak )
-					vpl.setFeatureType( efVolcano, -1 )
-					sprint += "[MST] Placed volcano @ (%r,%r)\n" % (vpl.getX(),vpl.getY())
-
 			# city ruins
 			printList( pList, "Lost Isle Tiles:", prefix="[MST] " )
 			pListCoast = [ GetPlot(x,y) for x,y in pList
@@ -4207,54 +3150,27 @@ class MapRegions:
 			# improve terrain
 			pListTer = [ GetPlot(x,y) for x,y in pList if not GetPlot(x,y).isPeak() ]
 			for pl in pListTer:
-				if bPfall:
-					if pl.getTerrainType() == etFlatPolar:
-						newTerrain = chooseMore( (20,etFlatPolar), (80,etFlatMoist), (100,etFlatRainy) )
-						pl.setTerrainType( newTerrain, True, True )
-					elif pl.getTerrainType() == etRockyPolar:
-						newTerrain = chooseMore( (20,etRockyPolar), (80,etRockyMoist), (100,etRockyRainy) )
-						pl.setTerrainType( newTerrain, True, True )
-					elif pl.getTerrainType() == etFlatArid:
-						newTerrain = choose( 20, etFlatArid, etFlatMoist )
-						pl.setTerrainType( newTerrain, True, True )
-					elif pl.getTerrainType() == etRockyArid:
-						newTerrain = choose( 20, etRockyArid, etRockyMoist )
-						pl.setTerrainType( newTerrain, True, True )
-				else:
-					if pl.getTerrainType() == etSnow:
-						newTerrain = chooseMore( (20,etGrass), (85,etTundra), (100,etSnow) )
-						if pl.isFreshWater():
-							newTerrain = chooseMore( (25,etMarsh), (75,newTerrain), (100,etGrass) )
-						pl.setTerrainType( newTerrain, True, True )
-					elif pl.getTerrainType() == etTundra:
-						if pl.isFreshWater():
-							newTerrain = chooseMore( (30,etGrass), (60,etMarsh), (100,etTundra) )
-						else:
-							newTerrain = chooseMore( (30,etGrass), (100,etTundra) )
-						pl.setTerrainType( newTerrain, True, True )
-					elif pl.getTerrainType() == etDesert:
-						newTerrain = choose( 20, etGrass, etPlains )
-						if not pl.isFreshWater() and not plot.isCoastalLand():
-							newTerrain = choose( 25, etDesert ,newTerrain )
-						pl.setTerrainType( newTerrain, True, True )
+				if pl.getTerrainType() == etSnow:
+					newTerrain = chooseMore( (20,etGrass), (85,etTundra), (100,etSnow) )
+					if pl.isFreshWater():
+						newTerrain = chooseMore( (25,etMarsh), (75,newTerrain), (100,etGrass) )
+					pl.setTerrainType( newTerrain, True, True )
+				elif pl.getTerrainType() == etTundra:
+					if pl.isFreshWater():
+						newTerrain = chooseMore( (30,etGrass), (60,etMarsh), (100,etTundra) )
+					else:
+						newTerrain = chooseMore( (30,etGrass), (100,etTundra) )
+					pl.setTerrainType( newTerrain, True, True )
+				elif pl.getTerrainType() == etDesert:
+					newTerrain = choose( 20, etGrass, etPlains )
+					if not pl.isFreshWater() and not plot.isCoastalLand():
+						newTerrain = choose( 25, etDesert ,newTerrain )
+					pl.setTerrainType( newTerrain, True, True )
 
 			# place boni and work them
-			pListBoni = [ GetPlot(x,y) for x,y in pList
-												if ( (x,y) != (cx,cy) ) and
-												   ( not GetPlot(x,y).isPeak() ) ]
-			if bPfall:
-				bonList = [ ebFungicide, ebFungalGin, ebGrenadeFruits,
-				            [ebRareDnaMoist, ebRareDnaRainy], ebArtifact, ebThorium,
-				            ebMineral, ebEnergy, ebGold ]
-			elif bFFH:
-				bonList = [ [ebGold, ebSilver], [ebGems, ebCoal], ebMithril,
-							   [ebCopper, ebIron], [ebSheep, ebCow], ebReagens,
-							   ebMana, ebManaChaos, [ebManaDeath, ebManaEntropy] ]
-			else:
-				bonList = [ ebGold, ebGems, ebSilver,
-							   [ebCopper, ebIron], ebOil, [ebSheep, ebCow],
-							   ebCoal, ebSulphur, ebUranium ]
-			chance = iif( bAliens, 90, 60 )
+			pListBoni = [GetPlot(x,y) for x,y in pList if (x,y) != (cx,cy) and not GetPlot(x,y).isPeak()]
+			bonList = [ebGold, ebGems, ebSilver, [ebCopper, ebIron], ebOil, [ebSheep, ebCow], ebCoal, ebSulphur, ebUranium]
+			chance = iif(bAliens, 90, 60)
 			# try for four landbased boni on the island
 			for i in range(4):
 				# get bonus
@@ -4271,18 +3187,18 @@ class MapRegions:
 				pl.setBonusType( bon )
 				# work placed boni
 				if choose( chance, True, False ):
-					bonString = gc.getBonusInfo(bon).getType()
-					bonTech = gc.getBonusInfo(bon).getTechCityTrade()
+					bonString = GC.getBonusInfo(bon).getType()
+					bonTech = GC.getBonusInfo(bon).getTechCityTrade()
 					bonEra = 0
 					if bonTech > -1:
-						bonEra = gc.getTechInfo(bonTech).getEra()
+						bonEra = GC.getTechInfo(bonTech).getEra()
 					if bonEra < 0: bonEra = 0
-					eraString =	gc.getEraInfo(bonEra).getType()
+					eraString =	GC.getEraInfo(bonEra).getType()
 					sprint += "[MST] Improve %s @ (%r,%r) - Era: %s\n" % (bonString,pl.getX(),pl.getY(),eraString)
 					# find possible improvements for boni
-					impList = [ (bonEra, imp) for imp in range(gc.getNumImprovementInfos())
+					impList = [ (bonEra, imp) for imp in range(GC.getNumImprovementInfos())
 													  if pl.canHaveImprovement(imp, TeamTypes.NO_TEAM, True) and
-													     gc.getImprovementInfo(imp).isImprovementBonusMakesValid(bon) ]
+													     GC.getImprovementInfo(imp).isImprovementBonusMakesValid(bon) ]
 					if len(impList) == 0:
 						sprint += "[MST] No improvement found for %s @ (%r,%r)\n" % (bonString,pl.getX(),pl.getY())
 						continue
@@ -4294,21 +3210,16 @@ class MapRegions:
 						if bonEra > 1:
 							sprint += "[MST] Civ to primitive to work %s @ (%r,%r)\n" % (bonString,pl.getX(),pl.getY())
 							continue												# ancient and classic tech only
-					impString = gc.getImprovementInfo(imp).getType()
+					impString = GC.getImprovementInfo(imp).getType()
 					pl.setImprovementType( imp )
 					sprint += "[MST] Placed %s on %s @ (%r,%r)\n" % (impString,bonString,pl.getX(),pl.getY())
 			print sprint
 
 			# city area - improvements
-			chance = iif( bAliens, 80, 50 )
-			featList = [ efJungle ]
-			if not bPfall: featList = [ efForest, efJungle ]
-			if bFFH: featList = featList + [ efForestNew, efForestAncient ]
+			chance = iif(bAliens, 80, 50)
+			featList = [efForest, efJungle]
 			impTuple = ( eiFarm, eiMine )
 			if bAliens: impTuple = ( eiWindmill, eiFarm, eiMine )
-			if bPfall:
-				impTuple = ( eiSolarCollector, eiMine )
-				rocky = [ etRockyRainy, etRockyMoist, etRockyArid, etRockyPolar, ]
 			sprint = ""
 			pListCity = [ GetPlot(x,y) for x,y in pList
 			              if plotDistance(x, y, cx, cy) == 1 ]
@@ -4321,16 +3232,9 @@ class MapRegions:
 						pl.setFeatureType( FeatureTypes.NO_FEATURE, -1 )
 					if pl.canHaveImprovement( imp, TeamTypes.NO_TEAM, True ):
 						if choose( chance, True, False ): continue
-						if bPfall:
-							if (imp == eiSolarCollector) and choose(25, True, False): continue
-							if (imp == eiMine) and (imp not in rocky): continue
-							impString = gc.getImprovementInfo(imp).getType()
-							pl.setImprovementType( imp )
-							sprint += "[MST] Placed %s @ (%r,%r)\n" % (impString,pl.getX(),pl.getY())
-						else:
-							impString = gc.getImprovementInfo(imp).getType()
-							pl.setImprovementType( imp )
-							sprint += "[MST] Placed %s @ (%r,%r)\n" % (impString,pl.getX(),pl.getY())
+						impString = GC.getImprovementInfo(imp).getType()
+						pl.setImprovementType( imp )
+						sprint += "[MST] Placed %s @ (%r,%r)\n" % (impString,pl.getX(),pl.getY())
 
 			# city area - Goody Hut
 			for pl in pListCity:
@@ -4343,9 +3247,9 @@ class MapRegions:
 
 			# city area - roads
 			chance = iif( bAliens, 90, 60 )
-			eRoad = gc.getInfoTypeForString('ROUTE_ROAD')
-			if bAliens: eRoad = gc.getNumRouteInfos() - 1
-			roadString = gc.getRouteInfo(eRoad).getType()
+			eRoad = GC.getInfoTypeForString('ROUTE_ROAD')
+			if bAliens: eRoad = GC.getNumRouteInfos() - 1
+			roadString = GC.getRouteInfo(eRoad).getType()
 			for pl in pListCity:
 				if pl.isWater(): continue
 				if pl.isPeak(): continue
@@ -4358,8 +3262,8 @@ class MapRegions:
 
 			# isle area - roads
 			chance = iif( bAliens, 66, 25 )
-			eRoad = gc.getInfoTypeForString('ROUTE_ROAD')
-			roadString = gc.getRouteInfo(eRoad).getType()
+			eRoad = GC.getInfoTypeForString('ROUTE_ROAD')
+			roadString = GC.getRouteInfo(eRoad).getType()
 			for x,y in pList:
 				pl = GetPlot(x,y)
 				if pl in pListCity: continue
@@ -4374,10 +3278,7 @@ class MapRegions:
 
 			# city area - fishes
 			wList = []
-			if bPfall:
-				bonList = [ ebAlgaeCyan, ebEnergy, ebMineral ]
-			else:
-				bonList = [ ebFish, ebCrab ]
+			bonList = [ ebFish, ebCrab ]
 			pListWater = [ GetPlot(x,y) for x in range(cx-1,cx+2) for y in range(cy-1,cy+2) if GetPlot(x,y).isWater()]
 			pl = chooseListElement( pListWater )
 			if pl == None:
@@ -4385,16 +3286,13 @@ class MapRegions:
 			else:
 				bon = chooseListElement( bonList )
 				pl.setBonusType( bon )
-				bonString = gc.getBonusInfo(bon).getType()
+				bonString = GC.getBonusInfo(bon).getType()
 				sprint += "\n[MST] Placed %s @ (%r,%r)" % (bonString,pl.getX(),pl.getY())
 
 			# name
 			nam = chooseListPop( lostIsleNames )
-			if bPfall:
-				nam = chooseListPop( lostIsleNames_Pfall )
 			CyEngine().removeLandmark( GetPlot(x0,y0) )			# remove 'Lost Isle' sign
 			print sprint
-			print "[MST] " + mapSetSign( GetPlot(cx,cy), nam, self.noSigns )
 
 	# add names, boni and other late extras to region: 'theBigBog'
 	def addBigBogExtras( self ):
@@ -4408,28 +3306,16 @@ class MapRegions:
 				plot = reg[2]
 				if reg[1] == "Big Bog":
 					if plot.isWater():
-						sprint += "[MST] " + mapSetSign( plot, "Big Bog Lake", self.noSigns )
-						if choose( 33, True, False ):
-							if not bPfall:
-								plot.setBonusType( chooseMore( (66,ebFish), (100,ebClam) ) )
-					else:
-						sprint += "[MST] " + mapSetSign( plot, "The Big Bog", self.noSigns )
+						if choose(33, True, False):
+							plot.setBonusType( chooseMore( (66,ebFish), (100,ebClam) ) )
 				elif reg[1] == "Darkwater":
 					if plot.isWater():
 						if not bDarkLake:
-							sprint += "[MST] " + mapSetSign( plot, "Darkwater Lake", self.noSigns )
 							bDarkLake = True
 							if choose( 20, True, False ):
-								if not bPfall:
-									plot.setBonusType( chooseMore( (66,ebFish), (100,ebClam) ) )
-						else:
-							sprint += "[MST] " + mapSetSign( plot, "Darkwater Basin", self.noSigns )
-					else:
-						if not bDarkMoor:
-							sprint += "[MST] " + mapSetSign( plot, "Darkwater Moor", self.noSigns )
-							bDarkMoor = True
-						else:
-							sprint += "[MST] " + mapSetSign( plot, "Darkwater Swamp", self.noSigns )
+								plot.setBonusType( chooseMore( (66,ebFish), (100,ebClam) ) )
+					elif not bDarkMoor:
+						bDarkMoor = True
 		print sprint
 		return
 
@@ -4442,17 +3328,7 @@ class MapRegions:
 			if reg[0] == 'Dent':
 				dDict = reg[1]
 				dPlot = dDict['Plot']
-				if dPlot.isPeak():
-					sprint += "[MST] " + mapSetSign( dPlot, dDict['Peak'], self.noSigns )
-					if bVolcano:
-						if dPlot.getFeatureType() == efVolcano:
-							sprint += "[MST] " + mapSetSign( dPlot, dDict['Volcano'], self.noSigns )
-					elif bVolcanoDormant:
-						if dPlot.getFeatureType() == efVolcanoDormant:
-							sprint += "[MST] " + mapSetSign( dPlot, dDict['Volcano'], self.noSigns )
-				elif dPlot.isWater():
-					sprint += "[MST] " + mapSetSign( dPlot, dDict['Water'], self.noSigns )
-				elif dPlot.isFlatlands():
+				if dPlot.isFlatlands():
 					if dDict['Flat'][1] != None:
 						dPlot.setTerrainType( dDict['Flat'][1], True, True )
 					if dDict['Flat'][2] != None:
@@ -4461,7 +3337,6 @@ class MapRegions:
 						if dPlot.getBonusType(-1) == -1:
 							if bonusBalancer.isBonusValid( dDict['Flat'][3], dPlot, True, True, True ):
 								bonusBalancer.placeBonus( dPlot, dDict['Flat'][3] )
-					sprint += "[MST] " + mapSetSign( dPlot, dDict['Flat'][0], self.noSigns )
 					if choose(66,True,False):
 						dPlot.setImprovementType( eiGoody )
 						sprint += "[MST] Goody Hut placed @ (%r,%r)" % (dPlot.getX(),dPlot.getY())
@@ -4470,11 +3345,10 @@ class MapRegions:
 						if dPlot.getBonusType(-1) == -1:
 							if bonusBalancer.isBonusValid( dDict['Hills'][1], dPlot, True, True, True ):
 								bonusBalancer.placeBonus( dPlot, dDict['Hills'][1] )
-					sprint += "[MST] " + mapSetSign( dPlot, dDict['Hills'][0], self.noSigns )
 		print sprint
 
 	# add mana, restamp terrain/plots and kill boni and features
-	def addElementalQuarterExtras( self ):
+	def addElementalQuarterExtras(self):
 		print "[MST] ======== MapRegions:addElementalQuarterExtras()"
 		sprint = ""
 		for reg in self.regionNames:
@@ -4482,9 +3356,7 @@ class MapRegions:
 			if reg[0] == 'EQ':
 				plot = reg[2]
 				x,y = plot.getX(), plot.getY()
-				sPlot = map.plot(x,y)
-				if reg[1] == "Elemental Quarter":
-					sprint += "[MST] " + mapSetSign( sPlot, "Elemental Quarter", self.noSigns )
+				sPlot = MAP.plot(x,y)
 			# extras; do it again as things may have changed
 			self.stampElementalQuarter()
 		print sprint
@@ -4493,7 +3365,7 @@ class MapRegions:
 	def regionCheck( self, plot ):
 #		print "[MST] ======== MapRegions:regionCheck()"
 		bValid = True
-		iMinDist = self.regionDist + 3 * map.getWorldSize()
+		iMinDist = self.regionDist + 3 * MAP.getWorldSize()
 		x0 = plot.getX()
 		y0 = plot.getY()
 		for dx,dy in self.regionList:
@@ -4507,9 +3379,9 @@ class MapRegions:
 	def wrapCheck( self, plot, dist=3 ):
 #		print "[MST] ======== MapRegions:wrapCheck()"
 		x,y = coordByPlot( plot )
-		if not map.isWrapX():
+		if not MAP.isWrapX():
 			if (x < dist) or (x > (iNumPlotsX-1-dist)): return False
-		if not map.isWrapY():
+		if not MAP.isWrapY():
 			if (y < dist) or (y > (iNumPlotsY-1-dist)): return False
 		return True
 
@@ -4522,18 +3394,13 @@ class MapRegions:
 				del plotList[inx]
 			else:
 				iLat = evalLatitude( pl )		# 0..90
-				if bPfall:
-					bZone = (marshMaker.iMarshHotBottom<=iLat and iLat<=marshMaker.iMarshHotTop) or    \
-							  ((marshMaker.iMarshColdBottom-5)<=iLat and (iLat<=marshMaker.iMarshColdTop-5))
-				else:
-					bZone = (marshMaker.iMarshHotBottom<=iLat and iLat<=marshMaker.iMarshHotTop) or    \
-							  (marshMaker.iMarshColdBottom<=iLat and iLat<=marshMaker.iMarshColdTop)
+				bZone = marshMaker.iMarshHotBottom<=iLat and iLat<=marshMaker.iMarshHotTop or marshMaker.iMarshColdBottom<=iLat and iLat<=marshMaker.iMarshColdTop
 				if bZone:
-					if not map.isWrapX():
+					if not MAP.isWrapX():
 						if (pl.getX()<3) or (pl.getX()>(iNumPlotsX-4)):
 							del plotList[inx]
 							continue
-					if not map.isWrapY():
+					if not MAP.isWrapY():
 						if (pl.getY()<3) or (pl.getY()>(iNumPlotsY-4)):
 							del plotList[inx]
 				else:
@@ -4547,10 +3414,10 @@ class MapRegions:
 			if pl.isCoastalLand():
 				del plotList[inx]
 			else:
-				if not map.isWrapX():
+				if not MAP.isWrapX():
 					if (pl.getX()<3) or (pl.getX()>(iNumPlotsX-4)):
 						del plotList[inx]
-				elif not map.isWrapY():
+				elif not MAP.isWrapY():
 					if (pl.getY()<3) or (pl.getY()>(iNumPlotsY-4)):
 						del plotList[inx]
 
@@ -4563,53 +3430,50 @@ class MapRegions:
 		# change terrain
 		ter = plot.getTerrainType()
 		newTer = ter
-		if bPfall:
-			pass
-		else:
-			if temp==5:										# maybe hill
-				if ter==etSnow:
-					newTer = etTundra
-				elif ter==etDesert:
-					newTer = etPlains
-			if temp==4:										# probably grass
-				if ter==etSnow or ter==etTundra:
-					newTer = chooseMore( (60,etGrass), (90,etMarsh), (100,etTundra)  )	# --,60,30,10
-				elif ter==etDesert:
-					newTer = chooseMore( (70,etGrass), (80,etMarsh), (100,etPlains) )		# 20,70,10,--
-				else:
-					newTer = chooseMore( (60,etGrass), (90,etMarsh), (100,etPlains) )		# 10,60,30,--
-			elif temp==3:									# probably marsh
-				if ter==etSnow or ter==etTundra:
-					newTer = chooseMore( (30,etGrass), (85,etMarsh), (100,etTundra) )		# --,30,55,15
-				elif ter==etDesert:
-					newTer = chooseMore( (40,etGrass), (80,etMarsh), (100,etPlains) )		# 20,40,40,--
-				else:
-					newTer = chooseMore( (30,etGrass), (85,etMarsh), (100,etPlains) )		# 15,30,55,--
-			elif temp==2:									# marshy and flat
-				if ter==etSnow or ter==etDesert:
-					newTer = chooseMore( (30,etGrass), (100,etMarsh) )							# --,30,70,--
-				else:
-					newTer = chooseMore( (15,etGrass), (100,etMarsh) )							# --,15,85,--
-			elif temp==1:									# possibly lake
-					newTer = etMarsh
-			plot.setTerrainType( newTer, True, True )
-			sprint += "[MST] @ %3i,%2i: %s -> %s (temp:%i) \n" % \
-			   (plot.getX(),plot.getY(),capWords(gc.getTerrainInfo(ter).getType()[8:]),capWords(gc.getTerrainInfo(newTer).getType()[8:]),temp)
+		if temp == 5:										# maybe hill
+			if ter==etSnow:
+				newTer = etTundra
+			elif ter==etDesert:
+				newTer = etPlains
+		if temp == 4:										# probably grass
+			if ter == etSnow or ter == etTundra:
+				newTer = chooseMore( (60,etGrass), (90,etMarsh), (100,etTundra)  )	# --,60,30,10
+			elif ter==etDesert:
+				newTer = chooseMore( (70,etGrass), (80,etMarsh), (100,etPlains) )		# 20,70,10,--
+			else:
+				newTer = chooseMore( (60,etGrass), (90,etMarsh), (100,etPlains) )		# 10,60,30,--
+		elif temp == 3:									# probably marsh
+			if ter==etSnow or ter==etTundra:
+				newTer = chooseMore( (30,etGrass), (85,etMarsh), (100,etTundra) )		# --,30,55,15
+			elif ter==etDesert:
+				newTer = chooseMore( (40,etGrass), (80,etMarsh), (100,etPlains) )		# 20,40,40,--
+			else:
+				newTer = chooseMore( (30,etGrass), (85,etMarsh), (100,etPlains) )		# 15,30,55,--
+		elif temp == 2:									# marshy and flat
+			if ter==etSnow or ter==etDesert:
+				newTer = chooseMore( (30,etGrass), (100,etMarsh) )							# --,30,70,--
+			else:
+				newTer = chooseMore( (15,etGrass), (100,etMarsh) )							# --,15,85,--
+		elif temp == 1:									# possibly lake
+				newTer = etMarsh
+		plot.setTerrainType( newTer, True, True )
+		sprint += "[MST] @ %3i,%2i: %s -> %s (temp:%i) \n" % \
+		   (plot.getX(),plot.getY(),capWords(GC.getTerrainInfo(ter).getType()[8:]),capWords(GC.getTerrainInfo(newTer).getType()[8:]),temp)
 		return sprint
 
 	# find empty ocean and put 'Lost Isle' there
 	def createLostIsle( self, minDist, bAliens ):
 		print "[MST] ======== MapRegions:createLostIsle()"
 		tileList = []
-		dist = minDist + iif(bPfall,1,0) + iif(bAliens,1,0)
+		dist = minDist + iif(bAliens,1,0)
 
 		# find empty ocean
 		deepList = []
-		for inx in range( map.numPlots() ):
+		for inx in range( MAP.numPlots() ):
 			x,y = coordByIndex( inx )
-			if not map.isWrapX:
+			if not MAP.isWrapX:
 				if (x<4) or (x>=(iNumPlotsX-4)):	continue
-			if not map.isWrapY:
+			if not MAP.isWrapY:
 				if (y<4) or (y>=(iNumPlotsY-4)):	continue
 			if isHighSeas( x, y, dist, bWrap=True, treshold=2 ):
 				deepList.append( (x, y) )
@@ -4682,7 +3546,7 @@ class MapRegions:
 					bon = chooseListElement( lFishes )
 					pl.setBonusType( bon )
 
-		map.recalculateAreas()
+		MAP.recalculateAreas()
 		return stampList
 
 	# set terrain and kill features for 'Elemental Quarter'
@@ -4714,8 +3578,6 @@ class MapRegions:
 					# Earth center: Mountain, Volcano if possible
 					elif temp == 'E':
 						plot.setPlotType( PlotTypes.PLOT_PEAK, False, False )
-						if bVolcano:
-							plot.setFeatureType( efVolcano, -1 )
 					# Earth: hills or peak - no features
 					elif temp == 'e':
 						if plot.isWater() or plot.isFlatlands():
@@ -4788,7 +3650,7 @@ class MapRegions:
 						plot.setPlotType( PlotTypes.PLOT_LAND, False, False )
 						plot.setTerrainType( etGrass, True, True )
 						plot.setBonusType( ebManaAir )
-		map.recalculateAreas()
+		MAP.recalculateAreas()
 
 ###############################################################################################################
 ### CLASS MapRegions END
@@ -4810,14 +3672,12 @@ class FeaturePlacer:
 
 	# put kelp on coast of continents; if not bAll: only near 2nd biggest continent
 	def placeKelp( self, chKelp=20, bAll=False, bLakes=False ):
-		if bPfall: return														# no placement on Planetfall
-		if not bKelp: return													# no Kelp -> no placement
 		print "[MST] ===== FeaturePlacer:placeKelp()"
 		cnt = 0
 		if bAll:
 			# all continents
-			for inx in range( map.numPlots() ):
-				pl = map.plotByIndex( inx )
+			for inx in range( MAP.numPlots() ):
+				pl = MAP.plotByIndex( inx )
 				if pl.isWater():
 					if pl.isLake() and ( not bLakes ): continue			# lakes allowed?
 					ter = pl.getTerrainType()
@@ -4840,111 +3700,9 @@ class FeaturePlacer:
 							cnt += 1
 		if cnt>0: print "[MST] %i Kelp placed" % ( cnt )
 
-	# put 'Haunted Lands': deep in forrest/jungle, near mountain passes, near city-ruins,
-	# middle of desert, around and within marshes, on small islands
-	# use only after starting-plots are generated
-	def placeHauntedLands( self, chHaunted=6 ):
-		if not bHauntedLands: return														# no Haunted Lands -> no placement
-		print "[MST] ===== FeaturePlacer:placeHauntedLands()"
-		minDist = 8
-		# find possible plots for 'Haunted Lands'
-		cnt = 0
-		hauntedPlots = []
-		for inx in range( map.numPlots() ):
-			pl = map.plotByIndex( inx )
-			x, y = coordByIndex( inx )
-			# check for water and mountains
-			if pl.isWater() or pl.isPeak(): continue
-			# check for 'Oasis' and 'Volcano'
-			if pl.getFeatureType() == efOasis: continue
-			if pl.getFeatureType() == efVolcano: continue
-			# check for nearby starting-plot
-			if startingPlotDistance( x, y ) < minDist: continue
-			# check small island
-			if pl.area().getNumTiles() <= 2:
-				hauntedPlots.append( pl )
-				continue
-			# check ruins
-			if pl.getImprovementType() == eiCityRuins:								# double chance on ruins
-				hauntedPlots.append( pl )
-				hauntedPlots.append( pl )
-				continue
-			elif numNeighborType( x, y, 'IMPROVEMENT', eiCityRuins ) > 0:
-				hauntedPlots.append( pl )
-				continue
-			# check passes
-			if isMountainPass( pl, False ):
-				hauntedPlots.append( pl )
-				continue
-			# check deep forest/jungle
-			if numFeatureNeighbors( x, y, [efForest, efJungle], 1 ) == 8:
-				if numFeatureNeighbors( x, y, [efForest, efJungle], 2 ) >= 18:
-					hauntedPlots.append( pl )
-					continue
-			# check deep desert
-			if numNeighborType( x, y, 'TERRAIN', etDesert, 1 ) == 8:
-				if numNeighborType( x, y, 'TERRAIN', etDesert, 2 ) >= 18:
-					hauntedPlots.append( pl )
-					continue
-			# check around marshes
-			if bMarsh:
-				if numNeighborType( x, y, 'TERRAIN', etMarsh, 1 ) == 8:			# double chance middle of marsh
-					if numNeighborType( x, y, 'TERRAIN', etMarsh, 2 ) >= 18:
-						hauntedPlots.append( pl )
-						hauntedPlots.append( pl )
-						continue
-				elif numNeighborType( x, y, 'TERRAIN', etMarsh, 1 ) >= 3:
-					hauntedPlots.append( pl )
-					continue
-		# choose 'Haunted Lands' from plotlist
-		for p in hauntedPlots:
-			if choose( chHaunted, True, False ):
-				p.setFeatureType( efHauntedLands, 0 )
-				cnt += 1
-		if cnt>0: print "[MST] %i Haunted Lands placed" % ( cnt )
+	def placeHauntedLands(self, chHaunted=6): return
 
-	# put 'Crystal Plains' on the map
-	# mostly just converted from Operas 'Orbis-friendly map scripts'
-	# --> http://forums.civfanatics.com/showthread.php?t=321920
-	def placeCrystalPlains( self, chCrystal=25 ):
-		if not bCrystalPlains: return								# no Crystal Plains -> no placement
-		print "[MST] ===== FeaturePlacer:placeCrystalPlains()"
-		# put 'Crystal Plains' on icy plots
-		cnt = 0
-		for inx in range( map.numPlots() ):
-			plot = map.plotByIndex( inx )
-			x, y = coordByIndex( inx )
-			# check for water and mountains
-			if plot.isWater() or plot.isPeak() or plot.isHills(): continue
-			# check for 'Snow'
-			if plot.getTerrainType() == etSnow:
-				iTemp = 1
-				if plot.isRiver():
-					chCrystal += 5 									# rivers increase base chance
-				for xx in range( x-1, x+2 ):
-					for yy in range( y-1, y+2 ): 					# check surrounding plots
-						pl = map.plot( xx, yy )
-						if ( pl.getTerrainType()==etSnow ) or ( pl.getTerrainType()==etTundra ):
-							if pl.isRiver(): 							# surrounding plot rivers also increase chance
-								chCrystal += 2
-							if pl.getFeatureType() == efCrystalPlains:
-								chCrystal += 5
-							else: 										# only snow or tundra
-								chCrystal += 1
-						elif pl.getTerrainType()==etDesert:		# desert may increase iTemp and decreases chance
-							if iTemp < 3: iTemp = 3
-							chCrystal -= 6
-						elif pl.getTerrainType()==etPlains:		# plains may increase iTemp and decreases chance
-							if iTemp < 2: iTemp = 2
-							chCrystal -= 4
-						else: 											# other terrains
-							if iTemp < 2: iTemp = 2
-							chCrystal  -= 2
-				# here iTemp is used to reduce the chance of CP if the temperature is to high
-				if choose( chCrystal / iTemp, True, False ):
-					plot.setFeatureType( efCrystalPlains, 0 )
-					cnt += 1
-		if cnt>0: print "[MST] %i Crystal Plains placed" % ( cnt )
+	def placeCrystalPlains(self, chCrystal=25): return
 
 ###############################################################################################################
 ### CLASS FeaturePlacer END
@@ -5023,65 +3781,53 @@ class BonusBalancer:
 
 	def initialize(self, bBalanceOnOff=True, bMissingOnOff=True, bMineralsOnOff=True, bWideRange=False ):
 		print "[MST] ===== BonusBalancer:initialize( %r, %r, %r, %r )" % (bBalanceOnOff, bMissingOnOff, bMineralsOnOff, bWideRange)
+		GAME = CyGame()
 
 		self.bBalance  = bBalanceOnOff
 		self.bMissing  = bMissingOnOff
-		self.bMinerals = bMineralsOnOff and (not bMars)
+		self.bMinerals = bMineralsOnOff
 		self.spRange = 5																# max plotDistance around startingPlot
 		self.iEliminate  = 50														# elimination percentage before balancing:
-		self.iEliminate -= 4 * map.getWorldSize()								# smaller percentage for bigger worlds
-		self.iEliminate += gc.getGame().countCivPlayersEverAlive() * 2	# and bigger percentage for more players
+		self.iEliminate -= 4 * MAP.getWorldSize()								# smaller percentage for bigger worlds
+		self.iEliminate += GAME.countCivPlayersEverAlive() * 2	# and bigger percentage for more players
 		self.iEliminate = min( self.iEliminate, 80 )
 		self.iEliminate = max( self.iEliminate, 20 )
 
 		# bigger worlds, less players - balanced boni spread thinner
 		if bWideRange:						# spread balanced boni on a wider range around the starting plots
 			self.spRange += 2
-		if map.getWorldSize() > 2:		# standard+
-			if gc.getGame().countCivPlayersEverAlive() < 12:
+		if MAP.getWorldSize() > 2:		# standard+
+			if GAME.countCivPlayersEverAlive() < 12:
 				self.spRange += 1
-		if map.getWorldSize() > 3:		# large+
-			if gc.getGame().countCivPlayersEverAlive() < 15:
+		if MAP.getWorldSize() > 3:		# large+
+			if GAME.countCivPlayersEverAlive() < 15:
 				self.spRange += 1
-		if map.getWorldSize() > 4:		# huge+
-			if gc.getGame().countCivPlayersEverAlive() < 18:
+		if MAP.getWorldSize() > 4:		# huge+
+			if GAME.countCivPlayersEverAlive() < 18:
 				self.spRange += 1
-		if map.getWorldSize() > 5:		# giant+
-			if gc.getGame().countCivPlayersEverAlive() < 21:
+		if MAP.getWorldSize() > 5:		# giant+
+			if GAME.countCivPlayersEverAlive() < 21:
 				self.spRange += 1
 
 		# balanced resources depending on mod
 		if not self.bBalance:
 			self.resourcesToBalance = ('', )
 			self.resourcesToEliminate = ('', )
-		elif bPfall:
-			# no strategic resources for Planetfall
-			self.resourcesToBalance = ('', )
-			self.resourcesToEliminate = ('', )
-		elif bMars:
-			# very different strategic resources for Mars Now! {uranium, iron, phosphorus, titanium, gas}
-			self.resourcesToBalance = ( 'BONUS_URANIUM', 'BONUS_IRON', 'BONUS_STONE', 'BONUS_ELEPHANT', 'BONUS_WHEAT' )
-			self.resourcesToEliminate = ('', )
-			self.mineralsToMove       = ('', )
-		elif bFFH:
-			# one might also consider: BONUS_GUNPOWDER, BONUS_INCENSE, BONUS_GEMS
-			self.resourcesToBalance = ( 'BONUS_MITHRIL', 'BONUS_REAGENS', 'BONUS_HORSE', 'BONUS_MANA', 'BONUS_IRON', 'BONUS_COPPER' )
-			self.resourcesToEliminate = ('', )
-		elif bRoM:
-			self.resourcesToBalance = ( 'BONUS_BAUXITE', 'BONUS_OIL', 'BONUS_HORSE', 'BONUS_URANIUM', 'BONUS_IRON', 'BONUS_COPPER', )
+		else:
+			self.resourcesToBalance = ('BONUS_BAUXITE', 'BONUS_OIL', 'BONUS_HORSE', 'BONUS_URANIUM', 'BONUS_IRON', 'BONUS_COPPER',)
 
 		#-----------------------------------------------------
 		# show which of the boni in the mod might be strategic
 		def getPrereqBoni():
 			aBoni = []
 			aUnits = []
-			iMaxPrereqBonus = gc.getDefineINT("NUM_UNIT_PREREQ_OR_BONUSES")
-			for iUnit in range(gc.getNumUnitInfos()):
-				type_string = gc.getUnitInfo(iUnit).getType()
-				iBonus = gc.getUnitInfo(iUnit).getPrereqAndBonus()
+			iMaxPrereqBonus = GC.getDefineINT("NUM_UNIT_PREREQ_OR_BONUSES")
+			for iUnit in range(GC.getNumUnitInfos()):
+				type_string = GC.getUnitInfo(iUnit).getType()
+				iBonus = GC.getUnitInfo(iUnit).getPrereqAndBonus()
 				if iBonus>=0:  
 					#--- Dancing Hoskuld Oct 2014 -- Improvement -- for non map resources do not add bonus to list same for rest
-					if gc.getBonusInfo(iBonus).getConstAppearance () > 0:
+					if GC.getBonusInfo(iBonus).getConstAppearance () > 0:
 						if iBonus not in aBoni:
 							aBoni.append( iBonus )
 							aUnits.append( [] )
@@ -5089,62 +3835,62 @@ class BonusBalancer:
 							if iBonus==aBoni[b]:
 								aUnits[b].append( type_string )
 				for i in range(iMaxPrereqBonus): 
-					iBonus = gc.getUnitInfo(iUnit).getPrereqOrBonuses(i)
+					iBonus = GC.getUnitInfo(iUnit).getPrereqOrBonuses(i)
 					if iBonus>=0:
 						#--- Dancing Hoskuld Oct 2014 -- Improvement -- for non map resources do not add bonus to list same for rest
-						if gc.getBonusInfo(iBonus).getConstAppearance () > 0:
+						if GC.getBonusInfo(iBonus).getConstAppearance () > 0:
 							if iBonus not in aBoni:
 								aBoni.append( iBonus )
 								aUnits.append( [] )
 							for b in range( len(aBoni) ):
 								if iBonus==aBoni[b]:
 									aUnits[b].append( type_string )
-			for iBuild in range(gc.getNumBuildingInfos()):
-				type_string = gc.getBuildingInfo(iBuild).getType()
-				iBonus = gc.getBuildingInfo(iBuild).getPrereqAndBonus()
+			for iBuild in range(GC.getNumBuildingInfos()):
+				type_string = GC.getBuildingInfo(iBuild).getType()
+				iBonus = GC.getBuildingInfo(iBuild).getPrereqAndBonus()
 				if iBonus>=0:
 					#--- Dancing Hoskuld Oct 2014 -- Improvement -- for non map resources do not add bonus to list same for rest
-					if gc.getBonusInfo(iBonus).getConstAppearance () > 0:
+					if GC.getBonusInfo(iBonus).getConstAppearance () > 0:
 						if iBonus not in aBoni:
 							aBoni.append( iBonus )
 							aUnits.append( [] )
 						for b in range( len(aBoni) ):
 							if iBonus==aBoni[b]:
 								aUnits[b].append( type_string )
-			# problem with WARLORDS/VANILLA - no gc.getRouteInfo(iRoute).getPrereqBonus()
-			if bBTS:
-				iMaxPrereqBonus = gc.getDefineINT("NUM_ROUTE_PREREQ_OR_BONUSES")
-				for iRoute in range(gc.getNumRouteInfos()):
-					type_string = gc.getRouteInfo(iRoute).getType()
-					for i in range(iMaxPrereqBonus): 
-						iBonus = gc.getRouteInfo(iRoute).getPrereqOrBonus(i)
-						if iBonus>=0 and iBonus<gc.getNumBonusInfos():
-							#--- Dancing Hoskuld Oct 2014 -- Improvement -- for non map resources do not add bonus to list same for rest
-							if gc.getBonusInfo(iBonus).getConstAppearance () > 0:
-									if iBonus not in aBoni:
-										aBoni.append( iBonus )
-										aUnits.append( [] )
-									for b in range( len(aBoni) ):
-										if iBonus==aBoni[b]:
-											aUnits[b].append( type_string )
-				for iRoute in range(gc.getNumRouteInfos()):
-					type_string = gc.getRouteInfo(iRoute).getType()
-					iBonus = gc.getRouteInfo(iRoute).getPrereqBonus()
-					if iBonus>=0:
+			# problem with WARLORDS/VANILLA - no GC.getRouteInfo(iRoute).getPrereqBonus()
+
+			iMaxPrereqBonus = GC.getDefineINT("NUM_ROUTE_PREREQ_OR_BONUSES")
+			for iRoute in range(GC.getNumRouteInfos()):
+				type_string = GC.getRouteInfo(iRoute).getType()
+				for i in range(iMaxPrereqBonus): 
+					iBonus = GC.getRouteInfo(iRoute).getPrereqOrBonus(i)
+					if iBonus>=0 and iBonus<GC.getNumBonusInfos():
 						#--- Dancing Hoskuld Oct 2014 -- Improvement -- for non map resources do not add bonus to list same for rest
-						if gc.getBonusInfo(iBonus).getConstAppearance () > 0:
-							if iBonus not in aBoni:
-								aBoni.append( iBonus )
-								aUnits.append( [] )
-							for b in range( len(aBoni) ):
-								if iBonus==aBoni[b]:
-									aUnits[b].append( type_string )
+						if GC.getBonusInfo(iBonus).getConstAppearance () > 0:
+								if iBonus not in aBoni:
+									aBoni.append( iBonus )
+									aUnits.append( [] )
+								for b in range( len(aBoni) ):
+									if iBonus==aBoni[b]:
+										aUnits[b].append( type_string )
+			for iRoute in range(GC.getNumRouteInfos()):
+				type_string = GC.getRouteInfo(iRoute).getType()
+				iBonus = GC.getRouteInfo(iRoute).getPrereqBonus()
+				if iBonus>=0:
+					#--- Dancing Hoskuld Oct 2014 -- Improvement -- for non map resources do not add bonus to list same for rest
+					if GC.getBonusInfo(iBonus).getConstAppearance () > 0:
+						if iBonus not in aBoni:
+							aBoni.append( iBonus )
+							aUnits.append( [] )
+						for b in range( len(aBoni) ):
+							if iBonus==aBoni[b]:
+								aUnits[b].append( type_string )
 
 			sprint  = "[MST] Potentially Strategic Boni\n"
 			sprint += "[MST] --------------------------\n"
 			print sprint
 			for b in range(len(aBoni)):
-				bonus_string = gc.getBonusInfo(aBoni[b]).getType()
+				bonus_string = GC.getBonusInfo(aBoni[b]).getType()
 				bonusName = "Bonus: %s(%i) :" % ( bonus_string, len(aUnits[b]) )
 				printList( aUnits[b], bonusName, 5, prefix="[MST] " )
 			return
@@ -5194,7 +3940,7 @@ class BonusBalancer:
 
 		# make lists of relevant areas
 		minContinentPlots = 12
-		map.recalculateAreas()
+		MAP.recalculateAreas()
 		self.areas = CvMapGeneratorUtil.getAreas()
 		self.continentArea = []
 		self.startArea = []
@@ -5218,7 +3964,7 @@ class BonusBalancer:
 	def isSkipBonus(self, iBonusType):
 #		print "[MST] ===== BonusBalancer:isSkipBonus()"
 		if not self.bBalance: return False
-		type_string = gc.getBonusInfo(iBonusType).getType()
+		type_string = GC.getBonusInfo(iBonusType).getType()
 		return (type_string in self.resourcesToEliminate)
 
 	# return True, if bonus can be placed on plot
@@ -5227,9 +3973,9 @@ class BonusBalancer:
 #		print "[MST] ===== BonusBalancer:isBonusValid()"
 		iX, iY = pPlot.getX(), pPlot.getY()
 
-		if (not bIgnoreOneArea) and gc.getBonusInfo(eBonus).isOneArea():
-			if map.getNumBonuses(eBonus) > 0:
-				if map.getArea(pPlot.getArea()).getNumBonuses(eBonus) == 0:
+		if (not bIgnoreOneArea) and GC.getBonusInfo(eBonus).isOneArea():
+			if MAP.getNumBonuses(eBonus) > 0:
+				if MAP.getArea(pPlot.getArea()).getNumBonuses(eBonus) == 0:
 					return False
 		if not bIgnoreAdjacent:
 			for iI in range(DirectionTypes.NUM_DIRECTION_TYPES):
@@ -5238,7 +3984,7 @@ class BonusBalancer:
 					if (pLoopPlot.getBonusType(-1) != -1) and (pLoopPlot.getBonusType(-1) != eBonus):
 						return False
 		if not bIgnoreUniqueRange:
-			uniqueRange = gc.getBonusInfo(eBonus).getUniqueRange()
+			uniqueRange = GC.getBonusInfo(eBonus).getUniqueRange()
 			for iDX in range(-uniqueRange, uniqueRange+1):
 				for iDY in range(-uniqueRange, uniqueRange+1):
 					pLoopPlot = plotXY(iX, iY, iDX, iDY)
@@ -5258,12 +4004,12 @@ class BonusBalancer:
 			lMinerals = lMineralsToMove
 		cntMove = 0
 		cntHill = 0
-		for inx in range( map.numPlots() ):
-			plot = map.plotByIndex( inx )
+		for inx in range( MAP.numPlots() ):
+			plot = MAP.plotByIndex( inx )
 			if not plot.isFlatlands(): continue
 			iBonus = plot.getBonusType( -1 )
 			if iBonus < 0: continue
-			type_string = gc.getBonusInfo(iBonus).getType()
+			type_string = GC.getBonusInfo(iBonus).getType()
 			if type_string in lMinerals:
 				# find nearby hill
 				lHills = []
@@ -5302,11 +4048,11 @@ class BonusBalancer:
 		print "[MST] ======== BonusBalancer:eliminateBadBoni()"
 		if self.resourcesToEliminate[0] == '': return
 		iCnt = 0
-		for i in range( map.numPlots() ):
-			pl = map.plotByIndex(i)
+		for i in range( MAP.numPlots() ):
+			pl = MAP.plotByIndex(i)
 			iBonus = pl.getBonusType(-1)
 			if iBonus>=0:
-				type_string = gc.getBonusInfo(iBonus).getType()
+				type_string = GC.getBonusInfo(iBonus).getType()
 				if type_string in self.resourcesToEliminate:
 					self.placeBonus( pl, -1 )
 					iCnt += 1
@@ -5319,22 +4065,20 @@ class BonusBalancer:
 		print "[MST] ======== BonusBalancer:reduceBalancedBoni()"
 		iCnt = 0
 		iChoice = 0
-		for i in range( map.numPlots() ):
-			pl = map.plotByIndex(i)
+		for i in range( MAP.numPlots() ):
+			pl = MAP.plotByIndex(i)
 			iBonus = pl.getBonusType(-1)
 			if iBonus>=0:
-				type_string = gc.getBonusInfo(iBonus).getType()
+				type_string = GC.getBonusInfo(iBonus).getType()
 				if type_string in self.resourcesToBalance:
-					if bMars:
-						iChoice = int( self.iEliminate / 3 )
-					elif pl.getArea() in self.startArea:
-						iChoice = int( self.iEliminate )
+					if pl.getArea() in self.startArea:
+						iChoice = int(self.iEliminate)
 					elif pl.getArea() in self.continentArea:
-						iChoice = int( self.iEliminate / 4 )
+						iChoice = int(self.iEliminate / 4)
 					else:
 						continue
 					if choose(iChoice,True,False):
-						self.placeBonus( pl, -1 )
+						self.placeBonus(pl, -1)
 						iCnt += 1
 		print "[MST] Eliminated %2i wild boni of those to be balanced (%i%s chance)\n" % ( iCnt, self.iEliminate, "%%" )
 
@@ -5348,7 +4092,7 @@ class BonusBalancer:
 			print "[MST] No missing boni found \n"
 		else:
 			sprint = "[MST] Missing boni found: Not all resources have been randomly placed: \n"
-			for i in lMissing: sprint += "[MST] %s wasn't placed randomly \n" % (gc.getBonusInfo(i[0]).getType())
+			for i in lMissing: sprint += "[MST] %s wasn't placed randomly \n" % (GC.getBonusInfo(i[0]).getType())
 			print sprint
 			# reduce numerous boni, since some other boni are missing
 			lFree = self.reduceNumerousBoni( lFound, lFree )
@@ -5357,7 +4101,7 @@ class BonusBalancer:
 			# print warning, if there are still missing boni
 			if len(lMissing)>0:
 				sprint = "[MST] WARNING! - not all missing boni could be placed \n"
-				for i in lMissing: sprint += "[MST] %s is still missing \n" % (gc.getBonusInfo(i[0]).getType())
+				for i in lMissing: sprint += "[MST] %s is still missing \n" % (GC.getBonusInfo(i[0]).getType())
 				print sprint
 			else:
 				print "[MST] All missing boni have been placed"
@@ -5366,15 +4110,15 @@ class BonusBalancer:
 	def checkAllBoniPlaced( self ):
 #		print "[MST] ======== BonusBalancer:checkAllBoniPlaced()"
 
-		iPlayer = game.countCivPlayersAlive()
+		iPlayer = CyGame().countCivPlayersAlive()
 		boniMissing = []
 		boniFound = []
 		freePlots = []
-		for i in range( gc.getNumBonusInfos() ): boniFound.append( [] )
+		for i in range( GC.getNumBonusInfos() ): boniFound.append( [] )
 
 		# make lists for placed boni and free plots
-		for i in range( map.numPlots() ):
-			plot = map.plotByIndex(i)
+		for i in range( MAP.numPlots() ):
+			plot = MAP.plotByIndex(i)
 #			if plot.isWater(): continue				# ignore water boni
 			iBonus = plot.getBonusType(-1)
 			if iBonus<0:
@@ -5385,33 +4129,33 @@ class BonusBalancer:
 				boniFound[iBonus].append( i )
 
 		# make list for missing boni
-		for iBonus in range( gc.getNumBonusInfos() ):
+		for iBonus in range( GC.getNumBonusInfos() ):
 			# find missing boni
 			if boniFound[iBonus] == []:
 				# should bonus placed on the map, if so try to place half
 				iDesiredBoni = self.calcNumBoniToAdd( iBonus )
 				if iDesiredBoni > 1:
-					bonusName = capWords( gc.getBonusInfo(iBonus).getType()[6:] )
+					bonusName = capWords( GC.getBonusInfo(iBonus).getType()[6:] )
 					boniMissing.append( [iBonus, min(int((iDesiredBoni+1)/2),int(iPlayer/2)), bonusName] )
 			# recheck single boni, if desired are >2 then place half
 			elif len( boniFound[iBonus] )	== 1:
-				pl = map.plotByIndex( boniFound[iBonus][0] )
+				pl = MAP.plotByIndex( boniFound[iBonus][0] )
 				if not pl.isWater():
 					iDesiredBoni = self.calcNumBoniToAdd( iBonus )
 					if iDesiredBoni > 2:
-						bonusName = capWords( gc.getBonusInfo(iBonus).getType()[6:] )
+						bonusName = capWords( GC.getBonusInfo(iBonus).getType()[6:] )
 						boniMissing.append( [iBonus, min(int(iDesiredBoni/2),int(iPlayer/2)), bonusName] )
 		return ( boniMissing, boniFound, freePlots )
 
 	# delete some of the most placed boni on land, ignore balanced boni
 	def reduceNumerousBoni(self, boniFound, freePlots):
 		print "[MST] ======== BonusBalancer:reduceNumerousBoni()"
-		iPlayer = game.countCivPlayersAlive()
+		iPlayer = CyGame().countCivPlayersAlive()
 		cnt = 0
 		for i in range( len(boniFound) ):
 			actBonusPlots = boniFound[i]
 			if len(actBonusPlots)==0: continue
-			if	map.plotByIndex(actBonusPlots[0]).isWater(): continue
+			if	MAP.plotByIndex(actBonusPlots[0]).isWater(): continue
 			if not (i in self.resourcesToBalance):
 				passes = 0
 				if len(actBonusPlots) > int(1.60*iPlayer): passes = 1
@@ -5425,12 +4169,12 @@ class BonusBalancer:
 				while passes>0:
 					passes -= 1
 					inx = chooseListPop( actBonusPlots )
-					plot = map.plotByIndex( inx )
+					plot = MAP.plotByIndex( inx )
 					self.placeBonus( plot, -1 )
 					freePlots.append( inx )
 					cn += 1
 					cnt += 1
-				# print " killed %i of %s" % ( cn, capWords( gc.getBonusInfo(i).getType()[6:] ) )
+				# print " killed %i of %s" % ( cn, capWords( GC.getBonusInfo(i).getType()[6:] ) )
 		if cnt > 0:
 			print "[MST] Eliminated %2i of the most plentiful boni" % (cnt)
 			randomList.shuffle( freePlots )
@@ -5441,7 +4185,7 @@ class BonusBalancer:
 		print "[MST] ======== BonusBalancer:placeMissingBoni()"
 		if len(boniMissing)==0: return boniMissing
 
-		iPlayer = game.countCivPlayersAlive()
+		iPlayer = CyGame().countCivPlayersAlive()
 		randomList.shuffle( boniMissing )
 
 		# try and place missing boni
@@ -5457,7 +4201,6 @@ class BonusBalancer:
 		# 8 passes
 		for pass_num in range(8):
 			if len(boniMissing)==0: break
-			if bPfall and pass_num>3: break
 			bIgnoreLatitude			= True
 			bIgnoreUniqueRange		= (pass_num >= 1) and (pass_num <> 4)
 			bIgnoreOneArea				= (pass_num >= 2) and (pass_num <> 4) and (pass_num <> 5)
@@ -5471,47 +4214,41 @@ class BonusBalancer:
 					misBonus = boniMissing[i]
 					iBonus  = misBonus[0]
 					iDesire = misBonus[1]
-#					sprint += "[MST] Pass %i, %s need %i more \n" % (pass_num,gc.getBonusInfo(iBonus).getType(),iDesire)
+#					sprint += "[MST] Pass %i, %s need %i more \n" % (pass_num,GC.getBonusInfo(iBonus).getType(),iDesire)
 					if iDesire>0:
 						for j in range( len(freePlots) ):
 							inx = freePlots[j]
 							bJTrans = False
 							bDTrans = False
 							bTTrans = False
-							fp = map.plotByIndex( inx )
+							fp = MAP.plotByIndex( inx )
 							if bCreateTerrainFeature:
 								bIgnoreLatitude = False
-								if gc.getBonusInfo(iBonus).isFeature(efJungle) or gc.getBonusInfo(iBonus).isFeatureTerrain(efJungle):
+								if GC.getBonusInfo(iBonus).isFeature(efJungle) or GC.getBonusInfo(iBonus).isFeatureTerrain(efJungle):
 									if fp.getFeatureType()==efForest and evalLatitude(fp)<30:
 										iVar = self.transformForest2Jungle(fp)
 										bJTrans = True
-								elif gc.getBonusInfo(iBonus).isTerrain(etDesert) or gc.getBonusInfo(iBonus).isFeatureTerrain(etDesert):
+								elif GC.getBonusInfo(iBonus).isTerrain(etDesert) or GC.getBonusInfo(iBonus).isFeatureTerrain(etDesert):
 									if fp.getTerrainType()==etPlains and evalLatitude(fp)<45:
 										fp.setTerrainType( etDesert, True, True )
 										bDTrans = True
-								elif gc.getBonusInfo(iBonus).isTerrain(etTundra) or gc.getBonusInfo(iBonus).isFeatureTerrain(etTundra):
+								elif GC.getBonusInfo(iBonus).isTerrain(etTundra) or GC.getBonusInfo(iBonus).isFeatureTerrain(etTundra):
 									if (fp.getTerrainType()==etGrass or fp.getTerrainType()==etMarsh) and (evalLatitude(fp)>60):
 										fp.setTerrainType( etTundra, True, True )
 										bTTrans = True
 							if fp.canHaveBonus(iBonus, bIgnoreLatitude):
-#								sprint += "[MST] plot canHaveBonus inx %i \n" % (inx)
 								if self.isBonusValid(iBonus, fp, bIgnoreUniqueRange, bIgnoreOneArea, bIgnoreAdjacent):
-#									sprint += "[MST] plot isBonusValid inx %i \n" % (inx)
 									self.placeBonus( fp, iBonus)
 									misBonus[1] -= 1
 									bMissing[i] = False
 									cnt += 1
 									del freePlots[j]
-#									sprint += "[MST] Pass %i, %s placed - %i to go \n" % ( pass_num, gc.getBonusInfo(iBonus).getType(),misBonus[1] )
 									if bJTrans:
-#										sprint += "[MST] Jungle created @ %i,%i \n" % (fp.getX(),fp.getY())
-										self.transformJungleNeighbor( fp )
+										self.transformJungleNeighbor(fp)
 									elif bDTrans:
-#										sprint += "[MST] Desert created @ %i,%i \n" % (fp.getX(),fp.getY())
-										self.transformTerrainNeighbor( fp, etDesert, etPlains, 'Desert' )
+										self.transformTerrainNeighbor(fp, etDesert, etPlains, 'Desert')
 									elif bTTrans:
-#										sprint += "[MST] Tundra created @ %i,%i \n" % (fp.getX(),fp.getY())
-										self.transformTerrainNeighbor( fp, etTundra, iif(bMarsh,(etGrass,etMarsh),(etGrass,)), 'Tundra' )
+										self.transformTerrainNeighbor(fp, etTundra, etGrass, 'Tundra')
 									break
 							if bJTrans:
 								fp.setFeatureType(efForest,iVar)
@@ -5529,7 +4266,7 @@ class BonusBalancer:
 						iDesire = misBonus[1]
 						if iDesire == 0:
 							del boniMissing[r]
-							sprint += "[MST] all %s placed \n" % ( gc.getBonusInfo(iBonus).getType() )
+							sprint += "[MST] all %s placed \n" % ( GC.getBonusInfo(iBonus).getType() )
 						else:
 							r += 1
 					sprint += "[MST] %2i boni still missing: %r \n" % ( len(boniMissing),boniMissing )
@@ -5552,11 +4289,11 @@ class BonusBalancer:
 	def placeBonus(self, plot, iBonus):
 #		print "[MST] ======== BonusBalancer:placeBonus()"
 		eFeature = plot.getFeatureType()
-		bonusInfo = gc.getBonusInfo( iBonus )
+		bonusInfo = GC.getBonusInfo( iBonus )
 		# temp save feature and variety
 		featureVariety = -1
 		if eFeature>=0:
-			if gc.getFeatureInfo(eFeature).getNumVarieties()>1:
+			if GC.getFeatureInfo(eFeature).getNumVarieties()>1:
 				featureVariety = plot.getFeatureVariety()
 				plot.setFeatureType( FeatureTypes.NO_FEATURE, -1 )
 		#place bonus
@@ -5569,7 +4306,6 @@ class BonusBalancer:
 
 	# change Forest to Jungle; return variety
 	def transformForest2Jungle( self, plot ):
-#		print "[MST] ======== BonusBalancer:transformForest2Jungle()"
 		eFeature = plot.getFeatureType()
 		iVariety = plot.getFeatureVariety()
 		if eFeature==efForest:
@@ -5578,7 +4314,6 @@ class BonusBalancer:
 
 	# add one more jungle plot to keep from getting lonely and strange
 	def transformJungleNeighbor( self, plot ):
-#		print "[MST] ======== BonusBalancer:transformJungleNeighbor()"
 		x = plot.getX()
 		y = plot.getY()
 		sprint = ""
@@ -5600,7 +4335,6 @@ class BonusBalancer:
 
 	# add one more plot of same terrain to keep from getting lonely and strange
 	def transformTerrainNeighbor( self, plot, eFrom, eTo, sTxt ):
-#		print "[MST] ======== BonusBalancer:transformJungleNeighbor()"
 		x = plot.getX()
 		y = plot.getY()
 		sprint = ""
@@ -5620,38 +4354,15 @@ class BonusBalancer:
 			sprint += "[MST] More %s created @ %i,%i \n" % (	sTxt, pList[0].getX(), pList[0].getY() )
 		return sprint
 
-	'''
-	# NO NEED?
-	# make sure that every starting-plot has either grain or livestock resources nearby
-	def balanceFarmingBoni( self ):
-		print "[MST] ======== BonusBalancer:balanceFarmingBoni()"
-		if bPfall: return
-
-		iPlayer = game.countCivPlayersAlive()
-		farmBoni = []
-		areaFarmBoni = {}
-
-		# determine grain and livestock boni
-		for iBonus in range(gc.getNumBonusInfos()):
-			iClass = gc.getBonusInfo(iBonus).getBonusClassType()
-#			class_string = capWords( gc.getBonusClassInfo(iClass).getType() )
-#			if (class_string=='BONUSCLASS_GRAIN') or (class_string=='BONUSCLASS_LIVESTOCK'):
-			if iClass==1 or iClass==2:		# 1:Grain, 2:Livestock - there seems to be no getType() for BonusClassInfo
-				type_string = capWords( gc.getBonusInfo(iBonus).getType()[6:] )
-				farmBoni.append( (iBonus, type_string) )
-		print "[MST] known Grain & Livestock: %r" % ( farmBoni, )
-		...
-	'''
-
 	# make sure each player has at least one each of the resourcesToBalance in the vicinity
 	def balanceStrategicBoni( self ):
 		print "[MST] ======== BonusBalancer:balanceStrategicBoni()"
 		# put boni in resourcesToBalance around starting-plots
 		allBoniCnt = 0
-		for i in range(gc.getMAX_PC_PLAYERS()):
-			if (gc.getPlayer(i).isAlive()):
+		for i in range(GC.getMAX_PC_PLAYERS()):
+			if (GC.getPlayer(i).isAlive()):
 				sprint = "[MST] PLAYER %i \n" % (i)
-				start_plot = gc.getPlayer(i).getStartingPlot()
+				start_plot = GC.getPlayer(i).getStartingPlot()
 				plBoniCnt = self.balanceBoniAtPlot( start_plot, i, sprint )
 				allBoniCnt += plBoniCnt
 		sprint  = "[MST] Boni placed for all players: %r\n\n" % (allBoniCnt)
@@ -5682,8 +4393,8 @@ class BonusBalancer:
 				bIgnoreUniqueRange	= pass_num >= 1
 				bIgnoreOneArea			= pass_num >= 2
 				bIgnoreAdjacent		= pass_num >= 3
-				for iBonus in range(gc.getNumBonusInfos()):
-					type_string = gc.getBonusInfo(iBonus).getType()
+				for iBonus in range(GC.getNumBonusInfos()):
+					type_string = GC.getBonusInfo(iBonus).getType()
 					if (iBonus not in resources_placed) and (iBonus not in boniList):
 						if type_string in self.resourcesToBalance:
 							# ignore first bonus in list 50% of the time; don't allow further passes
@@ -5708,7 +4419,7 @@ class BonusBalancer:
 				sprint += "[MST] passes %i,%i: resources_placed %r \n" % (iPass,pass_num,resources_placed)
 		boniList = boniList + resources_placed
 		boniList.sort()
-		resList = [ gc.getBonusInfo(i).getType() for i in boniList ]
+		resList = [ GC.getBonusInfo(i).getType() for i in boniList ]
 		if player == -1:
 			txt = "Boni: %r" % (boniList)
 		else:
@@ -5719,7 +4430,6 @@ class BonusBalancer:
 
 	# make list of boni already in the same area near starting-plot
 	def getBoniInRange(self, x, y, areaID, ran):
-#		print "[MST] ======== BonusBalancer:getBoniInRange()"
 		cnt = 0
 		boniInRange = []
 		for dx in range(-ran,ran+1):
@@ -5733,12 +4443,10 @@ class BonusBalancer:
 							cnt += 1
 							if (iBonus not in boniInRange):
 								boniInRange.append( iBonus )
-#		print "[MST] %2i boni found" % (cnt)
 		return boniInRange
 
 	# build a shuffled list of the plots in the same area near the starting plot
 	def getFreePlots(self, x, y, areaID, ran ):
-#		print "[MST] ======== BonusBalancer:getFreePlots()"
 		plots = []
 		for dx in range(-ran,ran+1):
 			for dy in range(-ran,ran+1):
@@ -5759,8 +4467,7 @@ class BonusBalancer:
 	# calculate number of desired boni
 	# - like CvMapGenerator::calculateNumBonusesToAdd(BonusTypes eBonusType) in CvMapGenerator.cpp
 	def calcNumBoniToAdd(self, iBonus):
-#		print "[MST] ======== BonusBalancer:calcNumBoniToAdd()"
-		bonusInfo = gc.getBonusInfo( iBonus )
+		bonusInfo = GC.getBonusInfo( iBonus )
 		if bonusInfo.getPlacementOrder()<0:	return 0
 		if bonusInfo.getType() in self.resourcesToEliminate: return 0
 
@@ -5775,11 +4482,11 @@ class BonusBalancer:
 		iNumPossible = 0
 		if bonusInfo.getTilesPer() > 0:
 			for i in range( iNumPlotsX*iNumPlotsY ):
-				plot = map.plotByIndex(i)
+				plot = MAP.plotByIndex(i)
 				if plot.canHaveBonus( iBonus, bIgnoreLatitude ):
 					iNumPossible += 1
 			iLandTiles += iNumPossible / bonusInfo.getTilesPer()
-		iPlayers = int( game.countCivPlayersAlive() * bonusInfo.getPercentPerPlayer() / 100 )
+		iPlayers = int(CyGame().countCivPlayersAlive() * bonusInfo.getPercentPerPlayer() / 100)
 		iBonusCount = int( iBaseCount * (iLandTiles + iPlayers) / 100 )
 		return max( 1, iBonusCount )
 
@@ -5824,7 +4531,6 @@ class RiverMaker:
 	#   a normal looking web of rivers, upFlow rivers should be build first. Since the default addRivers()
 	#   produces only downFlow rivers, upFlow rivers should be made before or at the start of addRivers().
 	def buildRiver( self, pStartPlot, bDownFlow=True, ecNext=None, ecOri=None, iThisRiverID=None, riverList=None ):
-#		print "[MST] ===== RiverMaker:buildRiver()"
 
 		self.bRiverStart = False
 		# check params
@@ -5848,15 +4554,11 @@ class RiverMaker:
 				riverList.append( iThisRiverID )
 				riverList.append( bDownFlow )
 
-#		print "[MST] Start River @ %i,%i - nextFlow: %5s, oriFlow: %5s -%s riverID: %i" % \
-#				( pStartPlot.getX(), pStartPlot.getY(), cardinalName(ecNext), cardinalName(ecOri), iif(bDownFlow,""," Reversed Flow,"), iThisRiverID )
-
 		# does another river already exist - we can't branch off of an existing river!
 		# - actually we can, if the river starts and we go upFlow
 		iOtherRiverID = pStartPlot.getRiverID()
 		if (iOtherRiverID != -1) and (iOtherRiverID != iThisRiverID):
-			if bDownFlow or (not self.bRiverStart):
-#				print "[MST] =="> Other river already here!"
+			if bDownFlow or not self.bRiverStart:
 				return
 
 		bNoDir = False
@@ -5880,7 +4582,6 @@ class RiverMaker:
 				riverList.append( [pRiverPlot, ecFlow] )
 			else:
 				riverList.insert( 2, [pRiverPlot, ecFlow] )
-#			print "[MST] set riverplot @ %i.%i - WestOfRiver  toward %s" % ( pRiverPlot.getX(), pRiverPlot.getY(), cardinalName(ecFlow) )
 			pRiverPlot = plotCardinalDirection( pRiverPlot.getX(), pRiverPlot.getY(), ecNorth )
 		elif ecNext == ecEast:
 			if not (ecNext in rivDirs): return
@@ -5894,7 +4595,6 @@ class RiverMaker:
 				riverList.append( [pRiverPlot, ecFlow] )
 			else:
 				riverList.insert( 2, [pRiverPlot, ecFlow] )
-#			print "[MST] set riverplot @ %i.%i - NorthOfRiver toward %s" % ( pRiverPlot.getX(), pRiverPlot.getY(), cardinalName(ecFlow) )
 		elif ecNext == ecSouth:
 			if not (ecNext in rivDirs): return
 			pRiverPlot = plotCardinalDirection( pStartPlot.getX(), pStartPlot.getY(), ecSouth )
@@ -5907,7 +4607,6 @@ class RiverMaker:
 				riverList.append( [pRiverPlot, ecFlow] )
 			else:
 				riverList.insert( 2, [pRiverPlot, ecFlow] )
-#			print "[MST] set riverplot @ %i.%i - WestOfRiver  toward %s" % ( pRiverPlot.getX(), pRiverPlot.getY(), cardinalName(ecFlow) )
 		elif ecNext == ecWest:
 			if not (ecNext in rivDirs): return
 			pRiverPlot = pStartPlot
@@ -5920,15 +4619,12 @@ class RiverMaker:
 				riverList.append( [pRiverPlot, ecFlow] )
 			else:
 				riverList.insert( 2, [pRiverPlot, ecFlow] )
-#			print "[MST] set riverplot @ %i.%i - NorthOfRiver toward %s" % ( pRiverPlot.getX(), pRiverPlot.getY(), cardinalName(ecFlow) )
 			pRiverPlot = plotCardinalDirection( pRiverPlot.getX(), pRiverPlot.getY(), ecWest )
 		else:
-#			print "[MST] =="> Trying to find river direction; none given"
 			bNoDir = True															# hack to enable water-start
 			pRiverPlot = pStartPlot
 			ecBest = self.getBestFlowDir( pRiverPlot, bDownFlow )		# longRiver
 			if ecBest == None:
-#				print "[MST] =="> No starting direction found!"
 				return
 		# already done?
 		if pRiverPlot.isNone():
@@ -5972,10 +4668,6 @@ class RiverMaker:
 	# - if they have at least one inland plot
 	def islandRivers( self, minIsle=6, maxIsle=50, areaID=None ):
 		print "[MST] ===== RiverMaker:islandRivers()"
-
-		# no island-rivers on Mars
-		if bMars: return
-
 		sprint = ""
 		chNoHills = 66
 		areas = CvMapGeneratorUtil.getAreas()
@@ -6001,8 +4693,8 @@ class RiverMaker:
 			sprint += "[MST] IslandArea %i(%i) without rivers found \n" % (id,aTotalPlots)
 			cntPl = 0
 			cntSE = 0
-			for inx in range( map.numPlots() ):
-				plot = map.plotByIndex( inx )
+			for inx in range( MAP.numPlots() ):
+				plot = MAP.plotByIndex( inx )
 				if id != plot.getArea(): continue											# wrong island
 				cntPl += 1
 				x,y = plot.getX(), plot.getY()
@@ -6047,14 +4739,11 @@ class RiverMaker:
 
 	# build rivers from lake up
 	def buildRiversFromLake( self, lakeAreaID=None, chRiver=66, nRivers=1, minLake=1 ):
-#		print "[MST] ===== RiverMaker:buildRiversFromLake()"
 
 		if lakeAreaID == None:
 			print "[MST] ===== RiverMaker:buildRiversFromLake()"
-			# no lake-rivers on Mars
-			if bMars: return
 			# build rivers from all lakes
-			map.recalculateAreas()
+			MAP.recalculateAreas()
 			areas = CvMapGeneratorUtil.getAreas()
 			for area in areas:
 				if area.isLake():
@@ -6063,7 +4752,7 @@ class RiverMaker:
 			return
 		else:
 			# build rivers from single lake
-			area = map.getArea( lakeAreaID )
+			area = MAP.getArea( lakeAreaID )
 			if not area.isLake(): return													# not lake
 			# don't be to sure
 			if area.getNumTiles() < (minLake + chooseNumber( 3 ) - 1): return	# too small
@@ -6093,7 +4782,7 @@ class RiverMaker:
 			# check each plot for possible river directions
 			cdirList = []
 			for x,y in lPlots:
-				pl = map.plot(x,y)
+				pl = MAP.plot(x,y)
 				if not pl.isWater():
 					print "[MST] Bad Lake-Plot found!"
 					continue
@@ -6144,7 +4833,6 @@ class RiverMaker:
 
 	# print riverList plots and flows
 	def outRiverList( self, riverList, prefix="" ):
-#		print "[MST] ===== RiverMaker:outRiverList()"
 		sList = ""
 		if len(riverList)<3:
 			return prefix + " No River \n"
@@ -6158,7 +4846,6 @@ class RiverMaker:
 
 	# check if direction leads off the map
 	def isEdgeDirection( self, plot, ecDir ):
-#		print "[MST] ===== RiverMaker:isEdgeDirection()"
 		x, y = plot.getX(), plot.getY()
 		pl = plotCardinalDirection( x, y, CardinalDirectionTypes( ecDir ) )
 		if pl.isNone(): return True
@@ -6170,7 +4857,6 @@ class RiverMaker:
 
 	# check if plot has rivers at on of its corners
 	def hasRiverAtPlot( self, plot ):
-#		print "[MST] ===== RiverMaker:hasRiverAtPlot()"
 		if self.hasRiverAtSECorner( plot ): return True
 		x, y = plot.getX(), plot.getY()
 		pWPlot = plotDirection( x, y, DirectionTypes.DIRECTION_WEST )
@@ -6187,7 +4873,6 @@ class RiverMaker:
 	# check for river at SE-corner
 	# like isRiverMask() in cvPlot.cpp
 	def hasRiverAtSECorner( self, plot ):
-#		print "[MST] ===== RiverMaker:hasRiverAtSECorner()"
 		if plot.isNOfRiver(): return True
 		if plot.isWOfRiver(): return True
 		pEastPlot = plotDirection( plot.getX(), plot.getY(), DirectionTypes.DIRECTION_EAST )
@@ -6200,13 +4885,11 @@ class RiverMaker:
 
 	# check for water at SE-corner
 	# like hasCoastAtSECorner() in cvPlot.cpp
-	def hasCoastAtSECorner( self, plot ):
-#		print "[MST] ===== RiverMaker:hasCoastAtSECorner()"
-		return self.hasPlotTypeAtSECorner( plot, PlotTypes.PLOT_OCEAN )
+	def hasCoastAtSECorner(self, plot):
+		return self.hasPlotTypeAtSECorner(plot, PlotTypes.PLOT_OCEAN)
 
 	# check for plot-type at SE-corner
-	def hasPlotTypeAtSECorner( self, plot, plotType ):
-#		print "[MST] ===== RiverMaker:hasPlotTypeAtSECorner()"
+	def hasPlotTypeAtSECorner(self, plot, plotType):
 		if plot.getPlotType() == plotType: return True
 		pAdjacentPlot = plotDirection( plot.getX(), plot.getY(), DirectionTypes.DIRECTION_EAST )
 		if not pAdjacentPlot.isNone():
@@ -6221,7 +4904,6 @@ class RiverMaker:
 
 	# get best flow-direction from SE_of_Plot
 	def getBestFlowDir( self, plot, bDownFlow=True, bShort=False, eForbiddenList=[] ):
-#		print "[MST] ===== RiverMaker:getBestFlowDir()"
 		chRandom = 90		# chance to use the 'best' route
 		chEdge =	80			# chance to hit edge deliberately
 		iMin = 0
@@ -6263,7 +4945,6 @@ class RiverMaker:
 
 	# calc SE_of_Plot-height for river
 	def getSEPlotHeight( self, plot ):
-#		print "[MST] ======== RiverMaker:getSEPlotHeight()"
 		fVal = self.getPlotHeight( plot )
 		fDiv = 1.0
 		x,y = plot.getX(), plot.getY()
@@ -6283,7 +4964,6 @@ class RiverMaker:
 
 	# calc plot-height for river
 	def getPlotHeight( self, plot ):
-#		print "[MST] ======== RiverMaker:getPlotHeight()"
 		x,y = plot.getX(), plot.getY()
 		fHeight = 4.0 * self.getPlotBaseHeight( plot )						# center has quintuple weight
 		i = 4
@@ -6302,7 +4982,6 @@ class RiverMaker:
 
 	# define base-height of plots
 	def getPlotBaseHeight( self, plot ):
-#		print "[MST] ======== RiverMaker:getPlotBaseHeight()"
 		if plot.isWater():		return 0.0
 		if plot.isFlatlands():	return 0.2
 		if plot.isHills():		return 0.5
@@ -6312,7 +4991,6 @@ class RiverMaker:
 	# tests if directions from SE-corner of plot are possible
 	# returns list of possible directions
 	def checkRiverEnd( self, plot, bDownFlow=True ):
-#		print "[MST] ======== RiverMaker:checkRiverEnd()"
 		riverDirs = []
 		x = plot.getX()
 		y = plot.getY()
@@ -6360,8 +5038,7 @@ class RiverMaker:
 	# find riverPlots on rim-peaks at a distance from x,y
 	# if downflow - peaks have twice tha chance to be a source than hills
 	# if upflow - lakes or ocean will be searched for
-	def rimRivers( self, x, y, distList, bDownFlow=True ):
-#		print "[MST] ======== RiverMaker:rimRivers()"
+	def rimRivers(self, x, y, distList, bDownFlow=True):
 		rivStart = []							# river-starts: [ bogDir, riverPlot, eCard ]
 		rPlots = []								# potential river-plots
 		# get plots at distances
@@ -6573,8 +5250,8 @@ class TeamStart:
 
 		# set new starting-plots
 		for playerNum in self.playersDict.keys():
-			player = gc.getPlayer( playerNum )
-			sPlot = map.plotByIndex( self.playersDict[ playerNum ][1] )
+			player = GC.getPlayer( playerNum )
+			sPlot = MAP.plotByIndex( self.playersDict[ playerNum ][1] )
 			player.setStartingPlot( sPlot, False )
 #		self.getPlotDistances()										# debug
 #		printDict( self.playersDict, " playersDict:", prefix="[MST] " )		# debug
@@ -6589,7 +5266,7 @@ class TeamStart:
 		self.playerList = mapStats.getCivPlayerList()
 		for player in self.playerList:
 			playerNum = player.getID()
-			teamNum = gc.getPlayer( playerNum ).getTeam()
+			teamNum = GC.getPlayer( playerNum ).getTeam()
 			if not teamNum in self.teamDict.keys():
 				self.teamDict[ teamNum ] = []
 			self.teamDict[ teamNum ].append( playerNum )
@@ -6598,7 +5275,7 @@ class TeamStart:
 			teamList = self.teamDict[ teamNum ]
 			humanity = 0
 			for playerNum in teamList:
-				player = gc.getPlayer( playerNum )
+				player = GC.getPlayer( playerNum )
 				if player.isHuman():
 					humanity += 1
 			if humanity == len( teamList ):				# all team-members human
@@ -6620,7 +5297,6 @@ class TeamStart:
 
 	# create dictionarys for distances and old starting-plots;	plotDistDict, startPlotDict
 	def getPlotDistances( self ):
-#		print "[MST] ======== TeamStart:getPlayerDistances()"
 		# housekeeping
 		self.startPlotDict = {}
 		self.plotDistDict = {}
@@ -6653,7 +5329,6 @@ class TeamStart:
 	# get ranked list of teams with most members
 	# 1) human team>1, 2) has human in team>1, 3) biggest team>1 4) single member teams
 	def getBigTeam( self ):
-#		print "[MST] ======== TeamStart:getBigTeam()"
 		# get team priorities
 		teamLength = []
 		for teamNum in self.teamDict:
@@ -6711,7 +5386,6 @@ class MapPrint:
 
 	# initialize dictionaries
 	def initialize( self ):
-#		print "[MST] ===== MapPrint:initialize()"
 		self.__diffMaps[ "PLOT" ]		= None
 		self.__diffMaps[ "TERRAIN" ]	= None
 		self.__diffMaps[ "FEATURE" ]	= None
@@ -6723,194 +5397,56 @@ class MapPrint:
 		# area dictionary
 		# ---------------
 		self.__areaDict = {
-								"Special"   : [ "$",     "Mapped Area"],
-								"Ocean"     : [ " .,:;", "Ocean" ],
-								"Water"     : [ "~",     "Other Water" ],
-								"Continent" : [ "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz", "Continents" ],
-								"Land"      : [ "@",     "Other Land" ]
-								}
+			"Special"   : [ "$",     "Mapped Area"],
+			"Ocean"     : [ " .,:;", "Ocean" ],
+			"Water"     : [ "~",     "Other Water" ],
+			"Continent" : [ "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz", "Continents" ],
+			"Land"      : [ "@",     "Other Land" ]
+		}
 
 		# --------------------
 		# terrain dictionaries
 		# --------------------
-		if bPfall:
-			self.__terrainDict =	{
-										etOcean      : [ ".", "Ocean"      ],
-										etCoast      : [ ":", "Coast"      ],
-										etShelf      : [ ",", "Shelf"      ],
-										etTrench     : [ "~", "Trench"     ],
-										etFlatRainy  : [ "r", "FlatRainy"  ],
-										etRockyRainy : [ "R", "RockyRainy" ],
-										etFlatMoist  : [ "m", "FlatMoist"  ],
-										etRockyMoist : [ "M", "RockyMoist" ],
-										etFlatArid   : [ "a", "FlatArid"   ],
-										etRockyArid  : [ "A", "RockyArid"  ],
-										etFlatPolar  : [ "p", "FlatPolar"  ],
-										etRockyPolar : [ "P", "RockyPolar" ]
-										}
-		elif bFFH:
-			self.__terrainDict =	{
-										etOcean              : [ "..", "Ocean"             ],
-										etCoast              : [ "::", "Coast"             ],
-										etDesert             : [ "dD", "Desert"            ],
-										etPlains             : [ "pP", "Plains"            ],
-										etGrass              : [ "gG", "Grass"             ],
-										etMarsh              : [ "mM", "Marsh"             ],
-										etTundra             : [ "tT", "Tundra"            ],
-										etSnow               : [ "sS", "Snow"              ],
-										etBurningSands       : [ "bB", "BurningSands"      ],
-										etBrokenLands        : [ "lL", "BrokenLands"       ],
-										etFieldsOfPerdition  : [ "fF", "FieldsOfPerdition" ],
-										etShallows           : [ "hH", "Shallows"          ]
-										}
-			if bBlackwater:    self.__terrainDict[etBlackwater]    = [ ",,", "Blackwater"    ]
-			if bBlightedCoast: self.__terrainDict[etBlightedCoast] = [ ";;", "BlightedCoast" ]
-		else:
-			if bMarsh:
-				self.__terrainDict =	{
-											etOcean  : [ "..", "Ocean"  ],
-											etCoast  : [ "::", "Coast"  ],
-											etDesert : [ "dD", "Desert" ],
-											etPlains : [ "pP", "Plains" ],
-											etGrass  : [ "gG", "Grass"  ],
-											etMarsh  : [ "mM", "Marsh"  ],
-											etTundra : [ "tT", "Tundra" ],
-											etSnow   : [ "sS", "Snow"   ]
-											}
-			else:
-				self.__terrainDict =	{
-											etOcean  : [ "..", "Ocean"  ],
-											etCoast  : [ "::", "Coast"  ],
-											etDesert : [ "dD", "Desert" ],
-											etPlains : [ "pP", "Plains" ],
-											etGrass  : [ "gG", "Grass"  ],
-											etTundra : [ "tT", "Tundra" ],
-											etSnow   : [ "sS", "Snow"   ]
-											}
-		if bOceanDeep: self.__terrainDict[ etOceanDeep ] = [ "  ", "DeepOcean"]
-
+		self.__terrainDict = {
+			etOcean		: ["..", "Ocean"  ],
+			etCoast		: ["::", "Coast"  ],
+			etDesert	: ["dD", "Desert" ],
+			etPlains	: ["pP", "Plains" ],
+			etGrass		: ["gG", "Grass"  ],
+			etMarsh		: ["mM", "Marsh"  ],
+			etTundra	: ["tT", "Tundra" ],
+			etSnow		: ["sS", "Snow"   ]
+		}
 		# --------------------
 		# feature dictionaries
 		# --------------------
-		if bPfall:
-			self.__featureDict =	{
-										efTrench       : [ "~", "Trench"       ],
-										efKelp         : [ "=", "Kelp"         ],
-										efIce          : [ "°", "Ice"          ],
-										efSeaFungus    : [ "+", "SeaFungus"    ],
-										efXenoFungus   : [ "X", "XenoFungus"   ],
-										efJungle       : [ "J", "Jungle"       ],
-										efHybridForest : [ "H", "HybridForest" ],
-										efForest       : [ "F", "Forest"       ],
-										efFallout      : [ "*", "Fallout"      ],
-										efRadiation    : [ "$", "Radiation"    ]
-										}
-		elif bFFH:
-			self.__featureDict =	{
-										efIce            : [ "°", "Ice"            ],
-										efFallout        : [ "*", "Fallout"        ],
-										efJungle         : [ "j", "Jungle"         ],
-										efForest         : [ "f", "Forest"         ],
-										efOasis          : [ "o", "Oasis"          ],
-										efFloodPlains    : [ "p", "FloodPlains"    ],
-										efFlames         : [ '"', "Flames"         ],
-										efForestAncient  : [ "F", "ForestAncient"  ],
-										efForestNew      : [ "n", "ForestNew"      ],
-										efForestBurnt    : [ "b", "ForestBurnt"    ],
-										efTormentedSouls : [ "T", "TormentedSouls" ]
-										}
-		else:
-			self.__featureDict =	{
-										efIce          : [ "°", "Ice"          ],
-										efFallout      : [ "*", "Fallout"      ],
-										efJungle       : [ "j", "Jungle"       ],
-										efForest       : [ "f", "Forest"       ],
-										efOasis        : [ "O", "Oasis"        ],
-										efFloodPlains  : [ "p", "FloodPlains"  ]
-										}
-		if bSwamp:          self.__featureDict[efSwamp]          = [ "w", "Swamp"          ]
-		if bKelp:           self.__featureDict[efKelp]           = [ "=", "Kelp"           ]
-		if bVolcano:        self.__featureDict[efVolcano]        = [ "V", "Volcano"        ]
-		if bVolcanoDormant: self.__featureDict[efVolcanoDormant] = [ "v", "VolcanoDormant" ]
-		if bScrub:          self.__featureDict[efScrub]          = [ "s", "Scrub"          ]
-		if bCrystalPlains:  self.__featureDict[efCrystalPlains]  = [ "c", "CrystalPlains"  ]
-		if bHauntedLands:   self.__featureDict[efHauntedLands]   = [ "h", "HauntedLands"   ]
-		if bObsidianPlains: self.__featureDict[efObsidianPlains] = [ "P", "ObsidianPlains" ]
-		if bBlizzard:       self.__featureDict[efBlizzard]       = [ "@", "Blizzard"       ]
-		if bStorm:          self.__featureDict[efStorm]          = [ "@", "Storm"          ]
+		self.__featureDict = {
+			efIce			: ["°", "Ice"	],
+			efFallout		: ["*", "Fallout"],
+			efJungle		: ["j", "Jungle"],
+			efForest		: ["f", "Forest"],
+			efOasis			: ["O", "Oasis"],
+			efFloodPlains	: ["p", "FloodPlains"]
+		}
+		self.__featureDict[efSwamp]	= ["w", "Swamp"]
+		self.__featureDict[efKelp]	= ["=", "Kelp"]
+		self.__featureDict[efStorm] = ["@", "Storm"]
 
 		# ------------------
 		# bonus dictionaries
 		# ------------------
-
-		if bPfall:
-			self.__bonusDict =	{
-										ebBoreHoleCluster  : [ "B", "BoreHoleCluster"  ],
-										ebResonanceCluster : [ "R", "ResonanceCluster" ],
-										ebArtifact         : [ "A", "Artifact"         ],
-										ebDimensionalGate  : [ "D", "DimensionalGate"  ],
-										ebManifoldNexus    : [ "N", "ManifoldNexus"    ],
-										ebMonolith         : [ "M", "Monolith"         ],
-										ebTheRuins         : [ "T", "TheRuins"         ],
-										ebThorium          : [ "t", "Thorium"          ],
-										ebIridium          : [ "i", "Iridium"          ],
-										ebFungicide        : [ "F", "Fungicide"        ],
-										ebFungalGin        : [ "f", "FungalGin"        ],
-										ebGrenadeFruits    : [ "G", "GrenadeFruits"    ],
-										ebPholusMutagen    : [ "P", "PholusMutagen"    ]
-										}
-		elif bFFront:
-			pass
-		elif bFFH:
-			self.__bonusDict =	{
-										ebMana    : [ "*", "Mana"    ],
-										ebReagens : [ "R", "Reagens" ],
-										ebHorse   : [ "H", "Horse"   ],
-										ebMithril : [ "M", "Mithril" ],
-										ebIron    : [ "I", "Iron"    ],
-										ebCopper  : [ "C", "Copper"  ]
-										}
-
-			self.manaDict =	{
-									ebMana            : [ "@", "Mana"        ],
-									ebManaMetamagic   : [ "M", "Metamagic"   ],
-									ebManaEarth       : [ "E", "Earth"       ],
-									ebManaWater       : [ "~", "Water"       ],
-									ebManaAir         : [ "A", "Air"         ],
-									ebManaFire        : [ "F", "Fire"        ],
-									ebManaChaos       : [ "C", "Chaos"       ],
-									ebManaEntropy     : [ "N", "Entropy"     ],
-									ebManaDeath       : [ "D", "Death"       ],
-									ebManaShadow      : [ "S", "Shadow"      ],
-									ebManaSun         : [ "*", "Sun"         ],
-									ebManaSpirit      : [ "s", "Spirit"      ],
-									ebManaMind        : [ "m", "Mind"        ],
-									ebManaLaw         : [ "w", "Law"         ],
-									ebManaNature      : [ "n", "Nature"      ],
-									ebManaLife        : [ "l", "Life"        ],
-									ebManaBody        : [ "b", "Body"        ],
-									ebManaEnchantment : [ "e", "Enchantment" ]
-									}
-			if	ebManaIce >= 0 :        self.manaDict[ebManaIce]         = [ "i", "Ice"         ]
-			if ebManaDimensional >= 0: self.manaDict[ebManaDimensional] = [ "d", "Dimensional" ]
-			if ebManaCreation >= 0:    self.manaDict[ebManaCreation]    = [ "c", "Creation"    ]
-			if ebManaForce >= 0:       self.manaDict[ebManaForce]       = [ "f", "Force"       ]
-			if ebManaRefined >= 0:     self.manaDict[ebManaRefined]     = [ "r", "Refined"     ]
-
-		else:
-			self.__bonusDict =	{
-										ebAluminum : [ "A", "Aluminum" ],
-										ebCopper   : [ "C", "Copper"   ],
-										ebIron     : [ "I", "Iron"     ],
-										ebOil      : [ "O", "Oil"      ],
-										ebUranium  : [ "U", "Uranium"  ],
-										ebHorse    : [ "h", "Horse"    ]
-										}
-			if bRoM: self.__bonusDict[ ebBauxite ] = [ "B", "Bauxite" ]
+		self.__bonusDict = {
+			ebAluminum : [ "A", "Aluminum" ],
+			ebCopper   : [ "C", "Copper"   ],
+			ebIron     : [ "I", "Iron"     ],
+			ebOil      : [ "O", "Oil"      ],
+			ebUranium  : [ "U", "Uranium"  ],
+			ebHorse    : [ "h", "Horse"    ]
+		}
+		self.__bonusDict[ebBauxite] = [ "B", "Bauxite" ]
 
 	# define class variables
 	def definePrintMap( self, lines, charsPerPlot, linesPerPlot, mapTitle="", mapText="", region=None, offset=None, mapLegend="" ):
-#		print "[MST] ===== MapPrint:definePrintMap()"
 		self.__lines        = lines
 		self.__charsPerPlot = charsPerPlot
 		self.__linesPerPlot = linesPerPlot
@@ -6933,12 +5469,10 @@ class MapPrint:
 				self.__mapRegion	= [0, iNumPlotsX-1, 0, iNumPlotsY-1]
 		else:
 			self.__mapRegion = region
-#		printList( self.__mapRegion, "definePrintMap.mapRegion:", prefix="[MST] " )
 
 	# print the map as defined by class-variables
 	# if diffList is given, a second map with the differences is printed
 	def printMap( self, bDiffDict, sMapType, sMapText="" ):
-#		print "[MST] ===== MapPrint:printMap()"
 		print "[MST] ####################################################################### MapScriptTools:MapPrint ###"
 		printList( self.__mapRegion, self.__mapTitle, prefix="[MST] " )
 		# print title
@@ -6947,9 +5481,9 @@ class MapPrint:
 			sprint += sMapText
 		else:
 			if sMapText == "":
-				sprint += self.__mapTitle + " { " + self.__mapText + " } -  X-Wrap: %r, Y-Wrap: %r" % (map.isWrapX(),map.isWrapY())
+				sprint += self.__mapTitle + " { " + self.__mapText + " } -  X-Wrap: %r, Y-Wrap: %r" % (MAP.isWrapX(),MAP.isWrapY())
 			else:
-				sprint += self.__mapTitle + " " + sMapText + "  -  X-Wrap: %r, Y-Wrap: %r" % (map.isWrapX(),map.isWrapY())
+				sprint += self.__mapTitle + " " + sMapText + "  -  X-Wrap: %r, Y-Wrap: %r" % (MAP.isWrapX(),MAP.isWrapY())
 			sprint += "\n " + "="*(len(sprint)-1)
 		print sprint
 		# prepare
@@ -6972,13 +5506,13 @@ class MapPrint:
 		# adjust for vertical wrap
 		if self.__linesPerPlot > 1:
 			if self.__lines[ self.__offset[self.__linesPerPlot-1] ] != None:
-				if map.isWrapY():
+				if MAP.isWrapY():
 					self.__lines[ self.__offset[self.__linesPerPlot-1]+numY ] = self.__lines[ self.__offset[self.__linesPerPlot-1] ]
 				self.__lines[ self.__offset[self.__linesPerPlot-1] ] = None
 		# list-print map
 		lprint = []
 
-		if map.isWrapY():
+		if MAP.isWrapY():
 			try:
 				lprint.append( "     |%s| \n" % (self.__lines[ self.__offset[self.__linesPerPlot-1]+numY ]) )
 			except:
@@ -6987,10 +5521,10 @@ class MapPrint:
 
 		for y in range(y1,y0-1,-1):
 			xx, yy = normalizeXY( 0, y )
-			if map.isWrapY() and ( not map.isWrapX() ):
+			if MAP.isWrapY() and ( not MAP.isWrapX() ):
 				lprint.append( "%3i: |%s|:%3i\n" % (yy, self.__lines[ self.__offset[0] + y ], yy) )
 			else:
-				pl = map.plot(0, yy)
+				pl = MAP.plot(0, yy)
 				soff = self.__offset[0] + y
 				slin = self.__lines[ soff ]
 				ev = evalLatitude( pl )
@@ -7013,7 +5547,7 @@ class MapPrint:
 		else:
 			latLine = xLine + iif(x1>99, "%03i", "%02i ")
 
-		if map.isWrapY() and ( not map.isWrapX() ):
+		if MAP.isWrapY() and ( not MAP.isWrapX() ):
 			latLine += "\n"
 		else:
 			latLine += "    Latitude\n"
@@ -7054,7 +5588,6 @@ class MapPrint:
 	# build new dictionary with differences of two maps; return True for success
 	# - note that this only builds the difference-map and does not print it
 	def buildDiffMap( self, newDict, oldDict ):
-#		print "[MST] ===== MapPrint:buildDiffMap()"
 
 		# check type
 		if newDict[ 'TITLE' ] != oldDict[ 'TITLE' ]:
@@ -7070,7 +5603,7 @@ class MapPrint:
 			return False
 
 		# make title
-		diffTitle  = "Difference Map:     -     X-Wrap: %r, Y-Wrap: %r \n" % (map.isWrapX(),map.isWrapY())
+		diffTitle  = "Difference Map:     -     X-Wrap: %r, Y-Wrap: %r \n" % (MAP.isWrapX(),MAP.isWrapY())
 		diffTitle += space(4) + oldDict[ 'TITLE' ] + ": " + oldDict[ 'TEXT' ] + "\n"
 		diffTitle += space(4) + newDict[ 'TITLE' ] + ": " + newDict[ 'TEXT' ] + "\n\n"
 		# build difference dictionary
@@ -7132,8 +5665,6 @@ class MapPrint:
 	# use default area-dictionary or a user supplied dictionary
 	# - note that areas are not recalculated
 	def buildAreaMap( self, bDiffDict=False, sText=None, region=None, areaID=None, areaDict=None ):
-#		print "[MST] ===== MapPrint:buildAreaMap()"
-
 		# get title
 		self.__mapTitle = "Area Map"
 		if sText == None:
@@ -7169,7 +5700,6 @@ class MapPrint:
 		aList = [ (area.getNumTiles(), area.getID(), area.isWater()) for area in areaList ]
 		aList.sort()
 		aList.reverse()
-#		printList( aList, "Areas:", 3, prefix="[MST] " )
 		# build areaID-dictionary
 		aDict = {}
 		waterCnt = 0
@@ -7198,7 +5728,7 @@ class MapPrint:
 			linPlots = ""
 			for x in range(x0,x1+1):
 				xx, yy = normalizeXY(x, y)
-				pl = map.plot(xx, yy)
+				pl = MAP.plot(xx, yy)
 				id = pl.getArea()
 				if id in aList:
 					linPlots += aDict[ id ]
@@ -7207,13 +5737,11 @@ class MapPrint:
 			# place lines into dictionary
 			self.__lines[ self.__offset[0] + y ] = linPlots
 		# print the feature-map
-		self.printMap( bDiffDict, "AREAS" )
+		self.printMap(bDiffDict, "AREAS")
 
 	# print plots, may use data list, 1*1 chars/plot
 	# build the map by filling the map-dictionary and defining the other class-variables
 	def buildPlotMap( self, bDiffDict=False, sText=None, region=None, data=None ):
-#		print "[MST] ===== MapPrint:buildPlotMap()"
-
 		# get title
 		self.__mapTitle = "Plot Map"
 		if sText == None:
@@ -7247,7 +5775,7 @@ class MapPrint:
 				linPlots = ""
 				for x in range(x0,x1+1):
 					xx, yy = normalizeXY(x, y)
-					pl = map.plot(xx, yy)
+					pl = MAP.plot(xx, yy)
 					if	pl.isWater():
 						linPlots += "."
 						continue
@@ -7266,7 +5794,7 @@ class MapPrint:
 				linPlots = ""
 				for x in range(x0,x1+1):
 					xx, yy = normalizeXY(x, y)
-					i = map.plotNum(xx,yy)
+					i = MAP.plotNum(xx,yy)
 					if	data[i] == PlotTypes.PLOT_OCEAN:
 						linPlots += "."
 						continue
@@ -7287,10 +5815,7 @@ class MapPrint:
 	# build the map by filling the map-dictionary and defining the other class-variables
 	# use default terrain-dictionaries or a user supplied dictionary
 	def buildTerrainMap( self, bDiffDict=False, sText=None, region=None, terrainDict=None, showPlots=True ):
-#		print "[MST] ===== MapPrint:buildTerrainMap()"
-
 		# get title
-		if DEBUG: printDict( self.__terrainDict, prefix="[MST] " )
 		self.__mapTitle = "Terrain Map"
 		if sText == None:
 			self.__mapText = ""
@@ -7327,12 +5852,11 @@ class MapPrint:
 
 		# build map-dictionary
 		sprint = ""
-#		print "[MST] Terrains: %r \n %r" % (knownTerrains,dTerrains)
 		for y in range(y0,y1+1):
 			linPlots = ""
 			for x in range(x0,x1+1):
 				xx, yy = normalizeXY(x, y)
-				pl = map.plot(xx, yy)
+				pl = MAP.plot(xx, yy)
 				ter = pl.getTerrainType()
 				if ter == -1:											# no terrain!
 					if showPlots:
@@ -7356,7 +5880,7 @@ class MapPrint:
 						linPlots += dTerrains[ter][0]
 				else:
 					linPlots += "?"									# something is wrong - unknown terrain
-					sprint += "[MST] Unknown Terrain @ %i,%i - %i.%r \n" % (xx, yy, ter, gc.getTerrainInfo(ter).getType())
+					sprint += "[MST] Unknown Terrain @ %i,%i - %i.%r \n" % (xx, yy, ter, GC.getTerrainInfo(ter).getType())
 					sprint += "[MST] - known Terrains: %r \n" % (dTerrains)
 			# place lines into dictionary
 			self.__lines[ self.__offset[0]+y ] = linPlots
@@ -7369,8 +5893,6 @@ class MapPrint:
 	# build the map by filling the map-dictionary and defining the other class-variables
 	# use default feature-dictionaries or a user supplied dictionary
 	def buildFeatureMap( self, bDiffDict=False, sText=None, region=None, featureDict=None, showPlots=True ):
-#		print "[MST] ===== MapPrint:buildFeatureMap()"
-
 		# get title
 		if DEBUG: printDict( self.__featureDict, prefix="[MST] " )
 		self.__mapTitle = "Feature Map"
@@ -7409,12 +5931,11 @@ class MapPrint:
 
 		# build map-dictionary
 		sprint = ""
-#		print "[MST] Features: %r \n %r" % (knownFeatures,dFeatures)
 		for y in range(y0,y1+1):
 			linPlots = ""
 			for x in range(x0,x1+1):
 				xx, yy = normalizeXY(x, y)
-				pl = map.plot(xx, yy)
+				pl = MAP.plot(xx, yy)
 				feat = pl.getFeatureType()
 				if feat == -1:											# no feature!
 					if showPlots:
@@ -7438,7 +5959,7 @@ class MapPrint:
 						linPlots += dFeatures[feat][0]
 				else:
 					linPlots += "?"									# something is wrong - unknown feature
-					sprint += "[MST] Unknown Feature @ %i,%i - %i.%r \n" % (xx, yy, feat, gc.getFeatureInfo(feat).getType())
+					sprint += "[MST] Unknown Feature @ %i,%i - %i.%r \n" % (xx, yy, feat, GC.getFeatureInfo(feat).getType())
 					sprint += "[MST] - known Features: %r \n" % (dFeatures)
 			# place lines into dictionary
 			self.__lines[ self.__offset[0]+y ] = linPlots
@@ -7451,8 +5972,6 @@ class MapPrint:
 	# build the map by filling the map-dictionary and defining the other class-variables
 	# use default bonus-dictionaries or a user supplied dictionary
 	def buildBonusMap( self, bDiffDict=False, sText=None, region=None, bonusDict=None, showPlots=True ):
-#		print "[MST] ===== MapPrint:buildBonusMap()"
-
 		# get title
 		if DEBUG: printDict( self.__bonusDict, prefix="[MST] " )
 		self.__mapTitle = "Bonus Map"
@@ -7499,12 +6018,11 @@ class MapPrint:
 
 		# build map-dictionary
 		sprint = ""
-#		print "[MST] Boni: %r \n %r" % (knownBoni,dBonus)
 		for y in range(y0,y1+1):
 			linPlots = ""
 			for x in range(x0,x1+1):
 				xx, yy = normalizeXY(x, y)
-				pl = map.plot(xx, yy)
+				pl = MAP.plot(xx, yy)
 				inx = indexByPlot( pl )
 				bon = pl.getBonusType(-1)
 				if inx in startPlotList:
@@ -7531,7 +6049,7 @@ class MapPrint:
 						linPlots += dBonus[bon][0][0]
 				else:
 					linPlots += "?"									# unknown bonus
-#					sprint += "[MST] Unknown Bonus @ %i,%i - %i.%r \n" % (xx, yy, bon, gc.getFeatureInfo(bon).getType())
+#					sprint += "[MST] Unknown Bonus @ %i,%i - %i.%r \n" % (xx, yy, bon, GC.getFeatureInfo(bon).getType())
 #					sprint += "[MST] - known Boni: %r \n" % (dBonus)
 			# place lines into dictionary
 			self.__lines[ self.__offset[0]+y ] = linPlots
@@ -7543,7 +6061,6 @@ class MapPrint:
 	# print plots, rivers and starting-plots, 3*2 chars/plot
 	# build the map by filling the map-dictionary and defining the other class-variables
 	def buildRiverMap( self, bDiffDict=False, sText=None, region=None ):
-#		print "[MST] ===== MapPrint:buildRiverMap()"
 
 		# get title
 		self.__mapTitle = "River Map"
@@ -7583,7 +6100,7 @@ class MapPrint:
 			linFlows = ""
 			for x in range(x0,x1+1):
 				xx,yy = normalizeXY( x, y )
-				pl = map.plot(xx,yy)
+				pl = MAP.plot(xx,yy)
 				if	pl.isWater():
 					linPlots += ".. "
 					linFlows += ".. "
@@ -7618,17 +6135,16 @@ class MapPrint:
 			self.__lines[ self.__offset[0]+y ] = linPlots
 			self.__lines[ self.__offset[1]+y ] = linFlows
 		# adjust for vertical wrap
-		if map.isWrapY():
+		if MAP.isWrapY():
 			self.__lines[ self.__offset[1]+numY ] = self.__lines[ self.__offset[1] ]
 		self.__lines[ self.__offset[1] ] = None
 
 		# get starting-plots if available
 		startingPlots = []
 		for p in mapStats.getCivPlayerList():
-			player = gc.getPlayer( p.getID() )
+			player = GC.getPlayer( p.getID() )
 			startingPlots.append( [p.getID(), player.getStartingPlot().getX(), player.getStartingPlot().getY()] )
-#		print "[MST] Starting-Plots: %r" % ( startingPlots )
-		if len( startingPlots ) > 0:
+		if len(startingPlots) > 0:
 			# if starting-plots already exist: put them on the map
 			for n,x,y in startingPlots:
 				if (x != -1) and (y != -1):
@@ -7644,7 +6160,6 @@ class MapPrint:
 
 	# make map-legend string from dictionary
 	def makeMapLegend( self, dict, addLine=None, bRiver=None, bPlayer=None ):
-#		print "[MST] ======== MapPrint:makeMapLegend()"
 		offset = 6
 		iMax = 4
 
@@ -7748,7 +6263,6 @@ mapPrint = MapPrint()
 ########## CLASS MapStats - print statistics about map and mod
 ##############################################################
 # mapStatistics()
-# tPlotStats = statPlotCount( txt=None )
 # showContinents( txt=None, minPlots=3, bWater=False )
 # sTechs = getTechList( prefix = "", bFullVersion=True )
 # listPlayers = getCivPlayerList()
@@ -7757,7 +6271,6 @@ mapPrint = MapPrint()
 # sBoniTable = doBonusChart( boni )
 # andTech, orTech = getTechPrereqLists( iTech )
 # techLevel = getTechLevel( iTech )
-# listManaTypes = getManaLists()
 # sCivs = getCivilizationList()
 # sTraits = getTraitList( player )
 # sCultVict = getCultureVictoryConditions()
@@ -7767,136 +6280,47 @@ class MapStats:
 	techLevels = {}
 
 	# print statistics about the map and the mod
-	def mapStatistics( self, bFullVersion=True ):
-#		print "[MST] ===== MapStats:mapStatistics()"
-
-		sprint = ""
+	def mapStatistics(self, debug=True):
+		if not debug: return
 		# Get available Plot/Terrain/Feature/Bonus/Improvement
-		stats_plo  = []
-		stats_ter  = []
-		stats_feat = []
-		stats_bon  = []
-		stats_imp  = []
-		for plo in range(4):
-			stats_plo.append( 0 )
-		for ter in range(gc.getNumTerrainInfos()):
-			stats_ter.append( 0 )
-		for feat in range(gc.getNumFeatureInfos()):
-			stats_feat.append( 0 )
-		for bon in range(gc.getNumBonusInfos()):
-			stats_bon.append( 0 )
-		for imp in range(gc.getNumImprovementInfos()):
-			stats_imp.append( 0 )
+		stats_plo  = [0] * 4
+		stats_ter  = [0] * GC.getNumTerrainInfos()
+		stats_feat = [0] * GC.getNumFeatureInfos()
+		stats_bon  = [0] * GC.getNumBonusInfos()
+		stats_imp  = [0] * GC.getNumImprovementInfos()
 
-		if bFullVersion:
-			iPlayer = game.countCivPlayersAlive()
-			# Count stats for each plot
-			for i in range( map.numPlots() ):
-				pl = map.plotByIndex(i)
-				# get infos
-				gpiPlot			= pl.getPlotType()
-				gpiTerrain		= pl.getTerrainType()
-				gpiBonus			= pl.getBonusType(-1)
-				gpiFeature		= pl.getFeatureType()
-				gpiImprovement	= pl.getImprovementType()
-				# add up
-				if gpiPlot == PlotTypes.PLOT_OCEAN:
-					stats_plo[0] += 1
-				elif gpiPlot == PlotTypes.PLOT_LAND:
-					stats_plo[1] += 1
-				elif gpiPlot == PlotTypes.PLOT_HILLS:
-					stats_plo[2] += 1
-				elif gpiPlot == PlotTypes.PLOT_PEAK:
-					stats_plo[3] += 1
-				if gpiTerrain>(-1):     stats_ter[gpiTerrain] += 1
-				if gpiFeature>(-1):     stats_feat[gpiFeature] += 1
-				if gpiBonus>(-1):       stats_bon[gpiBonus] += 1
-				if gpiImprovement>(-1): stats_imp[gpiImprovement] += 1
+		iPlayer = CyGame().countCivPlayersAlive()
+		# Count stats for each plot
+		for i in range( MAP.numPlots() ):
+			pl = MAP.plotByIndex(i)
+			# get infos
+			gpiPlot			= pl.getPlotType()
+			gpiTerrain		= pl.getTerrainType()
+			gpiBonus			= pl.getBonusType(-1)
+			gpiFeature		= pl.getFeatureType()
+			gpiImprovement	= pl.getImprovementType()
+			# add up
+			if gpiPlot == PlotTypes.PLOT_OCEAN:
+				stats_plo[0] += 1
+			elif gpiPlot == PlotTypes.PLOT_LAND:
+				stats_plo[1] += 1
+			elif gpiPlot == PlotTypes.PLOT_HILLS:
+				stats_plo[2] += 1
+			elif gpiPlot == PlotTypes.PLOT_PEAK:
+				stats_plo[3] += 1
+			if gpiTerrain>(-1):     stats_ter[gpiTerrain] += 1
+			if gpiFeature>(-1):     stats_feat[gpiFeature] += 1
+			if gpiBonus>(-1):       stats_bon[gpiBonus] += 1
+			if gpiImprovement>(-1): stats_imp[gpiImprovement] += 1
 
-			# Display Plot-Statistics
-			print "[MST] ####################################################################### MapScriptTools:MapStats ###"
-			# the short version
-			self.statPlotCount( "" )
-
-			# show continents
-			self.showContinents( " Continents and Islands of the World", 2, True )
-
-			# Display available Plots
-			sprint += "[MST]   Stats of available Terrain, Features etc. \n"
-			sprint += "[MST]   ----------------------------------------- \n"
-			sprint += "[MST]   %i Width x %i Height = %i Plots,  %2i Players" % (iNumPlotsX, iNumPlotsY, map.numPlots(), iPlayers ) + "\n\n"
-			f1 = (stats_plo[0]*100.0) / map.numPlots()
-			f2 = (stats_plo[1]*100.0) / map.numPlots()
-			f3 = (stats_plo[2]*100.0) / map.numPlots()
-			f4 = (stats_plo[3]*100.0) / map.numPlots()
-			f5 = (stats_plo[1]+stats_plo[2])*100.0 / map.numPlots()
-			sprint += "[MST]   Plots: #0 - PLOT_OCEAN ( %4i )  = %4.1f%s Water" 		% (stats_plo[0], f1, '%%') + "\n"
-			sprint += "[MST]   Plots: #1 - PLOT_LAND  ( %4i )  = %4.1f%s Land   }" 	% (stats_plo[1], f2, '%%') + "\n"
-			sprint += "[MST]   Plots: #2 - PLOT_HILLS ( %4i )  = %4.1f%s Hills  }= %4.1f%s Usable Land" % (stats_plo[2], f3, '%%', f5, '%%') + "\n"
-			sprint += "[MST]   Plots: #3 - PLOT_PEAK  ( %4i )  = %4.1f%s Peaks" 		% (stats_plo[3], f4, '%%') + "\n\n"
-
-		# Display available Mod-Terrain
-		for ter in range(gc.getNumTerrainInfos()):
-			type_string = gc.getTerrainInfo(ter).getType()
-			sprint += "[MST]   Terrain: #%2i - %s ( %i ) \n" % (ter, type_string, stats_ter[ter])
-		sprint += "\n"
-
-		# Display available Mod-Features
-		for feat in range(gc.getNumFeatureInfos()):
-			type_string = gc.getFeatureInfo(feat).getType()
-			sprint += "[MST]   Feature: #%2i - %s ( %i ) \n" % (feat, type_string, stats_feat[feat])
-		sprint += "\n"
-
-		# Display available Mod-Resources
-		sprint += self.doBonusChart( stats_bon )
-		sprint += "\n"
-
-		# Display available Mod-Improvements
-		for imp in range(gc.getNumImprovementInfos()):
-			type_string = gc.getImprovementInfo(imp).getType()
-
-			try:
-				bUnique = gc.getImprovementInfo(imp).isUnique()
-			except:
-				bUnique = False
-
-			sUnique = "-"
-			if bUnique: sUnique = "*"
-			sprint += "[MST]   Improvement: #%3i %s %s ( %i ) \n" % (imp, sUnique, type_string, stats_imp[imp])
-		sprint += "\n"
-
-		# Display available Mod-Technologies
-		sprint += self.getTechList( "[MST]", bFullVersion )
-
-		# Display available Mod-Civilizations
-		sprint += self.getCivilizationList( "[MST]" )
-
-		if bFullVersion:
-			# Display active Civilizations
-			sprint += self.sprintActiveCivs( bTeams, True, True )		# show teams, traits and humanity
-
-		# Culture Victory
-		sprint += "\n[MST] " + self.getCultureVictoryConditions()
-		print sprint
-		print "[MST] ####################################################################### MapScriptTools:MapStats ###"
-		return sprint
-
-	# count all plots and print stats
-	def statPlotCount( self, txt=None ):
-#		print "[MST] ===== MapStats:statPlotCount()"
-		# print title
-		sprint = ""
-		if txt == None:
-			sprint += "[MST] ####################################################################### MapScriptTools:MapStats ### \n\n"
-		elif txt	!= "":
-			sprint += "[MST] " + txt + "\n " + "-"*len(txt) + "\n"
-		# count plots
+		# Display Plot-Statistics
 		nOcean = 0
 		nLand = 0
 		nHills = 0
 		nPeak = 0
-		for i in range( map.numPlots() ):
-			p = map.plotByIndex(i)
+		# count plots
+		for i in range(MAP.numPlots()):
+			p = MAP.plotByIndex(i)
 			if p.isWater():
 				nOcean += 1
 			elif p.isFlatlands():
@@ -7908,20 +6332,80 @@ class MapStats:
 		aPlots = (nOcean, nLand, nHills, nPeak)
 		# calc stats
 		iAllLand = aPlots[1] + aPlots[2] + aPlots[3]
-		if iAllLand==0: return None								# call after generatePlotTypes()
-		fHills   = 100.0 * aPlots[2] / iAllLand
-		fPeak    = 100.0 * aPlots[3] / iAllLand
-		fAllLand = 100.0 * iAllLand / map.numPlots()
-		# print stats
-		sprint += "[MST] Plot-Stats: %i ( Water:%i, Flat:%i, Hills:%i, Peaks:%i )\n" % (map.numPlots(), aPlots[0], aPlots[1], aPlots[2], aPlots[3])
-		sprint += "[MST] AllLand: %i, Hills/Land: %5.2f, Peaks/Land: %5.2f, Land/AllPlots: %5.2f\n" % ( iAllLand, fHills, fPeak, fAllLand )
-		sprint += "[MST] " + '-'*73 + "\n"
+		if iAllLand > 0:
+			print "[MST] ####################################################################### MapScriptTools:MapStats ###"
+			fHills   = 100.0 * aPlots[2] / iAllLand
+			fPeak    = 100.0 * aPlots[3] / iAllLand
+			fAllLand = 100.0 * iAllLand / MAP.numPlots()
+			# print stats
+			sprint = "[MST] Plot-Stats: %i ( Water:%i, Flat:%i, Hills:%i, Peaks:%i )\n" % (MAP.numPlots(), aPlots[0], aPlots[1], aPlots[2], aPlots[3])
+			sprint += "[MST] AllLand: %i, Hills/Land: %5.2f, Peaks/Land: %5.2f, Land/AllPlots: %5.2f\n" % ( iAllLand, fHills, fPeak, fAllLand )
+			sprint += "[MST] " + '-'*73 + "\n"
+			print sprint
+
+		# show continents
+		self.showContinents( " Continents and Islands of the World", 2, True )
+
+		# Display available Plots
+		sprint = "[MST]   Stats of available Terrain, Features etc. \n"
+		sprint += "[MST]   ----------------------------------------- \n"
+		sprint += "[MST]   %i Width x %i Height = %i Plots,  %2i Players" % (iNumPlotsX, iNumPlotsY, MAP.numPlots(), iPlayers ) + "\n\n"
+		f1 = (stats_plo[0]*100.0) / MAP.numPlots()
+		f2 = (stats_plo[1]*100.0) / MAP.numPlots()
+		f3 = (stats_plo[2]*100.0) / MAP.numPlots()
+		f4 = (stats_plo[3]*100.0) / MAP.numPlots()
+		f5 = (stats_plo[1]+stats_plo[2])*100.0 / MAP.numPlots()
+		sprint += "[MST]   Plots: #0 - PLOT_OCEAN ( %4i )  = %4.1f%s Water" 		% (stats_plo[0], f1, '%%') + "\n"
+		sprint += "[MST]   Plots: #1 - PLOT_LAND  ( %4i )  = %4.1f%s Land   }" 	% (stats_plo[1], f2, '%%') + "\n"
+		sprint += "[MST]   Plots: #2 - PLOT_HILLS ( %4i )  = %4.1f%s Hills  }= %4.1f%s Usable Land" % (stats_plo[2], f3, '%%', f5, '%%') + "\n"
+		sprint += "[MST]   Plots: #3 - PLOT_PEAK  ( %4i )  = %4.1f%s Peaks" 		% (stats_plo[3], f4, '%%') + "\n\n"
+
+		# Display available Mod-Terrain
+		for ter in range(GC.getNumTerrainInfos()):
+			type_string = GC.getTerrainInfo(ter).getType()
+			sprint += "[MST]   Terrain: #%2i - %s ( %i ) \n" % (ter, type_string, stats_ter[ter])
+		sprint += "\n"
+
+		# Display available Mod-Features
+		for feat in range(GC.getNumFeatureInfos()):
+			type_string = GC.getFeatureInfo(feat).getType()
+			sprint += "[MST]   Feature: #%2i - %s ( %i ) \n" % (feat, type_string, stats_feat[feat])
+		sprint += "\n"
+
+		# Display available Mod-Resources
+		sprint += self.doBonusChart( stats_bon )
+		sprint += "\n"
+
+		# Display available Mod-Improvements
+		for imp in range(GC.getNumImprovementInfos()):
+			type_string = GC.getImprovementInfo(imp).getType()
+
+			try:
+				bUnique = GC.getImprovementInfo(imp).isUnique()
+			except:
+				bUnique = False
+
+			sUnique = "-"
+			if bUnique: sUnique = "*"
+			sprint += "[MST]   Improvement: #%3i %s %s ( %i ) \n" % (imp, sUnique, type_string, stats_imp[imp])
+		sprint += "\n"
+
+		# Display available Mod-Technologies
+		sprint += self.getTechList("[MST]")
+
+		# Display available Mod-Civilizations
+		sprint += self.getCivilizationList("[MST]")
+
+		# Display active Civilizations
+		sprint += self.sprintActiveCivs( bTeams, True, True )		# show teams, traits and humanity
+
+		# Culture Victory
+		sprint += "\n[MST] " + self.getCultureVictoryConditions()
+		sprint += "\n\n[MST] ####################################################################### MapScriptTools:MapStats ###"
 		print sprint
-		return ( aPlots, fHills, fPeak )
 
 	# show stats of land areas; by default without smallest islands/lakes
 	def showContinents( self, txt=None, minPlots=3, bWater=False ):
-#		print "[MST] ===== MapStats:showContinents()"
 		sprint = ""
 		aList = []
 		wList = []
@@ -7954,7 +6438,7 @@ class MapStats:
 				areaValue[area.getID()] = aBestYield + aRiverEdges + 3 * aUniqueBoni + aCoastLand
 				aList.append( "[MST] %8i,     %4i   ,  %5i    ,    %4i    ,   %5i   ,       %3i / %3i  ,    %4i    ,    %4i\n" % \
 								( area.getID(), aTotalPlots, areaValue[area.getID()], aStartPlots, aBestYield, aTotalBoni, aUniqueBoni, aRiverEdges, aCoastLand ) )
-		#print aList[1][18:26]
+
 		aList.sort( key = lambda test: test[18:26] )
 		aList.reverse()
 		wList.sort( key = lambda test: test[18:26] )
@@ -7966,17 +6450,16 @@ class MapStats:
 
 	# get list of techs
 	def getTechList( self, prefix = "", bTechLevels=True ):
-#		print "[MST] ======== MapStats:getTechLists()"
 		sTechs = ""
-		for tech in range(gc.getNumTechInfos()):
-			tech_string = gc.getTechInfo(tech).getType()
+		for tech in range(GC.getNumTechInfos()):
+			tech_string = GC.getTechInfo(tech).getType()
 			aTech, oTech = self.getTechPrereqLists( tech )
 			andTech = []
 			for i in range( len(aTech) ):
-				andTech.append( gc.getTechInfo( aTech[i] ).getType()[5:] )
+				andTech.append( GC.getTechInfo( aTech[i] ).getType()[5:] )
 			orTech = []
 			for i in range( len(oTech) ):
-				orTech.append( gc.getTechInfo( oTech[i] ).getType()[5:] )
+				orTech.append( GC.getTechInfo( oTech[i] ).getType()[5:] )
 			if bTechLevels:
 				sTechs += prefix + "   Technology: #%3i - %25s(%2i) - " % (tech,tech_string[5:], self.getTechLevel(tech))
 			else:
@@ -8007,16 +6490,15 @@ class MapStats:
 
 	# get list of active players
 	def getCivPlayerList( self ):
-#		print "[MST] ===== MapStats:getCivPlayerList()"
-		listPlayers = [ gc.getPlayer( i ) for i in range( gc.getMAX_PC_PLAYERS() )
-		                                  if gc.getPlayer(i).isAlive() ]
+		listPlayers = [ GC.getPlayer( i ) for i in range( GC.getMAX_PC_PLAYERS() )
+		                                  if GC.getPlayer(i).isAlive() ]
 		return listPlayers
 
 	# Display active Civilizations
 	def sprintActiveCivs( self, showTeams=False, showTraits=False, showHumans=False ):
 		sprint = ""
 		for p in self.getCivPlayerList():
-			player = gc.getPlayer( p.getID() )
+			player = GC.getPlayer( p.getID() )
 			teamNum = player.getTeam()
 			tList = self.getTraitList( player )
 			plot = player.getStartingPlot()
@@ -8035,110 +6517,86 @@ class MapStats:
 	###############
 
 	# paint a chart for boni
-	def doBonusChart( self, boni ):
-#		print "[MST] ======== MapStats:doBonusChart()"
+	def doBonusChart(self, boni):
 		bs  =   "[MST]   |Bonus#| Bonus                      |Count |Health|Happy |Strat|Yields  |"
-		if bFFH: bs += "Mana  |"
+
 		bs += "Revealed Tech, Era"
 
 		bs += "\n[MST]   +------+----------------------------+------+------+------+-----+--------|"
-		if bFFH:	bs += "------+"
 		bs += "------------------"
 
-		# get list of mana-types depending on mod
-		manaElem, manaNec, manaDiv, manaAlt, manaMeta = self.getManaLists()
-
 		nBoni = nHeal = nHap = nMana = 0
-		for bon in range(gc.getNumBonusInfos()):
-			type_string = gc.getBonusInfo(bon).getType()
-			if gc.getBonusInfo(bon).isTerrain( etCoast ) or gc.getBonusInfo(bon).isTerrain( etOcean ):
+		for bon in range(GC.getNumBonusInfos()):
+			type_string = GC.getBonusInfo(bon).getType()
+			if GC.getBonusInfo(bon).isTerrain( etCoast ) or GC.getBonusInfo(bon).isTerrain( etOcean ):
 				type_string = "*" + type_string
-			elif gc.getBonusInfo(bon).isFeatureTerrain( etCoast ) or gc.getBonusInfo(bon).isFeatureTerrain( etOcean ):
+			elif GC.getBonusInfo(bon).isFeatureTerrain( etCoast ) or GC.getBonusInfo(bon).isFeatureTerrain( etOcean ):
 				type_string = "*" + type_string
 			else:
-				if bPfall:
-					if gc.getBonusInfo(bon).isTerrain( etShelf ) or gc.getBonusInfo(bon).isFeatureTerrain( etShelf ):
-						type_string = "*" + type_string
-					else:
-						type_string = " " + type_string
-				else:
-					type_string = " " + type_string
+				type_string = " " + type_string
 
 			sHeal = sHap = ".."
 			sStrat = "."
 			nY0 = nY1 = nY2 = 0
 			sMana = "...."
 
-			iHealth    = gc.getBonusInfo(bon).getHealth()
+			iHealth    = GC.getBonusInfo(bon).getHealth()
 			if iHealth<>0: sHeal = "%2i" % iHealth
 
-			iHappiness = gc.getBonusInfo(bon).getHappiness()
+			iHappiness = GC.getBonusInfo(bon).getHappiness()
 			if iHappiness<>0: sHap = "%2i" % iHappiness
-
-			if bFFH:
-				if type_string.find("_MANA")>-1:
-					nMana += boni[bon]
-					if type_string[6:] in manaElem:   sMana = "Elem"
-					elif type_string[6:] in manaNec:  sMana = "Nec "
-					elif type_string[6:] in manaDiv:  sMana = "Div "
-					elif type_string[6:] in manaAlt:  sMana = "Alt "
-					elif type_string[6:] in manaMeta: sMana = "Meta"
-					else: sMana = "Raw "
 
 			if (iHealth<=0) and (iHappiness<=0) and (type_string.find("_MANA")<0):
 				sStrat = "X"
 
-			sYield0 = "%2i" % (gc.getBonusInfo(bon).getYieldChange(0))
-			sYield1 = "%2i" % (gc.getBonusInfo(bon).getYieldChange(1))
-			sYield2 = "%2i" % (gc.getBonusInfo(bon).getYieldChange(2))
+			sYield0 = "%2i" % (GC.getBonusInfo(bon).getYieldChange(0))
+			sYield1 = "%2i" % (GC.getBonusInfo(bon).getYieldChange(1))
+			sYield2 = "%2i" % (GC.getBonusInfo(bon).getYieldChange(2))
 
-			iTech = gc.getBonusInfo(bon).getTechReveal()
-			if iTech in range( gc.getNumTechInfos() ):
-				sTech = gc.getTechInfo(iTech).getType()
+			iTech = GC.getBonusInfo(bon).getTechReveal()
+			if iTech in range( GC.getNumTechInfos() ):
+				sTech = GC.getTechInfo(iTech).getType()
 				sTech = sTech.replace("_", " ")
 				sTech = capWords( sTech[5:] )
-				iTechEra = gc.getTechInfo(iTech).getEra()
-				sTechEra = gc.getEraInfo(iTechEra).getType()
+				iTechEra = GC.getTechInfo(iTech).getEra()
+				sTechEra = GC.getEraInfo(iTechEra).getType()
 				sTechEra = sTechEra.replace("_", " ")
 				sTechEra = capWords( sTechEra[4:] )
 
 			bs += "\n[MST]   | %3i  | %-27s| %4i |..%2s..|..%2s..|..%1s..|%2s,%2s,%2s|" % (bon,type_string,boni[bon],sHeal,sHap,sStrat,sYield0,sYield1,sYield2)
-			if bFFH: bs += ".%4s.|" % (sMana)
+
 			if iTech>0: bs += " " + sTech + ", " + sTechEra
 			nBoni += boni[bon]
 			nHeal += boni[bon] * iHealth
 			nHap  += boni[bon] * iHappiness
 
 		bs += "\n[MST]   +------+----------------------------+------+------+------+-----+--------+"
-		if bFFH:	bs += "------+"
+
 		bs += "------------------"
 
-		bs += "\n[MST]   |      |                            | %4i | %4i | %4i |     |        |" % (nBoni, nHeal, nHap)
-		if bFFH:	bs += " %4i |" % (nMana)
-		return bs + "\n"
+		bs += "\n[MST]   |      |                            | %4i | %4i | %4i |     |        |\n" % (nBoni, nHeal, nHap)
+		return bs
 
 	# get technology prerequisites
 	def getTechPrereqLists( self, iTech ):
-#		print "[MST] ======== MapStats:getTechPrereqs()"
 		andTech = []
 		orTech = []
-		if iTech in range( gc.getNumTechInfos() ):
+		if iTech in range( GC.getNumTechInfos() ):
 			i = 0
-			while gc.getTechInfo(iTech).getPrereqAndTechs(i) in range( gc.getNumTechInfos() ):
-				andTech.append( gc.getTechInfo(iTech).getPrereqAndTechs(i) )
+			while GC.getTechInfo(iTech).getPrereqAndTechs(i) in range( GC.getNumTechInfos() ):
+				andTech.append( GC.getTechInfo(iTech).getPrereqAndTechs(i) )
 				i += 1
 			i = 0
-			while gc.getTechInfo(iTech).getPrereqOrTechs(i) in range( gc.getNumTechInfos() ):
-				orTech.append( gc.getTechInfo(iTech).getPrereqOrTechs(i) )
+			while GC.getTechInfo(iTech).getPrereqOrTechs(i) in range( GC.getNumTechInfos() ):
+				orTech.append( GC.getTechInfo(iTech).getPrereqOrTechs(i) )
 				i += 1
 		return andTech, orTech
 
 	# get technology level
 	def getTechLevel( self, iTech ):
-#		print "[MST] ======== MapStats:getTechLevel( %i )" % (iTech)
 		techLevel = -1
 		if self.techLevels.get(iTech,None) == None:
-			if iTech in range( gc.getNumTechInfos() ):
+			if iTech in range( GC.getNumTechInfos() ):
 				techLevel = 0
 				andTech, orTech = self.getTechPrereqLists( iTech )
 				if (len(andTech) > 0) or (len(orTech) > 0):
@@ -8160,57 +6618,20 @@ class MapStats:
 #		print "[MST] Tech# %3i - Level: %2i" % (iTech, techLevel)
 		return techLevel
 
-	# get list of mana-types
-	def getManaLists( self ):
-#		print "[MST] ======== MapStats:getManaLists()"
-		if bRoD:														# same as FFH
-			manaElem = [ "MANA_EARTH", "MANA_WATER", "MANA_AIR", "MANA_FIRE" ]
-			manaNec  = [ "MANA_DEATH", "MANA_CHAOS", "MANA_ENTROPY", "MANA_SHADOW" ]
-			manaDiv  = [ "MANA_LIFE", "MANA_SPIRIT", "MANA_MIND", "MANA_SUN", "MANA_LAW" ]
-			manaAlt  = [ "MANA_NATURE", "MANA_ENCHANTMENT", "MANA_BODY" ]
-			manaMeta = [ "MANA_METAMAGIC", "MANA_ICE" ]
-		elif bFF:
-			manaElem = [ "MANA_EARTH", "MANA_WATER", "MANA_AIR", "MANA_FIRE", "MANA_ICE" ]
-			manaNec  = [ "MANA_DEATH", "MANA_CHAOS", "MANA_ENTROPY", "MANA_SHADOW", "MANA_DIMENSIONAL" ]
-			manaDiv  = [ "MANA_LIFE", "MANA_SPIRIT", "MANA_MIND", "MANA_SUN", "MANA_LAW" ]
-			manaAlt  = [ "MANA_NATURE", "MANA_ENCHANTMENT", "MANA_BODY", "MANA_CREATION", "MANA_FORCE" ]
-			manaMeta = [ "MANA_METAMAGIC" ]
-		elif bWMana:
-			manaElem = [ "MANA_EARTH", "MANA_WATER", "MANA_AIR", "MANA_FIRE", "MANA_ICE" ]
-			manaNec  = [ "MANA_DEATH", "MANA_CHAOS", "MANA_ENTROPY", "MANA_SHADOW" ]
-			manaDiv  = [ "MANA_LIFE", "MANA_SPIRIT", "MANA_MIND", "MANA_SUN", "MANA_LAW" ]
-			manaAlt  = [ "MANA_NATURE", "MANA_ENCHANTMENT", "MANA_BODY", "MANA_CREATION", "MANA_FORCE" ]
-			manaMeta = [ "MANA_METAMAGIC" ]
-		elif bOrbis:
-			manaElem = [ "MANA_EARTH", "MANA_WATER", "MANA_AIR", "MANA_FIRE" ]
-			manaNec  = [ "MANA_DEATH", "MANA_CHAOS", "MANA_ENTROPY", "MANA_SHADOW" ]
-			manaDiv  = [ "MANA_SPIRIT", "MANA_MIND", "MANA_SUN", "MANA_LAW" ]
-			manaAlt  = [ "MANA_NATURE", "MANA_ENCHANTMENT", "MANA_BODY", "MANA_LIFE", "MANA_DIMENSIONAL" ]
-			manaMeta = [ "MANA_METAMAGIC", "MANA_ICE", "REFINED_MANA" ]
-		else:
-			manaElem = [ "MANA_EARTH", "MANA_WATER", "MANA_AIR", "MANA_FIRE" ]
-			manaNec  = [ "MANA_DEATH", "MANA_CHAOS", "MANA_ENTROPY", "MANA_SHADOW" ]
-			manaDiv  = [ "MANA_LIFE", "MANA_SPIRIT", "MANA_MIND", "MANA_SUN", "MANA_LAW" ]
-			manaAlt  = [ "MANA_NATURE", "MANA_ENCHANTMENT", "MANA_BODY" ]
-			manaMeta = [ "MANA_METAMAGIC", "MANA_ICE" ]
-		return [ manaElem, manaNec, manaDiv, manaAlt, manaMeta ]
-
 	# get list of all possible civilizations
 	def getCivilizationList( self, prefix = "" ):
-#		print "[MST] ======== MapStats:getCivilizationList()"
 		sCivs = ""
-		for civ in range(gc.getNumCivilizationInfos()):
-			civ_string = gc.getCivilizationInfo(civ).getType()
+		for civ in range(GC.getNumCivilizationInfos()):
+			civ_string = GC.getCivilizationInfo(civ).getType()
 			sCivs += prefix + "   Civilization: #%2i - %s \n" % (civ,civ_string)
 		sCivs += "\n"
 		return sCivs
 
 	# get list of active leader traits
 	def getTraitList( self, player ):
-#		print "[MST] ======== MapStats:getTraitList()"
-		nTraits = gc.getNumTraitInfos()
+		nTraits = GC.getNumTraitInfos()
 		sTraits = ""
-		pInfo = gc.getLeaderHeadInfo( player.getLeaderType() )
+		pInfo = GC.getLeaderHeadInfo( player.getLeaderType() )
 		bFirst = True
 		for i in range( nTraits ):
 			if ( pInfo.hasTrait(i) ):
@@ -8218,29 +6639,28 @@ class MapStats:
 					bFirst = False
 				else:
 					sTraits += ", "
-				sTraits += gc.getTraitInfo(i).getType()[6:].capitalize()
+				sTraits += GC.getTraitInfo(i).getType()[6:].capitalize()
 		return sTraits
 
 	# get culture victory conditions
 	def getCultureVictoryConditions( self ):
-#		print "[MST] ======== MapStats:getCultureVictoryConditions()"
 		# VictoryInfo
 		vic = -1
-		for i in range(gc.getNumVictoryInfos()):
-			if gc.getVictoryInfo(i).getType() == "VICTORY_CULTURAL":
+		for i in range(GC.getNumVictoryInfos()):
+			if GC.getVictoryInfo(i).getType() == "VICTORY_CULTURAL":
 				vic = i
 				break
 		if vic < 0:
 			return "  Culture Victory: None \n"
 		# num cities:
-		iNum = gc.getVictoryInfo(vic).getNumCultureCities()
+		iNum = GC.getVictoryInfo(vic).getNumCultureCities()
 		# cultureType
-		iCult = gc.getVictoryInfo(vic).getCityCulture()
+		iCult = GC.getVictoryInfo(vic).getCityCulture()
 		# cultureTypeName
-		sCult = gc.getCultureLevelInfo(iCult).getType()[13:].capitalize()
+		sCult = GC.getCultureLevelInfo(iCult).getType()[13:].capitalize()
 		# cultureWin
-		iSpeed = gc.getGame().getGameSpeedType()
-		iCultWin = gc.getCultureLevelInfo(iCult).getSpeedThreshold(iSpeed)
+		iSpeed = CyGame().getGameSpeedType()
+		iCultWin = GC.getCultureLevelInfo(iCult).getSpeedThreshold(iSpeed)
 		sCultVict = "  Culture Victory: %i Cities with %s ( %i ) Culture \n" % (iNum, sCult, iCultWin )
 		return sCultVict
 
@@ -8264,44 +6684,11 @@ class MST_TerrainGenerator(CvMapGeneratorUtil.TerrainGenerator):
 
 	# mostly from 'Mars Now!' - SandSeaTerrainGenerator
 	def generateTerrainAtPlot(self, iX, iY):
-
-		# if not Mars, then use normal terrain generator
-		if not bMars:
-			return CvMapGeneratorUtil.TerrainGenerator().generateTerrainAtPlot( iX, iY )
-
-		gc = CyGlobalContext()
-		lat = self.getLatitudeAtPlot(iX,iY)
-		pPlot = self.map.plot(iX, iY)
-
-		if pPlot.isWater():
-			pPlot.setPlotType(PlotTypes.PLOT_LAND, False, False)
-			pPlot.setTerrainType(gc.getInfoTypeForString("TERRAIN_DESERT"), False, False)
-			terrainVal = gc.getInfoTypeForString("TERRAIN_DESERT")
-
-		else:
-			terrainVal = self.terrainGrass
-			if lat >= self.fSnowLatitude:
-				terrainVal = choose( 66, self.terrainIce, self.terrainTundra )
-			elif lat >= self.fTundraLatitude:
-				terrainVal = choose( 75, self.terrainTundra, self.terrainGrass )
-			elif lat < self.fGrassLatitude:
-				terrainVal = choose( 90, self.terrainGrass, self.terrainPlains )
-			else:
-				desertVal = self.deserts.getHeight(iX, iY)
-				plainsVal = self.plains.getHeight(iX, iY)
-				if ((desertVal >= self.iDesertBottom) and (desertVal <= self.iDesertTop) and (lat >= self.fDesertBottomLatitude) and (lat < self.fDesertTopLatitude)):
-					terrainVal = choose( 66, self.terrainDesert, self.terrainPlains )
-				elif ((plainsVal >= self.iPlainsBottom) and (plainsVal <= self.iPlainsTop)):
-					terrainVal = choose( 75, self.terrainPlains, self.terrainGrass )
-
-		if (terrainVal == TerrainTypes.NO_TERRAIN):
-			terrainVal = choose( 90, self.terrainPlains, self.terrainDesert )
-
-		return terrainVal
+		return CvMapGeneratorUtil.TerrainGenerator().generateTerrainAtPlot(iX, iY)
 
 	def getLatitudeAtPlot(self, iX, iY):
 		"returns a value in the range of 0.0 (tropical) to 1.0 (polar)"
-		lat = evalLatitude( map.plot(iX,iY), False )
+		lat = evalLatitude( MAP.plot(iX,iY), False )
 
 		# Adjust latitude using self.variation fractal, to mix things up:
 		lat += (128 - self.variation.getHeight(iX, iY))/(255.0 * 5.0)
@@ -8328,7 +6715,7 @@ class MST_TerrainGenerator(CvMapGeneratorUtil.TerrainGenerator):
 class MST_FeatureGenerator(CvMapGeneratorUtil.FeatureGenerator):
 	def getLatitudeAtPlot(self, iX, iY):
 		"returns a value in the range of 0.0 (tropical) to 1.0 (polar)"
-		return evalLatitude( map.plot(iX,iY), False )
+		return evalLatitude( MAP.plot(iX,iY), False )
 
 ################################################################################
 ########## CLASS MST_FeatureGenerator END
@@ -8391,7 +6778,6 @@ print "[MST] ########### pre-init MapScriptTools ########### End"
 # mapRegions: better register and check mechanism, priorities if map is to small for all
 # put mapRegions together in MapRegionTools.py ??
 # (Planetfall) trenches and shelves - changes sometimes, not pretty, seems not quite right - make own concept?
-# mst.CivFolders() - write maps to different file, append to each other (if desired?, if same mod?, if same map?)
 # Planetfall special region?
 # look closely at region generating with CvMapGeneratorUtil.MultilayeredFractal.generatePlotsInRegion()
 # -------------- much later
@@ -8558,23 +6944,6 @@ evalLatitude( plot, bDegrees=True )
 Instantiated Classes:
 ---------------------
 
-class CivFolders:
-instance: civFolders
-.............................
-Find out where the files are.
-.............................
-getModPaths()             Example:
---- vars ---              --------
-civFolders.appName        Beyond the Sword
-civFolders.userDir        ....\My Documents\My Games
-civFolders.rootDir        ....\My Documents\My Games\Beyond the Sword
-civFolders.logDir         ....\My Documents\My Games\Beyond the Sword\Logs
-civFolders.appDir         ..\Civilization 4\Beyond the Sword
-civFolders.modName        MyMod
-civFolders.modFolder      Mods\MyMod
-civFolders.modDir         ..\Civilization 4\Beyond the Sword\Mods\MyMod
-
-
 class DeepOcean:
 instance: deepOcean
 .......................................................
@@ -8589,7 +6958,6 @@ instance: planetFallMap
 All that's needed to change maps into 'Planetfall' maps.
 ........................................................
 buildPfallOcean()
-pFallTerrain = mapPfallTerrain( eTerrain, terList, plot, terrainGen=None )
 buildPfallHighlands( iBaseChance=None )
 
 
@@ -8707,8 +7075,7 @@ instance: mapStats
 ...............................
 Don't you just love statistics?
 ...............................
-mapStatistics( bFullVersion=True )
-tPlotStats = statPlotCount( txt=None )
+mapStatistics()
 showContinents( txt=None, minPlots=3, bWater=False )
 sTechs = getTechList( prefix = "", bTechLevels=True )
 listPlayers = getCivPlayerList()
@@ -8762,34 +7129,11 @@ mst.bMars    True,False
              indicates if this mod is 'Mars Now!' or a modmod
              ( checks for 'Mars, Now!' in pedia )
 
-mst.bFFH     True,False
-             indicates if this mod is 'Fall From Heaven 2' or a modmod
-             ( checks for BONUS_MANA )
-
-mst.bFFront  True,False
-             indicates if this mod is 'Final Frontier' or a modmod
-             ( checks for FEATURE_SOLAR_SYSTEM )
-
-mst.bPatch   True,False
-             indicates if the 'CvGameCoreDLL.dll' of this mod incorporates the 'Unofficial Patch'
-             ( checks results of plot.getLatitude() )
-
-mst.bBUG     True,False
-             indicates if this mod is or incorporates the BUG-Mod
-
-mst.bBBAI    True,False
-             indicates if this mod is or incorporates the BBAI-Mod
-
-mst.bAIAuto  True,False
-             indicates if this mod incorporates 'AI AutoPlay'
-
-
 Notes:
 ------
 These tools are for the english version only.
 Several tests depend on text found in various xml-files. To be more precise:
-The english text! Of the checks mentioned that would be bBUG, bBBAI and bAIAuto
-together with most other mod-recognition checks.
+The english text!
 Any failure of the tests will probably just affect the stats though.
 
 Python 2.4 doesn't really have much of a concept for private data. The
@@ -8950,14 +7294,6 @@ Feel free to delete any superfluous comments if they distract to much:
 ##################################################################################
 import MapScriptTools as mst
 
-# The following two functions are not exactly neccessary, but they should be
-# in all map-scripts. Just comment them out if they are already in the script.
-# ----------------------------------------------------------------------------
-def getVersion():
-	return "1.20a"
-def getDescription():
-	return "MyMapScript - looks like a game world. Ver." + getVersion()
-
 # this function will be called early by the system, before any parts of tha map are created
 # - define your latitude formula, get the map-version
 # - initialize the MapScriptTools
@@ -8983,7 +7319,7 @@ def beforeGeneration():
 		sel = CyMap().getCustomMapOption( opt )
 		txt = getCustomMapOptionDescAt( [opt,sel] )
 		mapInfo += "%27s:   %s\n" % ( nam, txt )
-	mst.getModInfo( getVersion(), compGetLat, mapInfo )
+	mst.getModInfo("Map version", compGetLat, mapInfo)
 
 	# Initialize MapScriptTools.BonusBalancer
 	# balance boni: False, place missing boni: True, move minerals: True
@@ -9019,21 +7355,10 @@ def generateTerrainTypes():
 	# Prettify the map - change coastal peaks to hills with 80% chance; default: 66%
 	mst.mapPrettifier.hillifyCoast( 80 )
 
-	# If your active mod is 'Planetfall', you will have to use a different terrainGenerator.
-	if mst.bPfall or mst.bMars:
-
-		# 'Planetfall' uses shelves and trenches to spread and stop the fungus.
-		# The oceans have to be a bit reorganized to accommodate the different realities.
-		mst.planetFallMap.buildPfallOcean()
-
-		# 'Planetfall' or 'Mars Now!' need to use this TerrainGenerator to use the map-latitudes.
-		terraingen = mst.MST_TerrainGenerator()
-
-	else:
-		# Scripts may already have their own TerrainGenerator.
-		# terraingen = ThisMapTerrainGenerator()
-		# If the script doesn't have it's own, you use this one too (same as 'Planetfall').
-		terraingen = mst.MST_TerrainGenerator()
+	# Scripts may already have their own TerrainGenerator.
+	# terraingen = ThisMapTerrainGenerator()
+	# If the script doesn't have it's own, you can use this one.
+	terraingen = mst.MST_TerrainGenerator()
 
 	# Create the terrain and return the result.
 	terrainTypes = terraingen.generateTerrain()
@@ -9057,10 +7382,8 @@ def addRivers():
 	mst.marshMaker.initialize( 4, 20, (0,25), (50,75) )
 	mst.marshMaker.convertTerrain()
 	# Solidify marsh between 2 [Arid,LowSea] and 8 [Tropical,HighSea] percent.
-	if not mst.bPfall:
-		if mst.bMarsh:
-			marshPer = 5 - mst.marshMaker.getAridity()
-			mst.mapPrettifier.percentifyTerrain( (mst.etMarsh,marshPer), (mst.etTundra,1), (mst.etGrass,2) )
+	marshPer = 5 - mst.marshMaker.getAridity()
+	mst.mapPrettifier.percentifyTerrain( (mst.etMarsh,marshPer), (mst.etTundra,1), (mst.etGrass,2) )
 
 	# Build between 0..3 mountain-ranges.
 	mst.mapRegions.buildBigDents()
@@ -9092,8 +7415,7 @@ def addRivers():
 # ------------------------------------------------------------------------------------
 def addLakes():
 	print "-- addLakes()"
-	if not mst.bMars:
-		CyPythonMgr().allowDefaultImpl()
+	CyPythonMgr().allowDefaultImpl()
 
 # This function will be called by the system, after addLakes() and before addBonuses()
 # - prettify lakes
@@ -9109,16 +7431,11 @@ def addFeatures():
 	mst.mapPrettifier.connectifyLakes( 90 )
 
 	# If your active mod is 'Planetfall', you have to call a different generator.
-	if mst.bPfall or mst.bMars:
-		# 'Planetfall' or 'Mars Now!' need to use this FeatureGenerator to use the map-latitudes.
-		featuregen = mst.MST_FeatureGenerator()
-		featuregen.addFeatures()
-	else:
-		# Rename the scripts addFeatures() function and call it here.
-		addFeatures2()							# call renamed script function
-		# If the script doesn't have it's own generator, you use this one too:
-#		terraingen = mst.MST_FeatureGenerator()
-#		featuregen.addFeatures()
+	# Rename the scripts addFeatures() function and call it here.
+	addFeatures2()							# call renamed script function
+	# If the script doesn't have it's own generator, you use this one too:
+	#terraingen = mst.MST_FeatureGenerator()
+	#featuregen.addFeatures()
 
 	# Prettify the map - transform coastal volcanos; default: 66% chance
 	mst.mapPrettifier.beautifyVolcanos( 80 )
@@ -9152,26 +7469,22 @@ def normalizeStartingPlotLocations():
 # prevent additional rivers on Mars
 def normalizeAddRiver():
 	print "-- normalizeAddRiver()"
-	if not mst.bMars:
-		CyPythonMgr().allowDefaultImpl()
+	CyPythonMgr().allowDefaultImpl()
 
 # prevent additional lakes on Mars
 def normalizeAddLakes():
 	print "-- normalizeAddLakes()"
-	if not mst.bMars:
-		CyPythonMgr().allowDefaultImpl()
+	CyPythonMgr().allowDefaultImpl()
 
 # prevent terrain changes on Mars
 def normalizeRemoveBadTerrain():
 	print "-- normalizeRemoveBadTerrain()"
-	if not mst.bMars:
-		CyPythonMgr().allowDefaultImpl()
+	CyPythonMgr().allowDefaultImpl()
 
 # prevent terrain changes on Mars
 def normalizeAddGoodTerrain():
 	print "-- normalizeAddGoodTerrain()"
-	if not mst.bMars:
-		CyPythonMgr().allowDefaultImpl()
+	CyPythonMgr().allowDefaultImpl()
 
 # This function will be called by the system, after the map was generated, after the
 # starting-plots have been choosen, at the end of the normalizing process and
@@ -9236,13 +7549,6 @@ def normalizeAddExtras():
 # 'Planetfall' wants nearer starting-plots
 # If the script already has this function, return that result instead of zero or rename it.
 def minStartingDistanceModifier():
-	if mst.bPfall: return -25
 	return 0
 ##################################################################################
-
 '''
-
-
-
-
-

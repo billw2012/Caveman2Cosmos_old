@@ -188,7 +188,6 @@ class Dispatcher:
 		self._setDefault("canCreate", False)
 		self._setDefault("cannotCreate", False)
 		self._setDefault("canMaintain", False)
-		self._setDefault("cannotMaintain", False)
 		self._setDefault("AI_chooseTech", TechTypes.NO_TECH)
 		self._setDefault("AI_chooseProduction", False)
 		self._setDefault("AI_unitUpdate", False)

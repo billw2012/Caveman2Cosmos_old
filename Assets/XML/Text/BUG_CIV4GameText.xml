@@ -116,14 +116,6 @@
 		<Spanish>[ICON_BULLET]Doblará [NUM1:el:la:los:las] %s1_commerce_type en %d2 años</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_ERA</Tag>
-		<English>%s1 Era</English>
-		<French>%s1</French>
-		<German>%s1</German>
-		<Italian>Era %s1</Italian>
-		<Spanish>%s1</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_FINANCIAL_ADVISOR_BUILDING_COUNT_AVERAGE</Tag>
 		<English>(%d1 × %s2[ICON_GOLD])</English>
 	</TEXT>
@@ -178,38 +170,6 @@
 		<German>Handel mit %%s1_PlyrName (%s2_CivName)</German>
 		<Italian>Commercio con %%s1_PlyrName (%s2_CivName)</Italian>
 		<Spanish>Comercio con %%s1_PlyrName de %s2_CivName</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_HELP_LANGUAGE</Tag>
-		<English>BUG Mod Help - ENG.chm</English>
-		<French>Aide du Mod BUG - FRA.chm</French>
-		<German>BUG Mod Help - DEU.chm</German>
-		<Italian>BUG Mod Help - ITA.chm</Italian>
-		<Spanish>BUG Mod Help - ESP.chm</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_HELP_MISSING_BODY</Tag>
-		<English>Could not find the file "%s1" in the search paths. See the System tab on the BUG Options screen [ALT + CTRL + O] for details.</English>
-		<French>Impossible de trouver le fichier "%s1" dans les chemins recherchés. Voir l'onglet 'Système' dans l'écran d'options du Mod BUG [ALT + CTRL + O] pour plus de détails.</French>
-		<German>Die Datei "%s1" konnte innerhalb der erkannten Pfade nicht gefunden werden. Details finden Sie im Reiter "System" im Optionsbildschirm der BuG Mod (Tastenkombination [STRG + ALT + O]).</German>
-		<Italian>Impossibile trovare il file "%s1" nei percorsi di ricerca. Vedi la tabella 'System' nella Schermata di Opzioni del BUG Mod [ALT + CTRL + O] per maggiori dettagli.</Italian>
-		<Spanish>Imposible encontrar el archivo "%s1" en las rutas de búsqueda. Revisa la pestaña 'Sistema' en la pantalla de opciones del Mod BUG (ALT + CTRL + O) para obtener más detalles.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_HELP_MISSING_TITLE</Tag>
-		<English>Help File Not Found</English>
-		<French>Fichier d'Aide non Trouvé</French>
-		<German>Hilfe-Datei nicht gefunden</German>
-		<Italian>Guida del BUG Mod non trovata</Italian>
-		<Spanish>Archivo de ayuda no encontrado</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_HELP_OPENING</Tag>
-		<English>Opening the BUG Mod help file...</English>
-		<French>Ouverture du fichier d'aide du BUG Mod...</French>
-		<German>Öffnen der Hilfe-Datei der BUG Mod...</German>
-		<Italian>Apertura della Guida del BUG Mod in corso...</Italian>
-		<Spanish>Abriendo el archivo de ayuda del Mod BUG...</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_ACO__DEBUG_HOVER</Tag>
@@ -598,38 +558,6 @@
 		<Spanish>Confirmación de tala para mejoras</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_ACTIONS__SENTRYHEALING_HOVER</Tag>
-		<English>When checked, units ordered to heal will awaken when they spot danger, acting like sentries.</English>
-		<French>Lorsque activé,  Les unités en guérison veillent et se réveillent lorsqu'un danger apparait.</French>
-		<German>Veranlasst Einheiten, die sich gerade heilen, bei Gefahr aktiv zu werden</German>
-		<Italian>Quando è selezionato, le Unità che hanno ricevuto l'ordine di curarsi si riattiveranno quando avvertono un pericolo, fungendo da sentinelle.</Italian>
-		<Spanish>Cuando se activa, las unidades que se estén curando se activarán si detectan peligro, actuando como centinelas.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_ACTIONS__SENTRYHEALING_TEXT</Tag>
-		<English>Sentry While Healing</English>
-		<French>Sentinelle pendant la Guérison</French>
-		<German>Wache bei Heilung</German>
-		<Italian>Sentinella durante la guarigione</Italian>
-		<Spanish>Centinela durante la curación</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_ACTIONS__SENTRYHEALINGONLYNEUTRAL_HOVER</Tag>
-		<English>When checked, if Sentry While Healing is enabled, units will awaken to danger only when in neutral territory. This stops your attacking force from waking up each turn outside an enemy city or your defenders inside friendly territory.</English>
-		<French>Lorsque activé en combinaison de l'option 'Sentinelle pendant la guérison', les unités se réveillent uniquement dans les territoires neutres. Cela atténue le réveil systématique de vos forces d'attaque ou de défense.</French>
-		<German>Falls die Option "Wache bei Heilung" gewählt wurde, werden Einheiten nur bei Gefahr aktiv, wenn sie sich in neutralem Gebiet befinden (verhindert beispielsweise, dass sich heilende Einheiten während eines Angriffs auf eine feindliche Stadt oder verteidigende Einheiten in befreundetem Gebiet jede Runde wieder aktiv werden)</German>
-		<Italian>Quando è selezionato, se è stata abilitata l'opzione 'Sentinella durante la guarigione', le Unità che hanno ricevuto l'ordine di curarsi si riattiveranno quando avvertono un pericolo solamente se si trovano in territorio neutrale. Ciò vi eviterà alle vostre forze d'attacco di attivarsi ogni turno in prossimità di una Città nemica ed alle vostre forze di difesa di riattivarsi in territorio nemico.</Italian>
-		<Spanish>Cuando se activa, si la opción 'Centinela durante la curación' está activada, las unidades se activarán solamente en territorio neutral. Esto hará que tus fuerzas atacantes o defensoras dejen de activarse constantemente en situaciones de guerra.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_ACTIONS__SENTRYHEALINGONLYNEUTRAL_TEXT</Tag>
-		<English>Only Neutral Territory</English>
-		<French>Territoire Neutre uniquement</French>
-		<German>Nur in neutralem Gebiet</German>
-		<Italian>Solo in territorio neutrale</Italian>
-		<Spanish>Solo en territorio neutral</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_ADVISORS__BUGFINANCEADVISOR_HOVER</Tag>
 		<English>When checked, uses the BUG Finance Advisor (requires restart).</English>
 		<French>Lorsque activé, utilise le Conseiller Financier BUG (nécessite le redémarrage du jeu).</French>
@@ -875,22 +803,6 @@
 		<German>GP-Technologien</German>
 		<Italian>Ricerche dei GP</Italian>
 		<Spanish>Investigación de GP</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_ADVISORS__SEVOPEDIA_HOVER</Tag>
-		<English>When checked, uses the Sevopedia (requires restart).</English>
-		<French>Lorsque Activé, utilise le 'Sevopedia' (Requiert le redémarrage du Jeu).</French>
-		<German>Aktiviert die "Sevopedia" (erfordert Neustart)</German>
-		<Italian>Quando è selezionato, viene utilizzata la Sevopedia invece della Civilopedia (è richiesto un riavvio perché il cambiamento abbia effetto).</Italian>
-		<Spanish>Cuando se activa, utiliza la Sevopedia en lugar de la Civilopedia normal (requiere reiniciar).</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_ADVISORS__SEVOPEDIA_TEXT</Tag>
-		<English>Enabled</English>
-		<French>Activé</French>
-		<German>Aktivieren</German>
-		<Italian>Attivata</Italian>
-		<Spanish>Activada</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_ADVISORS__SEVOPEDIASORTITEMLIST_HOVER</Tag>
@@ -2052,7 +1964,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOSAVE__CREATEENDSAVE_HOVER</Tag>
-		<English>When checked, a saved game is created when the game is won/lost.</English>
+		<English>When checked, a save is made when the game is won/lost.</English>
 		<French>Lorsque activé, une sauvegarde est créée lorsque le jeu est gagné/perdu.</French>
 		<German>Erzeugt einen Spielstand, wenn eine Partie gewonnen/verloren wird</German>
 		<Italian>Quando è selezionato, viene creato un salvataggio quando viene vinta/persa la partita.</Italian>
@@ -2060,15 +1972,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOSAVE__CREATEENDSAVE_TEXT</Tag>
-		<English>End Save</English>
-		<French>Sauvegarde à la fin</French>
-		<German>Am Ende speichern</German>
-		<Italian>Salvataggio finale</Italian>
-		<Spanish>Guardar al final</Spanish>
+		<English>Game Over</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOSAVE__CREATEEXITSAVE_HOVER</Tag>
-		<English>When checked, a saved game is created when you exit using the menu's EXIT TO DESKTOP or EXIT TO MENU commands. [COLOR_YELLOW]The game is not saved automatically if you press ALT + F4.[COLOR_REVERT]</English>
+		<English>When checked, a save is made when you exit using the menu's EXIT TO DESKTOP or EXIT TO MENU commands. [COLOR_YELLOW]The game is not saved automatically if you press ALT + F4.[COLOR_REVERT]</English>
 		<French>Lorsque activé, une sauvegarde est créée lorsqu'on quitte le jeu (Retour au bureau ou au Menu). [COLOR_YELLOW]Le Jeu n'est pas sauvegardé en utilisant ALT + F4.[COLOR_REVERT]</French>
 		<German>Erzeugt einen Spielstand, wenn eine Partie über die Menübefehle "Programm beenden" oder "Zurück zum Hauptmenü" verlassen wird ([COLOR_YELLOW]Es wird nicht automatisch gespeichert, wenn das Spiel über die Tastenkombination [ALT + F4] verlassen wird[COLOR_REVERT])</German>
 		<Italian>Quando è selezionato, viene creato un salvataggio quando si esce dal gioco utilizzando le opzioni del menù "Ritorna al desktop" o "ritorna al menù principale". [COLOR_YELLOW]La partita non viene salvata automaticamente se si preme la combinazione di tasti 'ALT + F4'.[COLOR_REVERT]</Italian>
@@ -2076,15 +1984,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOSAVE__CREATEEXITSAVE_TEXT</Tag>
-		<English>Exit Save</English>
-		<French>Sauvegarder en Quittant</French>
-		<German>Beim Beenden speichern</German>
-		<Italian>Salvataggio all'uscita</Italian>
-		<Spanish>Guardar al salir</Spanish>
+		<English>Exit Game</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOSAVE__CREATELATESAVE_HOVER</Tag>
+		<English>When checked, a save is made after all units have moved.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOSAVE__CREATELATESAVE_TEXT</Tag>
+		<English>Late Turn</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOSAVE__CREATESTARTSAVE_HOVER</Tag>
-		<English>When checked, a saved game is created after (re)generating the map.</English>
+		<English>When checked, a save is made after (re)generating the map.</English>
 		<French>Lorsque activé, une sauvegarde est créée de suite à la génération de la carte.</French>
 		<German>Erzeugt einen Spielstand, wenn eine Karte (neu-)erstellt wurde</German>
 		<Italian>Quando è selezionato, viene creato un salvataggio dopo la rigenerazione della mappa.</Italian>
@@ -2092,19 +2004,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOSAVE__CREATESTARTSAVE_TEXT</Tag>
-		<English>Start Save</English>
-		<French>Sauvegarde au départ</French>
-		<German>Am Anfang speichern</German>
-		<Italian>Salvataggio iniziale</Italian>
-		<Spanish>Guardar al principio</Spanish>
+		<English>Game Start</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOSAVE__INTERVAL_HOVER</Tag>
+		<English>Turns between autosaves, used by late turn autosaving.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_AUTOSAVE__INTERVAL_TEXT</Tag>
+		<English>Interval</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOSAVE__USEPLAYERNAME_HOVER</Tag>
-		<English>When checked, your player name is used for the saved game name along with the turn year. Otherwise the name is a concatenation of 3-letter versions of Leader Name, Difficulty, Map Size, Map Type, Speed, Era, Year, Climate and Sea Level. This setting does not affect MapFinder saves.</English>
-		<French>Lorsque activé, Le nom du joueur est utilisé comme identifiant de la sauvegarde. Sinon, c'est une concatenation du nom du Leader, de la Difficulté, la taille et le type de la carte, la vitesse,... Ces paramètres n'affectent pas les Sauvegardes du 'MapFinder'.</French>
-		<German>Verwendet den Spielername zusammen mit dem Spieljahr als Name des Spielstands. Ansonsten besteht der Name aus Dreibuchstabenabkürzungen des Namens des Oberhaupts, des Schwierigkeitsgrades, der Kartengröße, des Kartentyps, der Geschwindigkeit, der Epoche, des Spieljahres, des Klimas und der Meereshöhe (diese Option hat keinen Einfluss auf MapFinder-Spielstände)</German>
-		<Italian>Quando è selezionato, per il nome del file di salvataggio viene utilizzato il tuo nome giocatore insieme all'anno del turno corrente. Altrimenti, il nome del file è una stringa costituita dalle abbreviazioni triletterali del nome del Leader, del livello di difficoltà, della dimensione della Mappa, del tipo di Mappa, della velocità, dell'Era, dell'anno, del clima e del livello marino. Questa impostazione non influenza i salvataggi di MapFinder.</Italian>
-		<Spanish>Cuando se activa, se usará el nombre de tu jugador para el nombre de la partida guardada, junto con el año del turno en curso. Si no, el nombre de la partida guardada será una concatenación de acrónimos de 3 letras de los siguientes parámetros: nombre del líder, dificultad, tamaño del mapa, tipo de mapa, velocidad, era, año, clima y nivel del mar. Esta configuración no afecta a guardados de MapFinder.</Spanish>
+		<English>When checked, your player name is used in the save file name instead of the name of your leader.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_AUTOSAVE__USEPLAYERNAME_TEXT</Tag>
@@ -2113,214 +2025,6 @@
 		<German>Spielername verwenden</German>
 		<Italian>Utilizza il nome del giocatore</Italian>
 		<Spanish>Utilizar el nombre del jugador</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__BADRATIOCOLOR_HOVER</Tag>
-		<English>Color used for bad espionage ratios.</English>
-		<French>Couleur utilisée pour les mauvais proratas d'espionnage.</French>
-		<German>Bestimmt die Farbe, in der schlechte Spionagepunktverhältnisse erscheinen</German>
-		<Italian>Colore utilizzato per i rapporti di spionaggio negativi (in base al precedente livello).</Italian>
-		<Spanish>Color utilizado para un balance negativo en espionaje.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__BADRATIOCOLOR_TEXT</Tag>
-		<English>Bad Color</English>
-		<French>Mauvaise Couleur</French>
-		<German>Farbe (schlecht)</German>
-		<Italian>Colore negativo</Italian>
-		<Spanish>Color negativo</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__BADRATIOCUTOFF_HOVER</Tag>
-		<English>Ratios greater than or equal to this value are colored with the following color.</English>
-		<French>Un prorata égal ou plus que cette valeur aura la couleur suivante.</French>
-		<German>Schlechte Spionagepunktverhältnisse größer oder gleich diesem Wert erscheinen in der definierten Farbe</German>
-		<Italian>I rapporti di spionaggio maggiori od uguali di questo valore vengono colorati con il colore seguente.</Italian>
-		<Spanish>Un ratio mayor o igual a este valor se coloreará con el siguiente color.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__BADRATIOCUTOFF_TEXT</Tag>
-		<English>Bad Ratio Cutoff</English>
-		<French>Limite du Mauvais Prorata</French>
-		<German>Schlechtes Punkteverhältnis</German>
-		<Italian>Livello dei rapporti negativi</Italian>
-		<Spanish>Corte para balance negativo</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__CLOSEMISSIONCOLOR_HOVER</Tag>
-		<English>Color used for missions that you can perform soon (you have close to enough EPs against the target).</English>
-		<French>Couleur utilisée pour indiquer les missions qui sont envisageables, presque possibles (vous avez presque assez de PE).</French>
-		<German>Bestimmt die Farbe, in der bald durchführbare Spionagemissionen erscheinen (d.h. es sind fast genug Spionagepunkte investiert worden)</German>
-		<Italian>Colore utilizzato per le Missioni che potrai eseguire presto (perché hai quasi abbastanza Punti Spionaggio contro il bersaglio).</Italian>
-		<Spanish>Color utilizado para misiones que estás cerca de poder realizar (tienes casi los PE necesarios contra el objetivo).</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__CLOSEMISSIONCOLOR_TEXT</Tag>
-		<English>Close Mission Color</English>
-		<French>Couleur des Missions Envisageables</French>
-		<German>Farbe (bald durchführbar)</German>
-		<Italian>Colore di Missione pross. poss.</Italian>
-		<Spanish>Color de misión casi posible</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__CLOSEMISSIONPERCENT_HOVER</Tag>
-		<English>Determines how close your EPs have to be to the cost of a mission for it to be considered close to possible.</English>
-		<French>Détermine quel pourcentage de PE vous devez avoir pour qu'une mission soit considérée Envisageable.</French>
-		<German>Bestimmt den Grenzbereich, ab dem eine Spionagemission als bald durchführbar gekennzeichnet wird</German>
-		<Italian>Determina quanto vicino (in percentuale) devono essere i tuoi Punti Spionaggio al costo di una Missione perché questa debba essere considerata di prossima fattibilità.</Italian>
-		<Spanish>Determina cuánto de cerca (en tanto por ciento) deben estar tus PE al coste de una misión para que sea considerada como cercana a posible.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__CLOSEMISSIONPERCENT_TEXT</Tag>
-		<English>Close Percent Cutoff</English>
-		<French>Limite des Missions Envisageables</French>
-		<German>Grenzbereich (bald durchführbar)</German>
-		<Italian>Livello di prossimità percentuale</Italian>
-		<Spanish>Corte de porcentaje de proximidad</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__DEFAULTRATIOCOLOR_HOVER</Tag>
-		<English>Default color used for espionage ratios.</English>
-		<French>Couleur utilisée par défaut pour les proratas d'espionnage.</French>
-		<German>Bestimmt die Standardfarbe, in der das Spionagepunktverhältnis erscheint</German>
-		<Italian>Colore standard usato per i rapporti di spionaggio.</Italian>
-		<Spanish>Color por defecto utilizado para los ratios de espionaje.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__DEFAULTRATIOCOLOR_TEXT</Tag>
-		<English>Ratio Color</English>
-		<French>Couleur de prorata</French>
-		<German>Standardfarbe</German>
-		<Italian>Colore del rapporto</Italian>
-		<Spanish>Color del ratio</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__ENABLED_HOVER</Tag>
-		<English>When checked, uses Almightix's Better Espionage Screen.</English>
-		<French>Lorsque activé, utilise le mod 'Better Espionage Screen' de Almightix.</French>
-		<German>Aktiviert den verbesserten Spionagebildschirm (verwendet Almightix' "Better Espionage Screen"-Mod)</German>
-		<Italian>Quando è selezionato, viene utilizzata la schermata di spionaggio migliorata del Better Espionage Screen Mod di Almightix.</Italian>
-		<Spanish>Cuando se activa, utiliza la Vista de espionaje mejorada de Almightix.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__ENABLED_TEXT</Tag>
-		<English>Better Espionage Screen</English>
-		<French>Ecran d'Espionnage amélioré</French>
-		<German>Besserer Spionagebildschirm</German>
-		<Italian>Schermata di Spionaggio Migliorata</Italian>
-		<Spanish>Vista de espionaje mejorada</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__GOODRATIOCOLOR_HOVER</Tag>
-		<English>Color used for good espionage ratios.</English>
-		<French>Couleur utilisé pour les bons prorata d'espionnage.</French>
-		<German>Bestimmt die Farbe, in der gute Spionagepunktverhältnisse erscheinen</German>
-		<Italian>Colore utilizzato per i rapporti di spionaggio positivi (in base al precedente livello).</Italian>
-		<Spanish>Color utilizado para un balance positivo en espionaje.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__GOODRATIOCOLOR_TEXT</Tag>
-		<English>Good Color</English>
-		<French>Bonne Couleur</French>
-		<German>Farbe (gut)</German>
-		<Italian>Colore positivo</Italian>
-		<Spanish>Color positivo</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__GOODRATIOCUTOFF_HOVER</Tag>
-		<English>Ratios less than or equal to this value are colored with the following color.</English>
-		<French>Un pro-rata égal ou moins que cette valeur aura la couleur suivante.</French>
-		<German>Gute Spionagepunktverhältnisse kleiner oder gleich diesem Wert erscheinen in der definierten Farbe</German>
-		<Italian>I rapporti di spionaggio minori od uguali di questo valore vengono colorati con il colore seguente.</Italian>
-		<Spanish>Un ratio menor o igual a este valor se coloreará con el siguiente color.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__GOODRATIOCUTOFF_TEXT</Tag>
-		<English>Good Ratio Cutoff</English>
-		<French>Limite du Bon Prorata</French>
-		<German>Gutes Punkteverhältnis</German>
-		<Italian>Livello dei rapporti positivi</Italian>
-		<Spanish>Corte para balance positivo</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__POSSIBLEMISSIONCOLOR_HOVER</Tag>
-		<English>Color used for missions that you can perform now (you have enough EPs against the target).</English>
-		<French>Couleur pour les missions que vous pouvez entreprendre maintenant (vous avez assez de PE sur la cible ).</French>
-		<German>Bestimmt die Farbe, in der sofort durchführbare Spionagemissionen erscheinen (d.h. es sind genug Spionagepunkte investiert worden)</German>
-		<Italian>Colore utilizzato per le Missioni che puoi eseguire (perché hai abbastanza Punti Spionaggio contro il bersaglio).</Italian>
-		<Spanish>Color utilizado para misiones que puedes realizar (tienes suficientes PE contra el objetivo).</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__POSSIBLEMISSIONCOLOR_TEXT</Tag>
-		<English>Possible Mission Color</English>
-		<French>Couleur des Missions Possibles</French>
-		<German>Farbe (durchführbar)</German>
-		<Italian>Colore di Missione possibile</Italian>
-		<Spanish>Color para misiones posibles</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__SHOWCALCULATEDINFORMATION_HOVER</Tag>
-		<English>When checked, shows calculated espionage information.</English>
-		<French>Lorsque activé, montre les informations détaillées calculées concernant l'espionnage.</French>
-		<German>Zeigt errechnete Spionage-Informationen an</German>
-		<Italian>Quando è selezionato, mostra valori calcolati delle info dello spionaggio.</Italian>
-		<Spanish>Cuando se activa, muestra la información de espionaje calculada.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BETTERESPIONAGE__SHOWCALCULATEDINFORMATION_TEXT</Tag>
-		<English>Show Calculated Information</English>
-		<French>Voir les calculs</French>
-		<German>Errechnete Informationen</German>
-		<Italian>Mostra Informazioni Calcolate</Italian>
-		<Spanish>Mostrar información calculada</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BUFFY__ENABLED_HOVER</Tag>
-		<English>When checked, BUFFY is in operation.</English>
-		<French>Lorsque sélectionné, BUFFY est actif.</French>
-		<German>Aktiviert BUFFY</German>
-		<Italian>Quando è selezionato, il BUFFY Mod è attivo.</Italian>
-		<Spanish>Cuando se activa, BUFFY está operativo.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BUFFY__ENABLED_TEXT</Tag>
-		<English>Enabled</English>
-		<French>Activé</French>
-		<German>Aktivieren</German>
-		<Italian>Attivato</Italian>
-		<Spanish>Activado</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BUFFY__WARNINGSDAWNOFMAN_HOVER</Tag>
-		<English>When checked, BUFFY warnings are shown on the Dawn of Man screen.</English>
-		<French>Lorsque sélectionné, les avertissement BUFFY sont affichés sur l'écran 'Dawn of Man'.</French>
-		<German>Zeigt die BUFFY-Warnungen beim Bildschirm "Gründung der Zivilisation"</German>
-		<Italian>Quando è selezionato, mostra gli avvenimenti del BUFFY Mod nella schermata 'Dawn of Man'.</Italian>
-		<Spanish>Cuando se activa, las advertencias de BUFFY se muestran en la Vista de fundación de civilización.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BUFFY__WARNINGSDAWNOFMAN_TEXT</Tag>
-		<English>Warnings on Dawn of Man</English>
-		<French>Avertissements concernant 'Dawn of Man'</French>
-		<German>BUFFY-Warnungen bei Gründung der Zivilisation</German>
-		<Italian>Mostra gli avvertimenti in 'Dawn of Man'</Italian>
-		<Spanish>Advertencias en la fundación de civilización</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BUFFY__WARNINGSSETTINGS_HOVER</Tag>
-		<English>When checked, BUFFY warnings are shown on the Settings tab of the Victory Screen.</English>
-		<French>Lorsque sélectionné, les avertissement BUFFY sont affichés dans l'onglet propriétés de l'écran de Victoire.</French>
-		<German>Zeigt die BUFFY-Warnungen beim Bildschirm "Einstellungen"</German>
-		<Italian>Quando è selezionato, mostra gli avvenimenti del BUFFY Mod nella schermata delle Impostazioni.</Italian>
-		<Spanish>Cuando se activa, las advertencias de BUFFY se muestran en la pestaña de Configuración, en la Vista de victoria.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_BUFFY__WARNINGSSETTINGS_TEXT</Tag>
-		<English>Warnings on Settings tab</English>
-		<French>Avertissements dans l'onglet de propriétés</French>
-		<German>BUFFY-Warnungen bei Einstellungen</German>
-		<Italian>Mostra gli avvertimenti nelle Impostazioni</Italian>
-		<Spanish>Advertencias en la pestaña de Configuración</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_CITYBAR__AIRPORTICONS_HOVER</Tag>
@@ -2794,38 +2498,6 @@
 		<Spanish>Contador de insatisfacción</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__CULTURETURNS_HOVER</Tag>
-		<English>When checked, displays the number of turns until the city's borders expand.</English>
-		<French>Lorsque activé, le nombre de tours nécessaire à l'expansion des frontières culturelles est affiché.</French>
-		<German>Zeigt in der Kulturanzeige die Anzahl der Runden an, bis sich die Kulturgrenzen einer Stadt erweitern</German>
-		<Italian>Quando è selezionato, viene visualizzato il numero di turni mancanti alla successiva espansione culturale.</Italian>
-		<Spanish>Cuando se activa, muestra el número de turnos que faltan para la expansión cultural.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__CULTURETURNS_TEXT</Tag>
-		<English>Culture Turns</English>
-		<French>Tours de Culture</French>
-		<German>Kulturanzeige (verbleibende Runden)</German>
-		<Italian>Turni per l'espansione culturale</Italian>
-		<Spanish>Turnos para expansión</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__FOODASSIST_HOVER</Tag>
-		<English>When checked, displays the food difference generated per turn (plus or minus) and the number of turns until starvation when the food supply is shrinking.</English>
-		<French>Lorsque activé, affiche la différence générée par tour, et le nombre de tours jusqu'à la Famine lorsque le stock de nourriture diminue.</French>
-		<German>Zeigt die (positive oder negative) Abweichung der erwirtschafteten Nahrungserträge pro Runde an und außerdem die Anzahl der Runden, bis eine Hungersnot ausbricht und der Nahrungsvorrat zu schrumpfen beginnt</German>
-		<Italian>Quando è selezionato, visualizza la differenza del cibo generato ogni turno (positiva o negativa); quando le risorse alimentari sono in riduzione, visualizza anche il numero di turni fino alla carestia.</Italian>
-		<Spanish>Cuando se activa, muestra el incremento de alimentos generado por turno (positivo o negativo) y el número de turnos hasta la reducción por hambruna cuando el suministro de alimentos es escaso.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__FOODASSIST_TEXT</Tag>
-		<English>Detailed Food Info</English>
-		<French>Infos Détaillées de la Nourriture</French>
-		<German>Ausführliche Nahrungserträge</German>
-		<Italian>Informazioni alimentari dettagliate</Italian>
-		<Spanish>Informacion detallada de alimentos</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__GREATPERSONINFO_HOVER</Tag>
 		<English>When checked, displays the percentage chance and type of each possible [ICON_GREATPEOPLE] on the bar. The number shown is controlled by the General setting.</English>
 		<French>Lorsque activé, affiche le pourcentage de probabilité de chaque type de [ICON_GREATPEOPLE] dans la barre. Le Nombre de pourcentages affichés est géré dans l'onglet Général.</French>
@@ -3018,20 +2690,6 @@
 		<Spanish>Producir unidades militares repetidamente</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONSTARTED_HOVER</Tag>
-		<English>When checked, displays the remaining turns in cyan for items that have been started.</English>
-		<French>Lorsque activé, affiche le nombre de tours restants pour les objets qui ont déjà été commencés en Cyan.</French>
-		<German>Färbt die bis zur Fertigstellung eines Projekts verbleibenden Runden Blau ein</German>
-		<Spanish>Cuando se activa, muestra los turnos restantes de construcción en turquesa para los elementos cuya producción se ha comenzado.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__PRODUCTIONSTARTED_TEXT</Tag>
-		<English>Color Started Items</English>
-		<French>Eléments Commencé en Couleur</French>
-		<German>Baufortschritt einfärben</German>
-		<Spanish>Color de elemento en progreso</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__RAWYIELDS_HOVER</Tag>
 		<English>When checked, the raw breakdowns for [ICON_FOOD], [ICON_PRODUCTION], and [ICON_COMMERCE] are displayed in the trade routes table.</English>
 		<French>Lorsque activé, les apports bruts de [ICON_FOOD], [ICON_PRODUCTION], et [ICON_COMMERCE] sont affichés dans le tableau des routes commerciales.</French>
@@ -3093,30 +2751,6 @@
 		<German>Standardanzeige</German>
 		<Italian>Vista predefinita</Italian>
 		<Spanish>Vista por defecto</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__SPECIALISTS_HOVER</Tag>
-		<English>Determines how specialists are displayed:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Default[COLOR_REVERT] - Shows specialists using the vanilla BtS format.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Stacker[COLOR_REVERT] - Shows specialists stacked using the Stacked Specialist mod.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Chevron[COLOR_REVERT] - Shows specialists grouped into 5 (single chevron), 10 (capped chevron) and 20 (boxed capped chevron) format.</English>
-		<French>Détermine comment les spécialistes sont affichés.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Défaut[COLOR_REVERT] - affiche les spécialistes comme BtS.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Groupe[COLOR_REVERT] - Groupe les spécialistes.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Chevrons[COLOR_REVERT] - Groupe les spécialistes par groupes de 5 (simple chevron), 10 (chevron plein) et 20 (chevrons pleins plus carré).</French>
-		<German>Bestimmt die Anordnung der Spezialisten im Stadt-Bildschirm:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Standard[COLOR_REVERT] - Spezialisten werden wie in "Beyond the Sword" angeordnet[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Stapel[COLOR_REVERT] - Spezialisten werden gestapelt angeordnet (verwendet die "Stacked Specialist"-Mod)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Chevron[COLOR_REVERT] - Spezialisten werden zu Gruppen aus 5 (einfaches Chevron), 10 (geschlossenes Chevron) und 20 (eingerahmtes geschlossenes Chevron) Spezialisten zusammengefasst</German>
-		<Italian>Determina quanti Specialisti vengono mostrati:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Predefinito[COLOR_REVERT] - mostra gli Specialisti utilizzando il formato standard di Civ4:BtS;[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Impilati[COLOR_REVERT] - mostra gli Specialisti utilizzando il formato a pile dello 'Stacked Specialist Mod';[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Galloni[COLOR_REVERT] - mostra gli Specialisti raggruppati per 5, 10 e 20 utilizzando il formato a galloni dello 'Chevron Mod'.</Italian>
-		<Spanish>Determina cómo se muestran los especialistas:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Predeterminado[COLOR_REVERT] - muestra los especialistas utilizando el formato original de BTS.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Apilados[COLOR_REVERT] - muestra los especialistas utilizando el mod "Stacked Specialist".[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Galones[COLOR_REVERT] - Muestra los especialistas agrupados en 5, 10 y 20 representados por distintos tipos de galones.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__SPECIALISTS_LIST</Tag>
-		<English>Default|Stacker|Chevron</English>
-		<French>Défaut|Groupes|Chevrons</French>
-		<German>Standard|Stapel|Chevron</German>
-		<Italian>Predefinito|Impilati|Galloni</Italian>
-		<Spanish>Predeterminado|Apilados|Galones</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__SPECIALISTS_TEXT</Tag>
-		<English>City Specialists</English>
-		<French>Spécialistes</French>
-		<German>Anordnung der Spezialisten</German>
-		<Italian>Specialisti</Italian>
-		<Spanish>Especialistas</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_CITYSCREEN__WHIPASSIST_HOVER</Tag>
@@ -3422,22 +3056,6 @@
 		<Spanish>Peor enemigo</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CORE__CHECKFORUPDATES_HOVER</Tag>
-		<English>When checked, BUG will look for SVN updates and/or releases each time you launch Civilization and notify you when new ones are found.</English>
-		<French>Lorsque activé, BUG va rechercher les mises à jour du serveur SVN à chaque fois qu'on lance Civilization, et avertit si des données sont mises à jour.</French>
-		<German>Lässt die BUG Mod bei jedem Spielstart nach SVN-Updates und/oder neuen offiziellen Versionen suchen und eine Meldung ausgeben, wenn aktuellere Versionen gefunden wurden</German>
-		<Italian>Quando è selezionato, il BUG Mod controllerà la disponibilità di aggiornamenti SVN e/o nuove versioni ogni volta che lancerai Civ4 e ti notificherà ciò che avrà eventualmente trovato.</Italian>
-		<Spanish>Cuando se activa, BUG buscará actualizaciones en SVN y/o nuevas versiones cada vez que se abra Civilization, y te notificará si se encuentra una nueva versión.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CORE__CHECKFORUPDATES_TEXT</Tag>
-		<English>Check for Updates</English>
-		<French>Vérifier les mises à jour</French>
-		<German>Nach Updates suchen</German>
-		<Italian>Cerca aggiornamenti</Italian>
-		<Spanish>Comprobar actualizaciones</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_CORE__FILELOGLEVEL_HOVER</Tag>
 		<English>Selects which logging messages get printed to the PythonDbg.log file. Each level includes messages of all levels below it.</English>
 		<French>Sélectionne les messages qui seront imprimés dans le fichier PythonDbg.log. Chaque niveau inclut les messages des niveaux en dessous.</French>
@@ -3462,38 +3080,6 @@
 		<Spanish>Nivel de registro en archivo</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CORE__LOCALROOT_HOVER</Tag>
-		<English>Location where BUG files are installed.</English>
-		<French>Emplacement où sont placés les fichiers du mod BUG.</French>
-		<German>Verzeichnis, in dem sich die Dateien der BUG Mod befinden</German>
-		<Italian>Posizione in cui sono installati i file del BUG Mod.</Italian>
-		<Spanish>Carpeta en la que están instalados los archivos del mod BUG.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CORE__LOCALROOT_TEXT</Tag>
-		<English>BUG Install Folder</English>
-		<French>Répertoire d'install du mod BUG</French>
-		<German>Installationsverzeichnis der BUG Mod</German>
-		<Italian>Cartella di installazione del BUG Mod</Italian>
-		<Spanish>Directorio de instalación de BUG</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CORE__LOCALVERSION_HOVER</Tag>
-		<English>Revision number of the BUG installation.</English>
-		<French>Numéro de Revision de l'installation BUG.</French>
-		<German>Revisionsnummer der installierten BUG Mod</German>
-		<Italian>Numero di revisione del BUG Mod installato.</Italian>
-		<Spanish>Número de versión de la instalación BUG.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CORE__LOCALVERSION_TEXT</Tag>
-		<English>Installed Revision</English>
-		<French>Revision installée</French>
-		<German>Installierte Revision</German>
-		<Italian>Revisione installata</Italian>
-		<Spanish>Versión instalada</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_CORE__LOGTIME_HOVER</Tag>
 		<English>When checked, each log file message includes the current time in HH:MM:SS format.</English>
 		<French>Lorsque sélectionné, Chaque message de log inclus l'heure au format HH:MM:SS.</French>
@@ -3508,38 +3094,6 @@
 		<German>Zeit protokollieren</German>
 		<Italian>Includi ora</Italian>
 		<Spanish>Incluir hora</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CORE__REPOSITORYURL_HOVER</Tag>
-		<English>URL for the BUG repository.</English>
-		<French>URL du serveur SVN du mod BUG.</French>
-		<German>URL des Projektarchivs der BUG Mod</German>
-		<Italian>URL della directory SVN online dove si trovano i file del BUG Mod.</Italian>
-		<Spanish>URL donde se ubica el repositorio SVN de BUG.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CORE__REPOSITORYURL_TEXT</Tag>
-		<English>Repository URL</English>
-		<French>URL du projet SVN</French>
-		<German>URL des Projektarchivs</German>
-		<Italian>URL del repository SVN</Italian>
-		<Spanish>URL del repositorio SVN</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CORE__REPOSITORYVERSION_HOVER</Tag>
-		<English>Revision number of the BUG repository.</English>
-		<French>Numéro de Revision du mod BUG sur le serveur.</French>
-		<German>Revisionsnummer des Projektarchivs der BUG Mod</German>
-		<Italian>Numero di revisione della versione SVN disponibile online del BUG Mod.</Italian>
-		<Spanish>Número de revisión del repositorio SVN de BUG.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CORE__REPOSITORYVERSION_TEXT</Tag>
-		<English>Repository Revision</English>
-		<French>Revision sur le serveur SVN</French>
-		<German>Revision des Projektarchivs</German>
-		<Italian>Revisione del repository</Italian>
-		<Spanish>Revisión del repositorio</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_CORE__SCREENLOGLEVEL_HOVER</Tag>
@@ -3566,22 +3120,6 @@
 		<Spanish>Nivel de registro en pantalla</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__ENABLED_HOVER</Tag>
-		<English>When checked, uses the Customizable Domestic Advisor (requires restart).</English>
-		<French>Lorsque activé, utilise le Conseiller Domestique Personnalisé - CDA (nécessite le redémarrage du jeu).</French>
-		<German>Aktiviert den anpassbaren Inlandsberater (verwendet Cammagnos "Customizable Domestic Advisor Pages"-Mod; erfordert Neustart)</German>
-		<Italian>Quando è selezionato, utilizza il Consigliere Interno personalizzabile del Customizable Domestic Advisor Mod (è richiesto un riavvio perchè il cambio abbia effetto).</Italian>
-		<Spanish>Cuando se activa, utiliza el Consejero de Interior personalizable (requiere reiniciar).</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__ENABLED_TEXT</Tag>
-		<English>Customizable</English>
-		<French>Personnalisable</French>
-		<German>CDA aktivieren</German>
-		<Italian>Personalizzabile</Italian>
-		<Spanish>Personalizable</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__PRODUCTIONGROUPING_HOVER</Tag>
 		<English>Select grouping options for the production list on the Customizable Domestic Advisor screen:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]None[COLOR_REVERT] - No special grouping.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Icons[COLOR_REVERT] - Production items prefaced by icons denoting the type of item which keeps them grouped together when sorting.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Colors[COLOR_REVERT] - Production items colored based on the type of item.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Both[COLOR_REVERT] - Production items prefaced by icons and colored based on the type of item.</English>
 		<French>Sélectionne les options de regroupement pour la liste de production de l'écran du Conseiller 'CDA':[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Aucun[COLOR_REVERT] - Pas de regroupement.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Icones[COLOR_REVERT] - Les noms des productions sont précédés d'icones symbolisant leur type, permettant ainsi un tri par type de production.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Couleurs[COLOR_REVERT] - Les productions sont mis en valeur par des couleurs symbolisant le type de production.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Les deux[COLOR_REVERT] - Les Productions sont précédés d'icones de type, et sont mis en valeurs par des couleurs spécifiquesen fonction du type de production.</French>
@@ -3604,54 +3142,6 @@
 		<German>Produktgruppen</German>
 		<Italian>Produzione</Italian>
 		<Spanish>Agrupar producción</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__SPACESIDES_HOVER</Tag>
-		<English>Select the amount of space to leave to the sides of the Customizable Domestic Advisor screen:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]None[COLOR_REVERT] - No space at all.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Small[COLOR_REVERT] - Same amount of space as Foreign and Military Advisors.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Medium[COLOR_REVERT] - Twice the space as Foreign and Military Advisors.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Large[COLOR_REVERT] - Enough space to show all the culture sliders on the left and same amount of space on the right.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Large Left[COLOR_REVERT] - Enough space to show all the culture sliders to the left but just a small amount of space on the right.</English>
-		<French>Sélectionner l'espace de part et d'autre de l'écran du conseiller 'CDA':[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Aucun[COLOR_REVERT] - Pas d'espace du tout.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Petit[COLOR_REVERT] - Espace similaire aux Conseillers Militaire et des Relations Etrangères.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Moyen[COLOR_REVERT] - Espace deux fois plus important que celui des Conseillers Militaire et des Relations Etrangères.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Grand[COLOR_REVERT] - Espace suffisant pour visualiser les curseurs de répartition du budget (même espace à droite).[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]A Gauche[COLOR_REVERT] - Espace suffisant à gauche pour visualiser les curseurs de répartition du budget. Espace réduit à droite.</French>
-		<German>Bestimmt den Abstand, den der anpassbare Inlandsberater zum linken und rechten Bildschirmrand einhalten soll:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Keiner[COLOR_REVERT] - Kein Abstand[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Schmal[COLOR_REVERT] - Entspricht dem gleichen Abstand wie bei Auslands- und Militärberater[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Mittel[COLOR_REVERT] - Entspricht dem doppelten Abstand wie bei Auslands- und Militärberater[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Groß[COLOR_REVERT] - Genug Platz, um links die Einstellungen für die Investitionsanteile zu sehen, wobei rechts der gleiche Abstand gelassen wird[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Nur Links[COLOR_REVERT] - Genug Platz, um die Einstellungen für die Investitionsanteile zu sehen, wobei rechts nur ein geringer Abstand gelassen wird</German>
-		<Italian>Seleziona la quantità di spazio da lasciare lateralmente alla schermata del Consigliere Interno:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Nessuno[COLOR_REVERT] - non viene lasciato alcuno spazio;[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Piccolo[COLOR_REVERT] - viene lasciata la stessa quantità di spazio delle schermate del Consigliere Estero e del Consigliere Militare;[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Medio[COLOR_REVERT] - viene lasciato il doppio della quantità di spazio delle schermate del Consigliere Estero e del Consigliere Militare;[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Ampio[COLOR_REVERT] - viene lasciato spazio a sufficienza per mostrare i regolatori percentuali sulla sinistra e una quantità uguale sulla destra;[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Ampio a sin.[COLOR_REVERT] - viene lasciato spazio a sufficienza per mostrare i regolatori percentuali sulla sinistra, mentre sulla destra viene lasciato la stessa quantità di spazio delle schermate del Consigliere Estero e del Consigliere Militare.</Italian>
-		<Spanish>Escoge la cantidad de espacio a dejar a los lados de la Vista del Consejero de Interior personalizable:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Ninguno[COLOR_REVERT] - Sin espacio.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Pequeño[COLOR_REVERT] - Mismo espacio que los consejeros Militar y de Exteriores.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Medio[COLOR_REVERT] - El doble de espacio que los consejeros Militar y de Exteriores.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Grande[COLOR_REVERT] - Espacio suficiente para mostrar todas las barras de cultura a la izquierda, y el mismo espacio a la derecha.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Grande a la izquierda[COLOR_REVERT] - Espacio suficiente para mostrar todas las barras de cultura a la izquierda, pero solo un pequeño margen a la derecha.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__SPACESIDES_LIST</Tag>
-		<English>None|Small|Medium|Large|Large Left</English>
-		<French>Aucun|Petit|Moyen|Grand|A gauche</French>
-		<German>Keiner|Schmal|Mittel|Groß|Nur Links</German>
-		<Italian>Nessuno|Piccolo|Medio|Ampio|Ampio a sin.</Italian>
-		<Spanish>Ninguno|Pequeño|Medio|Grande|Grande a la izquierda</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__SPACESIDES_TEXT</Tag>
-		<English>Space to Sides</English>
-		<French>Espace sur les côtés</French>
-		<German>Seitenabstand</German>
-		<Italian>Spazio laterale</Italian>
-		<Spanish>Espacio lateral</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__SPACETOP_HOVER</Tag>
-		<English>Select the amount of space to leave above the Customizable Domestic Advisor screen:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]None[COLOR_REVERT] - No space at all.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Small[COLOR_REVERT] - Enough space to show the turn indicator and treasury.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Medium[COLOR_REVERT] - Enough space to show the advisor buttons.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Large[COLOR_REVERT] - Enough space to show all the culture sliders.</English>
-		<French>Sélectionner la taille de l'espace libre au-dessus de l'écran du Conseiller 'CDA':[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Aucun[COLOR_REVERT] - Pas d'espace du tout.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Petit[COLOR_REVERT] - Espace suffisant pour visualiser l'indicateur de tour et du trésor.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Moyen[COLOR_REVERT] - Espace permettant d'accéder aux boutons des consiellers.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Grand[COLOR_REVERT] - Espace permettant d'accéder à tous les curseurs.</French>
-		<German>Bestimmt den Abstand, den der anpassbare Inlandsberater zum oberen Bildschirmrand einhalten soll:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Keiner[COLOR_REVERT] - Kein Abstand[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Schmal[COLOR_REVERT] - Genug Platz, um die aktuelle Runde und die Goldmenge zu sehen[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Mittel[COLOR_REVERT] - Genug Platz, um die Schaltflächen für die Berater zu sehen[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Groß[COLOR_REVERT] - Genug Platz, um die Einstellungen für die Investitionsanteile zu sehen</German>
-		<Italian>Seleziona la quantità di spazio da lasciare al di sopra della schermata del Consigliere Interno:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Nessuno[COLOR_REVERT] - non viene lasciato alcuno spazio;[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Piccolo[COLOR_REVERT] - viene lasciato spazio a sufficienza per mostrare l'orologio ed il tesoro;[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Medio[COLOR_REVERT] - viene lasciato spazio a sufficienza per mostrare i pulsanti dei consiglieri;[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Ampio[COLOR_REVERT] - viene lasciato spazio a sufficienza per mostrare i regolatori percentuali.</Italian>
-		<Spanish>Escoge la cantidad de espacio a dejar por encima de la Vista del Consejero de Interior personalizable:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Ninguno[COLOR_REVERT] - Sin espacio.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Pequeño[COLOR_REVERT] - Espacio suficiente para mostrar el indicador de turnos y el tesoro.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Medio[COLOR_REVERT] - Espacio suficiente para mostrar los botones de consejero.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Grande[COLOR_REVERT] - Espacio suficiente para mostrar todas las barras de cultura.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__SPACETOP_LIST</Tag>
-		<English>None|Small|Medium|Large</English>
-		<French>Aucun|Petit|Moyen|Grand</French>
-		<German>Keiner|Schmal|Mittel|Groß</German>
-		<Italian>Nessuno|Piccolo|Medio|Ampio</Italian>
-		<Spanish>Ninguno|Pequeño|Medio|Grande</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_CUSTDOMADV__SPACETOP_TEXT</Tag>
-		<English>Space Above</English>
-		<French>Espace au-dessus</French>
-		<German>Oberer Abstand</German>
-		<Italian>Spazio superiore</Italian>
-		<Spanish>Espacio superior</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_DIPLOMACYSETTINGS__ADVANCEDDIPLOMACY_HOVER</Tag>
@@ -4050,57 +3540,18 @@
 		<Spanish>Finalizar turno automáticamente si no hay decisiones</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__BUILDICONSIZE_HOVER</Tag>
-		<English>Determines the size of the build and action buttons in the bottom center of the screen.</English>
+		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__UNITICONSIZE_HOVER</Tag>
+		<English>Determines the size of the unit action buttons at the bottom center of the screen.</English>
 		<French>Détermine la taille des boutons de construction et d'action affiché en bas de l'écran.</French>
 		<German>Bestimmt die Größe der Bau- und Befehlssymbole im Menü am unteren Bildschirmrand</German>
 		<Spanish>Determina el tamaño de los botones de construcción y acción en la zona inferior central de la pantalla.</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__BUILDICONSIZE_LIST</Tag>
-		<English>Small|Medium|Large</English>
-		<French>Petite|Moyenne|Grande</French>
-		<German>Klein|Mittel|Groß</German>
-		<Spanish>Pequeño|Mediano|Grande</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__BUILDICONSIZE_TEXT</Tag>
-		<English>Build/Action Icon Size</English>
+		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__UNITICONSIZE_TEXT</Tag>
+		<English>Action Icon Size</English>
 		<French>Taille des Icones d'action</French>
-		<German>Größe der Bau-/Befehlssymbole</German>
+		<German>Größe der Befehlssymbole</German>
 		<Spanish>Tamaño de iconos de Acción</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__CITYARROWS_HOVER</Tag>
-		<English>When checked, displays arrows to cycle through cities above your civ's flag.</English>
-		<French>Lorsque activé, affiche des flèches au-dessous du drapeau de votre civilisation, permettant rapidement de parcourir vos Villes.</French>
-		<German>Zeigt Pfeile über der Flagge der eigenen Zivilisation an, mit denen durch die einzelnen Städte geschaltet werden kann</German>
-		<Italian>Quando è selezionato, mostra sopra alla vostra bandiera le frecce per scorrere fra le Città.</Italian>
-		<Spanish>Cuando se activa, muestra dos flechas encima de la bandera de la civilización para recorrer las ciudades.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__CITYARROWS_TEXT</Tag>
-		<English>City Cycle Arrows</English>
-		<French>Flèches de Ville</French>
-		<German>Städtepfeile</German>
-		<Italian>Frecce di scorrimento cittadino</Italian>
-		<Spanish>Flechas para recorrer ciudades</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__COMBAT_COUNTER_HOVER</Tag>
-		<English>When checked, displays a progress bar for the next Great General.</English>
-		<French>Lorsque activé, affiche l'Expérience au Combat nécessaire pour obtenir le prochain Général Illustre.</French>
-		<German>Zeigt die gesammelte Gefechtserfahrung an, um das Erscheinen des nächsten Großen Generals zu bestimmen</German>
-		<Italian>Quando è selezionato, mostra la barra di avanzamento per il prossimo Grande Generale.</Italian>
-		<Spanish>Cuando se activa, muestra la barra de progreso para el próximo Gran General.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__COMBAT_COUNTER_TEXT</Tag>
-		<English>Great General</English>
-		<French>Général Illustre</French>
-		<German>Großer General</German>
-		<Italian>Grande Generale</Italian>
-		<Spanish>Gran General</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__ENABLEGRAPHICALPAGING_HOVER</Tag>
@@ -4163,7 +3614,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__FIELDOFVIEW_TEXT</Tag>
-		<English>Field of View</English>
+		<English>FoV</English>
 		<French>Champ de vision</French>
 		<German>Sichtfeld</German>
 		<Italian>Campo visuale</Italian>
@@ -4178,48 +3629,8 @@
 		<Spanish>Contiene el valor del Campo de visión.</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__FIELDOFVIEW_VALUE_TEXT</Tag>
-		<English>Field of View - Value</English>
-		<French>Champ de Vision - Valeur</French>
-		<German>Sichtfeld-Wert</German>
-		<Italian>Valore del Campo visuale</Italian>
-		<Spanish>Valor del Campo de visión</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__GOLDRATEWARNING_HOVER</Tag>
-		<English>When checked, displays your gold rate in yellow if it is negative but not enough to drop your treasury below zero.</English>
-		<French>Lorsque activé, affiche votre balance financière en jaune si elle est négative, mais pas assez important pour amener votre trésor à zéro.</French>
-		<German>Färbt die Anzeige für "Gold/Runde" Gelb ein, wenn dessen Wert zwar negativ ist, den Goldvorrat in der nächsten Runde aber nicht unter 0 senken wird</German>
-		<Italian>Quando è selezionato, mostra il tasso di crescita dell'oro in giallo se è negativo ma non abbastanza da mandarvi in rosso.</Italian>
-		<Spanish>Cuando se activa, muestra la tasa de oro por turno en amarillo si es negativa pero no lo suficiente como para dejar tu tesoro por debajo de 0.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__GOLDRATEWARNING_TEXT</Tag>
-		<English>Gold Rate Warning</English>
-		<French>Avertissement Budget</French>
-		<German>"Gold/Runde"-Warnung</German>
-		<Italian>Calo dell'Oro</Italian>
-		<Spanish>Aviso sobre balance</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__GPBAR_HOVER</Tag>
-		<English>When checked, displays the progress and city of the next Great Person.</English>
-		<French>Lorsque activé, montre la barre de progresssion et la ville du prochain Personnage Illustre.</French>
-		<German>Zeigt einen Fortschrittsbalken an, um zu bestimmen, wann und in welcher Stadt die nächste Große Persönlichkeit erscheinen wird</German>
-		<Italian>Quando è selezionato, mostra il progresso e la città del prossimo Grande Personaggio.</Italian>
-		<Spanish>Cuando se activa, muestra la ciudad en la que nacerá el próximo Gran Personaje, junto con una barra de progreso.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__GPBAR_TEXT</Tag>
-		<English>Great Person</English>
-		<French>Personnages Illustres</French>
-		<German>Große Persönlichkeiten</German>
-		<Italian>Grandi Personaggi</Italian>
-		<Spanish>Grandes personajes</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__GPBAR_TYPES_HOVER</Tag>
-		<English>Determines how many GP types to display in the GP Progress Bar. The [COLOR_HIGHLIGHT_TEXT]Maximum[COLOR_REVERT] setting also displays the percent chance for each.</English>
+		<English>Determines how many GP types to display in the GP Progress Bar. The [COLOR_HIGHLIGHT_TEXT]Max[COLOR_REVERT] setting also displays the percent chance for each.</English>
 		<French>Détermine combien de types de Personnages Illustres (PI) doivent être montrés dans la Barre de Progresssion. L'Option [COLOR_HIGHLIGHT_TEXT]Maximum[COLOR_REVERT] affiche également les probabilités de chaque type.</French>
 		<German>Bestimmt die Anzahl der Typen von Großen Persönlichkeiten, die im Fortschrittsbalken angezeigt werden (die Einstellung [COLOR_HIGHLIGHT_TEXT]Maximal[COLOR_REVERT] zeigt zusätzlich die prozentuale Chance für jede einzelne an)</German>
 		<Italian>Determina quanti tipi di Grandi Personaggi devono essere mostrati nella Barra dei Grandi Personaggi. L'impostazione [COLOR_HIGHLIGHT_TEXT]Massimo[COLOR_REVERT] mostra anche la possibilità percentuale di ognuna.</Italian>
@@ -4227,7 +3638,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__GPBAR_TYPES_LIST</Tag>
-		<English>None|One|Maximum</English>
+		<English>Min|One|Max</English>
 		<French>Aucun|Une|Maximum</French>
 		<German>Keine|Eine|Maximal</German>
 		<Italian>Nessuno|Uno|Massimo</Italian>
@@ -4257,8 +3668,6 @@
 		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__MINIMIZEAITURNSLICES_HOVER</Tag>
 		<English>When checked, runs the AI turns in the minimal number of turn slices. This will speed the turn processing up at the expense of animation and general graphical responsiveness while the AI is processing its turns</English>
 		<French>Lorsque activé, réduit le temps nécessaire à l'IA, et donnant une priorité aux calculs de l'IA au détriment de l'affichage et des animations.</French>
-		<German>When checked, runs the AI turns in the minimal number of turn slices. This will speed the turn processing up at the expense of animation and general graphical responsiveness while the AI is processing its turns.</German>
-		<Italian>When checked, runs the AI turns in the minimal number of turn slices. This will speed the turn processing up at the expense of animation and general graphical responsiveness while the AI is processing its turns.</Italian>
 		<Spanish>Cuando se activa, se procesan los turnos de la IA en el mínimo tiempo posible, a costa de paralizar completamente las animaciones y la respuesta gráfica durante la espera.</Spanish>
 	</TEXT>
 	<TEXT>
@@ -4266,140 +3675,6 @@
 		<English>Minimize AI turn time</English>
 		<French>Réduction du temps IA</French>
 		<Spanish>Reducir el retraso de la IA</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__MINMAX_COMMERCE_HOVER</Tag>
-		<English>When checked, displays a second pair of +/- buttons for each commerce type that set the rate to 100% and 0% respectively.</English>
-		<French>Lorsque activé, affiche une seconde paire de boutons +/- pour chaque type de commerce permettant rapidement de définir le taux respectivement à 100% ou 0%.</French>
-		<German>Zeigt ein zweites Paar "+/-"-Schaltflächen für jede Art Investitionsanteil an, die diese auf 100% beziehungsweise 0% setzen</German>
-		<Italian>Quando è selezionato, mostra una seconda coppia di bottoni +/- per ogni tipo di commercio che impostano il valore rispettivamente al 100% ed allo 0%.</Italian>
-		<Spanish>Cuando se activa, muestra un segundo par de botones +/- para cada tipo de comercio que ajustan el porcentaje del mismo al 100% y 0% respectivamente.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__MINMAX_COMMERCE_TEXT</Tag>
-		<English>Min/Max Commerce Buttons</English>
-		<French>Boutons Min/Max Commerce</French>
-		<German>Min/Max Investitionsanteile</German>
-		<Italian>Bottoni del Commercio minimo/massimo</Italian>
-		<Spanish>Botones de comercio mínimo/máximo</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__OPTIONSBUTTON_HOVER</Tag>
-		<English>When checked, shows the BUG Option Screen button.</English>
-		<French>Lorsque activé, fait apparaître un bouton pour accéder à l'écran d'options BUG.</French>
-		<German>Zeigt die Schaltfläche zum Aufruf des Optionensbildschirms der BUG Mod an</German>
-		<Spanish>Cuando se activa, muestra un botón para acceder a la vista de Opciones de BUG.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__OPTIONSBUTTON_TEXT</Tag>
-		<English>Options Button</English>
-		<French>Bouton Options</French>
-		<German>Optionsschaltfläche</German>
-		<Spanish>Botón de Opciones</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__OPTIONSKEY_HOVER</Tag>
-		<English>When checked, displays a message about Alt + Ctrl + O when a game is started or loaded.</English>
-		<French>Lorsque activé, un rappel sur l'utilisation de Alt + Ctrl + O est affiché quand un jeu démarre ou est chargé.</French>
-		<German>Zeigt nach dem Spielstart oder dem Laden eines Spielstands eine Meldung, die an die Tastenkombination [STRG + ALT + O] erinnert, mit der man die Optionen der "BUG Mod" aufrufen kann</German>
-		<Italian>Quando è selezionato, mostra un messaggio che ricorda la combinazione di tasti per accedere al Menù delle Opzioni del BUG Mod quando un gioco viene iniziato o caricato .</Italian>
-		<Spanish>Cuando se activa, muestra un mensaje sobre la combinación Alt + Ctrl + O para acceder a esta pantalla de opciones una vez comenzada o cargada una partida.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__OPTIONSKEY_TEXT</Tag>
-		<English>Options Shortcut Reminder</English>
-		<French>Rappel des Raccourcis des Options BUG</French>
-		<German>Erinnerung an die BUG-Optionen</German>
-		<Italian>Promemoria della combinazione per accedere alle Opzioni del</Italian>
-		<Spanish>Recordatorio de acceso a opciones de BUG</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__PROGRESSBARSTICKMARKS_HOVER</Tag>
-		<English>When checked, displays tick marks on selected progress bars that illustrate estimated future turn progress.</English>
-		<French>Lorsque activé, affiche des marques supplémentaires sur les barres de progression, permettant d'indiquer l'estimation de la progression du tour suivant..</French>
-		<German>Zeigt Teilstriche auf ausgewählten Fortschrittsbalken an, die deren voraussichtlichen Verlauf in zukünftigen Runden darstellen</German>
-		<Italian>Visualizza sulle barre di avanzamento selezionate dei trattini che mostrano il progresso stimato per i turni successivi.</Italian>
-		<Spanish>Cuando se activa, muestra marcas en las barras de progreso seleccionadas que indican el progreso estimado para los turnos futuros.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__PROGRESSBARSTICKMARKS_TEXT</Tag>
-		<English>Tick Marks</English>
-		<French>Curseurs de Progression</French>
-		<German>Teilstriche</German>
-		<Italian>Trattini di avanzamento</Italian>
-		<Spanish>Marcas de previsión</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__STACKMOVEMENTPOINTS_HOVER</Tag>
-		<English>When checked, shows the minimum and maximum Movement Points for all selected units in the Info Pane.</English>
-		<French>Lorsque activé, affiche le minimum et maximum des Points de Déplacement de toutes les unités sélectionnées dans le panneau d'Information.</French>
-		<German>Zeigt die minimalen und maximalen Bewegungspunkte aller ausgewählten Einheiten in der Detailanzeige an</German>
-		<Italian>Quando è selezionato, mostra nel Pannello delle Informazioni il valore minimo e quello massimo per i Punti Movimento del gruppo di Unità selezionate.</Italian>
-		<Spanish>Cuando se activa, muestra en el Panel de información los Puntos de movimiento mínimos y máximos para el grupo de unidades seleccionado.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__STACKMOVEMENTPOINTS_TEXT</Tag>
-		<English>Stack Movement Points</English>
-		<French>Points de Déplacement du Groupe</French>
-		<German>Einheitenverband-Bewegungspunkte</German>
-		<Italian>Punti Movimento di gruppo</Italian>
-		<Spanish>Puntos de movimiento del grupo</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__STACKPROMOTIONCOLOR_HOVER</Tag>
-		<English>When checked, shows the number of units in a stack that possess each promotion if more than one.</English>
-		<French>Lorsque activé, affiche le nombre d'unités du tas qui possède chaque promotion s'il y en a plus d'une.</French>
-		<German>Zeigt die Anzahl der Einheiten in einem Einheitenverband an, die über eine bestimmte Beförderung verfügen, falls dies bei mehr als einer der Fall ist</German>
-		<Spanish>Cuando se activa, muestra el número de unidades que posee cada ascenso dentro de un grupo (si hay más de una).</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__STACKPROMOTIONCOLOR_TEXT</Tag>
-		<English>Some</English>
-		<French>Quelques-uns</French>
-		<German>Manche</German>
-		<Spanish>Algunas</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__STACKPROMOTIONCOLORALL_HOVER</Tag>
-		<English>When checked, shows the number of units in a stack that possess each promotion if more than one.</English>
-		<French>Lorsque activé, affiche le nombre d'unités du tas qui possèdent chaque promotion s'il y en a plus d'une.</French>
-		<German>Zeigt die Anzahl der Einheiten in einem Einheitenverband an, die über eine bestimmte Beförderung verfügen, falls dies bei mehr als einer der Fall ist</German>
-		<Spanish>Cuando se activa, muestra el número de unidades que posee cada ascenso dentro de un grupo (si hay más de una).</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__STACKPROMOTIONCOLORALL_TEXT</Tag>
-		<English>All</English>
-		<French>Tout</French>
-		<German>Alle</German>
-		<Spanish>Todas</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__STACKPROMOTIONCOUNTS_HOVER</Tag>
-		<English>When checked, shows the number of units in a stack that possess each promotion if more than one.</English>
-		<French>Lorsque activé, affiche le nombre d'unité du tas qui possède chaque promotion.</French>
-		<German>Zeigt die Anzahl der Einheiten in einem Einheitenverband an, die über eine bestimmte Beförderung verfügen, falls dies bei mehr als einer der Fall ist</German>
-		<Spanish>Cuando se activa, muestra el número de unidades que posee cada ascenso dentro de un grupo (si hay más de una).</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__STACKPROMOTIONCOUNTS_TEXT</Tag>
-		<English>Counts</English>
-		<French>Comptes</French>
-		<German>Anzahl</German>
-		<Spanish>Contar</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__STACKPROMOTIONS_HOVER</Tag>
-		<English>When checked, shows the promotions possessed by at least one unit in the stack.</English>
-		<French>Lorsque activé, affiche les promotions possédés par au moins une unités du tas.</French>
-		<German>Zeigt die Beförderungen an, über die mindestens eine Einheit in einem Einheitenverband verfügt</German>
-		<Spanish>Cuando se activa, agrupa los ascensos obtenidas por más de una unidad en un grupo.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__STACKPROMOTIONS_TEXT</Tag>
-		<English>Stack Promotions</English>
-		<French>Promotions des Tas d'unités</French>
-		<German>Einheitenverband-Beförderungen</German>
-		<Spanish>Agrupar ascensos</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_MAININTERFACE__UNITMOVEMENTPOINTSFRACTION_HOVER</Tag>
@@ -4476,150 +3751,6 @@
 		<English>Viewport vertical size</English>
 		<French>Taille (vertical) de la fenêtre</French>
 		<Spanish>Tamaño vertical de la vista</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__ENABLED_HOVER</Tag>
-		<English>When checked, the shortcut keys for regenerating the map (ALT + G) and starting/stopping MapFinder (ALT + CTRL + G) are active.</English>
-		<French>Lorsque activé, les touches de raccourcis pour la regénération de la carte (ALT + G) et le démarrage/arrêt du 'MapFinder' (ALT + CTRL + G) sont actifs.</French>
-		<German>Aktiviert die Tastenkombinationen, um eine Karte neu erstellen zu lassen ([ALT + G]) und den MapFinder zu starten/stoppen ([STRG + ALT + G])</German>
-		<Italian>Quando è selezionato, sono attive le scorciatoie da tastiera per rigenerare la mappa (ALT + G) e per lanciare/fermare MapFinder (ALT + CTRL + G).</Italian>
-		<Spanish>Cuando se activa, se activan los atajos para regenerar el mapa (ALT + G) y para arrancar/parar MapFinder (ALT + CTRL + G).</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__ENABLED_TEXT</Tag>
-		<English>Enabled</English>
-		<French>Activé</French>
-		<German>Aktivieren</German>
-		<Italian>Attivato</Italian>
-		<Spanish>Activado</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__PATH_HOVER</Tag>
-		<English>Enter the full path to the MapFinder directory. It must contain the "Rules" folder.</English>
-		<French>Entrer le chemin complet du répertoire de 'Mapfinder'. Celui-ci doit contenir le sous-répertoires "Rules".</French>
-		<German>Eingabe des vollständigen Pfades zum MapFinder-Verzeichnis, in dem sich das Verzeichnis "Rules" befinden muss</German>
-		<Italian>Inserisci il percorso completo della cartella di MapFinder; deve contenere le cartel "Rules".</Italian>
-		<Spanish>Introduce la ruta de acceso a la carpeta de MapFinder. Debe contener la carpeta "Rules".</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__PATH_TEXT</Tag>
-		<English>Path</English>
-		<French>Chemin</French>
-		<German>Pfad</German>
-		<Italian>Percorso</Italian>
-		<Spanish>Ruta</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__REGENERATIONDELAY_HOVER</Tag>
-		<English>Enter the number of seconds to delay before the map is regenerated each time through the MapFinder cycle (default value is 0.0).</English>
-		<French>Entrer le nombre de secondes d'attente entre chaque regénération de carte à travers le cycle de 'MapFinder' (valeur par défaut: 0.0).</French>
-		<German>Eingabe der Anzahl von Sekunden, die gewartet werden soll, bevor eine Karte während eines MapFinder-Durchlaufs neu erstellt wird (der Standardwert ist 0.0)</German>
-		<Italian>Inserisci il numero di secondi di attesa prima che la mappa venga rigenerata dal ciclo di MapFinder (il valore di default è 0.0).</Italian>
-		<Spanish>Introduce el número de segundos de retraso entre cada regeneración del mapa dentro del ciclo de MapFinder. (Predeterminado: 0.0)</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__REGENERATIONDELAY_TEXT</Tag>
-		<English>Regenerate Delay</English>
-		<French>Temps d'attente pour Régénération</French>
-		<German>Verzögerung vor Neuerstellung</German>
-		<Italian>Ritardo di rigenerazione</Italian>
-		<Spanish>Retraso para regeneración</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__REGENERATIONLIMIT_HOVER</Tag>
-		<English>Enter the maximum number of times MapFinder will regenerate the map before stopping automatically (default value is 1000).</English>
-		<French>Entrer le nombre maximum de fois où 'MapFinder' va générer une carte avant de s'arrêter automatiquement (valeur par défaut: 1000).</French>
-		<German>Eingabe der maximalen Anzahl von Neuerstellungen einer Karte, bevor MapFinder automatisch stoppt (der Standardwert ist 1000)</German>
-		<Italian>Inserire il massimo numero di volte che MapFinder deve rigenerare la mappa prima di fermarsi automaticamente (il valore di default è 1000).</Italian>
-		<Spanish>Introduce el número máximo de veces que MapFinder regenerará el mapa antes de parar automáticamente. (Predeterminado: 1000)</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__REGENERATIONLIMIT_TEXT</Tag>
-		<English>Regenerate Limit</English>
-		<French>Nb max. de générations</French>
-		<German>Obergrenze für Neuerstellungen</German>
-		<Italian>Limite di rigenerazione</Italian>
-		<Spanish>Límite de regeneraciones</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__RULEFILE_HOVER</Tag>
-		<English>Enter the name of the rule file to use for checking maps for save-worthiness, e.g. "Precious Metals.rul".</English>
-		<French>Entrer le nom du fichier de règles à utiliser pour la validation des cartes. exemple:  "Métaux précieux.rul".</French>
-		<German>Eingabe des Namens der Regeldatei, die verwendet werden soll, um Karten auf ihre Speicherwürdigkeit zu prüfen (beispielsweise "Precious Metals.rul")</German>
-		<Italian>Inserisci il nome (completo di estensione) del file delle regole da usare per controllare le mappe (ad es. "Precious Metals.rul").</Italian>
-		<Spanish>Introduce el nombre del archivo de reglas a utilizar para comprobar los mapas, por ejemplo "Metales preciosos.rul".</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__RULEFILE_TEXT</Tag>
-		<English>Rule File</English>
-		<French>Fichier de règles</French>
-		<German>Regeldatei</German>
-		<Italian>File delle regole</Italian>
-		<Spanish>Archivo de reglas</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__SAVEDELAY_HOVER</Tag>
-		<English>Enter the number of seconds to pause before taking the screenshot and saving the map when it passes the rules. Note that there may be an enforced minimum to allow time for the fog of war to recover previously-revealed tiles before taking the screenshot (default value is 2.0).</English>
-		<French>Entrer le nombre de secondes d'attente avant la sauvegarde et la capture d'écran d'un carte validée. A noter qu'un temps minimum est nécessaire au moteur du jeu pour activer le brouillard de guerre (valeur par défaut: 2.0).</French>
-		<German>Eingabe der Anzahl von Sekunden, die gewartet werden soll, bevor ein Screenshot erstellt und eine Karte gespeichert wird, wenn sie die Regeln erfüllt. Es sollte beachtet werden, dass möglicherweise ein erzwungener Minimalwert existiert, um zuvor enthüllte Geländefelder wieder mit dem Nebel des Krieges zu bedecken, bevor ein Screenshot erstellt wird (der Standardwert ist 2.0)</German>
-		<Italian>Inserisci il numero di secondi di attesa prima di catturare la schermata e salvare la mappa quando questa soddisfa le regole. Si noti che può essere necessario del tempo perchè la fog-of-war ritorni allo stato originario prima di catturare la schermata (il valore di default è 2.0).</Italian>
-		<Spanish>Introduce el número de segundos de pausa antes de obtener el pantallazo y guardar el mapa cuando cumpla con las reglas. Ten en cuenta que puede haber un mínimo obligatorio para dar tiempo a que la niebla de guerra se recupere en las casillas reveladas antes de tomar la captura. (Predeterminado: 2.0)</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__SAVEDELAY_TEXT</Tag>
-		<English>Save Delay</English>
-		<French>Délai de Sauvegarde</French>
-		<German>Verzögerung vor Speicherung</German>
-		<Italian>Ritardo di salvataggio</Italian>
-		<Spanish>Retraso de guardado</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__SAVELIMIT_HOVER</Tag>
-		<English>Enter the maximum number of times MapFinder will save the map before stopping automatically (default value is 1000).</English>
-		<French>Entrer le nombre maximum de fois où 'MapFinder' va suavegarder une carte avant de s'arrêter automatiquement (valeur par défaut: 1000).</French>
-		<German>Eingabe der maximalen Anzahl von Speicherungen einer Karte, bevor MapFinder automatisch stoppt (der Standardwert ist 1000)</German>
-		<Italian>Inserire il massimo numero di volte che MapFinder deve salvare la mappa prima di fermarsi automaticamente (il valore di default è 1000)</Italian>
-		<Spanish>Introduce el número máximo de veces que MapFinder guardará el mapa antes de parar automáticamente. (Predeterminado: 1000)</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__SAVELIMIT_TEXT</Tag>
-		<English>Save Limit</English>
-		<French>Nb max. de sauvegardes</French>
-		<German>Obergrenze für Speicherungen</German>
-		<Italian>Limite di salvataggio</Italian>
-		<Spanish>Límite de guardados</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__SAVEPATH_HOVER</Tag>
-		<English>Enter the full path where maps matching your rules should be saved.</English>
-		<French>Entrer le chemin complet du répertoire où les cartes correspondant aux règles définies seront sauvegardées.</French>
-		<German>Eingabe des vollständigen Pfades zu dem Verzeichnis, in dem Karten, die den definierten Regeln entsprechen, gespeichert werden sollen</German>
-		<Italian>Inserisci il percorso completo della cartella in cui saranno salvate le mappe che soddisfano le tue regole.</Italian>
-		<Spanish>Introduce la ruta de acceso donde deben ser guardados los mapas que concuerden con tus reglas.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__SAVEPATH_TEXT</Tag>
-		<English>Save Path</English>
-		<French>Chemin des sauvegardes</French>
-		<German>Speicherort</German>
-		<Italian>Salva Percorso</Italian>
-		<Spanish>Ruta de guardado</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__SKIPDELAY_HOVER</Tag>
-		<English>Enter the number of seconds to pause before starting the next MapFinder cycle when a map fails to pass the rules and is skipped (default value is 0.25).</English>
-		<French>Entrer le nombre de secondes d'attente avant de commencer les cycle suivant de génération, dans le cas où la validation d'une carte échoue et sera écartée (valeur par défaut: 0.25).</French>
-		<German>Eingabe der Anzahl von Sekunden, die gewartet werden soll, bevor der nächste MapFinder-Durchlauf gestartet wird, wenn eine Karte die Regeln nicht erfüllt und übersprungen wird (der Standardwert ist 0.25)</German>
-		<Italian>Inserisci il numero di secondi di attesa prima di dare inizio al successivo ciclo di MapFinder quando una mappa non soddisfa le regole (il valore di default è 0.25).</Italian>
-		<Spanish>Introduce el número de segundos de pausa antes de empezar el siguiente ciclo de MapFinder cuando un mapa no cumple con las reglas y es ignorado. (Predeterminado: 0.25)</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_MAPFINDER__SKIPDELAY_TEXT</Tag>
-		<English>Skip Delay</English>
-		<French>Temps d'attente après échec</French>
-		<German>Verzögerung vor Überspringen</German>
-		<Italian>Pausa fra i cicli</Italian>
-		<Spanish>Pausa antes de cambiar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_MISCHOVER__BASECOMMERCE_HOVER</Tag>
@@ -5385,181 +4516,6 @@
 		<Spanish>Periodo (en segundos)</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_ANCIENT_HOVER</Tag>
-		<English>Color to use for the Ancient era.</English>
-		<French>Couleur pour l'Antiquité.</French>
-		<German>Bestimmt die Farbe, in der die Epoche "Antike" erscheint</German>
-		<Italian>Colore da utilizzare per l'Era Antica.</Italian>
-		<Spanish>Color utilizado en la Antigüedad.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_ANCIENT_TEXT</Tag>
-		<English>Ancient Era</English>
-		<French>Antiquité</French>
-		<German>Antike</German>
-		<Italian>Era Antica</Italian>
-		<Spanish>Antigüedad</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_CLASSICAL_HOVER</Tag>
-		<English>Color to use for the Classical era.</English>
-		<French>Couleur pour l'Ere Classique.</French>
-		<German>Bestimmt die Farbe, in der die Epoche "Klassik" erscheint</German>
-		<Italian>Colore da utilizzare per l'Era Classica.</Italian>
-		<Spanish>Color utilizado en la Época clásica.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_CLASSICAL_TEXT</Tag>
-		<English>Classical Era</English>
-		<French>Ere Classique</French>
-		<German>Klassik</German>
-		<Italian>Era Classica</Italian>
-		<Spanish>Época clásica</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_FUTURE_HOVER</Tag>
-		<English>Color to use for the Future era.</English>
-		<French>Couleur pour les Temps Futurs.</French>
-		<German>Bestimmt die Farbe, in der die Epoche "Zukunft" erscheint</German>
-		<Italian>Colore da utilizzare per l'Era Futura.</Italian>
-		<Spanish>Color utilizado en el Futuro.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_FUTURE_TEXT</Tag>
-		<English>Future Era</English>
-		<French>Temps Futurs</French>
-		<German>Zukunft</German>
-		<Italian>Era Futura</Italian>
-		<Spanish>Futuro</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_GALACTIC_HOVER</Tag>
-		<English>Color to use for the Galactic era.</English>
-		<French>Couleur pour l'Ere 'Galactic'.</French>
-		<German>Bestimmt die Farbe, in der die Epoche "Galaktisch" erscheint</German>
-		<Italian>Colore da usare per l'era galattica.</Italian>
-		<Spanish>Color utilizado en la Época galáctica.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_GALACTIC_TEXT</Tag>
-		<English>Galactic Era</English>
-		<French>Ere 'Galactic'</French>
-		<German>Galaktische Ära</German>
-		<Italian>Era galattica</Italian>
-		<Spanish>Época galáctica</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_INDUSTRIAL_HOVER</Tag>
-		<English>Color to use for the Industrial era.</English>
-		<French>Couleur pour l'Ere industrielle.</French>
-		<German>Bestimmt die Farbe, in der die Epoche "Industriezeitalter" erscheint</German>
-		<Italian>Colore da utilizzare per l'Era Industriale.</Italian>
-		<Spanish>Color utilizado en la Revolución industrial.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_INDUSTRIAL_TEXT</Tag>
-		<English>Industrial Era</English>
-		<French>Ere Industrielle</French>
-		<German>Industriezeitalter</German>
-		<Italian>Era Industriale</Italian>
-		<Spanish>Revolución industrial</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_MEDIEVAL_HOVER</Tag>
-		<English>Color to use for the Medieval era.</English>
-		<French>Couleur pour le Moyen Age.</French>
-		<German>Bestimmt die Farbe, in der die Epoche "Mittelalter" erscheint</German>
-		<Italian>Colore da utilizzare per l'Era Medioevale.</Italian>
-		<Spanish>Color utilizado en la Edad media.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_MEDIEVAL_TEXT</Tag>
-		<English>Medieval Era</English>
-		<French>Moyen Age</French>
-		<German>Mittelalter</German>
-		<Italian>Era Medioevale</Italian>
-		<Spanish>Edad media</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_MODERN_HOVER</Tag>
-		<English>Color to use for the Modern era.</English>
-		<French>Couleur pour l'Ere Moderne.</French>
-		<German>Bestimmt die Farbe, in der die Epoche "Moderne" erscheint</German>
-		<Italian>Colore da utilizzare per l'Era Moderna.</Italian>
-		<Spanish>Color utilizado en la Edad contemporánea</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_MODERN_TEXT</Tag>
-		<English>Modern Era</English>
-		<French>Ere Moderne</French>
-		<German>Moderne</German>
-		<Italian>Era Moderna</Italian>
-		<Spanish>Edad contemporánea</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_PREHISTORIC_HOVER</Tag>
-		<English>Color to use for the Prehistoric era.</English>
-		<French>Couleur pour l'Prehistoric.</French>
-		<German>Bestimmt die Farbe, in der die Epoche "Vorgeschichte" erscheint</German>
-		<Italian>Colore da utilizzare per l'Era Prehistoric.</Italian>
-		<Spanish>Color utilizado en la Prehistoria.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_PREHISTORIC_TEXT</Tag>
-		<English>Prehistoric</English>
-		<German>Vorgeschichte</German>
-		<Italian>Era Preistorica</Italian>
-		<Spanish>Prehistoria</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_RENAISSANCE_HOVER</Tag>
-		<English>Color to use for the Renaissance era.</English>
-		<French>Couleur pour la Renaissance.</French>
-		<German>Bestimmt die Farbe, in der die Epoche "Renaissance" erscheint</German>
-		<Italian>Colore da utilizzare per l'Era Rinascimentale.</Italian>
-		<Spanish>Color utilizado en el Renacimiento.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_RENAISSANCE_TEXT</Tag>
-		<English>Renaissance Era</English>
-		<French>Renaissance</French>
-		<German>Renaissance</German>
-		<Italian>Era Rinascimentale</Italian>
-		<Spanish>Renacimiento</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_TRANSHUMAN_HOVER</Tag>
-		<English>Color to use for the Transhuman era.</English>
-		<French>Couleur pour l'Ere 'Transhumaine'.</French>
-		<German>Bestimmt die Farbe, in der die Epoche "Transhuman" erscheint</German>
-		<Italian>Colore da usare per l'era transumana.</Italian>
-		<Spanish>Color utilizado en la Época transhumana.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__COLOR_ERA_TRANSHUMAN_TEXT</Tag>
-		<English>Transhuman Era</English>
-		<French>Ere 'Transhumaine'</French>
-		<German>Transhumane Ära</German>
-		<Italian>Era transumana</Italian>
-		<Spanish>Época transhumana</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__ENABLED_HOVER</Tag>
-		<English>When checked, the game clock is displayed using TheLopez's NJAGC mod.</English>
-		<French>Lorsque activé, l'horloge standard est remplacée par le mod NJAGC de TheLopez.</French>
-		<German>Zeigt die Uhr- und Spielzeit an (verwendet TheLopez' "Not Just Another Game Clock"-Mod)</German>
-		<Italian>Quando è selezionato, viene utilizzato l'orologio evoluto del NJAGC (Not Just Another Game Clock) Mod di TheLopez.</Italian>
-		<Spanish>Cuando se activa, se muestra el reloj utilizando el mod NJAGC de TheLopez.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__ENABLED_TEXT</Tag>
-		<English>Enable NJAGC</English>
-		<French>Activer NJAGC</French>
-		<German>NJAGC aktivieren</German>
-		<Italian>Abilita Orologio</Italian>
-		<Spanish>Activar NJAGC</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_NJAGC__SHOWALTCOMPLETEDPERCENT_HOVER</Tag>
 		<English>When checked, the completed percentage is displayed if Time Victory is enabled.</English>
 		<French>Lorsque activé, affiche également le pourcentage complété pour une Victoire de Temps.</French>
@@ -5593,35 +4549,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_NJAGC__SHOWALTDATE_HOVER</Tag>
-		<English>When checked, the in-game date and turns left in a Golden Age are displayed.</English>
-		<French>Lorsque activé, affiche la date du jeu et les tours restants pour vos Ages d'or.</French>
-		<German>Zeigt das Spieldatum und die verbleibenden Runden eines Goldenen Zeitalters an</German>
-		<Italian>Quando è selezionato, viene visualizzata la data in gioco e il numero di turni di Età dell'Oro rimasti.</Italian>
-		<Spanish>Cuando se activa, se muestran la fecha actual de la partida y los turnos restantes de la Edad de Oro.</Spanish>
+		<English>When checked, the game date is displayed.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_NJAGC__SHOWALTDATE_TEXT</Tag>
-		<English>Game Date and Golden Age Turns</English>
-		<French>Date du Jeu et Tours d'Age d'Or</French>
-		<German>Spieldatum / Runden eines Goldenen Zeitalters</German>
-		<Italian>Data del gioco e turni rimasti dell'Età dell'Oro</Italian>
-		<Spanish>Año actual y turnos de Edad de Oro</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__SHOWALTTIME_HOVER</Tag>
-		<English>When checked, the real time is displayed.</English>
-		<French>Lorsque activé, affiche également l'heure réelle.</French>
-		<German>Zeigt die tatsächliche Uhrzeit an</German>
-		<Italian>Quando è selezionato, viene visualizzato il tempo reale.</Italian>
-		<Spanish>Cuando se activa, se muestra la hora real.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__SHOWALTTIME_TEXT</Tag>
-		<English>Clock</English>
-		<French>Horloge</French>
-		<German>Uhrzeit</German>
-		<Italian>Orologio</Italian>
-		<Spanish>Reloj</Spanish>
+		<English>Game Date</English>
+		<French>Date du Jeu</French>
+		<German>Spieldatum</German>
+		<Italian>Data del gioco</Italian>
+		<Spanish>Año actual</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_NJAGC__SHOWALTTOTALTURNS_HOVER</Tag>
@@ -5673,67 +4609,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_NJAGC__SHOWDATE_HOVER</Tag>
-		<English>When checked, the in-game date and turns left in a Golden Age are displayed.</English>
-		<French>Lorsque activé, affiche la date du jeu et les tours restant pour vos Ages d'or.</French>
-		<German>Zeigt das Spieldatum und die verbleibenden Runden eines Goldenen Zeitalters an</German>
-		<Italian>Quando è selezionato, viene visualizzata la data in gioco e il numero di turni di Età dell'Oro rimasti.</Italian>
-		<Spanish>Cuando se activa, se muestran la fecha actual de la partida y los turnos restantes de la Edad de Oro.</Spanish>
+		<English>When checked, the game date is displayed.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_NJAGC__SHOWDATE_TEXT</Tag>
-		<English>Game Date and Golden Age Turns</English>
-		<French>Date du Jeu et Tours d'Age d'Or</French>
-		<German>Spieldatum / Runden eines Goldenen Zeitalters</German>
-		<Italian>Data del gioco e turni rimasti dell'Età dell'Oro</Italian>
-		<Spanish>Año actual y turnos de Edad de Oro</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__SHOWERA_HOVER</Tag>
-		<English>When checked, the current era is displayed to the left of the research bar.</English>
-		<French>Lorsque activé, l'ère actualle est montrée à gauche de la barre des recherches.</French>
-		<German>Zeigt die derzeitige Epoche links neben dem Forschungsbalken an</German>
-		<Italian>Quando è selezionato, viene mostrata l'Era corrente a sinistra della Barra di Ricerca Tecnologica.</Italian>
-		<Spanish>Cuando se activa, se muestra la época actual a la izquierda de la barra de investigación.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__SHOWERA_TEXT</Tag>
-		<English>Display Era</English>
-		<French>Montrer l'Ere</French>
-		<German>Epoche anzeigen</German>
-		<Italian>Mostra l'Era</Italian>
-		<Spanish>Mostrar época</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__SHOWERACOLOR_HOVER</Tag>
-		<English>When checked, the game date and era are displayed using a color for each era.</English>
-		<French>Lorsque activé, la couleur des Informations de date et de l'ère du jeu seront différentes en fonction de l'ère actuelle.</French>
-		<German>Zeigt das Spieljahr und die Epoche in jeder Epoche in einer anderen Farbe an</German>
-		<Italian>Quando è selezionato, la data e l'era vengono visualizzati utilizzando colori specifici per ogni era.</Italian>
-		<Spanish>Cuando se activa, se muestran el año de partida y la época utilizando un color específico para cada una de ellas.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__SHOWERACOLOR_TEXT</Tag>
-		<English>Use Era-Related Colors</English>
-		<French>Eres en Couleurs</French>
-		<German>Epochenbezogene Farben</German>
-		<Italian>Usa colori dell'Era</Italian>
-		<Spanish>Utilizar colores de época</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__SHOWTIME_HOVER</Tag>
-		<English>When checked, the real time is displayed.</English>
-		<French>Lorsque activé, l'heure réelle est également affichée.</French>
-		<German>Zeigt die tatsächliche Uhrzeit an</German>
-		<Italian>Quando è selezionato, viene visualizzato il tempo reale.</Italian>
-		<Spanish>Cuando se activa, se muestra la hora actual.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_NJAGC__SHOWTIME_TEXT</Tag>
-		<English>Clock</English>
-		<French>Horloge</French>
-		<German>Uhrzeit</German>
-		<Italian>Orologio</Italian>
-		<Spanish>Reloj</Spanish>
+		<English>Game Date</English>
+		<French>Date du Jeu</French>
+		<German>Spieldatum</German>
+		<Italian>Data del gioco</Italian>
+		<Spanish>Año actual</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_NJAGC__SHOWTOTALTURNS_HOVER</Tag>
@@ -5750,532 +4634,6 @@
 		<German>Gesamtanzahl Runden</German>
 		<Italian>Turni Totali</Italian>
 		<Spanish>Total de turnos</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__DEFAULT_GROUP_MODE_HOVER</Tag>
-		<English>Sets the grouping mode used when you start Civ IV. It alters how units are grouped in the different view modes.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Unit Type[COLOR_REVERT] - Units are grouped by their type (Archer, Chariot, Tank, etc)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Selection Groups[COLOR_REVERT] - Units are grouped by the selection groups they are in</English>
-		<French>Détermine le groupement quand vous démarrez Civ IV. Ceci influence comment les groupes sont montrés dans les différents modes de vue.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Type d'Unité[COLOR_REVERT] - Les Unités sont groupées par type (Archer, Chariot, Char, etc)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Groupe de Sélection[COLOR_REVERT] - Les Unités sont groupées basé sur leur groupe de sélection</French>
-		<German>Bestimmt, wie Einheiten in der Einheitenliste bei den Anzeigemethoden "Spalten" bzw. "Zeilen" gruppiert werden:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Einheitentyp[COLOR_REVERT] - Einheiten werden nach Typ zusammengefasst (Bogenschützen, Streitwagen, Panzer etc.)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Einheitenverband[COLOR_REVERT] - Einheiten werden in den vom Spieler definierten Gruppen zusammengefasst</German>
-		<Italian>Determina la modalità di raggruppamento utilizzata all'avvio del gioco. Modifica il raggruppamento delle Unità nelle diverse modalità di visualizzazione.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Tipo Unità[COLOR_REVERT] - le Unità vengono raggruppate per tipo (Arciere, Cocchio, Carrarmato, ecc.);[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Gruppo selezione[COLOR_REVERT] - le Unità vengono raggruppate in base al gruppo di selezione (1, 2, 3, ecc.) in cui si trovano.</Italian>
-		<Spanish>Establece el modo de agrupamiento utilizado al iniciar Civilization IV. Altera cómo se agrupan las unidades en los diferentes modos de visualización.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Tipo de unidad[COLOR_REVERT] - Las unidades se agrupan según su tipo (a distancia, montadas, blindadas, etc.)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Grupos de selección[COLOR_REVERT] - Las unidades se agrupan según los grupos de selección en los que están.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__DEFAULT_GROUP_MODE_LIST</Tag>
-		<English>Unit Type|Selection Group</English>
-		<French>Type d'Unité|Groupe de Sélection</French>
-		<German>Einheitentyp|Einheitenverband</German>
-		<Italian>Tipo Unità|Gruppo selezione</Italian>
-		<Spanish>Tipo de unidad|Grupos de selección</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__DEFAULT_GROUP_MODE_TEXT</Tag>
-		<English>Default Grouping</English>
-		<French>Groupement</French>
-		<German>Gruppierung nach</German>
-		<Italian>Raggruppamento</Italian>
-		<Spanish>Agrupamiento</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__DEFAULT_VIEW_MODE_HOVER</Tag>
-		<English>Sets the view mode used when you start Civ IV.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Single Row[COLOR_REVERT] - Original Civ IV view[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Multiple Rows[COLOR_REVERT] - Standard Beyond the Sword view[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Vertical Groups[COLOR_REVERT] - Units are grouped together in columns[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Horizontal Groups[COLOR_REVERT] - Units are grouped together in rows</English>
-		<French>Détermine le mode de vue quand vous démarrez Civ IV.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Une Ligne[COLOR_REVERT] - Vue par défaut de Civ IV[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Plusieures Lignes[COLOR_REVERT] - Vue par défaut de Beyond the Sword[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Groupes Verticaux[COLOR_REVERT] - Les Unités sont groupées en colonnes[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Groupes Horizontaux[COLOR_REVERT] - Les Unités sont groupées en rangées</French>
-		<German>Bestimmt die Standardansicht für die Einheitenliste:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Einzeilig[COLOR_REVERT] - Einheiten werden wie in "Civilization 4" (Hauptspiel) angeordnet[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Mehrzeilig[COLOR_REVERT] - Einheiten werden wie in "Beyond the Sword" angeordnet[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Spalten[COLOR_REVERT] - Einheiten werden in Spalten gruppiert angeordnet[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Zeilen[COLOR_REVERT] - Einheiten werden in Zeilen gruppiert angeordnet</German>
-		<Italian>Determina la modalità di visualizzazione utilizzata all'avvio del gioco:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Riga singola[COLOR_REVERT] - visualizzazione originale di Civ4;[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Righe multiple[COLOR_REVERT] - visualizzazione originale di Civ4:BtS;[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Gruppi verticali[COLOR_REVERT] - le Unità vengono raggruppate per colonna;[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Gruppi orizzontali[COLOR_REVERT] - le Unità vengono raggruppate per riga.</Italian>
-		<Spanish>Establece el modo de visualización utilizado al iniciar Civilization IV:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Fila única[COLOR_REVERT] - Vista original de Civilization IV.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Múltiples filas[COLOR_REVERT] - Vista estándar de Beyond the Sword.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Agrupación vertical[COLOR_REVERT] - Se agrupan las unidades en columnas.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Agrupación horizontal[COLOR_REVERT] - Se agrupan las unidades en filas.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__DEFAULT_VIEW_MODE_LIST</Tag>
-		<English>Single Row|Multiple Rows|Vertical Groups|Horizontal Groups</English>
-		<French>Une Ligne|Plusieurs Lignes|Groupes Verticaux|Groupes Horizontaux</French>
-		<German>Einzeilig|Mehrzeilig|Spalten|Zeilen</German>
-		<Italian>Riga singola|Righe multiple|Gruppi verticali|Gruppi orizzontali</Italian>
-		<Spanish>Fila única|Múltiples filas|Agrupación vertical|Agrupación horizontal</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__DEFAULT_VIEW_MODE_TEXT</Tag>
-		<English>Default View</English>
-		<French>Vue par défaut</French>
-		<German>Standardansicht</German>
-		<Italian>Visualizzazione</Italian>
-		<Spanish>Visualización</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__DRAW_METHOD_HOVER</Tag>
-		<English>Sets the draw method.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]PLE[COLOR_REVERT] - uses the 'draw' code that was originally provided by the PLE enhancement[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Vanilla[COLOR_REVERT] - uses the 'draw' code that was in the original game (or close enough)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]BUG[COLOR_REVERT] - uses the 'draw' code that is currently being developed by the BUG team to only redraw those graphical items that have changed</English>
-		<French>Définit la méthode de Dessin.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]PLE[COLOR_REVERT] - utilise la méthode 'draw' codée initialement par l'equpe de PLE[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Standard[COLOR_REVERT] - utilise la méthode 'draw' très proche de celle du Jeu original[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]BUG[COLOR_REVERT] - utilise la méthode 'draw' en cours de développement par l'équipe BUG, qui ne redessine que les objets graphiques qui ont changé</French>
-		<German>Stellt die "Draw"-Methode ein.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]PLE[COLOR_REVERT] - verwendet den 'Draw'-Code, der ursprünglich von der PLE-Verbesserung stammt[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Vanilla[COLOR_REVERT] - verwendet den 'Draw'-Code des Original-Spieles (nahezu)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]BUG[COLOR_REVERT] - verwendet den 'Draw'-Code, der derzeit vom BUG-Team entwickelt wird und nur die Grafikdetails neu zeichnet, die sich verändert haben</German>
-		<Italian>Seleziona la modalià di disegno.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]PLE[COLOR_REVERT] - usa l'algoritmo di 'disegno' introdotto dal MOD PLE[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Standard[COLOR_REVERT] - usa l'algoritmo di 'disegno' originale (o simile)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]BUG[COLOR_REVERT] - usa l'algoritmo di 'disegno' sviluppato dal Team BUG che rideisegna solo gli elementi grafici che sono cambiati</Italian>
-		<Spanish>Configura el método de diseño.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]PLE[COLOR_REVERT] - usa el código de "diseño" originalmente proporcionado por el equipo de PLE[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Estándar[COLOR_REVERT] - usa el código de "diseño" existente en el juego original (o similar)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]BUG[COLOR_REVERT] - usa el código de "diseño" actualmente en desarrollo por parte del equipo de BUG para redibujar solamente aquellos elementos gráficos que hayan cambiado.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__DRAW_METHOD_LIST</Tag>
-		<English>PLE|Vanilla|BUG</English>
-		<Italian>PLE|Standard|BUG</Italian>
-		<Spanish>PLE|Estándar|BUG</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__DRAW_METHOD_TEXT</Tag>
-		<English>Draw Method</English>
-		<French>Méthode de Dessin</French>
-		<German>Draw-Methode</German>
-		<Italian>Modalità Disegno</Italian>
-		<Spanish>Método de diseño</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__ENABLED_HOVER</Tag>
-		<English>Enables the Plot List Enhancements mod and the rest of the options on this tab.</English>
-		<French>Active le mod Plot List Enhancements ainsi que le reste des options sur cet onglet.</French>
-		<German>Aktiviert die Verbesserungen der Einheitenliste am unteren Bildschirmrand (verwendet 12monkeys' "Plot List Enhancements"-Mod)</German>
-		<Italian>Abilita il mod 'Plot List Enhancements' (PLE, Icone delle Unità Avanzate) e le altre opzioni in questa pagina.</Italian>
-		<Spanish>Habilita el mod Mejoras de manejo de casilla ("Plot List Enhancements") y el resto de opciones de esta página.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__ENABLED_TEXT</Tag>
-		<English>Enabled</English>
-		<French>Activer</French>
-		<German>Aktivieren</German>
-		<Italian>Abilitato</Italian>
-		<Spanish>Activado</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__FILTER_BEHAVIOR_HOVER</Tag>
-		<English>Sets how the filter buttons behave.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]PLE[COLOR_REVERT] - Selected filters remove the units they match from view, and related filters operate independently from each other (you can select both wounded and healthy, resulting in an empty view)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]BUG[COLOR_REVERT] - Selected filters remove non-matching units from view, and related filters are exclusive (selecting wounded deselects healthy, selecting air deselects both land and sea)</English>
-		<German>Bestimmt, wie die Schaltflächen der Einheitenfilter funktionieren:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]PLE[COLOR_REVERT] - Ausgewählte Filter blenden übereinstimmende Einheiten aus und verwandte Filter funktionieren unabhängig voneinander (d.h. es ist möglich, sowohl den Filter für verwundete als auch für unverwundete Einheiten auszuwählen, so dass in der Einheitenliste nichts angezeigt wird)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]BUG[COLOR_REVERT] - Ausgewählte Filter blenden nicht-übereinstimmende Einheiten aus und verwandte Filter schließen sich gegenseitig aus (d.h. bei Auswahl des Filters für verwundete Einheiten wird jener für unverwundete Einheiten abgewählt, bei Auswahl des Filters für Lufteinheiten werden jene für Land- und Marineeinheiten abgewählt)</German>
-		<Italian>Determina il comportamento dei pulsanti di filtro.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]PLE[COLOR_REVERT] - I pulsanti selezionati nascondono le icone delle Unità corrispondenti al filtro in questione; i filtri corrispondenti funzionano indipendentemente (per esempio è possibile selezionare sia il filtro per le unità ferite che quello per le unità sane, il che fornisce ovviamente una selezione vuota)[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]BUG[COLOR_REVERT] - I pulsanti selezionati nascondono le icone delle Unità NON corrispondenti al filtro in questione; ; i filtri corrispondenti funzionano in modo mutuamente esclusivo (la selezione del filtro per le unità ferite comporta la deselezione automatica di quello per le unità sane)</Italian>
-		<Spanish>Configura cómo se comportarán los filtros.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]PLE[COLOR_REVERT] - Los filtros seleccionados eliminarán las unidades que concuerden con la selección, y los filtros relacionados trabajarán independientemente unos de otros (puedes seleccionar los filtros de heridos y sanos, resultando en una selección vacía).[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]BUG[COLOR_REVERT] - Los filtros elegidos eliminarán las unidades que no concuerden con la vista, y los filtros relacionados son exclusivos (al seleccionar el filtro de heridos se deselecciona el de sanos, seleccionar el de "Ejército del Aire" deselecciona tanto el de Tierra como el de Mar).</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__FILTER_BEHAVIOR_LIST</Tag>
-		<English>PLE|BUG</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__FILTER_BEHAVIOR_TEXT</Tag>
-		<English>Filter Behavior</English>
-		<French>Comportement des Filtres</French>
-		<German>Filterfunktion</German>
-		<Italian>Modalità filtri</Italian>
-		<Spanish>Comportamiento de los filtros</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__FULL_MOVEMENT_COLOR_HOVER</Tag>
-		<English>The color to use for the available movement portion of the bar.</English>
-		<French>La couleur pour indiquer les points de mouvement disponibles.</French>
-		<German>Bestimmt die Farbe des Teils des Bewegungspunktebalkens für noch nicht verbrauchte Bewegungspunkte</German>
-		<Italian>Il colore da utilizzare per la porzione della barra corrispondente ai punti-movimento ancora disponibili.</Italian>
-		<Spanish>El color a utilizar para la parte de movimiento disponible de la barra.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__FULL_MOVEMENT_COLOR_TEXT</Tag>
-		<English>Available</English>
-		<French>Disponibles</French>
-		<German>Verfügbar</German>
-		<Italian>Disponibili</Italian>
-		<Spanish>Disponible</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__HAS_MOVED_COLOR_HOVER</Tag>
-		<English>The color to use for the used movement portion of the bar.</English>
-		<French>La couleur pour indiquer les points de mouvement utilisés.</French>
-		<German>Bestimmt die Farbe des Teils des Bewegungspunktebalkens für bereits verbrauchte Bewegungspunkte</German>
-		<Italian>Il colore da utilizzare per la porzione della barra corrispondente ai punti-movimento utilizzati.</Italian>
-		<Spanish>El color a utilizar para la parte de movimiento consumido de la barra.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__HAS_MOVED_COLOR_TEXT</Tag>
-		<English>Used</English>
-		<French>Utilisés</French>
-		<German>Verbraucht</German>
-		<Italian>Utilizzati</Italian>
-		<Spanish>Consumidos</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__HEALTH_BAR_HOVER</Tag>
-		<English>Shows a bar above the unit icon displaying the unit's health and damage.</English>
-		<French>Montre les points de vie et les dommages d'une Unité dans une barre au-dessus de l'icône.</French>
-		<German>Zeigt einen Balken für die Gesundheit einer Einheit über dem Einheitensymbol an</German>
-		<Italian>Mostra una barra sopra l'icona dell'Unità che rappresenta la salute ed i danni subiti dall'Unità.</Italian>
-		<Spanish>Muestra una barra encima del icono de la unidad mostrando la salud de la unidad y el daño recibido.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__HEALTH_BAR_TEXT</Tag>
-		<English>Health Bar</English>
-		<French>Barre de Vie</French>
-		<German>Gesundheitsbalken</German>
-		<Italian>Barra della salute</Italian>
-		<Spanish>Barra de salud</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__HEALTHY_COLOR_HOVER</Tag>
-		<English>The color to use for the healthy portion of the bar.</English>
-		<French>La couleur pour le côté points de vie de la barre.</French>
-		<German>Bestimmt die Farbe des Teils des Gesundheitsbalkens für keine oder leichte Verwundungen einer Einheit</German>
-		<Italian>Il colore da utilizzare per la barra corrispondente ad una Unità in salute.</Italian>
-		<Spanish>El color a utilizar para la parte sana de la barra.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__HEALTHY_COLOR_TEXT</Tag>
-		<English>Healthy</English>
-		<French>Vie</French>
-		<German>Gesund</German>
-		<Italian>Sana</Italian>
-		<Spanish>Sana</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__HIDE_HEALTH_FIGHTING_HOVER</Tag>
-		<English>Hides the Health Bar when a unit is in combat.</English>
-		<French>Cache la Barre de Vie pendant qu'une Unité combat.</French>
-		<German>Blendet den Gesundheitsbalken über dem Einheitensymbol während eines Kampfes aus</German>
-		<Italian>Nasconde la Barra della salute quando un'Unità è in combattimento.</Italian>
-		<Spanish>Oculta la barra de salud cuando una unidad entra en combate.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__HIDE_HEALTH_FIGHTING_TEXT</Tag>
-		<English>Hide During Combat</English>
-		<French>Caché pendant le combat</French>
-		<German>Bei Kämpfen ausblenden</German>
-		<Italian>Nascondi in battaglia</Italian>
-		<Spanish>Ocultar durante el combate</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__HORIZONTAL_SPACING_HOVER</Tag>
-		<English>Specifies the horizontal spacing between icons (default value is 34).</English>
-		<French>Specifie l'espacement horizontal des icônes (valeur par défaut = 34).</French>
-		<German>Bestimmt den horizontalen Abstand zwischen den Einheitensymbolen (der Standardwert ist 34)</German>
-		<Italian>Indica la spaziatura orizzontale fra le icone (il valore predefinito è '34').</Italian>
-		<Spanish>Especifica el espacio horizontal entre iconos (valor predeterminado: 34).</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__HORIZONTAL_SPACING_TEXT</Tag>
-		<English>Horizontal Spacing</English>
-		<French>Espacement Horizontal</French>
-		<German>Horizontaler Abstand</German>
-		<Italian>Spaziatura orizzontale</Italian>
-		<Spanish>Espacio horizontal</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__INFO_PANE_HOVER</Tag>
-		<English>Replaces the default Unit Info displayed when you hover over a unit.</English>
-		<French>Remplace l'infobulle par défaut des Infos d'Unité.</French>
-		<German>Ersetzt die Informationen, die standardmäßig angezeigt werden, wenn der Mauszeiger über ein Einheitensymbol bewegt wird</German>
-		<Italian>Sostituisce le informazioni sulle Unità normalmente visualizzate quando si mantiene il cursore su una Unità.</Italian>
-		<Spanish>Reemplaza la Información de unidad predeterminada mostrada cuando se pasa el ratón por encima de ella.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__INFO_PANE_PROMO_ICON_OFFSET_Y_HOVER</Tag>
-		<English>Specifies the vertical offset of the promotion icons on the Unit Info hover pane (default value is 0, positive is up). Use this to adjust the placement of the icons when using themes that change the font. For example, use 6 with BlueMarble.</English>
-		<German>Legt den vertikalen Abstand der Beförderungssymbole im Info-Tooltip fest, um bei Themes, die die Schriftart verändern, diese Symbole richtig anzuordnen (der Standardwert ist 0, der beste Wert für "Blue Marble" ist 6)</German>
-		<Italian>Determina il posizionamento verticale delle Icone di Promozione nel Pannello di Informazioni sulle Unità (il valore predefinito è '0', i valori positivi indicano uno spostamento verso l'alto e quelli negativi verso il basso). Utilizza questa impostazione per aggiustare il piazzamento delle icone di promozione quando utilizzi dei temi personalizzati che modificano il font predefinito di Civ4 (per esempio, ti consigliamo di impostare un valore di '6' se utilizzi il tema del mod BlueMarble).</Italian>
-		<Spanish>Especifica el desplazamiento vertical de los iconos de ascenso en el panel de Información de unidad mostrado cuando se pasa el ratón por encima de ella (valor predeterminado: 0, positivo mueve hacia arriba). Utilízalo para ajustar el posicionamiento de iconos al usar temas que cambian la fuente del texto. Por ejemplo, usa 6 con BlueMarble.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__INFO_PANE_PROMO_ICON_OFFSET_Y_TEXT</Tag>
-		<English>Promotion Icon Offset</English>
-		<German>Beförderungen (Abstand)</German>
-		<Italian>Posiz. Icone Promozione</Italian>
-		<Spanish>Desplazamiento de iconos de ascenso</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__INFO_PANE_TEXT</Tag>
-		<English>Enabled</English>
-		<French>Activé</French>
-		<German>Aktivieren</German>
-		<Italian>Attivato</Italian>
-		<Spanish>Activado</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__INFO_PANE_X_HOVER</Tag>
-		<English>Specifies the horizontal position of the Unit Info hover pane (default value is 5).</English>
-		<French>Specifie la position horizontale de l'infobulle d'Info d'Unité (valeur par défaut = 5).</French>
-		<German>Bestimmt die horizontale Position des neuen Info-Tooltips der Einheitensymbole (der Standardwert ist 5)</German>
-		<Italian>Indica la posizione orizzontale del Pannello di Informazioni sulle Unità (il valore predefinito è '5').</Italian>
-		<Spanish>Especifica la posición horizontal del panel de Información de unidad mostrado cuando se pasa el ratón por encima de ella (valor predeterminado: 5).</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__INFO_PANE_X_TEXT</Tag>
-		<English>Horizontal Position</English>
-		<French>Position Horizontale</French>
-		<German>Horizontale Position</German>
-		<Italian>Posizione orizzontale</Italian>
-		<Spanish>Posición horizontal</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__INFO_PANE_Y_HOVER</Tag>
-		<English>Specifies the vertical position of the Unit Info hover pane (default value is 160).</English>
-		<French>Specifie la position verticale de l'infobulle d'Info d'Unité (valeur par défaut = 160).</French>
-		<German>Bestimmt die vertikale Position des neuen Info-Tooltips der Einheitensymbole (der Standardwert ist 160)</German>
-		<Italian>Indica la posizione verticale del Pannello di Informazioni sulle Unità (il valore predefinito è '160').</Italian>
-		<Spanish>Especifica la posición vertical del panel de Información de unidad mostrado cuando se pasa el ratón por encima de ella (valor predeterminado: 160).</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__INFO_PANE_Y_TEXT</Tag>
-		<English>Vertical Position</English>
-		<French>Position Verticale</French>
-		<German>Vertikale Position</German>
-		<Italian>Posizione  verticale</Italian>
-		<Spanish>Posición vertical</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__LEAD_BY_GG_INDICATOR_HOVER</Tag>
-		<English>Places a star on units that are lead by a Great General.</English>
-		<French>Une étoile dorée indiquera une unité qui contient un Général Illustre.</French>
-		<German>Fügt den Einheitensymbolen von Einheiten, die von Großen Generälen geführt werden, einen kleinen goldenen Stern hinzu</German>
-		<Italian>Visualizza una piccola stella dorata sulle Unità guidate da un Grande Generale.</Italian>
-		<Spanish>Coloca una estrella en las unidades dirigidas por un Gran general.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__LEAD_BY_GG_INDICATOR_TEXT</Tag>
-		<English>Great General</English>
-		<French>Général Illustre</French>
-		<German>Großer General</German>
-		<Italian>Grande Generale</Italian>
-		<Spanish>Gran general</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__MISSION_INFO_HOVER</Tag>
-		<English>Places a tag below units showing their current mission (action).</English>
-		<French>Le texte des actions des unités est ajoutée à leur icône.</French>
-		<German>Fügt den Einheitensymbolen die gerade ausgeführte Aktion als Symbol hinzu</German>
-		<Italian>Visualizza le azioni delle Unità sulle loro icone.</Italian>
-		<Spanish>Coloca una etiqueta debajo de las unidades que muestra su misión actual.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__MISSION_INFO_TEXT</Tag>
-		<English>Mission Tag</English>
-		<French>Actions d'Unité</French>
-		<German>Einheitenaktion</German>
-		<Italian>Azioni delle Unità</Italian>
-		<Spanish>Etiqueta de misión</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__MOVE_BAR_HOVER</Tag>
-		<English>Shows a bar above the unit icon displaying the unit's movement points.</English>
-		<French>Montre les points de mouvement d'une unité dans une barre au-dessus de l'icône.</French>
-		<German>Zeigt einen Balken für die verbleibenden Bewegungspunkte einer Einheit über dem Einheitensymbol an</German>
-		<Italian>Mostra una barra sopra l'icona dell'Unità che rappresenta i punti di movimento dell'Unità.</Italian>
-		<Spanish>Muestra una barra encima del icono de la unidad mostrando los puntos de movimiento de la unidad.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__MOVE_BAR_TEXT</Tag>
-		<English>Movement Bar</English>
-		<French>Barre de Mouvement</French>
-		<German>Bewegungspunktebalken</German>
-		<Italian>Barra di movimento</Italian>
-		<Spanish>Barra de movimiento</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__MOVE_HIGHLIGHTER_HOVER</Tag>
-		<English>Highlights the moves a unit can make when you hover the mouse over the unit's icon while holding [ALT].</English>
-		<German>Zeigt die Zugoptionen einer Einheit an, wenn der Mauszeiger bei gedrückter [ALT]-Taste über das Einheitensymbol bewegt wird</German>
-		<Italian>Visualizza il movmento disponibile per una Unità quando premete il tasto [ALT] e posizionate il mouse sull'icona di tale Unità.</Italian>
-		<Spanish>Remarca los movimientos que una unidad puede realizar cuando pasas el ratón por encima del icono de la unidad pulsando simultáneamente [ALT].</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__MOVE_HIGHLIGHTER_TEXT</Tag>
-		<English>Move Highlighter</English>
-		<French>Visu. du mouvement</French>
-		<German>Zugoptionen</German>
-		<Italian>Visualizzatore di movimento</Italian>
-		<Spanish>Remarcar movimientos</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__NO_MOVEMENT_COLOR_HOVER</Tag>
-		<English>The color to use for the whole bar when the unit cannot move anymore.</English>
-		<French>La couleur pour la barre entière quand l'unité ne peut plus bouger.</French>
-		<German>Bestimmt die Farbe des gesamten Bewegungspunktebalkens bei Verbrauch aller Bewegungspunkte</German>
-		<Italian>Il colore da utilizzare per l'intera barra corrispondente ad una Unità che non può più muoversi.</Italian>
-		<Spanish>El color a utilizar para toda la barra cuando la unidad no se puede mover.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__NO_MOVEMENT_COLOR_TEXT</Tag>
-		<English>Cannot Move</English>
-		<French>Immobile</French>
-		<German>Unbeweglich</German>
-		<Italian>Immobile</Italian>
-		<Spanish>Inmóvil</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__PLE_STYLE_HOVER</Tag>
-		<English>Enables the Plot List Enhancements mod and the rest of the options on this tab.</English>
-		<French>Active le mod 'Plot List Enhancements' ainsi que le reste des options sur cet onglet.</French>
-		<German>Aktiviert die Verbesserungen der Einheitenliste am unteren Bildschirmrand (verwendet 12monkeys' "Plot List Enhancements"-Mod)</German>
-		<Italian>Abilita il mod 'Plot List Enhancements' (PLE, Icone delle Unità Avanzate) e le altre opzioni in questa pagina.</Italian>
-		<Spanish>Habilita el mod Mejoras de manejo de casilla ("Plot List Enhancements") y el resto de opciones de esta página.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__PLE_STYLE_TEXT</Tag>
-		<English>PLE Style</English>
-		<French>Style PLE</French>
-		<German>PLE aktivieren</German>
-		<Italian>Stile PLE</Italian>
-		<Spanish>Estilo PLE</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__PROMOTION_INDICATOR_HOVER</Tag>
-		<English>Places a light blue border around units that can be promoted.</English>
-		<French>Un bord bleu sera mis autour des unités qui ont une promotion disponible.</French>
-		<German>Legt einen blauen Rahmen um das Einheitensymbol, wenn eine Einheit befördert werden kann</German>
-		<Italian>Visualizza dei bordi blu attorno alle Unità che hanno una promozione disponibile.</Italian>
-		<Spanish>Coloca un marco azul claro sobre los iconos de unidades que tienen ascensos pendientes.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__PROMOTION_INDICATOR_TEXT</Tag>
-		<English>Promotion Available</English>
-		<French>Promotion Disponible</French>
-		<German>Beförderung verfügbar</German>
-		<Italian>Promozione disponibile</Italian>
-		<Spanish>Ascenso disponible</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__PROMOTION_SPECIALTIES_COLOR_HOVER</Tag>
-		<English>Color of the specialties a unit has due to its promotions.</English>
-		<German>Bestimmt die Farbe zur Hervorhebung besonderer Fähigkeiten, über die eine Einheit auf Grund ihrer Beförderungen verfügt</German>
-		<Italian>Colore delle caratteristiche di una unità dovute alle sue Promozioni.</Italian>
-		<Spanish>Color de las habilidades que una unidad tiene debido a sus ascensos.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__PROMOTION_SPECIALTIES_COLOR_TEXT</Tag>
-		<English>Promotion</English>
-		<German>Beförderung</German>
-		<Italian>Promozioni</Italian>
-		<Spanish>Ascensos</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__SHOW_BUTTONS_HOVER</Tag>
-		<English>When checked, the buttons for changing the view, grouping and filter modes are displayed above the action buttons.</English>
-		<French>Lorsque activé, Les boutons permettant de changer de vue, de regroupe et de filtrer sont affiché au-dessus des boutons d'action.</French>
-		<German>Zeigt unter der Einheitenliste Schaltflächen für die Anzeigemethode der Liste, die Gruppierung von Einheiten und die Einheitenfilter an</German>
-		<Italian>Quando è selezionato, mostra al di sopra dei pulsanti di azione i pulsanti per modificare i raggruppamenti ed i filtri.</Italian>
-		<Spanish>Cuando se activa, los botones para cambiar los modos de visualización, agrupado y filtrado se muestran encima de los botones de acción.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__SHOW_BUTTONS_TEXT</Tag>
-		<English>Show Mode/Filter Buttons</English>
-		<French>Afficher les boutons Mode/Filtre</French>
-		<German>Filterschaltflächen</German>
-		<Italian>Pulsanti per raggruppamenti e filtri</Italian>
-		<Spanish>Mostrar botones Modo/Filtro</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__UNIT_NAME_COLOR_HOVER</Tag>
-		<English>Color of the unit's name.</English>
-		<German>Bestimmt die Farbe von Einheitennamen</German>
-		<Italian>Colore del nome dell'Unità.</Italian>
-		<Spanish>Color del nombre de unidad.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__UNIT_NAME_COLOR_TEXT</Tag>
-		<English>Unit Name</English>
-		<German>Einheitenname</German>
-		<Italian>Nome</Italian>
-		<Spanish>Nombre de unidad</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__UNIT_TYPE_SPECIALTIES_COLOR_HOVER</Tag>
-		<English>Color of the specialities a unit has due to its type.</English>
-		<German>Bestimmt die Farbe zur Hervorhebung besonderer Fähigkeiten, über die eine Einheit auf Grund ihres Typs verfügt</German>
-		<Italian>Colore delle caratteristiche di una unità dovute al suo Tipo.</Italian>
-		<Spanish>Color de las habilidades que una unidad tiene debido a su tipo.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__UNIT_TYPE_SPECIALTIES_COLOR_TEXT</Tag>
-		<English>Unit Type</English>
-		<German>Einheitentyp</German>
-		<Italian>Tipo</Italian>
-		<Spanish>Tipo de unidad</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__UPGRADE_INDICATOR_HOVER</Tag>
-		<English>Places an orange up arrow on the lower-right corner of units that can be upgraded, ignoring cost.</English>
-		<French>Place une flèche orange sur les Unités capables de s'améliorer, sans tenir compte des frais.</French>
-		<German>Zeigt einen orangenen nach oben gerichteten Pfeil in der unteren rechten Ecke des Einheitensymbols an, wenn eine Einheit modernisiert werden kann (unabhängig von den Kosten)</German>
-		<Italian>Visualizza una freccia arancio nell'angolo inferiore destro delle Unità che possono godere di un avanzamento (non tenendo conto del costo dell'avanzamento).</Italian>
-		<Spanish>Coloca una flecha naranja en la esquina inferior derecha del icono de unidad en aquellas que pueden ser actualizadas (sin comprobar la posibilidad de pagar).</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__UPGRADE_INDICATOR_TEXT</Tag>
-		<English>Upgrade Available</English>
-		<French>Amélioration disponible</French>
-		<German>Modernisierung verfügbar</German>
-		<Italian>Avanzamento disponibile</Italian>
-		<Spanish>Mejora disponible</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__UPGRADE_NOT_POSSIBLE_COLOR_HOVER</Tag>
-		<English>Color of the upgrade cost when you cannot afford to upgrade the unit.</English>
-		<German>Bestimmt die Farbe, in der die Modernisierungskosten eingefärbt werden, wenn nicht genügend Gold verfügbar ist</German>
-		<Italian>Colore del costo di avanzamento quando non ce lo si può permettere economicamente.</Italian>
-		<Spanish>Color del coste de actualización cuando no puedes afrontarlo.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__UPGRADE_NOT_POSSIBLE_COLOR_TEXT</Tag>
-		<English>Cannot Afford</English>
-		<French>Achat impossible</French>
-		<German>Unerschwinglich</German>
-		<Italian>Non possibile</Italian>
-		<Spanish>No puede pagar</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__UPGRADE_POSSIBLE_COLOR_HOVER</Tag>
-		<English>Color of the upgrade cost when you can afford to upgrade the unit.</English>
-		<German>Bestimmt die Farbe, in der die Modernisierungskosten eingefärbt werden, wenn genügend Gold verfügbar ist</German>
-		<Italian>Colore del costo di avanzamento quando ce lo si può permettere economicamente.</Italian>
-		<Spanish>Color del coste de actualización cuando puedes afrontarlo.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__UPGRADE_POSSIBLE_COLOR_TEXT</Tag>
-		<English>Can Afford</English>
-		<French>Achat possible</French>
-		<German>Erschwinglich</German>
-		<Italian>Possibile</Italian>
-		<Spanish>Puede pagar</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__VERTICAL_SPACING_HOVER</Tag>
-		<English>Specifies the vertical spacing between icons (default value is 42).</English>
-		<French>Specifie l'espacement vertical des icônes (valeur par défaut = 42).</French>
-		<German>Bestimmt den vertikalen Abstand zwischen den Einheitensymbolen (der Standardwert ist 42)</German>
-		<Italian>Indica la spaziatura orizzontale fra le icone (il valore predefinito è '42').</Italian>
-		<Spanish>Especifica el espacio vertical entre iconos (valor predeterminado: 42).</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__VERTICAL_SPACING_TEXT</Tag>
-		<English>Vertical Spacing</English>
-		<French>Espacement Vertical</French>
-		<German>Vertikaler Abstand</German>
-		<Italian>Spaziatura verticale</Italian>
-		<Spanish>Espacio vertical</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__WOUNDED_COLOR_HOVER</Tag>
-		<English>The color to use for the wounded portion of the bar.</English>
-		<French>La couleur pour le côté dommages de la barre.</French>
-		<German>Bestimmt die Farbe des Teils des Gesundheitsbalkens für schwere Verwundungen einer Einheit</German>
-		<Italian>Il colore da utilizzare per la barra corrispondente ad una Unità ferita.</Italian>
-		<Spanish>El color a utilizar para la parte herida de la barra.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__WOUNDED_COLOR_TEXT</Tag>
-		<English>Wounded</English>
-		<French>Dommages</French>
-		<German>Verwundet</German>
-		<Italian>Ferita</Italian>
-		<Spanish>Herida</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__WOUNDED_INDICATOR_HOVER</Tag>
-		<English>Darkens the dot in the upper-left corner of units that are wounded.</English>
-		<French>Lorsque activé, le point dans le coin supérieur gauche des unités endommagées sera plus foncé.</French>
-		<German>Färbt den Punkt oben links über einer Einheit dunkler, wenn diese verwundet wurde</German>
-		<Italian>Rende più scuro il dischetto nell'angolo superiore sinistro per le Unità non in piena salute.</Italian>
-		<Spanish>Oscurece el punto de estado de la esquina superior izquierda en las unidades que están heridas.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_PLE__WOUNDED_INDICATOR_TEXT</Tag>
-		<English>Wounded Dot</English>
-		<French>Point Endommagé</French>
-		<German>Verwundung</German>
-		<Italian>Disco di stato</Italian>
-		<Spanish>Punto para herida</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REMINDER__AUTOLOG_HOVER</Tag>
@@ -6483,22 +4841,6 @@
 		<German>Stapelangriff</German>
 		<Spanish>Ataque en grupo</Spanish>
 	</TEXT>
-	<!--TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVDCM__DYNAMIC_CIV_NAMES_HOVER</Tag>
-		<English>Enable the DynamicCivNames mod component: renames civs based on their civics and other properties.  Only works in English.</English>
-		<French>Active noms dynamiques des Civ: renomme les civs en fonction de leurs doctrines et d'autres propriétés. Fonctionne essentiellement en Anglais - compatibilité assuré en Français sans les accentuations</French>
-		<German>Aktivieren Sie den DynamicCivNames-MOD-Baustein: benennt Civs basierend auf ihre Gesellschaftsformen und sonstige Eigenschaften um.  Funktioniert nur auf englisch einwandfrei.</German>
-		<Italian>Attiva il componente "Definizioni Dinamiche" (DynamicCivNames): rinomina le civiltà in base a forma di governo ed altre proprietà (in inglese).</Italian>
-		<Spanish>Activa los nombres de civilización dinámicos ('DynamicCivNames'): renombra las civilizaciones basándose en sus principios y otras propiedades. Funciona plenamente en inglés; no se garantiza el funcionamiento en español.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVDCM__DYNAMIC_CIV_NAMES_TEXT</Tag>
-		<English>DynamicCivNames Mod</English>
-		<French>Mod noms dynamiques des Civ</French>
-		<German>DynamicCivNames MOD</German>
-		<Italian>MOD "DynamicCivNames"</Italian>
-		<Spanish>Nombres dinámicos de civilización</Spanish>
-	</TEXT-->
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVDCM__IDW_EMERGENCY_DRAFT_ENABLED_HOVER</Tag>
 		<English>Causes weakened units to spawn in defense of cities that are under attack with no defender if the defenseless city still has significant cultural influence of the owning civilization</English>
@@ -6788,19 +5130,6 @@
 		<Spanish>Umbral de violencia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ANNOUNCEBARBSETTLE_HOVER</Tag>
-		<English>Enables announcment when Barbarian cities settle down and spawn new civs</English>
-		<German>Kündigt an, wenn sich Barbarenstädte ansiedeln und neue Zivilisationen gegründet werden</German>
-		<Spanish>Cuando una ciudad bárbara se asienta y forma una nueva civilización, muestra un anuncio.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ANNOUNCEBARBSETTLE_TEXT</Tag>
-		<English>Announce Barb Settling</English>
-		<French>Paramètres d'Annonce de l'installation de Barbares</French>
-		<German>Ankündigung Barbarenansiedlung</German>
-		<Spanish>Anunciar asentamiento bárbaro</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ARTSTYLETYPES_HOVER</Tag>
 		<English>Spawn Rebels with a preference for the artstyle type of the parent nation</English>
 		<Spanish>Genera rebeldes con un estilo artístico preferentemente del mismo tipo que el de su patria.</Spanish>
@@ -6809,16 +5138,6 @@
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ARTSTYLETYPES_TEXT</Tag>
 		<English>ArtStyle Types</English>
 		<Spanish>Tipos de estilo artístico</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BADLOCALTHRESHOLD_HOVER</Tag>
-		<English>Effects local RevIdx effects and bribing, as well as penalties added when a city is feeling rebelious</English>
-		<Spanish>Afecta a los efectos del RevIndex local y a los sobornos, además de a las penalizaciones añadidas cuando una ciudad se siente rebelde.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BADLOCALTHRESHOLD_TEXT</Tag>
-		<English>Local Threshold</English>
-		<Spanish>Umbral local</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBARIAN_CIV_HOVER</Tag>
@@ -6833,18 +5152,6 @@
 		<Spanish>Civilizaciones bárbaras</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBCIVDEBUGMODE_HOVER</Tag>
-		<English>Turn on Barbarian Civ Debug output</English>
-		<French>Active les Informations de Debug de Civ Barbares</French>
-		<German>Schaltet die Barbarian Civ Debug-Ausgabe ein</German>
-		<Spanish>Activa la salida de depuración del mod 'Barbarian Civ'.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBCIVDEBUGMODE_TEXT</Tag>
-		<English>BarbCiv Debug</English>
-		<Spanish>Depuración de BarbCiv</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBCIVMAXCIVS_HOVER</Tag>
 		<English>Barbcivs will not spawn if there are already this many civs in the game (-1 for DLL limit)</English>
 		<German>Barbaren-Zivilisationen entstehen nicht, wenn es bereits so viele Zivilisationen im Spiel gibt (-1 wegen der DLL-Begrenzung)</German>
@@ -6855,18 +5162,6 @@
 		<English>Max BarbCivs</English>
 		<German>Maximale BarbCivs</German>
 		<Spanish>Máximo de civilizaciones bárbaras</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBCIVSBYSTYLE_HOVER</Tag>
-		<English>If a city has culture, spawn a new civ with same art style as highest culture player</English>
-		<German>Wenn eine Barbarenstadt Kultur entwickelt, so ensteht eine neue Zivilisation mit dem Stil des Spielers mit der höchstem Kulturwert</German>
-		<Spanish>Si una ciudad tiene cultura, genera una nueva civilización bárbara con el mismo estilo artístico que el jugador con la cultura más elevada.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBCIVSBYSTYLE_TEXT</Tag>
-		<English>BarbCiv Style</English>
-		<German>BarbCiv-Stil</German>
-		<Spanish>Estilo de civilizaciones bárbaras</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BARBTECHFRAC_HOVER</Tag>
@@ -6882,18 +5177,6 @@
 		<Spanish>Fracción de tecnología bárbara</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BASEMILITARYODDS_HOVER</Tag>
-		<English>Base odds of Military style buildup</English>
-		<German>Grundlegende Wahrscheinlichkeit für militärisch ausgerichtete Barbaren-Zivilisation</German>
-		<Spanish>Probabilidad base para el asentamiento de una civilización de estilo Militar.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BASEMILITARYODDS_TEXT</Tag>
-		<English>Military Odds</English>
-		<German>Militär-Wahrscheinlichkeit</German>
-		<Spanish>Probabilidad de Militar</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BASEREINFORCEMENTTURNS_HOVER</Tag>
 		<English>Average number of turns that pass before rebellions recieve reinforcements</English>
 		<Spanish>Número medio de turnos que pasarán antes de que las rebeliones reciban refuerzos.</Spanish>
@@ -6902,18 +5185,6 @@
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BASEREINFORCEMENTTURNS_TEXT</Tag>
 		<English>Base Reinforcement Turns</English>
 		<Spanish>Turnos para refuerzo</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BLOCKPOPUPINAUTO_HOVER</Tag>
-		<English>Lock barb settle popup while AIAutoPlay is on (will show up as messages)</English>
-		<German>Blockiert das Öffnen von Fenstern zur Ansiedlung von Barbaren, wenn AIAutoPlay läuft (wird als Textmeldung angezeigt)</German>
-		<Spanish>Bloquea el aviso emergente de asentamiento bárbaro cuando AIAutoPlay esta activado (solo se mostrará como mensaje)</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BLOCKPOPUPINAUTO_TEXT</Tag>
-		<English>No Auto Popup</English>
-		<German>Kein automatisches Fenster</German>
-		<Spanish>No avisar automáticamente</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BLOCKPOPUPS_HOVER</Tag>
@@ -6926,28 +5197,6 @@
 		<Spanish>Bloquear elementos emergentes</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BONUSTECHSBEHIND_HOVER</Tag>
-		<English>Offset number of techs behind used to give heavy Tech Diffusion bonuses to very behind civs</English>
-		<Spanish>Número de tecnologías de retraso para poder otorgar mayores bonificaciones por difusión tecnológica a civilizaciones muy atrasadas.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BONUSTECHSBEHIND_TEXT</Tag>
-		<English>Bonus Techs Behind</English>
-		<Spanish>Atraso en tecnologías para bonificación especial</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BUILDERBONUSTECHS_HOVER</Tag>
-		<English>Number of bonus techs that builder type BarbCivs get</English>
-		<German>Anzahl von Bonustechnologien, die aufbauorientierte Barbaren-Zivilisation ("Builder") erhalten</German>
-		<Spanish>Número de tecnologías de bonificación que obtienen las civilizaciones bárbaras de rasgo Diligente.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BUILDERBONUSTECHS_TEXT</Tag>
-		<English>Builder Tech Bonus</English>
-		<German>Bonustechnologien für "Builder"</German>
-		<Spanish>Bonificación tecnológica por 'Diligente'</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BUYOFFTURNS_HOVER</Tag>
 		<English>Minimum number of turns that must pass before a revolution can occur after rebels have been bought off</English>
 		<Spanish>Número mínimo de turnos que deben pasar antes de que pueda ocurrir una revolución tras haber sobornado a los rebeldes.</Spanish>
@@ -6956,18 +5205,6 @@
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__BUYOFFTURNS_TEXT</Tag>
 		<English>Acquired Turns</English>
 		<Spanish>Turnos tras sobornar</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CANCELAUTOFOROFFER_HOVER</Tag>
-		<English>Cancels player control of new barb civilizations</English>
-		<German>Beendet die Kontrolle neuer Barbaren-Zivilisationen durch den Spieler</German>
-		<Spanish>Cancela la toma de control de las nuevas civilizaciones bárbaras por el jugador.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CANCELAUTOFOROFFER_TEXT</Tag>
-		<English>Cancel Offer Control</English>
-		<German>Angebot der Kontrolle aufheben</German>
-		<Spanish>Cancelar ofrecimiento de control</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CENTERPOPUPS_HOVER</Tag>
@@ -7060,6 +5297,21 @@
 		<Spanish>Modificador a Tamaño de civilización</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CLOSEDIST_HOVER</Tag>
+		<English>Plot distance between capitals that qualifies another civ as a local neighbour to the emerging civ.
+The other civ must have a city on the same landmass as the emerging civ for it to be considered a neighbour.
+Civs emerging from barbarians adapt to their local neighbours in many different ways, e.g. tech level.
+
+A low value will make each such civ generation more generic.
+A high value can impact performance slightly, especially on large maps.
+The value set here is the value used for a 'Duel' world size.
+The value is multiplied by 15 on a 'Gigantic' world sized map.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CLOSEDIST_TEXT</Tag>
+		<English>Neighbour distance</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__CLOSERADIUS_HOVER</Tag>
 		<English>Limiting distance for colony negative revolutionary effects, and distance rebeling cities can effect and draw in other cities.</English>
 		<Spanish>Distancia límite para efectos revolucionarios negativos en colonias, y distancia a la que las ciudades rebeladas pueden impresionar y atraer a otras ciudades.</Spanish>
@@ -7120,16 +5372,6 @@
 		<Spanish>Turnos tras rechazar</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__DIFFUSIONMOD_HOVER</Tag>
-		<English>Modifier used in Tech Diffusion calculations</English>
-		<Spanish>Modificador utilizado en los cálculos de difusión tecnológica.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__DIFFUSIONMOD_TEXT</Tag>
-		<English>Diffusion Modifier</English>
-		<Spanish>Modificador de difusión</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__DISTANCETOCAPITALMODIFIER_HOVER</Tag>
 		<English>Multiplier used to alter Distance to Capital RevIdx penalty</English>
 		<Spanish>Multiplicador aplicado a la penalización en el RevIndex por distancia con la capital.</Spanish>
@@ -7138,16 +5380,6 @@
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__DISTANCETOCAPITALMODIFIER_TEXT</Tag>
 		<English>Distance to Modifier</English>
 		<Spanish>Modificador a Distancia a la capital</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__DYNAMICNAMESDEBUGMODE_HOVER</Tag>
-		<English>Enables Debugging information and logging for Dynamic Civ Names</English>
-		<Spanish>Activa información de depuración y registro para los Nombres de civilización dinámicos ('Dynamic Civ Names')</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__DYNAMICNAMESDEBUGMODE_TEXT</Tag>
-		<English>Debug</English>
-		<Spanish>Depuración</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ENDWARSONDEATH_HOVER</Tag>
@@ -7160,18 +5392,6 @@
 		<Spanish>Finalizar guerras en caso de eliminación</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__FIERCENATIVES_HOVER</Tag>
-		<English>New World barbcivs will attack Old World civs preferentially and in addition to wars against other new world civs</English>
-		<German>Die Barbaren-Zivilisationen der Neuen Welt greifen Zivilisationen der Alten Welt bevorzugt und zusätzlich zu Kriegen mit anderen Zivilisationen der Neuen Welt an</German>
-		<Spanish>Las civilizaciones bárbaras del Nuevo Mundo atacarán preferentemente a las del Viejo Mundo, además de proseguir las guerras que tuvieran con otras civilizaciones del Nuevo Mundo.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__FIERCENATIVES_TEXT</Tag>
-		<English>Fierce Natives</English>
-		<German>Aggressive Ureinwohner</German>
-		<Spanish>Nativos agresivos</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__FORMMINORMODIFIER_HOVER</Tag>
 		<English>Change odds of barb city turning into a minor civ</English>
 		<German>Verändert die Wahrscheinlichkeit, mit der Barbarenstädte sich in kleine Zivilisationen umwandeln</German>
@@ -7182,16 +5402,6 @@
 		<English>Form Minor Modifier</English>
 		<German>Modifikator zur Enstehung kleiner Civs</German>
 		<Spanish>Modificador de formación de civilización menor</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__FULLEFFECTTECHSBEHIND_HOVER</Tag>
-		<English>Number of techs a team must be behind before recieving full Tech Diffusion bonuses</English>
-		<Spanish>Número de tecnologías que un equipo debe llevar de retraso antes de recibir bonificaciones completas por difusión tecnológica.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__FULLEFFECTTECHSBEHIND_TEXT</Tag>
-		<English>Full Techs Behind</English>
-		<Spanish>Atraso en tecnologías para bonificación completa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__GARRISONMODIFIER_HOVER</Tag>
@@ -7294,16 +5504,6 @@
 		<Spanish>Umbral para instigar</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__JOINREVOLUTIONFRAC_HOVER</Tag>
-		<English>Fraction of RevIdx Instigate Threshold at which a city may join an instigating city's rebellion</English>
-		<Spanish>Fracción del umbral de RevIndex para instigar en la que una ciudad puede sumarse a una rebelión instigada en otra ciudad.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__JOINREVOLUTIONFRAC_TEXT</Tag>
-		<English>Join Fraction</English>
-		<Spanish>Fracción para unirse</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__LEADERODDS_HOVER</Tag>
 		<English>Odds used to determine Revolution type when a rebellion occurs, adjusts chance of Leader type rebellion</English>
 		<Spanish>Probabilidades utilizadas para determinar el tipo de revolución en caso de rebelión, ajusta la probabilidad de rebelión por líder.</Spanish>
@@ -7322,16 +5522,6 @@
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__LEADERREVOLUTION_TEXT</Tag>
 		<English>Leader Revolutions</English>
 		<Spanish>Revoluciones por líder</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__LEAVEHUMANPLAYERNAME_HOVER</Tag>
-		<English>Dynamic Civ Names are not applied to human players</English>
-		<Spanish>No se aplican los nombres de civilización dinámicos a los jugadores humanos.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__LEAVEHUMANPLAYERNAME_TEXT</Tag>
-		<English>Leave Human</English>
-		<Spanish>Dejar al jugador humano</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MAXNATIONALITY_HOVER</Tag>
@@ -7366,69 +5556,6 @@
 		<Spanish>Multiplicador de unidades de bonificación</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MILITARYWINDOW_HOVER</Tag>
-		<English>Minimum turns a new created barb civ must remain a minor civ, before it can settle and engage in diplomacy.</English>
-		<French>Minimum turns a new created barb civ must remain a minor civ, before it can settle and engage in diplomacy</French>
-		<German>Minimum turns a new created barb civ must remain a minor civ, before it can settle and engage in diplomacy</German>
-		<Italian>Minimum turns a new created barb civ must remain a minor civ, before it can settle and engage in diplomacy</Italian>
-		<Spanish>Mínimo de turnos que una civilización bárbara recientemente creada debe permanecer como civilización menor, antes de que pueda asentarse y tomar parte en la diplomacia.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MILITARYWINDOW_HOVER_HOVER</Tag>
-		<English>After settling into a full civ from a minor, militaristic barb civ will declare war on the first civ it meets within this window of turns</English>
-		<German>Wenn aus einer kleinen Zivilisation eine vollwertige militaristische Barbaren-Zivilisation geworden ist, so wird sie innerhalb dieses Zeitfensters der ersten Zivilisation, auf die sie trifft, den Krieg erklären</German>
-		<Spanish>Después de asentarse como civilización completa, las civilizaciones Agresivas declararan la guerra a la primera civilización que se encuentren dentro de este número de turnos.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MILITARYWINDOW_HOVER_TEXT</Tag>
-		<English>Declare War Turns</English>
-		<German>Runden für Kriegserklärung</German>
-		<Spanish>Turnos para declarar guerra</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MILITARYWINDOW_TEXT</Tag>
-		<English>Military Window</English>
-		<Spanish>Turnos como menor</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINCONTACTS_HOVER</Tag>
-		<English>Minimum number of contacts (with any civ) a Barbarian Civ needs to settle from a minor to full civ</English>
-		<French>Minimum number of contacts (with any civs) a Barbarian Civ needs to settle from a minor to full civ</French>
-		<German>Mindestzahl an Kontakten (mit beliebigen Zivilisationen), die eine Barbaren-Zivilisation benötigt, um eine vollwertige Zivilisation zu werden</German>
-		<Italian>Minimum number of contacts (with any civs) a Barbarian Civ needs to settle from a minor to full civ</Italian>
-		<Spanish>Número mínimo de contactos (con cualquier civilización) que una civilización menor necesita para convertirse en una civilización completa.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINCONTACTS_TEXT</Tag>
-		<English>Min Contacts</English>
-		<German>Minimum Kontakte</German>
-		<Spanish>Mínimo de contactos</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINFULLCONTACTS_HOVER</Tag>
-		<English>Minimum number of contacts (with full civs) a Barbarian Civ needs to settle from a minor to full civ</English>
-		<German>Mindestzahl an Kontakten (mit vollwertigen Zivilisationen), die eine Barbaren-Zivilisation benötigt, um selbst eine vollwertige Zivilisation zu werden</German>
-		<Spanish>Número mínimo de contactos (con civilizaciones completas) que una civilización menor necesita para convertirse en una civilización completa.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINFULLCONTACTS_TEXT</Tag>
-		<English>Min Full Contacts</English>
-		<German>Minimum Kontakte mit vollwertigen Civs</German>
-		<Spanish>Mínimo de contactos completos</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINORHALFLIFE_HOVER</Tag>
-		<English>Average number of turns a new world minor civ remains a minor after the conditions under NewWorldPolicies 2 and higher are satisfied</English>
-		<German>Durchschnittliche Rundenzahl, die eine kleine Barbaren-Zivilisation in der Neuen Welt benötigt, bis sie nach Erfüllung der Anforderungen der Neue-Welt-Regeln 2 bis 5 zu einer großen Zivilisation wächst.</German>
-		<Spanish>Número de turnos medio que una civilización menor permanece en ese estado, después de que la condición 2 o superiores de 'Política en Nuevo Mundo' se hayan cumplido</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINORHALFLIFE_TEXT</Tag>
-		<English>Minor Half Life</English>
-		<German>Halbwertszeit der Kleinen Zivilisation</German>
-		<Spanish>Vida media de civilización menor</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINPOPULATION_HOVER</Tag>
 		<English>Minimum population needed for a barb city to settle</English>
 		<German>Minimale Bevölkerung, damit sich eine Barbarenstadt weiterentwickelt</German>
@@ -7452,16 +5579,6 @@
 		<Spanish>Mínimo de turnos para refuerzo</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINTECHSBEHIND_HOVER</Tag>
-		<English>Minimum number of techs a team must be behind before recieving Tech Diffusion bonuses</English>
-		<Spanish>Número mínimo de tecnologías que un equipo debe llevar de retraso antes de recibir bonificaciones por difusión tecnológica.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__MINTECHSBEHIND_TEXT</Tag>
-		<English>Min Techs Behind</English>
-		<Spanish>Mínimo atraso en tecnologías</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NATIONALITYMODIFIER_HOVER</Tag>
 		<English>Multiplier used to alter Nationality based RevIdx changes</English>
 		<Spanish>Multiplicador aplicado a los cambios en el RevIndex por nacionalidad.</Spanish>
@@ -7470,16 +5587,6 @@
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NATIONALITYMODIFIER_TEXT</Tag>
 		<English>Nationality Modifier</English>
 		<Spanish>Modificador a Nacionalidad</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDBONUSES_HOVER</Tag>
-		<English>Bonuses given to barbarian civs that spawn in the new world.[NEWLINE]0:  None - New world barb civs recieve no bonus techs, units or buildings when spawned or settled[NEWLINE]1:  Reduced - New World barb civs recieve all techs known by the barbarians, and recieve some culture and free units[NEWLINE]2:  Barbarian civs in the new world are treated the same as barbarian civs that spawn in the Old World</English>
-		<Spanish>Bonificaciones otorgadas a las civilizaciones bárbaras que surjan en el Nuevo Mundo.[NEWLINE]0: Ninguna - Las civilizaciones bárbaras del Nuevo Mundo no reciben unidades, tecnologías o edificios de bonificación una vez asentadas o evolucionadas.[NEWLINE]1: Reducidas - Las civilizaciones bárbaras del Nuevo Mundo reciben todas las tecnologías conocidas por los bárbaros, además de algo de cultura y unidades gratuitas.[NEWLINE]2: Las civilizaciones bárbaras del Nuevo Mundo son tratadas de la misma forma que las civilizaciones bárbaras que aparezcan en el Viejo Mundo.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDBONUSES_TEXT</Tag>
-		<English>New World Bonuses</English>
-		<Spanish>Bonificaciones en Nuevo Mundo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDERASBEHIND_HOVER</Tag>
@@ -7494,9 +5601,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDPOLICY_HOVER</Tag>
-		<English>Sets New World policy on Barbarian civ settling in new world landmasses[NEWLINE]0:  New World treated like Old World[NEWLINE]1:  New World barb civs spawn as normal, but chance to settle into a full civ from a minor is reduced[NEWLINE]2:  New World barbarian civs stay minors until contact is made with an old world civ[NEWLINE]3:  Like 2, but New World barb civs cannot settle until an Old World unit lands on the landmass[NEWLINE]4:  Barb civs will not spawn until an old world civ unit lands on landmass[NEWLINE]5:  Barb civs will not spawn until an old world civ settles a city on the landmass</English>
-		<German>Regelt die Ansiedlung von Barbarensiedlungen auf Kontinenten der Neuen Welt[NEWLINE]0:  Die Neue Welt wird wie die Alte Welt behandelt[NEWLINE]1:  Normale Verbreitung von Barbaren-Zivilisationen in der Neuen Welt, aber die Wahrscheinlichkeit der Entstehung einer vollen Zivilisation aus einer kleinen Zivilisation ist reduziert[NEWLINE]2:  Die Barbaren-Zivilisationen der Neuen Welt bleiben klein, bis sie Kontakt mir einer Zivilisation der Alten Welt gemacht haben[NEWLINE]3:  Wie 2, aber Barbaren-Zivilisationen der Neuen Welt können sich erst weiterentwickeln, wenn eine Einheit der Alten Welt ihren Kontinent betreten hat[NEWLINE]4:  Barbaren-Zivilisationen entstehen erst, wenn eine Einheit der Alten Welt den Kontinent betreten hat[NEWLINE]5:  Barbaren-Zivilisationen entstehen erst, wenn eine Zivilisation der Alten Welt eine Stadt auf dem Kontinent gegründet hat</German>
-		<Spanish>Establece la política de Nuevo Mundo sobre el asentamiento de civilizaciones bárbaras en continentes del 'Nuevo Mundo'[NEWLINE]0: El Nuevo Mundo es tratado como el Viejo Mundo.[NEWLINE]1: Las civilizaciones bárbaras del Nuevo Mundo aparecen normalmente, pero se reduce la probabilidad de evolucionar a una civilización completa.[NEWLINE]2: Las civilizaciones bárbaras del Nuevo Mundo permanecen como civilizaciones menores hasta el contacto con las civilizaciones del Viejo Mundo.[NEWLINE]3: Como el punto 2, pero las civilizaciones bárbaras del Nuevo Mundo no pueden evolucionar hasta que una unidad del Viejo Mundo pisa su continente.[NEWLINE]4: Las ciudades bárbaras del Nuevo Mundo no evolucionarán a civilización menor hasta que una unidad del Viejo Mundo pise su continente.[NEWLINE]5: Las civilizaciones bárbaras del Nuevo Mundo no evolucionarán a civilización menor hasta que una civilización del Viejo Mundo funde una ciudad en su continente.</Spanish>
+		<English>New World policy for the emergence of civs from barbarian cities.
+	1: A minor civ in the New World needs contact with a major civ to become a major civ, each contact increase the odds for it.
+	2: Like 1, but a major civ must have units on the landmass for major civs to emerge there.
+	3: Barbarian cities can form civs in the New World when a major civ have units on the landmass.
+	4: Like 3, but the requirement is cities instead of units.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__NEWWORLDPOLICY_TEXT</Tag>
@@ -7518,18 +5627,6 @@
 		<Spanish>Reducción en Nuevo Mundo</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__OFFERCONTROL_HOVER</Tag>
-		<English>Offer player control of new barb civilizations</English>
-		<German>Bietet dem Spieler die Kontrolle einer neuen Barbaren-Zivilisation an</German>
-		<Spanish>Ofrece al jugador tomar el control de las nuevas civilizaciones bárbaras.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__OFFERCONTROL_TEXT</Tag>
-		<English>Offer Control</English>
-		<German>Angebot der Kontrolle</German>
-		<Spanish>Ofrecer control</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__OFFERDEFECTTOREVS_HOVER</Tag>
 		<English>Offer human players with a rebelion the choice to defect and lead the rebels.</English>
 		<Spanish>Ofrece a los jugadores humanos afectados por una rebelión la posibilidad de desertar y liderar a los rebeldes.</Spanish>
@@ -7538,18 +5635,6 @@
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__OFFERDEFECTTOREVS_TEXT</Tag>
 		<English>Offer Defections</English>
 		<Spanish>Ofrecer deserción</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ONLYNOTIFYNEARBYPLAYERS_HOVER</Tag>
-		<English>Only nearby players are notified when barbarian cities settle</English>
-		<German>Nur Spieler, die sich in der Nähe befinden, werden von der Gründung von Barbarenstädten benachrichtigt</German>
-		<Spanish>Cuando una ciudad bárbara se asienta, se notifica solamente a los jugadores cercanos.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__ONLYNOTIFYNEARBYPLAYERS_TEXT</Tag>
-		<English>Notify nearby players only</English>
-		<German>Benachrichtige nur nahe gelegene Spieler</German>
-		<Spanish>Solo notificar a jugadores cercanos</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__REBELTYPES_HOVER</Tag>
@@ -7692,26 +5777,6 @@
 		<Spanish>Modificador de fortaleza</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__TEAMNAMING_HOVER</Tag>
-		<English>Dynamic Civ Names applied across teams</English>
-		<Spanish>Aplica los nombres de civilización dinámicos a los equipos.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__TEAMNAMING_TEXT</Tag>
-		<English>Team Naming</English>
-		<Spanish>Nombrado de equipos</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__TECHDIFDEBUGMODE_HOVER</Tag>
-		<English>Enables Debugging information and logging for Tech Diffusion functions</English>
-		<Spanish>Activa información de depuración y registro para las funciones de Difusión tecnológica ('Tech Diffusion').</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__TECHDIFDEBUGMODE_TEXT</Tag>
-		<English>Debug</English>
-		<Spanish>Depuración</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__TURNSBETWEENREVS_HOVER</Tag>
 		<English>Minimum number of turns that must pass before a city that has already rebelled can spawn new revolution</English>
 		<Spanish>Número mínimo de turnos que deben pasar antes de que pueda surgir una nueva revolución en una ciudad que ya se ha rebelado.</Spanish>
@@ -7720,30 +5785,6 @@
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__TURNSBETWEENREVS_TEXT</Tag>
 		<English>Turns Between Revs</English>
 		<Spanish>Turnos entre revoluciones</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__USEPOPUP_HOVER</Tag>
-		<English>Use a popup when announcing barbarian city settleing</English>
-		<German>Bei der Ankündigung von sich ansiedelnden Barbaren öffnet sich ein Fenster</German>
-		<Spanish>Muestra un aviso emergente anunciando el asentamiento de una ciudad bárbara.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__USEPOPUP_TEXT</Tag>
-		<English>Barb Settle Popup</English>
-		<German>Fenster bei Barbarenansiedlung</German>
-		<Spanish>Aviso de asentamiento bárbaro</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__WARCLOSEDIST_HOVER</Tag>
-		<English>Max Distance between capitals for barb civ to consider immeadiate declaration of war (must also be on same continent)</English>
-		<German>Maximaler Abstand zwischen Hauptstädten, bei dem die Barbaren-Zivilisation eine unmittelbare Kriegserklärung in Betracht zieht (nur auf demselben Kontinent)</German>
-		<Spanish>Máxima distancia entre capitales para que una civilización bárbara considere la declaración de guerra inmediata (deben estar en el mismo continente).</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__WARCLOSEDIST_TEXT</Tag>
-		<English>Max Declare Distance</English>
-		<German>Maximale Distanz für Kriegserklärung</German>
-		<Spanish>Distancia máxima para declaración</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_REVOLUTION__WARNTURNS_HOVER</Tag>
@@ -8086,7 +6127,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_ROMSETTINGS__HIDEUNCONSTRUCTABLEBUILDINGS_HOVER</Tag>
-		<English>Hides all buildings from the city queue that cannot be constructed.</English>
+		<English>Hides all buildings from the city queue that cannot be constructed. Change takes effect after loading any save or staring a new game.</English>
 		<French>Masque tous les bâtiments qui ne peuvent pas être construits de la liste de production.</French>
 		<German>Blendet alle Gebäude in der Produktionsliste der Stadt aus, die momentan nicht errichtet werden können.</German>
 		<Italian>Nasconde dalla coda di produzione della città tutti gli edifici che non possono essere costruiti.</Italian>
@@ -8102,7 +6143,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_ROMSETTINGS__HIDEUNTRAINABLEUNITS_HOVER</Tag>
-		<English>Hides all units from the city queue that cannot be constructed</English>
+		<English>Hides all units from the city queue that cannot be constructed. Change takes effect after loading any save or staring a new game.</English>
 		<French>Masque toutes les unités qui ne peuvent pas être construites de la liste de production.</French>
 		<German>Blendet alle Einheiten in der Produktionsliste der Stadt aus, die momentan nicht ausgebildet werden können.</German>
 		<Italian>Nasconde dalla coda di produzione della città tutte le unità che non possono essere costruite.</Italian>
@@ -8942,22 +6983,6 @@
 		<Spanish>Franja de puntuación inferior</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_SCORES__RESEARCHICONS_HOVER</Tag>
-		<English>When checked, shows icons instead of names for civs whose research you can see.</English>
-		<French>Lorsque activé, montre des icônes au lieu des noms des technologies recherchées.</French>
-		<German>Zeigt die Symbole statt der Namen der Technologien an, die andere Zivilisationen momentan erforschen, falls diese bekannt sind</German>
-		<Italian>Quando è selezionato, nel Pannello del Punteggio vengono visualizzate le icone invece dei nomi delle Tecnologie ricercate dalle Civiltà (per cui ti è lecito conoscerle).</Italian>
-		<Spanish>Cuando se activa, muestra iconos en vez de nombres para las civilizaciones cuyas investigaciones puedes ver.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_SCORES__RESEARCHICONS_TEXT</Tag>
-		<English>Research Icons</English>
-		<French>Icônes de Recherche</French>
-		<German>Technologiesymbole</German>
-		<Italian>Icone di Ricerca</Italian>
-		<Spanish>Iconos de investigación</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_SCORES__RESEARCHICONSIZE_HOVER</Tag>
 		<English>Select the size of the research icons when displayed (default value is 24).</English>
 		<French>Lorsque l'option 'Icônes de Recherche' est activée, détermine la taille des icônes (Valeur par défaut: 24).</French>
@@ -9132,38 +7157,6 @@
 		<Spanish>Transparencia de la selección</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_STRATEGYOVERLAY__ENABLED_HOVER</Tag>
-		<English>When checked, the shortcut keys and features of the Strategy Layer are activated.</English>
-		<French>Lorsque sélectionné, les raccourcis et les fonctionnalité de la 'Carte de placement de Villes' sont activés.</French>
-		<German>Aktiviert die Tastenkombinationen und Fähigkeiten des Strategie-Overlays</German>
-		<Italian>Quando è selezionato, vengono attivate le scorciatoie da tastiera e le funzionalità del Livello Strategico.</Italian>
-		<Spanish>Cuando se selecciona, se activan los atajos de teclado y las características de la Capa estratégica.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_STRATEGYOVERLAY__ENABLED_TEXT</Tag>
-		<English>Enabled</English>
-		<French>Activé</French>
-		<German>Aktivieren</German>
-		<Italian>Attivata</Italian>
-		<Spanish>Activado</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_STRATEGYOVERLAY__SHOWDOTMAP_HOVER</Tag>
-		<English>When checked, the city-planning dot map layer is shown overlaying the terrain.</English>
-		<French>Lorsque activé, la carte de placement de Villes est affichée au dessus du terrain.</French>
-		<German>Lässt die Overlay-Karte zur Planung von Stadtgründungen das Gelände überlagern</German>
-		<Italian>Quando è selezionato, il livello di pianificazione delle Città detto "Mappa di posizionamento" viene mostrato come sovrapposto al terreno.</Italian>
-		<Spanish>Cuando se activa, se muestra el mapa de posiciones planificadas para ciudades superpuesto al terreno.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_STRATEGYOVERLAY__SHOWDOTMAP_TEXT</Tag>
-		<English>Show Dot Map</English>
-		<French>Afficher la Carte</French>
-		<German>Overlay-Karte anzeigen</German>
-		<Italian>Mostra la Mappa di posizionamento</Italian>
-		<Spanish>Mostrar mapa de posiciones</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_TECHWINDOW__CIVILOPEDIATEXT_HOVER</Tag>
 		<English>When checked, includes the Civilopedia text after the quote for the discovered technology.</English>
 		<French>Lorsque sélectionné, ajoute le texte de la Civilopedia après la citation de la technologie découverte.</French>
@@ -9181,23 +7174,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_TECHWINDOW__VIEWTYPE_HOVER</Tag>
-		<English>Determines the view to display when you discover a technology.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Original[COLOR_REVERT] - Default minimal Civ4 view.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Detailed[COLOR_REVERT] - Adds more detailed information.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Wide[COLOR_REVERT] - Wider version of the Detailed view.</English>
-		<French>Détermine la vue à afficher lorsque vous découvrer une technologie.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Standard[COLOR_REVERT] - Vue par défaut dans Civ4.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Détaillée[COLOR_REVERT] - ajoute quelques informations supplémentaires.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Etendue[COLOR_REVERT] - Version plus étendue de la vue détaillée.</French>
-		<German>Bestimmt das Aussehen des Popups, das nach Erforschung oder Erwerb einer Technologie angezeigt wird:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Standard[COLOR_REVERT] - Minimale Standardansicht aus Civ4[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Ausführlich[COLOR_REVERT] - Zeigt die Informationen übersichtlicher an[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Verbreitert[COLOR_REVERT] - Breitere Version der ausführlichen Ansicht</German>
-		<Italian>Determina quale visualizzazione mostrare quando viene scoperta una nuova Tecnologia:[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Originale[COLOR_REVERT] - visualizzazione minima standard di Civ4;[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Dettagliata[COLOR_REVERT] - aggiunge informazioni più dettagliate;[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Ampia[COLOR_REVERT] - versione estesa della visualizzazione dettagliata.</Italian>
-		<Spanish>Determina la vista a mostrar cuando descubres una nueva tecnologia.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Original[COLOR_REVERT]: vista predeterminada de Civilization IV.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Detallada[COLOR_REVERT]: añade información más detallada.[NEWLINE][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Completa[COLOR_REVERT]: versión ampliada de la vista detallada.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPT_TECHWINDOW__VIEWTYPE_LIST</Tag>
-		<English>Original|Detailed|Wide</English>
-		<French>Standard|Détaillé|Etendu</French>
-		<German>Standard|Ausführlich|Verbreitert</German>
-		<Italian>Originale|Dettagliata|Ampia</Italian>
-		<Spanish>Original|Detallada|Completa</Spanish>
+		<English>When checked, an alternate splash screen will be used.[NEWLINE]It is called 'wide', but that is an obsolete name, consider it an alternate version.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_TECHWINDOW__VIEWTYPE_TEXT</Tag>
-		<English>View</English>
+		<English>Wide Version</English>
 		<French>Aperçu</French>
 		<German>Ansicht</German>
 		<Italian>Visualizzazione</Italian>
@@ -22573,22 +20554,6 @@ uno de s, A, a, p, g, n, o, r (véase archivo de ayuda)</Spanish>
 		<Spanish>Abre la ayuda del Mod BUG. También puedes presionar [ALT + CTRL + F1] desde la interfaz principal.</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_OPTIONS_KEY_REMINDER</Tag>
-		<English>Press [BOLD]ALT + CTRL + O[\BOLD] to customize %s1</English>
-		<French>Appuyer sur [BOLD]ALT + CTRL + O[\BOLD] pour personnaliser le Mod %s1</French>
-		<German>[BOLD]&lt;STRG + ALT + O&gt;[\BOLD] drücken, um die %s1 anzupassen...</German>
-		<Italian>Premi [BOLD]CTRL+ALT+O[\BOLD] per personalizzare il %s1</Italian>
-		<Spanish>Pulsa [BOLD]ALT + CTRL + O[\BOLD] para personalizar %s1</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPTIONS_KEY_REMINDER_MAC</Tag>
-		<English>Press [BOLD]ALT + CMD + O[\BOLD] to customize the %s1 Mod</English>
-		<French>Appuyer sur [BOLD]ALT + CMD + O[\BOLD] pour personnaliser le Mod %s1</French>
-		<German>[BOLD]&lt;CMD + ALT + O&gt;[\BOLD] drücken, um die %s1 Mod anzupassen...</German>
-		<Italian>Premi [BOLD]CMD+ALT+O[\BOLD] per personalizzare il %s1 Mod</Italian>
-		<Spanish>Pulsa [BOLD]ALT + CMD + O[\BOLD] para personalizar %s1</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_OPTIONS_SCREEN_HOVER</Tag>
 		<English>Shows the BUG Option Screen.</English>
 		<French>Affiche l'écran d'Options du Mod BUG.</French>
@@ -22822,7 +20787,6 @@ uno de s, A, a, p, g, n, o, r (véase archivo de ayuda)</Spanish>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPTLABEL_BUFFY</Tag>
 		<English>BUFFY:</English>
-		<French>BUFFY:</French>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPTLABEL_BUG_TEAM</Tag>
@@ -22919,7 +20883,6 @@ uno de s, A, a, p, g, n, o, r (véase archivo de ayuda)</Spanish>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPTLABEL_ESPIONAGE_MISSIONS</Tag>
 		<English>Missions:</English>
-		<French>Missions:</French>
 		<German>Spionagemissionen:</German>
 		<Italian>Missioni:</Italian>
 		<Spanish>Misiones:</Spanish>
@@ -23005,11 +20968,6 @@ uno de s, A, a, p, g, n, o, r (véase archivo de ayuda)</Spanish>
 		<German>Map-Scripte</German>
 		<Italian>Autori dei Map Script</Italian>
 		<Spanish>Scripts del mapa</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUG_OPTLABEL_MAPFINDER</Tag>
-		<English>MapFinder:</English>
-		<French>Rech. de Carte:</French>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPTLABEL_MILITARY_ADVISOR</Tag>
@@ -23227,9 +21185,9 @@ uno de s, A, a, p, g, n, o, r (véase archivo de ayuda)</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPTLABEL_REVOLUTIONDCMHELP</Tag>
-		<English>Help documentation found at MODS/RevolutionDCM/docs/</English>
-		<French>Documentation supplémentaire: MODS/RevolutionDCM/docs/</French>
-		<Spanish>Existe documentación adicional en el directorio MODS/RevolutionDCM/docs/</Spanish>
+		<English>Help documentation found at Caveman2Cosmos\Docs\combined mods\RevolutionDCM</English>
+		<French>Documentation supplémentaire: Caveman2Cosmos\Docs\combined mods\RevolutionDCM</French>
+		<Spanish>Existe documentación adicional en el directorio Caveman2Cosmos\Docs\combined mods\RevolutionDCM</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPTLABEL_ROMSETTINGS__CITYMANAGEMENT</Tag>
@@ -23563,7 +21521,6 @@ uno de s, A, a, p, g, n, o, r (véase archivo de ayuda)</Spanish>
 	<TEXT>
 		<Tag>TXT_KEY_BUG_RELIGIOUS_TEMPLE</Tag>
 		<English>Temples:</English>
-		<French>Temples:</French>
 		<German>Tempel:</German>
 		<Italian>Templi:</Italian>
 		<Spanish>Templos:</Spanish>
@@ -23716,18 +21673,13 @@ uno de s, A, a, p, g, n, o, r (véase archivo de ayuda)</Spanish>
 		<Spanish>[SPACE](%s1 votos requeridos)</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUG_VICTORY_VOTES_TOTAL</Tag>
-		<English>Total</English>
-		<German>Summe</German>
-		<Italian>Totale</Italian>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUG_YEAR_BUILT</Tag>
 		<English>Built in %s1_year</English>
 		<French>Construit en %s1_year</French>
 		<German>[NEWLINE]Existiert seit %s1_year</German>
 		<Spanish>Construido en %s1_year</Spanish>
 	</TEXT>
+	<!-- Unsorted -->
 	<TEXT>
 		<Tag>TXT_KEY_BUG_OPT_UNITNAMING__COMBAT_CULTURE_ADENA_HOVER</Tag>
 		<English>Enter the user defined naming convention for combat units 'CULTURE_ADENA'.</English>

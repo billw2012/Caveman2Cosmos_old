@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
-<!--
-    Platyping's Wonders - Cleopatra's Needle
-		Converted by Dancing Hoskuld
--->
-<mod id="Cleopatra_Needle" module="Cleopatra_Needle">
-  	<event type="buildingBuilt" function="onBuildingBuilt"/>
-</mod>

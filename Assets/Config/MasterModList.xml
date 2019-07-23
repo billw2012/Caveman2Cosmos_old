@@ -3,19 +3,8 @@
 	MasterModList
 	by Orion Veteran
 -->
-<mod id="MasterModList" 
-	name="MasterModList"
-	author="OrionVeteran"
-	version="1.0"
-	date="04/14/2010"
-	url="">
-	
-<!--Orion's Mods start -->
-	<!--gameutils -->
-	<gameutils module="ImmigrationGameUtils" class="ImmigrationGameUtils" override="False"/>	
-	
-	<!--events -->
-	<events module="ImmigrationEvents"/>
-	
-	
+<mod id="MasterModList" name="MasterModList" author="OrionVeteran"
+	 version="1.0" date="04/14/2010" url="">
+
+	<gameutils module="ImmigrationGameUtils" class="ImmigrationGameUtils" override="False"/>
 </mod>
