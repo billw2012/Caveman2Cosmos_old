@@ -94,14 +94,11 @@
 ## Author: EmperorFool
 
 from CvPythonExtensions import *
-
-import BugUtil
-import FontUtil
 import CvUtil
 
 ## Globals
 
-gc = CyGlobalContext()
+GC = CyGlobalContext()
 
 NUM_RELIGIONS = -1
 ALL_RELIGIONS = None
@@ -148,9 +145,9 @@ def getFoundedReligions():
 	Returns a list of religion IDs that have been founded.
 	"""
 	religions = []
-	game = gc.getGame()
+	G = GC.getGame()
 	for iReligion in ALL_RELIGIONS:
-		if game.getReligionGameTurnFounded(iReligion) >= 0:
+		if G.getReligionGameTurnFounded(iReligion) >= 0:
 			religions.append(iReligion)
 	return religions
 
@@ -176,7 +173,7 @@ def getBuildingType(index):
 	try:
 		return BUILDINGS[index]
 	except IndexError:
-		BugUtil.error("ReligionUtil - invalid building type %i", index)
+		print "[ERR] ReligionUtil - invalid building type %i" % index
 		return None
 
 def getBuildings(iReligion):
@@ -186,7 +183,7 @@ def getBuildings(iReligion):
 	try:
 		return BUILDINGS_BY_RELIGION[iReligion]
 	except IndexError:
-		BugUtil.error("ReligionUtil - invalid religion %i", iReligion)
+		print "[ERR] ReligionUtil - invalid religion %i" % iReligion
 		return [-1] * NUM_BUILDING_TYPES
 
 def getBuilding(iReligion, index):
@@ -196,14 +193,14 @@ def getBuilding(iReligion, index):
 	try:
 		return BUILDINGS_BY_RELIGION[iReligion][index]
 	except IndexError:
-		BugUtil.error("ReligionUtil - invalid religion %i or building type %i", iReligion, index)
+		print "[ERR] ReligionUtil - invalid religion %i or building type %i" %(iReligion, index)
 		return -1
 
 
 def getBuildingReligion(info):
 	"""
 	Returns the religion <info> is tied to.
-	
+
 	All four building types have iReligionType set to the religion, 
 	but the Shrine doesn't have the religion as a prereq.
 	No other buildings have iReligionType, so this should be safe.
@@ -214,49 +211,32 @@ def isTemple(info, iReligion):
 	"""
 	Returns True if <info> is the Temple for <iReligion>.
 	"""
-# Rise of mankind 2.81 start - temples give only happiness with state religion
-	if ( not isWorldWonderClass(info.getBuildingClassType()) and info.getSpecialBuildingType() == CvUtil.findInfoTypeNum(gc.getSpecialBuildingInfo,gc.getNumSpecialBuildingInfos(),'SPECIALBUILDING_TEMPLE')):
+	if not isWorldWonderClass(info.getBuildingClassType()) and info.getSpecialBuildingType() == CvUtil.findInfoTypeNum(GC.getSpecialBuildingInfo,GC.getNumSpecialBuildingInfos(),'SPECIALBUILDING_TEMPLE'):
 		return info.getStateReligionHappiness() > 0
-	else:
-		return False
-# Rise of mankind 2.81 end
-	
+	return False
+
 def isCathedral(info, iReligion):
 	"""
 	Returns True if <info> is the Cathedral for <iReligion>.
 	"""
-# Rise of mankind 2.81 start
-	if ( not isWorldWonderClass(info.getBuildingClassType()) and (info.getSpecialBuildingType() == CvUtil.findInfoTypeNum(gc.getSpecialBuildingInfo,gc.getNumSpecialBuildingInfos(),'SPECIALBUILDING_CATHEDRAL') or info.getSpecialBuildingType() == CvUtil.findInfoTypeNum(gc.getSpecialBuildingInfo,gc.getNumSpecialBuildingInfos(),'SPECIALBUILDING_PANTHEON'))):
+	iNum = GC.getNumSpecialBuildingInfos()
+	if not isWorldWonderClass(info.getBuildingClassType()) and (info.getSpecialBuildingType() == CvUtil.findInfoTypeNum(GC.getSpecialBuildingInfo, iNum, 'SPECIALBUILDING_CATHEDRAL') or info.getSpecialBuildingType() == CvUtil.findInfoTypeNum(GC.getSpecialBuildingInfo, iNum, 'SPECIALBUILDING_PANTHEON')):
 		return info.getCommerceModifier(CommerceTypes.COMMERCE_CULTURE) > 0
-	else:
-		return False
-# Rise of mankind 2.81 end
+	return False
 
 def isMonastery(info, iReligion):
 	"""
 	Returns True if <info> is the Monastery for <iReligion>.
 	"""
-# Rise of mankind 2.81 start
-	if ( not isWorldWonderClass(info.getBuildingClassType()) and info.getSpecialBuildingType() == CvUtil.findInfoTypeNum(gc.getSpecialBuildingInfo,gc.getNumSpecialBuildingInfos(),'SPECIALBUILDING_MONASTERY') ):
+	if not isWorldWonderClass(info.getBuildingClassType()) and info.getSpecialBuildingType() == CvUtil.findInfoTypeNum(GC.getSpecialBuildingInfo, GC.getNumSpecialBuildingInfos(), 'SPECIALBUILDING_MONASTERY'):
 		return info.getCommerceModifier(CommerceTypes.COMMERCE_RESEARCH) > 0
-	else:
-		return False
-# Rise of mankind 2.81 end
+	return False
 
 def isShrine(info, iReligion):
 	"""
 	Returns True if <info> is the Shrine for <iReligion>.
 	"""
 	return info.getGlobalReligionCommerce() != -1
-
-# MOD: Add a tester function for each new religious building type you define
-#      You tie these to a description and icon in init()
-
-#def isInquisitionOffice(info, iReligion):
-#	"""
-#	Returns True if <info> is the Inquisition Office for <iReligion>.
-#	"""
-#	return info.isInquisitionOffice()
 
 
 ## Units
@@ -280,7 +260,7 @@ def getUnitType(index):
 	try:
 		return UNITS[index]
 	except IndexError:
-		BugUtil.error("ReligionUtil - invalid unit type %i", index)
+		print "[ERR] ReligionUtil - invalid unit type %i" % index
 		return None
 
 def getUnits(iReligion):
@@ -290,7 +270,7 @@ def getUnits(iReligion):
 	try:
 		return UNITS_BY_RELIGION[iReligion]
 	except IndexError:
-		BugUtil.error("ReligionUtil - invalid religion %i", iReligion)
+		print "[ERR] ReligionUtil - invalid religion %i" % iReligion
 		return [-1] * NUM_UNIT_TYPES
 
 def getUnit(iReligion, index):
@@ -300,14 +280,14 @@ def getUnit(iReligion, index):
 	try:
 		return UNITS_BY_RELIGION[iReligion][index]
 	except IndexError:
-		BugUtil.error("ReligionUtil - invalid religion %i or unit type %i", iReligion, index)
+		print "[ERR] ReligionUtil - invalid religion %i or unit type %i" %(iReligion, index)
 		return -1
 
 
 def getUnitReligion(info):
 	"""
 	Returns the religion <info> is tied to.
-	
+
 	<ReligionType> is not set for any units, but luckily only missionaries have <PrereqReligion>.
 	"""
 	return info.getPrereqReligion()
@@ -317,15 +297,6 @@ def isMissionary(info, iReligion):
 	Returns True if <info> is the Missionary for <iReligion>.
 	"""
 	return info.getReligionSpreads(iReligion)
-
-# MOD: Add a tester function for each new religious unit type you define
-#      You tie these to a description and icon in init()
-
-#def isInquisitor(info, iReligion):
-#	"""
-#	Returns True if <info> is the Inquisitor for <iReligion>.
-#	"""
-#	return info.getReligionRemoves(iReligion)
 
 
 ## Cities
@@ -377,50 +348,43 @@ def getPlayerHolyReligions(player):
 ## Initialization
 
 def init():
-	BuildingType("Temple", FontUtil.getChar("happy"), isTemple)
-	BuildingType("Cathedral", FontUtil.getChar("commerce culture"), isCathedral)
-	BuildingType("Monastery", FontUtil.getChar("commerce research"), isMonastery)
-	BuildingType("Shrine", FontUtil.getChar("commerce gold"), isShrine)
-# MOD: Add a BuildingType() call for each new religious building type you define
-#	BuildingType("Inquisition Office", FontUtil.getChar("cancel"), isInquisitionOffice)
-	
-	UnitType("Missionary", FontUtil.getChar("religion"), isMissionary)
-# MOD: Add a UnitType() call for each new religious unit type you define
-#	UnitType("Inquisitor", FontUtil.getChar("religion"), isInquisitor)
-	
+	BuildingType("Temple", unichr(8850), isTemple)
+	BuildingType("Cathedral", unichr(8502), isCathedral)
+	BuildingType("Monastery", unichr(8501), isMonastery)
+	BuildingType("Shrine", unichr(8500), isShrine)
+	UnitType("Missionary", unichr(8857), isMissionary)
 	global NUM_RELIGIONS, ALL_RELIGIONS
-	NUM_RELIGIONS = gc.getNumReligionInfos()
+	NUM_RELIGIONS = GC.getNumReligionInfos()
 	ALL_RELIGIONS = range(NUM_RELIGIONS)
 	for iReligion in ALL_RELIGIONS:
 		BUILDINGS_BY_RELIGION.append([-1] * NUM_BUILDING_TYPES)
 		UNITS_BY_RELIGION.append([-1] * NUM_UNIT_TYPES)
-	
-	for iBldg in range(gc.getNumBuildingInfos()):
-		bldg = gc.getBuildingInfo(iBldg)
+
+	for iBldg in range(GC.getNumBuildingInfos()):
+		bldg = GC.getBuildingInfo(iBldg)
 		iReligion = getBuildingReligion(bldg)
 		if iReligion >= 0:
 			for type in BUILDINGS:
 				if type.matches(bldg, iReligion):
 					BUILDINGS_BY_RELIGION[iReligion][type.index] = iBldg
-					BugUtil.debug("ReligionUtil.init - %s %s is %i: %s", 
-								gc.getReligionInfo(iReligion).getDescription(), type.description, iBldg, bldg.getDescription())
+					print "ReligionUtil.init - %s %s is %i: %s" %(GC.getReligionInfo(iReligion).getDescription(), type.description, iBldg, bldg.getDescription())
 					break
-	
-	for iUnit in range(gc.getNumUnitInfos()):
-		unit = gc.getUnitInfo(iUnit)
+
+	for iUnit in range(GC.getNumUnitInfos()):
+		unit = GC.getUnitInfo(iUnit)
 		iReligion = getUnitReligion(unit)
 		if iReligion >= 0:
 			for type in UNITS:
 				if type.matches(unit, iReligion):
 					UNITS_BY_RELIGION[iReligion][type.index] = iUnit
-					BugUtil.debug("ReligionUtil.init - %s %s is %i: %s", 
-								gc.getReligionInfo(iReligion).getDescription(), type.description, iUnit, unit.getDescription())
+					print "ReligionUtil.init - %s %s is %i: %s" %(GC.getReligionInfo(iReligion).getDescription(), type.description, iUnit, unit.getDescription())
 					break
 
 
 ## Building and Unit Types
 
 class Type:
+
 	def __init__(self, type, description, icon, testFunc):
 		counter = "NUM_%s_TYPES" % type
 		key = type + "_" + description.upper().replace(" ", "_")
@@ -434,6 +398,7 @@ class Type:
 		self.description = description
 		self.icon = icon
 		self.testFunc = testFunc
+
 	def matches(self, info, iReligion):
 		"""
 		Returns True if <info> matches the type of this object for <iReligion> by calling the test function.
@@ -441,10 +406,11 @@ class Type:
 		return self.testFunc(info, iReligion)
 
 class BuildingType(Type):
+
 	def __init__(self, description, icon, testFunc):
 		"""
 		Defines a new religious building type.
-		
+
 		description - display string such as "Temple" (may contain spaces)
 		icon - string holding the icon (font glyph)
 		testFunc - function that returns True if the given CvBuildingInfo matches the type
@@ -452,10 +418,11 @@ class BuildingType(Type):
 		Type.__init__(self, "BUILDING", description, icon, testFunc)
 
 class UnitType(Type):
+
 	def __init__(self, description, icon, testFunc):
 		"""
 		Defines a new religious unit type.
-		
+
 		description - display string such as "Missionary" (may contain spaces)
 		icon - string holding the icon (font glyph)
 		testFunc - function that returns True if the given CvUnitInfo matches the type

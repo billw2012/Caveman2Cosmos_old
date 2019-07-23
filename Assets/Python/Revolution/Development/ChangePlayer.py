@@ -5,8 +5,6 @@
 
 
 from CvPythonExtensions import *
-import CvUtil
-import PyHelpers
 import Popup as PyPopup
 # --------- Revolution mod -------------
 import RevDefs
@@ -14,152 +12,134 @@ import RevUtils
 import BugCore
 
 # globals
-gc = CyGlobalContext()
-PyPlayer = PyHelpers.PyPlayer
-PyInfo = PyHelpers.PyInfo
-game = CyGame()
-localText = CyTranslator()
-RevOpt = BugCore.game.Revolution
+GC = CyGlobalContext()
+GAME = GC.getGame()
 
-LOG_DEBUG = True
+RevOpt = BugCore.game.Revolution
 
 class ChangePlayer :
 
-	def __init__(self, customEM, RevOpt ) :
-
+	def __init__(self, customEM, RevOpt):
 		print "Initializing ChangePlayer Mod"
-
-		global LOG_DEBUG
-
-		self.LOG_DEBUG = RevOpt.isChangePlayerDebugMode()
-		LOG_DEBUG = self.LOG_DEBUG
 
 		self.RevOpt = RevOpt
 		self.customEM = customEM
 
-		self.customEM.addEventHandler( "kbdEvent", self.onKbdEvent )
+		self.customEM.addEventHandler("kbdEvent", self.onKbdEvent)
 
-		self.customEM.setPopupHandler( RevDefs.changeCivPopup, ["changeCivPopup",changeCivHandler,self.blankHandler] )
-		self.customEM.setPopupHandler( RevDefs.changeHumanPopup, ["changeHumanPopup",changeHumanHandler,self.blankHandler] )
-		self.customEM.setPopupHandler( RevDefs.updateGraphicsPopup, ["updateGraphicsPopup",updateGraphicsHandler,self.blankHandler] )
+		self.customEM.setPopupHandler(RevDefs.changeCivPopup, ["changeCivPopup",changeCivHandler,self.blankHandler])
+		self.customEM.setPopupHandler(RevDefs.changeHumanPopup, ["changeHumanPopup",changeHumanHandler,self.blankHandler])
+		self.customEM.setPopupHandler(RevDefs.updateGraphicsPopup, ["updateGraphicsPopup",updateGraphicsHandler,self.blankHandler])
 
-	def removeEventHandlers( self ) :
+	def removeEventHandlers(self):
 		print "Removing event handlers from ChangePlayer"
 
-		self.customEM.removeEventHandler( "kbdEvent", self.onKbdEvent )
+		self.customEM.removeEventHandler("kbdEvent", self.onKbdEvent)
 
-		self.customEM.setPopupHandler( RevDefs.changeCivPopup, ["changeCivPopup",self.blankHandler,self.blankHandler] )
-		self.customEM.setPopupHandler( RevDefs.changeHumanPopup, ["changeHumanPopup",self.blankHandler,self.blankHandler] )
-		self.customEM.setPopupHandler( RevDefs.updateGraphicsPopup, ["updateGraphicsPopup",self.blankHandler,self.blankHandler] )
+		self.customEM.setPopupHandler(RevDefs.changeCivPopup, ["changeCivPopup",self.blankHandler,self.blankHandler])
+		self.customEM.setPopupHandler(RevDefs.changeHumanPopup, ["changeHumanPopup",self.blankHandler,self.blankHandler])
+		self.customEM.setPopupHandler(RevDefs.updateGraphicsPopup, ["updateGraphicsPopup",self.blankHandler,self.blankHandler])
 
-	def blankHandler( self, playerID, netUserData, popupReturn ) :
-		# Dummy handler to take the second event for popup
-		return
+	# Dummy handler to take the second event for popup
+	def blankHandler(self, playerID, netUserData, popupReturn): return
 
+	# keypress handler
+	def onKbdEvent(self, argsList):
+		eventType, key, mx, my, px, py = argsList
 
-	def onKbdEvent(self, argsList ):
-		'keypress handler'
-		eventType,key,mx,my,px,py = argsList
+		if eventType == 6 and (GAME.isDebugMode() or GAME.cheatCodesEnabled()):
+			if self.customEM.bShift and self.customEM.bCtrl:
+				theKey = int(key)
 
-		if ( eventType == RevDefs.EventKeyDown and game.getChtLvl() > 0 ):
-			theKey=int(key)
+				if theKey == int(InputTypes.KB_P):
+					changeCivPopup()
 
-			if( theKey == int(InputTypes.KB_P) and self.customEM.bShift and self.customEM.bCtrl ) :
-				changeCivPopup( )
+				elif theKey == int(InputTypes.KB_L):
+					changeHumanPopup()
 
-			if( theKey == int(InputTypes.KB_L) and self.customEM.bShift and self.customEM.bCtrl ) :
-				changeHumanPopup( )
+				elif theKey == int(InputTypes.KB_U):
+					updateGraphics()
 
-			if( theKey == int(InputTypes.KB_U) and self.customEM.bShift and self.customEM.bCtrl ) :
-				updateGraphics( )
-
-def changeCivPopup( ) :
-	'Chooser window for switching a players civ'
+# Chooser window for switching a players civ
+def changeCivPopup():
 
 	popup = PyPopup.PyPopup(RevDefs.changeCivPopup,contextType = EventContextTypes.EVENTCONTEXT_ALL)
-	popup.setHeaderString( 'Change a civ?' )
-	popup.setBodyString( 'Which civ to change, to which civ and leader and what team?' )
+	popup.setHeaderString('Change a civ?')
+	popup.setBodyString('Which civ to change, to which civ and leader and what team?')
 	popup.addSeparator()
-	#popup.createPythonEditBox( '10', 'Number of turns to turn over to AI', 0)
 
-	popup.createPythonPullDown( 'Switch this civ ...', 1 )
-	for i in range(0,gc.getMAX_PLAYERS()) :
-		player = PyPlayer(i)
-		if( not player.isNone() ) :
-			if( player.isAlive() ) :
-				popup.addPullDownString( "%s of the %s"%(player.getName(),player.getCivilizationName()), i, 1 )
+	popup.createPythonPullDown('Switch this civ ...', 1)
+	for iPlayerX in range(0,GC.getMAX_PC_PLAYERS()):
+		CyPlayerX = GC.getPlayer(iPlayerX)
+		if CyPlayerX.isAlive():
+			popup.addPullDownString(CyPlayerX.getName() + " - " + CyPlayerX.getCivilizationShortDescription(0), iPlayerX, 1)
 
-	activePlayer = gc.getActivePlayer()
-	popup.popup.setSelectedPulldownID( activePlayer.getID(), 1 )
+	CyPlayer = GC.getActivePlayer()
+	popup.popup.setSelectedPulldownID(CyPlayer.getID(), 1)
 
-	popup.createPythonPullDown( ' ... to this civ', 2 )
-	for i in range(0,gc.getNumCivilizationInfos()) :
-		newCivInfo = gc.getCivilizationInfo(i)
-		popup.addPullDownString( "%s Empire"%(newCivInfo.getAdjective(0)), i, 2 )
+	popup.createPythonPullDown(' ... to this civ', 2)
+	for i in range(GC.getNumCivilizationInfos()):
+		newCivInfo = GC.getCivilizationInfo(i)
+		popup.addPullDownString("%s Empire" %(newCivInfo.getAdjective(0)), i, 2)
 
-	popup.popup.setSelectedPulldownID( activePlayer.getCivilizationType(), 2 )
+	popup.popup.setSelectedPulldownID(CyPlayer.getCivilizationType(), 2)
 
 	popup.createPythonPullDown( ' ... with this leader', 3 )
-	for i in range(0,gc.getNumLeaderHeadInfos()) :
-		newLeaderInfo = gc.getLeaderHeadInfo(i)
+	for i in range(0,GC.getNumLeaderHeadInfos()):
+		newLeaderInfo = GC.getLeaderHeadInfo(i)
 		leaderName = newLeaderInfo.getDescription()
-##			leaderName = newLeaderInfo.getLeaderHead()  # this is the full path of the head animation
-##			if( leaderName.count('/') > 0 ) :
-##				leaderName = leaderName.split('/')[-2]  # hack to get to just name
-##				leaderName = leaderName.replace('_',' ')
-##				leaderName = leaderName.title()
-		#if( LOG_DEBUG ) : CvUtil.pyPrint( "   CP : Leadername %s"%(leaderName) )
+#			leaderName = newLeaderInfo.getLeaderHead()  # this is the full path of the head animation
+#			if( leaderName.count('/') > 0 ):
+#				leaderName = leaderName.split('/')[-2]  # hack to get to just name
+#				leaderName = leaderName.replace('_',' ')
+#				leaderName = leaderName.title()
+#		print "	CP: Leadername %s" % leaderName
 
 		popup.addPullDownString( "%s"%(leaderName), i, 3 )
 
-	popup.popup.setSelectedPulldownID( activePlayer.getLeaderType(), 3 )
+	popup.popup.setSelectedPulldownID(CyPlayer.getLeaderType(), 3)
 
-	popup.createPythonPullDown( ' ... on this team', 4 )
-	popup.addPullDownString( "Keep current team", -1, 4 )  # Team idx of -1 maintains current team setting
-	for i in range(0,gc.getMAX_PLAYERS()) :
-		player = PyPlayer(i)
-		if( not player.isNone() ) :
-			if( player.isAlive() ) :
-				popup.addPullDownString( "Team with the %s"%(player.getCivilizationName()), i, 4 )
+	popup.createPythonPullDown(' ... on this team', 4)
+	popup.addPullDownString("Keep current team", -1, 4)  # Team idx of -1 maintains current team setting
+	for iPlayerX in range(GC.getMAX_PC_PLAYERS()):
+		CyPlayerX = GC.getPlayer(iPlayerX)
+		if CyPlayerX.isAlive():
+			popup.addPullDownString("Team with the " + CyPlayerX.getCivilizationShortDescription(0), iPlayerX, 4)
 
 	popup.popup.setSelectedPulldownID( -1, 4 )
-
 	popup.addSeparator()
-
 	popup.addButton('Cancel')
-
 	popup.launch()
 
-def changeCivHandler( playerID, netUserData, popupReturn ) :
-	'Handles changeCiv popup'
+# Handles changeCiv popup
+def changeCivHandler(playerID, netUserData, popupReturn):
 
-	if( popupReturn.getButtonClicked() == 0 ):  # if you pressed cancel
+	if not popupReturn.getButtonClicked(): # if you pressed cancel
 		return
 
-	playerIdx = popupReturn.getSelectedPullDownValue( 1 )
-	newCivType = popupReturn.getSelectedPullDownValue( 2 )
-	newLeaderType = popupReturn.getSelectedPullDownValue( 3 )
-	teamIdx = popupReturn.getSelectedPullDownValue( 4 )
+	iPlayer = popupReturn.getSelectedPullDownValue(1)
+	newCivType = popupReturn.getSelectedPullDownValue(2)
+	newLeaderType = popupReturn.getSelectedPullDownValue(3)
+	iTeam = popupReturn.getSelectedPullDownValue(4)
 
-	if( (iTeam >= 0) and (iTeam <= gc.getMAX_PC_TEAMS()) ) :
-		playerI = gc.getPlayer(playerIdx)
-		if(playerI.isAlive) :
-			if( LOG_DEBUG ) : CvUtil.pyPrint( "   CP : You have selected player %d, the %s, on team %d"%(playerIdx, playerI.getCivilizationDescription(0), playerI.getTeam()) )
-	if( (iTeam >= 0) and (iTeam <= gc.getMAX_PC_TEAMS()) ) :
-		teamI =  gc.getTeam(teamIdx)
-		if( LOG_DEBUG ) : CvUtil.pyPrint( "   CP : New team idx is %d"%(teamIdx) )
+	if iTeam > -1 and iTeam <= GC.getMAX_PC_TEAMS():
+		playerI = GC.getPlayer(iPlayer)
+		if playerI.isAlive:
+			print "	CP: You have selected player %d, the %s, on team %d" %(iPlayer, playerI.getCivilizationDescription(0), playerI.getTeam())
 
+			teamI = GC.getTeam(iTeam)
+			print "	CP: New team idx is %d" % iTeam
 
-	#player = gc.getPlayer(playerIdx)
-	#game.changePlayer( playerIdx, newCivType, newLeaderType, teamIdx, player.isHuman(), True )
-	success = RevUtils.changeCiv( playerIdx, newCivType, newLeaderType, teamIdx )
+	#player = GC.getPlayer(iPlayer)
+	#GAME.changePlayer(iPlayer, newCivType, newLeaderType, iTeam, player.isHuman(), True)
+	success = RevUtils.changeCiv(iPlayer, newCivType, newLeaderType, iTeam)
 
-	if( success ) :
-		CyInterface().addImmediateMessage("Player %d has been changed"%(playerIdx),"")
-		if( LOG_DEBUG ) : CvUtil.pyPrint( "   CP : Player change completed" )
-	else :
+	if success:
+		CyInterface().addImmediateMessage("Player %d has been changed"%(iPlayer),"")
+		print "	CP: Player change completed"
+	else:
 		CyInterface().addImmediateMessage("An error occured in changeCiv.","")
-		if( LOG_DEBUG ) : CvUtil.pyPrint( "   CP : Error on changeCiv" )
+		print "	CP: Error on changeCiv"
 		return
 
 
@@ -168,111 +148,101 @@ def changeCivHandler( playerID, netUserData, popupReturn ) :
 	popup.addButton( "Update now" )
 	#popup.launch()
 
-def updateGraphicsHandler( playerID, netUserData, popupReturn ) :
+def updateGraphicsHandler( playerID, netUserData, popupReturn ):
 
 	if( popupReturn.getButtonClicked() == 0 ):  # if you pressed update now
 		updateGraphics( )
 
-def updateGraphics( ) :
+def updateGraphics():
 	# Switch human player around to force a redraw of unit flags
-	iHuman = game.getActivePlayer()
+	iHuman = GAME.getActivePlayer()
 
 	iSwitchTo = -1
-	for i in range(0,gc.getMAX_PC_PLAYERS()) :
-		player = PyPlayer(i)
-		if( not player.isNone() ) :
-			if( not player.isAlive() ) :
-				iSwitchTo = i
-				break
+	for iPlayerX in xrange(GC.getMAX_PC_PLAYERS()):
+		CyPlayer = GC.getPlayer(iPlayerX)
+		if not CyPlayer.isAlive():
+			iSwitchTo = iPlayerX
+			break
 
-	if( iSwitchTo < 0 ) :
-		iSwitchTo = 1 + game.getSorenRandNum( gc.getMAX_PC_PLAYERS() - 1, 'ChangePlayer')
+	if iSwitchTo < 0:
+		iSwitchTo = 1 + GAME.getSorenRandNum(GC.getMAX_PC_PLAYERS() - 1, 'ChangePlayer')
 
-	game.setForcedAIAutoPlay(iHuman, 3, True )
+	GAME.setForcedAIAutoPlay(iHuman, 3, True)
 
-	RevUtils.changeHuman( iSwitchTo, iHuman )
+	RevUtils.changeHuman(iSwitchTo, iHuman)
 
-	RevUtils.changeHuman( iHuman, iSwitchTo )
+	RevUtils.changeHuman(iHuman, iSwitchTo)
 
-	#game.setAIAutoPlay(0)
+	#GAME.setAIAutoPlay(0)
 
-def changeHumanPopup( bDied = False ) :
-	'Chooser window for switching human player'
+# Chooser window for switching human player
+def changeHumanPopup(bDied=False):
 	popup = PyPopup.PyPopup(RevDefs.changeHumanPopup,contextType = EventContextTypes.EVENTCONTEXT_ALL)
-	popup.setHeaderString( 'Pick a new civ' )
-	if( bDied ) :
-		popup.setBodyString( 'Your civ has been eliminated.  Would you like to continue as another leader?\n\n(Note:  Switching to barbs is not recommended except as an experiment)' )
-	else :
-		popup.setBodyString( 'Which civ would you like to lead?\n\n(Note:  Switching to barbs is not recommended except as an experiment)' )
-	popup.addSeparator()
-	#popup.createPythonEditBox( '10', 'Number of turns to turn over to AI', 0)
-
-	popup.createPythonPullDown( 'Take control of this civ ...', 1 )
-	for i in range(0,gc.getMAX_PLAYERS()) :
-		player = PyPlayer(i)
-		if( not player.isNone() ) :
-			if( player.isAlive() ) :
-				popup.addPullDownString( "%s of the %s"%(player.getName(),player.getCivilizationName()), i, 1 )
-
-	activePlayerIdx = gc.getActivePlayer().getID()
-	popup.popup.setSelectedPulldownID( activePlayerIdx, 1 )
-
+	popup.setHeaderString('Pick a new civ')
+	if bDied:
+		popup.setBodyString('Your civ has been eliminated. Would you like to continue as another leader?')
+	else:
+		popup.setBodyString('Which civ would you like to lead?')
 	popup.addSeparator()
 
+	popup.createPythonPullDown('Take control of this civ ...', 1)
+	for iPlayerX in range(GC.getMAX_PC_PLAYERS()):
+		CyPlayerX = GC.getPlayer(iPlayerX)
+		if CyPlayerX.isAlive():
+			popup.addPullDownString(CyPlayerX.getName() + " - " + CyPlayerX.getCivilizationShortDescription(0), iPlayerX, 1)
+
+	popup.popup.setSelectedPulldownID(GC.getActivePlayer().getID(), 1)
+	popup.addSeparator()
 	popup.addButton('Cancel')
-
 	popup.launch()
 
-def changeHumanHandler( playerID, netUserData, popupReturn ) :
-	'Handles changeHuman popup'
+# Handles changeHuman popup
+def changeHumanHandler(playerID, netUserData, popupReturn):
 
-	if( popupReturn.getButtonClicked() == 0 ):  # if you pressed cancel
+	if not popupReturn.getButtonClicked():  # if you pressed cancel
 		return
 
 	newHumanIdx = popupReturn.getSelectedPullDownValue( 1 )
-	newPlayer = gc.getPlayer(newHumanIdx)
+	newPlayer = GC.getPlayer(newHumanIdx)
 	oldHumanIdx = playerID
-	oldPlayer = gc.getPlayer(oldHumanIdx)
+	oldPlayer = GC.getPlayer(oldHumanIdx)
 
-	if( newHumanIdx == oldHumanIdx ) :
-		if( LOG_DEBUG ) : CvUtil.pyPrint( "   CP : You have selected the same civ, no change")
+	if newHumanIdx == oldHumanIdx:
+		print "	CP: You have selected the same civ, no change"
 		CyInterface().addImmediateMessage("You retain control of the %s"%(oldPlayer.getCivilizationDescription(0)),"")
 		return
 
 
-	if( LOG_DEBUG ) : CvUtil.pyPrint( "   CP : You have selected player %d, the %s"%(newHumanIdx, newPlayer.getCivilizationDescription(0)) )
+	print "	CP: You have selected player %d, the %s" %(newHumanIdx, newPlayer.getCivilizationDescription(0))
 
-	success = RevUtils.changeHuman( newHumanIdx, oldHumanIdx )
+	success = RevUtils.changeHuman(newHumanIdx, oldHumanIdx)
 
-	if( success ) :
-		if( LOG_DEBUG ) : CvUtil.pyPrint( "   CP : Number of human players is now %d"%(game.getNumHumanPlayers()) )
-		if( LOG_DEBUG ) : CvUtil.pyPrint( "   CP : Active player is now %d"%(game.getActivePlayer()) )
-##			for i in range(0,gc.getMAX_PC_PLAYERS()) :
-##				if( LOG_DEBUG ) : CvUtil.pyPrint( "   CP : Player %d is human %d"%(i,gc.getPlayer(i).isHuman()))
+	if success:
+		print "	CP: Active player is now %d" % GAME.getActivePlayer()
 		CyInterface().addImmediateMessage("You now control the %s"%(newPlayer.getCivilizationDescription(0)),"")
-	else :
-		if( LOG_DEBUG ) : CvUtil.pyPrint( "   CP : Error occured, number of human players is now %d"%(game.getNumHumanPlayers()) )
-		CyInterface().addImmediateMessage("An error occured in changeHuman ...","")
+	else:
+		print "	CP: Error occured, number of human players is now %d" % GAME.getNumHumanPlayers()
+		CyInterface().addImmediateMessage("An error occured in changeHuman ...", "")
 
-##def changeCiv( playerIdx, newCivType, newLeaderType, teamIdx = -1 ) :
+##def changeCiv( playerIdx, newCivType, newLeaderType, teamIdx = -1 ):
 ##	# Changes specified players civ, leader and/or team
 ##	# Does not change isHuman setting
 ##
-##	player = gc.getPlayer(playerIdx)
-##	success = game.changePlayer( playerIdx, newCivType, newLeaderType, teamIdx, player.isHuman(), True )
+##	player = GC.getPlayer(playerIdx)
+##	success = GAME.changePlayer( playerIdx, newCivType, newLeaderType, teamIdx, player.isHuman(), True )
 ##
-##	#game.convertUnits( playerIdx )
+##	#GAME.convertUnits( playerIdx )
 ##
 ##	return success
 ##
-##def changeHuman( newHumanIdx, oldHumanIdx ) :
+##def changeHuman( newHumanIdx, oldHumanIdx ):
 ##
-##	newPlayer = gc.getPlayer(newHumanIdx)
-##	oldPlayer = gc.getPlayer(oldHumanIdx)
+##	newPlayer = GC.getPlayer(newHumanIdx)
+##	oldPlayer = GC.getPlayer(oldHumanIdx)
 ##
-##	game.setActivePlayer( newHumanIdx, False )
-##	success = game.changePlayer( newHumanIdx, newPlayer.getCivilizationType(), newPlayer.getLeaderType(), -1, True, False )
-##	if( success ) :
-##		success = game.changePlayer( oldHumanIdx, oldPlayer.getCivilizationType(), oldPlayer.getLeaderType(), -1, False, False )
+##	GAME.setActivePlayer( newHumanIdx, False )
+##	success = GAME.changePlayer( newHumanIdx, newPlayer.getCivilizationType(), newPlayer.getLeaderType(), -1, True, False )
+##	if( success ):
+##		success = GAME.changePlayer( oldHumanIdx, oldPlayer.getCivilizationType(), oldPlayer.getLeaderType(), -1, False, False )
 ##
 ##	return success

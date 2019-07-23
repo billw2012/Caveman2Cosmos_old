@@ -1,198 +1,119 @@
-import os
+# OOS logger: writes the info contained in the sync checksum to a log file
 from CvPythonExtensions import *
-import CvUtil
-import BugPath
-
-gc = CyGlobalContext()
-
-szFilename = "OOSLog.txt"
-iMaxFilenameTries = 100
-
-bWroteLog = False
-
-SEPERATOR = "-----------------------------------------------------------------\n"
-
-
-# Simply checks every game turn for OOS. If it finds it, writes the
-# info contained in the sync checksum to a log file, then sets the bWroteLog
-# variable so that it only happens once.
-def doGameUpdate():
-	global bWroteLog
-	bOOS = CyInterface().isOOSVisible()
-
-	if (bOOS and not bWroteLog):
-		writeLog()
-		bWroteLog = True
-
 def writeLog():
-	playername = CvUtil.convertToStr(gc.getPlayer(gc.getGame().getActivePlayer()).getName())
-	szNewFilename = BugPath.getRootDir() + "\\Logs\\"+ "%s - Player %s - " % (playername, gc.getGame().getActivePlayer()) + "OOSLog - Turn " + "%s" % (gc.getGame().getGameTurn()) + ".txt"
-	pFile = open(szNewFilename, "w")
+	import SystemPaths as SP
+	GC = CyGlobalContext()
+	G = CyGame()
+	iPlayer = G.getActivePlayer()
+	szName = GC.getActivePlayer().getName().encode("latin_1")
+	szName = SP.rootDir + "\\Logs\\"+ "%s - Player %s - " %(szName, iPlayer) + "OOSLog - Turn " + "%s" %(G.getGameTurn()) + ".txt"
+	pFile = open(szName, "w")
 
-	#
+	SEP = "-----------------------------------------------------------------\n"
+
 	# Global data
-	#
-	pFile.write(SEPERATOR)
-	pFile.write(SEPERATOR)
+	pFile.write(2*SEP + "\tGLOBALS\n" + 2*SEP + "\n\n")
 
-	pFile.write("  GLOBALS  \n")
+	pFile.write("Total num cities: %d\n" % G.getNumCities())
+	pFile.write("Total population: %d\n" % G.getTotalPopulation())
+	pFile.write("Total Deals: %d\n" % G.getNumDeals())
 
-	pFile.write(SEPERATOR)
-	pFile.write(SEPERATOR)
-	pFile.write("\n\n")
+	pFile.write("Total owned plots: %d\n" % CyMap().getOwnedPlots())
+	pFile.write("Total num areas: %d\n\n\n" % CyMap().getNumAreas())
 
-	#pFile.write("Next Map Rand Value: %d\n" % CyGame().getMapRand().get(10000, "OOS Log"))
-	#pFile.write("Next Soren Rand Value: %d\n" % CyGame().getSorenRand().get(10000, "OOS Log"))
-
-	pFile.write("Total num cities: %d\n" % CyGame().getNumCities() )
-	pFile.write("Total population: %d\n" % CyGame().getTotalPopulation() )
-	pFile.write("Total Deals: %d\n" % CyGame().getNumDeals() )
-
-	pFile.write("Total owned plots: %d\n" % CyMap().getOwnedPlots() )
-	pFile.write("Total num areas: %d\n" % CyMap().getNumAreas() )
-
-	pFile.write("\n\n")
-
-	#
 	# Player data
-	#
-	iPlayer = 0
-	for iPlayer in range(gc.getMAX_PLAYERS()):
-		pPlayer = gc.getPlayer(iPlayer)
-		if (pPlayer.isEverAlive()):
-			pFile.write(SEPERATOR)
-			pFile.write(SEPERATOR)
+	for iPlayer in range(GC.getMAX_PLAYERS()):
+		CyPlayer = GC.getPlayer(iPlayer)
+		if CyPlayer.isEverAlive():
 
-			pFile.write("  PLAYER %d: %s  \n" % (iPlayer, CvUtil.convertToStr(pPlayer.getName())))
-			pFile.write("  Civilizations: %s  \n" % (CvUtil.convertToStr(pPlayer.getCivilizationDescriptionKey())))
+			pFile.write(2*SEP + "  PLAYER %d: %s  \n" %(iPlayer, CyPlayer.getName()))
+			pFile.write("  Civilizations: %s  \n" % CyPlayer.getCivilizationDescriptionKey())
 
-			pFile.write(SEPERATOR)
-			pFile.write(SEPERATOR)
-			pFile.write("\n\n")
+			pFile.write(2*SEP + "\n\nBasic data:\n-----------\n")
 
-			pFile.write("Basic data:\n")
-			pFile.write("-----------\n")
-			pFile.write("Player %d Score: %d\n" % (iPlayer, gc.getGame().getPlayerScore(iPlayer) ))
+			pFile.write("Player %d Score: %d\n" %(iPlayer, G.getPlayerScore(iPlayer)))
+			pFile.write("Player %d Population: %d\n" %(iPlayer, CyPlayer.getTotalPopulation()))
+			pFile.write("Player %d Total Land: %d\n" %(iPlayer, CyPlayer.getTotalLand()))
+			pFile.write("Player %d Greater Gold: %d Gold: %d\n" %(iPlayer, CyPlayer.getGreaterGold(), CyPlayer.getGold()))
+			pFile.write("Player %d Assets: %d\n" %(iPlayer, CyPlayer.getAssets()))
+			pFile.write("Player %d Power: %d\n" %(iPlayer, CyPlayer.getPower()))
+			pFile.write("Player %d Num Cities: %d\n" %(iPlayer, CyPlayer.getNumCities()))
+			pFile.write("Player %d Num Units: %d\n" %(iPlayer, CyPlayer.getNumUnits()))
+			pFile.write("Player %d Num Selection Groups: %d\n" %(iPlayer, CyPlayer.getNumSelectionGroups()))
+			pFile.write("Player %d Difficulty: %d\n" %(iPlayer, CyPlayer.getHandicapType()))
 
-			pFile.write("Player %d Population: %d\n" % (iPlayer, pPlayer.getTotalPopulation() ) )
-			pFile.write("Player %d Total Land: %d\n" % (iPlayer, pPlayer.getTotalLand() ) )
-			pFile.write("Player %d Greater Gold: %d Gold: %d\n" % (iPlayer, pPlayer.getGreaterGold(), pPlayer.getGold() ) )
-			pFile.write("Player %d Assets: %d\n" % (iPlayer, pPlayer.getAssets() ) )
-			pFile.write("Player %d Power: %d\n" % (iPlayer, pPlayer.getPower() ) )
-			pFile.write("Player %d Num Cities: %d\n" % (iPlayer, pPlayer.getNumCities() ) )
-			pFile.write("Player %d Num Units: %d\n" % (iPlayer, pPlayer.getNumUnits() ) )
-			pFile.write("Player %d Num Selection Groups: %d\n" % (iPlayer, pPlayer.getNumSelectionGroups() ) )
-			pFile.write("Player %d Difficulty: %d\n" % (iPlayer, pPlayer.getHandicapType() ))
+			pFile.write("\n\nYields:\n-------\n")
 
-			pFile.write("\n\n")
+			for iYield in range( int(YieldTypes.NUM_YIELD_TYPES)):
+				pFile.write("Player %d %s Total Yield: %d\n" %(iPlayer, GC.getYieldInfo(iYield).getDescription(), CyPlayer.calculateTotalYield(iYield)))
 
-			pFile.write("Yields:\n")
-			pFile.write("-------\n")
-			for iYield in range( int(YieldTypes.NUM_YIELD_TYPES) ):
-				pFile.write("Player %d %s Total Yield: %d\n" % (iPlayer, gc.getYieldInfo(iYield).getDescription(), pPlayer.calculateTotalYield(iYield) ))
+			pFile.write("\n\nCommerce:\n---------\n")
 
-			pFile.write("\n\n")
+			for iCommerce in range( int(CommerceTypes.NUM_COMMERCE_TYPES)):
+				pFile.write("Player %d %s Total Commerce: %d\n" %(iPlayer, GC.getCommerceInfo(iCommerce).getDescription(), CyPlayer.getCommerceRate(CommerceTypes(iCommerce))))
 
-			pFile.write("Commerce:\n")
-			pFile.write("---------\n")
-			for iCommerce in range( int(CommerceTypes.NUM_COMMERCE_TYPES) ):
-				pFile.write("Player %d %s Total Commerce: %d\n" % (iPlayer, gc.getCommerceInfo(iCommerce).getDescription(), pPlayer.getCommerceRate(CommerceTypes(iCommerce)) ))
+			pFile.write("\n\nBonus Info:\n-----------\n")
 
-			pFile.write("\n\n")
+			for iBonus in range(GC.getNumBonusInfos()):
+				pFile.write("Player %d, %s, Number Available: %d\n" %(iPlayer, GC.getBonusInfo(iBonus).getDescription(), CyPlayer.getNumAvailableBonuses(iBonus)))
+				pFile.write("Player %d, %s, Import: %d\n" %(iPlayer, GC.getBonusInfo(iBonus).getDescription(), CyPlayer.getBonusImport(iBonus)))
+				pFile.write("Player %d, %s, Export: %d\n\n" %(iPlayer, GC.getBonusInfo(iBonus).getDescription(), CyPlayer.getBonusExport(iBonus)))
 
-			pFile.write("Bonus Info:\n")
-			pFile.write("-----------\n")
-			for iBonus in range(gc.getNumBonusInfos()):
-				pFile.write("Player %d, %s, Number Available: %d\n" % (iPlayer, gc.getBonusInfo(iBonus).getDescription(), pPlayer.getNumAvailableBonuses(iBonus) ))
-				pFile.write("Player %d, %s, Import: %d\n" % (iPlayer, gc.getBonusInfo(iBonus).getDescription(), pPlayer.getBonusImport(iBonus) ))
-				pFile.write("Player %d, %s, Export: %d\n" % (iPlayer, gc.getBonusInfo(iBonus).getDescription(), pPlayer.getBonusExport(iBonus) ))
-				pFile.write("\n")
+			pFile.write("\n\nImprovement Info:\n-----------------\n")
 
-			pFile.write("\n\n")
+			for iImprovement in range(GC.getNumImprovementInfos()):
+				pFile.write("Player %d, %s, Improvement count: %d\n" %(iPlayer, GC.getImprovementInfo(iImprovement).getDescription(), CyPlayer.getImprovementCount(iImprovement)))
 
-			pFile.write("Improvement Info:\n")
-			pFile.write("-----------------\n")
-			for iImprovement in range(gc.getNumImprovementInfos()):
-				pFile.write("Player %d, %s, Improvement count: %d\n" % (iPlayer, CvUtil.convertToStr(gc.getImprovementInfo(iImprovement).getDescription()), pPlayer.getImprovementCount(iImprovement) ))
+			pFile.write("\n\nBuilding Info:\n--------------------\n")
 
-			pFile.write("\n\n")
+			for iBuilding in range(GC.getNumBuildingInfos()):
+				pFile.write("Player %d, %s, Building count: %d\n" %(iPlayer, GC.getBuildingInfo(iBuilding).getDescription(), CyPlayer.countNumBuildings(iBuilding)))
 
-			pFile.write("Building Info:\n")
-			pFile.write("--------------------\n")
-			for iBuilding in range(gc.getNumBuildingInfos()):
-				pFile.write("Player %d, %s, Building count: %d\n" %(iPlayer, gc.getBuildingInfo(iBuilding).getDescription(), pPlayer.countNumBuildings(iBuilding)))
+			pFile.write("\n\nUnit Class Info:\n--------------------\n")
 
-			pFile.write("\n\n")
+			for iUnitClass in range(GC.getNumUnitClassInfos()):
+				pFile.write("Player %d, %s, Unit class count plus training: %d\n" %(iPlayer, GC.getUnitClassInfo(iUnitClass).getDescription(), CyPlayer.getUnitClassCountPlusMaking(iUnitClass)))
 
-			pFile.write("Unit Class Info:\n")
-			pFile.write("--------------------\n")
-			for iUnitClass in range(gc.getNumUnitClassInfos()):
-				pFile.write("Player %d, %s, Unit class count plus training: %d\n" % (iPlayer, CvUtil.convertToStr(gc.getUnitClassInfo(iUnitClass).getDescription()), pPlayer.getUnitClassCountPlusMaking(iUnitClass) ))
+			pFile.write("\n\nUnitAI Types Info:\n------------------\n")
 
-			pFile.write("\n\n")
-
-			pFile.write("UnitAI Types Info:\n")
-			pFile.write("------------------\n")
 			for iUnitAIType in range(int(UnitAITypes.NUM_UNITAI_TYPES)):
-				pFile.write("Player %d, %s, Unit AI Type count: %d\n" % (iPlayer, gc.getUnitAIInfo(iUnitAIType).getDescription(), pPlayer.AI_totalUnitAIs(UnitAITypes(iUnitAIType)) ))
-			
+				pFile.write("Player %d, %s, Unit AI Type count: %d\n" %(iPlayer, GC.getUnitAIInfo(iUnitAIType).getDescription(), CyPlayer.AI_totalUnitAIs(UnitAITypes(iUnitAIType))))
 
-			pFile.write("\n\n")
+			pFile.write("\n\nCity Info:\n----------")
 
-			pFile.write("City Info:\n")
-			pFile.write("----------\n")
-			iNumCities = pPlayer.getNumCities()
+			if CyPlayer.getNumCities():
+				CyCity, i = CyPlayer.firstCity(False)
+				while CyCity:
+					pFile.write("\nX: %d, Y: %d\nFounded: %d\n" %(CyCity.getX(), CyCity.getY(), CyCity.getGameTurnFounded()))
+					pFile.write("Population: %d\nBuildings: %d\n" %(CyCity.getPopulation(), CyCity.getNumBuildings()))
+					pFile.write("Improved Plots: %d\nProducing: %s\n" %(CyCity.countNumImprovedPlots(), CyCity.getProductionName()))
+					pFile.write("%d Tiles Worked, %d Specialists, " %(CyCity.getWorkingPopulation(), CyCity.getSpecialistPopulation()))
+					pFile.write("%d Great People\n" % CyCity.getNumGreatPeople())
 
-			if (iNumCities == 0):
-				pFile.write("No Cities")
+					CyCity, i = CyPlayer.nextCity(i, False)
 			else:
-				pLoopCityTuple = pPlayer.firstCity(False)
-				while (pLoopCityTuple[0] != None):
-					pCity = pLoopCityTuple[0]
-					#pFile.write("Player %d, City ID: %d, %s, Plot Radius: %d\n" % (iPlayer, pCity.getID(), CvUtil.convertToStr(pCity.getName()), pCity.getPlotRadius() ))
+				pFile.write("\nNo Cities")
 
-					pFile.write("X: %d, Y: %d\n" % (pCity.getX(), pCity.getY()) )
-					pFile.write("Founded: %d\n" % pCity.getGameTurnFounded() )
-					pFile.write("Population: %d\n" % pCity.getPopulation() )
-					pFile.write("Buildings: %d\n" % pCity.getNumBuildings() )
-					pFile.write("Improved Plots: %d\n" % pCity.countNumImprovedPlots() )
-					pFile.write("Producing: %s\n" % pCity.getProductionName() )
-					pFile.write("%d Tiles Worked, %d Specialists, %d Great People\n" % (pCity.getWorkingPopulation(), pCity.getSpecialistPopulation(), pCity.getNumGreatPeople()) )
+			pFile.write("\n\nUnit Info:\n----------")
 
-					pLoopCityTuple = pPlayer.nextCity(pLoopCityTuple[1], False)
-					pFile.write("\n")
+			if CyPlayer.getNumUnits():
+				CyUnit, i = CyPlayer.firstUnit(False)
+				while CyUnit:
+					pFile.write("\nPlayer %d, Unit ID: %d, %s\n" %(iPlayer, CyUnit.getID(), CyUnit.getName()))
+					pFile.write("X: %d, Y: %d\nDamage: %d\n" %(CyUnit.getX(), CyUnit.getY(), CyUnit.getDamage()))
+					pFile.write("Experience: %d\nLevel: %d\n" %(CyUnit.getExperience(), CyUnit.getLevel()))
+					bFirst = True
+					for j in range(GC.getNumPromotionInfos()):
+						if CyUnit.isHasPromotion(j):
+							if bFirst:
+								pFile.write("Promotions:\n")
+								bFirst = False
+							pFile.write("\t%s\n" %(GC.getPromotionInfo(j).getDescription()))
 
-
-			pFile.write("\n\n")
-
-			pFile.write("Unit Info:\n")
-			pFile.write("----------\n")
-			iNumUnits = pPlayer.getNumUnits()
-
-			if (iNumUnits == 0):
-				pFile.write("No Units")
+					CyUnit, i = CyPlayer.nextUnit(i, False)
 			else:
-				pLoopUnitTuple = pPlayer.firstUnit(False)
-				while (pLoopUnitTuple[0] != None):
-					pUnit = pLoopUnitTuple[0]
-					pFile.write("Player %d, Unit ID: %d, %s\n" % (iPlayer, pUnit.getID(), CvUtil.convertToStr(pUnit.getName()) ))
-					pFile.write("X: %d, Y: %d\n" % (pUnit.getX(), pUnit.getY()) )
-					pFile.write("Damage: %d\n" % pUnit.getDamage() )
-					#pFile.write("Experience: %d\n" % pUnit.getExperienceTimes100() )
-					pFile.write("Experience: %d\n" % pUnit.getExperience() )
-					pFile.write("Level: %d\n" % pUnit.getLevel() )
-					pFile.write("Promotions:\n")
-					for j in range(gc.getNumPromotionInfos()):
-						if (pUnit.isHasPromotion(j)):
-							pFile.write("%s\n" % (CvUtil.convertToStr(gc.getPromotionInfo(j).getDescription()) ))
-
-					pLoopUnitTuple = pPlayer.nextUnit(pLoopUnitTuple[1], False)
-					pFile.write("\n")
-				
-
+				pFile.write("\nNo Units")
 			# Space at end of player's info
 			pFile.write("\n\n")
-		
 	# Close file
-
 	pFile.close()

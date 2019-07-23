@@ -8663,7 +8663,7 @@
 			<iLinePriority>1</iLinePriority>
 			<iEvasionChange>10</iEvasionChange>
 			<UnitCombats>
-				<UnitCombat> 
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_SPY</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
@@ -11122,6 +11122,12 @@
 				</UnitCombat>
 			</UnitCombats>
 			<Button>,Art/Interface/Buttons/Promotions/antitank3.dds,Art/Interface/Buttons/Afterworld_Atlas.dds,7,3</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_GUARDIAN_TRIBAL</Type>
+			<Description>TXT_KEY_PROMOTION_GUARDIAN_TRIBAL</Description>
+			<Help>TXT_KEY_PROMOTION_GUARDIAN_TRIBAL_HELP</Help>
+			<Button>Art/Interface/Buttons/Units/sparth/tribal_guardian.dds</Button>
 		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_GUARDIAN1</Type>

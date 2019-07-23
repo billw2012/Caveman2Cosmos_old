@@ -57,7 +57,6 @@
 
 from CvPythonExtensions import *
 import TradeUtil
-import GameUtil
 
 gc = CyGlobalContext()
 
@@ -500,7 +499,7 @@ def canSeeCityList(playerOrID):
 	is not a vassal of a rival. They must be able to contact (trade with)
 	<player>, and OCC must be disabled. You can always see a teammate's cities.
 	"""
-	if GameUtil.isOCC():
+	if gc.getGame().isOption(GameOptionTypes.GAMEOPTION_ONE_CITY_CHALLENGE):
 		return False
 	askedPlayer, askedTeam = getPlayerAndTeam(playerOrID)
 	askingPlayer, askingTeam = getActivePlayerAndTeam()

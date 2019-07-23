@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
-<!--
-    Beast Master
--->
-<mod id="BeastMaster" module="BeastMaster">
-   	<event type="OnLoad" function="onLoadGame"/>
-   	<event type="unitCreated" function="onUnitCreated"/>
-   	<event type="unitKilled" function="onUnitKilled"/>
-</mod>

@@ -8,11 +8,8 @@
 ## Author: EmperorFool
 
 from CvPythonExtensions import *
-import CvUtil
-import BugUtil
-import TradeUtil
 
-gc = CyGlobalContext()
+GC = CyGlobalContext()
 
 # Types
 NUM_TYPES = 11
@@ -21,18 +18,18 @@ NUM_TYPES = 11
 	CITY_TILES,
 	OWNED_TILES,
 	ALL_TILES,
-	
+
 	DOMESTIC_TRADE,
 	FOREIGN_TRADE, # excludes overseas trade
-	
+
 	BUILDINGS,
 	CORPORATIONS,
 	SPECIALISTS,
-	
+
 	# Hold the percents, not the actual yield values
 	BASE_MODIFIER,
 	PRODUCTION_MODIFIER,
-) = range(NUM_TYPES)
+) = xrange(NUM_TYPES)
 
 # Leave these for later when we have icons for each
 #DOMAIN_MODIFIER
@@ -45,210 +42,183 @@ NUM_TYPES = 11
 #...
 
 # Labels
-LABEL_KEYS = ("TXT_KEY_CONCEPT_WORKED_TILES",
-			  "TXT_KEY_CONCEPT_CITY_TILES",
-			  "TXT_KEY_CONCEPT_OWNED_TILES",
-			  "TXT_KEY_CONCEPT_ALL_TILES",
-			  "TXT_KEY_CONCEPT_DOMESTIC_TRADE",
-			  "TXT_KEY_CONCEPT_FOREIGN_TRADE",
-			  "TXT_KEY_CONCEPT_BUILDINGS",
-			  "TXT_KEY_CONCEPT_CORPORATIONS",
-			  "TXT_KEY_CONCEPT_SPECIALISTS",
-			  "TXT_KEY_CONCEPT_BASE_MODIFIER",
-			  "TXT_KEY_CONCEPT_PRODUCTION_MODIFIER")
-
+LABEL_KEYS = (
+	"TXT_KEY_CONCEPT_WORKED_TILES",
+	"TXT_KEY_CONCEPT_CITY_TILES",
+	"TXT_KEY_CONCEPT_OWNED_TILES",
+	"TXT_KEY_CONCEPT_ALL_TILES",
+	"TXT_KEY_CONCEPT_DOMESTIC_TRADE",
+	"TXT_KEY_CONCEPT_FOREIGN_TRADE",
+	"TXT_KEY_CONCEPT_BUILDINGS",
+	"TXT_KEY_CONCEPT_CORPORATIONS",
+	"TXT_KEY_CONCEPT_SPECIALISTS",
+	"TXT_KEY_CONCEPT_BASE_MODIFIER",
+	"TXT_KEY_CONCEPT_PRODUCTION_MODIFIER"
+)
 # Yields
 YIELDS = (YieldTypes.YIELD_FOOD, YieldTypes.YIELD_PRODUCTION, YieldTypes.YIELD_COMMERCE)
-
 # Tiles
 TILES = (WORKED_TILES, CITY_TILES, OWNED_TILES, ALL_TILES)
 
-# Table
-HEADING_COLUMN = 0
-VALUE_COLUMN = 1
-TOTAL_COLUMN = 2
-
 def getViewAndType(iView):
-	"""Returns the view boolean and YieldTypes enum given the give number 0-3."""
+	# Returns the view boolean and YieldTypes enum given the give number 0-3.
 	if iView == 0:
 		return (False, YieldTypes.YIELD_FOOD)
 	elif iView in (1, 2, 3):
 		return (True, YIELDS[iView - 1])
 	else:
-		BugUtil.error("RawYields - invalid view number %d", iView)
+		print "RawYields - invalid view-type: %d" %iView
 		return (False, YieldTypes.YIELD_FOOD)
 
 class Tracker:
-	
+
 	def __init__(self):
-		"""Creates a table to hold all of the tracked values for each yield type."""
+		# Creates a table to hold all of the tracked values for each yield type.
 		self.values = {}
-		for eYield in range(YieldTypes.NUM_YIELD_TYPES):
+		for eYield in xrange(YieldTypes.NUM_YIELD_TYPES):
 			self.values[eYield] = {}
-			for eType in range(NUM_TYPES):
+			for eType in xrange(NUM_TYPES):
 				self.values[eYield][eType] = 0
 		self.tileCounts = [0, 0, 0, 0]
-	
-	
-	def getYield(self, eYield, eType):
-		return self.values[eYield][eType]
-	
-	def _addYield(self, eYield, eType, iValue):
-		"""Adds the given yield value to the given type in the table."""
-		self.values[eYield][eType] += iValue
-	
-	
+
 	def addBuilding(self, eYield, iValue):
-		self._addYield(eYield, BUILDINGS, iValue)
-	
-	def addDomesticTrade(self, iValue):
-		self._addYield(YieldTypes.YIELD_COMMERCE, DOMESTIC_TRADE, iValue)
-	
-	def addForeignTrade(self, iValue):
-		self._addYield(YieldTypes.YIELD_COMMERCE, FOREIGN_TRADE, iValue)
-	
-	def processCity(self, pCity):
+		self.values[eYield][BUILDINGS] += iValue
+
+	def addDomesticTrade(self, eYield, iValue):
+		self.values[eYield][DOMESTIC_TRADE] += iValue
+
+	def addForeignTrade(self, eYield, iValue):
+		self.values[eYield][FOREIGN_TRADE] += iValue
+
+	def processCity(self, CyCity):
 		"""
 		Calculates the yields for the given city's tiles, specialists, corporations and multipliers.
 		The building and trade yields are calculated by CvMainInterface.
 		"""
-		self.calculateTiles(pCity)
-		self.calculateSpecialists(pCity)
-		self.calculateCorporations(pCity)
-		self.calculateModifiers(pCity)
-	
-	def calculateTiles(self, pCity):
-		"""Calculates the yields for all tiles of the given CyCity."""
-		for i in range(gc.getNUM_CITY_PLOTS()):
-			pPlot = pCity.getCityIndexPlot(i)
-			if pPlot and not pPlot.isNone() and pPlot.hasYield():
-				if pCity.isWorkingPlot(pPlot):
-					self._addTile(WORKED_TILES, pPlot)
-				elif pCity.canWork(pPlot):
-					self._addTile(CITY_TILES, pPlot)
-				elif pPlot.getOwner() == pCity.getOwner():
-					self._addTile(OWNED_TILES, pPlot)
+		# Calculates the yield for all city-tiles.
+		iPlayer = CyCity.getOwner()
+		for i in xrange(GC.getNUM_CITY_PLOTS()):
+			CyPlot = CyCity.getCityIndexPlot(i)
+			if CyPlot and CyPlot.hasYield():
+
+				if CyCity.isWorkingPlot(CyPlot):
+					iTileType = WORKED_TILES
+				elif CyCity.canWork(CyPlot):
+					iTileType = CITY_TILES
+				elif CyPlot.getOwner() == iPlayer:
+					iTileType = OWNED_TILES
 				else:
-					self._addTile(ALL_TILES, pPlot)
-	
-	def _addTile(self, eFirstTileType, pPlot):
+					iTileType = ALL_TILES
+
+				for eYield in YIELDS:
+					iValue = CyPlot.getYield(eYield)
+					if iValue:
+						for eType in xrange(iTileType, ALL_TILES + 1):
+							self.values[eYield][eType] += iValue
+				for eType in xrange(iTileType, ALL_TILES + 1):
+					self.tileCounts[eType] += 1
+
+		CyPlayer = GC.getPlayer(iPlayer)
+		iValue = 0
 		for eYield in YIELDS:
-			iValue = pPlot.getYield(eYield)
-			for eType in range(eFirstTileType, ALL_TILES + 1):
-				self._addYield(eYield, eType, iValue)
-		for eType in range(eFirstTileType, ALL_TILES + 1):
-			self.tileCounts[eType] += 1
-	
-	def calculateSpecialists(self, pCity):
-		pPlayer = gc.getPlayer(pCity.getOwner())
-		for eYield in range(YieldTypes.NUM_YIELD_TYPES):
-			iValue = 0
-			for eSpec in range(gc.getNumSpecialistInfos()):
-				iValue += pPlayer.specialistYield(eSpec, eYield) * (pCity.getSpecialistCount(eSpec) + pCity.getFreeSpecialistCount(eSpec))
-			self.addSpecialist(eYield, iValue)
-	
-	def addSpecialist(self, eYield, iValue):
-		self._addYield(eYield, SPECIALISTS, iValue)
-		
-	def calculateCorporations(self, pCity):
-		for eYield in range(YieldTypes.NUM_YIELD_TYPES):
-			iValue = 0
-			for eCorp in range(gc.getNumCorporationInfos()):
-				if (pCity.isHasCorporation(eCorp)):
-					iValue += pCity.getCorporationYieldByCorporation(eYield, eCorp)
-			self.addCorporation(eYield, iValue)
-	
-	def addCorporation(self, eYield, iValue):
-		self._addYield(eYield, CORPORATIONS, iValue)
-	
-	def calculateModifiers(self, pCity):
-		for eYield in range(YieldTypes.NUM_YIELD_TYPES):
-			iValue = pCity.getBaseYieldRateModifier(eYield, 0) - 100
-			self._addYield(eYield, BASE_MODIFIER, iValue)
-		
+			# Calculates the yield from specialists.
+			for eType in xrange(GC.getNumSpecialistInfos()):
+				iValue += CyPlayer.specialistYield(eType, eYield) * (CyCity.getSpecialistCount(eType) + CyCity.getFreeSpecialistCount(eType))
+			if iValue:
+				self.values[eYield][SPECIALISTS] += iValue
+				iValue = 0
+			# Calculates the yield from corporations.
+			for eType in xrange(GC.getNumCorporationInfos()):
+				if CyCity.isHasCorporation(eType):
+					iValue += CyCity.getCorporationYieldByCorporation(eYield, eType)
+			if iValue:
+				self.values[eYield][CORPORATIONS] += iValue
+				iValue = 0
+			# Account for yield modifiers.
+			iValue = CyCity.getBaseYieldRateModifier(eYield, 0) - 100
+			if iValue:
+				self.values[eYield][BASE_MODIFIER] += iValue
+				iValue = 0
 		# Depends on the item being built
-		self.iProductionModifier = pCity.getProductionModifier()
-		if self.iProductionModifier != 0:
-			self.sModifierDetail = pCity.getProductionName()
-	
-	
-	def fillTable(self, screen, table, eYield, eTileType):
-		"""Fills the given GFC table control with the chosen yield values."""
+		self.iProductionModifier = CyCity.getProductionModifier()
+		if self.iProductionModifier:
+			self.sModifierDetail = CyCity.getProductionName()
+
+
+	def fillTable(self, screen, table, eYield, eType):
+		TRNSLTR = CyTranslator()
+		# Fills the given GFC table control with the chosen yield values.
 		self.iRow = 0
 		# Tiles
-		iTotal = self.getYield(eYield, eTileType)
-		self.appendTable(screen, table, False, BugUtil.getText(LABEL_KEYS[eTileType], (self.tileCounts[eTileType],)), eYield, iTotal)
-		
+		iTotal = self.values[eYield][eType]
+		self.appendTable(screen, table, False, TRNSLTR.getText(LABEL_KEYS[eType], (self.tileCounts[eType],)), eYield, iTotal)
+
 		# Trade
 		for eType in (DOMESTIC_TRADE, FOREIGN_TRADE):
-			iValue = self.getYield(eYield, eType)
-			if iValue != 0:
-				self.appendTable(screen, table, False, BugUtil.getPlainText(LABEL_KEYS[eType]), eYield, iValue, TradeUtil.isFractionalTrade())
-		iValue = self.getYield(eYield, DOMESTIC_TRADE) + self.getYield(eYield, FOREIGN_TRADE)
-		if TradeUtil.isFractionalTrade():
-			iValue //= 100
+			iValue = self.values[eYield][eType]
+			if iValue:
+				self.appendTable(screen, table, False, TRNSLTR.getText(LABEL_KEYS[eType], ()), eYield, iValue, True)
+		iValue = self.values[eYield][DOMESTIC_TRADE] + self.values[eYield][FOREIGN_TRADE]
+		iValue /= 100
 		iTotal += iValue
-		
+
 		# Buildings, Corporations, Specialists
 		for eType in (BUILDINGS, CORPORATIONS, SPECIALISTS):
-			iValue = self.getYield(eYield, eType)
-			if iValue != 0:
+			iValue = self.values[eYield][eType]
+			if iValue:
 				iTotal += iValue
-				self.appendTable(screen, table, False, BugUtil.getPlainText(LABEL_KEYS[eType]), eYield, iValue)
-		
+				self.appendTable(screen, table, False, TRNSLTR.getText(LABEL_KEYS[eType], ()), eYield, iValue)
+
 		# Subtotal and Base Modifiers
-		iModifier = self.getYield(eYield, BASE_MODIFIER)
-		if iModifier != 0:
+		iModifier = self.values[eYield][BASE_MODIFIER]
+		if iModifier:
 			# Subtotal
 			self.appendTableTotal(screen, table, eYield, iTotal)
-			#self.appendTable(screen, table, True, BugUtil.getPlainText("TXT_KEY_CONCEPT_SUBTOTAL"), eYield, iTotal)
 			# Modifier
 			iValue = (iTotal * (iModifier + 100) // 100) - iTotal
 			iSubtotal = iTotal + iValue
-			self.appendTable(screen, table, False, BugUtil.getText("TXT_KEY_CONCEPT_BASE_MODIFIER", (iModifier,)), eYield, iValue)
+			self.appendTable(screen, table, False, TRNSLTR.getText("TXT_KEY_CONCEPT_BASE_MODIFIER", (iModifier,)), eYield, iValue)
 		else:
 			iSubtotal = iTotal
-		
+
 		# Subtotal and Production Modifiers
 		if eYield == YieldTypes.YIELD_PRODUCTION and self.iProductionModifier != 0:
 			# Subtotal
 			self.appendTableTotal(screen, table, eYield, iSubtotal)
-			#self.appendTable(screen, table, True, BugUtil.getPlainText("TXT_KEY_CONCEPT_SUBTOTAL"), eYield, iSubtotal)
 			# Total
 			iTotal = iTotal * (iModifier + self.iProductionModifier + 100) // 100
 			# Modifier
 			iValue = iTotal - iSubtotal
-			self.appendTable(screen, table, False, BugUtil.getText("TXT_KEY_CONCEPT_PRODUCTION_MODIFIER", (self.sModifierDetail, self.iProductionModifier)), eYield, iValue)
+			self.appendTable(screen, table, False, TRNSLTR.getText("TXT_KEY_CONCEPT_PRODUCTION_MODIFIER", (self.sModifierDetail, self.iProductionModifier)), eYield, iValue)
 		else:
 			iTotal = iSubtotal
-		
+
 		# Total
 		self.appendTableTotal(screen, table, eYield, iTotal)
-		#self.appendTable(screen, table, True, BugUtil.getPlainText("TXT_KEY_CONCEPT_TOTAL"), eYield, iTotal)
-	
+
 	def appendTable(self, screen, table, bTotal, heading, eYield, iValue, bFraction=False):
 		"""
 		Appends the given yield value to the table control.
 		If bTotal is True, the heading is colored yellow and there's no + sign on the value.
 		"""
-		cYield = gc.getYieldInfo(eYield).getChar()
+		cYield = GC.getYieldInfo(eYield).getChar()
 		screen.appendTableRow(table)
 		if bTotal:
 			heading = u"<color=205,180,55,255>%s</color>" % heading
 			value = u"<color=205,180,55,255>%d</color>" % iValue
 			if bFraction:
 				# showing fraction doesn't fit in column
-				value = u"<color=205,180,55,255>%d</color>" % (iValue // 100)
+				value = u"<color=205,180,55,255>%d</color>" % (iValue / 100)
 			else:
 				value = u"<color=205,180,55,255>%d</color>" % iValue
 		else:
 			if bFraction:
 				# showing fraction doesn't fit in column
-				value = u"%+d" % (iValue // 100)
+				value = u"%+d" % (iValue / 100)
 			else:
 				value = u"%+d" % iValue
-		screen.setTableText(table, HEADING_COLUMN, self.iRow, u"<font=1>%s</font>" % (heading), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
-		screen.setTableText(table, VALUE_COLUMN, self.iRow, u"<font=1>%s%c</font>" % (value, cYield), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_RIGHT_JUSTIFY)
+		screen.setTableText(table, 0, self.iRow, u"<font=1>%s</font>" % (heading), "", WidgetTypes.WIDGET_GENERAL, -1, -1, 1<<0)
+		screen.setTableText(table, 1, self.iRow, u"<font=1>%s%c</font>" % (value, cYield), "", WidgetTypes.WIDGET_GENERAL, -1, -1, 1<<1)
 		self.iRow += 1
 
 	def appendTableTotal(self, screen, table, eYield, iValue):
@@ -256,6 +226,6 @@ class Tracker:
 		Appends the given yield total to the table control's 3rd running total column.
 		"""
 		if self.iRow > 0:
-			cYield = gc.getYieldInfo(eYield).getChar()
+			cYield = GC.getYieldInfo(eYield).getChar()
 			value = u"<color=205,180,55,255>%d</color>" % iValue
-			screen.setTableText(table, TOTAL_COLUMN, self.iRow - 1, u"<font=1>%s%c</font>" % (value, cYield), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_RIGHT_JUSTIFY)
+			screen.setTableText(table, 2, self.iRow - 1, u"<font=1>%s%c</font>" % (value, cYield), "", WidgetTypes.WIDGET_GENERAL, -1, -1, 1<<1)

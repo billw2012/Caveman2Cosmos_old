@@ -6,273 +6,148 @@
 ## Updated by Dancing Hoskuld to allow language support 
 ##	see also EnhancedTechConquest game text xml file.
 ##
-
 from CvPythonExtensions import *
-import CvUtil
-import BugUtil
-import CvConfigParser
 
 # globals
-gc = CyGlobalContext()
-localText = CyTranslator()
-
-# Change the value to True if technology should be handed completely over from
-# the conquered city to their new owners.
-# Default value is False
-g_bCompleteTechnologyDiscovery = False
-
-# Increase or decrease the value to change the number of or part of 
-# technologies conquered cities will hand over to their new owners.
-# Default value is 1
-g_iTechnologyTransferCount = 1
-
-# Change the value to True if the amount of technologies conquered cities will
-# hand over to their new owners should be random.
-# Default value is False
-g_bRandomTechnologyTransferAmount = False
+GC = CyGlobalContext()
+TRNSLTR = CyTranslator()
 
 # Change the value to True if the conquering civilization can receive
-# technology without the appropriate prerequisites or ignore their civilization
-# technology restrictions.
-# Default value is False
-g_bTechnologyTransferIgnorePrereq = False
+# technology without the appropriate prerequisites or ignore their civilization technology restrictions.
+g_bCheckPrereq = True
 
-# Change the value to False if full technology transfer should be allowed. By 
-# setting the value to True this will force players to spend at least one turn
-# researching pillaged technology.
-# Default value is True
-g_bDisableFullTechnologyTransfer = True
-
-# Increase or decrease the value to change the base technology transfer 
-# percentage amount.
-# Default value is 25
-g_iBaseTechnologyTransferPercent = 25
+# Increase or decrease the value to change the base technology transfer percentage amount.
+g_iBasePercent = 0
 
 # Increase or decrease the value to change the percent amount per city 
-# population that will be used to transfer technology to the new owners of
-# the conquered city.
-# Default value is 5
-g_iPercentagePerCityPopulation = 5
+# population that will be used to transfer technology to the new owners of the conquered city.
+g_iPopPercent = 2
 
 
 def loadConfigurationData():
-	global g_bCompleteTechnologyDiscovery
-	global g_iTechnologyTransferCount
-	global g_bRandomTechnologyTransferAmount
-	global g_bTechnologyTransferIgnorePrereq
-	global g_bDisableFullTechnologyTransfer
-	global g_iBaseTechnologyTransferPercent
-	global g_iPercentagePerCityPopulation 
-	
-	config = CvConfigParser.CvConfigParser("Caveman2Cosmos Config.ini")
+	global g_bCheckPrereq
+	global g_iBasePercent
+	global g_iPopPercent
 
-	if(config != None):
-		g_bCompleteTechnologyDiscovery = config.getboolean("Enhanced Tech Conquest", "Complete Technology Discovery", False)
-		g_iTechnologyTransferCount = config.getint("Enhanced Tech Conquest", "Technology Transfer Count", 1)
-		g_bRandomTechnologyTransferAmount = config.getboolean("Enhanced Tech Conquest", "Random Technology Transfer Amount", False)
-		g_bTechnologyTransferIgnorePrereq = config.getboolean("Enhanced Tech Conquest", "Technology Transfer Ignore Prereq", False)
-		g_bDisableFullTechnologyTransfer = config.getboolean("Enhanced Tech Conquest", "Disable Full Technology Transfer", True)
-		g_iBaseTechnologyTransferPercent = config.getint("Enhanced Tech Conquest", "Base Technology Transfer Percent", 25)
-		g_iPercentagePerCityPopulation = config.getint("Enhanced Tech Conquest", "Percentage Per City Population", 5)
+	import SystemPaths
+	path = SystemPaths.appDir + "\Mods\Caveman2Cosmos\Caveman2Cosmos Config.ini"
+	import ConfigParser
+	Config = ConfigParser.ConfigParser()
+	Config.read(path)
 
-	BugUtil.debug("Enhanced Tech Conquest")
-	BugUtil.debug("    Complete Technology Discovery.... %d", g_bCompleteTechnologyDiscovery)
-	BugUtil.debug("    Technology Transfer Count........ %d", g_iTechnologyTransferCount)
-	BugUtil.debug("    Random Technology Transfer Amount %d", g_bRandomTechnologyTransferAmount)
-	BugUtil.debug("    Technology Transfer Ignore Prereq %d", g_bTechnologyTransferIgnorePrereq)
-	BugUtil.debug("    Disable Full Technology Transfer. %d", g_bDisableFullTechnologyTransfer)
-	BugUtil.debug("    Base Technology Transfer Percent. %d", g_iBaseTechnologyTransferPercent)
-	BugUtil.debug("    Percentage Per City Population... %d", g_iPercentagePerCityPopulation)
+	if Config:
+		g_bCheckPrereq = Config.get("Enhanced Tech Conquest", "Check Prereq")
+		if g_bCheckPrereq in ("False", "false", "0"):
+			g_bCheckPrereq = False
+		else:
+			g_bCheckPrereq = True
+		g_iBasePercent = Config.get("Enhanced Tech Conquest", "Base Percent")
+		if g_iBasePercent.isdigit():
+			g_iBasePercent = int(g_iBasePercent)
+		else:
+			g_iBasePercent = 0
+		g_iPopPercent = Config.get("Enhanced Tech Conquest", "Population Percent")
+		if g_iPopPercent.isdigit():
+			g_iPopPercent = int(g_iPopPercent)
+		else:
+			g_iPopPercent = 2
 
-	
+	sprint  = "Enhanced Tech Conquest:\n"
+	sprint += "\tTechnology Transfer Ignore Prereq = %s\n" %str(g_bCheckPrereq)
+	sprint += "\tBase Technology Transfer Percent. = %d\n" %g_iBasePercent
+	sprint += "\tPercentage Per City Population... = %d" %g_iPopPercent
+	print sprint
+
 class EnhancedTechConquest:
 
 	def onCityAcquired(self, argsList):
-		iPreviousOwner, iNewOwner, pCity, bConquest, bTrade = argsList
-		# debug("onCityAcquired")
+		iOwnerOld, iOwnerNew, CyCity, bConquest, bTrade = argsList
+		if not bConquest: return
 
-		# Return immediately if the city was not conquered		
-		if (not bConquest):
-			return None
-		# debug("isConquest")
-			
+		iBasePercent = g_iBasePercent
+		iPopPercent = g_iPopPercent
+		if iBasePercent < 1 and iPopPercent < 1: return
+
+		CyPlayerN = GC.getPlayer(iOwnerNew)
+		if CyPlayerN.isNPC(): return
+
+		if iPopPercent < 0:
+			iPopPercent = 0
+		elif iPopPercent > 100:
+			iPopPercent = 100
+
 		# Get the map random object
-		pMapRand = gc.getGame().getMapRand()
+		CyRandom = GC.getGame().getMapRand()
 
-		# Get the conquering player
-		pPlayer = gc.getPlayer(iNewOwner)
-		
-		# Get the conquerer's team
-		pNewTeam = gc.getTeam(pPlayer.getTeam())
+		CyTeamN = GC.getTeam(CyPlayerN.getTeam())
 
-		# Get the old city owner
-		pOldCityOwner = gc.getPlayer(iPreviousOwner)
+		CyPlayerO = GC.getPlayer(iOwnerOld)
+		CyTeamO = GC.getTeam(CyPlayerO.getTeam())
 
-		lDiscoveredTechs = []
-		lDiscoveredTechStrs = ""
-		iTotalTechPoints = 0
-		
-		# Go through and try to get as many technologies as allowed
-		iCountTechs = 0
-		for i in range(gc.getNumTechInfos()):
+		bCheckPrereq = g_bCheckPrereq
+		aList = []
+		iTechsBehind = 0
+		for iTech in range(GC.getNumTechInfos()):
+			# Continue if the conquering team does have the tech
+			if CyTeamN.isHasTech(iTech):
+				continue
+			# Continue if the old team doesn't have the tech
+			if not CyTeamO.isHasTech(iTech):
+				continue
+			iTechsBehind += 1
+			# Continue if the conquerer cannot research the technology
+			if bCheckPrereq and not CyPlayerN.canResearch(iTech, False):
+				continue
+			# Append the technology to the possible technology list
+			iCost = CyTeamN.getResearchCost(iTech)
+			iProgress = CyTeamN.getResearchProgress(iTech)
+			iRemaining = iCost - iProgress - 1
+			if not iRemaining:
+				continue
+			# Append the technology to the possible technology list
+			aList.append((iTech, iCost, iRemaining))
 
-			# If we have enough techs then break
-			if (iCountTechs >= g_iTechnologyTransferCount):
-				break
+		if not aList:
+			return
 
-			# Get the possible technologies that could be transfered
-			lPossibleTechnology = self.getPossibleTechnologyList(pOldCityOwner, pCity, lDiscoveredTechs)
-			# debug("lPossibleTechnology", lPossibleTechnology)
-			
-			# Break if there are no possible technologies that can be transfered
-			if (len(lPossibleTechnology) < 1):
-				break
+		from random import shuffle
+		shuffle(aList)
 
-			# Pick a technology randomly from the list
-			iRandTechPos = pMapRand.get(len(lPossibleTechnology), "TechConquest")
-			# debug("iRandTechPos", iRandTechPos)
+		iBasePercent += iTechsBehind
+		charBeaker = GC.getCommerceInfo(CommerceTypes.COMMERCE_RESEARCH).getChar()
+		iPopulation = CyCity.getPopulation() + 1
+		fForce = (1 + iTechsBehind/10.0) * iPopulation / (CyPlayerO.getTotalPopulation() + iPopulation)
 
-			# Get the tech type from the list
-			iRandTech = lPossibleTechnology[iRandTechPos]
-			# debug("iRandTech", iRandTech)
+		iMax = (iPopulation * iPopPercent)
+		iCount = 0
+		szText = ""
+		for iTech, iCost, iRemaining in aList:
+			# Get the total number of technology points that will be transfered to the new city owner
+			fTemp = 0
+			if iPopPercent:
+				for i in xrange(iPopulation):
+					fTemp += 100 * (1.0 + CyRandom.get(iPopPercent, "TechConquest")) / iMax
 
-			# Get the total number of technology points that will be transfered 
-			# to the new city owner
-			iTotalTechPoints = self.getTechnologyTransferAmount(iRandTech, pNewTeam, pCity)
-                        # debug("iTotalTechPoints", iTotalTechPoints)
+			fPercent = iBasePercent + fTemp * fForce
 
-                        # Don't need to do anything if no points are to be transfered
-			if (iTotalTechPoints < 1):
-                                continue
+			iBeakers = int(iCost * fPercent / (20 * (iCount + 5)))
 
-			iCountTechs += 1
-
-			lDiscoveredTechs.append(iRandTech)
+			if iBeakers < 1: continue
+			if iBeakers > iRemaining:
+				iBeakers = iRemaining
 
 			# Increase the research progress for the new city owner
-			pNewTeam.changeResearchProgress(iRandTech, iTotalTechPoints, iNewOwner)
+			CyTeamN.changeResearchProgress(iTech, iBeakers, iOwnerNew)
 
-			if (iCountTechs == 1):
-				#lDiscoveredTechStrs += gc.getTechInfo(iRandTech).getDescription()
-				lDiscoveredTechStrs += "\n\t\t" + gc.getTechInfo(iRandTech).getDescription()
-			else:
-				#lDiscoveredTechStrs += ", " + gc.getTechInfo(iRandTech).getDescription()
-				lDiscoveredTechStrs += "\n\t\t" + gc.getTechInfo(iRandTech).getDescription()
+			szText += "\n\t" + GC.getTechInfo(iTech).getDescription() + u" <-> %i%c" %(iBeakers, charBeaker)
+			iCount += 1
 
-		strMessage = ""
-		# Inform the player they didn't get any new technologies
-		if (iCountTechs < 1):
-			strMessage = localText.getText("TXT_KEY_ENHANCED_TECH_CONQUEST_FAIL", ()) + " %s" %(pCity.getName())
-		# Inform the player they got some new technology points
-		else:
-			strMessage = localText.getText("TXT_KEY_ENHANCED_TECH_CONQUEST_SUCESS", ()) %(pCity.getName(), lDiscoveredTechStrs)
-		
-		CyInterface().addMessage(pPlayer.getID(), True, 20, strMessage, "", 0, gc.getCivilizationInfo(pOldCityOwner.getCivilizationType()).getButton(), ColorTypes(0), pCity.getX(), pCity.getY(), True, True) 
+		if CyPlayerN.isHuman():
 
+			if iCount: # Inform the player they got some new technology points
+				szText = TRNSLTR.getText("TXT_KEY_ENHANCED_TECH_CONQUEST_SUCESS", ()) %(CyCity.getName(), szText)
+			else: # Inform the player they didn't get any new technologies
+				szText = TRNSLTR.getText("TXT_KEY_ENHANCED_TECH_CONQUEST_FAIL", ()) + " %s" %(CyCity.getName())
 
-	# Returns the amount of technology points of that should be transfered from 
-	# the old owners of the city to the new owners of the city.
-	def getTechnologyTransferAmount(self, iTechType, pNewTeam, pCity):
-
-		# Return zero immediately if the tech info passed in is invalid
-		if (iTechType < 0):
-			return 0
-
-		# Return zero immediately if the new team passed in is invalid
-		elif (pNewTeam == None) or (pNewTeam.isNone()):
-			return 0
-
-		# Return zero immediately if the city passed in is invalid
-		elif (pCity == None) or (pCity.isNone()) or (pCity.isNPC()):
-			return 0
-						
-		pMapRand = gc.getGame().getMapRand()
-		iTechCost = pNewTeam.getResearchCost(iTechType)
-		iCurrentTechPoints = pNewTeam.getResearchProgress(iTechType)
-		iTempCost = (iTechCost - iCurrentTechPoints)
-
-		# Return the full tech cost if the mod has been configured to do so
-		if (g_bCompleteTechnologyDiscovery):
-			if(g_bDisableFullTechnologyTransfer) and (iTempCost > 1):
-				return iTempCost - 1
-			return iTempCost
-
-
-		# Get the percentage amount of tech points that is given by the population
-		iTempPercent = pCity.getPopulation() * g_iPercentagePerCityPopulation
-		iPercent = min(max(0, iTempPercent), 100)
-
-		iExtraTechPoints = 0
-
-		# Get the base percentage amount of tech points
-		iBaseTechPoints = int(iTechCost * (g_iBaseTechnologyTransferPercent/100.0))
-
-		if (g_bRandomTechnologyTransferAmount):
-			iExtraTechPoints = pMapRand.get(iPercent, "TechConquest")
-		else :
-			iExtraTechPoints = int(iTechCost * (iPercent/100.0))
-
-		# Get the total amount of tech points to be transfered
-		iTotalTechPoints = iBaseTechPoints + iExtraTechPoints
-
-		if (iTotalTechPoints >= iTempCost):
-			if (g_bDisableFullTechnologyTransfer) and (iTempCost > 1):
-				return iTempCost - 1
-			return iTempCost
-
-		return iTotalTechPoints
-		
-		
-	# Returns the list of technologies the conquering player could get from 
-	# their newly conquered city.
-	def getPossibleTechnologyList(self, pOldCityOwner, pCity, lDiscoveredTechs):
-
-		lPossibleTechnology = []
-
-		# Return an empty list if the old city owner passed in is invalid
-		if (pOldCityOwner == None) or (pOldCityOwner.isNone()):
-			return []
-
-		# Return an empty list if the city passed in is invalid
-		elif (pCity == None) or (pCity.isNone()) or (pCity.isNPC()):
-			return []
-		
-		# Get the team from the old owner of the city
-		pOldCityOwnerTeam = gc.getTeam(pOldCityOwner.getTeam())
-
-		# Get the conquering player of the city
-		pConquerer = gc.getPlayer(pCity.getOwner())
-
-		# Get the conquering team of the city
-		pConquererTeam = gc.getTeam(pConquerer.getTeam())
-		
-		# Go through each technology in the game
-		for iTechType in range(gc.getNumTechInfos()):
-			
-			# CvUtil.pyPrint("%s %s %s" %(gc.getTechInfo(iTechType).getType(), pConquerer.canResearch(iTechType, False), g_bTechnologyTransferIgnorePrereq) ) 
-			# Continue if the conquerer cannot research the technology
-			if (not pConquerer.canResearch(iTechType, False) and (not g_bTechnologyTransferIgnorePrereq)):
-				continue
-
-			# Continue if the old team doesn't have the tech
-			elif (not pOldCityOwnerTeam.isHasTech(iTechType)):
-				continue
-
-			# Continue if the conquering team does have the tech
-			elif (pConquererTeam.isHasTech(iTechType)):
-				continue
-
-			# Continue if the tech is in the discovered tech list
-			elif (iTechType in lDiscoveredTechs):
-				continue
-
-			# Append the technology to the possible technology list
-			elif(g_bDisableFullTechnologyTransfer):
-				iConquererProgress = pConquererTeam.getResearchProgress(iTechType)
-				if (iConquererProgress >= (pConquererTeam.getResearchCost(iTechType) - 1)):
-					continue
-
-			# Append the technology to the possible technology list
-			lPossibleTechnology.append(iTechType)
-
-		return lPossibleTechnology
+			artPath = GC.getCivilizationInfo(CyPlayerO.getCivilizationType()).getButton()
+			CyInterface().addMessage(iOwnerNew, True, 20, szText, "", 0, artPath, ColorTypes(12), CyCity.getX(), CyCity.getY(), True, True) 

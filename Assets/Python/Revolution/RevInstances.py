@@ -6,9 +6,6 @@
 bIsInitialized = False
 
 RevolutionInst = None
-# DynamicCivNamesInst = None
 BarbarianCivInst = None
-TechDiffusionInst = None
 AIAutoPlayInst = None
-TesterInst = None
 ChangePlayerInst = None
