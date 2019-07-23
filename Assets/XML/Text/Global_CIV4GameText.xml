@@ -7668,15 +7668,6 @@
 		<Polish>Inkwizytor</Polish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_GODS_UNIT_INQUISITOR_HELP</Tag>
-		<English>[ICON_BULLET]Can remove non-state religions and associated buildings.</English>
-		<French>[ICON_BULLET]Peut éliminer les religions non officielles et leur bâtiments associés.</French>
-		<German>[ICON_BULLET]Kann nicht-staatliche Religionen und zugehörige Gebäude entfernen</German>
-		<Italian>[ICON_BULLET]Può rimuovere le religioni non di stato, e i relativi edifici.</Italian>
-		<Spanish>[ICON_BULLET]Puede eliminar las religiones no oficiales y sus edificios asociados</Spanish>
-		<Polish>[ICON_BULLET]Potrafi usuwać niepaństwowe religie wraz z jej budynkami.</Polish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_GODS_UNIT_INQUISITOR_PEDIA</Tag>
 		<English>While Missionaries often focus on extolling the glories of their respective gods to spread their religion, the Inquisitor focuses instead on pointing out the fallacies of all religions but his own. Ardent in the belief that all other religions are wrong, the Inquisitor lives to destroy the beliefs of others. If the inquisition convicted a person of heresy, the persoanl property of a condemned person was confiscated and places of worship were destroyed; based on medieval and feudal laws. Usually the confiscated property was divided three ways: by the Inquisition members, the church officials, and the state treasury. The Church and state kept strict accounts of the prisoner's incarceration, trial and execution costs. If the value of his confiscated property was not enough to cover these costs, then his heirs had to pay the difference. Records show many women and children were left penniless from such confiscation.  You may expend an Inquisitor inside a city to remove all religions from that city except your own.</English>
 		<French>Les missionnaires se contentent souvent de glorifier leurs dieux respectifs pour propager leur religion, alors que l'inquisiteur s'efforce de démontrer les aberrations de toutes les autres religions. Convaincu que toutes les autres religions sont dans l'erreur, l'inquisiteur vit pour détruire les croyances des autres. Vous pouvez envoyer un inquisiteur dans une ville pour l'expurger de toutes les religions sauf la vôtre.</French>
