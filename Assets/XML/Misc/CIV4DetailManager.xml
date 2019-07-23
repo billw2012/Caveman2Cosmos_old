@@ -62,9 +62,10 @@
 		<Name>CITYBILLBOARD_SCALE</Name>
 		<!-- changes the size of the billboards based on the camera distance -->
 		<Key>600, 3</Key>
-		<Key>2000, 2</Key>
-		<Key>6000, 1</Key>
-		<Key>15000, .4</Key>
+		<Key>1800, 2</Key>
+		<Key>5000, 1.2</Key>
+		<Key>8000, .8</Key>
+		<Key>15000, .5</Key>
 		<Key>%CAMERA_MAX_DISTANCE, 0</Key>
 	</Fader>
 	<Fader>
