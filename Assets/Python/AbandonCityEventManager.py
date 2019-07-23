@@ -1,290 +1,410 @@
-##-------------------------------------------------------------------
-## Modified from Abandon Raze City by unknown, Bhruic, Nemo, OrionVetran
-##  by Dancing Hoskuld with a great deal of help from EmperorFool and Zappara
-##  to work in, with and under BUG
-##-------------------------------------------------------------------
-##
-## Things that could be done to improve this mod making it interact with the main mod in a more generic fashon.
-## 1. replace the English language stuff with the correct language translations in the text file.
-##-------------------------------------------------------------------
-##
-## To get this working in any mod you need to
-## 1. put 	<load mod="Abandon City Mod"/>	in the init.xml in the Python/Config directory
-##
-## Modders:- If you want any special events when a city is abandoned add them to your OnCityRazed event.
-##		This mod calls that event.
-##  In RoM Holy Shrines are not world wonders a fix to reflect this is in the code it should have no effect
-##    on other mods but the test can be commented out if needs be.
-##
-##-------------------------------------------------------------------
-##
-## Changes
-##  April 2009
-##	A moders section of this code now allows a single place for the setting of the "parameters"
-##	 - produce just workers or settlers and workers
-##	 - produce 1 worker for every X popuation in the city
-##	 - produce 1 settler fo every X population in the city with 1 worker for every Y in the remainder
-##   Sell buildings rather than demolish them.  Thanks Zappara
-##   Unhappiness from selling religious buildings +1 unhappy for x turns.  Where x depends on game speed.
-##   Can not abandon last city.
-##   Can not sell free buildings however they need to appear in the list for this program to work.
-##
-##   Note. If you only have one city and it has no buildings then Ctrl-A will appear not to work.  This was
-##   done to to stop a CDT which could be caused otherwise.  Besides there is nothing to sell and you can't
-##   abandon your only city.
-##   - I had made a typo in the check for this - it is now fixed - thanks Zappara
-##
-## Late April 2009
-##  Civ specific unique units for workers and settlers are now produced when appropriate. - thanks Zappara
-##  Percentage of building production cost is now in the parameter section so modders can change it
-##    currently set at the Rise of mankind default of 20%.  Popup header text now reflects this percentage.
-##  More of the text supports language even if I have not put the language stuff there yet.
-##  Fixed to support modular buildings. - thanks Zappara
-##
-## September 2009
-## 	Minor coding changes to make the code cleaner.
-##		Includes removing excess coments, define globals once, and put parameter for obsolete reduction.
-##	Stopped putting free buildings in the list.  
-##		The way the popup works is it puts the items in the list in the order supplied (text and index).
-##		It displays (text) and returns (index) for the selected item.
-##
-##-------------------------------------------------------------------
-##
-## Potential changes
-## 1. has an .ini file (AbandonCity.INI) to hold parameters
-##	 - mod is active/inactive
-##     - only abandon city (no selling of buildings)
-##
-## 2. buildings in albhabetical order in the list.
-##	
-##
-## ------------------------------------------
-## Decided not to generate upgraded settler units as these could then be settled and the free buildings sold off.
-##	- obsolete decision now that selling free buildings gives no money.
-##	- further obsolete since now we do not present free buildings to be sold :)
-##
-## Decided to have the population parameters in the code for modders rather than letting the player change them ad hoc.
-##
-## Decided that you can sell obsolete buildings.  Just because they are obsolete does not mean that they are not having an effect.
-
-
-
+#------------------------------------------------------------------------
+# Can't abandon last city without the "Require Complete Kill" gameoption.
+#------------------------------------------------------------------------
 from CvPythonExtensions import *
-import CvUtil
-import CvEventInterface
-import Popup as PyPopup
-import BugCore
-import BugUtil
-import SdToolKit
-import string
-
-# BUG - Mac Support - start
-BugUtil.fixSets(globals())
-# BUG - Mac Support - end
+from operator import itemgetter
+import CvScreensInterface
 
 # globals
+CD = None
 
-SD_MOD_ID = "AbandonCity"
+# Entry point
+def onHotKeyStart(argsList):
+	import CvScreenEnums
+	screen = CyGInterfaceScreen("MainInterface", CvScreenEnums.MAIN_INTERFACE)
+	xRes = screen.getXResolution()
+	yRes = screen.getYResolution()
+	startCityDemolish(screen, xRes, yRes)
 
-ABANDON_CITY_DEMOLISH_BUILDING_EVENT_ID = CvUtil.getNewEventID("AbandonCity.Active")
-
-gc = CyGlobalContext()
-localText = CyTranslator()
-
-#AbandonCityOpt = BugCore.game.AbandonCity
-g_modEventManager = None
-g_eventMgr = None
-
-# parameters for modders.
-bSettlersAndWorkers = True	# True means settlers and workers. False for just workers.
-iPopulationForSettlers = 10	# If producing settlers then produce 1 per each full city population of iPopulationForSettlers
-iPopulationForWorkers = 3	# produce 1 per each full city population of iPopulationForWorkers. This is left over population after producing settlers.
-g_CostFraction = 0.14		# Percentage of building cost converted to money.
-g_ReductionForObsolete = 2	# Amount the gold being returned is divided by if the building is obsolete.
-
-def onStartAbandonCity(argsList):
-	g_modEventManager.onStartAbandonCity(argsList)
-
-class AbandonCityEventManager:
-	def __init__(self, eventManager):
-		eventManager.addEventHandler("StartAbandonCity", self.onStartAbandonCity)
-		eventManager.addEventHandler("ModNetMessage", self.onModNetMessage)
-
-		global g_modEventManager
-		g_modEventManager = self
-
-		global g_eventMgr
-		g_eventMgr = eventManager
-		self.eventManager = eventManager
-
-		eventManager.setPopupHandler(ABANDON_CITY_DEMOLISH_BUILDING_EVENT_ID, ("AbandonCity.Active", self.__eventAbandonCityDestroyBuildingApply, self.__eventAbandonCityDestroyBuildingBegin))
-
-	def onModNetMessage(self, argsList):
-		protocol, data1, data2, data3, data4 = argsList
-		if protocol == 900:
-			pPlayer = gc.getPlayer(data4)
-			pCity = pPlayer.getCity(data1)
-			iX = pCity.getX()
-			iY = pCity.getY()
-			pPlayer.initUnit(data2, iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.NO_DIRECTION)
-		elif protocol == 901:
-			pPlayer = gc.getPlayer(data4)
-			pCity = pPlayer.getCity(data1)
-			pCity.kill()
-		elif protocol == 902:
-			pPlayer = gc.getPlayer(data4)
-			pCity = pPlayer.getCity(data1)
-			pCity.setNumRealBuilding(data2, 0)
-			pPlayer.changeGold(data3)
-			CyInterface().setDirty(InterfaceDirtyBits.CityScreen_DIRTY_BIT, True)
-			CyInterface().setDirty(InterfaceDirtyBits.SelectionButtons_DIRTY_BIT, True)
-			if (gc.getBuildingInfo(data2).getReligionType() >= 0):
-				pCity.changeHurryAngerTimer(pCity.flatHurryAngerLength())
-				if (not gc.getGame().isOption(GameOptionTypes.GAMEOPTION_NO_REVOLUTION)):
-					pCity.changeRevolutionIndex(100)
-
-	def onStartAbandonCity(self, argsList):
-		# Have keypress from handler - return 1 if the event was consumed
+def startCityDemolish(screen, xRes, yRes):
+	if CyInterface().isCityScreenUp():
+		GC = CyGlobalContext()
+		GAME = GC.getGame()
 		# Get the player details and game options.
+		CyCity = CyInterface().getHeadSelectedCity()
+		iPlayer = CyCity.getOwner()
+		if iPlayer == GAME.getActivePlayer():
+			global CD
+			CD = CityDemolish()
+			CD.iPlayer = iPlayer
+			CD.CyPlayer = CyPlayer = GC.getPlayer(iPlayer)
+			CD.CyCity = CyCity
+			if GAME.isOption(GameOptionTypes.GAMEOPTION_NO_CITY_RAZING):
+				CD.bAbandonCity = False
+			elif not GAME.isOption(GameOptionTypes.GAMEOPTION_COMPLETE_KILLS) and CyPlayer.getNumCities() < 2:
+				CD.bAbandonCity = False
+			else:
+				CD.bAbandonCity = True
+			CD.iconUnhappy = u'%c' % GAME.getSymbolID(FontSymbols.UNHAPPY_CHAR)
+			CD.CvGameSpeedInfo = GC.getGameSpeedInfo(GAME.getGameSpeedType())
+			CD.createPopup(screen, xRes, yRes)
 
-		if CyInterface().isCityScreenUp():
-			pHeadSelectedCity = CyInterface().getHeadSelectedCity()
-			iOwner = pHeadSelectedCity.getOwner()
-			if iOwner == gc.getGame().getActivePlayer():
-				pPlayer = gc.getPlayer(iOwner)
-				## if player only has one city and that city has no buildings then do not display popup as it can cause a CDT
-				if not pHeadSelectedCity.getNumBuildings() and pPlayer.getNumCities() == 1:
-					return 0
-				g_eventMgr.beginEvent(ABANDON_CITY_DEMOLISH_BUILDING_EVENT_ID)
-				return 1
-		return 0
+class CityDemolish:
+	def __init__(self):
+		GC = CyGlobalContext()
+		self.iSelected = None
+		self.bListHidden = False
+		self.updateTooltip = CvScreensInterface.mainInterface.updateTooltip
+		self.iconGold = u'%c' %GC.getCommerceInfo(CommerceTypes.COMMERCE_GOLD).getChar()
+		self.iAbandonTrigger = GC.getNumBuildingInfos()
 
-
-	def __eventAbandonCityDestroyBuildingBegin(self, argsList):
+	def createPopup(self, screen, xRes, yRes):
+		GC = CyGlobalContext()
 		# Get player and city details. Set up headings etc.
 		# Display appropriate dialogue.
-		pHeadSelectedCity = CyInterface().getHeadSelectedCity()
-		pPlayer = gc.getPlayer(pHeadSelectedCity.getOwner())
-
-		szheader = BugUtil.getPlainText("TXT_KEY_ABANDON_CITY_HEADER1")
-		szheader += " " + u"%d" %(g_CostFraction * 100) + BugUtil.getPlainText("TXT_KEY_ABANDON_CITY_HEADER2")
-
-		abandoncity = BugUtil.getPlainText("TXT_KEY_ABANDON_CITY")
-		ok = BugUtil.getPlainText("TXT_KEY_MAIN_MENU_OK")
-		cancel = BugUtil.getPlainText("TXT_KEY_POPUP_CANCEL")
-		popup = PyPopup.PyPopup(ABANDON_CITY_DEMOLISH_BUILDING_EVENT_ID, EventContextTypes.EVENTCONTEXT_ALL)
-		popup.setHeaderString(szheader)
-		popup.createPullDown()
-
-		# find out what the gamespeed building cost modifier is
-		# and adjust construct modifier also with building production percent game define
-		fConstructModifier = gc.getDefineINT("BUILDING_PRODUCTION_PERCENT")/100.0
-		fConstructModifier *= gc.getGameSpeedInfo(gc.getGame().getGameSpeedType()).getConstructPercent()/100.0
-		fConstructModifier *= gc.getHandicapInfo(pPlayer.getHandicapType()).getConstructPercent()/100.0
-		fConstructModifier *= gc.getEraInfo(pPlayer.getCurrentEra()).getConstructPercent()/100.0
-		self.fConstructModifier = fConstructModifier
-
-		#Find out how many valid buildings exist
-		iNumValidBuildings = 0
-		for iBuilding in range(gc.getNumBuildingClassInfos()):
-			iType = gc.getBuildingClassInfo(iBuilding).getDefaultBuildingIndex()
-			if (iType > -1 and pHeadSelectedCity.getNumRealBuilding(iType) > 0 and not isLimitedWonderClass(gc.getBuildingInfo(iType).getBuildingClassType()) and not gc.getBuildingInfo(iType).getGlobalReligionCommerce() > 0):
+		if xRes > 1700:
+			aFontList = aFontList = ["<font=4b>", "<font=3b>", "<font=2b>"]
+			uFont = "<font=3b>"
+			iconSize = 28
+		elif xRes > 1400:
+			aFontList = aFontList = ["<font=4>", "<font=3>", "<font=2>"]
+			uFont = "<font=2b>"
+			iconSize = 24
+		else:
+			aFontList = aFontList = ["<font=3b>", "<font=2b>", "<font=1b>"]
+			uFont = "<font=1b>"
+			iconSize = 20
+		TRNSLTR = CyTranslator()
+		szText  = aFontList[0] + TRNSLTR.getText("TXT_KEY_ABANDON_CITY_HEADER1", ()) + '</font>\n\n'
+		szText += aFontList[1] + TRNSLTR.getText("TXT_KEY_ABANDON_CITY_HEADER2", ()) + '</font>\n\n'
+		szText += aFontList[2] + TRNSLTR.getText("TXT_KEY_ABANDON_CITY_HEADER3", ())
+		iWidGen		= WidgetTypes.WIDGET_GENERAL
+		iPanelMain	= PanelStyles.PANEL_STYLE_MAIN
+		PRE = "CityDemolish|"
+		name = PRE + "Bkgr"
+		screen.addPanel(name, "", "", False, False, -8, -8, xRes + 16, yRes + 16, PanelStyles.PANEL_STYLE_MAIN_BLACK50)
+		screen.setImageButton(PRE + "Exit0", "", 0, 0, xRes, yRes, iWidGen, 0, 0)
+		dx = xRes / 3
+		dy = 300
+		xStart = xRes - dx * 2
+		self.xListTooltip = xStart - 30
+		y = (yRes - dy)/2
+		screen.addPanel(PRE + "Main", "", "", False, False, xStart, y, dx, dy, iPanelMain)
+		x = xStart + 8
+		y += 8
+		screen.addMultilineText(PRE + "Text", szText, x, y, dx - 12, 194, iWidGen, 0, 0, 1<<0)
+		xMid = xRes / 2
+		iBtnStd = ButtonStyles.BUTTON_STYLE_STANDARD
+		y += 202
+		dx -= 16
+		self.xywBtn0 = [x, y, dx]
+		screen.setButtonGFC(PRE + "Btn0", "****", "", x, y, dx, 32, iWidGen, 0, 0, iBtnStd)
+		y += 40
+		szText = TRNSLTR.getText("TXT_KEY_MAIN_MENU_OK", ())
+		name = PRE + "Btn1"
+		screen.setButtonGFC(name, szText, "", x, y, dx, 32, iWidGen, 0, 0, iBtnStd)
+		screen.hide(name)
+		szText = TRNSLTR.getText("TXT_KEY_POPUP_CANCEL", ())
+		screen.setButtonGFC(PRE + "Exit1", szText, "", x, y, dx, 32, iWidGen, 0, 0, iBtnStd)
+		screen.addPanel(PRE + "ListBkgr", "", "", False, False, 40, 24, xStart - 60, yRes - 48, iPanelMain)
+		name = PRE + "List"
+		screen.addScrollPanel(name, "", 40, 32, xStart - 60, yRes - 100, iPanelMain)
+		screen.setStyle(name, "ScrollPanel_Alt_Style")
+		# Set the cost modifier scaled by era and gamespeed.
+		iconGold = self.iconGold
+		fGoldMod = 0.09
+		fGoldMod *= GC.getDefineINT("BUILDING_PRODUCTION_PERCENT") / 100.0
+		fFactorGS = self.CvGameSpeedInfo.getConstructPercent() / 100.0
+		fGoldMod *= fFactorGS
+		self.fGoldMod = fGoldMod
+		# Build List
+		CyCity = self.CyCity
+		CyTeam = GC.getTeam(self.CyPlayer.getTeam())
+		aList = []
+		iSum = 0
+		for iType in xrange(GC.getNumBuildingInfos()):
+			if CyCity.getNumRealBuilding(iType) and not CyTeam.isObsoleteBuilding(iType):
+				CvBuildingInfo = GC.getBuildingInfo(iType)
 				# Only put non-free buildings in the list
-				if (not pPlayer.isBuildingFree(iType) and gc.getBuildingInfo(iType).getProductionCost() != -1 and not gc.getBuildingInfo(iType).isAutoBuild() ):
-					iNumValidBuildings += 1
-		#create the list
-		buildingList = [(0,0)] * iNumValidBuildings
-		i = 0
-		for iBuilding in range(gc.getNumBuildingClassInfos()):
-			iType = gc.getBuildingClassInfo(iBuilding).getDefaultBuildingIndex()
-			# RoM 2.7 added check for Holy Shrines so that player can't demolish them, those aren't Great Wonders in RoM
-			if (iType > -1 and pHeadSelectedCity.getNumRealBuilding(iType) > 0 and not isLimitedWonderClass(gc.getBuildingInfo(iType).getBuildingClassType()) and not gc.getBuildingInfo(iType).getGlobalReligionCommerce() > 0):
-				# Only put non-free buildings in the list
-				if (not pPlayer.isBuildingFree(iType) and gc.getBuildingInfo(iType).getProductionCost() != -1  and not gc.getBuildingInfo(iType).isAutoBuild()):
-					buildingList[i] = (gc.getBuildingInfo(iType).getDescription(), iType)
-					i += 1
-		#sort alphabetically
-		buildingList.sort()
+				iGold = CvBuildingInfo.getProductionCost()
+				if iGold < 1 or CvBuildingInfo.isAutoBuild():
+					continue
+				# Unique buildings are protected.
+				if CvBuildingInfo.isCapital() or CvBuildingInfo.getGlobalReligionCommerce() > 0:
+					continue
+				iBuildingClass = CvBuildingInfo.getBuildingClassType()
+				if isWorldWonderClass(iBuildingClass) or isTeamWonderClass(iBuildingClass):
+					continue
+				iGold = int(iGold * fGoldMod)
+				aList.append((CvBuildingInfo.getDescription(), CvBuildingInfo.getButton(), iType, iGold))
+				iSum += iGold
+		self.iSum = iSum
+		# Abandon City cost.
+		iFontGame = FontTypes.GAME_FONT
+		x = y = 8
+		dy = iconSize + 2
+		screen.setTextAt(name + "Top0", name, "****", 1<<0, x, y, 0, iFontGame, iWidGen, 0, 0)
+		if self.bAbandonCity:
+			y += dy
+			self.iAbandonGold = iGold = int(iSum - CyCity.getPopulation() * 13.37 * fFactorGS * (self.CyPlayer.getCurrentEra() + 1)**2)
+			szAbandon = uFont + TRNSLTR.getText("TXT_KEY_ABANDON_CITY", ())
+			if iGold:
+				if iGold < 0:
+					szClr = "<color=197,0,0>"
+				elif iGold > 0:
+					szClr = ""
+				szAbandon += " (" + szClr + str(iGold) + "</color> " + iconGold + ")"
+			self.szAbandon = szAbandon
+			screen.setTextAt(name + "Top1", name, szAbandon, 1<<0, x, y, 0, iFontGame, iWidGen, 0, 0)
+		# Populate list box with valid buildings
+		if aList:
+			aList.sort(key=itemgetter(0))
+			iconUnhappy = self.iconUnhappy
+			aNameList = []
+			for i, entry in enumerate(aList):
+				szText, szBtn, iType, iGold = entry
+				szBtn = '<img=%s size=%d></img>' %(szBtn, iconSize)
+				# Build up text to display in the list box
+				if iGold:
+					if iGold < 0:
+						szClr = "<color=197,0,0>"
+					elif iGold > 0:
+						szClr = ""
+					szText += " (" + szClr + str(iGold) + "</color> " + iconGold
+				if GC.getBuildingInfo(iType).getReligionType() >= 0:
+					if iGold:
+						szText += ","
+					else:
+						szText += " ("
+					szText += " 1" + iconUnhappy + ")"
+				elif iGold:
+					szText += ")"
+				aNameList.append(szText)
+				y += dy
+				screen.setTextAt(name + "Btn" + str(iType), name, szBtn, 1<<0, x, y, 0, iFontGame, iWidGen, i, 0)
+				screen.setTextAt(name + str(iType), name, uFont + szText, 1<<0, x + iconSize + 2, y, 0, iFontGame, iWidGen, i, 0)
+			self.aList = aNameList
 
-		# Populate list box with non-free buildings
-		CyTeam = gc.getTeam(pPlayer.getTeam())
-		for item in buildingList:
-			iType = item[1]
-			# Figure out the gold to be paid for the building.
-			# Note that this code is repeated when the building is actually sold.
-			iGoldBack = int(gc.getBuildingInfo(iType).getProductionCost() * fConstructModifier * g_CostFraction)
 
-			# If building is obsolete, give only half sum back
-			obsoleteTech = gc.getBuildingInfo(iType).getObsoleteTech()
-			if CyTeam.isHasTech(obsoleteTech):
-				iGoldBack = int(iGoldBack/g_ReductionForObsolete)
+	def doIt(self, iSelected):
+		GC = CyGlobalContext()
+		iPlayer = self.iPlayer
+		CyPlayer = self.CyPlayer
+		CyCity = self.CyCity
+		iCity = CyCity.getID()
+		if iSelected == -1:
+			X = CyCity.getX()
+			Y = CyCity.getY()
 
-			# Build up text to display in the list box
-			szBuilding = gc.getBuildingInfo(iType).getDescription()
-			szBuilding += " (" + u"%d " %(iGoldBack) + localText.getText("TXT_KEY_COMMERCE_GOLD", ())
-			# Add unhappiness text here
-			if gc.getBuildingInfo(iType).getReligionType() >= 0 : # religious building
-				szBuilding += ", " + localText.getText("TXT_KEY_ABANDON_UNHAPPINESS", ()) #+  u"%c" % CyGame().getSymbolID(FontSymbols.UNHAPPY_CHAR)
-			szBuilding += ")"
+			# Judge
+			UNIT = GC.getInfoTypeForString("UNIT_JUDGE")
+			iBuilding = GC.getInfoTypeForString("BUILDING_COURTHOUSE")
+			if UNIT > -1 and iBuilding > -1 and CyCity.getNumBuilding(iBuilding):
+				CyMessageControl().sendModNetMessage(905, iPlayer, iCity, -1, UNIT)
 
-			popup.addPullDownString(szBuilding, iType)
+			# Tribal Guardian
+			iExp = -1
+			UNIT = GC.getInfoTypeForString("UNIT_TRIBAL_GUARDIAN")
+			if UNIT > -1:
+				# Remove Tribal Guardian
+				CyPlot = CyCity.plot()
+				for i in xrange(CyPlot.getNumUnits() - 1, -1, -1):
+					CyUnit = CyPlot.getUnit(i)
+					if CyUnit.getUnitType() == UNIT:
+						iExp = CyUnit.getExperience()
+						CyMessageControl().sendModNetMessage(902, iPlayer, CyUnit.getID(), 0, 0)
+						break
 
-		# Only allow abandonment of city if there is more than one city
-		if pPlayer.getNumCities() > 1 :
-			popup.addPullDownString(abandoncity, gc.getNumBuildingInfos())
+			# Settler
+			CyTeam = GC.getTeam(CyPlayer.getTeam())
+			NUM_UNIT_AND_TECH_PREREQS = GC.getDefineINT("NUM_UNIT_AND_TECH_PREREQS")
+			NUM_UNIT_PREREQ_OR_BONUSES = GC.getNUM_UNIT_PREREQ_OR_BONUSES()
+			aSettlerList = [
+				GC.getInfoTypeForString("UNIT_SPACESETTLER"),
+				GC.getInfoTypeForString("UNIT_AIRSETTLER"),
+				GC.getInfoTypeForString("UNIT_PIONEER"),
+				GC.getInfoTypeForString("UNIT_COLONIST"),
+				GC.getInfoTypeForString("UNIT_SETTLER"),
+				GC.getInfoTypeForString("UNIT_TRIBE"),
+				GC.getInfoTypeForString("UNIT_BAND")
+			]
+			for iUnit in aSettlerList:
+				if iUnit < 0: continue
+				bContinue = False
+				CvUnitInfo = GC.getUnitInfo(iUnit)
+				# Tech Prereq
+				iTech = CvUnitInfo.getPrereqAndTech()
+				if iTech > -1 and not CyTeam.isHasTech(iTech):
+					continue
+				for i in range(NUM_UNIT_AND_TECH_PREREQS):
+					iTech = CvUnitInfo.getPrereqAndTechs(i)
+					if iTech > -1 and not CyTeam.isHasTech(iTech):
+						bContinue = True
+						break
+				if bContinue: continue
+				# Building Prereq
+				iBuilding = CvUnitInfo.getPrereqBuilding()
+				if iBuilding > -1 and not CyCity.getNumBuilding(iBuilding):
+					continue
+				# Bonus Prereq
+				iBonus = CvUnitInfo.getPrereqAndBonus()
+				if iBonus > -1 and not CyCity.getNumBonuses(iBonus):
+					continue
+				for i in range(NUM_UNIT_PREREQ_OR_BONUSES):
+					iBonus = CvUnitInfo.getPrereqOrBonuses(i)
+					if iBonus > -1 and not CyCity.getNumBonuses(iBonus):
+						bContinue = True
+						break
+				if bContinue: continue
+				# Found Valid Settler
+				CyMessageControl().sendModNetMessage(906, iPlayer, iCity, iExp, iUnit)
+				break
 
-		popup.addButton(ok)
-		popup.addButton(cancel)
-		popup.launch(False, PopupStates.POPUPSTATE_IMMEDIATE)
-		return
+			# Merchants
+			fModifierGS = self.CvGameSpeedInfo.getTrainPercent() / 100.0
+			aMerchantList = [
+				GC.getInfoTypeForString("UNIT_FREIGHT"),
+				GC.getInfoTypeForString("UNIT_SUPPLY_TRAIN"),
+				GC.getInfoTypeForString("UNIT_TRADE_CARAVAN"),
+				GC.getInfoTypeForString("UNIT_EARLY_MERCHANT_C2C")
+			]
+			for iUnit in aMerchantList:
+				if iUnit < 0: continue
+				bContinue = False
+				CvUnitInfo = GC.getUnitInfo(iUnit)
+				# Tech Prereq
+				iTech = CvUnitInfo.getPrereqAndTech()
+				if iTech > -1 and not CyTeam.isHasTech(iTech):
+					continue
+				for i in range(NUM_UNIT_AND_TECH_PREREQS):
+					iTech = CvUnitInfo.getPrereqAndTechs(i)
+					if iTech > -1 and not CyTeam.isHasTech(iTech):
+						bContinue = True
+						break
+				if bContinue: continue
+				# Found Valid Merchant
+				fCost = CvUnitInfo.getProductionCost() * fModifierGS
+				if fCost < 1: break
+				iNum = int(self.iSum / fCost)
+				for i in xrange(iNum):
+					CyMessageControl().sendModNetMessage(905, iPlayer, iCity, -1, iUnit)
+				break
 
-	def __eventAbandonCityDestroyBuildingApply(self, playerID, userData, popupReturn):
-		pPlayer = gc.getPlayer(playerID)
-		CyTeam = gc.getTeam(pPlayer.getTeam())
-		pHeadSelectedCity = CyInterface().getHeadSelectedCity()
+			aMerchantList = [
+				GC.getInfoTypeForString("UNIT_FOOD_FREIGHT"),
+				GC.getInfoTypeForString("UNIT_FOOD_SUPPLY_TRAIN"),
+				GC.getInfoTypeForString("UNIT_FOOD_CARAVAN"),
+				GC.getInfoTypeForString("UNIT_EARLY_FOOD_MERCHANT_C2C")
+			]
+			for iUnit in aMerchantList:
+				if iUnit < 0: continue
+				bContinue = False
+				CvUnitInfo = GC.getUnitInfo(iUnit)
+				# Tech Prereq
+				iTech = CvUnitInfo.getPrereqAndTech()
+				if iTech > -1 and not CyTeam.isHasTech(iTech):
+					continue
+				for i in range(NUM_UNIT_AND_TECH_PREREQS):
+					iTech = CvUnitInfo.getPrereqAndTechs(i)
+					if iTech > -1 and not CyTeam.isHasTech(iTech):
+						bContinue = True
+						break
+				if bContinue: continue
+				# Found Valid Merchant
+				fCost = CvUnitInfo.getProductionCost() * fModifierGS
+				iNum = int(CyCity.getFood() / fCost)
+				for i in xrange(iNum):
+					CyMessageControl().sendModNetMessage(905, iPlayer, iCity, -1, iUnit)
+				break
 
-		if not popupReturn.getButtonClicked():
-			if popupReturn.getSelectedPullDownValue(0) == gc.getNumBuildingInfos():
-				ix = pHeadSelectedCity.getX()
-				iy = pHeadSelectedCity.getY()
-				iPopulation = pHeadSelectedCity.getPopulation()
+			# Population-Units
+			iPopulation = CyCity.getPopulation() - 1
+			if iPopulation:
+				UNIT = GC.getInfoTypeForString("UNIT_CAPTIVE_CIVILIAN")
+				if UNIT > 0:
+					iPopulationPlayer = CyCity.findHighestCulture()
+					if iPopulationPlayer != iPlayer:
+						iCulturePercent = CyCity.calculateCulturePercent(iPopulationPlayer)
+						iCaptives = iCulturePercent * iPopulation / 100
+						iPopulation -= iCaptives
+						for i in xrange(iCaptives):
+							CyMessageControl().sendModNetMessage(905, iPlayer, iCity, -1, UNIT)
+						# Attitude Penalty
+						CyMessageControl().sendModNetMessage(901, iPlayer, iPopulationPlayer, 1, 1)
+				UNIT = GC.getInfoTypeForString("UNIT_IMMIGRANT")
+				if UNIT > 0:
+					for i in xrange(iPopulation):
+						CyMessageControl().sendModNetMessage(905, iPlayer, iCity, -1, UNIT)
+			if CyCity.isHolyCity():
+				for iReligion in xrange(GC.getNumReligionInfos()):
+					if CyCity.isHolyCityByType(iReligion):
+						for iOtherPlayer in xrange(GC.getMAX_PC_PLAYERS()):
+							if iOtherPlayer == iPlayer: continue
+							CyPlayer = GC.getPlayer(iOtherPlayer)
+							if CyPlayer.isAlive() and CyPlayer.getStateReligion() == iReligion:
+								CyMessageControl().sendModNetMessage(901, iPlayer, iOtherPlayer, 0, 1)
+			# Abandon the City
+			CyMessageControl().sendModNetMessage(904, iPlayer, iCity, 0, self.iAbandonGold)
+			CyAudioGame().Play2DSound("AS2D_DISCOVERBONUS")
+		else: # Sell Building
+			CvBuildingInfo = GC.getBuildingInfo(iSelected)
+			iGold = int(CvBuildingInfo.getProductionCost() * self.fGoldMod)
+			CyMessageControl().sendModNetMessage(903, iPlayer, iCity, iSelected, iGold)
+			CyAudioGame().Play2DSound("AS2D_DISCOVERBONUS")
 
-				# Generate the units
-				iWorker = gc.getInfoTypeForString("UNIT_GATHERER")
-				iSettler = gc.getInfoTypeForString("UNIT_TRIBE")
-				if CyTeam.isHasTech(gc.getInfoTypeForString("TECH_SEDENTARY_LIFESTYLE")):
-					iWorker = gc.getInfoTypeForString("UNIT_WORKER")
-					iSettler = gc.getInfoTypeForString("UNIT_SETTLER")
-
-				iUniqueWorkerUnit = iWorker
-				iUniqueSettlerUnit = iSettler
-
-				# if settlers and workers
-				if bSettlersAndWorkers:
-					isettlers = iPopulation/iPopulationForSettlers
-					iworkers = (iPopulation - iPopulationForSettlers * isettlers)/iPopulationForWorkers
+	def handleInput(self, screen, szSplit, iNotifyCode, szFlag, ID, iData1):
+		print "ACEM - handleInput"
+		if iNotifyCode == NotifyCode.NOTIFY_CURSOR_MOVE_ON:
+			if szSplit[0] in ("List", "ListBtn"):
+				szText = CyGameTextMgr().getBuildingHelp(ID, False, False, False, self.CyCity, True)
+				self.updateTooltip(screen, szText, self.xListTooltip)
+		elif iNotifyCode == NotifyCode.NOTIFY_CLICKED:
+			if szSplit[0] == "Exit":
+				exitCityDemolish(screen)
+				return
+			if szSplit[0] == "Btn":
+				if not ID:
+					if szFlag == "MOUSE_RBUTTONUP" and iData1:
+						x, y, w = self.xywBtn0
+						screen.setButtonGFC("CityDemolish|Btn0", "****", "", x, y, w, 30, WidgetTypes.WIDGET_GENERAL, 0, 0, ButtonStyles.BUTTON_STYLE_STANDARD)
+						self.iSelected = None
+					elif self.bListHidden:
+						screen.show("CityDemolish|List")
+						screen.show("CityDemolish|ListBkgr")
+						self.bListHidden = False
+					else:
+						screen.hide("CityDemolish|List")
+						screen.hide("CityDemolish|ListBkgr")
+						self.bListHidden = True
+				elif ID == 1 and szFlag == "MOUSE_LBUTTONUP":
+					iSelected = self.iSelected
+					if iSelected != None:
+						self.doIt(iSelected)
+					exitCityDemolish(screen)
+			elif szSplit[0] == "ListTop":
+				x, y, w = self.xywBtn0
+				if ID:
+					screen.setButtonGFC("CityDemolish|Btn0", self.szAbandon, "", x, y, w, 30, WidgetTypes.WIDGET_GENERAL, 1, 0, ButtonStyles.BUTTON_STYLE_STANDARD)
+					self.iSelected = -1
 				else:
-					isettlers = 0
-					iworkers = iPopulation/iPopulationForWorkers
-
-				for i in range(0,iworkers):
-					CyMessageControl().sendModNetMessage(900, pHeadSelectedCity.getID(), iUniqueWorkerUnit, 0, playerID)
-				for i in range(0,isettlers):
-					CyMessageControl().sendModNetMessage(900, pHeadSelectedCity.getID(), iUniqueSettlerUnit, 0, playerID)
-
-				# Abandon the City
-				CyMessageControl().sendModNetMessage(901, pHeadSelectedCity.getID(), 0, 0, playerID)
-				CyAudioGame().Play2DSound("AS2D_DISCOVERBONUS")
-
+					screen.hide("CityDemolish|List")
+					self.bListHidden = True
+					screen.setButtonGFC("CityDemolish|Btn0", "****", "", x, y, w, 30, WidgetTypes.WIDGET_GENERAL, 0, 0, ButtonStyles.BUTTON_STYLE_STANDARD)
+					self.iSelected = None
+			elif szSplit[0] in ("List", "ListBtn"):
+				if szFlag == "MOUSE_RBUTTONUP":
+					CvScreensInterface.pediaJumpToBuilding([ID])
+				else:
+					x, y, w = self.xywBtn0
+					screen.setButtonGFC("CityDemolish|Btn0", self.aList[iData1], "", x, y, w, 30, WidgetTypes.WIDGET_GENERAL, 1, 0, ButtonStyles.BUTTON_STYLE_STANDARD)
+					self.iSelected = ID
+			if self.iSelected == None:
+				screen.hide("CityDemolish|Btn1")
+				screen.show("CityDemolish|Exit1")
 			else:
-				iBuildingType = popupReturn.getSelectedPullDownValue(0)
-				civ = gc.getCivilizationInfo(pHeadSelectedCity.getCivilizationType())
-				iType = civ.getCivilizationBuildings(gc.getBuildingInfo(iBuildingType).getBuildingClassType())
+				screen.hide("CityDemolish|Exit1")
+				screen.show("CityDemolish|Btn1")
 
-				iGoldBack = int(gc.getBuildingInfo(iType).getProductionCost() * self.fConstructModifier * g_CostFraction)
-
-				if CyTeam.isHasTech(gc.getBuildingInfo(iType).getObsoleteTech()):
-					iGoldBack = int(iGoldBack/g_ReductionForObsolete)
-
-				CyMessageControl().sendModNetMessage(902, pHeadSelectedCity.getID(), iType, iGoldBack, playerID)
-				CyAudioGame().Play2DSound("AS2D_DISCOVERBONUS")
+def exitCityDemolish(screen):
+	PRE = "CityDemolish|"
+	screen.deleteWidget(PRE + "Bkgr")
+	screen.deleteWidget(PRE + "Exit0")
+	screen.deleteWidget(PRE + "Exit1")
+	screen.deleteWidget(PRE + "Main")
+	screen.deleteWidget(PRE + "Text")
+	screen.deleteWidget(PRE + "Btn0")
+	screen.deleteWidget(PRE + "Btn1")
+	screen.deleteWidget(PRE + "List")
+	screen.deleteWidget(PRE + "ListBkgr")
+	global CD
+	CD = None

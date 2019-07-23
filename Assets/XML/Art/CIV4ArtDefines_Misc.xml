@@ -142,28 +142,28 @@
 		<MiscArtInfo>
 			<Type>ART_UNITGROUP_FLAG_ANCIENT</Type>
 			<Path/>
-			<fScale>0.8</fScale>
+			<fScale>1</fScale>
 			<NIF>Art/Units/Flags/Ancient_Flag.nif</NIF>
 			<KFM>Art/Units/Flags/Ancient_Flag.kfm</KFM>
 		</MiscArtInfo>
 		<MiscArtInfo>
 			<Type>ART_UNITGROUP_FLAG_MEDIEVAL</Type>
 			<Path/>
-			<fScale>0.8</fScale>
+			<fScale>1</fScale>
 			<NIF>Art/Units/Flags/Medieval_Flag.nif</NIF>
 			<KFM>Art/Units/Flags/Medieval_Flag.kfm</KFM>
 		</MiscArtInfo>
 		<MiscArtInfo>
 			<Type>ART_UNITGROUP_FLAG_MODERN</Type>
 			<Path/>
-			<fScale>0.8</fScale>
+			<fScale>1</fScale>
 			<NIF>Art/Units/Flags/Modern_Flag.nif</NIF>
 			<KFM>Art/Units/Flags/Modern_Flag.kfm</KFM>
 		</MiscArtInfo>
 		<MiscArtInfo>
 			<Type>ART_UNITGROUP_FLAG_GLOW</Type>
 			<Path/>
-			<fScale>0.8</fScale>
+			<fScale>1</fScale>
 			<NIF>Art/Units/Flag/BehindFlagGlow.nif</NIF>
 			<KFM/>
 		</MiscArtInfo>
@@ -311,7 +311,7 @@
 		</MiscArtInfo>
 		<MiscArtInfo>
 			<Type>DEFAULT_THEME_NAME</Type>
-			<Path>Resource/Civ4.thm</Path>
+			<Path>Mods/Caveman2Cosmos/Resource/C2C.thm</Path>
 			<fScale>0</fScale>
 			<NIF/>
 			<KFM/>

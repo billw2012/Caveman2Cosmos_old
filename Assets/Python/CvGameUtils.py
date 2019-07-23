@@ -32,6 +32,7 @@ class CvGameUtils:
 		self.iHimejiCastleObsoleteTech = GC.getBuildingInfo(self.iHimejiCastle).getObsoleteTech()
 
 		self.iReplicators = GC.getInfoTypeForString("BONUS_PERSONAL_REPLICATORS")
+		self.iRapidPrototyping = GC.getInfoTypeForString("TECH_RAPID_PROTOTYPING")
 
 	def isVictoryTest(self):
 		if G.getElapsedGameTurns() > 10:
@@ -120,7 +121,18 @@ class CvGameUtils:
 
 	def canBuild(self, argsList):
 		iX, iY, iBuild, iPlayer = argsList
-		return -1	# Returning -1 means ignore; 0 means Build cannot be performed; 1 or greater means it can
+
+		aList = GC.getBuildInfo(iBuild).getType().split("_")
+
+		# Bonus placing builds
+		if aList[1] == "BONUS":
+			iBonus = GC.getInfoTypeForString("BONUS_" + aList[2])
+
+			if GC.getPlayer(iPlayer).getNumAvailableBonuses(iBonus) and GC.getMap().plot(iX, iY).canHaveBonus(iBonus, False):
+				return 1
+			return 0
+
+		return -1	# Returning 0 means "No", 1 or greater means "Yes", and negative numbers means "continue this evaluation on the dll side".
 
 	def cannotFoundCity(self, argsList):
 		iPlayer, iPlotX, iPlotY = argsList
@@ -514,7 +526,7 @@ class CvGameUtils:
 			# I see no reason why python coders would ever need to mess with the core rule that NPC upgrade units for free.
 			return 0
 
-		if CyPlayer.hasBonus(self.iReplicators):
+		if GC.getTeam(CyPlayer.getTeam()).isHasTech(self.iRapidPrototyping) and CyPlayer.hasBonus(self.iReplicators):
 
 			price = self.BASE_UNIT_UPGRADE_COST
 			iHammerDif = CyPlayer.getUnitProductionNeeded(iUnitTypeUpgrade) - CyPlayer.getUnitProductionNeeded(iUnit)

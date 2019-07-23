@@ -3,11 +3,9 @@
 	Rise of Mankind settings
 	by Zappara & Afforess
 -->
-<mod id="RoMSettings" module="RoMEventManager" name="RiseOfMankind" author="Zappara" version="2.91" date="20/03/2010">
+<mod id="RoMSettings" name="RiseOfMankind" author="Zappara" version="2.91" date="20/03/2010">
 
-	<events module="RoMEventManager"/>
 	<events module="ANewDawnSettings"/>
-	<events module="ANewDawnPopups"/>
 
 	<options id="RoMSettings" file="RoMSettings.ini">
 		<section id="ROMResources">
@@ -168,13 +166,12 @@ values="Current Color|Black|Blue|Brown|Cyan|Dark Blue|Dark Cyan|Dark Green|Dark 
 			<option id="StrategicEvents" key="StrategicEvents" type="boolean" default="True" get="isStrategicEvents" set="setStrategicEvents">
 				<change module="ANewDawnSettings" function="changedStrategicEvents"/>
 			</option>
-			<option id="MultipleReligionSpread" key="MultipleReligionSpread" type="boolean" default="False" get="isMultipleReligionSpread" set="setMultipleReligionSpread">
+			<option id="MultipleReligionSpread" key="MultipleReligionSpread" type="boolean" default="True" get="isMultipleReligionSpread" set="setMultipleReligionSpread">
 				<change module="ANewDawnSettings" function="changedMultipleReligionSpread"/>
 			</option>
 			<option id="TerrainDamage" key="TerrainDamage" type="boolean" default="True" get="isTerrainDamage" set="setTerrainDamage">
 				<change module="ANewDawnSettings" function="changedTerrainDamage"/>
 			</option>
-			<option id="HasRunAND" key="HasRunAND" type="boolean" default="False" get="isHasRunAND" set="setHasRunAND"/>
 
 			<option id="AllowTerraforming" key="AllowTerraforming" type="boolean" default="True" get="isAllowTerraforming" set="setAllowTerraforming">
 				<change module="ANewDawnSettings" function="changedAllowTerraforming"/>

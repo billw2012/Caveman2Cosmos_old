@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<Civ4ArtDefines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\Xml\Schema\Caveman2Cosmos.xsd">
-	<MovieArtInfos>
-		<MovieArtInfo>
-			<Type>ART_DEF_MOVIE_CLEOPATRA_NEEDLE</Type>
-			<Path>Art/Movies/Wonders/Cleopatra's Needle.bik</Path>
-		</MovieArtInfo>
-	</MovieArtInfos>
-</Civ4ArtDefines>

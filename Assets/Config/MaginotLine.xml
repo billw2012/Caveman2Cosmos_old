@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
-<!--
-    Tsentom1's python wonders - The Istar Gate
-		Adapted to Maginot Line
--->
-<mod id="MaginotLine" module="MaginotLine">
-  	<event type="buildingBuilt" function="onBuildingBuilt"/>
-</mod>
