@@ -5083,8 +5083,7 @@ class CvMainInterface:
 						dataTT[0] = bCtrl
 						dataTT[1] = bShift
 						dataTT[2] = bAlt
-					return 1
-			return
+			return 0
 
 		elif iCode == 17: # Key Up
 			if iData in (45, 49, 56): # Ctrl, Shift, Alt
@@ -5094,7 +5093,7 @@ class CvMainInterface:
 					dataTT[0] = bCtrl
 					dataTT[1] = bShift
 					dataTT[2] = bAlt
-			return
+			return 0
 
 		szSplit = NAME.split("|")
 		BASE = szSplit[0]
