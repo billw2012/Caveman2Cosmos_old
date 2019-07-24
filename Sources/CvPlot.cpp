@@ -5196,8 +5196,9 @@ int CvPlot::movementCost(const CvUnit* pUnit, const CvPlot* pFromPlot) const
 		else
 		{
 			int iRegularCost;
+			bool bIgnoresTerrainCost = pUnit->ignoreTerrainCost();
 
-			if (pUnit->ignoreTerrainCost())
+			if (bIgnoresTerrainCost)
 			{
 				iRegularCost = 1;
 			}
@@ -5220,11 +5221,11 @@ int CvPlot::movementCost(const CvUnit* pUnit, const CvPlot* pFromPlot) const
 					iRegularCost += GC.getRIVER_EXTRA_MOVEMENT();
 				}
 
-	/************************************************************************************************/
-	/* Afforess	Mountains Start		 09/20/09                                           		 */
-	/*                                                                                              */
-	/*                                                                                              */
-	/************************************************************************************************/
+				/************************************************************************************************/
+				/* Afforess	Mountains Start		 09/20/09                                           		 */
+				/*                                                                                              */
+				/*                                                                                              */
+				/************************************************************************************************/
 				if (isPeak2(true))
 				{
 					if (!GET_TEAM(pUnit->getTeam()).isMoveFastPeaks())
@@ -5236,9 +5237,9 @@ int CvPlot::movementCost(const CvUnit* pUnit, const CvPlot* pFromPlot) const
 						iRegularCost += 1;
 					}
 				}
-	/************************************************************************************************/
-	/* Afforess	Mountains End       END        		                                             */
-	/************************************************************************************************/
+				/************************************************************************************************/
+				/* Afforess	Mountains End       END        		                                             */
+				/************************************************************************************************/
 			}
 
 			if (iRegularCost > 0)
@@ -5253,26 +5254,33 @@ int CvPlot::movementCost(const CvUnit* pUnit, const CvPlot* pFromPlot) const
 
 			FAssert(iRegularCost > 0);
 
+			if (iRegularCost <= 1) //could use == as well but just to be safe...<=
+			{
+				bIgnoresTerrainCost = true;//effectively we have this situation by adjustment means, probably by getExtraMoveDiscount()
+			}
+
 			iRegularCost *= iMoveDenominator;
+			bool bFeatureDoubleMove = ((getFeatureType() != NO_FEATURE && pUnit->isFeatureDoubleMove(getFeatureType())) || (isHills() && pUnit->isHillsDoubleMove()));
+			bool bTerrainDoubleMove = pUnit->isTerrainDoubleMove(getTerrainType());
 
 
-			if ((getFeatureType() != NO_FEATURE && pUnit->isFeatureDoubleMove(getFeatureType())) || (isHills() && pUnit->isHillsDoubleMove()))
+			if (!bIgnoresTerrainCost && bFeatureDoubleMove)
 			{
 				iRegularCost /= 4;
 			}
-			else if (pUnit->isTerrainDoubleMove(getTerrainType()))
+			else if (bTerrainDoubleMove || (bIgnoresTerrainCost && bFeatureDoubleMove))
 			{
 				iRegularCost /= 2;
 			}
 
-			iResult = iRegularCost;
+			iResult = std::max(90, iRegularCost);
 		}
 	}
 
 	FAssert(iResult > 0);
 	iResult = std::max(1, iResult);
 
-	if ( !pUnit->isHuman() )
+	if (!pUnit->isHuman())
 	{
 		MEMORY_TRACK_EXEMPT();
 
@@ -5284,7 +5292,7 @@ int CvPlot::movementCost(const CvUnit* pUnit, const CvPlot* pFromPlot) const
 #ifdef SUPPORT_MULTITHREADED_PATHING
 		LeaveCriticalSection(&m_resultHashAccessSection);
 #endif
-	}
+}
 
 	return iResult;
 }
