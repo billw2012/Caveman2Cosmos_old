@@ -18202,7 +18202,6 @@
 	           </PropertyManipulators>
                     <bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_MALAYAN_TAPIR_MYTH</BuildingClass>
 			<Type>BUILDING_MALAYAN_TAPIR_MYTH</Type>
@@ -18400,7 +18399,6 @@
 	           </PropertyManipulators>
                     <bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_MOUNTAIN_TAPIR_MYTH</BuildingClass>
 			<Type>BUILDING_MOUNTAIN_TAPIR_MYTH</Type>
@@ -18466,7 +18464,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<iMinAreaSize>-1</iMinAreaSize>
-                    <bGraphicalOnly>1</bGraphicalOnly>
+            <bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_MOUNTAIN_TAPIR_STORY</BuildingClass>
@@ -18591,14 +18589,13 @@
 			</Flavors>
 			<PropertyManipulators>
 			     <PropertySource>
-			         <PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
-			         <PropertyType>PROPERTY_EDUCATION</PropertyType>
-			           <iAmountPerTurn>1</iAmountPerTurn>
-			     </PropertySource>
-	           </PropertyManipulators>
-                    <bGraphicalOnly>1</bGraphicalOnly>
-	       </BuildingInfo>
-
+			        <PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
+						<PropertyType>PROPERTY_EDUCATION</PropertyType>
+			            <iAmountPerTurn>1</iAmountPerTurn>
+					</PropertySource>
+	            </PropertyManipulators>
+            <bGraphicalOnly>1</bGraphicalOnly>
+	    </BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_BAIRDS_TAPIR_MYTH</BuildingClass>
 			<Type>BUILDING_BAIRDS_TAPIR_MYTH</Type>
@@ -18796,7 +18793,6 @@
 	           </PropertyManipulators>
                     <bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_BRAZILIAN_TAPIR_MYTH</BuildingClass>
 			<Type>BUILDING_BRAZILIAN_TAPIR_MYTH</Type>
@@ -19188,7 +19184,6 @@
 				</Flavor>
 			</Flavors>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_BAD_BOY_CAGE</BuildingClass>
 			<Type>BUILDING_BAD_BOY_CAGE</Type>
@@ -22725,7 +22720,6 @@
 			</PropertyManipulators>
 			<bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_SIBERIAN_TIGER_MYTH</BuildingClass>
 			<Type>BUILDING_SIBERIAN_TIGER_MYTH</Type>
@@ -24834,7 +24828,6 @@
 			</PropertyManipulators>
 			<bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_SAIGA_MYTH</BuildingClass>
 			<Type>BUILDING_SAIGA_MYTH</Type>
@@ -28560,8 +28553,6 @@
 			</PropertyManipulators>
 			<bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>
-
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_ORCA_MYTH</BuildingClass>
 			<Type>BUILDING_ORCA_MYTH</Type>
