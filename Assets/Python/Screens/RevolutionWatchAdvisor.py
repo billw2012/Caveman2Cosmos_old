@@ -2439,7 +2439,7 @@ class RevolutionWatchAdvisor:
 				self.listSelectedCities.append(screen.getTableText(page, 1, i))
 
 	def save(self, inputClass):
-		name = BugPath.findIniFile("CustomRevAdv.txt", "CustomRevAdv")
+		name = BugPath.findSettingsFile("CustomRevAdv.txt", "CustomRevAdv")
 		if (name):
 			file = open(name, 'w')
 
@@ -2778,9 +2778,9 @@ class RevolutionWatchAdvisor:
 	def loadPages(self):
 
 		self.PAGES = None
-		name = BugPath.findIniFile("CustomRevAdv.txt", "CustomRevAdv")
+		name = BugPath.findSettingsFile("CustomRevAdv.txt", "CustomRevAdv")
 		if (not name):
-			name = BugPath.findIniFile("CustomRevAdv.txt")
+			name = BugPath.findSettingsFile("CustomRevAdv.txt")
 		if (name):
 			BugConfigTracker.add("CDA_Config", name)
 			try:

@@ -375,12 +375,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_ABANDON_CITY_HEADER2</Tag>
-		<English>% of building's production cost will be converted to gold.</English>
-		<French>% du cout de production du bâtiment va être converti en or.</French>
-		<German>% der Baukosten des Gebäudes werden in Gold umgewandelt.</German>
-		<Italian>% del costo di produzione dell'edificio verrà convertito in oro.</Italian>
-		<Spanish>% del coste de produccion del edificio se convertirá en oro.</Spanish>
-		<Polish>% jego produkcji zostanie dodane do skarbca.</Polish>
+		<English>Demolition value is based on the building production cost.[NEWLINE]The abandon city value is based on population size.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ABANDON_CITY_HEADER3</Tag>
+		<English>Abandoning a City where the majority nationality is not your own will give a diplomatic penalty.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_ABANDON_FREE</Tag>
@@ -1274,6 +1273,13 @@
 		<Italian>+%d1_Change[ICON_UNHAPPY]: I tentativi del nostro governo di espandersi ci rendono infelici</Italian>
 		<Spanish>+%d1_Change[ICON_UNHAPPY]: ¡Nos molestan los continuos intentos de expansión de nuestros ineptos gobernantes!</Spanish>
 		<Polish>+%d1_Change[ICON_UNHAPPY]: Nieudolne działania naszego rządu na froncie niepotrzebnej ekspansji doprowadza nas do wrzenia</Polish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ANNUL</Tag>
+		<English>Annul?</English>
+		<French>Abandonner?</French>
+		<German>Abbruch?</German>
+		<Polish>Przerwać?</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_APOSTOLIC_PALACE_CIVIC_EXTRA_HAPPINESS</Tag>
@@ -2753,8 +2759,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BARB_COEXIST_TEXT</Tag>
-		<English>[ICON_BULLET]This unit treats Non-Animal Barbarians as friendly units and Barbarian cities as if they are your own.</English>
-		<French>[ICON_BULLET]Cette unité considère les unités et villes barbares comme amicales.</French>
+		<English>[ICON_BULLET]At peace with humanoid NPC's.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BARRACKS_CIVIC_EXTRA_HAPPINESS</Tag>
@@ -2838,8 +2843,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BLEND_INTO_CITY_TEXT</Tag>
-		<English>[ICON_BULLET]This unit can peacefully enter all cities, even those you are at war with.</English>
-		<French>[ICON_BULLET]Cette unité peut entrer dans toutes les villes de manière pacifique, même lorsque vous être en guerre avec la nation.</French>
+		<English>[ICON_BULLET]Enters all cities peacefully.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BNCHEMISTRY</Tag>
@@ -3353,7 +3357,7 @@
 		<Tag>TXT_KEY_BUILD_FARM</Tag>
 		<English>Build a [LINK=IMPROVEMENT_FARM]Farm[\LINK]</English>
 		<French>Construire une [LINK=IMPROVEMENT_FARM]Ferme[\LINK]</French>
-		<German>[COLOR_HIGHLIGHT_TEXT]Anlegen eines [LINK=IMPROVEMENT_FARM]Getreidefeldes[\LINK][COLOR_REVERT]</German>
+		<German>Anlegen eines [LINK=IMPROVEMENT_FARM]Getreidefeldes[\LINK]</German>
 		<Italian>Cosstruisci una [LINK=IMPROVEMENT_FARM]Fattoria[\LINK]</Italian>
 		<Spanish>Construir una [LINK=IMPROVEMENT_FARM]Granja[\LINK]</Spanish>
 		<Polish>Zbuduj [LINK=IMPROVEMENT_FARM]Farmę[\LINK]</Polish>
@@ -3441,7 +3445,6 @@
 		<English>[LINK=IMPROVEMENT_GRAIN_GATHERER]Gather Grains[\LINK]</English>
 		<French>[LINK=IMPROVEMENT_GRAIN_GATHERER]Récolter les céréales[\LINK]</French>
 		<German>[LINK=IMPROVEMENT_GRAIN_GATHERER]Körner sammeln[\LINK]</German>
-		<Italian>Costruisci un [LINK=IMPROVEMENT_GRAIN_GATHERER]Raccoglitore di cereali[\LINK]</Italian>
 		<Spanish>[LINK=IMPROVEMENT_GRAIN_GATHERER]Recolectar cereales[\LINK]</Spanish>
 		<Polish>[LINK=IMPROVEMENT_GRAIN_GATHERER]Zbieraj Plony[\LINK]</Polish>
 	</TEXT>
@@ -6932,8 +6935,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_EXCILE_TEXT</Tag>
-		<English>[ICON_BULLET]This unit cannot enter your own territory and is immediately transported outside your borders when trained.</English>
-		<French>[ICON_BULLET]Cette unité ne peut pas entrer dans votre territoire et est immédiatement transporté hors de vos frontières (exil).</French>
+		<English>[ICON_BULLET]Exiled from its own cultural border.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_NO_NON_TYPE_PROD_MODS_TEXT</Tag>
@@ -7664,15 +7666,6 @@
 			<Plural>0</Plural>
 		</Spanish>
 		<Polish>Inkwizytor</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GODS_UNIT_INQUISITOR_HELP</Tag>
-		<English>[ICON_BULLET][COLOR_YELLOW]HELP: [COLOR_REVERT]Can remove non-state religions and associated buildings.</English>
-		<French>[ICON_BULLET]Peut éliminer les religions non officielles et leur bâtiments associés.</French>
-		<German>[ICON_BULLET]Kann nicht-staatliche Religionen und zugehörige Gebäude entfernen</German>
-		<Italian>[ICON_BULLET]Può rimuovere le religioni non di stato, e i relativi edifici.</Italian>
-		<Spanish>[ICON_BULLET]Puede eliminar las religiones no oficiales y sus edificios asociados</Spanish>
-		<Polish>[ICON_BULLET]Potrafi usuwać niepaństwowe religie wraz z jej budynkami.</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GODS_UNIT_INQUISITOR_PEDIA</Tag>
@@ -8770,7 +8763,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_INVISIBLE_CAMOUFLAGE</Tag>
-		<English>Camoflaged units</English>
+		<English>Camouflaged</English>
 		<French>
 			<Text>Unités Camouflées</Text>
 			<Gender>Female</Gender>
@@ -8786,57 +8779,57 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_INVISIBLE_CLOAKED</Tag>
-		<English>Cloaked units</English>
+		<English>Cloaked</English>
 		<French>Unités cachées</French>
 		<Polish>Ukryte Jednostki</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_INVISIBLE_DISGUISED</Tag>
-		<English>Innocently Disguised Units</English>
+		<English>Disguised</English>
 		<French>Unités déguisées 'inoffensives'</French>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_INVISIBLE_IMMATERIAL</Tag>
-		<English>Immaterializing units</English>
+		<English>Immaterial</English>
 		<French>Unités dématérialisées</French>
 		<Polish>Zdematerializowane Jednostki</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_INVISIBLE_INVISIBLE</Tag>
-		<English>Invisible Surfaced units</English>
+		<English>Transparent</English>
 		<French>Unités Invisibles en Surface</French>
 		<Polish>Niewidzialne Nawodne Jednostki</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_INVISIBLE_NANO</Tag>
-		<English>Nanodisassembling units</English>
+		<English>Nano-Diffused</English>
 		<French>Unités de Nano-désassemblage</French>
 		<Polish>Nano Jednostki</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_INVISIBLE_NAVAL_DISGUISE</Tag>
-		<English>Innocently Disguised Ships</English>
+		<English>Naval Disguise</English>
 		<French>Unités déguisées 'inoffensives'</French>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_INVISIBLE_PHASED</Tag>
-		<English>Phasing units</English>
+		<English>Phasing</English>
 		<French>Unités Phasées</French>
 		<Polish>Sfazowane Jednostki</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_INVISIBLE_POLITICAL</Tag>
-		<English>Politically Protected Units</English>
+		<English>Political</English>
 		<French>Unités avec protection politique</French>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_INVISIBLE_SIZE</Tag>
-		<English>Smaller Size and Volume Units</English>
+		<English>Size</English>
 		<French>Unités de Taille ou volume plus petit</French>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_INVISIBLE_STEALTH_NAVY</Tag>
-		<English>Stealth Units</English>
+		<English>Stealth</English>
 		<French>
 			<Text>Navires furtifs</Text>
 			<Gender>Male</Gender>
@@ -8857,7 +8850,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_INVISIBLE_SUBMARINE</Tag>
-		<English>Submersible Units</English>
+		<English>Submersible</English>
 		<French>
 			<Text>Sous-marins</Text>
 			<Gender>Male</Gender>
@@ -8878,12 +8871,12 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_INVISIBLE_SUBMERGED</Tag>
-		<English>Submerged Units</English>
+		<English>Submerged</English>
 		<French>Unités immergées</French>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_INVISIBLE_VOID</Tag>
-		<English>Photonic Void Field Generating Units</English>
+		<English>Void Field</English>
 		<French>Unités générant un Champ de vide Photonique</French>
 		<Polish>W Polu Fotonicznej Pustki Jednostki</Polish>
 	</TEXT>
@@ -9793,145 +9786,6 @@
 		<Italian>[ICON_UNHAPPY] da [LINK=BUILDING_MANOR]Maniero[\LINK]</Italian>
 		<Spanish>[ICON_UNHAPPY] por [LINK=BUILDING_MANOR]Finca[\LINK]</Spanish>
 		<Polish>[ICON_UNHAPPY] od [LINK=BUILDING_MANOR]Dwór Szlachecki[\LINK]</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MAPFINDER_ALREADY_RUNNING</Tag>
-		<English>[COLOR_WARNING_TEXT]MapFinder is already running[COLOR_REVERT]</English>
-		<French>[COLOR_WARNING_TEXT]'MapFinder' est déjà en cours d'exécution[COLOR_REVERT]</French>
-		<German>[COLOR_WARNING_TEXT]MapFinder wird bereits ausgeführt[COLOR_REVERT]</German>
-		<Italian>[COLOR_WARNING_TEXT]MapFinder è già in esecuzione[COLOR_REVERT]</Italian>
-		<Spanish>[COLOR_WARNING_TEXT]MapFinder ya está en ejecución[COLOR_REVERT]</Spanish>
-		<Polish>[COLOR_WARNING_TEXT]MapFinder jest aktualnie uruchomiony[COLOR_REVERT]</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MAPFINDER_CANNOT_REGENERATE</Tag>
-		<English>[COLOR_WARNING_TEXT]MapFinder cannot regenerate the map[COLOR_REVERT][NEWLINE]Exit to the main menu, start a new game, and try again.</English>
-		<French>[COLOR_WARNING_TEXT]'MapFinder' ne peut regénérer la carte[COLOR_REVERT][NEWLINE]Quittez la partie en cours, et essayez à nouveau en démarrant une nouvelle partie.</French>
-		<German>[COLOR_WARNING_TEXT]MapFinder: Neuerstellung der Karte nicht möglich[COLOR_REVERT][NEWLINE]Gehen Sie zurück zum Hauptmenü, beginnen Sie eine neue Partie und versuchen Sie es erneut.</German>
-		<Italian>[COLOR_WARNING_TEXT]MapFinder non può rigenerare la mappa[COLOR_REVERT][NEWLINE]Esci al menù principale, inizia una nuova partita e riprova.</Italian>
-		<Spanish>[COLOR_WARNING_TEXT]MapFinder no puede regenerar el mapa[COLOR_REVERT][NEWLINE]Salga al menú principal, empiece una nueva partida e inténtelo de nuevo.</Spanish>
-		<Polish>[COLOR_WARNING_TEXT]mapFinder nie może zregenerować mapy[COLOR_REVERT][NEWLINE]Wyjdź do menu głównego, rozpocznij nową grę i spróbuj ponownie.</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MAPFINDER_INVALID_PATH</Tag>
-		<English>[COLOR_NEGATIVE_TEXT]MapFinder path is invalid: %s1[COLOR_REVERT]</English>
-		<French>[COLOR_NEGATIVE_TEXT]Le Chemin de 'MapFinder' n'est pas valide: %s1[COLOR_REVERT]</French>
-		<German>[COLOR_NEGATIVE_TEXT]MapFinder-Dateipfad ist ungültig: %s1[COLOR_REVERT]</German>
-		<Italian>[COLOR_NEGATIVE_TEXT]Il percorso di MapFinder non è valido: %s1[COLOR_REVERT]</Italian>
-		<Spanish>[COLOR_NEGATIVE_TEXT]La ruta de MapFinder es incorrecta: %s1[COLOR_REVERT]</Spanish>
-		<Polish>[COLOR_NEGATIVE_TEXT]Ścieżka folderu MapFindera jest zła: %s1[COLOR_REVERT]</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MAPFINDER_INVALID_RULE_FILE</Tag>
-		<English>[COLOR_NEGATIVE_TEXT]MapFinder rule file not found: %s1[COLOR_REVERT]</English>
-		<French>[COLOR_NEGATIVE_TEXT]fichier des règles de 'MapFinder' introuvable: %s1[COLOR_REVERT]</French>
-		<German>[COLOR_NEGATIVE_TEXT]MapFinder-Regeldatei nicht gefunden: %s1[COLOR_REVERT]</German>
-		<Italian>[COLOR_NEGATIVE_TEXT]Il file delle regole di MapFinder non è stato trovato: %s1[COLOR_REVERT]</Italian>
-		<Spanish>[COLOR_NEGATIVE_TEXT]No se ha encontrado el archivo de reglas de MapFinder: %s1[COLOR_REVERT]</Spanish>
-		<Polish>[COLOR_NEGATIVE_TEXT]Zasady MapFindera nie znalezione: %s1[COLOR_REVERT]</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MAPFINDER_INVALID_SAVE_PATH</Tag>
-		<English>[COLOR_NEGATIVE_TEXT]MapFinder save file path is invalid: %s1[COLOR_REVERT]</English>
-		<French>[COLOR_NEGATIVE_TEXT] fichier de sauvegarde de 'MapFinder' n'est pas valide: %s1[COLOR_REVERT]</French>
-		<German>[COLOR_NEGATIVE_TEXT]MapFinder-Dateipfad ist ungültig: %s1[COLOR_REVERT]</German>
-		<Italian>[COLOR_NEGATIVE_TEXT]Il percorso di MapFinder non è valido: %s1[COLOR_REVERT]</Italian>
-		<Spanish>[COLOR_NEGATIVE_TEXT]La ruta de guardado de MapFinder es incorrecta: %s1[COLOR_REVERT]</Spanish>
-		<Polish>[COLOR_NEGATIVE_TEXT]Zła ścieżka zapisu MapFindera: %s1[COLOR_REVERT]</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MAPFINDER_INVALID_SYSTEM_FILE</Tag>
-		<English>[COLOR_NEGATIVE_TEXT]MapFinder system file not found: %s1[COLOR_REVERT]</English>
-		<French>[COLOR_NEGATIVE_TEXT]Les fichiers système de 'MapFinder' sont introuvables: %s1[COLOR_REVERT]</French>
-		<German>[COLOR_NEGATIVE_TEXT]MapFinder-Systemdatei nicht gefunden: %s1[COLOR_REVERT]</German>
-		<Italian>[COLOR_NEGATIVE_TEXT]Il file di sistema di MapFinder non è stato trovato: %s1[COLOR_REVERT]</Italian>
-		<Spanish>[COLOR_NEGATIVE_TEXT]No se ha encontrado el archivo de sistema de MapFinder: %s1[COLOR_REVERT]</Spanish>
-		<Polish>[COLOR_NEGATIVE_TEXT]Plik systemowy MapFindera nieznaleziony: %s1[COLOR_REVERT]</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MAPFINDER_NOT_RUNNING</Tag>
-		<English>[COLOR_WARNING_TEXT]MapFinder is not running[COLOR_REVERT]</English>
-		<French>[COLOR_WARNING_TEXT]MapFinder n'est pas démarré[COLOR_REVERT]</French>
-		<German>M[COLOR_WARNING_TEXT]MapFinder wird nicht ausgeführt[COLOR_REVERT]</German>
-		<Italian>M[COLOR_WARNING_TEXT]apFinder non è in esecuzione[COLOR_REVERT]</Italian>
-		<Spanish>[COLOR_WARNING_TEXT]MapFinder no está en ejecución[COLOR_REVERT]</Spanish>
-		<Polish>[COLOR_WARNING_TEXT]MapFinder nie jest uruchomiony[COLOR_REVERT]</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MAPFINDER_REGENERATE_FAILED</Tag>
-		<English>[COLOR_WARNING_TEXT]MapFinder failed to regenerate the map[COLOR_REVERT][NEWLINE]Exit to the main menu, start a new game, and try again.</English>
-		<French>[COLOR_WARNING_TEXT]'MapFinder' a échoué lors de la regénération de la carte[COLOR_REVERT][NEWLINE]Quittez la partie en cours, et essayez à nouveau en démarrant une nouvelle partie.</French>
-		<German>[COLOR_WARNING_TEXT]MapFinder: Neuerstellung der Karte fehlgeschlagen[COLOR_REVERT][NEWLINE]Gehen Sie zurück zum Hauptmenü, beginnen Sie eine neue Partie und versuchen Sie es erneut.</German>
-		<Italian>[COLOR_WARNING_TEXT]MapFinder non è riuscito a rigenerare la mappa[COLOR_REVERT][NEWLINE]Esci al menù principale, inizia una nuova partita e riprova.</Italian>
-		<Spanish>[COLOR_WARNING_TEXT]MapFinder ha fallado al regenerar el mapa[COLOR_REVERT][NEWLINE]Salga al menú principal, empiece una nueva partida e inténtelo de nuevo.</Spanish>
-		<Polish>[COLOR_WARNING_TEXT]Wystąpił błąd przy regeneracji mapy[COLOR_REVERT][NEWLINE]Wyjdź do menu głównego, rozpocznij nową grę i spróbuj ponownie.</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MAPFINDER_REGNERATING</Tag>
-		<English>Regenerating Map...</English>
-		<French>Regénération de la Carte...</French>
-		<German>Neuerstellung der Karte...</German>
-		<Italian>Rigenerazione Mappa...</Italian>
-		<Spanish>Regenerando mapa...</Spanish>
-		<Polish>Regeneracja mapy w toku...</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MAPFINDER_REQUIRES_BULL</Tag>
-		<English>[COLOR_NEGATIVE_TEXT]MapFinder requires BULL to function[COLOR_REVERT]</English>
-		<French>[COLOR_NEGATIVE_TEXT]BULL est nécessaire pour faire fonctionner 'MapFinder'[COLOR_REVERT]</French>
-		<German>[COLOR_NEGATIVE_TEXT]MapFinder benötigt BULL, um zu funktionieren[COLOR_REVERT]</German>
-		<Italian>[COLOR_NEGATIVE_TEXT]MapFinder richiede il Mod BULL per funzionare[COLOR_REVERT]</Italian>
-		<Spanish>[COLOR_NEGATIVE_TEXT]MapFinder requiere BULL para funcionar[COLOR_REVERT]</Spanish>
-		<Polish>[COLOR_NEGATIVE_TEXT]MapFinder wymaga BULL do funkcjonowania[COLOR_REVERT]</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MAPFINDER_SAVING</Tag>
-		<English>Saving Game...</English>
-		<French>Sauvegarde de la Partie...</French>
-		<German>Speicherung der Partie...</German>
-		<Italian>Salvataggio partita...</Italian>
-		<Spanish>Guardando partida...</Spanish>
-		<Polish>Zapisywanie Gry...</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MAPFINDER_SCREEN_TITLE</Tag>
-		<English>[COLOR_HIGHLIGHT_TEXT]MapFinder[COLOR_REVERT]</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MAPFINDER_STOPPED</Tag>
-		<English>MapFinder stopped</English>
-		<French>MapFinder arrêté</French>
-		<German>MapFinder wurde beendet</German>
-		<Italian>MapFinder arrestato</Italian>
-		<Spanish>MapFinder se ha detenido</Spanish>
-		<Polish>MapFinder jest zatrzymany</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MAPFINDER_STOP_SHORTCUT</Tag>
-		<English>ALT + CTRL + SHIFT + G to Stop</English>
-		<French>ALT + CTRL + SHIFT + G pour arrêter</French>
-		<German>Drücken Sie [STRG + ALT + UMSCHALT + G], um MapFinder zu beenden.</German>
-		<Italian>ALT + CTRL + SHIFT + G per arrestare</Italian>
-		<Spanish>ALT + CTRL + SHIFT + G para parar</Spanish>
-		<Polish>ALT + CTRL + SHIFT + G by zatrzymać</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MAPFINDER_TOTAL_MAPS</Tag>
-		<English>Maps</English>
-		<French>Cartes</French>
-		<German>Karten</German>
-		<Italian>Mappe</Italian>
-		<Spanish>Mapas</Spanish>
-		<Polish>Mapy</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MAPFINDER_TOTAL_SAVES</Tag>
-		<English>Saves</English>
-		<French>Sauvegardes</French>
-		<German>Spielstände</German>
-		<Italian>Salvataggi</Italian>
-		<Spanish>Guardados</Spanish>
-		<Polish>Zapisy</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAPSTER_STRATEGY</Tag>
@@ -11198,28 +11052,28 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MISC_DEFENDER_KNOCKEDBACK</Tag>
-		<English>A horrific %s1_Enemy %s2_EnUName hurled a fiery conflagration into our %s3_UnitName 's defensive positions, forcing them to retreat into the open.</English>
+		<English>The %s1_Enemy %s2_EnUName forced our %s3_UnitName to pull back.</English>
 		<French>[NUM2:Un:Une:Des:Des] %s2_EnUName %s1_Enemy [NUM2:a:a:ont:ont] réussi à créer une brèche dans les positions défensives de [NUM1:notre:notre:nos:nos]  %s3_UnitName, [NUM1:l':l':les:les ]obligeant à battre en retraite à découvert.</French>
 		<Italian>Una terribile unità %s1_Enemy di %s2_EnUName ha lanciato un inferno di fuoco nelle posizioni difensive della nostra unità %s3_UnitName, costringendoci alla ritirata.</Italian>
 		<Polish>Przerażająca jednostka: %s2_EnUName %s1_Enemy zmusiła naszą jednostkę: %s3_UnitName do ucieczki i walki w otwartym polu.</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MISC_DEFENDER_KNOCKEDBACK_HIDDEN</Tag>
-		<English>A horrific %s1_Enemy hurled a fiery conflagration into our %s3_UnitName 's defensive positions, forcing them to retreat into the open.</English>
+		<English>>The %s1_Enemy forced our %s2_UnitName to pull back.</English>
 		<French>[NUM2:Un:Une:Des:Des]%s1_Enemy [NUM2:a:a:ont:ont] réussi à créer une brèche dans les positions défensives de [NUM1:notre:notre:nos:nos]  %s3_UnitName, [NUM1:l':l':les:les ]obligeant à battre en retraite à découvert.</French>
 		<Italian>Una terribile unità %s1_Enemy di ha lanciato un inferno di fuoco nelle posizioni difensive della nostra unità %s3_UnitName, costringendoci alla ritirata.</Italian>
 		<Polish>Przerażająca jednostka: %s2_EnUName %s1_Enemy zmusiła naszą jednostkę: %s3_UnitName do ucieczki i walki w otwartym polu.</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MISC_DEFENDER_KNOCKEDBACK_HUMAN</Tag>
-		<English>Our %s1_UnitName has unleashed a hellish inferno upon a %s2_Enemy %s3_EnUName, smoking them out of their defensive holes.</English>
+		<English>Our %s1_UnitName forced the %s2_Enemy %s3_EnUName to retreat.</English>
 		<French>[NUM1:Votre:Votre:Vos:Vos] %s1_UnitName [NUM1:a:a:ont:ont] mené un assaut écrasant contre [NUM3:un:une:des:des] %s3_EnUName %s2_Enemy, [NUM3:l':l':les:les ]obligeant à quitter leurs retranchements.</French>
 		<Italian>La nostra unità %s1_UnitName ha creato un assalto infernale contro un'unità %s2_Enemy di %s3_EnUName, obbligandoli a chiudere i buchi nelle loro difese.</Italian>
 		<Polish>Nasza jednostka: %s1_UnitName uniknęła rozpętania piekła przez %s3_EnUName %s2_Enemy poprzez wykurzenie ich z okopów.</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MISC_DEFENDER_KNOCKEDBACK_HUMAN_HIDDEN</Tag>
-		<English>Our %s1_UnitName has unleashed a hellish inferno upon a %s2_Enemy, smoking them out of their defensive holes.</English>
+		<English>Our %s1_UnitName forced the %s2_Enemy to retreat.</English>
 		<French>[NUM1:Votre:Votre:Vos:Vos] %s1_UnitName [NUM1:a:a:ont:ont] mené un assaut écrasant contre [NUM3:un:une:des:des] %s2_Enemy, [NUM3:l':l':les:les ]obligeant à quitter leurs retranchements.</French>
 		<Italian>La nostra unità %s1_UnitName ha creato un assalto infernale contro un'unità %s2_Enemy, obbligandoli a chiudere i buchi nelle loro difese.</Italian>
 		<Polish>Nasza jednostka: %s1_UnitName uniknęła rozpętania piekła przez %s3_EnUName %s2_Enemy poprzez wykurzenie ich z okopów.</Polish>
@@ -12769,10 +12623,6 @@
 		<German>%D1: "Ihr sprecht mit diplomatischer Zunge"</German>
 		<Spanish>%D1: "Usas un tono diplomático"</Spanish>
 		<Polish>%D1: "Przemawiasz w Dyplomatycznym tonie"</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MISC_POS_GREATER_GOLD</Tag>
-		<English>[ICON_COMMERCE]: %d1_GreaterGold, </English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MISC_POS_GOLD</Tag>
@@ -15066,6 +14916,14 @@
 		<Polish>Nieznaczne Szlaki handlowe</Polish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_MOD_GAMESTART_ADVANCED_START</Tag>
+		<English>[COLOR_WARNING_TEXT]Warning:[COLOR_REVERT] Caveman2Cosmos is not adjusted for advanced starts. Starting this way will not be balanced.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MOD_GAMESTART_NOT_PREHISTORIC</Tag>
+		<English>[COLOR_WARNING_TEXT]Warning:[COLOR_REVERT] Caveman2Cosmos is intended for Prehistoric era starts. Starting in other eras will not be balanced.</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_MOD_GOVWORKERS</Tag>
 		<English>City Governors Build Workers</English>
 		<French>Les Gouverneurs des Villes produisent des Ouvriers</French>
@@ -15091,10 +14949,6 @@
 		<Italian>Benvenuto a Caveman to Cosmos!</Italian>
 		<Spanish>¡Bienvenido a Caveman2Cosmos!</Spanish>
 		<Polish>Witaj w Caveman2Cosmos!</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_MOD_NOT_PREHISTORIC_START</Tag>
-		<English>[COLOR_WARNING_TEXT]Warning:[COLOR_REVERT] Caveman2Cosmos is intended for Prehistoric era starts. Starting in other eras will not be balanced.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MOD_NO_CONFIG</Tag>
@@ -16078,7 +15932,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_NO_INVISIBILITY_TEXT</Tag>
-		<English>[ICON_BULLET]This Unit is Never Invisible</English>
+		<English>[ICON_BULLET]Never Invisible</English>
 		<German>[ICON_BULLET]Diese Einheit ist niemals unsichtbar.</German>
 	</TEXT>
 	<TEXT>
@@ -19393,11 +19247,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REQUIRES_IN_CITY_VICINITY</Tag>
-		<English>[COLOR_WARNING_TEXT]Requires (Improved and Routed or Manufactured) in City Vicinity:[SPACE]</English>
+		<English>[COLOR_WARNING_TEXT]Bonus required in city and in city vicinity, or manufactured locally: </English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REQUIRES_RAW_IN_CITY_VICINITY</Tag>
-		<English>[COLOR_WARNING_TEXT]Requires on a Plot (No Requirement to Improve or Route), or Manufactured, in City Vicinity:[SPACE]</English>
+		<English>[COLOR_WARNING_TEXT]Bonus required in city vicinity, or manufactured locally: </English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REQUIRES_NO_WARNING</Tag>
@@ -19419,12 +19273,12 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REQUIRES_VICINITY_BONUS</Tag>
-		<English>[COLOR_WARNING_TEXT]Requires an Improved and Connected or Manufactured %s1_Text in City Vicinity[COLOR_REVERT]</English>
+		<English>[COLOR_WARNING_TEXT]Requires %s1_Text in city and in city vicinity, or manufactured locally.[COLOR_REVERT]</English>
 		<German>[ICON_BULLET][COLOR_WARNING_TEXT]erforderlich: %s1_Text (hergestellt oder abgebaut im Stadtradius)[COLOR_REVERT]</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REQUIRES_RAW_VICINITY_BONUS</Tag>
-		<English>[COLOR_WARNING_TEXT]Requires %s1_Text in City Vicinity, either Manufactured or on a Plot (No need for Improving or Connecting)[COLOR_REVERT]</English>
+		<English>[COLOR_WARNING_TEXT]Requires %s1_Text in City Vicinity, or manufactured locally[COLOR_REVERT]</English>
 		<German>[ICON_BULLET][COLOR_WARNING_TEXT]erforderlich: %s1_Text (hergestellt oder vorhanden im Stadtradius)[COLOR_REVERT]</German>
 	</TEXT>
 	<TEXT>
@@ -19998,7 +19852,6 @@
 		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Alt+X[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Toggle dotmap edit mode
 		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Ctrl+X[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Show/hide dotmap
 		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Alt+G[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Regenerate the map
-		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Alt+Ctrl+G[COLOR_REVERT][\BOLD][TAB][TAB]Start/Stop MapFinder
 		[NEWLINE]
 		[NEWLINE]Hold [BOLD][COLOR_HIGHLIGHT_TEXT]Alt[COLOR_REVERT][\BOLD] while hovering the mouse over a unit icon in the plot list to highlight its possible moves on the map.</English>
 		<German>[H1]BUG Mod[\H1]
@@ -20011,7 +19864,6 @@
 		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Alt+X[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Strategie-Overlay bearbeiten
 		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Strg+X[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Strategie-Overlay ein-/ausblenden
 		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Alt+G[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Karte neu generieren
-		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Alt+Strg+G[COLOR_REVERT][\BOLD][TAB][TAB]MapFinder starten/stoppen
 		[NEWLINE]
 		[NEWLINE]Drücken und Halten von [BOLD][COLOR_HIGHLIGHT_TEXT]Alt[COLOR_REVERT][\BOLD], während der Mauszeiger über ein Einheitensymbol in der Einheitenliste bewegt wird, zeigt alle möglichen Einheitenbewegungen an.
 		</German>
@@ -20026,7 +19878,6 @@
 		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Ctrl+X[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Mostra/Nasconde il Livello Strategico
 		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Alt+Ctrl+N[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Apre la finestra di test per la denominazione delle Unità
 		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Alt+G[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Regenerate the map
-		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Alt+Ctrl+G[COLOR_REVERT][\BOLD][TAB][TAB]Start/Stop MapFinder
 		[NEWLINE]
 		[NEWLINE]Tenere premuto [BOLD][COLOR_HIGHLIGHT_TEXT]Alt[COLOR_REVERT][\BOLD] stazionando il mouse sopra un'icona di Unità per evidenziare sulla mappa le possibilità di movimento di tale Unità.
 		</Italian>
@@ -20040,7 +19891,6 @@
 		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Alt+X[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Activar edición del mapa de puntos
 		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Ctrl+X[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Mostrar/ocultar mapa de puntos
 		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Alt+G[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Regenerar el mapa
-		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Alt+Ctrl+G[COLOR_REVERT][\BOLD][TAB][TAB]Arrancar/Parar MapFinder
 		[NEWLINE]
 		[NEWLINE]Mantener [BOLD][COLOR_HIGHLIGHT_TEXT]Alt[COLOR_REVERT][\BOLD] mientras se pasa el ratón por encimar de una unidad para destacar sus posibles movimientos en el mapa.
 		</Spanish>
@@ -20052,7 +19902,6 @@
 		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Alt+E[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Stwórz ręcznie wpis do logu
 		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]Alt+B[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Zapisz statystyki bitwy w logu
 		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]ALT + X[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Przełączaj tryb kropkowania mapy
-		[NEWLINE][BOLD][COLOR_HIGHLIGHT_TEXT]CTRL + X[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Pokaż/ukryj kropkowanie mapy
 		[NEWLINE]
 		[NEWLINE]Przytrzymaj [BOLD][COLOR_HIGHLIGHT_TEXT]Alt[COLOR_REVERT][\BOLD] gdy wskaźnik myszki znajduje się nad ikoną jednostki, aby wskazać jej możliwe ruchy na mapie
 		</Polish>
@@ -25189,8 +25038,7 @@ feindliche Einheit scrollen[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Anzeige der Siegc
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UPGRADE_ANYWHERE_TEXT</Tag>
-		<English>[ICON_BULLET]This unit can upgrade anywhere (with some exceptions.)</English>
-		<French>[ICON_BULLET]Cette unité peut être améliorée n'importe où (avec quelques exceptions).</French>
+		<English>[ICON_BULLET]Can upgrade almost anywhere.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UPKEEP_EXTREME</Tag>

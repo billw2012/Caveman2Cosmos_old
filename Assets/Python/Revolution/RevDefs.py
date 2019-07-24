@@ -1,29 +1,8 @@
+#-#-#
 # Definitions for Revolution Mod
 #
-# by jdog5000
-# Version 0.5
-
 from CvPythonExtensions import *
 import CvUtil
-import PyHelpers
-import BugCore
-
-
-# #globals
-gc = CyGlobalContext()
-# PyPlayer = PyHelpers.PyPlayer
-# PyInfo = PyHelpers.PyInfo
-game = CyGame()
-localText = CyTranslator()
-RevOpt = BugCore.game.Revolution
-
-LOG_DEBUG = True
-config = None
-
-
-# Players
-# List of player numbers that BarbarianCiv will never turn into a full civ.  Allows minor civs in scenarios to keep minor status.
-alwaysMinorList = [] #[0,1,2]
 
 ## --------- XML variables used in the mod ----------- ##
 # If your mod changes some of these XML variables, you'll need to find an appropriate replacement
@@ -33,37 +12,13 @@ sXMLMinor = 'CIVILIZATION_MINOR'
 sXMLBarbarian = 'CIVILIZATION_BARBARIAN'
 
 # Units
-sXMLSpy = 'UNIT_SPY'
-sXMLScout = 'UNITCLASS_SCOUT'
-sXMLSettler = 'UNITCLASS_SETTLER'
 sXMLWarrior = 'UNITCLASS_CLUBMAN'
 sXMLWorker = 'UNITCLASS_WORKER'
 sXMLGeneral = 'UNIT_GREAT_GENERAL'
-sXMLProphet = 'UNIT_PROPHET'
-sXMLEngineer = 'UNIT_ENGINEER'
-sXMLArtist = 'UNIT_ARTIST'
-sXMLMerchant = 'UNIT_MERCHANT'
-sXMLScientist = 'UNIT_SCIENTIST'
-# Rise of Mankind 2.61
-sXMLArcher = 'UNITCLASS_ARCHER'
-# Rise of Mankind 2.61
 
 # Buildings
 # Used by Rev when rebels capture a tiny city first
 sXMLPalace = "BUILDINGCLASS_PALACE"
-# Given to BarbCivs under various circumstances
-sXMLLibrary = 'BUILDINGCLASS_LIBRARY'
-sXMLGranary = 'BUILDINGCLASS_GRANARY'
-sXMLBarracks = 'BUILDINGCLASS_BARRACKS'
-sXMLMarket = 'BUILDINGCLASS_MARKET'
-sXMLWalls = 'BUILDINGCLASS_WALLS'
-sXMLLighthouse = 'BUILDINGCLASS_LIGHTHOUSE'
-sXMLForge = 'BUILDINGCLASS_FORGE'
-sXMLMonument = 'BUILDINGCLASS_OBELISK'
-# Rise of Mankind 2.6 additions
-sXMLBazaar = 'BUILDINGCLASS_BAZAAR'
-sXMLScribes = 'BUILDINGCLASS_SCHOOL_OF_SCRIBES'
-# Rise of Mankind 2.6
 
 # Techs
 # Used by Rev, weight of nationality effects increases after discovery
@@ -71,37 +26,11 @@ sXMLNationalism = 'TECH_NATIONALISM'
 # Used by Rev, weight of religious effects decreases after each discovery
 sXMLLiberalism = 'TECH_LIBERALISM'
 sXMLSciMethod = 'TECH_SCIENTIFIC_METHOD'
-# Given to BarbCivs under varying circumstances
-sXMLSailing = 'TECH_SAILING'
-sXMLWheel = 'TECH_THE_WHEEL'
-sXMLAnimal = 'TECH_ANIMAL_HUSBANDRY'
-sXMLHorseback = 'TECH_ANIMAL_RIDING'
-sXMLBronze = 'TECH_BRONZE_WORKING'
-sXMLIron = 'TECH_IRON_WORKING'
-sXMLGuilds = 'TECH_GUILDS'
-# Rise of Mankind 2.6 additions
-sXMLChariotry = 'TECH_CHARIOTRY'
-sXMLMetalCasting = 'TECH_METAL_CASTING'
-sXMLNavalWarfare = 'TECH_NAVAL_WARFARE'
-sXMLWeaving = 'TECH_WEAVING'
-sXMLMining = 'TECH_MINING'
-# Rise of Mankind 2.6
-
-# Promotions
-# Given to rebel units
-sXMLWoodsman3 = 'PROMOTION_WOODSMAN3'
-sXMLSentry = 'PROMOTION_SENTRY'
-sXMLDrill2 = 'PROMOTION_DRILL2'
-sXMLGuerilla3 = 'PROMOTION_GUERILLA3'
-sXMLCommando = 'PROMOTION_COMMANDO'
-# Given to viking style BarbCivs
-sXMLAmphibious = 'PROMOTION_AMPHIBIOUS'
 
 # Traits
 # Used by Rev for AI decisions, BarbCiv to determine type of settling
 sXMLAggressive = 'TRAIT_AGGRESSIVE'
 sXMLSpiritual = 'TRAIT_SPIRITUAL'
-sXMLExpansive = 'TRAIT_EXPANSIVE'
 
 # Goodies
 sXMLGoodyMap = 'GOODY_MAP'
@@ -159,14 +88,8 @@ playerData['MotherlandID'] = None
 playerData['JoinPlayerID'] = None
 playerData['CapitalName'] = None
 
-
-# Need this at all?
-unitData = dict()
-
-
 # Container for data passed by revolution popups
-
-class RevoltData :
+class RevoltData:
 
 	def __init__( self, iPlayer, iRevTurn, cityList, revType, bPeaceful, specialDataDict = dict() ) :
 
@@ -259,24 +182,9 @@ changeCivPopup = 7060
 changeHumanPopup = 7061
 updateGraphicsPopup = 7062
 
-# BarbarianCiv
-barbSettlePopup = 7070
-
-# Tester
-testerPopup = 8000
-waitingForPopup = 8001
-setNamePopup = 8002
-newNamePopup = 8003
-#civicsPopup = 8004
-formConfedPopup = 8005
-dissolveConfedPopup = 8006
-scorePopup = 8007
-#recreateUnitsPopup = 8008
-specialMovePopup = 8009
-
 # Keep game from showing messages about handling these popups
 CvUtil.SilentEvents.extend([toAIChooserPopup,revolutionPopup,revWatchPopup,joinHumanPopup,controlLostPopup,assimilationPopup,pickCityPopup,bribeCityPopup,abdicatePopup,pickHumanPopup])
-CvUtil.SilentEvents.extend([changeCivPopup,changeHumanPopup,barbSettlePopup])
+CvUtil.SilentEvents.extend([changeCivPopup,changeHumanPopup])
 
 ## ---------- Misc defines ---------- ##
 

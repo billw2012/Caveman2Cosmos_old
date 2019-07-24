@@ -1210,7 +1210,7 @@
 	</Define>
 	<Define>
 		<DefineName>CAMERA_LOWER_PITCH</DefineName>
-		<fDefineFloatVal>-28.0</fDefineFloatVal>
+		<fDefineFloatVal>-30.0</fDefineFloatVal>
 	</Define>
 	<Define>
 		<DefineName>CAMERA_MIN_SCROLL_SPEED</DefineName>
@@ -1218,7 +1218,7 @@
 	</Define>
 	<Define>
 		<DefineName>CAMERA_MAX_SCROLL_SPEED</DefineName>
-		<fDefineFloatVal>1800</fDefineFloatVal>
+		<fDefineFloatVal>2200</fDefineFloatVal>
 	</Define>
 	<Define>
 		<DefineName>CAMERA_MIN_YAW</DefineName>
@@ -1234,11 +1234,11 @@
 	</Define>
 	<Define>
 		<DefineName>CAMERA_MAX_TRAVEL_DISTANCE</DefineName>
-		<fDefineFloatVal>3000</fDefineFloatVal>
+		<fDefineFloatVal>800</fDefineFloatVal>
 	</Define>
 	<Define>
 		<DefineName>CAMERA_MIN_DISTANCE</DefineName>
-		<fDefineFloatVal>700</fDefineFloatVal>
+		<fDefineFloatVal>400</fDefineFloatVal>
 	</Define>
 	<Define>
 		<DefineName>CAMERA_MAX_TURN_OFFSET</DefineName>
@@ -1252,7 +1252,7 @@
 	-->
 	<Define>
 		<DefineName>CAMERA_SMALLEST_MAX_DISTANCE</DefineName>
-		<fDefineFloatVal>7000</fDefineFloatVal>
+		<fDefineFloatVal>16000</fDefineFloatVal>
 	</Define>
 	<Define>
 		<DefineName>CAMERA_FORCE_TO_SMALLEST_MAX_DISTANCE</DefineName>
@@ -1276,7 +1276,7 @@
 	</Define>
 	<Define>
 		<DefineName>CAMERA_CITY_ZOOM_IN_DISTANCE</DefineName>
-		<fDefineFloatVal>5750</fDefineFloatVal>
+		<fDefineFloatVal>4000</fDefineFloatVal>
 	</Define>
 	<Define>
 		<DefineName>CAMERA_BATTLE_ZOOM_IN_DISTANCE</DefineName>
@@ -1304,7 +1304,7 @@
 	</Define>
 	<Define>
 		<DefineName>FIELD_OF_VIEW</DefineName>
-		<fDefineFloatVal>42.0</fDefineFloatVal>
+		<fDefineFloatVal>50.0</fDefineFloatVal>
 	</Define>
 	<Define>
 		<DefineName>IMPROVEMENT_SCALE</DefineName>

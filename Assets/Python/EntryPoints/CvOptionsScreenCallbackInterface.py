@@ -1,617 +1,429 @@
+"""
+OPTIONS SCREEN CALLBACK INTERFACE - Any time something is changed in the Options Screen the result is determined here
+"""
 from CvPythonExtensions import *
 import CvScreensInterface
-import Popup as PyPopup
-import CvUtil
-import string
 
-localText = CyTranslator()
-UserProfile = CyUserProfile()
-
-# BUG - Options - start
-import BugOptions
-import BugOptionsScreen
-import BugHelp
-import BugUtil
-# BUG - Options - end
-
-# BUG - BugEventManager - start
-import CvEventInterface
-# BUG - BugEventManager - end
-
-#Afforess
-import AutomatedSettings
-import ANDAutomationsTab
-#Afforess
-
-#"""
-#OPTIONS SCREEN CALLBACK INTERFACE - Any time something is changed in the Options Screen the result is determined here
-#"""
+UsrPrfl = CyUserProfile()
+g_iResChange = 0
 
 def saveProfile():
-	if (UserProfile.getProfileName() != ""):
-		UserProfile.writeToFile(UserProfile.getProfileName())
-	
+	if UsrPrfl.getProfileName() != "":
+		UsrPrfl.writeToFile(UsrPrfl.getProfileName())
+
 def getOptionsScreen():
 	return CvScreensInterface.optionsScreen
-	
+
 def getTabControl():
 	return getOptionsScreen().getTabControl()
 
 def refresh():
 	getOptionsScreen().refreshScreen()
-	
+	global g_iResChange
+	if g_iResChange:
+		import ScreenResolution as SR
+		szRes = UsrPrfl.getResolutionString(UsrPrfl.getResolution())
+		szRes = szRes.split(" x ")
+		SR.x = int(szRes[0])
+		SR.y = int(szRes[1])
+
+		import CvEventInterface
+		CvEventInterface.getEventManager().fireEvent("ResolutionChanged", g_iResChange - 100)
+		g_iResChange = 0
+
 def restartPopup(bForceShowing = False):
-	
-	if (CyInterface().isInMainMenu() == False or bForceShowing == True):
-		
-		# create popup
-		popup = PyPopup.PyPopup()
-		popup.setHeaderString("")
-		popup.setBodyString(localText.getText("TXT_KEY_OPTIONS_NEED_TO_RESTART", ()))
-		popup.launch()
 
-def isNumber(s):
-	
-	for l in s:
-		if l not in string.digits:
-			return False
-			
-	return True
+	if not CyInterface().isInMainMenu() or bForceShowing:
+		popup = CyPopup(-1, EventContextTypes.NO_EVENTCONTEXT, True)
+		popup.setBodyString(CyTranslator().getText("TXT_KEY_OPTIONS_NEED_TO_RESTART", ()), 1<<0)
+		popup.launch(True, PopupStates.POPUPSTATE_IMMEDIATE)
 
-def DummyCallback( argsList ):
-	"This is the callback function for controls which shouldn't do anything when modified (editboxes, mainly)"
-	return
-	
-######################################## GAME OPTIONS ########################################
-	
-def handleGameOptionsClicked ( argsList ): 
-	"Handles checkbox clicked input"
+# This is the callback function for controls which shouldn't do anything when modified (editboxes, mainly)"
+def DummyCallback(argsList): return
+
+######################### GAME OPTIONS #########################
+
+def handleGameOptionsClicked(argsList):
+	# Handles checkbox clicked input
 	bValue, szName = argsList
-	
+
 	iGameOption = int(szName[szName.find("_")+1:])
 	CyMessageControl().sendPlayerOption(iGameOption, bValue)
 	return 1
-	
-def handleLanguagesDropdownBoxInput ( argsList ):
-	"Handles Languages Dropdown Box input"
-	iValue, szName = argsList
-	
+
+def handleLanguagesDropdownBoxInput(argsList):
+	# Handles Languages Dropdown Box input
+	iValue = argsList[0]
+
 	CyGame().setCurrentLanguage(iValue)
-	
-	popup = PyPopup.PyPopup()
-	popup.setHeaderString("")
-	popup.setBodyString(localText.getText("TXT_KEY_FEAT_ACCOMPLISHED_OK", ()))
-	popup.launch()
-	
-# BUG - BugEventManager - start
+
+	popup = CyPopup(-1, EventContextTypes.NO_EVENTCONTEXT, True)
+	popup.setBodyString(CyTranslator().getText("TXT_KEY_FEAT_ACCOMPLISHED_OK", ()), 1<<0)
+	popup.launch(True, PopupStates.POPUPSTATE_IMMEDIATE)
+
+	import CvEventInterface
 	CvEventInterface.getEventManager().fireEvent("LanguageChanged", iValue)
-# BUG - BugEventManager - end
-	
 	return 1
-	
-def handleGameReset ( argsList ):
-	"Resets these options"
-	szName = argsList
-	
-	UserProfile.resetOptions(TabGroupTypes.TABGROUP_GAME)
+
+def handleGameReset(argsList):
+	# Resets these options
+	UsrPrfl.resetOptions(TabGroupTypes.TABGROUP_GAME)
 	refresh()
 	saveProfile()
-	
 	return 1
-	
-######################################## GRAPHIC OPTIONS ########################################
-	
-def handleGraphicOptionsClicked ( argsList ): 
-	"Handles checkbox clicked input"
+
+######################### GRAPHIC OPTIONS #########################
+
+def handleGraphicOptionsClicked(argsList):
+	# Handles checkbox clicked input
 	bValue, szName = argsList
 	iGraphicOption = int(szName[szName.find("_")+1:])
-	
-	UserProfile.setGraphicOption(iGraphicOption, bValue)
-	
-	if (iGraphicOption == GraphicOptionTypes.GRAPHICOPTION_SINGLE_UNIT_GRAPHICS or
-		iGraphicOption == GraphicOptionTypes.GRAPHICOPTION_FULLSCREEN):
+
+	UsrPrfl.setGraphicOption(iGraphicOption, bValue)
+
+	if iGraphicOption in (GraphicOptionTypes.GRAPHICOPTION_SINGLE_UNIT_GRAPHICS, GraphicOptionTypes.GRAPHICOPTION_FULLSCREEN):
 		restartPopup(True)
-		
-	if (iGraphicOption == GraphicOptionTypes.GRAPHICOPTION_HIRES_TERRAIN):
+
+	if iGraphicOption == GraphicOptionTypes.GRAPHICOPTION_HIRES_TERRAIN:
 		restartPopup(False)
-		
 	return 1
-	
-def handleGraphicsLevelDropdownBoxInput ( argsList ):
-	"Handles Graphics Level Dropdown Box input"
-	iValue, szName = argsList
-	
-	UserProfile.setGraphicsLevel(iValue)
+
+def handleGraphicsLevelDropdownBoxInput(argsList):
+	# Handles Graphics Level Dropdown Box input
+	UsrPrfl.setGraphicsLevel(argsList[0])
 	refresh()
-	
 	restartPopup(True)
 	return 1
-	
-def handleRenderQualityDropdownBoxInput ( argsList ):
-	"Handles Render Quality Dropdown Box input"
-	iValue, szName = argsList
-	
-	UserProfile.setRenderQualityLevel(iValue)
-	
+
+def handleRenderQualityDropdownBoxInput(argsList):
+	# Handles Render Quality Dropdown Box input
+	UsrPrfl.setRenderQualityLevel(argsList[0])
 	return 1
-	
-def handleGlobeViewDropdownBoxInput ( argsList ):
-	"Handles Globe View Dropdown Box input"
-	iValue, szName = argsList
-	
-	UserProfile.setGlobeViewRenderLevel(iValue)
-	
+
+def handleGlobeViewDropdownBoxInput(argsList):
+	# Handles Globe View Dropdown Box input
+	UsrPrfl.setGlobeViewRenderLevel(argsList[0])
 	return 1
-		
-def handleMovieDropdownBoxInput ( argsList ):
-	"Handles Movie Dropdown Box input"
-	iValue, szName = argsList
-	
-	UserProfile.setMovieQualityLevel(iValue)
-	
+
+def handleMovieDropdownBoxInput(argsList):
+	# Handles Movie Dropdown Box input
+	UsrPrfl.setMovieQualityLevel(argsList[0])
 	return 1
-		
-def handleMainMenuDropdownBoxInput ( argsList ):
-	"Handles Main Menu Dropdown Box input"
-	iValue, szName = argsList
-	
-	UserProfile.setMainMenu(iValue)
+
+def handleMainMenuDropdownBoxInput(argsList):
+	# Handles Main Menu Dropdown Box input
+	UsrPrfl.setMainMenu(argsList[0])
 	refresh()
 	saveProfile()
-	
 	return 1
-		
-def handleResolutionDropdownInput ( argsList ):
-	"Handles Resolution Dropdown Box input"
-	iValue, szName = argsList
-	
-	UserProfile.setResolution(iValue)
-	
-# BUG - BugEventManager - start
-	CvEventInterface.getEventManager().fireEvent("ResolutionChanged", iValue)
-# BUG - BugEventManager - end
 
+def handleResolutionDropdownInput(argsList):
+	# Handles Resolution Dropdown Box input
+	iValue = argsList[0]
+	UsrPrfl.setResolution(iValue)
+	global g_iResChange
+	g_iResChange = iValue + 100
 	return 1
-	
-def handleAntiAliasingDropdownInput ( argsList ):
-	"Handles Anti-Aliasing Dropdown Box input"
-	iValue, szName = argsList
-	
-	UserProfile.setAntiAliasing(iValue)
+
+def handleAntiAliasingDropdownInput(argsList):
+	# Handles Anti-Aliasing Dropdown Box input
+	UsrPrfl.setAntiAliasing(argsList[0])
 	return 1
-	
-def handleGraphicsReset ( argsList ):
-	"Resets these options"
-	szName = argsList
-	
-	UserProfile.resetOptions(TabGroupTypes.TABGROUP_GRAPHICS)
+
+def handleGraphicsReset(argsList):
+	# Resets these options
+	UsrPrfl.resetOptions(TabGroupTypes.TABGROUP_GRAPHICS)
 	refresh()
 	restartPopup()
 	saveProfile()
-	
 	return 1
-	
-######################################## AUDIO OPTIONS ########################################
-	
-def handleVolumeSlidersInput ( argsList ):
-	"Handles Volume slider input"
+
+######################### AUDIO OPTIONS #########################
+
+def handleVolumeSlidersInput(argsList):
+	# Handles Volume slider input
 	iValue, szName = argsList
 	iVolumeType = int(szName[szName.find("_")+1:])
-	
- 	iMax = UserProfile.getVolumeStops()
-	
-	if (iVolumeType == 0):		# Master Volume
-		UserProfile.setMasterVolume(iMax - iValue)
-	elif (iVolumeType == 1):	# Music Volume
-		UserProfile.setMusicVolume(iMax - iValue)
-	elif (iVolumeType == 2):	# Sound Effects Volume
-		UserProfile.setSoundEffectsVolume(iMax - iValue)
-	elif (iVolumeType == 3):	# Speech Volume
-		UserProfile.setSpeechVolume(iMax - iValue)
-	elif (iVolumeType == 4):	# Ambience Volume
-		UserProfile.setAmbienceVolume(iMax - iValue)
-	elif (iVolumeType == 5):	# Interface Volume
-		UserProfile.setInterfaceVolume(iMax - iValue)
-	
+
+	iMax = UsrPrfl.getVolumeStops()
+
+	if not iVolumeType:		# Master Volume
+		UsrPrfl.setMasterVolume(iMax - iValue)
+	elif iVolumeType == 1:	# Music Volume
+		UsrPrfl.setMusicVolume(iMax - iValue)
+	elif iVolumeType == 2:	# Sound Effects Volume
+		UsrPrfl.setSoundEffectsVolume(iMax - iValue)
+	elif iVolumeType == 3:	# Speech Volume
+		UsrPrfl.setSpeechVolume(iMax - iValue)
+	elif iVolumeType == 4:	# Ambience Volume
+		UsrPrfl.setAmbienceVolume(iMax - iValue)
+	elif iVolumeType == 5:	# Interface Volume
+		UsrPrfl.setInterfaceVolume(iMax - iValue)
 	return 1
-	
-def handleVolumeCheckboxesInput ( argsList ): 
-	"Handles checkbox clicked input"
+
+def handleVolumeCheckboxesInput(argsList):
+	# Handles checkbox clicked input
 	bValue, szName = argsList
 	iVolumeType = int(szName[szName.find("_")+1:])
-	
-	if (iVolumeType == 0):		# Master Volume
-		UserProfile.setMasterNoSound(bValue)
-	elif (iVolumeType == 1):	# Music Volume
-		UserProfile.setMusicNoSound(bValue)
-	elif (iVolumeType == 2):	# Sound Effects Volume
-		UserProfile.setSoundEffectsNoSound(bValue)
-	elif (iVolumeType == 3):	# Speech Volume
-		UserProfile.setSpeechNoSound(bValue)
-	elif (iVolumeType == 4):	# Ambience Volume
-		UserProfile.setAmbienceNoSound(bValue)
-	elif (iVolumeType == 5):	# Interface Volume
-		UserProfile.setInterfaceNoSound(bValue)
-	
+
+	if not iVolumeType:		# Master Volume
+		UsrPrfl.setMasterNoSound(bValue)
+	elif iVolumeType == 1:	# Music Volume
+		UsrPrfl.setMusicNoSound(bValue)
+	elif iVolumeType == 2:	# Sound Effects Volume
+		UsrPrfl.setSoundEffectsNoSound(bValue)
+	elif iVolumeType == 3:	# Speech Volume
+		UsrPrfl.setSpeechNoSound(bValue)
+	elif iVolumeType == 4:	# Ambience Volume
+		UsrPrfl.setAmbienceNoSound(bValue)
+	elif iVolumeType == 5:	# Interface Volume
+		UsrPrfl.setInterfaceNoSound(bValue)
 	return 1
-	
-def handleCustomMusicPathCheckboxInput ( argsList ): 
-	"Handles Custom Music Path text changed input"
-	bValue, szName = argsList
-	
-	if (bValue):
-		UserProfile.setMusicPath(CvUtil.convertToStr(getOptionsScreen().getMusicPath()))
+
+def handleCustomMusicPathCheckboxInput(argsList):
+	# Handles Custom Music Path text changed input
+	if argsList[0]:
+		UsrPrfl.setMusicPath(getOptionsScreen().getMusicPath().encode('latin_1'))
 	else:
-		UserProfile.setMusicPath("")
-	
+		UsrPrfl.setMusicPath("")
 	return 1
-	
-def handleCustomMusicPathButtonInput ( argsList ):
-	"Handles Custom Music Path Browse Button clicked input"
-	szName = argsList
-	
-	UserProfile.musicPathDialogBox()
+
+def handleCustomMusicPathButtonInput(argsList):
+	# Handles Custom Music Path Browse Button clicked input
+	UsrPrfl.musicPathDialogBox()
 	return 1
-	
-def handleSpeakerConfigDropdownInput ( argsList ):
-	"Handles Speaker Config Dropdown Box input"
-	iValue, szName = argsList
-	szSpeakerConfigName = UserProfile.getSpeakerConfigFromList(iValue)
-	
-	UserProfile.setSpeakerConfig(szSpeakerConfigName)
+
+def handleSpeakerConfigDropdownInput(argsList):
+	# Handles Speaker Config Dropdown Box input
+	szSpeakerConfigName = UsrPrfl.getSpeakerConfigFromList(argsList[0])
+
+	UsrPrfl.setSpeakerConfig(szSpeakerConfigName)
 	restartPopup(True)
-	
 	return 1
-	
-def handleVoiceCheckboxInput ( argsList ): 
-	"Handles voice checkbox clicked input"
-	bValue, szName = argsList
-	UserProfile.setUseVoice(bValue)
+
+def handleVoiceCheckboxInput(argsList):
+	# Handles voice checkbox clicked input
+	UsrPrfl.setUseVoice(argsList[0])
 	return 1
-	
-def handleCaptureDeviceDropdownInput ( argsList ): 
-	"Handles Capture Device Config Dropdown Box input"
-	iValue, szName = argsList
-	UserProfile.setCaptureDevice(iValue)
+
+def handleCaptureDeviceDropdownInput(argsList):
+	# Handles Capture Device Config Dropdown Box input
+	UsrPrfl.setCaptureDevice(argsList[0])
 	return 1
-	
-def handleCaptureVolumeSliderInput ( argsList ):
-	"Handles Capture Volume slider input"
-	iValue, szName = argsList
- 	iMax = UserProfile.getMaxPlaybackVolume()
-	
-	UserProfile.setCaptureVolume(iValue)
+
+def handleCaptureVolumeSliderInput(argsList):
+	# Handles Capture Volume slider input
+	UsrPrfl.setCaptureVolume(argsList[0])
 	return 1
-	
-def handlePlaybackDeviceDropdownInput ( argsList ): 
-	"Handles Playback Device Dropdown Box input"
-	iValue, szName = argsList
-	UserProfile.setPlaybackDevice(iValue)
+
+def handlePlaybackDeviceDropdownInput(argsList):
+	# Handles Playback Device Dropdown Box input
+	UsrPrfl.setPlaybackDevice(argsList[0])
 	return 1
-	
-def handlePlaybackVolumeSliderInput ( argsList ):
-	"Handles Playback Volume slider input"
-	iValue, szName = argsList
- 	iMax = UserProfile.getMaxPlaybackVolume()
- 
-# 	UserProfile.setPlaybackVolume(iMax - iValue)
- 	UserProfile.setPlaybackVolume(iValue)
+
+def handlePlaybackVolumeSliderInput(argsList):
+	# Handles Playback Volume slider input
+	UsrPrfl.setPlaybackVolume(argsList[0])
 	return 1
-	
-def handleAudioReset ( argsList ):
-	"Resets these options"
-	szName = argsList
-	
-	UserProfile.resetOptions(TabGroupTypes.TABGROUP_AUDIO)
+
+def handleAudioReset(argsList):
+	# Resets these options
+	UsrPrfl.resetOptions(TabGroupTypes.TABGROUP_AUDIO)
 	refresh()
 	restartPopup(True)
 	saveProfile()
-	
 	return 1
-	
-######################################## NETWORK OPTIONS ########################################
 
-def handleBroadbandSelected ( argsList ):
-	"Handles bandwidth selection"
-	bSelected, szName = argsList
-	if (bSelected):
+######################### NETWORK OPTIONS #########################
+
+def handleBroadbandSelected(argsList):
+	# Handles bandwidth selection
+	if argsList[0]:
 		CyGame().setModem(False)
 	return 1
-	
-def handleModemSelected ( argsList ):
-	"Handles bandwidth selection"
-	bSelected, szName = argsList
-	if (bSelected):
+
+def handleModemSelected(argsList):
+	# Handles bandwidth selection
+	if argsList[0]:
 		CyGame().setModem(True)
 	return 1
-	
-######################################## CLOCK OPTIONS ########################################
-	
-def handleClockOnCheckboxInput ( argsList ):
-	"Handles Clock On/Off checkbox clicked input"
-	bValue, szName = argsList
-	
-	UserProfile.setClockOn(bValue)
+
+######################### CLOCK OPTIONS #########################
+
+def handleClockOnCheckboxInput(argsList):
+	# Handles Clock On/Off checkbox clicked input
+	UsrPrfl.setClockOn(argsList[0])
 	return 1
-	
-def handle24HourClockCheckboxInput ( argsList ):
-	"Handles 24 Hour Clock On/Off checkbox clicked input"
-	bValue, szName = argsList
-	
-	UserProfile.set24Hours(bValue)
+
+def handle24HourClockCheckboxInput(argsList):
+	# Handles 24 Hour Clock On/Off checkbox clicked input
+	UsrPrfl.set24Hours(argsList[0])
 	return 1
-	
-def handleAlarmOnCheckboxInput ( argsList ):
-	"Handles Alarm On/Off checkbox clicked input"
-	bValue, szName = argsList
-	
-	iHour = getOptionsScreen().getAlarmHour()
-	iMin = getOptionsScreen().getAlarmMin()
-	
-	if (isNumber(iHour) and iHour != "" and isNumber(iMin) and iMin != "" ):
-	    
-	    iHour = int(iHour)
-	    iMin = int(iMin)
-	    
-	    if (iHour > 0 or iMin > 0):
-		    toggleAlarm(bValue, iHour, iMin)
-	
+
+def handleAlarmOnCheckboxInput(argsList):
+	# Handles Alarm On/Off checkbox clicked input
+	hour = getOptionsScreen().getAlarmHour()
+	min = getOptionsScreen().getAlarmMin()
+
+	if "" not in (hour, min) and (hour + min).isdigit():
+
+		hour = int(hour)
+		min = int(min)
+
+		if hour > 0 or min > 0:
+			toggleAlarm(argsList[0], hour, min)
 	return 1
-	
-def handleOtherReset ( argsList ):
-	"Resets these options"
-	szName = argsList
-	
-	UserProfile.resetOptions(TabGroupTypes.TABGROUP_CLOCK)
+
+def handleOtherReset(argsList):
+	# Resets these options
+	UsrPrfl.resetOptions(TabGroupTypes.TABGROUP_CLOCK)
 	refresh()
 	saveProfile()
-	
 	return 1
-	
-######################################## PROFILES ########################################
-	
-def handleProfilesDropdownInput ( argsList ):
-	"Handles Profiles tab dropdown box input"
-	
-	iValue, szName = argsList
+
+######################### PROFILES #########################
+
+def handleProfilesDropdownInput(argsList):
+	# Handles Profiles tab dropdown box input
 	saveProfile()
-		
 	# Load other file
-	szFilename = UserProfile.getProfileFileName(iValue)
+	szFilename = UsrPrfl.getProfileFileName(argsList[0])
 	szProfile = szFilename[szFilename.find("PROFILES\\")+9:-4]
-	
+
 	bSuccess = loadProfile(szProfile)
 	return bSuccess
-	
-def handleNewProfileButtonInput ( argsList ):
-	"Handles New Profile Button clicked input"
-	szName = argsList
-		
+
+def handleNewProfileButtonInput(argsList):
+	# Handles New Profile Button clicked input
 	szNewProfileName = getOptionsScreen().getProfileEditCtrlText()
 	szNarrow = szNewProfileName.encode("latin_1")
-	UserProfile.setProfileName(szNarrow)
-	UserProfile.writeToFile(szNarrow)
-	
+	UsrPrfl.setProfileName(szNarrow)
+	UsrPrfl.writeToFile(szNarrow)
 	# Recalculate file info when new file is saved out
-	UserProfile.loadProfileFileNames()
-	
+	UsrPrfl.loadProfileFileNames()
 	saveProfile()
-	
 	refresh()
-	
 	# create popup
-	popup = PyPopup.PyPopup()
-	popup.setHeaderString("")
-	popup.setBodyString(localText.getText("TXT_KEY_OPTIONS_SAVED_PROFILE", (szNewProfileName, )))
-	popup.launch()
-	
+	popup = CyPopup(-1, EventContextTypes.NO_EVENTCONTEXT, True)
+	popup.setBodyString(CyTranslator().getText("TXT_KEY_OPTIONS_SAVED_PROFILE", (szNewProfileName, )), 1<<0)
+	popup.launch(True, PopupStates.POPUPSTATE_IMMEDIATE)
 	return 1
-	
-def handleDeleteProfileButtonInput ( argsList ):
-	"Handles Delete Profile Button clicked input"
-	szName = argsList
-	
-	szProfileName =CvUtil.convertToStr(getOptionsScreen().getProfileEditCtrlText())
-	
-	if (UserProfile.deleteProfileFile(szProfileName)):    # Note that this function automatically checks to see if the string passed is a valid file to be deleted (it must have the proper file extension though)
-		
+
+def handleDeleteProfileButtonInput(argsList):
+	# Handles Delete Profile Button clicked input
+	szProfileName = getOptionsScreen().getProfileEditCtrlText().encode('latin_1')
+
+	# Note that this function automatically checks to see if the string passed is a valid file to be deleted.
+	# It must have the proper file extension though.
+	if UsrPrfl.deleteProfileFile(szProfileName):
 		# Recalculate list of stuff
-		UserProfile.loadProfileFileNames()
-		
+		UsrPrfl.loadProfileFileNames()
 		# create popup
-		popup = PyPopup.PyPopup()
-		popup.setHeaderString("")
-		popup.setBodyString(localText.getText("TXT_KEY_OPTIONS_DELETED_PROFILE", (szProfileName, )))
-		popup.launch()
-		
+		popup = CyPopup(-1, EventContextTypes.NO_EVENTCONTEXT, True)
+		popup.setBodyString(CyTranslator().getText("TXT_KEY_OPTIONS_DELETED_PROFILE", (szProfileName, )), 1<<0)
+		popup.launch(True, PopupStates.POPUPSTATE_IMMEDIATE)
+
 		bSuccess = True
-		
-		if (szProfileName == UserProfile.getProfileName()):
-			
-			UserProfile.setProfileName("")
-				
+		if szProfileName == UsrPrfl.getProfileName():
+
+			UsrPrfl.setProfileName("")
 			# Load other file
-			szFilename = UserProfile.getProfileFileName(0)
+			szFilename = UsrPrfl.getProfileFileName(0)
 			szProfile = szFilename[szFilename.find("PROFILES\\")+9:-4]
-			
+
 			bSuccess = loadProfile(szProfile)
-		
+
 		refresh()
-		
 		return bSuccess
-		
 	return 0
-	
+
 def loadProfile(szProfile):
-	
-	bReadSuccessful = UserProfile.readFromFile(szProfile)
-	
-	if (bReadSuccessful):
-		UserProfile.recalculateAudioSettings()
-		
+
+	if UsrPrfl.readFromFile(szProfile):
+		UsrPrfl.recalculateAudioSettings()
+
 		getOptionsScreen().setProfileEditCtrlText(szProfile)
-		
-		########### Now we have to update everything we loaded since nothing is done except the serialization on load ###########
-		
+
+		# Now we have to update everything we loaded since nothing is done except the serialization on load
+
 		# Game Options
 		for iOptionLoop in range(PlayerOptionTypes.NUM_PLAYEROPTION_TYPES):
-			bValue = UserProfile.getPlayerOption(iOptionLoop)
+			bValue = UsrPrfl.getPlayerOption(iOptionLoop)
 			CyMessageControl().sendPlayerOption(iOptionLoop, bValue)
-		
 		# Graphics Options
 		for iOptionLoop in range(GraphicOptionTypes.NUM_GRAPHICOPTION_TYPES):
-			bValue = UserProfile.getGraphicOption(iOptionLoop)
-			UserProfile.setGraphicOption(iOptionLoop, bValue)
-			
+			bValue = UsrPrfl.getGraphicOption(iOptionLoop)
+			UsrPrfl.setGraphicOption(iOptionLoop, bValue)
 		# Beware! These guys aren't safe to change:
-		UserProfile.setAntiAliasing(UserProfile.getAntiAliasing())
-		UserProfile.setResolution(UserProfile.getResolution())
-		
+		UsrPrfl.setAntiAliasing(UsrPrfl.getAntiAliasing())
+		UsrPrfl.setResolution(UsrPrfl.getResolution())
 		# Audio Options
-		UserProfile.setSpeakerConfig(UserProfile.getSpeakerConfig())
-		UserProfile.setMusicPath(UserProfile.getMusicPath())
-		UserProfile.setUseVoice(UserProfile.useVoice())
-		UserProfile.setCaptureDevice(UserProfile.getCaptureDeviceIndex())
-		UserProfile.setPlaybackDevice(UserProfile.getPlaybackDeviceIndex())
-		UserProfile.setCaptureVolume(UserProfile.getCaptureVolume())
-		UserProfile.setPlaybackVolume(UserProfile.getPlaybackVolume())
-		
+		UsrPrfl.setSpeakerConfig(UsrPrfl.getSpeakerConfig())
+		UsrPrfl.setMusicPath(UsrPrfl.getMusicPath())
+		UsrPrfl.setUseVoice(UsrPrfl.useVoice())
+		UsrPrfl.setCaptureDevice(UsrPrfl.getCaptureDeviceIndex())
+		UsrPrfl.setPlaybackDevice(UsrPrfl.getPlaybackDeviceIndex())
+		UsrPrfl.setCaptureVolume(UsrPrfl.getCaptureVolume())
+		UsrPrfl.setPlaybackVolume(UsrPrfl.getPlaybackVolume())
 		# Clock Options
-		UserProfile.setClockOn(UserProfile.isClockOn())
-		
-		#################
-		
+		UsrPrfl.setClockOn(UsrPrfl.isClockOn())
+
 		# create popup
-		popup = PyPopup.PyPopup()
-		popup.setHeaderString("")
-		popup.setBodyString(localText.getText("TXT_KEY_OPTIONS_LOADED_PROFILE", (szProfile, )))
-		popup.launch()
-		
+		popup = CyPopup(-1, EventContextTypes.NO_EVENTCONTEXT, True)
+		popup.setBodyString(CyTranslator().getText("TXT_KEY_OPTIONS_LOADED_PROFILE", (szProfile, )), 1<<0)
+		popup.launch(True, PopupStates.POPUPSTATE_IMMEDIATE)
 		# Refresh options screen with updated values
 		refresh()
-		
 		return 1
-		
-	# Load failed
 	else:
-		
-		# create popup
-		popup = PyPopup.PyPopup()
-		popup.setHeaderString("")
-		popup.setBodyString(localText.getText("TXT_KEY_OPTIONS_LOAD_PROFILE_FAIL", ()))
-		popup.launch()
-		
-		return 0
-		
-def handleExitButtonInput ( argsList ):
-	"Exits the screen"
-	szName = argsList
-	
+		popup = CyPopup(-1, EventContextTypes.NO_EVENTCONTEXT, True)
+		popup.setBodyString(CyTranslator().getText("TXT_KEY_OPTIONS_LOAD_PROFILE_FAIL", ()), 1<<0)
+		popup.launch(True, PopupStates.POPUPSTATE_IMMEDIATE)
+	return 0
+
+def handleExitButtonInput(argsList):
+	# Exits the screen
 	saveProfile()
 	getTabControl().destroy()
-	
 	return 1
 
-# BUG - Options - start
 
-g_options = BugOptions.getOptions()
-
-def getBugOptionsScreen():
-	return BugOptionsScreen.getOptionsScreen()
-
-def handleBugExitButtonInput ( argsList ):
-	"Exits the screen after saving the options to disk"
-	szName = argsList[0]
-	getBugOptionsScreen().close()
-	return 1
-		
-def handleBugHelpButtonInput ( argsList ):
-	"Opens the BUG help file"
-	szName = argsList[0]
-	BugHelp.launch()
-	return 1
-
-def handleBugCheckboxClicked ( argsList ): 
+################
+# AND Opptions #
+# * *  **  * * #
+def handleAutomatedBuildCheckboxClicked(argsList):
 	bValue, szName = argsList
-	option = g_options.getOption(szName)
-	if (option is not None):
-		option.setValue(bValue)
-	return 1
+	print "szName for Option is %s" %szName
 
-def handleBugTextEditChange ( argsList ): 
-	szValue, szName = argsList
-	option = g_options.getOption(szName)
-	if (option is not None):
-		option.setValue(szValue)
-	return 1
+	GC = CyGlobalContext()
+	iPlayer = CyGame().getActivePlayer()
+	CyPlayer = GC.getPlayer(iPlayer)
 
-def handleBugDropdownChange ( argsList ):
-	iIndex, szName = argsList
-	option = g_options.getOption(szName)
-	if (option is not None):
-		option.setIndex(iIndex)
-	return 1
-
-def handleBugIntDropdownChange ( argsList ):
-	iIndex, szName = argsList
-	option = g_options.getOption(szName)
-	if (option is not None):
-		option.setIndex(iIndex)
-	return 1
-
-def handleBugFloatDropdownChange ( argsList ):
-	iIndex, szName = argsList
-	option = g_options.getOption(szName)
-	if (option is not None):
-		option.setIndex(iIndex)
-	return 1
-
-def handleBugColorDropdownChange ( argsList ):
-	iIndex, szName = argsList
-	option = g_options.getOption(szName)
-	if (option is not None):
-		option.setIndex(iIndex)
-	return 1
-
-def handleBugSliderChanged ( argsList ):
-	iValue, szName = argsList
-	option = g_options.getOption(szName)
-	if (option is not None):
-		option.setValue(iValue)
-	return 1
-
-# BUG - Options - end
-
-def handleAutomatedBuildCheckboxClicked ( argsList ): 
-	bValue, szName = argsList
-	
-	player = CyGlobalContext().getPlayer(CyGlobalContext().getGame().getActivePlayer())
-	(loopCity, iter) = player.firstCity(False)
-	
-	BugUtil.debug("szName for Option is %s", szName)
-	
-	while(loopCity):
-		if (szName.rfind(ANDAutomationsTab.remove_diacriticals(loopCity.getName())) > -1):
-			for iI in range(CyGlobalContext().getNumBuildInfos()):
-				if (szName.rfind(CyGlobalContext().getBuildInfo(iI).getDescription()) > -1):
-					CyMessageControl().sendModNetMessage(AutomatedSettings.getCanAutoBuildEventID(), CyGlobalContext().getGame().getActivePlayer(), loopCity.getID(), iI, int(bValue))
-					#loopCity.setAutomatedCanBuild(iI, bValue)
+	CyCity, i = CyPlayer.firstCity(False)
+	if CyCity:
+		import ANDAutomationsTab
+		iNumBuildInfos = GC.getNumBuildInfos()
+	while CyCity:
+		if szName.rfind(ANDAutomationsTab.remove_diacriticals(CyCity.getName())) > -1:
+			iCityID = CyCity.getID()
+			for k in range(iNumBuildInfos):
+				if szName.rfind(GC.getBuildInfo(k).getDescription()) > -1:
+					import AutomatedSettings
+					CyMessageControl().sendModNetMessage(AutomatedSettings.getCanAutoBuildEventID(), iPlayer, iCityID, k, int(bValue))
 					return 1
-		(loopCity, iter) = player.nextCity(iter, False)
-
+		CyCity, i = CyPlayer.nextCity(i, False)
 	return 0
-	
-def handleNationalAutomatedBuildCheckboxClicked ( argsList ): 
+
+def handleNationalAutomatedBuildCheckboxClicked(argsList):
 	bValue, szName = argsList
-	
-	player = CyGlobalContext().getPlayer(CyGlobalContext().getGame().getActivePlayer())
-	
-	BugUtil.debug("szName for Option is %s", szName)
+	print "szName for Option is %s" %szName
 
-	for iI in range(CyGlobalContext().getNumBuildInfos()):
-		if (szName.rfind(CyGlobalContext().getBuildInfo(iI).getDescription()) > -1):
-			CyMessageControl().sendModNetMessage(AutomatedSettings.getCanPlayerAutoBuildEventID(), CyGlobalContext().getGame().getActivePlayer(), -1, iI, int(bValue))
-			#loopCity.setAutomatedCanBuild(iI, bValue)
+	iPlayer = CyGame().getActivePlayer()
+	GC = CyGlobalContext()
+
+	for i in range(GC.getNumBuildInfos()):
+		if szName.rfind(GC.getBuildInfo(i).getDescription()) > -1:
+			import AutomatedSettings
+			CyMessageControl().sendModNetMessage(AutomatedSettings.getCanPlayerAutoBuildEventID(), iPlayer, -1, i, int(bValue))
 			return 1
-
 	return 0
