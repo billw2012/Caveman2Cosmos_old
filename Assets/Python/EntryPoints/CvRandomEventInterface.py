@@ -2586,7 +2586,7 @@ def canApplyClassicLiteratureDone2(argsList):
   kTriggeredData = argsList[1]
   player = GC.getPlayer(kTriggeredData.ePlayer)
 
-  iEraAncient = GC.getInfoTypeForString("ERA_ANCIENT")
+  iEraAncient = GC.getInfoTypeForString("ERA_SEDENTARY")
 
   for iTech in range(GC.getNumTechInfos()):
     if GC.getTechInfo(iTech).getEra() == iEraAncient and player.canResearch(iTech, False):
@@ -2599,7 +2599,7 @@ def applyClassicLiteratureDone2(argsList):
   kTriggeredData = argsList[1]
   player = GC.getPlayer(kTriggeredData.ePlayer)
 
-  iEraAncient = GC.getInfoTypeForString("ERA_ANCIENT")
+  iEraAncient = GC.getInfoTypeForString("ERA_SEDENTARY")
 
   listTechs = []
   for iTech in range(GC.getNumTechInfos()):
