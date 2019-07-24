@@ -21,6 +21,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<iCost>588</iCost>
+			<iConquestProb>0</iConquestProb>
 			<iMinLatitude>45</iMinLatitude>
 			<iMaxLatitude>90</iMaxLatitude>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -90,6 +91,7 @@
 			</MapCategoryTypes>
 			<FreeBuilding>BUILDINGCLASS_DEER_TRAINER_EFFECT</FreeBuilding>
 			<iCost>139</iCost>
+			<iConquestProb>0</iConquestProb>
 			<iAsset>4</iAsset>
 			<iPower>2</iPower>
 			<ConstructSound>AS2D_BUILD_GRANARY</ConstructSound>
@@ -129,6 +131,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
+			<bNeverCapture>1</bNeverCapture>
 			<ObsoleteTech>TECH_MOTORIZED_TRANSPORTATION</ObsoleteTech>
 			<iCost>-1</iCost>
 			<iAsset>2</iAsset>
