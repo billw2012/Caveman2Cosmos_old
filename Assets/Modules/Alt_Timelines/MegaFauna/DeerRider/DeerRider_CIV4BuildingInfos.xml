@@ -23,7 +23,6 @@
 			<iCost>588</iCost>
 			<iConquestProb>0</iConquestProb>
 			<iMinLatitude>45</iMinLatitude>
-			<iMaxLatitude>90</iMaxLatitude>
 			<iTradeRoutes>1</iTradeRoutes>
 			<iAsset>4</iAsset>
 			<iPower>2</iPower>
@@ -203,7 +202,6 @@
 				</Flavor>
 			</Flavors>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<Type>BUILDING_STABLE</Type>
 			<AndDependencyTypes>

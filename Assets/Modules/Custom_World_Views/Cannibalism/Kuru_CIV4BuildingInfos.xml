@@ -18,8 +18,6 @@
 			<bNeverCapture>0</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>-1</iCost>
-			<iMinLatitude>0</iMinLatitude>
-			<iMaxLatitude>90</iMaxLatitude>
 			<iHealth>-1</iHealth>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>

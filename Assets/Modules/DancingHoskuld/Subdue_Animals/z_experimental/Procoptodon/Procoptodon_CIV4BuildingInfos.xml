@@ -188,7 +188,6 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_PROCOPTODON_REMAINS</BuildingClass>
 			<Type>BUILDING_PROCOPTODON_REMAINS</Type>
