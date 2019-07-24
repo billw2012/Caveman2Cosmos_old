@@ -469,6 +469,7 @@ class CvEventManager:
 
 		self.GO_1_CITY_TILE_FOUNDING	= GAME.isOption(GameOptionTypes.GAMEOPTION_1_CITY_TILE_FOUNDING)
 		self.GO_START_AS_MINORS			= GAME.isOption(GameOptionTypes.GAMEOPTION_START_AS_MINORS)
+		self.GO_INFINITE_XP				= GAME.isOption(GameOptionTypes.GAMEOPTION_INFINITE_XP)
 
 		if bNewGame and self.GO_START_AS_MINORS:
 			for iPlayer in xrange(self.MAX_PC_PLAYERS):
@@ -851,15 +852,24 @@ class CvEventManager:
 				CyInterface().addMessage(iPlayerL, False, 15, TRNSLTR.getText("TXT_KEY_REBORN",()),'',0, artPath, ColorTypes(44), X, Y, True, True)
 
 		if CyUnitL.isNPC():
-			# Kill NPC exp limit
-			iExpLimit = -1
-			if CyUnitL.isAnimal():
-				if CyUnitW.isHasUnitCombat(self.UNITCOMBAT_EXPLORER):
-					iExpLimit = GC.getDefineINT("ANIMAL_MAX_XP_VALUE")
-			else:	iExpLimit = GC.getDefineINT("BARBARIAN_MAX_XP_VALUE")
+			# EXP boost for AI
+			if not CyUnitW.isHuman():
+				CyUnitW.changeExperience(2, 100, False, False, False)
 
-			if iExpLimit > -1:
-				CyUnitW.changeExperience(1, 999, True, False, True)
+			# Exp limit loophole
+			if not self.GO_INFINITE_XP:
+				iExpLimit = -1
+				if CyUnitL.isAnimal():
+					if CyUnitW.isHasPromotion(GC.getInfoTypeForString("PROMOTION_ANIMAL_HUNTER")):
+						iExpLimit = GC.getDefineINT("ANIMAL_MAX_XP_VALUE")
+
+				elif CyUnitW.isHasPromotion(GC.getInfoTypeForString("PROMOTION_BARBARIAN_HUNTER")):
+					iExpLimit = GC.getDefineINT("BARBARIAN_MAX_XP_VALUE")
+
+				if iExpLimit != -1 and CyUnitW.getExperience() >= iExpLimit:
+					bInBorders = iPlayerW == GC.getMap().plot(CyUnitW.getX(), CyUnitW.getY()).getOwner()
+					CyUnitW.changeExperience(1, 9999, True, bInBorders, True)
+
 		else:
 			bSneak = CyUnitW.isHasPromotion(mapPromoType['PROMOTION_SNEAK'])
 			bMarauder = CyUnitW.isHasPromotion(mapPromoType['PROMOTION_MARAUDER'])
