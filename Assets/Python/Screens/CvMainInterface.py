@@ -2411,13 +2411,12 @@ class CvMainInterface:
 				screen.show("GreatGeneralBar")
 
 				# Great People Bar
-				iResID = self.iResID
 				if not bCityScreen:
 					CyCity, iTurns = GPUtil.getDisplayCity()
 					x, y, w, h = self.xywhGPBar
 					screen.setImageButton("GreatPersonBar0", "", x, y, w, h, eWidGen, 0, 0)
 					szTxt = GPUtil.getGreatPeopleText(CyCity, iTurns, w - 32, MainOpt.isGPBarTypesNone(), MainOpt.isGPBarTypesOne(), True, uFont2)
-					if not iResID:	# Two rows
+					if not self.iResID:	# Two rows
 						y += 1
 					else:
 						y = 2
@@ -2437,7 +2436,7 @@ class CvMainInterface:
 						screen.setBarPercentage("GreatPersonBar", InfoBarTypes.INFOBAR_STORED, 0)
 						screen.setBarPercentage("GreatPersonBar", InfoBarTypes.INFOBAR_RATE, 0)
 					screen.show("GreatPersonBar")
-				elif not iResID:
+				elif not self.iResID:
 					screen.hide("GreatPersonBar")
 					screen.hide("GreatPersonBar0")
 					screen.hide("GreatPersonBar1")
@@ -3270,13 +3269,13 @@ class CvMainInterface:
 		y = self.yBotBar + 16
 		h = self.yRes - y - 20
 		w = self.xMidL - 80
-		iResID = self.iResID
-		if iResID == 2:
-			dy = 32
-		if iResID == 1:
-			dy = 28
-		else:
+
+		if self.iResID == 2:
 			dy = 24
+		elif self.iResID == 1:
+			dy = 22
+		else:
+			dy = 20
 		screen.addScrollPanel(ScPnl, "", -6, y, w, h, iPanelSTD)
 		screen.setStyle(ScPnl, "ScrollPanel_Alt_Style")
 		iOrders = CyIF.getNumOrdersQueued()
@@ -3812,7 +3811,7 @@ class CvMainInterface:
 				screen.setTableColumnHeader(unitTable, 0, "", w - 70)
 				screen.setTableColumnHeader(unitTable, 1, "", 60)
 				# Stack Title
-				szBuffer = TRNSLTR.getText("TXT_KEY_UNIT_STACK", (iSelectionRange,))
+				szBuffer = self.aFontList[3] + TRNSLTR.getText("TXT_KEY_UNIT_STACK", (iSelectionRange,))
 				# Stack movement
 				iMinMoves = 100000
 				iMaxMoves = 0
@@ -3825,13 +3824,20 @@ class CvMainInterface:
 						iMinMoves = iMovesLeft
 				fMinMoves = iMinMoves / fMoveDenominator
 				if iMinMoves == iMaxMoves:
-					szBuffer += u' %.1f' %(fMinMoves)
+					szBuffer += ' %.1f' % fMinMoves
 				else:
 					fMaxMoves = iMaxMoves / fMoveDenominator
-					szBuffer += u' %.1f - %.1f' %(fMinMoves, fMaxMoves)
+					szBuffer += ' %.1f - %.1f' %(fMinMoves, fMaxMoves)
 				szBuffer += self.iconMoves
-				screen.setText(label, "", "<font=2b>" + szBuffer, 1<<0, 12, yBotBar + 30, 0, eFontGame, eWidGen, 0, 0)
-				screen.enableSelect(label, False)
+
+				if self.iResID == 2:
+					y = -2
+				elif self.iResID == 1:
+					y = -1
+				else:
+					y = 2
+
+				screen.setTextAt(label, panel, szBuffer, 1<<0, 4, y, 0, eFontGame, eWidGen, 0, 0)
 				#Stack Promotions
 				for iPromo in xrange(self.iNumPromotionInfos):
 					iCount = 0
@@ -3857,18 +3863,20 @@ class CvMainInterface:
 				screen.setTableColumnHeader(unitTable, 0, "", A - 10)
 				screen.setTableColumnHeader(unitTable, 1, "", A)
 				iHotKeyNumber = CyUnit.getHotKeyNumber()
+				szBuffer = self.aFontList[3]
 				if iHotKeyNumber != -1:
-					szBuffer = TRNSLTR.getText("INTERFACE_PANE_UNIT_NAME_HOT_KEY", (iHotKeyNumber, CyUnit.getName()))
+					szBuffer += TRNSLTR.getText("INTERFACE_PANE_UNIT_NAME_HOT_KEY", (iHotKeyNumber, CyUnit.getName()))
 				else:
-					szBuffer = TRNSLTR.getText("INTERFACE_PANE_UNIT_NAME", (CyUnit.getName(),))
-				iL = len(szBuffer)
-				if iL > 120:
-					szBuffer = "<font=0b>" + szBuffer
-				elif iL > 60:
-					szBuffer = "<font=1b>" + szBuffer
+					szBuffer += TRNSLTR.getText("INTERFACE_PANE_UNIT_NAME", (CyUnit.getName(),))
+
+				if self.iResID == 2:
+					y = -2
+				elif self.iResID == 1:
+					y = -1
 				else:
-					szBuffer = "<font=2b>" + szBuffer
-				screen.setText(label, "", szBuffer, 1<<0, 12, yBotBar + 30, 0, eFontGame, WidgetTypes.WIDGET_UNIT_NAME, 0, 0)
+					y = 2
+
+				screen.setTextAt(label, panel, szBuffer, 1<<0, 4, y, 0, eFontGame, WidgetTypes.WIDGET_UNIT_NAME, 0, 0)
 				# Get Promotions
 				for iPromo in xrange(self.iNumPromotionInfos):
 					if CyUnit.isHasPromotion(iPromo) and not CyUnit.isPromotionOverriden(iPromo):
@@ -5356,13 +5364,13 @@ class CvMainInterface:
 						# Update Work Queue
 						uFont = self.aFontList[5]
 						w = self.xMidL - 80
-						iResID = self.iResID
-						if iResID == 2:
-							dy = 32
-						if iResID == 1:
-							dy = 28
-						else:
+
+						if self.iResID == 2:
 							dy = 24
+						elif self.iResID == 1:
+							dy = 22
+						else:
+							dy = 20
 						szTxt = self.evalTextWidth(w - 80, uFont, szTxt)
 						iNode = 0
 						szRow = str(InCity.QueueIndex)
@@ -5425,13 +5433,12 @@ class CvMainInterface:
 						screen.deleteWidget("QueueRow" + szRow)
 						del InCity.WorkQueue[iNode]
 						# Move lower queue rows one step up
-						iResID = self.iResID
-						if iResID == 2:
-							dy = 32
-						if iResID == 1:
-							dy = 28
-						else:
+						if self.iResID == 2:
 							dy = 24
+						elif self.iResID == 1:
+							dy = 22
+						else:
+							dy = 20
 						y = iNode * dy
 						for i, entry in enumerate(InCity.WorkQueue[iNode:]):
 							screen.moveItem("QueueRow" + entry[2], -2, y-2, 0)

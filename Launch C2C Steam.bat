@@ -1,1 +1,0 @@
-start steam://rungameid/8800 mod=mods/Caveman2Cosmos
