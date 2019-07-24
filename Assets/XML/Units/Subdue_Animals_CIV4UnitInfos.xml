@@ -76,6 +76,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -152,6 +153,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -258,6 +260,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -418,6 +421,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -531,6 +535,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -614,6 +619,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -722,6 +728,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -826,6 +833,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1</fMaxSpeed>
@@ -943,6 +951,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -1044,6 +1053,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -1125,6 +1135,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -1243,6 +1254,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -1361,6 +1373,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -1465,6 +1478,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -1553,6 +1567,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -1653,6 +1668,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -1736,6 +1752,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -1867,6 +1884,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -2008,6 +2026,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -2108,6 +2127,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -2233,6 +2253,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -2378,6 +2399,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -2481,6 +2503,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -2579,6 +2602,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -2719,6 +2743,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -2849,6 +2874,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -2981,6 +3007,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -3073,6 +3100,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -3187,6 +3215,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -3345,6 +3374,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1</fMaxSpeed>
@@ -3487,6 +3517,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -3632,6 +3663,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -3725,6 +3757,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -3856,6 +3889,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -3983,6 +4017,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -4078,6 +4113,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -4172,6 +4208,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -4317,6 +4354,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -4409,6 +4447,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -4496,6 +4535,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -4608,6 +4648,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -4699,6 +4740,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -4834,6 +4876,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -4946,6 +4989,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -5087,6 +5131,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -5230,6 +5275,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -5326,6 +5372,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -5474,6 +5521,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -5553,6 +5601,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -5685,6 +5734,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -5828,6 +5878,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -5949,6 +6000,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -6107,6 +6159,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -6268,6 +6321,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -6438,6 +6492,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -6588,6 +6643,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -6694,6 +6750,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -6891,6 +6948,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -6970,6 +7028,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -7077,6 +7136,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -7132,7 +7192,6 @@
 				</Action>
 			</Actions>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Class>UNITCLASS_SUBDUED_GATOR_ASIAN</Class>
 			<Type>UNIT_SUBDUED_GATOR_ASIAN</Type>
@@ -7222,6 +7281,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -7342,6 +7402,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -7429,6 +7490,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -7552,6 +7614,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -7671,6 +7734,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -7777,6 +7841,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -7915,6 +7980,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -8010,6 +8076,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -8131,6 +8198,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -8215,6 +8283,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -8367,6 +8436,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -8476,6 +8546,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -8571,6 +8642,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -8659,6 +8731,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -8801,6 +8874,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -8916,6 +8990,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -9040,6 +9115,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -9166,6 +9242,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -9275,6 +9352,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -9412,6 +9490,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -9500,6 +9579,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -9609,6 +9689,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -9718,6 +9799,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -9873,6 +9955,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -9969,6 +10052,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -10139,6 +10223,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -10223,6 +10308,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -10356,6 +10442,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -10499,6 +10586,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -10587,6 +10675,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -10705,6 +10794,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -10830,6 +10920,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -10962,6 +11053,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -11082,6 +11174,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -11162,6 +11255,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -11254,6 +11348,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -11330,6 +11425,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -11431,6 +11527,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1</fMaxSpeed>
@@ -11512,6 +11609,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -11594,6 +11692,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -11733,6 +11832,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -11825,6 +11925,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -11968,6 +12069,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -12063,6 +12165,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -12171,6 +12274,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -12280,6 +12384,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -12452,6 +12557,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -12572,6 +12678,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -12708,6 +12815,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -12800,6 +12908,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -12907,6 +13016,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -13050,6 +13160,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -13199,6 +13310,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -13317,6 +13429,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -13410,6 +13523,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -13542,6 +13656,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -13649,6 +13764,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -13792,6 +13908,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -13900,6 +14017,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -14026,6 +14144,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -14112,6 +14231,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -14238,6 +14358,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -14347,6 +14468,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -14425,6 +14547,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -14588,6 +14711,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -14716,6 +14840,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -14810,6 +14935,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -14953,6 +15079,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -15048,6 +15175,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -15188,6 +15316,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -15295,6 +15424,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -15425,6 +15555,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -15532,6 +15663,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -15619,6 +15751,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -15712,6 +15845,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -15841,6 +15975,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -15921,6 +16056,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -16020,6 +16156,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -16106,6 +16243,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -16240,6 +16378,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -16339,6 +16478,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -16455,6 +16595,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -16567,6 +16708,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -16671,6 +16813,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -16763,6 +16906,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -16933,6 +17077,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -17084,6 +17229,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -17210,6 +17356,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -17334,6 +17481,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -17437,6 +17585,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -17540,6 +17689,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -17643,6 +17793,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -17746,6 +17897,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -17853,6 +18005,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -17993,6 +18146,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -18178,6 +18332,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -18280,6 +18435,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -18416,6 +18572,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -18564,6 +18721,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -18709,6 +18867,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -18882,6 +19041,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -18979,6 +19139,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -19077,6 +19238,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -19180,6 +19342,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -19278,6 +19441,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -19382,6 +19546,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -19476,6 +19641,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -19605,6 +19771,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -19713,6 +19880,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -19805,6 +19973,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -19946,6 +20115,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -20043,6 +20213,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -20184,6 +20355,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -20287,6 +20459,7 @@
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -20388,6 +20561,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -20481,6 +20655,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -20565,6 +20740,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -20697,6 +20873,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -20798,6 +20975,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -20904,6 +21082,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -20987,6 +21166,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -21084,6 +21264,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -21193,6 +21374,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -21302,6 +21484,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -21405,6 +21588,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -21493,6 +21677,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -21581,6 +21766,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -21683,6 +21869,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -21800,6 +21987,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>3</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -21894,6 +22082,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -22023,6 +22212,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -22151,6 +22341,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -23643,6 +23834,7 @@
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
+			<bNoRevealMap>1</bNoRevealMap>
 			<iWithdrawalProb>70</iWithdrawalProb>
 			<iEarlyWithdraw>75</iEarlyWithdraw>
 			<iCityDefense>-80</iCityDefense>
