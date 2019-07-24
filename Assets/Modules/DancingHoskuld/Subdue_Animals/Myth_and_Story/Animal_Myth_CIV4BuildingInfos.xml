@@ -107,7 +107,7 @@
 			<BuildingClass>BUILDINGCLASS_BULL_MYTH</BuildingClass>
 			<Type>BUILDING_BULL_MYTH</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_BULL_MYTH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ANIMAL_MYTH_PEDIA</Civilopedia>
@@ -154,7 +154,7 @@
 			<BuildingClass>BUILDINGCLASS_BULL_MYTH_EFFECT</BuildingClass>
 			<Type>BUILDING_BULL_MYTH_EFFECT</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_BULL_MYTH_EFFECT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ANIMAL_MYTH_EFFECT_PEDIA</Civilopedia>
@@ -172,7 +172,7 @@
 			<BuildingClass>BUILDINGCLASS_CAMEL_MYTH</BuildingClass>
 			<Type>BUILDING_CAMEL_MYTH</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_CAMEL_MYTH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ANIMAL_MYTH_PEDIA</Civilopedia>
@@ -218,7 +218,7 @@
 			<BuildingClass>BUILDINGCLASS_DEER_MYTH</BuildingClass>
 			<Type>BUILDING_DEER_MYTH</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_DEER_MYTH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ANIMAL_MYTH_PEDIA</Civilopedia>
@@ -430,7 +430,7 @@
 			<BuildingClass>BUILDINGCLASS_HORSE_MYTH</BuildingClass>
 			<Type>BUILDING_HORSE_MYTH</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_HORSE_MYTH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ANIMAL_MYTH_PEDIA</Civilopedia>
@@ -476,7 +476,7 @@
 			<BuildingClass>BUILDINGCLASS_MARSUPIAL_MYTH</BuildingClass>
 			<Type>BUILDING_MARSUPIAL_MYTH</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_MARSUPIAL_MYTH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ANIMAL_MYTH_PEDIA</Civilopedia>
@@ -557,7 +557,7 @@
 			<BuildingClass>BUILDINGCLASS_OLD_MAN_MYTH</BuildingClass>
 			<Type>BUILDING_OLD_MAN_MYTH</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_OLD_MAN_MYTH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ANIMAL_MYTH_PEDIA</Civilopedia>
@@ -681,7 +681,7 @@
 			<BuildingClass>BUILDINGCLASS_SPOTTED_CAT_MYTH</BuildingClass>
 			<Type>BUILDING_SPOTTED_CAT_MYTH</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_SPOTTED_CAT_MYTH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ANIMAL_MYTH_PEDIA</Civilopedia>

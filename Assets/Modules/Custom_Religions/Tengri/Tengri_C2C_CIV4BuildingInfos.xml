@@ -10,7 +10,7 @@
 			<BuildingClass>BUILDINGCLASS_TENGRII_HORSE_BREEDER</BuildingClass>
 			<Type>BUILDING_TENGRII_HORSE_BREEDER</Type>
 			<AndDependencyTypes>
-             	<DependencyType>ERA_PREHISTORIC</DependencyType>
+             	<DependencyType>ERA_ANCIENT</DependencyType>
  			</AndDependencyTypes>
 			<SpecialBuildingType></SpecialBuildingType>
 			<Description>TXT_KEY_BUILDING_TENGRII_HORSE_BREEDER</Description>

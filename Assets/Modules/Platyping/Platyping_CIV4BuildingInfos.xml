@@ -665,7 +665,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<MaxStartEra>ERA_ANCIENT</MaxStartEra>
+			<MaxStartEra>ERA_SEDENTARY</MaxStartEra>
 			<PrereqTech>TECH_IDEOGRAMS</PrereqTech>
 			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>

@@ -6703,7 +6703,7 @@
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
-			<MaxStartEra>ERA_ANCIENT</MaxStartEra>
+			<MaxStartEra>ERA_SEDENTARY</MaxStartEra>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_LITERATURE</ObsoleteTech>
 			<!-- Cost -->
@@ -10459,7 +10459,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MEGALITH_CONSTRUCTION</PrereqTech>
 			<Bonus>BONUS_STONE</Bonus>
-			<MaxStartEra>ERA_ANCIENT</MaxStartEra>
+			<MaxStartEra>ERA_SEDENTARY</MaxStartEra>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
 			<!-- Cost -->
@@ -12252,7 +12252,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_DIVINATION</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<MaxStartEra>ERA_ANCIENT</MaxStartEra>
+			<MaxStartEra>ERA_SEDENTARY</MaxStartEra>
 			<!-- Cost -->
 			<iCost>1008</iCost>
 			<BonusProductionModifiers>

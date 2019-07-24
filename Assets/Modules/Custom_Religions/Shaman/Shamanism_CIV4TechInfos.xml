@@ -10,7 +10,7 @@
 			<Strategy>TXT_KEY_RELIGION_SHAMAN_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>30</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iGridX>13</iGridX>
 			<iGridY>17</iGridY>
 			<bGlobal>1</bGlobal>

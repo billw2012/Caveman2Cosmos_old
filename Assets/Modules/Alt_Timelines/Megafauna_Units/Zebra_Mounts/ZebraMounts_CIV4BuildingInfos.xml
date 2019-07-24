@@ -174,7 +174,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_CULTURAL_IDENTITY</PrereqTech>
 			<ObsoleteTech>TECH_AVIATION</ObsoleteTech>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>

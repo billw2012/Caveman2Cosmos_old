@@ -5309,15 +5309,15 @@
 			<Button>Art/Interface/Buttons/units/sparth/categories/species_ai.dds</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>
-			<Type>UNITCOMBAT_ERA_PREHISTORIC</Type>
-			<Description>TXT_KEY_UNITCOMBAT_ERA_PREHISTORIC</Description>
-			<EraType>ERA_PREHISTORIC</EraType>
-			<Button>Art/Interface/Buttons/units/sparth/categories/era_prehistoric.dds</Button>
-		</UnitCombatInfo>
-		<UnitCombatInfo>
 			<Type>UNITCOMBAT_ERA_ANCIENT</Type>
 			<Description>TXT_KEY_UNITCOMBAT_ERA_ANCIENT</Description>
 			<EraType>ERA_ANCIENT</EraType>
+			<Button>Art/Interface/Buttons/units/sparth/categories/era_prehistoric.dds</Button>
+		</UnitCombatInfo>
+		<UnitCombatInfo>
+			<Type>UNITCOMBAT_ERA_SEDENTARY</Type>
+			<Description>TXT_KEY_UNITCOMBAT_ERA_SEDENTARY</Description>
+			<EraType>ERA_SEDENTARY</EraType>
 			<Button>Art/Interface/Buttons/units/sparth/categories/era_ancient.dds</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>

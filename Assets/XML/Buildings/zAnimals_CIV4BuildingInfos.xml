@@ -19057,7 +19057,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ANIMAL_TOTEM</ArtDefineTag>
 			<PrereqTech>TECH_CULTURAL_IDENTITY</PrereqTech>
 			<ObsoleteTech>TECH_AVIATION</ObsoleteTech>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
@@ -19103,7 +19103,7 @@
 				<Bonus>BONUS_DOG</Bonus>
 			</PrereqBonuses>
 			<ObsoleteTech>TECH_AVIATION</ObsoleteTech>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
@@ -19159,7 +19159,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ANIMAL_TOTEM</ArtDefineTag>
 			<PrereqTech>TECH_CULTURAL_IDENTITY</PrereqTech>
 			<ObsoleteTech>TECH_AVIATION</ObsoleteTech>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
@@ -19961,7 +19961,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DOG</ArtDefineTag>
 			<PrereqTech>TECH_CANINE_DOMESTICATION</PrereqTech>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<iCost>80</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
@@ -20223,7 +20223,7 @@
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_GOVENORS_PETS</ArtDefineTag>
 			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
@@ -20423,7 +20423,7 @@
 			</ReplaceBuildings>
 			<!-- Construction Cost -->
 			<iCost>-1</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Unit effects -->
 			<UnitCombatFreeExperiences>
 				<UnitCombatFreeExperience>
@@ -20495,7 +20495,7 @@
 			<ObsoleteTech>TECH_SEMI_AUTOMATIC_WEAPONS</ObsoleteTech>
 			<!-- Construction Cost -->
 			<iCost>-1</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>
@@ -21271,7 +21271,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_SNAKE_CHARMER</ArtDefineTag>
 			<ObsoleteTech>TECH_MASS_MEDIA</ObsoleteTech>
 			<PrereqTech>TECH_PREHISTORIC_MUSIC</PrereqTech>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<iCost>-1</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>

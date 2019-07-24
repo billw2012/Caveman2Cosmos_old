@@ -71,7 +71,7 @@
 			<TriggerTexts>
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_CITY_RUINS_ANCIENT_1</Text>
-					<Era>ERA_ANCIENT</Era>
+					<Era>ERA_SEDENTARY</Era>
 				</TriggerText>
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_CITY_RUINS_ANCIENT_1</Text>
@@ -930,7 +930,7 @@
 			<TriggerTexts>
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_JOYOUS_WEDDING_1</Text>
-					<Era>ERA_ANCIENT</Era>
+					<Era>ERA_SEDENTARY</Era>
 				</TriggerText>
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_JOYOUS_WEDDING_1</Text>
@@ -1006,7 +1006,7 @@
 			<TriggerTexts>
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_WEDDING_FEUD_1</Text>
-					<Era>ERA_ANCIENT</Era>
+					<Era>ERA_SEDENTARY</Era>
 				</TriggerText>
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_WEDDING_FEUD_1</Text>
@@ -1082,7 +1082,7 @@
 			<TriggerTexts>
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_LEFT_AT_ALTAR_1</Text>
-					<Era>ERA_ANCIENT</Era>
+					<Era>ERA_SEDENTARY</Era>
 				</TriggerText>
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_LEFT_AT_ALTAR_1</Text>
@@ -1185,7 +1185,7 @@
 			<TriggerTexts>
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_TORNADO_1</Text>
-					<Era>ERA_ANCIENT</Era>
+					<Era>ERA_SEDENTARY</Era>
 				</TriggerText>
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_TORNADO_1</Text>
@@ -1293,7 +1293,7 @@
 			<TriggerTexts>
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_LOOTERS_1</Text>
-					<Era>ERA_ANCIENT</Era>
+					<Era>ERA_SEDENTARY</Era>
 				</TriggerText>
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_LOOTERS_1</Text>
@@ -9531,7 +9531,7 @@
 			<TriggerTexts>
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_CITY_RUINS_TREASURE_ANCIENT_1</Text>
-					<Era>ERA_ANCIENT</Era>
+					<Era>ERA_SEDENTARY</Era>
 				</TriggerText>
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_CITY_RUINS_TREASURE_ANCIENT_1</Text>

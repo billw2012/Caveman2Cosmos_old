@@ -10,7 +10,7 @@
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>309</iCost>
 			<bGlobal>1</bGlobal>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iGridX>30</iGridX>
 			<iGridY>17</iGridY>

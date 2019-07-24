@@ -217,7 +217,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<iAIWeight>0</iAIWeight>
 			<iCost>-1</iCost>

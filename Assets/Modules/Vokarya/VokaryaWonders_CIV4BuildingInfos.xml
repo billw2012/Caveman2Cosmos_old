@@ -795,7 +795,7 @@
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CAHOKIA</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_CAHOKIA</MovieDefineTag>
-			<MaxStartEra>ERA_ANCIENT</MaxStartEra>
+			<MaxStartEra>ERA_SEDENTARY</MaxStartEra>
 			<ObsoleteTech>TECH_THEOLOGY</ObsoleteTech>
 			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
@@ -1581,7 +1581,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HILLTARA</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_HILLTARA</MovieDefineTag>
-			<MaxStartEra>ERA_PREHISTORIC</MaxStartEra>
+			<MaxStartEra>ERA_ANCIENT</MaxStartEra>
 			<ObsoleteTech>TECH_HERALDRY</ObsoleteTech>
 			<PrereqTech>TECH_MEGALITH_CONSTRUCTION</PrereqTech>
 			<TechTypes>
@@ -3174,7 +3174,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SERPENT_MOUND</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SERPENT_MOUND</MovieDefineTag>
-			<MaxStartEra>ERA_ANCIENT</MaxStartEra>
+			<MaxStartEra>ERA_SEDENTARY</MaxStartEra>
 			<ObsoleteTech>TECH_THEOLOGY</ObsoleteTech>
 			<PrereqTech>TECH_STARGAZING</PrereqTech>
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>

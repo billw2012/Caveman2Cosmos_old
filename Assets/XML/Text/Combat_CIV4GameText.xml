@@ -6736,7 +6736,7 @@
 		<Polish>Artysta</Polish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UNITCOMBAT_ERA_PREHISTORIC</Tag>
+		<Tag>TXT_KEY_UNITCOMBAT_ERA_ANCIENT</Tag>
 		<English>Era(Prehistoric)</English>
 		<French>
 			<Text>Ere(Pré-histoire)</Text>
@@ -6752,7 +6752,7 @@
 		<Polish>Era (Prehistoryczna)</Polish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UNITCOMBAT_ERA_ANCIENT</Tag>
+		<Tag>TXT_KEY_UNITCOMBAT_ERA_SEDENTARY</Tag>
 		<English>Era(Ancient)</English>
 		<French>
 			<Text>Ere(Antiquité)</Text>

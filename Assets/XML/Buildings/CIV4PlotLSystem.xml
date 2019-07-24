@@ -423,7 +423,7 @@
 
 		<!-- 1x1 GENERIC ANCIENT -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu_farm02.nif</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -432,7 +432,7 @@
 			<Scale>0.55</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu_farm03.nif</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -441,7 +441,7 @@
 			<Scale>0.7</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::2x2_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -450,7 +450,7 @@
 			<Scale>0.25</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::1x1_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -459,7 +459,7 @@
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::1x1_02</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -468,7 +468,7 @@
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::1x1_03</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -477,7 +477,7 @@
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::1x1_04</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -486,7 +486,7 @@
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::1x1_05</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -495,7 +495,7 @@
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::1x1_06</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -504,7 +504,7 @@
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::1x1_07</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -513,7 +513,7 @@
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::1x1_08</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -522,7 +522,7 @@
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::1x1_09</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -580,7 +580,7 @@
 
 		<!-- 1x1 AFRO ANCIENT/CLASSICAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_africa.nif::1x1x1_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -589,7 +589,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_africa.nif::1x1x1_02</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -598,7 +598,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_africa.nif::1x1x2_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -607,7 +607,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_africa.nif::1x1x2_02</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -616,7 +616,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_africa.nif::1x1x2_03</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -673,7 +673,7 @@
 
 		<!-- 1x1 ARAB ANCIENT/CLASSICAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_arabia.nif::1x1x1_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -682,7 +682,7 @@
 			<Scale>0.26</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_arabia.nif::1x1x1_02</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -691,7 +691,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_arabia.nif::1x1x2_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -700,7 +700,7 @@
 			<Scale>0.26</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_arabia.nif::1x1x2_02</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -709,7 +709,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/med_arabia.nif::1x1x1_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -718,7 +718,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/med_arabia.nif::1x1x2_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -804,7 +804,7 @@
 
 		<!-- 1x1 ASIAN/JAPANESE ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::1x1_01</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -814,7 +814,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::1x1_02</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -824,7 +824,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::1x1_03</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -834,7 +834,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::1x1_04</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -844,7 +844,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::1x1_05</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -989,7 +989,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ALL,!!ERA_ANCIENT,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
+			<Attribute Class="Era">ERA_ALL,!!ERA_SEDENTARY,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Mongolia.nif::1x1x2_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1007,7 +1007,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ALL,!!ERA_ANCIENT,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
+			<Attribute Class="Era">ERA_ALL,!!ERA_SEDENTARY,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Mongolia.nif::1x2x2_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1018,7 +1018,7 @@
 
 		<!-- 1x1 SOUTH_EAST_ASIAN ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::1x1_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1036,7 +1036,7 @@
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::1x1_03</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1054,7 +1054,7 @@
 			<Scale>0.3</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::1x1_05</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1130,7 +1130,7 @@
 
 		<!-- 1x1 EGYPT ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_05</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1139,7 +1139,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_06</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1149,7 +1149,7 @@
 		</ArtRef>
 
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/med_egypt.nif::1x1x1_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1158,7 +1158,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/med_egypt.nif::1x1x1_02</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1167,7 +1167,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/med_egypt.nif::1x1x2_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1176,7 +1176,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/med_egypt.nif::1x1x2_02</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1196,7 +1196,7 @@
 
 		<!-- 1x1 CRESCENT ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1205,7 +1205,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_02</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1214,7 +1214,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_03</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1223,7 +1223,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_04</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1232,7 +1232,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_05</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1241,7 +1241,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_06</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1250,7 +1250,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_07</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1259,7 +1259,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_08</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -1268,7 +1268,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_09</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2025,7 +2025,7 @@
 
 		<!-- 1x1 NORSE ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/clas_norsca.nif::1x1x1_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2034,7 +2034,7 @@
 			<Scale>0.29</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/clas_norsca.nif::1x1x1_02</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2061,7 +2061,7 @@
 			<Scale>0.29</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/clas_norsca.nif::1x1x2_03</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2072,7 +2072,7 @@
 
 		<!-- 1x1 RUSSIAN ANCIENT/CLASSICAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/clas_norsca.nif::1x1x1_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2081,7 +2081,7 @@
 			<Scale>0.29</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/clas_norsca.nif::1x1x1_02</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2108,7 +2108,7 @@
 			<Scale>0.29</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/clas_norsca.nif::1x1x2_03</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2278,7 +2278,7 @@
 
 		<!-- 1x1 INDIAN ANCIENT/CLASSICAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2287,7 +2287,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_02</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2296,7 +2296,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_03</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2305,7 +2305,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_04</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2314,7 +2314,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_05</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2323,7 +2323,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_06</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2332,7 +2332,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_07</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2341,7 +2341,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_08</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2350,7 +2350,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_09</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2540,7 +2540,7 @@
 
 		<!-- 1x1 INCA/PACIFIC ANCIENT/CLASSICAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_South_America.nif::1x1_03</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2549,7 +2549,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_South_America.nif::1x1_04</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2558,7 +2558,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_South_America.nif::1x2_03</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2624,7 +2624,7 @@
 
 		<!-- 1x1 MESO ANCIENT/CLASSICAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Meso_America.nif::1x1_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2634,7 +2634,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Meso_America.nif::1x1_02</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2644,7 +2644,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Meso_America.nif::1x1_03</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2654,7 +2654,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Meso_America.nif::1x1_04</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2804,7 +2804,7 @@
 
 		<!-- 1x1 NATIVE ANCIENT/CLASSICAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Native_American.nif::1x1_01</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2813,7 +2813,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Native_American.nif::1x1_02</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2822,7 +2822,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Native_American.nif::1x1_04</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_COTTAGE,IMPROVEMENT_HAMLET,IMPROVEMENT_VILLAGE,IMPROVEMENT_TOWN,IMPROVEMENT_SUBURB</Attribute>
@@ -2978,7 +2978,7 @@
 		<Height>1</Height>
 		<!--Ancient LandWorked -->
 		<ArtRef Name="goal:IMPROVEMENT_LAND_WORKED">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/LandWorked/sm_farm_house.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/LandWorked/sm_farm_house.kfm</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_LAND_WORKED</Attribute>
@@ -3264,7 +3264,7 @@
 		
 		<!-- 2x1 GENERIC ANCIENT -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::1x2_01</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA,ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -3274,7 +3274,7 @@
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::2x1_01</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA,ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -3284,7 +3284,7 @@
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::2x1_02</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_IBERIA,ARTSTYLE_GRECO_ROMAN,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -3294,7 +3294,7 @@
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA,ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::2x1_03</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -3304,7 +3304,7 @@
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_IBERIA,ARTSTYLE_GRECO_ROMAN,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::2x1_04</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -3408,7 +3408,7 @@
 
 		<!-- 2x1 AFRO ANCIENT/CLASSICAL/MEDIEVAL/RENAISSANCE -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_africa.nif::1x2x2_01</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -3418,7 +3418,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_africa.nif::1x2x2_02</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -3448,7 +3448,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_africa.nif::1x2x2_05</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -3468,7 +3468,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_africa.nif::2x1x2_02</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -3591,7 +3591,7 @@
 
 		<!-- 2x1 ARABIAN ANCIENT/CLASSICAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_arabia.nif::1x1x2_03</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -3601,7 +3601,7 @@
 			<Scale>0.29</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_arabia.nif::1x2x2_01</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -3611,7 +3611,7 @@
 			<Scale>0.29</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_arabia.nif::1x2x2_05</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -3621,7 +3621,7 @@
 			<Scale>0.29</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_arabia.nif::2x1x2_02</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -3631,7 +3631,7 @@
 			<Scale>0.29</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_arabia.nif::1x2x2_04</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -3641,7 +3641,7 @@
 			<Scale>0.26</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_arabia.nif::2x1x2_04</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -3836,7 +3836,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::2x1_02</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -3846,7 +3846,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::2x1_03</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -3866,7 +3866,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::1x2_01</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -4071,7 +4071,7 @@
 
 		<!-- 2x1 MONGOL ANCIENT_TO_MODERN -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ALL,!!ERA_ANCIENT,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
+			<Attribute Class="Era">ERA_ALL,!!ERA_SEDENTARY,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Mongolia.nif::1x1x1_02</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -4081,7 +4081,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef> 
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Mongolia.nif::1x1x2_03</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -4091,7 +4091,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Mongolia.nif::1x2x2_02</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -4111,7 +4111,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ALL,!!ERA_ANCIENT,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
+			<Attribute Class="Era">ERA_ALL,!!ERA_SEDENTARY,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Mongolia.nif::1x2x2_05</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -4141,7 +4141,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ALL,!!ERA_ANCIENT,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
+			<Attribute Class="Era">ERA_ALL,!!ERA_SEDENTARY,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Mongolia.nif::2x1x2_02</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -4151,7 +4151,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ALL,!!ERA_ANCIENT,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
+			<Attribute Class="Era">ERA_ALL,!!ERA_SEDENTARY,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Mongolia.nif::2x1x2_03</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -4193,7 +4193,7 @@
 			<Scale>0.38</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::2x1_02</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -4203,7 +4203,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::2x1_03</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -4223,7 +4223,7 @@
 			<Scale>0.38</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::1x2_01</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -4233,7 +4233,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::1x1_02</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -4336,7 +4336,7 @@
 
 		<!-- 2x1 CRESCENT ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::2x1_01</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -4346,7 +4346,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::2x1_02</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -4356,7 +4356,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::2x1_03</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -4366,7 +4366,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::2x1_04</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -4376,7 +4376,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x2_01</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -4386,7 +4386,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x2_02</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -4611,7 +4611,7 @@
 
 		<!-- 2x1 EGYPT ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x2_01</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -4621,7 +4621,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x2_02</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -4631,7 +4631,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::2x1_01</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -4641,7 +4641,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::2x1_02</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -4651,7 +4651,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::2x1_03</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -4661,7 +4661,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::2x1_04</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -4672,7 +4672,7 @@
 		</ArtRef>
 
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/med_egypt.nif::1x2x2_01</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -4692,7 +4692,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/med_egypt.nif::1x2x2_03</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -5992,7 +5992,7 @@
 
 		<!-- 2x1 NORSE ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/clas_norsca.nif::1x2x2_01</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -6002,7 +6002,7 @@
 			<Scale>0.29</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/clas_norsca.nif::1x2x2_02</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -6032,7 +6032,7 @@
 			<Scale>0.29</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/clas_norsca.nif::1x2x2_05</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -6084,7 +6084,7 @@
 
 		<!-- 2x1 RUSSIAN ANCIENT/CLASSICAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/clas_norsca.nif::1x2x2_01</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -6094,7 +6094,7 @@
 			<Scale>0.29</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/clas_norsca.nif::1x2x2_02</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -6124,7 +6124,7 @@
 			<Scale>0.29</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/clas_norsca.nif::1x2x2_05</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -6450,7 +6450,7 @@
 
 		<!-- 2x1 INDIAN ANCIENT/CLASSICAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::2x1_01</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -6460,7 +6460,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::2x1_02</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -6470,7 +6470,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::2x1_03</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -6480,7 +6480,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::2x1_04</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -6490,7 +6490,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x2_01</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -6500,7 +6500,7 @@
 			<Scale>0.31</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x2_02</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -6728,7 +6728,7 @@
 
 		<!-- 2x1 INCA/PACIFIC ANCIENT/CLASSICAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_South_America.nif::1x2_01</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -6738,7 +6738,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_South_America.nif::1x2_03</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -6748,7 +6748,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_South_America.nif::1x2_04</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -6758,7 +6758,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_South_America.nif::2x1_02</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -6768,7 +6768,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_South_America.nif::2x1_04</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -6868,7 +6868,7 @@
 
 		<!-- 2x1 MESO ANCIENT/CLASSICAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Meso_America.nif::1x2_01</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -6879,7 +6879,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Meso_America.nif::1x2_02</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -6890,7 +6890,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Meso_America.nif::1x2_03</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -6901,7 +6901,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Meso_America.nif::1x2_04</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -6912,7 +6912,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Meso_America.nif::2x1_01</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -6923,7 +6923,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Meso_America.nif::2x1_02</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -6934,7 +6934,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Meso_America.nif::2x1_03</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -6945,7 +6945,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Meso_America.nif::2x1_04</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -7171,7 +7171,7 @@
 
 		<!-- 2x1 NATIVE ANCIENT/CLASSICAL -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Native_American.nif::1x2_01</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -7182,7 +7182,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Native_American.nif::1x2_02</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -7193,7 +7193,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 <!--		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Native_American.nif::1x2_03</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -7204,7 +7204,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef> -->
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Native_American.nif::1x2_04</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -7215,7 +7215,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Native_American.nif::2x1_01</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -7226,7 +7226,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Native_American.nif::2x1_02</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -7237,7 +7237,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Native_American.nif::2x1_03</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -7248,7 +7248,7 @@
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:building">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Native_American.nif::2x1_04</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -8400,7 +8400,7 @@
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_MONGOLIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation/Plantation.kfm</Attribute>
 			<Scale>0.9</Scale>
@@ -8422,7 +8422,7 @@
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Afro/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
 			<Attribute Class="Scalar">bImprovementWorkedOnly:1</Attribute>
@@ -8435,7 +8435,7 @@
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Afro/Plantation_early_off.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
 			<Attribute Class="Scalar">bImprovementWorkedOnly:0</Attribute>
@@ -8461,7 +8461,7 @@
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation/Plantation.kfm</Attribute>
 			<Scale>0.9</Scale>
@@ -8485,7 +8485,7 @@
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Mediterranean/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/workshop/workshop.kfm</Attribute>
 			<Rotate>-45</Rotate>
@@ -8510,7 +8510,7 @@
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Meso/plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/workshop/workshop.kfm</Attribute>
 			<Rotate>-45</Rotate>
@@ -8535,7 +8535,7 @@
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Native/plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/workshop/workshop.kfm</Attribute>
 			<Rotate>-45</Rotate>
@@ -8586,7 +8586,7 @@
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Europe/plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/workshop/workshop.kfm</Attribute>
 			<Rotate>-45</Rotate>
@@ -8636,7 +8636,7 @@
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_RUSSIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Norse/plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/workshop/workshop.kfm</Attribute>
 			<Rotate>-45</Rotate>
@@ -8674,7 +8674,7 @@
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA,ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_MiddleEast/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Rotate>-45</Rotate>
@@ -8712,7 +8712,7 @@
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_SPINNER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_MONGOLIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -8749,7 +8749,7 @@
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_SPINNER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_MONGOLIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -8794,7 +8794,7 @@
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_SPINNER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Afro/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -8832,7 +8832,7 @@
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_SPINNER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Afro/Plantation_early_off.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -8910,7 +8910,7 @@
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_SPINNER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Mediterranean/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -8948,7 +8948,7 @@
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_SPINNER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Mediterranean/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -8987,7 +8987,7 @@
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_SPINNER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Meso/plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -9025,7 +9025,7 @@
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_SPINNER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Meso/plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -9064,7 +9064,7 @@
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_SPINNER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA,ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_MiddleEast/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -9102,7 +9102,7 @@
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_SPINNER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA,ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_MiddleEast/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -9141,7 +9141,7 @@
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_SPINNER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Native/plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -9179,7 +9179,7 @@
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_SPINNER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Native/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -9292,7 +9292,7 @@
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_SPINNER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Europe/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -9368,7 +9368,7 @@
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_SPINNER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Europe/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -9445,7 +9445,7 @@
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_SPINNER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_RUSSIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Norse/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -9502,7 +9502,7 @@
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_SPINNER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SILK_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_RUSSIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Norse/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -9561,7 +9561,7 @@
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_MONGOLIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -9596,7 +9596,7 @@
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_MONGOLIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Scale>0.9</Scale>
@@ -9655,7 +9655,7 @@
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Afro/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -9691,7 +9691,7 @@
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Afro/Plantation_early_off.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
 			<Scale>0.9</Scale>
@@ -9765,7 +9765,7 @@
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Mediterranean/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -9801,7 +9801,7 @@
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Mediterranean/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Scale>0.44</Scale>
@@ -9838,7 +9838,7 @@
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Meso/plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -9874,7 +9874,7 @@
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Meso/plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Scale>0.29</Scale>
@@ -9911,7 +9911,7 @@
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA,ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_MiddleEast/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -9947,7 +9947,7 @@
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA,ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_MiddleEast/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Scale>0.26</Scale>
@@ -9984,7 +9984,7 @@
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Native/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -10020,7 +10020,7 @@
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Native/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Scale>0.29</Scale>
@@ -10131,7 +10131,7 @@
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Europe/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -10203,7 +10203,7 @@
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Europe/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Scale>0.29</Scale>
@@ -10276,7 +10276,7 @@
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_RUSSIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Norse/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -10330,7 +10330,7 @@
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SPICE_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_RUSSIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Norse/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Scale>0.26</Scale>
@@ -10408,7 +10408,7 @@
 			<Attribute Class="Bonus">BONUS_COTTON</Attribute>
 			<Attribute Class="Scalar">iCropArea:16</Attribute>
 			<Attribute Class="Scalar">szExtra:art:COTTON_PLANTATION_RACK</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -10440,7 +10440,7 @@
 			<Attribute Class="Bonus">BONUS_COTTON</Attribute>
 			<Attribute Class="Scalar">iCropArea:8</Attribute>
 			<Attribute Class="Scalar">szExtra:art:COTTON_PLANTATION_RACK</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Scale>0.9</Scale>
@@ -10496,7 +10496,7 @@
 			<Attribute Class="Bonus">BONUS_TOBACCO</Attribute>
 			<Attribute Class="Scalar">iCropArea:16</Attribute>
 			<Attribute Class="Scalar">szExtra:art:TOBACCO_PLANTATION_RACK</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -10528,7 +10528,7 @@
 			<Attribute Class="Bonus">BONUS_TOBACCO</Attribute>
 			<Attribute Class="Scalar">iCropArea:8</Attribute>
 			<Attribute Class="Scalar">szExtra:art:TOBACCO_PLANTATION_RACK</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Scale>0.9</Scale>
@@ -10586,7 +10586,7 @@
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_MONGOLIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -10620,7 +10620,7 @@
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_MONGOLIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -10745,7 +10745,7 @@
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Afro/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -10779,7 +10779,7 @@
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Afro/Plantation_early_off.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -10849,7 +10849,7 @@
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Mediterranean/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -10883,7 +10883,7 @@
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Mediterranean/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -10918,7 +10918,7 @@
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Meso/plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -10952,7 +10952,7 @@
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Meso/plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -10987,7 +10987,7 @@
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA,ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_MiddleEast/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -11021,7 +11021,7 @@
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA,ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_MiddleEast/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -11056,7 +11056,7 @@
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Native/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -11090,7 +11090,7 @@
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Native/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -11195,7 +11195,7 @@
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Europe/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -11263,7 +11263,7 @@
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Europe/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -11332,7 +11332,7 @@
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_RUSSIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Norse/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -11383,7 +11383,7 @@
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:SUGAR_PLANTATION_RACK</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_RUSSIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Norse/Plantation_early.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -11471,7 +11471,7 @@
 			<Attribute Class="Scalar">iCropArea:16</Attribute>
 			<Attribute Class="Scalar">szExtra:art:LEMON_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:LEMON_PLANTATION_RACK</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -11504,7 +11504,7 @@
 			<Attribute Class="Scalar">iCropArea:8</Attribute>
 			<Attribute Class="Scalar">szExtra:art:LEMQE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:LEMQE_PLANTATION_RACK</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Scale>0.9</Scale>
@@ -11561,7 +11561,7 @@
 			<Attribute Class="Scalar">iCropArea:24</Attribute>
 			<Attribute Class="Scalar">szExtra:art:CNQ_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:CNQ_PLANTATION_RACK</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -11592,7 +11592,7 @@
 			<Attribute Class="Scalar">iCropArea:10</Attribute>
 			<Attribute Class="Scalar">szExtra:art:CNQ_PLANTATION_POOL</Attribute>
 			<Attribute Class="Scalar">szExtra:art:CNQ_PLANTATION_RACK</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -11647,7 +11647,7 @@
 			<Attribute Class="Scalar">iCropArea:16</Attribute>
 			<Attribute Class="Scalar">szExtra:art:COFWE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:COFWE_PLANTATION_RACK</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -11680,7 +11680,7 @@
 			<Attribute Class="Scalar">iCropArea:8</Attribute>
 			<Attribute Class="Scalar">szExtra:art:COFWE_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:COFWE_PLANTATION_RACK</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Scale>0.9</Scale>
@@ -11738,7 +11738,7 @@
 			<Attribute Class="Scalar">iCropArea:16</Attribute>
 			<Attribute Class="Scalar">szExtra:art:TEA_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:TEA_PLANTATION_RACK</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
@@ -11771,7 +11771,7 @@
 			<Attribute Class="Scalar">iCropArea:8</Attribute>
 			<Attribute Class="Scalar">szExtra:art:TEA_PLANTATION_GRINDER</Attribute>
 			<Attribute Class="Scalar">szExtra:art:TEA_PLANTATION_RACK</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation_Plain/Plantation.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation_Plain/Plantation.kfm</Attribute>
 			<Scale>0.9</Scale>
@@ -11966,7 +11966,7 @@
 		<!-- ANCIENT/CLASSICAL AFRO FARMHOUSES -->
 		<ArtRef Name="art:IMPROVEMENT_FARM1">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Africa.nif::1x1x1_01</Attribute> 
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">szSpecialLayout:CityRiver</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
@@ -11975,7 +11975,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM2">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Africa.nif::1x1x1_02</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -11983,7 +11983,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM3">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Africa.nif::1x1x1_01</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -11992,7 +11992,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Africa.nif::1x1x1_02</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -12091,7 +12091,7 @@
 		<!-- ANCIENT/CLASSICAL ARABIAN FARMHOUSES -->
 		<ArtRef Name="art:IMPROVEMENT_FARM1">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Arabia.nif::1x1x1_01</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -12099,7 +12099,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM2">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Arabia.nif::1x1x2_01</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -12107,7 +12107,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM3">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Arabia.nif::1x1x1_01</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -12116,7 +12116,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Arabia.nif::1x1x2_01</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -12232,7 +12232,7 @@
 		<!-- ANCIENT/CLASSICAL ASIAN/JAPANESE/SOUTH_EAST_ASIAN FARMHOUSES -->
 		<ArtRef Name="art:IMPROVEMENT_FARM1">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::1x1_05</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -12240,7 +12240,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM2">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::1x1_01</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -12248,7 +12248,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM3">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::1x1_05</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -12257,7 +12257,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_asia.nif::1x1_01</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -12411,7 +12411,7 @@
 		<!-- ANCIENT/CLASSICAL MONGOL FARMHOUSES -->
 		<ArtRef Name="art:IMPROVEMENT_FARM1">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Mongolia.nif::1x1x2_02</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -12419,7 +12419,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM2">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Mongolia.nif::1x2x2_03</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -12427,7 +12427,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM3">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Mongolia.nif::1x1x2_02</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -12436,7 +12436,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Mongolia.nif::1x2x2_03</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -12589,7 +12589,7 @@
 		<!-- ANCIENT CRESCENT/EGYPTIAN/INDIAN FARMHOUSES -->
 		<ArtRef Name="art:IMPROVEMENT_FARM1">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_04</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -12597,7 +12597,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM2">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_07</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -12605,7 +12605,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM3">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_04</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -12614,7 +12614,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_egypt.nif::1x1_07</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
@@ -12802,21 +12802,21 @@
 		<!-- ANCIENT GRECO_ROMAN FARMHOUSES -->
 		<ArtRef Name="art:IMPROVEMENT_FARM1">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::1x1_06</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM2">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::1x1_08</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Scale>0.41</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM3">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::1x1_06</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Rotate>-45</Rotate> 
@@ -12824,7 +12824,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::1x1_08</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Rotate>-45</Rotate> 
@@ -12914,21 +12914,21 @@
 		<!-- ANCIENT IBERIAN FARMHOUSES -->
 		<ArtRef Name="art:IMPROVEMENT_FARM1">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::2x2_01</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM2">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::1x1_03</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM3">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::2x2_01</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Rotate>-45</Rotate> 
@@ -12936,7 +12936,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_eu.nif::1x1_03</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Rotate>-45</Rotate> 
@@ -13238,7 +13238,7 @@
 		<ArtRef Name="art:IMPROVEMENT_FARM1">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_South_America.nif::1x1_03</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
 			<Scale>0.35</Scale>
@@ -13246,7 +13246,7 @@
 		<ArtRef Name="art:IMPROVEMENT_FARM2">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_South_America.nif::1x1_04</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
 			<Scale>0.35</Scale>
@@ -13254,7 +13254,7 @@
 		<ArtRef Name="art:IMPROVEMENT_FARM3">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_South_America.nif::1x1_03</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
 			<Rotate>-45</Rotate> 
@@ -13263,7 +13263,7 @@
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_South_America.nif::1x1_04</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
 			<Rotate>-45</Rotate> 
@@ -13344,7 +13344,7 @@
 		<ArtRef Name="art:IMPROVEMENT_FARM1">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Native_American.nif::1x1_01</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
 			<Scale>0.35</Scale>
@@ -13352,7 +13352,7 @@
 		<ArtRef Name="art:IMPROVEMENT_FARM2">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Native_American.nif::1x1_02</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
 			<Scale>0.35</Scale>
@@ -13360,7 +13360,7 @@
 		<ArtRef Name="art:IMPROVEMENT_FARM3">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Native_American.nif::1x1_01</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
 			<Rotate>-45</Rotate> 
@@ -13369,7 +13369,7 @@
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Native_American.nif::1x1_02</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
 			<Rotate>-45</Rotate> 
@@ -13416,7 +13416,7 @@
 		<ArtRef Name="art:IMPROVEMENT_FARM1">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Meso_America.nif::1x1_02</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
 			<Scale>0.35</Scale>
@@ -13424,7 +13424,7 @@
 		<ArtRef Name="art:IMPROVEMENT_FARM2">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Meso_America.nif::1x2_04</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
 			<Scale>0.35</Scale>
@@ -13432,7 +13432,7 @@
 		<ArtRef Name="art:IMPROVEMENT_FARM3">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Meso_America.nif::1x1_02</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
 			<Rotate>-45</Rotate> 
@@ -13441,7 +13441,7 @@
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Meso_America.nif::1x2_04</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
 			<Rotate>-45</Rotate> 
@@ -13645,21 +13645,21 @@
 		<!-- GENERIC ANCIENT FARMHOUSES -->
 		<ArtRef Name="art:IMPROVEMENT_FARM1">
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/an_eu_farm02.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_BARBARIAN,ARTSTYLE_EUROPE,ARTSTYLE_IBERIA,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Scale>0.75</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM2">
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/an_eu_farm03.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_BARBARIAN,ARTSTYLE_EUROPE,ARTSTYLE_IBERIA,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM3">
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/an_eu_farm02.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_BARBARIAN,ARTSTYLE_EUROPE,ARTSTYLE_IBERIA,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Rotate>-45</Rotate>
@@ -13667,7 +13667,7 @@
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/an_eu_farm03.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_BARBARIAN,ARTSTYLE_EUROPE,ARTSTYLE_IBERIA,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Rotate>-45</Rotate>
@@ -13982,7 +13982,7 @@
 		<Attribute Class="Scalar">bNotBFS:1</Attribute>
 		<!-- generic ancient farms -->
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute> 
 			<Attribute Class="Bonus">NO_BONUS,BONUS_ALL,!BONUS_RICE,!BONUS_WHEAT,!BONUS_CORN,!BONUS_POTATO</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
@@ -13998,7 +13998,7 @@
 			<Scale>0.75</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute> 
 			<Attribute Class="Bonus">NO_BONUS,BONUS_ALL,!BONUS_RICE,!BONUS_WHEAT,!BONUS_CORN,!BONUS_POTATO</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
@@ -14014,7 +14014,7 @@
 			<Scale>0.0</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute> 
 			<Attribute Class="Bonus">BONUS_CORN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
@@ -14030,7 +14030,7 @@
 			<Scale>0.75</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute> 
 			<Attribute Class="Bonus">BONUS_CORN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
@@ -14046,7 +14046,7 @@
 			<Scale>0.0</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute> 
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
@@ -14060,7 +14060,7 @@
 			<Scale>0.75</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute> 
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
@@ -14362,7 +14362,7 @@
 
 		<!-- ANCIENT/CLASSICAL AFRO/ARABIAN/INCA/MESO/MONGOL/NATIVE FARMS -->
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA,ARTSTYLE_ARABIA,ARTSTYLE_MESO_AMERICA,ARTSTYLE_MONGOLIA,ARTSTYLE_NATIVE_AMERICA,ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Bonus">NO_BONUS,BONUS_ALL,!BONUS_RICE,!BONUS_WHEAT,!BONUS_CORN,!BONUS_POTATO</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
@@ -14378,7 +14378,7 @@
 			<Scale>0.75</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA,ARTSTYLE_ARABIA,ARTSTYLE_MESO_AMERICA,ARTSTYLE_MONGOLIA,ARTSTYLE_NATIVE_AMERICA,ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Bonus">NO_BONUS,BONUS_ALL,!BONUS_RICE,!BONUS_WHEAT,!BONUS_CORN,!BONUS_POTATO</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
@@ -14394,7 +14394,7 @@
 			<Scale>0.0</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA,ARTSTYLE_ARABIA,ARTSTYLE_MESO_AMERICA,ARTSTYLE_MONGOLIA,ARTSTYLE_NATIVE_AMERICA,ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Bonus">BONUS_CORN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
@@ -14410,7 +14410,7 @@
 			<Scale>0.75</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA,ARTSTYLE_ARABIA,ARTSTYLE_MESO_AMERICA,ARTSTYLE_MONGOLIA,ARTSTYLE_NATIVE_AMERICA,ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Bonus">BONUS_CORN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
@@ -14426,7 +14426,7 @@
 			<Scale>0.0</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA,ARTSTYLE_ARABIA,ARTSTYLE_MESO_AMERICA,ARTSTYLE_MONGOLIA,ARTSTYLE_NATIVE_AMERICA,ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
@@ -14440,7 +14440,7 @@
 			<Rotate>-45</Rotate>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA,ARTSTYLE_ARABIA,ARTSTYLE_MESO_AMERICA,ARTSTYLE_MONGOLIA,ARTSTYLE_NATIVE_AMERICA,ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
@@ -15513,7 +15513,7 @@
 		<Attribute Class="RegionTest">0NW</Attribute>
 		<ArtRef Name="goal:IMPROVEMENT_WATER_WORKED">
 			<Attribute Class="Improvement">IMPROVEMENT_WATER_WORKED</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
 		</ArtRef>
@@ -15559,7 +15559,7 @@
 		<!-- fish -->
 		<ArtRef Name="goal:IMPROVEMENT_FISHING_BOATS">
 			<Attribute Class="Improvement">IMPROVEMENT_FISHING_BOATS</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
 		</ArtRef>
@@ -15598,7 +15598,7 @@
 		<!-- whale -->
 		<ArtRef Name="goal:IMPROVEMENT_WHALING_BOATS">
 			<Attribute Class="Improvement">IMPROVEMENT_WHALING_BOATS</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
 		</ArtRef>
@@ -15622,7 +15622,7 @@
 		<!-- mine -->
 		<ArtRef Name="goal:IMPROVEMENT_MINE">
 			<Attribute Class="Improvement">IMPROVEMENT_MINE</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Mine/Mine.nif</Attribute>
@@ -15643,7 +15643,7 @@
 		<!-- shaft mine -->
 		<ArtRef Name="goal:IMPROVEMENT_SHAFT_MINE">
 			<Attribute Class="Improvement">IMPROVEMENT_SHAFT_MINE</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Mine/Mine.nif</Attribute>
@@ -15674,7 +15674,7 @@
 		<!-- fort -->
 		<ArtRef Name="goal:IMPROVEMENT_FORT">
 			<Attribute Class="Improvement">IMPROVEMENT_FORT</Attribute>
-<!--			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute> -->
+<!--			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute> -->
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Fort/eu_an_fort.nif</Attribute>
@@ -15688,7 +15688,7 @@
 		<!-- PACIFIC FORT -->
 		<ArtRef Name="goal:IMPROVEMENT_FORT">
 			<Attribute Class="Improvement">IMPROVEMENT_FORT</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Artstyle">ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
@@ -15703,7 +15703,7 @@
 		<!-- AFRO FORT -->
 		<ArtRef Name="goal:IMPROVEMENT_FORT">
 			<Attribute Class="Improvement">IMPROVEMENT_FORT</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Artstyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
@@ -15745,7 +15745,7 @@
 		<!-- NATIVE FORT -->
 		<ArtRef Name="goal:IMPROVEMENT_FORT">
 			<Attribute Class="Improvement">IMPROVEMENT_FORT</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Artstyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
@@ -15774,7 +15774,7 @@
 		<!-- MESO FORT -->
 		<ArtRef Name="goal:IMPROVEMENT_FORT">
 			<Attribute Class="Improvement">IMPROVEMENT_FORT</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Artstyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
@@ -15803,7 +15803,7 @@
 		<!-- CRESCENT FORT -->
 		<ArtRef Name="goal:IMPROVEMENT_FORT">
 			<Attribute Class="Improvement">IMPROVEMENT_FORT</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA,ARTSTYLE_EGYPT,ARTSTYLE_INDIA,ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
@@ -15875,7 +15875,7 @@
 		<!-- EUROPEAN FORT -->
 		<ArtRef Name="goal:IMPROVEMENT_FORT">
 			<Attribute Class="Improvement">IMPROVEMENT_FORT</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_RUSSIA,ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
@@ -15903,7 +15903,7 @@
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FORT">
 			<Attribute Class="Improvement">IMPROVEMENT_FORT</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
@@ -15991,7 +15991,7 @@
 		<!-- MONGOL FORT -->
 		<ArtRef Name="goal:IMPROVEMENT_FORT">
 			<Attribute Class="Improvement">IMPROVEMENT_FORT</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
@@ -16006,7 +16006,7 @@
 		<!-- ASIAN FORT -->
 		<ArtRef Name="goal:IMPROVEMENT_FORT">
 			<Attribute Class="Improvement">IMPROVEMENT_FORT</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
@@ -16064,13 +16064,13 @@
 		<!-- Pasture -->
 		<ArtRef Name="goal:IMPROVEMENT_PASTURE">
 			<Attribute Class="Improvement">IMPROVEMENT_PASTURE</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_PASTURE">
 			<Attribute Class="Improvement">IMPROVEMENT_PASTURE</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Artstyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_MONGOLIA,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
@@ -16098,7 +16098,7 @@
 		<!-- Quarry -->
 		<ArtRef Name="goal:IMPROVEMENT_QUARRY">
 			<Attribute Class="Improvement">IMPROVEMENT_QUARRY</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Quarry/Quarry.nif</Attribute>
@@ -16116,7 +16116,7 @@
 		<!-- Windmill -->
 		<ArtRef Name="goal:IMPROVEMENT_WINDMILL">
 			<Attribute Class="Improvement">IMPROVEMENT_WINDMILL</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/WindMill/WindMill.nif</Attribute>
@@ -16151,7 +16151,7 @@
 		<!-- Workshop -->
 		<ArtRef Name="goal:IMPROVEMENT_WORKSHOP">
 			<Attribute Class="Improvement">IMPROVEMENT_WORKSHOP</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Workshop/Workshop.nif</Attribute>

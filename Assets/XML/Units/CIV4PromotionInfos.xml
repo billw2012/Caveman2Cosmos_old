@@ -25743,7 +25743,7 @@
 			<Description>TXT_KEY_PROMOTION_POLICING2_DESC</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<TechPrereq>TECH_DUALISM</TechPrereq>
-			<MinEraType>ERA_ANCIENT</MinEraType>
+			<MinEraType>ERA_SEDENTARY</MinEraType>
 			<PromotionLine>PROMOTIONLINE_POLICING</PromotionLine>
 			<iLinePriority>2</iLinePriority>
 			<iInvestigationChange>2</iInvestigationChange>
@@ -26098,7 +26098,7 @@
 			<Description>TXT_KEY_PROMOTION_DISEASE_CONTROL2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<TechPrereq>TECH_FOLK_MEDICINE</TechPrereq>
-			<MinEraType>ERA_ANCIENT</MinEraType>
+			<MinEraType>ERA_SEDENTARY</MinEraType>
 			<PromotionLine>PROMOTIONLINE_DISEASE_CONTROL</PromotionLine>
 			<iLinePriority>2</iLinePriority>
 			<Button>art/Buttons/Promotions/DiseaseControl2Promotion.dds</Button>
@@ -29803,7 +29803,7 @@
 			<Description>TXT_KEY_PROMOTION_BUILD_UP_CRIME_FIGHTING2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<TechPrereq>TECH_COMMUNITY</TechPrereq>
-			<MinEraType>ERA_ANCIENT</MinEraType>
+			<MinEraType>ERA_SEDENTARY</MinEraType>
 			<PromotionLine>PROMOTIONLINE_BUILD_UP_CRIME_FIGHTING</PromotionLine>
 			<iLinePriority>2</iLinePriority>
 			<PropertyManipulators>
@@ -29932,7 +29932,7 @@
 			<Description>TXT_KEY_PROMOTION_BUILD_UP_DISEASE_CONTROL2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<TechPrereq>TECH_FOLK_MEDICINE</TechPrereq>
-			<MinEraType>ERA_ANCIENT</MinEraType>
+			<MinEraType>ERA_SEDENTARY</MinEraType>
 			<PromotionLine>PROMOTIONLINE_BUILD_UP_DISEASE_CONTROL</PromotionLine>
 			<iLinePriority>2</iLinePriority>
 			<PropertyManipulators>
