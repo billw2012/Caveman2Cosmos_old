@@ -1,6 +1,6 @@
 Version=11
 BeginGame
-	Era=ERA_PREHISTORIC
+	Era=ERA_ANCIENT
 	Speed=GAMESPEED_SNAIL
 	Calendar=CALENDAR_DEFAULT
 	Option=GAMEOPTION_RAGING_BARBARIANS
@@ -300,7 +300,7 @@ BeginPlayer
 	StartingGold=0
 	StartingX=25, StartingY=9
 	StateReligion=
-	StartingEra=ERA_PREHISTORIC
+	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
 	Handicap=HANDICAP_NOBLE
 EndPlayer
@@ -321,7 +321,7 @@ BeginPlayer
 	StartingGold=0
 	StartingX=42, StartingY=31
 	StateReligion=
-	StartingEra=ERA_PREHISTORIC
+	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
 	Handicap=HANDICAP_NOBLE
 EndPlayer
@@ -342,7 +342,7 @@ BeginPlayer
 	StartingGold=0
 	StartingX=43, StartingY=44
 	StateReligion=
-	StartingEra=ERA_PREHISTORIC
+	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
 	Handicap=HANDICAP_NOBLE
 EndPlayer
@@ -363,7 +363,7 @@ BeginPlayer
 	StartingGold=0
 	StartingX=12, StartingY=40
 	StateReligion=
-	StartingEra=ERA_PREHISTORIC
+	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
 	Handicap=HANDICAP_NOBLE
 EndPlayer
@@ -384,7 +384,7 @@ BeginPlayer
 	StartingGold=0
 	StartingX=47, StartingY=18
 	StateReligion=
-	StartingEra=ERA_PREHISTORIC
+	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
 	Handicap=HANDICAP_NOBLE
 EndPlayer
@@ -397,7 +397,7 @@ BeginPlayer
 	StartingGold=0
 	StartingX=14, StartingY=54
 	StateReligion=
-	StartingEra=ERA_PREHISTORIC
+	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
 	Handicap=HANDICAP_NOBLE
 EndPlayer
@@ -418,7 +418,7 @@ BeginPlayer
 	StartingGold=0
 	StartingX=55, StartingY=32
 	StateReligion=
-	StartingEra=ERA_PREHISTORIC
+	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
 	Handicap=HANDICAP_NOBLE
 EndPlayer
@@ -431,7 +431,7 @@ BeginPlayer
 	StartingGold=0
 	StartingX=39, StartingY=56
 	StateReligion=
-	StartingEra=ERA_PREHISTORIC
+	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
 	Handicap=HANDICAP_NOBLE
 EndPlayer
