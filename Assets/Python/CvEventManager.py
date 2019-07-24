@@ -252,7 +252,8 @@ class CvEventManager:
 					"IMPROVEMENT_YOUNG_FOREST"	: GC.getInfoTypeForString('IMPROVEMENT_YOUNG_FOREST'),
 					"IMPROVEMENT_PLANT_FOREST"	: GC.getInfoTypeForString('IMPROVEMENT_PLANT_FOREST'),
 					"IMPROVEMENT_PLANT_BAMBOO"	: GC.getInfoTypeForString('IMPROVEMENT_PLANT_BAMBOO'),
-					"IMPROVEMENT_PLANT_SAVANNA"	: GC.getInfoTypeForString('IMPROVEMENT_PLANT_SAVANNA')
+					"IMPROVEMENT_PLANT_SAVANNA"	: GC.getInfoTypeForString('IMPROVEMENT_PLANT_SAVANNA'),
+					"IMPROVEMENT_FARM"			: GC.getInfoTypeForString('IMPROVEMENT_FARM')
 				}
 				self.mapPromoType = {
 					"PROMOTION_LIVE1"				: GC.getInfoTypeForString('PROMOTION_LIVE1'),
@@ -298,6 +299,18 @@ class CvEventManager:
 				for iUnit in xrange(GC.getNumUnitInfos()):
 					if GC.getUnitInfo(iUnit).getType().find("UNIT_SUBDUED") > -1:
 						aList.append(iUnit)
+				# Militia
+				self.CIVIC_CONSCRIPTION = GC.getInfoTypeForString("CIVIC_CONSCRIPTION1")
+				iMedieval = GC.getInfoTypeForString('UNIT_MILITIA_MEDIEVAL')
+				iModern = GC.getInfoTypeForString('UNIT_MILITIA_MODERN')
+				self.mapMilitiaByEra = {
+					GC.getInfoTypeForString('ERA_CLASSICAL')	: iMedieval,
+					GC.getInfoTypeForString('ERA_MEDIEVAL')		: iMedieval,
+					GC.getInfoTypeForString('ERA_RENAISSANCE')	: GC.getInfoTypeForString('UNIT_MILITIA_RENAISSANCE'),
+					GC.getInfoTypeForString('ERA_INDUSTRIAL')	: GC.getInfoTypeForString('UNIT_MILITIA_INDUSTRIAL'),
+					GC.getInfoTypeForString('ERA_MODERN')		: iModern,
+					GC.getInfoTypeForString('ERA_INFORMATION')	: iModern
+				}
 				# Only needs to be done once.
 				self.bNotReady = False
 
@@ -1126,6 +1139,16 @@ class CvEventManager:
 			CyPlot = GC.getMap().plot(iX, iY)
 			CyPlot.setFeatureType(GC.getInfoTypeForString('FEATURE_SAVANNA'), 0)
 			CyPlot.setImprovementType(-1)
+
+		elif iImprovement == mapImpType['IMPROVEMENT_FARM']:
+			iPlayer = GC.getMap().plot(iX, iY).getOwner()
+			if iPlayer != -1:
+				CyPlayer = GC.getPlayer(iPlayer)
+				if CyPlayer.isCivic(self.CIVIC_CONSCRIPTION):
+					iEra = CyPlayer.getCurrentEra()
+					if iEra != -1 and iEra in self.mapMilitiaByEra and self.mapMilitiaByEra[iEra] != -1:
+						CyPlayer.initUnit(self.mapMilitiaByEra[iEra], iX, iY, UnitAITypes.UNITAI_RESERVE, DirectionTypes.NO_DIRECTION)
+						CyInterface().addMessage(iPlayer, False, 15, TRNSLTR.getText("TXT_RECRUITED",()), '', 0, 'Art/Interface/Buttons/Civics/Serfdom.dds', ColorTypes(44), iX, iY, True, True)
 
 
 	'''
