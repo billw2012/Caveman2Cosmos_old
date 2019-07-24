@@ -31436,5 +31436,19 @@
 			<Button>,Art/Interface/Buttons/Promotions/Security5BuildUp.dds</Button>
 		</PromotionInfo>
 -->
+		<PromotionInfo>
+			<Type>PROMOTION_FA_MEN_SI_INSPIRED</Type>
+			<Description>TXT_KEY_PROMOTION_FA_MEN_SI_INSPIRED</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<TechPrereq>TECH_DUMMY</TechPrereq>
+			<iMovesChange>1</iMovesChange>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MISSIONARY</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>,Art/Interface/Buttons/Promotions/Combat5.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,7,16</Button>
+		</PromotionInfo>
 	</PromotionInfos>
 </Civ4PromotionInfos>
