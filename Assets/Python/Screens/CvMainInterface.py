@@ -1868,12 +1868,9 @@ class CvMainInterface:
 		if not CyPlot:
 			self.cleanPlotList(screen)
 			return
-		AtUnit = self.AtUnit
-		if not AtUnit:
-			self.cleanPlotList(screen)
-			return
-		iUnits = CyPlot.getNumUnits()
+
 		# Prepare the basics.
+		iUnits = CyPlot.getNumUnits()
 		x = self.xMidL
 		bCityScreen	= self.bCityScreen
 		iMaxRows	= self.iPlotListMaxRows
@@ -1894,17 +1891,23 @@ class CvMainInterface:
 				w = self.xMidR - x
 			iMaxCols = w / iSize4
 			iMaxUnits = iMaxCols * iMaxRows
+
 		if self.bScrollPlotlist:
 			self.bScrollPlotlist = False
 		else:
-			# Find selected unit list position
-			iPos = 0
-			while iPos < iUnits:
-				if CyPlot.getUnit(iPos).getID() == AtUnit.iUnitID:
-					if iPos + 1 > iMaxUnits:
-						self.iPlotListTopRow = iTopRow = 1 + (iPos + 1 - iMaxUnits)/iMaxCols
-					break
-				iPos += 1
+			# Analyze plot list unit selection
+			AtUnit = self.AtUnit
+			if AtUnit:
+				InCity = self.InCity
+				if not InCity or (AtUnit.CyUnit.getX() == InCity.CyCity.getX() and AtUnit.CyUnit.getY() == InCity.CyCity.getY()):
+					# Find selected unit list position
+					iPos = 0
+					while iPos < iUnits:
+						if CyPlot.getUnit(iPos).getID() == AtUnit.iUnitID:
+							if iPos + 1 > iMaxUnits:
+								self.iPlotListTopRow = iTopRow = 1 + (iPos + 1 - iMaxUnits)/iMaxCols
+							break
+						iPos += 1
 		# Collect data about plot list.
 		iPlayerAct = self.iPlayer
 		iTeamAct = self.iTeam
