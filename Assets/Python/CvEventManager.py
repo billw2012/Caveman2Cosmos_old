@@ -355,7 +355,7 @@ class CvEventManager:
 			if self.bAllowCheats:
 				# Shift - T (Debug - No MP)
 				if key == InputTypes.KB_T:
-					if bShift and not b:
+					if bShift and not (bCtrl or bAlt):
 						self.beginEvent(CvUtil.EventAwardTechsAndGold)
 						return 1
 				elif key == InputTypes.KB_W:
