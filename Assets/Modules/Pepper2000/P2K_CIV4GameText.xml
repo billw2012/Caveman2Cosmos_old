@@ -1014,14 +1014,6 @@
 	</TEXT>
 	<!-- Routes -->
 	<TEXT>
-		<Tag>TXT_KEY_ROUTE_HYPERLOOP</Tag>
-		<English>Vactrain</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_ROUTE_GRAVITY_TRAIN</Tag>
-		<English>Gravity Train</English>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_ROUTE_ORBITAL_TRAJECTORY</Tag>
 		<English>Orbital Trajectory</English>
 	</TEXT>
@@ -1048,14 +1040,6 @@
 	<TEXT>
 		<Tag>TXT_KEY_ROUTE_ASPATIAL_ROUTE</Tag>
 		<English>Aspatial Route</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILD_HYPERLOOP</Tag>
-		<English>Build Vactrain</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILD_GRAVITY_TRAIN</Tag>
-		<English>Build Gravity Train</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_ORBITAL_TRAJECTORY</Tag>

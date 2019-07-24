@@ -11276,10 +11276,6 @@
 					<BuildingClassType>BUILDINGCLASS_STEEL_MILL</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
-				<PrereqOrBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_ADVANCED_IRONWORKS</BuildingClassType>
-					<bPrereqBuildingClass>1</bPrereqBuildingClass>
-				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<!-- Cost -->
 			<iCost>5220</iCost>
@@ -13567,10 +13563,6 @@
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_INSURANCE_OFFICE</BuildingClassType>
-					<bPrereqBuildingClass>1</bPrereqBuildingClass>
-				</PrereqOrBuildingClass>
-				<PrereqOrBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_BLOCKCHAIN_FINANCIAL_SERVICES</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>

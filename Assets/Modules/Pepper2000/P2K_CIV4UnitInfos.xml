@@ -169,20 +169,6 @@
 			</MapCategoryTypes>
         </UnitInfo>-->
         <UnitInfo>
-            <Class>UNITCLASS_LUNAR_BULLDOZER</Class>
-            <Type>UNIT_LUNAR_BULLDOZER</Type>
-            <MapCategoryTypes>
-				<MapCategoryType>MAPCATEGORY_LUNAR</MapCategoryType>
-			</MapCategoryTypes>
-        </UnitInfo>
-        <UnitInfo>
-            <Class>UNITCLASS_LUNAR_WORKER</Class>
-            <Type>UNIT_LUNAR_WORKER</Type>
-            <MapCategoryTypes>
-				<MapCategoryType>MAPCATEGORY_LUNAR</MapCategoryType>
-			</MapCategoryTypes>
-        </UnitInfo>
-        <UnitInfo>
             <Class>UNITCLASS_CONSTRUCTION_SHIP</Class>
             <Type>UNIT_CONSTRUCTION_SHIP</Type>
 			<Help>TXT_KEY_UNIT_SPACEUNIT_HOVER</Help>
@@ -212,45 +198,6 @@
             <bCanMoveAllTerrain>1</bCanMoveAllTerrain>
 			<bCanMoveImpassable>1</bCanMoveImpassable>
         </UnitInfo>
-        <!-- Add new route builds to workers-->
-        <UnitInfo>
-			<Class>UNITCLASS_WORKER_MODERN</Class>
-			<Type>UNIT_WORKER_MODERN</Type>
-			<Builds>
-				<Build>
-					<BuildType>BUILD_HYPERLOOP</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
-			</Builds>
-		</UnitInfo>
-        <UnitInfo>
-			<Class>UNITCLASS_CLONES</Class>
-			<Type>UNIT_CLONES</Type>
-			<Builds>
-				<Build>
-					<BuildType>BUILD_HYPERLOOP</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
-                <Build>
-					<BuildType>BUILD_GRAVITY_TRAIN</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
-			</Builds>
-		</UnitInfo>
-        <UnitInfo>
-			<Class>UNITCLASS_WORKER_ANDROID</Class>
-			<Type>UNIT_WORKER_ANDROID</Type>
-			<Builds>
-				<Build>
-					<BuildType>BUILD_HYPERLOOP</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
-                <Build>
-					<BuildType>BUILD_GRAVITY_TRAIN</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
-			</Builds>
-		</UnitInfo>
         <!-- Lunar launch mission for Lunar Rover-->
         <UnitInfo>
 			<Class>UNITCLASS_LUNAR_ROVER</Class>
@@ -2307,16 +2254,6 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-        <UnitInfo>
-			<Class>UNITCLASS_LUNAR_WORKER</Class>
-			<Type>UNIT_LUNAR_WORKER</Type>
-            <Builds>
-				<Build>
-					<BuildType>BUILD_TERRAFORM_MOON</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
-            </Builds>
-        </UnitInfo>
         <UnitInfo>
 			<Class>UNITCLASS_MARTIAN_WORKER</Class>
 			<Type>UNIT_MARTIAN_WORKER</Type>
@@ -10415,6 +10352,9 @@
 				<SubCombatType>UNITCOMBAT_HEALS_AS_MECHANICAL</SubCombatType>
 			</SubCombatTypes>
 			<Domain>DOMAIN_LAND</Domain>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_LUNAR</MapCategoryType>
+			</MapCategoryTypes>
 			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_LUNAR_BULLDOZER</Description>
 			<Civilopedia>TXT_KEY_UNIT_WORKER_PEDIA</Civilopedia>
@@ -10481,6 +10421,9 @@
 				<SubCombatType>UNITCOMBAT_HEALS_AS_MECHANICAL</SubCombatType>
 			</SubCombatTypes>
 			<Domain>DOMAIN_LAND</Domain>
+			<MapCategoryTypes>
+				<MapCategoryType>MAPCATEGORY_LUNAR</MapCategoryType>
+			</MapCategoryTypes>
 			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_LUNAR_WORKER</Description>
 			<Civilopedia>TXT_KEY_UNIT_WORKER_PEDIA</Civilopedia>
@@ -10526,6 +10469,10 @@
 					<BuildType>BUILD_LUNAR_ARCOLOGY</BuildType>
 					<bBuild>1</bBuild>
 				</Build>
+				<Build>
+					<BuildType>BUILD_TERRAFORM_MOON</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
 			</Builds>
 			<PrereqBuilding>BUILDING_LUNAR_DROID_FACTORY</PrereqBuilding>
 			<PrereqTech>TECH_ANDROIDS</PrereqTech>
@@ -10553,6 +10500,26 @@
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
+		</UnitInfo>
+		<UnitInfo>
+			<Class>UNITCLASS_REPLICATION_MECHANIC</Class>
+			<Type>UNIT_REPLICATION_MECHANIC</Type>
+			<PrereqOrBuildings>
+				<BuildingType>BUILDING_3DPRINTING_MILL</BuildingType>
+				<BuildingType>BUILDING_NANOPRINTING_MILL</BuildingType>
+				<BuildingType>BUILDING_MOLECULAR_ASSEMBLER</BuildingType>
+				<BuildingType>BUILDING_ATOMIC_ASSEMBLER</BuildingType>
+				<BuildingType>BUILDING_QUANTUM_ASSEMBLER</BuildingType>
+				<BuildingType>BUILDING_MATERIALIZER</BuildingType>
+			</PrereqOrBuildings>
+		</UnitInfo>
+		<UnitInfo>
+			<Class>UNITCLASS_ASTRONAUTIC_TECHNICIAN</Class>
+			<Type>UNIT_ASTRONAUTIC_TECHNICIAN</Type>
+			<PrereqOrBuildings>
+				<BuildingType>BUILDING_JET_AIRCRAFT_FACTORY</BuildingType>
+				<BuildingType>BUILDING_MILITARY_INDUSTRIAL_COMPLEX</BuildingType>
+			</PrereqOrBuildings>
 		</UnitInfo>
 	</UnitInfos>
 </Civ4UnitInfos>

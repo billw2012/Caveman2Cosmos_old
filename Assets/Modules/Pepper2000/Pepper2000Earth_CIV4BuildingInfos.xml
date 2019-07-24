@@ -28895,5 +28895,47 @@
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_EIFFEL_TOWER</BuildingClass>
+			<Type>BUILDING_EIFFEL_TOWER</Type>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_STEEL_MILL</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_ADVANCED_IRONWORKS</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_TRANSAMERICA_PYRAMID</BuildingClass>
+			<Type>BUILDING_TRANSAMERICA_PYRAMID</Type>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_INSURANCE_OFFICE</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_BLOCKCHAIN_FINANCIAL_SERVICES</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
+		</BuildingInfo>
+		<BuildingInfo>
+			<BuildingClass>BUILDINGCLASS_HNIC</BuildingClass>
+			<Type>BUILDING_HNIC</Type>
+			<PrereqOrBuildingClasses>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_HOCKEY_RINK</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+				<PrereqOrBuildingClass>
+					<BuildingClassType>BUILDINGCLASS_ATHLETIC_MEGACOMPLEX</BuildingClassType>
+					<bPrereqBuildingClass>1</bPrereqBuildingClass>
+				</PrereqOrBuildingClass>
+			</PrereqOrBuildingClasses>
+		</BuildingInfo>
 	</BuildingInfos>
 </Civ4BuildingInfos>

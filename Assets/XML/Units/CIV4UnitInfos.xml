@@ -3716,6 +3716,11 @@
 					<BuildType>BUILD_5FACTORY</BuildType>
 					<bBuild>1</bBuild>
 				</Build>
+				<!-- Pepper's routes are used as yield boosters in improvements. They are here so Pepper's module can be turned off. -->
+				<Build>
+					<BuildType>BUILD_HYPERLOOP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
 			</Builds>
 			<PrereqTech>TECH_MOTORIZED_TRANSPORTATION</PrereqTech>
 			<ProductionTraits>
@@ -4104,6 +4109,15 @@
 					<BuildType>BUILD_5FACTORY</BuildType>
 					<bBuild>1</bBuild>
 				</Build>
+				<!-- Pepper's routes are used as yield boosters in improvements. They are here so Pepper's module can be turned off. -->
+				<Build>
+					<BuildType>BUILD_HYPERLOOP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+                <Build>
+					<BuildType>BUILD_GRAVITY_TRAIN</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
 			</Builds>
 			<PrereqBuilding>BUILDING_CLONING_LABORATORY</PrereqBuilding>
 			<PrereqTech>TECH_MAINSTREAM_CLONING</PrereqTech>
@@ -4486,6 +4500,15 @@
 				</Build>
 				<Build>
 					<BuildType>BUILD_5FACTORY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<!-- Pepper's routes are used as yield boosters in improvements. They are here so Pepper's module can be turned off. -->
+				<Build>
+					<BuildType>BUILD_HYPERLOOP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+                <Build>
+					<BuildType>BUILD_GRAVITY_TRAIN</BuildType>
 					<bBuild>1</bBuild>
 				</Build>
 			</Builds>
@@ -62090,10 +62113,6 @@
 			<PrereqOrBuildings>
 				<BuildingType>BUILDING_3DPRINTING_MILL</BuildingType>
 				<BuildingType>BUILDING_NANOPRINTING_MILL</BuildingType>
-				<BuildingType>BUILDING_MOLECULAR_ASSEMBLER</BuildingType>
-				<BuildingType>BUILDING_ATOMIC_ASSEMBLER</BuildingType>
-				<BuildingType>BUILDING_QUANTUM_ASSEMBLER</BuildingType>
-				<BuildingType>BUILDING_MATERIALIZER</BuildingType>
 			</PrereqOrBuildings>
 			<BonusType>BONUS_POWER_TOOLS</BonusType>
 			<PrereqBonuses>
@@ -62199,7 +62218,6 @@
 			</UnitAIs>
 			<PrereqOrBuildings>
 				<BuildingType>BUILDING_JET_AIRCRAFT_FACTORY</BuildingType>
-				<BuildingType>BUILDING_MILITARY_INDUSTRIAL_COMPLEX</BuildingType>
 			</PrereqOrBuildings>
 			<PrereqTech>TECH_SPACE_FLIGHT</PrereqTech>
 			<BonusType>BONUS_JET_AIRCRAFTS</BonusType>
