@@ -28,49 +28,60 @@ FD="$(MAKEDIR)\deps\fastdep\fastdep.exe"
 
 GAME_OPTIONS= /D_MOD_SENTRY /D_MOD_FRACTRADE /D_MOD_GOVWORKERS /DQC_MASTERY_VICTORY /DLOG_AI /D_MOD_GWARM /D_MOD_SHAM_SPOILER /DC2C_BUILD /DMULTI_FEATURE_MOD
 Debug_GLOBAL_CFLAGS= $(GAME_OPTIONS) /DFP_PROFILE_ENABLE /DUSE_INTERNAL_PROFILER
-Final_Release_GLOBAL_CFLAGS= $(GAME_OPTIONS)
+# Turn OFF Civs own profiler, we are using 3rd party one for this build config (VTune/sleepy/VS profiler etc.)
+Profile_GLOBAL_CFLAGS= $(GAME_OPTIONS)
 Release_GLOBAL_CFLAGS= $(GAME_OPTIONS) /DFP_PROFILE_ENABLE /DUSE_INTERNAL_PROFILER
+Final_Release_GLOBAL_CFLAGS= $(GAME_OPTIONS)
 
 #### Target Files ####
 Debug_BIN=Debug\CvGameCoreDLL.dll
+Profile_BIN=Profile\CvGameCoreDLL.dll
 Release_BIN=Release\CvGameCoreDLL.dll
 Final_Release_BIN=Final_Release\CvGameCoreDLL.dll
 
 !IF [IF NOT EXIST CvGameCoreDLL.rc EXIT 1] == 0
 Debug_RESOURCE=Debug\CvGameCoreDLL.res
+Profile_RESOURCE=Profile\CvGameCoreDLL.res
 Release_RESOURCE=Release\CvGameCoreDLL.res
 Final_Release_RESOURCE=Final_Release\CvGameCoreDLL.res
 !ENDIF
 
 Debug_STATICLIB=Debug\CvGameCoreDLL.lib
+Profile_STATICLIB=Profile\CvGameCoreDLL.lib
 Release_STATICLIB=Release\CvGameCoreDLL.lib
 Final_Release_STATICLIB=Final_Release\CvGameCoreDLL.lib
 
 Debug_LIBDEF=Debug\CvGameCoreDLL.def
+Profile_LIBDEF=Profile\CvGameCoreDLL.def
 Release_LIBDEF=Release\CvGameCoreDLL.def
 Final_Release_LIBDEF=Final_Release\CvGameCoreDLL.def
 
 Debug_PCH=Debug\CvGameCoreDLL.pch
+Profile_PCH=Profile\CvGameCoreDLL.pch
 Release_PCH=Release\CvGameCoreDLL.pch
 Final_Release_PCH=Final_Release\CvGameCoreDLL.pch
 
 Debug_PDB=Debug\CvGameCoreDLL.pdb
+Profile_PDB=Profile\CvGameCoreDLL.pdb
 Release_PDB=Release\CvGameCoreDLL.pdb
 Final_Release_PDB=Final_Release\CvGameCoreDLL.pdb
 
 Debug_OTHER=Debug\CvGameCoreDLL.exp Debug\CvGameCoreDLL.ilk
+Profile_OTHER=Profile\CvGameCoreDLL.exp
 Release_OTHER=Release\CvGameCoreDLL.exp
 Final_Release_OTHER=Final_Release\CvGameCoreDLL.exp
 
 #### CFLAGS ####
 GLOBAL_CFLAGS=/GR /Gy /W3 /EHsc /arch:SSE2 /Gd /Gm- /DWIN32 /D_WINDOWS /D_USRDLL /Yu"CvGameCoreDLL.h" /Zm200 /DXERCES_STATIC_LIBRARY
 Debug_CFLAGS=/MD /Zi /Od /D_DEBUG /RTC1 /Fp"$(Debug_PCH)" /Fd"./Debug/" $(GLOBAL_CFLAGS) $(Debug_GLOBAL_CFLAGS)
+Profile_CFLAGS=/MD /Zi /O2 /Oy /Oi /G7 /Og /Ob2 /DNDEBUG /Fp"$(Profile_PCH)" /Fd"./Profile/" $(GLOBAL_CFLAGS) $(Profile_GLOBAL_CFLAGS)
 Release_CFLAGS=/MD /Zi /O2 /Oy /Oi /G7 /DNDEBUG /Fp"$(Release_PCH)" /Fd"./Release/" $(GLOBAL_CFLAGS) $(Release_GLOBAL_CFLAGS)
 Final_Release_CFLAGS=/MD /Zi /O2 /Oy /Oi /G7 /DNDEBUG /DFINAL_RELEASE /Fp"$(Final_Release_PCH)" /Fd"./Final_Release/" $(GLOBAL_CFLAGS) $(Final_Release_GLOBAL_CFLAGS)
 
 #### LDFLAGS ####
 GLOBAL_LDFLAGS=/DLL /NOLOGO /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DEF:CvGameCoreDLL.def /LTCG
 Debug_LDFLAGS=/INCREMENTAL:NO /DEBUG /PDB:"$(Debug_PDB)" /IMPLIB:"$(Debug_STATICLIB)" $(GLOBAL_LDFLAGS)
+Profile_LDFLAGS=/INCREMENTAL:NO /DEBUG /IMPLIB:"$(Profile_STATICLIB)" /PDB:"$(Profile_PDB)" $(GLOBAL_LDFLAGS)
 Release_LDFLAGS=/INCREMENTAL:NO /DEBUG /OPT:REF /OPT:ICF /IMPLIB:"$(Release_STATICLIB)" /PDB:"$(Release_PDB)" $(GLOBAL_LDFLAGS)
 Final_Release_LDFLAGS=/INCREMENTAL:NO /DEBUG /OPT:REF /OPT:ICF /IMPLIB:"$(Final_Release_LIBDEF)" /PDB:"$(Final_Release_PDB)" /PDBALTPATH:CvGameCoreDLL.pdb $(GLOBAL_LDFLAGS)
 
@@ -78,6 +89,7 @@ Final_Release_LDFLAGS=/INCREMENTAL:NO /DEBUG /OPT:REF /OPT:ICF /IMPLIB:"$(Final_
 GLOBAL_INCS=/I"$(TOOLKIT)/include" /I"$(PSDK)/Include" /I"$(PSDK)/Include/mfc" /I"$(GLOBALBOOST)/include" /I"$(GLOBALPYTHON)/include" /I"./include"
 PROJECT_INCS=/IBoost-1.32.0/include /IPython24/include
 Debug_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
+Profile_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
 Release_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
 Final_Release_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
 
@@ -85,11 +97,13 @@ Final_Release_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
 GLOBAL_LIBS=/LIBPATH:"$(TOOLKIT)/lib" /LIBPATH:"$(PSDK)/Lib" winmm.lib user32.lib psapi.lib advapi32.lib
 PROJECT_LIBS=/LIBPATH:"$(GLOBALPYTHON)/libs" /LIBPATH:"$(GLOBALBOOST)/libs" /LIBPATH:"./lib" boost_python-vc71-mt-1_32.lib libboost_thread-vc71-mt-1_32.lib XercesLib-3.1.1-x86-windows-vc-7.1.lib
 Debug_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS) msvcprt.lib /NODEFAULTLIB:msvcprtd.lib
+Profile_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS)
 Release_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS)
 Final_Release_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS)
 
 #### Objects ####
 Debug_LINKOBJS=$(Debug_OBJS)
+Profile_LINKOBJS=$(Profile_OBJS)
 Release_LINKOBJS=$(Release_OBJS)
 Final_Release_LINKOBJS=$(Final_Release_OBJS)
 
@@ -99,6 +113,9 @@ Final_Release_LINKOBJS=$(Final_Release_OBJS)
     [ECHO.>> sources.mk] == 0 && \
     [ECHO Debug_OBJS= \>> sources.mk] == 0 && \
     [FOR /F "delims=." %i IN ('dir /b *.cpp') DO @ECHO. Debug\%i.obj \>> sources.mk] == 0 && \
+    [ECHO.>> sources.mk] == 0 && \
+    [ECHO Profile_OBJS= \>> sources.mk] == 0 && \
+    [FOR /F "delims=." %i IN ('dir /b *.cpp') DO @ECHO. Profile\%i.obj \>> sources.mk] == 0 && \
     [ECHO.>> sources.mk] == 0 && \
     [ECHO Release_OBJS= \>> sources.mk] == 0 && \
     [FOR /F "delims=." %i IN ('dir /b *.cpp') DO @ECHO. Release\%i.obj \>> sources.mk] == 0 && \
@@ -114,16 +131,21 @@ Final_Release_LINKOBJS=$(Final_Release_OBJS)
 #### Targets ####
 #################
 
-.PHONY: all clean Debug_clean Release_clean Final_Release_clean Debug Release Final_Release
+.PHONY: all clean Debug_clean Profile_clean Release_clean Final_Release_clean Debug Profile Release Final_Release
 
-all: Debug Final_Release Release
+all: Debug Profile Release Final_Release
 
-clean: Debug_clean Release_clean Final_Release_clean
+clean: Debug_clean Profile_clean Release_clean Final_Release_clean
 
 Debug_clean:
 	@FOR %i IN ($(Debug_BIN) $(Debug_STATICLIB) $(Debug_LIBDEF) \
 		Debug\*.obj Debug\*.@ $(Debug_RESOURCE) \
 		$(Debug_PCH) $(Debug_PDB) $(Debug_OTHER)) DO @IF EXIST "%i" DEL "%i"
+
+Profile_clean:
+	@FOR %i IN ($(Profile_BIN) $(Profile_STATICLIB) $(Profile_LIBDEF) \
+		Profile\*.obj Profile\*.@ $(Profile_RESOURCE) \
+		$(Profile_PCH) $(Profile_PDB) $(Profile_OTHER)) DO @IF EXIST "%i" DEL "%i"
 
 Release_clean:
 	@FOR %i IN ($(Release_BIN) $(Release_STATICLIB) $(Release_LIBDEF) \
@@ -140,6 +162,11 @@ Debug: Debug_DIR Debug_unfinished $(Debug_PCH) $(Debug_BIN)
 	-COPY "$(Debug_BIN)" "$(YOURMOD)\Assets\."
 !ENDIF
 
+Profile: Profile_DIR Profile_unfinished $(Profile_PCH) $(Profile_BIN)
+!IFDEF YOURMOD
+	-COPY "$(Profile_BIN)" "$(YOURMOD)\Assets\."
+!ENDIF
+
 Release: Release_DIR Release_unfinished $(Release_PCH) $(Release_BIN)
 !IFDEF YOURMOD
 	-COPY "$(Release_BIN)" "$(YOURMOD)\Assets\."
@@ -152,6 +179,9 @@ Final_Release: Final_Release_DIR Final_Release_unfinished $(Final_Release_PCH) $
 
 Debug_DIR:
 	-@IF NOT EXIST "Debug\." MKDIR "Debug"
+
+Profile_DIR:
+	-@IF NOT EXIST "Profile\." MKDIR "Profile"
 
 Release_DIR:
 	-@IF NOT EXIST "Release\." MKDIR "Release"
@@ -166,6 +196,13 @@ Debug_unfinished:
 	@FOR /F %i IN ('dir /b Debug\*.@') DO \
 		@IF EXIST "Debug\%i" DEL "Debug\%i"
 
+Profile_unfinished:
+	@ECHO.>Profile\unfinished.@
+	@FOR /F "delims=@" %i IN ('dir /b Profile\*.@') DO \
+		@IF EXIST "Profile\%i" DEL "Profile\%i"
+	@FOR /F %i IN ('dir /b Profile\*.@') DO \
+		@IF EXIST "Profile\%i" DEL "Profile\%i"
+		
 Release_unfinished:
 	@ECHO.>Release\unfinished.@
 	@FOR /F "delims=@" %i IN ('dir /b Release\*.@') DO \
@@ -183,6 +220,9 @@ Final_Release_unfinished:
 $(Debug_BIN): $(Debug_LINKOBJS) $(Debug_RESOURCE)
 	$(LD) /out:$(Debug_BIN) $(Debug_LDFLAGS) $(Debug_LIBS) $(Debug_LINKOBJS) $(Debug_RESOURCE)
 
+$(Profile_BIN): $(Profile_LINKOBJS) $(Profile_RESOURCE)
+	$(LD) /out:$(Profile_BIN) $(Profile_LDFLAGS) $(Profile_LIBS) $(Profile_LINKOBJS) $(Profile_RESOURCE)
+
 $(Release_BIN): $(Release_LINKOBJS) $(Release_RESOURCE)
 	$(LD) /out:$(Release_BIN) $(Release_LDFLAGS) $(Release_LIBS) $(Release_LINKOBJS) $(Release_RESOURCE)
 	
@@ -192,6 +232,11 @@ $(Final_Release_BIN): $(Final_Release_LINKOBJS) $(Final_Release_RESOURCE)
 .cpp{Debug}.obj:
 	@ECHO.>"$*.obj.@"
     $(CPP) /nologo $(Debug_CFLAGS) $(Debug_INCS) /Fo$*.obj /c $<
+	@DEL "$*.obj.@"
+
+.cpp{Profile}.obj:
+	@ECHO.>"$*.obj.@"
+    $(CPP) /nologo $(Profile_CFLAGS) $(Profile_INCS) /Fo$*.obj /c $<
 	@DEL "$*.obj.@"
 
 .cpp{Release}.obj:
@@ -211,6 +256,13 @@ $(Debug_PCH) Debug\_precompile.obj:
 	@DEL "$(Debug_PCH).@"
 	@DEL "Debug\_precompile.obj.@"
 
+$(Profile_PCH) Profile\_precompile.obj:
+	@ECHO.>"$(Profile_PCH).@"
+	@ECHO.>"Profile\_precompile.obj.@"
+    $(CPP) /nologo $(Profile_CFLAGS) $(Profile_INCS) /YcCvGameCoreDLL.h /Fo"Profile\_precompile.obj" /c _precompile.cpp
+	@DEL "$(Profile_PCH).@"
+	@DEL "Profile\_precompile.obj.@"
+
 $(Release_PCH) Release\_precompile.obj:
 	@ECHO.>"$(Release_PCH).@"
 	@ECHO.>"Release\_precompile.obj.@"
@@ -228,6 +280,11 @@ $(Final_Release_PCH) Final_Release\_precompile.obj:
 .rc{Debug}.res:
 	@ECHO.>"$*.res.@"
 	$(RC) /Fo$@ $(Debug_INCS) $<
+	@DEL "$*.res.@"
+
+.rc{Profile}.res:
+	@ECHO.>"$*.res.@"
+	$(RC) /Fo$@ $(Profile_INCS) $<
 	@DEL "$*.res.@"
 
 .rc{Release}.res:
@@ -250,6 +307,8 @@ $(Final_Release_PCH) Final_Release\_precompile.obj:
 !IF [IF NOT EXIST $(FD) EXIT 1] == 0
 !IF [$(FD) --objectextension=pch -q -O Debug CvGameCoreDLL.cpp > depends] != 0 || \
     [$(FD) --objectextension=obj -q -O Debug $(SOURCES) >> depends] != 0 || \
+    [$(FD) --objectextension=pch -q -O Profile CvGameCoreDLL.cpp >> depends] != 0 || \
+    [$(FD) --objectextension=obj -q -O Profile $(SOURCES) >> depends] != 0 || \
     [$(FD) --objectextension=pch -q -O Release CvGameCoreDLL.cpp >> depends] != 0 || \
     [$(FD) --objectextension=obj -q -O Release $(SOURCES) >> depends] != 0 || \
     [$(FD) --objectextension=pch -q -O Final_Release CvGameCoreDLL.cpp >> depends] != 0 || \
