@@ -818,7 +818,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LOCAL_FISH_MYTH</ArtDefineTag>
 			<PrereqTech>TECH_TRAP_FISHING</PrereqTech>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<bWater>1</bWater>
 			<iAIWeight>0</iAIWeight>
 			<iCost>56</iCost>

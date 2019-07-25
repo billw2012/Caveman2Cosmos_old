@@ -31,7 +31,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>1</iGreatPeopleRateChange>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_FIRST_TO_DISCOVER_GREAT_BARRIER_REEF</BuildingClass>
 			<Type>BUILDING_FIRST_TO_DISCOVER_GREAT_BARRIER_REEF</Type>
@@ -116,7 +115,6 @@
 			<Strategy>TXT_KEY_BUILDING_DISCOVERY_NATURAL_WONDER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FIRST_TO_DISCOVER_MT_FUJI</ArtDefineTag>
-
 			<iCost>-1</iCost>
 			<iAsset>0</iAsset>
 			<iPower>0</iPower>
@@ -519,7 +517,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>1</iGreatPeopleRateChange>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_DISCOVERY_AUYANTEPUI</BuildingClass>
 			<Type>BUILDING_DISCOVERY_AUYANTEPUI</Type>
@@ -881,8 +878,6 @@
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
 		</BuildingInfo>
-
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_MOVIE_AUYANTEPUI</BuildingClass>
 			<Type>BUILDING_MOVIE_AUYANTEPUI</Type>

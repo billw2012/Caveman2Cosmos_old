@@ -180,7 +180,6 @@
 			<iAdvancedStartCost>-1</iAdvancedStartCost>			
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>			
-			<iMaxLatitude>90</iMaxLatitude>			
 			<iAsset>8</iAsset>			
 			<fVisibilityPriority>1.0</fVisibilityPriority>			
 			<StateReligionCommerces>
@@ -284,7 +283,6 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_DJENNE</BuildingClass>
 			<Type>BUILDING_DJENNE</Type>
@@ -298,6 +296,5 @@
 				</BuildingClassProductionModifier>
 			</GlobalBuildingClassProductionModifiers>
 		</BuildingInfo>
-
 	</BuildingInfos>
 </Civ4BuildingInfos>

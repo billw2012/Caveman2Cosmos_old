@@ -744,7 +744,6 @@
 			</Flavors>
 			<HotKey/>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_DRUID_MONASTERY_ALMOND</BuildingClass>
 			<Type>BUILDING_DRUID_MONASTERY_ALMOND</Type>
@@ -2225,8 +2224,6 @@
 			</Flavors>
 			<HotKey/>
 		</BuildingInfo>
-
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_DJENNE</BuildingClass>
 			<Type>BUILDING_DJENNE</Type>

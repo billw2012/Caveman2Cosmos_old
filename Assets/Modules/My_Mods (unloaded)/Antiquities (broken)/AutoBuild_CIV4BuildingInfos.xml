@@ -28,7 +28,6 @@
 			<bAutoBuild>1</bAutoBuild>
 			<bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_CAVE_IN_NATION</BuildingClass>
 			<Type>BUILDING_CAVE_IN_NATION</Type>
@@ -43,7 +42,6 @@
 			<iCost>-1</iCost>
 			<bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_ELITE_HOUSING</BuildingClass>
 			<Type>BUILDING_ELITE_HOUSING</Type>

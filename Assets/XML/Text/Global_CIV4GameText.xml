@@ -6616,7 +6616,7 @@
 		<Polish>Zniewolono mieszkańców miasta!</Polish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_ERA_ANCIENT</Tag>
+		<Tag>TXT_KEY_ERA_SEDENTARY</Tag>
 		<English>Ancient</English>
 		<French>
 			<Text>Antiquité</Text>
@@ -6853,7 +6853,7 @@
 		<Polish>Paleolityczna</Polish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_ERA_PREHISTORIC</Tag>
+		<Tag>TXT_KEY_ERA_ANCIENT</Tag>
 		<English>Prehistoric</English>
 		<French>Préhistoire</French>
 		<German>
@@ -6866,7 +6866,7 @@
 		<Polish>Prehistoryczna</Polish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_ERA_PREHISTORIC_STRATEGY</Tag>
+		<Tag>TXT_KEY_ERA_ANCIENT_STRATEGY</Tag>
 		<English>Prehistory (Latin, pra = before; Greek, iotopia = history) is a term used to describe the period before recorded history. Paul Tournal originally coined the term Pré-historique in describing the finds he had made in the caves of southern France. The term "prehistory" can be used to refer to all time since the beginning of the universe, although it is more often used in referring to the period of time since life appeared on Earth, or even more specifically to the time since human-like beings appeared.</English>
 		<Italian>Preistoria è il termine usato per descrivere il periodo prima della storia. Paul Tournal lo coniò per descrivere le scoperte che aveva fatto nelle caverne della Francia meridionale. Il termine può essere usato per riferirsi a tutto il periodo dall'inizio dell'universo, anche se più spesso indica il periodo dal quale la vita è apparsa sulla Terra, o più precisamente il periodo da cui l'essere umano è apparso.</Italian>
 		<Spanish>La Prehistoria (del latín praiotopia, pra = antes; iotopia = historia) es un término utilizado para referirse al periodo anterior a la historia registrada. Paul Tournal acuñó originalmente el término "Pré-historique" para describir los hallazgos encontrados en las cuevas del sur de Francia. El término se utiliza para describir todo el lapso temporal desde el nacimiento del universo, aunque se utiliza comúnmente para referirse al lapso de tiempo desde la aparición de la vida en la Tierra, más concretamente al periodo en el que aparecieron los primeros homínidos.</Spanish>
@@ -9140,12 +9140,12 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LANGUAGE_10</Tag>
-		<English>Japanese</English>
-		<French>Japonais</French>
-		<German>Japanisch</German>
-		<Italian>Giapponese</Italian>
-		<Spanish>Japonés</Spanish>
-		<Polish>Japoński</Polish>
+		<English>Portuguese</English>
+		<French>Portugais</French>
+		<German>Portugiesisch</German>
+		<Italian>Portoghese</Italian>
+		<Spanish>Portugués</Spanish>
+		<Polish>Portugalski</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LANGUAGE_5</Tag>
@@ -19251,7 +19251,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REQUIRES_RAW_IN_CITY_VICINITY</Tag>
-		<English>[COLOR_WARNING_TEXT]Bonus required in city vicinity, or manufactured locally: </English>
+		<English>[COLOR_WARNING_TEXT]Bonus required in city vicinity, or manufactured locally (No need for improvement): </English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REQUIRES_NO_WARNING</Tag>
@@ -19278,7 +19278,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REQUIRES_RAW_VICINITY_BONUS</Tag>
-		<English>[COLOR_WARNING_TEXT]Requires %s1_Text in City Vicinity, or manufactured locally[COLOR_REVERT]</English>
+		<English>[COLOR_WARNING_TEXT]Requires %s1_Text in City Vicinity, or manufactured locally (No need for improvement)[COLOR_REVERT]</English>
 		<German>[ICON_BULLET][COLOR_WARNING_TEXT]erforderlich: %s1_Text (hergestellt oder vorhanden im Stadtradius)[COLOR_REVERT]</German>
 	</TEXT>
 	<TEXT>
@@ -26258,5 +26258,22 @@ feindliche Einheit scrollen[COLOR_REVERT][\BOLD][TAB][TAB][TAB]Anzeige der Siegc
 		<Italian>[COLOR_SELECTED_TEXT]La grande moschea di Djenné incrementa il commercio nel deserto![COLOR_REVERT]</Italian>
 		<Spanish>[COLOR_SELECTED_TEXT]¡La Gran Mezquita de Djenné aumenta el comercio en el Desierto![COLOR_REVERT]</Spanish>
 		<Polish>[COLOR_BUILDING_TEXT]Wielki Meczet w Dżenne [COLOR_SELECTED_TEXT]zwiększa handel na polach pustyni[COLOR_REVERT]!</Polish>
+	</TEXT>
+	<!-- Pepper's routes are used as yield boosters in improvements. They are here so Pepper's module can be turned off. -->
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_HYPERLOOP</Tag>
+		<English>Build Vactrain</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_GRAVITY_TRAIN</Tag>
+		<English>Build Gravity Train</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ROUTE_HYPERLOOP</Tag>
+		<English>Vactrain</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ROUTE_GRAVITY_TRAIN</Tag>
+		<English>Gravity Train</English>
 	</TEXT>
 </Civ4GameText>

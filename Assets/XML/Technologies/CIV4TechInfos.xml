@@ -51,7 +51,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_NOMADIC_LIFESTYLE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>5</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -79,7 +79,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_LANGUAGE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iCost>5</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iHappiness>1</iHappiness>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
@@ -108,7 +108,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_GATHERING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>6</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<FirstFreeUnitClass>UNITCLASS_GATHERER</FirstFreeUnitClass>
 			<iAsset>2</iAsset>
 			<iPower>1</iPower>
@@ -141,7 +141,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_DECEPTION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>6</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>2</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -177,7 +177,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CAVE_DWELLING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>7</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -208,7 +208,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_WEAVING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>7</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>3</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -255,7 +255,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_HUNTING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>7</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -298,7 +298,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CONTROLLED_FIRE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>7</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>3</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -325,7 +325,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_HERBALISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>7</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -360,7 +360,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_COOPERATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>7</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iWorkerSpeedModifier>5</iWorkerSpeedModifier>
 			<iAsset>4</iAsset>
 			<bTrade>1</bTrade>
@@ -402,7 +402,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SHELTER_BUILDING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>8</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>4</iGridX>
@@ -447,7 +447,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_BASKETRY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>8</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>6</iAsset>
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
@@ -498,7 +498,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_PERSISTENCE_HUNTING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>8</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -545,7 +545,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_TOOL_MAKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>8</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iWorkerSpeedModifier>10</iWorkerSpeedModifier>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
@@ -598,7 +598,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_COOKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>8</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iHealth>1</iHealth>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
@@ -626,7 +626,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_ORAL_TRADITION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iCost>8</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iHappiness>1</iHappiness>
 			<iAsset>2</iAsset>
 			<iPower>1</iPower>
@@ -659,7 +659,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_TRAPPING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>9</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -706,7 +706,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_TRACKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>9</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -757,7 +757,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_HARD_HAMMER_PERCUSSION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>9</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -801,7 +801,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_PREHISTORIC_MUSIC_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>9</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>5</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -837,7 +837,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_PREHISTORIC_DANCE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>9</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>5</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -869,7 +869,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_THEFT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>11</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -905,7 +905,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_HUNTING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>11</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -952,7 +952,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SOFT_HAMMER_PERCUSSION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>11</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -996,7 +996,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_GROUND_STONES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>11</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -1031,7 +1031,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iAIWeight>25</iAIWeight>
 			<iCost>11</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>16</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -1077,7 +1077,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CHOPPING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>13</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -1121,7 +1121,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_PIERCING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>13</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>3</iAsset>
 			<iPower>3</iPower>
 			<bTrade>1</bTrade>
@@ -1157,7 +1157,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SCRAPING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>13</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iWorkerSpeedModifier>10</iWorkerSpeedModifier>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
@@ -1186,7 +1186,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
 			<iCost>13</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>15</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>7</iGridX>
@@ -1224,7 +1224,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_NATURAL_PIGMENTS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>13</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -1258,7 +1258,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_GAMES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iCost>13</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>7</iGridX>
@@ -1303,7 +1303,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CULTURAL_IDENTITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iCost>13</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>2</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -1339,7 +1339,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CARVING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>15</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iWorkerSpeedModifier>10</iWorkerSpeedModifier>
 			<iAsset>2</iAsset>
 			<iPower>1</iPower>
@@ -1375,7 +1375,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SKINNING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>15</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -1422,7 +1422,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_NATUROPATHY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>15</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -1461,7 +1461,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_PETROGLYPHS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>15</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -1500,7 +1500,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CONDUCT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>15</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -1535,7 +1535,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_FINE_EDGED_TOOLS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>17</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iWorkerSpeedModifier>25</iWorkerSpeedModifier>
 			<iAsset>2</iAsset>
 			<iPower>1</iPower>
@@ -1571,7 +1571,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SIMPLE_WOOD_WORKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>17</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>2</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -1606,7 +1606,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_BONE_WORKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>17</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>2</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -1642,7 +1642,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_BINDING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>17</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>3</iPower>
 			<bTrade>1</bTrade>
@@ -1681,7 +1681,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_ADHESIVES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>17</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -1726,7 +1726,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iAIWeight>25</iAIWeight>
 			<iCost>17</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>16</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -1772,7 +1772,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_MICROLITH_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>20</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iWorkerSpeedModifier>15</iWorkerSpeedModifier>
 			<iAsset>6</iAsset>
 			<bTrade>1</bTrade>
@@ -1804,7 +1804,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_HEAT_TREATMENT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>20</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -1851,7 +1851,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_TATTOOS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>20</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -1885,7 +1885,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_TRAP_FISHING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>20</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -1920,7 +1920,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_COMPOSITE_TOOLS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>20</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iWorkerSpeedModifier>25</iWorkerSpeedModifier>
 			<iAsset>4</iAsset>
 			<iPower>3</iPower>
@@ -1957,7 +1957,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_RAFT_BUILDING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>20</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -2011,7 +2011,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_PERSONAL_ADORNMENT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>20</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>10</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -2058,7 +2058,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_FLINT_KNAPPING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>23</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iWorkerSpeedModifier>25</iWorkerSpeedModifier>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
@@ -2098,7 +2098,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iAIWeight>10</iAIWeight>
 			<iCost>23</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -2136,7 +2136,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SPEAR_MAKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>23</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>2</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -2171,7 +2171,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_DRYING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>23</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -2209,7 +2209,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_AXE_MAKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>23</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>2</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -2244,7 +2244,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_BARK_WORKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>23</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -2292,7 +2292,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SEWING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>23</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -2327,7 +2327,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_BEAD_MAKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>23</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
@@ -2375,7 +2375,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_PORTABLE_SHELTERS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>26</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>12</iGridX>
@@ -2420,7 +2420,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SPEARFISHING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>26</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -2463,7 +2463,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_WARFARE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>26</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -2490,7 +2490,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_WOOD_WORKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>26</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -2537,7 +2537,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_TANNING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>26</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -2579,7 +2579,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_BARTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>26</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -2615,7 +2615,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_ANIMISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>26</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>12</iGridX>
@@ -2652,7 +2652,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_FIRE_MAKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>30</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iHealth>1</iHealth>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
@@ -2688,7 +2688,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_ATLATL_MAKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>30</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>3</iPower>
 			<bTrade>1</bTrade>
@@ -2731,7 +2731,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_HUNTING_TACTICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>30</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -2762,7 +2762,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SLAVERY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>30</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>6</iPower>
 			<bTrade>1</bTrade>
@@ -2809,7 +2809,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CARPENTRY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>30</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -2840,7 +2840,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_OBSIDIAN_WEAPONS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>30</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iWorkerSpeedModifier>25</iWorkerSpeedModifier>
 			<iAsset>2</iAsset>
 			<iPower>1</iPower>
@@ -2878,7 +2878,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_ARITHMETIC_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>30</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -2914,7 +2914,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_EARTH_OVEN_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>34</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -2949,7 +2949,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SLASH_AND_BURN_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>34</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -2992,7 +2992,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_TRIBALISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>34</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -3033,7 +3033,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CANINE_DOMESTICATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>34</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -3061,7 +3061,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_PICTOGRAPHS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iCost>34</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -3104,7 +3104,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CEREMONIAL_BURIAL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>34</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -3150,7 +3150,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CHIEFDOM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>39</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -3184,7 +3184,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_ANIMAL_HUSBANDRY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>39</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>10</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -3235,7 +3235,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_FELINE_DOMESTICATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>39</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -3266,7 +3266,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_BOAT_BUILDING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>39</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -3300,7 +3300,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_MYSTICISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>39</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -3342,7 +3342,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_POULTRY_DOMESTICATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>45</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -3389,7 +3389,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_EQUINE_DOMESTICATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>45</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -3437,7 +3437,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
 			<iCost>45</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>6</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -3481,7 +3481,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
 			<iCost>45</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>6</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -3524,7 +3524,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_FISHING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>45</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>10</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -3567,7 +3567,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iAIWeight>10</iAIWeight>
 			<iCost>45</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -3605,7 +3605,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CELEBRATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>52</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -3640,7 +3640,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_FALCONRY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>52</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>16</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>17</iGridX>
@@ -3682,7 +3682,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_MEGAFAUNA_DOMESTICATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>52</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>4</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -3715,7 +3715,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
 			<iCost>52</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>10</iPower>
 			<bTrade>1</bTrade>
@@ -3761,7 +3761,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_HARPOON_MAKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>52</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<iAsset>8</iAsset>
 			<iPower>1</iPower>
 			<bTrade>1</bTrade>
@@ -3806,7 +3806,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iAIWeight>100</iAIWeight>
 			<iCost>74</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iFirstFreeTechs>1</iFirstFreeTechs>
 			<iAsset>12</iAsset>
 			<bTrade>1</bTrade>
@@ -3849,7 +3849,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_WRITING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iCost>84</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -3889,7 +3889,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
 			<iCost>84</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iPower>6</iPower>
 			<bTrade>1</bTrade>
@@ -3928,7 +3928,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_AGRICULTURE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>84</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -3970,7 +3970,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_COMMUNITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>84</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -4001,7 +4001,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_TAXONOMY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>96</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -4036,7 +4036,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_POTTERY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>96</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -4078,7 +4078,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_BREAD_MAKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>96</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -4109,7 +4109,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CONSCIOUSNESS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>96</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -4140,7 +4140,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_FOLK_MUSIC_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>96</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -4179,7 +4179,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_FOLK_DANCE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>96</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -4218,7 +4218,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CASTE_SYSTEM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>96</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>16</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>21</iGridX>
@@ -4263,7 +4263,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_AGRICULTURE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>110</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -4305,7 +4305,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_APICULTURE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>110</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>22</iGridX>
@@ -4346,7 +4346,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SAILING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>110</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -4415,7 +4415,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_MINING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>110</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -4451,7 +4451,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_THE_WHEEL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>110</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
@@ -4494,7 +4494,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_ANCESTOR_WORSHIP_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>110</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -4526,7 +4526,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_ORCHARDS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>126</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>23</iGridX>
@@ -4560,7 +4560,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_EXPLORATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>126</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -4595,7 +4595,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
 			<iCost>126</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -4644,7 +4644,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
 			<iCost>126</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -4694,7 +4694,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_STANDARDIZATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>126</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -4728,7 +4728,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_HERITAGE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>126</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -4759,7 +4759,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_BLOOD_CULT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>126</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iPower>6</iPower>
 			<bTrade>1</bTrade>
@@ -4806,7 +4806,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_MUMMIFICATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>126</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -4841,7 +4841,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_FERMENTATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>144</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -4880,7 +4880,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_STARGAZING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>144</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>16</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -4926,7 +4926,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_NEGOTIATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>144</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>20</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>24</iGridX>
@@ -4956,7 +4956,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_COPPER_WORKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>144</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -4996,7 +4996,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_PULLEY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>144</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iWorkerSpeedModifier>10</iWorkerSpeedModifier>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
@@ -5031,7 +5031,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_MASONRY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>144</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -5077,7 +5077,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_LEAD_WORKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>144</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -5116,7 +5116,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_BOARDGAMES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iCost>144</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>24</iGridX>
@@ -5158,7 +5158,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_FOLK_MEDICINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>164</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -5193,7 +5193,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_OIL_LAMPS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>164</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iWorkerSpeedModifier>5</iWorkerSpeedModifier>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
@@ -5231,7 +5231,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_TRADE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>164</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iTradeRoutes>1</iTradeRoutes>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
@@ -5270,7 +5270,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_PLOUGH_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>164</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>25</iGridX>
@@ -5311,7 +5311,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_METAL_CASTING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>164</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>16</iAsset>
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
@@ -5355,7 +5355,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_TEXTILE_LOOM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>164</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -5386,7 +5386,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SALT_PROCESSING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>164</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>25</iGridX>
@@ -5428,7 +5428,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CEREMONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>164</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -5462,7 +5462,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SOAP_MAKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>187</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -5497,7 +5497,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
 			<iCost>187</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -5545,7 +5545,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_IRRIGATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>187</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>24</iAsset>
 			<bTrade>1</bTrade>
 			<bIrrigation>1</bIrrigation>
@@ -5584,7 +5584,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SERICULTURE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>187</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>26</iGridX>
@@ -5625,7 +5625,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SCULPTURE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>187</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>26</iGridX>
@@ -5668,7 +5668,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_PRIESTHOOD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>187</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>26</iGridX>
@@ -5709,7 +5709,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_GARDENING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>213</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>24</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>27</iGridX>
@@ -5750,7 +5750,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_LEISURE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>213</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -5785,7 +5785,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_ORNAMENTATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>213</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -5820,7 +5820,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_DUALISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>213</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>27</iGridX>
@@ -5857,7 +5857,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_ORATORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>213</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>40</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>27</iGridX>
@@ -5891,7 +5891,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_PRIESTHOOD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>213</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>27</iGridX>
@@ -5933,7 +5933,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CANDLE_MAKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>213</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iWorkerSpeedModifier>5</iWorkerSpeedModifier>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
@@ -5976,7 +5976,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SPECIALIZATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>242</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iWorkerSpeedModifier>10</iWorkerSpeedModifier>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
@@ -6011,7 +6011,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SUNDIAL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iCost>242</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iWorkerSpeedModifier>5</iWorkerSpeedModifier>
 			<iAsset>16</iAsset>
 			<bTrade>1</bTrade>
@@ -6059,7 +6059,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_FURNITURE_MAKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>242</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -6095,7 +6095,7 @@ Current techs which are not in this file:-
 			<iAIWeight>100</iAIWeight>
 			<iAITradeModifier>10</iAITradeModifier>
 			<iCost>242</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bEmbassyTrading>1</bEmbassyTrading>
 			<bTrade>1</bTrade>
@@ -6141,7 +6141,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_MATRIARCHY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>242</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -6177,7 +6177,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iAIWeight>25</iAIWeight>
 			<iCost>242</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>16</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>28</iGridX>
@@ -6222,7 +6222,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_LOCKS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>274</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -6258,7 +6258,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
 			<iCost>274</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iPower>8</iPower>
 			<bTrade>1</bTrade>
@@ -6301,7 +6301,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_PLUMBING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>274</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -6337,7 +6337,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_GEAR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>274</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iWorkerSpeedModifier>15</iWorkerSpeedModifier>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
@@ -6372,7 +6372,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CUISINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>274</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -6406,7 +6406,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_MONOTHEISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>274</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>29</iGridX>
@@ -6443,7 +6443,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_VETERIANARY_MEDICINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>274</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -6478,7 +6478,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_PATRIARCHY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>274</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -6512,7 +6512,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_MAGIC_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>274</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -6548,7 +6548,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_POLYTHEISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>274</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>29</iGridX>
@@ -6587,7 +6587,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
 			<iCost>309</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>24</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
@@ -6664,7 +6664,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_BRASS_WORKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>309</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -6698,7 +6698,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CENTRAL_HEATING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>309</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -6732,7 +6732,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_HYDRAULIC_MINING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>309</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -6766,7 +6766,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SCRIPTURES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>309</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>30</iGridX>
@@ -6808,7 +6808,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<bGlobal>1</bGlobal>
 			<iCost>309</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iGridX>30</iGridX>
 			<iGridY>13</iGridY>
@@ -6846,7 +6846,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iAIWeight>25</iAIWeight>
 			<iCost>309</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>16</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>30</iGridX>
@@ -6894,7 +6894,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>309</iCost>
 			<bGlobal>1</bGlobal>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iGridX>30</iGridX>
 			<iGridY>19</iGridY>
@@ -6933,7 +6933,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CLOUD_PATTERNS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iCost>348</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>16</iAsset>
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
@@ -6960,7 +6960,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_LINGUISTICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<iCost>348</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>2</iAsset>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
@@ -6994,7 +6994,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_GLASS_BLOWING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iCost>348</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>15</iAsset>
 			<iPower>5</iPower>
 			<bTrade>1</bTrade>
@@ -7033,7 +7033,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>348</iCost>
 			<bGlobal>1</bGlobal>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iGridX>31</iGridX>
 			<iGridY>7</iGridY>
@@ -7071,7 +7071,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>348</iCost>
 			<bGlobal>1</bGlobal>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iGridX>31</iGridX>
 			<iGridY>9</iGridY>
@@ -7108,7 +7108,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_MONARCHY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iCost>348</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>16</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>31</iGridX>
@@ -7155,7 +7155,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iAIWeight>25</iAIWeight>
 			<iCost>348</iCost>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<iAsset>16</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>31</iGridX>
@@ -37041,7 +37041,7 @@ Current techs which are not in this file:-
 			<Description>TXT_KEY_TECH_DUMMY</Description>
 			<Civilopedia>TXT_KEY_TECH_DUMMY_PEDIA</Civilopedia>
 			<iCost>-1</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<bDisable>1</bDisable>
 			<Sound>AS2D_TECH_GENERIC</Sound>
 			<SoundMP>AS2D_TECH_GENERIC</SoundMP>
@@ -37052,7 +37052,7 @@ Current techs which are not in this file:-
 			<Description>TXT_KEY_TECH_DUMMY_NEANDERTHAL</Description>
 			<Civilopedia>TXT_KEY_TECH_DUMMY_PEDIA</Civilopedia>
 			<iCost>-1</iCost>
-			<Era>ERA_PREHISTORIC</Era>
+			<Era>ERA_ANCIENT</Era>
 			<bDisable>1</bDisable>
 			<Sound>AS2D_TECH_GENERIC</Sound>
 			<SoundMP>AS2D_TECH_GENERIC</SoundMP>

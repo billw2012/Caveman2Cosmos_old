@@ -704,7 +704,6 @@
 				</TechCommerceModifier>
 			</TechCommerceModifiers>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_CANAANISM_MONASTERY</BuildingClass>
 			<Type>BUILDING_CANAANISM_MONASTERY</Type>

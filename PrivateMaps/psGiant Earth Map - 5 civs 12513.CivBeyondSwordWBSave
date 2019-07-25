@@ -1,6 +1,6 @@
 Version=11
 BeginGame
-	Era=ERA_PREHISTORIC
+	Era=ERA_ANCIENT
 	Speed=GAMESPEED_MARATHON
 	Calendar=CALENDAR_DEFAULT
 	Option=GAMEOPTION_AGGRESSIVE_AI
@@ -298,7 +298,7 @@ BeginPlayer
 	StartingGold=0
 	StartingX=93, StartingY=57
 	StateReligion=
-	StartingEra=ERA_PREHISTORIC
+	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_ANARCHISM
 	CivicOption=CIVICOPTION_RULE, Civic=CIVIC_OBEDIENCE
@@ -334,7 +334,7 @@ BeginPlayer
 	StartingGold=0
 	StartingX=37, StartingY=44
 	StateReligion=
-	StartingEra=ERA_PREHISTORIC
+	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_ANARCHISM
 	CivicOption=CIVICOPTION_RULE, Civic=CIVIC_OBEDIENCE
@@ -370,7 +370,7 @@ BeginPlayer
 	StartingGold=0
 	StartingX=71, StartingY=51
 	StateReligion=
-	StartingEra=ERA_PREHISTORIC
+	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_ANARCHISM
 	CivicOption=CIVICOPTION_RULE, Civic=CIVIC_OBEDIENCE
@@ -406,7 +406,7 @@ BeginPlayer
 	StartingGold=0
 	StartingX=171, StartingY=46
 	StateReligion=
-	StartingEra=ERA_PREHISTORIC
+	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_ANARCHISM
 	CivicOption=CIVICOPTION_RULE, Civic=CIVIC_OBEDIENCE
@@ -442,7 +442,7 @@ BeginPlayer
 	StartingGold=0
 	StartingX=52, StartingY=49
 	StateReligion=
-	StartingEra=ERA_PREHISTORIC
+	StartingEra=ERA_ANCIENT
 	RandomStartLocation=false
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_ANARCHISM
 	CivicOption=CIVICOPTION_RULE, Civic=CIVIC_OBEDIENCE

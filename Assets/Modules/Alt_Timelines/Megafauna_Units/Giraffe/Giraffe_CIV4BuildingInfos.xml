@@ -24,7 +24,6 @@
 			<iAIWeight>0</iAIWeight>
 			<iCost>588</iCost>
 			<iConquestProb>0</iConquestProb>
-			<iMinLatitude>0</iMinLatitude>
 			<iMaxLatitude>45</iMaxLatitude>
 			<iTradeRoutes>1</iTradeRoutes>
 			<iAsset>4</iAsset>
@@ -90,8 +89,6 @@
 			<iAIWeight>0</iAIWeight>
 			<iCost>139</iCost>
 			<iConquestProb>0</iConquestProb>
-			<iMinLatitude>0</iMinLatitude>
-			<iMaxLatitude>90</iMaxLatitude>
 			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iAsset>4</iAsset>
 			<iPower>2</iPower>
@@ -164,7 +161,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<ObsoleteTech>TECH_MOTORIZED_TRANSPORTATION</ObsoleteTech>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<iAIWeight>0</iAIWeight>
 			<iCost>-1</iCost>
@@ -215,7 +212,6 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<Type>BUILDING_POLO_FIELD</Type>
 			<AndDependencyTypes>

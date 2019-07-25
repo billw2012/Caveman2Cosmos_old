@@ -17,9 +17,9 @@
 	<EraInfos>
 <!-- Prehistoric -->
 		<EraInfo>
-			<Type>ERA_PREHISTORIC</Type>
-			<Description>TXT_KEY_ERA_PREHISTORIC</Description>
-			<Strategy>TXT_KEY_ERA_PREHISTORIC_STRATEGY</Strategy>
+			<Type>ERA_ANCIENT</Type>
+			<Description>TXT_KEY_ERA_ANCIENT</Description>
+			<Strategy>TXT_KEY_ERA_ANCIENT_STRATEGY</Strategy>
 			<iAdvancedStartPoints>500</iAdvancedStartPoints>
 			<iStartingUnitMultiplier>1</iStartingUnitMultiplier>
 			<iStartingExploreUnits>1</iStartingExploreUnits>
@@ -68,9 +68,9 @@
 		</EraInfo>
 <!-- Ancient -->
 		<EraInfo>
-			<Type>ERA_ANCIENT</Type>
-			<Description>TXT_KEY_ERA_ANCIENT</Description>
-			<Strategy>TXT_KEY_ERA_ANCIENT_STRATEGY</Strategy>
+			<Type>ERA_SEDENTARY</Type>
+			<Description>TXT_KEY_ERA_SEDENTARY</Description>
+			<Strategy>TXT_KEY_ERA_SEDENTARY_STRATEGY</Strategy>
 			<iAdvancedStartPoints>1000</iAdvancedStartPoints>
 			<iStartingUnitMultiplier>1</iStartingUnitMultiplier>
 			<iStartingExploreUnits>1</iStartingExploreUnits>

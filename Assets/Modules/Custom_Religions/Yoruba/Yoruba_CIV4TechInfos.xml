@@ -16,7 +16,7 @@
 			<!-- Main properties -->
 			<iCost>187</iCost>
 			<bGlobal>1</bGlobal>
-			<Era>ERA_ANCIENT</Era>
+			<Era>ERA_SEDENTARY</Era>
 			<OrPreReqs>
 				<PrereqTech>TECH_CEREMONY</PrereqTech>
 			</OrPreReqs>

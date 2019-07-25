@@ -812,7 +812,7 @@ bool CvXMLLoadUtility::LoadGlobalText()
 				break;
 
 			case 10:
-				szLanguage = "Japanese";
+				szLanguage = "Portuguese";
 				break;
 
 			default:

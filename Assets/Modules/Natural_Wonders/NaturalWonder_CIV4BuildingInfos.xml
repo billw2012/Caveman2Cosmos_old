@@ -1646,7 +1646,6 @@
 				</TechHealthChange>
 			</TechHealthChanges>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_OASIS_MYTH</BuildingClass>
 			<Type>BUILDING_OASIS_MYTH</Type>
@@ -2251,6 +2250,5 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
-
 	</BuildingInfos>
 </Civ4BuildingInfos>

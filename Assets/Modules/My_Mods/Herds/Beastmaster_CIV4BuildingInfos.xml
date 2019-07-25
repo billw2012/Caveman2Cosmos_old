@@ -17,16 +17,12 @@
 			<iAIWeight>0</iAIWeight>
 			<iCost>132</iCost>
 			<iConquestProb>0</iConquestProb>
-			<iMinLatitude>0</iMinLatitude>
-			<iMaxLatitude>90</iMaxLatitude>
 			<iAsset>4</iAsset>
 			<iPower>2</iPower>
 			<fVisibilityPriority>0.0</fVisibilityPriority>
 			<ConstructSound>AS2D_BUILD_STABLE</ConstructSound>
 			<MapCategoryTypes>
-
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
-
 			</MapCategoryTypes>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -69,16 +65,12 @@
 			<iAIWeight>0</iAIWeight>
 			<iCost>132</iCost>
 			<iConquestProb>0</iConquestProb>
-			<iMinLatitude>0</iMinLatitude>
-			<iMaxLatitude>90</iMaxLatitude>
 			<iAsset>4</iAsset>
 			<iPower>2</iPower>
 			<fVisibilityPriority>0.0</fVisibilityPriority>
 			<ConstructSound>AS2D_BUILD_STABLE</ConstructSound>
 			<MapCategoryTypes>
-
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
-
 			</MapCategoryTypes>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>

@@ -148,11 +148,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Winston Churchill</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_NIKITA_KHRUSHCHEV</Tag>
@@ -187,11 +187,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Nikita Khrushchev</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_JAMES_MADISON</Tag>
@@ -226,11 +226,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>James Madison</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_JOSEPH_STALIN</Tag>
@@ -265,11 +265,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Joseph Stalin</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_EMPEROR_AKIHITO</Tag>
@@ -304,11 +304,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Emperor Akihito</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_EMPEROR_HIROHITO</Tag>
@@ -343,11 +343,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Emperor Hirohito</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_VLADIMIR_LENIN</Tag>
@@ -382,11 +382,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Vladimir Lenin</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_AARON_BURR</Tag>
@@ -421,11 +421,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Aaron Burr</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_THOMAS_JEFFERSON</Tag>
@@ -460,11 +460,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Thomas Jefferson</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_ALEXANDER_HAMILTON</Tag>
@@ -499,11 +499,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Alexander Hamilton</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_NELSON_MANDELA</Tag>
@@ -538,11 +538,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Nelson Mandela</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_MARTIN_VAN_BUREN</Tag>
@@ -577,11 +577,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Martin Van Buren</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_ROBERT_LIVINGSTON</Tag>
@@ -616,11 +616,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Robert Livingston</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_DR._HENRY_KISSINGER</Tag>
@@ -655,11 +655,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Dr. Henry Kissinger</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_JOHN_QUINCY_ADAMS</Tag>
@@ -694,11 +694,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>John Quincy Adams</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_HAROLD_MACMILLAN</Tag>
@@ -733,11 +733,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Harold Macmillan</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_JOHN_F._KENNEDY</Tag>
@@ -772,11 +772,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>John F. Kennedy</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_MIKHAIL_GORBACHEV</Tag>
@@ -811,11 +811,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Mikhail Gorbachev</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_MARGARET_THATCHER</Tag>
@@ -850,11 +850,11 @@
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Margaret Thatcher</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_LEON_TROTSKY</Tag>
@@ -889,11 +889,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Leon Trotsky</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_EMILIANO_ZAPATA</Tag>
@@ -928,11 +928,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Emiliano Zapata</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_RONALD_REAGAN</Tag>
@@ -967,11 +967,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Ronald Reagan</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_QIN_SHI_HUANG</Tag>
@@ -1006,11 +1006,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Qin Shi Huang</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_MAO_ZEDONG</Tag>
@@ -1045,11 +1045,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Mao Zedong</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_PANCHO_VILLA</Tag>
@@ -1084,11 +1084,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Pancho Villa</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_PASCUAL_OROZCO</Tag>
@@ -1123,11 +1123,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Pascual Orozco</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_LORD_CHESTERFIELD</Tag>
@@ -1162,11 +1162,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Lord Chesterfield</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_LORD_MELBOURNE</Tag>
@@ -1201,11 +1201,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Lord Melbourne</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_ALCIBIADES</Tag>
@@ -1240,11 +1240,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Alcibiades</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_YASSER_ARAFAT</Tag>
@@ -1279,11 +1279,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Yasser Arafat</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_SIR_FRANCIS_BACON</Tag>
@@ -1318,11 +1318,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Sir Francis Bacon</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_DAVID_GEN_GURION</Tag>
@@ -1357,11 +1357,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>David Gen Gurion</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_MENACHEM_BEGIN</Tag>
@@ -1396,11 +1396,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Menachem Begin</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_SIMON_BOLIVAR</Tag>
@@ -1435,11 +1435,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Simon Bolivar</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_WILLY_BRANDT</Tag>
@@ -1474,11 +1474,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Willy Brandt</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_MARCUS_JUNIUS_BRUTUS</Tag>
@@ -1513,11 +1513,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Marcus Junius Brutus</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_EDMUND_BURKE</Tag>
@@ -1552,11 +1552,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Edmund Burke</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_KEMAL_ATATURK</Tag>
@@ -1591,11 +1591,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Kemal Ataturk</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_BIRGER_JARL</Tag>
@@ -1630,11 +1630,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Birger Jarl</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_ZHUGE_LIANG</Tag>
@@ -1669,11 +1669,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Zhuge Liang</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_YITZHAK_RABIN</Tag>
@@ -1708,11 +1708,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Yitzhak Rabin</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_SELAHADINE_EYUBI</Tag>
@@ -1747,11 +1747,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Selahadine Eyubi</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_PERICLES</Tag>
@@ -1786,11 +1786,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Pericles</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_KIMON</Tag>
@@ -1825,11 +1825,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Kimon</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_ARISTIDES</Tag>
@@ -1864,11 +1864,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Aristides</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_MARK_ANTONY</Tag>
@@ -1903,11 +1903,11 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Mark Antony</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_ABRAHAM_LINCOLN</Tag>
@@ -1942,10 +1942,10 @@
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Chinese>
-		<Japanese>
+		<Portuguese>
 			<Text>Abraham Lincoln</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
-		</Japanese>
+		</Portuguese>
 	</TEXT>
 </Civ4GameText>

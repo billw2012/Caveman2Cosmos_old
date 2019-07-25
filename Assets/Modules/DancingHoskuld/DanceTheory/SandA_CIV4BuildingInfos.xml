@@ -11,8 +11,6 @@
 			<Type>BUILDING_BRASS_MAKER</Type>
 			<FreePromotion>PROMOTION_CACOPHONY</FreePromotion>
 		</BuildingInfo>
-
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_HAKA</BuildingClass>
 			<Type>BUILDING_HAKA</Type>

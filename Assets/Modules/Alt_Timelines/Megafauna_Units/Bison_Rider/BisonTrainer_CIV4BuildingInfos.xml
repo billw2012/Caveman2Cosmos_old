@@ -95,8 +95,6 @@
 			<iAIWeight>0</iAIWeight>
 			<iCost>139</iCost>
 			<iConquestProb>0</iConquestProb>
-			<iMinLatitude>0</iMinLatitude>
-			<iMaxLatitude>90</iMaxLatitude>
 			<iMaintenanceModifier>0</iMaintenanceModifier>
 			<iAsset>4</iAsset>
 			<iPower>2</iPower>
@@ -172,7 +170,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<ObsoleteTech>TECH_AVIATION</ObsoleteTech>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<iAIWeight>0</iAIWeight>
 			<iCost>-1</iCost>
@@ -210,7 +208,6 @@
 				</Flavor>
 			</Flavors>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<Type>BUILDING_STABLE</Type>
 			<AndDependencyTypes>

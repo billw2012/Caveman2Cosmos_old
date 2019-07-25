@@ -394,7 +394,6 @@ class BugEventManager(CvEventManager.CvEventManager):
 				if stroke in self.shortcuts:
 					BugUtil.debug("BugEventManager - calling handler for shortcut %s", stroke)
 					self.shortcuts[stroke](argsList)
-					return 1
 		return 0
 
 EVENT_FUNCTION_MAP = {

@@ -377,7 +377,6 @@
 			<iDCMAirbombMission>2</iDCMAirbombMission>
 			<iPrereqPopulation>6</iPrereqPopulation>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_FLIGHT_SCHOOL</BuildingClass>
 			<Type>BUILDING_FLIGHT_SCHOOL</Type>
