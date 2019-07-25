@@ -1626,5 +1626,21 @@
 			<Type>ART_DEF_MOVIE_THE_ATOMIUM</Type>
 			<Path>Art/Movies/Wonders/The_Atomium.bik</Path>
 		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_CLEOPATRA_NEEDLE</Type>
+			<Path>Art/Movies/Wonders/Cleopatra's Needle.bik</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_HELSINKI</Type>
+			<Path>art/Helsinki Cathedral.bik</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_THE_MOTHERLAND_CALLS</Type>
+			<Path>art/The Motherland Calls.bik</Path>
+		</MovieArtInfo>
+		<MovieArtInfo>
+			<Type>ART_DEF_MOVIE_REICHSTAG</Type>
+			<Path>art/Reichstag.bik</Path>
+		</MovieArtInfo>
 	</MovieArtInfos>
 </Civ4ArtDefines>

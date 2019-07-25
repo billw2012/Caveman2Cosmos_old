@@ -28,10 +28,10 @@
 			</Traits>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -72,11 +72,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_RAGNAR_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_RAGNAR_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -130,10 +130,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -174,11 +174,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -242,10 +242,10 @@
 			<iAttackOddsChangeRand>20</iAttackOddsChangeRand>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -286,11 +286,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_RAGNAR_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_RAGNAR_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -344,10 +344,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -388,11 +388,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -466,10 +466,10 @@
 			</Traits>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -510,11 +510,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_RAGNAR_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_RAGNAR_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -568,10 +568,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -612,11 +612,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -1129,10 +1129,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -1173,11 +1173,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_ALEXANDER_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_ALEXANDER_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -1231,10 +1231,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -1275,11 +1275,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -1794,11 +1794,11 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_ASOKA_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_ASOKA_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -1852,11 +1852,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_ASOKA_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_ASOKA_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -1910,10 +1910,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -1954,11 +1954,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -2477,10 +2477,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -2521,11 +2521,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_CAESAR_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_CAESAR_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -2579,10 +2579,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -2623,11 +2623,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -3146,10 +3146,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -3190,11 +3190,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_BISMARCK_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_BISMARCK_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -3248,10 +3248,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -3292,11 +3292,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -3822,10 +3822,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -3866,11 +3866,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_EUROPE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_EUROPE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -3924,10 +3924,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -3968,11 +3968,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -4500,10 +4500,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -4544,11 +4544,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_BRENNUS_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_BRENNUS_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -4602,10 +4602,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -4646,11 +4646,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -5165,10 +5165,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -5209,11 +5209,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_CATHERINE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_CATHERINE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -5267,10 +5267,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -5311,11 +5311,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -5835,10 +5835,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -5879,11 +5879,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_CHARLEMAGNE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_CHARLEMAGNE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -5937,10 +5937,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -5981,11 +5981,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -6510,10 +6510,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -6554,11 +6554,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_EUROPE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_EUROPE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -6612,10 +6612,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -6656,11 +6656,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -7186,10 +7186,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -7239,11 +7239,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_CYRUS_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_CYRUS_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -7297,10 +7297,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -7341,11 +7341,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -7868,10 +7868,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -7921,11 +7921,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_CYRUS_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_CYRUS_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -7979,10 +7979,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -8023,11 +8023,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -8551,10 +8551,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -8595,11 +8595,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_EUROPE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_EUROPE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -8653,10 +8653,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -8697,11 +8697,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -9227,10 +9227,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -9271,11 +9271,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_ELIZABETH_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_ELIZABETH_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -9329,10 +9329,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -9373,11 +9373,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -9895,10 +9895,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -9941,11 +9941,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_FREDERICK_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_FREDERICK_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -9999,10 +9999,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -10043,11 +10043,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -10528,11 +10528,11 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_GANDHI_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_GANDHI_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -10575,11 +10575,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_GANDHI_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_GANDHI_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -10633,10 +10633,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -10677,11 +10677,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -11197,11 +11197,11 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_GENGHISKHAN_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_GENGHISKHAN_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -11253,11 +11253,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_GENGHISKHAN_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_GENGHISKHAN_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -11311,10 +11311,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -11355,11 +11355,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -11878,10 +11878,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -11922,11 +11922,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_GILGAMESH_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_GILGAMESH_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -11980,10 +11980,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -12024,11 +12024,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -12552,10 +12552,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -12596,11 +12596,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_HAMMURABI_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_HAMMURABI_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -12654,10 +12654,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -12698,11 +12698,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -13232,10 +13232,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -13278,11 +13278,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_HANNIBAL_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_HANNIBAL_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -13336,10 +13336,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -13380,11 +13380,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -13895,11 +13895,11 @@
 			</NoWarAttitudeProbs>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -13953,11 +13953,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -14011,10 +14011,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -14055,11 +14055,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -14584,10 +14584,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -14636,11 +14636,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_HUAYNACAPAC_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_HUAYNACAPAC_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -14694,10 +14694,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -14738,11 +14738,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -15268,11 +15268,11 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_ISABELLA_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_ISABELLA_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -15326,11 +15326,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_ISABELLA_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_ISABELLA_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -15384,10 +15384,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -15428,11 +15428,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -15960,10 +15960,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -16004,11 +16004,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_JOHNII_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_JOHNII_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -16062,10 +16062,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -16106,11 +16106,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -16630,10 +16630,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -16674,11 +16674,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_CAESAR_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_CAESAR_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -16732,10 +16732,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -16776,11 +16776,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -17301,10 +17301,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -17345,11 +17345,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_JUSTINIANI_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_JUSTINIANI_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -17403,10 +17403,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -17447,11 +17447,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -17969,11 +17969,11 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_KUBLAIKHAN_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_KUBLAIKHAN_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -18025,11 +18025,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_KUBLAIKHAN_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_KUBLAIKHAN_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -18083,10 +18083,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -18127,11 +18127,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -18658,10 +18658,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -18702,11 +18702,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_LINCOLN_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_LINCOLN_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -18760,10 +18760,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -18804,11 +18804,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -19324,10 +19324,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -19368,11 +19368,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_LOUIS_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_LOUIS_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -19426,10 +19426,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -19470,11 +19470,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -19998,10 +19998,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -20042,11 +20042,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_MANSAMUSA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_MANSAMUSA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -20100,10 +20100,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -20144,11 +20144,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -20670,10 +20670,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -20714,11 +20714,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_MAOZEDONG_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_MAOZEDONG_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -20772,10 +20772,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -20816,11 +20816,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -21351,10 +21351,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -21397,11 +21397,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_MEHMED_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_MEHMED_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -21455,10 +21455,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -21499,11 +21499,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -22016,11 +22016,11 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_MONTEZUMA_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_MONTEZUMA_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -22074,11 +22074,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_MONTEZUMA_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_MONTEZUMA_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -22132,10 +22132,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -22176,11 +22176,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -22710,10 +22710,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -22754,11 +22754,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_NAPOLEON_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_NAPOLEON_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -22812,10 +22812,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -22856,11 +22856,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -23389,10 +23389,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -23433,11 +23433,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_PACAL_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_PACAL_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -23491,10 +23491,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -23535,11 +23535,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -24066,10 +24066,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -24110,11 +24110,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_EUROPE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_EUROPE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -24168,10 +24168,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -24212,11 +24212,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -24745,11 +24745,11 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_PETER_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_PETER_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -24803,11 +24803,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_PETER_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_PETER_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -24861,10 +24861,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -24905,11 +24905,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -25425,10 +25425,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -25469,11 +25469,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_SHIHHUANGTI_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_SHIHHUANGTI_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -25527,10 +25527,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -25571,11 +25571,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -26093,11 +26093,11 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -26151,11 +26151,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -26209,10 +26209,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -26253,11 +26253,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -26774,10 +26774,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -26820,11 +26820,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_RAGNAR_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_RAGNAR_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -26878,10 +26878,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -26922,11 +26922,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -27443,10 +27443,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -27487,11 +27487,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_ROOSEVELT_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_ROOSEVELT_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -27545,10 +27545,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -27589,11 +27589,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -28109,11 +28109,11 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_SALADIN_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_SALADIN_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -28167,11 +28167,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_SALADIN_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_SALADIN_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -28225,10 +28225,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -28269,11 +28269,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -28791,10 +28791,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -28837,11 +28837,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_SHAKA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_SHAKA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -28895,10 +28895,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -28939,11 +28939,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -29459,10 +29459,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -29503,11 +29503,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_NORTH_AMERICA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_NORTH_AMERICA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -29561,10 +29561,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -29605,11 +29605,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -30138,11 +30138,11 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_PETER_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_PETER_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -30196,11 +30196,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_PETER_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_PETER_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -30254,10 +30254,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -30298,11 +30298,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -30848,10 +30848,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -30899,11 +30899,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_MIDDLE_EAST_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_MIDDLE_EAST_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -30957,10 +30957,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -31001,11 +31001,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -31540,10 +31540,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -31584,11 +31584,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_SURYAVARAMAN_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_SURYAVARAMAN_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -31642,10 +31642,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -31686,11 +31686,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -32225,11 +32225,11 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_TOKUGAWA_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_TOKUGAWA_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -32272,11 +32272,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_TOKUGAWA_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_TOKUGAWA_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -32330,10 +32330,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -32374,11 +32374,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -32910,10 +32910,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -32954,11 +32954,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_VICTORIA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_VICTORIA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -33012,10 +33012,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -33056,11 +33056,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -33600,10 +33600,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -33646,11 +33646,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WANGKON_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WANGKON_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -33704,10 +33704,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -33748,11 +33748,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -34295,11 +34295,11 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WASHINGTON_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WASHINGTON_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -34353,11 +34353,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WASHINGTON_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WASHINGTON_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -34411,10 +34411,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -34455,11 +34455,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -35002,10 +35002,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -35046,11 +35046,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WILLEM_VAN_ORANJE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WILLEM_VAN_ORANJE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -35104,10 +35104,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -35148,11 +35148,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -35690,10 +35690,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -35734,11 +35734,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_ZARA_YAQOB_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_ZARA_YAQOB_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -35792,10 +35792,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -35836,11 +35836,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -36358,11 +36358,11 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -36416,11 +36416,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_EARLY_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -36474,10 +36474,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -36518,11 +36518,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -37053,10 +37053,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -37097,11 +37097,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_AFRICA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_AFRICA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -37155,10 +37155,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -37199,11 +37199,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -37744,10 +37744,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -37788,11 +37788,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_AFRICA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_AFRICA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -37846,10 +37846,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -37890,11 +37890,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -38411,11 +38411,11 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_NORTH_AMERICA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_NORTH_AMERICA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -38469,11 +38469,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_NORTH_AMERICA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_NORTH_AMERICA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -38527,10 +38527,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -38571,11 +38571,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -39102,10 +39102,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -39146,11 +39146,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_HAMMURABI_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_HAMMURABI_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -39204,10 +39204,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -39248,11 +39248,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -39792,11 +39792,11 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_SURYAVARAMAN_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_SURYAVARAMAN_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -39850,11 +39850,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_SURYAVARAMAN_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_SURYAVARAMAN_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -39908,10 +39908,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -39952,11 +39952,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -40475,10 +40475,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -40519,11 +40519,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_SURYAVARAMAN_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_SURYAVARAMAN_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -40577,10 +40577,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -40621,11 +40621,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -41149,10 +41149,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -41198,11 +41198,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_ELIZABETH_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_ELIZABETH_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -41256,10 +41256,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -41300,11 +41300,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -41820,10 +41820,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -41868,11 +41868,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_ELIZABETH_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_ELIZABETH_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -41926,10 +41926,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -41970,11 +41970,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -42490,10 +42490,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -42534,11 +42534,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_GERONIMO_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_GERONIMO_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -42592,10 +42592,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -42636,11 +42636,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -43157,10 +43157,10 @@
 			</ImprovementWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -43203,11 +43203,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_EUROPE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_EUROPE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -43261,10 +43261,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -43305,11 +43305,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -43820,10 +43820,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -43864,11 +43864,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_EUROPE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_EUROPE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -43922,10 +43922,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -43966,11 +43966,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
@@ -44481,10 +44481,10 @@
 			</UnitAIWeightModifiers>
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -44525,11 +44525,11 @@
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_RAGNAR_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_CHARLEMAGNE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
@@ -44583,10 +44583,10 @@
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_CLASSICAL</EraType>
@@ -44627,11 +44627,11 @@
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
 				<DiploMusicWarEra>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>

@@ -76,8 +76,6 @@
 			<iCitiesPrereq>0</iCitiesPrereq>
 			<iTeamsPrereq>0</iTeamsPrereq>
 			<iLevelPrereq>0</iLevelPrereq>
-			<iMinLatitude>0</iMinLatitude>
-			<iMaxLatitude>90</iMaxLatitude>
 			<iGreatPeopleRateModifier>10</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
@@ -261,8 +259,6 @@
 			<iCitiesPrereq>0</iCitiesPrereq>
 			<iTeamsPrereq>0</iTeamsPrereq>
 			<iLevelPrereq>0</iLevelPrereq>
-			<iMinLatitude>0</iMinLatitude>
-			<iMaxLatitude>90</iMaxLatitude>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
@@ -454,8 +450,6 @@
 			<iCitiesPrereq>0</iCitiesPrereq>
 			<iTeamsPrereq>0</iTeamsPrereq>
 			<iLevelPrereq>0</iLevelPrereq>
-			<iMinLatitude>0</iMinLatitude>
-			<iMaxLatitude>90</iMaxLatitude>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
@@ -794,7 +788,6 @@
 				</Flavor>
 			</Flavors>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_SHAMAN_SHRINE</BuildingClass>
 			<Type>BUILDING_SHAMAN_SHRINE</Type>
@@ -865,8 +858,6 @@
 			<iCitiesPrereq>0</iCitiesPrereq>
 			<iTeamsPrereq>0</iTeamsPrereq>
 			<iLevelPrereq>0</iLevelPrereq>
-			<iMinLatitude>0</iMinLatitude>
-			<iMaxLatitude>90</iMaxLatitude>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
@@ -1049,8 +1040,6 @@
 			<iCitiesPrereq>0</iCitiesPrereq>
 			<iTeamsPrereq>0</iTeamsPrereq>
 			<iLevelPrereq>0</iLevelPrereq>
-			<iMinLatitude>0</iMinLatitude>
-			<iMaxLatitude>90</iMaxLatitude>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
@@ -1370,7 +1359,6 @@
 			</Flavors>
 			<HotKey/>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_SHAMAN_MONASTERY_RABBIT</BuildingClass>
 			<Type>BUILDING_SHAMAN_MONASTERY_RABBIT</Type>
@@ -1509,7 +1497,6 @@
 				</Flavor>
 			</Flavors>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_SHAMAN_TEMPLE_RABBIT</BuildingClass>
 			<Type>BUILDING_SHAMAN_TEMPLE_RABBIT</Type>
@@ -1636,8 +1623,6 @@
 			</Flavors>
 			<HotKey/>
 		</BuildingInfo>
-
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_DJENNE</BuildingClass>
 			<Type>BUILDING_DJENNE</Type>
@@ -1652,6 +1637,5 @@
 				</BuildingClassProductionModifier>
 			</GlobalBuildingClassProductionModifiers>
 		</BuildingInfo>
-
 	</BuildingInfos>
 </Civ4BuildingInfos>

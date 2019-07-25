@@ -46,28 +46,28 @@
 		
 		<!-- 1x1 ALL PREHISTORIC -->
 		<ArtRef Name="generic:an_Mongolia.nif::1x1x1_01">
-			<Attribute Class="Era">ERA_PREHISTORIC</Attribute>
+			<Attribute Class="Era">ERA_ANCIENT</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Mongolia.nif::1x1x2_01">
-			<Attribute Class="Era">ERA_PREHISTORIC</Attribute>
+			<Attribute Class="Era">ERA_ANCIENT</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Mongolia.nif::1x1x2_02">
-			<Attribute Class="Era">ERA_PREHISTORIC</Attribute>
+			<Attribute Class="Era">ERA_ANCIENT</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Mongolia.nif::1x2x2_01">
-			<Attribute Class="Era">ERA_PREHISTORIC</Attribute>
+			<Attribute Class="Era">ERA_ANCIENT</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -79,67 +79,67 @@
 <!-- 1x1 GENERIC ANCIENT -->
 
 		<ArtRef Name="generic:an_eu_farm02.nif">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 			<Scale>1.75</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_eu_farm03.nif">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 			<Scale>2.0</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_eu.nif::2x2_01">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.75</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_eu.nif::1x1_01">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
 		<ArtRef Name="generic:an_eu.nif::1x1_02">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
 		<ArtRef Name="generic:an_eu.nif::1x1_03">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_eu.nif::1x1_04">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>1.25</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_eu.nif::1x1_05">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
 		<ArtRef Name="generic:an_eu.nif::1x1_06">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
 		<ArtRef Name="generic:an_eu.nif::1x1_07">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
 		<ArtRef Name="generic:an_eu.nif::1x1_08">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
 		<ArtRef Name="generic:an_eu.nif::1x1_09">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
@@ -301,13 +301,13 @@
 <!-- 1x1 NORSE ANCIENT/CLASSICAL/MEDIEVAL -->
 
 		<ArtRef Name="generic:clas_norsca.nif::1x1x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:clas_norsca.nif::1x1x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 			<Scale>0.8</Scale>
@@ -325,7 +325,7 @@
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:clas_norsca.nif::1x1x2_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 			<Scale>0.8</Scale>
@@ -424,31 +424,31 @@
 		
 	<!-- AFRO ANCIENT/CLASSICAL/MEDIEVAL/RENAISSANCE -->
 		<ArtRef Name="generic:an_africa.nif::1x1x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_africa.nif::1x1x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_africa.nif::1x1x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_africa.nif::1x1x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_africa.nif::1x1x2_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
@@ -531,43 +531,43 @@
 
 	<!-- 1x1 ARAB ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:an_arabia.nif::1x1x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.7</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_arabia.nif::1x1x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_arabia.nif::1x1x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.7</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_arabia.nif::1x1x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_arabia.nif::1x2x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:med_arabia.nif::1x1x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:med_arabia.nif::1x1x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 			<Scale>0.9</Scale>
@@ -638,29 +638,29 @@
 
 		<!-- 1x1 ASIAN ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:an_asia.nif::1x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::1x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::1x1_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::1x1_04">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::1x1_05">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
@@ -751,21 +751,21 @@
 			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Mongolia.nif::1x1x2_01">
-			<Attribute Class="Era">ERA_ALL,!ERA_ANCIENT,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
+			<Attribute Class="Era">ERA_ALL,!ERA_SEDENTARY,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Mongolia.nif::1x1x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Mongolia.nif::1x2x2_01">
-			<Attribute Class="Era">ERA_ALL,!ERA_ANCIENT,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
+			<Attribute Class="Era">ERA_ALL,!ERA_SEDENTARY,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -815,7 +815,7 @@
 
 		<!-- 1x1 SOUTH_EAST_ASIAN ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="generic:an_asia.nif::1x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.8</Scale>
@@ -827,7 +827,7 @@
 			<Scale>1.1</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::1x1_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.8</Scale>
@@ -839,7 +839,7 @@
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::1x1_05">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.8</Scale>
@@ -896,38 +896,38 @@
 
 		<!-- EGYPT ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="generic:an_egypt.nif::1x1_05">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x1_06">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 
 		<ArtRef Name="generic:med_egypt.nif::1x1x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:med_egypt.nif::1x1x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:med_egypt.nif::1x1x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:med_egypt.nif::1x1x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 			<Scale>0.9</Scale>	
@@ -954,55 +954,55 @@
 
 		<!-- 1x1 CRESCENT ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="generic:an_egypt.nif::1x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x1_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x1_04">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x1_05">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x1_06">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x1_07">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x1_08">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x1_09">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
@@ -1126,13 +1126,13 @@
 
 		<!-- 1x1 RUSSIAN ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:clas_norsca.nif::1x1x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:clas_norsca.nif::1x1x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 			<Scale>0.8</Scale>
@@ -1150,7 +1150,7 @@
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:clas_norsca.nif::1x1x2_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 			<Scale>0.8</Scale>
@@ -1415,55 +1415,55 @@
 
 		<!-- 1x1 INDIAN ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:an_egypt.nif::1x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x1_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x1_04">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x1_05">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x1_06">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x1_07">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x1_08">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x1_09">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
@@ -1543,19 +1543,19 @@
 
 		<!-- 1x1 INCA/PACIFIC ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:an_South_America.nif::1x1_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_South_America.nif::1x1_04">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_South_America.nif::1x2_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
@@ -1610,28 +1610,28 @@
 
 		<!-- 1x1 MESO ANCIENT -->
 		<ArtRef Name="generic:an_Meso_America.nif::1x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Meso_America.nif::1x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Meso_America.nif::1x1_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Meso_America.nif::1x1_04">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -1740,21 +1740,21 @@
 
 		<!-- 1x1 NATIVE ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:An_Native_American.nif::1x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:An_Native_American.nif::1x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:An_Native_American.nif::1x1_04">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -1896,21 +1896,21 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_SCOTLAND_YARD">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/ScotlandYard/Afro_Native_ScotlandYard.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA,ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_SCOTLAND_YARD">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/ScotlandYard/Afro_Native_ScotlandYard.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_SCOTLAND_YARD">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/ScotlandYard/Arabia_ScotlandYard.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Scale>0.65</Scale>
 		</ArtRef>
@@ -1928,13 +1928,13 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_SCOTLAND_YARD">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/ScotlandYard/Euro_ScotlandYard.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_IBERIA,ARTSTYLE_RUSSIA,ARTSTYLE_NORSE</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_SCOTLAND_YARD">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/ScotlandYard/Greco_Roman_ScotlandYard.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.80</Scale>
@@ -1947,25 +1947,25 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_GRANARY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/granary/Granary.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_GRANARY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/granary/Middle_East_Granary/Granary.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA,ARTSTYLE_ARABIA,ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT</Attribute>
 			<Scale>0.75</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_GRANARY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/granary/Mongolia_Granary/Granary.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_GRANARY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/granary/Native_Granary/An_Granary.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>1.25</Scale>
@@ -2035,14 +2035,14 @@
 		<ArtRef Name="building:LSYSTEM_LIBRARY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Library/Europe_Library/Library_Ancient/cottage_freeze0001.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_RUSSIA,ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>1.65</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_LIBRARY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Library/Europe_Library/Library_Ancient/cottage_freeze0001.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>1.65</Scale>
 		</ArtRef>
@@ -2055,7 +2055,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_LIBRARY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Library/Mongolia_Library/Library.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.85</Scale>
@@ -2067,21 +2067,21 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_AQUEDUCT">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Aqueduct/Well.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA,ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.5</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_AQUEDUCT">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Aqueduct/Asia_Aqueduct/Aqueduct.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.75</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_AQUEDUCT">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Aqueduct/Europe_Aqueduct/clas_Aqueduct.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.75</Scale>
@@ -2197,25 +2197,25 @@
 		<!-- 2x1 GENERIC ANCIENT -->
 		<ArtRef Name="generic:an_eu.nif::1x2_01">
 			<Attribute Class="Rotation">90,270</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA,ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
 		<ArtRef Name="generic:an_eu.nif::2x1_01">
 			<Attribute Class="Rotation">0,180</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA,ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
 		<ArtRef Name="generic:an_eu.nif::2x1_02">
 			<Attribute Class="Rotation">0,180</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_IBERIA,ARTSTYLE_GRECO_ROMAN,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
 		<ArtRef Name="generic:an_eu.nif::2x1_03">
 			<Attribute Class="Rotation">0,180</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA,ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
@@ -2323,14 +2323,14 @@
 
 		<!-- 2x1 AFRO ANCIENT/CLASSICAL/MEDIEVAL/RENAISSANCE -->
 		<ArtRef Name="generic:an_africa.nif::1x2x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_africa.nif::1x2x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
@@ -2351,7 +2351,7 @@
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_africa.nif::1x2x2_05">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
@@ -2365,7 +2365,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_africa.nif::2x1x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
@@ -2552,42 +2552,42 @@
 
 		<!-- 2x1 ARABIAN ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:an_arabia.nif::1x1x2_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_arabia.nif::1x2x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_arabia.nif::1x2x2_05">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_arabia.nif::2x1x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_arabia.nif::1x2x2_04">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.7</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_arabia.nif::2x1x2_04">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
@@ -2718,14 +2718,14 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::2x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::2x1_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -2739,7 +2739,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::1x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -2833,14 +2833,14 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::2x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::2x1_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -2854,7 +2854,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::1x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -2978,7 +2978,7 @@
 
 		<!-- 2x1 MONGOL ANCIENT_TO_MODERN -->
 		<ArtRef Name="generic:an_Mongolia.nif::1x1x1_02">
-			<Attribute Class="Era">ERA_ALL,!ERA_ANCIENT,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
+			<Attribute Class="Era">ERA_ALL,!ERA_SEDENTARY,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -2986,7 +2986,7 @@
 			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Mongolia.nif::1x1x2_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -2994,7 +2994,7 @@
 			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Mongolia.nif::1x2x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -3002,7 +3002,7 @@
 			<Scale>1.25</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Mongolia.nif::1x2x2_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -3010,7 +3010,7 @@
 			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Mongolia.nif::1x2x2_05">
-			<Attribute Class="Era">ERA_ALL,!ERA_ANCIENT,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
+			<Attribute Class="Era">ERA_ALL,!ERA_SEDENTARY,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -3026,7 +3026,7 @@
 			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Mongolia.nif::2x1x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -3034,7 +3034,7 @@
 			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Mongolia.nif::2x1x2_02">
-			<Attribute Class="Era">ERA_ALL,!ERA_ANCIENT,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
+			<Attribute Class="Era">ERA_ALL,!ERA_SEDENTARY,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -3042,7 +3042,7 @@
 			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Mongolia.nif::2x1x2_03">
-			<Attribute Class="Era">ERA_ALL,!ERA_ANCIENT,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
+			<Attribute Class="Era">ERA_ALL,!ERA_SEDENTARY,!ERA_NANOTECH,!ERA_TRANSHUMAN,!ERA_FUTURE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -3050,7 +3050,7 @@
 			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Mongolia.nif::2x1x2_04">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -3058,7 +3058,7 @@
 			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Mongolia.nif::2x2x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -3120,14 +3120,14 @@
 			<Scale>1.1</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::2x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::2x1_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -3141,14 +3141,14 @@
 			<Scale>1.1</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::1x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::1x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -3251,42 +3251,42 @@
 		<!-- 2x1 CRESCENT ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="generic:an_egypt.nif::2x1_01">
 			<Attribute Class="Rotation">0,180</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::2x1_02">
 			<Attribute Class="Rotation">0,180</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::2x1_03">
 			<Attribute Class="Rotation">0,180</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::2x1_04">
 			<Attribute Class="Rotation">0,180</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x2_01">
 			<Attribute Class="Rotation">90,270</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x2_02">
 			<Attribute Class="Rotation">90,270</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
@@ -3421,42 +3421,42 @@
 
 		<!-- 2x1 EGYPT ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="generic:an_egypt.nif::1x2_01">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x2_02">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::2x1_01">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::2x1_02">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::2x1_03">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::2x1_04">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
@@ -3464,7 +3464,7 @@
 		</ArtRef>
 
 		<ArtRef Name="generic:med_egypt.nif::1x2x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
@@ -3478,7 +3478,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:med_egypt.nif::1x2x2_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
@@ -3520,7 +3520,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:med_egypt.nif::2x1x2_04">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
@@ -4279,14 +4279,14 @@
 
 		<!-- 2x1 NORSE ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="generic:clas_norsca.nif::1x2x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:clas_norsca.nif::1x2x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
@@ -4307,7 +4307,7 @@
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:clas_norsca.nif::1x2x2_05">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
@@ -4344,14 +4344,14 @@
 
 		<!-- 2x1 RUSSIAN ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:clas_norsca.nif::1x2x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:clas_norsca.nif::1x2x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
@@ -4372,7 +4372,7 @@
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:clas_norsca.nif::1x2x2_05">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
@@ -4561,42 +4561,42 @@
 		<!-- 2x1 INDIAN ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:an_egypt.nif::2x1_01">
 			<Attribute Class="Rotation">0,180</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::2x1_02">
 			<Attribute Class="Rotation">0,180</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::2x1_03">
 			<Attribute Class="Rotation">0,180</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::2x1_04">
 			<Attribute Class="Rotation">0,180</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x2_01">
 			<Attribute Class="Rotation">90,270</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x2_02">
 			<Attribute Class="Rotation">90,270</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
@@ -4730,35 +4730,35 @@
 
 		<!-- 2x1 INCA ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:an_South_America.nif::1x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_South_America.nif::1x2_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_South_America.nif::1x2_04">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_South_America.nif::2x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_South_America.nif::2x1_04">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -4829,7 +4829,7 @@
 		
 		<!-- 2x1 MESO ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:an_Meso_America.nif::1x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -4837,7 +4837,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Meso_America.nif::1x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -4845,7 +4845,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Meso_America.nif::1x2_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -4853,7 +4853,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Meso_America.nif::1x2_04">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -4861,7 +4861,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Meso_America.nif::2x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -4869,7 +4869,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Meso_America.nif::2x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -4877,7 +4877,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Meso_America.nif::2x1_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -4885,7 +4885,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_Meso_America.nif::2x1_04">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -5074,7 +5074,7 @@
 
 		<!-- 2x1 NATIVE ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:An_Native_American.nif::2x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -5082,7 +5082,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:An_Native_American.nif::2x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -5090,7 +5090,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:An_Native_American.nif::2x1_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -5098,7 +5098,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:An_Native_American.nif::2x1_04">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -5106,7 +5106,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:An_Native_American.nif::1x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -5114,7 +5114,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:An_Native_American.nif::1x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -5122,7 +5122,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 <!--		<ArtRef Name="generic:An_Native_American.nif::1x2_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -5130,7 +5130,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef> -->
 		<ArtRef Name="generic:An_Native_American.nif::1x2_04">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -5485,20 +5485,20 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_FORGE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Forge/Forge.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_FORGE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Forge/Forge_Greco_Roman/Forge.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_FORGE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Forge/Native_Forge/Forge_Classical.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -5520,7 +5520,7 @@
 			<Scale>0.95</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_NATIONAL_SECURITY">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/NSA_Headquarters/Meso_NSA_HQ/NSA_HQ.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA,ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -5528,7 +5528,7 @@
 			<Scale>5.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_NATIONAL_SECURITY">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">szNIF:Art/Empty.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -5537,21 +5537,21 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_INTELLIGENCE_AGENCY">
 			<Attribute Class="Scalar">szNIF:Art/Empty.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_INTELLIGENCE_AGENCY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Intelligence_Agency/Middle_East_IntelligenceAgency/IntelligenceAgency.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA,ARTSTYLE_ARABIA,ARTSTYLE_ARABIA,ARTSTYLE_EGYPT,ARTSTYLE_CRESCENT,ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>1.75</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_INTELLIGENCE_AGENCY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Intelligence_Agency/Meso_IntelligenceAgency/IntelligenceAgency.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA,ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>2.25</Scale>
@@ -5565,7 +5565,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_JAIL">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Jail/Pacific_Jail/orcpit.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.23</Scale>
@@ -5576,7 +5576,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_GRANARY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/granary/Asia_Granary/Granary.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Rotate>180</Rotate>
@@ -5600,21 +5600,21 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_BARRACKS">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Barracks/Pacific_Barracks/iroquoislh.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute> 
 			<Scale>2.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_FORGE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Forge/Mongolia_Forge/Forge.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_FORGE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Forge/Mongolia_Forge/Forge.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Scale>1.0</Scale>
@@ -5652,7 +5652,7 @@
 		<ArtRef Name="building:LSYSTEM_BANK">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Bank/Bank.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Scale>0.77</Scale>
 		</ArtRef>
@@ -5689,13 +5689,13 @@
 		<ArtRef Name="building:LSYSTEM_BANK">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Bank/Bank.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA,ARTSTYLE_RUSSIA,ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Scale>0.77</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_SCOTLAND_YARD">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/ScotlandYard/Crescent_ScotlandYard/Khwajeh.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Scale>0.3</Scale>
@@ -5713,20 +5713,20 @@
 		<!-- 3x1 GENERIC ANCIENT -->
 		<ArtRef Name="generic:an_eu.nif::3x1_01">
 			<Attribute Class="Rotation">0,180</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
 		<ArtRef Name="generic:an_eu.nif::1x3_01">
 			<Attribute Class="Rotation">90,270</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
 
 		<!-- 3x1 ASIAN ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="generic:an_asia.nif::3x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -5740,14 +5740,14 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::1x3_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::1x3_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -5838,7 +5838,7 @@
 
 		<!-- 3x1 SOUTH_EAST_ASIAN ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="generic:an_asia.nif::3x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -5851,7 +5851,7 @@
 			<Attribute Class="Rotation">90,270</Attribute>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::1x3_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -5903,14 +5903,14 @@
 		<!-- 3x1 EGYPT ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:an_egypt.nif::3x1_01">
 			<Attribute Class="Rotation">0,180</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x3_01">
 			<Attribute Class="Rotation">90,270</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
@@ -6036,14 +6036,14 @@
 		<!-- 3x1 INDIAN ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:an_egypt.nif::3x1_01">
 			<Attribute Class="Rotation">0,180</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_egypt.nif::1x3_01">
 			<Attribute Class="Rotation">90,270</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
@@ -6078,28 +6078,28 @@
 
 		<!-- 3x1 INCA ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:an_South_America.nif::1x3_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_South_America.nif::1x3_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_South_America.nif::3x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_South_America.nif::3x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -6141,7 +6141,7 @@
 
 		<!-- 3x1 NATIVE ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:An_Native_American.nif::3x1_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -6149,7 +6149,7 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:An_Native_American.nif::3x1_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -6157,7 +6157,7 @@
 			<Scale>1.0</Scale>
 		</ArtRef>
 <!--		<ArtRef Name="generic:An_Native_American.nif::1x3_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -6165,7 +6165,7 @@
 			<Scale>1.0</Scale>
 		</ArtRef> -->
 		<ArtRef Name="generic:An_Native_American.nif::1x3_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -6271,7 +6271,7 @@
 		<ArtRef Name="building:LSYSTEM_PALACE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/palace/meso_palace/an_palace.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>1.0</Scale>
@@ -6319,7 +6319,7 @@
 			<Scale>1.77</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_NATIONAL_SECURITY">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/NSA_Headquarters/Native_NSA_HQ/NSA HQ.nif</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -6399,7 +6399,7 @@
 
 		<!-- AFRO ANCIENT/CLASSICAL/MEDIEVAL/RENAISSANCE -->
 		<ArtRef Name="generic:an_africa.nif::2x2x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>1.1</Scale>
@@ -6455,13 +6455,13 @@
 
 		<!-- 2x2 ARAB ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:an_arabia.nif::1x2x2_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.8</Scale>
 		</ArtRef> 
 		<ArtRef Name="generic:an_arabia.nif::2x2x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.8</Scale>
@@ -6522,13 +6522,13 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::2x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::2x2_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
@@ -6594,13 +6594,13 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::2x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::2x2_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
@@ -6660,7 +6660,7 @@
 
 		<!-- 2x2 MONGOL ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="generic:an_Mongolia.nif::2x2x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -6695,13 +6695,13 @@
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::2x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_asia.nif::2x2_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.8</Scale>
@@ -6776,14 +6776,14 @@
 
 		<!-- 2x2 EGYPT ANCIENT -->
 		<ArtRef Name="generic:an_egypt.nif::2x2_01">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<!-- 2x2 EGYPT ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="generic:med_egypt.nif::2x2x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:1</Attribute>
 			<Scale>0.9</Scale>
@@ -6818,13 +6818,13 @@
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_eu.nif::2x2_01">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
 		<ArtRef Name="generic:an_eu.nif::2x1_04">
 <!--			<Attribute Class="Rotation">0,180</Attribute> -->
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_IBERIA,ARTSTYLE_GRECO_ROMAN,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 		</ArtRef>
@@ -6936,7 +6936,7 @@
 		
 		<!-- 2x2 INDIAN ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:an_egypt.nif::2x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
@@ -7131,19 +7131,19 @@
 
 		<!-- 2x2 INCA/PACIFIC ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:an_South_America.nif::2x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_South_America.nif::2x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:an_South_America.nif::2x2_03">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.8</Scale>
@@ -7197,7 +7197,7 @@
 
 		<!-- 2x2 CRESCENT ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="generic:an_egypt.nif::2x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Scale>0.9</Scale>
@@ -7211,21 +7211,21 @@
 
 		<!-- 2x2 NATIVE ANCIENT/CLASSICAL -->
 		<ArtRef Name="generic:An_Native_American.nif::2x2_01">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:An_Native_American.nif::2x2_02">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="generic:An_Native_American.nif::2x2_04">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">iBatchGroup:0</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -7332,7 +7332,7 @@
 		<!-- GENERIC ANCIENT PALACE -->
 		<ArtRef Name="building:LSYSTEM_PALACE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/palace/Palace.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef> 
@@ -7347,14 +7347,14 @@
 		<ArtRef Name="building:LSYSTEM_PALACE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/palace/an_african_palace.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>1.15</Scale>
 		</ArtRef>
 		<!-- ARABIAN PALACE -->
 		<ArtRef Name="building:LSYSTEM_PALACE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/palace/Arabia_Palace/An_Palace.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
@@ -7395,13 +7395,13 @@
 		<ArtRef Name="building:LSYSTEM_PALACE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Mongol_Yerts/MongolCamp_Yert.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
-			<Attribute Class="Era">ERA_PREHISTORIC,ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_ANCIENT,ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<!-- NATIVE PALACE -->
 		<ArtRef Name="building:LSYSTEM_PALACE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/palace/an_native_palace.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.4</Scale>
@@ -7458,7 +7458,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_GLOBE_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/GlobeTheater/Japan_GlobeTheatre/ConfuciusAcademy.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>1.0</Scale>
@@ -7489,21 +7489,21 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_ACADEMY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Academy/Europe_Academy/hilmon.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_IBERIA,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_ACADEMY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Academy/Inca_Academy/Academy.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_ACADEMY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Academy/Meso_Academy/Academy.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Scale>0.95</Scale>
 		</ArtRef>
@@ -7514,32 +7514,32 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_MILITARY_ACADEMY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Military_Academy/Middle_East_MilitaryAcademy/MilitaryAcademy.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA,ARTSTYLE_CRESCENT,ARTSTYLE_INDIA</Attribute>
 			<Scale>0.4</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_MILITARY_ACADEMY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Military_Academy/Pacific_MilitaryAcademy/primitive.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Scale>0.25</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_SCOTLAND_YARD">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/ScotlandYard/Asia_ScotlandYard/ScotlandYard.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_MONGOLIA,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.5</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_BARRACKS">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Barracks/Asia_Barracks/Barracks_as.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_BARRACKS">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Barracks/Mongolia_Barracks/Barracks.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.65</Scale>
@@ -7552,26 +7552,26 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_BARRACKS">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Barracks/Middle_East_Barracks/Barracks_mid.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA,ARTSTYLE_ARABIA,ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_BARRACKS">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Barracks/Inca_Barracks/Barracks.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_BARRACKS">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Barracks/Meso_Barracks/Barracks_am.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_BARRACKS">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Barracks/Native_Barracks/Native BarracksPoles.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.65</Scale>
@@ -7590,13 +7590,13 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_BARRACKS">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Barracks/Barracks.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_BARRACKS">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Barracks/Barracks.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_RUSSIA,ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
@@ -7632,14 +7632,14 @@
 		</ArtRef> 
 		<ArtRef Name="building:LSYSTEM_GRANARY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/granary/Norse_Granary/vstore.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_GRANARY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/granary/Norse_Granary/vstore.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>1.0</Scale>
@@ -7676,7 +7676,7 @@
 		<ArtRef Name="building:LSYSTEM_LIBRARY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Family_Altar/Family_Altar.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Scale>0.75</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_LIBRARY">
@@ -7687,21 +7687,21 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_LIBRARY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Library/Inca_Library/Library.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_LIBRARY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Library/Meso_Library/Meso2.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_LIBRARY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Library/Native_Library/Library_Ancient.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.85</Scale>
 		</ArtRef>
@@ -7728,24 +7728,24 @@
 		<ArtRef Name="building:LSYSTEM_STABLE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Stable/Stable_early.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_STABLE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Stable/Stable.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_STABLE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Stable/Middle_East_Stable/stable_me.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA,ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef> 
 		<ArtRef Name="building:LSYSTEM_STABLE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Stable/Greco_Roman_Stable/Stable_rom.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
@@ -7858,44 +7858,44 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Theatre/Afro_Theatre/Theatre.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Scale>0.65</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/GlobeTheater/GlobeTheater.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Theatre/Asia_Theatre/GoldenPavilion.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Scale>0.95</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Theatre/India_Theatre/Theatre.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Theatre/Inca_Theatre/Theatre.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Theatre/Meso_Theatre/Meso3.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Scale>0.75</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Theatre/Native_Theatre/An_Theatre.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.55</Scale>
@@ -7922,13 +7922,13 @@
 		<ArtRef Name="building:LSYSTEM_COURTHOUSE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Courthouse/Native_Courthouse/Courthouse.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Scale>1.3</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_COURTHOUSE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/temple/temple.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA,ARTSTYLE_SOUTH_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Rotate>-45</Rotate>
 			<Scale>1.4</Scale>
 		</ArtRef>
@@ -7975,25 +7975,25 @@
 		<ArtRef Name="building:LSYSTEM_GROCER">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Grocer/Native_Grocer/Native_Grocer.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Scale>0.55</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_MARKET">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Market/Asia_Market/Market.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Scale>0.65</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_MARKET">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Market/Inca_Market/Market.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_MARKET">
 			<Attribute Class="Scalar">szNIF:Art/Empty.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>1.0</Scale>
@@ -8014,13 +8014,13 @@
 		<ArtRef Name="building:LSYSTEM_BANK">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Bank/South_East_Asia_Bank/Bank.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.3</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_BANK">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Bank/Meso_Bank/Meso4.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Scale>0.65</Scale>
 		</ArtRef>
@@ -8045,21 +8045,21 @@
 			<Scale>2.5</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_NATIONAL_SECURITY">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_MONGOLIA,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/NSA_Headquarters/Asia_NSA_HQ/NSA HQ.nif</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>6.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_NATIONAL_SECURITY">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA,ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/NSA_Headquarters/Middle_East_NSA_HQ/NSA_HQ.nif</Attribute>
 			<Scale>4.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_FACTORY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Factory/Ind14.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.55</Scale>
 		</ArtRef>
@@ -8103,7 +8103,7 @@
 		<ArtRef Name="building:LSYSTEM_PALACE">
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.9</Scale>
 		</ArtRef>
@@ -8136,7 +8136,7 @@
 		<ArtRef Name="building:LSYSTEM_PALACE">
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/palace/an_eastern_palace.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>1.2</Scale>
@@ -8187,7 +8187,7 @@
 		<ArtRef Name="building:LSYSTEM_PALACE">
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/palace/clas_eu_palace.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>1.15</Scale>
@@ -8267,14 +8267,14 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_MILITARY_ACADEMY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Military_Academy/Military_Academy.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_NATIVE_AMERICA,ARTSTYLE_RUSSIA,ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.58</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_MILITARY_ACADEMY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Military_Academy/Afro_MilitaryAcademy/MilitaryAcademy.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA,ARTSTYLE_EGYPT,ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.65</Scale>
@@ -8282,14 +8282,14 @@
 		<ArtRef Name="building:LSYSTEM_LIBRARY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Library/Library.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT,ARTSTYLE_GRECO_ROMAN</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_LIBRARY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Library/Crescent_Library/Darius.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT,ARTSTYLE_INDIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>1.35</Scale>
 		</ArtRef>
@@ -8311,14 +8311,14 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Theatre/Theatre.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>1.05</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Theatre/Mongolia_Theatre/gathering.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.65</Scale>
@@ -8354,7 +8354,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_COURTHOUSE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Courthouse/Middle_East_Courthouse/med_Courthouse.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>1.0</Scale>
@@ -8368,7 +8368,7 @@
 		</ArtRef> 
 		<ArtRef Name="building:LSYSTEM_COURTHOUSE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Courthouse/Crescent_Courthouse/Academie.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.75</Scale>
@@ -8382,7 +8382,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_COURTHOUSE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Courthouse/Crescent_Courthouse/Academie.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT,ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.75</Scale>
@@ -8398,7 +8398,7 @@
 		<ArtRef Name="building:LSYSTEM_MARKET">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Market/Market.nif</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE</Attribute>
 			<Scale>0.95</Scale>
 		</ArtRef>
@@ -8411,7 +8411,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_MARKET">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Market/Native_Market/Native_Market.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
@@ -8420,14 +8420,14 @@
 		<ArtRef Name="building:LSYSTEM_MARKET">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Market/Dark_Market/Market.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.95</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_MARKET">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Market/Greco_Roman_Market/Market.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.95</Scale>
 		</ArtRef>
@@ -8441,14 +8441,14 @@
 		<ArtRef Name="building:LSYSTEM_GROCER">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Grocer/Asia_Grocer/Grocer.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_MONGOLIA,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_GROCER">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Grocer/Pacific_Grocer/voodoomarket.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_PACIFIC</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
@@ -8474,14 +8474,14 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_INTELLIGENCE_AGENCY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Intelligence_Agency/city_hall.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA,ARTSTYLE_NATIVE_AMERICA,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>2.1</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_INTELLIGENCE_AGENCY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Intelligence_Agency/Asia_IntelligenceAgency/chipalace.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_MONGOLIA,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>2.5</Scale>
@@ -8499,7 +8499,7 @@
 		<!-- INCA PALACE -->
 		<ArtRef Name="building:LSYSTEM_PALACE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/palace/Inca_Palace/an_Inca_Palace.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Scale>1.25</Scale>
@@ -8507,7 +8507,7 @@
 		<!-- PACIFIC ANCIENT/CLASSICAL PALACE -->
 		<ArtRef Name="building:LSYSTEM_PALACE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/palace/Inca_Palace/an_Inca_Palace.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Scale>1.25</Scale>
@@ -8515,7 +8515,7 @@
 		
 		<ArtRef Name="building:LSYSTEM_MILITARY_ACADEMY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Military_Academy/Mediterranean_MilitaryAcademy/NavalAcademy.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -8558,7 +8558,7 @@
 		<ArtRef Name="building:LSYSTEM_MARKET">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Market/Middle_East_Market/Market.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA,ARTSTYLE_EGYPT,ARTSTYLE_CRESCENT</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Scale>25</Scale>
 		</ArtRef>
@@ -8584,7 +8584,7 @@
 			<Scale>0.2</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_BANK">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Bank/Asia_Bank/Bank.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_MONGOLIA</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
@@ -8705,7 +8705,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_GLOBE_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/GlobeTheater/Africa_GlobeTheatre/Asuan.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.6</Scale>
@@ -8741,7 +8741,7 @@
 		<ArtRef Name="building:LSYSTEM_ACADEMY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Academy/Egypt_Academy/Academie.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.55</Scale>
 			<Rotate>90</Rotate>
@@ -8763,7 +8763,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_COURTHOUSE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Courthouse/Greco_Roman_Courthouse/Senate.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>1.5</Scale>
@@ -8792,7 +8792,7 @@
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_AIRPORT">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Airport/Airbase.nif</Attribute>
 			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.85</Scale>
@@ -8844,7 +8844,7 @@
 		</ArtRef> 
 		<ArtRef Name="building:LSYSTEM_LIBRARY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Library/Crescent_Library/gondeshapur.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA,ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Rotation">90,270</Attribute>
 			<Scale>1.65</Scale>
@@ -8902,13 +8902,13 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_SCOTLAND_YARD">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/ScotlandYard/Inca_ScotlandYard/ScotlandYard.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Scale>0.65</Scale> 
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_SCOTLAND_YARD">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/ScotlandYard/Meso_ScotlandYard/ScotlandYard.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Scale>1.0</Scale> 
 		</ArtRef>
@@ -8933,7 +8933,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_GLOBE_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/GlobeTheater/Native_GlobeTheatre/GlobeTheatre.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>1.0</Scale>
@@ -8983,20 +8983,20 @@
 		<ArtRef Name="building:LSYSTEM_GLOBE_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/GlobeTheater/Europe_GlobeTheatre/hvezda.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>1.15</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_GLOBE_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/GlobeTheater/Asia_GlobeTheatre/GlobeTheatre.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_MONGOLIA,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.65</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_GLOBE_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/GlobeTheater/Middle_East_GlobeTheatre/bath_middle_east.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA,ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT</Attribute>
 			<Scale>0.75</Scale>
 		</ArtRef>
@@ -9021,13 +9021,13 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_GLOBE_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/GlobeTheater/Meso_GlobeTheatre/Meso_GlobeTheatre.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_ACADEMY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Academy/Greco_Roman_Academy/Agora.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Scale>1.05</Scale>
 		</ArtRef>
@@ -9054,14 +9054,14 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_MILITARY_ACADEMY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Military_Academy/Asia_MilitaryAcademy/MilitaryAcademy.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_MONGOLIA,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>1.05</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_MILITARY_ACADEMY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Military_Academy/Meso_MilitaryAcademy/MilitaryAcademy.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA,ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Scale>0.25</Scale>
 		</ArtRef>
@@ -9097,7 +9097,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_COLOSSEUM">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Colosseum/Colosseum_early/Colosseum_wood.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_IBERIA,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute> 
 			<Scale>2.0</Scale>
@@ -9111,21 +9111,21 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_COLOSSEUM">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Colosseum/Asia_Colosseum/Colosseum_as.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute> 
 			<Scale>2.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_COLOSSEUM">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Colosseum/Middle_East_Colosseum/Colosseum_mid.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA,ARTSTYLE_ARABIA,ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute> 
 			<Scale>2.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_COLOSSEUM">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Colosseum/Meso_Colosseum/Colosseum_azt.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA,ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute> 
 			<Scale>2.0</Scale>
@@ -9157,7 +9157,7 @@
 		<ArtRef Name="building:LSYSTEM_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/HangingGardens/HangingGardens.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EGYPT,ARTSTYLE_CRESCENT</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_THEATRE">
@@ -9179,7 +9179,7 @@
 			<Scale>1.45</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_NATIONAL_SECURITY">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/NSA_Headquarters/KGB.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_ARABIA,!ARTSTYLE_ASIA,!ARTSTYLE_CRESCENT,!ARTSTYLE_EGYPT,!ARTSTYLE_INDIA,!ARTSTYLE_JAPAN,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA,!ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
@@ -9194,7 +9194,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_GARRISON">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Barracks/Barracks_Modern/Barracks.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Scale>2.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_GARRISON">
@@ -9239,7 +9239,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_GLOBE_THEATRE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Theatre_Dionysus/Theatre_Dionysus.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.75</Scale>
@@ -9291,13 +9291,13 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_ACADEMY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Academy/Afro_Academy/mosque_of_kairouan.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Scale>0.5</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_ACADEMY">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Academy/Middle_East_Academy/imamreza.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA,ARTSTYLE_CRESCENT</Attribute>
 			<Scale>2.45</Scale>
 		</ArtRef>
@@ -9310,7 +9310,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_INDUSTRIAL_PARK">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Industrial_Park/Industrial_Park_Ind.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL</Attribute>
 			<Scale>2.25</Scale>
 		</ArtRef>
@@ -9407,7 +9407,7 @@
 			<!-- this needs to be the negative of the CITY_TWIST value in detail manager; note that this uses degrees but DetailManager uses radians. Sorry. -->
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_AQUEDUCT">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_INDIA,ARTSTYLE_MESO_AMERICA,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
 			<Attribute Class="Scalar">szSpecialLayout:CityCenter</Attribute>
 			<Attribute Class="Scalar">szBuilder:AqueductBuilder</Attribute>
@@ -9417,7 +9417,7 @@
 			<!-- this needs to be the negative of the CITY_TWIST value in detail manager; note that this uses degrees but DetailManager uses radians. Sorry. -->
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_AQUEDUCT">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ARABIA,ARTSTYLE_EGYPT,ARTSTYLE_CRESCENT,ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">szSpecialLayout:CityCenter</Attribute>
 			<Attribute Class="Scalar">szBuilder:AqueductBuilder</Attribute>
@@ -9442,7 +9442,7 @@
 			<Rotate>45</Rotate>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_LIGHTHOUSE">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bNoWaterTest:1</Attribute>
 			<!-- this bypasses water testing -->
 			<Attribute Class="Scalar">szSpecialLayout:Water</Attribute>
@@ -9450,7 +9450,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_LIGHTHOUSE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Lighthouse/Pacific_Lighthouse/Burial_NA.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA,ARTSTYLE_NATIVE_AMERICA,ARTSTYLE_SOUTH_PACIFIC</Attribute>
 			<Attribute Class="Scalar">bNoWaterTest:1</Attribute>
 			<!-- this bypasses water testing -->
@@ -9459,7 +9459,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_LIGHTHOUSE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Lighthouse/Meso_Lighthouse/Lighthouse.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA,ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Attribute Class="Scalar">bNoWaterTest:1</Attribute>
 			<!-- this bypasses water testing -->
@@ -9469,7 +9469,7 @@
 		<ArtRef Name="building:LSYSTEM_LIGHTHOUSE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Lighthouse/Asia_Lighthouse/Lighthouse.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ASIA,ARTSTYLE_JAPAN,ARTSTYLE_MONGOLIA,ARTSTYLE_SOUTH_EAST_ASIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bNoWaterTest:1</Attribute>
 			<!-- this bypasses water testing -->
 			<Attribute Class="Scalar">szSpecialLayout:Water</Attribute>
@@ -9479,7 +9479,7 @@
 		<ArtRef Name="building:LSYSTEM_LIGHTHOUSE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Lighthouse/Mediterranean_Lighthouse/guild_tower.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bNoWaterTest:1</Attribute>
 			<!-- this bypasses water testing -->
 			<Attribute Class="Scalar">szSpecialLayout:Water</Attribute>
@@ -9489,7 +9489,7 @@
 		<ArtRef Name="building:LSYSTEM_LIGHTHOUSE">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Lighthouse/Europe_Lighthouse/port_tower.nif</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA,ARTSTYLE_BARBARIAN</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bNoWaterTest:1</Attribute>
 			<!-- this bypasses water testing -->
 			<Attribute Class="Scalar">szSpecialLayout:Water</Attribute>
@@ -9511,7 +9511,7 @@
 			<Scale>1.0</Scale>
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_HARBOR">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bNoWaterTest:1</Attribute>
 			<!-- this bypasses water testing -->
 			<Attribute Class="Scalar">szSpecialLayout:Coast</Attribute>
@@ -9531,7 +9531,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_HARBOR">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Harbor/Med_Harbor.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Artstyle">ARTSTYLE_ARABIA,ARTSTYLE_EGYPT,ARTSTYLE_CRESCENT</Attribute>
 			<Attribute Class="Scalar">bNoWaterTest:1</Attribute>
 			<!-- this bypasses water testing -->
@@ -9552,7 +9552,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_HARBOR">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Cartheginian Cothon/Cothon.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Artstyle">ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Scalar">bNoWaterTest:1</Attribute>
 			<Attribute Class="Scalar">szSpecialLayout:Coast</Attribute>
@@ -9592,7 +9592,7 @@
 		</ArtRef>
 		<ArtRef Name="building:LSYSTEM_HARBOR">
 			<Attribute Class="Scalar">szNIF:Art/Structures/Buildings/Harbor/Europe_Harbor/Drydock.nif</Attribute>
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Artstyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_EUROPE,ARTSTYLE_IBERIA,ARTSTYLE_NORSE,ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">bNoWaterTest:1</Attribute>
 			<!-- this bypasses water testing -->
@@ -10004,7 +10004,7 @@
 		<Attribute Class="Scalar">bGoalOnly:1</Attribute>
 		<To Name="Leaf_4x2"/>
 		<ArtRef Name="decoration:native_lot.nif::4x2">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL</Attribute>
 		</ArtRef>
 		<ArtRef Name="decoration:native_lot.nif::4x2">
@@ -10103,7 +10103,7 @@
 		<Attribute Class="Scalar">bGoalOnly:1</Attribute>
 		<To Name="Leaf_3x2"/>
 <!--		<ArtRef Name="decoration:all_city_lot_3x2.nif">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 		</ArtRef>
 		<ArtRef Name="decoration:ren_city_lot.nif::3x2">
 			<Attribute Class="Era">ERA_RENAISSANCE</Attribute>
@@ -10113,7 +10113,7 @@
 		</ArtRef> -->
 
 		<ArtRef Name="decoration:native_lot.nif::3x2">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL</Attribute>
 		</ArtRef>
 		<ArtRef Name="decoration:native_lot.nif::3x2">
@@ -10179,7 +10179,7 @@
 		</To>
 	</LProduction>
 	<LProduction From="Node_4x1">
-		<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+		<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 		<To Name="Leaf_1x1">
 			<Translate>-1.5,0</Translate>
 		</To>
@@ -10190,7 +10190,7 @@
 			<Translate>1.5,0</Translate>
 		</To>
 <!--		<ArtRef Name="decoration:all_city_lot_4x1.nif">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 		</ArtRef>
 		<ArtRef Name="decoration:ren_city_lot.nif::4x1">
 			<Attribute Class="Era">ERA_RENAISSANCE</Attribute>
@@ -10200,7 +10200,7 @@
 		</ArtRef> -->
 
 		<ArtRef Name="decoration:native_lot.nif::4x1">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL</Attribute>
 		</ArtRef>
 		<ArtRef Name="decoration:native_lot.nif::4x1">
@@ -10231,7 +10231,7 @@
 		</ArtRef>
 	</LProduction>
 	<LProduction From="Node_4x1">
-		<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+		<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 		<To Name="Leaf_1x1">
 			<Translate>-1.5,0</Translate>
 		</To>
@@ -10240,7 +10240,7 @@
 		</To>
 	</LProduction>
 	<LProduction From="Node_4x1">
-		<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+		<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 		<To Name="Node_3x1">
 			<Translate>-0.5,0</Translate>
 		</To>
@@ -10250,30 +10250,30 @@
 	</LProduction>
 	<!-- 3x1 node ***************************** -->
 	<LProduction From="Node_3x1">
-		<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
+		<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
 		<To Name="Leaf_3x1">
 			<Translate>0,0</Translate>
 		</To>
 		<ArtRef Name="decoration:all_city_lot_3x1.nif">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
 		</ArtRef>
 	</LProduction>
 	<LProduction From="Node_3x1">
-		<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
+		<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
 		<To Name="Leaf_3x1">
 			<Translate>0,0</Translate>
 		</To>
 		<ArtRef Name="decoration:all_city_lot_3x1.nif">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
 		</ArtRef>
 	</LProduction>
 	<LProduction From="Node_3x1">
-		<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
+		<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
 		<To Name="Leaf_3x1">
 			<Translate>0,0</Translate>
 		</To>
 		<ArtRef Name="decoration:all_city_lot_3x1.nif">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
 		</ArtRef>
 	</LProduction>
 	<LProduction From="Node_3x1">
@@ -10284,7 +10284,7 @@
 			<Translate>0.5,0</Translate>
 		</To>
 <!--		<ArtRef Name="decoration:all_city_lot_3x1.nif">
-			<Attribute Class="Era">ERA_PREHISTORIC,ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_ANCIENT,ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 		</ArtRef>
 		<ArtRef Name="decoration:ren_city_lot.nif::3x1">
 			<Attribute Class="Era">ERA_RENAISSANCE</Attribute>
@@ -10294,7 +10294,7 @@
 		</ArtRef> -->
 
 		<ArtRef Name="decoration:native_lot.nif::3x1">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL</Attribute>
 		</ArtRef>
 		<ArtRef Name="decoration:native_lot.nif::3x1">
@@ -10332,7 +10332,7 @@
 			<Translate>-0.5,0</Translate>
 		</To>
 <!--		<ArtRef Name="decoration:all_city_lot_3x1.nif">
-			<Attribute Class="Era">ERA_PREHISTORIC,ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_ANCIENT,ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 		</ArtRef>
 		<ArtRef Name="decoration:ren_city_lot.nif::3x1">
 			<Attribute Class="Era">ERA_RENAISSANCE</Attribute>
@@ -10342,7 +10342,7 @@
 		</ArtRef> -->
 
 		<ArtRef Name="decoration:native_lot.nif::3x1">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL</Attribute>
 		</ArtRef>
 		<ArtRef Name="decoration:native_lot.nif::3x1">
@@ -10378,7 +10378,7 @@
 			<Translate>0,0</Translate>
 		</To>
 <!--		<ArtRef Name="decoration:all_city_lot_2x2.nif">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 		</ArtRef>
 		<ArtRef Name="decoration:ren_city_lot.nif::2x2">
 			<Attribute Class="Era">ERA_RENAISSANCE</Attribute>
@@ -10388,7 +10388,7 @@
 		</ArtRef> -->
 
 		<ArtRef Name="decoration:native_lot.nif::2x2">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL</Attribute>
 		</ArtRef>
 		<ArtRef Name="decoration:native_lot.nif::2x2">
@@ -10435,7 +10435,7 @@
 		</To>
 	</LProduction>
 	<LProduction From="Node_2x2">
-		<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
+		<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL,ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
 		<To Name="Node_2x1">
 			<Rotate>90</Rotate>
 			<Translate>-0.5,0</Translate>
@@ -10472,7 +10472,7 @@
 			<Translate>0.5,0</Translate>
 		</To>
 <!--		<ArtRef Name="decoration:all_city_lot_2x1.nif">
-			<Attribute Class="Era">ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 		</ArtRef>
 		<ArtRef Name="decoration:ren_city_lot.nif::2x1">
 			<Attribute Class="Era">ERA_RENAISSANCE</Attribute>
@@ -10482,7 +10482,7 @@
 		</ArtRef> -->
 
 		<ArtRef Name="decoration:native_lot.nif::2x1">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL</Attribute>
 		</ArtRef>
 		<ArtRef Name="decoration:native_lot.nif::2x1">
@@ -10517,7 +10517,7 @@
 			<Translate>0,0</Translate>
 		</To>
 <!--		<ArtRef Name="decoration:all_city_lot_2x1.nif">
-			<Attribute Class="Era">ERA_PREHISTORIC,ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_ANCIENT,ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 		</ArtRef>
 		<ArtRef Name="decoration:ren_city_lot.nif::2x1">
 			<Attribute Class="Era">ERA_RENAISSANCE</Attribute>
@@ -10527,7 +10527,7 @@
 		</ArtRef> -->
 
 		<ArtRef Name="decoration:native_lot.nif::2x1">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL</Attribute>
 		</ArtRef>
 		<ArtRef Name="decoration:native_lot.nif::2x1">
@@ -10563,7 +10563,7 @@
 			<Translate>0,0</Translate>
 		</To>
 <!--		<ArtRef Name="decoration:all_city_lot_2x1.nif">
-			<Attribute Class="Era">ERA_PREHISTORIC,ERA_ANCIENT,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
+			<Attribute Class="Era">ERA_ANCIENT,ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 		</ArtRef>
 		<ArtRef Name="decoration:ren_city_lot.nif::2x1">
 			<Attribute Class="Era">ERA_RENAISSANCE</Attribute>
@@ -10573,7 +10573,7 @@
 		</ArtRef> -->
 
 		<ArtRef Name="decoration:native_lot.nif::2x1">
-			<Attribute Class="Era">ERA_ANCIENT</Attribute>
+			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL</Attribute>
 		</ArtRef>
 		<ArtRef Name="decoration:native_lot.nif::2x1">

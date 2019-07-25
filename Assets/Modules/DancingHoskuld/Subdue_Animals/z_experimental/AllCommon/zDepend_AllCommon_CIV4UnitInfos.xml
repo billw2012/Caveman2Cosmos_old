@@ -25,14 +25,6 @@
 					<bBuilding>1</bBuilding>
 				</Building>
 				<Building>
-					<BuildingType>BUILDING_NEW_W_MONKEY_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_OLD_W_MONKEY_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
 					<BuildingType>BUILDING_OWL_STORY</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
@@ -94,22 +86,6 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_FLIGHTLESS_BIRD_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NEW_W_MONKEY_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NEW_W_MONKEY_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_OLD_W_MONKEY_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_OLD_W_MONKEY_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 				<Building>
@@ -198,22 +174,6 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_FLIGHTLESS_BIRD_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NEW_W_MONKEY_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NEW_W_MONKEY_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_OLD_W_MONKEY_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_OLD_W_MONKEY_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 				<Building>

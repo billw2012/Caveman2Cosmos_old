@@ -241,7 +241,6 @@
 				</Flavor>
 			</Flavors>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_DJENNE</BuildingClass>
 			<Type>BUILDING_DJENNE</Type>

@@ -63,7 +63,6 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_PEACOCK_FLOCKS</BuildingClass>
 			<Type>BUILDING_PEACOCK_FLOCKS</Type>
@@ -124,7 +123,6 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_TURKEY_FLOCKS</BuildingClass>
 			<Type>BUILDING_TURKEY_FLOCKS</Type>

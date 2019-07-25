@@ -6,7 +6,6 @@
 <!-- Building Infos -->
 <Civ4BuildingInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4BuildingsSchema.xml">
 	<BuildingInfos>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_BOAR_MYTH</BuildingClass>
 			<Type>BUILDING_BOAR_MYTH</Type>
@@ -33,7 +32,6 @@
 				</BuildingClassProductionModifier>
 			</GlobalBuildingClassProductionModifiers>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_DEER_MYTH</BuildingClass>
 			<Type>BUILDING_DEER_MYTH</Type>
@@ -60,6 +58,5 @@
 				</BuildingClassProductionModifier>
 			</GlobalBuildingClassProductionModifiers>
 		</BuildingInfo>
-
 	</BuildingInfos>
 </Civ4BuildingInfos>

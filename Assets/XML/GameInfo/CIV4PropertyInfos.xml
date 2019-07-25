@@ -1001,11 +1001,11 @@
 			<iTrainReluctance>3</iTrainReluctance>
 			<TargetLevelbyEraTypes>
 				<TargetLevelbyEraType>
-					<EraType>ERA_PREHISTORIC</EraType>
+					<EraType>ERA_ANCIENT</EraType>
 					<iTargetLevel>15</iTargetLevel>
 				</TargetLevelbyEraType>
 				<TargetLevelbyEraType>
-					<EraType>ERA_ANCIENT</EraType>
+					<EraType>ERA_SEDENTARY</EraType>
 					<iTargetLevel>30</iTargetLevel>
 				</TargetLevelbyEraType>
 				<TargetLevelbyEraType>

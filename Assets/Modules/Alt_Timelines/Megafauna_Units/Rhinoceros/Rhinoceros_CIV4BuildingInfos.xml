@@ -23,8 +23,6 @@
 			</MapCategoryTypes>
 			<iCost>588</iCost>
 			<iConquestProb>0</iConquestProb>
-			<iMinLatitude>0</iMinLatitude>
-			<iMaxLatitude>90</iMaxLatitude>
 			<iAsset>4</iAsset>
 			<iPower>2</iPower>
 			<fVisibilityPriority>0.0</fVisibilityPriority>
@@ -62,7 +60,6 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_RHINO_TRAINER_HERITAGE</BuildingClass>
 			<Type>BUILDING_RHINO_TRAINER_HERITAGE</Type>
@@ -84,8 +81,6 @@
 			<FreeBuilding>BUILDINGCLASS_RHINO_TRAINER_EFFECT</FreeBuilding>
 			<iCost>139</iCost>
 			<iConquestProb>0</iConquestProb>
-			<iMinLatitude>0</iMinLatitude>
-			<iMaxLatitude>90</iMaxLatitude>
         		<iAsset>4</iAsset>
 			<iPower>2</iPower>
 			<fVisibilityPriority>0.0</fVisibilityPriority>
@@ -143,7 +138,6 @@
 				</Flavor>
 			</Flavors>
 		</BuildingInfo>
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_ANIMAL_TOTEM_RHINO</BuildingClass>
 			<Type>BUILDING_ANIMAL_TOTEM_RHINO</Type>
@@ -161,7 +155,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<ObsoleteTech>TECH_AVIATION</ObsoleteTech>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<iAIWeight>0</iAIWeight>
 			<iCost>-1</iCost>

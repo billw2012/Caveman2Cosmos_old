@@ -253,7 +253,8 @@ class CvEventManager:
 					"IMPROVEMENT_YOUNG_FOREST"	: GC.getInfoTypeForString('IMPROVEMENT_YOUNG_FOREST'),
 					"IMPROVEMENT_PLANT_FOREST"	: GC.getInfoTypeForString('IMPROVEMENT_PLANT_FOREST'),
 					"IMPROVEMENT_PLANT_BAMBOO"	: GC.getInfoTypeForString('IMPROVEMENT_PLANT_BAMBOO'),
-					"IMPROVEMENT_PLANT_SAVANNA"	: GC.getInfoTypeForString('IMPROVEMENT_PLANT_SAVANNA')
+					"IMPROVEMENT_PLANT_SAVANNA"	: GC.getInfoTypeForString('IMPROVEMENT_PLANT_SAVANNA'),
+					"IMPROVEMENT_FARM"			: GC.getInfoTypeForString('IMPROVEMENT_FARM')
 				}
 				self.mapPromoType = {
 					"PROMOTION_LIVE1"				: GC.getInfoTypeForString('PROMOTION_LIVE1'),
@@ -299,6 +300,18 @@ class CvEventManager:
 				for iUnit in xrange(GC.getNumUnitInfos()):
 					if GC.getUnitInfo(iUnit).getType().find("UNIT_SUBDUED") > -1:
 						aList.append(iUnit)
+				# Militia
+				self.CIVIC_CONSCRIPTION = GC.getInfoTypeForString("CIVIC_CONSCRIPTION1")
+				iMedieval = GC.getInfoTypeForString('UNIT_MILITIA_MEDIEVAL')
+				iModern = GC.getInfoTypeForString('UNIT_MILITIA_MODERN')
+				self.mapMilitiaByEra = {
+					GC.getInfoTypeForString('ERA_CLASSICAL')	: iMedieval,
+					GC.getInfoTypeForString('ERA_MEDIEVAL')		: iMedieval,
+					GC.getInfoTypeForString('ERA_RENAISSANCE')	: GC.getInfoTypeForString('UNIT_MILITIA_RENAISSANCE'),
+					GC.getInfoTypeForString('ERA_INDUSTRIAL')	: GC.getInfoTypeForString('UNIT_MILITIA_INDUSTRIAL'),
+					GC.getInfoTypeForString('ERA_MODERN')		: iModern,
+					GC.getInfoTypeForString('ERA_INFORMATION')	: iModern
+				}
 				# Only needs to be done once.
 				self.bNotReady = False
 
@@ -356,7 +369,7 @@ class CvEventManager:
 			if self.bAllowCheats:
 				# Shift - T (Debug - No MP)
 				if key == InputTypes.KB_T:
-					if bShift and not b:
+					if bShift and not (bCtrl or bAlt):
 						self.beginEvent(CvUtil.EventAwardTechsAndGold)
 						return 1
 				elif key == InputTypes.KB_W:
@@ -470,6 +483,7 @@ class CvEventManager:
 
 		self.GO_1_CITY_TILE_FOUNDING	= GAME.isOption(GameOptionTypes.GAMEOPTION_1_CITY_TILE_FOUNDING)
 		self.GO_START_AS_MINORS			= GAME.isOption(GameOptionTypes.GAMEOPTION_START_AS_MINORS)
+		self.GO_INFINITE_XP				= GAME.isOption(GameOptionTypes.GAMEOPTION_INFINITE_XP)
 
 		if bNewGame and self.GO_START_AS_MINORS:
 			for iPlayer in xrange(self.MAX_PC_PLAYERS):
@@ -852,15 +866,24 @@ class CvEventManager:
 				CyInterface().addMessage(iPlayerL, False, 15, TRNSLTR.getText("TXT_KEY_REBORN",()),'',0, artPath, ColorTypes(44), X, Y, True, True)
 
 		if CyUnitL.isNPC():
-			# Kill NPC exp limit
-			iExpLimit = -1
-			if CyUnitL.isAnimal():
-				if CyUnitW.isHasUnitCombat(self.UNITCOMBAT_EXPLORER):
-					iExpLimit = GC.getDefineINT("ANIMAL_MAX_XP_VALUE")
-			else:	iExpLimit = GC.getDefineINT("BARBARIAN_MAX_XP_VALUE")
+			# EXP boost for AI
+			if not CyUnitW.isHuman():
+				CyUnitW.changeExperience(2, 100, False, False, False)
 
-			if iExpLimit > -1:
-				CyUnitW.changeExperience(1, 999, True, False, True)
+			# Exp limit loophole
+			if not self.GO_INFINITE_XP:
+				iExpLimit = -1
+				if CyUnitL.isAnimal():
+					if CyUnitW.isHasPromotion(GC.getInfoTypeForString("PROMOTION_ANIMAL_HUNTER")):
+						iExpLimit = GC.getDefineINT("ANIMAL_MAX_XP_VALUE")
+
+				elif CyUnitW.isHasPromotion(GC.getInfoTypeForString("PROMOTION_BARBARIAN_HUNTER")):
+					iExpLimit = GC.getDefineINT("BARBARIAN_MAX_XP_VALUE")
+
+				if iExpLimit != -1 and CyUnitW.getExperience() >= iExpLimit:
+					bInBorders = iPlayerW == GC.getMap().plot(CyUnitW.getX(), CyUnitW.getY()).getOwner()
+					CyUnitW.changeExperience(1, 9999, True, bInBorders, True)
+
 		else:
 			bSneak = CyUnitW.isHasPromotion(mapPromoType['PROMOTION_SNEAK'])
 			bMarauder = CyUnitW.isHasPromotion(mapPromoType['PROMOTION_MARAUDER'])
@@ -1117,6 +1140,16 @@ class CvEventManager:
 			CyPlot = GC.getMap().plot(iX, iY)
 			CyPlot.setFeatureType(GC.getInfoTypeForString('FEATURE_SAVANNA'), 0)
 			CyPlot.setImprovementType(-1)
+
+		elif iImprovement == mapImpType['IMPROVEMENT_FARM']:
+			iPlayer = GC.getMap().plot(iX, iY).getOwner()
+			if iPlayer != -1:
+				CyPlayer = GC.getPlayer(iPlayer)
+				if CyPlayer.isCivic(self.CIVIC_CONSCRIPTION):
+					iEra = CyPlayer.getCurrentEra()
+					if iEra != -1 and iEra in self.mapMilitiaByEra and self.mapMilitiaByEra[iEra] != -1:
+						CyPlayer.initUnit(self.mapMilitiaByEra[iEra], iX, iY, UnitAITypes.UNITAI_RESERVE, DirectionTypes.NO_DIRECTION)
+						CyInterface().addMessage(iPlayer, False, 15, TRNSLTR.getText("TXT_RECRUITED",()), '', 0, 'Art/Interface/Buttons/Civics/Serfdom.dds', ColorTypes(44), iX, iY, True, True)
 
 
 	'''

@@ -102,8 +102,6 @@
 			</BuildingClassNeededs>
 			<bAutoBuild>1</bAutoBuild>
 		</BuildingInfo>
-
-
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_GRAVE_GOODS</BuildingClass>
 			<Type>BUILDING_GRAVE_GOODS</Type>

@@ -9158,7 +9158,7 @@
 			<ObsoleteTech>TECH_PLASTICS</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>62</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -11022,7 +11022,7 @@
 			<ObsoleteTech>TECH_AGRICULTURE</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>15</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<YieldChanges>
@@ -17063,7 +17063,7 @@
 			</PrereqOrTerrain>
 			<!-- Construction cost -->
 			<iCost>20</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>1</iYield>
@@ -22813,7 +22813,7 @@
 			<ObsoleteTech>TECH_ANCIENT_MEDICINE</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>25</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<!-- Other -->
@@ -25023,7 +25023,7 @@
 			<bFreshWater>1</bFreshWater>
 			<!-- Construction cost -->
 			<iCost>40</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -33617,7 +33617,7 @@
 			</PrereqBonuses>
 			<!-- Construction cost -->
 			<iCost>80</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
@@ -34347,7 +34347,7 @@
 			<bWater>1</bWater>
 			<!-- Construction cost -->
 			<iCost>50</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -47199,7 +47199,7 @@
 			</PrereqOrFeature>
 			<!-- Construction cost -->
 			<iCost>25</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -52806,7 +52806,7 @@
 			</ReplaceBuildings>
 			<!-- Construction cost -->
 			<iCost>25</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Unit effects -->
 			<bApplyFreePromotionOnMove>1</bApplyFreePromotionOnMove>
 			<FreePromoTypes>
@@ -58066,7 +58066,7 @@
 			<ObsoleteTech>TECH_WRITING</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>25</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -61696,7 +61696,7 @@
 			</PrereqOrFeature>
 			<!-- Construction cost -->
 			<iCost>68</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -73960,7 +73960,7 @@
 			<ObsoleteTech>TECH_AGRICULTURE</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>25</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>1</iYield>
@@ -78954,7 +78954,7 @@
 			</PrereqOrBuildingClasses>
 			<!-- Construction cost -->
 			<iCost>30</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>
@@ -86482,7 +86482,7 @@
 			</PrereqOrFeature>
 			<!-- Construction cost -->
 			<iCost>25</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>1</iYield>
@@ -88805,7 +88805,7 @@
 			<ObsoleteTech>TECH_IRON_WORKING</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>30</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -88994,7 +88994,7 @@
 			<ObsoleteTech>TECH_AGRICULTURE</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>15</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>1</iYield>
@@ -90611,7 +90611,7 @@
 			<bWater>1</bWater>
 			<!-- Construction cost -->
 			<iCost>40</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>
@@ -90644,7 +90644,7 @@
 			</PrereqOrTerrain>
 			<!-- Construction cost -->
 			<iCost>40</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>
@@ -92098,7 +92098,7 @@
 					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Special Yield and Commerce modifiers -->
 			<ObsoleteSafeCommerceChanges>
 				<iCommerce>1</iCommerce>
@@ -92461,7 +92461,7 @@
 			<ObsoleteTech>TECH_GARDENING</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>15</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>1</iYield>
@@ -99452,7 +99452,7 @@
 			</ReplaceBuildings>
 			<!-- Construction cost -->
 			<iCost>15</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Misc. Effects -->
 			<iFoodKept>5</iFoodKept>
 			<!-- Other -->
@@ -99565,7 +99565,7 @@
 			</PrereqOrTerrain>
 			<!-- Construction cost -->
 			<iCost>25</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -106168,7 +106168,7 @@
 			</ReplaceBuildings>
 			<!-- Construction cost -->
 			<iCost>30</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Misc. Effects -->
 			<iTradeRoutes>1</iTradeRoutes>
 			<iTradeRouteModifier>5</iTradeRouteModifier>
@@ -106927,7 +106927,7 @@
 					<iProductionTrait>50</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -108744,7 +108744,7 @@
 			<ObsoleteTech>TECH_PLASTICS</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>50</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -111611,7 +111611,7 @@
 			<ObsoleteTech>TECH_AGRICULTURE</ObsoleteTech> -->
 			<!-- Construction cost -->
 			<iCost>20</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<!-- Special Yield and Commerce modifiers -->
@@ -111659,7 +111659,7 @@
 			<ObsoleteTech>TECH_AGRICULTURE</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>15</iCost>
-			<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			<FreeStartEra>ERA_SEDENTARY</FreeStartEra>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<YieldChanges>
@@ -114719,7 +114719,7 @@
 			<BuildingClass>BUILDINGCLASS_EARTH_MYTH</BuildingClass>
 			<Type>BUILDING_EARTH_MYTH</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_EARTH_MYTH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ELEMENTAL_MYTH_PEDIA</Civilopedia>
@@ -114790,7 +114790,7 @@
 			<BuildingClass>BUILDINGCLASS_EARTH_MYTH_EFFECT</BuildingClass>
 			<Type>BUILDING_EARTH_MYTH_EFFECT</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_EARTH_MYTH_EFFECT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ELEMENTAL_MYTH_PEDIA</Civilopedia>
@@ -114809,7 +114809,7 @@
 			<BuildingClass>BUILDINGCLASS_FIRE_MYTH</BuildingClass>
 			<Type>BUILDING_FIRE_MYTH</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_FIRE_MYTH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ELEMENTAL_MYTH_PEDIA</Civilopedia>
@@ -114881,7 +114881,7 @@
 			<BuildingClass>BUILDINGCLASS_FIRE_MYTH_EFFECT</BuildingClass>
 			<Type>BUILDING_FIRE_MYTH_EFFECT</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_FIRE_MYTH_EFFECT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ELEMENTAL_MYTH_PEDIA</Civilopedia>
@@ -114901,7 +114901,7 @@
 			<BuildingClass>BUILDINGCLASS_METAL_MYTH</BuildingClass>
 			<Type>BUILDING_METAL_MYTH</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_ANCIENT</DependencyType>
+				<DependencyType>ERA_SEDENTARY</DependencyType>
 				<DependencyType>BUILDINGCLASS_FIRE_MYTH_EFFECT</DependencyType>
 				<DependencyType>BUILDINGCLASS_STONE_MYTH_EFFECT</DependencyType>
 			</AndDependencyTypes>
@@ -114985,7 +114985,7 @@
 			<BuildingClass>BUILDINGCLASS_METAL_MYTH_EFFECT</BuildingClass>
 			<Type>BUILDING_METAL_MYTH_EFFECT</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_ANCIENT</DependencyType>
+				<DependencyType>ERA_SEDENTARY</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_METAL_MYTH_EFFECT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ELEMENTAL_MYTH_PEDIA</Civilopedia>
@@ -115005,7 +115005,7 @@
 			<BuildingClass>BUILDINGCLASS_SEA_MYTH</BuildingClass>
 			<Type>BUILDING_SEA_MYTH</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_SEA_MYTH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ELEMENTAL_MYTH_PEDIA</Civilopedia>
@@ -115077,7 +115077,7 @@
 			<BuildingClass>BUILDINGCLASS_SEA_MYTH_EFFECT</BuildingClass>
 			<Type>BUILDING_SEA_MYTH_EFFECT</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_SEA_MYTH_EFFECT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ELEMENTAL_MYTH_PEDIA</Civilopedia>
@@ -115096,7 +115096,7 @@
 			<BuildingClass>BUILDINGCLASS_SKY_MYTH</BuildingClass>
 			<Type>BUILDING_SKY_MYTH</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_SKY_MYTH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ELEMENTAL_MYTH_PEDIA</Civilopedia>
@@ -115168,7 +115168,7 @@
 			<BuildingClass>BUILDINGCLASS_SKY_MYTH_EFFECT</BuildingClass>
 			<Type>BUILDING_SKY_MYTH_EFFECT</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_SKY_MYTH_EFFECT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ELEMENTAL_MYTH_PEDIA</Civilopedia>
@@ -115188,7 +115188,7 @@
 			<BuildingClass>BUILDINGCLASS_STONE_MYTH</BuildingClass>
 			<Type>BUILDING_STONE_MYTH</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_STONE_MYTH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ELEMENTAL_MYTH_PEDIA</Civilopedia>
@@ -115260,7 +115260,7 @@
 			<BuildingClass>BUILDINGCLASS_STONE_MYTH_EFFECT</BuildingClass>
 			<Type>BUILDING_STONE_MYTH_EFFECT</Type>
 			<AndDependencyTypes>
-				<DependencyType>ERA_PREHISTORIC</DependencyType>
+				<DependencyType>ERA_ANCIENT</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_BUILDING_STONE_MYTH_EFFECT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ELEMENTAL_MYTH_PEDIA</Civilopedia>
