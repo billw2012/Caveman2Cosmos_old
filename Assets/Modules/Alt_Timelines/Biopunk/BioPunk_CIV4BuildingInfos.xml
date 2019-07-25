@@ -46,11 +46,8 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<TechTypes>
-				<PrereqTech>TECH_NEUROTECHNOLOGY</PrereqTech>
-			</TechTypes>
 			<Bonus>BONUS_BIOPUNK</Bonus>
-			<iCost>2405</iCost>
+			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>1</iHappiness>
@@ -83,15 +80,12 @@
 			<Strategy>TXT_KEY_BUILDING_MICROBIOLOGY_ARTIST_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MICROBIOLOGY_ARTIST</ArtDefineTag>
-			<PrereqTech>TECH_GBIOLOGY</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_BIOPUNK</PrereqTech>
-			</TechTypes>
+			<PrereqTech>TECH_BIOPUNK</PrereqTech>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<Bonus>BONUS_BIOPUNK</Bonus>
-			<iCost>2865</iCost>
+			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>1</iHappiness>
@@ -136,14 +130,11 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ANIMAL_DESIGNER</ArtDefineTag>
 			<PrereqTech>TECH_BIOPUNK</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_NEUROTECHNOLOGY</PrereqTech>
-			</TechTypes>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<Bonus>BONUS_BIOPUNK</Bonus>
-			<iCost>2405</iCost>
+			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>2</iHappiness>
@@ -188,15 +179,12 @@
 			<Strategy>TXT_KEY_BUILDING_DESIGNED_ANIMAL_BATTLE_ARENA_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DESIGNED_ANIMAL_BATTLE_ARENA</ArtDefineTag>
-			<PrereqTech>TECH_GBIOLOGY</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_BIOPUNK</PrereqTech>
-			</TechTypes>
+			<PrereqTech>TECH_BIOPUNK</PrereqTech>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<Bonus>BONUS_BIOPUNK</Bonus>
-			<iCost>2865</iCost>
+			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>3</iHappiness>
@@ -234,14 +222,11 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DESIGNED_ANIMAL_SHOW</ArtDefineTag>
 			<PrereqTech>TECH_BIOPUNK</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_NEUROTECHNOLOGY</PrereqTech>
-			</TechTypes>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<Bonus>BONUS_BIOPUNK</Bonus>
-			<iCost>4810</iCost>
+			<iCost>7330</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iGlobalHappiness>5</iGlobalHappiness>
@@ -485,14 +470,11 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DESIGNED_ANIMAL_ZOO</ArtDefineTag>
 			<PrereqTech>TECH_BIOPUNK</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_NEUROTECHNOLOGY</PrereqTech>
-			</TechTypes>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<Bonus>BONUS_BIOPUNK</Bonus>
-			<iCost>2405</iCost>
+			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>3</iHappiness>
@@ -540,14 +522,11 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CHIMERA_SURGERY_CLINIC</ArtDefineTag>
 			<PrereqTech>TECH_BIOPUNK</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_GBIOLOGY</PrereqTech>
-			</TechTypes>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<Bonus>BONUS_BIOPUNK</Bonus>
-			<iCost>2865</iCost>
+			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>2</iHappiness>
@@ -590,17 +569,14 @@
 			<Strategy>TXT_KEY_BUILDING_ORGANIC_COMPUTER_LAB_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ORGANIC_COMPUTER_LAB</ArtDefineTag>
-			<PrereqTech>TECH_GBIOLOGY</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_BIOPUNK</PrereqTech>
-			</TechTypes>
+			<PrereqTech>TECH_BIOPUNK</PrereqTech>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<Bonus>BONUS_BIOPUNK</Bonus>
 			<FreeBonus>BONUS_ORGANIC_COMPUTERS</FreeBonus>
 			<iNumFreeBonuses>1</iNumFreeBonuses>
-			<iCost>2865</iCost>
+			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>

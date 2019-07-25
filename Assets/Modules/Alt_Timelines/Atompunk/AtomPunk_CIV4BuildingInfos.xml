@@ -665,7 +665,7 @@
 				</ProductionTrait>
 			</ProductionTraits>
 			<bPower>1</bPower>
-			<iCost>1925</iCost>
+			<iCost>1845</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- RevolutionDCM End  -->
@@ -738,7 +738,7 @@
 			<FreeBuilding>BUILDINGCLASS_GOOD_ATOM</FreeBuilding>
 			<bRiver>1</bRiver>
 			<bPower>1</bPower>
-			<iCost>4010</iCost>
+			<iCost>3690</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- RevolutionDCM End  -->

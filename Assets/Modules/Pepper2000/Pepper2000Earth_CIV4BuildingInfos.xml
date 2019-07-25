@@ -413,7 +413,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_TELEPHONE</PrereqTech>
-			<iCost>830</iCost>
+			<iCost>710</iCost>
 			<ObsoleteTech>TECH_MEDIA_HIVEMIND</ObsoleteTech>
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
@@ -448,7 +448,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_TELEPHONE</PrereqTech>
-			<iCost>830</iCost>
+			<iCost>710</iCost>
 			<ObsoleteTech>TECH_MEDIA_HIVEMIND</ObsoleteTech>
 			<CommerceChanges>
 				<iCommerce>10</iCommerce>
@@ -2096,7 +2096,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
-			<iCost>800</iCost>
+			<iCost>710</iCost>
 			<ObsoleteTech>TECH_COMPUTER_NETWORKS</ObsoleteTech>
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
@@ -2285,7 +2285,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_RAPID_PROTOTYPING</PrereqTech>
-			<iCost>5010</iCost>
+			<iCost>4810</iCost>
 			<TechTypes>
 				<PrereqTech>TECH_FSYSTEMS</PrereqTech>
 			</TechTypes>
@@ -2466,7 +2466,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_QUANTUM_TELEPORTATION</PrereqTech>
-			<iCost>2305</iCost>
+			<iCost>2405</iCost>
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
@@ -2511,7 +2511,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_METAMATERIALS</PrereqTech>
-			<iCost>2745</iCost>
+			<iCost>2625</iCost>
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
@@ -2595,7 +2595,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_RAPID_PROTOTYPING</PrereqTech>
-			<iCost>2505</iCost>
+			<iCost>2405</iCost>
 			<CommerceChanges>
 				<iCommerce>50</iCommerce>
 				<iCommerce>1</iCommerce>
@@ -2729,7 +2729,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_RAPID_PROTOTYPING</PrereqTech>
-			<iCost>2505</iCost>
+			<iCost>2405</iCost>
 			<CommerceChanges>
 				<iCommerce>120</iCommerce>
 				<iCommerce>1</iCommerce>
@@ -2838,7 +2838,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_RAPID_PROTOTYPING</PrereqTech>
-			<iCost>2505</iCost>
+			<iCost>2405</iCost>
 			<CommerceChanges>
 				<iCommerce>20</iCommerce>
 				<iCommerce>1</iCommerce>
@@ -2911,7 +2911,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MILITARY_ROBOTS</PrereqTech>
-			<iCost>2625</iCost>
+			<iCost>2405</iCost>
 			<CommerceChanges>
 				<iCommerce>30</iCommerce>
 				<iCommerce>1</iCommerce>
@@ -3109,7 +3109,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_DMERCH</PrereqTech>
-			<iCost>2745</iCost>
+			<iCost>2405</iCost>
 			<CommerceChanges>
 				<iCommerce>15</iCommerce>
 			</CommerceChanges>
@@ -3163,7 +3163,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_DMERCH</PrereqTech>
-			<iCost>2745</iCost>
+			<iCost>2405</iCost>
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
@@ -3196,7 +3196,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_DMERCH</PrereqTech>
-			<iCost>2745</iCost>
+			<iCost>2505</iCost>
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
@@ -3229,7 +3229,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_DMERCH</PrereqTech>
-			<iCost>2745</iCost>
+			<iCost>2505</iCost>
 			<iHappiness>1</iHappiness>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -3267,7 +3267,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MMO</PrereqTech>
-			<iCost>2405</iCost>
+			<iCost>2105</iCost>
 			<CommerceChanges>
 				<iCommerce>15</iCommerce>
 			</CommerceChanges>
@@ -3299,7 +3299,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MMO</PrereqTech>
-			<iCost>2405</iCost>
+			<iCost>2105</iCost>
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
 			</CommerceChanges>
@@ -3381,7 +3381,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MMO</PrereqTech>
-			<iCost>2405</iCost>
+			<iCost>2105</iCost>
 			<CommerceChanges>
 				<iCommerce>7</iCommerce>
 				<iCommerce>0</iCommerce>
@@ -3421,8 +3421,11 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_CONTROLLED_PLASMA</PrereqTech>
-			<iCost>2865</iCost>
+			<PrereqTech>TECH_MICROTURBINE</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_CONTROLLED_PLASMA</PrereqTech>
+			</TechTypes>
+			<iCost>2625</iCost>
 			<ObsoleteTech>TECH_MOLECULAR_ASSEMBLY</ObsoleteTech>
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>
@@ -4255,7 +4258,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MEGACITIES</PrereqTech>
-			<iCost>2745</iCost>
+			<iCost>2625</iCost>
 			<YieldModifiers>
 				<iYield>0</iYield>
 				<iYield>25</iYield>
@@ -4897,7 +4900,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MICROTURBINE</PrereqTech>
-			<iCost>2865</iCost>
+			<iCost>2625</iCost>
 			<YieldChanges>
 				<iYield>0</iYield>
 				<iYield>4</iYield>
@@ -4943,7 +4946,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_LEDLIGHTING</PrereqTech>
-			<iCost>2745</iCost>
+			<iCost>2505</iCost>
 			<YieldChanges>
 				<iYield>0</iYield>
 				<iYield>4</iYield>
@@ -5112,7 +5115,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_METAMATERIALS</PrereqTech>
-			<iCost>2745</iCost>
+			<iCost>2625</iCost>
 			<CommerceChanges>
 				<iCommerce>3</iCommerce>
 			</CommerceChanges>
@@ -5376,7 +5379,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_WEARABLE_ELECTRONICS</PrereqTech>
-			<iCost>2305</iCost>
+			<iCost>2405</iCost>
 			<ObsoleteTech>TECH_BIONICS</ObsoleteTech>
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
@@ -5415,7 +5418,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_WEARABLE_ELECTRONICS</PrereqTech>
-			<iCost>2305</iCost>
+			<iCost>2405</iCost>
 			<ObsoleteTech>TECH_CYBERNETICS</ObsoleteTech>
 			<CommerceChanges>
 				<iCommerce>10</iCommerce>
@@ -5464,7 +5467,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_WEARABLE_ELECTRONICS</PrereqTech>
-			<iCost>2305</iCost>
+			<iCost>2405</iCost>
 			<ObsoleteTech>TECH_CYBERNETICS</ObsoleteTech>
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
@@ -6477,7 +6480,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MICROWAVE_WEAPONRY</PrereqTech>
-			<iCost>2205</iCost>
+			<iCost>2505</iCost>
 			<CommerceChanges>
 				<iCommerce>-1</iCommerce>
 			</CommerceChanges>
@@ -6681,7 +6684,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_COMPUTATIONAL_SOCIOLOGY</PrereqTech>
-			<iCost>2505</iCost>
+			<iCost>2625</iCost>
 			<CommerceChanges>
 				<iCommerce>-10</iCommerce>
 				<iCommerce>10</iCommerce>
@@ -6993,7 +6996,7 @@
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
 					<PropertyType>PROPERTY_WATER_POLLUTION</PropertyType>
-					<iAmountPerTurn>15</iAmountPerTurn>
+					<iAmountPerTurn>-15</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
@@ -7264,7 +7267,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MEGACITIES</PrereqTech>
-			<iCost>16470</iCost>
+			<iCost>15750</iCost>
 			<CommerceChanges>
 				<iCommerce>60</iCommerce>
 			</CommerceChanges>
@@ -7466,7 +7469,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_DERIVATIVES</PrereqTech>
-			<iCost>2005</iCost>
+			<iCost>2105</iCost>
 			<CommerceChanges>
 				<iCommerce>20</iCommerce>
 			</CommerceChanges>
@@ -7517,7 +7520,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_DERIVATIVES</PrereqTech>
-			<iCost>2005</iCost>
+			<iCost>2105</iCost>
 			<CommerceChanges>
 				<iCommerce>10</iCommerce>
 			</CommerceChanges>
@@ -7749,7 +7752,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_COMPUTATIONAL_SOCIOLOGY</PrereqTech>
-			<iCost>2505</iCost>
+			<iCost>2625</iCost>
 			<CommerceChanges>
 				<iCommerce>-10</iCommerce>
 				<iCommerce>0</iCommerce>
@@ -7979,7 +7982,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_COMPUTATIONAL_SOCIOLOGY</PrereqTech>
-			<iCost>5010</iCost>
+			<iCost>5250</iCost>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
 				<iCommerce>20</iCommerce>
@@ -8024,7 +8027,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_COMPUTATIONAL_SOCIOLOGY</PrereqTech>
-			<iCost>5010</iCost>
+			<iCost>5250</iCost>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
 				<iCommerce>20</iCommerce>
@@ -8067,7 +8070,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_COMPUTATIONAL_SOCIOLOGY</PrereqTech>
-			<iCost>5010</iCost>
+			<iCost>5250</iCost>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
 				<iCommerce>20</iCommerce>
@@ -8846,7 +8849,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_UNMANNEDSEA</PrereqTech>
-			<iCost>2205</iCost>
+			<iCost>2005</iCost>
 			<ObsoleteTech>TECH_OPTRONICS</ObsoleteTech>
 			<bWater>1</bWater>
 			<CommerceChanges>
@@ -8948,7 +8951,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MICROTURBINE</PrereqTech>
-			<iCost>2865</iCost>
+			<iCost>2625</iCost>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
 				<iCommerce>5</iCommerce>
@@ -9343,7 +9346,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MICROTURBINE</PrereqTech>
-			<iCost>2865</iCost>
+			<iCost>2625</iCost>
 			<ObsoleteTech>TECH_TRANSHUMANISM</ObsoleteTech>
 			<CommerceChanges>
 				<iCommerce>15</iCommerce>
@@ -9645,7 +9648,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_AUGMENTEDREALITY</PrereqTech>
-			<iCost>2865</iCost>
+			<iCost>2625</iCost>
 			<ObsoleteTech>TECH_POSTHUMANISM</ObsoleteTech>
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
@@ -11629,7 +11632,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_QUANTUM_TELEPORTATION</PrereqTech>
-			<iCost>2305</iCost>
+			<iCost>2405</iCost>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
 				<iCommerce>20</iCommerce>
@@ -11874,7 +11877,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_FLASHMEMORY</PrereqTech>
-			<iCost>15030</iCost>
+			<iCost>12630</iCost>
 			<GlobalBuildingExtraCommerces>
 				<BuildingExtraCommerce>
 					<BuildingClass>BUILDINGCLASS_COMPUTER_NETWORK</BuildingClass>
@@ -11943,7 +11946,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_AFFECTIVEALGORITHMS</PrereqTech>
-			<iCost>2985</iCost>
+			<iCost>2625</iCost>
 			<CommerceChanges>
 				<iCommerce>10</iCommerce>
 			</CommerceChanges>
@@ -13526,7 +13529,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MEGACITIES</PrereqTech>
-			<iCost>16470</iCost>
+			<iCost>15750</iCost>
 			<YieldChanges>
 				<iYield>0</iYield>
 				<iYield>0</iYield>
@@ -14915,7 +14918,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_VIRTUALSOCIETY</PrereqTech>
-			<iCost>5730</iCost>
+			<iCost>5010</iCost>
 			<CommerceChanges>
 				<iCommerce>-20</iCommerce>
 				<iCommerce>10</iCommerce>
@@ -14944,7 +14947,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
-			<iCost>4800</iCost>
+			<iCost>4260</iCost>
 			<ObsoleteTech>TECH_DMERCH</ObsoleteTech>
 			<CommerceChanges>
 				<iCommerce>10</iCommerce>
@@ -14985,7 +14988,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
-			<iCost>800</iCost>
+			<iCost>710</iCost>
 			<ObsoleteTech>TECH_VIRTUAL_REALITY</ObsoleteTech>
 			<CommerceChanges>
 				<iCommerce>10</iCommerce>
@@ -22044,7 +22047,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_VIRTUALSOCIETY</PrereqTech>
-			<iCost>2865</iCost>
+			<iCost>2505</iCost>
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
 				<iCommerce>0</iCommerce>
@@ -22451,7 +22454,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_UNMANNEDSEA</PrereqTech>
-			<iCost>2205</iCost>
+			<iCost>2005</iCost>
 			<bWater>1</bWater>
 			<CommerceChanges>
 				<iCommerce>2</iCommerce>
@@ -22483,7 +22486,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_UNMANNEDSEA</PrereqTech>
-			<iCost>13230</iCost>
+			<iCost>11070</iCost>
 			<bWater>1</bWater>
 			<CommerceChanges>
 				<iCommerce>10</iCommerce>
@@ -22520,7 +22523,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MARINEARCHITECTURE</PrereqTech>
-			<iCost>17910</iCost>
+			<iCost>17190</iCost>
 			<bWater>1</bWater>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -22561,7 +22564,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MARINEARCHITECTURE</PrereqTech>
-			<iCost>2985</iCost>
+			<iCost>2865</iCost>
 			<bWater>1</bWater>
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
@@ -22623,7 +22626,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MARINEARCHITECTURE</PrereqTech>
-			<iCost>2985</iCost>
+			<iCost>2865</iCost>
 			<bWater>1</bWater>
 			<CommerceChanges>
 				<iCommerce>3</iCommerce>
@@ -22695,7 +22698,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MARINEARCHITECTURE</PrereqTech>
-			<iCost>17910</iCost>
+			<iCost>17190</iCost>
 			<bWater>1</bWater>
 			<CommerceChanges>
 				<iCommerce>8</iCommerce>
@@ -22734,7 +22737,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MARINEARCHITECTURE</PrereqTech>
-			<iCost>2985</iCost>
+			<iCost>2865</iCost>
 			<bWater>1</bWater>
 			<YieldChanges>
 				<iYield>5</iYield>
@@ -23295,7 +23298,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MEGACITIES</PrereqTech>
-			<iCost>16470</iCost>
+			<iCost>15750</iCost>
 			<CommerceChanges>
 				<iCommerce>8</iCommerce>
 				<iCommerce>0</iCommerce>
@@ -24824,7 +24827,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MEGACITIES</PrereqTech>
-			<iCost>2745</iCost>
+			<iCost>2625</iCost>
 			<iTradeRouteModifier>10</iTradeRouteModifier>
 			<TechCommerceChanges>
 				<TechCommerceChange>
@@ -24891,7 +24894,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_ECOLOGICAL_ENGINEERING</PrereqTech>
-			<iCost>15030</iCost>
+			<iCost>12630</iCost>
 			<PrereqOrTerrain>
 				<PrereqTerrain>
 					<TerrainType>TERRAIN_DESERT</TerrainType>
@@ -24925,7 +24928,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MEGACITIES</PrereqTech>
-			<iCost>16470</iCost>
+			<iCost>15750</iCost>
 			<CommerceChanges>
 				<iCommerce>20</iCommerce>
 				<iCommerce>0</iCommerce>
@@ -24960,7 +24963,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MEGACITIES</PrereqTech>
-			<iCost>16470</iCost>
+			<iCost>15750</iCost>
 			<YieldChanges>
 				<iYield>0</iYield>
 				<iYield>0</iYield>
@@ -24995,7 +24998,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MEGACITIES</PrereqTech>
-			<iCost>16470</iCost>
+			<iCost>15750</iCost>
 			<CommerceChanges>
 				<iCommerce>3</iCommerce>
 			</CommerceChanges>
@@ -25042,7 +25045,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MEGACITIES</PrereqTech>
-			<iCost>16470</iCost>
+			<iCost>15750</iCost>
 			<CommerceChanges>
 				<iCommerce>10</iCommerce>
 			</CommerceChanges>
@@ -25075,7 +25078,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MEGACITIES</PrereqTech>
-			<iCost>16470</iCost>
+			<iCost>15750</iCost>
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
 				<iCommerce>15</iCommerce>
@@ -26607,7 +26610,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_SUPERSTRINGTHEORY</PrereqTech>
-			<iCost>13230</iCost>
+			<iCost>12030</iCost>
 			<CommerceChanges>
 				<iCommerce>-10</iCommerce>
 				<iCommerce>25</iCommerce>

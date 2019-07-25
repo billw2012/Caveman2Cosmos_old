@@ -1088,7 +1088,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Cost -->
-			<iCost>4810</iCost>
+			<iCost>4010</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<!-- Local -->
@@ -1135,7 +1135,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Cost -->
-			<iCost>2950</iCost>
+			<iCost>3690</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ConstructSound>AS2D_BUILD_DEEP_SPACE_RESEARCH</ConstructSound>
@@ -4324,9 +4324,6 @@
 			<Strategy>TXT_KEY_BUILDING_NATIONAL_ACADEMIC_DATABASE_STRATEGY</Strategy>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_CLOUDCOMPUTING</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_MEDIAPSYCOLOGY</PrereqTech>
-			</TechTypes>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_COMPUTERS</Bonus>
@@ -4341,7 +4338,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Cost -->
-			<iCost>4410</iCost>
+			<iCost>4010</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Local -->
@@ -4693,9 +4690,6 @@
 			<Strategy>TXT_KEY_BUILDING_NATIONAL_LEGAL_DATABASE_STRATEGY</Strategy>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_CLOUDCOMPUTING</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_MEDIAPSYCOLOGY</PrereqTech>
-			</TechTypes>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_COMPUTERS</Bonus>
@@ -4710,7 +4704,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Cost -->
-			<iCost>4410</iCost>
+			<iCost>4010</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Local -->
@@ -5815,7 +5809,7 @@
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_WEATHER_CONTROL</ObsoleteTech>
 			<!-- Cost -->
-			<iCost>1740</iCost>
+			<iCost>1480</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ConstructSound>AS2D_BUILD_INTELLIGENCE_AGENCY</ConstructSound>
@@ -5939,7 +5933,7 @@
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
-			<iCost>5730</iCost>
+			<iCost>5010</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Local -->
@@ -6940,7 +6934,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Cost -->
-			<iCost>3850</iCost>
+			<iCost>3690</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ConstructSound>AS2D_BUILD_OBSERVATORY</ConstructSound>

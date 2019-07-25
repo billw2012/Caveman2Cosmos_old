@@ -1456,7 +1456,7 @@
 			<PrereqTech>TECH_AQUACULTURE</PrereqTech>
 			<bWater>1</bWater>
 			<!-- Construction cost -->
-			<iCost>1540</iCost>
+			<iCost>1845</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>1</iYield>
@@ -2132,7 +2132,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2745</iCost>
+			<iCost>2985</iCost>
 			<!-- Main effects -->
 			<iHealth>2</iHealth>
 			<CommerceChanges>
@@ -3947,7 +3947,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_MILITARY_ROBOTS</PrereqTech>
+			<PrereqTech>TECH_GUIDED_WEAPONS</PrereqTech>
 			<Bonus>BONUS_AMMO</Bonus>
 			<!-- Obsolescence -->
 			<ReplaceBuildings>
@@ -3961,7 +3961,7 @@
 				</ReplaceBuilding>
 			</ReplaceBuildings>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>1605</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
@@ -4471,10 +4471,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MEDIAPSYCOLOGY</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_CLOUDCOMPUTING</PrereqTech>
-				<PrereqTech>TECH_NEUROTECHNOLOGY</PrereqTech>
-			</TechTypes>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_COMPUTERS</Bonus>
@@ -4489,7 +4485,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2405</iCost>
+			<iCost>2305</iCost>
 			<!-- Main effects -->
 			<iHealth>2</iHealth>
 			<CommerceChanges>
@@ -4678,7 +4674,7 @@
 			<PrereqTech>TECH_AQUACULTURE</PrereqTech>
 			<bWater>1</bWater>
 			<!-- Construction cost -->
-			<iCost>1540</iCost>
+			<iCost>1845</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>1</iYield>
@@ -5974,7 +5970,7 @@
 				<Bonus>BONUS_NANOTUBES</Bonus>
 			</PrereqBonuses>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2105</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-1</iCommerce>
@@ -6924,7 +6920,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2865</iCost>
+			<iCost>2625</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -7373,7 +7369,7 @@
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2405</iCost>
 			<BonusProductionModifiers>
 				<BonusProductionModifier>
 					<BonusType>BONUS_AMMO</BonusType>
@@ -7866,7 +7862,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2985</iCost>
+			<iCost>2865</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<CommerceChanges>
@@ -7954,7 +7950,7 @@
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
-			<iCost>2985</iCost>
+			<iCost>2865</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<CommerceChanges>
@@ -11433,7 +11429,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_HUMAN_MACHINE_INTERFACE</PrereqTech>
+			<PrereqTech>TECH_GENEENHANCEMENT</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<PrereqBonuses>
 				<Bonus>BONUS_BRICKS</Bonus>
@@ -11452,7 +11448,7 @@
 				</And>
 			</ConstructCondition>
 			<!-- Construction cost -->
-			<iCost>2865</iCost>
+			<iCost>3385</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_AGGRESSIVE</ProductionTraitType>
@@ -11515,7 +11511,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2105</iCost>
+			<iCost>2005</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<YieldChanges>
@@ -11609,7 +11605,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2105</iCost>
+			<iCost>2005</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>3</iCommerce>
@@ -11675,7 +11671,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2205</iCost>
+			<iCost>2405</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-10</iCommerce>
@@ -11937,7 +11933,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2865</iCost>
+			<iCost>2625</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
@@ -12227,7 +12223,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2105</iCost>
+			<iCost>2005</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -19608,7 +19604,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_ECOLOGICAL_ENGINEERING</PrereqTech>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2105</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>5</iCommerce>
@@ -21215,7 +21211,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2985</iCost>
+			<iCost>2865</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -25185,7 +25181,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2305</iCost>
+			<iCost>1925</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_PHILOSOPHICAL</ProductionTraitType>
@@ -26813,7 +26809,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2505</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
@@ -27345,7 +27341,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2405</iCost>
+			<iCost>2005</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -27989,7 +27985,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2405</iCost>
 			<!-- Unit effects -->
 			<UnitCombatFreeExperiences>
 				<UnitCombatFreeExperience>
@@ -30609,7 +30605,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2865</iCost>
+			<iCost>2985</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -31887,7 +31883,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2985</iCost>
+			<iCost>2865</iCost>
 			<!-- Main effects -->
 			<iHealth>3</iHealth>
 			<CommerceChanges>
@@ -32610,10 +32606,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_CLOUDCOMPUTING</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_PLANET_EXPLORATION</PrereqTech>
-			</TechTypes>
+			<PrereqTech>TECH_VIRTUAL_REALITY</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_COMPUTERS</Bonus>
@@ -32636,7 +32629,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2205</iCost>
+			<iCost>2105</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
@@ -32695,10 +32688,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_MEDIAPSYCOLOGY</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_CLOUDCOMPUTING</PrereqTech>
-			</TechTypes>
+			<PrereqTech>TECH_CLOUDCOMPUTING</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_COMPUTERS</Bonus>
@@ -32713,7 +32703,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2205</iCost>
+			<iCost>2005</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
@@ -35558,7 +35548,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2105</iCost>
 			<!-- Other -->
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<!-- Properties diffusion -->
@@ -36149,7 +36139,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2625</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -37080,7 +37070,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2405</iCost>
+			<iCost>2005</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-5</iCommerce>
@@ -37517,9 +37507,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_BIOMECHANICALHARVESTING</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_FLASHMEMORY</PrereqTech>
-			</TechTypes>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_NANOTUBES</Bonus>
@@ -37541,7 +37528,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2625</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -37615,7 +37602,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2105</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>12</iCommerce>
@@ -37680,7 +37667,7 @@
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_TELEPORTATION</ObsoleteTech>
 			<!-- Construction cost -->
-			<iCost>2105</iCost>
+			<iCost>2005</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -37714,10 +37701,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_BIOINFORMATICS</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_VIRTUAL_REALITY</PrereqTech>
-			</TechTypes>
+			<PrereqTech>TECH_VIRTUAL_REALITY</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_COMPUTERS</Bonus>
@@ -37732,7 +37716,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2205</iCost>
+			<iCost>2105</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
@@ -38105,9 +38089,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_AUGMENTEDREALITY</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_HUMAN_MACHINE_INTERFACE</PrereqTech>
-			</TechTypes>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_COMPUTERS</Bonus>
@@ -38122,7 +38103,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2865</iCost>
+			<iCost>2625</iCost>
 			<!-- Main effects -->
 			<iInvestigation>50</iInvestigation>
 			<YieldChanges>
@@ -39752,7 +39733,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2405</iCost>
+			<iCost>2305</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<CommerceChanges>
@@ -40769,7 +40750,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2745</iCost>
+			<iCost>2985</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<CommerceChanges>
@@ -41408,7 +41389,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2105</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -42159,7 +42140,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<!-- Construction cost -->
-			<iCost>1925</iCost>
+			<iCost>1845</iCost>
 			<!-- Main effects -->
 			<iInvestigation>25</iInvestigation>
 			<CommerceChanges>
@@ -44460,7 +44441,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1925</iCost>
+			<iCost>1845</iCost>
 			<!-- Main effects -->
 			<iHealth>3</iHealth>
 			<CommerceChanges>
@@ -44588,7 +44569,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2865</iCost>
+			<iCost>2985</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
@@ -44641,7 +44622,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2865</iCost>
+			<iCost>2985</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
@@ -45203,9 +45184,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_BIOMATHMATICS</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_BIOMECHANICALHARVESTING</PrereqTech>
-			</TechTypes>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_COMPUTERS</Bonus>
@@ -45216,7 +45194,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2405</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -48001,7 +47979,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2105</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-100</iCommerce>
@@ -52864,7 +52842,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2745</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -52990,7 +52968,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2985</iCost>
+			<iCost>2865</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -53614,7 +53592,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2985</iCost>
+			<iCost>2625</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -54681,7 +54659,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2205</iCost>
+			<iCost>2005</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -54741,7 +54719,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2205</iCost>
+			<iCost>2005</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
@@ -54932,9 +54910,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_AFFECTIVEALGORITHMS</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_GRAPHENE</PrereqTech>
-			</TechTypes>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_COMPUTERS</Bonus>
@@ -54945,7 +54920,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2985</iCost>
+			<iCost>2625</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -63454,7 +63429,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2205</iCost>
+			<iCost>2405</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>10</iCommerce>
@@ -64320,7 +64295,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2745</iCost>
 			<!-- Main effects -->
 			<FreeBonus>BONUS_MECHS</FreeBonus>
 			<iNumFreeBonuses>1</iNumFreeBonuses>
@@ -64552,7 +64527,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2625</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -64939,7 +64914,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2985</iCost>
+			<iCost>2745</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -66354,7 +66329,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2745</iCost>
+			<iCost>2625</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -66463,7 +66438,7 @@
 				</ReplaceBuilding>
 			</ReplaceBuildings>
 			<!-- Construction cost -->
-			<iCost>2745</iCost>
+			<iCost>2625</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
@@ -66580,7 +66555,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>830</iCost>
+			<iCost>740</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-8</iCommerce>
@@ -67038,7 +67013,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2865</iCost>
+			<iCost>2625</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -67220,7 +67195,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
+			<PrereqTech>TECH_MICROWAVE_WEAPONRY</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<Bonus>BONUS_SEMICONDUCTORS</Bonus>
 			<PrereqBonuses>
@@ -67241,7 +67216,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2105</iCost>
+			<iCost>2405</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -67661,7 +67636,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_MICROMECHANICS</PrereqTech>
+			<PrereqTech>TECH_LUNAR_BASES</PrereqTech>
 			<TechTypes>
 				<PrereqTech>TECH_MILITARY_ROBOTS</PrereqTech>
 			</TechTypes>
@@ -70288,7 +70263,7 @@
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_TELEPORTATION</ObsoleteTech>
 			<!-- Construction cost -->
-			<iCost>2105</iCost>
+			<iCost>1925</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -71751,7 +71726,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1540</iCost>
+			<iCost>1845</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -71944,7 +71919,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2105</iCost>
+			<iCost>1925</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-30</iCommerce>
@@ -72586,7 +72561,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2985</iCost>
+			<iCost>2865</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<YieldChanges>
@@ -74495,7 +74470,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2985</iCost>
+			<iCost>2865</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -75178,7 +75153,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2205</iCost>
+			<iCost>2405</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -75250,7 +75225,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<!-- Construction cost -->
-			<iCost>2205</iCost>
+			<iCost>2005</iCost>
 			<!-- Misc. Effects -->
 			<iTradeRouteModifier>25</iTradeRouteModifier>
 			<iForeignTradeRouteModifier>25</iForeignTradeRouteModifier>
@@ -75719,7 +75694,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<!-- Construction cost -->
-			<iCost>2865</iCost>
+			<iCost>2625</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-10</iCommerce>
@@ -75835,7 +75810,7 @@
 			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
 		<BuildingInfo>
-			<!-- Organic Lamps -->
+			<!-- OLED Lamps -->
 			<BuildingClass>BUILDINGCLASS_ORGANIC_LAMPS</BuildingClass>
 			<Type>BUILDING_ORGANIC_LAMPS</Type>
 			<Description>TXT_KEY_BUILDING_ORGANIC_LAMPS</Description>
@@ -75854,7 +75829,7 @@
 			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_ORGANIC_PHOTONIC_CELLS</Bonus>
 			<!-- Construction cost -->
-			<iCost>2745</iCost>
+			<iCost>2505</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<YieldChanges>
@@ -75878,7 +75853,7 @@
 			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
 		<BuildingInfo>
-			<!-- Factory (OLEDs) -->
+			<!-- Factory (OLED) -->
 			<BuildingClass>BUILDINGCLASS_ORGANIC_PHOTONICS_FACTORY</BuildingClass>
 			<Type>BUILDING_ORGANIC_PHOTONICS_FACTORY</Type>
 			<Description>TXT_KEY_BUILDING_ORGANIC_PHOTONICS_FACTORY</Description>
@@ -75918,7 +75893,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2745</iCost>
+			<iCost>2505</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -76166,7 +76141,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2205</iCost>
+			<iCost>1925</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -79757,7 +79732,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2865</iCost>
+			<iCost>2985</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
@@ -81160,7 +81135,10 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_CONTROLLED_PLASMA</PrereqTech>
+			<PrereqTech>TECH_MICROTURBINE</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_CONTROLLED_PLASMA</PrereqTech>
+			</TechTypes>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_COMPUTERS</Bonus>
@@ -81174,7 +81152,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2865</iCost>
+			<iCost>2625</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -82091,7 +82069,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2745</iCost>
+			<iCost>2985</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-10</iCommerce>
@@ -82155,7 +82133,7 @@
 				</And>
 			</ConstructCondition>
 			<!-- Construction cost -->
-			<iCost>1925</iCost>
+			<iCost>1845</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-12</iCommerce>
@@ -83912,10 +83890,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_AFFECTIVEALGORITHMS</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_CSPACECRAFT</PrereqTech>
-			</TechTypes>
+			<PrereqTech>TECH_CYBERWARFARE</PrereqTech>
 			<iPrereqPopulation>25</iPrereqPopulation>
 			<Bonus>BONUS_COMPUTERS</Bonus>
 			<PrereqBonuses>
@@ -83951,7 +83926,7 @@
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
-			<iCost>2985</iCost>
+			<iCost>2205</iCost>
 			<!-- Main effects -->
 			<iHappiness>3</iHappiness>
 			<CommerceChanges>
@@ -84890,7 +84865,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2305</iCost>
+			<iCost>2405</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-10</iCommerce>
@@ -85565,7 +85540,7 @@
 				</ReplaceBuilding>
 			</ReplaceBuildings>
 			<!-- Construction cost -->
-			<iCost>2865</iCost>
+			<iCost>2625</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-1</iCommerce>
@@ -85957,7 +85932,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2625</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -88233,7 +88208,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2105</iCost>
 			<!-- Main effects -->
 			<iHealth>2</iHealth>
 			<CommerceChanges>
@@ -88449,7 +88424,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2745</iCost>
+			<iCost>2985</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -90695,7 +90670,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_PERSONALIZEDHEALTH</PrereqTech>
+			<PrereqTech>TECH_VIRTUALSOCIETY</PrereqTech>
 			<Bonus>BONUS_COMPUTERS</Bonus>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -90712,7 +90687,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2985</iCost>
+			<iCost>2405</iCost>
 			<!-- Special Health and Happiness  modifiers -->
 			<BonusHealthChanges>
 				<BonusHealthChange>
@@ -91961,7 +91936,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2105</iCost>
 			<!-- Other -->
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<!-- Properties diffusion -->
@@ -94263,7 +94238,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<!-- Construction cost -->
-			<iCost>2405</iCost>
+			<iCost>2005</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-20</iCommerce>
@@ -95941,7 +95916,7 @@
 				</ReplaceBuilding>
 			</ReplaceBuildings>
 			<!-- Construction cost -->
-			<iCost>2405</iCost>
+			<iCost>2105</iCost>
 			<!-- Main effects -->
 			<iHappiness>2</iHappiness>
 			<CommerceModifiers>
@@ -96447,7 +96422,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
+			<PrereqTech>TECH_MICROWAVE_WEAPONRY</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<Bonus>BONUS_SEMICONDUCTORS</Bonus>
 			<PrereqBonuses>
@@ -96474,7 +96449,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<!-- Construction cost -->
-			<iCost>2105</iCost>
+			<iCost>2405</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-1</iCommerce>
@@ -97244,7 +97219,7 @@
 				</PrereqFeature>
 			</PrereqOrFeature>
 			<!-- Construction cost -->
-			<iCost>1540</iCost>
+			<iCost>1845</iCost>
 			<!-- Main effects -->
 			<iHealth>2</iHealth>
 			<CommerceChanges>
@@ -98539,9 +98514,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_CLONING</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_CLOUDCOMPUTING</PrereqTech>
-			</TechTypes>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
 			<ConstructCondition>
@@ -98562,19 +98534,11 @@
 			</ConstructCondition>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_BIOINFO_LAB</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_FORENSICS_LAB</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_CLONING_LABORATORY</BuildingClassType>
-					<bNeededInCity>1</bNeededInCity>
-				</BuildingClassNeeded>
-				<BuildingClassNeeded>
-					<BuildingClassType>BUILDINGCLASS_DIGITAL_OFFICES</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
@@ -98826,7 +98790,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2985</iCost>
+			<iCost>2625</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -100750,7 +100714,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2405</iCost>
 			<!-- Main effects -->
 			<iHealth>2</iHealth>
 			<CommerceChanges>
@@ -102795,7 +102759,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<!-- Construction cost -->
-			<iCost>830</iCost>
+			<iCost>710</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>2</iCommerce>
@@ -104087,7 +104051,7 @@
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
-			<iCost>2865</iCost>
+			<iCost>2505</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_IMPERIALIST</ProductionTraitType>
@@ -104235,10 +104199,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_UNMANNEDSEA</PrereqTech>
-            <TechTypes>
-				<PrereqTech>TECH_RENEWABLE_ENERGY</PrereqTech>
-			</TechTypes>
+			<PrereqTech>TECH_RENEWABLE_ENERGY</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<bWater>1</bWater>
 			<Bonus>BONUS_WARE_ALUMINUM</Bonus>
@@ -104256,7 +104217,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2205</iCost>
+			<iCost>1925</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -107471,7 +107432,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2985</iCost>
+			<iCost>2865</iCost>
 			<!-- Main effects -->
 			<iHappiness>3</iHappiness>
 			<CommerceChanges>
@@ -107859,7 +107820,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2105</iCost>
+			<iCost>1925</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -109038,7 +108999,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_WEARABLE_ELECTRONICS</PrereqTech>
+			<PrereqTech>TECH_AUGMENTEDREALITY</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
 			<BuildingClassNeededs>
@@ -109048,7 +109009,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2305</iCost>
+			<iCost>2625</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_CREATIVE</ProductionTraitType>
@@ -110724,10 +110685,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_UNMANNEDSEA</PrereqTech>
-            <TechTypes>
-				<PrereqTech>TECH_RENEWABLE_ENERGY</PrereqTech>
-			</TechTypes>
+			<PrereqTech>TECH_RENEWABLE_ENERGY</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<bWater>1</bWater>
 			<Bonus>BONUS_WARE_ALUMINUM</Bonus>
@@ -110745,7 +110703,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2205</iCost>
+			<iCost>1925</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -111566,7 +111524,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2405</iCost>
+			<iCost>2105</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_ORGANIZED</ProductionTraitType>
@@ -111774,7 +111732,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2205</iCost>
+			<iCost>1925</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -111822,7 +111780,7 @@
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_TELEPORTATION</ObsoleteTech>
 			<!-- Construction cost -->
-			<iCost>2205</iCost>
+			<iCost>1925</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -113012,7 +112970,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<!-- Construction cost -->
-			<iCost>2865</iCost>
+			<iCost>2985</iCost>
 			<!-- Main effects -->
 			<iHealth>5</iHealth>
 			<CommerceChanges>

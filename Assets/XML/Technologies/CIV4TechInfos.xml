@@ -15849,13 +15849,13 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_TELEGRAPH_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_TELEGRAPH_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
-			<iCost>7008</iCost>
+			<iCost>6042</iCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<iAsset>48</iAsset>
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
-			<iGridX>68</iGridX>
-			<iGridY>9</iGridY>
+			<iGridX>65</iGridX>
+			<iGridY>1</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -15875,7 +15875,7 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+				<PrereqTech>TECH_JOURNALISM</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_TELEGRAPH_QUOTE</Quote>
 			<Sound>AS2D_TECH_TELEGRAPH</Sound>
@@ -15922,7 +15922,6 @@ Current techs which are not in this file:-
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_MODERN_SANITATION</PrereqTech>
-				<PrereqTech>TECH_WILDERNESSC</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_CIVIL_ENGINEERING_QUOTE</Quote>
 			<Sound>AS2D_TECH_CivilEngineering</Sound>
@@ -16215,13 +16214,13 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_METEOROLOGY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_METEOROLOGY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>7356</iCost>
+			<iCost>6351</iCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<iAsset>40</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
-			<iGridX>69</iGridX>
-			<iGridY>7</iGridY>
+			<iGridX>66</iGridX>
+			<iGridY>1</iGridY>
 			<DomainExtraMoves>
 				<DomainExtraMove>
 					<DomainType>DOMAIN_AIR</DomainType>
@@ -16249,11 +16248,11 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_TELEPHONE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>7356</iCost>
+			<iCost>7008</iCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<iAsset>40</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>69</iGridX>
+			<iGridX>68</iGridX>
 			<iGridY>9</iGridY>
 			<Flavors>
 				<Flavor>
@@ -16266,8 +16265,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_TELEGRAPH</PrereqTech>
+				<PrereqTech>TECH_ELECTRICITY</PrereqTech>
 			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_TELEGRAPH</PrereqTech>
+			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_TELEPHONE_QUOTE</Quote>
 			<Sound>AS2D_TECH_GENERIC</Sound>
 			<SoundMP/>
@@ -16299,6 +16301,9 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_CIVIL_ENGINEERING</PrereqTech>
 			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_TELEPHONE</PrereqTech>
+			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MANAGEMENT_QUOTE</Quote>
 			<Sound>AS2D_TECH_GENERIC</Sound>
 			<SoundMP/>
@@ -16749,6 +16754,7 @@ Current techs which are not in this file:-
 				<PrereqTech>TECH_RADIO</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
+				<PrereqTech>TECH_ANTIBIOTICS</PrereqTech>
 				<PrereqTech>TECH_MASS_TRANSIT</PrereqTech>
 				<PrereqTech>TECH_REFRIGERATION</PrereqTech>
 				<PrereqTech>TECH_COMPULSORY_EDUCATION</PrereqTech>
@@ -19016,9 +19022,6 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_CONGLOMERATES</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_ANTIBIOTICS</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MODERN_HEALTH_CARE_QUOTE</Quote>
 			<Sound>AS2D_TECH_MODERN_HEALTH_CARE</Sound>
 			<SoundMP>AS2D_TECH_MODERN_HEALTH_CARE</SoundMP>
@@ -19273,8 +19276,8 @@ Current techs which are not in this file:-
 			<Era>ERA_MODERN</Era>
 			<iAsset>40</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>80</iGridX>
-			<iGridY>5</iGridY>
+			<iGridX>81</iGridX>
+			<iGridY>7</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -19296,6 +19299,9 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_MODERN_HEALTH_CARE</PrereqTech>
 			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_BIOLOGICAL_WARFARE</PrereqTech>
+			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MOLECULAR_BIOLOGY_QUOTE</Quote>
 			<Sound>AS2D_TECH_MolecularBiology</Sound>
 			<SoundMP>AS2D_TECH_MolecularBiology</SoundMP>
@@ -19501,12 +19507,12 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_ECOLOGY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>13724</iCost>
+			<iCost>13181</iCost>
 			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>81</iGridX>
-			<iGridY>7</iGridY>
+			<iGridX>80</iGridX>
+			<iGridY>5</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -19526,8 +19532,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_MODERN_HEALTH_CARE</PrereqTech>
+				<PrereqTech>TECH_TOURISM</PrereqTech>
 			</OrPreReqs>
+			<AndPreReqs>
+			<PrereqTech>TECH_WILDERNESSC</PrereqTech>
+			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_ECOLOGY_QUOTE</Quote>
 			<Sound>AS2D_TECH_ECOLOGY</Sound>
 			<SoundMP>AS2D_TECH_MP_ECOLOGY</SoundMP>
@@ -19585,7 +19594,7 @@ Current techs which are not in this file:-
 			<iPower>10</iPower>
 			<bTrade>1</bTrade>
 			<iGridX>81</iGridX>
-			<iGridY>13</iGridY>
+			<iGridY>15</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -19790,12 +19799,12 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_HYDROPONICS_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_HYDROPONICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			<iCost>14287</iCost>
+			<iCost>13724</iCost>
 			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>82</iGridX>
-			<iGridY>7</iGridY>
+			<iGridX>81</iGridX>
+			<iGridY>1</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -19811,8 +19820,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_ECOLOGY</PrereqTech>
+				<PrereqTech>TECH_GASTRONOMY</PrereqTech>
 			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_ECOLOGY</PrereqTech>
+			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_HYDROPONICS_QUOTE</Quote>
 			<Sound>AS2D_TECH_HYDROPONICS</Sound>
 			<SoundMP>AS2D_TECH_HYDROPONICS</SoundMP>
@@ -19847,6 +19859,7 @@ Current techs which are not in this file:-
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_AMPHIBIOUS_WARFARE</PrereqTech>
+				<PrereqTech>TECH_DEEP_SEA_EXPLORATION</PrereqTech>
 				<PrereqTech>TECH_GUERRILLA_WARFARE</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MODERN_WARFARE_QUOTE</Quote>
@@ -19909,7 +19922,7 @@ Current techs which are not in this file:-
 			<iPower>10</iPower>
 			<bTrade>1</bTrade>
 			<iGridX>82</iGridX>
-			<iGridY>13</iGridY>
+			<iGridY>15</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -20014,12 +20027,12 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_AQUACULTURE_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_AQUACULTURE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			<iCost>14870</iCost>
-			<Era>ERA_MODERN</Era>
+			<iCost>19916</iCost>
+			<Era>ERA_INFORMATION</Era>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>83</iGridX>
-			<iGridY>5</iGridY>
+			<iGridX>87</iGridX>
+			<iGridY>19</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -20039,8 +20052,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_HYDROPONICS</PrereqTech>
+				<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_HYDROPONICS</PrereqTech>
+			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_AQUACULTURE_QUOTE</Quote>
 			<Sound>AS2D_TECH_AQUACULTURE</Sound>
 			<SoundMP>AS2D_TECH_AQUACULTURE</SoundMP>
@@ -20138,7 +20154,7 @@ Current techs which are not in this file:-
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>83</iGridX>
-			<iGridY>15</iGridY>
+			<iGridY>17</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -20293,11 +20309,11 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_ROBOTICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>15474</iCost>
+			<iCost>16099</iCost>
 			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>84</iGridX>
+			<iGridX>85</iGridX>
 			<iGridY>17</iGridY>
 			<Flavors>
 				<Flavor>
@@ -20331,12 +20347,12 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_EXTREME_SPORTS_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_EXTREME_SPORTS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<iCost>16099</iCost>
+			<iCost>15474</iCost>
 			<Era>ERA_MODERN</Era>
 			<iAsset>40</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
-			<iGridX>85</iGridX>
+			<iGridX>84</iGridX>
 			<iGridY>3</iGridY>
 			<Flavors>
 				<Flavor>
@@ -20375,12 +20391,12 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_GENETICS_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_GENETICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			<iCost>16099</iCost>
+			<iCost>15474</iCost>
 			<Era>ERA_MODERN</Era>
 			<iHealth>1</iHealth>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>85</iGridX>
+			<iGridX>84</iGridX>
 			<iGridY>7</iGridY>
 			<Flavors>
 				<Flavor>
@@ -20401,11 +20417,8 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_HYDROPONICS</PrereqTech>
-			</OrPreReqs>
-			<AndPreReqs>
 				<PrereqTech>TECH_MOLECULAR_BIOLOGY</PrereqTech>
-			</AndPreReqs>
+			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_GENETICS_QUOTE</Quote>
 			<Sound>AS2D_TECH_GENETICS</Sound>
 			<SoundMP>AS2D_TECH_MP_GENETICS</SoundMP>
@@ -20438,6 +20451,9 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_GUIDED_WEAPONS</PrereqTech>
 			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_VOLCANOLOGY</PrereqTech>
+			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_COMPOSITES_QUOTE</Quote>
 			<Sound>AS2D_TECH_COMPOSITES</Sound>
 			<SoundMP>AS2D_TECH_COMPOSITES</SoundMP>
@@ -20479,7 +20495,6 @@ Current techs which are not in this file:-
 				<PrereqTech>TECH_ASTRO_ENVIRONMENTAL_SYSTEMS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_ROBOTICS</PrereqTech>
 				<PrereqTech>TECH_FIRE_SUPPRESSION</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_SPACE_STATIONS_QUOTE</Quote>
@@ -20500,7 +20515,7 @@ Current techs which are not in this file:-
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
 			<iGridX>85</iGridX>
-			<iGridY>13</iGridY>
+			<iGridY>15</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -20537,12 +20552,12 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_3D_MODELLING_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_3D_MODELLING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>16099</iCost>
+			<iCost>15474</iCost>
 			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>85</iGridX>
-			<iGridY>15</iGridY>
+			<iGridX>84</iGridX>
+			<iGridY>19</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -20607,12 +20622,12 @@ Current techs which are not in this file:-
 			</Flavors>
 			<OrPreReqs>
 				<PrereqTech>TECH_COMPOSITES</PrereqTech>
-				<PrereqTech>TECH_EXTREME_SPORTS</PrereqTech>
-				<PrereqTech>TECH_SPACE_STATIONS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_ASTROGEOLOGY</PrereqTech>
-				<PrereqTech>TECH_GENETICS</PrereqTech>
+				<PrereqTech>TECH_URBAN_CULTURE</PrereqTech>
+				<PrereqTech>TECH_MODERN_HEALTH_CARE</PrereqTech>
+				<PrereqTech>TECH_MODERN_WARFARE</PrereqTech>
+				<PrereqTech>TECH_SPACE_STATIONS</PrereqTech>
 				<PrereqTech>TECH_ROBOTICS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_INFORMATION_LIFESTYLE_QUOTE</Quote>
@@ -20632,7 +20647,7 @@ Current techs which are not in this file:-
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>87</iGridX>
-			<iGridY>1</iGridY>
+			<iGridY>13</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -20654,9 +20669,6 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_COMPOSITES</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_FUEL_CELLS_QUOTE</Quote>
 			<Sound>AS2D_TECH_FUEL_CELLS</Sound>
 			<SoundMP>AS2D_TECH_FUEL_CELLS</SoundMP>
@@ -20674,7 +20686,7 @@ Current techs which are not in this file:-
 			<iAsset>40</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>87</iGridX>
-			<iGridY>3</iGridY>
+			<iGridY>17</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_SCIENCE</FlavorType>
@@ -20709,7 +20721,7 @@ Current techs which are not in this file:-
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
 			<iGridX>87</iGridX>
-			<iGridY>5</iGridY>
+			<iGridY>7</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_SCIENCE</FlavorType>
@@ -20731,6 +20743,10 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_ASTROBIOLOGY</PrereqTech>
+				<PrereqTech>TECH_ASTROGEOLOGY</PrereqTech>
+			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_PLANETARY_EXPLORATION_QUOTE</Quote>
 			<Sound>AS2D_TECH_GENERIC</Sound>
 			<SoundMP>AS2D_TECH_GENERIC</SoundMP>
@@ -20749,7 +20765,7 @@ Current techs which are not in this file:-
 			<iPower>5</iPower>
 			<bTrade>1</bTrade>
 			<iGridX>87</iGridX>
-			<iGridY>7</iGridY>
+			<iGridY>1</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -20763,9 +20779,6 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_COMPOSITES</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_STEALTH_QUOTE</Quote>
 			<Sound>AS2D_TECH_STEALTH</Sound>
 			<SoundMP>AS2D_TECH_MP_STEALTH</SoundMP>
@@ -20823,13 +20836,13 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_GASTRONOMY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_GASTRONOMY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
-			<iCost>19916</iCost>
-			<Era>ERA_INFORMATION</Era>
+			<iCost>13181</iCost>
+			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
-			<iGridX>87</iGridX>
-			<iGridY>13</iGridY>
+			<iGridX>80</iGridX>
+			<iGridY>1</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -20853,7 +20866,7 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
+				<PrereqTech>TECH_TOURISM</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_GASTRONOMY_QUOTE</Quote>
 			<Sound>AS2D_TECH_GASTRONOMY</Sound>
@@ -20867,13 +20880,13 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_URBAN_CULTURE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>19916</iCost>
-			<Era>ERA_INFORMATION</Era>
+			<iCost>16099</iCost>
+			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
 			<iPower>5</iPower>
 			<bTrade>1</bTrade>
-			<iGridX>87</iGridX>
-			<iGridY>17</iGridY>
+			<iGridX>85</iGridX>
+			<iGridY>3</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -20889,11 +20902,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
+				<PrereqTech>TECH_EXTREME_SPORTS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_EXTREME_SPORTS</PrereqTech>
 				<PrereqTech>TECH_MINORITY_RIGHTS</PrereqTech>
+				<PrereqTech>TECH_NEW_URBANISM</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_URBAN_CULTURE_QUOTE</Quote>
 			<Sound>AS2D_TECH_URBAN_CULTURE</Sound>
@@ -20913,7 +20926,7 @@ Current techs which are not in this file:-
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
 			<iGridX>88</iGridX>
-			<iGridY>3</iGridY>
+			<iGridY>7</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -20929,8 +20942,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_FUEL_CELLS</PrereqTech>
+				<PrereqTech>TECH_PLANET_EXPLORATION</PrereqTech>
 			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_FUEL_CELLS</PrereqTech>
+			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_INTERSTELLAR_TRAVEL_QUOTE</Quote>
 			<Sound>AS2D_TECH_INTERSTELLAR_TRAVEL</Sound>
 			<SoundMP>AS2D_TECH_INTERSTELLAR_TRAVEL</SoundMP>
@@ -20942,12 +20958,12 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_SUPERCONDUCTORS_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_SUPERCONDUCTORS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			<iCost>20610</iCost>
+			<iCost>19916</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>88</iGridX>
-			<iGridY>7</iGridY>
+			<iGridX>87</iGridX>
+			<iGridY>15</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -20959,11 +20975,8 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_FIBER_OPTICS</PrereqTech>
+				<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_COMPOSITES</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_SUPERCONDUCTORS_QUOTE</Quote>
 			<Sound>AS2D_TECH_SUPERCONDUCTOR</Sound>
 			<SoundMP>AS2D_TECH_MP_SUPERCONDUCTOR</SoundMP>
@@ -20981,7 +20994,7 @@ Current techs which are not in this file:-
 			<iPower>10</iPower>
 			<bTrade>1</bTrade>
 			<iGridX>88</iGridX>
-			<iGridY>13</iGridY>
+			<iGridY>11</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -21004,7 +21017,6 @@ Current techs which are not in this file:-
 				<PrereqTech>TECH_FIBER_OPTICS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_GUIDED_WEAPONS</PrereqTech>
                 <PrereqTech>TECH_CHAOS_THEORY</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_COMMUNICATION_NETWORKS_QUOTE</Quote>
@@ -21019,13 +21031,13 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_GENEMANIPULATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>20610</iCost>
+			<iCost>19916</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iHealth>1</iHealth>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>88</iGridX>
-			<iGridY>15</iGridY>
+			<iGridX>87</iGridX>
+			<iGridY>5</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -21049,8 +21061,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_GASTRONOMY</PrereqTech>
+				<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_GENETICS</PrereqTech>
+			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_GENEMANIPULATION_QUOTE</Quote>
 			<Sound>AS2D_TECH_GENEMANIPULATION</Sound>
 			<SoundMP>AS2D_TECH_GENEMANIPULATION</SoundMP>
@@ -21062,12 +21077,12 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_FORENSICS_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_FORENSICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>20610</iCost>
+			<iCost>19916</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>88</iGridX>
-			<iGridY>17</iGridY>
+			<iGridX>87</iGridX>
+			<iGridY>3</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -21091,7 +21106,7 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_URBAN_CULTURE</PrereqTech>
+				<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_FORENSICS_QUOTE</Quote>
 			<Sound>AS2D_TECH_FORENSICS</Sound>
@@ -21104,13 +21119,13 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_NEW_URBANISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_NEW_URBANISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			<iCost>20610</iCost>
-			<Era>ERA_INFORMATION</Era>
+			<iCost>14870</iCost>
+			<Era>ERA_MODERN</Era>
 			<iAsset>14</iAsset>
 			<iPower>2</iPower>
 			<bTrade>1</bTrade>
-			<iGridX>88</iGridX>
-			<iGridY>19</iGridY>
+			<iGridX>83</iGridX>
+			<iGridY>5</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -21138,7 +21153,7 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_URBAN_CULTURE</PrereqTech>
+				<PrereqTech>TECH_RECYCLING</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_NEW_URBANISM_QUOTE</Quote>
 			<Sound>AS2D_TECH_NEW_URBANISM_LORE</Sound>
@@ -21175,9 +21190,6 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_COMMUNICATION_NETWORKS</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_NEW_URBANISM</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_KNOWLEDGE_MANAGEMENT_QUOTE</Quote>
 			<Sound>AS2D_TECH_KNOWLEDGE_MANAGEMENT</Sound>
 			<SoundMP>AS2D_TECH_KNOWLEDGE_MANAGEMENT</SoundMP>
@@ -21189,13 +21201,13 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_DERIVATIVES_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_DERIVATIVES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			<iCost>21329</iCost>
+			<iCost>22074</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>120</iAsset>
 			<iPower>24</iPower>
 			<bTrade>1</bTrade>
-			<iGridX>89</iGridX>
-			<iGridY>11</iGridY>
+			<iGridX>90</iGridX>
+			<iGridY>9</iGridY>
 			<FreeSpecialistCounts>
 				<FreeSpecialistCount>
 					<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
@@ -21209,7 +21221,7 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_COMMUNICATION_NETWORKS</PrereqTech>
+				<PrereqTech>TECH_KNOWLEDGE_MANAGEMENT</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_DERIVATIVES_QUOTE</Quote>
 			<Sound>AS2D_TECH_DERIVATIVES</Sound>
@@ -21221,12 +21233,12 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_WARSIMULATION_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_WARSIMULATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>21329</iCost>
+			<iCost>22074</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>89</iGridX>
-			<iGridY>19</iGridY>
+			<iGridX>90</iGridX>
+			<iGridY>7</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -21250,7 +21262,7 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_COMMUNICATION_NETWORKS</PrereqTech>
+				<PrereqTech>TECH_KNOWLEDGE_MANAGEMENT</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_WARSIMULATION_QUOTE</Quote>
 			<Sound>AS2D_TECH_WARSIMULATION</Sound>
@@ -21264,14 +21276,14 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_BIOFUELS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>22074</iCost>
+			<iCost>21329</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<FirstFreeUnitClass>UNITCLASS_ENGINEER</FirstFreeUnitClass>
 			<iHappiness>1</iHappiness>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>90</iGridX>
-			<iGridY>1</iGridY>
+			<iGridX>89</iGridX>
+			<iGridY>3</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -21287,7 +21299,7 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_FUEL_CELLS</PrereqTech>
+				<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_AQUACULTURE</PrereqTech>
@@ -21304,12 +21316,12 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_MAGLEV_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>22074</iCost>
+			<iCost>20610</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>90</iGridX>
-			<iGridY>5</iGridY>
+			<iGridX>88</iGridX>
+			<iGridY>15</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -21339,9 +21351,6 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_SUPERCONDUCTORS</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_SPACE_STATIONS</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MAGLEV_QUOTE</Quote>
 			<Sound>AS2D_TECH_MAGLEV</Sound>
 			<SoundMP>AS2D_TECH_MAGLEV</SoundMP>
@@ -21354,12 +21363,12 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_NANOTECHNOLOGY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>22074</iCost>
+			<iCost>20610</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>90</iGridX>
-			<iGridY>7</iGridY>
+			<iGridX>88</iGridX>
+			<iGridY>3</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -21375,11 +21384,8 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_SUPERCONDUCTORS</PrereqTech>
+				<PrereqTech>TECH_GENEMANIPULATION</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_COMMUNICATION_NETWORKS</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_NANOTECHNOLOGY_QUOTE</Quote>
 			<Sound>AS2D_TECH_NANOTECHNOLOGY</Sound>
 			<SoundMP>AS2D_TECH_NANOTECHNOLOGY</SoundMP>
@@ -21391,11 +21397,11 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_3D_PRINTING_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_3D_MODELLING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>22074</iCost>
+			<iCost>22847</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>90</iGridX>
+			<iGridX>91</iGridX>
 			<iGridY>9</iGridY>
 			<Flavors>
 				<Flavor>
@@ -21412,7 +21418,7 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_KNOWLEDGE_MANAGEMENT</PrereqTech>
+				<PrereqTech>TECH_VIRTUAL_REALITY</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_3D_MODELLING</PrereqTech>
@@ -21429,12 +21435,12 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_NEURAL_NETWORK_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>22074</iCost>
+			<iCost>22847</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>50</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>90</iGridX>
-			<iGridY>13</iGridY>
+			<iGridX>91</iGridX>
+			<iGridY>11</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -21454,8 +21460,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_COMMUNICATION_NETWORKS</PrereqTech>
+				<PrereqTech>TECH_VIRTUAL_REALITY</PrereqTech>
 			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_KNOWLEDGE_MANAGEMENT</PrereqTech>
+			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_NEURAL_NETWORK_QUOTE</Quote>
 			<Sound>AS2D_TECH_NEURAL_NETWORK</Sound>
 			<SoundMP>AS2D_TECH_NEURAL_NETWORK</SoundMP>
@@ -21468,13 +21477,13 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_UNMANNED_AIR_VEHICLES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>22074</iCost>
+			<iCost>20610</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>48</iAsset>
 			<iPower>5</iPower>
 			<bTrade>1</bTrade>
-			<iGridX>90</iGridX>
-			<iGridY>15</iGridY>
+			<iGridX>88</iGridX>
+			<iGridY>1</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -21486,11 +21495,8 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_COMMUNICATION_NETWORKS</PrereqTech>
-			</OrPreReqs>
-			<AndPreReqs>
 				<PrereqTech>TECH_STEALTH</PrereqTech>
-			</AndPreReqs>
+			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_UNMANNED_AIR_VEHICLES_QUOTE</Quote>
 			<Sound>AS2D_TECH_UNMANNED_AIR_VEHICLES</Sound>
 			<SoundMP>AS2D_TECH_UNMANNED_AIR_VEHICLES</SoundMP>
@@ -21507,7 +21513,7 @@ Current techs which are not in this file:-
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>90</iGridX>
-			<iGridY>17</iGridY>
+			<iGridY>11</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -21527,7 +21533,7 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_COMMUNICATION_NETWORKS</PrereqTech>
+				<PrereqTech>TECH_CLOUDCOMPUTING</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_VIRTUAL_REALITY_QUOTE</Quote>
 			<Sound>AS2D_TECH_VIRTUAL_REALITY</Sound>
@@ -21545,7 +21551,7 @@ Current techs which are not in this file:-
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>91</iGridX>
-			<iGridY>3</iGridY>
+			<iGridY>1</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -21569,10 +21575,10 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_BIOFUELS</PrereqTech>
+				<PrereqTech>TECH_NEUROTECHNOLOGY</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_GENEMANIPULATION</PrereqTech>
+				<PrereqTech>TECH_KNOWLEDGE_MANAGEMENT</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_BIOINFORMATICS_QUOTE</Quote>
 			<Sound>AS2D_TECH_BIOINFORMATICS</Sound>
@@ -21585,13 +21591,13 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_MICROWAVE_WEAPONRY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_MICROWAVE_WEAPONRY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>22847</iCost>
+			<iCost>24485</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>14</iAsset>
 			<iPower>5</iPower>
 			<bTrade>1</bTrade>
-			<iGridX>91</iGridX>
-			<iGridY>5</iGridY>
+			<iGridX>93</iGridX>
+			<iGridY>19</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -21599,7 +21605,7 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_MAGLEV</PrereqTech>
+				<PrereqTech>TECH_CONTROLLED_PLASMA</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_WARSIMULATION</PrereqTech>
@@ -21616,13 +21622,13 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SUPERSTRINGTHEORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>22847</iCost>
+			<iCost>21329</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<FirstFreeUnitClass>UNITCLASS_SCIENTIST</FirstFreeUnitClass>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>91</iGridX>
-			<iGridY>7</iGridY>
+			<iGridX>89</iGridX>
+			<iGridY>17</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -21642,8 +21648,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_MAGLEV</PrereqTech>
+				<PrereqTech>TECH_CHAOS_THEORY</PrereqTech>
 			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
+			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_SUPERSTRINGTHEORY_QUOTE</Quote>
 			<Sound>AS2D_TECH_SUPERSTRINGTHEORY</Sound>
 			<SoundMP>AS2D_TECH_SUPERSTRINGTHEORY</SoundMP>
@@ -21655,12 +21664,12 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_CLOUDCOMPUTING_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_CLOUDCOMPUTING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>22847</iCost>
+			<iCost>21329</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>91</iGridX>
-			<iGridY>9</iGridY>
+			<iGridX>89</iGridX>
+			<iGridY>11</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -21684,11 +21693,8 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
+				<PrereqTech>TECH_COMMUNICATION_NETWORKS</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_KNOWLEDGE_MANAGEMENT</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_CLOUDCOMPUTING_QUOTE</Quote>
 			<Sound>AS2D_TECH_CLOUDCOMPUTING</Sound>
 			<SoundMP>AS2D_TECH_CLOUDCOMPUTING</SoundMP>
@@ -21703,9 +21709,9 @@ Current techs which are not in this file:-
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
-			<iCost>22847</iCost>
-			<iGridX>91</iGridX>
-			<iGridY>11</iGridY>
+			<iCost>20610</iCost>
+			<iGridX>88</iGridX>
+			<iGridY>13</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -21717,11 +21723,8 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
+				<PrereqTech>TECH_FUEL_CELLS</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_BIOFUELS</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_RENEWABLE_ENERGY_QUOTE</Quote>
 			<Sound>AS2D_TECH_GENERIC</Sound>
 			<SoundMP>AS2D_TECH_GENERIC</SoundMP>
@@ -21733,12 +21736,12 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_UNMANNED_NAVAL_VEHICLES_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_UNMANNED_NAVAL_VEHICLES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>22847</iCost>
+			<iCost>21329</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>91</iGridX>
-			<iGridY>15</iGridY>
+			<iGridX>89</iGridX>
+			<iGridY>1</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -21764,9 +21767,6 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_UNMANNED_AIR_VEHICLES</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_AQUACULTURE</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_UNMANNED_NAVAL_VEHICLES_QUOTE</Quote>
 			<Sound>AS2D_TECH_UNMANNED_NAVAL_VEHICLES</Sound>
 			<SoundMP>AS2D_TECH_UNMANNED_NAVAL_VEHICLES</SoundMP>
@@ -21783,7 +21783,7 @@ Current techs which are not in this file:-
 			<iAsset>50</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>91</iGridX>
-			<iGridY>17</iGridY>
+			<iGridY>5</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -21803,11 +21803,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_UNMANNED_AIR_VEHICLES</PrereqTech>
+				<PrereqTech>TECH_SOLAR_PROPULSION</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_SPACE_STATIONS</PrereqTech>
-				<PrereqTech>TECH_INTERSTELLAR_TRAVEL</PrereqTech>
+				<PrereqTech>TECH_MAGLEV</PrereqTech>
+				<PrereqTech>TECH_UNMANNED_AIR_VEHICLES</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_SPACE_TOURISM_QUOTE</Quote>
 			<Sound>AS2D_TECH_SPACE_TOURISM</Sound>
@@ -21820,12 +21820,12 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_MEDIAPSYCOLOGY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_MEDIAPSYCOLOGY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>22847</iCost>
+			<iCost>23650</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>91</iGridX>
-			<iGridY>19</iGridY>
+			<iGridX>92</iGridX>
+			<iGridY>13</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -21849,11 +21849,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_VIRTUAL_REALITY</PrereqTech>
+				<PrereqTech>TECH_FSYSTEMS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
+				<PrereqTech>TECH_CYBERWARFARE</PrereqTech>
 				<PrereqTech>TECH_KNOWLEDGE_MANAGEMENT</PrereqTech>
-				<PrereqTech>TECH_GASTRONOMY</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MEDIAPSYCOLOGY_QUOTE</Quote>
 			<Sound>AS2D_TECH_MEDIAPSYCOLOGY</Sound>
@@ -21867,13 +21867,13 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_CLONING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>23650</iCost>
+			<iCost>20610</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>48</iAsset>
 			<iPower>6</iPower>
 			<bTrade>1</bTrade>
-			<iGridX>92</iGridX>
-			<iGridY>1</iGridY>
+			<iGridX>88</iGridX>
+			<iGridY>5</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -21885,11 +21885,8 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_BIOINFORMATICS</PrereqTech>
+				<PrereqTech>TECH_GENEMANIPULATION</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_FORENSICS</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_CLONING_QUOTE</Quote>
 			<Sound>AS2D_TECH_CLONING</Sound>
 			<SoundMP>AS2D_TECH_CLONING</SoundMP>
@@ -21902,13 +21899,13 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_ASTROBIOLOGY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>23650</iCost>
-			<Era>ERA_INFORMATION</Era>
+			<iCost>16099</iCost>
+			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
-			<iGridX>92</iGridX>
-			<iGridY>5</iGridY>
+			<iGridX>85</iGridX>
+			<iGridY>13</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -21928,10 +21925,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_BIOINFORMATICS</PrereqTech>
+				<PrereqTech>TECH_LUNAR_EXPLORATION</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_BIOLOGICAL_WARFARE</PrereqTech>
+				<PrereqTech>TECH_RADIO_ASTRONOMY</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_ASTROBIOLOGY_QUOTE</Quote>
 			<Sound>AS2D_TECH_ASTROBIOLOGY</Sound>
@@ -21950,7 +21948,7 @@ Current techs which are not in this file:-
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>92</iGridX>
-			<iGridY>7</iGridY>
+			<iGridY>17</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -21966,7 +21964,7 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_SUPERSTRINGTHEORY</PrereqTech>
+				<PrereqTech>TECH_THEORICALPHYSICS</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_QUANTUM_TELEPORTATION_QUOTE</Quote>
 			<Sound>AS2D_TECH_QUANTUM_TELEPORTATION</Sound>
@@ -21980,13 +21978,13 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_SOLAR_PROPULSION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>23650</iCost>
+			<iCost>21329</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>48</iAsset>
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
-			<iGridX>92</iGridX>
-			<iGridY>11</iGridY>
+			<iGridX>89</iGridX>
+			<iGridY>5</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -22006,10 +22004,10 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_RENEWABLE_ENERGY</PrereqTech>
+				<PrereqTech>TECH_INTERSTELLAR_TRAVEL</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_PLANET_EXPLORATION</PrereqTech>
+				<PrereqTech>TECH_RENEWABLE_ENERGY</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_SOLAR_PROPULSION_QUOTE</Quote>
 			<Sound>AS2D_TECH_SOLAR_PROPULSION</Sound>
@@ -22028,7 +22026,7 @@ Current techs which are not in this file:-
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>92</iGridX>
-			<iGridY>13</iGridY>
+			<iGridY>11</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -22042,10 +22040,6 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_NEURAL_NETWORK</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_VIRTUAL_REALITY</PrereqTech>
-				<PrereqTech>TECH_CLOUDCOMPUTING</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_COGNITIVE_ROBOTICS_QUOTE</Quote>
 			<Sound>AS2D_TECH_COGNITIVE_ROBOTICS</Sound>
 			<SoundMP>AS2D_TECH_COGNITIVE_ROBOTICS</SoundMP>
@@ -22063,7 +22057,7 @@ Current techs which are not in this file:-
 			<iPower>10</iPower>
 			<bTrade>1</bTrade>
 			<iGridX>92</iGridX>
-			<iGridY>19</iGridY>
+			<iGridY>15</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -22083,10 +22077,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_MEDIAPSYCOLOGY</PrereqTech>
+				<PrereqTech>TECH_FLASHMEMORY</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_CLOUDCOMPUTING</PrereqTech>
+				<PrereqTech>TECH_FUEL_CELLS</PrereqTech>
+				<PrereqTech>TECH_VIRTUAL_REALITY</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_WEARABLE_ELECTRONICS_QUOTE</Quote>
 			<Sound>AS2D_TECH_WEARABLE_ELECTRONICS</Sound>
@@ -22100,11 +22095,193 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_NEUROTECHNOLOGY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_NEUROTECHNOLOGY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>24485</iCost>
+			<iCost>22074</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>93</iGridX>
+			<iGridX>90</iGridX>
+			<iGridY>3</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_RELIGION</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GROWTH</FlavorType>
+					<iFlavor>4</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_BIOFUELS</PrereqTech>
+			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_CLONING</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_NEUROTECHNOLOGY_QUOTE</Quote>
+			<Sound>AS2D_TECH_NEUROTECHNOLOGY</Sound>
+			<SoundMP>AS2D_TECH_NEUROTECHNOLOGY</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/geneticb.dds</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_CYBERWARFARE</Type>
+			<Description>TXT_KEY_TECH_CYBERWARFARE</Description>
+			<Civilopedia>TXT_KEY_TECH_CYBERWARFARE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_CYBERWARFARE_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iCost>21329</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>14</iAsset>
+			<bTrade>1</bTrade>
+			<iGridX>89</iGridX>
+			<iGridY>13</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>8</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_RELIGION</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GROWTH</FlavorType>
+					<iFlavor>4</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_COMMUNICATION_NETWORKS</PrereqTech>
+			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_FORENSICS</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_CYBERWARFARE_QUOTE</Quote>
+			<Sound>AS2D_TECH_CYBERWARFARE</Sound>
+			<SoundMP>AS2D_TECH_CYBERWARFARE</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/cyberwarfare.dds</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_MMO</Type>
+			<Description>TXT_KEY_TECH_MMO</Description>
+			<Civilopedia>TXT_KEY_TECH_MMO_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_MMO_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iCost>22074</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>14</iAsset>
+			<bTrade>1</bTrade>
+			<iGridX>90</iGridX>
+			<iGridY>13</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_RELIGION</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GROWTH</FlavorType>
+					<iFlavor>4</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_CLOUDCOMPUTING</PrereqTech>
+			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_GASTRONOMY</PrereqTech>
+				<PrereqTech>TECH_URBAN_CULTURE</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_MMO_QUOTE</Quote>
+			<Sound>AS2D_TECH_MMO</Sound>
+			<SoundMP>AS2D_TECH_MMO</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/mmo2.dds</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_BIOMECHANICALHARVESTING</Type>
+			<Description>TXT_KEY_TECH_BIOMECHANICALHARVESTING</Description>
+			<Civilopedia>TXT_KEY_TECH_BIOMECHANICALHARVESTING_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_BIOMECHANICALHARVESTING_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iCost>25354</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>14</iAsset>
+			<bTrade>1</bTrade>
+			<iGridX>94</iGridX>
+			<iGridY>15</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_RELIGION</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GROWTH</FlavorType>
+					<iFlavor>4</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_LEDLIGHTING</PrereqTech>
+			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_NEUROTECHNOLOGY</PrereqTech>
+				<PrereqTech>TECH_RENEWABLE_ENERGY</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_BIOMECHANICALHARVESTING_QUOTE</Quote>
+			<Sound>AS2D_TECH_BIOMECHANICALHARVESTING</Sound>
+			<SoundMP>AS2D_TECH_BIOMECHANICALHARVESTING</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/Biomechanicalharvesting.dds</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_BIOMATHMATICS</Type>
+			<Description>TXT_KEY_TECH_BIOMATHMATICS</Description>
+			<Civilopedia>TXT_KEY_TECH_BIOMATHMATICS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_BIOMATHMATICS_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iCost>23650</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>14</iAsset>
+			<bTrade>1</bTrade>
+			<iGridX>92</iGridX>
 			<iGridY>3</iGridY>
 			<Flavors>
 				<Flavor>
@@ -22131,27 +22308,68 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_BIOINFORMATICS</PrereqTech>
 			</OrPreReqs>
-			<Quote>TXT_KEY_TECH_NEUROTECHNOLOGY_QUOTE</Quote>
-			<Sound>AS2D_TECH_NEUROTECHNOLOGY</Sound>
-			<SoundMP>AS2D_TECH_NEUROTECHNOLOGY</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/geneticb.dds</Button>
+			<Quote>TXT_KEY_TECH_BIOMATHMATICS_QUOTE</Quote>
+			<Sound>AS2D_TECH_BIOMATHMATICS</Sound>
+			<SoundMP>AS2D_TECH_BIOMATHMATICS</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/Biomathmatics.dds</Button>
 		</TechInfo>
 		<TechInfo>
-			<Type>TECH_CYBERWARFARE</Type>
-			<Description>TXT_KEY_TECH_CYBERWARFARE</Description>
-			<Civilopedia>TXT_KEY_TECH_CYBERWARFARE_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_CYBERWARFARE_STRATEGY</Strategy>
+			<Type>TECH_ECOLOGICAL_ENGINEERING</Type>
+			<Description>TXT_KEY_TECH_ECOLOGICAL_ENGINEERING</Description>
+			<Civilopedia>TXT_KEY_TECH_ECOLOGICAL_ENGINEERING_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_ECOLOGICAL_ENGINEERING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>24485</iCost>
+			<iCost>22074</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>48</iAsset>
+			<bTrade>1</bTrade>
+			<iGridX>90</iGridX>
+			<iGridY>1</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>2</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_SCIENCE</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GROWTH</FlavorType>
+					<iFlavor>10</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_BIOFUELS</PrereqTech>
+			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_RENEWABLE_ENERGY</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_ECOLOGICAL_ENGINEERING_QUOTE</Quote>
+			<Sound>AS2D_TECH_ECOLOGICAL_ENGINEERING</Sound>
+			<SoundMP>AS2D_TECH_ECOLOGICAL_ENGINEERING</SoundMP>
+			<Button>,Art/Interface/Buttons/TechTree/forestry.dds,Art/Interface/Buttons/RoM_Techtree_Atlas.dds,7,6</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_EXOPLANETDISCOVERY</Type>
+			<Description>TXT_KEY_TECH_EXOPLANETDISCOVERY</Description>
+			<Civilopedia>TXT_KEY_TECH_EXOPLANETDISCOVERY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_EXOPLANETDISCOVERY_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iCost>20610</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>93</iGridX>
-			<iGridY>15</iGridY>
+			<iGridX>88</iGridX>
+			<iGridY>9</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>8</iFlavor>
+					<iFlavor>5</iFlavor>
 				</Flavor>
 				<Flavor>
 					<FlavorType>FLAVOR_RELIGION</FlavorType>
@@ -22171,27 +22389,319 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_WEARABLE_ELECTRONICS</PrereqTech>
+				<PrereqTech>TECH_PLANET_EXPLORATION</PrereqTech>
+			</OrPreReqs>
+			<Quote>TXT_KEY_TECH_EXOPLANETDISCOVERY_QUOTE</Quote>
+			<Sound>AS2D_TECH_EXOPLANETDISCOVERY</Sound>
+			<SoundMP>AS2D_TECH_EXOPLANETDISCOVERY</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/Exoplanetdiscovery.dds</Button>
+		</TechInfo>
+        <TechInfo>
+			<Type>TECH_COMPUTATIONAL_SOCIOLOGY</Type>
+			<Description>TXT_KEY_TECH_COMPUTATIONAL_SOCIOLOGY</Description>
+			<Civilopedia>TXT_KEY_TECH_COMPUTATIONAL_SOCIOLOGY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_COMPUTATIONAL_SOCIOLOGY_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iAITradeModifier>10</iAITradeModifier>
+			<iCost>25354</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>40</iAsset>
+			<bTrade>1</bTrade>
+			<iGridX>94</iGridX>
+			<iGridY>13</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_SCIENCE</FlavorType>
+					<iFlavor>1</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_CULTURE</FlavorType>
+					<iFlavor>1</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>1</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_DMERCH</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_WARSIMULATION</PrereqTech>
+				<PrereqTech>TECH_VIRTUALSOCIETY</PrereqTech>
 			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_CYBERWARFARE_QUOTE</Quote>
-			<Sound>AS2D_TECH_CYBERWARFARE</Sound>
-			<SoundMP>AS2D_TECH_CYBERWARFARE</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/cyberwarfare.dds</Button>
+			<Quote>TXT_KEY_TECH_COMPUTATIONAL_SOCIOLOGY_QUOTE</Quote>
+			<Sound>AS2D_TECH_GENERIC</Sound>
+			<SoundMP/>
+			<Button>Art/Buttons/Techs/computational_sociology.dds</Button>
 		</TechInfo>
 		<TechInfo>
-			<Type>TECH_MMO</Type>
-			<Description>TXT_KEY_TECH_MMO</Description>
-			<Civilopedia>TXT_KEY_TECH_MMO_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_MMO_STRATEGY</Strategy>
+			<Type>TECH_RAPID_PROTOTYPING</Type>
+			<Description>TXT_KEY_TECH_RAPID_PROTOTYPING</Description>
+			<Civilopedia>TXT_KEY_TECH_RAPID_PROTOTYPING_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_RAPID_PROTOTYPING_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iAITradeModifier>10</iAITradeModifier>
+			<iCost>24485</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>48</iAsset>
+			<bTrade>1</bTrade>
+			<iGridX>93</iGridX>
+			<iGridY>9</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>2</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_SCIENCE</FlavorType>
+					<iFlavor>4</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>2</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>10</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_3D_PRINTING</PrereqTech>
+			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_WEARABLE_ELECTRONICS</PrereqTech>
+				<PrereqTech>TECH_NEURAL_NETWORK</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_RAPID_PROTOTYPING_QUOTE</Quote>
+			<Sound>AS2D_TECH_RAPID_PROTOTYPING</Sound>
+			<SoundMP>AS2D_TECH_RAPID_PROTOTYPING</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/3D_Printing.dds</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_FSYSTEMS</Type>
+			<Description>TXT_KEY_TECH_FSYSTEMS</Description>
+			<Civilopedia>TXT_KEY_TECH_FSYSTEMS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_FSYSTEMS_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iCost>22847</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>14</iAsset>
+			<bTrade>1</bTrade>
+			<iGridX>91</iGridX>
+			<iGridY>13</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_RELIGION</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GROWTH</FlavorType>
+					<iFlavor>4</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_MMO</PrereqTech>
+			</OrPreReqs>
+			<Quote>TXT_KEY_TECH_FSYSTEMS_QUOTE</Quote>
+			<Sound>AS2D_TECH_FSYSTEMS</Sound>
+			<SoundMP>AS2D_TECH_FSYSTEMS</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/digitization.dds</Button>
+		</TechInfo>
+<!--	(094, 17) TECH_CYBERPUNK	-->
+		<TechInfo>
+			<Type>TECH_FLASHMEMORY</Type>
+			<Description>TXT_KEY_TECH_FLASHMEMORY</Description>
+			<Civilopedia>TXT_KEY_TECH_FLASHMEMORY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_FLASHMEMORY_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iCost>22074</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>14</iAsset>
+			<bTrade>1</bTrade>
+			<iGridX>90</iGridX>
+			<iGridY>15</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_RELIGION</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GROWTH</FlavorType>
+					<iFlavor>4</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_MAGLEV</PrereqTech>
+			</OrPreReqs>
+			<Quote>TXT_KEY_TECH_FLASHMEMORY_QUOTE</Quote>
+			<Sound>AS2D_TECH_FLASHMEMORY</Sound>
+			<SoundMP>AS2D_TECH_FLASHMEMORY</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/Flashmemory.dds</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_MILITARY_ROBOTS</Type>
+			<Description>TXT_KEY_TECH_MILITARY_ROBOTS</Description>
+			<Civilopedia>TXT_KEY_TECH_MILITARY_ROBOTS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_MILITARY_ROBOTS_STRATEGY</Strategy>
+			<Advisor>ADVISOR_MILITARY</Advisor>
+			<iAITradeModifier>10</iAITradeModifier>
+			<iCost>24485</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>48</iAsset>
+			<iPower>5</iPower>
+			<bTrade>1</bTrade>
+			<iGridX>93</iGridX>
+			<iGridY>11</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>8</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_SCIENCE</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GROWTH</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_COGNITIVE_ROBOTICS</PrereqTech>
+			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_UNMANNEDSEA</PrereqTech>
+				<PrereqTech>TECH_FUEL_CELLS</PrereqTech>
+				<PrereqTech>TECH_WARSIMULATION</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_MILITARY_ROBOTS_QUOTE</Quote>
+			<Sound>AS2D_TECH_MILITARY_ROBOTS</Sound>
+			<SoundMP>AS2D_TECH_MILITARY_ROBOTS</SoundMP>
+			<Button>,Art/Interface/Buttons/TechTree/military_robotics.dds,Art/Interface/Buttons/RoM_Techtree_Atlas.dds,5,11</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_TISSUE</Type>
+			<Description>TXT_KEY_TECH_MOLECULAR_MEDICINE</Description>
+			<Civilopedia>TXT_KEY_TECH_MOLECULAR_MEDICINE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_MOLECULAR_MEDICINE_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iCost>22847</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>14</iAsset>
+			<bTrade>1</bTrade>
+			<iGridX>91</iGridX>
+			<iGridY>3</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_RELIGION</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GROWTH</FlavorType>
+					<iFlavor>4</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_NEUROTECHNOLOGY</PrereqTech>
+			</OrPreReqs>
+			<Quote>TXT_KEY_TECH_MOLECULAR_MEDICINE_QUOTE</Quote>
+			<Sound>AS2D_TECH_TISSUE</Sound>
+			<SoundMP>AS2D_TECH_TISSUE</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/Tissueengineering.dds</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_CSPACECRAFT</Type>
+			<Description>TXT_KEY_TECH_CSPACECRAFT</Description>
+			<Civilopedia>TXT_KEY_TECH_CSPACECRAFT_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_CSPACECRAFT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iCost>24485</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>93</iGridX>
+			<iGridY>5</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_RELIGION</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GROWTH</FlavorType>
+					<iFlavor>4</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_SPACE_TOURISM</PrereqTech>
+			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_DERIVATIVES</PrereqTech>
+				<PrereqTech>TECH_WEARABLE_ELECTRONICS</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_CSPACECRAFT_QUOTE</Quote>
+			<Sound>AS2D_TECH_CSPACECRAFT</Sound>
+			<SoundMP>AS2D_TECH_CSPACECRAFT</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/Cspacecraft.dds</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_THEORICALPHYSICS</Type>
+			<Description>TXT_KEY_TECH_IMAGINARY_PHYSICS</Description>
+			<Civilopedia>TXT_KEY_TECH_IMAGINARY_PHYSICS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_IMAGINARY_PHYSICS_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iCost>22847</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>14</iAsset>
+			<bTrade>1</bTrade>
+			<iGridX>91</iGridX>
 			<iGridY>17</iGridY>
 			<Flavors>
 				<Flavor>
@@ -22216,522 +22726,10 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_WEARABLE_ELECTRONICS</PrereqTech>
-			</OrPreReqs>
-			<Quote>TXT_KEY_TECH_MMO_QUOTE</Quote>
-			<Sound>AS2D_TECH_MMO</Sound>
-			<SoundMP>AS2D_TECH_MMO</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/mmo2.dds</Button>
-		</TechInfo>
-		<TechInfo>
-			<Type>TECH_BIOMECHANICALHARVESTING</Type>
-			<Description>TXT_KEY_TECH_BIOMECHANICALHARVESTING</Description>
-			<Civilopedia>TXT_KEY_TECH_BIOMECHANICALHARVESTING_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_BIOMECHANICALHARVESTING_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>25354</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>14</iAsset>
-			<bTrade>1</bTrade>
-			<iGridX>94</iGridX>
-			<iGridY>1</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_RELIGION</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GOLD</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GROWTH</FlavorType>
-					<iFlavor>4</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_NEUROTECHNOLOGY</PrereqTech>
-			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_CLONING</PrereqTech>
-			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_BIOMECHANICALHARVESTING_QUOTE</Quote>
-			<Sound>AS2D_TECH_BIOMECHANICALHARVESTING</Sound>
-			<SoundMP>AS2D_TECH_BIOMECHANICALHARVESTING</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/Biomechanicalharvesting.dds</Button>
-		</TechInfo>
-		<TechInfo>
-			<Type>TECH_BIOMATHMATICS</Type>
-			<Description>TXT_KEY_TECH_BIOMATHMATICS</Description>
-			<Civilopedia>TXT_KEY_TECH_BIOMATHMATICS_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_BIOMATHMATICS_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>25354</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>14</iAsset>
-			<bTrade>1</bTrade>
-			<iGridX>94</iGridX>
-			<iGridY>3</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_RELIGION</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GOLD</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GROWTH</FlavorType>
-					<iFlavor>4</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_NEUROTECHNOLOGY</PrereqTech>
-			</OrPreReqs>
-			<Quote>TXT_KEY_TECH_BIOMATHMATICS_QUOTE</Quote>
-			<Sound>AS2D_TECH_BIOMATHMATICS</Sound>
-			<SoundMP>AS2D_TECH_BIOMATHMATICS</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/Biomathmatics.dds</Button>
-		</TechInfo>
-		<TechInfo>
-			<Type>TECH_ECOLOGICAL_ENGINEERING</Type>
-			<Description>TXT_KEY_TECH_ECOLOGICAL_ENGINEERING</Description>
-			<Civilopedia>TXT_KEY_TECH_ECOLOGICAL_ENGINEERING_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_ECOLOGICAL_ENGINEERING_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>25354</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>48</iAsset>
-			<bTrade>1</bTrade>
-			<iGridX>94</iGridX>
-			<iGridY>5</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-					<iFlavor>2</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_SCIENCE</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GOLD</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GROWTH</FlavorType>
-					<iFlavor>10</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_NEUROTECHNOLOGY</PrereqTech>
-			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_RENEWABLE_ENERGY</PrereqTech>
-			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_ECOLOGICAL_ENGINEERING_QUOTE</Quote>
-			<Sound>AS2D_TECH_ECOLOGICAL_ENGINEERING</Sound>
-			<SoundMP>AS2D_TECH_ECOLOGICAL_ENGINEERING</SoundMP>
-			<Button>,Art/Interface/Buttons/TechTree/forestry.dds,Art/Interface/Buttons/RoM_Techtree_Atlas.dds,7,6</Button>
-		</TechInfo>
-		<TechInfo>
-			<Type>TECH_EXOPLANETDISCOVERY</Type>
-			<Description>TXT_KEY_TECH_EXOPLANETDISCOVERY</Description>
-			<Civilopedia>TXT_KEY_TECH_EXOPLANETDISCOVERY_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_EXOPLANETDISCOVERY_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>25354</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>14</iAsset>
-			<bTrade>1</bTrade>
-			<iGridX>94</iGridX>
-			<iGridY>9</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_RELIGION</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GOLD</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GROWTH</FlavorType>
-					<iFlavor>4</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_CLOUDCOMPUTING</PrereqTech>
-			</OrPreReqs>
-			<AndPreReqs>
 				<PrereqTech>TECH_SUPERSTRINGTHEORY</PrereqTech>
-			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_EXOPLANETDISCOVERY_QUOTE</Quote>
-			<Sound>AS2D_TECH_EXOPLANETDISCOVERY</Sound>
-			<SoundMP>AS2D_TECH_EXOPLANETDISCOVERY</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/Exoplanetdiscovery.dds</Button>
-		</TechInfo>
-        <TechInfo>
-			<Type>TECH_COMPUTATIONAL_SOCIOLOGY</Type>
-			<Description>TXT_KEY_TECH_COMPUTATIONAL_SOCIOLOGY</Description>
-			<Civilopedia>TXT_KEY_TECH_COMPUTATIONAL_SOCIOLOGY_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_COMPUTATIONAL_SOCIOLOGY_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>25354</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>40</iAsset>
-			<bTrade>1</bTrade>
-			<iGridX>94</iGridX>
-			<iGridY>11</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_SCIENCE</FlavorType>
-					<iFlavor>1</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_CULTURE</FlavorType>
-					<iFlavor>1</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GOLD</FlavorType>
-					<iFlavor>1</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_COGNITIVE_ROBOTICS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_MMO</PrereqTech>
-			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_COMPUTATIONAL_SOCIOLOGY_QUOTE</Quote>
-			<Sound>AS2D_TECH_GENERIC</Sound>
-			<SoundMP/>
-			<Button>Art/Buttons/Techs/computational_sociology.dds</Button>
-		</TechInfo>
-		<TechInfo>
-			<Type>TECH_RAPID_PROTOTYPING</Type>
-			<Description>TXT_KEY_TECH_RAPID_PROTOTYPING</Description>
-			<Civilopedia>TXT_KEY_TECH_RAPID_PROTOTYPING_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_RAPID_PROTOTYPING_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>25354</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>48</iAsset>
-			<bTrade>1</bTrade>
-			<iGridX>94</iGridX>
-			<iGridY>13</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-					<iFlavor>2</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_SCIENCE</FlavorType>
-					<iFlavor>4</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>2</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GOLD</FlavorType>
-					<iFlavor>10</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_COGNITIVE_ROBOTICS</PrereqTech>
-			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_3D_PRINTING</PrereqTech>
-			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_RAPID_PROTOTYPING_QUOTE</Quote>
-			<Sound>AS2D_TECH_RAPID_PROTOTYPING</Sound>
-			<SoundMP>AS2D_TECH_RAPID_PROTOTYPING</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/3D_Printing.dds</Button>
-		</TechInfo>
-		<TechInfo>
-			<Type>TECH_FSYSTEMS</Type>
-			<Description>TXT_KEY_TECH_FSYSTEMS</Description>
-			<Civilopedia>TXT_KEY_TECH_FSYSTEMS_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_FSYSTEMS_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>25354</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>14</iAsset>
-			<bTrade>1</bTrade>
-			<iGridX>94</iGridX>
-			<iGridY>15</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_RELIGION</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GOLD</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GROWTH</FlavorType>
-					<iFlavor>4</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_CYBERWARFARE</PrereqTech>
-			</OrPreReqs>
-			<Quote>TXT_KEY_TECH_FSYSTEMS_QUOTE</Quote>
-			<Sound>AS2D_TECH_FSYSTEMS</Sound>
-			<SoundMP>AS2D_TECH_FSYSTEMS</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/digitization.dds</Button>
-		</TechInfo>
-<!--	(094, 17) TECH_CYBERPUNK	-->
-		<TechInfo>
-			<Type>TECH_FLASHMEMORY</Type>
-			<Description>TXT_KEY_TECH_FLASHMEMORY</Description>
-			<Civilopedia>TXT_KEY_TECH_FLASHMEMORY_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_FLASHMEMORY_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>25354</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>14</iAsset>
-			<bTrade>1</bTrade>
-			<iGridX>94</iGridX>
-			<iGridY>19</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_RELIGION</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GOLD</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GROWTH</FlavorType>
-					<iFlavor>4</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_WEARABLE_ELECTRONICS</PrereqTech>
-			</OrPreReqs>
-			<Quote>TXT_KEY_TECH_FLASHMEMORY_QUOTE</Quote>
-			<Sound>AS2D_TECH_FLASHMEMORY</Sound>
-			<SoundMP>AS2D_TECH_FLASHMEMORY</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/Flashmemory.dds</Button>
-		</TechInfo>
-		<TechInfo>
-			<Type>TECH_MILITARY_ROBOTS</Type>
-			<Description>TXT_KEY_TECH_MILITARY_ROBOTS</Description>
-			<Civilopedia>TXT_KEY_TECH_MILITARY_ROBOTS_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_MILITARY_ROBOTS_STRATEGY</Strategy>
-			<Advisor>ADVISOR_MILITARY</Advisor>
-			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>26259</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>48</iAsset>
-			<iPower>5</iPower>
-			<bTrade>1</bTrade>
-			<iGridX>95</iGridX>
-			<iGridY>1</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>8</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_SCIENCE</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GROWTH</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_BIOMECHANICALHARVESTING</PrereqTech>
-			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_CYBERWARFARE</PrereqTech>
-				<PrereqTech>TECH_UNMANNED_AIR_VEHICLES</PrereqTech>
-				<PrereqTech>TECH_COGNITIVE_ROBOTICS</PrereqTech>
-			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_MILITARY_ROBOTS_QUOTE</Quote>
-			<Sound>AS2D_TECH_MILITARY_ROBOTS</Sound>
-			<SoundMP>AS2D_TECH_MILITARY_ROBOTS</SoundMP>
-			<Button>,Art/Interface/Buttons/TechTree/military_robotics.dds,Art/Interface/Buttons/RoM_Techtree_Atlas.dds,5,11</Button>
-		</TechInfo>
-		<TechInfo>
-			<Type>TECH_TISSUE</Type>
-			<Description>TXT_KEY_TECH_MOLECULAR_MEDICINE</Description>
-			<Civilopedia>TXT_KEY_TECH_MOLECULAR_MEDICINE_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_MOLECULAR_MEDICINE_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>26259</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>14</iAsset>
-			<bTrade>1</bTrade>
-			<iGridX>95</iGridX>
-			<iGridY>3</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_RELIGION</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GOLD</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GROWTH</FlavorType>
-					<iFlavor>4</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_BIOMATHMATICS</PrereqTech>
-			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_CLONING</PrereqTech>
-				<PrereqTech>TECH_MICROWAVE_WEAPONRY</PrereqTech>
-			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_MOLECULAR_MEDICINE_QUOTE</Quote>
-			<Sound>AS2D_TECH_TISSUE</Sound>
-			<SoundMP>AS2D_TECH_TISSUE</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/Tissueengineering.dds</Button>
-		</TechInfo>
-		<TechInfo>
-			<Type>TECH_CSPACECRAFT</Type>
-			<Description>TXT_KEY_TECH_CSPACECRAFT</Description>
-			<Civilopedia>TXT_KEY_TECH_CSPACECRAFT_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_CSPACECRAFT_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>26259</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>14</iAsset>
-			<bTrade>1</bTrade>
-			<iGridX>95</iGridX>
-			<iGridY>9</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_RELIGION</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GOLD</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GROWTH</FlavorType>
-					<iFlavor>4</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_EXOPLANETDISCOVERY</PrereqTech>
-			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_SPACE_TOURISM</PrereqTech>
-			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_CSPACECRAFT_QUOTE</Quote>
-			<Sound>AS2D_TECH_CSPACECRAFT</Sound>
-			<SoundMP>AS2D_TECH_CSPACECRAFT</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/Cspacecraft.dds</Button>
-		</TechInfo>
-		<TechInfo>
-			<Type>TECH_THEORICALPHYSICS</Type>
-			<Description>TXT_KEY_TECH_IMAGINARY_PHYSICS</Description>
-			<Civilopedia>TXT_KEY_TECH_IMAGINARY_PHYSICS_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_IMAGINARY_PHYSICS_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>26259</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>14</iAsset>
-			<bTrade>1</bTrade>
-			<iGridX>95</iGridX>
-			<iGridY>11</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_RELIGION</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GOLD</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GROWTH</FlavorType>
-					<iFlavor>4</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_EXOPLANETDISCOVERY</PrereqTech>
-			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_NEUROTECHNOLOGY</PrereqTech>
+				<PrereqTech>TECH_KNOWLEDGE_MANAGEMENT</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_IMAGINARY_PHYSICS_QUOTE</Quote>
 			<Sound>AS2D_TECH_THEORICALPHYSICS</Sound>
@@ -22745,12 +22743,12 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_INDUSTRIAL_ECOLOGY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>26259</iCost>
+			<iCost>25354</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>40</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>95</iGridX>
-			<iGridY>13</iGridY>
+			<iGridX>94</iGridX>
+			<iGridY>7</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -22779,12 +22777,12 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_AUTONOMOUS_VEHICLES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>26259</iCost>
+			<iCost>25354</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>40</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>95</iGridX>
-			<iGridY>15</iGridY>
+			<iGridX>94</iGridX>
+			<iGridY>11</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -22804,10 +22802,10 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_RAPID_PROTOTYPING</PrereqTech>
+				<PrereqTech>TECH_MILITARY_ROBOTS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_FSYSTEMS</PrereqTech>
+				<PrereqTech>TECH_VIRTUALSOCIETY</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_AUTONOMOUS_VEHICLES_QUOTE</Quote>
 			<Sound>AS2D_TECH_GENERIC</Sound>
@@ -22821,12 +22819,12 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_EXOSKELETON_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>26259</iCost>
+			<iCost>27203</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>95</iGridX>
-			<iGridY>17</iGridY>
+			<iGridX>96</iGridX>
+			<iGridY>15</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -22842,10 +22840,12 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_FLASHMEMORY</PrereqTech>
+				<PrereqTech>TECH_BIOMECHANICALHARVESTING</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_COGNITIVE_ROBOTICS</PrereqTech>
+				<PrereqTech>TECH_MICROTURBINE</PrereqTech>
+				<PrereqTech>TECH_METAMATERIALS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_EXOSKELETON_QUOTE</Quote>
 			<Sound>AS2D_TECH_EXOSKELETON</Sound>
@@ -22858,11 +22858,57 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_FRESPONSE_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_FRESPONSE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>27203</iCost>
+			<iCost>29220</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>96</iGridX>
+			<iGridX>98</iGridX>
+			<iGridY>15</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_RELIGION</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GROWTH</FlavorType>
+					<iFlavor>4</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_EXOSKELETON</PrereqTech>
+			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_AFFECTIVEALGORITHMS</PrereqTech>
+				<PrereqTech>TECH_MEGACITIES</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_FRESPONSE_QUOTE</Quote>
+			<Sound>AS2D_TECH_FRESPONSE</Sound>
+			<SoundMP>AS2D_TECH_FRESPONSE</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/firstresponse.dds</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_GENCYCLOPEDIA</Type>
+			<Description>TXT_KEY_TECH_GENCYCLOPEDIA</Description>
+			<Civilopedia>TXT_KEY_TECH_GENCYCLOPEDIA_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_GENCYCLOPEDIA_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iCost>23650</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>14</iAsset>
+			<bTrade>1</bTrade>
+			<iGridX>92</iGridX>
 			<iGridY>1</iGridY>
 			<Flavors>
 				<Flavor>
@@ -22887,53 +22933,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_MILITARY_ROBOTS</PrereqTech>
-			</OrPreReqs>
-			<Quote>TXT_KEY_TECH_FRESPONSE_QUOTE</Quote>
-			<Sound>AS2D_TECH_FRESPONSE</Sound>
-			<SoundMP>AS2D_TECH_FRESPONSE</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/firstresponse.dds</Button>
-		</TechInfo>
-		<TechInfo>
-			<Type>TECH_GENCYCLOPEDIA</Type>
-			<Description>TXT_KEY_TECH_GENCYCLOPEDIA</Description>
-			<Civilopedia>TXT_KEY_TECH_GENCYCLOPEDIA_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_GENCYCLOPEDIA_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>27203</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>14</iAsset>
-			<bTrade>1</bTrade>
-			<iGridX>96</iGridX>
-			<iGridY>3</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_RELIGION</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GOLD</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GROWTH</FlavorType>
-					<iFlavor>4</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_TISSUE</PrereqTech>
+				<PrereqTech>TECH_BIOINFORMATICS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_MMO</PrereqTech>
-				<PrereqTech>TECH_FSYSTEMS</PrereqTech>
+				<PrereqTech>TECH_VIRTUAL_REALITY</PrereqTech>
+				<PrereqTech>TECH_TISSUE</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_GENCYCLOPEDIA_QUOTE</Quote>
 			<Sound>AS2D_TECH_GENCYCLOPEDIA</Sound>
@@ -22947,13 +22951,13 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_LUNAR_BASES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>27203</iCost>
+			<iCost>25354</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>48</iAsset>
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
-			<iGridX>96</iGridX>
-			<iGridY>9</iGridY>
+			<iGridX>94</iGridX>
+			<iGridY>5</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -22976,7 +22980,8 @@ Current techs which are not in this file:-
 				<PrereqTech>TECH_CSPACECRAFT</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_3D_PRINTING</PrereqTech>
+				<PrereqTech>TECH_RAPID_PROTOTYPING</PrereqTech>
+				<PrereqTech>TECH_AQUACULTURE</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_LUNAR_BASES_QUOTE</Quote>
 			<Sound>AS2D_TECH_LUNAR_BASES</Sound>
@@ -22989,12 +22994,12 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_LEDLIGHTING_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_LEDLIGHTING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>27203</iCost>
+			<iCost>24485</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>96</iGridX>
-			<iGridY>11</iGridY>
+			<iGridX>93</iGridX>
+			<iGridY>15</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -23018,10 +23023,10 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_THEORICALPHYSICS</PrereqTech>
+				<PrereqTech>TECH_WEARABLE_ELECTRONICS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_FLASHMEMORY</PrereqTech>
+				<PrereqTech>TECH_BIOFUELS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_LEDLIGHTING_QUOTE</Quote>
 			<Sound>AS2D_TECH_LEDLIGHTING</Sound>
@@ -23035,13 +23040,13 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_METAMATERIALS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>27203</iCost>
+			<iCost>25354</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>48</iAsset>
 			<iPower>5</iPower>
 			<bTrade>1</bTrade>
-			<iGridX>96</iGridX>
-			<iGridY>13</iGridY>
+			<iGridX>94</iGridX>
+			<iGridY>9</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -23053,11 +23058,10 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>				
-				<PrereqTech>TECH_THEORICALPHYSICS</PrereqTech>
+				<PrereqTech>TECH_RAPID_PROTOTYPING</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_STEALTH</PrereqTech>
-				<PrereqTech>TECH_BIOMATHMATICS</PrereqTech>
+				<PrereqTech>TECH_THEORICALPHYSICS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_METAMATERIALS_QUOTE</Quote>
 			<Sound>AS2D_TECH_METAMATERIALS</Sound>
@@ -23073,9 +23077,9 @@ Current techs which are not in this file:-
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
-			<iCost>27203</iCost>
-			<iGridX>96</iGridX>
-			<iGridY>15</iGridY>
+			<iCost>26259</iCost>
+			<iGridX>95</iGridX>
+			<iGridY>7</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_CULTURE</FlavorType>
@@ -23091,11 +23095,10 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_AUTONOMOUS_VEHICLES</PrereqTech>
+				<PrereqTech>TECH_INDUSTRIAL_ECOLOGY</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-                <PrereqTech>TECH_COMPUTATIONAL_SOCIOLOGY</PrereqTech>
-                <PrereqTech>TECH_INDUSTRIAL_ECOLOGY</PrereqTech>
+                <PrereqTech>TECH_AUTONOMOUS_VEHICLES</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MEGACITIES_QUOTE</Quote>
 			<Sound>AS2D_TECH_GENERIC</Sound>
@@ -23108,12 +23111,12 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_DMERCH_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_DMERCH_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>27203</iCost>
+			<iCost>24485</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>96</iGridX>
-			<iGridY>17</iGridY>
+			<iGridX>93</iGridX>
+			<iGridY>13</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -23137,10 +23140,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_AUTONOMOUS_VEHICLES</PrereqTech>
+				<PrereqTech>TECH_MEDIAPSYCOLOGY</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_COMPUTATIONAL_SOCIOLOGY</PrereqTech>
+				<PrereqTech>TECH_DERIVATIVES</PrereqTech>
+				<PrereqTech>TECH_WEARABLE_ELECTRONICS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_DMERCH_QUOTE</Quote>
 			<Sound>AS2D_TECH_DMERCH</Sound>
@@ -23159,7 +23163,7 @@ Current techs which are not in this file:-
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>96</iGridX>
-			<iGridY>19</iGridY>
+			<iGridY>11</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -23175,11 +23179,10 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_FLASHMEMORY</PrereqTech>
+				<PrereqTech>TECH_MICROTURBINE</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_BIOMATHMATICS</PrereqTech>
-				<PrereqTech>TECH_THEORICALPHYSICS</PrereqTech>
+				<PrereqTech>TECH_MILITARY_ROBOTS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MICROMECHANICS_QUOTE</Quote>
 			<Sound>AS2D_TECH_MICROMECHANICS</Sound>
@@ -23192,12 +23195,12 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_ASTEROIDPROBE_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_ASTEROIDPROBE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>28189</iCost>
+			<iCost>26259</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>97</iGridX>
-			<iGridY>1</iGridY>
+			<iGridX>95</iGridX>
+			<iGridY>5</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -23221,11 +23224,10 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_FRESPONSE</PrereqTech>
+				<PrereqTech>TECH_LUNAR_BASES</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_LEDLIGHTING</PrereqTech>
-				<PrereqTech>TECH_CSPACECRAFT</PrereqTech>
+				<PrereqTech>TECH_EXOPLANETDISCOVERY</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_ASTEROIDPROBE_QUOTE</Quote>
 			<Sound>AS2D_TECH_ASTEROIDPROBE</Sound>
@@ -23257,11 +23259,10 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_GENCYCLOPEDIA</PrereqTech>
+				<PrereqTech>TECH_PERSONALIZEDHEALTH</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_MICROMECHANICS</PrereqTech>
-				<PrereqTech>TECH_METAMATERIALS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_REPLACEMENT_ORGANS_QUOTE</Quote>
 			<Sound>AS2D_TECH_REPLACEMENT_ORGANS</Sound>
@@ -23274,12 +23275,12 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_GENESIS_BIOLOGY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_GENESIS_BIOLOGY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>28189</iCost>
+			<iCost>29220</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>97</iGridX>
-			<iGridY>5</iGridY>
+			<iGridX>98</iGridX>
+			<iGridY>1</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -23303,12 +23304,10 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_GENCYCLOPEDIA</PrereqTech>
+				<PrereqTech>TECH_BACTERIUM_ENGINEERING</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_ASTROBIOLOGY</PrereqTech>
-				<PrereqTech>TECH_LEDLIGHTING</PrereqTech>
-				<PrereqTech>TECH_COGNITIVE_ROBOTICS</PrereqTech>
+				<PrereqTech>TECH_AFFECTIVEALGORITHMS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_GENESIS_BIOLOGY_QUOTE</Quote>
 			<Sound>AS2D_TECH_GBIOLOGY</Sound>
@@ -23321,12 +23320,12 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_HUMAN_MACHINE_INTERFACE_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_HUMAN_MACHINE_INTERFACE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>28189</iCost>
+			<iCost>29220</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>97</iGridX>
-			<iGridY>7</iGridY>
+			<iGridX>98</iGridX>
+			<iGridY>17</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -23346,10 +23345,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_LEDLIGHTING</PrereqTech>
+				<PrereqTech>TECH_AUGMENTEDREALITY</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_TISSUE</PrereqTech>
+				<PrereqTech>TECH_PERSONALIZEDHEALTH</PrereqTech>
+				<PrereqTech>TECH_MICROMECHANICS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_HUMAN_MACHINE_INTERFACE_QUOTE</Quote>
 			<Sound>AS2D_TECH_HUMAN_MACHINE_INTERFACE</Sound>
@@ -23368,7 +23368,7 @@ Current techs which are not in this file:-
 			<iPower>5</iPower>
 			<bTrade>1</bTrade>
 			<iGridX>97</iGridX>
-			<iGridY>9</iGridY>
+			<iGridY>13</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_SCIENCE</FlavorType>
@@ -23380,10 +23380,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_LEDLIGHTING</PrereqTech>
+				<PrereqTech>TECH_MICROTURBINE</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_MICROMECHANICS</PrereqTech>
+				<PrereqTech>TECH_MICROWAVE_WEAPONRY</PrereqTech>
+				<PrereqTech>TECH_ASTEROID_MINING</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_WEAPONIZED_LASERS_QUOTE</Quote>
 			<Sound>AS2D_TECH_WEAPONIZED_LASERS</Sound>
@@ -23396,135 +23397,11 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_AUGMENTEDREALITY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_AUGMENTEDREALITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>28189</iCost>
+			<iCost>25354</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>97</iGridX>
-			<iGridY>11</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_RELIGION</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GOLD</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GROWTH</FlavorType>
-					<iFlavor>4</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_LEDLIGHTING</PrereqTech>
-			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_COMPUTATIONAL_SOCIOLOGY</PrereqTech>
-				<PrereqTech>TECH_BIOMATHMATICS</PrereqTech>
-				<PrereqTech>TECH_FSYSTEMS</PrereqTech>
-			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_AUGUMENTEDREALITY_QUOTE</Quote>
-			<Sound>AS2D_TECH_AUGUMENTEDREALITY</Sound>
-			<SoundMP>AS2D_TECH_AUGUMENTEDREALITY</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/Augmentedreality.dds</Button>
-		</TechInfo>
-		<TechInfo>
-			<Type>TECH_CONTROLLED_PLASMA</Type>
-			<Description>TXT_KEY_TECH_CONTROLLED_PLASMA</Description>
-			<Civilopedia>TXT_KEY_TECH_CONTROLLED_PLASMA_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_CONTROLLED_PLASMA_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>28189</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>48</iAsset>
-			<bTrade>1</bTrade>
-			<iGridX>97</iGridX>
-			<iGridY>13</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-					<iFlavor>2</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>1</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_SCIENCE</FlavorType>
-					<iFlavor>9</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_LEDLIGHTING</PrereqTech>
-			</OrPreReqs>
-            <AndPreReqs>
-				<PrereqTech>TECH_INDUSTRIAL_ECOLOGY</PrereqTech>
-			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_CONTROLLED_PLASMA_QUOTE</Quote>
-			<Sound>AS2D_TECH_CONTROLLED_PLASMA</Sound>
-			<SoundMP>AS2D_TECH_CONTROLLED_PLASMA</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/Plasma_Physics.dds</Button>
-		</TechInfo>
-		<TechInfo>
-			<Type>TECH_RAILGUN</Type>
-			<Description>TXT_KEY_TECH_RAILGUN</Description>
-			<Civilopedia>TXT_KEY_TECH_RAILGUN_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_RAILGUN_STRATEGY</Strategy>
-			<Advisor>ADVISOR_MILITARY</Advisor>
-			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>28189</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>52</iAsset>
-			<iPower>5</iPower>
-			<bTrade>1</bTrade>
-			<iGridX>97</iGridX>
-			<iGridY>15</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>8</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_SCIENCE</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GROWTH</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_METAMATERIALS</PrereqTech>
-			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_RAPID_PROTOTYPING</PrereqTech>
-			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_RAILGUN_QUOTE</Quote>
-			<Sound>AS2D_TECH_RAILGUN</Sound>
-			<SoundMP>AS2D_TECH_RAILGUN</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/railgun.dds</Button>
-		</TechInfo>
-		<TechInfo>
-			<Type>TECH_VIRTUALSOCIETY</Type>
-			<Description>TXT_KEY_TECH_VIRTUALSOCIETY</Description>
-			<Civilopedia>TXT_KEY_TECH_VIRTUALSOCIETY_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_VIRTUALSOCIETY_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>28189</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>14</iAsset>
-			<bTrade>1</bTrade>
-			<iGridX>97</iGridX>
+			<iGridX>94</iGridX>
 			<iGridY>17</iGridY>
 			<Flavors>
 				<Flavor>
@@ -23549,25 +23426,108 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_DMERCH</PrereqTech>
+				<PrereqTech>TECH_VIRTUALSOCIETY</PrereqTech>
 			</OrPreReqs>
-			<Quote>TXT_KEY_TECH_VIRTUALSOCIETY_QUOTE</Quote>
-			<Sound>AS2D_TECH_VIRTUALSOCIETY</Sound>
-			<SoundMP>AS2D_TECH_VIRTUALSOCIETY</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/Virtualsociety.dds</Button>
+			<AndPreReqs>
+				<PrereqTech>TECH_LEDLIGHTING</PrereqTech>
+				<PrereqTech>TECH_DMERCH</PrereqTech>
+				<PrereqTech>TECH_NEURAL_NETWORK</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_AUGUMENTEDREALITY_QUOTE</Quote>
+			<Sound>AS2D_TECH_AUGUMENTEDREALITY</Sound>
+			<SoundMP>AS2D_TECH_AUGUMENTEDREALITY</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/Augmentedreality.dds</Button>
 		</TechInfo>
 		<TechInfo>
-			<Type>TECH_MICROTURBINE</Type>
-			<Description>TXT_KEY_TECH_MICROTURBINE</Description>
-			<Civilopedia>TXT_KEY_TECH_MICROTURBINE_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_MICROTURBINE_STRATEGY</Strategy>
+			<Type>TECH_CONTROLLED_PLASMA</Type>
+			<Description>TXT_KEY_TECH_CONTROLLED_PLASMA</Description>
+			<Civilopedia>TXT_KEY_TECH_CONTROLLED_PLASMA_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_CONTROLLED_PLASMA_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>28189</iCost>
+			<iAITradeModifier>10</iAITradeModifier>
+			<iCost>23650</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>48</iAsset>
+			<bTrade>1</bTrade>
+			<iGridX>92</iGridX>
+			<iGridY>19</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>2</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>1</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_SCIENCE</FlavorType>
+					<iFlavor>9</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_THEORICALPHYSICS</PrereqTech>
+			</OrPreReqs>
+            <AndPreReqs>
+				<PrereqTech>TECH_MAGLEV</PrereqTech>
+				<PrereqTech>TECH_RENEWABLE_ENERGY</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_CONTROLLED_PLASMA_QUOTE</Quote>
+			<Sound>AS2D_TECH_CONTROLLED_PLASMA</Sound>
+			<SoundMP>AS2D_TECH_CONTROLLED_PLASMA</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/Plasma_Physics.dds</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_RAILGUN</Type>
+			<Description>TXT_KEY_TECH_RAILGUN</Description>
+			<Civilopedia>TXT_KEY_TECH_RAILGUN_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_RAILGUN_STRATEGY</Strategy>
+			<Advisor>ADVISOR_MILITARY</Advisor>
+			<iAITradeModifier>10</iAITradeModifier>
+			<iCost>26259</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>52</iAsset>
+			<iPower>5</iPower>
+			<bTrade>1</bTrade>
+			<iGridX>95</iGridX>
+			<iGridY>19</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>8</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_SCIENCE</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GROWTH</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_MICROWAVE_WEAPONRY</PrereqTech>
+			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_METAMATERIALS</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_RAILGUN_QUOTE</Quote>
+			<Sound>AS2D_TECH_RAILGUN</Sound>
+			<SoundMP>AS2D_TECH_RAILGUN</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/railgun.dds</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_VIRTUALSOCIETY</Type>
+			<Description>TXT_KEY_TECH_VIRTUALSOCIETY</Description>
+			<Civilopedia>TXT_KEY_TECH_VIRTUALSOCIETY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_VIRTUALSOCIETY_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iCost>24485</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>97</iGridX>
-			<iGridY>19</iGridY>
+			<iGridX>93</iGridX>
+			<iGridY>17</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -23591,12 +23551,55 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_MICROMECHANICS</PrereqTech>
+				<PrereqTech>TECH_WEARABLE_ELECTRONICS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
+				<PrereqTech>TECH_MEDIAPSYCOLOGY</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_VIRTUALSOCIETY_QUOTE</Quote>
+			<Sound>AS2D_TECH_VIRTUALSOCIETY</Sound>
+			<SoundMP>AS2D_TECH_VIRTUALSOCIETY</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/Virtualsociety.dds</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_MICROTURBINE</Type>
+			<Description>TXT_KEY_TECH_MICROTURBINE</Description>
+			<Civilopedia>TXT_KEY_TECH_MICROTURBINE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_MICROTURBINE_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iCost>26259</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>14</iAsset>
+			<bTrade>1</bTrade>
+			<iGridX>95</iGridX>
+			<iGridY>13</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_RELIGION</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GROWTH</FlavorType>
+					<iFlavor>4</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
 				<PrereqTech>TECH_BIOMECHANICALHARVESTING</PrereqTech>
-				<PrereqTech>TECH_LEDLIGHTING</PrereqTech>
-				<PrereqTech>TECH_MICROWAVE_WEAPONRY</PrereqTech>
+			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_METAMATERIALS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MICROTURBINE_QUOTE</Quote>
 			<Sound>AS2D_TECH_MICROTURBINE</Sound>
@@ -23610,13 +23613,13 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_ASTEROID_MINING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>29220</iCost>
+			<iCost>27203</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>40</iAsset>
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
-			<iGridX>98</iGridX>
-			<iGridY>1</iGridY>
+			<iGridX>96</iGridX>
+			<iGridY>5</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -23638,11 +23641,6 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_ASTEROIDPROBE</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_CONTROLLED_PLASMA</PrereqTech>
-				<PrereqTech>TECH_EXOSKELETON</PrereqTech>
-				<PrereqTech>TECH_WEAPONIZED_LASERS</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_ASTEROID_MINING_QUOTE</Quote>
 			<Sound>AS2D_TECH_ASTEROID_MINING</Sound>
 			<SoundMP>AS2D_TECH_ASTEROID_MINING</SoundMP>
@@ -23659,6 +23657,142 @@ Current techs which are not in this file:-
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>98</iGridX>
+			<iGridY>5</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_RELIGION</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GROWTH</FlavorType>
+					<iFlavor>4</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_ASTEROID_MINING</PrereqTech>
+			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_COILGUN</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_JUPITERE_QUOTE</Quote>
+			<Sound>AS2D_TECH_JUPITERE</Sound>
+			<SoundMP>AS2D_TECH_JUPITERE</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/jovian.dds</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_MARINEARCHITECTURE</Type>
+			<Description>TXT_KEY_TECH_MARINEARCHITECTURE</Description>
+			<Civilopedia>TXT_KEY_TECH_MARINEARCHITECTURE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_MARINEARCHITECTURE_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iCost>28189</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>14</iAsset>
+			<bTrade>1</bTrade>
+			<iGridX>97</iGridX>
+			<iGridY>7</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_RELIGION</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GROWTH</FlavorType>
+					<iFlavor>4</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_MEGACITIES</PrereqTech>
+			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_MICROTURBINE</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_MARINEARCHITECTURE_QUOTE</Quote>
+			<Sound>AS2D_TECH_MARINEARCHITECTURE</Sound>
+			<SoundMP>AS2D_TECH_MARINEARCHITECTURE</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/Marinearchitecture.dds</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_AFFECTIVEALGORITHMS</Type>
+			<Description>TXT_KEY_TECH_AFFECTIVEALGORITHMS</Description>
+			<Civilopedia>TXT_KEY_TECH_AFFECTIVEALGORITHMS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_AFFECTIVEALGORITHMS_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iCost>26259</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>14</iAsset>
+			<bTrade>1</bTrade>
+			<iGridX>95</iGridX>
+			<iGridY>11</iGridY>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_RELIGION</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_GROWTH</FlavorType>
+					<iFlavor>4</iFlavor>
+				</Flavor>
+			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_AUTONOMOUS_VEHICLES</PrereqTech>
+			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_COMPUTATIONAL_SOCIOLOGY</PrereqTech>
+				<PrereqTech>TECH_BIOMATHMATICS</PrereqTech>
+			</AndPreReqs>
+			<Quote>TXT_KEY_TECH_AFFECTIVEALGORITHMS_QUOTE</Quote>
+			<Sound>AS2D_TECH_AFFECTIVEALGORITHMS</Sound>
+			<SoundMP>AS2D_TECH_AFFECTIVEALGORITHMS</SoundMP>
+			<Button>Art/Interface/Buttons/TechTree/Affectivealgorithms.dds</Button>
+		</TechInfo>
+		<TechInfo>
+			<Type>TECH_PERSONALIZEDHEALTH</Type>
+			<Description>TXT_KEY_TECH_PERSONALIZEDHEALTH</Description>
+			<Civilopedia>TXT_KEY_TECH_PERSONALIZEDHEALTH_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_TECH_PERSONALIZEDHEALTH_STRATEGY</Strategy>
+			<Advisor>ADVISOR_SCIENCE</Advisor>
+			<iCost>26259</iCost>
+			<Era>ERA_INFORMATION</Era>
+			<iAsset>14</iAsset>
+			<bTrade>1</bTrade>
+			<iGridX>95</iGridX>
 			<iGridY>3</iGridY>
 			<Flavors>
 				<Flavor>
@@ -23683,145 +23817,12 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_ASTEROIDPROBE</PrereqTech>
-			</OrPreReqs>
-			<Quote>TXT_KEY_TECH_JUPITERE_QUOTE</Quote>
-			<Sound>AS2D_TECH_JUPITERE</Sound>
-			<SoundMP>AS2D_TECH_JUPITERE</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/jovian.dds</Button>
-		</TechInfo>
-		<TechInfo>
-			<Type>TECH_MARINEARCHITECTURE</Type>
-			<Description>TXT_KEY_TECH_MARINEARCHITECTURE</Description>
-			<Civilopedia>TXT_KEY_TECH_MARINEARCHITECTURE_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_MARINEARCHITECTURE_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>29220</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>14</iAsset>
-			<bTrade>1</bTrade>
-			<iGridX>98</iGridX>
-			<iGridY>5</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_RELIGION</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GOLD</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GROWTH</FlavorType>
-					<iFlavor>4</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_GBIOLOGY</PrereqTech>
+				<PrereqTech>TECH_BIOMATHMATICS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_UNMANNEDSEA</PrereqTech>
-				<PrereqTech>TECH_MEGACITIES</PrereqTech>
-			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_MARINEARCHITECTURE_QUOTE</Quote>
-			<Sound>AS2D_TECH_MARINEARCHITECTURE</Sound>
-			<SoundMP>AS2D_TECH_MARINEARCHITECTURE</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/Marinearchitecture.dds</Button>
-		</TechInfo>
-		<TechInfo>
-			<Type>TECH_AFFECTIVEALGORITHMS</Type>
-			<Description>TXT_KEY_TECH_AFFECTIVEALGORITHMS</Description>
-			<Civilopedia>TXT_KEY_TECH_AFFECTIVEALGORITHMS_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_AFFECTIVEALGORITHMS_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>29220</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>14</iAsset>
-			<bTrade>1</bTrade>
-			<iGridX>98</iGridX>
-			<iGridY>7</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_RELIGION</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GOLD</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GROWTH</FlavorType>
-					<iFlavor>4</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_HUMAN_MACHINE_INTERFACE</PrereqTech>
-			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_EXOSKELETON</PrereqTech>
-				<PrereqTech>TECH_AUTONOMOUS_VEHICLES</PrereqTech>
+				<PrereqTech>TECH_METAMATERIALS</PrereqTech>
 				<PrereqTech>TECH_GENCYCLOPEDIA</PrereqTech>
-			</AndPreReqs>
-			<Quote>TXT_KEY_TECH_AFFECTIVEALGORITHMS_QUOTE</Quote>
-			<Sound>AS2D_TECH_AFFECTIVEALGORITHMS</Sound>
-			<SoundMP>AS2D_TECH_AFFECTIVEALGORITHMS</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/Affectivealgorithms.dds</Button>
-		</TechInfo>
-		<TechInfo>
-			<Type>TECH_PERSONALIZEDHEALTH</Type>
-			<Description>TXT_KEY_TECH_PERSONALIZEDHEALTH</Description>
-			<Civilopedia>TXT_KEY_TECH_PERSONALIZEDHEALTH_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_TECH_PERSONALIZEDHEALTH_STRATEGY</Strategy>
-			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>29220</iCost>
-			<Era>ERA_INFORMATION</Era>
-			<iAsset>14</iAsset>
-			<bTrade>1</bTrade>
-			<iGridX>98</iGridX>
-			<iGridY>11</iGridY>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_RELIGION</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-					<iFlavor>3</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GOLD</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GROWTH</FlavorType>
-					<iFlavor>4</iFlavor>
-				</Flavor>
-			</Flavors>
-			<OrPreReqs>
-				<PrereqTech>TECH_HUMAN_MACHINE_INTERFACE</PrereqTech>
-			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_REPLACEMENT_ORGANS</PrereqTech>
+				<PrereqTech>TECH_DMERCH</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_PERSONALIZEDHEALTH_QUOTE</Quote>
 			<Sound>AS2D_TECH_PERSONALIZEDHEALTH</Sound>
@@ -23839,7 +23840,7 @@ Current techs which are not in this file:-
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>98</iGridX>
-			<iGridY>13</iGridY>
+			<iGridY>9</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -23863,10 +23864,10 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_CONTROLLED_PLASMA</PrereqTech>
+				<PrereqTech>TECH_METAMATERIALS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_METAMATERIALS</PrereqTech>
+				<PrereqTech>TECH_ASTEROID_MINING</PrereqTech>
 				<PrereqTech>TECH_MICROMECHANICS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_GRAPHENE_QUOTE</Quote>
@@ -23881,12 +23882,12 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_COILGUN_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>29220</iCost>
+			<iCost>28189</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>98</iGridX>
-			<iGridY>15</iGridY>
+			<iGridX>97</iGridX>
+			<iGridY>19</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -23894,10 +23895,10 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_MICROTURBINE</PrereqTech>
+				<PrereqTech>TECH_RAILGUN</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_RAILGUN</PrereqTech>
+				<PrereqTech>TECH_MICROMECHANICS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_COILGUN_QUOTE</Quote>
 			<Sound>AS2D_TECH_COILGUN</Sound>
@@ -23910,13 +23911,13 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_TECH_BACTERIUM_ENGINEERING_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_BACTERIUM_ENGINEERING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
-			<iCost>29220</iCost>
+			<iCost>28189</iCost>
 			<Era>ERA_INFORMATION</Era>
 			<iAsset>48</iAsset>
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
-			<iGridX>98</iGridX>
-			<iGridY>17</iGridY>
+			<iGridX>97</iGridX>
+			<iGridY>1</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -23940,12 +23941,10 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_MICROTURBINE</PrereqTech>
+				<PrereqTech>TECH_GENCYCLOPEDIA</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_GBIOLOGY</PrereqTech>
-				<PrereqTech>TECH_REPLACEMENT_ORGANS</PrereqTech>
-				<PrereqTech>TECH_HUMAN_MACHINE_INTERFACE</PrereqTech>
+				<PrereqTech>TECH_PERSONALIZEDHEALTH</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_BACTERIUM_ENGINEERING_QUOTE</Quote>
 			<Sound>AS2D_TECH_BACTERIUM_ENGINEERING</Sound>
@@ -23993,16 +23992,14 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_AFFECTIVEALGORITHMS</PrereqTech>
-				<PrereqTech>TECH_JUPITERE</PrereqTech>
-				<PrereqTech>TECH_MARINEARCHITECTURE</PrereqTech>
-				<PrereqTech>TECH_PERSONALIZEDHEALTH</PrereqTech>
+				<PrereqTech>TECH_GBIOLOGY</PrereqTech>
 				<PrereqTech>TECH_GRAPHENE</PrereqTech>
+				<PrereqTech>TECH_FRESPONSE</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_VIRTUALSOCIETY</PrereqTech>
 				<PrereqTech>TECH_HUMAN_MACHINE_INTERFACE</PrereqTech>
-				<PrereqTech>TECH_AUGMENTEDREALITY</PrereqTech>
+				<PrereqTech>TECH_MARINEARCHITECTURE</PrereqTech>
+				<PrereqTech>TECH_REPLACEMENT_ORGANS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_NANOTECH_LIFESTYLE_QUOTE</Quote>
 			<Sound>AS2D_TECH_NANOTECH_LIFESTYLE</Sound>
@@ -24022,7 +24019,7 @@ Current techs which are not in this file:-
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
 			<iGridX>100</iGridX>
-			<iGridY>1</iGridY>
+			<iGridY>3</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -24049,9 +24046,8 @@ Current techs which are not in this file:-
 				<PrereqTech>TECH_NANOTECH_LIFESTYLE</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_CSPACECRAFT</PrereqTech>
-				<PrereqTech>TECH_BACTERIUM_ENGINEERING</PrereqTech>
-				<PrereqTech>TECH_MARINEARCHITECTURE</PrereqTech>
+				<PrereqTech>TECH_JUPITERE</PrereqTech>
+				<PrereqTech>TECH_GRAPHENE</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_ADVANCED_ENVIRONMENTAL_SYSTEMS_QUOTE</Quote>
 			<Sound>AS2D_TECH_ADVANCED_ENVIRONMENTAL_SYSTEMS2</Sound>
@@ -24069,7 +24065,7 @@ Current techs which are not in this file:-
 			<bTrade>1</bTrade>
 			<iCost>36429</iCost>
 			<iGridX>100</iGridX>
-			<iGridY>3</iGridY>
+			<iGridY>1</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_CULTURE</FlavorType>
@@ -24093,8 +24089,6 @@ Current techs which are not in this file:-
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_GRAPHENE</PrereqTech>
-				<PrereqTech>TECH_MICROTURBINE</PrereqTech>
-				<PrereqTech>TECH_MEGACITIES</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_NANO_ARCHITECTURE_QUOTE</Quote>
 			<Sound>AS2D_TECH_GENERIC</Sound>
@@ -24139,9 +24133,7 @@ Current techs which are not in this file:-
 				<PrereqTech>TECH_NANOTECH_LIFESTYLE</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_AFFECTIVEALGORITHMS</PrereqTech>
-				<PrereqTech>TECH_MICROTURBINE</PrereqTech>
-				<PrereqTech>TECH_MILITARY_ROBOTS</PrereqTech>
+				<PrereqTech>TECH_FRESPONSE</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_INSECTROBOTICS_QUOTE</Quote>
 			<Sound>AS2D_TECH_INSECTROBOTICS</Sound>
@@ -24182,9 +24174,6 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_NANOTECH_LIFESTYLE</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_AFFECTIVEALGORITHMS</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_BRAIN_SCAN_QUOTE</Quote>
 			<Sound>AS2D_TECH_BRAIN_SCAN</Sound>
 			<SoundMP>AS2D_TECH_BRAIN_SCAN</SoundMP>
@@ -24269,8 +24258,7 @@ Current techs which are not in this file:-
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_GRAPHENE</PrereqTech>
-				<PrereqTech>TECH_MICROTURBINE</PrereqTech>
-				<PrereqTech>TECH_WEAPONIZED_LASERS</PrereqTech>
+				<PrereqTech>TECH_CONTROLLED_PLASMA</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_FUSION_QUOTE</Quote>
 			<Sound>AS2D_TECH_FUSION</Sound>
@@ -24307,7 +24295,6 @@ Current techs which are not in this file:-
 			<AndPreReqs>
 				<PrereqTech>TECH_GRAPHENE</PrereqTech>
 				<PrereqTech>TECH_QUANTUM_TELEPORTATION</PrereqTech>
-				<PrereqTech>TECH_WEAPONIZED_LASERS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_INVISIBILITY_QUOTE</Quote>
 			<Sound>AS2D_TECH_INVISIBILITY</Sound>
@@ -24354,8 +24341,6 @@ Current techs which are not in this file:-
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_BACTERIUM_ENGINEERING</PrereqTech>
-				<PrereqTech>TECH_PERSONALIZEDHEALTH</PrereqTech>
-				<PrereqTech>TECH_AFFECTIVEALGORITHMS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_PROTOTYPED_PATHOGENS_QUOTE</Quote>
 			<Sound>AS2D_TECH_PROTOTYPED_PATHOGENS</Sound>
@@ -24400,9 +24385,7 @@ Current techs which are not in this file:-
 				<PrereqTech>TECH_NANOTECH_LIFESTYLE</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_MICROTURBINE</PrereqTech>
-				<PrereqTech>TECH_AFFECTIVEALGORITHMS</PrereqTech>
-				<PrereqTech>TECH_MILITARY_ROBOTS</PrereqTech>
+				<PrereqTech>TECH_COMPUTATIONAL_SOCIOLOGY</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MELECTRONICS_QUOTE</Quote>
 			<Sound>AS2D_TECH_MELECTRONICS</Sound>
@@ -24445,7 +24428,6 @@ Current techs which are not in this file:-
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_AFFECTIVEALGORITHMS</PrereqTech>
-				<PrereqTech>TECH_MEGACITIES</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_AUTOMATED_TRAFFIC_QUOTE</Quote>
 			<Sound>AS2D_TECH_AUTOMATED_TRAFFIC</Sound>
@@ -24465,7 +24447,7 @@ Current techs which are not in this file:-
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
 			<iGridX>101</iGridX>
-			<iGridY>1</iGridY>
+			<iGridY>3</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -24487,10 +24469,6 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_SPACE_COLONIES</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_LUNAR_BASES</PrereqTech>
-				<PrereqTech>TECH_NANO_ARCHITECTURE</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_LUNAR_COLONIZATION_QUOTE</Quote>
 			<Sound>AS2D_TECH_SPACE_COLONIES</Sound>
 			<SoundMP>AS2D_TECH_SPACE_COLONIES</SoundMP>
@@ -24532,11 +24510,11 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_BRAIN_SCAN</PrereqTech>
+				<PrereqTech>TECH_INSECTROBOTICS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_MELECTRONICS</PrereqTech>
-				<PrereqTech>TECH_INSECTROBOTICS</PrereqTech>
+				<PrereqTech>TECH_BRAIN_SCAN</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MASS_SURVEILLANCE_QUOTE</Quote>
 			<Sound>AS2D_TECH_MASS_SURVEILLANCE</Sound>
@@ -24554,7 +24532,7 @@ Current techs which are not in this file:-
 			<iAsset>14</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>101</iGridX>
-			<iGridY>7</iGridY>
+			<iGridY>9</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -24614,6 +24592,9 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_FUSION</PrereqTech>
 			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_WEAPONIZED_LASERS</PrereqTech>
+			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_ELECTRIC_ARC_WEAPONRY_QUOTE</Quote>
 			<Sound>AS2D_TECH_ELECTRIC_ARC_WEAPONRY</Sound>
 			<SoundMP>AS2D_TECH_ELECTRIC_ARC_WEAPONRY</SoundMP>
@@ -24655,8 +24636,8 @@ Current techs which are not in this file:-
 				<PrereqTech>TECH_FUSION</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_ASTEROID_MINING</PrereqTech>
-				<PrereqTech>TECH_RAILGUN</PrereqTech>
+				<PrereqTech>TECH_JUPITERE</PrereqTech>
+				<PrereqTech>TECH_COILGUN</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MASS_DRIVER_QUOTE</Quote>
 			<Sound>AS2D_TECH_MASS_DRIVER</Sound>
@@ -24695,7 +24676,7 @@ Current techs which are not in this file:-
 				<PrereqTech>TECH_MELECTRONICS</PrereqTech>
 			</OrPreReqs>
             <AndPreReqs>
-				<PrereqTech>TECH_AUTOMATED_TRAFFIC</PrereqTech>
+				<PrereqTech>TECH_SPACE_COLONIES</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_HYPERSONIC_FLIGHT_QUOTE</Quote>
 			<Sound>AS2D_TECH_HYPERSONIC_FLIGHT</Sound>
@@ -24737,9 +24718,6 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_MELECTRONICS</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_INVISIBILITY</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MESH_NETWORKS_QUOTE</Quote>
 			<Sound>AS2D_TECH_MESH_NETWORKS</Sound>
 			<SoundMP>AS2D_TECH_MESH_NETWORKS</SoundMP>
@@ -24783,7 +24761,7 @@ Current techs which are not in this file:-
 				<PrereqTech>TECH_MELECTRONICS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_PERSONALIZEDHEALTH</PrereqTech>
+				<PrereqTech>TECH_GBIOLOGY</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_GENEENHANCEMENT_QUOTE</Quote>
 			<Sound>AS2D_TECH_GENEENHANCEMENT</Sound>
@@ -24869,7 +24847,6 @@ Current techs which are not in this file:-
 				<PrereqTech>TECH_LUNAR_COLONIZATION</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_DERIVATIVES</PrereqTech>
 				<PrereqTech>TECH_MESH_NETWORKS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MEGACORPORATIONS_QUOTE</Quote>
@@ -24912,10 +24889,6 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_LUNAR_COLONIZATION</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_SOLAR_PROPULSION</PrereqTech>
-				<PrereqTech>TECH_ASTEROID_MINING</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_PLANETARY_COLONIZATION_QUOTE</Quote>
 			<Sound>AS2D_TECH_PLANETARY_COLONIZATION</Sound>
 			<SoundMP>AS2D_TECH_PLANETARY_COLONIZATION</SoundMP>
@@ -24960,6 +24933,7 @@ Current techs which are not in this file:-
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_MESH_NETWORKS</PrereqTech>
+				<PrereqTech>TECH_INVISIBILITY</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_HOLOGRAPHICS_QUOTE</Quote>
 			<Sound>AS2D_TECH_HOLOGRAPHICS</Sound>
@@ -25132,9 +25106,6 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_GENEENHANCEMENT</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_NANOGENERATOR</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MAINSTREAM_CLONING_QUOTE</Quote>
 			<Sound>AS2D_TECH_MAINSTREAM_CLONING</Sound>
 			<SoundMP>AS2D_TECH_MAINSTREAM_CLONING</SoundMP>
@@ -25568,7 +25539,6 @@ Current techs which are not in this file:-
 				<PrereqTech>TECH_LUNAR_TOURISM</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_SOLAR_PROPULSION</PrereqTech>
 				<PrereqTech>TECH_LENGINE</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MAGNETIC_SAILS_QUOTE</Quote>
@@ -25893,7 +25863,6 @@ Current techs which are not in this file:-
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_AICITY</PrereqTech>
-				<PrereqTech>TECH_COILGUN</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_WIRELESS_ELECTRICITY_QUOTE</Quote>
 			<Sound>AS2D_TECH_WIRELESS_ELECTRICITY</Sound>
@@ -25968,7 +25937,6 @@ Current techs which are not in this file:-
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_INSECTROBOTICS</PrereqTech>
-				<PrereqTech>TECH_COILGUN</PrereqTech>
 				<PrereqTech>TECH_AUTOMATEDSERVICES</PrereqTech>
 				<PrereqTech>TECH_LENGINE</PrereqTech>
 			</AndPreReqs>
@@ -28417,7 +28385,7 @@ Current techs which are not in this file:-
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
 			<iGridX>113</iGridX>
-			<iGridY>7</iGridY>
+			<iGridY>5</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
