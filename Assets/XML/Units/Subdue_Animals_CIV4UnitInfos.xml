@@ -7193,6 +7193,18 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_GALAPOGOS_TORTOISE_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GALAPOGOS_TORTOISE_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GALAPOGOS_TORTOISE_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>

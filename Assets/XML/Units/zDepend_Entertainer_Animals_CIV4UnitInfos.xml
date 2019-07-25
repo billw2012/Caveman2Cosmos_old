@@ -7894,6 +7894,56 @@
 					<BuildingType>BUILDING_WILDEBEEST_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+			</Buildings>			
+		</UnitInfo>
+		<UnitInfo>
+			<Type>UNIT_BARD</Type>
+			<AndDependencyTypes>
+                    	<DependencyType>UNIT_BARD</DependencyType>
+                     	<DependencyType>BUILDING_GALAPOGOS_TORTOISE_STORY</DependencyType>
+ 			</AndDependencyTypes>
+			<Buildings>
+				<Building>
+					<BuildingType>BUILDING_GALAPOGOS_TORTOISE_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+			</Buildings>
+		</UnitInfo>
+		<UnitInfo>
+			<Type>UNIT_ENTERTAINER</Type>
+			<AndDependencyTypes>
+                    	<DependencyType>UNIT_ENTERTAINER</DependencyType>
+                    	<DependencyType>BUILDING_GALAPOGOS_TORTOISE_STORY</DependencyType>
+                    	<DependencyType>BUILDING_GALAPOGOS_TORTOISE_STORIES</DependencyType>
+ 			</AndDependencyTypes>
+			<Buildings>
+				<Building>
+					<BuildingType>BUILDING_GALAPOGOS_TORTOISE_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GALAPOGOS_TORTOISE_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+			</Buildings>
+		</UnitInfo>
+		<UnitInfo>
+			<Class>UNITCLASS_CELEBRITY</Class>
+			<Type>UNIT_CELEBRITY</Type>
+			<AndDependencyTypes>
+                    	<DependencyType>UNIT_CELEBRITY</DependencyType>
+                    	<DependencyType>BUILDING_GALAPOGOS_TORTOISE_STORY</DependencyType>
+                    	<DependencyType>BUILDING_GALAPOGOS_TORTOISE_STORIES</DependencyType>
+ 			</AndDependencyTypes>
+			<Buildings>
+				<Building>
+					<BuildingType>BUILDING_GALAPOGOS_TORTOISE_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GALAPOGOS_TORTOISE_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 		</UnitInfo>
 	</UnitInfos>

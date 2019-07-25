@@ -6774,5 +6774,38 @@ Button>Art/Interface/Buttons/Buildings/stories_sabretooth.dds</Button
 			<Button>Art/Interface/Buttons/Units/Wildebeest.dds</Button>
 			<!--Button>Art/Interface/Buttons/Buildings/stories_Wildebeest.dds</Button-->
 		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_GALAPOGOS_TORTOISE_MYTH</Type>
+			<LSystem/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
+			<NIF>Art/empty.nif</NIF>
+			<KFM/>
+			<Button>Art/Interface/Buttons/Units/Galapagos_Tortoise.dds</Button>
+			<!--Button>Art/Interface/Buttons/Buildings/myth_Galapagos_Tortoise.dds</Button-->
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_GALAPOGOS_TORTOISE_STORY</Type>
+			<LSystem/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
+			<NIF>Art/empty.nif</NIF>
+			<KFM/>
+			<Button>Art/Interface/Buttons/Units/Galapagos_Tortoise.dds</Button>
+			<!--Button>Art/Interface/Buttons/Buildings/story_Galapagos_Tortoise.dds</Button-->
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_GALAPOGOS_TORTOISE_STORIES</Type>
+			<LSystem/>
+			<bAnimated>0</bAnimated>
+			<fScale>0</fScale>
+			<fInterfaceScale>0</fInterfaceScale>
+			<NIF>Art/empty.nif</NIF>
+			<KFM/>
+			<Button>Art/Interface/Buttons/Units/Galapagos_Tortoise.dds</Button>
+			<!--Button>Art/Interface/Buttons/Buildings/stories_Galapagos_Tortoise.dds</Button-->
+		</BuildingArtInfo>
 	</BuildingArtInfos>
 </Civ4ArtDefines>
