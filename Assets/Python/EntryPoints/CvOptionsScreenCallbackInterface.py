@@ -26,6 +26,7 @@ def refresh():
 		szRes = szRes.split(" x ")
 		SR.x = int(szRes[0])
 		SR.y = int(szRes[1])
+		SR.calibrate()
 
 		import CvEventInterface
 		CvEventInterface.getEventManager().fireEvent("ResolutionChanged", g_iResChange - 100)

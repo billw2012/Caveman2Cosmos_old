@@ -3,17 +3,15 @@
 ## Based upon Gillmer J. Derge's Civ4lerts.py
 
 from CvPythonExtensions import *
+import CvUtil
 import BugCore
 import PlayerUtil
 import TradeUtil
 
-# BUG - Mac Support - start
-import BugUtil
-BugUtil.fixSets(globals())
-# BUG - Mac Support - end
-
 GC = CyGlobalContext()
-localText = CyTranslator()
+TRNSLTR = CyTranslator()
+
+EVENT_MESSAGE_TIME_LONG = GC.getDefineINT("EVENT_MESSAGE_TIME_LONG")
 
 class MoreCiv4lerts:
 
@@ -26,14 +24,13 @@ class AbstractMoreCiv4lertsEvent(object):
 	def __init__(self, eventManager, *args, **kwargs):
 		super(AbstractMoreCiv4lertsEvent, self).__init__(*args, **kwargs)
 
-	def _addMessageNoIcon(self, iPlayer, message, iColor=-1):
+	def _addMessageNoIcon(self, iPlayer, msg, iColor=-1):
 		#Displays an on-screen message with no popup icon.
-		self._addMessage(iPlayer, message, None, -1, -1, False, False, iColor)
+		self._addMessage(iPlayer, msg, None, -1, -1, False, False, iColor)
 
-	def _addMessage(self, iPlayer, szString, szIcon, iFlashX, iFlashY, bOffArrow, bOnArrow, iColor):
-		#Displays an on-screen message.
-		eventMessageTimeLong = GC.getDefineINT("EVENT_MESSAGE_TIME_LONG")
-		CyInterface().addMessage(iPlayer, True, eventMessageTimeLong, szString, None, 0, szIcon, ColorTypes(iColor), iFlashX, iFlashY, bOffArrow, bOnArrow)
+	def _addMessage(self, iPlayer, msg, icon, iX, iY, bOffArrow, bOnArrow, iColor):
+		# Route it through the centralized handler
+		CvUtil.sendMessage(msg, iPlayer, EVENT_MESSAGE_TIME_LONG, icon, ColorTypes(iColor), iX, iY, bOffArrow, bOnArrow)
 
 class MoreCiv4lertsEvent(AbstractMoreCiv4lertsEvent):
 
@@ -85,23 +82,22 @@ class MoreCiv4lertsEvent(AbstractMoreCiv4lertsEvent):
 	def OnCityBuilt(self, argsList):
 		CyCity = argsList[0]
 		iOwner = CyCity.getOwner()
-		iPlayerAct = GC.getGame().getActivePlayer()
+		iPlayer = GC.getGame().getActivePlayer()
 		if self.getCheckForDomVictory():
-			if iOwner == iPlayerAct:
+			if iOwner == iPlayer:
 				self.CheckForAlerts(iOwner, False)
 		if self.options.isShowCityFoundedAlert():
-			if iOwner != iPlayerAct:
+			if iOwner != iPlayer:
 				bRevealed = CyCity.isRevealed(GC.getActivePlayer().getTeam(), False)
 				if bRevealed or PlayerUtil.canSeeCityList(iOwner):
 					CyPlayer = GC.getPlayer(iOwner)
 					iColor = GC.getInfoTypeForString("COLOR_MAGENTA")
 					if bRevealed:
-						msg = localText.getText("TXT_KEY_MORECIV4LERTS_CITY_FOUNDED", (CyPlayer.getName(), CyCity.getName()))
-						iTime = GC.getDefineINT("EVENT_MESSAGE_TIME_LONG")
+						msg = TRNSLTR.getText("TXT_KEY_MORECIV4LERTS_CITY_FOUNDED", (CyPlayer.getName(), CyCity.getName()))
 						icon = "Art/Interface/Buttons/Actions/foundcity.dds"
-						CyInterface().addMessage(iPlayerAct, True, iTime, msg, None, 0, icon, ColorTypes(iColor), CyCity.getX(), CyCity.getY(), True, True)
+						CvUtil.sendMessage(msg, iPlayer, EVENT_MESSAGE_TIME_LONG, icon, ColorTypes(iColor), CyCity.getX(), CyCity.getY(), True, True)
 					else:
-						msg = localText.getText("TXT_KEY_MORECIV4LERTS_CITY_FOUNDED_UNSEEN", (CyPlayer.getName(), CyCity.getName()))
+						msg = TRNSLTR.getText("TXT_KEY_MORECIV4LERTS_CITY_FOUNDED_UNSEEN", (CyPlayer.getName(), CyCity.getName()))
 						self._addMessageNoIcon(iPlayerAct, msg, iColor)
 
 	def OnCityRazed(self, argsList):
@@ -131,7 +127,6 @@ class MoreCiv4lertsEvent(AbstractMoreCiv4lertsEvent):
 
 		if bCheck1 or bCheck2:
 			# Check for cultural expansion and population growth
-			iTime = GC.getDefineINT("EVENT_MESSAGE_TIME_LONG")
 			icon = "Art/Interface/Buttons/General/Warning_popup.dds"
 			iActiveTeam = GAME.getActiveTeam()
 			for iPlayerX in xrange(GC.getMAX_PC_PLAYERS()):
@@ -143,8 +138,9 @@ class MoreCiv4lertsEvent(AbstractMoreCiv4lertsEvent):
 							iGrowthCount += 1
 						if bCheck2 and CyCity.getCultureLevel() != GC.getNumCultureLevelInfos() - 1:
 							if CyCity.getCulture(iPlayerX) + CyCity.getCommerceRate(CommerceTypes.COMMERCE_CULTURE) >= CyCity.getCultureThreshold():
-								msg = localText.getText("TXT_KEY_MORECIV4LERTS_CITY_TO_EXPAND",(CyCity.getName(),))
-								CyInterface().addMessage(iPlayerX, True, iTime, msg, None, 0, icon, -1, CyCity.getX(), CyCity.getY(), True, True)
+								msg = TRNSLTR.getText("TXT_KEY_MORECIV4LERTS_CITY_TO_EXPAND",(CyCity.getName(),))
+								CvUtil.sendMessage(msg, iPlayer, EVENT_MESSAGE_TIME_LONG, icon, ColorTypes(iColor), CyCity.getX(), CyCity.getY(), True, True)
+
 						CyCity, i = CyPlayerX.nextCity(i, False)
 
 		# Check Domination Limit
@@ -162,19 +158,19 @@ class MoreCiv4lertsEvent(AbstractMoreCiv4lertsEvent):
 						iLimitPop = int(iTotalPop * fVictoryPercent / 100)
 
 						if fPercent >= fVictoryPercent:
-							msg = localText.getText("TXT_KEY_MORECIV4LERTS_POP_EXCEEDS_LIMIT", (iTeamPop, (u"%.2f%%" % fPercent), iLimitPop, (u"%.2f%%" % fVictoryPercent)))
+							msg = TRNSLTR.getText("TXT_KEY_MORECIV4LERTS_POP_EXCEEDS_LIMIT", (iTeamPop, (u"%.2f%%" % fPercent), iLimitPop, (u"%.2f%%" % fVictoryPercent)))
 							self._addMessageNoIcon(iPlayer, msg)
 
 						elif fPercentNext >= fVictoryPercent:
-							msg = localText.getText("TXT_KEY_MORECIV4LERTS_POP_GROWTH_EXCEEDS_LIMIT", (iTeamPop, iGrowthCount, (u"%.2f%%" % fPercentNext), iLimitPop, (u"%.2f%%" % fVictoryPercent)))
+							msg = TRNSLTR.getText("TXT_KEY_MORECIV4LERTS_POP_GROWTH_EXCEEDS_LIMIT", (iTeamPop, iGrowthCount, (u"%.2f%%" % fPercentNext), iLimitPop, (u"%.2f%%" % fVictoryPercent)))
 							self._addMessageNoIcon(iPlayer, msg)
 
 						elif fVictoryPercent - fPercentNext < self.options.getDomPopThreshold():
-							msg = localText.getText("TXT_KEY_MORECIV4LERTS_POP_GROWTH_CLOSE_TO_LIMIT", (iTeamPop, iGrowthCount, (u"%.2f%%" % fPercentNext), iLimitPop, (u"%.2f%%" % fVictoryPercent)))
+							msg = TRNSLTR.getText("TXT_KEY_MORECIV4LERTS_POP_GROWTH_CLOSE_TO_LIMIT", (iTeamPop, iGrowthCount, (u"%.2f%%" % fPercentNext), iLimitPop, (u"%.2f%%" % fVictoryPercent)))
 							self._addMessageNoIcon(iPlayer, msg)
 
 						elif fVictoryPercent - fPercent < self.options.getDomPopThreshold():
-							msg = localText.getText("TXT_KEY_MORECIV4LERTS_POP_CLOSE_TO_LIMIT", (iTeamPop, (u"%.2f%%" % fPercent), iLimitPop, (u"%.2f%%" % fVictoryPercent)))
+							msg = TRNSLTR.getText("TXT_KEY_MORECIV4LERTS_POP_CLOSE_TO_LIMIT", (iTeamPop, (u"%.2f%%" % fPercent), iLimitPop, (u"%.2f%%" % fVictoryPercent)))
 							self._addMessageNoIcon(iPlayer, msg)
 
 						self.lastPopCount = iTeamPop + iGrowthCount
@@ -188,11 +184,11 @@ class MoreCiv4lertsEvent(AbstractMoreCiv4lertsEvent):
 					fPercent = (iTeamLand * 100.0) / iTotalLand
 
 					if fPercent > fVictoryPercent:
-						msg = localText.getText("TXT_KEY_MORECIV4LERTS_LAND_EXCEEDS_LIMIT", (iTeamLand, (u"%.2f%%" % fPercent), iLimitLand, (u"%.2f%%" % fVictoryPercent)))
+						msg = TRNSLTR.getText("TXT_KEY_MORECIV4LERTS_LAND_EXCEEDS_LIMIT", (iTeamLand, (u"%.2f%%" % fPercent), iLimitLand, (u"%.2f%%" % fVictoryPercent)))
 						self._addMessageNoIcon(iPlayer, msg)
 
 					elif fVictoryPercent - fPercent < self.options.getDomLandThreshold():
-						msg = localText.getText("TXT_KEY_MORECIV4LERTS_LAND_CLOSE_TO_LIMIT", (iTeamLand, (u"%.2f%%" % fPercent), iLimitLand, (u"%.2f%%" % fVictoryPercent)))
+						msg = TRNSLTR.getText("TXT_KEY_MORECIV4LERTS_LAND_CLOSE_TO_LIMIT", (iTeamLand, (u"%.2f%%" % fPercent), iLimitLand, (u"%.2f%%" % fVictoryPercent)))
 						self._addMessageNoIcon(iPlayer, msg)
 
 					self.lastLandCount = iTeamLand
@@ -220,13 +216,13 @@ class MoreCiv4lertsEvent(AbstractMoreCiv4lertsEvent):
 				newTrades = currentTrades.difference(previousTrades).intersection(desiredBonuses)
 				if newTrades:
 					szNewTrades = self.buildBonusString(newTrades)
-					msg = localText.getText("TXT_KEY_MORECIV4LERTS_NEW_BONUS_AVAIL", (GC.getPlayer(iLoopPlayer).getName(), szNewTrades))
+					msg = TRNSLTR.getText("TXT_KEY_MORECIV4LERTS_NEW_BONUS_AVAIL", (GC.getPlayer(iLoopPlayer).getName(), szNewTrades))
 					self._addMessageNoIcon(iPlayer, msg)
 				#Determine removed bonuses
 				removedTrades = previousTrades.difference(currentTrades).intersection(desiredBonuses)
 				if removedTrades:
 					szRemovedTrades = self.buildBonusString(removedTrades)
-					msg = localText.getText("TXT_KEY_MORECIV4LERTS_BONUS_NOT_AVAIL", (GC.getPlayer(iLoopPlayer).getName(), szRemovedTrades))
+					msg = TRNSLTR.getText("TXT_KEY_MORECIV4LERTS_BONUS_NOT_AVAIL", (GC.getPlayer(iLoopPlayer).getName(), szRemovedTrades))
 					self._addMessageNoIcon(iPlayer, msg)
 			#save curr trades for next time
 			self.PrevAvailBonusTrades = tradesByPlayer
@@ -259,13 +255,13 @@ class MoreCiv4lertsEvent(AbstractMoreCiv4lertsEvent):
 				newTechs = currentTechs.difference(previousTechs).intersection(researchTechs)
 				if newTechs:
 					szNewTechs = self.buildTechString(newTechs)
-					msg = localText.getText("TXT_KEY_MORECIV4LERTS_NEW_TECH_AVAIL", (GC.getPlayer(iLoopPlayer).getName(), szNewTechs))
+					msg = TRNSLTR.getText("TXT_KEY_MORECIV4LERTS_NEW_TECH_AVAIL", (GC.getPlayer(iLoopPlayer).getName(), szNewTechs))
 					self._addMessageNoIcon(iPlayer, msg)
 				#Determine removed techs
 				removedTechs = previousTechs.difference(currentTechs).intersection(researchTechs)
 				if removedTechs:
 					szRemovedTechs = self.buildTechString(removedTechs)
-					msg = localText.getText("TXT_KEY_MORECIV4LERTS_TECH_NOT_AVAIL", (GC.getPlayer(iLoopPlayer).getName(), szRemovedTechs))
+					msg = TRNSLTR.getText("TXT_KEY_MORECIV4LERTS_TECH_NOT_AVAIL", (GC.getPlayer(iLoopPlayer).getName(), szRemovedTechs))
 					self._addMessageNoIcon(iPlayer, msg)
 			#save curr trades for next time
 			self.PrevAvailTechTrades = techsByPlayer
@@ -335,7 +331,7 @@ class MoreCiv4lertsEvent(AbstractMoreCiv4lertsEvent):
 					aSet.add(CyPlayerX.getID())
 		newSet = aSet.difference(oldSet)
 		if newSet:
-			self._addMessageNoIcon(iPlayer, localText.getText(TXT_KEY, (self.buildPlayerString(newSet),)))
+			self._addMessageNoIcon(iPlayer, TRNSLTR.getText(TXT_KEY, (self.buildPlayerString(newSet),)))
 		return aSet
 
 	def buildTechString(self, techs):

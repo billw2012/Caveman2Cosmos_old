@@ -68,7 +68,7 @@
 			<option id="MercyRule" key="MercyRule" type="boolean" default="False" get="isMercyRule" set="setMercyRule">
 				<change module="ANewDawnSettings" function="changedMercyRule"/>
 			</option>
-			<option id="ImprovedXP" key="ImprovedXP" type="boolean" default="True" get="isImprovedXP" set="setImprovedXP">
+			<option id="ImprovedXP" key="ImprovedXP" type="boolean" default="False" get="isImprovedXP" set="setImprovedXP">
 				<change module="ANewDawnSettings" function="changedImprovedXP"/>
 			</option>
 			<option id="RealisiticDiplomacy" key="RealisiticDiplomacy" type="boolean" default="True" get="isRealisiticDiplomacy" set="setRealisiticDiplomacy">
