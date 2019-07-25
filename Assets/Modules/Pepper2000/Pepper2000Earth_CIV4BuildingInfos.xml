@@ -6993,7 +6993,7 @@
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
 					<PropertyType>PROPERTY_WATER_POLLUTION</PropertyType>
-					<iAmountPerTurn>-15</iAmountPerTurn>
+					<iAmountPerTurn>15</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
 		</BuildingInfo>
