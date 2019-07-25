@@ -139,7 +139,7 @@ class MoreCiv4lertsEvent(AbstractMoreCiv4lertsEvent):
 						if bCheck2 and CyCity.getCultureLevel() != GC.getNumCultureLevelInfos() - 1:
 							if CyCity.getCulture(iPlayerX) + CyCity.getCommerceRate(CommerceTypes.COMMERCE_CULTURE) >= CyCity.getCultureThreshold():
 								msg = TRNSLTR.getText("TXT_KEY_MORECIV4LERTS_CITY_TO_EXPAND",(CyCity.getName(),))
-								CvUtil.sendMessage(msg, iPlayer, EVENT_MESSAGE_TIME_LONG, icon, ColorTypes(iColor), CyCity.getX(), CyCity.getY(), True, True)
+								CvUtil.sendMessage(msg, iPlayer, EVENT_MESSAGE_TIME_LONG, icon, -1, CyCity.getX(), CyCity.getY(), True, True)
 
 						CyCity, i = CyPlayerX.nextCity(i, False)
 

@@ -1040,8 +1040,8 @@ def handleInput(argsList):
 	return 0
 
 # Entry point for dll requests to display messages.
-def sendMessage(argsList):
-	CvUtil.sendMessage(argsList)
+def sendMessage(args):
+	CvUtil.sendMessage(args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9], args[10], args[11])
 
 # Informs python every time the exe creates tooltip for widgets.
 def updateToolTip(): return
