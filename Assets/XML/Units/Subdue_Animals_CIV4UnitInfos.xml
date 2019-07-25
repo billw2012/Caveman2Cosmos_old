@@ -150,6 +150,18 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_ANTEATER_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_ANTEATER_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_ANTEATER_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -948,6 +960,18 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_BADGER_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BADGER_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BADGER_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -1050,6 +1074,30 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_BALLPYTHON_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BALLPYTHON_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BALLPYTHON_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>		
+				<Building>
+					<BuildingType>BUILDING_SNAKES_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_SNAKES_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_SNAKES_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>				
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -1130,6 +1178,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BARBARYAPE_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BARBARYAPE_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BARBARYAPE_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -1564,6 +1624,18 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_BEAVER_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BEAVER_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BEAVER_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -1749,6 +1821,18 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_BENGALTIGER_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BENGALTIGER_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BENGALTIGER_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -1879,6 +1963,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BISON_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BISON_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BISON_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -2250,6 +2346,18 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_BONGO_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BONGO_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BONGO_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -2597,6 +2705,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BUFFALO_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BUFFALO_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BUFFALO_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -3002,6 +3122,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_NEW_W_MONKEY_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_NEW_W_MONKEY_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_NEW_W_MONKEY_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -3968,9 +4100,9 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_SUBDUED_ANIMAL</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_SUBDUED_COBRA</Description>
-			<Civilopedia>TXT_KEY_CONCEPT_SUBDUED_ANIMALS_PEDIA</Civilopedia>
+			<Civilopedia>TXT_KEY_UNIT_COBRA_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_SUBDUED_ANIMAL_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_SUBDUED_SNAKE1_HELP</Help>
+			<Help>TXT_KEY_UNIT_SUBDUED_COBRA_HELP</Help>
 			<bMilitaryTrade>1</bMilitaryTrade>
 			<bOnlyDefensive>1</bOnlyDefensive>
 			<Buildings>
@@ -4012,6 +4144,30 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_COBRA_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_COBRA_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_COBRA_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_SNAKES_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_SNAKES_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_SNAKES_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -4442,6 +4598,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_CROW_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_CROW_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_CROW_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -7399,6 +7567,18 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_GAZELLE_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GAZELLE_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GAZELLE_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -7485,6 +7665,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GEMSBOK_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GEMSBOK_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GEMSBOK_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -7611,6 +7803,18 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_GERENUK_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GERENUK_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GERENUK_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -7729,6 +7933,30 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GELADA_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GELADA_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GELADA_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_OLD_W_MONKEY_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_OLD_W_MONKEY_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_OLD_W_MONKEY_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -8280,6 +8508,30 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_GORILLA_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GORILLA_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GORILLA_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_OLD_W_MONKEY_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_OLD_W_MONKEY_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_OLD_W_MONKEY_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -8726,6 +8978,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GULL_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GULL_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_GULL_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -9565,6 +9829,14 @@
 					<bBuilding>1</bBuilding>
 				</Building>
 				<Building>
+					<BuildingType>BUILDING_BOAR_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_BOAR_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
 					<BuildingType>BUILDING_BOAR_CAMP</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
@@ -10305,6 +10577,18 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_HYENA_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_HYENA_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_HYENA_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -10545,7 +10829,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_SUBDUED_ANIMAL</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_SUBDUED_IGUANA</Description>
-			<Civilopedia>TXT_KEY_CONCEPT_SUBDUED_ANIMALS_PEDIA</Civilopedia>
+			<Civilopedia>TXT_KEY_UNIT_IGUANA_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_SUBDUED_ANIMAL_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_SUBDUED_IGUANA_HELP</Help>
 			<bMilitaryTrade>1</bMilitaryTrade>
@@ -10581,6 +10865,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_IGUANA_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_IGUANA_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_IGUANA_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -10670,6 +10966,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_IMPALA_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_IMPALA_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_IMPALA_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -10789,6 +11097,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_JAGUAR_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_JAGUAR_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_JAGUAR_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -10917,6 +11237,18 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_KANGAROO_GREY_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_KANGAROO_GREY_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_KANGAROO_GREY_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -11002,7 +11334,7 @@
 			<Description>TXT_KEY_UNIT_SUBDUED_KANGAROO_RED</Description>
 			<Civilopedia>TXT_KEY_UNIT_KANGAROO_RED_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_SUBDUED_ANIMAL_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_SUBDUED_KANGAROO_HELP</Help>
+			<Help>TXT_KEY_UNIT_SUBDUED_KANGAROO_RED_HELP</Help>
 			<bMilitaryTrade>1</bMilitaryTrade>
 			<bOnlyDefensive>1</bOnlyDefensive>
 			<Buildings>
@@ -11048,6 +11380,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_KANGAROO_RED_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_KANGAROO_RED_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_KANGAROO_RED_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -11171,6 +11515,18 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_KOALA_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_KOALA_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_KOALA_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -11214,7 +11570,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_SUBDUED_ANIMAL</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_SUBDUED_KOMODO_DRAGON</Description>
-			<Civilopedia>TXT_KEY_CONCEPT_SUBDUED_ANIMALS_PEDIA</Civilopedia>
+			<Civilopedia>TXT_KEY_UNIT_KOMODO_DRAGON_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_SUBDUED_ANIMAL_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_SUBDUED_KOMODO_DRAGON_HELP</Help>
 			<bMilitaryTrade>1</bMilitaryTrade>
@@ -11250,6 +11606,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_KOMODO_DRAGON_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_KOMODO_DRAGON_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_KOMODO_DRAGON_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -11343,6 +11711,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_KOOKABURRA_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_KOOKABURRA_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_KOOKABURRA_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -11606,6 +11986,18 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_LLAMA_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_LLAMA_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_LLAMA_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -11678,15 +12070,23 @@
 					<bBuilding>1</bBuilding>
 				</Building>
 				<Building>
-					<BuildingType>BUILDING_LION_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
 					<BuildingType>BUILDING_ZOO</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_LION_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_LION_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_LION_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -12675,6 +13075,30 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_OLD_W_MONKEY_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_OLD_W_MONKEY_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_OLD_W_MONKEY_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_MANDRILL_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_MANDRILL_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_MANDRILL_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -13388,9 +13812,9 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_SUBDUED_ANIMAL</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_SUBDUED_MONITOR</Description>
-			<Civilopedia>TXT_KEY_UNIT_MONITOR_PEDIA</Civilopedia>
+			<Civilopedia>TXT_KEY_UNIT_NILE_MONITOR_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_SUBDUED_ANIMAL_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_SUBDUED_MONITOR_HELP</Help>
+			<Help>TXT_KEY_UNIT_SUBDUED_NILE_MONITOR_HELP</Help>
 			<bMilitaryTrade>1</bMilitaryTrade>
 			<bOnlyDefensive>1</bOnlyDefensive>
 			<Buildings>
@@ -13424,6 +13848,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_NILE_MONITOR_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_NILE_MONITOR_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_NILE_MONITOR_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -14228,6 +14664,18 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_OKAPI_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_OKAPI_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_OKAPI_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -14544,6 +14992,18 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_ORANGUTAN_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_ORANGUTAN_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_ORANGUTAN_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -14835,6 +15295,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_OXPECKER_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_OXPECKER_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_OXPECKER_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -15170,6 +15642,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_PEACOCK_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_PEACOCK_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_PEACOCK_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -15842,6 +16326,22 @@
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
+				<Building>
+					<BuildingType>BUILDING_PROCOPTODON_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_PROCOPTODON_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_PROCOPTODON_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_PROCOPTODON_REMAINS</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -15928,7 +16428,7 @@
 			<Description>TXT_KEY_UNIT_SUBDUED_PUFFADDER</Description>
 			<Civilopedia>TXT_KEY_UNIT_PUFFADDER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_SUBDUED_ANIMAL_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_SUBDUED_SNAKE1_HELP</Help>
+			<Help>TXT_KEY_UNIT_SUBDUED_PUFFADDER_HELP</Help>
 			<bMilitaryTrade>1</bMilitaryTrade>
 			<bOnlyDefensive>1</bOnlyDefensive>
 			<Buildings>
@@ -15970,6 +16470,30 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_PUFFADDER_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_PUFFADDER_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_PUFFADDER_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_SNAKES_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_SNAKES_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_SNAKES_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -16051,6 +16575,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_QUOLL_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_QUOLL_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_QUOLL_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -16238,6 +16774,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_RATEL_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_RATEL_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_RATEL_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -16901,6 +17449,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_WARTHOG_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_WARTHOG_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_WARTHOG_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -21437,7 +21997,7 @@
 			<Description>TXT_KEY_UNIT_SUBDUED_VIPER</Description>
 			<Civilopedia>TXT_KEY_UNIT_VIPER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_SUBDUED_ANIMAL_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_SUBDUED_SNAKE1_HELP</Help>
+			<Help>TXT_KEY_UNIT_SUBDUED_VIPER_HELP</Help>
 			<bMilitaryTrade>1</bMilitaryTrade>
 			<bOnlyDefensive>1</bOnlyDefensive>
 			<Buildings>
@@ -21479,6 +22039,30 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_VIPER_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_VIPER_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_VIPER_STORIES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_SNAKES_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_SNAKES_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_SNAKES_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -21761,6 +22345,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_WALLAROO_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_WALLAROO_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_WALLAROO_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
@@ -22077,6 +22673,18 @@
 				</Building>
 				<Building>
 					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_WILDEBEEST_MYTH</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_WILDEBEEST_STORY</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+				<Building>
+					<BuildingType>BUILDING_WILDEBEEST_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
