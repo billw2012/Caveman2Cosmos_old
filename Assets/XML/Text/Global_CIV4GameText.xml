@@ -19251,7 +19251,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REQUIRES_RAW_IN_CITY_VICINITY</Tag>
-		<English>[COLOR_WARNING_TEXT]Bonus required in city vicinity, or manufactured locally: </English>
+		<English>[COLOR_WARNING_TEXT]Bonus required in city vicinity, or manufactured locally (No need for improvement): </English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REQUIRES_NO_WARNING</Tag>
@@ -19278,7 +19278,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REQUIRES_RAW_VICINITY_BONUS</Tag>
-		<English>[COLOR_WARNING_TEXT]Requires %s1_Text in City Vicinity, or manufactured locally[COLOR_REVERT]</English>
+		<English>[COLOR_WARNING_TEXT]Requires %s1_Text in City Vicinity, or manufactured locally (No need for improvement)[COLOR_REVERT]</English>
 		<German>[ICON_BULLET][COLOR_WARNING_TEXT]erforderlich: %s1_Text (hergestellt oder vorhanden im Stadtradius)[COLOR_REVERT]</German>
 	</TEXT>
 	<TEXT>
