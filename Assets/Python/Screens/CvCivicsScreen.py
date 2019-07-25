@@ -1,601 +1,579 @@
-## Sid Meier's Civilization 4
-## Copyright Firaxis Games 2005
+
 from CvPythonExtensions import *
-import CvUtil
-import ScreenInput
-import CvScreenEnums
-import string
-import CvScreensInterface
-
-import BugCore
-BugOpt = BugCore.game.Advisors
-
-import BugUtil
+import CvScreensInterface as UP
+import HandleInputUtil
+import PythonToolTip as pyTT
 
 # globals
-gc = CyGlobalContext()
-game = gc.getGame()
-ArtFileMgr = CyArtFileMgr()
-localText = CyTranslator()
-
-import PyHelpers
-PyPlayer = PyHelpers.PyPlayer
+GC = CyGlobalContext()
+AFM = CyArtFileMgr()
+GTM = CyGameTextMgr()
+TRNSLTR = CyTranslator()
+GAME = GC.getGame()
 
 class CvCivicsScreen:
-	"Civics Screen"
 
-	def __init__(self):
-		self.USER_ADJUSTMENT = 15 # default 100
-		self.SCREEN_NAME = "CivicsScreen"
-		self.CANCEL_NAME = "CivicsCancel"
-		self.EXIT_NAME = "CivicsExit"
-		self.TITLE_NAME = "CivicsTitleHeader"
-		self.TITLE_TOP_PANEL = "CivicsTopPanel"
-		self.TITLE_BOTTOM_PANEL = "CivicsBottomPanel"
-		self.BUTTON_NAME = "CivicsScreenButton"
-		self.TEXT_NAME = "CivicsScreenText"
-		self.AREA_NAME = "CivicsScreenArea"
-		self.HELP_AREA_NAME = "CivicsScreenHelpArea"
-		self.HELP_IMAGE_NAME = "CivicsScreenCivicOptionImage"
-		self.DEBUG_DROPDOWN_ID =  "CivicsDropdownWidget"
-		self.BACKGROUND_ID = "CivicsBackground"
-		self.HELP_HEADER_NAME = "CivicsScreenHeaderName"
-		self.QUICKVIEW_ADD = "QuickView"
+	def __init__(self, screenId):
+		self.screenId = screenId
 
-		self.CivicsScreenInputMap = {
-			self.BUTTON_NAME	: self.CivicsButton,
-			self.TEXT_NAME		: self.CivicsButton,
-			self.EXIT_NAME		: self.Revolution,
-			self.CANCEL_NAME	: self.Cancel}
+		import SystemPaths as SP
+		path = SP.modDir + "\UserSettings\CivicScreen.txt"
 
-		self.iActivePlayer = -1
-
-		self.m_paeCurrentCivics = []
-		self.m_paeDisplayCivics = []
-		self.m_paeOriginalCivics = []
-		self.m_paiCivicOptionHeight = []
-
-		self.HEADINGS_TOP = 0
-	#	self.HEADINGS_BOTTOM = 220 Never Used
-		self.HEADINGS_LEFT = 0
-		self.HEADINGS_RIGHT = 260
-		self.HELP_TOP = 20
-		self.HELP_BOTTOM = 610
-		self.HELP_LEFT = 290
-		self.HELP_RIGHT = 950
-		self.BUTTON_SIZE = 24
-		self.BIG_BUTTON_SIZE = 64
-		self.BOTTOM_LINE_TOP = 630
-		self.BOTTOM_LINE_HEIGHT = 60
-		self.Y_EXIT = 726
-		self.Y_CANCEL = 726
-		self.Y_SCREEN = 396
-		self.H_SCREEN = 768
-		self.Z_SCREEN = -6.1
-		self.Y_TITLE = 8
-		self.Z_TEXT = self.Z_SCREEN - 0.2
-		self.TEXT_MARGIN = 11			# original = 15
-
-
-
-	def setValues(self):
-		screen = CyGInterfaceScreen("MainInterface", CvScreenEnums.MAIN_INTERFACE)
-		resolutionWidth = 1024
-		resolutionHeigth = 768
-
-
-		self.H_SCREEN = resolutionHeigth
-		self.W_SCREEN = resolutionWidth
-		
-# Afforess - Tech Screen Resolution - start
-		self.TEXT_SIZE_SCALE = 1
-		if (screen.getXResolution() > 1024):
-			self.W_SCREEN = screen.getXResolution()
-			self.HELP_RIGHT = (screen.getXResolution() - 74) #950 + 250
-		if (screen.getYResolution() > 768):
-			self.H_SCREEN = screen.getYResolution()
-# Afforess - Tech Screen Resolution - end
-#DancinhHoskuld - max help characters per line - start
-		self.MAX_HELP_CHARS_PER_LINE = int(screen.getXResolution() / 8.5) - 40
-#DancinhHoskuld - max help characters per line
-
-
-		self.X_CANCEL = 20
-		self.X_POSITION = 0
-		self.Y_POSITION = 0
-		self.PANEL_HEIGHT = 165
-		self.QUICKVIEW_WIDTH = 150
-		self.QUICKVIEW_TOP = 25 # was 35
-		self.PANEL_WIDTH = 0
-		self.INITIAL_SPACING = 30
-		self.HEADINGS_WIDTH = 320
-		#RevolutionDCM start - revolutions screen adjustment
-		#if ((not game.isOption(GameOptionTypes.GAMEOPTION_NO_REVOLUTION)) and BugCore.game.RoMSettings.isShowRevCivics()):
-		#	for l in range(gc.getNumCivicInfos()):
-		#		self.HEADINGS_HEIGHT = (((40 + self.BUTTON_SIZE + self.TEXT_MARGIN) * l/self.CIVICCATEGORIES)/5 * 2) + 260 + self.USER_ADJUSTMENT
-		#else:
-		#	for l in range(gc.getNumCivicInfos()):
-		#		self.HEADINGS_HEIGHT = (((40 + self.BUTTON_SIZE + self.TEXT_MARGIN) * l/self.CIVICCATEGORIES)/5 * 2) + 160 + self.USER_ADJUSTMENT
-		#RevolutionDCM end
-		self.RIGHT_LINE_WIDTH = 0
-		self.SCROLL_BAR_SPACING = 40
-		self.BOTTOM_LINE_TEXT_SPACING = 150
-		self.BOTTOM_LINE_WIDTH = self.W_SCREEN
-		self.BOTTOM_LINE_HEIGHT = 70
-
-		self.X_SCREEN = self.W_SCREEN / 2
-		self.Y_CANCEL = self.H_SCREEN - 40
-		self.Y_EXIT = self.H_SCREEN - 40
-		self.HELP_BOTTOM = self.H_SCREEN - self.PANEL_HEIGHT - self.BOTTOM_LINE_HEIGHT - 10
-
-		self.BOTTOM_LINE_TOP = self.H_SCREEN - self.BOTTOM_LINE_HEIGHT
-		self.X_EXIT = self.W_SCREEN - 30
+		if SP.isFile(path):
+			from string import split
+			file = open(path, 'r')
+			self.iTab = int(file.readline().split("=")[1])
+			self.iType = int(file.readline().split("=")[1])
+			file.close()
+		else:
+			self.iTab = 0
+			self.iType = 1
+			file = open(path, "w")
+			file.write("Tab = 0\nType = 1")
+			file.close()
 
 	def getScreen(self):
-		return CyGInterfaceScreen(self.SCREEN_NAME, CvScreenEnums.CIVICS_SCREEN)
+		return CyGInterfaceScreen("CivicsScreen", self.screenId)
 
 	def setActivePlayer(self, iPlayer):
 
-		self.iActivePlayer = iPlayer
-		activePlayer = gc.getPlayer(iPlayer)
+		self.CyPlayer = CyPlayer = GC.getPlayer(iPlayer)
+		self.bCanRevolution = iPlayer == self.iPlayerAct and CyPlayer.canRevolution(0)
 
-		self.m_paeCurrentCivics = []
-		self.m_paeDisplayCivics = []
-		self.m_paeOriginalCivics = []
-		self.m_paiCivicOptionHeight = []
-		for i in range (gc.getNumCivicOptionInfos()):
-			self.m_paeCurrentCivics.append(activePlayer.getCivics(i))
-			self.m_paeDisplayCivics.append(activePlayer.getCivics(i))
-			self.m_paeOriginalCivics.append(activePlayer.getCivics(i))
-			self.m_paiCivicOptionHeight.append(self.getRealHeadingHeight(i))
+		civicListPerOption = []
+		current = []
+		origina = []
+		for iCat in xrange(GC.getNumCivicOptionInfos()):
+			civicListPerOption.append([])
+			iCivic = CyPlayer.getCivics(iCat)
+			current.append(iCivic)
+			origina.append(iCivic)
+
+		for iCivicX in xrange(GC.getNumCivicInfos()):
+			CvCivicInfoX = GC.getCivicInfo(iCivicX)
+			iCivicOption = CvCivicInfoX.getCivicOptionType()
+			civicListPerOption[iCivicOption].append((CvCivicInfoX, iCivicX))
+		self.currentCivics = current
+		self.originalCivics = origina
+		self.civicListPerOption = civicListPerOption
+		self.iCivicDisplayed = -1
 
 
+	def interfaceScreen(self):
 
-	def interfaceScreen (self):
-		self.setValues()
 		screen = self.getScreen()
 		if screen.isActive():
 			return
-# Afforess - Tech Screen Resolution - start
-		if (screen.getXResolution() > 1024):
-			self.W_SCREEN = screen.getXResolution()
-			self.X_SCREEN = int(self.W_SCREEN * 1.5)
-# Afforess - Tech Screen Resolution - end
-		screen.setRenderInterfaceOnly(True);
-		screen.showScreen( PopupStates.POPUPSTATE_IMMEDIATE, False)
-		screen.setDimensions(self.X_POSITION, self.Y_POSITION, self.W_SCREEN, self.H_SCREEN * 2)
-		screen.addDDSGFC(self.BACKGROUND_ID, ArtFileMgr.getInterfaceArtInfo("SCREEN_BG_OPAQUE").getPath(), 0, 0, self.W_SCREEN, self.H_SCREEN, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 
-		# Panels on the Top(name of screen) and bottom(Cancel, Exit, Revolution buttons)
-		screen.addPanel( self.TITLE_TOP_PANEL, u"", u"", True, False, 0, 0, self.W_SCREEN, self.PANEL_HEIGHT, PanelStyles.PANEL_STYLE_TOPBAR )
-		screen.addPanel( self.TITLE_BOTTOM_PANEL, u"", u"", True, False, 0, self.BOTTOM_LINE_TOP, self.W_SCREEN * 2, self.H_SCREEN - self.BOTTOM_LINE_TOP, PanelStyles.PANEL_STYLE_BOTTOMBAR )
-		screen.addScrollPanel( self.QUICKVIEW_ADD, u"", 0, 0, self.W_SCREEN, self.PANEL_HEIGHT-20, PanelStyles.PANEL_STYLE_EXTERNAL )
-		screen.setActivation( self.QUICKVIEW_ADD, ActivationTypes.ACTIVATE_NORMAL )
+		import InputData
+		self.InputData = InputData.instance
+		# Tool Tip
+		self.szTxtTT = ""
+		self.iOffsetTT = []
+		self.bLockedTT = False
+		# Resolution
+		import ScreenResolution as SR
+		self.xRes = xRes = SR.x
+		self.yRes = yRes = SR.y
+		self.xMid = xMid = xRes / 2
+
+		if yRes > 1000:
+			self.H_EDGE = H_EDGE = 42
+			uFontEdge = "<font=4b>"
+		elif yRes > 800:
+			self.H_EDGE = H_EDGE = 34
+			uFontEdge = "<font=3b>"
+		else:
+			self.H_EDGE = H_EDGE = 30
+			uFontEdge = "<font=2b>"
+
+		if xRes > 1700:
+			self.iSize = 64
+			self.aFontList = aFontList = [uFontEdge, "<font=4b>", "<font=4>", "<font=3b>", "<font=3>", "<font=2b>", "<font=2>"]
+		elif xRes > 1400:
+			self.iSize = 56
+			self.aFontList = aFontList = [uFontEdge, "<font=3b>", "<font=3>", "<font=2b>", "<font=2>", "<font=1b>", "<font=1>"]
+		else:
+			self.iSize = 48
+			self.aFontList = aFontList = [uFontEdge, "<font=2b>", "<font=2>", "<font=1b>", "<font=1>", "<font=0b>", "<font=0>"]
+
+		Y_BOT_TEXT = yRes - H_EDGE + 8
+
+		H_STAT_BAR = 7*H_EDGE/3
+		self.Y_STAT_BAR = Y_STAT_BAR = yRes - H_STAT_BAR
+		self.Y_MID_STAT_BAR = y = Y_STAT_BAR + (H_STAT_BAR - H_EDGE)/2 - 6
+
+		# Caching
+		self.bDebug = bDebug = GAME.isDebugMode()
+		self.iPlayer = iPlayer = GAME.getActivePlayer()
+		self.iPlayerAct = iPlayer
+		self.setActivePlayer(iPlayer)
+		self.HILITE = AFM.getInterfaceArtInfo("BUTTON_HILITE_SQUARE").getPath()
+		self.CANCEL = AFM.getInterfaceArtInfo("INTERFACE_BUTTONS_CANCEL").getPath()
+		self.nWidgetCount = 0
+		self.ScPnl = ""
+		self.aCoordList = []
+
+		# Base Screen
+		eWidGen = WidgetTypes.WIDGET_GENERAL
+		eFontTitle = FontTypes.TITLE_FONT
+
+		screen.setRenderInterfaceOnly(True)
 		screen.showWindowBackground(False)
+		screen.setDimensions(0, 0, xRes, yRes)
 
-		# Set the background and exit button, and show the screen
-		screen.setDimensions((screen.getXResolution() - self.W_SCREEN), (screen.getYResolution() - self.H_SCREEN), self.W_SCREEN, self.H_SCREEN)
+		screen.addDDSGFC("Civic_BG", AFM.getInterfaceArtInfo("SCREEN_BG_OPAQUE").getPath(), 0, 0, xRes, yRes, eWidGen, 1, 1)
+		screen.addPanel("TopPanel", "", "", True, False, 0, 0, xRes, H_EDGE, PanelStyles.PANEL_STYLE_TOPBAR)
+		screen.addPanel("StatPanel", "", "", True, True, 0, Y_STAT_BAR, xRes, H_STAT_BAR, PanelStyles.PANEL_STYLE_BOTTOMBAR)
+		screen.addPanel("BottomPanel", "", "", True, False, 0, yRes - H_EDGE, xRes, H_EDGE, PanelStyles.PANEL_STYLE_BOTTOMBAR)
 
-		# set the standard "exit" text, other text "cancel, revolution" are handled at the bottom in this python file
-		screen.setText(self.CANCEL_NAME, "Background", u"<font=4>" + localText.getText("TXT_KEY_SCREEN_CANCEL", ()).upper() + u"</font>", CvUtil.FONT_LEFT_JUSTIFY, self.X_CANCEL, self.Y_CANCEL, self.Z_TEXT, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, 1, 0)
+		szTxt = uFontEdge + TRNSLTR.getText("TXT_KEY_CIVIC_SCREEN_UPKEEP", (self.CyPlayer.getCivicUpkeep(self.currentCivics, True), ))
+		screen.setLabel("", "", szTxt, 1<<2, xMid, 2, 0, eFontTitle, eWidGen, 1, 1)
+		szTxt = uFontEdge + TRNSLTR.getText("TXT_KEY_PEDIA_SCREEN_EXIT", ())
+		screen.setText("CivicExit", "", szTxt, 1<<1, xRes - 8, 0, 0, eFontTitle, WidgetTypes.WIDGET_CLOSE_SCREEN, -1, -1)
 
-	# Header...
-		screen.setText(self.TITLE_NAME, "Background", u"<font=4b>" + localText.getText("TXT_KEY_CIVICS_SCREEN_TITLE", ()).upper() + u"</font>", CvUtil.FONT_CENTER_JUSTIFY, self.X_SCREEN, self.Y_TITLE, self.Z_TEXT, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
+		szTxt = aFontList[1] + TRNSLTR.getText("TXT_KEY_SCREEN_CANCEL", ())
+		screen.setText("CivicCancel", "", szTxt, 1<<0, 16, y, 0, eFontTitle, eWidGen, 1, 1)
+		szTxt = aFontList[1] + TRNSLTR.getText("TXT_KEY_CONCEPT_REVOLUTION", ( ))
+		screen.setText("CivicRevolution", "", szTxt, 1<<1, xRes - 16, y, 0, eFontTitle, eWidGen, 1, 1)
+		screen.hide("CivicCancel")
+		screen.hide("CivicRevolution")
 
-		self.setActivePlayer(game.getActivePlayer())
+		# Tabs
+		szCol = "<color=255,255,0>"
+		szTxt = uFontEdge + "Civics"
+		dX = xMid
+		x = dX / 2
+		screen.setText("Civic_Tab0", "", szTxt, 1<<2, x, Y_BOT_TEXT, 0, eFontTitle, eWidGen, 0, 0)
+		screen.setText("Civic_Tab|Col0", "", szCol + szTxt, 1<<2, x, Y_BOT_TEXT, 0, eFontTitle, eWidGen, 0, 0)
+		screen.hide("Civic_Tab|Col0")
 
-		if (CyGame().cheatCodesEnabled() or gc.getTeam(gc.getGame().getActiveTeam()).getNumMembers() > 1):
-			self.szDropdownName = self.DEBUG_DROPDOWN_ID
-			screen.addDropDownBoxGFC(self.szDropdownName, 22, 12, 300, WidgetTypes.WIDGET_GENERAL, -1, -1, FontTypes.GAME_FONT)
-			for j in range(gc.getMAX_PLAYERS()):
-				if (gc.getPlayer(j).isAlive()):
-					if (CyGame().cheatCodesEnabled() or gc.getPlayer(j).getTeam() == gc.getGame().getActiveTeam()):
-						screen.addPullDownString(self.szDropdownName, gc.getPlayer(j).getName(), j, j, False )
+		szTxt = uFontEdge + "Policy"
+		x += dX
+		screen.setText("Civic_Tab1", "", szTxt, 1<<2, x, Y_BOT_TEXT, 0, eFontTitle, eWidGen, 0, 0)
+		screen.setText("Civic_Tab|Col1", "", szCol + szTxt, 1<<2, x, Y_BOT_TEXT, 0, eFontTitle, eWidGen, 0, 0)
+		screen.hide("Civic_Tab|Col1")
 
-		# Make the scrollable area for the civics list...
-		screen.addScrollPanel( "CivicList", u"", self.PANEL_WIDTH, self.PANEL_HEIGHT - 15, self.W_SCREEN, self.HELP_BOTTOM, PanelStyles.PANEL_STYLE_EXTERNAL )
-		screen.setActivation( "CivicList", ActivationTypes.ACTIVATE_NORMAL )
+		# Display type DD
+		screen.setImageButton("CivicDisplay", "Art/Interface/Buttons/general/scroll.dds", 8, 0, H_EDGE - 8, H_EDGE - 8, eWidGen, 1, 1)
 
+		# Debug
+		if GAME.isDebugMode():
+			DD = "Civic_DebugDD"
+			screen.addDropDownBoxGFC(DD, H_EDGE, 0, 300, eWidGen, 1, 1, FontTypes.GAME_FONT)
+			for iPlayerX in xrange(GC.getMAX_PLAYERS()):
+				CyPlayerX = GC.getPlayer(iPlayerX)
+				if CyPlayerX.isAlive():
+					screen.addPullDownString(DD, CyPlayerX.getName(), iPlayerX, iPlayerX, iPlayerX == iPlayer)
 
 		# Draw Contents
-		self.drawContents()
+		self.drawContents(screen)
+		screen.showScreen(PopupStates.POPUPSTATE_IMMEDIATE, False)
 
-		return 0
 
 	# Draw the contents...
-	def drawContents(self):
+	def drawContents(self, screen):
+		self.deleteAllWidgets()
+		screen.hide("CivicText")
 
-		# Draw the radio buttons
-		self.drawAllButtons()
-
-		# Draw Help Text
-		self.drawAllHelpText()
-
-		# Update Maintenance/anarchy/etc.
-		self.updateAnarchy()
-
-	def drawCivicOptionButtons(self, iCivicOption):
-
-		activePlayer = gc.getPlayer(self.iActivePlayer)
-		screen = self.getScreen()
-
-		for j in range(gc.getNumCivicInfos()):
-			
-			#Skip unresearchable techs
-			if (self.canEverDoCivic(j) and gc.getCivicInfo(j).getCivicOptionType() == iCivicOption):
-				screen.setState(self.getCivicsButtonName(j), self.m_paeCurrentCivics[iCivicOption] == j)
-				screen.setState(self.getCivicsButtonName(j)+self.QUICKVIEW_ADD, self.m_paeCurrentCivics[iCivicOption] == j)
-
-				if (self.m_paeDisplayCivics[iCivicOption] == j):
-					screen.setState(self.getCivicsButtonName(j), True)
-					screen.setState(self.getCivicsButtonName(j)+self.QUICKVIEW_ADD, True)
-					screen.show(self.getCivicsButtonName(j))
-					screen.show(self.getCivicsButtonName(j)+self.QUICKVIEW_ADD)
-				elif (activePlayer.canDoCivics(j)):
-					#screen.setState(self.getCivicsButtonName(j), False)
-					screen.show(self.getCivicsButtonName(j))
-					screen.show(self.getCivicsButtonName(j)+self.QUICKVIEW_ADD)
-				else:
-					screen.hide(self.getCivicsButtonName(j))
-					screen.hide(self.getCivicsButtonName(j)+self.QUICKVIEW_ADD)
-
-	# Will draw the radio buttons (and revolution)
-	def drawAllButtons(self):
-
-		for i in range(gc.getNumCivicOptionInfos()):
-
-			screen = self.getScreen()
-
-			#fY = self.HEADINGS_HEIGHT * i
-			height = self.getHeadingHeight(i)
-			fY = self.getHeadingHeightAt(i) - height
-			fX = self.HEADINGS_LEFT
-
-			ffX = 3 + self.QUICKVIEW_WIDTH * i
-			ffY = self.QUICKVIEW_TOP + self.BIG_BUTTON_SIZE
-
-			# draw the Top Screen panels for the civics
-			szAreaID = self.AREA_NAME + str(i)
-			screen.attachPanelAt( "CivicList", szAreaID, u"", u"", True, True, PanelStyles.PANEL_STYLE_MAIN, fX, fY + self.HEADINGS_TOP, self.HEADINGS_RIGHT - self.HEADINGS_LEFT, height, WidgetTypes.WIDGET_GENERAL, i, -1 )
-
-
-			# draw the civic category(government, labor, ...)
-
-			szCivicID = "CivicID" + str(i)
-			screen.setTextAt( szCivicID, "CivicList", u"<font=4>" + gc.getCivicOptionInfo(i).getDescription() + u"</font>", CvUtil.FONT_CENTER_JUSTIFY, fX + self.HEADINGS_WIDTH / 6, fY + 6, 0, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, i, -1 )
-			screen.setActivation( szCivicID, ActivationTypes.ACTIVATE_MIMICPARENTFOCUS)
-			fY += 3 * self.TEXT_MARGIN
-
-			iCount = 0
-			for j in range(gc.getNumCivicInfos()):
-				if (self.canEverDoCivic(j)):
-					if (gc.getCivicInfo(j).getCivicOptionType() == i):
-
-						iCount += 1
-						#Clone these to get the smaller checkboxes.  But you need to set up the clicking behavior manually, as well as enabling Mouseover Help information displays.
-						screen.addCheckBoxGFCAt("CivicList", self.getCivicsButtonName(j), gc.getCivicInfo(j).getButton(), ArtFileMgr.getInterfaceArtInfo("BUTTON_HILITE_SQUARE").getPath(), fX + 12, fY, self.BUTTON_SIZE, self.BUTTON_SIZE, WidgetTypes.WIDGET_GENERAL, j, 1, ButtonStyles.BUTTON_STYLE_LABEL, False)
-						screen.setActivation( self.getCivicsButtonName(j), ActivationTypes.ACTIVATE_NORMAL )
-						screen.hide (self.getCivicsButtonName(j) )
-
-						screen.addCheckBoxGFCAt(self.QUICKVIEW_ADD, self.getCivicsButtonName(j)+self.QUICKVIEW_ADD, gc.getCivicInfo(j).getButton(), ArtFileMgr.getInterfaceArtInfo("BUTTON_HILITE_SQUARE").getPath(), ffX, ffY, self.BUTTON_SIZE, self.BUTTON_SIZE, WidgetTypes.WIDGET_GENERAL, j, 1, ButtonStyles.BUTTON_STYLE_LABEL, False)
-						screen.setActivation( self.getCivicsButtonName(j)+self.QUICKVIEW_ADD, ActivationTypes.ACTIVATE_NORMAL )
-						screen.hide (self.getCivicsButtonName(j)+self.QUICKVIEW_ADD)
-
-						# draw the civic names
-						screen.setTextAt( self.getCivicsTextName(j), "CivicList", u"<font=3>   -   " + gc.getCivicInfo(j).getDescription() + u"</font>", CvUtil.FONT_LEFT_JUSTIFY, fX + 12 + self.BUTTON_SIZE + 10 , fY, 0, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
-
-						# make sure the next line is put down under the previous
-						fY += 2 * self.TEXT_MARGIN + 1
-						ffX += 3 + self.BUTTON_SIZE
-						if(iCount%5==0):
-							ffX -= 5 * (3 + self.BUTTON_SIZE)
-							ffY += 3 + self.BUTTON_SIZE
-
-				self.drawCivicOptionButtons(i)
-			
-	def canEverDoCivic(self, iCivic):
-		activePlayer = gc.getPlayer(self.iActivePlayer)
-		if (gc.getCivicInfo(iCivic).getTechPrereq() != -1):
-			if (not activePlayer.canEverResearch(gc.getCivicInfo(iCivic).getTechPrereq())):
-				return False
-		return True
-
-	def highlight(self, iCivic):
-		iCivicOption = gc.getCivicInfo(iCivic).getCivicOptionType()
-		if self.m_paeDisplayCivics[iCivicOption] != iCivic:
-			self.m_paeDisplayCivics[iCivicOption] = iCivic
-			self.drawCivicOptionButtons(iCivicOption)
-			return True
-		return False
-
-	def unHighlight(self, iCivic):
-		iCivicOption = gc.getCivicInfo(iCivic).getCivicOptionType()
-		if self.m_paeDisplayCivics[iCivicOption] != self.m_paeCurrentCivics[iCivicOption]:
-			self.m_paeDisplayCivics[iCivicOption] = self.m_paeCurrentCivics[iCivicOption]
-			self.drawCivicOptionButtons(iCivicOption)
-			return True
-		return False
-
-	def select(self, iCivic):
-		activePlayer = gc.getPlayer(self.iActivePlayer)
-		if (not activePlayer.canDoCivics(iCivic)):
-			# If you can't even do this, get out....
-			return 0
-
-		iCivicOption = gc.getCivicInfo(iCivic).getCivicOptionType()
-
-		# Set the previous widget
-		iCivicPrev = self.m_paeCurrentCivics[iCivicOption]
-
-		# Switch the widgets
-		self.m_paeCurrentCivics[iCivicOption] = iCivic
-
-		# Unighlight the previous widget
-		self.unHighlight(iCivicPrev)
-		self.getScreen().setState(self.getCivicsButtonName(iCivicPrev), False)
-		self.getScreen().setState(self.getCivicsButtonName(iCivicPrev)+self.QUICKVIEW_ADD, False)
-
-		# highlight the new widget
-		self.highlight(iCivic)
-		self.getScreen().setState(self.getCivicsButtonName(iCivic), True)
-		self.getScreen().setState(self.getCivicsButtonName(iCivic)+self.QUICKVIEW_ADD, True)
-
-		return 0
-
-	def CivicsButton(self, inputClass):
-
-		if (inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED) :
-			if (inputClass.getFlags() & MouseFlags.MOUSE_RBUTTONUP):
-				CvScreensInterface.pediaJumpToCivic((inputClass.getID(), ))
+		if not self.iTab:
+			screen.hide("Civic_Tab0")
+			screen.show("Civic_Tab|Col0")
+			if self.iType:
+				self.drawCivics1(screen)
 			else:
-				# Select button
-				self.select(inputClass.getID())
-				self.drawHelpText(gc.getCivicInfo(inputClass.getID()).getCivicOptionType())
-				self.updateAnarchy()
-		elif (inputClass.getNotifyCode() == NotifyCode.NOTIFY_CURSOR_MOVE_ON) :
-			# Highlight this button
-			if self.highlight(inputClass.getID()):
-				self.drawHelpText(gc.getCivicInfo(inputClass.getID()).getCivicOptionType())
-				self.updateAnarchy()
-		elif (inputClass.getNotifyCode() == NotifyCode.NOTIFY_CURSOR_MOVE_OFF) :
-			if self.unHighlight(inputClass.getID()):
-				self.drawHelpText(gc.getCivicInfo(inputClass.getID()).getCivicOptionType())
-				self.updateAnarchy()
-
-		return 0
-
-	def drawHelpText(self, iCivicOption):
-
-		activePlayer = gc.getPlayer(self.iActivePlayer)
-		iCivic = self.m_paeDisplayCivics[iCivicOption]
-
-		screen = self.getScreen()
-		# make sure the string is empty, not needed really, but to be sure
-		szHelpText = u""
-
-		# spacing for the blue background help panel
-		#fY = self.HEADINGS_HEIGHT * iCivicOption
-		height = self.getHeadingHeight(iCivicOption)
-		heightAt = self.getHeadingHeightAt(iCivicOption) - height
-		
-		fY = heightAt
-		fX = self.INITIAL_SPACING + self.HELP_LEFT - self.PANEL_WIDTH + 2 * self.TEXT_MARGIN
-		
-		# draw the blue panels
-		szHelpAreaID = self.HELP_AREA_NAME + str(iCivicOption)
-		screen.attachPanelAt( "CivicList", szHelpAreaID, u"", u"", True, True, PanelStyles.PANEL_STYLE_MAIN, self.HELP_LEFT - self.PANEL_WIDTH + self.INITIAL_SPACING, fY, self.HELP_RIGHT - self.HELP_LEFT, height, WidgetTypes.WIDGET_GENERAL, -1, -1 )
-
-		# spacing for the help strings
-		fY = self.HELP_TOP + heightAt
-		fX = self.HELP_LEFT + self.HEADINGS_WIDTH/2 - 100		
-		
-		#upkeep
-		szPaneIDUpkeep = "Upkeep" + str(iCivicOption)
-		if ((gc.getCivicInfo(iCivic).getUpkeep() != -1) and not activePlayer.isNoCivicUpkeep(iCivicOption)):
-			szHelpText = gc.getUpkeepInfo(gc.getCivicInfo(iCivic).getUpkeep()).getDescription() + u" - %d%c" %(activePlayer.getSingleCivicUpkeep(iCivic, True), gc.getCommerceInfo(CommerceTypes.COMMERCE_GOLD).getChar())
-			screen.setTextAt( szPaneIDUpkeep, "CivicList", u"<font=4>" + szHelpText + u"</font>", CvUtil.FONT_CENTER_JUSTIFY, fX + self.HEADINGS_WIDTH / 4 + 150, fY - self.TEXT_MARGIN , 0, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
-			fY += 1.2 * self.TEXT_MARGIN
+				self.drawCivics0(screen)
 		else:
-			szHelpText = localText.getText("TXT_KEY_CIVICS_SCREEN_NO_UPKEEP", ())
-			screen.setTextAt( szPaneIDUpkeep, "CivicList", u"<font=4>" + szHelpText + u"</font>", CvUtil.FONT_CENTER_JUSTIFY, fX + self.HEADINGS_WIDTH / 4  + 150, fY - self.TEXT_MARGIN, 0, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
-			fY += 1.2 * self.TEXT_MARGIN
-			
-		#Add Strategy text:
-		szStrategy = gc.getCivicInfo(iCivic).getStrategy()
-		if (len(szStrategy) > 2):
-			#~ self.MAX_HELP_CHARS_PER_LINE = int(screen.getXResolution() / 8.5) - 40
-			szStrategyList = szStrategy.split(' ')
-			szFormattedStrategyList = []
-			i = 0
-			chars = 0
-			szFormattedStrategyList.append("")
-			for item in szStrategyList:
-				if (chars + len(item) > self.MAX_HELP_CHARS_PER_LINE):
-					szFormattedStrategyList.append(item)
-					i += 1
-					chars = len(item)
-				else:
-					if (len(item.splitlines()) > 1):
-						#This doesn't work...
-						szList = item.splitlines()
-						for item2 in szList:
-							szFormattedStrategyList.append(item2)
-							i += 1
-							chars = len(item2)
+			self.iTab = 0
+			self.drawContents(screen)
+
+	def drawCivics0(self, screen):
+		xRes = self.xRes
+		yRes = self.yRes
+		xMid = self.xMid
+		H_EDGE = self.H_EDGE
+		iPlayer = self.iPlayer
+		CyPlayer = self.CyPlayer
+		bDebug = self.bDebug
+		CANCEL = self.CANCEL
+		HILITE = self.HILITE
+
+		uFontEdge, uFont4b, uFont4, uFont3b, uFont3, uFont2b, uFont2 = self.aFontList
+
+		iSize = self.iSize
+
+		civicListPerOption = self.civicListPerOption
+		currentCivics = self.currentCivics
+
+		eWidGen = WidgetTypes.WIDGET_GENERAL
+		eFontGame = FontTypes.GAME_FONT
+		ePnlOut = PanelStyles.PANEL_STYLE_OUT
+
+		# Background
+		h = self.Y_STAT_BAR - H_EDGE
+		screen.addPanel(self.getNextWidget(), "", "", True, False, 4, H_EDGE, xRes - 8, h, PanelStyles.PANEL_STYLE_MAIN)
+		# Main Area
+		wScroll = xRes - 14
+		self.ScPnl = ScPnl = self.getNextWidget()
+		screen.addScrollPanel(ScPnl, "", 6, H_EDGE + 2, wScroll, h - 32, PanelStyles.PANEL_STYLE_EMPTY)
+		screen.setStyle(ScPnl, "ScrollPanel_Alt_Style")
+		# Fill screen
+		aCoordList = []
+		dx = iSize + 12
+		y = -2
+		dy = dx
+		iOff = 3*xRes/7
+		iCivicOption = 0
+		for civicList in civicListPerOption:
+			aCoordList.append([])
+			w = len(civicList)*dx + 28
+			if w < wScroll:
+				x = (wScroll - w) / 2
+			else: x = 0
+			# Header
+			szTxt = GC.getCivicOptionInfo(iCivicOption).getDescription()
+			y += 4
+			screen.setLabelAt(self.getNextWidget(), ScPnl, uFont3b + szTxt, 1<<2, xMid - 7, y, 0, eFontGame, eWidGen, 1, 1)
+			iTemp = xRes + iOff
+			while iTemp < w:
+				screen.setLabelAt(self.getNextWidget(), ScPnl, uFont3b + szTxt, 1<<1, iTemp, y, 0, eFontGame, eWidGen, 1, 1)
+				iTemp += xMid + iOff
+			y += 24
+			# Build row
+			screen.attachPanelAt(ScPnl, self.getNextWidget(), "", "", True, True, ePnlOut, x, y, w, dy, eWidGen, 1, 1)
+			x += 16
+			y += 8
+			for CvCivicInfoX, iCivicX in civicList:
+				Img = "WID|CIVIC%d" % iCivicX
+				if bDebug or CyPlayer.canDoCivics(iCivicX):
+					BTN = CvCivicInfoX.getButton()
+				else: BTN = CANCEL
+				aCoordList[iCivicOption].append((x, y))
+				screen.setImageButtonAt(Img, ScPnl, BTN, x, y, iSize, iSize, eWidGen, 1, 1)
+				if iCivicX == currentCivics[iCivicOption]:
+					screen.setImageButtonAt("WID|CIVIC|HL%d" % iCivicX, ScPnl, self.HILITE, x-2, y-2, iSize+6, iSize+6, eWidGen, 1, 1)
+				x += dx
+			y += dy
+			iCivicOption += 1
+		self.aCoordList = aCoordList
+
+	def drawCivics1(self, screen):
+		xRes = self.xRes
+		yRes = self.yRes
+		xMid = self.xMid
+		H_EDGE = self.H_EDGE
+		iPlayer = self.iPlayer
+		CyPlayer = self.CyPlayer
+		bDebug = self.bDebug
+		CANCEL = self.CANCEL
+
+		uFontEdge, uFont4b, uFont4, uFont3b, uFont3, uFont2b, uFont2 = self.aFontList
+
+		iSize = self.iSize/2
+
+		civicListPerOption = self.civicListPerOption
+		currentCivics = self.currentCivics
+
+		eWidGen = WidgetTypes.WIDGET_GENERAL
+		eFontGame = FontTypes.GAME_FONT
+		ePnlMain = PanelStyles.PANEL_STYLE_MAIN
+		ePnlOut = PanelStyles.PANEL_STYLE_OUT
+		iPanelBlue50 = PanelStyles.PANEL_STYLE_BLUE50
+
+		# Background
+		h0 = self.Y_STAT_BAR - H_EDGE
+		screen.addPanel(self.getNextWidget(), "", "", True, False, 8, H_EDGE, 416, h0, iPanelBlue50)
+		self.CivicTxtPnl = CivicTxtPnl = self.getNextWidget()
+		screen.addPanel(CivicTxtPnl, "", "", True, False, 440, H_EDGE, xRes - 448, h0, iPanelBlue50)
+		# Initial civic text
+		x = 456; y = H_EDGE + 16; w = xRes - 470; h = h0 - 32
+		self.aCoordList = [x, y, w, h]
+		if self.iCivicDisplayed > -1:
+			self.setCivicText(screen, self.iCivicDisplayed)
+		# Main Area
+		self.ScPnl = ScPnl = self.getNextWidget()
+		screen.addScrollPanel(ScPnl, "", 4, H_EDGE + 2, 428, h0 - 32, PanelStyles.PANEL_STYLE_EMPTY)
+		screen.setStyle(ScPnl, "ScrollPanel_Alt_Style")
+		# Fill screen
+		dy = iSize + 8
+		y = -2
+		iOff = 3*xRes/7
+		iCivicOption = 0
+		for civicList in civicListPerOption:
+			h = 56 + len(civicList)*dy
+
+			screen.attachPanelAt(ScPnl, self.getNextWidget(), "", "", True, True, ePnlMain, 0, y, 404, h, eWidGen, 1, 1)
+			# Header
+			szTxt = uFont4b + GC.getCivicOptionInfo(iCivicOption).getDescription()
+			y += 12
+			screen.setLabelAt(self.getNextWidget(), ScPnl, szTxt, 1<<0, 10, y, 0, eFontGame, eWidGen, 1, 1)
+			y += 32
+			# Build row
+			for CvCivicInfoX, iCivicX in civicList:
+				Txt = "WID|CIVIC|TEXT%d" % iCivicX
+				if bDebug or CyPlayer.canDoCivics(iCivicX):
+					BTN = CvCivicInfoX.getButton()
+				else: BTN = CANCEL
+				screen.addDDSGFCAt("", ScPnl, BTN, 8, y, iSize, iSize, eWidGen, 1, 1, False)
+
+				if iCivicX == currentCivics[iCivicOption]:
+					szTxt = "<color=255,255,0>" + uFont3b
+				else: szTxt = uFont3
+
+				szTxt += CvCivicInfoX.getDescription()
+				screen.setTextAt(Txt, ScPnl, szTxt, 1<<0, dy, 2 + y, 0, eFontGame, eWidGen, 0, 0)
+				y += dy
+			y += dy
+			iCivicOption += 1
+
+	def setCivicText(self, screen, iCivic):
+		info = GC.getCivicInfo(iCivic)
+		szTxt = self.aFontList[1] + info.getDescription() + "\n"
+		szTxt += self.aFontList[4] + info.getStrategy() + GTM.parseCivicInfo(iCivic, False, True, True) + "\n\n"
+
+		if iCivic in self.originalCivics:
+			szTxt += info.getCivilopedia()
+		else:
+			iCivicOption = 0
+			for civicList in self.civicListPerOption:
+				for _, iCivicX in civicList:
+					if iCivicX == iCivic:
+						iCivic = self.originalCivics[iCivicOption]
+						info = GC.getCivicInfo(iCivic)
+						szTxt += self.aFontList[1] + info.getDescription() + "\n"
+						szTxt += self.aFontList[4] + info.getStrategy() + GTM.parseCivicInfo(iCivic, False, True, True)
+						break
+				else: iCivicOption += 1; continue
+				break
+
+		x, y, w, h = self.aCoordList
+		screen.addMultilineText("CivicText", szTxt, x, y, w, h, WidgetTypes.WIDGET_GENERAL, 1, 1, 1<<0)
+
+	def selectCivic(self, screen, iCivic):
+		iCivicOption = 0
+		for civicList in self.civicListPerOption:
+			iCount = 0
+			for _, iCivicX in civicList:
+				if iCivicX == iCivic:
+					iCivicY = self.currentCivics[iCivicOption]
+					if self.iType:
+						Txt = "WID|CIVIC|TEXT%d" % iCivicY
+						screen.hide(Txt)
+						szTxt = self.aFontList[4] + GC.getCivicInfo(iCivicY).getDescription()
+						screen.modifyString(Txt, szTxt, 1<<0)
+						screen.show(Txt)
+						Txt = "WID|CIVIC|TEXT%d" % iCivic
+						screen.hide(Txt)
+						szTxt = self.aFontList[3] + "<color=255,255,0>" + GC.getCivicInfo(iCivic).getDescription()
+						screen.modifyString(Txt, szTxt, 1<<0)
+						screen.show(Txt)
 					else:
-						szFormattedStrategyList[i] += " " + item
-						chars += len(item)
-				
-			for item in szFormattedStrategyList:	
-				item = BugUtil.colorText(item, "COLOR_YELLOW")
-				szPanelIDHelpItem = "CivicStrategyText" + str(iCivicOption) + str(i)
-				screen.setTextAt( szPanelIDHelpItem, "CivicList", u"<font=3>" + item + u"</font>", CvUtil.FONT_CENTER_JUSTIFY, fX , fY + 6, 0, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 ) #Afforess
-				fY += 2 * self.TEXT_MARGIN #Afforess was 1.5
-				i += 1
+						screen.deleteWidget("WID|CIVIC|HL%d" % iCivicY)
+						x, y = self.aCoordList[iCivicOption][iCount]
+						iSize = self.iSize + 6
+						screen.setImageButtonAt("WID|CIVIC|HL%d" % iCivic, self.ScPnl, self.HILITE, x-2, y-2, iSize, iSize, WidgetTypes.WIDGET_GENERAL, 1, 1)
+					self.currentCivics[iCivicOption] = iCivic
+					break
+				iCount += 1
+			else: 
+				iCivicOption += 1; continue
+			break
 
-			
-		szHelpText = CyGameTextMgr().parseCivicInfo(iCivic, False, True, True)
-		HelpList = szHelpText.splitlines()
-		i = 0
-		for item in HelpList:
-			szPanelIDHelpItem = "CivicListHelp" + str(iCivicOption) + str(i)
-			screen.setTextAt( szPanelIDHelpItem, "CivicList", u"<font=3>" + item + u"</font>", CvUtil.FONT_LEFT_JUSTIFY, fX , fY + 6, 0, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 ) #Afforess
-			fY += 2 * self.TEXT_MARGIN #Afforess was 1.5
-			i += 1
+	def updateStatus(self, screen):
 
-
-		# johny smith ScreenTweaks LINE:
-		fY = heightAt
-		fX = self.INITIAL_SPACING + self.HELP_LEFT - self.BIG_BUTTON_SIZE
-		ffX = (self.QUICKVIEW_WIDTH) * iCivicOption + (self.QUICKVIEW_WIDTH-self.BIG_BUTTON_SIZE)/2
-
-		szHelpImageID = self.HELP_IMAGE_NAME + str(iCivicOption)
-		screen.setImageButtonAt(szHelpImageID, "CivicList", gc.getCivicInfo(iCivic).getButton(), fX - self.PANEL_WIDTH + self.INITIAL_SPACING/17 * 2, fY + height/2 - self.BIG_BUTTON_SIZE/2, self.BIG_BUTTON_SIZE, self.BIG_BUTTON_SIZE, WidgetTypes.WIDGET_PEDIA_JUMP_TO_CIVIC, iCivic, 1)
-		screen.setImageButtonAt(szHelpImageID+self.QUICKVIEW_ADD, self.QUICKVIEW_ADD, gc.getCivicInfo(iCivic).getButton(), ffX, self.QUICKVIEW_TOP, self.BIG_BUTTON_SIZE, self.BIG_BUTTON_SIZE, WidgetTypes.WIDGET_PEDIA_JUMP_TO_CIVIC, iCivic, 1)
-
-	
-	def getHeadingHeight(self, iCivicOption):
-		return self.m_paiCivicOptionHeight[iCivicOption]
-		
-	def getLinesOfHelpText(self, iCivicOption):
-		lines = 0
-		mostLines = -1
-		for iCivic in range (gc.getNumCivicInfos()):
-			if (gc.getCivicInfo(iCivic).getCivicOptionType() == iCivicOption):
-				lines = 0
-				szStrategy = gc.getCivicInfo(iCivic).getStrategy()
-				#~ if (len(szStrategy) > 2):
-					#~ szStrategyList = szStrategy.splitlines()
-					#~ lines += len(szStrategyList)
-#DancinhHoskuld - max help characters per line - start
-				szStrategyList = szStrategy.split(' ')
-				i = 0
-				chars = 0
-				for item in szStrategyList:
-					if (chars + len(item) > self.MAX_HELP_CHARS_PER_LINE):
-						i += 1
-						chars = len(item)
-				lines += i
-#DancinhHoskuld - max help characters per line - end
-
-				szHelpText = CyGameTextMgr().parseCivicInfo(iCivic, False, True, True)
-				HelpList = szHelpText.splitlines()
-				lines += len(HelpList)
-				
-				lines += 1
-				
-				if (lines > mostLines):
-					mostLines = lines
-		return mostLines
-		
-	def getRealHeadingHeight(self, iCivicOption):
-		return 80 + self.getLinesOfHelpText(iCivicOption) * 25
-		
-	def getHeadingHeightAt(self, iCivicOption):
-		height = self.getHeadingHeight(iCivicOption)
-		for i in range (gc.getNumCivicOptionInfos()):
-			if (i < iCivicOption):
-				height += self.getHeadingHeight(i)
-				
-		return height
-		
-	# Will draw the help text
-	def drawAllHelpText(self):
-		for i in range (gc.getNumCivicOptionInfos()):
-			if (self.canEverDoCivic(i)):
-				screen = self.getScreen()
-				self.drawHelpText(i)
-
-	# Will Update the maintenance/anarchy/etc
-	def updateAnarchy(self):
-
-		screen = self.getScreen()
-
-		activePlayer = gc.getPlayer(self.iActivePlayer)
-
-		bChange = False
-		i = 0
-		while (i  < gc.getNumCivicOptionInfos() and not bChange):
-			if (self.m_paeCurrentCivics[i] != self.m_paeOriginalCivics[i]):
-				bChange = True
-			i += 1
-
-		# Make the revolution button
-		screen.deleteWidget(self.EXIT_NAME)
-		if (activePlayer.canRevolution(0) and bChange):
-			screen.setText(self.EXIT_NAME, "Background", u"<font=4>" + localText.getText("TXT_KEY_CONCEPT_REVOLUTION", ( )).upper() + u"</font>", CvUtil.FONT_RIGHT_JUSTIFY, self.X_EXIT, self.Y_EXIT, self.Z_TEXT, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_REVOLUTION, 1, 0)
-			screen.show(self.CANCEL_NAME)
-			screen.moveToFront(self.CANCEL_NAME)
+		if self.currentCivics == self.originalCivics:
+			screen.hide("CivicCancel")
+			screen.hide("CivicRevolution")
+			screen.hide("CivicsUpkeepText")
+			screen.hide("CivicsRevText")
 		else:
-			screen.setText(self.EXIT_NAME, "Background", u"<font=4>" + localText.getText("TXT_KEY_PEDIA_SCREEN_EXIT", ( )).upper() + u"</font>", CvUtil.FONT_RIGHT_JUSTIFY, self.X_EXIT, self.Y_EXIT, self.Z_TEXT, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, 1, -1)
-			screen.hide(self.CANCEL_NAME)
+			if self.bCanRevolution:
+				screen.show("CivicCancel")
+				screen.show("CivicRevolution")
+				CyPlayer = self.CyPlayer
+				font = self.aFontList[0]
+				iTurns = CyPlayer.getCivicAnarchyLength(self.currentCivics)
+				szTxt = TRNSLTR.getText("TXT_KEY_CIVIC_SCREEN_UPKEEP", (CyPlayer.getCivicUpkeep(self.currentCivics, True), ))
+				screen.setLabel("CivicsUpkeepText", "", font + szTxt, 1<<2, self.xMid, self.Y_STAT_BAR + 8, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, 1, 1)
+				szTxt = TRNSLTR.getText("TXT_KEY_ANARCHY_TURNS", (iTurns, ))
+				y = self.yRes - self.H_EDGE - 16
+			else:
+				szTxt = GTM.setRevolutionHelp(self.iPlayer)
+				y = self.Y_MID_STAT_BAR
+				font = self.aFontList[2]
 
-		# Anarchy
-		iTurns = activePlayer.getCivicAnarchyLength(self.m_paeDisplayCivics);
-
-		if (activePlayer.canRevolution(0)):
-			szText = localText.getText("TXT_KEY_ANARCHY_TURNS", (iTurns, ))
-		else:
-			szText = CyGameTextMgr().setRevolutionHelp(self.iActivePlayer)
-
-		screen.setLabel("CivicsRevText", "Background", u"<font=3>" + szText + u"</font>", CvUtil.FONT_CENTER_JUSTIFY, (self.X_SCREEN / 2.5) + self.BOTTOM_LINE_TEXT_SPACING, self.Y_EXIT + 2, 0, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
-
-		# Maintenance
-		szText = localText.getText("TXT_KEY_CIVIC_SCREEN_UPKEEP", (activePlayer.getCivicUpkeep(self.m_paeDisplayCivics, True), ))
-		screen.setLabel("CivicsUpkeepText", "Background", u"<font=3>" + szText + u"</font>", CvUtil.FONT_CENTER_JUSTIFY, self.X_SCREEN / 5 + self.BOTTOM_LINE_TEXT_SPACING * 1 / 4, self.Y_CANCEL + 1, 0, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
-		
-
-
-	# Revolution!!!
-	def Revolution(self, inputClass):
-
-		activePlayer = gc.getPlayer(self.iActivePlayer)
-
-		if (inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED) :
-			if (activePlayer.canRevolution(0)):
-				messageControl = CyMessageControl()
-				messageControl.sendUpdateCivics(self.m_paeDisplayCivics)
-			screen = self.getScreen()
-			screen.hideScreen()
+			screen.setLabel("CivicsRevText", "", font + szTxt, 1<<2, self.xMid, y, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, 1, 1)
 
 
-	def Cancel(self, inputClass):
-		screen = self.getScreen()
-		if (inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED) :
-			for i in range (gc.getNumCivicOptionInfos()):
-				self.m_paeCurrentCivics[i] = self.m_paeOriginalCivics[i]
-				self.m_paeDisplayCivics[i] = self.m_paeOriginalCivics[i]
-
-			self.drawContents()
-
-	def getCivicsButtonName(self, iCivic):
-		szName = self.BUTTON_NAME + str(iCivic)
+	# Utility
+	def getNextWidget(self):
+		szName = "Civic_Widget" + str(self.nWidgetCount)
+		self.nWidgetCount += 1
 		return szName
 
-	def getCivicsTextName(self, iCivic):
-		szName = self.TEXT_NAME + str(iCivic)
-		return szName
+	def deleteAllWidgets(self):
+		screen = self.getScreen()
+		# Generic widgets
+		iNumWidgets = self.nWidgetCount
+		self.nWidgetCount = 0
+		for i in xrange(iNumWidgets):
+			screen.deleteWidget(self.getNextWidget())
+		self.nWidgetCount = 0
 
-	# Will handle the input for this screen...
-	def handleInput(self, inputClass):
-		if (inputClass.getNotifyCode() == NotifyCode.NOTIFY_LISTBOX_ITEM_SELECTED):
-			screen = self.getScreen()
-			iIndex = screen.getSelectedPullDownID(self.DEBUG_DROPDOWN_ID)
-			self.setActivePlayer(screen.getPullDownData(self.DEBUG_DROPDOWN_ID, iIndex))
-			self.drawContents()
-			return 1
-		elif (self.CivicsScreenInputMap.has_key(inputClass.getFunctionName())):
-			'Calls function mapped in CvCivicsScreen'
-			# only get from the map if it has the key
+	# Tooltip
+	def updateTooltip(self, screen, szTxt, xPos = -1, yPos = -1, uFont = ""):
+		if not szTxt:
+			return
+		if szTxt != self.szTxtTT:
+			self.szTxtTT = szTxt
+			if not uFont:
+				uFont = self.aFontList[6]
+			x, y = pyTT.makeTooltip(screen, xPos, yPos, szTxt, uFont, "Tooltip")
+			X, Y = self.InputData.getMousePosition()
+			self.iOffsetTT = [x - X, y - Y]
+		else:
+			if xPos == yPos == -1:
+				X, Y = self.InputData.getMousePosition()
+				screen.moveItem("Tooltip", X + self.iOffsetTT[0], Y + self.iOffsetTT[1], 0)
+			screen.moveToFront("Tooltip")
+			screen.show("Tooltip")
+		if xPos == yPos == -1:
+			self.bLockedTT = True
 
-			# get bound function from map and call it
-			self.CivicsScreenInputMap.get(inputClass.getFunctionName())(inputClass)
-			return 1
-		return 0
-
+	#--------------------------#
+	# Base operation functions #
+	#||||||||||||||||||||||||||#
 	def update(self, fDelta):
-		return
+		if self.bLockedTT:
+			X, Y = self.InputData.getMousePosition()
+			x = X + self.iOffsetTT[0]
+			y = Y + self.iOffsetTT[1]
+			if x < 0: x = 0
+			if y < 0: y = 0
+			self.getScreen().moveItem("Tooltip", x, y, 0)
 
+	def handleInput(self, inputClass):
+		screen = self.getScreen()
+		if not screen.isActive():
+			return
+		HandleInputUtil.debugInput(inputClass)
+		xMouse, yMouse = self.InputData.getMousePosition()
+		bAlt, bCtrl, bShift = self.InputData.getModifierKeys()
+		iCode	= inputClass.eNotifyCode
+		iData	= inputClass.iData
+		ID		= inputClass.iItemID
+		NAME	= inputClass.szFunctionName
+		iBtn	= inputClass.iButtonType
+		iData1	= inputClass.iData1
+		iData2	= inputClass.iData2
+		szFlag	= HandleInputUtil.MOUSE_FLAGS.get(inputClass.uiFlags, "UNKNOWN")
 
+		szSplit = NAME.split("|")
+		BASE = szSplit[0]
+		if szSplit[1:]:
+			TYPE = szSplit[1]
+		else:
+			TYPE = ""
+		if szSplit[2:]:
+			CASE = szSplit[2:]
+		else:
+			CASE = [0]
+		# Remove potential Help Text
+		screen.hide("Tooltip")
 
+		if iCode == NotifyCode.NOTIFY_CURSOR_MOVE_ON:
 
+			if BASE == "WID":
+
+				if TYPE == "CIVIC":
+					if CASE[0] == "TEXT":
+						if ID != self.iCivicDisplayed:
+							self.setCivicText(screen, ID)
+					else:
+						self.updateTooltip(screen, GTM.parseCivicInfo(ID, False, True, False), uFont=self.aFontList[4])
+
+			elif NAME == "CivicDisplay":
+				self.updateTooltip(screen, "Toggle Display Type")
+
+		elif iCode == NotifyCode.NOTIFY_CURSOR_MOVE_OFF:
+
+			if BASE == "WID":
+
+				if TYPE == "CIVIC":
+					if CASE[0] == "TEXT":
+						if ID != self.iCivicDisplayed:
+							if self.iCivicDisplayed > -1:
+								self.setCivicText(screen, self.iCivicDisplayed)
+							else: screen.hide("CivicText")
+
+		elif iCode == NotifyCode.NOTIFY_CLICKED:
+
+			if BASE == "Civic_Tab":
+				if CASE[0] != "Col":
+					screen.hide("Civic_Tab|Col" + str(self.iTab))
+					screen.show("Civic_Tab" + str(self.iTab))
+					self.iTab = ID
+					self.drawContents(screen)
+
+			elif NAME == "CivicCancel":
+				self.iCivicDisplayed = -1
+				if self.iType: screen.hide("CivicText")
+				for iCivic in self.originalCivics:
+					if iCivic not in self.currentCivics:
+						self.selectCivic(screen, iCivic)
+				self.updateStatus(screen)
+
+			elif NAME == "CivicRevolution":
+				# If we want to be able to change civics of another player in debug mode then a custom modnetmessage function must be created for MP compatibility.
+				# CyMessageControl().sendModNetMessage(MsgID, iPlayer, -1, -1, -1)
+				# The function would have to be able to reference this class instance and ask for reference.currentCivics.
+				CyMessageControl().sendUpdateCivics(self.currentCivics)
+				screen.hideScreen()
+
+			elif szFlag == "MOUSE_RBUTTONUP":
+
+				if BASE == "WID":
+
+					if TYPE == "CIVIC":
+						UP.pediaJumpToCivic([ID])
+			else:
+
+				if BASE == "WID":
+
+					if TYPE == "CIVIC":
+
+						self.iCivicDisplayed = ID
+
+						if ID in self.currentCivics or not self.CyPlayer.canDoCivics(ID):
+							return
+						self.selectCivic(screen, ID)
+						self.updateStatus(screen)
+
+				elif NAME == "CivicDisplay":
+					self.iType = (self.iType + 1) % 2
+					self.drawContents(screen)
+
+		elif iCode == NotifyCode.NOTIFY_LISTBOX_ITEM_SELECTED:
+			if NAME == "Civic_DebugDD":
+				iIndex = screen.getSelectedPullDownID(NAME)
+				self.iPlayer = iPlayer = screen.getPullDownData(NAME, iIndex)
+				self.setActivePlayer(iPlayer)
+
+				self.drawContents(screen)
+
+	def onClose(self):
+		# Save preference
+		import SystemPaths as SP
+		path = SP.modDir + "\UserSettings\CivicScreen.txt"
+		file = open(path, "w")
+		file.write("Tab = %d\nType = %d"%(self.iTab, self.iType))
+		file.close()
+		# Clean up
+		screen = self.getScreen()
+		screen.setDying(True)
+		del self.InputData, self.szTxtTT, self.iOffsetTT, self.bLockedTT
+		del self.nWidgetCount, self.CyPlayer, self.iPlayer, self.iPlayerAct
+		del self.xRes, self.yRes, self.xMid, self.iSize, self.aFontList
+		del self.H_EDGE, self.Y_STAT_BAR, self.Y_MID_STAT_BAR, self.iCivicDisplayed
+		del self.civicListPerOption, self.currentCivics, self.originalCivics, self.aCoordList
+		del self.bDebug, self.bCanRevolution, self.HILITE, self.CANCEL, self.ScPnl

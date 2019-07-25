@@ -5,34 +5,17 @@
 
 	Copyright (c) 2008 The BUG Mod.
 -->
-<mod id="AutoSave" 
-	 name="AutoSave" 
-	 module="AutoSave" 
-	 author="BUG Team, HOF Team" 
-	 version="1.0" 
-	 date="05/04/2009"
-	 url=""
-	 dll="1">
-	 
+<mod id="AutoSave" name="AutoSave" module="AutoSave" author="BUG Team, HOF Team" version="1.0" date="05/04/2009">
+
 	<options id="AutoSave" file="AutoSave.ini">
 		<section id="AutoSave">
-			<option id="CreateStartSave" key="Create Start Save" 
-					type="boolean" default="False"/>
-
-			<option id="CreateEndSave" key="Create End Save" 
-					type="boolean" default="False"/>
-
-			<option id="CreateExitSave" key="Create Exit Save" 
-					type="boolean" default="False"/>
-
-			<option id="UsePlayerName" key="Use Player Name" 
-					type="boolean" default="False"/>
+			<option id="UsePlayerName" key="Use Player Name" type="boolean" default="True"/>
+			<option id="CreateStartSave" key="Create Start Save" type="boolean" default="False"/>
+			<option id="CreateEndSave" key="Create End Save" type="boolean" default="False"/>
+			<option id="CreateExitSave" key="Create Exit Save" type="boolean" default="False"/>
+			<option id="CreateLateSave" key="Create Late Save" type="boolean" default="False"/>
+			<option id="Interval" key="Interval" type="int" default="5" get="getInterval"/>
 		</section>
 	</options>
-	
 	<init/>
-	
-	<export function="saveGameStart" to="CvAppInterface" as="gameStartSave"/>
-	<export function="saveGameEnd" to="CvAppInterface" as="gameEndSave"/>
-	<export function="saveGameExit" to="CvAppInterface" as="gameExitSave"/>
 </mod>

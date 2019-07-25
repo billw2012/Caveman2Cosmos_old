@@ -9,13 +9,10 @@ import BugConfigTracker
 import BugCore
 import BugOptions
 import BugPath
-import BugUtil
-import CvModName
 import codecs
 import os.path
 import time
 
-gc = CyGlobalContext()
 AutologOpt = BugCore.game.Autolog
 
 class autologInstance:
@@ -30,27 +27,27 @@ class autologInstance:
 		self.setLogFilePath(AutologOpt.getFilePath())
 
 	def setLogFileName(self, LogFileName, bSaveToOptions=False):
-		if (bSaveToOptions):
+		if bSaveToOptions:
 			AutologOpt.setFileName(LogFileName)
 			BugOptions.write()
 		self.LogFileName = LogFileName
 		self.updateLogFile()
-		
+
 	def getLogFileName(self):
 		return self.LogFileName
-	
+
 	def setLogFilePath(self, LogFilePath, bSaveToOptions=False):
-		if (bSaveToOptions):
+		if bSaveToOptions:
 			AutologOpt.setFilePath(LogFilePath)
 			BugOptions.write()
-		if (not LogFilePath or LogFilePath == "Default"):
+		if not LogFilePath or LogFilePath == "Default":
 			LogFilePath = BugPath.findOrMakeDir("Autolog")
 		self.LogFilePath = LogFilePath
 		self.updateLogFile()
-		
+
 	def getLogFilePath(self):
 		return self.LogFilePath
-	
+
 	def updateLogFile(self):
 		if self.LogFileName and self.LogFilePath:
 			self.bStarted = False
@@ -59,24 +56,26 @@ class autologInstance:
 
 	def isLogging(self):
 		return AutologOpt.isLoggingOn()
-	
+
 	def start(self):
+		GAME = CyGame()
+		TRNSLTR = CyTranslator()
 		self.writeMsg("")
-		self.writeMsg("Logging by " + CvModName.getDisplayNameAndVersion() + " (" + CvModName.getCivNameAndVersion() + ")")
+		self.writeMsg("Logging by autolog.py")
 		self.writeMsg("------------------------------------------------")
-		zcurrturn = gc.getGame().getElapsedGameTurns() + AutologOpt.get4000BCTurn()
-		zmaxturn = gc.getGame().getMaxTurns()
-		zyear = gc.getGame().getGameTurnYear()
-		if (zyear < 0):
-			zyear = str(-zyear) + BugUtil.getPlainText("TXT_KEY_AUTOLOG_BC")
+		zcurrturn = GAME.getElapsedGameTurns() + AutologOpt.get4000BCTurn()
+		zmaxturn = GAME.getMaxTurns()
+		zyear = GAME.getGameTurnYear()
+		if zyear < 0:
+			zyear = str(-zyear) + TRNSLTR.getText("TXT_KEY_AUTOLOG_BC", ())
 		else:
-			zyear = str(zyear) + BugUtil.getPlainText("TXT_KEY_AUTOLOG_AD")
+			zyear = str(zyear) + TRNSLTR.getText("TXT_KEY_AUTOLOG_AD", ())
 		zCurrDateTime = time.strftime("%d-%b-%Y %H:%M:%S")
-		if (zmaxturn == 0):
-			zsTurn = "%i" % (zcurrturn)
-		else:
+		if zmaxturn:
 			zsTurn = "%i/%i" % (zcurrturn, zmaxturn)
-		message = BugUtil.getText("TXT_KEY_AUTOLOG_TURN", (zsTurn, zyear, zCurrDateTime))
+		else:
+			zsTurn = "%i" % zcurrturn
+		message = TRNSLTR.getText("TXT_KEY_AUTOLOG_TURN", (zsTurn, zyear, zCurrDateTime))
 		self.writeMsg(message, vBold=True, vUnderline=True)
 		self.bStarted = True
 
@@ -109,41 +108,34 @@ class autologInstance:
 	def closeLog(self):
 		self.log.close()
 
-	def buildMsg(self, vMsg, vColor, vBold, vUnderline, vPrefix):
+	def buildMsg(self, msg, vColor, vBold, vUnderline, vPrefix):
 		if vPrefix:
-			zMsg = vPrefix + " " + vMsg
-		else:
-			zMsg = vMsg
+			msg = vPrefix + " " + msg
 
 		## determine type of message
 		zStyle = AutologOpt.getFormatStyle()
-		if (zStyle < 0
-		or zStyle > 3): zStyle=0
+		if zStyle < 0 or zStyle > 3: zStyle=0
 
-		if zStyle == 0: # no formatting so do nothing
-			zMsg = zMsg
-
-		elif zStyle == 1:  # html formatting
+		if not zStyle: pass
+		elif zStyle == 1: # html formatting
 			if vBold:
-				zMsg = "<b>%s</b>" % (zMsg)
+				msg = "<b>%s</b>" % msg
 			if vUnderline:
-				zMsg = "<u>%s</u>" % (zMsg)
-			if (vColor != "Black"
-			and AutologOpt.isColorCoding()):
-				zMsg = "<span style=\"color: %s\">%s</span>" % (vColor, zMsg)
+				msg = "<u>%s</u>" % msg
+			if vColor != "Black" and AutologOpt.isColorCoding():
+				msg = "<span style=\"color: %s\">%s</span>" % (vColor, msg)
 
-			zMsg = "%s<br>" % (zMsg)
+			msg = "%s<br>" % (msg)
 
 		else: # forum formatting
 			if vBold:
-				zMsg = "[b]%s[/b]" % (zMsg)
+				msg = "[b]%s[/b]" % msg
 			if vUnderline:
-				zMsg = "[u]%s[/u]" % (zMsg)
-			if (vColor != "Black"
-			and AutologOpt.isColorCoding()):
+				msg = "[u]%s[/u]" % msg
+			if vColor != "Black" and AutologOpt.isColorCoding():
 				if zStyle == 2:  # color coding with "
-					zMsg = "[color=\"%s\"]%s[/color]" % (vColor, zMsg)
+					msg = "[color=\"%s\"]%s[/color]" % (vColor, msg)
 				else:  # color coding without "
-					zMsg = "[color=%s]%s[/color]" % (vColor, zMsg)
+					msg = "[color=%s]%s[/color]" % (vColor, msg)
 
-		return "%s\r\n" % (zMsg)
+		return "%s\r\n" % msg

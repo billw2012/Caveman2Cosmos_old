@@ -13,7 +13,6 @@
 from CvPythonExtensions import *
 import CvUtil
 import ScreenInput
-import SevoScreenEnums
 
 gc = CyGlobalContext()
 ArtFileMgr = CyArtFileMgr()

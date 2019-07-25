@@ -65,15 +65,6 @@
 ##
 ## Trade Routes
 ##
-##   isFractionalTrade()
-##     Returns True of BULL is active with Fractional Trade Routes.
-##
-##   getTradeProfitFunc()
-##     Returns the CyCity function to use to calculate the trade route profit for a single route.
-##
-##   calculateTradeRouteYield(city, route, yieldType)
-##     Returns the total <yieldType> for the <route>th trade route in <city>.
-##
 ##   calculateTotalTradeRouteYield(city, yieldType)
 ##     Returns the total <yieldType> for all trade routes in <city>.
 ##
@@ -100,15 +91,10 @@
 
 from CvPythonExtensions import *
 import BugUtil
-import DiplomacyUtil
-import GameUtil
 import PlayerUtil
 
-# BUG - Mac Support - start
-BugUtil.fixSets(globals())
-# BUG - Mac Support - end
-
-gc = CyGlobalContext()
+GC = CyGlobalContext()
+GAME = GC.getGame()
 
 CORP_BONUSES = {}
 
@@ -117,26 +103,60 @@ DOMESTIC_OVERSEAS_TRADE = 1
 FOREIGN_TRADE = 2
 FOREIGN_OVERSEAS_TRADE = 3
 
-MAX_TRADE_ROUTES = gc.getDefineINT("MAX_TRADE_ROUTES")
-FRACTIONAL_TRADE = False
-TRADE_PROFIT_FUNC = None
+MAX_TRADE_ROUTES = GC.getDefineINT("MAX_TRADE_ROUTES")
 
 TRADE_FORMATS = {}
 
 
 ## Trading Partners
 
-def canTrade(playerOrID, withPlayerOrID):
+def canTrade(playerX, playerY):
 	"""
-	Returns True if <player> can open the trade window with <withPlayer>.
+	Returns True if <playerX> can trade with <playerY>.
 	"""
-	return DiplomacyUtil.canContact(playerOrID, withPlayerOrID) and DiplomacyUtil.isWillingToTalk(withPlayerOrID, playerOrID)
+	if isinstance(playerX, int):
+		iPlayerX = playerX
+		CyPlayerX = GC.getPlayer(playerX)
+	else:
+		iPlayerX = playerX.getID()
+		CyPlayerX = playerX
+
+	if isinstance(playerY, int):
+		iPlayerY = playerY
+		CyPlayerY = GC.getPlayer(playerY)
+	else:
+		iPlayerY = playerY.getID()
+		CyPlayerY = playerY
+
+	if (iPlayerX == iPlayerY
+	or not CyPlayerX.isAlive() or CyPlayerX.isNPC() or CyPlayerX.isMinorCiv()
+	or not CyPlayerY.isAlive() or CyPlayerY.isNPC() or CyPlayerY.isMinorCiv()
+	):
+		return False
+	iTeamX = CyPlayerX.getTeam()
+	iTeamY = CyPlayerY.getTeam()
+	if iTeamX == iTeamY:
+		return True
+	CyTeamX = GC.getTeam(iTeamX)
+	if not CyTeamX.isHasMet(iTeamY) or CyTeamX.isAtWar(iTeamY):
+		return False
+	bHumanX = CyPlayerX.isHuman()
+	bHumanY = CyPlayerY.isHuman()
+	if bHumanX or bHumanY:
+		if bHumanX and bHumanY:
+			return True
+		elif bHumanX:
+			return CyPlayerY.AI_isWillingToTalk(iPlayerX)
+		else:
+			return CyPlayerX.AI_isWillingToTalk(iPlayerY)
+	return CyPlayerX.AI_isWillingToTalk(iPlayerY) and CyPlayerY.AI_isWillingToTalk(iPlayerX)
+
 
 def getTechTradePartners(playerOrID):
 	"""
 	Returns a list of CyPlayers that can trade technologies with <player>.
 	"""
-	if not GameUtil.isTechTrading():
+	if GAME.isOption(GameOptionTypes.GAMEOPTION_NO_TECH_TRADING):
 		return ()
 	return getTradePartnersByTeam(playerOrID, lambda fromTeam, toTeam: fromTeam.isTechTrading() or toTeam.isTechTrading())
 
@@ -186,7 +206,7 @@ def canSignLimitedBorders(fromTeam, toTeam):
 	"""
 	if fromTeam.isOpenBorders(toTeam.getID()) or toTeam.isOpenBorders(fromTeam.getID()):
 		return False
-	if not (gc.getGame().isOption(GameOptionTypes.GAMEOPTION_ADVANCED_DIPLOMACY)):
+	if not GAME.isOption(GameOptionTypes.GAMEOPTION_ADVANCED_DIPLOMACY):
 		return False
 	return fromTeam.isOpenBordersTrading() or toTeam.isOpenBordersTrading()
 
@@ -203,7 +223,7 @@ def canTradeEmbassy(fromTeam, toTeam):
 	"""
 	if fromTeam.isOpenBorders(toTeam.getID()) or toTeam.isOpenBorders(fromTeam.getID()):
 		return False
-	if not (gc.getGame().isOption(GameOptionTypes.GAMEOPTION_ADVANCED_DIPLOMACY)):
+	if not GAME.isOption(GameOptionTypes.GAMEOPTION_ADVANCED_DIPLOMACY):
 		return False
 	return fromTeam.isOpenBordersTrading() or toTeam.isOpenBordersTrading()
 
@@ -316,9 +336,9 @@ def getDesiredBonuses(playerOrID):
 	"""
 	player, team = PlayerUtil.getPlayerAndTeam(playerOrID)
 	bonuses = set()
-	for eBonus in range(gc.getNumBonusInfos()):
+	for eBonus in range(GC.getNumBonusInfos()):
 		if player.getNumAvailableBonuses(eBonus) == 0:
-			eObsoleteTech = gc.getBonusInfo(eBonus).getTechObsolete()
+			eObsoleteTech = GC.getBonusInfo(eBonus).getTechObsolete()
 			if eObsoleteTech == -1 or not team.isHasTech(eObsoleteTech):
 				bonuses.add(eBonus)
 	return bonuses | getCorporationBonuses(player)
@@ -326,7 +346,6 @@ def getDesiredBonuses(playerOrID):
 def getCorporationBonuses(playerOrID):
 	"""
 	Returns the set of bonus IDs that <player> can receive due to their corporations.
-	
 	Takes into account anything (e.g. civics) that alters <player>'s ability to run corporations.
 	"""
 	player = PlayerUtil.getPlayer(playerOrID)
@@ -337,13 +356,14 @@ def getCorporationBonuses(playerOrID):
 	return bonuses
 
 def initCorporationBonuses():
-	"""
-	Initializes the CORP_BONUSES dictionary that maps each corporation ID to the set of bonus IDs it uses.
-	"""
-	for eCorp in range(gc.getNumCorporationInfos()):
-		corp = gc.getCorporationInfo(eCorp)
+	'''
+	Initializes the CORP_BONUSES dictionary.
+	Map corporation ID to the set of bonus IDs it uses.
+	'''
+	for eCorp in range(GC.getNumCorporationInfos()):
+		corp = GC.getCorporationInfo(eCorp)
 		bonuses = set()
-		for i in range(gc.getNUM_CORPORATION_PREREQ_BONUSES()):
+		for i in range(GC.getNUM_CORPORATION_PREREQ_BONUSES()):
 			eBonus = corp.getPrereqBonus(i)
 			if eBonus != -1:
 				bonuses.add(eBonus)
@@ -355,7 +375,7 @@ def getSurplusBonuses(playerOrID, minimum=1):
 	"""
 	player = PlayerUtil.getPlayer(playerOrID)
 	available = []
-	for eBonus in range(gc.getNumBonusInfos()):
+	for eBonus in range(GC.getNumBonusInfos()):
 		if player.getNumTradeableBonuses(eBonus) >= minimum:
 			available.append(eBonus)
 	return available
@@ -373,7 +393,7 @@ def getTradeableBonuses(fromPlayerOrID, toPlayerOrID):
 	wont = set()
 	tradeData = TradeData()
 	tradeData.ItemType = TradeableItems.TRADE_RESOURCES
-	for eBonus in range(gc.getNumBonusInfos()):
+	for eBonus in range(GC.getNumBonusInfos()):
 		tradeData.iData = eBonus
 		if fromPlayer.canTradeItem(eToPlayer, tradeData, False):
 			if fromPlayerIsHuman or fromPlayer.canTradeItem(eToPlayer, tradeData, True):
@@ -384,41 +404,18 @@ def getTradeableBonuses(fromPlayerOrID, toPlayerOrID):
 
 
 ## Trade Routes
+def calculateTotalTradeRouteYield(CyCity, yieldType):
+	"""
+	Returns the total <yieldType> for all trade routes in a city.
 
-def isFractionalTrade():
-	"""
-	Returns True of BULL is active with Fractional Trade Routes.
-	"""
-	return FRACTIONAL_TRADE
-
-def getTradeProfitFunc():
-	"""
-	Returns the CyCity function to use to calculate the trade route profit for a single route.
-	"""
-	return TRADE_PROFIT_FUNC
-
-def calculateTradeRouteYield(city, route, yieldType):
-	"""
-	Returns the total <yieldType> for the <route>th trade route in <city>.
-	
-	If Fractional Trade Routes is active, the value returned is fractional (times 100).
-	"""
-	return city.calculateTradeYield(yieldType, TRADE_PROFIT_FUNC(city, city.getTradeCity(route)))
-
-def calculateTotalTradeRouteYield(city, yieldType):
-	"""
-	Returns the total <yieldType> for all trade routes in <city>.
-	
 	If Fractional Trade Routes is active, the total is rounded down and returned as a regular number.
 	"""
 	trade = 0
-	for route in range(city.getTradeRoutes()):
-		trade += calculateTradeRouteYield(city, route, yieldType)
-	if isFractionalTrade():
-		trade /= 100
+	for route in range(CyCity.getTradeRoutes()):
+		trade += CyCity.calculateTradeYield(yieldType, CyCity.calculateTradeProfitTimes100(CyCity.getTradeCity(route)))
+	trade /= 100
 	return trade
-		
-	return city.calculateTradeYield(yieldType, TRADE_PROFIT_FUNC(city, city.getTradeCity(route)))
+
 
 def calculateTradeRoutes(playerOrID, withPlayerOrID=None):
 	"""
@@ -435,7 +432,7 @@ def calculateTradeRoutes(playerOrID, withPlayerOrID=None):
 		for i in range(city.getTradeRoutes()):
 			tradeCity = city.getTradeCity(i)
 			if tradeCity and tradeCity.getOwner() >= 0 and (eWithPlayer == -1 or eWithPlayer == tradeCity.getOwner()):
-				trade = city.calculateTradeYield(YieldTypes.YIELD_COMMERCE, TRADE_PROFIT_FUNC(city, tradeCity))
+				trade = city.calculateTradeYield(YieldTypes.YIELD_COMMERCE, city.calculateTradeProfitTimes100(tradeCity))
 				if tradeCity.getTeam() == eTeam:
 					domesticTrade += trade
 					domesticCount += 1
@@ -444,23 +441,6 @@ def calculateTradeRoutes(playerOrID, withPlayerOrID=None):
 					foreignCount += 1
 	return domesticTrade, domesticCount, foreignTrade, foreignCount
 
-def initFractionalTrade():
-	"""
-	Sets the global fractional trade constants by testing for the function it adds.
-	
-	Fractional Trade is an optional compile-time feature of BULL.
-	"""
-	global FRACTIONAL_TRADE, TRADE_PROFIT_FUNC
-	try:
-		TRADE_PROFIT_FUNC = CyCity.calculateTradeProfitTimes100
-		FRACTIONAL_TRADE = True
-		BugUtil.debug("TradeUtil - Fractional Trade Routes is active")
-	except:
-		TRADE_PROFIT_FUNC = CyCity.calculateTradeProfit
-		FRACTIONAL_TRADE = False
-
-
-## Trade Class
 
 class Trade(object):
 	"""
@@ -522,7 +502,7 @@ class Trade(object):
 				if type == trade.ItemType:
 					found.append(trade)
 		return found
-	
+
 	def __repr__(self):
 		return ("<trade %d [%s] for %d [%s]>" % 
 				(self.getPlayer(), 
@@ -571,7 +551,7 @@ def initTradeableItems():
 	addComplexTrade("workers", TradeableItems.TRADE_WORKER, getTradeWorkers)
 	addComplexTrade("contact", TradeableItems.TRADE_CONTACT, getTradeContacts)
 	#Afforess End
-	
+
 def addPlainTrade(name, type, key):
 	"""Creates a trade using an unparameterized XML <text> tag."""
 	return addTrade(type, PlainTradeFormat(name, type, key))
@@ -605,34 +585,34 @@ def addTrade(type, format):
 ## whatever you want to display in the formatted string.
 
 def getTradeTech(player, trade):
-	return gc.getTechInfo(trade.iData).getDescription()
+	return GC.getTechInfo(trade.iData).getDescription()
 
 def getTradeBonus(player, trade):
-	return gc.getBonusInfo(trade.iData).getDescription()
+	return GC.getBonusInfo(trade.iData).getDescription()
 
 def getTradeCity(player, trade):
 	return PlayerUtil.getPlayer(player).getCity(trade.iData).getName()
 
 def getTradeCivic(player, trade):
-	return gc.getCivicInfo(trade.iData).getDescription()
+	return GC.getCivicInfo(trade.iData).getDescription()
 
 def getTradeReligion(player, trade):
-	return gc.getReligionInfo(trade.iData).getDescription()
+	return GC.getReligionInfo(trade.iData).getDescription()
 
 def getTradePlayer(player, trade):
 	return PlayerUtil.getPlayer(trade.iData).getName()
 
 def getTradePeaceDeal(player, trade):
 	BugUtil.debug("TradeUtil - peace treaty has iData %d", trade.iData)
-	return BugUtil.getText("TXT_KEY_TRADE_PEACE_TREATY_STRING", (gc.getDefineINT("PEACE_TREATY_LENGTH"),))
+	return BugUtil.getText("TXT_KEY_TRADE_PEACE_TREATY_STRING", (GC.getDefineINT("PEACE_TREATY_LENGTH"),))
 
 #Afforess
 def getTradeUnits(player, trade):
 	return PlayerUtil.getPlayer(player).getUnit(trade.iData).getName()
-	
+
 def getTradeWorkers(player, trade):
 	return PlayerUtil.getPlayer(player).getUnit(trade.iData).getName()
-	
+
 def getTradeContacts(player, trade):
 	return PlayerUtil.getPlayerTeam(trade.iData).getName()
 #Afforess End
@@ -683,15 +663,9 @@ class ComplexTradeFormat(BaseTradeFormat):
 	def getParameters(self, player, trade):
 		return trade.iData
 
-
 ## Initialization
-
 def init():
-	"""
-	Performs one-time initialization after the game starts up.
-	"""
 	initCorporationBonuses()
-	initFractionalTrade()
 	initTradeableItems()
 
 

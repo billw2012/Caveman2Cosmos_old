@@ -868,8 +868,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_ASSASSIN_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Change cause to be capable of Assassination Missions</English>
-		<French>[ICON_BULLET]%D1_Change de capacité de réaliser des missions d'assassinat d'unités</French>
+		<English>[ICON_BULLET]Trait - Assassination: %D1_Change</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_ASTONISHING_ACCUMEN</Tag>
@@ -4810,8 +4809,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_DEFENSE_ONLY_CHANGE_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Change cause for the unit to capable of Defense only. (If invisible, allows the unit to move through units they would normally attack.)</English>
-		<German>[ICON_BULLET]Reine Selbstverteidigung: %D1_Change (Wenn die Einheit unsichtbar ist, kann sie sich zwischen Einheiten hindurchbewegen, die sie sonst angreifen würde.)</German>
+		<English>[ICON_BULLET]Trait - Defense only: %D1_Change</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_DEFENSIVE_PROTOCOLS1</Tag>
@@ -5671,10 +5669,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_ENDURANCE_TEXT</Tag>
-		<English>[ICON_BULLET]Additional %D1_Change Endurance</English>
-		<French>[ICON_BULLET]Endurance supplémentaire: %D1_Change</French>
-		<Italian>[ICON_BULLET]Persistenza supplementare: %D1_Change</Italian>
-		<Polish>[ICON_BULLET]Dodatkowa Wytrzymałość: %D1_Change</Polish>
+		<English>[ICON_BULLET]%D1_Change Endurance</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_EXCILE_ADD_TEXT</Tag>
@@ -5706,41 +5701,41 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_STEALTH_DEFENSE_CHANGE_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Change cause for the unit to Stealth Defend.</English>
+		<English>[ICON_BULLET]Trait - Stealth Defend: %D1_Change</English>
 		<German>[ICON_BULLET]Verteidigung gegen Tarnangriffe: %D1_Change</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_NO_INVISIBILITY_CHANGE_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Change cause for the unit to never be Invisible.</English>
+		<English>[ICON_BULLET]Trait - Never Invisible: %D1_Change</English>
 		<German>[ICON_BULLET]Verhinderte Unsichtbarkeit: %D1_Change</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_TRAP_MAX_DAMAGE_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Change Maximum Damage when Trap is Triggered.</English>
+		<English>[ICON_BULLET]%D1_Change Max Damage from Traps.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_TRAP_MIN_DAMAGE_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Change Minimum Damage when Trap is Triggered.</English>
+		<English>[ICON_BULLET]%D1_Change Min Damage from Traps.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_TRAP_COMPLEXITY_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Change Complexity to Disarm this Trap.</English>
+		<English>[ICON_BULLET]%D1_Change Disarm Complexity.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_TRAP_NUM_TRIGGERS_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Change amount of times this Trap may trigger before being destroyed.</English>
+		<English>[ICON_BULLET]%D1_Change Charges</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_TRAP_TRIGGER_BEFORE_ATTACK_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Change cause for the trap to trigger on an opponent unit before any attack is made by opponent moving into the trapped plot.</English>
+		<English>[ICON_BULLET]Trait - Trigger Before Combat: %D1_Change</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_TRAP_PROMOTION_SET_TEXT</Tag>
-		<English>[ICON_BULLET]Adds %s1_promo to all traps this unit sets as long as the promotion is valid for that trap.</English>
+		<English>[ICON_BULLET]Adds %s1_promo to valid Traps.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_TRAP_IMMUNITY_TEXT</Tag>
-		<English>[ICON_BULLET]Makes unit completely immune to %s1_promo traps.</English>
+		<English>[ICON_BULLET]Immune to %s1_promo traps.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_TARGET_UNITCOMBAT_TEXT</Tag>
@@ -7268,6 +7263,14 @@
 		<Polish>Zielony Opiekun</Polish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GUARDIAN_TRIBAL</Tag>
+		<English>Tribal Guardian</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GUARDIAN_TRIBAL_HELP</Tag>
+		<English>A Tribal Guardian will appear when a city is founded by this unit.[NEWLINE]It will inherit the XP of this unit.</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_GUARDIAN1</Tag>
 		<English>Guardian 1.0</English>
 		<French>Gardien 1.0</French>
@@ -8605,8 +8608,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_INSIDIOUSNESS_TEXT</Tag>
-		<English>[ICON_BULLET]Additional %s1_Change%% Insidiousness (To Evade Investigations)</English>
-		<French>[ICON_BULLET]Traîtrise supplémentaire %D1_Change (Pour échapper aux investigations)</French>
+		<English>[ICON_BULLET]%s1_Change%% Insidiousness</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_INSPIRE1</Tag>
@@ -8791,19 +8793,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_INVESTIGATION_TEXT</Tag>
-		<English>[ICON_BULLET]Additional %s1_Change%% Investigation (To Find Local Criminals)</English>
-		<French>[ICON_BULLET]Investigation supplémentaire %s1_Change%% (Pour trouver des criminels locaux)</French>
-		<German>[ICON_BULLET]Zusätzliche Ermittlungen (zur Überführung von Straftätern): %s1_Change%%</German>
+		<English>[ICON_BULLET]%s1_Change%% Investigation</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_INVISIBILE_PLOT_CHANGE_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Mod %F2_Icon Invisibility on %s3_Type.</English>
-		<French>[ICON_BULLET]%D1_Mod du type d'invisibilité: %F2_Icon lorsque sur une case de type %s3_Type.</French>
-		<German>[ICON_BULLET]%s3_Type: %D1_Mod %F2_Icon-Unsichtbarkeit</German>
+		<English>[ICON_BULLET]%D1_Mod %F2_Icon Veil on %s3_Type.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_INVISIBILITY_INTENSITY_CHANGE_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Mod %F2_Icon Invisibility</English>
+		<English>[ICON_BULLET]%D1_Mod %F2_Icon Veil</English>
 		<French>[ICON_BULLET]%D1_Mod en type d'invisibilité: %F2_Icon</French>
 		<German>[ICON_BULLET]%D1_Mod %F2_Icon-Unsichtbarkeit</German>
 	</TEXT>
@@ -10608,7 +10606,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_NEGATES_INVISIBILITY_TEXT</Tag>
-		<English>[ICON_BULLET]Invisibility (%F1_Invisible): Negated</English>
+		<English>[ICON_BULLET]Negates %F1_Invisible Veil</English>
 		<French>[ICON_BULLET]Invisibilité (%F1_Invisible): Désactivé.</French>
 		<German>[ICON_BULLET]Unsichtbarkeit (%F1_Invisible): aufgehoben</German>
 	</TEXT>
@@ -11750,7 +11748,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_PURSUIT_VERSUS_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Mod%% Pursuit vs. [LINK=%s2_AgainstType]%s3_AgainstName[\LINK]</English>
+		<English>[ICON_BULLET]Pursuit vs. [LINK=%s2_AgainstType]%s3_AgainstName[\LINK]: %D1_Mod%%</English>
 		<French>[ICON_BULLET]%D1_Mod%% Poursuite contre [LINK=%s2_AgainstType]%s3_AgainstName[\LINK]</French>
 		<German>[ICON_BULLET]%D1_Mod%% Verfolgung von [LINK=%s2_AgainstType]%s3_AgainstName[\LINK]</German>
 		<Italian>[ICON_BULLET]%D1_Mod%% all'Inseguimento contro [LINK=%s2_AgainstType]%s3_AgainstName[\LINK]</Italian>
@@ -17095,7 +17093,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_WITHDRAW_VERSUS_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Mod%% Withdraw vs. [LINK=%s2_AgainstType]%s3_AgainstName[\LINK]</English>
+		<English>[ICON_BULLET]Withdraw vs. [LINK=%s2_AgainstType]%s3_AgainstName[\LINK]: %D1_Mod%% </English>
 		<French>[ICON_BULLET]%D1_Mod%% de repli contre [LINK=%s2_AgainstType]%s3_AgainstName[\LINK]</French>
 		<German>[ICON_BULLET]%D1_Mod%% Withdraw gegen [LINK=%s2_AgainstType]%s3_AgainstName[\LINK]</German>
 		<Italian>[ICON_BULLET]%D1_Mod%% alla Ritirata contro [LINK=%s2_AgainstType]%s3_AgainstName[\LINK]</Italian>
@@ -18941,33 +18939,40 @@
 		<English>Bounty Hunter Promotion Line</English>
 		<French>Spécialisation Chasseur de primes</French>
 	</TEXT>
+	<!-- Five suggested text tag changes, I feel promotion text that is not the name of the promotion should use PROMTEXT as its naming convention -->
+	<!-- This will group all promotext together in the xml when its sorted alphabetically and reduce potential confusion -->
 	<TEXT>
+		<!-- TXT_KEY_PROMOTEXT_SIGHT_CHANGE -->
 		<Tag>TXT_KEY_PROMOTION_VISIBILITY_INTENSITY_CHANGE_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Mod %F2_Icon Visibility</English>
+		<English>[ICON_BULLET]%D1_Mod %F2_Icon Sight</English>
 		<French>[ICON_BULLET]%D1_Mod de Gain de Visibilité (%F2_Icon)</French>
 		<German>[ICON_BULLET]%D1_Mod %F2_Icon-Sicht</German>
 	</TEXT>
 	<TEXT>
+		<!-- TXT_KEY_PROMOTEXT_SIGHT_RANGE_CHANGE -->
 		<Tag>TXT_KEY_PROMOTION_VISIBILITY_INTENSITY_RANGE_CHANGE_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Mod %F2_Icon Visibility Range</English>
+		<English>[ICON_BULLET]%D1_Mod %F2_Icon Sight Range</English>
 		<French>[ICON_BULLET]%D1_Mod Portée de maintien de la Perception (%F2_Icon)</French>
 		<German>[ICON_BULLET]%D1_Mod %F2_Icon-Sichtweite</German>
 	</TEXT>
 	<TEXT>
+		<!-- TXT_KEY_PROMOTEXT_SIGHT_SAME_TILE_CHANGE -->
 		<Tag>TXT_KEY_PROMOTION_VISIBILITY_INTENSITY_SAME_TILE_CHANGE_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Mod %F2_Icon Same Tile Visibility</English>
+		<English>[ICON_BULLET]%D1_Mod %F2_Icon Sight on Same Tile</English>
 		<French>[ICON_BULLET]%D1_Mod Perception (%F2_Icon) lorsque sur la même case.</French>
 		<German>[ICON_BULLET]%D1_Mod %F2_Icon-Sicht in gleichem Gelände</German>
 	</TEXT>
 	<TEXT>
+		<!-- TXT_KEY_PROMOTEXT_SIGHT_PLOT_CHANGE -->
 		<Tag>TXT_KEY_PROMOTION_VISIBILE_PLOT_CHANGE_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Mod %F2_Icon Visibility on %s3_TypeName.</English>
+		<English>[ICON_BULLET]%D1_Mod %F2_Icon Sight on %s3_TypeName.</English>
 		<French>[ICON_BULLET]%D1_Mod de Perception %F2_Icon lorsque sur une case de type %s3_TypeName.</French>
 		<German>[ICON_BULLET]%D1_Mod %F2_Icon-Sicht %s3_TypeName.</German>
 	</TEXT>
 	<TEXT>
+		<!-- TXT_KEY_PROMOTEXT_SIGHT_PLOT_RANGE_CHANGE -->
 		<Tag>TXT_KEY_PROMOTION_VISIBILE_PLOT_RANGE_CHANGE_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Mod %F2_Icon Visibility Range on %s3_TypeName.</English>
+		<English>[ICON_BULLET]%D1_Mod %F2_Icon Sight Range on %s3_TypeName.</English>
 		<French>[ICON_BULLET]%D1_Mod à la portée de Perception %F2_Icon lorsque sur une case de type %s3_TypeName.</French>
 		<German>[ICON_BULLET]%D1_Mod %F2_Icon-Sichtweite %s3_TypeName.</German>
 	</TEXT>

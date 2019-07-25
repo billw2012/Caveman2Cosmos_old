@@ -31,10 +31,6 @@
 					<bLoad>1</bLoad>
 				</Module>
 				<Module>
-					<Directory>Faustmouse</Directory>
-					<bLoad>1</bLoad>
-				</Module>
-				<Module>
 					<Directory>NotSoGood</Directory>
 					<bLoad>1</bLoad>
 				</Module>

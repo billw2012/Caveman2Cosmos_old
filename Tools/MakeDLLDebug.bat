@@ -1,4 +1,4 @@
 @echo off
 PUSHD "%~dp0"
-call MakeDLL.bat Debug
+call _MakeDLL.bat Debug
 POPD
