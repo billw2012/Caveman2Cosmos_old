@@ -16617,7 +16617,6 @@ Current techs which are not in this file:-
 				<PrereqTech>TECH_TELEPHONE</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_JOURNALISM</PrereqTech>
 				<PrereqTech>TECH_TEAM_SPORTS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_RADIO_QUOTE</Quote>
@@ -20626,7 +20625,6 @@ Current techs which are not in this file:-
 			<AndPreReqs>
 				<PrereqTech>TECH_URBAN_CULTURE</PrereqTech>
 				<PrereqTech>TECH_MODERN_HEALTH_CARE</PrereqTech>
-				<PrereqTech>TECH_MODERN_WARFARE</PrereqTech>
 				<PrereqTech>TECH_SPACE_STATIONS</PrereqTech>
 				<PrereqTech>TECH_ROBOTICS</PrereqTech>
 			</AndPreReqs>
