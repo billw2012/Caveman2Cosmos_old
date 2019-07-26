@@ -8659,32 +8659,11 @@ void CvSelectionGroup::validateLocations(bool bFixup) const
 	CvPlot* pPlot = NULL;
 	CvUnit* pTransportUnit;
 	bool	bTransportUnitSet = false;
-	std::set<int> movedUnitIds;
 
-	while (true)
+	while (pUnitNode != NULL)
 	{
-		pUnitNode = headUnitNode();
-		pLoopUnit = NULL;
-
-		while (pUnitNode != NULL)
-		{
-			if (movedUnitIds.empty() || movedUnitIds.find(pUnitNode->m_data.iID) == movedUnitIds.end())
-			{
-				pLoopUnit = ::getUnit(pUnitNode->m_data);
-
-				FAssertMsg(pLoopUnit != NULL, "NULL unit reached in the selection group");
-
-				if (pLoopUnit != NULL)
-					break;
-			}
-
-			pUnitNode = nextUnitNode(pUnitNode);
-		}
-
-		if (pLoopUnit == NULL)
-			break;
-		
-		movedUnitIds.insert(pLoopUnit->getID());
+		pLoopUnit = ::getUnit(pUnitNode->m_data);
+		pUnitNode = nextUnitNode(pUnitNode);
 
 		if ( !bTransportUnitSet )
 		{
@@ -8715,26 +8694,23 @@ void CvSelectionGroup::validateLocations(bool bFixup) const
 		}
 		else
 		{
-			//if ( bFixup )
-			//{
+			if ( bFixup )
+			{
 				if ( pPlot != pLoopUnit->plot() )
 				{
 					FAssertMsg(false, "Incorrect plot on unit of group - fixing");
 
 					//	Drop the errant unit from the group
-					//pLoopUnit->joinGroup(NULL);
-					//TB: nope... the unit needs to instead be moved to the plot it thinks it should've been at
-					pLoopUnit->setXY(pPlot->getX(), pPlot->getY());
-					//This COULD enable a single unit to be ambushed multiple times... observe how this changes things.
+					pLoopUnit->joinGroup(NULL);
 				}
-			//}
-			//else
-			//{
-			//	if(!pLoopUnit->isHuman())
-			//	{
-			//		FAssertMsg(pPlot == pLoopUnit->plot(), "Incorrect plot on unit of group");
-			//	}
-			//}
+			}
+			else
+			{
+				if(!pLoopUnit->isHuman())
+				{
+					FAssertMsg(pPlot == pLoopUnit->plot(), "Incorrect plot on unit of group");
+				}
+			}
 		}
 	}
 }

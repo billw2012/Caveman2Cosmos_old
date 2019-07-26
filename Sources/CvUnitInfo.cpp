@@ -1389,7 +1389,11 @@ bool CvUnitInfo::isPrereqOrCivics(int i) const
 bool CvUnitInfo::isPrereqBuildingClass(int i) const
 {
 	FAssertMsg(i < GC.getNumBuildingClassInfos(), "Index out of bounds");
-	FAssertMsg(i > -1, "Index out of bounds");
+	FAssertMsg(i >= -1, "Index out of bounds");
+	if(i == NO_BUILDINGCLASS)
+	{
+		return m_pbPrereqBuildingClass != NULL;
+	}
 	return m_pbPrereqBuildingClass ? m_pbPrereqBuildingClass[i] : false;
 }
 
@@ -1410,7 +1414,11 @@ int CvUnitInfo::getPrereqBuildingClassOverrideEra(int i) const
 bool CvUnitInfo::getForceObsoleteUnitClass(int i) const
 {
 	FAssertMsg(i < GC.getNumUnitClassInfos(), "Index out of bounds");
-	FAssertMsg(i > -1, "Index out of bounds");
+	FAssertMsg(i >= -1, "Index out of bounds");
+	if (i == NO_UNITCLASS)
+	{
+		return m_pbForceObsoleteUnitClass != NULL;
+	}
 	return m_pbForceObsoleteUnitClass ? m_pbForceObsoleteUnitClass[i] : false;
 }
 /********************************************************************************/
