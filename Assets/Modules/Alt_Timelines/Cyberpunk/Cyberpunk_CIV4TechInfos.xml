@@ -13,19 +13,16 @@
 			<SoundMP>AS2D_TECH_CYBERPUNK2</SoundMP>
 			<Button>Art/Interface/Buttons/TechTree/cyberpunk.dds</Button>
 			<!-- Main properties -->
-			<iCost>25354</iCost>
-			<Era>ERA_INFORMATION</Era>
+			<iCost>67710</iCost>
+			<Era>ERA_TRANSHUMAN</Era>
 			<OrPreReqs>
-				<PrereqTech>TECH_CYBERWARFARE</PrereqTech>
+				<PrereqTech>TECH_SIMULATED_REALITY</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_COGNITIVE_ROBOTICS</PrereqTech>
-			</AndPreReqs>
 			<!-- System -->
 			<iAsset>50</iAsset>
 			<iPower>10</iPower>
-			<iGridX>94</iGridX>
-			<iGridY>17</iGridY>
+			<iGridX>113</iGridX>
+			<iGridY>7</iGridY>
 			<bTrade>1</bTrade>
 			<iAITradeModifier>10</iAITradeModifier>
 			<Flavors>

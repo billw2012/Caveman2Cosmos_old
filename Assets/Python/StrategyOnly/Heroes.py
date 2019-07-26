@@ -1,103 +1,78 @@
 ## By StrategyOnly converted to BUG by Dancing Hoskuld
 
 from CvPythonExtensions import *
-import CvEventInterface
 import CvUtil
-import BugUtil
-import PyHelpers
-import Popup as PyPopup
 import SdToolKit as SDTK
 
-gc = CyGlobalContext()
-localText = CyTranslator()
-PyPlayer = PyHelpers.PyPlayer
-PyInfo = PyHelpers.PyInfo
-
-giSparticus = -1
-giGladiator = -1
+GC = CyGlobalContext()
+TRNSLTR = CyTranslator()
+GAME = GC.getGame()
 
 def init():
-	global giSparticus, giGladiator
-	
-	giSparticus = gc.getInfoTypeForString('UNITCLASS_SPARTACUS')
-	giGladiator = CvUtil.findInfoTypeNum(gc.getUnitInfo,gc.getNumUnitInfos(),'UNIT_GLADIATOR')
+	global giSparticus, giGladiator, giFieldMedic
+	giSparticus = GC.getInfoTypeForString('UNITCLASS_SPARTACUS')
+	giGladiator = GC.getInfoTypeForString('UNIT_GLADIATOR')
+	giFieldMedic = GC.getInfoTypeForString('PROMOTION_RETINUE_MESSENGER')
+
 
 def onUnitBuilt(self, argsList):
-	'Unit Completed'
-	city = argsList[0]
-	unit = argsList[1]
-	player = PyPlayer(city.getOwner())
-	CvAdvisorUtils.unitBuiltFeats(city, unit)
-## Hero Movies ##
-	if not CyGame().isNetworkMultiPlayer() and city.getOwner() == CyGame().getActivePlayer() and isWorldUnitClass(unit.getUnitClassType()):
+	CyCity, CyUnit = argsList
+	CvAdvisorUtils.unitBuiltFeats(CyCity, CyUnit)
+	## Hero Movie
+	iPlayer = CyCity.getOwner()
+	if not GAME.isNetworkMultiPlayer() and iPlayer == GAME.getActivePlayer() and isWorldUnitClass(CyUnit.getUnitClassType()):
 		popupInfo = CyPopupInfo()
 		popupInfo.setButtonPopupType(ButtonPopupTypes.BUTTONPOPUP_PYTHON_SCREEN)
-		popupInfo.setData1(unit.getUnitType())
-		popupInfo.setData2(city.getID())
+		popupInfo.setData1(CyUnit.getUnitType())
+		popupInfo.setData2(CyCity.getID())
 		popupInfo.setData3(4)
-		popupInfo.setText(u"showWonderMovie")
-		popupInfo.addPopup(city.getOwner())
-## Hero Movies ##
+		popupInfo.setText("showWonderMovie")
+		popupInfo.addPopup(iPlayer)
+
 
 def onCombatResult(argsList):
-	'Combat Result'
-	pWinner,pLoser = argsList
-	playerX = PyPlayer(pWinner.getOwner())
-	unitX = PyInfo.UnitInfo(pWinner.getUnitType())
-	playerY = PyPlayer(pLoser.getOwner())
-	unitY = PyInfo.UnitInfo(pLoser.getUnitType())
+	CyUnitW, CyUnitL = argsList
 
-	pPlayer = gc.getPlayer(pWinner.getOwner())
+	# Spartacus Capture Event
+	if CyUnitW.getUnitClassType() == giSparticus:
 
-## BTS HEROS - Spartacus Capture Event Start ##
+		# Capture % Random # 0 to 3 or 25%
+		if not GAME.getSorenRandNum(4, "Gods"):
 
-	if pWinner.getUnitClassType() == giSparticus:
+			pClearPlot = findClearPlot(CyUnitL)
 
-		## Capture % Random # 0 to 3 or 25% ##
-		iNewGladiatorNumber = getRandomNumber( 3 )
-
-		if iNewGladiatorNumber == 0:
-
-			pClearPlot = findClearPlot(pLoser)
-
-			if (pLoser.plot().getNumUnits() == 1 and pClearPlot != -1):
-				pPlot = pLoser.plot()
-				pLoser.setXY(pClearPlot.getX(), pClearPlot.getY(), False, True, True)
+			CyPlot = CyUnitL.plot()
+			if pClearPlot != -1 and CyPlot.getNumUnits() == 1:
+				CyPlot = CyUnitL.plot()
+				CyUnitL.setXY(pClearPlot.getX(), pClearPlot.getY(), False, True, True)
 			else:
-				pPlot = pWinner.plot()
-				
-			pPID = pPlayer.getID()
-			newUnit = pPlayer.initUnit(giGladiator, pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-			pLoser.setDamage(100000, False)
-##			newUnit.convert(pLoser)
-##			pLoser.setDamage(100, False)
-			newUnit.finishMoves()
+				CyPlot = CyUnitW.plot()
 
-			iXa = pLoser.getX()
-			iYa = pLoser.getY()
+			iPlayer = CyUnitW.getOwner()
+			GC.getPlayer(iPlayer).initUnit(giGladiator, CyPlot.getX(), CyPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH).finishMoves()
 
-			CyInterface().addMessage(pPID,False,15,CyTranslator().getText("TXT_KEY_SPARTACUS_CAPTURE_SUCCESS",()),'',0,',Art/Interface/Buttons/Units/ICBM.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,3,11',ColorTypes(44), iXa, iYa, True,True)
+			CyUnitL.setDamage(100000, False)
+			msg = TRNSLTR.getText("TXT_KEY_SPARTACUS_CAPTURE_SUCCESS",())
+			icon = ',Art/Interface/Buttons/Units/ICBM.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,3,11'
+			CvUtil.sendMessage(msg, iPlayer, 15, icon, ColorTypes(44), CyUnitL.getX(), CyUnitL.getY(), True, True, 0, "", False)
 
-## BTS HEROS - Spartacus Capture End ##
 
-## Field Medic Start ##
+	# Field Medic
+	if CyUnitW.isHasPromotion(giFieldMedic):
+		# 10% chance
+		if not GAME.getSorenRandNum(10, "Gods"):
 
-	if pWinner.isHasPromotion(gc.getInfoTypeForString('PROMOTION_RETINUE_MESSENGER')):
-
-		iHealChance = getRandomNumber( 9 )
-
-		if iHealChance == 0:
-			if ( not SDTK.sdObjectExists('Heroes', pWinner) ) :
+			if not SDTK.sdObjectExists('Heroes', CyUnitW):
 				iHealTurn = -1
-			else :
-				iHealTurn = SDTK.sdObjectGetVal( 'Heroes', pWinner, 'HealTurn' )
-			if( iHealTurn == None or gc.getGame().getGameTurn() > iHealTurn ) :
-				pWinner.setDamage(0, False)
-				if ( not SDTK.sdObjectExists('Heroes', pWinner) ) :
-					SDTK.sdObjectInit('Heroes', pWinner, {})
-				SDTK.sdObjectSetVal( 'Heroes', pWinner, 'HealTurn', gc.getGame().getGameTurn() )
+			else:
+				iHealTurn = SDTK.sdObjectGetVal( 'Heroes', CyUnitW, 'HealTurn' )
 
-## Field Medic End ##
+			if iHealTurn == None or GAME.getGameTurn() > iHealTurn:
+				CyUnitW.setDamage(0, False)
+				if not SDTK.sdObjectExists('Heroes', CyUnitW):
+					SDTK.sdObjectInit('Heroes', CyUnitW, {})
+				SDTK.sdObjectSetVal('Heroes', CyUnitW, 'HealTurn', GAME.getGameTurn())
+
 
 def findClearPlot(pUnit):
 	BestPlot = -1
@@ -112,11 +87,8 @@ def findClearPlot(pUnit):
 			if pPlot.getNumUnits() == 0:
 				iCurrentPlot = iCurrentPlot + 5
 			if iCurrentPlot >= 1:
-				iCurrentPlot = iCurrentPlot + CyGame().getSorenRandNum(5, "findClearPlot")
+				iCurrentPlot = iCurrentPlot + GAME.getSorenRandNum(5, "findClearPlot")
 				if iCurrentPlot >= iBestPlot:
 					BestPlot = pPlot
 					iBestPlot = iCurrentPlot
 	return BestPlot
-
-def getRandomNumber(int):
-	return CyGame().getSorenRandNum(int, "Gods")

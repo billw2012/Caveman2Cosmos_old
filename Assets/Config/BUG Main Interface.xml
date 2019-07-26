@@ -22,7 +22,7 @@
 			<option id="AutoEndDecisionlessTurns" key="AutoEndDecisionlessTurns" type="boolean" default="False" get="isAutoEndDecisionlessTurns" dirtyBit="MiscButtons"/>
 
 			<!-- Execute AI moves in minimal turn slices -->
-			<option id="MinimizeAITurnSlices" key="MinimizeAITurnSlices" type="boolean" default="False" get="isMinimizeAITurnSlices" dirtyBit="MiscButtons"/>
+			<option id="MinimizeAITurnSlices" key="MinimizeAITurnSlices" type="boolean" default="True" get="isMinimizeAITurnSlices" dirtyBit="MiscButtons"/>
 
 			<!-- Invert shift semantics for build queueing -->
 			<option id="InverseShiftForQueueing" key="InverseShiftForQueueing" type="boolean" default="False" get="isInverseShiftForQueueing" dirtyBit="MiscButtons"/>
@@ -45,7 +45,7 @@
 			<option id="FieldOfView_Value" key="Field of View Value" type="string" default="50" get="getFieldOfView" set="setFieldOfView"/>
 
 			<!-- Build/Action Icon Size by EmperorFool -->
-			<list id="UnitIconSize" key="Unit Icon Size" type="int" default="56" listType="int" values="64, 60, 56, 52, 48, 44, 40, 36, 33"
+			<list id="UnitIconSize" key="Unit Icon Size" type="int" default="56" listType="int" values="92, 88, 84, 80, 76, 72, 68, 64, 60, 56, 52, 48, 44, 40, 36, 33"
 				get="getUnitIconSize" set="setUnitIconSize" dirtyBit="SelectionButtons"/>
 			<option id="BuildIconSize" key="Build Icon Size" type="int" default="64" get="getBuildIconSize" set="setBuildIconSize"/>
 		</section>

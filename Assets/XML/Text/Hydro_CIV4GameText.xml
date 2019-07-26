@@ -12861,7 +12861,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ORGANIC_LAMPS</Tag>
-		<English>Organic Lamps</English>
+		<English>OLED Lamps</English>
 		<French>
 			<Text>Lampes Organiques</Text>
 			<Gender>Female</Gender>
@@ -33320,7 +33320,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MONORAIL_STATION</Tag>
-		<English>Monorail Station</English>
+		<English>Maglev Station</English>
 		<French>
 			<Text>Station de Monorail</Text>
 			<Gender>Female</Gender>

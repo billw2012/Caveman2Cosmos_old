@@ -15,7 +15,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MMO</PrereqTech>
-			<iCost>4810</iCost>
+			<iCost>4210</iCost>
 			<FreeBuilding>BUILDINGCLASS_MARKET_RESEARCH</FreeBuilding>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -56,7 +56,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_VIRTUALSOCIETY</PrereqTech>
-			<iCost>5730</iCost>
+			<iCost>4810</iCost>
 			<FreeBuilding>BUILDINGCLASS_SOCIAL_NETWORKS</FreeBuilding>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -1007,7 +1007,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_BACTERIUM_ENGINEERING</PrereqTech>
-			<iCost>5970</iCost>
+			<iCost>5730</iCost>
 			<GlobalBuildingExtraCommerces>
 				<BuildingExtraCommerce>
 					<BuildingClass>BUILDINGCLASS_BACTERIUM_BIOFORGE</BuildingClass>
@@ -1037,7 +1037,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_BACTERIUM_ENGINEERING</PrereqTech>
-			<iCost>5970</iCost>
+			<iCost>5730</iCost>
 			<GlobalBuildingExtraCommerces>
 				<BuildingExtraCommerce>
 					<BuildingClass>BUILDINGCLASS_GENFARM_LAB</BuildingClass>
@@ -1067,7 +1067,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_BACTERIUM_ENGINEERING</PrereqTech>
-			<iCost>5970</iCost>
+			<iCost>5730</iCost>
 			<GlobalBuildingExtraCommerces>
 				<BuildingExtraCommerce>
 					<BuildingClass>BUILDINGCLASS_BACTERIUM_BIOFORGE</BuildingClass>

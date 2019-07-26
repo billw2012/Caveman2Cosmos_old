@@ -3199,18 +3199,21 @@ bool CvCity::isPlotTrainable(UnitTypes eUnit, bool bContinue, bool bTestVisible)
 			}
 		}
 
-		CvCivilizationInfo& kCivilizationInfo = GC.getCivilizationInfo(getCivilizationType());
-		int numNumBuildingClassInfos = GC.getNumBuildingClassInfos();
-
-		for (iI = 0; iI < numNumBuildingClassInfos; iI++)
+		if (kUnit.isPrereqBuildingClass(NO_BUILDINGCLASS))
 		{
-			if (kUnit.isPrereqBuildingClass(iI))
+			CvCivilizationInfo& kCivilizationInfo = GC.getCivilizationInfo(getCivilizationType());
+			int const numNumBuildingClassInfos = GC.getNumBuildingClassInfos();
+
+			for (iI = 0; iI < numNumBuildingClassInfos; iI++)
 			{
-				if(pPlayer.isBuildingClassRequiredToTrain(BuildingClassTypes(iI), eUnit))
+				if (kUnit.isPrereqBuildingClass(iI))
 				{
-					if (!(getNumBuilding((BuildingTypes)kCivilizationInfo.getCivilizationBuildings(iI))))
+					if (pPlayer.isBuildingClassRequiredToTrain(BuildingClassTypes(iI), eUnit))
 					{
-						return false;
+						if (!(getNumBuilding((BuildingTypes)kCivilizationInfo.getCivilizationBuildings(iI))))
+						{
+							return false;
+						}
 					}
 				}
 			}
@@ -3250,43 +3253,44 @@ bool CvCity::isForceObsoleteUnitClassAvailable(UnitTypes eUnit) const
 	PROFILE_FUNC();
 
 	UnitTypes eLoopUnit = NO_UNIT;
-	int iI;
 	CvUnitInfo& kUnit = GC.getUnitInfo(eUnit);
 	CvCivilizationInfo& kCivilization = GC.getCivilizationInfo(getCivilizationType());
 
 	FAssertMsg(eUnit != NO_UNIT, "eUnit is expected to be assigned (not NO_UNIT)");
 
-	const int numUnitClassInfos = GC.getNumUnitClassInfos();
-
-	for (iI = 0; iI < numUnitClassInfos; iI++)
+	if (kUnit.getForceObsoleteUnitClass(NO_UNITCLASS))
 	{
-		if (kUnit.getForceObsoleteUnitClass(iI))
-		{
-			eLoopUnit = (UnitTypes)kCivilization.getCivilizationUnits(iI);
-			if(eLoopUnit == NO_UNIT)
-			{
-				continue;
-			}
-			CvUnitInfo& kLoopUnit = GC.getUnitInfo(eLoopUnit);
+		const int numUnitClassInfos = GC.getNumUnitClassInfos();
 
-			if (canTrain(eLoopUnit, false, false, false, true))
+		for (int iI = 0; iI < numUnitClassInfos; iI++)
+		{
+			if (kUnit.getForceObsoleteUnitClass(iI))
 			{
-				return true;
-			}
-				
-			int iJ;
-				
-			for (iJ = 0; iJ < numUnitClassInfos; iJ++)
-			{
-				if (kLoopUnit.getUpgradeUnitClass(iJ))
+				eLoopUnit = (UnitTypes)kCivilization.getCivilizationUnits(iI);
+				if(eLoopUnit == NO_UNIT)
 				{
-					eLoopUnit = (UnitTypes)kCivilization.getCivilizationUnits(iJ);
-						
-					if (eLoopUnit != NO_UNIT)
+					continue;
+				}
+				CvUnitInfo& kLoopUnit = GC.getUnitInfo(eLoopUnit);
+
+				if (canTrain(eLoopUnit, false, false, false, true))
+				{
+					return true;
+				}
+				
+		
+				for (int iJ = 0; iJ < numUnitClassInfos; iJ++)
+				{
+					if (kLoopUnit.getUpgradeUnitClass(iJ))
 					{
-						if (canTrain(eLoopUnit, false, false, false, true))
+						eLoopUnit = (UnitTypes)kCivilization.getCivilizationUnits(iJ);
+						
+						if (eLoopUnit != NO_UNIT)
 						{
-							return true;
+							if (canTrain(eLoopUnit, false, false, false, true))
+							{
+								return true;
+							}
 						}
 					}
 				}

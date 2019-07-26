@@ -3495,7 +3495,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Cost -->
-			<iCost>15030</iCost>
+			<iCost>12630</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -3569,7 +3569,7 @@
 				</PrereqBuildingClass>
 			</PrereqBuildingClasses>
 			<!-- Cost -->
-			<iCost>16470</iCost>
+			<iCost>13830</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-50</iCommerce>
@@ -4915,7 +4915,7 @@
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
-			<iCost>14430</iCost>
+			<iCost>12030</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-10</iCommerce>
@@ -9086,7 +9086,7 @@
 				</PrereqBuildingClass>
 			</PrereqBuildingClasses>
 			<!-- Cost -->
-			<iCost>16470</iCost>
+			<iCost>13830</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-50</iCommerce>
@@ -10128,7 +10128,7 @@
 				</PrereqBuildingClass>
 			</PrereqBuildingClasses>
 			<!-- Cost -->
-			<iCost>17190</iCost>
+			<iCost>17910</iCost>
 			<!-- Main effects -->
 			<iHappiness>3</iHappiness>
 			<CommerceChanges>
@@ -13261,7 +13261,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<!-- Cost -->
-			<iCost>8460</iCost>
+			<iCost>8070</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -14253,7 +14253,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Cost -->
-			<iCost>14430</iCost>
+			<iCost>12630</iCost>
 			<!-- Great People effects -->
 			<GreatPeopleUnitClass>UNITCLASS_SCIENTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>1</iGreatPeopleRateChange>
@@ -14759,7 +14759,7 @@
 				</PrereqBuildingClass>
 			</PrereqBuildingClasses>
 			<!-- Cost -->
-			<iCost>10110</iCost>
+			<iCost>9630</iCost>
 			<!-- Main effects -->
 			<iHappiness>3</iHappiness>
 			<CommerceModifiers>
@@ -18190,7 +18190,7 @@
 			<iGreatPeopleRateChange>1</iGreatPeopleRateChange>
 			<bWater>1</bWater>
 			<bNukeImmune>1</bNukeImmune>
-			<iCost>2820</iCost>
+			<iCost>2690</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iAsset>8</iAsset>

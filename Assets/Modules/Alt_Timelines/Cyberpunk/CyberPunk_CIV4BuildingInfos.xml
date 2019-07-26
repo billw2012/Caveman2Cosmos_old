@@ -23,7 +23,7 @@
 			<FreeBonus>BONUS_CYBERPUNK</FreeBonus>
 			<iNumFreeBonuses>1</iNumFreeBonuses>
 			<bNukeImmune>1</bNukeImmune>
-			<iCost>15030</iCost>
+			<iCost>32730</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
@@ -48,7 +48,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<Bonus>BONUS_CYBERPUNK</Bonus>
-			<iCost>2505</iCost>
+			<iCost>5455</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iHealth>-15</iHealth>
@@ -69,12 +69,6 @@
 			</CommerceModifiers>
 			<bPrereqPower>1</bPrereqPower>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<ReplaceBuildings>
-				<ReplaceBuilding>
-					<BuildingClassType>BUILDINGCLASS_DREAM_VISUALIZER</BuildingClassType>
-					<bReplace>1</bReplace>
-				</ReplaceBuilding>
-			</ReplaceBuildings>
 			<PropertyManipulators>
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
@@ -98,7 +92,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<Bonus>BONUS_CYBERPUNK</Bonus>
-			<iCost>2505</iCost>
+			<iCost>5455</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>5</iHappiness>
@@ -123,12 +117,6 @@
 			</BuildingClassNeededs>
 			<bPrereqPower>1</bPrereqPower>
 			<iPrereqPopulation>6</iPrereqPopulation>
-			<ReplaceBuildings>
-				<ReplaceBuilding>
-					<BuildingClassType>BUILDINGCLASS_DREAM_VISUALIZER</BuildingClassType>
-					<bReplace>1</bReplace>
-				</ReplaceBuilding>
-			</ReplaceBuildings>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_CYBER_INSECT_LAB</BuildingClass>
@@ -145,7 +133,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<Bonus>BONUS_CYBERPUNK</Bonus>
-			<iCost>2505</iCost>
+			<iCost>5455</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- RevolutionDCM End  -->
@@ -224,7 +212,7 @@
 			<PrereqBonuses>
 				<Bonus>BONUS_CYBERPUNK</Bonus>
 			</PrereqBonuses>
-			<iCost>2505</iCost>
+			<iCost>5455</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<HealUnitCombatTypes>
@@ -266,7 +254,7 @@
 			<PrereqBonuses>
 				<Bonus>BONUS_CYBERPUNK</Bonus>
 			</PrereqBonuses>
-			<iCost>2505</iCost>
+			<iCost>5455</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>-3</iHappiness>
@@ -293,12 +281,6 @@
 					<iAmountPerTurn>-5</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
-			<ReplaceBuildings>
-				<ReplaceBuilding>
-					<BuildingClassType>BUILDINGCLASS_DREAM_VISUALIZER</BuildingClassType>
-					<bReplace>1</bReplace>
-				</ReplaceBuilding>
-			</ReplaceBuildings>
 		</BuildingInfo>
 	</BuildingInfos>
 </Civ4BuildingInfos>
