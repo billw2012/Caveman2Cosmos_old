@@ -13703,7 +13703,7 @@
 					</Has>
 				</And>
 			</TrainCondition>
-			<iCost>2400</iCost>
+			<iCost>2865</iCost>
 			<iMoves>1</iMoves>
 			<iCombat>90</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -14401,7 +14401,7 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
+			<PrereqTech>TECH_EXOSKELETON</PrereqTech>
 			<BonusType>BONUS_NANOTUBES</BonusType>
 			<TrainCondition>
 				<And>
@@ -14415,7 +14415,7 @@
 					</Has>
 				</And>
 			</TrainCondition>
-			<iCost>1900</iCost>
+			<iCost>2745</iCost>
 			<iMoves>1</iMoves>
 			<iCombat>90</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -19557,7 +19557,7 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<PrereqTech>TECH_RAPID_PROTOTYPING</PrereqTech>
+			<PrereqTech>TECH_METAMATERIALS</PrereqTech>
 			<BonusType>BONUS_TANKS</BonusType>
 			<PrereqBonuses>
 				<BonusType>BONUS_DIESEL</BonusType>
@@ -19571,7 +19571,7 @@
 					</Has>
 				</And>
 			</TrainCondition>
-			<iCost>2500</iCost>
+			<iCost>2505</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>140</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -19677,7 +19677,7 @@
 					</Has>
 				</And>
 			</TrainCondition>
-			<iCost>2100</iCost>
+			<iCost>2008</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>120</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -20159,7 +20159,7 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<PrereqTech>TECH_CONTROLLED_PLASMA</PrereqTech>
+			<PrereqTech>TECH_COILGUN</PrereqTech>
 			<BonusType>BONUS_TANKS</BonusType>
 			<PrereqBonuses>
 				<BonusType>BONUS_DIESEL</BonusType>
@@ -20173,7 +20173,7 @@
 					</Has>
 				</And>
 			</TrainCondition>
-			<iCost>2900</iCost>
+			<iCost>2865</iCost>
 			<iMoves>3</iMoves>
 			<iCombat>170</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -21089,7 +21089,7 @@
 				<BonusType>BONUS_DIESEL</BonusType>
 				<BonusType>BONUS_BIOFUEL</BonusType>
 			</PrereqBonuses>
-			<iCost>2600</iCost>
+			<iCost>2405</iCost>
 			<iMoves>3</iMoves>
 			<iCombat>80</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -21192,7 +21192,7 @@
 				<BonusType>BONUS_DIESEL</BonusType>
 				<BonusType>BONUS_BIOFUEL</BonusType>
 			</PrereqBonuses>
-			<iCost>2600</iCost>
+			<iCost>2405</iCost>
 			<iMoves>3</iMoves>
 			<iCombat>100</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -24288,7 +24288,7 @@
 			</PrereqOrBuildings>
 			<PrereqTech>TECH_MICROMECHANICS</PrereqTech>
 			<BonusType>BONUS_DIESEL</BonusType>
-			<iCost>2750</iCost>
+			<iCost>3294</iCost>
 			<iMoves>3</iMoves>
 			<iCombat>90</iCombat>
 			<iCombatLimit>90</iCombatLimit>
@@ -25074,7 +25074,7 @@
 				<BonusType>BONUS_DIESEL</BonusType>
 				<BonusType>BONUS_BIOFUEL</BonusType>
 			</PrereqBonuses>
-			<iCost>2400</iCost>
+			<iCost>2075</iCost>
 			<iMoves>3</iMoves>
 			<iAirRange>2</iAirRange>
 			<iCombat>100</iCombat>
@@ -25726,7 +25726,7 @@
 			<PrereqBonuses>
 				<BonusType>BONUS_COMPUTERS</BonusType>
 			</PrereqBonuses>
-			<iCost>2600</iCost>
+			<iCost>2890</iCost>
 			<iMoves>1</iMoves>
 			<iCombat>110</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -26320,7 +26320,11 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_CONTROLLED_PLASMA</PrereqTech>
-			<iCost>2600</iCost>
+			<TechTypes>
+				<PrereqTech>TECH_CONTROLLED_PLASMA</PrereqTech>
+			</TechTypes>
+			<BonusType>BONUS_PLASMA_GENERATORS</BonusType>
+			<iCost>2100</iCost>
 			<iMoves>1</iMoves>
 			<iCombat>85</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -27683,7 +27687,7 @@
 				<BonusType>BONUS_WARE_ALUMINUM</BonusType>
 				<BonusType>BONUS_NANOTUBES</BonusType>
 			</PrereqBonuses>
-			<iCost>2500</iCost>
+			<iCost>2985</iCost>
 			<iAdvancedStartCost>450</iAdvancedStartCost>
 			<iMoves>5</iMoves>
 			<iCombat>90</iCombat>
@@ -27795,7 +27799,7 @@
 				<BonusType>BONUS_WARE_ALUMINUM</BonusType>
 				<BonusType>BONUS_NANOTUBES</BonusType>
 			</PrereqBonuses>
-			<iCost>2500</iCost>
+			<iCost>2406</iCost>
 			<iAdvancedStartCost>450</iAdvancedStartCost>
 			<iMoves>3</iMoves>
 			<iCombat>85</iCombat>
@@ -29032,7 +29036,7 @@
 					<iProductionTrait>25</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
-			<iCost>1400</iCost>
+			<iCost>1200</iCost>
 			<iMoves>6</iMoves>
 			<iWorkRate>500</iWorkRate>
 			<iAsset>1</iAsset>
@@ -29219,7 +29223,7 @@
 			</Builds>
 			<PrereqTech>TECH_MARINEARCHITECTURE</PrereqTech>
 			<BonusType>BONUS_NANOTUBES</BonusType>
-			<iCost>3000</iCost>
+			<iCost>2292</iCost>
 			<BonusProductionModifiers>
 				<BonusProductionModifier>
 					<BonusType>BONUS_WATERPROOF_CEMENT</BonusType>
@@ -30288,7 +30292,7 @@
 			<PrereqBonuses>
 				<BonusType>BONUS_DIESEL</BonusType>
 			</PrereqBonuses>
-			<iCost>1650</iCost>
+			<iCost>1660</iCost>
 			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>10</iMoves>
 			<iCombat>55</iCombat>
@@ -32734,7 +32738,7 @@
 				<BonusType>BONUS_DIESEL</BonusType>
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
-			<iCost>2400</iCost>
+			<iCost>2305</iCost>
 			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>10</iMoves>
 			<iCombat>80</iCombat>
@@ -32855,13 +32859,13 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<PrereqTech>TECH_MILITARY_ROBOTS</PrereqTech>
+			<PrereqTech>TECH_FRESPONSE</PrereqTech>
 			<BonusType>BONUS_WARE_STEEL</BonusType>
 			<PrereqBonuses>
 				<BonusType>BONUS_DIESEL</BonusType>
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
-			<iCost>3000</iCost>
+			<iCost>2985</iCost>
 			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>11</iMoves>
 			<iCombat>110</iCombat>
@@ -34538,7 +34542,7 @@
 				<BonusType>BONUS_DIESEL</BonusType>
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
-			<iCost>2000</iCost>
+			<iCost>2030</iCost>
 			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>11</iMoves>
 			<iCombat>80</iCombat>
@@ -34660,7 +34664,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqBuilding>BUILDING_REMOTE_NAVAL</PrereqBuilding>
-			<PrereqTech>TECH_UNMANNEDSEA</PrereqTech>
+			<PrereqTech>TECH_FRESPONSE</PrereqTech>
 			<BonusType>BONUS_URANIUM</BonusType>
 			<TrainCondition>
 				<Or>
@@ -34674,7 +34678,7 @@
 					</Has>
 				</Or>
 			</TrainCondition>
-			<iCost>2425</iCost>
+			<iCost>3285</iCost>
 			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>9</iMoves>
 			<iCombat>105</iCombat>
@@ -35298,12 +35302,12 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<PrereqTech>TECH_SUPERCONDUCTORS</PrereqTech>
+			<PrereqTech>TECH_DEEP_SEA_EXPLORATION</PrereqTech>
 			<BonusType>BONUS_WARE_STEEL</BonusType>
 			<PrereqBonuses>
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
-			<iCost>2400</iCost>
+			<iCost>1680</iCost>
 			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>7</iMoves>
 			<iCombat>80</iCombat>
@@ -35466,12 +35470,9 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<PrereqTech>TECH_SOLAR_PROPULSION</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_STEALTH</PrereqTech>
-			</TechTypes>
+			<PrereqTech>TECH_STEALTH</PrereqTech>
 			<BonusType>BONUS_WARE_STEEL</BonusType>
-			<iCost>2900</iCost>
+			<iCost>2305</iCost>
 			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>8</iMoves>
 			<iCombat>110</iCombat>
@@ -35635,7 +35636,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqBuilding>BUILDING_REMOTE_NAVAL</PrereqBuilding>
-			<PrereqTech>TECH_UNMANNEDSEA</PrereqTech>
+			<PrereqTech>TECH_FRESPONSE</PrereqTech>
 			<BonusType>BONUS_NANOTUBES</BonusType>
 			<PrereqBonuses>
 				<BonusType>BONUS_WARE_STEEL</BonusType>
@@ -35649,7 +35650,7 @@
 					</Has>
 				</And>
 			</TrainCondition>
-			<iCost>2755</iCost>
+			<iCost>3730</iCost>
 			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>9</iMoves>
 			<iCombat>125</iCombat>
@@ -37672,7 +37673,7 @@
 				</UnitAI>
 			</NotUnitAIs>
 			<PrereqBuilding>BUILDING_REMOTE_NAVAL</PrereqBuilding>
-			<PrereqTech>TECH_UNMANNEDSEA</PrereqTech>
+			<PrereqTech>TECH_FRESPONSE</PrereqTech>
 			<BonusType>BONUS_URANIUM</BonusType>
 			<TrainCondition>
 				<Or>
@@ -37686,7 +37687,7 @@
 					</Has>
 				</Or>
 			</TrainCondition>
-			<iCost>2205</iCost>
+			<iCost>2308</iCost>
 			<iMinAreaSize>10</iMinAreaSize>
 			<iMoves>12</iMoves>
 			<iCombat>100</iCombat>
@@ -39281,7 +39282,7 @@
 			<PrereqBonuses>
 				<BonusType>BONUS_DIESEL</BonusType>
 			</PrereqBonuses>
-			<iCost>1850</iCost>
+			<iCost>1845</iCost>
 			<iAdvancedStartCost>150</iAdvancedStartCost>
 			<iMoves>6</iMoves>
 			<TerrainImpassableTypes>
@@ -39427,7 +39428,7 @@
 			<PrereqBonuses>
 				<BonusType>BONUS_DIESEL</BonusType>
 			</PrereqBonuses>
-			<iCost>2600</iCost>
+			<iCost>2405</iCost>
 			<iMoves>6</iMoves>
 			<iCombat>115</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -41150,7 +41151,7 @@
 					</Has>
 				</And>
 			</TrainCondition>
-			<iCost>2000</iCost>
+			<iCost>2120</iCost>
 			<iMoves>1</iMoves>
 			<iAirRange>18</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -41703,7 +41704,7 @@
 					</Has>
 				</And>
 			</TrainCondition>
-			<iCost>2100</iCost>
+			<iCost>1925</iCost>
 			<iMoves>1</iMoves>
 			<iAirRange>14</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -42622,7 +42623,7 @@
 			<PrereqBuilding>BUILDING_MILITARY_AIRBASE</PrereqBuilding>
 			<PrereqTech>TECH_STEALTH</PrereqTech>
 			<TechTypes>
-				<PrereqTech>TECH_GUIDED_WEAPONS</PrereqTech>
+				<PrereqTech>TECH_WARSIMULATION</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_DIESEL</BonusType>
 			<PrereqBonuses>
@@ -42640,7 +42641,7 @@
 					</Has>
 				</And>
 			</TrainCondition>
-			<iCost>1750</iCost>
+			<iCost>1894</iCost>
 			<iMoves>1</iMoves>
 			<iAirRange>16</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -42920,7 +42921,7 @@
 					</Has>
 				</And>
 			</TrainCondition>
-			<iCost>1800</iCost>
+			<iCost>1635</iCost>
 			<iMoves>1</iMoves>
 			<iAirRange>50</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -43449,7 +43450,7 @@
 			</UnitAIs>
 			<PrereqBuilding>BUILDING_BIOLOGICAL_WARFARE_LAB</PrereqBuilding>
 			<PrereqTech>TECH_GENEMANIPULATION</PrereqTech>
-			<iCost>2100</iCost>
+			<iCost>2030</iCost>
 			<iAdvancedStartCost>120</iAdvancedStartCost>
 			<iMoves>1</iMoves>
 			<iAirRange>-1</iAirRange>
@@ -43965,7 +43966,7 @@
 			<PrereqBonuses>
 				<BonusType>BONUS_ROCKETFUEL</BonusType>
 			</PrereqBonuses>
-			<iCost>1800</iCost>
+			<iCost>1680</iCost>
 			<iMoves>1</iMoves>
 			<iAirRange>6</iAirRange>
 			<iAirCombat>80</iAirCombat>
@@ -46863,7 +46864,7 @@
 					<bUnitCombatDefender>1</bUnitCombatDefender>
 				</UnitCombatDefender>
 			</UnitCombatDefenders>
-			<iCost>1750</iCost>
+			<iCost>1825</iCost>
 			<iMoves>3</iMoves>
 			<iCombat>100</iCombat>
 			<iFirstStrikes>2</iFirstStrikes>
@@ -46987,12 +46988,9 @@
 				</UnitCombatDefender>
 			</UnitCombatDefenders>
 			<PrereqTech>TECH_FRESPONSE</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_EXOSKELETON</PrereqTech>
-			</TechTypes>
 			<BonusType>BONUS_MECHS</BonusType>
 			<PrereqBuilding>BUILDING_POLICE_PRECINCT</PrereqBuilding>
-			<iCost>3000</iCost>
+			<iCost>3580</iCost>
 			<iMoves>4</iMoves>
 			<VisibilityIntensityTypes>
 				<VisibilityIntensityType>
@@ -49610,7 +49608,7 @@
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
 			</UnitCombatTargets>
-			<iCost>1550</iCost>
+			<iCost>1430</iCost>
 			<iMoves>4</iMoves>
 			<iCombat>70</iCombat>
 			<iFirstStrikes>2</iFirstStrikes>
@@ -49807,7 +49805,7 @@
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
 			</UnitCombatTargets>
-			<iCost>2050</iCost>
+			<iCost>2005</iCost>
 			<iMoves>1</iMoves>
 			<iCombat>50</iCombat>
 			<UnitCombatMods>
@@ -53112,7 +53110,7 @@
 					<iProductionTrait>25</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
-			<iCost>1130</iCost>
+			<iCost>1075</iCost>
 			<iHurryCostModifier>25</iHurryCostModifier>
 			<iMoves>1</iMoves>
 			<iWorkRate>350</iWorkRate>
@@ -62134,7 +62132,7 @@
 					</Has>
 				</And>
 			</TrainCondition>
-			<iCost>1500</iCost>
+			<iCost>1400</iCost>
 			<iHurryCostModifier>25</iHurryCostModifier>
 			<iMoves>5</iMoves>
 			<iCombat>40</iCombat>
@@ -65299,7 +65297,7 @@
 				<BonusType>BONUS_DIESEL</BonusType>
 				<BonusType>BONUS_BIOFUEL</BonusType>
 			</PrereqBonuses>
-			<iCost>2100</iCost>
+			<iCost>1924</iCost>
 			<iMoves>5</iMoves>
 			<iCombat>50</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -65430,7 +65428,7 @@
 			<PrereqBonuses>
 				<BonusType>BONUS_DIESEL</BonusType>
 			</PrereqBonuses>
-			<iCost>2625</iCost>
+			<iCost>2405</iCost>
 			<iAdvancedStartCost>150</iAdvancedStartCost>
 			<iMoves>6</iMoves>
 			<TerrainImpassableTypes>

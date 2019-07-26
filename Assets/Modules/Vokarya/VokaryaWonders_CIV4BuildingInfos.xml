@@ -3300,7 +3300,7 @@
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iHurryAngerModifier>-50</iHurryAngerModifier>
 			<bNukeImmune>1</bNukeImmune>
-			<iCost>10110</iCost>
+			<iCost>9630</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>

@@ -13,19 +13,19 @@
 			<SoundMP>AS2D_TECH_BIOPUNK</SoundMP>
 			<Button>Art/Interface/Buttons/TechTree/biopunk.dds</Button>
 			<!-- Main properties -->
-			<iCost>24485</iCost>
-			<Era>ERA_INFORMATION</Era>
+			<iCost>40165</iCost>
+			<Era>ERA_NANOTECH</Era>
 			<OrPreReqs>
-				<PrereqTech>TECH_CLONING</PrereqTech>
+				<PrereqTech>TECH_AUGMENT_CONSUMABLES</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_BIOLOGICAL_WARFARE</PrereqTech>
+				<PrereqTech>TECH_MAINSTREAM_CLONING</PrereqTech>
 			</AndPreReqs>
 			<!-- System -->
 			<iAsset>48</iAsset>
 			<iPower>6</iPower>
-			<iGridX>93</iGridX>
-			<iGridY>1</iGridY>
+			<iGridX>103</iGridX>
+			<iGridY>11</iGridY>
 			<bTrade>1</bTrade>
 			<iAITradeModifier>10</iAITradeModifier>
 			<Flavors>

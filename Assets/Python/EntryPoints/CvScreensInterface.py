@@ -4,6 +4,7 @@
 from CvPythonExtensions import *
 from CvScreenEnums import *
 import types
+import CvUtil
 
 import CvMainInterface
 import CvTechChooser
@@ -19,27 +20,18 @@ import CvDebugInfoScreen
 
 import BuildListScreen
 
-import CvUtil
 import CvEventInterface
 import CvPopupInterface
 import ScreenInput as PyScreenInput
 
-# BUG - Options - end
 import BugCore
 AdvisorOpt = BugCore.game.Advisors
-# BUG - Options - end
 
-# Caveman2Cosmos (C2C) Screens - 1 of 3 Start
 import C2CMainOptions
 import C2CNationAdvisor
-# Caveman2Cosmos (C2C) Screens - 1 of 3 End
 
-## Forgetful ##
 import Forgetful
-## Forgetful ##
-## TimeKeeper ##
 import TimeKeeper
-## TimeKeeper ##
 
 g_iScreenActive = -2
 
@@ -64,6 +56,7 @@ def toggleSetScreenOn(argsList):
 			SR.x = int(szRes[0])
 			SR.y = int(szRes[1])
 			print "Resolution: %dx%d" %(SR.x, SR.y)
+			SR.calibrate()
 	print "SCREEN %s TURNED ON" %(argsList[0])
 	g_iScreenActive = argsList[0]
 
@@ -329,7 +322,7 @@ def WorldBuilderToggleUnitEditCB():
 	worldBuilderScreen.toggleUnitEditCB()
 
 def WorldBuilderAllPlotsCB():
-	CvEventInterface.beginEvent(CvUtil.EventWBAllPlotsPopup)
+	CvEventInterface.beginEvent(5008)
 
 def WorldBuilderEraseCB():
 	worldBuilderScreen.eraseCB()
@@ -1045,6 +1038,10 @@ def handleInput(argsList):
 		# call handle input on that screen
 		return screen.handleInput(inputClass)
 	return 0
+
+# Entry point for dll requests to display messages.
+def sendMessage(args):
+	CvUtil.sendMessage(args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7], args[8], args[9], args[10], args[11])
 
 # Informs python every time the exe creates tooltip for widgets.
 def updateToolTip(): return

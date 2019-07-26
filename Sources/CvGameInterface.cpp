@@ -961,15 +961,11 @@ CvUnit* CvGame::getPlotUnit(const CvPlot* pPlot, int iIndex) const
 	return NULL;
 }
 
-void CvGame::getPlotUnits(const CvPlot *pPlot, std::vector<CvUnit *> &plotUnits) const
+void CvGame::getPlotUnits(const CvPlot* pPlot, std::vector<CvUnit*>& plotUnits) const
 {
 	PROFILE_FUNC();
 	plotUnits.erase(plotUnits.begin(), plotUnits.end());
 
-	CLLNode<IDInfo>* pUnitNode1;
-	CLLNode<IDInfo>* pUnitNode2;
-	CvUnit* pLoopUnit1;
-	CvUnit* pLoopUnit2;
 	int iPass;
 	PlayerTypes activePlayer = getActivePlayer();
 	TeamTypes activeTeam = getActiveTeam();
@@ -978,36 +974,13 @@ void CvGame::getPlotUnits(const CvPlot *pPlot, std::vector<CvUnit *> &plotUnits)
 	{
 		for (iPass = 0; iPass < 2; iPass++)
 		{
-			std::set<int> movedUnitIds1;
+			CLLNode<IDInfo>* pUnitNode1 = pPlot->headUnitNode();
 
-			while (true)
+			while (pUnitNode1 != NULL)
 			{
-				pUnitNode1 = pPlot->headUnitNode();
-				pLoopUnit1 = NULL;
+				CvUnit* pLoopUnit1 = ::getUnit(pUnitNode1->m_data);
+				pUnitNode1 = pPlot->nextUnitNode(pUnitNode1);
 
-				while (pUnitNode1 != NULL)
-				{
-					if (movedUnitIds1.empty() || movedUnitIds1.find(pUnitNode1->m_data.iID) == movedUnitIds1.end())
-					{
-						pLoopUnit1 = ::getUnit(pUnitNode1->m_data);
-
-						FAssertMsg(pLoopUnit1 != NULL, "NULL unit reached in the selection group");
-
-						if (pLoopUnit1 != NULL)
-						{
-							break;
-						}
-					}
-
-					pUnitNode1 = pPlot->nextUnitNode(pUnitNode1);
-				}
-
-				if (pLoopUnit1 == NULL)
-				{
-					break;
-				}
-				
-				movedUnitIds1.insert(pLoopUnit1->getID());
 				if (!(pLoopUnit1->isInvisible(activeTeam, true)))
 				{
 					if (!(pLoopUnit1->isCargo()))
@@ -1020,36 +993,12 @@ void CvGame::getPlotUnits(const CvPlot *pPlot, std::vector<CvUnit *> &plotUnits)
 							{
 								if (pLoopUnit1->hasCargo())
 								{
-									std::set<int> movedUnitIds2;
+									CLLNode<IDInfo>* pUnitNode2 = pPlot->headUnitNode();
 
-									while (true)
+									while (pUnitNode2 != NULL)
 									{
-										pUnitNode2 = pPlot->headUnitNode();
-										pLoopUnit2 = NULL;
-
-										while (pUnitNode2 != NULL)
-										{
-											if (movedUnitIds2.empty() || movedUnitIds2.find(pUnitNode2->m_data.iID) == movedUnitIds2.end())
-											{
-												pLoopUnit2 = ::getUnit(pUnitNode2->m_data);
-
-												FAssertMsg(pLoopUnit2 != NULL, "NULL unit reached in the selection group");
-
-												if (pLoopUnit2 != NULL)
-												{
-													break;
-												}
-											}
-
-											pUnitNode2 = pPlot->nextUnitNode(pUnitNode2);
-										}
-
-										if (pLoopUnit2 == NULL)
-										{
-											break;
-										}
-										
-										movedUnitIds2.insert(pLoopUnit2->getID());
+										CvUnit* pLoopUnit2 = ::getUnit(pUnitNode2->m_data);
+										pUnitNode2 = pPlot->nextUnitNode(pUnitNode2);
 
 										if (!(pLoopUnit2->isInvisible(activeTeam, true)))
 										{

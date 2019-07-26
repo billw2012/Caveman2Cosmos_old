@@ -2210,7 +2210,8 @@ class CvMainInterface:
 			xMidL = self.xMidL
 			y = yBotBar + 60
 			h = self.yRes - y - 2
-			w = xMidR - xMidL - 16
+
+			w = xMidR - xMidL - 4
 			iSize = MainOpt.getUnitIconSize()
 			MuLi = "UnitButtons"
 			screen.addMultiListControlGFC(MuLi, "", xMidL, y, w, h, 1, iSize, iSize, TableStyles.TABLE_STYLE_STANDARD)

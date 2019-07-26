@@ -1088,7 +1088,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Cost -->
-			<iCost>4810</iCost>
+			<iCost>4010</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<!-- Local -->
@@ -1135,7 +1135,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Cost -->
-			<iCost>2950</iCost>
+			<iCost>3690</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ConstructSound>AS2D_BUILD_DEEP_SPACE_RESEARCH</ConstructSound>
@@ -4324,9 +4324,6 @@
 			<Strategy>TXT_KEY_BUILDING_NATIONAL_ACADEMIC_DATABASE_STRATEGY</Strategy>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_CLOUDCOMPUTING</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_MEDIAPSYCOLOGY</PrereqTech>
-			</TechTypes>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_COMPUTERS</Bonus>
@@ -4341,7 +4338,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Cost -->
-			<iCost>4410</iCost>
+			<iCost>4010</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Local -->
@@ -4693,9 +4690,6 @@
 			<Strategy>TXT_KEY_BUILDING_NATIONAL_LEGAL_DATABASE_STRATEGY</Strategy>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_CLOUDCOMPUTING</PrereqTech>
-			<TechTypes>
-				<PrereqTech>TECH_MEDIAPSYCOLOGY</PrereqTech>
-			</TechTypes>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_COMPUTERS</Bonus>
@@ -4710,7 +4704,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Cost -->
-			<iCost>4410</iCost>
+			<iCost>4010</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Local -->
@@ -5939,7 +5933,7 @@
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
-			<iCost>5730</iCost>
+			<iCost>4810</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Local -->
@@ -6539,7 +6533,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Cost -->
-			<iCost>3850</iCost>
+			<iCost>3690</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SCIENTIFIC</ProductionTraitType>
@@ -6940,7 +6934,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Cost -->
-			<iCost>3850</iCost>
+			<iCost>3690</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ConstructSound>AS2D_BUILD_OBSERVATORY</ConstructSound>
@@ -8608,7 +8602,7 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_GARDEN_CITY</ArtDefineTag>
 			<PrereqTech>TECH_NEW_URBANISM</PrereqTech>
-			<iCost>3850</iCost>
+			<iCost>3080</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<CommerceChanges>

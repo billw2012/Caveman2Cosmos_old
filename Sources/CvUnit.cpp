@@ -9007,38 +9007,12 @@ int CvUnit::getHealRateAsType(const CvPlot* pPlot, bool bHealCheck, UnitCombatTy
 		{
 			if (pLoopPlot->area() == pPlot->area())
 			{
-				CLLNode<IDInfo>* pUnitNode;
-				CvUnit* pLoopUnit;
-				std::set<int> movedUnitIds;
+				pUnitNode = pLoopPlot->headUnitNode();
 
-				while (true)
+				while (pUnitNode != NULL)
 				{
-					pUnitNode = pPlot->headUnitNode();
-					pLoopUnit = NULL;
-
-					while (pUnitNode != NULL)
-					{
-						if (movedUnitIds.empty() || movedUnitIds.find(pUnitNode->m_data.iID) == movedUnitIds.end())
-						{
-							pLoopUnit = ::getUnit(pUnitNode->m_data);
-
-							FAssertMsg(pLoopUnit != NULL, "NULL unit reached in the selection group");
-
-							if (pLoopUnit != NULL)
-							{
-								break;
-							}
-						}
-
-						pUnitNode = pPlot->nextUnitNode(pUnitNode);
-					}
-
-					if (pLoopUnit == NULL)
-					{
-						break;
-					}
-					
-					movedUnitIds.insert(pLoopUnit->getID());
+					pLoopUnit = ::getUnit(pUnitNode->m_data);
+					pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
 
 					if (pLoopUnit->getTeam() == getTeam() && pLoopUnit->hasHealSupportRemaining()) // XXX what about alliances?
 					{

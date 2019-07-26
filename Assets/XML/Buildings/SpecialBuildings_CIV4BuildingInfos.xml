@@ -10226,7 +10226,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ENHANCED_SPECIES</ArtDefineTag>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
-			<PrereqTech>TECH_GENCYCLOPEDIA</PrereqTech>
+			<PrereqTech>TECH_GENEENHANCEMENT</PrereqTech>
 			<!-- Construction cost -->
 			<iCost>-1</iCost>
 			<!-- Special Yield and Commerce modifiers -->
