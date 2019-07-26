@@ -41681,90 +41681,54 @@ void CvUnit::doSetUnitCombats()
 	}
 }
 
-void CvUnit::doSetFreePromotions(bool bAdding, TraitTypes eTrait)
+void CvUnit::setFreePromotion(PromotionTypes ePromotion, bool bAdding, TraitTypes eTrait)
 {
-	int iI;
-	int iJ;
-	int iK;
-	PromotionTypes ePromotion;
-	UnitCombatTypes eUnitCombat;
-	TraitTypes eTrait2;
+	const int numTraitInfos = GC.getNumTraitInfos();
+	CvPlayer& pPlayer = GET_PLAYER(getOwnerINLINE());
 
-	for (iI = 0; iI < GC.getNumPromotionInfos(); iI++)
+	if (bAdding && !isHasPromotion(ePromotion))
 	{
-		ePromotion = ((PromotionTypes)iI);
-		if (bAdding && !isHasPromotion(ePromotion))
+		if (m_pUnitInfo->getFreePromotions((int)ePromotion))
 		{
-			if (m_pUnitInfo->getFreePromotions(iI))
+			setHasPromotion(ePromotion, true, true);
+			return;
+		}
+
+		if (NO_UNITCLASS != getUnitClassType())
+		{
+			if (pPlayer.isFreePromotion(getUnitClassType(), ePromotion))
 			{
 				setHasPromotion(ePromotion, true, true);
-			}
-			for (std::map<UnitCombatTypes, UnitCombatKeyedInfo>::const_iterator it = m_unitCombatKeyedInfo.begin(), end = m_unitCombatKeyedInfo.end(); it != end; ++it)
-			{
-				if(it->second.m_bHasUnitCombat)
-				{
-					eUnitCombat = it->first;
-					if (GET_PLAYER(getOwnerINLINE()).isFreePromotion(eUnitCombat,ePromotion))
-					{
-						setHasPromotion(ePromotion, true, true);
-					}
-					if (eTrait != NO_TRAIT)
-					{
-						if (GC.getTraitInfo(eTrait).isFreePromotionUnitCombats(iI, (int)eUnitCombat))
-						{
-							setHasPromotion(ePromotion, true, true, false, false, true);
-						}
-					}
-					else
-					{
-						for (iK = 0; iK < GC.getNumTraitInfos(); iK++)
-						{
-							eTrait2 = ((TraitTypes)iK);
-							if (GET_PLAYER(getOwnerINLINE()).hasTrait(eTrait2))
-							{
-								if (GC.getTraitInfo(eTrait2).isFreePromotionUnitCombats(iI, (int)eUnitCombat))
-								{
-									setHasPromotion(ePromotion, true, true, false, false, true);
-								}
-							}
-						}
-					}
-				}
-			}
-			if (NO_UNITCLASS != getUnitClassType())
-			{
-				if (GET_PLAYER(getOwnerINLINE()).isFreePromotion(getUnitClassType(), ePromotion))
-				{
-					setHasPromotion(ePromotion, true, true);
-				}
+				return;
 			}
 		}
-		//Remove trait derived promotions if trait has been removed
-		if (!bAdding && isPromotionFromTrait(ePromotion) && isHasPromotion(ePromotion))
+		for (std::map<UnitCombatTypes, UnitCombatKeyedInfo>::const_iterator it = m_unitCombatKeyedInfo.begin(), end = m_unitCombatKeyedInfo.end(); it != end; ++it)
 		{
-			for (iJ = 0; iJ < GC.getNumUnitCombatInfos(); iJ++)
+			if (it->second.m_bHasUnitCombat)
 			{
-				eUnitCombat = ((UnitCombatTypes)iJ);
-				if (isHasUnitCombat((UnitCombatTypes)iJ))
+				if (pPlayer.isFreePromotion(it->first, ePromotion))
 				{
-					if (eTrait != NO_TRAIT)
+					setHasPromotion(ePromotion, true, true);
+					return;
+				}
+
+				if (eTrait != NO_TRAIT)
+				{
+					if (GC.getTraitInfo(eTrait).isFreePromotionUnitCombats(ePromotion, it->first))
 					{
-						if (GC.getTraitInfo(eTrait).isFreePromotionUnitCombats(iI, iJ))
-						{
-							setHasPromotion(ePromotion, false, true, false, false, true);
-						}
+						setHasPromotion(ePromotion, true, true, false, false, true);
 					}
-					else
+				}
+				else
+				{
+					for (int iK = 0; iK < numTraitInfos; iK++)
 					{
-						for (iK = 0; iK < GC.getNumTraitInfos(); iK++)
+						if (pPlayer.hasTrait((TraitTypes)iK))
 						{
-							eTrait2 = ((TraitTypes)iK);
-							if (!GET_PLAYER(getOwnerINLINE()).hasTrait(eTrait2))
+							if (GC.getTraitInfo((TraitTypes)iK).isFreePromotionUnitCombats(ePromotion, it->first))
 							{
-								if (GC.getTraitInfo(eTrait2).isFreePromotionUnitCombats(iI, iJ))
-								{
-									setHasPromotion(ePromotion, false, true, false, false, true);
-								}
+								setHasPromotion(ePromotion, true, true, false, false, true);
+								return;
 							}
 						}
 					}
@@ -41772,11 +41736,51 @@ void CvUnit::doSetFreePromotions(bool bAdding, TraitTypes eTrait)
 			}
 		}
 	}
+	//Remove trait derived promotions if trait has been removed
+	if (!bAdding && isPromotionFromTrait(ePromotion) && isHasPromotion(ePromotion))
+	{
+		for (std::map<UnitCombatTypes, UnitCombatKeyedInfo>::const_iterator it = m_unitCombatKeyedInfo.begin(), end = m_unitCombatKeyedInfo.end(); it != end; ++it)
+		{
+			if (it->second.m_bHasUnitCombat)
+			{
+				if (eTrait != NO_TRAIT)
+				{
+					if (GC.getTraitInfo(eTrait).isFreePromotionUnitCombats((int)ePromotion, it->first))
+					{
+						setHasPromotion(ePromotion, false, true, false, false, true);
+					}
+				}
+				else
+				{
+					for (int iK = 0; iK < numTraitInfos; iK++)
+					{
+						if (!pPlayer.hasTrait((TraitTypes)iK))
+						{
+							if (GC.getTraitInfo((TraitTypes)iK).isFreePromotionUnitCombats((int)ePromotion, it->first))
+							{
+								setHasPromotion(ePromotion, false, true, false, false, true);
+								return;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+void CvUnit::doSetFreePromotions(bool bAdding, TraitTypes eTrait)
+{
+	for (int iI = 0; iI < GC.getNumPromotionInfos(); iI++)
+	{
+		PromotionTypes ePromotion = ((PromotionTypes)iI);
+		setFreePromotion(ePromotion, bAdding, eTrait);
+	}
+
 	if (bAdding)
 	{
 		checkFreetoCombatClass();
 	}
-	return;
 }
 
 int CvUnit::getRetrainsAvailable() const

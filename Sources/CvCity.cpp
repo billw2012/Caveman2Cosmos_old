@@ -5151,13 +5151,10 @@ int CvCity::getProductionExperience(UnitTypes eUnit)
 	return std::max(0, iExperience);
 }
 
-
 void CvCity::addProductionExperience(CvUnit* pUnit, bool bConscript)
 {
 	PROFILE_FUNC();
 
-	int iI;
-	int iJ;
 	bool bEquip = false;
 	bool bCanAssign = false;
 
@@ -5165,11 +5162,12 @@ void CvCity::addProductionExperience(CvUnit* pUnit, bool bConscript)
 	{
 		pUnit->changeExperience(getProductionExperience(pUnit->getUnitType()) / ((bConscript) ? 2 : 1));
 	}
-	//TB Much Simplified:
-	for (iI = 0; iI < GC.getNumPromotionInfos(); iI++)
+
+	const int numNumPromotionInfos = GC.getNumPromotionInfos();
+	for (int iI = 0; iI < numNumPromotionInfos; iI++)
 	{
 		PromotionTypes ePromotion = ((PromotionTypes)iI);
-	
+
 		if (isFreePromotion(ePromotion))
 		{
 			bEquip = GC.getPromotionInfo(ePromotion).isEquipment();
@@ -5188,101 +5186,45 @@ void CvCity::addProductionExperience(CvUnit* pUnit, bool bConscript)
 				pUnit->setHasPromotion(ePromotion, true);
 			}
 		}
+	}
 
-		for (iJ = 0; iJ < GC.getNumBuildingInfos(); iJ++)
+	const int numNumBuildingInfos = GC.getNumBuildingInfos();
+	for (int iJ = 0; iJ < numNumBuildingInfos; iJ++)
+	{
+		BuildingTypes eBuilding = ((BuildingTypes)iJ);
+		CvBuildingInfo& kBuilding = GC.getBuildingInfo(eBuilding);
+
+		if (kBuilding.getNumFreePromoTypes() > 0)
 		{
-			BuildingTypes eBuilding = ((BuildingTypes)iJ);
-
 			if (getNumActiveBuilding(eBuilding) > 0)
 			{
-				PromotionTypes ePromotion1 = (PromotionTypes)GC.getBuildingInfo(eBuilding).getFreePromotion();
-				PromotionTypes ePromotion2 = (PromotionTypes)GC.getBuildingInfo(eBuilding).getFreePromotion_2();
-				PromotionTypes ePromotion3 = (PromotionTypes)GC.getBuildingInfo(eBuilding).getFreePromotion_3();
-				if (ePromotion1 != NO_PROMOTION || ePromotion2 != NO_PROMOTION || ePromotion3 != NO_PROMOTION || GC.getBuildingInfo(eBuilding).getNumFreePromoTypes() > 0)
+				for (int iK = 0; iK < kBuilding.getNumFreePromoTypes(); iK++)
 				{
-					if (ePromotion1 != NO_PROMOTION && ePromotion1 == ePromotion)
+					PromotionTypes kPromotion = (PromotionTypes)kBuilding.getFreePromoType(iK).ePromotion;
+					if (kPromotion != NO_PROMOTION)
 					{
-						bEquip = GC.getPromotionInfo(ePromotion1).isEquipment();
+						bEquip = GC.getPromotionInfo(kPromotion).isEquipment();
 						bCanAssign = false;
 						if (bEquip)
 						{
-							bCanAssign = canEquip(pUnit, ePromotion1);
+							bCanAssign = canEquip(pUnit, kPromotion);
 						}
 						else
 						{
-							bCanAssign = pUnit->canAcquirePromotion(ePromotion1, false, false, false, true, false, false, true);
+							bCanAssign = pUnit->canAcquirePromotion(kPromotion, false, false, false, true, false, false, true);
 						}
-						
 						if (bCanAssign)
 						{
-							pUnit->setHasPromotion(ePromotion1, true);
-						}
-					}
-					if (ePromotion2 != NO_PROMOTION && ePromotion2 == ePromotion)
-					{
-						bEquip = GC.getPromotionInfo(ePromotion2).isEquipment();
-						bCanAssign = false;
-						if (bEquip)
-						{
-							bCanAssign = canEquip(pUnit, ePromotion2);
-						}
-						else
-						{
-							bCanAssign = pUnit->canAcquirePromotion(ePromotion2, false, false, false, true, false, false, true);
-						}
-						
-						if (bCanAssign)
-						{
-							pUnit->setHasPromotion(ePromotion2, true);
-						}
-					}
-					if (ePromotion3 != NO_PROMOTION && ePromotion3 == ePromotion)
-					{
-						bEquip = GC.getPromotionInfo(ePromotion3).isEquipment();
-						bCanAssign = false;
-						if (bEquip)
-						{
-							bCanAssign = canEquip(pUnit, ePromotion3);
-						}
-						else
-						{
-							bCanAssign = pUnit->canAcquirePromotion(ePromotion3, false, false, false, true, false, false, true);
-						}
-						
-						if (bCanAssign)
-						{
-							pUnit->setHasPromotion(ePromotion3, true);
-						}
-					}
-							
-					for (int iK = 0; iK < GC.getBuildingInfo(eBuilding).getNumFreePromoTypes(); iK++)
-					{
-						PromotionTypes kPromotion = (PromotionTypes)GC.getBuildingInfo(eBuilding).getFreePromoType(iK).ePromotion;
-						if (kPromotion == ePromotion)
-						{
-							bEquip = GC.getPromotionInfo(ePromotion).isEquipment();
-							bCanAssign = false;
-							if (bEquip)
+							if (kBuilding.getFreePromoType(iK).m_pExprFreePromotionCondition)
 							{
-								bCanAssign = canEquip(pUnit, ePromotion);
-							}
-							else
-							{
-								bCanAssign = pUnit->canAcquirePromotion(ePromotion, false, false, false, true, false, false, true);
+								if (!kBuilding.getFreePromoType(iK).m_pExprFreePromotionCondition->evaluate(const_cast<CvGameObjectUnit*>(pUnit->getGameObjectConst())))
+								{
+									bCanAssign = false;
+								}
 							}
 							if (bCanAssign)
 							{
-								if (GC.getBuildingInfo(eBuilding).getFreePromoType(iK).m_pExprFreePromotionCondition)
-								{
-									if (!GC.getBuildingInfo(eBuilding).getFreePromoType(iK).m_pExprFreePromotionCondition->evaluate(const_cast<CvGameObjectUnit*>(pUnit->getGameObjectConst())))
-									{
-										bCanAssign = false;
-									}
-								}
-								if (bCanAssign)
-								{
-									pUnit->setHasPromotion(ePromotion, true);
-								}
+								pUnit->setHasPromotion(kPromotion, true);
 							}
 						}
 					}
@@ -5291,7 +5233,6 @@ void CvCity::addProductionExperience(CvUnit* pUnit, bool bConscript)
 		}
 	}
 }
-
 
 UnitTypes CvCity::getProductionUnit() const
 {
@@ -25773,112 +25714,105 @@ void CvCity::changePopulationgrowthratepercentage(int iChange, bool bAdd)
 	m_fPopulationgrowthratepercentageLog += logdiff;
 }
 
-
 void CvCity::doPromotion()
 {
-
 	PROFILE_FUNC();
-	
-	CvUnit* pLoopUnit;
-    CLLNode<IDInfo>* pUnitNode;
-	int iI;
-	
+
 	if (isDisorder())
 	{
 		return;
 	}
-	//TB SubCombat Mod begin
-	int iJ;
-	int iK;
 	bool hasFreePromofromList = false;
-	BuildingTypes eBuilding;
 	bool bEquip = false;
 	bool bCanAssign = false;
-		
-    for (iI = 0; iI < GC.getNumBuildingInfos(); iI++)
-    {
-		eBuilding = ((BuildingTypes)iI);
-        if (getNumBuilding(eBuilding) > 0)
-        {
-            if (GC.getBuildingInfo(eBuilding).isApplyFreePromotionOnMove())
-            {
-				if (GC.getBuildingInfo(eBuilding).getNumFreePromoTypes() > 0)
+
+	const int numNumBuildingInfos = GC.getNumBuildingInfos();
+	for (int iI = 0; iI < numNumBuildingInfos; iI++)
+	{
+		const BuildingTypes eBuilding = ((BuildingTypes)iI);
+		CvBuildingInfo& kBuilding = GC.getBuildingInfo(eBuilding);
+
+		if (kBuilding.isApplyFreePromotionOnMove())
+		{
+			if (getNumActiveBuilding(eBuilding) > 0)
+			{
+				if (kBuilding.getNumFreePromoTypes() > 0)
 				{
 					hasFreePromofromList = true;
 				}
 
-				PromotionTypes ePromotion1 = (PromotionTypes)GC.getBuildingInfo(eBuilding).getFreePromotion();
-				PromotionTypes ePromotion2 = (PromotionTypes)GC.getBuildingInfo(eBuilding).getFreePromotion_2();
-				PromotionTypes ePromotion3 = (PromotionTypes)GC.getBuildingInfo(eBuilding).getFreePromotion_3();
-                if (ePromotion1 != NO_PROMOTION || ePromotion2 != NO_PROMOTION || ePromotion3 != NO_PROMOTION || hasFreePromofromList)
-                {
-                    pUnitNode = plot()->headUnitNode();
-                    while (pUnitNode != NULL)
-                    {
-                        pLoopUnit = ::getUnit(pUnitNode->m_data);
-                        pUnitNode = plot()->nextUnitNode(pUnitNode);
+				const PromotionTypes ePromotion1 = (PromotionTypes)kBuilding.getFreePromotion();
+				const PromotionTypes ePromotion2 = (PromotionTypes)kBuilding.getFreePromotion_2();
+				const PromotionTypes ePromotion3 = (PromotionTypes)kBuilding.getFreePromotion_3();
+
+				if (ePromotion1 != NO_PROMOTION || ePromotion2 != NO_PROMOTION || ePromotion3 != NO_PROMOTION || hasFreePromofromList)
+				{
+					CLLNode<IDInfo>* pUnitNode = plot()->headUnitNode();
+					while (pUnitNode != NULL)
+					{
+						CvUnit* pLoopUnit = ::getUnit(pUnitNode->m_data);
+						pUnitNode = plot()->nextUnitNode(pUnitNode);
 						if (GET_TEAM(pLoopUnit->getTeam()).getID() == GET_TEAM(GET_PLAYER(getOwner()).getTeam()).getID())
 						{
-							for (iJ = 0; iJ < GC.getNumPromotionInfos(); iJ++)
+							if (ePromotion1 != NO_PROMOTION)
 							{
-								if (ePromotion1 != NO_PROMOTION && ePromotion1 == (PromotionTypes)iJ)
+								bEquip = GC.getPromotionInfo(ePromotion1).isEquipment();
+								bCanAssign = false;
+								if (bEquip)
 								{
-									bEquip = GC.getPromotionInfo(ePromotion1).isEquipment();
-									bCanAssign = false;
-									if (bEquip)
-									{
-										bCanAssign = canEquip(pLoopUnit, ePromotion1);
-									}
-									else
-									{
-										bCanAssign = pLoopUnit->canAcquirePromotion(ePromotion1, false, false, false, true, false, false, true);
-									}
-									
-									if (bCanAssign)
-									{
-										pLoopUnit->setHasPromotion(ePromotion1, true);
-									}
+									bCanAssign = canEquip(pLoopUnit, ePromotion1);
 								}
-								if (ePromotion2 != NO_PROMOTION && ePromotion2 == (PromotionTypes)iJ)
+								else
 								{
-									bEquip = GC.getPromotionInfo(ePromotion2).isEquipment();
-									bCanAssign = false;
-									if (bEquip)
-									{
-										bCanAssign = canEquip(pLoopUnit, ePromotion2);
-									}
-									else
-									{
-										bCanAssign = pLoopUnit->canAcquirePromotion(ePromotion2, false, false, false, true, false, false, true);
-									}
-									
-									if (bCanAssign)
-									{
-										pLoopUnit->setHasPromotion(ePromotion2, true);
-									}
+									bCanAssign = pLoopUnit->canAcquirePromotion(ePromotion1, false, false, false, true, false, false, true);
 								}
-								if (ePromotion3 != NO_PROMOTION && ePromotion3 == (PromotionTypes)iJ)
+
+								if (bCanAssign)
 								{
-									bEquip = GC.getPromotionInfo(ePromotion3).isEquipment();
-									bCanAssign = false;
-									if (bEquip)
-									{
-										bCanAssign = canEquip(pLoopUnit, ePromotion3);
-									}
-									else
-									{
-										bCanAssign = pLoopUnit->canAcquirePromotion(ePromotion3, false, false, false, true, false, false, true);
-									}
-									
-									if (bCanAssign)
-									{
-										pLoopUnit->setHasPromotion(ePromotion3, true);
-									}
+									pLoopUnit->setHasPromotion(ePromotion1, true);
 								}
-									
-								for (iK = 0; iK < GC.getBuildingInfo(eBuilding).getNumFreePromoTypes(); iK++)
+							}
+							if (ePromotion2 != NO_PROMOTION)
+							{
+								bEquip = GC.getPromotionInfo(ePromotion2).isEquipment();
+								bCanAssign = false;
+								if (bEquip)
 								{
-									PromotionTypes ePromotion = (PromotionTypes)GC.getBuildingInfo(eBuilding).getFreePromoType(iK).ePromotion;
+									bCanAssign = canEquip(pLoopUnit, ePromotion2);
+								}
+								else
+								{
+									bCanAssign = pLoopUnit->canAcquirePromotion(ePromotion2, false, false, false, true, false, false, true);
+								}
+
+								if (bCanAssign)
+								{
+									pLoopUnit->setHasPromotion(ePromotion2, true);
+								}
+							}
+							if (ePromotion3 != NO_PROMOTION)
+							{
+								bEquip = GC.getPromotionInfo(ePromotion3).isEquipment();
+								bCanAssign = false;
+								if (bEquip)
+								{
+									bCanAssign = canEquip(pLoopUnit, ePromotion3);
+								}
+								else
+								{
+									bCanAssign = pLoopUnit->canAcquirePromotion(ePromotion3, false, false, false, true, false, false, true);
+								}
+
+								if (bCanAssign)
+								{
+									pLoopUnit->setHasPromotion(ePromotion3, true);
+								}
+							}
+							if (hasFreePromofromList)
+							{
+								for (int iK = 0; iK < kBuilding.getNumFreePromoTypes(); iK++)
+								{
+									const PromotionTypes ePromotion = (PromotionTypes)kBuilding.getFreePromoType(iK).ePromotion;
 									bEquip = GC.getPromotionInfo(ePromotion).isEquipment();
 									bCanAssign = false;
 									if (bEquip)
@@ -25891,9 +25825,9 @@ void CvCity::doPromotion()
 									}
 									if (bCanAssign)
 									{
-										if (GC.getBuildingInfo(eBuilding).getFreePromoType(iK).m_pExprFreePromotionCondition)
+										if (kBuilding.getFreePromoType(iK).m_pExprFreePromotionCondition)
 										{
-											if (!GC.getBuildingInfo(eBuilding).getFreePromoType(iK).m_pExprFreePromotionCondition->evaluate(const_cast<CvGameObjectUnit*>(pLoopUnit->getGameObjectConst())))
+											if (!kBuilding.getFreePromoType(iK).m_pExprFreePromotionCondition->evaluate(const_cast<CvGameObjectUnit*>(pLoopUnit->getGameObjectConst())))
 											{
 												bCanAssign = false;
 											}
@@ -25907,10 +25841,10 @@ void CvCity::doPromotion()
 							}
 						}//TB SubCombat Mod End
 					}
-                }
-            }
-        }
-    }
+				}
+			}
+		}
+	}
 }
 /*
 
