@@ -50,7 +50,7 @@ FD="deps\fastdep\fastdep.exe"
 
 #### BLACKLIST ####
 ## Uncomment to block CvTextScreen (accidentally included by Firaxis)
-BLACKLIST=CvTextScreens
+# BLACKLIST=CvTextScreens
 
 #### DEFINES ####
 ## copy the following lines into "Additional options" in NMAKE properties
