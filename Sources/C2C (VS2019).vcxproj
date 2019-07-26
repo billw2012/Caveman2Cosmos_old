@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|Win32">
-      <Configuration>Debug</Configuration>
+    <ProjectConfiguration Include="Assert|Win32">
+      <Configuration>Assert</Configuration>
       <Platform>Win32</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Final_Release|Win32">
-      <Configuration>Final_Release</Configuration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
       <Platform>Win32</Platform>
     </ProjectConfiguration>
     <ProjectConfiguration Include="Profile|Win32">
@@ -24,15 +24,15 @@
     <Keyword>MakeFileProj</Keyword>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>Makefile</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="Configuration">
     <ConfigurationType>Makefile</ConfigurationType>
     <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Assert|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Makefile</ConfigurationType>
     <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
@@ -43,64 +43,90 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'" Label="PropertySheets">
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Assert|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">
     <ReferencePath>..\Sources;$(ReferencePath)</ReferencePath>
-    <OutDir>Debug\</OutDir>
-    <IntDir>Debug\</IntDir>
-    <NMakeBuildCommandLine>nmake Debug</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>nmake Debug_clean
-nmake Debug</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>nmake Debug_clean</NMakeCleanCommandLine>
-    <NMakePreprocessorDefinitions>WIN32;_DEBUG;_USRDLL;_MOD_SENTRY;_MOD_FRACTRADE;_MOD_GOVWORKERS;QC_MASTERY_VICTORY;LOG_AI;_MOD_GWARM;_MOD_SHAM_SPOILER;C2C_BUILD;MULTI_FEATURE_MOD;FP_PROFILE_ENABLE;USE_INTERNAL_PROFILER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-    <NMakeIncludeSearchPath>include;C:\Program Files\Microsoft Platform SDK\Include;C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003\include</NMakeIncludeSearchPath>
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine>set TARGET=$(Configuration)
+nmake source_list
+nmake fastdep
+"$(SolutionDir)deps\jom\jom" build</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>set TARGET=$(Configuration)
+nmake clean
+nmake source_list
+nmake fastdep
+nmake precompile
+"$(SolutionDir)deps\jom\jom" build</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>set TARGET=$(Configuration)
+nmake clean
+</NMakeCleanCommandLine>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Final_Release|Win32'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Assert|Win32'">
     <ReferencePath>..\Sources;$(ReferencePath)</ReferencePath>
-    <OutDir>Final_Release\</OutDir>
-    <IntDir>Final_Release\</IntDir>
-    <NMakeBuildCommandLine>nmake Final_Release</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>nmake Final_Release_clean
-nmake Final_Release</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>nmake Final_Release_clean</NMakeCleanCommandLine>
-    <NMakePreprocessorDefinitions>WIN32;NDEBUG;_USRDLL;_MOD_SENTRY;_MOD_FRACTRADE;_MOD_GOVWORKERS;QC_MASTERY_VICTORY;LOG_AI;_MOD_GWARM;_MOD_SHAM_SPOILER;C2C_BUILD;MULTI_FEATURE_MOD;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-    <NMakeIncludeSearchPath>include;C:\Program Files\Microsoft Platform SDK\Include;C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003\include</NMakeIncludeSearchPath>
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine>set TARGET=$(Configuration)
+nmake source_list
+nmake fastdep
+"$(SolutionDir)deps\jom\jom" build</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>set TARGET=$(Configuration)
+nmake clean
+nmake source_list
+nmake fastdep
+nmake precompile
+"$(SolutionDir)deps\jom\jom" build</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>set TARGET=$(Configuration)
+nmake clean
+</NMakeCleanCommandLine>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ReferencePath>..\Sources;$(ReferencePath)</ReferencePath>
-    <OutDir>Release\</OutDir>
-    <IntDir>Release\</IntDir>
-    <NMakeBuildCommandLine>nmake Release</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>nmake Release_clean
-nmake Release</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>nmake Release_clean</NMakeCleanCommandLine>
-    <NMakePreprocessorDefinitions>WIN32;NDEBUG;_USRDLL;_MOD_SENTRY;_MOD_FRACTRADE;_MOD_GOVWORKERS;QC_MASTERY_VICTORY;LOG_AI;_MOD_GWARM;_MOD_SHAM_SPOILER;C2C_BUILD;MULTI_FEATURE_MOD;FP_PROFILE_ENABLE;USE_INTERNAL_PROFILER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-    <NMakeIncludeSearchPath>include;C:\Program Files\Microsoft Platform SDK\Include;C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003\include</NMakeIncludeSearchPath>
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine>set TARGET=$(Configuration)
+nmake source_list
+nmake fastdep
+"$(SolutionDir)deps\jom\jom" build</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>set TARGET=$(Configuration)
+nmake clean
+nmake source_list
+nmake fastdep
+nmake precompile
+"$(SolutionDir)deps\jom\jom" build</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>set TARGET=$(Configuration)
+nmake clean
+</NMakeCleanCommandLine>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ReferencePath>..\Sources;$(ReferencePath)</ReferencePath>
-    <OutDir>Profile\</OutDir>
-    <IntDir>Profile\</IntDir>
-    <NMakeBuildCommandLine>nmake Profile</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>nmake Profile_clean
-nmake Profile</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>nmake Profile_clean</NMakeCleanCommandLine>
-    <NMakePreprocessorDefinitions>WIN32;NDEBUG;_USRDLL;_MOD_SENTRY;_MOD_FRACTRADE;_MOD_GOVWORKERS;QC_MASTERY_VICTORY;LOG_AI;_MOD_GWARM;_MOD_SHAM_SPOILER;C2C_BUILD;MULTI_FEATURE_MOD;FP_PROFILE_ENABLE;USE_INTERNAL_PROFILER;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-    <NMakeIncludeSearchPath>include;C:\Program Files\Microsoft Platform SDK\Include;C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003\include</NMakeIncludeSearchPath>
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine>set TARGET=$(Configuration)
+nmake source_list
+nmake fastdep
+"$(SolutionDir)deps\jom\jom" build</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>set TARGET=$(Configuration)
+nmake clean
+nmake source_list
+nmake fastdep
+nmake precompile
+"$(SolutionDir)deps\jom\jom" build</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>set TARGET=$(Configuration)
+nmake clean
+</NMakeCleanCommandLine>
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="CyPlayerInterface3.cpp" />
@@ -388,6 +414,7 @@ nmake Profile</NMakeReBuildCommandLine>
   <ItemGroup>
     <None Include="FVariableSystem.inl" />
     <None Include="interfaceDirtyBits.inl" />
+    <None Include="Makefile" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="CvGameCoreDLL.rc" />
