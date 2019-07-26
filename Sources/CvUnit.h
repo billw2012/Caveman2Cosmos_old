@@ -2584,6 +2584,7 @@ public:
 
 	void doSetUnitCombats();
 	void doSetFreePromotions(bool bAdding, TraitTypes eTrait = NO_TRAIT);
+	void setFreePromotion(PromotionTypes ePromotion, bool bAdding, TraitTypes eTrait = NO_TRAIT);
 
 	int getRetrainsAvailable() const;
 	void setRetrainsAvailable(int iNewValue);

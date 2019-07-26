@@ -1442,8 +1442,6 @@ class CvMainInterface:
 	def updateMiscButtons(self, screen):
 		print "updateMiscButtons"
 		screen.updateMinimapVisibility()
-		yBotBar = self.yBotBar
-		xMidR = self.xMidR
 		CyPlayerAct = self.CyPlayer
 
 		# Check City Selection
@@ -1547,7 +1545,7 @@ class CvMainInterface:
 					self.xBuildingSorting = x + iFilterWidth + 4
 					self.wBuildingSortButton = wSortButton
 
-					self.buildCitySelectionUI(screen, bFirst, InCity, xMidR, yBotBar)
+					self.buildCitySelectionUI(screen, bFirst, InCity)
 					if iTab > -1:
 						self.openCityTab(screen, iTab)
 		else: # No City Selected
@@ -3359,68 +3357,10 @@ class CvMainInterface:
 
 		InCity.QueueIndex = iOrders
 
-	def buildCitySelectionUI(self, screen, bFirst, InCity, xMidR, yBotBar):
+	def buildCitySelectionUI(self, screen, bFirst, InCity):
 		CyCity = InCity.CyCity
 		if bFirst:
-			eWidGen		= WidgetTypes.WIDGET_GENERAL
-			iPanelEmpty	= PanelStyles.PANEL_STYLE_EMPTY
-			iPlayer = InCity.iPlayer
-			xMidL = self.xMidL
-			# City Tabs
-			y = yBotBar + 32
-			iSize = MainOpt.getBuildIconSize()
-			dx = iSize + 4
-			dA = iSize - 8
-			szPath = "Art/Interface/screens/City/"
-			aList = [
-				"CityUnit.dds",
-				"CityBuilding.dds",
-				"CityWonder.dds"
-			]
-			x = xMidL
-			for i in xrange(3):
-				ID = str(i)
-				Btn = "CityTab" + ID
-				Img = "CityTab|Img" + ID
-				screen.setImageButton(Btn, "", x, y, iSize, iSize, eWidGen, 0, 0)
-				screen.setStyle(Btn, "GFC_Control_EtchedButton_Style")
-				artPath = szPath + aList[i]
-				screen.addDDSGFCAt(Img, Btn, artPath, 4, 4, dA, dA, eWidGen, 0, 0, True)
-				screen.setHitTest(Img, HitTestTypes.HITTEST_NOHIT)
-				x += dx + 2
-
-			w = xMidR - x - 16
-			Pnl = "ProcessPanel"
-			screen.addScrollPanel(Pnl, "", x, y-8, w, iSize-6, iPanelEmpty)
-			screen.setStyle(Pnl, "ScrollPanel_Alt_Style")
-			x = 0
-			for i in xrange(self.iNumProcessInfos):
-				if CyCity.canMaintain(i, False):
-					BTN = GC.getProcessInfo(i).getButton()
-					Btn = "WID|PROCESS|CityWork" + str(i)
-					screen.setImageButtonAt(Btn, Pnl, BTN, x, 0, iSize, iSize, eWidGen, 1, 1)
-					x += dx
-			# Build Lists
-			y += dx + 2
-			w = xMidR - xMidL - 16
-			Pnl = "ScrollPanelBL"
-			screen.addScrollPanel(Pnl, "", xMidL-8, y-8, w, iSize-6, iPanelEmpty)
-			screen.setStyle(Pnl, "ScrollPanel_Alt_Style")
-			CyPlayer = InCity.CyPlayer
-			iListNum = CyPlayer.getBLNumLists()
-			x = 0
-			for i in xrange(iListNum):
-				if CyPlayer.getBLListLength(i) > 0:
-					order = CyPlayer.getBLOrder(i, 0)
-					Btn = "WID|LIST|CityWork" + str(CyPlayer.getBLID(i))
-					if order.eOrderType == OrderTypes.ORDER_TRAIN:
-						BTN = GC.getUnitInfo(order.iData1).getButton()
-					elif order.eOrderType == OrderTypes.ORDER_CONSTRUCT:
-						BTN = GC.getBuildingInfo(order.iData1).getButton()
-					else:
-						BTN = GC.getProjectInfo(order.iData1).getButton()
-					screen.setImageButtonAt(Btn, Pnl, BTN, x, 0, iSize, iSize, eWidGen, 1, 1)
-					x += dx
+			self.buildCityTabButtons(screen, CyCity)
 		# Unit Group/Sort
 		iTab = self.iCityTab
 		ID = "CT|UnitGrouping"
@@ -3501,6 +3441,67 @@ class CvMainInterface:
 		if iTab < 1:
 			screen.hide("CT|BuildingSorting")
 
+	def buildCityTabButtons(self, screen, CyCity):
+		eWidGen		= WidgetTypes.WIDGET_GENERAL
+		iPanelEmpty	= PanelStyles.PANEL_STYLE_EMPTY
+		xMidR = self.xMidR
+		xMidL = self.xMidL
+		# City Tabs
+		y = self.yBotBar + 32
+		iSize = MainOpt.getBuildIconSize()
+		dx = iSize + 4
+		dA = iSize - 8
+		szPath = "Art/Interface/screens/City/"
+		aList = [
+			"CityUnit.dds",
+			"CityBuilding.dds",
+			"CityWonder.dds"
+		]
+		x = xMidL
+		for i in xrange(3):
+			ID = str(i)
+			Btn = "CityTab" + ID
+			Img = "CityTab|Img" + ID
+			screen.setImageButton(Btn, "", x, y, iSize, iSize, eWidGen, 0, 0)
+			screen.setStyle(Btn, "GFC_Control_EtchedButton_Style")
+			artPath = szPath + aList[i]
+			screen.addDDSGFCAt(Img, Btn, artPath, 4, 4, dA, dA, eWidGen, 0, 0, True)
+			screen.setHitTest(Img, HitTestTypes.HITTEST_NOHIT)
+			x += dx + 2
+
+		w = xMidR - x - 16
+		Pnl = "ProcessPanel"
+		screen.addScrollPanel(Pnl, "", x, y-8, w, iSize-6, iPanelEmpty)
+		screen.setStyle(Pnl, "ScrollPanel_Alt_Style")
+		x = 0
+		for i in xrange(self.iNumProcessInfos):
+			if CyCity.canMaintain(i, False):
+				BTN = GC.getProcessInfo(i).getButton()
+				Btn = "WID|PROCESS|CityWork" + str(i)
+				screen.setImageButtonAt(Btn, Pnl, BTN, x, 0, iSize, iSize, eWidGen, 1, 1)
+				x += dx
+		# Build Lists
+		y += dx + 2
+		w = xMidR - xMidL - 16
+		Pnl = "ScrollPanelBL"
+		screen.addScrollPanel(Pnl, "", xMidL-8, y-8, w, iSize-6, iPanelEmpty)
+		screen.setStyle(Pnl, "ScrollPanel_Alt_Style")
+		CyPlayer = self.InCity.CyPlayer
+		iListNum = CyPlayer.getBLNumLists()
+		x = 0
+		for i in xrange(iListNum):
+			if CyPlayer.getBLListLength(i) > 0:
+				order = CyPlayer.getBLOrder(i, 0)
+				Btn = "WID|LIST|CityWork" + str(CyPlayer.getBLID(i))
+				if order.eOrderType == OrderTypes.ORDER_TRAIN:
+					BTN = GC.getUnitInfo(order.iData1).getButton()
+				elif order.eOrderType == OrderTypes.ORDER_CONSTRUCT:
+					BTN = GC.getBuildingInfo(order.iData1).getButton()
+				else:
+					BTN = GC.getProjectInfo(order.iData1).getButton()
+				screen.setImageButtonAt(Btn, Pnl, BTN, x, 0, iSize, iSize, eWidGen, 1, 1)
+				x += dx
+	
 
 	def openCityTab(self, screen, iTab):
 		self.iCityTab = iTab
@@ -5606,6 +5607,9 @@ class CvMainInterface:
 					if TYPE == "BtnSize":
 						iIconSize = screen.getPullDownData(NAME, iData)
 						MainOpt.setBuildIconSize(iIconSize)
+						import BugOptions
+						BugOptions.getOptions(MainOpt._id).write()
+						self.buildCityTabButtons(screen, InCity.CyCity)
 					elif TYPE == "BuildingSorting":
 						iBuildingSorting = screen.getPullDownData(NAME, iData)
 						if iBuildingSorting >= 0:
@@ -5626,6 +5630,8 @@ class CvMainInterface:
 				self.setFieldofView(iFoV)
 				self.setFieldofView_Text(screen, iFoV)
 				MainOpt.setFieldOfView(iFoV)
+				import BugOptions
+				BugOptions.getOptions(MainOpt._id).write()
 
 	def forward(self):
 		print "forward"
