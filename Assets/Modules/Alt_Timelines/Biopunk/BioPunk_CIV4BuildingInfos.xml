@@ -23,7 +23,7 @@
 			<FreeBonus>BONUS_BIOPUNK</FreeBonus>
 			<iNumFreeBonuses>1</iNumFreeBonuses>
 			<bNukeImmune>1</bNukeImmune>
-			<iCost>14430</iCost>
+			<iCost>21990</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
@@ -319,7 +319,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<Bonus>BONUS_BIOPUNK</Bonus>
-			<iCost>2405</iCost>
+			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iHealth>-2</iHealth>
@@ -359,7 +359,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<Bonus>BONUS_BIOPUNK</Bonus>
-			<iCost>2405</iCost>
+			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -396,7 +396,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<Bonus>BONUS_BIOPUNK</Bonus>
-			<iCost>2405</iCost>
+			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -434,7 +434,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<Bonus>BONUS_BIOPUNK</Bonus>
-			<iCost>2405</iCost>
+			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iDefense>10</iDefense>
@@ -592,12 +592,6 @@
 			</BuildingClassNeededs>
 			<bPrereqPower>1</bPrereqPower>
 			<iPrereqPopulation>13</iPrereqPopulation>
-			<ReplaceBuildings>
-				<ReplaceBuilding>
-					<BuildingClassType>BUILDINGCLASS_ORGANIC_COMPUTER_FACTORY</BuildingClassType>
-					<bReplace>1</bReplace>
-				</ReplaceBuilding>
-			</ReplaceBuildings>
 			<PropertyManipulators>
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>

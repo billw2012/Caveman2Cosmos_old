@@ -38,8 +38,8 @@ Current techs which are not in this file:-
 	( 063, 13 ) TECH_STEAMPUNK
 	( 075, 17 ) TECH_DIESELPUNK
 	( 080, 13 ) TECH_ATOMPUNK
-	( 093, 01 ) TECH_BIOPUNK
-	( 094, 17 ) TECH_CYBERPUNK
+	( 103, 11 ) TECH_BIOPUNK
+	( 113, 07 ) TECH_CYBERPUNK
 	( 102, 11 ) TECH_NANOPUNK
 -->
 <Civ4TechInfos xmlns="x-schema:../Schema/C2C_CIV4TechnologiesSchema.xml">
@@ -22086,7 +22086,7 @@ Current techs which are not in this file:-
 			<SoundMP>AS2D_TECH_WEARABLE_ELECTRONICS</SoundMP>
 			<Button>Art/Interface/Buttons/TechTree/wearable_electronics.dds</Button>
 		</TechInfo>
-<!--	(093, 01) TECH_BIOPUNK	-->
+<!--	(103, 11) TECH_BIOPUNK	-->
 		<TechInfo>
 			<Type>TECH_NEUROTECHNOLOGY</Type>
 			<Description>TXT_KEY_TECH_NEUROTECHNOLOGY</Description>
@@ -22516,7 +22516,7 @@ Current techs which are not in this file:-
 			<SoundMP>AS2D_TECH_FSYSTEMS</SoundMP>
 			<Button>Art/Interface/Buttons/TechTree/digitization.dds</Button>
 		</TechInfo>
-<!--	(094, 17) TECH_CYBERPUNK	-->
+<!--	(113, 07) TECH_CYBERPUNK	-->
 		<TechInfo>
 			<Type>TECH_FLASHMEMORY</Type>
 			<Description>TXT_KEY_TECH_FLASHMEMORY</Description>

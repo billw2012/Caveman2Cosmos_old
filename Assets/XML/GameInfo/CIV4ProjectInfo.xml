@@ -176,7 +176,7 @@
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>1</iMaxTeamInstances>
-			<iCost>22920</iCost>
+			<iCost>21000</iCost>
 			<iNukeInterception>25</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<iGlobalMaintenanceModifier>15</iGlobalMaintenanceModifier>
@@ -389,7 +389,7 @@
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>1</iMaxTeamInstances>
-			<iCost>21000</iCost>
+			<iCost>19240</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<iGlobalMaintenanceModifier>0</iGlobalMaintenanceModifier>
@@ -532,7 +532,7 @@
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>5</iMaxTeamInstances>
-			<iCost>22920</iCost>
+			<iCost>18440</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<iGlobalMaintenanceModifier>0</iGlobalMaintenanceModifier>
@@ -583,7 +583,7 @@
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iCost>18440</iCost>
+			<iCost>15400</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<iGlobalMaintenanceModifier>0</iGlobalMaintenanceModifier>
@@ -728,7 +728,7 @@
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>1</iMaxTeamInstances>
-			<iCost>22920</iCost>
+			<iCost>18440</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<iGlobalMaintenanceModifier>0</iGlobalMaintenanceModifier>
@@ -862,7 +862,7 @@
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iCost>13480</iCost>
+			<iCost>12840</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<iGlobalMaintenanceModifier>0</iGlobalMaintenanceModifier>

@@ -35,7 +35,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2205</iCost>
 			<!-- Main effects -->
 			<iHealth>2</iHealth>
 			<CommerceChanges>
@@ -102,7 +102,7 @@
 				</ReplaceBuilding>
 			</ReplaceBuildings>
 			<!-- Construction cost -->
-			<iCost>2105</iCost>
+			<iCost>2205</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_ORGANIZED</ProductionTraitType>
@@ -719,7 +719,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2205</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>5</iYield>
@@ -6642,7 +6642,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2305</iCost>
+			<iCost>1685</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-15</iCommerce>
@@ -6920,7 +6920,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2505</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -7471,7 +7471,7 @@
 				</ReplaceBuilding>
 			</ReplaceBuildings>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2505</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<YieldChanges>
@@ -9551,7 +9551,7 @@
 				</PrereqTerrain>
 			</PrereqOrTerrain>
 			<!-- Construction cost -->
-			<iCost>1685</iCost>
+			<iCost>1605</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -9981,7 +9981,7 @@
 			<PrereqTech>TECH_ROBOTICS</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<!-- Construction cost -->
-			<iCost>1605</iCost>
+			<iCost>1685</iCost>
 			<!-- Main effects -->
 			<iHappiness>4</iHappiness>
 			<CommerceChanges>
@@ -12531,7 +12531,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2005</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -12703,7 +12703,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2005</iCost>
 			<!-- Main effects -->
 			<iHappiness>4</iHappiness>
 			<CommerceChanges>
@@ -13801,7 +13801,7 @@
 			<PrereqTech>TECH_EXTREME_SPORTS</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<!-- Construction cost -->
-			<iCost>1685</iCost>
+			<iCost>1605</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
@@ -14504,7 +14504,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -14555,7 +14555,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -14614,7 +14614,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -14662,7 +14662,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -14710,7 +14710,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -14773,7 +14773,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -14830,7 +14830,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -14878,7 +14878,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -14929,7 +14929,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -14977,7 +14977,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15028,7 +15028,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15076,7 +15076,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15127,7 +15127,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15178,7 +15178,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15226,7 +15226,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15274,7 +15274,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15326,7 +15326,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15374,7 +15374,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15422,7 +15422,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15488,7 +15488,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15547,7 +15547,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15598,7 +15598,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15646,7 +15646,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15697,7 +15697,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15748,7 +15748,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15799,7 +15799,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15851,7 +15851,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15900,7 +15900,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -15949,7 +15949,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -16000,7 +16000,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -17204,7 +17204,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<!-- Construction cost -->
-			<iCost>1685</iCost>
+			<iCost>1605</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -21652,7 +21652,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1685</iCost>
+			<iCost>1605</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -25415,7 +25415,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2505</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<CommerceChanges>
@@ -26386,7 +26386,7 @@
 				</ReplaceBuilding>
 			</ReplaceBuildings>
 			<!-- Construction cost -->
-			<iCost>2005</iCost>
+			<iCost>2105</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_AGGRESSIVE</ProductionTraitType>
@@ -26809,7 +26809,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2405</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
@@ -27124,7 +27124,7 @@
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<YieldModifiers>
@@ -30192,7 +30192,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1845</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>3</iYield>
@@ -32480,7 +32480,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2405</iCost>
+			<iCost>2305</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
@@ -32566,7 +32566,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2005</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -34458,7 +34458,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1685</iCost>
+			<iCost>1605</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -35598,7 +35598,7 @@
 				</ReplaceBuilding>
 			</ReplaceBuildings>
 			<!-- Construction cost -->
-			<iCost>1845</iCost>
+			<iCost>1685</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<iHappiness>1</iHappiness>
@@ -37119,7 +37119,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1845</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<YieldChanges>
@@ -37602,7 +37602,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2105</iCost>
+			<iCost>2005</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>12</iCommerce>
@@ -38103,7 +38103,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2505</iCost>
 			<!-- Main effects -->
 			<iInvestigation>50</iInvestigation>
 			<YieldChanges>
@@ -39557,7 +39557,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1345</iCost>
+			<iCost>1410</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -39733,7 +39733,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2305</iCost>
+			<iCost>2105</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<CommerceChanges>
@@ -41628,7 +41628,7 @@
 				</ReplaceBuilding>
 			</ReplaceBuildings>
 			<!-- Construction cost -->
-			<iCost>2005</iCost>
+			<iCost>2105</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_AGGRESSIVE</ProductionTraitType>
@@ -44301,7 +44301,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1845</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-30</iCommerce>
@@ -45194,7 +45194,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2405</iCost>
+			<iCost>2305</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -47489,7 +47489,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Special Yield and Commerce modifiers -->
 			<TechCommerceChanges>
 				<TechCommerceChange>
@@ -49399,7 +49399,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1845</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<CommerceChanges>
@@ -53081,7 +53081,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1475</iCost>
+			<iCost>1410</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>3</iYield>
@@ -53841,7 +53841,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2205</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -55979,7 +55979,7 @@
 			<PrereqTech>TECH_EXTREME_SPORTS</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<!-- Construction cost -->
-			<iCost>1685</iCost>
+			<iCost>1605</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
@@ -59056,7 +59056,7 @@
 				<Bonus>BONUS_FIREARMS</Bonus>
 			</PrereqBonuses>
 			<!-- Construction cost -->
-			<iCost>1685</iCost>
+			<iCost>1605</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
@@ -63429,7 +63429,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2405</iCost>
+			<iCost>2305</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>10</iCommerce>
@@ -64375,7 +64375,7 @@
 				</ReplaceBuilding>
 			</ReplaceBuildings>
 			<!-- Construction cost -->
-			<iCost>1685</iCost>
+			<iCost>1605</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<CommerceChanges>
@@ -64849,7 +64849,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2205</iCost>
 			<!-- Main effects -->
 			<iHealth>2</iHealth>
 			<CommerceChanges>
@@ -64914,7 +64914,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2745</iCost>
+			<iCost>2625</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -66329,7 +66329,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2505</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -66438,7 +66438,7 @@
 				</ReplaceBuilding>
 			</ReplaceBuildings>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2505</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
@@ -66629,7 +66629,7 @@
 				</ReplaceBuilding>
 			</ReplaceBuildings>
 			<!-- Construction cost -->
-			<iCost>1845</iCost>
+			<iCost>1685</iCost>
 			<!-- Main effects -->
 			<iInsidiousness>50</iInsidiousness>
 			<iHealth>-1</iHealth>
@@ -67652,7 +67652,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2745</iCost>
+			<iCost>2505</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-5</iCommerce>
@@ -70037,7 +70037,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1345</iCost>
+			<iCost>1410</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-15</iCommerce>
@@ -71184,7 +71184,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1685</iCost>
+			<iCost>1605</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<CommerceChanges>
@@ -72939,7 +72939,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2105</iCost>
+			<iCost>2205</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
@@ -73225,7 +73225,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2405</iCost>
+			<iCost>2105</iCost>
 			<!-- Main effects -->
 			<iHealth>2</iHealth>
 			<CommerceChanges>
@@ -73799,7 +73799,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1345</iCost>
+			<iCost>1410</iCost>
 			<!-- Main effects -->
 			<iInvestigation>50</iInvestigation>
 			<CommerceChanges>
@@ -75829,7 +75829,7 @@
 			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_ORGANIC_PHOTONIC_CELLS</Bonus>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2405</iCost>
 			<!-- Main effects -->
 			<iHappiness>1</iHappiness>
 			<YieldChanges>
@@ -75893,7 +75893,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2405</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -76713,7 +76713,7 @@
 				<Bonus>BONUS_FIREARMS</Bonus>
 			</PrereqBonuses>
 			<!-- Construction cost -->
-			<iCost>1685</iCost>
+			<iCost>1605</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
@@ -79247,7 +79247,7 @@
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_TELEPORTATION</ObsoleteTech>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2505</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
@@ -81947,7 +81947,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>830</iCost>
+			<iCost>800</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_DECEIVER</ProductionTraitType>
@@ -83926,7 +83926,7 @@
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
-			<iCost>2205</iCost>
+			<iCost>2005</iCost>
 			<!-- Main effects -->
 			<iHappiness>3</iHappiness>
 			<CommerceChanges>
@@ -83970,7 +83970,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1345</iCost>
+			<iCost>1410</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-10</iCommerce>
@@ -85657,7 +85657,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Other -->
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<!-- Properties diffusion -->
@@ -86890,7 +86890,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<!-- Construction cost -->
-			<iCost>2205</iCost>
+			<iCost>1845</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -88171,7 +88171,7 @@
 			<PrereqTech>TECH_EXTREME_SPORTS</PrereqTech>
 			<bRiver>1</bRiver>
 			<!-- Construction cost -->
-			<iCost>1685</iCost>
+			<iCost>1605</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
@@ -88470,7 +88470,7 @@
 				</ReplaceBuilding>
 			</ReplaceBuildings>
 			<!-- Construction cost -->
-			<iCost>1605</iCost>
+			<iCost>1685</iCost>
 			<!-- Main effects -->
 			<iHealth>-5</iHealth>
 			<iHappiness>-1</iHappiness>
@@ -88531,7 +88531,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<!-- Construction cost -->
-			<iCost>1605</iCost>
+			<iCost>1685</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
 				<iCommerce>-30</iCommerce>
@@ -88921,7 +88921,7 @@
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<Bonus>BONUS_CEMENT</Bonus>
 			<!-- Construction cost -->
-			<iCost>1685</iCost>
+			<iCost>1605</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
@@ -92350,7 +92350,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2005</iCost>
+			<iCost>2105</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_DECEIVER</ProductionTraitType>
@@ -92761,7 +92761,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2745</iCost>
+			<iCost>2985</iCost>
 			<!-- Main effects -->
 			<iHealth>-1</iHealth>
 			<CommerceChanges>
@@ -94589,7 +94589,7 @@
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<Bonus>BONUS_CEMENT</Bonus>
 			<!-- Construction cost -->
-			<iCost>1685</iCost>
+			<iCost>1605</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
@@ -94892,7 +94892,7 @@
 			<PrereqTech>TECH_EXTREME_SPORTS</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<!-- Construction cost -->
-			<iCost>1685</iCost>
+			<iCost>1605</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
@@ -96392,7 +96392,7 @@
 				</ReplaceBuilding>
 			</ReplaceBuildings>
 			<!-- Construction cost -->
-			<iCost>1410</iCost>
+			<iCost>1345</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -96892,7 +96892,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2405</iCost>
+			<iCost>2305</iCost>
 			<!-- Main effects -->
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -97018,7 +97018,7 @@
 				</PrereqFeature>
 			</PrereqOrFeature>
 			<!-- Construction cost -->
-			<iCost>1685</iCost>
+			<iCost>1605</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
@@ -98543,7 +98543,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2305</iCost>
+			<iCost>1925</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<CommerceChanges>
@@ -100474,7 +100474,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>1685</iCost>
+			<iCost>1605</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
@@ -100714,7 +100714,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2405</iCost>
+			<iCost>2305</iCost>
 			<!-- Main effects -->
 			<iHealth>2</iHealth>
 			<CommerceChanges>
@@ -102759,7 +102759,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<!-- Construction cost -->
-			<iCost>710</iCost>
+			<iCost>800</iCost>
 			<!-- Main effects -->
 			<CommerceModifiers>
 				<iCommerce>2</iCommerce>
@@ -104051,7 +104051,7 @@
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
-			<iCost>2505</iCost>
+			<iCost>2405</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_IMPERIALIST</ProductionTraitType>
@@ -104605,7 +104605,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2205</iCost>
 			<!-- Main effects -->
 			<iHealth>1</iHealth>
 			<CommerceChanges>
@@ -108933,7 +108933,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2205</iCost>
 			<!-- Main effects -->
 			<iHealth>4</iHealth>
 			<CommerceChanges>
@@ -109009,7 +109009,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Construction cost -->
-			<iCost>2625</iCost>
+			<iCost>2505</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_CREATIVE</ProductionTraitType>

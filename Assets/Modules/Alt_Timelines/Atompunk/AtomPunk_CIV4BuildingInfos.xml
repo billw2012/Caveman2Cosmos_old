@@ -738,7 +738,7 @@
 			<FreeBuilding>BUILDINGCLASS_GOOD_ATOM</FreeBuilding>
 			<bRiver>1</bRiver>
 			<bPower>1</bPower>
-			<iCost>3690</iCost>
+			<iCost>4010</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- RevolutionDCM End  -->

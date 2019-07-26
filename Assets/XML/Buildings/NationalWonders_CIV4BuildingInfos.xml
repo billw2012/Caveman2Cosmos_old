@@ -5809,7 +5809,7 @@
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_WEATHER_CONTROL</ObsoleteTech>
 			<!-- Cost -->
-			<iCost>1480</iCost>
+			<iCost>1740</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ConstructSound>AS2D_BUILD_INTELLIGENCE_AGENCY</ConstructSound>
@@ -5933,7 +5933,7 @@
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
-			<iCost>5010</iCost>
+			<iCost>4810</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Local -->
@@ -6533,7 +6533,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<!-- Cost -->
-			<iCost>3850</iCost>
+			<iCost>3690</iCost>
 			<ProductionTraits>
 				<ProductionTrait>
 					<ProductionTraitType>TRAIT_SCIENTIFIC</ProductionTraitType>
@@ -8602,7 +8602,7 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_GARDEN_CITY</ArtDefineTag>
 			<PrereqTech>TECH_NEW_URBANISM</PrereqTech>
-			<iCost>3850</iCost>
+			<iCost>3080</iCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<CommerceChanges>
