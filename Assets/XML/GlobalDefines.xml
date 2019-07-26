@@ -1465,7 +1465,7 @@
 	</Define>
 	<Define>
 		<DefineName>SINGLE_UNIT_GFX_EXTRA_SCALE</DefineName>
-		<fDefineFloatVal>1.4</fDefineFloatVal>
+		<fDefineFloatVal>1.5</fDefineFloatVal>
 	</Define>
 	<Define>
 		<DefineName>VASSAL_REVOLT_OWN_LOSSES_FACTOR</DefineName>
