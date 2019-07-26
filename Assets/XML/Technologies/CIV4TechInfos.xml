@@ -19271,7 +19271,7 @@ Current techs which are not in this file:-
 			<Strategy>TXT_KEY_TECH_MOLECULAR_BIOLOGY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>13181</iCost>
+			<iCost>13724</iCost>
 			<Era>ERA_MODERN</Era>
 			<iAsset>40</iAsset>
 			<bTrade>1</bTrade>
@@ -22216,7 +22216,6 @@ Current techs which are not in this file:-
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_GASTRONOMY</PrereqTech>
-				<PrereqTech>TECH_URBAN_CULTURE</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MMO_QUOTE</Quote>
 			<Sound>AS2D_TECH_MMO</Sound>
@@ -22838,12 +22837,10 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_BIOMECHANICALHARVESTING</PrereqTech>
+				<PrereqTech>TECH_MICROTURBINE</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_COGNITIVE_ROBOTICS</PrereqTech>
-				<PrereqTech>TECH_MICROTURBINE</PrereqTech>
-				<PrereqTech>TECH_METAMATERIALS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_EXOSKELETON_QUOTE</Quote>
 			<Sound>AS2D_TECH_EXOSKELETON</Sound>
@@ -23862,11 +23859,10 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_METAMATERIALS</PrereqTech>
+				<PrereqTech>TECH_MICROMECHANICS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_ASTEROID_MINING</PrereqTech>
-				<PrereqTech>TECH_MICROMECHANICS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_GRAPHENE_QUOTE</Quote>
 			<Sound>AS2D_TECH_GRAPHENE</Sound>
@@ -23939,11 +23935,8 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_GENCYCLOPEDIA</PrereqTech>
-			</OrPreReqs>
-			<AndPreReqs>
 				<PrereqTech>TECH_PERSONALIZEDHEALTH</PrereqTech>
-			</AndPreReqs>
+			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_BACTERIUM_ENGINEERING_QUOTE</Quote>
 			<Sound>AS2D_TECH_BACTERIUM_ENGINEERING</Sound>
 			<SoundMP>AS2D_TECH_BACTERIUM_ENGINEERING</SoundMP>
@@ -24559,9 +24552,6 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_LIQUIDMETAL</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>
-				<PrereqTech>TECH_BACTERIUM_ENGINEERING</PrereqTech>
-			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_NANOGENERATOR_QUOTE</Quote>
 			<Sound>AS2D_TECH_NANOGENERATOR</Sound>
 			<SoundMP>AS2D_TECH_NANOGENERATOR</SoundMP>
@@ -24638,7 +24628,6 @@ Current techs which are not in this file:-
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_JUPITERE</PrereqTech>
-				<PrereqTech>TECH_COILGUN</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MASS_DRIVER_QUOTE</Quote>
 			<Sound>AS2D_TECH_MASS_DRIVER</Sound>
