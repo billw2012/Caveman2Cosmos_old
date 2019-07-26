@@ -24467,6 +24467,9 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_SPACE_COLONIES</PrereqTech>
 			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_NANO_ARCHITECTURE</PrereqTech>
+			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_LUNAR_COLONIZATION_QUOTE</Quote>
 			<Sound>AS2D_TECH_SPACE_COLONIES</Sound>
 			<SoundMP>AS2D_TECH_SPACE_COLONIES</SoundMP>
