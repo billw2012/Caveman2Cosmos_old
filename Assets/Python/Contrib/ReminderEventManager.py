@@ -16,7 +16,6 @@ import ScreenResolution as SR
 
 STORE_EVENT_ID = CvUtil.getNewEventID("Reminder.Store")
 RECALL_EVENT_ID = CvUtil.getNewEventID("Reminder.Recall")
-RECALL_AGAIN_EVENT_ID = CvUtil.getNewEventID("Reminder.RecallAgain")
 
 GC = CyGlobalContext()
 GAME = GC.getGame()
@@ -55,10 +54,9 @@ class ReminderEventManager:
 		import CvAppInterface
 		CvAppInterface.netAddReminder = netAddReminder
 
-		self.initReminders()
+		self.setReminders(Reminders())
+		self.recall = []
 		eventManager.addEventHandler("BeginActivePlayerTurn", self.onBeginActivePlayerTurn)
-		eventManager.addEventHandler("EndGameTurn", self.onEndGameTurn)
-		eventManager.addEventHandler("endTurnReady", self.onEndTurnReady)
 		eventManager.addEventHandler("GameStart", self.onGameStart)
 		eventManager.addEventHandler("OnLoad", self.onLoadGame)
 		eventManager.addEventHandler("PythonReloaded", self.onLoadGame)
@@ -66,7 +64,6 @@ class ReminderEventManager:
 		eventManager.addEventHandler("SwitchHotSeatPlayer", self.onSwitchHotSeatPlayer)
 		eventManager.setPopupHandlers(STORE_EVENT_ID, 'Reminder.Store', self.__eventReminderStoreBegin, self.__eventReminderStoreApply)
 		eventManager.setPopupHandlers(RECALL_EVENT_ID, 'Reminder.Recall', self.__eventReminderRecallBegin, self.__eventReminderRecallApply)
-		eventManager.setPopupHandlers(RECALL_AGAIN_EVENT_ID, 'Reminder.RecallAgain', self.__eventReminderRecallAgainBegin, self.__eventReminderRecallAgainApply)
 
 	def __eventReminderStoreBegin(self, argsList):
 		if SR.x > 2500:
@@ -90,7 +87,7 @@ class ReminderEventManager:
 		popup.setSize(w, h)
 		popup.setPosition(SR.x/2 - w/2, SR.y/2 - h/2)
 		popup.setBodyString(prompt, 1<<0)
-		popup.createSpinBox(0, "", 1, 1, 999, 0)
+		popup.createSpinBox(0, "", 0, 1, 999, 0)
 		popup.createEditBox("", 1)
 		popup.addButton(ok)
 		popup.addButton(cancel)
@@ -100,6 +97,16 @@ class ReminderEventManager:
 		if popupReturn.getButtonClicked() != 1:
 			reminderText = popupReturn.getEditBoxString(1)
 			if reminderText:
+				global g_turnReminderTexts
+				if g_turnReminderTexts:
+					idx = g_turnReminderTexts.rfind("\n") + 1
+					if idx == -1:
+						idx += 1
+					else: idx += 2
+					if CyInterface().determineWidth(g_turnReminderTexts[idx:] + reminderText) > SR.x - SR.x/7:
+						g_turnReminderTexts += "\n"
+					else: g_turnReminderTexts += "; "
+				g_turnReminderTexts += reminderText
 				turns = popupReturn.getSpinnerWidgetValue(0)
 				reminderTurn = turns + GAME.getGameTurn()
 				self.addReminder(playerID, Reminder(reminderTurn, reminderText))
@@ -107,31 +114,7 @@ class ReminderEventManager:
 					g_autolog.writeLog("Reminder: On Turn %d, %s" % (reminderTurn, reminderText))
 
 	def __eventReminderRecallBegin(self, argsList):
-		self.showReminders(False)
-
-	def __eventReminderRecallApply(self, playerID, userData, popupReturn):
-		if popupReturn.getButtonClicked() != 1:
-			if self.reminder:
-				self.reminder.turn = GAME.getGameTurn()
-				self.addReminder(playerID, self.reminder)
-				self.reminder = None
-
-	def __eventReminderRecallAgainBegin(self, argsList):
-		self.showReminders(True)
-
-	def __eventReminderRecallAgainApply(self, playerID, userData, popupReturn):
-		if popupReturn.getButtonClicked() != 1:
-			if self.reminder:
-				# Put it back into the queue for next turn
-				self.reminder.turn += 1
-				self.addReminder(playerID, self.reminder)
-				self.reminder = None
-
-	def showReminders(self, endOfTurn):
 		global g_turnReminderTexts
-		if not endOfTurn:
-			g_turnReminderTexts = ""
-
 		iPlayer = GAME.getActivePlayer()
 		queue = self.reminders.get(iPlayer)
 		if queue:
@@ -142,47 +125,51 @@ class ReminderEventManager:
 			bShowMsg = ReminderOpt.isShowMessage()
 			bShowPop = ReminderOpt.isShowPopup()
 			if bShowPop:
-				if endOfTurn:
-					prompt = TRNSLTR.getText("TXT_KEY_REMIND_NEXT_TURN_PROMPT", ())
-					eventId = RECALL_AGAIN_EVENT_ID
-				else:
-					prompt = TRNSLTR.getText("TXT_KEY_REMIND_END_TURN_PROMPT", ())
-					eventId = RECALL_EVENT_ID
+				iCount = 0
+				prompt = TRNSLTR.getText("TXT_KEY_REMIND_NEXT_TURN_PROMPT", ())
 
 			while not queue.isEmpty():
 				nextTurn = queue.nextTurn()
 				if nextTurn > iTurn:
 					break
-				elif nextTurn < iTurn:
-					# invalid (lost) reminder
-					reminder = queue.pop()
+				reminder = queue.pop()
+
+				if nextTurn < iTurn:
 					print "[WARNING] Reminder - skipped turn %d: %s" %(reminder.turn, reminder.message)
-				else:
-					self.reminder = queue.pop()
-					if bLogging:
-						g_autolog.writeLog("Reminder: %s" % self.reminder.message)
+					continue
 
-					if not endOfTurn:
-						if g_turnReminderTexts:
-							g_turnReminderTexts += ", "
-						g_turnReminderTexts += self.reminder.message
+				if bLogging:
+					g_autolog.writeLog("Reminder: %s" % reminder.message)
 
-					if bShowMsg:
-						CvUtil.sendMessage(self.reminder.message, iPlayer, 10, "", ColorTypes(8))
+				if g_turnReminderTexts:
+					idx = g_turnReminderTexts.rfind("\n") + 1
+					if idx == -1:
+						idx += 1
+					else: idx += 2
+					if CyInterface().determineWidth(g_turnReminderTexts[idx:] + reminder.message) > SR.x - SR.x/7:
+						g_turnReminderTexts += "\n"
+					else: g_turnReminderTexts += "; "
+				g_turnReminderTexts += reminder.message
 
-					if bShowPop:
-						body = SR.aFontList[4] + self.reminder.message + "\n" + SR.aFontList[5] + prompt
-						popup = CyPopup(eventId, EventContextTypes.EVENTCONTEXT_SELF, True)
-						popup.setPosition(SR.x/3, SR.y/3)
-						popup.setBodyString(body, 1<<0)
-						popup.addButton(yes)
-						popup.addButton(no)
-						popup.launch(False, PopupStates.POPUPSTATE_IMMEDIATE)
+				if bShowMsg:
+					CvUtil.sendMessage(reminder.message, iPlayer, 10, "", ColorTypes(8))
+				if bShowPop:
+					body = SR.aFontList[4] + reminder.message + "\n" + SR.aFontList[5] + prompt
+					popup = CyPopup(RECALL_EVENT_ID, EventContextTypes.EVENTCONTEXT_SELF, True)
+					self.recall.append(reminder)
+					popup.setUserData((iCount,))
+					iCount += 1
+					popup.setPosition(SR.x/3, SR.y/3)
+					popup.setBodyString(body, 1<<0)
+					popup.addButton(yes)
+					popup.addButton(no)
+					popup.launch(False, PopupStates.POPUPSTATE_IMMEDIATE)
 
-
-	def initReminders(self):
-		self.setReminders(Reminders())
-		self.reminder = None
+	def __eventReminderRecallApply(self, playerID, userData, popupReturn):
+		if popupReturn.getButtonClicked() != 1:
+			reminder = self.recall[userData[0]]
+			reminder.turn += 1
+			self.addReminder(playerID, reminder)
 
 	def setReminders(self, queues):
 		self.reminders = queues
@@ -201,60 +188,28 @@ class ReminderEventManager:
 		else:
 			self.reminders.push(playerID, reminder)
 
-	def createReminder(self):
-		g_eventMgr.beginEvent(STORE_EVENT_ID)
-
 	def onSwitchHotSeatPlayer(self, argsList):
-		"""
-		Clears the end turn text so hot seat players don't see each other's reminders.
-		"""
+		# Clears the end turn text so hot seat players don't see each other's reminders.
 		ePlayer = argsList[0]
 		global g_turnReminderTexts
 		g_turnReminderTexts = ""
 
 	def onBeginActivePlayerTurn(self, argsList):
-		"""
-		Display the active player's reminders.
-		"""
-		iGameTurn = argsList[0]
 		global g_turnReminderTexts
 		g_turnReminderTexts = ""
-		if (ReminderOpt.isEnabled()):
+		if ReminderOpt.isEnabled():
 			g_eventMgr.beginEvent(RECALL_EVENT_ID)
 
-	def onEndGameTurn(self, argsList):
-		"""
-		Clears reminders up to and including the turn that just ended for all players.
-		"""
-		iGameTurn = argsList[0]
-		self.reminders.clearBefore(iGameTurn + 1)
-
-	def onEndTurnReady(self, argsList):
-		"""
-		Display reminders set to repeat this turn.
-		"""
-		if ReminderOpt.isEnabled():
-			g_eventMgr.beginEvent(RECALL_AGAIN_EVENT_ID)
-
 	def onGameStart(self, argsList):
-		"""
-		Clear all reminders.
-		"""
 		self.clearReminders()
 
 	def onLoadGame(self, argsList):
-		"""
-		Load saved reminders.
-		"""
 		self.clearReminders()
 		queues = SdToolKit.sdGetGlobal("Reminders", "queues")
 		if queues:
 			self.setReminders(queues)
 
 	def onPreSave(self, argsList):
-		"""
-		Save reminders.
-		"""
 		if self.reminders.isEmpty():
 			SdToolKit.sdDelGlobal("Reminders", "queues")
 		else:
@@ -287,10 +242,9 @@ class ReminderQueue(object):
 		return self.size() == 0
 
 	def nextTurn(self):
-		reminder = self.peek()
-		if reminder:
-			return reminder.turn
-		else: return -1
+		if not self.size():
+			return -1
+		return self.queue[0].turn
 
 	def push(self, reminder):
 		for i, r in enumerate(self.queue):
@@ -305,12 +259,6 @@ class ReminderQueue(object):
 			return None
 		else:
 			return self.queue.pop(0)
-
-	def peek(self):
-		if self.isEmpty():
-			return None
-		else:
-			return self.queue[0]
 
 
 class Reminders(object):
@@ -365,8 +313,3 @@ class Reminders(object):
 		queue = self.get(playerID)
 		if queue:
 			queue.pop()
-
-	def peek(self, playerID):
-		queue = self.get(playerID)
-		if queue:
-			return queue.peek()
