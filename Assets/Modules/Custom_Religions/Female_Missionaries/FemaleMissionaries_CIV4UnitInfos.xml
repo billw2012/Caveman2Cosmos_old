@@ -38,7 +38,6 @@
 			<PrereqBuilding>BUILDING_JEWISH_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -89,7 +88,6 @@
 			<PrereqBuilding>BUILDING_CHRISTIAN_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -140,7 +138,6 @@
 			<PrereqBuilding>BUILDING_ISLAMIC_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -191,7 +188,6 @@
 			<PrereqBuilding>BUILDING_HINDU_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -242,7 +238,6 @@
 			<PrereqBuilding>BUILDING_BUDDHIST_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -293,7 +288,6 @@
 			<PrereqBuilding>BUILDING_CONFUCIAN_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -344,7 +338,6 @@
 			<PrereqBuilding>BUILDING_TAOIST_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -395,7 +388,6 @@
 			<PrereqBuilding>BUILDING_ANDEAN_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -446,7 +438,6 @@
 			<PrereqBuilding>BUILDING_ASATRU_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -497,7 +488,6 @@
 			<PrereqBuilding>BUILDING_DRUID_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -548,7 +538,6 @@
 			<PrereqBuilding>BUILDING_HELLENIC_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -599,7 +588,6 @@
 			<PrereqBuilding>BUILDING_EGYPT_MYTH_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -650,7 +638,6 @@
 			<PrereqBuilding>BUILDING_AN</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -701,7 +688,6 @@
 			<PrereqBuilding>BUILDING_SHAMAN_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -752,7 +738,6 @@
 			<PrereqBuilding>BUILDING_SHINTO_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -803,7 +788,6 @@
 			<PrereqBuilding>BUILDING_SHAMANS_YURTA</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -854,7 +838,6 @@
 			<PrereqBuilding>BUILDING_BAHAI_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -905,7 +888,6 @@
 			<PrereqBuilding>BUILDING_MORMON_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -956,7 +938,6 @@
 			<PrereqBuilding>BUILDING_SCIENTOLOGY_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -1007,7 +988,6 @@
 			<PrereqBuilding>BUILDING_SIKH_TEMPLE</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -1058,7 +1038,6 @@
 			<PrereqBuilding>BUILDING_VOODOO_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -1109,7 +1088,6 @@
 			<PrereqBuilding>BUILDING_OLOFIN</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -1160,7 +1138,6 @@
 			<PrereqBuilding>BUILDING_CANAANISM_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>2</iAsset>
 			<UnitMeshGroups>
@@ -1206,7 +1183,6 @@
 			</CorporationSpreads>
 			<PrereqCorporation>CORPORATION_1</PrereqCorporation>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>3</iAsset>
 			<UnitMeshGroups>
@@ -1252,7 +1228,6 @@
 			</CorporationSpreads>
 			<PrereqCorporation>CORPORATION_2</PrereqCorporation>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>3</iAsset>
 			<UnitMeshGroups>
@@ -1298,7 +1273,6 @@
 			</CorporationSpreads>
 			<PrereqCorporation>CORPORATION_3</PrereqCorporation>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>3</iAsset>
 			<UnitMeshGroups>
@@ -1344,7 +1318,6 @@
 			</CorporationSpreads>
 			<PrereqCorporation>CORPORATION_4</PrereqCorporation>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>3</iAsset>
 			<UnitMeshGroups>
@@ -1390,7 +1363,6 @@
 			</CorporationSpreads>
 			<PrereqCorporation>CORPORATION_5</PrereqCorporation>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>3</iAsset>
 			<UnitMeshGroups>
@@ -1436,7 +1408,6 @@
 			</CorporationSpreads>
 			<PrereqCorporation>CORPORATION_6</PrereqCorporation>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>3</iAsset>
 			<UnitMeshGroups>
@@ -1482,7 +1453,6 @@
 			</CorporationSpreads>
 			<PrereqCorporation>CORPORATION_7</PrereqCorporation>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>3</iAsset>
 			<UnitMeshGroups>

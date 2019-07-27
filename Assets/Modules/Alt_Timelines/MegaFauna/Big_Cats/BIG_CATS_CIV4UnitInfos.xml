@@ -89,7 +89,6 @@
 			<bMilitaryProduction>1</bMilitaryProduction>
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bIgnoreTerrainCost>1</bIgnoreTerrainCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iXPValueAttack>8</iXPValueAttack>
 			<iXPValueDefense>4</iXPValueDefense>
 			<bHiddenNationality>1</bHiddenNationality>
@@ -303,7 +302,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_WARCAT</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 		</UnitInfo>		
 		<UnitInfo>
@@ -394,7 +392,6 @@
 			<bMilitaryProduction>1</bMilitaryProduction>
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bIgnoreTerrainCost>1</bIgnoreTerrainCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iXPValueAttack>8</iXPValueAttack>
 			<iXPValueDefense>4</iXPValueDefense>
 			<bHiddenNationality>1</bHiddenNationality>
@@ -550,7 +547,6 @@
 			<bMilitaryProduction>1</bMilitaryProduction>
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bIgnoreTerrainCost>1</bIgnoreTerrainCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iXPValueAttack>8</iXPValueAttack>
 			<iXPValueDefense>4</iXPValueDefense>
 			<bHiddenNationality>1</bHiddenNationality>
@@ -735,7 +731,6 @@
 			<bMilitaryProduction>1</bMilitaryProduction>
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bIgnoreTerrainCost>1</bIgnoreTerrainCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iXPValueAttack>8</iXPValueAttack>
 			<iXPValueDefense>4</iXPValueDefense>
 			<bHiddenNationality>1</bHiddenNationality>
@@ -824,7 +819,6 @@
 				</PropertySource>
 			</PropertyManipulators>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Class>UNITCLASS_SUBDUED_BENGALTIGER</Class>
 			<Type>UNIT_SUBDUED_BENGALTIGER</Type>

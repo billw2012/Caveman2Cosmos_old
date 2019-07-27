@@ -72,7 +72,6 @@
 			</UnitAIs>
 			<PrereqTech>TECH_GUERRILLA_WARFARE</PrereqTech>
 			<iCost>325</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>15</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -162,7 +161,6 @@
 			</UnitAIs>
 			<PrereqTech>TECH_GUERRILLA_WARFARE</PrereqTech>
 			<iCost>325</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>15</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -249,7 +247,6 @@
 			</UnitAIs>
 			<PrereqTech>TECH_GUERRILLA_WARFARE</PrereqTech>
 			<iCost>270</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -352,7 +349,6 @@
 			<PrereqTech>TECH_GUERRILLA_WARFARE</PrereqTech>
 			<iCost>430</iCost>
 			<iAdvancedStartCost>80</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueDefense>3</iXPValueDefense>
@@ -444,7 +440,6 @@
 			</UnitAIs>
 			<PrereqTech>TECH_GUERRILLA_WARFARE</PrereqTech>
 			<iCost>270</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>15</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>

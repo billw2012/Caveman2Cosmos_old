@@ -91,7 +91,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_AARDVARK</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -220,7 +219,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_AFRICANGREY</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -351,7 +349,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_AFRICAN_PENGUIN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -498,7 +495,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_JAGUAR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -628,7 +624,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ANTEATER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -790,7 +785,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ARCTICFOX</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -919,7 +913,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ARMADILLO</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -1054,7 +1047,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ASIANBEAR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -1227,7 +1219,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_BABIRUSA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -1345,7 +1336,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_BADGER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -1459,7 +1449,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_BALLPYTHON</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -1592,7 +1581,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_BARBARYAPE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -1694,7 +1682,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_BARNOWL</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -1833,7 +1820,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_BARREDOWL</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -1962,7 +1948,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_BEAR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -2089,7 +2074,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_BEAVER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -2211,7 +2195,6 @@
 				</UnitCombatTarget>
 			</UnitCombatTargets>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_COAST</TerrainType>
@@ -2380,7 +2363,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_BENGALTIGER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -2516,7 +2498,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_BISON</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -2650,7 +2631,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_BLACKBEAR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -2804,7 +2784,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_BOAR_NEW</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -2953,7 +2932,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_BONGO</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -3043,7 +3021,6 @@
 				</UnitAI>
 			</UnitAIs>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_COAST_POLAR</TerrainType>
@@ -3227,7 +3204,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_BUFFALO</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -3375,7 +3351,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_CAIMAN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -3502,7 +3477,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_WILD_CAMEL</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -3632,7 +3606,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_CAPUCHIN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -3774,7 +3747,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_CAPYBARA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -3916,7 +3888,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_CARIBOU</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -4054,7 +4025,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_CASSOWARY</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -4167,7 +4137,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_CAVEBEAR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -4315,7 +4284,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_CAVELION</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -4447,7 +4415,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_CHEETAH</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -4594,7 +4561,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_CHIMPANZEE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -4696,7 +4662,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_COBRA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -4818,7 +4783,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_COD</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -4960,7 +4924,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_WILD_COW</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -5083,7 +5046,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_CRAB</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -5214,7 +5176,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_CROW</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -5320,7 +5281,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_CUSCUS</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -5450,7 +5410,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_DARTFROG</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -5548,7 +5507,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_TORTOISE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -5697,7 +5655,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_DHOLE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -5817,7 +5774,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_DINGO</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -5902,7 +5858,6 @@
 				</UnitAI>
 			</UnitAIs>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_ICE</TerrainType>
@@ -6071,7 +6026,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_DOLPHIN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -6196,7 +6150,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_DONKEY</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -6320,7 +6273,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_DUCK</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -6441,7 +6393,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_DUGONG</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -6567,7 +6518,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_EAGLE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -6682,7 +6632,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_EAGLE_BALD</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -6815,7 +6764,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_AFRICANELEPHANT</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -6942,7 +6890,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ELEPHANT</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -7074,7 +7021,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_EMU</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -7205,7 +7151,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_EWOLF</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -7321,7 +7266,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_FENNECFOX</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -7455,7 +7399,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_FLAMINGO</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -7584,7 +7527,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_GALAPAGOS_PENGUIN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -7673,7 +7615,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_TORTOISE2</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -7804,7 +7745,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_GATOR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -7885,7 +7825,6 @@
 				</UnitCombatTarget>
 			</UnitCombatTargets>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<TerrainImpassableTypes>
 				<TerrainType>TERRAIN_BARREN</TerrainType>
@@ -8040,7 +7979,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_GAZELLE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -8164,7 +8102,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_GELADA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -8289,7 +8226,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_GEMSBOK</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -8412,7 +8348,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_GERENUK</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -8549,7 +8484,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_GHARIAL</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -8646,7 +8580,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_KRAKEN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -8773,7 +8706,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_GIRAFFE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -8887,7 +8819,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_GLYPTO</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -9019,7 +8950,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_GORILLA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -9120,7 +9050,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_GREATWHITE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -9225,7 +9154,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_GRIZZLY</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -9348,7 +9276,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_GROUNDSLOTH</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -9481,7 +9408,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_GUANACO</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -9602,7 +9528,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_GULL</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -9715,7 +9640,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_HAAST_EAGLE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -9825,7 +9749,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_HAMMERHEAD</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -9980,7 +9903,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_HARPYEAGLE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -10094,7 +10016,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_HAWK</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -10236,7 +10157,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_HIPPO</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -10362,7 +10282,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_PYGMYHIPPO</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -10516,7 +10435,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_HORNEDOWL</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -10645,7 +10563,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_WILD_HORSE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -10891,7 +10808,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_HYENA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -11008,7 +10924,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_IBEX</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -11102,7 +11017,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_IGUANA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -11221,7 +11135,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_IMPALA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -11337,7 +11250,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_KANGAROO_GREY</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -11462,7 +11374,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_KANGAROO_RED</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -11569,7 +11480,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_KOALA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -11721,7 +11631,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_KOMODO</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -11853,7 +11762,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_KOOKABURRA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -11968,7 +11876,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_LEMUR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -12123,7 +12030,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_LION</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -12213,7 +12119,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_LIZARD</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -12324,7 +12229,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_LOCUST</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 		</UnitInfo>
 		<UnitInfo>
@@ -12410,7 +12314,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_LOCUST_HUGE_SWARM</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 		</UnitInfo>
 		<UnitInfo>
@@ -12496,7 +12399,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_LOCUST_LARGE_SWARM</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 		</UnitInfo>
 		<UnitInfo>
@@ -12582,7 +12484,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_LOCUST_SMALL_SWARM</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 		</UnitInfo>
 		<UnitInfo>
@@ -12657,7 +12558,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_LOON</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -12793,7 +12693,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_LYNX</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -12904,7 +12803,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_MACAW</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -13020,7 +12918,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_MACKEREL</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -13137,7 +13034,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_MAMMOTH</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -13241,7 +13137,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_MANEDWOLF</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -13399,7 +13294,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_MANDRILL</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -13484,7 +13378,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_RAY_MANTA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -13593,7 +13486,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_MARLIN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -13707,7 +13599,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_MINKIE_WHALE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -13836,7 +13727,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_MOA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -13969,7 +13859,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_MONITOR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -14075,7 +13964,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_MOOSE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -14180,7 +14068,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_MOUFLON</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -14303,7 +14190,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_MUSKOX</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -14425,7 +14311,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_NARWHAL</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -14585,7 +14470,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_NILECROC</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -14687,7 +14571,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_NUMBAT</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -14782,7 +14665,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_OKAPI</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -14876,7 +14758,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_OPOSSUM</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -14968,7 +14849,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ORANGUTAN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -15076,7 +14956,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ORCA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -15208,7 +15087,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_OSTRICH</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -15328,7 +15206,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_OXPECKER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -15434,7 +15311,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_PANDA_BEAR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -15537,7 +15413,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_PANTHER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -15632,7 +15507,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_PARROT</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -15749,7 +15623,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_PEACOCK</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -15896,7 +15769,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_PENGUIN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -16007,7 +15879,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_PHEASANT</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -16119,7 +15990,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_PIGEON</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -16238,7 +16108,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_PIG_NEW</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -16364,7 +16233,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_PLATYPUS</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -16535,7 +16403,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_POLARBEAR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -16627,7 +16494,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_POSSUM</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -16751,7 +16617,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_PROCOPTODON</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -16887,7 +16752,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_PUFFADDER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -16984,7 +16848,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_QUOLL</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -17095,7 +16958,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_RACCOON</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -17223,7 +17085,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_RATEL</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -17339,7 +17200,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_RAVEN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -17424,7 +17284,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_RAY_EAGLE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -17555,7 +17414,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_RAZORBILL</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -17687,7 +17545,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_REDFOX</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -17795,7 +17652,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_REDPANDA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -17914,7 +17770,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_RHEA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -18024,7 +17879,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ELASMOTHERIUM</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -18132,7 +17986,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_BLACK_RHINO</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -18241,7 +18094,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_INDIAN_RHINO</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -18348,7 +18200,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_JAVA_RHINO</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -18465,7 +18316,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_WHITE_RHINO</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -18616,7 +18466,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_CROCODILE_LARGE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -18769,7 +18618,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_CROCODILE_SMALL</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -18905,7 +18753,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ROCKHOPPER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -19018,7 +18865,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_SABRETOOTH</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -19153,7 +18999,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_SAIGA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -19249,7 +19094,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_SALTCROC_LARGE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -19362,7 +19206,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_SALTCROC_SMALL</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -19490,7 +19333,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_SEAEAGLE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -19621,7 +19463,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_SEALION_LAND</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -19744,7 +19585,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_SEALION_SEA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -19878,7 +19718,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_SEAOTTER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -19991,7 +19830,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_SEATURTLE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -20131,7 +19969,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_SECRETARYBIRD</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -20258,7 +20095,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_REEF_SHARK</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -20386,7 +20222,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_SIBERIANTIGER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -20493,7 +20328,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_SKUNK</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -20594,7 +20428,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_SLOTHBEAR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -20778,7 +20611,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_SNOWLEOPARD</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -20914,7 +20746,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_SPECTACLEDBEAR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -21027,7 +20858,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_STAG_DEER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -21145,7 +20975,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_SUNBEAR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -21275,7 +21104,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_TAPIR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -21392,7 +21220,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_BRAZILIAN_TAPIR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -21510,7 +21337,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_MALAYAN_TAPIR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -21625,7 +21451,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_MOUNTAIN_TAPIR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -21727,7 +21552,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_JUNGLE_TARANTULA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<PrereqGameOption>GAMEOPTION_ECOLOGICAL_ANIMALS</PrereqGameOption>
 			<KillOutcomes>
@@ -21825,7 +21649,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_DESERT_TARANTULA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<PrereqGameOption>GAMEOPTION_ECOLOGICAL_ANIMALS</PrereqGameOption>
 			<KillOutcomes>
@@ -21963,7 +21786,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_TASMANIANDEVIL</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -22083,7 +21905,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_TERN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -22220,7 +22041,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_THYLACINE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -22334,7 +22154,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_TOUCAN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -22429,7 +22248,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_TREESLOTH</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -22539,7 +22357,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_TUNA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -22668,7 +22485,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_TURKEY</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -22779,7 +22595,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_VIPER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -22889,7 +22704,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_VIPER_CHAIN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -23014,7 +22828,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_VULTURE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -23187,7 +23000,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_WALLABY</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -23281,7 +23093,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_WALLAROO</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -23407,7 +23218,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_WALRUS</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -23548,7 +23358,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_WARTHOG</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -23644,7 +23453,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_WHALESHARK</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -23782,7 +23590,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_WILDEBEEST</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -23896,7 +23703,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_WOLF</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -24050,7 +23856,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_WOLVERINE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -24150,7 +23955,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_WOMBAT</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -24267,7 +24071,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ZEBRA</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>

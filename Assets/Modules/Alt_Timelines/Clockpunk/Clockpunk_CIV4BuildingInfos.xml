@@ -22,7 +22,6 @@
 			</MapCategoryTypes>
 			<VicinityBonus>BONUS_SULPHUR</VicinityBonus>
 			<bNukeImmune>1</bNukeImmune>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FreeBonus>BONUS_CLOCKPUNK</FreeBonus>
 			<iNumFreeBonuses>1</iNumFreeBonuses>
 			<iCost>2280</iCost>
@@ -83,7 +82,6 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<iAsset>2</iAsset>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
@@ -137,7 +135,6 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<iAsset>2</iAsset>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
@@ -176,7 +173,6 @@
 				<iCommerce>3</iCommerce>
 			</CommerceChanges>
 			<iAsset>2</iAsset>
-			<iMinAreaSize>-1</iMinAreaSize>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_CLOCKWORK_WORKSHOP</BuildingClass>
@@ -236,7 +232,6 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<iAsset>2</iAsset>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -282,7 +277,6 @@
 				</ReplaceBuilding>
 			</ReplaceBuildings>
 			<iAsset>5</iAsset>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 		</BuildingInfo>
 	</BuildingInfos>

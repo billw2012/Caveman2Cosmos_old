@@ -24,7 +24,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>1860</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iRevIdxNational>-10</iRevIdxNational>
 			<iAsset>10</iAsset>
@@ -67,7 +66,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>3330</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iDomesticGreatGeneralRateModifier>25</iDomesticGreatGeneralRateModifier>
 			<iAsset>10</iAsset>
@@ -117,7 +115,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>1860</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iDefense>25</iDefense>
 			<iAsset>10</iAsset>
@@ -184,7 +181,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>4800</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iHappiness>-4</iHappiness>
 			<iGlobalHappiness>2</iGlobalHappiness>
@@ -248,7 +244,6 @@
 			<iCost>-1</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<MapCategoryTypes>
@@ -281,7 +276,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>1680</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iTradeRouteModifier>50</iTradeRouteModifier>
 			<iAsset>10</iAsset>
@@ -326,7 +320,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>4800</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iEspionageDefense>25</iEspionageDefense>
 			<iAsset>10</iAsset>
@@ -390,7 +383,6 @@
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>7380</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>-2</iHappiness>
 			<iTradeRouteModifier>50</iTradeRouteModifier>
 			<iAsset>10</iAsset>
@@ -440,7 +432,6 @@
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>6480</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<MapCategoryTypes>
@@ -518,7 +509,6 @@
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>4620</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<MapCategoryTypes>
@@ -603,7 +593,6 @@
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>5940</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iRevIdxNational>40</iRevIdxNational>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -654,7 +643,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>2208</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iDefense>50</iDefense>
 			<iBombardDefense>25</iBombardDefense>
@@ -719,7 +707,6 @@
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>8460</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<MapCategoryTypes>
@@ -759,7 +746,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>6780</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iHappiness>-1</iHappiness>
 			<iAsset>10</iAsset>
@@ -803,7 +789,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>876</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -863,7 +848,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>7080</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -941,7 +925,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>6480</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -1026,7 +1009,6 @@
 			<bGoldenAge>1</bGoldenAge>
 			<iCost>4800</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>2</iHappiness>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -1069,7 +1051,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>3480</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iTeamsPrereq>3</iTeamsPrereq>
 			<iAsset>10</iAsset>
@@ -1111,7 +1092,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>84930</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iMaxLatitude>30</iMaxLatitude>
 			<iHappiness>4</iHappiness>
@@ -1185,7 +1165,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>5220</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iHappinessPercentPerPopulation>20</iHappinessPercentPerPopulation>
 			<iAreaHappiness>1</iAreaHappiness>
@@ -1235,7 +1214,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>1800</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -1293,7 +1271,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>3780</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -1351,7 +1328,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>2640</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -1400,7 +1376,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>2280</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -1455,7 +1430,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>4800</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -1518,7 +1492,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>3930</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iWorkerSpeedModifier>25</iWorkerSpeedModifier>
 			<iAsset>10</iAsset>
@@ -1598,7 +1571,6 @@
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>552</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iStateReligionHappiness>1</iStateReligionHappiness>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -1651,7 +1623,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>7380</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -1721,7 +1692,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>1800</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -1778,7 +1748,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>4620</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iHappiness>2</iHappiness>
 			<iAsset>10</iAsset>
@@ -1846,7 +1815,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>760</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iWarWearinessModifier>-20</iWarWearinessModifier>
 			<iHappiness>3</iHappiness>
 			<iAsset>10</iAsset>
@@ -1951,7 +1919,6 @@
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>1800</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iDefense>75</iDefense>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -2003,7 +1970,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>8070</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -2086,7 +2052,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>7680</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iHappiness>2</iHappiness>
 			<iAsset>10</iAsset>
@@ -2135,7 +2100,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>950</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>2</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -2191,7 +2155,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>6180</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -2303,7 +2266,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>5700</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -2340,7 +2302,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>8070</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -2410,7 +2371,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>3930</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iForeignTradeRouteModifier>50</iForeignTradeRouteModifier>
 			<iAsset>10</iAsset>
@@ -2466,7 +2426,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>5940</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iGlobalMaintenanceModifier>-50</iGlobalMaintenanceModifier>
 			<iRevIdxNational>-10</iRevIdxNational>
@@ -2530,7 +2489,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>4800</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAirUnitCapacity>4</iAirUnitCapacity>
 			<HealUnitCombatTypes>
@@ -2592,7 +2550,6 @@
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>4620</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<MapCategoryTypes>
@@ -2638,7 +2595,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>21150</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iMinLatitude>45</iMinLatitude>
 			<iHappiness>2</iHappiness>
@@ -2815,7 +2771,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>4980</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iHealth>-5</iHealth>
 			<iAsset>10</iAsset>
@@ -2915,7 +2870,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>3210</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -2984,7 +2938,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>6780</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iTradeRoutes>3</iTradeRoutes>
 			<iTradeRouteModifier>50</iTradeRouteModifier>
@@ -3009,7 +2962,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>-1</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iTradeRoutes>3</iTradeRoutes>
 			<iTradeRouteModifier>50</iTradeRouteModifier>
@@ -3037,7 +2989,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>4800</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAirModifier>-25</iAirModifier>
 			<iGlobalWarWearinessModifier>-20</iGlobalWarWearinessModifier>
@@ -3102,7 +3053,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>2136</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iTradeRoutes>2</iTradeRoutes>
 			<iAsset>10</iAsset>
@@ -3178,7 +3128,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>876</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -3241,7 +3190,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>2064</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<MapCategoryTypes>
@@ -3302,7 +3250,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>9630</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iMinLatitude>50</iMinLatitude>
 			<iAsset>10</iAsset>
@@ -3433,7 +3380,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>11550</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -3486,7 +3432,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>7080</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -3535,7 +3480,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>2136</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iTradeRoutes>2</iTradeRoutes>
 			<iAsset>10</iAsset>
@@ -3609,7 +3553,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>7680</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -3691,7 +3634,6 @@
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>7380</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHealth>-1</iHealth>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -3773,7 +3715,6 @@
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>3330</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<MapCategoryTypes>
@@ -3821,7 +3762,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>6180</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iHealth>-3</iHealth>
 			<iAsset>10</iAsset>
@@ -3882,7 +3822,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>8460</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iGlobalHappiness>1</iGlobalHappiness>
 			<iRevIdxNational>10</iRevIdxNational>
@@ -3932,7 +3871,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>4620</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>10</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -3970,7 +3908,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>26910</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>20</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>
@@ -4012,7 +3949,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>4485</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iEspionageDefense>15</iEspionageDefense>
 			<iAsset>5</iAsset>

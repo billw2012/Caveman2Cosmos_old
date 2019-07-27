@@ -61,7 +61,6 @@
 			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
 			<BonusType>BONUS_MOVIES</BonusType>
 			<iCost>4720</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>51</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>

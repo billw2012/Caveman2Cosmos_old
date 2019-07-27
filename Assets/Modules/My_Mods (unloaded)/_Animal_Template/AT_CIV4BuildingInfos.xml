@@ -12,7 +12,6 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CROW_MYTH</ArtDefineTag>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<iPower>2</iPower>
 			<FreeBuilding>BUILDINGCLASS_CROW_MYTH_EFFECT</FreeBuilding>
@@ -64,7 +63,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CROW_MYTH</ArtDefineTag>
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -77,7 +75,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CROW_STORY</ArtDefineTag>
 			<ObsoleteTech>TECH_EDUCATION</ObsoleteTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<iPower>2</iPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -122,7 +119,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CROW_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_EDUCATION</ObsoleteTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<iPower>2</iPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -168,7 +164,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CROW_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_EDUCATION</ObsoleteTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<iPower>2</iPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>

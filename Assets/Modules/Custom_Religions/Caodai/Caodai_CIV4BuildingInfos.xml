@@ -65,7 +65,6 @@
 			<iAIWeight>0</iAIWeight>
 			<iCost>280</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>0</iConquestProb>
 			<iCitiesPrereq>0</iCitiesPrereq>
 			<iTeamsPrereq>0</iTeamsPrereq>
@@ -243,7 +242,6 @@
 			<iAIWeight>0</iAIWeight>
 			<iCost>216</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>0</iConquestProb>
 			<iCitiesPrereq>0</iCitiesPrereq>
 			<iTeamsPrereq>0</iTeamsPrereq>
@@ -408,7 +406,6 @@
 			<iAIWeight>0</iAIWeight>
 			<iCost>-1</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iCitiesPrereq>0</iCitiesPrereq>
 			<iTeamsPrereq>0</iTeamsPrereq>
@@ -567,7 +564,6 @@
 			<iAIWeight>0</iAIWeight>
 			<iCost>160</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>0</iConquestProb>
 			<iCitiesPrereq>0</iCitiesPrereq>
 			<iTeamsPrereq>0</iTeamsPrereq>

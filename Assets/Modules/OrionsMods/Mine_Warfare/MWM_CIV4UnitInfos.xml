@@ -63,7 +63,6 @@
 			<!--iCost>780</iCost-->
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>80</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>35</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -163,7 +162,6 @@
 			</TechTypes>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>80</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>35</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -265,7 +263,6 @@
 			<BonusType>BONUS_URANIUM</BonusType>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>225</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>35</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -416,7 +413,6 @@
 			<PrereqTech>TECH_MINE_WARFARE</PrereqTech>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>80</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>35</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -512,7 +508,6 @@
 			</TechTypes>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>80</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>35</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -609,7 +604,6 @@
 			<BonusType>BONUS_URANIUM</BonusType>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>225</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>35</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>

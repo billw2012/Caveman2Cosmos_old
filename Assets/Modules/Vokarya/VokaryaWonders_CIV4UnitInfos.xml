@@ -124,7 +124,6 @@
 			<bIgnoreZoneofControl>1</bIgnoreZoneofControl>
 			<bBlendIntoCity>1</bBlendIntoCity>
 			<bAssassin>1</bAssassin>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<UnitCombatTargets>
 				<UnitCombatTarget>
 					<UnitCombatTargetType>UNITCOMBAT_TRADE</UnitCombatTargetType>
@@ -343,7 +342,6 @@
 			</PrereqBonuses>
 			<iCost>345</iCost>
 			<iHurryCostModifier>25</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>

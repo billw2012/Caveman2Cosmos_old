@@ -37,7 +37,6 @@
 			<PrereqBuilding>BUILDING_SHINTO_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -53,7 +52,6 @@
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Type>UNIT_PROPHET</Type>
 			<Buildings>

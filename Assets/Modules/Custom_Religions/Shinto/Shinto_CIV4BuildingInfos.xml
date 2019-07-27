@@ -24,7 +24,6 @@
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>160</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaintenanceModifier>-10</iMaintenanceModifier>
 			<iHealth>1</iHealth>
 			<iStateReligionHappiness>1</iStateReligionHappiness>
@@ -85,7 +84,6 @@
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>216</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iWarWearinessModifier>-10</iWarWearinessModifier>
 			<HealUnitCombatTypes>
 				<HealUnitCombatType>
@@ -143,7 +141,6 @@
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>280</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaintenanceModifier>-15</iMaintenanceModifier>
 			<iWarWearinessModifier>-15</iWarWearinessModifier>
 			<iHappiness>1</iHappiness>
@@ -233,7 +230,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iMaintenanceModifier>-25</iMaintenanceModifier>
 			<iAsset>8</iAsset>
@@ -295,7 +291,6 @@
 			<iCost>1860</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iMaintenanceModifier>-50</iMaintenanceModifier>
 			<iDefense>50</iDefense>
@@ -350,7 +345,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>1566</iCost>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iTradeRoutes>1</iTradeRoutes>
 			<iAsset>14</iAsset>

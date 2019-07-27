@@ -16,7 +16,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TOYCARVER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -65,7 +64,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TOY_FACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -134,7 +132,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TOY_MAKER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>

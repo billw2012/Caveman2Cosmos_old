@@ -18,7 +18,6 @@
 			<PrereqReligion>RELIGION_BAHAI</PrereqReligion>			
 			<bNeverCapture>1</bNeverCapture>			
 			<iCost>280</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>			
 			<iStateReligionHappiness>2</iStateReligionHappiness>			
 			<iAsset>6</iAsset>			
 			<fVisibilityPriority>1.0</fVisibilityPriority>			
@@ -111,7 +110,6 @@
 				</HealUnitCombatType>
 			</HealUnitCombatTypes>		
 			<iCost>216</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>			
 			<iAsset>3</iAsset>			
 			<fVisibilityPriority>1.0</fVisibilityPriority>			
 			<CommerceChanges>
@@ -178,7 +176,6 @@
 			<bNukeImmune>1</bNukeImmune>			
 			<iCost>-1</iCost>			
 			<iAdvancedStartCost>-1</iAdvancedStartCost>			
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>			
 			<iAsset>8</iAsset>			
 			<fVisibilityPriority>1.0</fVisibilityPriority>			
@@ -243,7 +240,6 @@
 			</PrereqBonuses>
 			<bNeverCapture>1</bNeverCapture>		
 			<iCost>160</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>			
 			<iHappiness>1</iHappiness>			
 			<iAsset>4</iAsset>			
 			<CommerceChanges>

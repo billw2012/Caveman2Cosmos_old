@@ -36,7 +36,6 @@
 			<PrereqReligion>RELIGION_SIKHISM</PrereqReligion>
 			<PrereqBuilding>BUILDING_SIKH_TEMPLE</PrereqBuilding>
 			<iCost>110</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -52,7 +51,6 @@
 			</UnitMeshGroups>
 			<Button>Art/sikh_miss.dds</Button>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Type>UNIT_PROPHET</Type>
 			<Buildings>

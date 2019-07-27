@@ -26,7 +26,6 @@
 			<iCost>32730</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -50,7 +49,6 @@
 			<Bonus>BONUS_CYBERPUNK</Bonus>
 			<iCost>5455</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHealth>-15</iHealth>
 			<iHappiness>-5</iHappiness>
 			<!-- RevolutionDCM Building Effects  -->
@@ -94,7 +92,6 @@
 			<Bonus>BONUS_CYBERPUNK</Bonus>
 			<iCost>5455</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>5</iHappiness>
 			<!-- RevolutionDCM End  -->
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -135,7 +132,6 @@
 			<Bonus>BONUS_CYBERPUNK</Bonus>
 			<iCost>5455</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- RevolutionDCM End  -->
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -214,7 +210,6 @@
 			</PrereqBonuses>
 			<iCost>5455</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<HealUnitCombatTypes>
 				<HealUnitCombatType>
 					<UnitCombatType>UNITCOMBAT_HEALS_AS_SWARM</UnitCombatType>
@@ -256,7 +251,6 @@
 			</PrereqBonuses>
 			<iCost>5455</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>-3</iHappiness>
 			<!-- RevolutionDCM End  -->
 			<fVisibilityPriority>1.0</fVisibilityPriority>

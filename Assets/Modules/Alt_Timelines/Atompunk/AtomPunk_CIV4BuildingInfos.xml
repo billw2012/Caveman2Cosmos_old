@@ -27,7 +27,6 @@
 			<iCost>8070</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -71,7 +70,6 @@
 			<bPower>1</bPower>
 			<iCost>1345</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHealth>-1</iHealth>
 			<!-- RevolutionDCM End  -->
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -135,7 +133,6 @@
 			</ConstructCondition>
 			<iCost>1345</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaintenanceModifier>10</iMaintenanceModifier>
 			<iHappiness>2</iHappiness>
 			<iTradeRoutes>2</iTradeRoutes>
@@ -188,7 +185,6 @@
 			</PrereqBonuses>
 			<iCost>1345</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaintenanceModifier>5</iMaintenanceModifier>
 			<iHealth>2</iHealth>
 			<iHappiness>1</iHappiness>
@@ -526,7 +522,6 @@
 			<iCost>-1</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHealth>-3</iHealth>
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -613,7 +608,6 @@
 			<bPower>1</bPower>
 			<iCost>1345</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- RevolutionDCM End  -->
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -667,7 +661,6 @@
 			<bPower>1</bPower>
 			<iCost>1845</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- RevolutionDCM End  -->
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -740,7 +733,6 @@
 			<bPower>1</bPower>
 			<iCost>4010</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- RevolutionDCM End  -->
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -785,7 +777,6 @@
 			<iCost>1345</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<CommerceChanges>
 				<iCommerce>-100</iCommerce>
 				<iCommerce>25</iCommerce>
@@ -888,7 +879,6 @@
 			<iCost>1345</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaintenanceModifier>10</iMaintenanceModifier>
 			<iHealth>-1</iHealth>
 			<YieldChanges>
@@ -936,7 +926,6 @@
 			<iCost>2690</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<YieldChanges>
 				<iYield>0</iYield>
 				<iYield>5</iYield>
@@ -1017,7 +1006,6 @@
 			<iCost>-1</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>0</iConquestProb>
 			<YieldChanges>
 				<iYield>0</iYield>

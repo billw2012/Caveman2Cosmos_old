@@ -9,7 +9,6 @@
 			<Strategy>TXT_KEY_BUILDING_HYPESPACE_PORTAL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HYPESPACE_PORTAL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DUALFLUX_QUANTUM_TEMPORAL_RIFT</PrereqTech>
 			<iCost>-1</iCost>
@@ -33,7 +32,6 @@
 			<Strategy>TXT_KEY_BUILDING_RESIDENTIAL_PORTAL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_RESIDENTIAL_PORTAL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DUALFLUX_QUANTUM_TEMPORAL_RIFT</PrereqTech>
 			<iCost>1261</iCost>
@@ -58,7 +56,6 @@
 			<Strategy>TXT_KEY_BUILDING_TESSERACT_HOMES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TESSERACT_HOMES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TESSERACT_CONSTRUCTION</PrereqTech>
 			<iCost>1713</iCost>
@@ -92,7 +89,6 @@
 			<Strategy>TXT_KEY_BUILDING_ESCHER_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ESCHER_CITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TRANSVERSE_EUCLIDEAN_GEOMETRY</PrereqTech>
 			<iCost>1485</iCost>
@@ -127,7 +123,6 @@
 			<Strategy>TXT_KEY_BUILDING_HYPERCITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HYPERCITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_EUCLIDEAN_FIVESPACE_GEOMETRY</PrereqTech>
 			<iCost>1713</iCost>
@@ -158,7 +153,6 @@
 			<Strategy>TXT_KEY_BUILDING_11_DIMENSIONAL_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_11_DIMENSIONAL_CITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DECOMPACTIFIED_SPACE</PrereqTech>
 			<iCost>2182</iCost>
@@ -186,7 +180,6 @@
 			<Strategy>TXT_KEY_BUILDING_TOROIDAL_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TOROIDAL_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MANIFOLD_COLONIZATION</PrereqTech>
 			<iCost>2914</iCost>
@@ -214,7 +207,6 @@
 			<Strategy>TXT_KEY_BUILDING_REAL_PROJECTIVE_SPACE_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_REAL_PROJECTIVE_SPACE_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MANIFOLD_COLONIZATION</PrereqTech>
 			<iCost>2914</iCost>
@@ -244,7 +236,6 @@
 			<Strategy>TXT_KEY_BUILDING_COMPLEX_PROJECTIVE_SPACE_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_COMPLEX_PROJECTIVE_SPACE_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MANIFOLD_COLONIZATION</PrereqTech>
 			<iCost>2914</iCost>
@@ -271,7 +262,6 @@
 			<Strategy>TXT_KEY_BUILDING_QUATERNIONIC_PROJECTIVE_SPACE_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_QUATERNIONIC_PROJECTIVE_SPACE_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NONSTANDARD_MATHEMATICS</PrereqTech>
 			<iCost>3423</iCost>
@@ -307,7 +297,6 @@
 			<Strategy>TXT_KEY_BUILDING_HYPERSPACE_IMPORTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HYPERSPACE_IMPORTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TRANSDIMENSIONAL_COMMERCE</PrereqTech>
 			<iCost>1485</iCost>
@@ -329,7 +318,6 @@
 			<Strategy>TXT_KEY_BUILDING_HYPERSPACE_COMMERCIAL_CENTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HYPERSPACE_COMMERCIAL_CENTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TRANSDIMENSIONAL_COMMERCE</PrereqTech>
 			<iCost>1485</iCost>
@@ -365,7 +353,6 @@
 			<Strategy>TXT_KEY_BUILDING_HYPERSPACE_EXPORTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HYPERSPACE_EXPORTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TRANSDIMENSIONAL_COMMERCE</PrereqTech>
 			<iCost>1485</iCost>
@@ -396,7 +383,6 @@
 			<Strategy>TXT_KEY_BUILDING_HYPERSPACE_TOURISM_AGENCY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HYPERSPACE_TOURISM_AGENCY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ENDOGENOUS_EUCLIDEAN_PROPULSION</PrereqTech>
 			<iCost>1713</iCost>
@@ -422,7 +408,6 @@
 			<Strategy>TXT_KEY_BUILDING_5D_ARTIFICIAL_GRAVITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_5D_ARTIFICIAL_GRAVITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_EUCLIDEAN_FIVESPACE_GEOMETRY</PrereqTech>
 			<iCost>1713</iCost>
@@ -452,7 +437,6 @@
 			<Strategy>TXT_KEY_BUILDING_HYPERSPACE_WAREHOUSE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HYPERSPACE_WAREHOUSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_HYPERLANES</PrereqTech>
 			<iCost>1945</iCost>
@@ -480,7 +464,6 @@
 			<Strategy>TXT_KEY_BUILDING_HYPERSPACE_POWER_PLANT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HYPERSPACE_POWER_PLANT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DUALFLUX_QUANTUM_TEMPORAL_RIFT</PrereqTech>
 			<iCost>1261</iCost>
@@ -505,7 +488,6 @@
 			<Strategy>TXT_KEY_BUILDING_RESOURCE_RIFT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_RESOURCE_RIFT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DUALFLUX_QUANTUM_TEMPORAL_RIFT</PrereqTech>
 			<iCost>1261</iCost>
@@ -529,7 +511,6 @@
 			<Strategy>TXT_KEY_BUILDING_HYPERFACTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HYPERFACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TRANSVERSE_EUCLIDEAN_GEOMETRY</PrereqTech>
 			<iCost>1485</iCost>
@@ -577,7 +558,6 @@
 			<Strategy>TXT_KEY_BUILDING_TESSERACT_ASSEMBLER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TESSERACT_ASSEMBLER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TESSERACT_CONSTRUCTION</PrereqTech>
 			<iCost>1713</iCost>
@@ -609,7 +589,6 @@
 			<Strategy>TXT_KEY_BUILDING_PERSONAL_HYPERCRAFT_FACTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PERSONAL_HYPERCRAFT_FACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ENDOGENOUS_EUCLIDEAN_PROPULSION</PrereqTech>
 			<iCost>1713</iCost>
@@ -636,7 +615,6 @@
 			<Strategy>TXT_KEY_BUILDING_11_DIMENSIONAL_FACTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_11_DIMENSIONAL_FACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DECOMPACTIFIED_SPACE</PrereqTech>
 			<iCost>2182</iCost>
@@ -666,7 +644,6 @@
 			<Strategy>TXT_KEY_BUILDING_FORMAL_CONSTRUCTION_CENTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FORMAL_CONSTRUCTION_CENTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ARCHETYPAL_VECTOR_SPACES</PrereqTech>
 			<iCost>3423</iCost>
@@ -697,7 +674,6 @@
 			<Strategy>TXT_KEY_BUILDING_HYPERPLANET_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HYPERPLANET</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_EUCLIDEAN_FIVESPACE_GEOMETRY</PrereqTech>
 			<iCost>1713</iCost>
@@ -746,7 +722,6 @@
 			<Strategy>TXT_KEY_BUILDING_NON_CAUSAL_ENGINEERING_FIRM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_NON_CAUSAL_ENGINEERING_FIRM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MULTIDIMENSIONAL_TIME</PrereqTech>
 			<iCost>3166</iCost>
@@ -781,7 +756,6 @@
 			<Strategy>TXT_KEY_BUILDING_INFLATON_FIELD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_INFLATON_FIELD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_CONTROLLED_INFLATION</PrereqTech>
 			<iCost>1485</iCost>
@@ -816,7 +790,6 @@
 			<Strategy>TXT_KEY_BUILDING_OPEN_FRW_UNIVERSE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_OPEN_FRW_UNIVERSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_CONTROLLED_INFLATION</PrereqTech>
 			<iCost>1485</iCost>
@@ -860,7 +833,6 @@
 			<Strategy>TXT_KEY_BUILDING_SIMULATED_UNIVERSE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SIMULATED_UNIVERSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_EXPERIMENTAL_COSMOLOGY</PrereqTech>
 			<iCost>1945</iCost>
@@ -941,7 +913,6 @@
 			<Strategy>TXT_KEY_BUILDING_POINCARE_DODECAHEDRAL_SPACE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_POINCARE_DODECAHEDRAL_SPACE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PARAMETER_TUNING</PrereqTech>
 			<iCost>2666</iCost>
@@ -967,7 +938,6 @@
 			<Strategy>TXT_KEY_BUILDING_PICARD_HORN_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PICARD_HORN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PARAMETER_TUNING</PrereqTech>
 			<iCost>2666</iCost>
@@ -994,7 +964,6 @@
 			<Strategy>TXT_KEY_BUILDING_EKPYROTIC_UNIVERSE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_EKPYROTIC_UNIVERSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PARAMETER_TUNING</PrereqTech>
 			<iCost>2666</iCost>
@@ -1023,7 +992,6 @@
 			<Strategy>TXT_KEY_BUILDING_TRANSFINITE_STRUCTURES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TRANSFINITE_STRUCTURES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TRANSFINITE_STRUCTURES</PrereqTech>
 			<iCost>3166</iCost>
@@ -1050,7 +1018,6 @@
 			<Strategy>TXT_KEY_BUILDING_LANDSCAPE_MULTIVERSE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LANDSCAPE_MULTIVERSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SELF_CREATION</PrereqTech>
 			<iCost>3683</iCost>
@@ -1079,7 +1046,6 @@
 			<Strategy>TXT_KEY_BUILDING_YOTTAVERSE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_YOTTAVERSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MACROVERSE_TRAVERSAL</PrereqTech>
 			<iCost>3423</iCost>
@@ -1113,7 +1079,6 @@
 			<Strategy>TXT_KEY_BUILDING_HYPERSPACE_CONSTRUCTION_CENTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HYPERSPACE_CONSTRUCTION_CENTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_3D_PROJECTIONS</PrereqTech>
 			<iCost>1945</iCost>
@@ -1143,7 +1108,6 @@
 			<Strategy>TXT_KEY_BUILDING_QUANTUM_GRAPH_MANIFESTATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_QUANTUM_GRAPH_MANIFESTATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NONSTANDARD_MATHEMATICS</PrereqTech>
 			<iCost>3423</iCost>
@@ -1171,7 +1135,6 @@
 			<Strategy>TXT_KEY_BUILDING_HYPERSPACE_MEDIA_CENTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HYPERSPACE_MEDIA_CENTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DUALFLUX_QUANTUM_TEMPORAL_RIFT</PrereqTech>
 			<iCost>1261</iCost>
@@ -1192,7 +1155,6 @@
 			<Strategy>TXT_KEY_BUILDING_HYPERSPACE_RESEARCH_PROBE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HYPERSPACE_RESEARCH_PROBE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DUALFLUX_QUANTUM_TEMPORAL_RIFT</PrereqTech>
 			<iCost>1261</iCost>
@@ -1215,7 +1177,6 @@
 			<Strategy>TXT_KEY_BUILDING_GENESIS_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_GENESIS_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TRANSVERSE_EUCLIDEAN_GEOMETRY</PrereqTech>
 			<iCost>1485</iCost>
@@ -1243,7 +1204,6 @@
 			<Strategy>TXT_KEY_BUILDING_SIMULATED_CIVILIZATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SIMULATED_CIVILIZATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_COSMIC_GOVERNANCE</PrereqTech>
 			<iCost>1945</iCost>
@@ -1271,7 +1231,6 @@
 			<Strategy>TXT_KEY_BUILDING_HYPERSPACE_GOVERNING_COUNCIL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HYPERSPACE_GOVERNING_COUNCIL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_COSMIC_GOVERNANCE</PrereqTech>
 			<iCost>1945</iCost>
@@ -1302,7 +1261,6 @@
 			<Strategy>TXT_KEY_BUILDING_ALTERNATE_HISTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ALTERNATE_HISTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ALTERNATE_HISTORY</PrereqTech>
 			<iCost>2914</iCost>
@@ -1332,7 +1290,6 @@
 			<Strategy>TXT_KEY_BUILDING_ANCESTOR_RESURRECTION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ANCESTOR_RESURRECTION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TIMELINE_RECTIFICATION</PrereqTech>
 			<iCost>2914</iCost>
@@ -1363,7 +1320,6 @@
 			<Strategy>TXT_KEY_BUILDING_GAME_OF_LIFE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_GAME_OF_LIFE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NONSTANDARD_MATHEMATICS</PrereqTech>
 			<iCost>3423</iCost>
@@ -1391,7 +1347,6 @@
 			<Strategy>TXT_KEY_BUILDING_NEW_BIG_BANG_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_NEW_BIG_BANG</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TRUTH_MANIPULATION</PrereqTech>
 			<iCost>3423</iCost>
@@ -1426,7 +1381,6 @@
 			<Strategy>TXT_KEY_BUILDING_TRANSFINITE_SUPERCOMPUTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TRANSFINITE_SUPERCOMPUTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TRANSFINITE_COMPUTATION</PrereqTech>
 			<iCost>3423</iCost>
@@ -1460,7 +1414,6 @@
 			<Strategy>TXT_KEY_BUILDING_CONSCIOUS_UNIVERSE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CONSCIOUS_UNIVERSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_UNIVERSAL_SINGULARITY</PrereqTech>
 			<iCost>2914</iCost>
@@ -1488,7 +1441,6 @@
 			<Strategy>TXT_KEY_BUILDING_HYPERCOMPUTRONIUM_STRUCTURES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HYPERCOMPUTRONIUM_STRUCTURES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TRANSFINITE_COMPUTATION</PrereqTech>
 			<iCost>3423</iCost>
@@ -1519,7 +1471,6 @@
 			<Strategy>TXT_KEY_BUILDING_METAVERSE_EDUCATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_METAVERSE_EDUCATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_METAVERSE</PrereqTech>
 			<iCost>2000</iCost>
@@ -1558,7 +1509,6 @@
 			<Strategy>TXT_KEY_BUILDING_METAVERSE_ENTERTAINMENT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_METAVERSE_ENTERTAINMENT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_METAVERSE</PrereqTech>
 			<iCost>2000</iCost>
@@ -1590,7 +1540,6 @@
 			<Strategy>TXT_KEY_BUILDING_METAVERSE_VR_CENTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_METAVERSE_VR_CENTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_METAVERSE</PrereqTech>
 			<iCost>2000</iCost>
@@ -1627,7 +1576,6 @@
 			<Strategy>TXT_KEY_BUILDING_ENERGY_CANNON_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ENERGY_CANNON</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_COSMIC_WARFARE</PrereqTech>
 			<iCost>2422</iCost>
@@ -1652,7 +1600,6 @@
 			<Strategy>TXT_KEY_BUILDING_TIME_TRAP_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TIME_TRAP</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_COSMIC_WARFARE</PrereqTech>
 			<iCost>2422</iCost>
@@ -1678,7 +1625,6 @@
 			<Strategy>TXT_KEY_BUILDING_SEP_FIELD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SEP_FIELD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TRUTH_MANIPULATION</PrereqTech>
 			<iCost>3423</iCost>
@@ -1696,7 +1642,6 @@
 			<Strategy>TXT_KEY_BUILDING_HYPERURANION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HYPERURANION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ARCHETYPAL_VECTOR_SPACES</PrereqTech>
 			<iCost>13692</iCost>
@@ -1731,7 +1676,6 @@
 			<Strategy>TXT_KEY_BUILDING_FAIRYLAND_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FAIRYLAND</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NON_TEMPORAL_ENTITIES</PrereqTech>
 			<iCost>11658</iCost>
@@ -1766,7 +1710,6 @@
 			<Strategy>TXT_KEY_BUILDING_COSMIC_AC_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_COSMIC_AC</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NON_TEMPORAL_ENTITIES</PrereqTech>
 			<iCost>11658</iCost>
@@ -1826,7 +1769,6 @@
 			<Strategy>TXT_KEY_BUILDING_UNIVERSE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_UNIVERSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SELF_CREATION</PrereqTech>
 			<iCost>14732</iCost>

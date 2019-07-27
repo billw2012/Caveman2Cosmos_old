@@ -83,7 +83,6 @@
 			<BonusType>BONUS_DONKEY</BonusType>
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
 			<iCost>60</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iWithdrawalProb>40</iWithdrawalProb>
 			<iEarlyWithdraw>25</iEarlyWithdraw>
@@ -200,7 +199,6 @@
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Class>UNITCLASS_TAMED_WOLF_PAIR</Class>
 			<Type>UNIT_TAMED_WOLF_PAIR</Type>

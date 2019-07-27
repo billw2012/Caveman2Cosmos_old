@@ -17,7 +17,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BEAD_FACTORY</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_JEWELLERY</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -157,7 +156,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BEADMAKER</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_JEWELLERY</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -278,7 +276,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BEADMAKER_WORKSHOP</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_JEWELLERY</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>

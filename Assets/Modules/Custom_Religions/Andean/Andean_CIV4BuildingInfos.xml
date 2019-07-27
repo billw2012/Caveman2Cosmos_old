@@ -18,7 +18,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ANDEAN_CATHEDRAL</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_ANDEAN</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqReligion>RELIGION_ANDEAN</PrereqReligion>
@@ -121,7 +120,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ANDEAN_MONASTERY</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_ANDEAN</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<Bonus>BONUS_BRICKS</Bonus>
@@ -188,7 +186,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ANDEAN_TEMPLE</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_ANDEAN</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqReligion>RELIGION_ANDEAN</PrereqReligion>
@@ -259,7 +256,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ANDEAN_SHRINE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ANDEAN_SHRINE</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_ANDEAN</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<ReligionType>RELIGION_ANDEAN</ReligionType>
@@ -372,7 +368,6 @@
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iCitiesPrereq>0</iCitiesPrereq>
 			<iTeamsPrereq>0</iTeamsPrereq>
@@ -598,7 +593,6 @@
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iCitiesPrereq>0</iCitiesPrereq>
 			<iTeamsPrereq>0</iTeamsPrereq>

@@ -5724,7 +5724,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_NOBLEGARDEN</ArtDefineTag>
 			<PrereqTech>TECH_MYTHOLOCIAL_BEASTIARY</PrereqTech>
 			<iCost>12310</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iHealth>3</iHealth>
@@ -8532,7 +8531,6 @@
 				</Flavor>
 			</Flavors>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
-			<iMinAreaSize>-1</iMinAreaSize>
 		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Heavy Water Production Plant -->
@@ -8544,7 +8542,6 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HEAVY_WATER_PRODUCTION_PLANT</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_OIL_REFINERY</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8603,7 +8600,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_GARDEN_CITY</ArtDefineTag>
 			<PrereqTech>TECH_NEW_URBANISM</PrereqTech>
 			<iCost>3080</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -8638,7 +8634,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FUSION_PLANT</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_PLANTNUCLEAR</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>

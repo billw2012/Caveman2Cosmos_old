@@ -35,7 +35,6 @@
 				</ExtraFreeBonus>
 			</ExtraFreeBonuses>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>3</iAsset>
 			<iConquestProb>75</iConquestProb>
 			<YieldChanges>
@@ -195,7 +194,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_MAMMOTH_TRAINER_EFFECT</ArtDefineTag>
 			<ObsoleteTech>TECH_ARMORED_VEHICLES</ObsoleteTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>2</iAsset>
 			<MapCategoryTypes>

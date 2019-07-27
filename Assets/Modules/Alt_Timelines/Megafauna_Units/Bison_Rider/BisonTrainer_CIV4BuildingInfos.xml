@@ -141,7 +141,6 @@
 			<FreeStartEra>NONE</FreeStartEra>
 			<iAIWeight>0</iAIWeight>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>2</iAsset>
 			<iPower>0</iPower>
@@ -174,7 +173,6 @@
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<iAIWeight>0</iAIWeight>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>25</iConquestProb>
 			<iAsset>2</iAsset>
 			<iPower>0</iPower>

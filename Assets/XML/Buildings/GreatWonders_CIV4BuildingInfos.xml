@@ -17,7 +17,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ABU</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ABU</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -86,7 +85,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ADAM_SMITH</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ADAM_SMITH</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_COLOSSUS</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -155,7 +153,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_AESOP</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_AESOP</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -193,7 +190,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ALHAMBRA</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ALHAMBRA</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_ISLAMIC</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -284,7 +280,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ANGKOR_WAT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ANGKOR_WAT</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -363,7 +358,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ANTIKYTHERA_MECHANISM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -409,7 +403,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_AON_CENTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -479,7 +472,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_APADANA_PALACE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_APADANA_PALACE</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -545,7 +537,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ARC</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ARC_DE_TRIOMPHE</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -610,7 +601,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ARCHIMEDES</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ARCHIMEDES</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_STONEHENGE</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -694,7 +684,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ARK</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ARK</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_OBELISK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -773,7 +762,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ASCENSION_GATE</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_ACCELERATOR</ConstructSound>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>10000</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -839,7 +827,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_AZADI</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_AZADI</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -925,7 +912,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_KHMER_BARAY</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_AQUEDUCT</ConstructSound>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -993,7 +979,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_BELL_ROCK</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_BELL_ROCK</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1045,7 +1030,6 @@
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BIG_BEN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1112,7 +1096,6 @@
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BNS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1176,7 +1159,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_BLACKWATER_DRAW</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_BLACKWATER_DRAW</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1216,7 +1198,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_BLOMBOS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_BLOMBOS</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1261,7 +1242,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_BLUEFISH_CAVES</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_BLUEFISH_CAVES</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1306,7 +1286,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_BOLSHOI</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_BOLSHOI</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_BOLSHOI</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1374,7 +1353,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_BONNEVILE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_BONNEVILE</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1430,7 +1408,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_BRANDENBURG_GATE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_BRANDENBURG_GATE</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_BARRACKS</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1502,7 +1479,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BROADWAY</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_BROADWAY</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1560,7 +1536,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_DUBAI</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_BURJ</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_STONEHENGE</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1644,7 +1619,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BURJ_KHALIFA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1721,7 +1695,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CACTUS_HILL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_CACTUS_HILL</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1760,7 +1733,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CAPITAL_RECORDS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_CAPITAL_RECORDS</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1817,7 +1789,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CAPUCHIN</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_CAPUCHIN</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1880,7 +1851,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CARHENGE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_CARHENGE</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_RECYCLING_CENTER</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1926,7 +1896,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ALTAMIRA</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ALTAMIRA</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1972,7 +1941,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CHANGDEO</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_CHANGDEO</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2036,7 +2004,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CHARLIE_LAKE_CAVE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_CHARLIE_LAKE_CAVE</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2081,7 +2048,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CHEOMSEONGDAE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_CHEOMSEONGDAE</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_CHEOMSEONGDAE</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2161,7 +2127,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CHICHEN_ITZA</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_CHICHEN_ITZA</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2235,7 +2200,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CCC</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_CCC</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2315,7 +2279,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CIRCUS_MAXIMUS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_CIRCUS_MAXIMUS</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_CIRCUS_MAXIMUS</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2412,7 +2375,6 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CN_TOWER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2476,7 +2438,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_COPERNICUS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_COPERNICUS</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_OBSERVATORY</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2571,7 +2532,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CORAL_CASTLE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_CORAL_CASTLE</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2641,7 +2601,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRISTO_REDENTOR</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_CHRIST_THE_REDEEMER</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2699,7 +2658,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_DOSAN_SEOWON</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_DOSAN_SEOWON</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_CONFUCIAN</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2779,7 +2737,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_INDIA</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_INDIAN</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_COLOSSUS</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2843,7 +2800,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_EDINBURGH_CASTLE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_EDINBURGH</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_CASTLE</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2929,7 +2885,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_EDISON</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_EDISON</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_UNIVERSITY</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -3001,7 +2956,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_EINSTEIN_LAB</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_EINSTEIN</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_UNIVERSITY</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -3087,7 +3041,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ASSYRIA_EKAL</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BARRACKS</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -3149,7 +3102,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_EMU_EGG</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_EMU_EGG</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -3268,7 +3220,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_STONEWARE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_STONEWARE</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -3320,7 +3271,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_FLAVIAN_AMPHITHEATRE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_FLAVIAN_AMPHITHEATRE</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_COLOSSEUM</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -3413,7 +3363,6 @@
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_FORT_KNOX</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -3480,7 +3429,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_BAY_GARDENS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_BAY_GARDENS</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -3546,7 +3494,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GENOMIC_E</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_GENOMIC_E</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -3635,7 +3582,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ENGLISH_STOCK_EXCHANGE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_GLOBAL_STOCK_EXCHANGE</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -3684,7 +3630,6 @@
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GLOBE_THEATRE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -3771,7 +3716,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_GOBEKLI</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_GOBEKLI</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -3824,7 +3768,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GOLDEN_GATE_BRIDGE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3888,7 +3831,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EARTH_FESTIVAL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_EARTH_FESTIVAL</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -4109,7 +4051,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_FIRE_FESTIVAL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_FIRE_FESTIVAL</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -4335,7 +4276,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MARINE_FESTIVAL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_MARINE_FESTIVAL</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -4591,7 +4531,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SKY_FESTIVAL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SKY_FESTIVAL</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -4813,7 +4752,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_GRAUMAN</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_GRAUMAN</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -4868,7 +4806,6 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GREAT_FIREWALL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -5007,7 +4944,6 @@
 			<iAsset>10</iAsset>
 			<iConquestProb>100</iConquestProb>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_MAUI</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_MAUI</MovieDefineTag>
@@ -5078,7 +5014,6 @@
 			</Flavors>
 			<bNukeImmune>1</bNukeImmune>
 			<iConquestProb>100</iConquestProb>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_ADRIANO</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_HADRIAN_WALL</MovieDefineTag>
@@ -5095,7 +5030,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_OTTOMAN_HAMMAM</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_AQUEDUCT</ConstructSound>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -5193,7 +5127,6 @@
 			<iAsset>10</iAsset>
 			<iConquestProb>100</iConquestProb>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SURFBOARD</ArtDefineTag>
@@ -5209,7 +5142,6 @@
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HERMITAGE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -5257,7 +5189,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HIERAPOLIS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_HIERAPOLIS</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -5311,7 +5242,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HIMEJI_CASTLE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_HIMEJI_CASTLE</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -5383,7 +5313,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HIPOCRATIC_OATH</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_HIPOCRATIC_OATH</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_PYRAMID</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -5467,7 +5396,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SIAM_HO_TRAI</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_LIBRARY</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -5549,7 +5477,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOLLYWOOD</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_HOLLYWOOD</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -5613,7 +5540,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BOOK</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_RIGHTS</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -5672,7 +5598,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HUMPHREY_METRODOME</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -5716,7 +5641,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ZULU_IKHANDA</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BARRACKS</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -5812,7 +5736,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_INDEPENDENCE_HALL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_INDEPENDENCE_HALL</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -5854,7 +5777,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DOG_SHOW</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_DOG_SHOW</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -5917,7 +5839,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_NEWTON</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_NEWTON</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_UNIVERSITY</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -6004,7 +5925,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_JADE_MASK</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_JADE_MASK</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -6074,7 +5994,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_BACH</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_BACH</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_CHRISTIAN</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -6159,7 +6078,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_KERALA</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_KERALA</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -6219,7 +6137,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_KILGII_GWAAY</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_KILGII_GWAAY</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -6259,7 +6176,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRUSADE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_CRUSADE</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -6333,7 +6249,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_KINGDOM_CENTRE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -6410,7 +6325,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_KLASIES</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_KLASIES</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -6451,7 +6365,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_KOTOKU</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_KOTOKU</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_BUDDHIST</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -6522,7 +6435,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_LA_BREA</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_LA_BREA</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -6661,7 +6573,6 @@
 			<bCenterInCity>1</bCenterInCity>
 			<bNeverCapture>1</bNeverCapture>
 			<iConquestProb>100</iConquestProb>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_LABYRINTH</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_LABYRINTH</MovieDefineTag>
@@ -6680,7 +6591,6 @@
 			<MovieDefineTag>ART_DEF_MOVIE_LASCAUX</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_STONEHENGE</ConstructSound>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -6766,7 +6676,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_LAXMIN</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_LAXMIN</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -6842,7 +6751,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PISA</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_PISA</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -6902,7 +6810,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_LEONARDO</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_LEONARDO_WORKSHOP</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_UNIVERSITY</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -6975,7 +6882,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_NINEVEH</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_NINEVEH</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>10</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -7050,7 +6956,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_LOUVRE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_LOUVRE</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_COLOSSUS</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -7136,7 +7041,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_LUXOR</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_LUXOR</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -7293,7 +7197,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MARCO_POLO</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_MARCO_POLO</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -7363,7 +7266,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MASADA</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_JEWISH</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -7448,7 +7350,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MAUSOLEUM_OF_MAUSSOLLOS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_MAUSOLEUM_OF_MAUSSOLLOS</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -7524,7 +7425,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_MCCALLUM</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_MCCALLUM</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -7565,7 +7465,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_MEADOWCRAFT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_MEADOWCRAFT</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -7604,7 +7503,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_MESA_VERDE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_MESA_VERDE</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -7671,7 +7569,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DEEPSEA_MISSION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -7723,7 +7620,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EARTHCORE_MISSION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -7835,7 +7731,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_MONTE_VERDE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_MONTE_VERDE</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -7873,7 +7768,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MT_RUSHMORE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_MT_RUSHMORE</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -7935,7 +7829,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_MUIDERSLOT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_MUIDERSLOT</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -7992,7 +7885,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_NANITE_DEFUSER</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_ACCELERATOR</ConstructSound>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>10000</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8046,7 +7938,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_SHIELD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1000</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8092,7 +7983,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_NEUSCHWANSTEIN</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_NEUSCHWANSTEIN</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_NEUSCHWANSTEIN</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8179,7 +8069,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_NOK</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_NOK</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8239,7 +8128,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_NONSUCH</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_NONSUCH</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8313,7 +8201,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_NOTRE_DAME</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_NOTRE_DAME</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8386,7 +8273,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_OLYMPIC</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_OLYMPIC</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -8433,7 +8319,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BEAULIEU</ArtDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8506,7 +8391,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_POTALA</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_BUDDHIST</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_BUDDHIST</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8591,7 +8475,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_PEDRA_FURADA</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_PEDRA_FURADA</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8636,7 +8519,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_PENICILLIN</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_PENICILLIN</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_COLOSSUS</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8697,7 +8579,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_PETRA</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_PETRA</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_PYRAMID</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8788,7 +8669,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_SAN_MARCO</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SAN_MARCO</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_MARKETPLACE</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8840,7 +8720,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PLATOS_ACADEMY</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_PLATO</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8931,7 +8810,6 @@
 			<MovieDefineTag>ART_DEF_MOVIE_PONT_DU_GARD</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_AQUEDUCT</ConstructSound>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>10240000</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8991,7 +8869,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_PORCELAIN_TOWER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_PORCELAIN_TOWER</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_PORCELAIN_TOWER</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -9063,7 +8940,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PROTEOMIC_E</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_PROTEOMIC_E</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -9136,7 +9012,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_STEP_PYRAMID</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_MAGICIAN</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_ISLAMIC</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -9227,7 +9102,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_RED_AND_BLACK</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_RED_AND_BLACK</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -9295,7 +9169,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_RICHARDSON</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_RICHARDSON</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -9332,7 +9205,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ROCKNROLL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ROCK_AND_ROLL</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -9395,7 +9267,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_FRENCH_SALON</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_OBSERVATORY</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -9467,7 +9338,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_SETI_PROGRAM</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SETI</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_GREATLIBRARY</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -9549,7 +9419,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SHWEDAGON_PAYA</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SHWEDAGON_PAYA</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -9617,7 +9486,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SILICON_VALLEY</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_LABORATORY</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -9671,7 +9539,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SILKROAD</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SILKROAD</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -9771,7 +9638,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_SING_FLYER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SING_FLYER</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -9825,7 +9691,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_FAME</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_FAME</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -9909,7 +9774,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SMITHSONIAN</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_MUSEUM</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -9987,7 +9851,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ICE_HOTEL</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_HOTEL</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>2</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -10047,7 +9910,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SOLAR_TOWER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -10109,7 +9971,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_SRC</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SRC</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -10451,7 +10312,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_STONEHENGE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_STONEHENGE</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_STONEHENGE</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -10511,7 +10371,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_STRATOSPHERE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_STRATOSPHERE</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -10586,7 +10445,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SU_SONG</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SU_SONG</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_WATERWHEELS</PrereqTech>
@@ -10648,7 +10506,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ART_OF_WAR</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ART_OF_WAR</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_BARRACKS</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -10689,7 +10546,6 @@
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SYDNEY_OPERA_HOUSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -10768,7 +10624,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TECHNOLOGICAL_CAPITAL</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_TECH_CAPITOL</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -10832,7 +10687,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GREAT_JAGUAR_TEMPLE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_GREAT_JAGUAR_TEMPLE</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -10896,7 +10750,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_TERRACOTTA</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TERRACOTTA</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_TERRA_COTTA</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -10969,7 +10822,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_APOSTOLIC_PALACE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_APOSTOLIC_PALACE</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -11027,7 +10879,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HINDU_BRIHADEESWARAR</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_HINDU</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -11117,7 +10968,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CERN</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_CERN</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -11260,7 +11110,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EIFFEL_TOWER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_EIFFEL_TOWER</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -11334,7 +11183,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_GATE_OF_THE_SUN</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_GATE_OF_THE_SUN</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -11387,7 +11235,6 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GATEWAY_ARCH</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -11441,7 +11288,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_GETTY</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_GETTY</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -11498,7 +11344,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GREAT_BATH</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_GREAT_BATH</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -11561,7 +11406,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_GREAT_LIBRARY</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_GREAT_LIBRARY</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_GREATLIBRARY</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -11733,7 +11577,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_DJENNE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_DJENNE</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_ISLAMIC</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -11852,7 +11695,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GREAT_WALL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_GREAT_WALL</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -11927,7 +11769,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HAGIA_SOPHIA</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_HAGIA_SOPHIA</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -11992,7 +11833,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HANGING_GARDEN</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_HANGING_GARDENS</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -12069,7 +11909,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ISHTAR</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ISHTAR</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -12174,7 +12013,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_KREMLIN</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_KREMLIN</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -12240,7 +12078,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ORACLE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ORACLE</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_ORACLE</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -12312,7 +12149,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_PARTHENON</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_PARTHENON</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_PARTHENON</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -12412,7 +12248,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PENTAGON</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_PENTAGON</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -12470,7 +12305,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_PYRAMID</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_PYRAMIDS</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_PYRAMID</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -12533,7 +12367,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SISTINE_CHAPEL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SISTINE_CHAPEL</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -12604,7 +12437,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SPACE_ELEVATOR</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SPACE_ELEVATOR</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -12687,7 +12519,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_SPHINX</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SPHINX</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_PYRAMID</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -12755,7 +12586,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SPIRAL_MINARET</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SPIRAL_MINARET</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -12821,7 +12651,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_STATUE_OF_LIBERTY</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_STATUE_OF_LIBERTY</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -12898,7 +12727,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TAJ_MAHAL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TAJ_MAHAL</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -12956,7 +12784,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ARTEMIS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ARTEMIS</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -13027,7 +12854,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TEMPLE_OF_HEAVEN</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_TAOIST</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -13119,7 +12945,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GREAT_DAM</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_THREE_GORGES_DAM</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -13186,7 +13011,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_UNITED_NATIONS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_UNITED_NATIONS</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -13242,7 +13066,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_WWF</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_WWF</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -13319,7 +13142,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_THEATRE_OF_DIONYSUS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_THEATRE_OF_DIONYSUS</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -13405,7 +13227,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_AZTEC_SACRIFICIAL_ALTAR</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_CEREMONIAL_ALTAR</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -13488,7 +13309,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TOPKAPI_PALACE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TOPKAPI_PALACE</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -13542,7 +13362,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TRANSAMERICA_PYRAMID</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -13610,7 +13429,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TRUMP_TOWER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -13681,7 +13499,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_TUMEN</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TUMEN</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -13746,7 +13563,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SANKORE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_UNIVERSITY_SANKORE</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -13892,7 +13708,6 @@
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_WILLENDORF</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -13952,7 +13767,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_VERSAILLES</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_VERSAILLES</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -14023,7 +13837,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_WALL_STREET</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -14094,7 +13907,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_WANG_ZHEN</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_WANG_ZHEN</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_WATERWHEELS</PrereqTech>
@@ -14166,7 +13978,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_WEST_POINT</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_WESTP</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_WESTPOINT</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -14231,7 +14042,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_WIKIPEDIA</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_WIKIPEDIA</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -14283,7 +14093,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_WILLIS_TOWER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -14352,7 +14161,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CHAMPAGNE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>10</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -14422,7 +14230,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_VINTAGE_RED_WINE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>10</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -14491,7 +14298,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_VINTAGE_WHITE_WINE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>10</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -14562,7 +14368,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SUFFRAGE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_WOMAN</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -14609,7 +14414,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_WNN</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_UNIVERSITY</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -14690,7 +14494,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_WORLD_TRADE_CENTER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_WORLD_TRADE_CENTER</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_WTC</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -14745,7 +14548,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_X_GAMES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -14796,7 +14598,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ZHENG_HE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ZHENG_HE</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -14849,7 +14650,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_UNIVERSITIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HARVARD_UNIVERSITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -14977,7 +14777,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_UNIVERSITIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_UNIVERSITY_OF_BOLOGNA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -15105,7 +14904,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_UNIVERSITIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_UNIVERSITY_OF_SALAMANCA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -15233,7 +15031,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_UNIVERSITIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_UNIVERSITY_OF_COIMBRA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -15364,7 +15161,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_UNIVERSITIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_UNIVERSITY_OF_BARCELONA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -15495,7 +15291,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_UNIVERSITIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MONTPELLIER_UNIVERSITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -15626,7 +15421,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_UNIVERSITIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SORBONNE_UNIVERSITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -15755,7 +15549,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_UNIVERSITIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_UNIVERSITY_OF_BASEL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -15884,7 +15677,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_UNIVERSITIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_JAGIELLONIAN_UNIVERSITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16013,7 +15805,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_UNIVERSITIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_UNIVERSITY_OF_MURCIA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16140,7 +15931,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_UNIVERSITIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_OXFORD_UNIVERSITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16267,7 +16057,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_UNIVERSITIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_UNIVERSITY_OF_EDINBURGH</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16394,7 +16183,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_UNIVERSITIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_UNIVERSITY_OF_PADUA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16487,7 +16275,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_UNIVERSITIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_UNIVERSITY_OF_CAMBRIDGE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16580,7 +16367,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_UNIVERSITIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HEIDELBERG_UNIVERSITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16673,7 +16459,6 @@
 			<MovieDefineTag>ART_DEF_MOVIE_CHILEHAUS</MovieDefineTag>
 			<PrereqTech>TECH_EXPRESSIONISM</PrereqTech>
 			<iCost>5220</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
@@ -16716,7 +16501,6 @@
 			<MovieDefineTag>ART_DEF_MOVIE_DALI_THEATRE</MovieDefineTag>
 			<PrereqTech>TECH_SURREALISM</PrereqTech>
 			<iCost>7080</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -16759,7 +16543,6 @@
 			<PrereqTech>TECH_GEOCENTRISM</PrereqTech>
 			<ObsoleteTech>TECH_HELIOCENTRISM</ObsoleteTech>
 			<iCost>1680</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -16805,7 +16588,6 @@
 			<PrereqTech>TECH_HELIOCENTRISM</PrereqTech>
 			<ObsoleteTech>TECH_RADAR</ObsoleteTech>
 			<iCost>2730</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>-2</iHappiness>
 			<CommerceChanges>
@@ -16856,7 +16638,6 @@
 			<PrereqTech>TECH_HYDRAULIC_MINING</PrereqTech>
 			<ObsoleteTech>TECH_NITROGLYCERIN</ObsoleteTech>
 			<iCost>1152</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -16892,7 +16673,6 @@
 			<MovieDefineTag>ART_DEF_MOVIE_THE_ATOMIUM</MovieDefineTag>
 			<PrereqTech>TECH_FISSION</PrereqTech>
 			<iCost>6480</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -16947,7 +16727,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_MILITARY_ACADEMIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EVELPIDON_MILITARY_ACADEMY</ArtDefineTag>			
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17012,7 +16791,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_MILITARY_ACADEMIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_REPUBLIC_OF_CHINA_NAVAL_ACADEMY</ArtDefineTag>			
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17077,7 +16855,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_MILITARY_ACADEMIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_IMPERIAL_JAPANESE_NAVAL_ACADEMY</ArtDefineTag>			
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17142,7 +16919,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_MILITARY_ACADEMIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ROYAL_AIR_FORCE_ACADEMY</ArtDefineTag>			
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17207,7 +16983,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_MILITARY_ACADEMIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ACCADEMIA_AERONAUTICA</ArtDefineTag>			
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17329,7 +17104,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_FIST</ArtDefineTag>			
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17384,7 +17158,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_FEATHER</ArtDefineTag>			
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17439,7 +17212,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_SHADOWS</ArtDefineTag>			
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -17501,7 +17273,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_CENTAUR</ArtDefineTag>			
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17562,7 +17333,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_WARRIOR</ArtDefineTag>			
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17617,7 +17387,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_WAVES</ArtDefineTag>			
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17673,7 +17442,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_WIND</ArtDefineTag>			
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17728,7 +17496,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_WILD</ArtDefineTag>			
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17780,7 +17547,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_LEECH</ArtDefineTag>			
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17832,7 +17598,6 @@
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_WOLF</ArtDefineTag>			
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17887,7 +17652,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HARAPPAN_FAKE_GEMS</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_GLASSMITH</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_ORNAMENTATION</PrereqTech>
@@ -17960,7 +17724,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MING_VASE_WORKSHOP</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_GLASSMITH</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_FREE_ARTISTRY</PrereqTech>
@@ -18035,7 +17798,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TERRA_SIGILLIATA_WORKSHOP</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_GLASSMITH</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
@@ -18113,7 +17875,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MURANO_GLASSMAKERS</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_GLASSMITH</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>

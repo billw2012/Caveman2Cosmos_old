@@ -163,7 +163,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ZEBRA_ARCHER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
 				<FreePromotion>
@@ -364,7 +363,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ZEBRA_CAVALRY</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
 				<FreePromotion>
@@ -485,7 +483,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ZEBRA_CHARIOT</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
 		</UnitInfo>
 		<UnitInfo>
@@ -672,7 +669,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ZEBRA_CUIRASSIER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
 				<FreePromotion>
@@ -810,7 +806,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ZEBRA_KNIGHT</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
 				<FreePromotion>

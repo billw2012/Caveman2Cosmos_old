@@ -56904,7 +56904,6 @@
 			</UnitCombatMods>
 			<iAsset>1</iAsset>
 			<iPower>1</iPower>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<UnitMeshGroups>
 				<iGroupSize>3</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -57100,7 +57099,6 @@
 			</UnitAIs>
 			<PrereqTech>TECH_NOMADIC_LIFESTYLE</PrereqTech>
 			<iCost>20</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>2</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -57303,7 +57301,6 @@
 			<iMoves>1</iMoves>
 			<iWorkRate>125</iWorkRate>
 			<iAsset>1</iAsset>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -57593,7 +57590,6 @@
 			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<PrereqTech>TECH_SEDENTARY_LIFESTYLE</PrereqTech>
 			<iCost>180</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iWorkRate>175</iWorkRate>
 			<BonusProductionModifiers>
@@ -57714,7 +57710,6 @@
 			<iExtraCost>1</iExtraCost>
 			<iAsset>2</iAsset>
 			<iPower>1</iPower>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<UnitMeshGroups>
 				<iGroupSize>1</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -57960,7 +57955,6 @@
 			<iDynamicDefense>5</iDynamicDefense>
 			<iAsset>3</iAsset>
 			<iPower>3</iPower>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -58693,7 +58687,6 @@
 				</ProductionTrait>
 			</ProductionTraits>
 			<iCost>160</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<iWorkRate>150</iWorkRate>
@@ -58865,7 +58858,6 @@
 				</ProductionTrait>
 			</ProductionTraits>
 			<iCost>32</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<iWorkRate>100</iWorkRate>
@@ -58974,7 +58966,6 @@
 			</TechTypes>
 			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>130</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>3</iCombat>
 			<iCombatLimit>75</iCombatLimit>
@@ -59093,7 +59084,6 @@
 				<BonusType>BONUS_ELEPHANT</BonusType>
 			</PrereqBonuses>
 			<iCost>190</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>9</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -59224,7 +59214,6 @@
 				<BonusType>BONUS_MAMMOTH</BonusType>
 			</PrereqBonuses>
 			<iCost>210</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>9</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -59346,7 +59335,6 @@
 				<BonusType>BONUS_OBSIDIAN</BonusType>
 			</PrereqBonuses>
 			<iCost>104</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>6</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -59449,7 +59437,6 @@
 			<PrereqTech>TECH_SPEAR_MAKING</PrereqTech>
 			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>88</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>5</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -59559,7 +59546,6 @@
 			<PrereqTech>TECH_SIMPLE_WOOD_WORKING</PrereqTech>
 			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>70</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>4</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -59664,7 +59650,6 @@
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<iCost>120</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>7</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -59767,7 +59752,6 @@
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<iCost>110</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>6</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -59873,7 +59857,6 @@
 			</UnitClassUpgrades>
 			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>92</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>5</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -59982,7 +59965,6 @@
 				<BonusType>BONUS_OBSIDIAN</BonusType>
 			</PrereqBonuses>
 			<iCost>110</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>6</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -60092,7 +60074,6 @@
 			</UnitClassUpgrades>
 			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>84</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>5</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -60197,7 +60178,6 @@
 			<PrereqTech>TECH_HUNTING_TACTICS</PrereqTech>
 			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>120</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -60317,7 +60297,6 @@
 			<iAnimalCombat>125</iAnimalCombat>
 			<iAsset>2</iAsset>
 			<iPower>2</iPower>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -60404,7 +60383,6 @@
 			<iAnimalCombat>200</iAnimalCombat>
 			<iAsset>1</iAsset>
 			<iPower>1</iPower>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<UnitMeshGroups>
 				<iGroupSize>1</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -60494,7 +60472,6 @@
 			<PrereqTech>TECH_TRACKING</PrereqTech>
 			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>40</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>3</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>

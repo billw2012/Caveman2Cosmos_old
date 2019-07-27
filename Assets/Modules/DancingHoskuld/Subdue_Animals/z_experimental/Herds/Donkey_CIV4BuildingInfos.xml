@@ -12,7 +12,6 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DONKEY_MYTH</ArtDefineTag>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -65,7 +64,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_DONKEY_MYTH</ArtDefineTag>
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -81,7 +79,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_DONKEY_STORY</ArtDefineTag>
 			<ObsoleteTech>TECH_EDUCATION</ObsoleteTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -129,7 +126,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_DONKEY_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_EDUCATION</ObsoleteTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -178,7 +174,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_DONKEY_STORIES</ArtDefineTag>
 			<ObsoleteTech>TECH_EDUCATION</ObsoleteTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>

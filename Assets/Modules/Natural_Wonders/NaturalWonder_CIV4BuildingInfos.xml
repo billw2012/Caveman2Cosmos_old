@@ -30,7 +30,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_SCIENTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHealth>1</iHealth>
 			<iHappiness>2</iHappiness>
@@ -139,7 +138,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_SCIENTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -230,7 +228,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -300,7 +297,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -400,7 +396,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -475,7 +470,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHealth>3</iHealth>
 			<iHappiness>3</iHappiness>
@@ -557,7 +551,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_SCIENTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -623,7 +616,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>20</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -686,7 +678,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -743,7 +734,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -817,7 +807,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -886,7 +875,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -977,7 +965,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -1042,7 +1029,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>35</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -1114,7 +1100,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>2</iTradeRoutes>
@@ -1186,7 +1171,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -1280,7 +1264,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -1327,7 +1310,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>4</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -1404,7 +1386,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -1493,7 +1474,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>2</iHappiness>
 			<iAsset>4</iAsset>
@@ -1573,7 +1553,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>20</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHealth>2</iHealth>
 			<iGlobalHealth>1</iGlobalHealth>
@@ -1655,7 +1634,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_OASIS_MYTH</ArtDefineTag>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>
@@ -1730,7 +1708,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FALL_MYTH</ArtDefineTag>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>
@@ -1819,7 +1796,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_OUTCROP_MYTH</ArtDefineTag>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>
@@ -1976,7 +1952,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VOLCANO_MYTH</ArtDefineTag>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>
@@ -2065,7 +2040,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CORAL_MYTH</ArtDefineTag>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>
@@ -2162,7 +2136,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_REEF_MYTH</ArtDefineTag>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>

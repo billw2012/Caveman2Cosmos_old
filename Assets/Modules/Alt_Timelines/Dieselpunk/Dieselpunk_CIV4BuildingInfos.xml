@@ -27,7 +27,6 @@
 			<iCost>6480</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -54,7 +53,6 @@
 			<iCost>1080</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAirlift>2</iAirlift>
 			<iAirUnitCapacity>6</iAirUnitCapacity>
 			<HealUnitCombatTypes>
@@ -114,7 +112,6 @@
 			<iCost>1230</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAirlift>4</iAirlift>
 			<iAirUnitCapacity>9</iAirUnitCapacity>
 			<HealUnitCombatTypes>
@@ -176,7 +173,6 @@
 			<iCost>1130</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
@@ -215,7 +211,6 @@
 			<iCost>1080</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<YieldChanges>
 				<iYield>0</iYield>
 				<iYield>4</iYield>
@@ -254,7 +249,6 @@
 			<iCost>1080</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
 				<iCommerce>-5</iCommerce>
@@ -289,7 +283,6 @@
 			<iCost>1080</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHealth>-1</iHealth>
 			<iHappiness>1</iHappiness>
 			<CommerceChanges>
@@ -342,7 +335,6 @@
 				</HappinessTrait>
 			</HappinessTraits>
 			<iCost>1080</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>4</iHappiness>
 			<iAsset>5</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>

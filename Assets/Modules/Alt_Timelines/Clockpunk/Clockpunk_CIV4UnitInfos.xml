@@ -186,7 +186,6 @@
 				</And>
 			</TrainCondition>
 			<iCost>410</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>26</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -264,7 +263,6 @@
 				<BonusType>BONUS_TIMBER</BonusType>
 			</PrereqBonuses>
 			<iCost>380</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iAirRange>2</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
@@ -364,7 +362,6 @@
 			</TechTypes>
 			<BonusType>BONUS_CLOCKPUNK</BonusType>
 			<iCost>385</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -468,7 +465,6 @@
 				</And>
 			</TrainCondition>
 			<iCost>580</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iAirUnitCap>1</iAirUnitCap>
 			<TerrainImpassableTypes>

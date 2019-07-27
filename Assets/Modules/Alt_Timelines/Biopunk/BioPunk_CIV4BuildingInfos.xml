@@ -26,7 +26,6 @@
 			<iCost>21990</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -49,7 +48,6 @@
 			<Bonus>BONUS_BIOPUNK</Bonus>
 			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>1</iHappiness>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -87,7 +85,6 @@
 			<Bonus>BONUS_BIOPUNK</Bonus>
 			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>1</iHappiness>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -136,7 +133,6 @@
 			<Bonus>BONUS_BIOPUNK</Bonus>
 			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>2</iHappiness>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -186,7 +182,6 @@
 			<Bonus>BONUS_BIOPUNK</Bonus>
 			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>3</iHappiness>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -228,7 +223,6 @@
 			<Bonus>BONUS_BIOPUNK</Bonus>
 			<iCost>7330</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iGlobalHappiness>5</iGlobalHappiness>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -279,7 +273,6 @@
 			<Bonus>BONUS_BIOPUNK</Bonus>
 			<iCost>5905</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHealth>10</iHealth>
 			<iMilitaryProductionModifier>-50</iMilitaryProductionModifier>
 			<iDefense>-300</iDefense>
@@ -321,7 +314,6 @@
 			<Bonus>BONUS_BIOPUNK</Bonus>
 			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHealth>-2</iHealth>
 			<iHappiness>-2</iHappiness>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -361,7 +353,6 @@
 			<Bonus>BONUS_BIOPUNK</Bonus>
 			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
 				<iCommerce>10</iCommerce>
@@ -398,7 +389,6 @@
 			<Bonus>BONUS_BIOPUNK</Bonus>
 			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
 				<iCommerce>5</iCommerce>
@@ -436,7 +426,6 @@
 			<Bonus>BONUS_BIOPUNK</Bonus>
 			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iDefense>10</iDefense>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -476,7 +465,6 @@
 			<Bonus>BONUS_BIOPUNK</Bonus>
 			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>3</iHappiness>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -528,7 +516,6 @@
 			<Bonus>BONUS_BIOPUNK</Bonus>
 			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>2</iHappiness>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -579,7 +566,6 @@
 			<iCost>3665</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<CommerceChanges>
 				<iCommerce>3</iCommerce>
 				<iCommerce>5</iCommerce>
