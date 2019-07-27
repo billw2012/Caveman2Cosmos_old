@@ -350,6 +350,13 @@ MigrationBackup/
 
 Profile/
 
+deps/
+
+depends
+
+Assert/
+
+
 VTune Amplifier Results/
 
 temp_files/
