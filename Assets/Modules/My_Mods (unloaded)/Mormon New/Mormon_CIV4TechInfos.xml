@@ -16,6 +16,7 @@
 			<!-- Main properties -->
 			<iCost>6673</iCost>
 			<bGlobal>1</bGlobal>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<OrPreReqs>
 				<PrereqTech>TECH_PESTICIDES</PrereqTech>				

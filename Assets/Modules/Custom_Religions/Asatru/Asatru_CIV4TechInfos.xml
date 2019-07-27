@@ -12,6 +12,7 @@
 			<!-- Main properties -->
 			<iCost>499</iCost>
 			<bGlobal>1</bGlobal>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_CLASSICAL</Era>
 			<OrPreReqs>
 				<PrereqTech>TECH_SHIP_BUILDING</PrereqTech>

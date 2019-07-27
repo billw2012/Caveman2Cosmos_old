@@ -13,6 +13,7 @@
 			</OrPreReqs>
 			<Era>ERA_RENAISSANCE</Era>
 			<bGlobal>1</bGlobal>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iGridX>52</iGridX>
 			<iGridY>11</iGridY>
 			<Advisor>ADVISOR_RELIGION</Advisor>
