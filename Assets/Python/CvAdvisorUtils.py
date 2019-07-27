@@ -67,7 +67,7 @@ def resetNoLiberateCities():
 
 			iUnit = -1
 			for i in xrange(gc.getNumUnitInfos()):
-				if gc.getUnitInfo(i).getBuildings(iI) or gc.getUnitInfo(i).getForceBuildings(iI):
+				if gc.getUnitInfo(i).getBuildings(iI):
 					iUnit = i
 					break
 			if iUnit == -1: continue

@@ -1366,10 +1366,7 @@
 				<DependencyType>UNITCLASS_GIRAFFE_ARCHER</DependencyType>
  			</AndDependencyTypes>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_GIRAFFE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_GIRAFFE</BuildingType>
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>

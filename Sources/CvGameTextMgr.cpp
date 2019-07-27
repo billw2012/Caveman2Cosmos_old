@@ -20949,7 +20949,7 @@ void CvGameTextMgr::setBasicUnitHelpWithCity(CvWStringBuffer &szBuffer, UnitType
 		bFirst = true;
 		for (iI = 0; iI < GC.getNumBuildingInfos(); ++iI)
 		{
-			if (kUnit.getBuildings(iI) || kUnit.getForceBuildings(iI))
+			if (kUnit.getBuildings(iI))
 			{
 				szTempBuffer.Format(L"%s%s", NEWLINE, gDLL->getText("TXT_KEY_UNIT_CAN_CONSTRUCT").c_str());
 				CvWString szBuildingLink = CvWString::format(L"<link=%s>%s</link>", CvWString(GC.getBuildingInfo((BuildingTypes) iI).getType()).GetCString(), GC.getBuildingInfo((BuildingTypes) iI).getDescription());
@@ -25638,7 +25638,7 @@ void CvGameTextMgr::setBuildingHelpActual(CvWStringBuffer &szBuffer, BuildingTyp
 
 		for (iI = 0; iI < GC.getNumUnitInfos(); ++iI)
 		{
-			if (GC.getUnitInfo((UnitTypes)iI).getBuildings(eBuilding) || GC.getUnitInfo((UnitTypes)iI).getForceBuildings(eBuilding))
+			if (GC.getUnitInfo((UnitTypes)iI).getBuildings(eBuilding))
 			{
 				iCount++;
 				if (!bCivilopediaText && (iCount > 5))

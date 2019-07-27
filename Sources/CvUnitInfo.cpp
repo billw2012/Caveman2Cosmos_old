@@ -220,8 +220,6 @@ m_piCorporationSpreads(NULL),
 m_piTerrainPassableTech(NULL),
 m_piFeaturePassableTech(NULL),
 m_pbGreatPeoples(NULL),
-m_pbBuildings(NULL),
-m_pbForceBuildings(NULL),
 //m_pbTerrainImpassable(NULL),
 //m_pbFeatureImpassable(NULL),
 m_piPrereqAndTechs(NULL),
@@ -424,8 +422,6 @@ CvUnitInfo::~CvUnitInfo()
 	SAFE_DELETE_ARRAY(m_piTerrainPassableTech);
 	SAFE_DELETE_ARRAY(m_piFeaturePassableTech);
 	SAFE_DELETE_ARRAY(m_pbGreatPeoples);
-	SAFE_DELETE_ARRAY(m_pbBuildings);
-	SAFE_DELETE_ARRAY(m_pbForceBuildings);
 	//SAFE_DELETE_ARRAY(m_pbTerrainImpassable);
 	//SAFE_DELETE_ARRAY(m_pbFeatureImpassable);
 	SAFE_DELETE_ARRAY(m_piPrereqAndTechs);
@@ -1630,22 +1626,21 @@ bool CvUnitInfo::getGreatPeoples(int i) const
 
 bool CvUnitInfo::getHasBuildings(void) const
 {
-	return (m_pbBuildings != NULL);
+	return !m_pbBuildings.empty();
 }
 
 bool CvUnitInfo::getBuildings(int i) const
 {
 	FAssertMsg(i < GC.getNumBuildingInfos(), "Index out of bounds");
 	FAssertMsg(i > -1, "Index out of bounds");
-	return m_pbBuildings ? m_pbBuildings[i] : false;
+	for (int idx = 0; idx < m_pbBuildings.size(); ++idx)
+	{
+		if (m_pbBuildings[idx] == i)
+			return true;
+	}
+	return false;
 }
 
-bool CvUnitInfo::getForceBuildings(int i) const
-{
-	FAssertMsg(i < GC.getNumBuildingInfos(), "Index out of bounds");
-	FAssertMsg(i > -1, "Index out of bounds");
-	return m_pbForceBuildings ? m_pbForceBuildings[i] : false;
-}
 //
 //bool CvUnitInfo::getTerrainImpassable(int i) const		
 //{
@@ -4136,8 +4131,7 @@ void CvUnitInfo::getCheckSum(unsigned int &iSum)
 	CheckSumI(iSum, GC.getNumTerrainInfos(), m_piTerrainPassableTech);
 	CheckSumI(iSum, GC.getNumFeatureInfos(), m_piFeaturePassableTech);
 	CheckSumI(iSum, GC.getNumSpecialistInfos(), m_pbGreatPeoples);
-	CheckSumI(iSum, GC.getNumBuildingInfos(), m_pbBuildings);
-	CheckSumI(iSum, GC.getNumBuildingInfos(), m_pbForceBuildings);
+	CheckSumC(iSum, m_pbBuildings);
 	CheckSumI(iSum, GC.getNumTerrainInfos(), m_pbTerrainNative);
 	CheckSumI(iSum, GC.getNumFeatureInfos(), m_pbFeatureNative);
 	//CheckSumI(iSum, GC.getNumTerrainInfos(), m_pbTerrainImpassable);
@@ -4608,9 +4602,6 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 
 	pXML->SetVariableListTagPair(&m_pbGreatPeoples, L"GreatPeoples", GC.getNumSpecialistInfos());
 
-	pXML->SetVariableListTagPair(&m_pbBuildings, L"Buildings", GC.getNumBuildingInfos());
-	pXML->SetVariableListTagPair(&m_pbForceBuildings, L"ForceBuildings", GC.getNumBuildingInfos());
-
 /********************************************************************************/
 /**		REVDCM									2/16/10				phungus420	*/
 /**																				*/
@@ -4661,27 +4652,27 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetOptionalChildXmlValByName(szTextVal, L"PrereqBuilding");
 	m_iPrereqBuilding = pXML->GetInfoClass(szTextVal);
 
-	if(pXML->TryMoveToXmlFirstChild(L"PrereqOrBuildings"))
-	{
-		if(pXML->TryMoveToXmlFirstChild())
-		{
+	//if(pXML->TryMoveToXmlFirstChild(L"PrereqOrBuildings"))
+	//{
+	//	if(pXML->TryMoveToXmlFirstChild())
+	//	{
 
-			if (pXML->TryMoveToXmlFirstOfSiblings(L"BuildingType"))
-			{
-				do
-				{
-					int iPrereqOrBuilding;
+	//		if (pXML->TryMoveToXmlFirstOfSiblings(L"BuildingType"))
+	//		{
+	//			do
+	//			{
+	//				int iPrereqOrBuilding;
 
-					pXML->GetXmlVal(szTextVal);
-					iPrereqOrBuilding = pXML->GetInfoClass(szTextVal);
+	//				pXML->GetXmlVal(szTextVal);
+	//				iPrereqOrBuilding = pXML->GetInfoClass(szTextVal);
 
-					m_aePrereqOrBuildings.push_back(iPrereqOrBuilding);
-				} while(pXML->TryMoveToXmlNextSibling());
-			}
-			pXML->MoveToXmlParent();
-		}
-		pXML->MoveToXmlParent();
-	}
+	//				m_aePrereqOrBuildings.push_back(iPrereqOrBuilding);
+	//			} while(pXML->TryMoveToXmlNextSibling());
+	//		}
+	//		pXML->MoveToXmlParent();
+	//	}
+	//	pXML->MoveToXmlParent();
+	//}
 
 	pXML->GetOptionalChildXmlValByName(szTextVal, L"PrereqTech");
 	m_iPrereqAndTech = pXML->GetInfoClass(szTextVal);
@@ -5868,24 +5859,9 @@ void CvUnitInfo::copyNonDefaults(CvUnitInfo* pClassInfo, CvXMLLoadUtility* pXML)
 		}
 	}
 
-	for ( int i = 0; i < GC.getNumBuildingInfos(); i++)
+	if (m_pbBuildings.empty())
 	{
-		if ( getBuildings(i) == bDefault && pClassInfo->getBuildings(i) != bDefault)
-		{
-			if ( NULL == m_pbBuildings )
-			{
-				CvXMLLoadUtility::InitList(&m_pbBuildings,GC.getNumBuildingInfos(),bDefault);
-			}
-			m_pbBuildings[i] = pClassInfo->getBuildings(i);
-		}
-		if ( getForceBuildings(i) == bDefault && pClassInfo->getForceBuildings(i) != bDefault)
-		{
-			if ( NULL == m_pbForceBuildings )
-			{
-				CvXMLLoadUtility::InitList(&m_pbForceBuildings,GC.getNumBuildingInfos(),bDefault);
-			}
-			m_pbForceBuildings[i] = pClassInfo->getForceBuildings(i);
-		}
+		m_pbBuildings = pClassInfo->m_pbBuildings;
 	}
 
 	for ( int i = 0; i < GC.getNumReligionInfos(); i++)

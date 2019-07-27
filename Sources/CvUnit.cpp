@@ -12548,17 +12548,14 @@ bool CvUnit::canConstruct(const CvPlot* pPlot, BuildingTypes eBuilding, bool bTe
 		return false;
 	}
 
-	if (!(m_pUnitInfo->getForceBuildings(eBuilding)))
+	if (!(m_pUnitInfo->getBuildings(eBuilding)))
 	{
-		if (!(m_pUnitInfo->getBuildings(eBuilding)))
-		{
-			return false;
-		}
+		return false;
+	}
 
-		if (!(pCity->canConstruct(eBuilding, false, bTestVisible, true)))
-		{
-			return false;
-		}
+	if (!(pCity->canConstruct(eBuilding, false, bTestVisible, true)))
+	{
+		return false;
 	}
 
 	if (isDelayedDeath())

@@ -1490,21 +1490,8 @@
 		<element type="GreatPeople" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
 	<ElementType name="BuildingType" content="textOnly"/>
-	<ElementType name="bBuilding" content="textOnly" dt:type="boolean"/>
-	<ElementType name="Building" content="eltOnly">
-		<element type="BuildingType"/>
-		<element type="bBuilding"/>
-	</ElementType>
 	<ElementType name="Buildings" content="eltOnly">
-		<element type="Building" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="bForceBuilding" content="textOnly" dt:type="boolean"/>
-	<ElementType name="ForceBuilding" content="eltOnly">
-		<element type="BuildingType"/>
-		<element type="bForceBuilding"/>
-	</ElementType>
-	<ElementType name="ForceBuildings" content="eltOnly">
-		<element type="ForceBuilding" minOccurs="0" maxOccurs="*"/>
+		<element type="BuildingType" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
 	<!-- RevDCM canTrain -->
 	<ElementType name="MaxStartEra" content="textOnly"/>

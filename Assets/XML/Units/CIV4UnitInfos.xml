@@ -52736,86 +52736,26 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_CARPOOL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SMOKE_DETECTOR</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_FIRE_CODE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NEIGHBORHOOD_WATCH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_YOUTH_CURFEW</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EMISSION_ACT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CLEANAIR_ACT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CLEANWATER_ACT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TIRE_RECYCLE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SHUTTLE_SERVICE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_PROSTITUTION_BAN</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GAMBLING_BAN</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ALCOCHOL_PROHIBITION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_DRUG_PROHIBITION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SMOKING_PROHIBITION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_ALCOHOL_PROHIBITION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_DRUG_PROHIBITION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_SMOKING_PROHIBITION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_PROSTITUTION_BAN</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_GAMBLING_BAN</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_CARPOOL</BuildingType>
+				<BuildingType>BUILDING_SMOKE_DETECTOR</BuildingType>
+				<BuildingType>BUILDING_FIRE_CODE</BuildingType>
+				<BuildingType>BUILDING_NEIGHBORHOOD_WATCH</BuildingType>
+				<BuildingType>BUILDING_YOUTH_CURFEW</BuildingType>
+				<BuildingType>BUILDING_EMISSION_ACT</BuildingType>
+				<BuildingType>BUILDING_CLEANAIR_ACT</BuildingType>
+				<BuildingType>BUILDING_CLEANWATER_ACT</BuildingType>
+				<BuildingType>BUILDING_TIRE_RECYCLE</BuildingType>
+				<BuildingType>BUILDING_SHUTTLE_SERVICE</BuildingType>
+				<BuildingType>BUILDING_PROSTITUTION_BAN</BuildingType>
+				<BuildingType>BUILDING_GAMBLING_BAN</BuildingType>
+				<BuildingType>BUILDING_ALCOCHOL_PROHIBITION</BuildingType>
+				<BuildingType>BUILDING_DRUG_PROHIBITION</BuildingType>
+				<BuildingType>BUILDING_SMOKING_PROHIBITION</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_ALCOHOL_PROHIBITION</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_DRUG_PROHIBITION</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_SMOKING_PROHIBITION</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_PROSTITUTION_BAN</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_GAMBLING_BAN</BuildingType>
 			</Buildings>
 			<PrereqBuilding>BUILDING_COURTHOUSE</PrereqBuilding>
 			<PrereqTech>TECH_CODE_OF_LAWS</PrereqTech>
@@ -53328,14 +53268,8 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_TREASURY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MUSEUM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_TREASURY</BuildingType>
+				<BuildingType>BUILDING_MUSEUM</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -54788,62 +54722,20 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_JEWISH_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CHRISTIAN_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ISLAMIC_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_HINDU_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BUDDHIST_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CONFUCIAN_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAOIST_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_STATUE_OF_ZEUS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOROASTRIAN_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EGYPT_MYTH_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MESOAMERICAN_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_BELIEF_KARMA</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_BELIEF_RESURRECTION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_BELIEF_REINCARNATION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_JEWISH_SHRINE</BuildingType>
+				<BuildingType>BUILDING_CHRISTIAN_SHRINE</BuildingType>
+				<BuildingType>BUILDING_ISLAMIC_SHRINE</BuildingType>
+				<BuildingType>BUILDING_HINDU_SHRINE</BuildingType>
+				<BuildingType>BUILDING_BUDDHIST_SHRINE</BuildingType>
+				<BuildingType>BUILDING_CONFUCIAN_SHRINE</BuildingType>
+				<BuildingType>BUILDING_TAOIST_SHRINE</BuildingType>
+				<BuildingType>BUILDING_STATUE_OF_ZEUS</BuildingType>
+				<BuildingType>BUILDING_ZOROASTRIAN_SHRINE</BuildingType>
+				<BuildingType>BUILDING_EGYPT_MYTH_SHRINE</BuildingType>
+				<BuildingType>BUILDING_MESOAMERICAN_SHRINE</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_BELIEF_KARMA</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_BELIEF_RESURRECTION</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_BELIEF_REINCARNATION</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -55123,30 +55015,12 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_7</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_EMPCLOTH_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_RED_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_ASTHETIC_APPRECIATION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_7</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_EMPCLOTH_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_RED_HQ</BuildingType>
+				<BuildingType>BUILDING_TRADITION_ASTHETIC_APPRECIATION</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -55368,25 +55242,11 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_3</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_6</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_STANDARD_OF_MEASUREMENT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_CORPORATION_3</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_6</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_STANDARD_OF_MEASUREMENT</BuildingType>
+				<BuildingType>BUILDING_ACADEMY</BuildingType>
 			</Buildings>
-			<ForceBuildings>
-				<ForceBuilding>
-					<BuildingType>BUILDING_ACADEMY</BuildingType>
-					<bForceBuilding>1</bForceBuilding>
-				</ForceBuilding>
-			</ForceBuildings>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_SCIENCE</FlavorType>
@@ -55556,62 +55416,20 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_CENTRAL_BANK</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_WALL_STREET</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_1</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_2</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_ADVENTURE_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_BURGERWORLD_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_EWTRADE_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_FASHION_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_MALLWART_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_MAPSTER_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_MCDOWELLS_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_MOBBY_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_MOONBEAN_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_WONKA_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_CENTRAL_BANK</BuildingType>
+				<BuildingType>BUILDING_WALL_STREET</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_1</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_2</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_ADVENTURE_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_BURGERWORLD_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_EWTRADE_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_FASHION_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_MALLWART_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_MAPSTER_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_MCDOWELLS_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_MOBBY_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_MOONBEAN_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_WONKA_HQ</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -55789,38 +55607,14 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_WORK_ETHIC</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_IRON_WORKS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_PONT_DU_GARD_AQUEDUCT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_4</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_5</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_BULLSEYE_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_MILEHIGH_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_STANDARD_OF_MEASUREMENT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_TRADITION_WORK_ETHIC</BuildingType>
+				<BuildingType>BUILDING_IRON_WORKS</BuildingType>
+				<BuildingType>BUILDING_PONT_DU_GARD_AQUEDUCT</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_4</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_5</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_BULLSEYE_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_MILEHIGH_HQ</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_STANDARD_OF_MEASUREMENT</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -56147,46 +55941,16 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_HUNTER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_SEA_HUNTING</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_NAVAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_ARCHERY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SECRET_ARMY_BASE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_COURIER_SYSTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MILITARY_ACADEMY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_SAFARI_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_ULTSOLDIER_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_TRADITION_HUNTER</BuildingType>
+				<BuildingType>BUILDING_TRADITION_SEA_HUNTING</BuildingType>
+				<BuildingType>BUILDING_TRADITION_TOTEM</BuildingType>
+				<BuildingType>BUILDING_TRADITION_NAVAL_TOTEM</BuildingType>
+				<BuildingType>BUILDING_TRADITION_ARCHERY</BuildingType>
+				<BuildingType>BUILDING_SECRET_ARMY_BASE</BuildingType>
+				<BuildingType>BUILDING_COURIER_SYSTEM</BuildingType>
+				<BuildingType>BUILDING_MILITARY_ACADEMY</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_SAFARI_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_ULTSOLDIER_HQ</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -56328,34 +56092,13 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_SEA_HUNTING</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_NAVAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SECRET_ARMY_BASE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_COURIER_SYSTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MILITARY_ACADEMY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_SAFARI_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_ULTSOLDIER_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_TRADITION_SEA_HUNTING</BuildingType>
+				<BuildingType>BUILDING_TRADITION_NAVAL_TOTEM</BuildingType>
+				<BuildingType>BUILDING_SECRET_ARMY_BASE</BuildingType>
+				<BuildingType>BUILDING_COURIER_SYSTEM</BuildingType>
+				<BuildingType>BUILDING_MILITARY_ACADEMY</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_SAFARI_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_ULTSOLDIER_HQ</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -56516,30 +56259,12 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_HUNTER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_SEA_HUNTING</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_NAVAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_ARCHERY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_HHUNTINGBOW</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_TRADITION_HUNTER</BuildingType>
+				<BuildingType>BUILDING_TRADITION_SEA_HUNTING</BuildingType>
+				<BuildingType>BUILDING_TRADITION_TOTEM</BuildingType>
+				<BuildingType>BUILDING_TRADITION_NAVAL_TOTEM</BuildingType>
+				<BuildingType>BUILDING_TRADITION_ARCHERY</BuildingType>
+				<BuildingType>BUILDING_HHUNTINGBOW</BuildingType>
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -56635,18 +56360,9 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_SPY_NETWORK</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SPY_TRAINING_FACILITY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SCOTLAND_YARD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_SPY_NETWORK</BuildingType>
+				<BuildingType>BUILDING_SPY_TRAINING_FACILITY</BuildingType>
+				<BuildingType>BUILDING_SCOTLAND_YARD</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -64560,14 +64276,8 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_HEALTH_SPA</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_UNIVERSAL_HEALTH_CARE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_HEALTH_SPA</BuildingType>
+				<BuildingType>BUILDING_UNIVERSAL_HEALTH_CARE</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -66239,10 +65949,7 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_SCOTLAND_YARD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_SCOTLAND_YARD</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -66305,34 +66012,13 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_RAIN_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_WAR_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_FIRE_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATURE_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MOON_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_FERTILTY_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BLOOD_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_RAIN_DANCE</BuildingType>
+				<BuildingType>BUILDING_WAR_DANCE</BuildingType>
+				<BuildingType>BUILDING_FIRE_DANCE</BuildingType>
+				<BuildingType>BUILDING_NATURE_DANCE</BuildingType>
+				<BuildingType>BUILDING_MOON_DANCE</BuildingType>
+				<BuildingType>BUILDING_FERTILTY_DANCE</BuildingType>
+				<BuildingType>BUILDING_BLOOD_DANCE</BuildingType>
 			</Buildings>
 			<PrereqTech>TECH_ORAL_TRADITION</PrereqTech>
 			<iCost>15</iCost>
@@ -66443,34 +66129,13 @@ iTradeMultiplier>3</iTradeMultiplier>
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_RAIN_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_WAR_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_FIRE_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATURE_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MOON_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_FERTILTY_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BLOOD_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_RAIN_DANCE</BuildingType>
+				<BuildingType>BUILDING_WAR_DANCE</BuildingType>
+				<BuildingType>BUILDING_FIRE_DANCE</BuildingType>
+				<BuildingType>BUILDING_NATURE_DANCE</BuildingType>
+				<BuildingType>BUILDING_MOON_DANCE</BuildingType>
+				<BuildingType>BUILDING_FERTILTY_DANCE</BuildingType>
+				<BuildingType>BUILDING_BLOOD_DANCE</BuildingType>
 			</Buildings>
 			<PrereqTech>TECH_LINGUISTICS</PrereqTech>
 			<iCost>120</iCost>

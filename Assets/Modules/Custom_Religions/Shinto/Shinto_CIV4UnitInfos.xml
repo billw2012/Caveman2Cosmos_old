@@ -57,10 +57,8 @@
 		<UnitInfo>
 			<Type>UNIT_PROPHET</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_SHINTO_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_SHINTO_SHRINE</BuildingType>
+
 			</Buildings>
 			<ReligionSpreads>
 				<ReligionSpread>

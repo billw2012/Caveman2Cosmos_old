@@ -155,10 +155,7 @@
 		<UnitInfo>
 			<Type>UNIT_PROPHET</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ASATRU_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ASATRU_SHRINE</BuildingType>
 			</Buildings>
 			<ReligionSpreads>
 				<ReligionSpread>

@@ -5,46 +5,36 @@
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_VULTURE</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_BIRD_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_BIRD_DANCE</BuildingType>
+
 			</Buildings>
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_SECRETARYBIRD</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_BIRD_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_BIRD_DANCE</BuildingType>
+
 			</Buildings>
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_ARCTICFOX</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_FOX_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_FOX_DANCE</BuildingType>
+
 			</Buildings>
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_REDFOX</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_FOX_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_FOX_DANCE</BuildingType>
+
 			</Buildings>
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_FENNECFOX</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_FOX_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_FOX_DANCE</BuildingType>
+
 			</Buildings>
 		</UnitInfo>
 	</UnitInfos>

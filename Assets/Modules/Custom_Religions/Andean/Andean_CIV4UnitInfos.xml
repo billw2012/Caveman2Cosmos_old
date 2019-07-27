@@ -56,10 +56,7 @@
 		<UnitInfo>
 			<Type>UNIT_PROPHET</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANDEAN_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANDEAN_SHRINE</BuildingType>
 			</Buildings>
 			<ReligionSpreads>
 				<ReligionSpread>

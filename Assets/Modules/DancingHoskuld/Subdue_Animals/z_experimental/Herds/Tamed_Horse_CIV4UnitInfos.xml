@@ -5,14 +5,10 @@
 		<UnitInfo>
 			<Type>UNIT_TAMED_HORSE_PAIR</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_HORSE_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_HORSE_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_HORSE_STORY</BuildingType>
+
+				<BuildingType>BUILDING_HORSE_STORIES</BuildingType>
+
 			</Buildings>
 			<Actions>
 				<Action>
@@ -47,14 +43,10 @@
 		<UnitInfo>
 			<Type>UNIT_TAMED_HORSE</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_HORSE_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_HORSE_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_HORSE_STORY</BuildingType>
+
+				<BuildingType>BUILDING_HORSE_STORIES</BuildingType>
+
 			</Buildings>
 			<Actions>
 				<Action>

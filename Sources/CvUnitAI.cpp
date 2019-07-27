@@ -18214,7 +18214,7 @@ int CvUnitAI::getBestConstructValue(int iMaxCount, int iMaxSingleBuildingCount, 
 
 		if (NO_BUILDING != eBuilding)
 		{
-			if ((m_pUnitInfo->getForceBuildings(eBuilding) || m_pUnitInfo->getBuildings(eBuilding)) && GET_PLAYER(getOwnerINLINE()).canConstruct(eBuilding,false,false,true))
+			if (m_pUnitInfo->getBuildings(eBuilding) && GET_PLAYER(getOwnerINLINE()).canConstruct(eBuilding,false,false,true))
 			{
 				if (GET_PLAYER(getOwnerINLINE()).AI_getNumBuildingsNeeded(eBuilding, (getDomainType() == DOMAIN_SEA)) > 0)
 				{

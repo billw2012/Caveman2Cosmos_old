@@ -428,10 +428,8 @@
 			<Class>UNITCLASS_SUBDUED_STAG_DEER</Class>
 			<Type>UNIT_SUBDUED_STAG_DEER</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_DEER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_DEER</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -444,10 +442,8 @@
 			<Class>UNITCLASS_SUBDUED_MOOSE</Class>
 			<Type>UNIT_SUBDUED_MOOSE</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_DEER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_DEER</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -460,10 +456,8 @@
 			<Class>UNITCLASS_SUBDUED_CARIBOU</Class>
 			<Type>UNIT_SUBDUED_CARIBOU</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_DEER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_DEER</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
