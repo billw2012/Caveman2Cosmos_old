@@ -2455,10 +2455,12 @@ class CvMainInterface:
 			bShowGameTurn = ClockOpt.isShowAltGameTurn()
 			bShowTotalTurns = ClockOpt.isShowAltTotalTurns()
 			bShowPercentComplete = ClockOpt.isShowAltPercentComplete()
+			bShowDate = ClockOpt.isShowAltDate()
 		else:
 			bShowGameTurn = ClockOpt.isShowGameTurn()
 			bShowTotalTurns = ClockOpt.isShowTotalTurns()
 			bShowPercentComplete = ClockOpt.isShowPercentComplete()
+			bShowDate = ClockOpt.isShowDate()
 
 		iMaxTurns = GAME.getMaxTurns()
 		if iMaxTurns < 1 and (bShowTotalTurns or bShowPercentComplete):
@@ -2488,7 +2490,15 @@ class CvMainInterface:
 			if szTxt:
 				szTxt += sep
 			szTxt += unichr(8866) + str(iTurnsGA)
-
+		# Date
+		if bShowDate:
+			if szTxt:
+				szTxt += sep
+			iYear = GAME.getGameTurnYear()
+			if iYear < 0:
+				szTxt += "%d BC" %(-iYear)
+			else:
+				szTxt += "%d AD" % iYear
 		if szTxt:
 			szTxt += sep
 		szTxt += getClockText()

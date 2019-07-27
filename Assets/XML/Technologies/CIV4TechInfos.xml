@@ -7923,8 +7923,9 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_RELIGION_BUDDHISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_RELIGION_BUDDHISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<iCost>499</iCost>
 			<bGlobal>1</bGlobal>
+			<iCost>499</iCost>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_CLASSICAL</Era>
 			<iAsset>8</iAsset>
 			<iGridX>34</iGridX>
@@ -8072,8 +8073,9 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_RELIGION_HELLENISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_RELIGION_HELLENISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<iCost>554</iCost>
 			<bGlobal>1</bGlobal>
+			<iCost>554</iCost>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_CLASSICAL</Era>
 			<iAsset>8</iAsset>
 			<iGridX>35</iGridX>
@@ -8373,8 +8375,9 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_RELIGION_MESOAMERICANISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_RELIGION_NAGHUALISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<iCost>614</iCost>
 			<bGlobal>1</bGlobal>
+			<iCost>614</iCost>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_CLASSICAL</Era>
 			<iAsset>8</iAsset>
 			<iGridX>36</iGridX>
@@ -8931,8 +8934,9 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_RELIGION_CONFUCIANISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_RELIGION_CONFUCIANISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<iCost>679</iCost>
 			<bGlobal>1</bGlobal>
+			<iCost>679</iCost>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_CLASSICAL</Era>
 			<iAsset>8</iAsset>
 			<iGridX>37</iGridX>
@@ -9045,8 +9049,9 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_RELIGION_TAOISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_RELIGION_TAOISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<iCost>749</iCost>
 			<bGlobal>1</bGlobal>
+			<iCost>749</iCost>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_CLASSICAL</Era>
 			<iAsset>8</iAsset>
 			<iGridX>38</iGridX>
@@ -9935,8 +9940,9 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_RELIGION_CHRISTIANITY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_RELIGION_CHRISTIANITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<iCost>1230</iCost>
 			<bGlobal>1</bGlobal>
+			<iCost>1230</iCost>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>8</iAsset>
 			<iGridX>43</iGridX>
@@ -10144,6 +10150,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<bGlobal>1</bGlobal>
 			<iCost>1334</iCost>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>8</iAsset>
 			<iGridX>44</iGridX>
