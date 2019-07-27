@@ -4704,9 +4704,9 @@
 			<Description>TXT_KEY_EVENT_ALTERNATIVE_ENERGY_DONE_1</Description>
 			<BuildingExtraYields>
 				<BuildingExtraYield>
-					<BuildingClass>BUILDINGCLASS_FACTORY</BuildingClass> 
+					<BuildingClass>BUILDINGCLASS_FACTORY</BuildingClass>
 					<YieldType>YIELD_PRODUCTION</YieldType>
-					<iExtraYield>5</iExtraYield> 
+					<iExtraYield>5</iExtraYield>
 				</BuildingExtraYield>
 			</BuildingExtraYields>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
@@ -4717,9 +4717,9 @@
 			<Description>TXT_KEY_EVENT_ALTERNATIVE_ENERGY_DONE_2</Description>
 			<BuildingExtraCommerces>
 				<BuildingExtraCommerce>
-					<BuildingClass>BUILDINGCLASS_HYDRO_PLANT</BuildingClass> 
+					<BuildingClass>BUILDINGCLASS_HYDRO_PLANT</BuildingClass>
 					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>10</iExtraCommerce> 
+					<iExtraCommerce>10</iExtraCommerce>
 				</BuildingExtraCommerce>
 			</BuildingExtraCommerces>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
@@ -4730,9 +4730,9 @@
 			<Description>TXT_KEY_EVENT_ALTERNATIVE_ENERGY_DONE_3</Description>
 			<BuildingExtraCommerces>
 				<BuildingExtraCommerce>
-					<BuildingClass>BUILDINGCLASS_NUCLEAR_PLANT</BuildingClass> 
+					<BuildingClass>BUILDINGCLASS_NUCLEAR_PLANT</BuildingClass>
 					<CommerceType>COMMERCE_GOLD</CommerceType>
-					<iExtraCommerce>10</iExtraCommerce> 
+					<iExtraCommerce>10</iExtraCommerce>
 				</BuildingExtraCommerce>
 			</BuildingExtraCommerces>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
@@ -4741,11 +4741,11 @@
 		<EventInfo>
 			<Type>EVENT_ALTERNATIVE_ENERGY_DONE_4</Type>
 			<Description>TXT_KEY_EVENT_ALTERNATIVE_ENERGY_DONE_4</Description>
-			<BuildingExtraHealths> 
-				<BuildingExtraHealth> 
-					<BuildingClass>BUILDINGCLASS_FACTORY</BuildingClass> 
-					<iHealth>2</iHealth> 
-				</BuildingExtraHealth> 
+			<BuildingExtraHealths>
+				<BuildingExtraHealth>
+					<BuildingClass>BUILDINGCLASS_FACTORY</BuildingClass>
+					<iHealth>2</iHealth>
+				</BuildingExtraHealth>
 			</BuildingExtraHealths>
 			<PythonCanDo>canDoAlternativeEnergy4</PythonCanDo>
 			<PythonHelp>getHelpAlternativeEnergy4</PythonHelp>
@@ -4895,7 +4895,7 @@
 			<Type>EVENT_THE_BUCCANEERS_2</Type>
 			<Description>TXT_KEY_EVENT_THE_BUCCANEERS_2</Description>
 			<LocalInfoText>TXT_KEY_EVENT_LOCAL_THE_BUCCANEERS_2</LocalInfoText>
-			<iGold>-300</iGold> 
+			<iGold>-300</iGold>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1000</iAIValue>
 		</EventInfo>
@@ -5691,10 +5691,10 @@
 			<Type>EVENT_HARDY_CROPS_1</Type>
 			<Description>TXT_KEY_EVENT_HARDY_CROPS_1</Description>
 			<PlotExtraYields>
-	            		<PlotExtraYield> 
-					 <YieldType>YIELD_FOOD</YieldType> 
-					 <iExtraYield>2</iExtraYield> 
-				</PlotExtraYield> 
+	            		<PlotExtraYield>
+					 <YieldType>YIELD_FOOD</YieldType>
+					 <iExtraYield>2</iExtraYield>
+				</PlotExtraYield>
 			</PlotExtraYields>
 			<PythonCallback>applyLandmarkFromEvent</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
@@ -5807,7 +5807,7 @@
 			<iBonusChange>1</iBonusChange>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1000</iAIValue>
-		</EventInfo>	
+		</EventInfo>
 		<EventInfo>
 			<Type>EVENT_LEVITTOWN_1</Type>
 			<Description>TXT_KEY_EVENT_LEVITTOWN_1</Description>
@@ -6771,18 +6771,18 @@
 			<Type>EVENT_COCK_FIGHTS_1</Type>
 			<Description>TXT_KEY_EVENT_COCK_FIGHTS_1</Description>
 			<bPickCity>1</bPickCity>
-			<BuildingExtraCommerces> 
-				<BuildingExtraCommerce> 
-					<BuildingClass>BUILDINGCLASS_CHICKEN_COOP</BuildingClass> 
-					<CommerceType>COMMERCE_CULTURE</CommerceType> 
-					<iExtraCommerce>-2</iExtraCommerce> 
-				</BuildingExtraCommerce> 
+			<BuildingExtraCommerces>
+				<BuildingExtraCommerce>
+					<BuildingClass>BUILDINGCLASS_CHICKEN_COOP</BuildingClass>
+					<CommerceType>COMMERCE_CULTURE</CommerceType>
+					<iExtraCommerce>-2</iExtraCommerce>
+				</BuildingExtraCommerce>
 			</BuildingExtraCommerces>
 			<BuildingExtraHappies>
-				<BuildingExtraHappy> 
+				<BuildingExtraHappy>
 					<BuildingClass>BUILDINGCLASS_CHICKEN_COOP</BuildingClass>
 					<iHappy>1</iHappy>
-				</BuildingExtraHappy> 
+				</BuildingExtraHappy>
 			</BuildingExtraHappies>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1000</iAIValue>
@@ -6792,18 +6792,18 @@
 			<Type>EVENT_COCK_FIGHTS_2</Type>
 			<Description>TXT_KEY_EVENT_COCK_FIGHTS_2</Description>
 			<bPickCity>1</bPickCity>
-			<BuildingExtraCommerces> 
-				<BuildingExtraCommerce> 
-					<BuildingClass>BUILDINGCLASS_CHICKEN_COOP</BuildingClass> 
-					<CommerceType>COMMERCE_CULTURE</CommerceType> 
-					<iExtraCommerce>2</iExtraCommerce> 
-				</BuildingExtraCommerce> 
+			<BuildingExtraCommerces>
+				<BuildingExtraCommerce>
+					<BuildingClass>BUILDINGCLASS_CHICKEN_COOP</BuildingClass>
+					<CommerceType>COMMERCE_CULTURE</CommerceType>
+					<iExtraCommerce>2</iExtraCommerce>
+				</BuildingExtraCommerce>
 			</BuildingExtraCommerces>
 			<BuildingExtraHappies>
-				<BuildingExtraHappy> 
+				<BuildingExtraHappy>
 					<BuildingClass>BUILDINGCLASS_CHICKEN_COOP</BuildingClass>
 					<iHappy>-1</iHappy>
-				</BuildingExtraHappy> 
+				</BuildingExtraHappy>
 			</BuildingExtraHappies>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1000</iAIValue>
@@ -6813,23 +6813,23 @@
 			<Description>TXT_KEY_EVENT_COCK_FIGHTS_3</Description>
 			<bPickCity>1</bPickCity>
 			<PrereqTech>TECH_LEGALIZED_GAMBLING</PrereqTech>
-			<BuildingExtraCommerces> 
-				<BuildingExtraCommerce> 
-					<BuildingClass>BUILDINGCLASS_CHICKEN_COOP</BuildingClass> 
-					<CommerceType>COMMERCE_CULTURE</CommerceType> 
-					<iExtraCommerce>1</iExtraCommerce> 
-				</BuildingExtraCommerce> 
-				<BuildingExtraCommerce> 
-					<BuildingClass>BUILDINGCLASS_CHICKEN_COOP</BuildingClass> 
-					<CommerceType>COMMERCE_GOLD</CommerceType> 
-					<iExtraCommerce>3</iExtraCommerce> 
-				</BuildingExtraCommerce> 
+			<BuildingExtraCommerces>
+				<BuildingExtraCommerce>
+					<BuildingClass>BUILDINGCLASS_CHICKEN_COOP</BuildingClass>
+					<CommerceType>COMMERCE_CULTURE</CommerceType>
+					<iExtraCommerce>1</iExtraCommerce>
+				</BuildingExtraCommerce>
+				<BuildingExtraCommerce>
+					<BuildingClass>BUILDINGCLASS_CHICKEN_COOP</BuildingClass>
+					<CommerceType>COMMERCE_GOLD</CommerceType>
+					<iExtraCommerce>3</iExtraCommerce>
+				</BuildingExtraCommerce>
 			</BuildingExtraCommerces>
 			<BuildingExtraHappies>
-				<BuildingExtraHappy> 
+				<BuildingExtraHappy>
 					<BuildingClass>BUILDINGCLASS_CHICKEN_COOP</BuildingClass>
 					<iHappy>-1</iHappy>
-				</BuildingExtraHappy> 
+				</BuildingExtraHappy>
 			</BuildingExtraHappies>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1000</iAIValue>
@@ -6840,11 +6840,11 @@
 			<bPickCity>1</bPickCity>
 			<iGold>-50</iGold>
 			<iRandomGold>-50</iRandomGold>
-			<BuildingExtraHealths> 
-				<BuildingExtraHealth> 
-					<BuildingClass>BUILDINGCLASS_DOCTOR</BuildingClass> 
-					<iHealth>-1</iHealth> 
-				</BuildingExtraHealth> 
+			<BuildingExtraHealths>
+				<BuildingExtraHealth>
+					<BuildingClass>BUILDINGCLASS_DOCTOR</BuildingClass>
+					<iHealth>-1</iHealth>
+				</BuildingExtraHealth>
 			</BuildingExtraHealths>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1000</iAIValue>
@@ -6854,18 +6854,18 @@
 			<Description>TXT_KEY_EVENT_SNAKEOIL_2</Description>
 			<bPickCity>1</bPickCity>
 			<PrereqTech>TECH_MERCANTILISM</PrereqTech>
-			<BuildingExtraCommerces> 
-				<BuildingExtraCommerce> 
-					<BuildingClass>BUILDINGCLASS_DOCTOR</BuildingClass> 
-					<CommerceType>COMMERCE_GOLD</CommerceType> 
-					<iExtraCommerce>2</iExtraCommerce> 
-				</BuildingExtraCommerce> 	
+			<BuildingExtraCommerces>
+				<BuildingExtraCommerce>
+					<BuildingClass>BUILDINGCLASS_DOCTOR</BuildingClass>
+					<CommerceType>COMMERCE_GOLD</CommerceType>
+					<iExtraCommerce>2</iExtraCommerce>
+				</BuildingExtraCommerce>
 			</BuildingExtraCommerces>
-			<BuildingExtraHealths> 
-				<BuildingExtraHealth> 
-					<BuildingClass>BUILDINGCLASS_DOCTOR</BuildingClass> 
-					<iHealth>-2</iHealth> 
-				</BuildingExtraHealth> 
+			<BuildingExtraHealths>
+				<BuildingExtraHealth>
+					<BuildingClass>BUILDINGCLASS_DOCTOR</BuildingClass>
+					<iHealth>-2</iHealth>
+				</BuildingExtraHealth>
 			</BuildingExtraHealths>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1000</iAIValue>
@@ -6876,11 +6876,11 @@
 			<iGold>-200</iGold>
 			<iRandomGold>-200</iRandomGold>
 			<PrereqTech>TECH_MEDICINE</PrereqTech>
-			<BuildingExtraHappies> 
-				<BuildingExtraHappy> 
-					<BuildingClass>BUILDINGCLASS_DOCTOR</BuildingClass> 
-					<iHappy>1</iHappy> 
-				</BuildingExtraHappy> 
+			<BuildingExtraHappies>
+				<BuildingExtraHappy>
+					<BuildingClass>BUILDINGCLASS_DOCTOR</BuildingClass>
+					<iHappy>1</iHappy>
+				</BuildingExtraHappy>
 			</BuildingExtraHappies>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1000</iAIValue>
@@ -6910,7 +6910,7 @@
 			<iRandomGold>-200</iRandomGold>
 			<iCulture>50</iCulture>
 			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
-			<BuildingExtraCommerces> 
+			<BuildingExtraCommerces>
 				<BuildingExtraCommerce>
 					<BuildingClass>BUILDINGCLASS_SLED_DOGS</BuildingClass>
 					<CommerceType>COMMERCE_GOLD</CommerceType>
@@ -6979,7 +6979,7 @@
 			<Type>EVENT_MUSICOFGODS_2</Type>
 			<Description>TXT_KEY_EVENT_MUSICOFGODS_2</Description>
 			<iGold>-500</iGold>
-			<BuildingExtraCommerces> 
+			<BuildingExtraCommerces>
 				<BuildingExtraCommerce>
 					<BuildingClass>BUILDINGCLASS_MAJOR_LEAGUE_STADIUM</BuildingClass>
 					<CommerceType>COMMERCE_CULTURE</CommerceType>
@@ -6999,7 +6999,7 @@
 					<BuildingClass>BUILDINGCLASS_SPEEDWAY</BuildingClass>
 					<CommerceType>COMMERCE_CULTURE</CommerceType>
 					<iExtraCommerce>1</iExtraCommerce>
-				</BuildingExtraCommerce>		
+				</BuildingExtraCommerce>
 			</BuildingExtraCommerces>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1000</iAIValue>
@@ -7009,7 +7009,7 @@
 			<Description>TXT_KEY_EVENT_MUSICOFGODS_3</Description>
 			<iGold>-500</iGold>
 			<PrereqTech>TECH_SUPERCONDUCTORS</PrereqTech>
-			<BuildingExtraCommerces> 
+			<BuildingExtraCommerces>
 				<BuildingExtraCommerce>
 					<BuildingClass>BUILDINGCLASS_MAJOR_LEAGUE_STADIUM</BuildingClass>
 					<CommerceType>COMMERCE_CULTURE</CommerceType>
@@ -7049,22 +7049,22 @@
 					<BuildingClass>BUILDINGCLASS_SPEEDWAY</BuildingClass>
 					<CommerceType>COMMERCE_GOLD</CommerceType>
 					<iExtraCommerce>-5</iExtraCommerce>
-				</BuildingExtraCommerce>		
+				</BuildingExtraCommerce>
 			</BuildingExtraCommerces>
-			<BuildingExtraHappies> 
-				<BuildingExtraHappy> 
+			<BuildingExtraHappies>
+				<BuildingExtraHappy>
 					<BuildingClass>BUILDINGCLASS_MAJOR_LEAGUE_STADIUM</BuildingClass>
 					<iHappy>1</iHappy>
 				</BuildingExtraHappy>
-				<BuildingExtraHappy> 
+				<BuildingExtraHappy>
 					<BuildingClass>BUILDINGCLASS_MINOR_LEAGUE_STADIUM</BuildingClass>
 					<iHappy>1</iHappy>
 				</BuildingExtraHappy>
-				<BuildingExtraHappy> 
+				<BuildingExtraHappy>
 					<BuildingClass>BUILDINGCLASS_FAIR_GROUNDS</BuildingClass>
 					<iHappy>1</iHappy>
 				</BuildingExtraHappy>
-				<BuildingExtraHappy> 
+				<BuildingExtraHappy>
 					<BuildingClass>BUILDINGCLASS_SPEEDWAY</BuildingClass>
 					<iHappy>1</iHappy>
 				</BuildingExtraHappy>
@@ -7167,7 +7167,7 @@
 			</AdditionalEvents>
 			<PythonCallback>doMinorFire</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<PythonHelp>getHelpMinorFire</PythonHelp>		
+			<PythonHelp>getHelpMinorFire</PythonHelp>
 			<iAIValue>1000</iAIValue>
 		</EventInfo>
 		<EventInfo>
@@ -7177,7 +7177,7 @@
 			<iGold>-10</iGold>
 			<PythonCallback>doMinorFire</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<PythonHelp>getHelpMinorFire</PythonHelp>		
+			<PythonHelp>getHelpMinorFire</PythonHelp>
 			<iAIValue>1000</iAIValue>
 		</EventInfo>
 		<EventInfo>
@@ -7185,14 +7185,14 @@
 			<Description>TXT_KEY_EVENT_CITYFIRE_3</Description>
 			<bPickCity>1</bPickCity>
 			<AdditionalEvents>
-				<EventChance> 
-					<Event>EVENT_CITYFIRE_MINOR_1</Event> 
-					<iEventChance>10</iEventChance> 
-				</EventChance> 
+				<EventChance>
+					<Event>EVENT_CITYFIRE_MINOR_1</Event>
+					<iEventChance>10</iEventChance>
+				</EventChance>
 			</AdditionalEvents>
 			<PythonCallback>doMinorFire</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<PythonHelp>getHelpMinorFire</PythonHelp>		
+			<PythonHelp>getHelpMinorFire</PythonHelp>
 			<iAIValue>10</iAIValue>
 		</EventInfo>
 		<EventInfo>
@@ -7202,7 +7202,7 @@
 			<iGold>-50</iGold>
 			<PythonCallback>doMinorFire</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<PythonHelp>getHelpMinorFire</PythonHelp>		
+			<PythonHelp>getHelpMinorFire</PythonHelp>
 			<iAIValue>10000</iAIValue>
 		</EventInfo>
 		<EventInfo>
@@ -7211,14 +7211,14 @@
 			<bPickCity>1</bPickCity>
 			<iGold>-25</iGold>
 			<AdditionalEvents>
-				<EventChance> 
-					<Event>EVENT_CITYFIRE_MINOR_1</Event> 
-					<iEventChance>10</iEventChance> 
-				</EventChance> 
+				<EventChance>
+					<Event>EVENT_CITYFIRE_MINOR_1</Event>
+					<iEventChance>10</iEventChance>
+				</EventChance>
 			</AdditionalEvents>
 			<PythonCallback>doMinorFire</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<PythonHelp>getHelpMinorFire</PythonHelp>		
+			<PythonHelp>getHelpMinorFire</PythonHelp>
 			<iAIValue>100</iAIValue>
 		</EventInfo>
 		<EventInfo>
@@ -7226,14 +7226,14 @@
 			<Description>TXT_KEY_EVENT_CITYFIRE_6</Description>
 			<bPickCity>1</bPickCity>
 			<AdditionalEvents>
-				<EventChance> 
-					<Event>EVENT_CITYFIRE_MAJOR_1</Event> 
-					<iEventChance>20</iEventChance> 
-				</EventChance> 
+				<EventChance>
+					<Event>EVENT_CITYFIRE_MAJOR_1</Event>
+					<iEventChance>20</iEventChance>
+				</EventChance>
 			</AdditionalEvents>
 			<PythonCallback>doMinorFire</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<PythonHelp>getHelpMinorFire</PythonHelp>	
+			<PythonHelp>getHelpMinorFire</PythonHelp>
 			<iAIValue>1</iAIValue>
 		</EventInfo>
 		<EventInfo>
@@ -7242,14 +7242,14 @@
 			<bPickCity>1</bPickCity>
 			<iGold>-250</iGold>
 			<AdditionalEvents>
-				<EventChance> 
-					<Event>EVENT_CITYFIRE_MINOR_1</Event> 
-					<iEventChance>10</iEventChance> 
-				</EventChance> 
+				<EventChance>
+					<Event>EVENT_CITYFIRE_MINOR_1</Event>
+					<iEventChance>10</iEventChance>
+				</EventChance>
 			</AdditionalEvents>
 			<PythonCallback>doMinorFire</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<PythonHelp>getHelpMinorFire</PythonHelp>		
+			<PythonHelp>getHelpMinorFire</PythonHelp>
 			<iAIValue>10000</iAIValue>
 		</EventInfo>
 		<EventInfo>
@@ -7258,14 +7258,14 @@
 			<bPickCity>1</bPickCity>
 			<iGold>-100</iGold>
 			<AdditionalEvents>
-				<EventChance> 
-					<Event>EVENT_CITYFIRE_MAJOR_1</Event> 
-					<iEventChance>20</iEventChance> 
-				</EventChance> 
+				<EventChance>
+					<Event>EVENT_CITYFIRE_MAJOR_1</Event>
+					<iEventChance>20</iEventChance>
+				</EventChance>
 			</AdditionalEvents>
 			<PythonCallback>doMinorFire</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<PythonHelp>getHelpMinorFire</PythonHelp>		
+			<PythonHelp>getHelpMinorFire</PythonHelp>
 			<iAIValue>100</iAIValue>
 		</EventInfo>
 		<EventInfo>
@@ -7273,14 +7273,14 @@
 			<Description>TXT_KEY_EVENT_CITYFIRE_9</Description>
 			<bPickCity>1</bPickCity>
 			<AdditionalEvents>
-				<EventChance> 
-					<Event>EVENT_CITYFIRE_CATASTROPHIC_1</Event> 
-					<iEventChance>40</iEventChance> 
-				</EventChance> 
+				<EventChance>
+					<Event>EVENT_CITYFIRE_CATASTROPHIC_1</Event>
+					<iEventChance>40</iEventChance>
+				</EventChance>
 			</AdditionalEvents>
 			<PythonCallback>doMinorFire</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<PythonHelp>getHelpMinorFire</PythonHelp>		
+			<PythonHelp>getHelpMinorFire</PythonHelp>
 			<iAIValue>1</iAIValue>
 		</EventInfo>
 		<EventInfo>
@@ -7289,14 +7289,14 @@
 			<bPickCity>1</bPickCity>
 			<iGold>-1250</iGold>
 			<AdditionalEvents>
-				<EventChance> 
-					<Event>EVENT_CITYFIRE_MAJOR_1</Event> 
-					<iEventChance>20</iEventChance> 
-				</EventChance> 
+				<EventChance>
+					<Event>EVENT_CITYFIRE_MAJOR_1</Event>
+					<iEventChance>20</iEventChance>
+				</EventChance>
 			</AdditionalEvents>
 			<PythonCallback>doMinorFire</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<PythonHelp>getHelpMinorFire</PythonHelp>		
+			<PythonHelp>getHelpMinorFire</PythonHelp>
 			<iAIValue>10000</iAIValue>
 		</EventInfo>
 		<EventInfo>
@@ -7305,14 +7305,14 @@
 			<bPickCity>1</bPickCity>
 			<iGold>-250</iGold>
 			<AdditionalEvents>
-				<EventChance> 
-					<Event>EVENT_CITYFIRE_MAJOR_1</Event> 
-					<iEventChance>40</iEventChance> 
-				</EventChance> 
+				<EventChance>
+					<Event>EVENT_CITYFIRE_MAJOR_1</Event>
+					<iEventChance>40</iEventChance>
+				</EventChance>
 			</AdditionalEvents>
 			<PythonCallback>doMinorFire</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<PythonHelp>getHelpMinorFire</PythonHelp>	
+			<PythonHelp>getHelpMinorFire</PythonHelp>
 			<iAIValue>100</iAIValue>
 		</EventInfo>
 		<EventInfo>
@@ -7320,10 +7320,10 @@
 			<Description>TXT_KEY_EVENT_CITYFIRE_12</Description>
 			<bPickCity>1</bPickCity>
 			<AdditionalEvents>
-				<EventChance> 
-					<Event>EVENT_CITYFIRE_CATASTROPHIC_1</Event> 
-					<iEventChance>80</iEventChance> 
-				</EventChance> 
+				<EventChance>
+					<Event>EVENT_CITYFIRE_CATASTROPHIC_1</Event>
+					<iEventChance>80</iEventChance>
+				</EventChance>
 			</AdditionalEvents>
 			<PythonCallback>doMinorFire</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
@@ -7336,7 +7336,7 @@
 			<bPickCity>1</bPickCity>
 			<PythonCallback>doMinorFire</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<PythonHelp>getHelpMinorFire</PythonHelp>	
+			<PythonHelp>getHelpMinorFire</PythonHelp>
 			<iAIValue>1000</iAIValue>
 		</EventInfo>
 		<EventInfo>
@@ -7345,7 +7345,7 @@
 			<bPickCity>1</bPickCity>
 			<PythonCallback>doMajorFire</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<PythonHelp>getHelpMajorFire</PythonHelp>	
+			<PythonHelp>getHelpMajorFire</PythonHelp>
 			<iAIValue>1000</iAIValue>
 		</EventInfo>
 		<EventInfo>

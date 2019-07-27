@@ -57,7 +57,7 @@
 		<element type="Scale" minOccurs="0" maxOccurs="1"/>
 	</ElementType>
 	<!-- a node can contain ArtRefs, e.g. plain-old-NIFs, as well as named references to entities ...
-	     how these entity references are mapped from strings to actual CvEntities is determined by the CvLSystem 
+	     how these entity references are mapped from strings to actual CvEntities is determined by the CvLSystem
 	     runtime
 	  -->
 	<ElementType name="LNode">

@@ -18,7 +18,7 @@
 ## an empty value, e.g. <init dll=""/>.
 ##
 ## TODO
-## 
+##
 ##   - Remove child attributes from ctor
 ##   - Change child tags to child handlers and remove from ctor
 ##   - Register using keys instead of tags
@@ -366,7 +366,7 @@ class ConfigHandler(Handler):
 	TAG = "config"
 
 	def __init__(self):
-		Handler.__init__(self, self.TAG, 
+		Handler.__init__(self, self.TAG,
 				"root tag key parents module class", ConfigHandler.TAG)
 		self.addAttribute("root")
 		self.addAttribute("tag", True, False, None, "root")
@@ -433,8 +433,8 @@ class ModHandler(Handler):
 	TAG = "mod"
 
 	def __init__(self):
-		Handler.__init__(self, self.TAG, 
-				"id module name author version build date url dll", 
+		Handler.__init__(self, self.TAG,
+				"id module name author version build date url dll",
 				(LoadHandler.TAG))
 		self.addAttribute("id")
 		self.addAttribute("name")

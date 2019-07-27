@@ -33,7 +33,7 @@
 				<iCommerce>0</iCommerce>
 				<iCommerce>1</iCommerce>
 			</CommerceChanges>
-		</BuildingInfo>	
+		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_FAST_BREEDER_REACTOR</BuildingClass>
 			<Type>BUILDING_FAST_BREEDER_REACTOR</Type>
@@ -582,7 +582,7 @@
 			<Strategy>TXT_KEY_BUILDING_CLEAN_NUCLEAR_REACTOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CLEAN_NUCLEAR_REACTOR</ArtDefineTag>
-			<!-- RevolutionDCM End  -->			
+			<!-- RevolutionDCM End  -->
 			<PrereqTech>TECH_ATOMPUNK</PrereqTech>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -909,7 +909,7 @@
 					<iAmountPerTurn>5</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
-		</BuildingInfo>	
+		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_VENTURE_INDUSTRIES</BuildingClass>
 			<Type>BUILDING_VENTURE_INDUSTRIES</Type>

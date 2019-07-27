@@ -10,19 +10,19 @@
 		iRevIdxNational: National rebelliousness.
 		iRevIdxHolyCityGood: Appeasement from owning state religion holy city.
 		iRevIdxHolyCityBad: Rebelliosness due to your state religion holy city being owned by a player that does not share your state religion, aka heathens.
-		iRevIdxSwitchTo: 
-		fRevIdxNationalityMod: 
-		fRevIdxBadReligionMod: 
-		fRevIdxGoodReligionMod: 
-		fRevIdxDistanceMod: 
-		fRevViolentMod: 
-		iRevReligiousFreedom: 
-		iRevLaborFreedom: 
-		iRevEnvironmentalProtection: 
-		iRevDemocracyLevel: 
-		bCommunism: 
-		bFreeSpeech: 
-		bCanDoElection: 
+		iRevIdxSwitchTo:
+		fRevIdxNationalityMod:
+		fRevIdxBadReligionMod:
+		fRevIdxGoodReligionMod:
+		fRevIdxDistanceMod:
+		fRevViolentMod:
+		iRevReligiousFreedom:
+		iRevLaborFreedom:
+		iRevEnvironmentalProtection:
+		iRevDemocracyLevel:
+		bCommunism:
+		bFreeSpeech:
+		bCanDoElection:
 	-->
 <Civ4CivicInfos xmlns="x-schema:../Schema/C2C_CIV4GameInfoSchema.xml">
 	<CivicInfos>
@@ -763,9 +763,9 @@
 			</CapitalYieldModifiers>
 			<TradeYieldModifiers/>
 			<CommerceModifiers>
-				<iCommerce>4</iCommerce>  
 				<iCommerce>4</iCommerce>
-				<iCommerce>4</iCommerce>  
+				<iCommerce>4</iCommerce>
+				<iCommerce>4</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceModifiers>
 			<CapitalCommerceModifiers>
@@ -901,8 +901,8 @@
 			<iStateReligionFreeExperience>0</iStateReligionFreeExperience>
 			<iTaxRateUnhappiness>0</iTaxRateUnhappiness>
 			<YieldModifiers>
-				<iYield>7</iYield>  
-         		<iYield>5</iYield>  
+				<iYield>7</iYield>
+         		<iYield>5</iYield>
          		<iYield>5</iYield>
 			</YieldModifiers>
 			<CapitalYieldModifiers>
@@ -1153,8 +1153,8 @@
 			<iStateReligionFreeExperience>0</iStateReligionFreeExperience>
 			<iTaxRateUnhappiness>0</iTaxRateUnhappiness>
 			<YieldModifiers>
-				<iYield>10</iYield>  
-         		<iYield>10</iYield>  
+				<iYield>10</iYield>
+         		<iYield>10</iYield>
          		<iYield>10</iYield>
 			</YieldModifiers>
 			<CapitalYieldModifiers/>
@@ -1623,8 +1623,8 @@
 			<iStateReligionFreeExperience>0</iStateReligionFreeExperience>
 			<iTaxRateUnhappiness>0</iTaxRateUnhappiness>
 			<YieldModifiers>
-				<iYield>0</iYield>  
-         		<iYield>0</iYield>  
+				<iYield>0</iYield>
+         		<iYield>0</iYield>
          		<iYield>10</iYield>
 			</YieldModifiers>
 			<CapitalYieldModifiers/>
@@ -1920,9 +1920,9 @@
 			</CapitalYieldModifiers>
 			<TradeYieldModifiers/>
 			<CommerceModifiers>
-				<iCommerce>5</iCommerce>  
+				<iCommerce>5</iCommerce>
 				<iCommerce>10</iCommerce>
-				<iCommerce>10</iCommerce>  
+				<iCommerce>10</iCommerce>
 				<iCommerce>5</iCommerce>
 			</CommerceModifiers>
 			<CapitalCommerceModifiers>
@@ -5618,7 +5618,7 @@
                                   BuildingHappinessChange>
 					<BuildingType>BUILDINGCLASS_SLAVE_MARKET</BuildingType>
 					<iHappinessChange>-2</iHappinessChange>
-				</BuildingHappinessChange--> 
+				</BuildingHappinessChange-->
 				<BuildingHappinessChange>
 					<BuildingType>BUILDINGCLASS_BROTHEL</BuildingType>
 					<iHappinessChange>1</iHappinessChange>
@@ -7261,7 +7261,7 @@
 			<WeLoveTheKing/>
 			<Flavors/>
 			<iInflation>0</iInflation>
-		</CivicInfo>		
+		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
 			<Type>CIVIC_BARTER</Type>
@@ -13086,8 +13086,8 @@
 			<iStateReligionBuildingProductionModifier>0</iStateReligionBuildingProductionModifier>
 			<iStateReligionFreeExperience>0</iStateReligionFreeExperience>
 			<YieldModifiers>
-				<iYield>5</iYield>  
-         		<iYield>0</iYield>  
+				<iYield>5</iYield>
+         		<iYield>0</iYield>
          		<iYield>0</iYield>
 			</YieldModifiers>
 			<CapitalYieldModifiers/>
@@ -13190,8 +13190,8 @@
 			<iStateReligionBuildingProductionModifier>0</iStateReligionBuildingProductionModifier>
 			<iStateReligionFreeExperience>0</iStateReligionFreeExperience>
 			<YieldModifiers>
-				<iYield>5</iYield>  
-         		<iYield>0</iYield>  
+				<iYield>5</iYield>
+         		<iYield>0</iYield>
          		<iYield>0</iYield>
 			</YieldModifiers>
 			<CapitalYieldModifiers/>
@@ -15956,7 +15956,7 @@
 					<iProductionModifier>50</iProductionModifier>
 				</BuildingClassProductionModifier>
 			</BuildingClassProductionModifiers>
-		</CivicInfo>		
+		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_CURRENCY</CivicOptionType>
 			<Type>CIVIC_BANKNOTE</Type>
@@ -16071,7 +16071,7 @@
 			<Description>TXT_KEY_CIVIC_PAPER_MONEY</Description>
 			<Civilopedia>TXT_KEY_CIVIC_PAPER_MONEY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_PAPER_MONEY_STRATEGY</Strategy>
-			<Button>art/Interface/buttons/civics/sparth/currency_paper_money.dds</Button>						
+			<Button>art/Interface/buttons/civics/sparth/currency_paper_money.dds</Button>
 			<TechPrereq>TECH_PRINTING_PRESS</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>UPKEEP_MEDIUM</Upkeep>
@@ -16806,8 +16806,8 @@
 			<iStateReligionBuildingProductionModifier>0</iStateReligionBuildingProductionModifier>
 			<iStateReligionFreeExperience>0</iStateReligionFreeExperience>
 			<YieldModifiers>
-				<iYield>0</iYield>  
-         		<iYield>10</iYield>  
+				<iYield>0</iYield>
+         		<iYield>10</iYield>
          		<iYield>0</iYield>
 			</YieldModifiers>
 			<CapitalYieldModifiers/>
@@ -18795,7 +18795,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 			<Flavors/>
-		</CivicInfo>		
+		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_AGICULTURE</CivicOptionType>
 			<Type>CIVIC_FARM_STATE</Type>
@@ -21991,7 +21991,7 @@
 			<WeLoveTheKing/>
 			<Flavors/>
 			<iPopulationgrowthratepercentage>0</iPopulationgrowthratepercentage>
-		</CivicInfo>		
+		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LABOR</CivicOptionType>
 			<Type>CIVIC_POST_SCARCITY</Type>

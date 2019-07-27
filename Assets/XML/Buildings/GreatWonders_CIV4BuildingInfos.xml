@@ -14109,7 +14109,7 @@
 					<BuildingClassType>BUILDINGCLASS_SKYSCRAPER</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
-			</BuildingClassNeededs>	
+			</BuildingClassNeededs>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_DEPARTMENT_STORE</BuildingClassType>
@@ -16726,7 +16726,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_MILITARY_ACADEMIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
-			<ArtDefineTag>ART_DEF_BUILDING_EVELPIDON_MILITARY_ACADEMY</ArtDefineTag>			
+			<ArtDefineTag>ART_DEF_BUILDING_EVELPIDON_MILITARY_ACADEMY</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16790,7 +16790,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_MILITARY_ACADEMIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
-			<ArtDefineTag>ART_DEF_BUILDING_REPUBLIC_OF_CHINA_NAVAL_ACADEMY</ArtDefineTag>			
+			<ArtDefineTag>ART_DEF_BUILDING_REPUBLIC_OF_CHINA_NAVAL_ACADEMY</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16854,7 +16854,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_MILITARY_ACADEMIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
-			<ArtDefineTag>ART_DEF_BUILDING_IMPERIAL_JAPANESE_NAVAL_ACADEMY</ArtDefineTag>			
+			<ArtDefineTag>ART_DEF_BUILDING_IMPERIAL_JAPANESE_NAVAL_ACADEMY</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16918,7 +16918,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_MILITARY_ACADEMIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
-			<ArtDefineTag>ART_DEF_BUILDING_ROYAL_AIR_FORCE_ACADEMY</ArtDefineTag>			
+			<ArtDefineTag>ART_DEF_BUILDING_ROYAL_AIR_FORCE_ACADEMY</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16982,7 +16982,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ELITE_MILITARY_ACADEMIES</SpecialBuildingType>
 			<!-- Graphical and interface -->
-			<ArtDefineTag>ART_DEF_BUILDING_ACCADEMIA_AERONAUTICA</ArtDefineTag>			
+			<ArtDefineTag>ART_DEF_BUILDING_ACCADEMIA_AERONAUTICA</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17103,7 +17103,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
-			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_FIST</ArtDefineTag>			
+			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_FIST</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17157,7 +17157,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
-			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_FEATHER</ArtDefineTag>			
+			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_FEATHER</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17211,7 +17211,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
-			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_SHADOWS</ArtDefineTag>			
+			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_SHADOWS</ArtDefineTag>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -17272,7 +17272,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
-			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_CENTAUR</ArtDefineTag>			
+			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_CENTAUR</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17332,7 +17332,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
-			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_WARRIOR</ArtDefineTag>			
+			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_WARRIOR</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17386,7 +17386,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
-			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_WAVES</ArtDefineTag>			
+			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_WAVES</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17441,7 +17441,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
-			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_WIND</ArtDefineTag>			
+			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_WIND</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17495,7 +17495,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
-			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_WILD</ArtDefineTag>			
+			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_WILD</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17546,7 +17546,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
-			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_LEECH</ArtDefineTag>			
+			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_LEECH</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17597,7 +17597,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<SpecialBuildingType>SPECIALBUILDING_GROUP_ANCIENT_WAYS</SpecialBuildingType>
 			<!-- Graphical and interface -->
-			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_WOLF</ArtDefineTag>			
+			<ArtDefineTag>ART_DEF_BUILDING_ANCIENT_WAY_OF_THE_WOLF</ArtDefineTag>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>

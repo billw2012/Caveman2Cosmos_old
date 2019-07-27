@@ -57,7 +57,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<YieldChanges>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<iCost>-1</iCost>
 			<bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>
@@ -115,7 +115,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<YieldChanges>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<iCost>-1</iCost>
 			<bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>
@@ -173,7 +173,7 @@
 			<bNeverCapture>1</bNeverCapture>
 			<YieldChanges>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<iCost>-1</iCost>
 			<bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>

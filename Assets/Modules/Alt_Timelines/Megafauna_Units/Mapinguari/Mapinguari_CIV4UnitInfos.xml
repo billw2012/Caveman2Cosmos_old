@@ -31,7 +31,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<Domain>DOMAIN_LAND</Domain>
-			<Advisor>ADVISOR_MILITARY</Advisor>	
+			<Advisor>ADVISOR_MILITARY</Advisor>
 			<DefaultUnitAI>UNITAI_ESCORT</DefaultUnitAI>
 			<UnitAIs>
 				<UnitAI>
@@ -117,7 +117,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<Domain>DOMAIN_LAND</Domain>
-			<Advisor>ADVISOR_MILITARY</Advisor>	
+			<Advisor>ADVISOR_MILITARY</Advisor>
 			<DefaultUnitAI>UNITAI_ESCORT</DefaultUnitAI>
 			<UnitAIs>
 				<UnitAI>

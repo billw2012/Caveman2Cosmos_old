@@ -517,7 +517,7 @@
 					<UnitAIType>UNITAI_WORKER</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
-			</UnitAIs>		
+			</UnitAIs>
 			<bWorkerTrade>1</bWorkerTrade>
 			<Builds>
 				<Build>

@@ -312,7 +312,7 @@
 				<iYield>0</iYield>
 				<iYield>3</iYield>
 				<iYield>0</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<CommerceChanges/>
 			<ObsoleteSafeCommerceChanges/>
 			<CommerceChangeDoubleTimes/>
@@ -527,7 +527,7 @@
 				<iYield>0</iYield>
 				<iYield>2</iYield>
 				<iYield>2</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<CommerceChanges/>
 			<ObsoleteSafeCommerceChanges>
 				<iCommerce>0</iCommerce>

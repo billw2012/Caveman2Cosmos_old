@@ -34,7 +34,7 @@
 				<iCommerce>1</iCommerce>
 			</CommerceChanges>
 			<iAsset>5</iAsset>
-		</BuildingInfo>	
+		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_MUNICIP_COMP</BuildingClass>
 			<Type>BUILDING_MUNICIP_COMP</Type>

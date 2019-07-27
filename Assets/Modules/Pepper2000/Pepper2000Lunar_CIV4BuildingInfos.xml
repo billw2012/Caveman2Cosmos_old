@@ -458,9 +458,9 @@
 					<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 					<iSpecialistCount>1</iSpecialistCount>
 				</SpecialistCount>
-			</SpecialistCounts>	
+			</SpecialistCounts>
 			<bAutoBuild>1</bAutoBuild>
-		</BuildingInfo>	
+		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_LUNAR_WATER_EXTRACTION_FACILITY</BuildingClass>
 			<Type>BUILDING_LUNAR_WATER_EXTRACTION_FACILITY</Type>
@@ -485,7 +485,7 @@
 				<iCommerce>-100</iCommerce>
 			</CommerceChanges>
 			<BuildingClassNeededs>
-				<BuildingClassNeeded>									
+				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_LUNAR_BASE</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
@@ -497,7 +497,7 @@
 				</Property>
 			</Properties>
 			<bProvidesFreshWater>1</bProvidesFreshWater>
-		</BuildingInfo>	
+		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_LUNAR_ROCK_QUARRY</BuildingClass>
 			<Type>BUILDING_LUNAR_ROCK_QUARRY</Type>
@@ -538,7 +538,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -592,7 +592,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -662,7 +662,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GROWTH</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -714,7 +714,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GROWTH</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -775,7 +775,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GROWTH</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -818,7 +818,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -868,7 +868,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>
@@ -927,7 +927,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>
@@ -983,7 +983,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>
@@ -1038,7 +1038,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>
@@ -1093,7 +1093,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>
@@ -1170,7 +1170,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>
@@ -1212,7 +1212,7 @@
 						<iCommerce>0</iCommerce>
 						<iCommerce>5</iCommerce>
 					</CommerceModifiers>
-				</BonusCommerceModifier>	
+				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_ALGAE</BonusType>
 					<CommerceModifiers>
@@ -1240,21 +1240,21 @@
 						<iCommerce>0</iCommerce>
 						<iCommerce>10</iCommerce>
 					</CommerceModifiers>
-				</BonusCommerceModifier>	
+				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_MAGNESIUM</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
 						<iCommerce>5</iCommerce>
 					</CommerceModifiers>
-				</BonusCommerceModifier>	
+				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_PLASTIC</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
 						<iCommerce>5</iCommerce>
 					</CommerceModifiers>
-				</BonusCommerceModifier>	
+				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SYNTHETIC_RUBBER</BonusType>
 					<CommerceModifiers>
@@ -1268,7 +1268,7 @@
 						<iCommerce>0</iCommerce>
 						<iCommerce>5</iCommerce>
 					</CommerceModifiers>
-				</BonusCommerceModifier>				
+				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
 			<SpecialistCounts>
 				<SpecialistCount>
@@ -1290,7 +1290,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_SCIENCE</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>
@@ -1347,7 +1347,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GROWTH</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -1442,7 +1442,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -1502,7 +1502,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -1537,7 +1537,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -1598,7 +1598,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -1650,7 +1650,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>
@@ -1750,7 +1750,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -1816,7 +1816,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -1859,7 +1859,7 @@
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
-		</BuildingInfo>	
+		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_LUNAR_PARCOLOGY</BuildingClass>
 			<Type>BUILDING_LUNAR_PARCOLOGY</Type>
@@ -1898,7 +1898,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<PropertyManipulators>
 				<PropertySource>
@@ -1954,7 +1954,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -1990,7 +1990,7 @@
 					<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 					<iSpecialistCount>1</iSpecialistCount>
 				</SpecialistCount>
-			</SpecialistCounts>	
+			</SpecialistCounts>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_LUNAR_MANUFACTURING_PLANT</BuildingClassType>
@@ -2001,7 +2001,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -2049,7 +2049,7 @@
 					<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 					<iSpecialistCount>1</iSpecialistCount>
 				</SpecialistCount>
-			</SpecialistCounts>	
+			</SpecialistCounts>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_LUNAR_BASE</BuildingClassType>
@@ -2060,7 +2060,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_SCIENCE</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -2219,7 +2219,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GROWTH</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -2273,7 +2273,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GROWTH</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -2328,7 +2328,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>

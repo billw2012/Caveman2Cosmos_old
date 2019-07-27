@@ -1293,7 +1293,7 @@ class CvDomesticAdvisor:
 		else:
 			dDict = self.columnDict
 
-			# Build the table 
+			# Build the table
 			screen.addTableControlGFC(PAGE, len(dDict) + 2, -1, self.yTable, self.xRes + 2, self.hTable1, True, False, 24, 24, TableStyles.TABLE_STYLE_STANDARD)
 			screen.enableSort(PAGE)
 			screen.setStyle(PAGE, "Table_StandardCiv_Style")

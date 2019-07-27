@@ -329,7 +329,7 @@
 		<Italian>Riassegna tutte le posizioni iniziali in rapporto alle distanze tra le civiltà sulla Terra.</Italian>
 		<Spanish>Reasigna todos los emplazamientos iniciales según la distancia real entre civilizaciones en la Tierra.</Spanish>
 		<Polish>Rozdziela wszystkim startowe lokalizacje w zależności od odległości pomiędzy cywilizacjami na Ziemi.</Polish>
-	</TEXT>	
+	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GAMEOPTION_DANGEROUS_WILDLIFE</Tag>
 		<English>Dangerous Wildlife</English>
@@ -337,7 +337,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_GAMEOPTION_DANGEROUS_WILDLIFE_HELP</Tag>
 		<English>All animals can spawn not only within borders, but on improved tiles too.[NEWLINE]Your civilians are tasty - protect them within your borders too.[NEWLINE]This option is polar opposite of "Keep Animals Out" - Dangerous Wildlife disables it.</English>
-	</TEXT>	
+	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GAMEOPTION_DIVINE_PROPHETS</Tag>
 		<English>Divine Prophets</English>
@@ -1505,12 +1505,12 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GAMEOPTION_VANILLA_COMBAT_ENGINE_HELP</Tag>
-		<English>This option returns the combat system to one much closer to the original.  
-		
-		In C2C combat, units recalculate their strength every round based on damage they may have taken in the last combat round.  Furthermore, it is not only one unit that hits each round but both can hit and both can miss.  The difference does change some aspects and the feel of combat and what you can expect from combat results.  
-		
-		For example, first strikes become much more powerful than they were on Vanilla BTS because hits taken before you can even counterattack will make all subsequent attacks you make much weaker.  
-		
+		<English>This option returns the combat system to one much closer to the original.
+
+		In C2C combat, units recalculate their strength every round based on damage they may have taken in the last combat round.  Furthermore, it is not only one unit that hits each round but both can hit and both can miss.  The difference does change some aspects and the feel of combat and what you can expect from combat results.
+
+		For example, first strikes become much more powerful than they were on Vanilla BTS because hits taken before you can even counterattack will make all subsequent attacks you make much weaker.
+
 		In essence, this will mean that overwhelming numbers of units have a better chance to wear down stronger units whereas assumed C2C rules allow superior quality units to be much more powerful against lesser opponent units.</English>
 		<German>Diese Einstellung setzt die durch C2C vorgenommenen Änderungen am Kampfsystem zurück, so dass es wieder viel näher am Original-BTS-Kampfsystem ist.</German>
 	</TEXT>

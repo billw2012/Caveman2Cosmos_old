@@ -19,10 +19,10 @@
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<OrPreReqs>
-				<PrereqTech>TECH_PESTICIDES</PrereqTech>				
+				<PrereqTech>TECH_PESTICIDES</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_ARCHEOLOGY</PrereqTech>				
+				<PrereqTech>TECH_ARCHEOLOGY</PrereqTech>
 			</AndPreReqs>
 			<!-- Special effects -->
 			<FirstFreeProphet>UNITCLASS_PROPHET</FirstFreeProphet>

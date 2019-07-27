@@ -180,7 +180,7 @@
 				<BuildingType>BUILDING_HORSE_NATIONAL</BuildingType>
 			</PrereqOrBuildings>
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
-			<BonusType>BONUS_HORSE</BonusType>			
+			<BonusType>BONUS_HORSE</BonusType>
 			<iCost>60</iCost>
 			<iMoves>3</iMoves>
 			<iWithdrawalProb>60</iWithdrawalProb>

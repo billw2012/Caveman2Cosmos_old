@@ -11507,7 +11507,7 @@
 				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_ARCHER</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade> 
+				</UnitClassUpgrade>
 				-->
 				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_JAVELINEER</UnitClassUpgradeType>
@@ -56820,7 +56820,7 @@
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_NEANDERTHAL_BRUTE</Class>
 			<Type>UNIT_NEANDERTHAL_BRUTE</Type>

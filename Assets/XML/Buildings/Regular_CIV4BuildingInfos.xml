@@ -383,7 +383,7 @@
 					<iAmountPerTurn>4</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
-			<iAIWeight>1</iAIWeight> 
+			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Accounting Firm -->
@@ -529,7 +529,7 @@
 				</Flavor>
 			</Flavors>
 			<iHurryCostModifier>50</iHurryCostModifier>
-			<iAIWeight>1</iAIWeight> 
+			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Advanced Shielding -->
@@ -591,7 +591,7 @@
 					<iAmountPerTurn>-10</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
-			<iAIWeight>1</iAIWeight> 
+			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Adventure Tours Franchise -->
@@ -1671,7 +1671,7 @@
 				</PrereqCivic>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
-			<!-- Obsolescence -->			
+			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_MATRIARCHY</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>5</iCost>
@@ -1723,7 +1723,7 @@
 				</PrereqCivic>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
-			<!-- Obsolescence -->			
+			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_PATRIARCHY</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>5</iCost>
@@ -2744,7 +2744,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 			<iAIWeight>1</iAIWeight>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Anima Studio -->
 			<BuildingClass>BUILDINGCLASS_ANIMA_STUDIO</BuildingClass>
@@ -12606,7 +12606,7 @@
 				</PrereqCivic>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
-			<!-- Obsolescence -->			
+			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_HUMANISM</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>56</iCost>
@@ -18177,7 +18177,7 @@
 				</Flavor>
 			</Flavors>
 			<iAIWeight>1</iAIWeight>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Camel Trainer -->
 			<BuildingClass>BUILDINGCLASS_CAMEL_TRAINER</BuildingClass>
@@ -18807,7 +18807,7 @@
 				</Flavor>
 			</Flavors>
 			<iConquestProb>75</iConquestProb>
-			<!-- Properties diffusion 
+			<!-- Properties diffusion
 			<PropertyManipulators>
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
@@ -19514,7 +19514,7 @@
 				<iYield>0</iYield>
 				<iYield>10</iYield>
 			</YieldModifiers>
-			<!-- Misc. Effects 
+			<!-- Misc. Effects
 			<iMilitaryProductionModifier>-10</iMilitaryProductionModifier>-->
 			<!-- Other -->
 			<iHurryCostModifier>100</iHurryCostModifier>
@@ -20836,7 +20836,7 @@
 					<iAmountPerTurn>5</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
-			<iAIWeight>1</iAIWeight>			
+			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Cellphone Store -->
@@ -21533,7 +21533,7 @@
 					<BuildingClassType>BUILDINGCLASS_OFFICIUM</BuildingClassType>
 					<bPrereqBuildingClass>1</bPrereqBuildingClass>
 				</PrereqOrBuildingClass>
-			</PrereqOrBuildingClasses>			
+			</PrereqOrBuildingClasses>
 			<PrereqOrCivics>
 				<PrereqCivic>
 					<CivicOption>CIVIC_CORPORATIST</CivicOption>
@@ -24449,7 +24449,7 @@
 					<iAmountPerTurn>-5</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
-			<iAIWeight>1</iAIWeight>			
+			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Civil Servant's School -->
@@ -28830,7 +28830,7 @@
 				</Flavor>
 			</Flavors>
 			<iAIWeight>1</iAIWeight>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Cow Shrine -->
 			<BuildingClass>BUILDINGCLASS_COW_SHRINE</BuildingClass>
@@ -30227,7 +30227,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 			<iAIWeight>1</iAIWeight>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Cybernetica Apparel Shop -->
 			<BuildingClass>BUILDINGCLASS_CYBERNETICA_APPAREL_SHOP</BuildingClass>
@@ -30347,7 +30347,7 @@
 				<Bonus>BONUS_POTTERY</Bonus>
 				<Bonus>BONUS_LEATHER</Bonus>
 				<Bonus>BONUS_WOOD</Bonus>
-			</PrereqBonuses>			
+			</PrereqBonuses>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
 					<BuildingClassType>BUILDINGCLASS_COW_FARM</BuildingClassType>
@@ -30394,9 +30394,9 @@
 				<BonusHealthChange>
 					<BonusType>BONUS_GLASS</BonusType>
 					<iHealthChange>1</iHealthChange>
-				</BonusHealthChange>				
+				</BonusHealthChange>
 			</BonusHealthChanges>
-			<!-- Other -->			
+			<!-- Other -->
 			<iHurryCostModifier>100</iHurryCostModifier>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -41469,7 +41469,7 @@
 				</Flavor>
 			</Flavors>
 			<iConquestProb>75</iConquestProb>
-			<!-- Properties diffusion 
+			<!-- Properties diffusion
 			<PropertyManipulators>
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
@@ -42863,7 +42863,7 @@
 				<Bonus>BONUS_ALCOHOL</Bonus>
 				<Bonus>BONUS_BARRELS</Bonus>
 				<Bonus>BONUS_WATERBOTTLE</Bonus>
-			</PrereqBonuses>			
+			</PrereqBonuses>
 			<!-- Construction cost -->
 			<iCost>11355</iCost>
 			<!-- Main effects -->
@@ -64488,7 +64488,7 @@
 					<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
-			</BuildingClassNeededs>			
+			</BuildingClassNeededs>
 			<!-- Construction cost -->
 			<iCost>3245</iCost>
 			<!-- Main effects -->
@@ -66070,7 +66070,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 			<iAIWeight>1</iAIWeight>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Microsatellite Constellation -->
 			<BuildingClass>BUILDINGCLASS_MICROSATELLITE_CONSTELLATION</BuildingClass>
@@ -69361,7 +69361,7 @@
 					<bPrereqCivic>1</bPrereqCivic>
 				</PrereqCivic>
 			</PrereqAndCivics>
-			<bRequiresActiveCivics>1</bRequiresActiveCivics>			
+			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
 			<iCost>184</iCost>
 			<!-- Main effects -->
@@ -70959,7 +70959,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 			<iAIWeight>1</iAIWeight>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Nanobot Traps -->
 			<BuildingClass>BUILDINGCLASS_NANO_TRAPS</BuildingClass>
@@ -71207,7 +71207,7 @@
 					<iAmountPerTurn>5</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
-			<iAIWeight>1</iAIWeight>			
+			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Factory (Nanogenerators) -->
@@ -75292,7 +75292,7 @@
 				</Flavor>
 			</Flavors>
 			<iAIWeight>1</iAIWeight>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Oxen Mill -->
 			<BuildingClass>BUILDINGCLASS_OXEN_MILL</BuildingClass>
@@ -76917,7 +76917,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 			<iAIWeight>1</iAIWeight>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Parts Plant -->
 			<BuildingClass>BUILDINGCLASS_PARTS_PLANT</BuildingClass>
@@ -77069,7 +77069,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 			<iAIWeight>1</iAIWeight>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Pasta Maker's Shop -->
 			<BuildingClass>BUILDINGCLASS_PASTA_MAKER_SHOP</BuildingClass>
@@ -78582,7 +78582,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 			<iAIWeight>1</iAIWeight>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Philanthropic Organization -->
 			<BuildingClass>BUILDINGCLASS_PHILANTHROPIC_ORGANIZAZATION</BuildingClass>
@@ -81095,7 +81095,7 @@
 				</PrereqCivic>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
-			<!-- Obsolescence -->			
+			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_REPRESENTATIVE_DEMOCRACY</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>234</iCost>
@@ -82445,7 +82445,7 @@
 				</BonusHappinessChange>
 			</BonusHappinessChanges>
 			<!-- Other -->
-			<iHurryCostModifier>100</iHurryCostModifier>			
+			<iHurryCostModifier>100</iHurryCostModifier>
 			<PropertyManipulators>
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
@@ -84117,7 +84117,7 @@
 			<bPrereqPower>1</bPrereqPower>
 			<Bonus>BONUS_COPPERWIRES</Bonus>
 			<PrereqBonuses>
-				<Bonus>BONUS_GLASS</Bonus>				
+				<Bonus>BONUS_GLASS</Bonus>
 				<Bonus>BONUS_TRANSISTORS</Bonus>
 				<Bonus>BONUS_SEMICONDUCTORS</Bonus>
 			</PrereqBonuses>
@@ -92373,7 +92373,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 			<iAIWeight>1</iAIWeight>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Shopping District -->
 			<BuildingClass>BUILDINGCLASS_SHOPPING_DISTRICT</BuildingClass>
@@ -99096,7 +99096,7 @@
 			</CommerceChanges>
 			<!-- Other -->
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<!-- Properties diffusion 
+			<!-- Properties diffusion
 			<Properties>
 				<Property>
 					<PropertyType>PROPERTY_FLAMMABILITY</PropertyType>
@@ -108423,7 +108423,7 @@
 			</BonusCommerceModifiers>
 			<!-- Other -->
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<!-- Properties diffusion 
+			<!-- Properties diffusion
 			<PropertyManipulators>
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
@@ -109892,7 +109892,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqTech>TECH_HERBALISM</PrereqTech>
-			<!-- Obsolescence 
+			<!-- Obsolescence
 			<ObsoleteTech>TECH_AGRICULTURE</ObsoleteTech> -->
 			<!-- Construction cost -->
 			<iCost>20</iCost>
@@ -112858,7 +112858,7 @@
                     <iNumBuildingNeeded>1</iNumBuildingNeeded>
                 </PrereqBuildingClass>
             </PrereqBuildingClasses>
-			<BuildingClassNeededs>				
+			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_SPY_HIDEOUT</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
@@ -115315,8 +115315,8 @@
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<PrereqBonuses>
 				<Bonus>BONUS_CLOTHES</Bonus>
-				<Bonus>BONUS_STRAW</Bonus>			
-			</PrereqBonuses>		
+				<Bonus>BONUS_STRAW</Bonus>
+			</PrereqBonuses>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_PEST_CROWS</BuildingClassType>
@@ -115391,8 +115391,8 @@
 			<PrereqTech>TECH_DECRYPTION_MACHINES</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<PrereqBonuses>
-				<Bonus>BONUS_PARTS</Bonus>		
-			</PrereqBonuses>				
+				<Bonus>BONUS_PARTS</Bonus>
+			</PrereqBonuses>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
@@ -115428,7 +115428,7 @@
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>2</iCommerce>						
+						<iCommerce>2</iCommerce>
 					</TechCommerce>
 				</TechCommerceChange>
 				<TechCommerceChange>
@@ -115437,16 +115437,16 @@
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>2</iCommerce>						
+						<iCommerce>2</iCommerce>
 					</TechCommerce>
-				</TechCommerceChange>			
+				</TechCommerceChange>
 				<TechCommerceChange>
 					<PrereqTech>TECH_CYBERWARFARE</PrereqTech>
 					<TechCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>2</iCommerce>						
+						<iCommerce>2</iCommerce>
 					</TechCommerce>
 				</TechCommerceChange>
 				<TechCommerceChange>
@@ -115455,10 +115455,10 @@
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
-						<iCommerce>2</iCommerce>						
+						<iCommerce>2</iCommerce>
 					</TechCommerce>
-				</TechCommerceChange>					
-			</TechCommerceChanges>			
+				</TechCommerceChange>
+			</TechCommerceChanges>
 			<!-- Specialist effects -->
 			<SpecialistCounts>
 				<SpecialistCount>

@@ -194,7 +194,7 @@
                 <MapCategoryType>MAPCATEGORY_LUNAR</MapCategoryType>
 			</MapCategoryTypes>
 			<BonusType>BONUS_ROCKETFUEL</BonusType>
-            <iMoves>24</iMoves>			
+            <iMoves>24</iMoves>
             <bCanMoveAllTerrain>1</bCanMoveAllTerrain>
 			<bCanMoveImpassable>1</bCanMoveImpassable>
         </UnitInfo>

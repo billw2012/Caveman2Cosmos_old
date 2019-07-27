@@ -32,7 +32,7 @@
 				<iCommerce>0</iCommerce>
 				<iCommerce>1</iCommerce>
 			</CommerceChanges>
-		</BuildingInfo>	
+		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_PROTEIN_ARTIST</BuildingClass>
 			<Type>BUILDING_PROTEIN_ARTIST</Type>
@@ -590,6 +590,6 @@
 					<iAmountPerTurn>13</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
-		</BuildingInfo>	
+		</BuildingInfo>
 	</BuildingInfos>
 </Civ4BuildingInfos>

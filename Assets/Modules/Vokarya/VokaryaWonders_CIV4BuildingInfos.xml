@@ -1161,7 +1161,7 @@
 				<BonusType>BONUS_CEMENT</BonusType>
 			</PrereqBonuses>
 			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
-			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>			
+			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>5220</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>

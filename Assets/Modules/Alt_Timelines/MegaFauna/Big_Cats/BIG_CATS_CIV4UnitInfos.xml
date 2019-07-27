@@ -76,7 +76,7 @@
 					<UnitClassUpgradeType>UNITCLASS_WARCAT</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
-			</UnitClassUpgrades>			
+			</UnitClassUpgrades>
 			<Invisible>INVISIBLE_CAMOUFLAGE</Invisible>
 			<InvisibilityIntensityTypes>
 				<InvisibilityIntensityType>
@@ -101,8 +101,8 @@
 					<UnitCombatTargetType>UNITCOMBAT_STRIKE_TEAM</UnitCombatTargetType>
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
-			</UnitCombatTargets>	
-			<iCost>98</iCost>			
+			</UnitCombatTargets>
+			<iCost>98</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>5</iCombat>
 			<FlankingStrikesbyUnitCombat>
@@ -303,7 +303,7 @@
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_GUARDCAT</Class>
 			<Type>UNIT_GUARDCAT</Type>
@@ -379,14 +379,14 @@
 					<UnitClassUpgradeType>UNITCLASS_POLICE_CAT</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
-			</UnitClassUpgrades>			
+			</UnitClassUpgrades>
 			<Invisible>INVISIBLE_CAMOUFLAGE</Invisible>
 			<InvisibilityIntensityTypes>
 				<InvisibilityIntensityType>
 					<InvisibleType>INVISIBLE_CAMOUFLAGE</InvisibleType>
 					<iIntensity>4</iIntensity>
 				</InvisibilityIntensityType>
-			</InvisibilityIntensityTypes>	
+			</InvisibilityIntensityTypes>
 			<bNoCapture>1</bNoCapture>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
@@ -408,8 +408,8 @@
 					<UnitCombatTargetType>UNITCOMBAT_RUFFIAN</UnitCombatTargetType>
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
-			</UnitCombatTargets>	
-			<iCost>425</iCost>			
+			</UnitCombatTargets>
+			<iCost>425</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>20</iCombat>
 			<FlankingStrikesbyUnitCombat>
@@ -453,7 +453,7 @@
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_POLICE_CAT</Class>
 			<Type>UNIT_POLICE_CAT</Type>
@@ -533,14 +533,14 @@
 					<UnitClassUpgradeType>UNITCLASS_FELINE_SUPERIOR</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
-			</UnitClassUpgrades>			
+			</UnitClassUpgrades>
 			<Invisible>INVISIBLE_CAMOUFLAGE</Invisible>
 			<InvisibilityIntensityTypes>
 				<InvisibilityIntensityType>
 					<InvisibleType>INVISIBLE_CAMOUFLAGE</InvisibleType>
 					<iIntensity>5</iIntensity>
 				</InvisibilityIntensityType>
-			</InvisibilityIntensityTypes>	
+			</InvisibilityIntensityTypes>
 			<bNoCapture>1</bNoCapture>
 			<bMilitaryHappiness>1</bMilitaryHappiness>
 			<bMilitarySupport>1</bMilitarySupport>
@@ -568,8 +568,8 @@
 					<UnitCombatTargetType>UNITCOMBAT_RUFFIAN</UnitCombatTargetType>
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
-			</UnitCombatTargets>	
-			<iCost>800</iCost>			
+			</UnitCombatTargets>
+			<iCost>800</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>36</iCombat>
 			<FlankingStrikesbyUnitCombat>
@@ -634,7 +634,7 @@
 					<iAmountPerTurn>-5</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_FELINE_SUPERIOR</Class>
 			<Type>UNIT_FELINE_SUPERIOR</Type>
@@ -713,7 +713,7 @@
 					<BonusType>BONUS_CAT</BonusType>
 					<iProductonModifier>15</iProductonModifier>
 				</BonusProductionModifier>
-			</BonusProductionModifiers>		
+			</BonusProductionModifiers>
 			<Invisible>INVISIBLE_CAMOUFLAGE</Invisible>
 			<InvisibilityIntensityTypes>
 				<InvisibilityIntensityType>
@@ -724,7 +724,7 @@
 					<InvisibleType>INVISIBLE_INVISIBLE</InvisibleType>
 					<iIntensity>2</iIntensity>
 				</InvisibilityIntensityType>
-			</InvisibilityIntensityTypes>	
+			</InvisibilityIntensityTypes>
 			<bNoCapture>1</bNoCapture>
 			<bMilitaryHappiness>1</bMilitaryHappiness>
 			<bMilitarySupport>1</bMilitarySupport>
@@ -752,8 +752,8 @@
 					<UnitCombatTargetType>UNITCOMBAT_RUFFIAN</UnitCombatTargetType>
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
-			</UnitCombatTargets>	
-			<iCost>5300</iCost>			
+			</UnitCombatTargets>
+			<iCost>5300</iCost>
 			<iMoves>3</iMoves>
 			<iCombat>160</iCombat>
 			<FlankingStrikesbyUnitCombat>

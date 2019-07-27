@@ -3505,7 +3505,7 @@
 			<TechReveal>TECH_SIMULATION_AWARENESS</TechReveal>
 			<TechCityTrade>TECH_SIMULATION_AWARENESS</TechCityTrade>
 			<iPlacementOrder>-1</iPlacementOrder>
-		</BonusInfo>	
+		</BonusInfo>
 		<BonusInfo>
 			<Type>BONUS_WATERPROOF_CEMENT</Type>
 			<Description>TXT_KEY_BONUS_WATERPROOF_CEMENT</Description>

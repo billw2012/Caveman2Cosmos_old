@@ -285,7 +285,7 @@
 				<AudioRunTypeLoop />
 				<AudioRunTypeEnd />
 			</AudioRunSounds>
-		</UnitArtInfo>	
+		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_DEER_ARCHER_MEAST</Type>
 			<Button>Art/Interface/Buttons/Units/Deer_Archer.dds</Button>
@@ -379,7 +379,7 @@
 				<AudioRunTypeLoop />
 				<AudioRunTypeEnd />
 			</AudioRunSounds>
-		</UnitArtInfo>	
+		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_DEER_ARCHER_INDIA</Type>
 			<Button>Art/Interface/Buttons/Units/Deer_Archer.dds</Button>
@@ -426,7 +426,7 @@
 				<AudioRunTypeLoop />
 				<AudioRunTypeEnd />
 			</AudioRunSounds>
-		</UnitArtInfo>		
+		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_DEERRIDER_GREEK</Type>
 			<Button>Art/Interface/Buttons/Units/Deer_Rider.dds</Button>
@@ -450,6 +450,6 @@
 				<AudioRunTypeLoop />
 				<AudioRunTypeEnd />
 			</AudioRunSounds>
-		</UnitArtInfo>	
+		</UnitArtInfo>
 	</UnitArtInfos>
 </Civ4ArtDefines>

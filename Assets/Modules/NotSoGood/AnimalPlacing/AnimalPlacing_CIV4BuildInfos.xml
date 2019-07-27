@@ -62,7 +62,7 @@
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<Button>,Art/Interface/Buttons/WorldBuilder/Ivory.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,13</Button>
-		</BuildInfo>		
+		</BuildInfo>
 		<BuildInfo>
 			<Type>BUILD_BONUS_BISON</Type>
 			<Description>TXT_KEY_PLACE_BISON</Description>
@@ -595,7 +595,7 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<Button>,Art/Interface/Buttons/WorldBuilder/Wheat.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,2,16</Button>
 		</BuildInfo>
-				
+
 		<BuildInfo>
 			<Type>BUILD_BONUS_ALMONDS</Type>
 			<Description>TXT_KEY_PLACE_ALMONDS</Description>
@@ -824,7 +824,7 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<Button>Art/Interface/Buttons/WorldBuilder/Wine2.dds</Button>
 		</BuildInfo>
-		
+
 		<BuildInfo>
 			<Type>BUILD_BONUS_HENNA</Type>
 			<Description>TXT_KEY_PLACE_HENNA</Description>
@@ -901,7 +901,7 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<Button>Art/Interface/Buttons/Resources/Timber_button.dds</Button>
 		</BuildInfo>
-		
+
 		<BuildInfo>
 			<Type>BUILD_BONUS_CANNABIS</Type>
 			<Description>TXT_KEY_PLACE_CANNABIS</Description>
@@ -1243,6 +1243,6 @@
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<Button>Art/Interface/Buttons/WorldBuilder/vanilla.dds</Button>
-		</BuildInfo>		
+		</BuildInfo>
 	</BuildInfos>
 </Civ4BuildInfos>

@@ -2,7 +2,7 @@
 ## Copyright Firaxis Games 2005
 ##
 ## #####   WARNING - MODIFYING THE FUNCTION NAMES OF THIS FILE IS PROHIBITED  #####
-## 
+##
 ## The app specifically calls the functions as they are named.
 ## Use this file to pass args to another file that contains your modifications.
 

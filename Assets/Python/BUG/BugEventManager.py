@@ -112,8 +112,8 @@ class BugEventManager(CvEventManager.CvEventManager):
 	Instead of modifying this file as you would have done with CvCustomEventManager,
 	use the <event> and <events> tags in your mod's initialization XML file.
 
-	Methods exist for both adding and removing event handlers.  A set method 
-	also exists to override the default handlers.  Clients should not depend 
+	Methods exist for both adding and removing event handlers.  A set method
+	also exists to override the default handlers.  Clients should not depend
 	on event handlers being called in a particular order, though they are
 	called in the order in which they are added.
 
@@ -128,7 +128,7 @@ class BugEventManager(CvEventManager.CvEventManager):
 	additional handlers should not also call the base class function themselves.
 
 	It's best *not* to extend CvEventManager or CvCustomEventManager. In fact,
-	you are free to use module methods outside classes if you wish. 
+	you are free to use module methods outside classes if you wish.
 	"""
 
 	def __init__(self):
@@ -202,7 +202,7 @@ class BugEventManager(CvEventManager.CvEventManager):
 
 		If eventHandler is None, the event is added if necessary without a handler.
 
-		A list of supported event types can be found in the initialization 
+		A list of supported event types can be found in the initialization
 		of EventHandlerMap in the CvEventManager class. A debug message is
 		printed if the event type doesn't exist.
 		"""
@@ -214,8 +214,8 @@ class BugEventManager(CvEventManager.CvEventManager):
 	def removeEventHandler(self, eventType, eventHandler):
 		"""Removes a handler for the given event type.
 
-		A list of supported event types can be found in the initialization 
-		of EventHandlerMap in the CvEventManager class.  It is an error if 
+		A list of supported event types can be found in the initialization
+		of EventHandlerMap in the CvEventManager class.  It is an error if
 		the given handler is not found in the list of installed handlers.
 
 		Throws ConfigError if the eventType is undefined.
@@ -224,12 +224,12 @@ class BugEventManager(CvEventManager.CvEventManager):
 		self.EventHandlerMap[eventType].remove(eventHandler)
 
 	def setEventHandler(self, eventType, eventHandler):
-		"""Removes all previously installed event handlers for the given 
+		"""Removes all previously installed event handlers for the given
 		event type and installs a new handler, adding the event if necessary.
 
-		A list of supported event types can be found in the initialization 
-		of EventHandlerMap in the CvEventManager class.  This method is 
-		primarily useful for overriding, rather than extending, the default 
+		A list of supported event types can be found in the initialization
+		of EventHandlerMap in the CvEventManager class.  This method is
+		primarily useful for overriding, rather than extending, the default
 		event handler functionality.
 		"""
 		if not self.hasEvent(eventType):
@@ -257,7 +257,7 @@ class BugEventManager(CvEventManager.CvEventManager):
 		self.setPopupHandler(eventType, (name, applyFunction, beginFunction))
 
 	def removePopupHandler(self, eventType):
-		"""Removes all previously installed popup handlers for the given 
+		"""Removes all previously installed popup handlers for the given
 		event type.
 
 		The eventType should be an integer. It is an error to fire this
@@ -329,7 +329,7 @@ class BugEventManager(CvEventManager.CvEventManager):
 
 	def _handleOnPreSaveEvent(self, eventType, argsList):
 		"""Tells BugData to save all script data after other handlers have been called.
-		This won't work as a normal handler because it must be done after other handlers. 
+		This won't work as a normal handler because it must be done after other handlers.
 		"""
 		self._handleDefaultEvent(eventType, argsList)
 		BugData.save()

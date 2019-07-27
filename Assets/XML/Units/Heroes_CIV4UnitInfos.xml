@@ -25485,7 +25485,7 @@
 					<UnitAIType>UNITAI_CITY_COUNTER</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
-			</UnitAIs>			
+			</UnitAIs>
 			<GreatPeoples>
 				<GreatPeople>
 					<GreatPeopleType>SPECIALIST_CITIZEN</GreatPeopleType>
@@ -57020,6 +57020,6 @@
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 			</FreePromotions>
-		</UnitInfo>		
+		</UnitInfo>
 	</UnitInfos>
 </Civ4UnitInfos>

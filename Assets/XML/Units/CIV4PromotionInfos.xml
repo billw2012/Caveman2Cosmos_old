@@ -14190,7 +14190,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<iVictoryHeal>15</iVictoryHeal>
 			<Button>Art/Interface/Buttons/Promotions/StarSigns/gemini.dds</Button>
-		</PromotionInfo>		
+		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_LEO</Type>
 			<Description>TXT_KEY_PROMOTION_LEO</Description>
@@ -14456,7 +14456,7 @@
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
 					<iUnitCombatMod>25</iUnitCombatMod>
-				</UnitCombatMod>				
+				</UnitCombatMod>
 			</UnitCombatMods>
 			<UnitCombats>
 				<UnitCombat>
@@ -21756,7 +21756,7 @@
 				</UnitCombat>
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Promotions/powerattack.dds</Button>
-		</PromotionInfo>		
+		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_ANIMAL_HUNTER</Type>
 			<Description>TXT_KEY_PROMOTION_ANIMAL_HUNTER</Description>
@@ -21793,7 +21793,7 @@
 				</UnitCombat>
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Promotions/callofprotection.dds</Button>
-		</PromotionInfo>		
+		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_SEA_ANIMAL_HUNTER</Type>
 			<Description>TXT_KEY_PROMOTION_SEA_ANIMAL_HUNTER</Description>
@@ -21822,7 +21822,7 @@
 				</UnitCombat>
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Promotions/callofprotection.dds</Button>
-		</PromotionInfo>	
+		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_MARTIAL_ARTS</Type>
 			<AndDependencyTypes>
@@ -25403,7 +25403,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<TechPrereq>TECH_LOCKS</TechPrereq>
 			<PromotionLine>PROMOTIONLINE_CORRUPTION</PromotionLine>
-			<iLinePriority>2</iLinePriority>	
+			<iLinePriority>2</iLinePriority>
 			<iStealthCombatModifierChange>5</iStealthCombatModifierChange>
 			<iInsidiousnessChange>2</iInsidiousnessChange>
 			<iRevoltProtection>-2</iRevoltProtection>
@@ -27819,10 +27819,10 @@
 			</UnitCombatMods>
 			<Button>Art/Interface/Buttons/Promotions/animal_snow.dds</Button>
 		</PromotionInfo>
-		
-		
-		
-		
+
+
+
+
 		<!--ONLY BUILDUPS (AND LATER STATUSES) PAST THIS POINT!-->
 		<PromotionInfo>
 			<Type>PROMOTION_BUILD_UP_CHASE_PLANS1</Type>
@@ -30121,11 +30121,11 @@
 			<iRevoltProtection>2</iRevoltProtection>
 			<Button>,Art/Buttons/Promotions/Patriotism5Buildup.dds</Button>
 		</PromotionInfo>
-		
-		
-		
-		
-		
+
+
+
+
+
 		<!--ONLY STATUSES PAST THIS POINT!-->
 		<PromotionInfo>
 			<Type>PROMOTION_STANDOUT_STATUS</Type>
@@ -30709,7 +30709,7 @@
 			<bQuick>1</bQuick>
 			<bRemoveAfterSet>1</bRemoveAfterSet>
 			<PromotionLine>PROMOTIONLINE_STAY_THE_HAND</PromotionLine>
-			<iLinePriority>1</iLinePriority>	
+			<iLinePriority>1</iLinePriority>
 			<Button>Art/Buttons/Promotions/RemoveStayTheHandStatus.dds</Button>
 		</PromotionInfo>
 		<PromotionInfo>
@@ -30735,7 +30735,7 @@
 			<bQuick>1</bQuick>
 			<bRemoveAfterSet>1</bRemoveAfterSet>
 			<PromotionLine>PROMOTIONLINE_SURPRISE</PromotionLine>
-			<iLinePriority>1</iLinePriority>	
+			<iLinePriority>1</iLinePriority>
 			<Button>Art/Buttons/Promotions/RemoveSurpriseStatus.dds</Button>
 		</PromotionInfo>
 		<PromotionInfo>
@@ -30751,7 +30751,7 @@
 			</UnitCombats>
 			<iStrengthChange>1</iStrengthChange>
 			<Button>Art/Buttons/Promotions/WayOfTheCentaurPromotion.dds</Button>
-		</PromotionInfo>	
+		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_WAY_OF_THE_FIST</Type>
 			<Description>TXT_KEY_PROMOTION_WAY_OF_THE_FIST</Description>
@@ -30781,7 +30781,7 @@
 				</PropertySource>
 			</PropertyManipulators>
 			<Button>Art/Buttons/Promotions/WayOfTheFistPromotion.dds</Button>
-		</PromotionInfo>	
+		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_WAY_OF_THE_FEATHER</Type>
 			<Description>TXT_KEY_PROMOTION_WAY_OF_THE_FEATHER</Description>
@@ -30795,7 +30795,7 @@
 			</UnitCombats>
 			<iStrengthChange>1</iStrengthChange>
 			<Button>Art/Buttons/Promotions/WayOfTheFeatherPromotion.dds</Button>
-		</PromotionInfo>	
+		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_WAY_OF_THE_WAVES</Type>
 			<Description>TXT_KEY_PROMOTION_WAY_OF_THE_WAVES</Description>
@@ -30809,7 +30809,7 @@
 			</UnitCombats>
 			<iStrengthChange>1</iStrengthChange>
 			<Button>Art/Buttons/Promotions/WayOfTheWavesPromotion.dds</Button>
-		</PromotionInfo>	
+		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_WAY_OF_THE_WIND</Type>
 			<Description>TXT_KEY_PROMOTION_WAY_OF_THE_WIND</Description>
@@ -30823,7 +30823,7 @@
 			</UnitCombats>
 			<iStrengthChange>1</iStrengthChange>
 			<Button>Art/Buttons/Promotions/WayOfTheWindPromotion.dds</Button>
-		</PromotionInfo>	
+		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_WAY_OF_THE_WARRIOR</Type>
 			<Description>TXT_KEY_PROMOTION_WAY_OF_THE_WARRIOR</Description>
@@ -30837,7 +30837,7 @@
 			</UnitCombats>
 			<iStrengthChange>1</iStrengthChange>
 			<Button>Art/Buttons/Promotions/WayOfTheWarriorPromotion.dds</Button>
-		</PromotionInfo>	
+		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_WAY_OF_THE_SHADOWS</Type>
 			<Description>TXT_KEY_PROMOTION_WAY_OF_THE_SHADOWS</Description>
@@ -30859,7 +30859,7 @@
 			</UnitCombats>
 			<iStrengthChange>1</iStrengthChange>
 			<Button>Art/Buttons/Promotions/WayOfTheShadowsPromotion.dds</Button>
-		</PromotionInfo>	
+		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_WAY_OF_THE_LEECH</Type>
 			<Description>TXT_KEY_PROMOTION_WAY_OF_THE_LEECH</Description>
@@ -30889,7 +30889,7 @@
 			  </PropertySource>
 			</PropertyManipulators>
 			<Button>Art/Buttons/Promotions/WayOfTheLeechPromotion.dds</Button>
-		</PromotionInfo>	
+		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_WAY_OF_THE_WOLF</Type>
 			<Description>TXT_KEY_PROMOTION_WAY_OF_THE_WOLF</Description>
@@ -30905,7 +30905,7 @@
 			<iMoveDiscountChange>1</iMoveDiscountChange>
 			<iVisibilityChange>1</iVisibilityChange>
 			<Button>Art/Buttons/Promotions/WayOfTheWolfPromotion.dds</Button>
-		</PromotionInfo>	
+		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_WAY_OF_THE_WILD</Type>
 			<Description>TXT_KEY_PROMOTION_WAY_OF_THE_WILD</Description>
@@ -30921,7 +30921,7 @@
 			<iMoveDiscountChange>1</iMoveDiscountChange>
 			<iVisibilityChange>1</iVisibilityChange>
 			<Button>Art/Buttons/Promotions/WayOfTheWildPromotion.dds</Button>
-		</PromotionInfo>	
+		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_CARAVAN_GUARD_I</Type>
 			<Description>TXT_KEY_CARAVAN_GUARD_I</Description>

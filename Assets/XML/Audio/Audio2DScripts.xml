@@ -27468,7 +27468,7 @@
 		<fMinWetLevel>0.0</fMinWetLevel>
 		<fMaxWetLevel>0.0</fMaxWetLevel>
 		<iNotPlayPercent>0</iNotPlayPercent>
-	</Script2DSound>	
+	</Script2DSound>
 	<Script2DSound>
 		<ScriptID>AS2D_TECH_OilExtraction</ScriptID>
 		<SoundID>SND_TECH_OilExtraction</SoundID>
@@ -28388,7 +28388,7 @@
 		<fMinWetLevel>0.0</fMinWetLevel>
 		<fMaxWetLevel>0.0</fMaxWetLevel>
 		<iNotPlayPercent>0</iNotPlayPercent>
-	</Script2DSound>	
+	</Script2DSound>
 	<Script2DSound>
 		<ScriptID>AS2D_SHIP_LOAD_MINE</ScriptID>
 		<SoundID>SND_SHIP_LOAD_MINE</SoundID>
@@ -28457,7 +28457,7 @@
 		<fMinWetLevel>0.0</fMinWetLevel>
 		<fMaxWetLevel>0.0</fMaxWetLevel>
 		<iNotPlayPercent>0</iNotPlayPercent>
-	</Script2DSound>	
+	</Script2DSound>
 	<Script2DSound>
 		<ScriptID>AS2D_COUNTDOWN</ScriptID>
 		<SoundID>SND_COUNTDOWN</SoundID>
@@ -28480,7 +28480,7 @@
 		<fMinWetLevel>0.0</fMinWetLevel>
 		<fMaxWetLevel>0.0</fMaxWetLevel>
 		<iNotPlayPercent>0</iNotPlayPercent>
-	</Script2DSound>	
+	</Script2DSound>
 	<Script2DSound>
 		<ScriptID>AS2D_VEHICLE_LOAD_MINE</ScriptID>
 		<SoundID>SND_VEHICLE_LOAD_MINE</SoundID>

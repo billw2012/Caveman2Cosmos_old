@@ -167,7 +167,7 @@ class Attitude:
 	If the two IDs are the same or the two players have not met, the
 	class will be filled with generic default values. We also check to see
 	that the active player has met both players, and the accessor functions
-	will react differently depending on if this is the case. 
+	will react differently depending on if this is the case.
 	"""
 	def __init__(self, iThisPlayer, iTargetPlayer):
 		pActiveTeam = GC.getTeam(GC.getActivePlayer().getTeam())
@@ -178,7 +178,7 @@ class Attitude:
 		self.iTargetPlayer = iTargetPlayer
 		self.iAttitudeSum = 0
 		self.iAttitudeModifiers = {}
-		self.bHasActiveMetBoth = GAME.isDebugMode() or (pActiveTeam.isHasMet(iThisTeam) and pActiveTeam.isHasMet(iTargetTeam)) 
+		self.bHasActiveMetBoth = GAME.isDebugMode() or (pActiveTeam.isHasMet(iThisTeam) and pActiveTeam.isHasMet(iTargetTeam))
 		self.eAttitudeType = AttitudeTypes.NO_ATTITUDE
 		# This might be better off being something descriptive such as
 		# "players have not met" or "players are the same"
@@ -199,7 +199,7 @@ class Attitude:
 
 	def __str__(self):
 		""" String representation of class instance. """
-		return(u"Attitude { 'iThisPlayer': %d, 'iTargetPlayer': %d, 'iAttitudeSum': %d, 'eAttitudeType': %d, 'bHasActiveMetBoth': %s,\n 'iAttitudeModifiers': %s,\n 'sAttitudeString': %s }" 
+		return(u"Attitude { 'iThisPlayer': %d, 'iTargetPlayer': %d, 'iAttitudeSum': %d, 'eAttitudeType': %d, 'bHasActiveMetBoth': %s,\n 'iAttitudeModifiers': %s,\n 'sAttitudeString': %s }"
 				%(self.iThisPlayer, self.iTargetPlayer, self.iAttitudeSum, self.eAttitudeType,
 				   self.bHasActiveMetBoth, str(self.iAttitudeModifiers), self.sAttitudeString))
 
@@ -300,7 +300,7 @@ class Attitude:
 								break
 					if bPeace:
 						szText += u"%c" %(GC.getCommerceInfo(CommerceTypes.COMMERCE_GOLD).getChar() + 26)
-	
+
 			return szText
 		return ""
 

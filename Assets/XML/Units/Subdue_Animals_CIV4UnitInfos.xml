@@ -1085,7 +1085,7 @@
 				<Building>
 					<BuildingType>BUILDING_BALLPYTHON_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
-				</Building>		
+				</Building>
 				<Building>
 					<BuildingType>BUILDING_SNAKES_MYTH</BuildingType>
 					<bBuilding>1</bBuilding>
@@ -1097,7 +1097,7 @@
 				<Building>
 					<BuildingType>BUILDING_SNAKES_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
-				</Building>				
+				</Building>
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>

@@ -6,7 +6,7 @@
 <!-- Bonus/Resource art path information -->
 <Civ4ArtDefines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\Xml\Schema\Caveman2Cosmos.xsd">
 	<UnitArtInfos>
-		<!-- Mine Warfare Mod -->		
+		<!-- Mine Warfare Mod -->
 		<!-- Naval Mine -->
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_NAVAL_MINE</Type>
@@ -33,7 +33,7 @@
 				<AudioRunTypeLoop/>
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
-		</UnitArtInfo>		
+		</UnitArtInfo>
 		<!-- End Naval Mine -->
 		<!-- Naval Mine Filed -->
 		<UnitArtInfo>
@@ -61,8 +61,8 @@
 				<AudioRunTypeLoop/>
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
-		</UnitArtInfo>		
-		<!-- End Naval Mine Filed -->	
+		</UnitArtInfo>
+		<!-- End Naval Mine Filed -->
 		<!-- Nuclear Naval Mine -->
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_NUCLEAR_NAVAL_MINE</Type>
@@ -89,8 +89,8 @@
 				<AudioRunTypeLoop/>
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
-		</UnitArtInfo>		
-		<!-- End Nuclear Naval Mine -->		
+		</UnitArtInfo>
+		<!-- End Nuclear Naval Mine -->
 		<!-- Naval Mine Sweeper -->
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_NAVAL_MINE_SWEEPER</Type>
@@ -145,7 +145,7 @@
 				<AudioRunTypeLoop/>
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
-		</UnitArtInfo>		
+		</UnitArtInfo>
 		<!-- End Land Mine -->
 		<!-- Land Mine Field -->
 		<UnitArtInfo>
@@ -173,7 +173,7 @@
 				<AudioRunTypeLoop/>
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
-		</UnitArtInfo>		
+		</UnitArtInfo>
 		<!-- End Land Mine Field -->
 		<!-- Nuclear Land Mine -->
 		<UnitArtInfo>
@@ -201,8 +201,8 @@
 				<AudioRunTypeLoop/>
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
-		</UnitArtInfo>		
-		<!-- End Nuclear Land Mine -->		
+		</UnitArtInfo>
+		<!-- End Nuclear Land Mine -->
 		<!-- Land Mine Sweeper -->
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_LAND_MINE_SWEEPER</Type>

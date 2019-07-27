@@ -8,7 +8,7 @@
 
 import BugOptionsTab
 
-credits = [ 
+credits = [
 			"-", "Caveman2Cosmos",
 			"StrategyOnly - C2C Mod Author, Prehistoric Era, Galactic Era",
 			"Hydromancerx - Building Designer, Artwork",
@@ -117,7 +117,7 @@ credits = [
 
 class BugCreditsOptionsTab(BugOptionsTab.BugOptionsTab):
 	"BUG Credits Options Screen Tab"
-	
+
 	def __init__(self, screen):
 		BugOptionsTab.BugOptionsTab.__init__(self, "Credits", "Credits")
 
@@ -125,7 +125,7 @@ class BugCreditsOptionsTab(BugOptionsTab.BugOptionsTab):
 		tab = self.createTab(screen)
 		panel = self.createMainPanel(screen)
 		column = self.addOneColumnLayout(screen, panel)
-		
+
 		labelNum = 0
 		sepNum = 0
 		boxNum = 0

@@ -680,7 +680,7 @@ class Pedia:
 				self.mapListGenerators.get(iCategory)()
 			else:
 				self.mapListGenerators.get(szSubCat)()
-	
+
 	# Tech Lists
 	def placeTechs(self):
 		print "Creating item list for category: Technologies"
@@ -933,7 +933,7 @@ class Pedia:
 		if szStrat.find("Myth -", 0, 6) + szStrat.find("Story -", 0, 7) + szStrat.find("Stories -", 0, 9) + szStrat.find("Enclosure -", 0, 11) + szStrat.find("Remains -", 0, 9) != -5:
 			return 6
 		elif CvBuildingInfo.getReligionType() != -1 or CvBuildingInfo.getPrereqReligion() != -1:
-			return 5 
+			return 5
 		elif CvBuildingInfo.getProductionCost() == -1 or CvBuildingInfo.isAutoBuild():
 			return 3
 		elif isWorldWonderClass(CvBuildingInfo.getBuildingClassType()):

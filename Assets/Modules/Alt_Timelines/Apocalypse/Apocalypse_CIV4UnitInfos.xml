@@ -305,7 +305,7 @@
 			<Description>TXT_KEY_UNIT_CROWBAR_GUARD</Description>
 			<Civilopedia>TXT_KEY_UNIT_APOCALYPSE_URBAN_CROSSBOWMAN_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_CROWBAR_GUARD_STRATEGY</Strategy>
-			<Advisor>ADVISOR_MILITARY</Advisor>		
+			<Advisor>ADVISOR_MILITARY</Advisor>
 			<VisibilityIntensityTypes>
 				<VisibilityIntensityType>
 					<InvisibleType>INVISIBLE_DISGUISED</InvisibleType>

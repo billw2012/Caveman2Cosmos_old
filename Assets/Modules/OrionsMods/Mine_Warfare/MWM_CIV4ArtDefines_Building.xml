@@ -5,7 +5,7 @@
 <!-- -->
 <!-- Bonus/Resource art path information -->
 <Civ4ArtDefines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\Xml\Schema\Caveman2Cosmos.xsd">
-	<BuildingArtInfos>		
+	<BuildingArtInfos>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_ADVANCED_MINE_TECHNOLOGY_CENTER</Type>
 			<LSystem/>

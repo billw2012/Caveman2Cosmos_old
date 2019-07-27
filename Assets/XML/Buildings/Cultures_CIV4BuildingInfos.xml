@@ -1677,7 +1677,7 @@
 			</BuildingClassNeededs>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<RawVicinityBonus>BONUS_BISON</RawVicinityBonus>
-			<!-- Construction -->			
+			<!-- Construction -->
 			<iCost>100</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>
@@ -6013,7 +6013,7 @@
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<bNukeImmune>1</bNukeImmune>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Culture (Mixtec) -->
 			<BuildingClass>BUILDINGCLASS_MIXTEC_EMBASSY</BuildingClass>
@@ -6522,7 +6522,7 @@
 			</BuildingClassNeededs>
 			<PrereqTech>TECH_TRADE</PrereqTech>
 			<RawVicinityBonus>BONUS_GOLD</RawVicinityBonus>
-			<!-- Construction -->			
+			<!-- Construction -->
 			<iCost>100</iCost>
 			<!-- Main effects -->
 			<CommerceChanges>

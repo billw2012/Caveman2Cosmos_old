@@ -6,7 +6,7 @@
 ## Contacting Rivals
 ##
 ##   canContact(playerOrID, toPlayerOrID)
-##     Returns True if <player> can attempt to contact <toPlayer> given game settings, 
+##     Returns True if <player> can attempt to contact <toPlayer> given game settings,
 ##     initial contact, and war-time situation.
 ##
 ## TODO: switch to init()
@@ -80,7 +80,7 @@ def addEvents(eventManager):
 
 
 class DiploEvent:
-	def __init__(self, comment, event, handler=None, sendFromPlayer=True, sendToPlayer=True, 
+	def __init__(self, comment, event, handler=None, sendFromPlayer=True, sendToPlayer=True,
 		sendData=False, sendArgs=False, argFunc=None, sendTrade=False, tradeType=None
 	):
 		self.comment = comment

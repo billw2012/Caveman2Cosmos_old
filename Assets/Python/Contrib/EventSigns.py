@@ -64,7 +64,7 @@ def enabledOptionChanged (pIniObject, bNewValue):
 	return True
 
 # def addSign (pPlot, ePlayer, szCaption):
-	# """ Wrapper for CyEngine.addSign() which stores sign data. 
+	# """ Wrapper for CyEngine.addSign() which stores sign data.
 	# If -1 is passed for ePlayer, the sign is assumed to be a landmark that everyone can see.
 	# """
 	# if not pPlot or pPlot.isNone():
@@ -79,7 +79,7 @@ def enabledOptionChanged (pIniObject, bNewValue):
 	# return True
 
 def addSign (pPlot, ePlayer, szCaption):
-	""" Wrapper for CyEngine.addSign() which stores sign data. 
+	""" Wrapper for CyEngine.addSign() which stores sign data.
 	If -1 is passed for ePlayer, the sign is assumed to be a landmark that everyone can see.
 
 	Fix by God-Emperor
@@ -323,7 +323,7 @@ class MapSigns:
 		return False
 
 	def hideSign (self, pPlot, ePlayer):
-		""" Hides sign for given player at given plot if there's a current sign the same as the stored one. 
+		""" Hides sign for given player at given plot if there's a current sign the same as the stored one.
 		Note that this function assumes gCurrentSigns is up-to-date so make sure you've updated first.
 		"""
 		if not pPlot or pPlot.isNone():
@@ -434,7 +434,7 @@ class PlotSigns:
 		""" Returns Caption for a given player on this plot. """
 		szCaption = ""
 		if ePlayer in self.signDict:
-			szCaption = self.signDict[ePlayer] 
+			szCaption = self.signDict[ePlayer]
 		return szCaption
 
 	def setSign(self, ePlayer, szCaption):
@@ -447,7 +447,7 @@ class PlotSigns:
 	def removeSign(self, ePlayer):
 		""" Removes Caption for a given player on this plot. """
 		if ePlayer in self.signDict:
-			del self.signDict[ePlayer] 
+			del self.signDict[ePlayer]
 		else:
 			BugUtil.warn("EventSigns PlotSigns.removeSign() failed to find a caption for Player %d at Plot (%d,%d)" % (ePlayer, self.iX, self.iY))
 
@@ -524,7 +524,7 @@ class EventSignsEventHandler:
 ## Random Event Callbacks
 
 # This is the only current event which has a pre-defined callback since it may change the
-# yields of more than one plot. So in this function we will essentially duplicate what the 
+# yields of more than one plot. So in this function we will essentially duplicate what the
 # generic landmark event processor does where necessary here. Additions marked with "EventSigns" comments.
 
 def applySaltpeter(argsList):

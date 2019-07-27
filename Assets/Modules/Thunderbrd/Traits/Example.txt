@@ -18,7 +18,7 @@ Example!
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
-			<bImpurePropertyManipulators>0</bImpurePropertyManipulators>			
+			<bImpurePropertyManipulators>0</bImpurePropertyManipulators>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -100,7 +100,7 @@ Example!
 				<FreePromotion>
 					<PromotionType>NONE</PromotionType>
 					<bFreePromotion>0</bFreePromotion>
-				</FreePromotion>				
+				</FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombatTypes>
 				<FreePromotionUnitCombatType>
@@ -161,12 +161,12 @@ Example!
 			<YieldChanges>
 				<iYield>0</iYield>
 				<iYield>0</iYield>
-				<iYield>0</iYield>				
+				<iYield>0</iYield>
 			</YieldChanges>
 			<SpecialistExtraYields>
 				<iYield>0</iYield>
 				<iYield>0</iYield>
-				<iYield>0</iYield>	
+				<iYield>0</iYield>
 			</SpecialistExtraYields>
 			<SpecialistYieldChanges>
 				<SpecialistYieldChange>
@@ -286,28 +286,28 @@ Example!
 			<iStateReligionBuildingProductionModifier>0</iStateReligionBuildingProductionModifier>
 			<iStateReligionFreeExperience>0</iStateReligionFreeExperience>
 			<iExpInBorderModifier>0</iExpInBorderModifier>
-			<iCityDefenseBonus>0</iCityDefenseBonus>			
-			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>			
-			<iAttitudeModifier>0</iAttitudeModifier>			
-			<iEspionageDefense>0</iEspionageDefense>			
-			<iMinAnarchy>0</iMinAnarchy>			
-			<iMaxTradeRoutesChange>0</iMaxTradeRoutesChange>			
-			<iGoldenAgeDurationModifier>0</iGoldenAgeDurationModifier>			
+			<iCityDefenseBonus>0</iCityDefenseBonus>
+			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
+			<iAttitudeModifier>0</iAttitudeModifier>
+			<iEspionageDefense>0</iEspionageDefense>
+			<iMinAnarchy>0</iMinAnarchy>
+			<iMaxTradeRoutesChange>0</iMaxTradeRoutesChange>
+			<iGoldenAgeDurationModifier>0</iGoldenAgeDurationModifier>
 			<GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
-			<iGreatPeopleRateChange>0</iGreatPeopleRateChange>	
-			<iHurryAngerModifier>0</iHurryAngerModifier>	
-			<iHurryCostModifier>0</iHurryCostModifier>	
-			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>	
-			<iForeignTradeRouteModifier>0</iForeignTradeRouteModifier>	
-			<iBombardDefense>0</iBombardDefense>	
-			<iUnitUpgradePriceModifier>0</iUnitUpgradePriceModifier>	
-			<iCoastalTradeRoutes>0</iCoastalTradeRoutes>	
-			<iGlobalPopulationgrowthratepercentage>0</iGlobalPopulationgrowthratepercentage>	
-			<iCityStartCulture>0</iCityStartCulture>	
-			<iGlobalAirUnitCapacity>0</iGlobalAirUnitCapacity>	
-			<iCapitalXPModifier>0</iCapitalXPModifier>	
-			<iHolyCityofStateReligionXPModifier>0</iHolyCityofStateReligionXPModifier>	
-			<iHolyCityofNonStateReligionXPModifier>0</iHolyCityofNonStateReligionXPModifier>	
+			<iGreatPeopleRateChange>0</iGreatPeopleRateChange>
+			<iHurryAngerModifier>0</iHurryAngerModifier>
+			<iHurryCostModifier>0</iHurryCostModifier>
+			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
+			<iForeignTradeRouteModifier>0</iForeignTradeRouteModifier>
+			<iBombardDefense>0</iBombardDefense>
+			<iUnitUpgradePriceModifier>0</iUnitUpgradePriceModifier>
+			<iCoastalTradeRoutes>0</iCoastalTradeRoutes>
+			<iGlobalPopulationgrowthratepercentage>0</iGlobalPopulationgrowthratepercentage>
+			<iCityStartCulture>0</iCityStartCulture>
+			<iGlobalAirUnitCapacity>0</iGlobalAirUnitCapacity>
+			<iCapitalXPModifier>0</iCapitalXPModifier>
+			<iHolyCityofStateReligionXPModifier>0</iHolyCityofStateReligionXPModifier>
+			<iHolyCityofNonStateReligionXPModifier>0</iHolyCityofNonStateReligionXPModifier>
 			<iBonusPopulationinNewCities>0</iBonusPopulationinNewCities>
 			<iMissileRange>0</iMissileRange>
 			<iFlightOperationRange>0</iFlightOperationRange>
@@ -353,11 +353,11 @@ Example!
 				</PropertySource>
 			</PropertyManipulators>
 		</TraitInfo>
-		
-		
-		
-		
-		
+
+
+
+
+
 		<TraitInfo>
 			<Type>TRAIT_AGGRESSIVE</Type>
 			<ReplacementID>TRAIT_COMPLEX_AGGRESSIVE</ReplacementID>
@@ -375,7 +375,7 @@ Example!
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
-			<bImpurePropertyManipulators>0</bImpurePropertyManipulators>			
+			<bImpurePropertyManipulators>0</bImpurePropertyManipulators>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -457,7 +457,7 @@ Example!
 				<FreePromotion>
 					<PromotionType>NONE</PromotionType>
 					<bFreePromotion>0</bFreePromotion>
-				</FreePromotion>				
+				</FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>
@@ -514,12 +514,12 @@ Example!
 			<YieldChanges>
 				<iYield>0</iYield>
 				<iYield>0</iYield>
-				<iYield>0</iYield>				
+				<iYield>0</iYield>
 			</YieldChanges>
 			<SpecialistExtraYields>
 				<iYield>0</iYield>
 				<iYield>0</iYield>
-				<iYield>0</iYield>	
+				<iYield>0</iYield>
 			</SpecialistExtraYields>
 			<SpecialistYieldChanges>
 				<SpecialistYieldChange>
@@ -644,28 +644,28 @@ Example!
 			<iStateReligionBuildingProductionModifier>0</iStateReligionBuildingProductionModifier>
 			<iStateReligionFreeExperience>0</iStateReligionFreeExperience>
 			<iExpInBorderModifier>0</iExpInBorderModifier>
-			<iCityDefenseBonus>0</iCityDefenseBonus>			
-			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>			
-			<iAttitudeModifier>0</iAttitudeModifier>			
-			<iEspionageDefense>0</iEspionageDefense>			
-			<iMinAnarchy>0</iMinAnarchy>			
-			<iMaxTradeRoutesChange>0</iMaxTradeRoutesChange>			
-			<iGoldenAgeDurationModifier>0</iGoldenAgeDurationModifier>			
+			<iCityDefenseBonus>0</iCityDefenseBonus>
+			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
+			<iAttitudeModifier>0</iAttitudeModifier>
+			<iEspionageDefense>0</iEspionageDefense>
+			<iMinAnarchy>0</iMinAnarchy>
+			<iMaxTradeRoutesChange>0</iMaxTradeRoutesChange>
+			<iGoldenAgeDurationModifier>0</iGoldenAgeDurationModifier>
 			<GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
-			<iGreatPeopleRateChange>0</iGreatPeopleRateChange>	
-			<iHurryAngerModifier>0</iHurryAngerModifier>	
-			<iHurryCostModifier>0</iHurryCostModifier>	
-			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>	
-			<iForeignTradeRouteModifier>0</iForeignTradeRouteModifier>	
-			<iBombardDefense>0</iBombardDefense>	
-			<iUnitUpgradePriceModifier>0</iUnitUpgradePriceModifier>	
-			<iCoastalTradeRoutes>0</iCoastalTradeRoutes>	
-			<iGlobalPopulationgrowthratepercentage>0</iGlobalPopulationgrowthratepercentage>	
-			<iCityStartCulture>0</iCityStartCulture>	
-			<iGlobalAirUnitCapacity>0</iGlobalAirUnitCapacity>	
-			<iCapitalXPModifier>0</iCapitalXPModifier>	
-			<iHolyCityofStateReligionXPModifier>0</iHolyCityofStateReligionXPModifier>	
-			<iHolyCityofNonStateReligionXPModifier>0</iHolyCityofNonStateReligionXPModifier>	
+			<iGreatPeopleRateChange>0</iGreatPeopleRateChange>
+			<iHurryAngerModifier>0</iHurryAngerModifier>
+			<iHurryCostModifier>0</iHurryCostModifier>
+			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
+			<iForeignTradeRouteModifier>0</iForeignTradeRouteModifier>
+			<iBombardDefense>0</iBombardDefense>
+			<iUnitUpgradePriceModifier>0</iUnitUpgradePriceModifier>
+			<iCoastalTradeRoutes>0</iCoastalTradeRoutes>
+			<iGlobalPopulationgrowthratepercentage>0</iGlobalPopulationgrowthratepercentage>
+			<iCityStartCulture>0</iCityStartCulture>
+			<iGlobalAirUnitCapacity>0</iGlobalAirUnitCapacity>
+			<iCapitalXPModifier>0</iCapitalXPModifier>
+			<iHolyCityofStateReligionXPModifier>0</iHolyCityofStateReligionXPModifier>
+			<iHolyCityofNonStateReligionXPModifier>0</iHolyCityofNonStateReligionXPModifier>
 			<iBonusPopulationinNewCities>0</iBonusPopulationinNewCities>
 			<iMissileRange>0</iMissileRange>
 			<iFlightOperationRange>0</iFlightOperationRange>
@@ -717,10 +717,10 @@ Example!
 				</Has>
 			</ReplacementCondition>
 		</TraitInfo>
-		
-		
-		
-		
+
+
+
+
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_CARELESS</Tag>
 		<English>Careless</English>
@@ -739,13 +739,13 @@ Example!
 Negative Trait
 
 This leader just doesn't like having to focus on his military forces and lets the organization run itself as much as he can.  He doesn't often take the time to reward, train, or discipline his subordinates and as a result, his military can easily end up under trained and unprepared for real conflict.
-		
-Primary Penalties: 
+
+Primary Penalties:
 	[ICON_BULLET]Less starting Experience points to all units, potentially allowing them to start off at a total deficit of experience.
 	[ICON_BULLET]More Experience required for units to gain levels.
 	[ICON_BULLET]Strong penalty of experience points given to units trained in the capital.  The closer they are to the highest levels command, the more focused training is on style over substance.
-		
-Side Penalties: 
+
+Side Penalties:
 	[ICON_BULLET]Strong reduction in the rate of earning Great Military People.
 	[ICON_BULLET]Further reduction in the rate of earning Great Military People when experience accumulated towards that goal is earned within your borders.
 	[ICON_BULLET]Military Training Buildings are more expensive to build.
@@ -771,13 +771,13 @@ Benefits:
 Negative Trait
 
 This leader just doesn't like having to focus on his military forces and lets the organization run itself as much as he can.  He doesn't often take the time to reward, train, or discipline his subordinates and as a result, his military can easily end up under trained and unprepared for real conflict.
-		
-Primary Penalties: 
+
+Primary Penalties:
 	[ICON_BULLET]Less starting Experience points to all units, potentially allowing them to start off at a total deficit of experience.
 	[ICON_BULLET]More Experience required for units to gain levels.
 	[ICON_BULLET]Significant penalty of experience points given to units trained in the capital.  The closer they are to the highest levels command, the more focused training is on style over substance.
-		
-Side Penalties: 
+
+Side Penalties:
 	[ICON_BULLET]Significant reduction in the rate of earning Great Military People.
 	[ICON_BULLET]Further reduction in the rate of earning Great Military People when experience accumulated towards that goal is earned within your borders.
 	[ICON_BULLET]Military Training Buildings are more expensive to build.
@@ -803,13 +803,13 @@ Benefits:
 Negative Trait
 
 This leader just doesn't like having to focus on his military forces and lets the organization run itself as much as he can.  He doesn't often take the time to reward, train, or discipline his subordinates and as a result, his military can easily end up under trained and unprepared for real conflict.
-		
-Primary Penalties: 
+
+Primary Penalties:
 	[ICON_BULLET]Less starting Experience points to all units, potentially allowing them to start off at a total deficit of experience.
 	[ICON_BULLET]More Experience required for units to gain levels.
 	[ICON_BULLET]Significant penalty of experience points given to units trained in the capital.  The closer they are to the highest levels command, the more focused training is on style over substance.
-		
-Side Penalties: 
+
+Side Penalties:
 	[ICON_BULLET]Significant reduction in the rate of earning Great Military People.
 	[ICON_BULLET]Further reduction in the rate of earning Great Military People when experience accumulated towards that goal is earned within your borders.
 	[ICON_BULLET]Military Training Buildings are more expensive to build.
@@ -835,13 +835,13 @@ Benefits:
 Negative Trait
 
 This leader just doesn't like having to focus on his military forces and lets the organization run itself as much as he can.  He doesn't often take the time to reward, train, or discipline his subordinates and as a result, his military can easily end up under trained and unprepared for real conflict.
-		
-Primary Penalties: 
+
+Primary Penalties:
 	[ICON_BULLET]Less starting Experience points to all units, potentially allowing them to start off at a total deficit of experience.
 	[ICON_BULLET]More Experience required for units to gain levels.
 	[ICON_BULLET]Significant penalty of experience points given to units trained in the capital.  The closer they are to the highest levels command, the more focused training is on style over substance.
-		
-Side Penalties: 
+
+Side Penalties:
 	[ICON_BULLET]Significant reduction in the rate of earning Great Military People.
 	[ICON_BULLET]Further reduction in the rate of earning Great Military People when experience accumulated towards that goal is earned within your borders.
 	[ICON_BULLET]Military Training Buildings are more expensive to build.

@@ -6145,7 +6145,7 @@
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_ENTERTAINER</Type>
 			<AndDependencyTypes>
@@ -6332,7 +6332,7 @@
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_BARD</Type>
 			<AndDependencyTypes>
@@ -7209,7 +7209,7 @@
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_ENTERTAINER</Type>
 			<AndDependencyTypes>
@@ -7496,7 +7496,7 @@
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_BARD</Type>
 			<AndDependencyTypes>
@@ -7894,7 +7894,7 @@
 					<BuildingType>BUILDING_WILDEBEEST_STORIES</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
-			</Buildings>			
+			</Buildings>
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_BARD</Type>

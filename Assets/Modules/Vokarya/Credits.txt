@@ -232,7 +232,7 @@ Building graphics from: http://forums.civfanatics.com/downloads.php?do=file&id=1
 
 
 ###TokyoSkyTree
-Tokyo Sky Tree still movie image from: 
+Tokyo Sky Tree still movie image from:
 http://commons.wikimedia.org/wiki/File:Tokyo_Sky_tree.jpg
 
 
@@ -256,7 +256,7 @@ http://commons.wikimedia.org/wiki/File:Medzilaborce_-_Andy_Warhol_Museum_4.jpg
 
 
 ###Westminster
-Westminster Abbey still image from: 
+Westminster Abbey still image from:
 http://commons.wikimedia.org/wiki/File:Westminster_Abbey.jpeg
 
 
@@ -511,7 +511,7 @@ Building graphics from: http://forums.civfanatics.com/downloads.php?do=file&id=1
 
 
 ###TokyoSkyTree
-Tokyo Sky Tree still movie image from: 
+Tokyo Sky Tree still movie image from:
 http://commons.wikimedia.org/wiki/File:Tokyo_Sky_tree.jpg
 
 
@@ -535,7 +535,7 @@ http://commons.wikimedia.org/wiki/File:Medzilaborce_-_Andy_Warhol_Museum_4.jpg
 
 
 ###Westminster
-Westminster Abbey still image from: 
+Westminster Abbey still image from:
 http://commons.wikimedia.org/wiki/File:Westminster_Abbey.jpeg
 
 

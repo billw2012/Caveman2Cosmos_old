@@ -340,7 +340,7 @@
 				<iYield>3</iYield>
 				<iYield>4</iYield>
 			</YieldChanges>
-			<!-- Units -->			
+			<!-- Units -->
 			<iMilitaryProductionModifier>15</iMilitaryProductionModifier>
 			<!-- Global -->
 			<iWorkerSpeedModifier>25</iWorkerSpeedModifier>
@@ -8470,7 +8470,7 @@
 			<iAsset>10</iAsset>
 			<iConquestProb>75</iConquestProb>
 			<ArtDefineTag>ART_DEF_BUILDING_RAINBOW_SERPENT_BREEDER</ArtDefineTag>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Spy Training Facility -->
 			<BuildingClass>BUILDINGCLASS_SPY_TRAINING_FACILITY</BuildingClass>
@@ -8672,6 +8672,6 @@
 			</Flavors>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAIWeight>1</iAIWeight>
-		</BuildingInfo>		
+		</BuildingInfo>
 	</BuildingInfos>
 </Civ4BuildingInfos>

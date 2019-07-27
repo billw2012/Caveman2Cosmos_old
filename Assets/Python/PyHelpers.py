@@ -235,7 +235,7 @@ class PyPlayer:
 			lTrait.append( gc.getTraitInfo(iTrait) )
 		return lTrait
 
-# Players Civics 
+# Players Civics
 	def getCurrentCivicByOption(self, iCivicOption):
 		' int - current civic for iCivicOption '
 		return self.player.getCivics( iCivicOption )
@@ -1334,7 +1334,7 @@ class PyInfo:
 			"intList - IDList of unlocked Religions"
 			religionlist = []
 			for i in range(gc.getNumReligionInfos()):
-				if ( gc.getReligionInfo(i).getTechPrereq() == self.techID ): 
+				if ( gc.getReligionInfo(i).getTechPrereq() == self.techID ):
 					religionList.append(i)
 			return religionList
 

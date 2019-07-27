@@ -845,7 +845,7 @@
 			<PrereqMaxDisplayText>TXT_KEY_PROPERTY_DISEASE_PREREQ_MAX</PrereqMaxDisplayText>
 			<bSourceDrain>1</bSourceDrain>
 			<bOAType>1</bOAType>
-			<iAIWeight>-150</iAIWeight> 
+			<iAIWeight>-150</iAIWeight>
 			<iTargetLevel>0</iTargetLevel>
 			<AIScaleType>AISCALE_CITY</AIScaleType>
 			<iOperationalRangeMin>-1000</iOperationalRangeMin>

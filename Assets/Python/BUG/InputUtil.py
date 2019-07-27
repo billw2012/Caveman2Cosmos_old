@@ -46,17 +46,17 @@ MODIFIER_MAP = {
 }
 
 MODIFIER_KEYS = (
-	InputTypes.KB_LALT, 
-	InputTypes.KB_LCONTROL, 
-	InputTypes.KB_LSHIFT, 
-	InputTypes.KB_RALT, 
-	InputTypes.KB_RCONTROL, 
+	InputTypes.KB_LALT,
+	InputTypes.KB_LCONTROL,
+	InputTypes.KB_LSHIFT,
+	InputTypes.KB_RALT,
+	InputTypes.KB_RCONTROL,
 	InputTypes.KB_RSHIFT,
-	int(InputTypes.KB_LALT), 
-	int(InputTypes.KB_LCONTROL), 
-	int(InputTypes.KB_LSHIFT), 
-	int(InputTypes.KB_RALT), 
-	int(InputTypes.KB_RCONTROL), 
+	int(InputTypes.KB_LALT),
+	int(InputTypes.KB_LCONTROL),
+	int(InputTypes.KB_LSHIFT),
+	int(InputTypes.KB_RALT),
+	int(InputTypes.KB_RCONTROL),
 	int(InputTypes.KB_RSHIFT),
 )
 

@@ -103,7 +103,7 @@
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<ForceObsoleteTech>TECH_ARMORED_CAVALRY</ForceObsoleteTech>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_WAR_RHINO</Class>
 			<Type>UNIT_WAR_RHINO</Type>

@@ -6,7 +6,7 @@
 <!-- -->
 <!-- Building Infos -->
 <Civ4BuildingInfos xmlns="x-schema:../../XML/Schema/C2C_CIV4BuildingsSchema.xml">
-	<BuildingInfos>	
+	<BuildingInfos>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_AUYANTEPUI</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_AUYANTEPUI</Type>
@@ -361,7 +361,7 @@
 			</TechHappinessChanges>
 			<TechSpecialistChanges>
 				<TechSpecialistChange>
-					<PrereqTech>TECH_TOURISM</PrereqTech>	
+					<PrereqTech>TECH_TOURISM</PrereqTech>
 					<SpecialistCounts>
 						<SpecialistCount>
 							<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
@@ -436,7 +436,7 @@
 			</TechCommerceChanges>
 			<TechSpecialistChanges>
 				<TechSpecialistChange>
-					<PrereqTech>TECH_CULTURAL_IDENTITY</PrereqTech>	
+					<PrereqTech>TECH_CULTURAL_IDENTITY</PrereqTech>
 					<SpecialistCounts>
 						<SpecialistCount>
 							<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
@@ -1138,7 +1138,7 @@
 			</TechCommerceChanges>
 			<TechSpecialistChanges>
 				<TechSpecialistChange>
-					<PrereqTech>TECH_AESTHETICS</PrereqTech>	
+					<PrereqTech>TECH_AESTHETICS</PrereqTech>
 					<SpecialistCounts>
 						<SpecialistCount>
 							<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
@@ -1599,7 +1599,7 @@
 				</TechCommerceChange>
 				<TechCommerceChange>
 					<PrereqTech>TECH_MONOTHEISM</PrereqTech>
-					<TechCommerce>	
+					<TechCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>10</iCommerce>

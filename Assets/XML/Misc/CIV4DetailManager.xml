@@ -344,7 +344,7 @@
 		<!-- points in the aqueduct won't be created above this altitutde -->
 		<Value>100</Value>
 	</Fader>
-	<!-- controllers for how the path between source and sink is found ... 
+	<!-- controllers for how the path between source and sink is found ...
 		we recursively split the line between source and sink until it reaches and ideal length,
 		adding noise to each split vertex in the tangent (X) and normal (Y) directions -->
 	<Fader>

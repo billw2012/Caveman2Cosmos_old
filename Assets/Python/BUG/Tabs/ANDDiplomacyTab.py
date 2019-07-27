@@ -19,13 +19,13 @@ class ANDDiplomacyTab(BugOptionsTab.BugOptionsTab):
 		tab = self.createTab(screen)
 		panel = self.createMainPanel(screen)
 		left, center, right = self.addThreeColumnLayout(screen, panel, panel, True)
-		
+
 		control = None
 		bCanAdjustSettings = not gc.getGame().isGameMultiPlayer() or gc.getGame().getActivePlayer() == 0
 
 		#Standard Settings
 		control = self.addLabel(screen, left, "DiplomacySettings__DiplomacySettings")
-		
+
 		control = self.addCheckbox(screen, left, "DiplomacySettings__CanTradeTechs")
 		screen.setEnabled(control, bCanAdjustSettings)
 		control = self.addCheckbox(screen, left, "DiplomacySettings__CanBrokerTechs")
@@ -44,8 +44,8 @@ class ANDDiplomacyTab(BugOptionsTab.BugOptionsTab):
 		screen.setEnabled(control, not gc.getGame().isGameMultiPlayer())
 		# control = self.addCheckbox(screen, left, "DiplomacySettings__CanCapitulate")
 		# screen.setEnabled(control, bCanAdjustSettings)
-		
-		
+
+
 		self.addSpacer(screen, center, "General1")
 		control = self.addCheckbox(screen, center, "DiplomacySettings__CanTradePeace")
 		screen.setEnabled(control, bCanAdjustSettings)
@@ -63,17 +63,17 @@ class ANDDiplomacyTab(BugOptionsTab.BugOptionsTab):
 		screen.setEnabled(control, bCanAdjustSettings)
 		control = self.addCheckbox(screen, center, "DiplomacySettings__CanTradeAlliance")
 		screen.setEnabled(control, not gc.getGame().isGameMultiPlayer())
-		
+
 		#Advanced Diplomacy
 		self.addLabel(screen, right, "DiplomacySettings__AdvancedDiplomacy")
-		
+
 		control = self.addCheckbox(screen, right, "DiplomacySettings__AdvancedDiplomacy")
 		screen.setEnabled(control, not gc.getGame().isGameMultiPlayer())
 		self.addSpacer(screen, center, "General2")
-		
+
 		if bCanAdjustSettings:
 			bCanAdjustSettings = gc.getGame().isOption(GameOptionTypes.GAMEOPTION_ADVANCED_DIPLOMACY)
-		
+
 		control = self.addCheckbox(screen, right, "DiplomacySettings__CanTradeWorkers")
 		screen.setEnabled(control, bCanAdjustSettings)
 		control = self.addCheckbox(screen, right, "DiplomacySettings__CanTradeMilitary")
@@ -86,7 +86,7 @@ class ANDDiplomacyTab(BugOptionsTab.BugOptionsTab):
 		screen.setEnabled(control, bCanAdjustSettings)
 		control = self.addCheckbox(screen, right, "DiplomacySettings__CanTradeContact")
 		screen.setEnabled(control, bCanAdjustSettings)
-		
-		
+
+
 
 		

@@ -294,7 +294,7 @@
 			<bActsAsCity>0</bActsAsCity>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<bGraphicalOnly>1</bGraphicalOnly>
-		</ImprovementInfo>		
+		</ImprovementInfo>
 		<ImprovementInfo>
 			<Type>IMPROVEMENT_BONUS_APPLE</Type>
 			<Description>TXT_KEY_IMPROVEMENT_BONUS_APPLE</Description>

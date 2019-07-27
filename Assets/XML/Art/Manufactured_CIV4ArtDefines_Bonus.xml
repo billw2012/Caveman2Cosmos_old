@@ -3458,6 +3458,6 @@
 			<KFM></KFM>
 			<Button>art/Interface/Buttons/Bonus/unobtainium.dds</Button>
 			<FontButtonIndex>104</FontButtonIndex>
-		</BonusArtInfo>	
+		</BonusArtInfo>
 	</BonusArtInfos>
 </Civ4ArtDefines>

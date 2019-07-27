@@ -2326,7 +2326,7 @@ class CvMainInterface:
 								commerceRate = CyPlayer.getCommerceRate(CommerceTypes(j))
 							label = "RateText" + str(i)
 							if bTDDisplayOption and j == CommerceTypes.COMMERCE_RESEARCH and iResearchMod > 100:
-								szOutText = TRNSLTR.getText("TXT_KEY_MISC_POS_GOLD_PER_TURN_SCIENCE", (commerceRate,)) 
+								szOutText = TRNSLTR.getText("TXT_KEY_MISC_POS_GOLD_PER_TURN_SCIENCE", (commerceRate,))
 								szOutText += TRNSLTR.getText("TXT_KEY_MISC_POS_GOLD_PER_TURN_TECH_DIFF", (techDiffusionHelp,))
 							else:
 								szOutText = TRNSLTR.getText("TXT_KEY_MISC_POS_GOLD_PER_TURN", (commerceRate,))
@@ -3501,7 +3501,7 @@ class CvMainInterface:
 					BTN = GC.getProjectInfo(order.iData1).getButton()
 				screen.setImageButtonAt(Btn, Pnl, BTN, x, 0, iSize, iSize, eWidGen, 1, 1)
 				x += dx
-	
+
 
 	def openCityTab(self, screen, iTab):
 		self.iCityTab = iTab

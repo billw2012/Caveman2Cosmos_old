@@ -700,7 +700,7 @@
 					<GameOptionType>GAMEOPTION_MIN_CITY_BORDER</GameOptionType>
 					<bEnforcesGameOptionOff>1</bEnforcesGameOptionOff>
 				</EnforcesGameOptionOffType>
-			</EnforcesGameOptionOffTypes>			
+			</EnforcesGameOptionOffTypes>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_REALISTIC_SIEGE</Type>
@@ -778,5 +778,5 @@
 				</EnforcesGameOptionOffType>
 			</EnforcesGameOptionOffTypes>
 		</GameOptionInfo>
-	</GameOptionInfos>	
+	</GameOptionInfos>
 </Civ4GameOptionInfos>

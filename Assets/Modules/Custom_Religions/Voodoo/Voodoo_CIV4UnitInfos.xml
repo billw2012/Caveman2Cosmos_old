@@ -85,11 +85,11 @@
 			<bNoCapture>1</bNoCapture>
 			<bMilitaryHappiness>1</bMilitaryHappiness>
 			<bMilitarySupport>1</bMilitarySupport>
-			<bMilitaryProduction>1</bMilitaryProduction>			
-			<bNoDefensiveBonus>1</bNoDefensiveBonus>			
+			<bMilitaryProduction>1</bMilitaryProduction>
+			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bIgnoreTerrainCost>1</bIgnoreTerrainCost>
 			<iXPValueAttack>8</iXPValueAttack>
-			<iXPValueDefense>4</iXPValueDefense>		
+			<iXPValueDefense>4</iXPValueDefense>
 			<iCost>310</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>15</iCombat>
@@ -103,7 +103,7 @@
 			<iEnclose>10</iEnclose>
 			<iLunge>20</iLunge>
 			<iDynamicDefense>10</iDynamicDefense>
-			<iCaptureProbabilityModifier>-15</iCaptureProbabilityModifier>			
+			<iCaptureProbabilityModifier>-15</iCaptureProbabilityModifier>
 			<iPursuit>60</iPursuit>
 			<FreePromotions>
 				<FreePromotion>

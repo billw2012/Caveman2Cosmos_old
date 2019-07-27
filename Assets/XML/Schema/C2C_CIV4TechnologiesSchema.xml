@@ -46,7 +46,7 @@
 	<ElementType name="OrDependencyTypes" content="eltOnly">
 		<element type="DependencyType" minOccurs="1"/>
 	</ElementType>
-<!-- XMLCOPY				END					MRGENIE		-->	
+<!-- XMLCOPY				END					MRGENIE		-->
 	<ElementType name="Description" content="textOnly"/>
 	<ElementType name="Civilopedia" content="textOnly"/>
 	<ElementType name="Help" content="textOnly"/>
@@ -75,11 +75,11 @@
 	<ElementType name="iAsset" content="textOnly" dt:type="int"/>
 	<ElementType name="iPower" content="textOnly" dt:type="int"/>
 	<ElementType name="bRepeat" content="textOnly" dt:type="boolean"/>
-	<!-- Afforess --> 
+	<!-- Afforess -->
 	<ElementType name="bCanPassPeaks" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bMoveFastPeaks" content="textOnly" dt:type="boolean"/>
-	<ElementType name="bCanFoundOnPeaks" content="textOnly" dt:type="boolean"/>	
-	<ElementType name="bEmbassyTrading" content="textOnly" dt:type="boolean"/>	
+	<ElementType name="bCanFoundOnPeaks" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bEmbassyTrading" content="textOnly" dt:type="boolean"/>
 	<ElementType name="PrereqGameOption" content="textOnly"/>
 	<ElementType name="iInflationModifier" content="textOnly" dt:type="int"/>
 	<ElementType name="iGlobalTradeModifier" content="textOnly" dt:type="int"/>
@@ -87,9 +87,9 @@
 	<ElementType name="iTradeMissionModifier" content="textOnly" dt:type="int"/>
 	<ElementType name="iCorporationRevenueModifier" content="textOnly" dt:type="int"/>
 	<ElementType name="iCorporationMaintenanceModifier" content="textOnly" dt:type="int"/>
-	<ElementType name="bRebaseAnywhere" content="textOnly" dt:type="boolean"/>	
-	<ElementType name="bAllowsDesertFarming" content="textOnly" dt:type="boolean"/>	
-	<!-- Afforess --> 
+	<ElementType name="bRebaseAnywhere" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bAllowsDesertFarming" content="textOnly" dt:type="boolean"/>
+	<!-- Afforess -->
 	<!--TB-->
 	<ElementType name="bGlobal" content="textOnly" dt:type="boolean"/>
 	<!--TB-->
@@ -287,7 +287,7 @@
 	<ElementType name="PrereqOrBuildingClasses" content="eltOnly">
 		<element type="PrereqOrBuildingClass" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="SpecialistType" content="textOnly"/>
 	<ElementType name="iFreeSpecialistCount" content="textOnly" dt:type="int"/>
 	<ElementType name="FreeSpecialistCount" content="eltOnly">
@@ -297,7 +297,7 @@
 	<ElementType name="FreeSpecialistCounts" content="eltOnly">
 		<element type="FreeSpecialistCount" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="UnitClassType" content="textOnly"/>
 	<ElementType name="iStrengthChange" content="textOnly" dt:type="int"/>
 	<ElementType name="UnitClassStrengthChange" content="eltOnly">

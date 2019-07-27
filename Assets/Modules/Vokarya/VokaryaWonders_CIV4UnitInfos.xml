@@ -107,7 +107,7 @@
 					<iIntensity>4</iIntensity>
 				</InvisibilityIntensityType>
 			</InvisibilityIntensityTypes>
-			<bNoCapture>1</bNoCapture>			
+			<bNoCapture>1</bNoCapture>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
 			<bPillage>1</bPillage>
@@ -145,7 +145,7 @@
 					<UnitCombatTargetType>UNITCOMBAT_ENTERTAINER</UnitCombatTargetType>
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
-			</UnitCombatTargets>	
+			</UnitCombatTargets>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -207,20 +207,20 @@
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<PropertyManipulators>
-				<PropertySource>	
+				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
 					<PropertyType>PROPERTY_CRIME</PropertyType>
 					<GameObjectType>GAMEOBJECT_CITY</GameObjectType>
 					<RelationType>RELATION_SAME_PLOT</RelationType>
 					<iAmountPerTurn>25</iAmountPerTurn>
-				</PropertySource>	
-				<PropertySource>	
+				</PropertySource>
+				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
 					<PropertyType>PROPERTY_CRIME</PropertyType>
 					<GameObjectType>GAMEOBJECT_PLOT</GameObjectType>
 					<RelationType>RELATION_SAME_PLOT</RelationType>
 					<iAmountPerTurn>12</iAmountPerTurn>
-				</PropertySource>	
+				</PropertySource>
 			</PropertyManipulators>
 		</UnitInfo>
 		<!-- Shaolin Monk -->

@@ -7610,7 +7610,7 @@
 		<Tag>TXT_KEY_GAMESPEED_ULTRAFAST_HELP</Tag>
 		<English>The fastest speed. Designed for testing purposes only.</English>
 		<German>Diese absolut höchste Spielgeschwindigkeit ist nur für Testzwecke gedacht.</German>
-	</TEXT>		
+	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GARRISON_CIVIC_EXTRA_HAPPINESS</Tag>
 		<English>[ICON_HAPPY] from [LINK=BUILDING_GARRISON]Garrison[\LINK]</English>
@@ -19445,7 +19445,7 @@
 		<Tag>TXT_KEY_ROUTE_TRAIL</Tag>
 		<English>Trail</English>
 		<French>Sentier</French>
-		<German>	
+		<German>
 			<Text>Trampelpfad</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>

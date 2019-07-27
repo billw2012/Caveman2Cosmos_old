@@ -69,7 +69,7 @@ def onCityAcquired(argsList):
 		loserPlayer = gc.getPlayer(owner)
 		loserPlayerTeam = loserPlayer.getTeam()
 
-		### partisans only available with rifling tech ### 
+		### partisans only available with rifling tech ###
 		if ( gc.getTeam(loserPlayerTeam).isHasTech(gc.getInfoTypeForString("TECH_RIFLING")) == True ):
 
 			### dont place partisan units if you capture your city back ###
@@ -78,7 +78,7 @@ def onCityAcquired(argsList):
 				### dont show partisan message if loserPlayer is already death ###
 				if ( loserPlayer.isAlive()==True ):
 
-					u_partisan = gc.getInfoTypeForString( 'UNIT_PARTISAN' )		
+					u_partisan = gc.getInfoTypeForString( 'UNIT_PARTISAN' )
 					loserTeam = gc.getTeam(owner)
 					loserPlayerID = loserPlayer.getID()
 					lPnCities = loserPlayer.getNumCities()
@@ -99,7 +99,7 @@ def onCityAcquired(argsList):
 					ft_ice = gc.getInfoTypeForString('FEATURE_ICE')
 					ft_forest = gc.getInfoTypeForString('FEATURE_FOREST')
 					ft_jungle = gc.getInfoTypeForString( 'FEATURE_JUNGLE' )
-					it_fort = gc.getInfoTypeForString("IMPROVEMENT_FORT") 
+					it_fort = gc.getInfoTypeForString("IMPROVEMENT_FORT")
 					t_rocketry = gc.getInfoTypeForString("TECH_ROCKETRY")
 					t_plastics = gc.getInfoTypeForString("TECH_PLASTICS")
 					t_assemblyline = gc.getInfoTypeForString("TECH_ASSEMBLY_LINE")
@@ -190,16 +190,16 @@ def onCityAcquired(argsList):
 	######################################################
 	### identify tech related promotions once rather than for eah unit  [start]  ###
 	######################################################
-	
+
 					### promotion counts and booleans ###
 					drillpromotiontech = 0
 					combatpromotiontech = 0
-					
+
 					promotionflanking1 = False
 					promotionflanking2 = False
 					promotionmorale = False
 					chance_combatpromotiontech = False
-					
+
 					if ( gc.getTeam(loserPlayerTeam).isHasTech(t_assemblyline) == True ):
 						drillpromotiontech += 1
 					if ( gc.getTeam(loserPlayerTeam).isHasTech(t_industrialism) == True ):
@@ -208,14 +208,14 @@ def onCityAcquired(argsList):
 						drillpromotiontech += 1
 					if ( gc.getTeam(loserPlayerTeam).isHasTech(t_plastics) == True ):
 						drillpromotiontech += 1
-						
+
 					if ( gc.getTeam(loserPlayerTeam).isHasTech(t_railroad) == True ):
 						promotionflanking1 = True
 					if ( gc.getTeam(loserPlayerTeam).isHasTech(t_combustion) == True ):
 						promotionflanking2 = True
 					if ( gc.getTeam(loserPlayerTeam).isHasTech(t_radio) == True ):
 						promotionmorale = True
-						
+
 					if ( gc.getTeam(loserPlayerTeam).isHasTech(t_fascism) == True ):
 						chance_combatpromotiontech = True
 					if ( gc.getTeam(loserPlayerTeam).isHasTech(t_computers) == True ):
@@ -230,7 +230,7 @@ def onCityAcquired(argsList):
 	######################################################
 	### identify tech related promotions once rather than for eah unit  [end]   ###
 	######################################################
-	
+
 	###################################
 	### set Partisan Units  [begin] ###
 	###################################
@@ -327,7 +327,7 @@ def onCityAcquired(argsList):
 								#~ promotiontech += 1
 							#~ if ( gc.getTeam(loserPlayerTeam).isHasTech(t_laser) == True ):
 								#~ promotiontech += 1
-							
+
 							if ( chance_combatpromotiontech == True ):
 								chance = CyGame().getSorenRandNum( 2, "Random Combat1/2")
 								if ( chance == 0 ):
@@ -488,7 +488,7 @@ def onCombatResult(argsList):
 	'Combat Result'
 	##  First we check that the winning unit is a patisan and the loosing a seige or "armour" unit
 	##  There is a small chance that th unit will be captured.
-	
+
 	BugUtil.debug("Partisan - onCombatResult called.")
 	pWinner,pLoser = argsList
 

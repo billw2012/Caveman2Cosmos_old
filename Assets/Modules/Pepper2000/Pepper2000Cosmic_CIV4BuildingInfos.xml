@@ -2906,7 +2906,7 @@
 			<iCost>11410</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<MapCategoryTypes>
-				<MapCategoryType>MAPCATEGORY_UNIVERSAL</MapCategoryType>			
+				<MapCategoryType>MAPCATEGORY_UNIVERSAL</MapCategoryType>
 			</MapCategoryTypes>
 			<YieldChanges>
 				<iYield>30</iYield>

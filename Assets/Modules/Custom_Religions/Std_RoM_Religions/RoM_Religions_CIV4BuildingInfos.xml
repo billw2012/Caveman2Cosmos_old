@@ -610,7 +610,7 @@
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
 		</BuildingInfo>
-		<BuildingInfo>			
+		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_FIDIAS</BuildingClass>
 			<Type>BUILDING_FIDIAS</Type>
 			<SpecialBuildingType>NONE</SpecialBuildingType>

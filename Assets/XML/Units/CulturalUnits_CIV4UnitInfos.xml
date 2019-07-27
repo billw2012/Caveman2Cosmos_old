@@ -6486,27 +6486,27 @@
 					<iIntensity>4</iIntensity>
 				</InvisibilityIntensityType>
 			</InvisibilityIntensityTypes>
-			<bMilitarySupport>1</bMilitarySupport>			
-			<bMilitaryProduction>1</bMilitaryProduction>			
-			<bPillage>1</bPillage>			
+			<bMilitarySupport>1</bMilitarySupport>
+			<bMilitaryProduction>1</bMilitaryProduction>
+			<bPillage>1</bPillage>
 			<bSabotage>1</bSabotage>
 			<bDestroy>1</bDestroy>
-			<bStealPlans>1</bStealPlans>		
-			<bIgnoreTerrainCost>1</bIgnoreTerrainCost>			
+			<bStealPlans>1</bStealPlans>
+			<bIgnoreTerrainCost>1</bIgnoreTerrainCost>
 			<iXPValueAttack>8</iXPValueAttack>
 			<iXPValueDefense>4</iXPValueDefense>
 			<bHiddenNationality>1</bHiddenNationality>
 			<bAlwaysHostile>1</bAlwaysHostile>
 			<bUpgradeAnywhere>1</bUpgradeAnywhere>
-			<bIgnoreNoEntryLevel>1</bIgnoreNoEntryLevel>			
-			<bIgnoreZoneofControl>1</bIgnoreZoneofControl>	
+			<bIgnoreNoEntryLevel>1</bIgnoreNoEntryLevel>
+			<bIgnoreZoneofControl>1</bIgnoreZoneofControl>
 			<bNoNonOwnedCityEntry>1</bNoNonOwnedCityEntry>
 			<UnitCombatTargets>
 				<UnitCombatTarget>
 					<UnitCombatTargetType>UNITCOMBAT_MOUNTED</UnitCombatTargetType>
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
-			</UnitCombatTargets>			
+			</UnitCombatTargets>
 			<iCost>790</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>26</iCombat>
@@ -9295,20 +9295,20 @@
 					<InvisibleType>INVISIBLE_CAMOUFLAGE</InvisibleType>
 					<iIntensity>3</iIntensity>
 				</VisibilityIntensityType>
-			</VisibilityIntensityTypes>			
+			</VisibilityIntensityTypes>
 			<InvisibilityIntensityTypes>
 				<InvisibilityIntensityType>
 					<InvisibleType>INVISIBLE_CAMOUFLAGE</InvisibleType>
 					<iIntensity>3</iIntensity>
 				</InvisibilityIntensityType>
 			</InvisibilityIntensityTypes>
-			<bMilitarySupport>1</bMilitarySupport>			
-			<bMilitaryProduction>1</bMilitaryProduction>			
-			<bPillage>1</bPillage>			
+			<bMilitarySupport>1</bMilitarySupport>
+			<bMilitaryProduction>1</bMilitaryProduction>
+			<bPillage>1</bPillage>
 			<bIgnoreTerrainCost>1</bIgnoreTerrainCost>
 			<iXPValueAttack>6</iXPValueAttack>
-			<iXPValueDefense>3</iXPValueDefense>			
-			<bHiddenNationality>1</bHiddenNationality>			
+			<iXPValueDefense>3</iXPValueDefense>
+			<bHiddenNationality>1</bHiddenNationality>
 			<bAlwaysHostile>1</bAlwaysHostile>
 			<bUpgradeAnywhere>1</bUpgradeAnywhere>
 			<bNoNonOwnedCityEntry>1</bNoNonOwnedCityEntry>
@@ -9319,7 +9319,7 @@
 					<UnitCombatTargetType>UNITCOMBAT_GUN</UnitCombatTargetType>
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
-			</UnitCombatTargets>			
+			</UnitCombatTargets>
 			<iCost>590</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>26</iCombat>
@@ -16729,8 +16729,8 @@
 			<bIgnoreTerrainCost>1</bIgnoreTerrainCost>
 			<iXPValueAttack>8</iXPValueAttack>
 			<iXPValueDefense>4</iXPValueDefense>
-			<bIgnoreZoneofControl>1</bIgnoreZoneofControl>	
-			<bAssassin>1</bAssassin>	
+			<bIgnoreZoneofControl>1</bIgnoreZoneofControl>
+			<bAssassin>1</bAssassin>
 			<UnitCombatTargets>
 				<UnitCombatTarget>
 					<UnitCombatTargetType>UNITCOMBAT_GUN</UnitCombatTargetType>
@@ -16740,13 +16740,13 @@
 					<UnitCombatTargetType>UNITCOMBAT_CANINE</UnitCombatTargetType>
 					<bUnitCombatTarget>1</bUnitCombatTarget>
 				</UnitCombatTarget>
-			</UnitCombatTargets>	
+			</UnitCombatTargets>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
 					<iFlavor>1</iFlavor>
 				</Flavor>
-			</Flavors>			
+			</Flavors>
 			<iCost>670</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>26</iCombat>
@@ -25701,7 +25701,7 @@
 				<BuildingType>BUILDING_FIRING_RANGE</BuildingType>
 				<BuildingType>BUILDING_AUTOMATED_FIRING_RANGE</BuildingType>
 				<BuildingType>BUILDING_ORBITAL_TARGETS</BuildingType>
-			</PrereqOrBuildings>			
+			</PrereqOrBuildings>
 			<BonusType>BONUS_MOCOVI</BonusType>
 			<TrainCondition>
 				<And>
@@ -30148,7 +30148,7 @@
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 			</FreePromotions>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_RED_FOX_ARCHER</Class>
 			<Type>UNIT_RED_FOX_ARCHER</Type>
@@ -32654,7 +32654,7 @@
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 			</FreePromotions>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_SIPAHI</Class>
 			<Type>UNIT_SIPAHI</Type>
@@ -32830,7 +32830,7 @@
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 			</FreePromotions>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_KHANUNGESE</Class>
 			<Type>UNIT_KHANUNGESE</Type>
@@ -35052,7 +35052,7 @@
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 			</FreePromotions>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_OMUCHTAN</Class>
 			<Type>UNIT_OMUCHTAN</Type>
@@ -52220,7 +52220,7 @@
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 			</FreePromotions>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_JOMON_HUNTING_DOGS</Class>
 			<Type>UNIT_JOMON_HUNTING_DOGS</Type>

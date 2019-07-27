@@ -86,34 +86,34 @@ def findDealsByPlayerAndType(ePlayer, types):
 
 def isAnnual(eItem):
 	return eItem in (
-		TradeableItems.TRADE_RESOURCES, 
-		TradeableItems.TRADE_GOLD_PER_TURN, 
-		TradeableItems.TRADE_VASSAL, 
-		TradeableItems.TRADE_SURRENDER, 
-		TradeableItems.TRADE_OPEN_BORDERS, 
-		TradeableItems.TRADE_DEFENSIVE_PACT, 
-		TradeableItems.TRADE_PERMANENT_ALLIANCE, 
+		TradeableItems.TRADE_RESOURCES,
+		TradeableItems.TRADE_GOLD_PER_TURN,
+		TradeableItems.TRADE_VASSAL,
+		TradeableItems.TRADE_SURRENDER,
+		TradeableItems.TRADE_OPEN_BORDERS,
+		TradeableItems.TRADE_DEFENSIVE_PACT,
+		TradeableItems.TRADE_PERMANENT_ALLIANCE,
 	)
 
 def isDual(eItem, bExcludePeace=False):
 	if bExcludePeace and eItem == TradeableItems.TRADE_PEACE_TREATY:
 		return False
 	return eItem in (
-		TradeableItems.TRADE_OPEN_BORDERS, 
-		TradeableItems.TRADE_DEFENSIVE_PACT, 
-		TradeableItems.TRADE_PERMANENT_ALLIANCE, 
-		TradeableItems.TRADE_PEACE_TREATY, 
+		TradeableItems.TRADE_OPEN_BORDERS,
+		TradeableItems.TRADE_DEFENSIVE_PACT,
+		TradeableItems.TRADE_PERMANENT_ALLIANCE,
+		TradeableItems.TRADE_PEACE_TREATY,
 	)
 
 def hasData(eItem):
 	return eItem not in (
-		TradeableItems.TRADE_MAPS, 
-		TradeableItems.TRADE_VASSAL, 
-		TradeableItems.TRADE_SURRENDER, 
-		TradeableItems.TRADE_OPEN_BORDERS, 
-		TradeableItems.TRADE_DEFENSIVE_PACT, 
-		TradeableItems.TRADE_PERMANENT_ALLIANCE, 
-		TradeableItems.TRADE_PEACE_TREATY, 
+		TradeableItems.TRADE_MAPS,
+		TradeableItems.TRADE_VASSAL,
+		TradeableItems.TRADE_SURRENDER,
+		TradeableItems.TRADE_OPEN_BORDERS,
+		TradeableItems.TRADE_DEFENSIVE_PACT,
+		TradeableItems.TRADE_PERMANENT_ALLIANCE,
+		TradeableItems.TRADE_PEACE_TREATY,
 	)
 
 def isGold(eItem):
@@ -161,7 +161,7 @@ class Deal(object):
 	getPlayer() and getTrade().
 
 	hasType() and hasAnyType() search only the focused player's TradeData.ItemType,
-	so they work only for symmetric TradeableItems (peace treaty, open borders, 
+	so they work only for symmetric TradeableItems (peace treaty, open borders,
 	and defensive pact).
 	"""
 	def __init__(self, deal):
@@ -246,11 +246,11 @@ class Deal(object):
 		return found
 
 	def __repr__(self):
-		return ("<deal %d [trades %d %s] [trades %d %s]>" % 
-				(self.getID(), 
-				self.getPlayer(), 
-				TradeUtil.format(self.getPlayer(), [t for t in self.trades()]), 
-				self.getOtherPlayer(), 
+		return ("<deal %d [trades %d %s] [trades %d %s]>" %
+				(self.getID(),
+				self.getPlayer(),
+				TradeUtil.format(self.getPlayer(), [t for t in self.trades()]),
+				self.getOtherPlayer(),
 				TradeUtil.format(self.getOtherPlayer(), [t for t in self.otherTrades()])))
 
 class ReversedDeal(Deal):

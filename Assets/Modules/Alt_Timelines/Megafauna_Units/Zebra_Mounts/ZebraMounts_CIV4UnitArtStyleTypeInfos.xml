@@ -680,7 +680,7 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 			</StyleUnits>
-		</UnitArtStyleTypeInfo>		
+		</UnitArtStyleTypeInfo>
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_EUROPEAN</Type>
 			<StyleUnits>
@@ -770,7 +770,7 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 			</StyleUnits>
-		</UnitArtStyleTypeInfo>		
+		</UnitArtStyleTypeInfo>
 		<UnitArtStyleTypeInfo>
 			<Type>UNIT_ARTSTYLE_GERMAN</Type>
 			<StyleUnits>

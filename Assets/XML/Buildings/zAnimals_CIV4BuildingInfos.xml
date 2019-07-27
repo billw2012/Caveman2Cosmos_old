@@ -18963,7 +18963,7 @@
 			<YieldChanges>
 				<iYield>1</iYield>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -19026,7 +19026,7 @@
 			<YieldChanges>
 				<iYield>1</iYield>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -19379,7 +19379,7 @@
 			<YieldChanges>
 				<iYield>2</iYield>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -19448,7 +19448,7 @@
 			<YieldChanges>
 				<iYield>1</iYield>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -19537,7 +19537,7 @@
 				<iYield>0</iYield>
 				<iYield>1</iYield>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -19574,7 +19574,7 @@
 			<YieldChanges>
 				<iYield>1</iYield>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -19830,7 +19830,7 @@
 			<YieldChanges>
 				<iYield>1</iYield>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -19970,8 +19970,8 @@
 			<BuildingClass>BUILDINGCLASS_MASTER_HUNTER_TRADITION</BuildingClass>
 			<Type>BUILDING_MASTER_HUNTER_TRADITION</Type>
 			<Description>TXT_KEY_BUILDING_MASTER_HUNTER_TRADITION</Description>
-			<Civilopedia>TXT_KEY_BUILDING_MASTER_HUNTER_TRADITION_PEDIA</Civilopedia> 
-			<Strategy>TXT_KEY_BUILDING_MASTER_HUNTER_TRADITION_STRATEGY</Strategy>       
+			<Civilopedia>TXT_KEY_BUILDING_MASTER_HUNTER_TRADITION_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MASTER_HUNTER_TRADITION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MASTER_HUNTER</ArtDefineTag>
@@ -20011,7 +20011,7 @@
 					<UnitCombatType>UNITCOMBAT_HUNTER</UnitCombatType>
 					<iExperience>3</iExperience>
 				</UnitCombatFreeExperience>
-			</UnitCombatFreeExperiences> 
+			</UnitCombatFreeExperiences>
 			<!-- Special Health and Happiness  modifiers -->
 			<BonusHealthChanges>
 				<BonusHealthChange>
@@ -20049,27 +20049,27 @@
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
 					<iFlavor>10</iFlavor>
 				</Flavor>
-			</Flavors>  
-			<iConquestProb>100</iConquestProb>			
+			</Flavors>
+			<iConquestProb>100</iConquestProb>
 		</BuildingInfo>
 		<BuildingInfo>
             <BuildingClass>BUILDINGCLASS_MASTER_SEA_HUNTER</BuildingClass>
             <Type>BUILDING_MASTER_SEA_HUNTER</Type>
             <Description>TXT_KEY_BUILDING_MASTER_SEA_HUNTER</Description>
-            <Civilopedia>TXT_KEY_BUILDING_MASTER_SEA_HUNTER_PEDIA</Civilopedia> 
-			<Strategy>TXT_KEY_BUILDING_MASTER_SEA_HUNTER_STRATEGY</Strategy>         
+            <Civilopedia>TXT_KEY_BUILDING_MASTER_SEA_HUNTER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MASTER_SEA_HUNTER_STRATEGY</Strategy>
             <Advisor>ADVISOR_MILITARY</Advisor>
-            <ArtDefineTag>ART_DEF_BUILDING_MASTER_SEA_HUNTER</ArtDefineTag>            
+            <ArtDefineTag>ART_DEF_BUILDING_MASTER_SEA_HUNTER</ArtDefineTag>
  			<ObsoleteTech>TECH_SATELLITES</ObsoleteTech>
 			<FreeStartEra>ERA_CLASSICAL</FreeStartEra>
 	        <FreePromotion>PROMOTION_SEA_HUNTER1</FreePromotion>
-            <iCost>-1</iCost>           
+            <iCost>-1</iCost>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-            <iConquestProb>25</iConquestProb>              
+            <iConquestProb>25</iConquestProb>
             <iAsset>1</iAsset>
-            <iPower>4</iPower>           
+            <iPower>4</iPower>
             <fVisibilityPriority>10</fVisibilityPriority>
 			<ConstructSound>AS2D_BUILD_BARRACKS</ConstructSound>
 			<UnitCombatFreeExperiences>
@@ -20091,7 +20091,7 @@
                     <FlavorType>FLAVOR_MILITARY</FlavorType>
                     <iFlavor>10</iFlavor>
                 </Flavor>
-            </Flavors>           
+            </Flavors>
         </BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_MULE_TRAINER</BuildingClass>
@@ -20162,7 +20162,7 @@
 			<YieldChanges>
 				<iYield>2</iYield>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -20305,7 +20305,7 @@
 			<iConquestProb>75</iConquestProb>
 			<YieldChanges>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -20396,7 +20396,7 @@
 			<YieldChanges>
 				<iYield>1</iYield>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -20528,7 +20528,7 @@
 			<YieldChanges>
 				<iYield>1</iYield>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<iConquestProb>75</iConquestProb>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
@@ -20724,7 +20724,7 @@
 				<iYield>1</iYield>
 				<iYield>1</iYield>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<ExtraFreeBonuses>
 				<ExtraFreeBonus>
 					<FreeBonus>BONUS_CARCASS</FreeBonus>
@@ -21200,7 +21200,7 @@
 			<YieldChanges>
 				<iYield>1</iYield>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<iConquestProb>75</iConquestProb>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 		</BuildingInfo>
@@ -39315,7 +39315,7 @@
 					<PropertyType>PROPERTY_EDUCATION</PropertyType>
 					<iAmountPerTurn>1</iAmountPerTurn>
 				</PropertySource>
-			</PropertyManipulators>			
+			</PropertyManipulators>
 		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_GALAPOGOS_TORTOISE_MYTH</BuildingClass>

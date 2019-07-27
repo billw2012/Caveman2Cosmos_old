@@ -1112,7 +1112,7 @@ class AutoLogEvent(AbstractAutoLogEvent):
 					szTargetItems = szTargetItems + TradeUtil.format(eTargetPlayer, pTrade.getTrade(i)) + ", "
 			szOfferItems = szOfferItems.rstrip(", ")
 			szTargetItems = szTargetItems.rstrip(", ")
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_DEAL_OFFER", 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_DEAL_OFFER",
 									(pOfferPlayer.getName(), pOfferPlayer.getCivilizationShortDescription(0),
 									szOfferItems,
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
@@ -1125,7 +1125,7 @@ class AutoLogEvent(AbstractAutoLogEvent):
 			pTargetPlayer = GC.getPlayer(eTargetPlayer)
 			pOfferPlayer = GC.getPlayer(eOfferPlayer)
 			pCityOffered = pOfferPlayer.getCity(iCityID)
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_CITY_OFFER", 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_CITY_OFFER",
 									(pOfferPlayer.getName(), pOfferPlayer.getCivilizationShortDescription(0),
 									pCityOffered.getName(),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0)))
@@ -1145,7 +1145,7 @@ class AutoLogEvent(AbstractAutoLogEvent):
 				for i in xrange(pTrade.getOtherCount()):
 					szOfferItems = szOfferItems + TradeUtil.format(eOfferPlayer, pTrade.getOtherTrade(i)) + ", "
 			szOfferItems = szOfferItems.rstrip(", ")
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_HELP_OFFER", 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_HELP_OFFER",
 									(pOfferPlayer.getName(), pOfferPlayer.getCivilizationShortDescription(0),
 									szOfferItems,
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0)))
@@ -1156,7 +1156,7 @@ class AutoLogEvent(AbstractAutoLogEvent):
 		if AutologOpt.isLogTradeOffer():
 			pTargetPlayer = GC.getPlayer(eTargetPlayer)
 			pOfferPlayer = GC.getPlayer(eOfferPlayer)
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_PEACE_OFFER", 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_PEACE_OFFER",
 									(pOfferPlayer.getName(), pOfferPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0)))
 			Logger.writeLog(message, vColor="Navy")
@@ -1167,7 +1167,7 @@ class AutoLogEvent(AbstractAutoLogEvent):
 			pTargetPlayer = GC.getPlayer(eTargetPlayer)
 			pOfferPlayer = GC.getPlayer(eOfferPlayer)
 			message = ""
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_VASSAL_OFFER", 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_VASSAL_OFFER",
 									(pOfferPlayer.getName(), pOfferPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0)))
 			Logger.writeLog(message, vColor="Navy")
@@ -1193,13 +1193,13 @@ class AutoLogEvent(AbstractAutoLogEvent):
 			szOfferItems = szOfferItems.rstrip(", ")
 			szTargetItems = szTargetItems.rstrip(", ")
 			if szTargetItems:
-				message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_DEAL_CANCEL", 
+				message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_DEAL_CANCEL",
 										(pOfferPlayer.getName(), pOfferPlayer.getCivilizationShortDescription(0),
 										szOfferItems,
 										pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 										szTargetItems))
 			else:
-				message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GIFT_CANCEL", 
+				message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GIFT_CANCEL",
 										(pOfferPlayer.getName(), pOfferPlayer.getCivilizationShortDescription(0),
 										szOfferItems,
 										pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0)))
@@ -1226,13 +1226,13 @@ class AutoLogEvent(AbstractAutoLogEvent):
 			szOfferItems = szOfferItems.rstrip(", ")
 			szTargetItems = szTargetItems.rstrip(", ")
 			if szTargetItems:
-				message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_DEAL_ACCEPT", 
+				message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_DEAL_ACCEPT",
 										(pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 										szTargetItems,
 										pOfferPlayer.getName(), pOfferPlayer.getCivilizationShortDescription(0),
 										szOfferItems))
 			else:
-				message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GIFT_ACCEPT", 
+				message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GIFT_ACCEPT",
 										(pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 										szOfferItems,
 										pOfferPlayer.getName(), pOfferPlayer.getCivilizationShortDescription(0)))
@@ -1259,13 +1259,13 @@ class AutoLogEvent(AbstractAutoLogEvent):
 			szOfferItems = szOfferItems.rstrip(", ")
 			szTargetItems = szTargetItems.rstrip(", ")
 			if szTargetItems:
-				message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_DEAL_REJECT", 
+				message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_DEAL_REJECT",
 										(pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 										szTargetItems,
 										pOfferPlayer.getName(), pOfferPlayer.getCivilizationShortDescription(0),
 										szOfferItems))
 			else:
-				message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GIFT_REJECT", 
+				message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GIFT_REJECT",
 										(pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 										szOfferItems,
 										pOfferPlayer.getName(), pOfferPlayer.getCivilizationShortDescription(0)))
@@ -1281,8 +1281,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 			for i in xrange(pTrade.getCount()):
 				szItems = szItems + TradeUtil.format(eTargetPlayer, pTrade.getTrade(i)) + ", "
 			szItems = szItems.rstrip(", ")
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_HELP_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_HELP_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									szItems))
 			Logger.writeLog(message, vColor="Navy")
@@ -1297,8 +1297,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 			for i in xrange(pTrade.getCount()):
 				szItems = szItems + TradeUtil.format(eTargetPlayer, pTrade.getTrade(i)) + ", "
 			szItems = szItems.rstrip(", ")
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_HELP_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_HELP_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									szItems))
 			message = message + TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GENERIC_ACCEPT", (pTargetPlayer.getName(),))
@@ -1314,8 +1314,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 			for i in xrange(pTrade.getCount()):
 				szItems = szItems + TradeUtil.format(eTargetPlayer, pTrade.getTrade(i)) + ", "
 			szItems = szItems.rstrip(", ")
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_HELP_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_HELP_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									szItems))
 			message = message + TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GENERIC_REJECT", (pTargetPlayer.getName(),))
@@ -1331,8 +1331,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 			for i in xrange(pTrade.getCount()):
 				szItems = szItems + TradeUtil.format(eTargetPlayer, pTrade.getTrade(i)) + ", "
 			szItems = szItems.rstrip(", ")
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_TRIBUTE_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_TRIBUTE_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									szItems))
 			Logger.writeLog(message, vColor="Navy")
@@ -1347,8 +1347,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 			for i in xrange(pTrade.getCount()):
 				szItems = szItems + TradeUtil.format(eTargetPlayer, pTrade.getTrade(i)) + ", "
 			szItems = szItems.rstrip(", ")
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_TRIBUTE_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_TRIBUTE_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									szItems))
 			message = message + TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GENERIC_ACCEPT", (pTargetPlayer.getName(),))
@@ -1364,8 +1364,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 			for i in xrange(pTrade.getCount()):
 				szItems = szItems + TradeUtil.format(eTargetPlayer, pTrade.getTrade(i)) + ", "
 			szItems = szItems.rstrip(", ")
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_TRIBUTE_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_TRIBUTE_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									szItems))
 			message = message + TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GENERIC_REJECT", (pTargetPlayer.getName(),))
@@ -1376,8 +1376,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 		if AutologOpt.isLogReligionDemand():
 			pTargetPlayer = GC.getPlayer(eTargetPlayer)
 			pDemandPlayer = GC.getPlayer(eDemandPlayer)
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_RELIGION_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_RELIGION_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									GC.getReligionInfo(eReligion).getDescription()))
 			Logger.writeLog(message, vColor="Navy")
@@ -1387,8 +1387,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 		if AutologOpt.isLogReligionDemand():
 			pTargetPlayer = GC.getPlayer(eTargetPlayer)
 			pDemandPlayer = GC.getPlayer(eDemandPlayer)
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_RELIGION_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_RELIGION_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									GC.getReligionInfo(eReligion).getDescription()))
 			message = message + TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GENERIC_ACCEPT", (pTargetPlayer.getName(),))
@@ -1399,8 +1399,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 		if AutologOpt.isLogReligionDemand():
 			pTargetPlayer = GC.getPlayer(eTargetPlayer)
 			pDemandPlayer = GC.getPlayer(eDemandPlayer)
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_RELIGION_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_RELIGION_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									GC.getReligionInfo(eReligion).getDescription()))
 			message = message + TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GENERIC_REJECT", (pTargetPlayer.getName(),))
@@ -1411,8 +1411,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 		if AutologOpt.isLogCivicDemand():
 			pTargetPlayer = GC.getPlayer(eTargetPlayer)
 			pDemandPlayer = GC.getPlayer(eDemandPlayer)
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_CIVIC_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_CIVIC_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									GC.getCivicInfo(eCivic).getDescription()))
 			Logger.writeLog(message, vColor="Navy")
@@ -1422,8 +1422,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 		if AutologOpt.isLogCivicDemand():
 			pTargetPlayer = GC.getPlayer(eTargetPlayer)
 			pDemandPlayer = GC.getPlayer(eDemandPlayer)
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_CIVIC_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_CIVIC_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									GC.getCivicInfo(eCivic).getDescription()))
 			message = message + TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GENERIC_ACCEPT", (pTargetPlayer.getName(),))
@@ -1434,8 +1434,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 		if AutologOpt.isLogCivicDemand():
 			pTargetPlayer = GC.getPlayer(eTargetPlayer)
 			pDemandPlayer = GC.getPlayer(eDemandPlayer)
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_CIVIC_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_CIVIC_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									GC.getCivicInfo(eCivic).getDescription()))
 			message = message + TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GENERIC_REJECT", (pTargetPlayer.getName(),))
@@ -1447,8 +1447,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 			pTargetPlayer = GC.getPlayer(eTargetPlayer)
 			pDemandPlayer = GC.getPlayer(eDemandPlayer)
 			pVictim = GC.getPlayer(eVictim)
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_WAR_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_WAR_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									pVictim.getName(), pVictim.getCivilizationShortDescription(0)))
 			Logger.writeLog(message, vColor="Navy")
@@ -1459,8 +1459,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 			pTargetPlayer = GC.getPlayer(eTargetPlayer)
 			pDemandPlayer = GC.getPlayer(eDemandPlayer)
 			pVictim = GC.getPlayer(eVictim)
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_WAR_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_WAR_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									pVictim.getName(), pVictim.getCivilizationShortDescription(0)))
 			message = message + TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GENERIC_ACCEPT", (pTargetPlayer.getName(),))
@@ -1472,8 +1472,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 			pTargetPlayer = GC.getPlayer(eTargetPlayer)
 			pDemandPlayer = GC.getPlayer(eDemandPlayer)
 			pVictim = GC.getPlayer(eVictim)
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_WAR_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_WAR_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									pVictim.getName(), pVictim.getCivilizationShortDescription(0)))
 			message = message + TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GENERIC_REJECT", (pTargetPlayer.getName(),))
@@ -1485,8 +1485,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 			pTargetPlayer = GC.getPlayer(eTargetPlayer)
 			pDemandPlayer = GC.getPlayer(eDemandPlayer)
 			pVictim = GC.getPlayer(eVictim)
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_EMBARGO_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_EMBARGO_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									pVictim.getName(), pVictim.getCivilizationShortDescription(0)))
 			Logger.writeLog(message, vColor="Navy")
@@ -1497,8 +1497,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 			pTargetPlayer = GC.getPlayer(eTargetPlayer)
 			pDemandPlayer = GC.getPlayer(eDemandPlayer)
 			pVictim = GC.getPlayer(eVictim)
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_EMBARGO_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_EMBARGO_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									pVictim.getName(), pVictim.getCivilizationShortDescription(0)))
 			message = message + TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GENERIC_ACCEPT", (pTargetPlayer.getName(),))
@@ -1510,8 +1510,8 @@ class AutoLogEvent(AbstractAutoLogEvent):
 			pTargetPlayer = GC.getPlayer(eTargetPlayer)
 			pDemandPlayer = GC.getPlayer(eDemandPlayer)
 			pVictim = GC.getPlayer(eVictim)
-			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_EMBARGO_DEMAND", 
-									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0), 
+			message = TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_EMBARGO_DEMAND",
+									(pDemandPlayer.getName(), pDemandPlayer.getCivilizationShortDescription(0),
 									pTargetPlayer.getName(), pTargetPlayer.getCivilizationShortDescription(0),
 									pVictim.getName(), pVictim.getCivilizationShortDescription(0)))
 			message = message + TRNSLTR.getText("TXT_KEY_AUTOLOG_DIPLO_GENERIC_REJECT", (pTargetPlayer.getName(),))
@@ -1606,7 +1606,7 @@ class AutoLogEvent(AbstractAutoLogEvent):
 					if iPlayerX in (iPlayerY, iActivePlayer): continue
 					CyPlayerY = GC.getPlayer(iPlayerY)
 					if not (CyPlayerY.isAlive() and GC.getTeam(CyPlayerY.getTeam()).isHasMet(iActiveTeam)):
-						continue 
+						continue
 					zKey = MAX_PC_PLAYERS * iPlayerX + iPlayerY
 					zsNewAttitude = GC.getAttitudeInfo(CyPlayerX.AI_getAttitude(iPlayerY)).getDescription()
 					if self.CIVAttitude[zKey] != zsNewAttitude:

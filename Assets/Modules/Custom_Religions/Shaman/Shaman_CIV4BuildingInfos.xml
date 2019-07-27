@@ -5,7 +5,7 @@
 <!-- -->
 <!-- Building Infos -->
 <Civ4BuildingInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4BuildingsSchema.xml">
-	<BuildingInfos>	
+	<BuildingInfos>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_SHAMAN_CATHEDRAL2</BuildingClass>
 			<Type>BUILDING_SHAMAN_CATHEDRAL2</Type>
@@ -622,7 +622,7 @@
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SHAMAN_MONASTERY_COW</ArtDefineTag>
 			<ReligionType>RELIGION_SHAMAN</ReligionType>
-			<StateReligion>RELIGION_SHAMAN</StateReligion> 
+			<StateReligion>RELIGION_SHAMAN</StateReligion>
 			<bStateReligion>0</bStateReligion>
 			<PrereqReligion>RELIGION_SHAMAN</PrereqReligion>
 			<!--ObsoleteTech>TECH_AGRICULTURAL_TOOLS</ObsoleteTech-->
@@ -1412,7 +1412,7 @@
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SHAMAN_MONASTERY_SEA_LIONS</ArtDefineTag>
 			<ReligionType>RELIGION_SHAMAN</ReligionType>
-			<StateReligion>RELIGION_SHAMAN</StateReligion> 
+			<StateReligion>RELIGION_SHAMAN</StateReligion>
 			<bStateReligion>0</bStateReligion>
 			<PrereqReligion>RELIGION_SHAMAN</PrereqReligion>
 			<!--ObsoleteTech>TECH_MODERNPHYSICS</ObsoleteTech-->

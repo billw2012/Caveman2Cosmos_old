@@ -24,7 +24,7 @@ def init():
 	game = gc.getGame()
 	global GENERIC_ICON
 	GENERIC_ICON = u"%c" % game.getSymbolID(FontSymbols.MAP_CHAR)
-	
+
 	addTrait("AGGRESSIVE", game.getSymbolID(FontSymbols.STRENGTH_CHAR), "Art/Interface/Buttons/Promotions/Combat1.dds")
 	addTrait("CHARISMATIC", game.getSymbolID(FontSymbols.HAPPY_CHAR), "Art/Interface/Buttons/TechTree/MassMedia.dds")
 	addTrait("CREATIVE", gc.getCommerceInfo(CommerceTypes.COMMERCE_CULTURE).getChar(), "Art/Interface/Buttons/TechTree/Music.dds")
@@ -60,7 +60,7 @@ def init():
 	addTrait("BARBARIAN", game.getSymbolID(FontSymbols.OCCUPATION_CHAR), ",Art/Interface/Buttons/Civilizations/Barbarian.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,4,5")
 
 # Rise of Mankind 2.6 - new traits
-	
+
 def addTrait(trait, icon, button):
 	eTrait = gc.getInfoTypeForString("TRAIT_" + trait)
 	if eTrait != -1:

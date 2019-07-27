@@ -14,7 +14,7 @@
 	<ElementType name="OrDependencyTypes" content="eltOnly">
 		<element type="DependencyType" minOccurs="1"/>
 	</ElementType>
-<!-- XMLCOPY				END					MRGENIE		-->	
+<!-- XMLCOPY				END					MRGENIE		-->
 	<ElementType name="fRed" content="textOnly"/>
 	<ElementType name="fGreen" content="textOnly"/>
 	<ElementType name="fBlue" content="textOnly"/>

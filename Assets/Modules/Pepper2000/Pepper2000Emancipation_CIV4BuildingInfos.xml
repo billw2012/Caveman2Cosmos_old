@@ -106,7 +106,7 @@
 					<bReplace>1</bReplace>
 				</ReplaceBuilding>
 			</ReplaceBuildings>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<Type>BUILDING_SLAVE_COMPOUND_MILITARY_SUPPORT</Type>
 			<AndDependencyTypes>
@@ -190,7 +190,7 @@
 					<bReplace>1</bReplace>
 				</ReplaceBuilding>
 			</ReplaceBuildings>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<Type>BUILDING_WV_HUMAN_SACRIFICE</Type>
 			<AndDependencyTypes>
