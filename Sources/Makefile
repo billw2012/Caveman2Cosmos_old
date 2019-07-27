@@ -191,7 +191,7 @@ LIBS = $(PROJECT_LIBS) $(GLOBAL_LIBS)
 
 
 !IF "$(TARGET)" == "Debug"
-CFLAGS  = $(Debug_CFLAGS)
+CFLAGS  = $(Debug_CFLAGS) /DFASSERT_ENABLE
 LDFLAGS = $(Debug_LDFLAGS)
 LIBS    = $(LIBS) msvcprt.lib
 !ENDIF
