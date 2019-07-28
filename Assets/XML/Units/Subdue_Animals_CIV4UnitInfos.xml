@@ -13999,6 +13999,10 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
+			<iMoves>1</iMoves> 
+			<bNoRevealMap>1</bNoRevealMap> 
+			<iAsset>1</iAsset> 
+			<UnitMeshGroups> 
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1</fMaxSpeed>
 				<fPadTime>1</fPadTime>
@@ -14072,6 +14076,10 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
+			<iMoves>1</iMoves> 
+			<bNoRevealMap>1</bNoRevealMap> 
+			<iAsset>1</iAsset> 
+			<UnitMeshGroups> 
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1</fMaxSpeed>
 				<fPadTime>1</fPadTime>
@@ -14145,6 +14153,10 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
+			<iMoves>1</iMoves> 
+			<bNoRevealMap>1</bNoRevealMap> 
+			<iAsset>1</iAsset> 
+			<UnitMeshGroups> 
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1</fMaxSpeed>
 				<fPadTime>1</fPadTime>
@@ -14218,6 +14230,10 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
+			<iMoves>1</iMoves> 
+			<bNoRevealMap>1</bNoRevealMap> 
+			<iAsset>1</iAsset> 
+			<UnitMeshGroups> 
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
@@ -14289,6 +14305,10 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
+			<iMoves>1</iMoves> 
+			<bNoRevealMap>1</bNoRevealMap> 
+			<iAsset>1</iAsset> 
+			<UnitMeshGroups> 
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>2</fMaxSpeed>
 				<fPadTime>1</fPadTime>
@@ -14399,6 +14419,14 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
+			<iMoves>1</iMoves> 
+			<bNoRevealMap>1</bNoRevealMap> 
+			<iAsset>1</iAsset> 
+			<UnitMeshGroups> 
+				<iGroupSize>2</iGroupSize> 
+				<fMaxSpeed>2</fMaxSpeed> 
+				<fPadTime>1</fPadTime> 
+				<iMeleeWaveSize>1</iMeleeWaveSize> 
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
@@ -14605,6 +14633,18 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
+			<iMoves>1</iMoves> 
+			<bNoRevealMap>1</bNoRevealMap> 
+			<iAsset>1</iAsset> 
+			<UnitMeshGroups> 
+				<iGroupSize>2</iGroupSize> 
+				<fMaxSpeed>1</fMaxSpeed> 
+				<fPadTime>1</fPadTime> 
+				<iMeleeWaveSize>1</iMeleeWaveSize> 
+				<iRangedWaveSize>0</iRangedWaveSize> 
+				<UnitMeshGroup> 
+					<iRequired>1</iRequired> 
+					<EarlyArtDefineTag>ART_DEF_UNIT_SABRETOOTH</EarlyArtDefineTag> 
 				</UnitMeshGroup>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
@@ -16174,6 +16214,18 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
+			<iMoves>1</iMoves> 
+			<bNoRevealMap>1</bNoRevealMap> 
+			<iAsset>1</iAsset> 
+			<UnitMeshGroups> 
+				<iGroupSize>2</iGroupSize> 
+				<fMaxSpeed>1</fMaxSpeed> 
+				<fPadTime>1</fPadTime> 
+				<iMeleeWaveSize>1</iMeleeWaveSize> 
+				<iRangedWaveSize>0</iRangedWaveSize> 
+				<UnitMeshGroup> 
+					<iRequired>1</iRequired> 
+					<EarlyArtDefineTag>ART_DEF_UNIT_TAPIR</EarlyArtDefineTag> 
 				</UnitMeshGroup>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
