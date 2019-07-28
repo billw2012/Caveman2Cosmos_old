@@ -7207,7 +7207,7 @@ void CvPromotionInfo::copyNonDefaults(CvPromotionInfo* pClassInfo, CvXMLLoadUtil
 
 	int iSizeOrig = (int)m_aInvisibleTerrainChanges.size();
 	m_aInvisibleTerrainChanges.reserve(iSizeOrig + (int)pClassInfo->m_aInvisibleTerrainChanges.size());
-	while (m_aInvisibleTerrainChanges.size())
+	while (pClassInfo->m_aInvisibleTerrainChanges.size())
 	{
 		bool bExists = false;
 		InvisibleTerrainChanges& Val = pClassInfo->m_aInvisibleTerrainChanges.back();
@@ -7227,7 +7227,7 @@ void CvPromotionInfo::copyNonDefaults(CvPromotionInfo* pClassInfo, CvXMLLoadUtil
 	}
 	iSizeOrig = (int)m_aInvisibleFeatureChanges.size();
 	m_aInvisibleFeatureChanges.reserve(iSizeOrig + (int)pClassInfo->m_aInvisibleFeatureChanges.size());
-	while (m_aInvisibleFeatureChanges.size())
+	while (pClassInfo->m_aInvisibleFeatureChanges.size())
 	{
 		bool bExists = false;
 		InvisibleFeatureChanges& Val = pClassInfo->m_aInvisibleFeatureChanges.back();
@@ -7247,7 +7247,7 @@ void CvPromotionInfo::copyNonDefaults(CvPromotionInfo* pClassInfo, CvXMLLoadUtil
 	}
 	iSizeOrig = (int)m_aInvisibleImprovementChanges.size();
 	m_aInvisibleImprovementChanges.reserve(iSizeOrig + (int)pClassInfo->m_aInvisibleImprovementChanges.size());
-	while (m_aInvisibleImprovementChanges.size())
+	while (pClassInfo->m_aInvisibleImprovementChanges.size())
 	{
 		bool bExists = false;
 		InvisibleImprovementChanges& Val = pClassInfo->m_aInvisibleImprovementChanges.back();
@@ -7267,7 +7267,7 @@ void CvPromotionInfo::copyNonDefaults(CvPromotionInfo* pClassInfo, CvXMLLoadUtil
 	}
 	iSizeOrig = (int)m_aVisibleTerrainChanges.size();
 	m_aVisibleTerrainChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleTerrainChanges.size());
-	while (m_aVisibleTerrainChanges.size())
+	while (pClassInfo->m_aVisibleTerrainChanges.size())
 	{
 		bool bExists = false;
 		InvisibleTerrainChanges& Val = pClassInfo->m_aVisibleTerrainChanges.back();
@@ -7287,7 +7287,7 @@ void CvPromotionInfo::copyNonDefaults(CvPromotionInfo* pClassInfo, CvXMLLoadUtil
 	}
 	iSizeOrig = (int)m_aVisibleFeatureChanges.size();
 	m_aVisibleFeatureChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleFeatureChanges.size());
-	while (m_aVisibleFeatureChanges.size())
+	while (pClassInfo->m_aVisibleFeatureChanges.size())
 	{
 		bool bExists = false;
 		InvisibleFeatureChanges& Val = pClassInfo->m_aVisibleFeatureChanges.back();
@@ -7307,7 +7307,7 @@ void CvPromotionInfo::copyNonDefaults(CvPromotionInfo* pClassInfo, CvXMLLoadUtil
 	}
 	iSizeOrig = (int)m_aVisibleImprovementChanges.size();
 	m_aVisibleImprovementChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleImprovementChanges.size());
-	while (m_aVisibleImprovementChanges.size())
+	while (pClassInfo->m_aVisibleImprovementChanges.size())
 	{
 		bool bExists = false;
 		InvisibleImprovementChanges& Val = pClassInfo->m_aVisibleImprovementChanges.back();
@@ -7327,7 +7327,7 @@ void CvPromotionInfo::copyNonDefaults(CvPromotionInfo* pClassInfo, CvXMLLoadUtil
 	}
 	iSizeOrig = (int)m_aVisibleTerrainRangeChanges.size();
 	m_aVisibleTerrainRangeChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleTerrainRangeChanges.size());
-	while (m_aVisibleTerrainRangeChanges.size())
+	while (pClassInfo->m_aVisibleTerrainRangeChanges.size())
 	{
 		bool bExists = false;
 		InvisibleTerrainChanges& Val = pClassInfo->m_aVisibleTerrainRangeChanges.back();
@@ -7347,7 +7347,7 @@ void CvPromotionInfo::copyNonDefaults(CvPromotionInfo* pClassInfo, CvXMLLoadUtil
 	}
 	iSizeOrig = (int)m_aVisibleFeatureRangeChanges.size();
 	m_aVisibleFeatureRangeChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleFeatureRangeChanges.size());
-	while (m_aVisibleFeatureRangeChanges.size())
+	while (pClassInfo->m_aVisibleFeatureRangeChanges.size())
 	{
 		bool bExists = false;
 		InvisibleFeatureChanges& Val = pClassInfo->m_aVisibleFeatureRangeChanges.back();
@@ -7367,7 +7367,7 @@ void CvPromotionInfo::copyNonDefaults(CvPromotionInfo* pClassInfo, CvXMLLoadUtil
 	}
 	iSizeOrig = (int)m_aVisibleImprovementRangeChanges.size();
 	m_aVisibleImprovementRangeChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleImprovementRangeChanges.size());
-	while (m_aVisibleImprovementRangeChanges.size())
+	while (pClassInfo->m_aVisibleImprovementRangeChanges.size())
 	{
 		bool bExists = false;
 		InvisibleImprovementChanges& Val = pClassInfo->m_aVisibleImprovementRangeChanges.back();
@@ -43430,7 +43430,7 @@ void CvUnitCombatInfo::copyNonDefaults(CvUnitCombatInfo* pClassInfo, CvXMLLoadUt
 
 	int iSizeOrig = (int)m_aInvisibleTerrainChanges.size();
 	m_aInvisibleTerrainChanges.reserve(iSizeOrig + (int)pClassInfo->m_aInvisibleTerrainChanges.size());
-	while (m_aInvisibleTerrainChanges.size())
+	while (pClassInfo->m_aInvisibleTerrainChanges.size())
 	{
 		bool bExists = false;
 		InvisibleTerrainChanges& Val = pClassInfo->m_aInvisibleTerrainChanges.back();
@@ -43450,7 +43450,7 @@ void CvUnitCombatInfo::copyNonDefaults(CvUnitCombatInfo* pClassInfo, CvXMLLoadUt
 	}
 	iSizeOrig = (int)m_aInvisibleFeatureChanges.size();
 	m_aInvisibleFeatureChanges.reserve(iSizeOrig + (int)pClassInfo->m_aInvisibleFeatureChanges.size());
-	while (m_aInvisibleFeatureChanges.size())
+	while (pClassInfo->m_aInvisibleFeatureChanges.size())
 	{
 		bool bExists = false;
 		InvisibleFeatureChanges& Val = pClassInfo->m_aInvisibleFeatureChanges.back();
@@ -43470,7 +43470,7 @@ void CvUnitCombatInfo::copyNonDefaults(CvUnitCombatInfo* pClassInfo, CvXMLLoadUt
 	}
 	iSizeOrig = (int)m_aInvisibleImprovementChanges.size();
 	m_aInvisibleImprovementChanges.reserve(iSizeOrig + (int)pClassInfo->m_aInvisibleImprovementChanges.size());
-	while (m_aInvisibleImprovementChanges.size())
+	while (pClassInfo->m_aInvisibleImprovementChanges.size())
 	{
 		bool bExists = false;
 		InvisibleImprovementChanges& Val = pClassInfo->m_aInvisibleImprovementChanges.back();
@@ -43490,7 +43490,7 @@ void CvUnitCombatInfo::copyNonDefaults(CvUnitCombatInfo* pClassInfo, CvXMLLoadUt
 	}
 	iSizeOrig = (int)m_aVisibleTerrainChanges.size();
 	m_aVisibleTerrainChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleTerrainChanges.size());
-	while (m_aVisibleTerrainChanges.size())
+	while (pClassInfo->m_aVisibleTerrainChanges.size())
 	{
 		bool bExists = false;
 		InvisibleTerrainChanges& Val = pClassInfo->m_aVisibleTerrainChanges.back();
@@ -43510,7 +43510,7 @@ void CvUnitCombatInfo::copyNonDefaults(CvUnitCombatInfo* pClassInfo, CvXMLLoadUt
 	}
 	iSizeOrig = (int)m_aVisibleFeatureChanges.size();
 	m_aVisibleFeatureChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleFeatureChanges.size());
-	while (m_aVisibleFeatureChanges.size())
+	while (pClassInfo->m_aVisibleFeatureChanges.size())
 	{
 		bool bExists = false;
 		InvisibleFeatureChanges& Val = pClassInfo->m_aVisibleFeatureChanges.back();
@@ -43530,7 +43530,7 @@ void CvUnitCombatInfo::copyNonDefaults(CvUnitCombatInfo* pClassInfo, CvXMLLoadUt
 	}
 	iSizeOrig = (int)m_aVisibleImprovementChanges.size();
 	m_aVisibleImprovementChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleImprovementChanges.size());
-	while (m_aVisibleImprovementChanges.size())
+	while (pClassInfo->m_aVisibleImprovementChanges.size())
 	{
 		bool bExists = false;
 		InvisibleImprovementChanges& Val = pClassInfo->m_aVisibleImprovementChanges.back();
@@ -43550,7 +43550,7 @@ void CvUnitCombatInfo::copyNonDefaults(CvUnitCombatInfo* pClassInfo, CvXMLLoadUt
 	}
 	iSizeOrig = (int)m_aVisibleTerrainRangeChanges.size();
 	m_aVisibleTerrainRangeChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleTerrainRangeChanges.size());
-	while (m_aVisibleTerrainRangeChanges.size())
+	while (pClassInfo->m_aVisibleTerrainRangeChanges.size())
 	{
 		bool bExists = false;
 		InvisibleTerrainChanges& Val = pClassInfo->m_aVisibleTerrainRangeChanges.back();
@@ -43570,7 +43570,7 @@ void CvUnitCombatInfo::copyNonDefaults(CvUnitCombatInfo* pClassInfo, CvXMLLoadUt
 	}
 	iSizeOrig = (int)m_aVisibleFeatureRangeChanges.size();
 	m_aVisibleFeatureRangeChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleFeatureRangeChanges.size());
-	while (m_aVisibleFeatureRangeChanges.size())
+	while (pClassInfo->m_aVisibleFeatureRangeChanges.size())
 	{
 		bool bExists = false;
 		InvisibleFeatureChanges& Val = pClassInfo->m_aVisibleFeatureRangeChanges.back();
@@ -43590,7 +43590,7 @@ void CvUnitCombatInfo::copyNonDefaults(CvUnitCombatInfo* pClassInfo, CvXMLLoadUt
 	}
 	iSizeOrig = (int)m_aVisibleImprovementRangeChanges.size();
 	m_aVisibleImprovementRangeChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleImprovementRangeChanges.size());
-	while (m_aVisibleImprovementRangeChanges.size())
+	while (pClassInfo->m_aVisibleImprovementRangeChanges.size())
 	{
 		bool bExists = false;
 		InvisibleImprovementChanges& Val = pClassInfo->m_aVisibleImprovementRangeChanges.back();
