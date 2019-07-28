@@ -3765,15 +3765,16 @@ void CvGameTextMgr::setPlotListHelp(CvWStringBuffer &szString, CvPlot* pPlot, bo
 					getUnitAIString(szTempString, pHeadUnit->AI_getUnitAIType());
 					szString.append(CvWString::format(SETCOLR L" %s " ENDCOLR, GET_PLAYER(pHeadUnit->getOwnerINLINE()).getPlayerTextColorR(), GET_PLAYER(pHeadUnit->getOwnerINLINE()).getPlayerTextColorG(), GET_PLAYER(pHeadUnit->getOwnerINLINE()).getPlayerTextColorB(), GET_PLAYER(pHeadUnit->getOwnerINLINE()).getPlayerTextColorA(), szTempString.GetCString()));
 
+					//TB Removing promotions from plot list display - they are overwhelming and it's cooler to have to send in an invisible unit to get to see the promos on another stack
 					// promotion icons
-					for (int iPromotionIndex = 0; iPromotionIndex < numPromotionInfos; iPromotionIndex++)
-					{
-						PromotionTypes ePromotion = (PromotionTypes)iPromotionIndex;
-						if (pHeadUnit->isHasPromotion(ePromotion))
-						{
-							szString.append(CvWString::format(L"<img=%S size=16 />", GC.getPromotionInfo(ePromotion).getButton()));
-						}
-					}
+					//for (int iPromotionIndex = 0; iPromotionIndex < numPromotionInfos; iPromotionIndex++)
+					//{
+					//	PromotionTypes ePromotion = (PromotionTypes)iPromotionIndex;
+					//	if (pHeadUnit->isHasPromotion(ePromotion))
+					//	{
+					//		szString.append(CvWString::format(L"<img=%S size=16 />", GC.getPromotionInfo(ePromotion).getButton()));
+					//	}
+					//}
 
 					// group
 					CvSelectionGroup* pHeadGroup = pHeadUnit->getGroup();
@@ -3941,14 +3942,14 @@ void CvGameTextMgr::setPlotListHelp(CvWStringBuffer &szString, CvPlot* pPlot, bo
 								szString.append(CvWString::format(SETCOLR L" %s " ENDCOLR, GET_PLAYER(pCargoUnit->getOwnerINLINE()).getPlayerTextColorR(), GET_PLAYER(pCargoUnit->getOwnerINLINE()).getPlayerTextColorG(), GET_PLAYER(pCargoUnit->getOwnerINLINE()).getPlayerTextColorB(), GET_PLAYER(pCargoUnit->getOwnerINLINE()).getPlayerTextColorA(), szTempString.GetCString()));
 
 								// promotion icons
-								for (int iPromotionIndex = 0; iPromotionIndex < numPromotionInfos; iPromotionIndex++)
+		/*						for (int iPromotionIndex = 0; iPromotionIndex < numPromotionInfos; iPromotionIndex++)
 								{
 									PromotionTypes ePromotion = (PromotionTypes)iPromotionIndex;
 									if (pCargoUnit->isHasPromotion(ePromotion))
 									{
 										szString.append(CvWString::format(L"<img=%S size=16 />", GC.getPromotionInfo(ePromotion).getButton()));
 									}
-								}
+								}*/
 							}
 						}
 						
@@ -3970,14 +3971,14 @@ void CvGameTextMgr::setPlotListHelp(CvWStringBuffer &szString, CvPlot* pPlot, bo
 								szString.append(CvWString::format(SETCOLR L" %s " ENDCOLR, GET_PLAYER(pUnit->getOwnerINLINE()).getPlayerTextColorR(), GET_PLAYER(pUnit->getOwnerINLINE()).getPlayerTextColorG(), GET_PLAYER(pUnit->getOwnerINLINE()).getPlayerTextColorB(), GET_PLAYER(pUnit->getOwnerINLINE()).getPlayerTextColorA(), szTempString.GetCString()));
 
 								// promotion icons
-								for (int iPromotionIndex = 0; iPromotionIndex < numPromotionInfos; iPromotionIndex++)
+		/*						for (int iPromotionIndex = 0; iPromotionIndex < numPromotionInfos; iPromotionIndex++)
 								{
 									PromotionTypes ePromotion = (PromotionTypes)iPromotionIndex;
 									if (pUnit->isHasPromotion(ePromotion))
 									{
 										szString.append(CvWString::format(L"<img=%S size=16 />", GC.getPromotionInfo(ePromotion).getButton()));
 									}
-								}
+								}*/
 
 								// display cargo for loop unit
 								std::vector<CvUnit*> aLoopCargoUnits;
@@ -3994,14 +3995,14 @@ void CvGameTextMgr::setPlotListHelp(CvWStringBuffer &szString, CvPlot* pPlot, bo
 										szString.append(CvWString::format(SETCOLR L" %s " ENDCOLR, GET_PLAYER(pCargoUnit->getOwnerINLINE()).getPlayerTextColorR(), GET_PLAYER(pCargoUnit->getOwnerINLINE()).getPlayerTextColorG(), GET_PLAYER(pCargoUnit->getOwnerINLINE()).getPlayerTextColorB(), GET_PLAYER(pCargoUnit->getOwnerINLINE()).getPlayerTextColorA(), szTempString.GetCString()));
 
 										// promotion icons
-										for (int iPromotionIndex = 0; iPromotionIndex < numPromotionInfos; iPromotionIndex++)
+		/*								for (int iPromotionIndex = 0; iPromotionIndex < numPromotionInfos; iPromotionIndex++)
 										{
 											PromotionTypes ePromotion = (PromotionTypes)iPromotionIndex;
 											if (pCargoUnit->isHasPromotion(ePromotion))
 											{
 												szString.append(CvWString::format(L"<img=%S size=16 />", GC.getPromotionInfo(ePromotion).getButton()));
 											}
-										}
+										}*/
 									}
 								}
 							}
@@ -4388,14 +4389,14 @@ void CvGameTextMgr::setPlotListHelp(CvWStringBuffer &szString, CvPlot* pPlot, bo
 				}
 
 
-				for (int iK = 0; iK < numPromotionInfos; iK++)
-				{
-					std::map<PromotionTypes,int>::const_iterator promoItr = itr->second.m_promotions.find((PromotionTypes)iK);
-					if ( promoItr != itr->second.m_promotions.end())
-					{
-						szString.append(CvWString::format(L"%d<img=%S size=16 />", promoItr->second, GC.getPromotionInfo((PromotionTypes)iK).getButton()));
-					}
-				}
+				//for (int iK = 0; iK < numPromotionInfos; iK++)
+				//{
+				//	std::map<PromotionTypes,int>::const_iterator promoItr = itr->second.m_promotions.find((PromotionTypes)iK);
+				//	if ( promoItr != itr->second.m_promotions.end())
+				//	{
+				//		szString.append(CvWString::format(L"%d<img=%S size=16 />", promoItr->second, GC.getPromotionInfo((PromotionTypes)iK).getButton()));
+				//	}
+				//}
 
 				if (kPlayer.getID() != GC.getGameINLINE().getActivePlayer() && !kUnit.isHiddenNationality())
 				{

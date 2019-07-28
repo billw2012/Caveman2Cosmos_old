@@ -5194,7 +5194,35 @@ void AddDLLMessage(PlayerTypes ePlayer, bool bForce, int iLength, CvWString szSt
 		int iFlashX, int iFlashY, bool bShowOffScreenArrows, bool bShowOnScreenArrows)
 {
 	OutputDebugString(CvString::format("DLLMessage: %S\n", szString.c_str()).c_str());
-	BeginDLLSerialization();
-	gDLL->getInterfaceIFace()->addMessage(ePlayer, bForce, iLength, szString, pszSound, eType, pszIcon, eFlashColor, iFlashX, iFlashY, bShowOffScreenArrows, bShowOnScreenArrows);
-	EndDLLSerialization();
+
+	if (pszIcon == NULL)
+	{
+		pszIcon = "";
+	}
+	if (pszSound == NULL)
+	{
+		pszSound = "";
+	}
+
+	PYTHON_ACCESS_LOCK_SCOPE
+		CyArgsList argsList;
+	argsList.add(szString);
+	argsList.add(ePlayer);
+	argsList.add(iLength);
+	argsList.add(pszIcon);
+	argsList.add(eFlashColor);
+	argsList.add(iFlashX);
+	argsList.add(iFlashY);
+	argsList.add(bShowOffScreenArrows);
+	argsList.add(bShowOnScreenArrows);
+	argsList.add(eType);
+	argsList.add(pszSound);
+	argsList.add(bForce);
+	PYTHON_CALL_FUNCTION(__FUNCTION__, PYScreensModule, "sendMessage", argsList.makeFunctionArgs());
+
+
+	//OutputDebugString(CvString::format("DLLMessage: %S\n", szString.c_str()).c_str());
+	//BeginDLLSerialization();
+	//gDLL->getInterfaceIFace()->addMessage(ePlayer, bForce, iLength, szString, pszSound, eType, pszIcon, eFlashColor, iFlashX, iFlashY, bShowOffScreenArrows, bShowOnScreenArrows);
+	//EndDLLSerialization();
 }
