@@ -4825,30 +4825,12 @@
 				</PrereqNotBuildingClass>
 			</PrereqNotBuildingClasses>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_INTOLERANT</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FASCIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MARXIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PROPAGANDA</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SINGLE_PARTY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_GRID</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_INTOLERANT</CivicOption>
+				<CivicOption>CIVIC_FASCIST</CivicOption>
+				<CivicOption>CIVIC_MARXIST</CivicOption>
+				<CivicOption>CIVIC_PROPAGANDA</CivicOption>
+				<CivicOption>CIVIC_SINGLE_PARTY</CivicOption>
+				<CivicOption>CIVIC_GRID</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
@@ -8146,10 +8128,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_VASSALAGE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_VASSALAGE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -8334,10 +8313,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_VASSALAGE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_VASSALAGE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -9275,10 +9251,7 @@
 			<PrereqTech>TECH_EDUCATION</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_BOURGEOIS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_BOURGEOIS</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
@@ -12666,10 +12639,7 @@
 				</PrereqBuildingClass>
 			</PrereqBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_LIBERAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_LIBERAL</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
@@ -13242,10 +13212,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DIVINE_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DIVINE_RULE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -14375,14 +14342,8 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_WOMENS_SUFFRAGE</PrereqTech>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DEMOCRACY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_REPUBLIC</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DEMOCRACY</CivicOption>
+				<CivicOption>CIVIC_REPUBLIC</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
@@ -17125,9 +17086,7 @@
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
-				<FreeTraitType>
-					<TraitType>TRAIT_ANCIENT_WAY_OF_THE_FIST</TraitType>
-				</FreeTraitType>
+				<TraitType>TRAIT_ANCIENT_WAY_OF_THE_FIST</TraitType>
 			</FreeTraitTypes>
 			<!-- Misc -->
 			<iAsset>3</iAsset>
@@ -17179,9 +17138,7 @@
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
-				<FreeTraitType>
-					<TraitType>TRAIT_ANCIENT_WAY_OF_THE_FEATHER</TraitType>
-				</FreeTraitType>
+				<TraitType>TRAIT_ANCIENT_WAY_OF_THE_FEATHER</TraitType>
 			</FreeTraitTypes>
 			<!-- Misc -->
 			<iAsset>3</iAsset>
@@ -17240,9 +17197,7 @@
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
-				<FreeTraitType>
-					<TraitType>TRAIT_ANCIENT_WAY_OF_THE_SHADOWS</TraitType>
-				</FreeTraitType>
+				<TraitType>TRAIT_ANCIENT_WAY_OF_THE_SHADOWS</TraitType>
 			</FreeTraitTypes>
 			<!-- Misc -->
 			<iAsset>3</iAsset>
@@ -17300,9 +17255,7 @@
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
-				<FreeTraitType>
-					<TraitType>TRAIT_ANCIENT_WAY_OF_THE_CENTAUR</TraitType>
-				</FreeTraitType>
+				<TraitType>TRAIT_ANCIENT_WAY_OF_THE_CENTAUR</TraitType>
 			</FreeTraitTypes>
 			<!-- Misc -->
 			<iAsset>3</iAsset>
@@ -17354,9 +17307,7 @@
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
-				<FreeTraitType>
-					<TraitType>TRAIT_ANCIENT_WAY_OF_THE_WARRIOR</TraitType>
-				</FreeTraitType>
+				<TraitType>TRAIT_ANCIENT_WAY_OF_THE_WARRIOR</TraitType>
 			</FreeTraitTypes>
 			<!-- Misc -->
 			<iAsset>3</iAsset>
@@ -17409,9 +17360,7 @@
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
-				<FreeTraitType>
-					<TraitType>TRAIT_ANCIENT_WAY_OF_THE_WAVES</TraitType>
-				</FreeTraitType>
+				<TraitType>TRAIT_ANCIENT_WAY_OF_THE_WAVES</TraitType>
 			</FreeTraitTypes>
 			<!-- Misc -->
 			<iAsset>3</iAsset>
@@ -17463,9 +17412,7 @@
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
-				<FreeTraitType>
-					<TraitType>TRAIT_ANCIENT_WAY_OF_THE_WIND</TraitType>
-				</FreeTraitType>
+				<TraitType>TRAIT_ANCIENT_WAY_OF_THE_WIND</TraitType>
 			</FreeTraitTypes>
 			<!-- Misc -->
 			<iAsset>3</iAsset>
@@ -17514,9 +17461,7 @@
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
-				<FreeTraitType>
-					<TraitType>TRAIT_ANCIENT_WAY_OF_THE_WILD</TraitType>
-				</FreeTraitType>
+				<TraitType>TRAIT_ANCIENT_WAY_OF_THE_WILD</TraitType>
 			</FreeTraitTypes>
 			<!-- Misc -->
 			<iAsset>3</iAsset>
@@ -17565,9 +17510,7 @@
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
-				<FreeTraitType>
-					<TraitType>TRAIT_ANCIENT_WAY_OF_THE_LEECH</TraitType>
-				</FreeTraitType>
+				<TraitType>TRAIT_ANCIENT_WAY_OF_THE_LEECH</TraitType>
 			</FreeTraitTypes>
 			<!-- Misc -->
 			<iAsset>3</iAsset>
@@ -17619,9 +17562,7 @@
 				</UnitCombatProdModifier>
 			</UnitCombatProdModifiers>
 			<FreeTraitTypes>
-				<FreeTraitType>
-					<TraitType>TRAIT_ANCIENT_WAY_OF_THE_WOLF</TraitType>
-				</FreeTraitType>
+				<TraitType>TRAIT_ANCIENT_WAY_OF_THE_WOLF</TraitType>
 			</FreeTraitTypes>
 			<!-- Misc -->
 			<iAsset>3</iAsset>

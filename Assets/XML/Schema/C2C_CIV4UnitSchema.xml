@@ -1266,11 +1266,8 @@
 	<ElementType name="GroupSpawnUnitCombatTypes" content="eltOnly">
 		<element type="GroupSpawnUnitCombatType" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	<ElementType name="EnabledCivilizationType" content="eltOnly">
-		<element type="CivilizationType"/>
-	</ElementType>
 	<ElementType name="EnabledCivilizationTypes" content="eltOnly">
-		<element type="EnabledCivilizationType" minOccurs="0" maxOccurs="*"/>
+		<element type="CivilizationType" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
 	<!-- TB's Tags end -->
 	<!--TB's Converted TLOTags Start-->

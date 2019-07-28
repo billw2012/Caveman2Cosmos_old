@@ -188,9 +188,7 @@
 			<BuildingClass>BUILDINGCLASS_ABATIS</BuildingClass>
 			<Type>BUILDING_ABATIS</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_ABATIS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ABATIS_PEDIA</Civilopedia>
@@ -886,10 +884,7 @@
 				<Bonus>BONUS_MARBLE</Bonus>
 			</PrereqBonuses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_REPUBLIC</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_REPUBLIC</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -1029,10 +1024,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_TECHNOCRACY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_TECHNOCRACY</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -1651,9 +1643,7 @@
 			<BuildingClass>BUILDINGCLASS_ALPHAFEMALES</BuildingClass>
 			<Type>BUILDING_ALPHAFEMALES</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_ALPHAFEMALES</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ALPHAGENDER_PEDIA</Civilopedia>
@@ -1665,10 +1655,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_STRONGMAN</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_STRONGMAN</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -1703,9 +1690,7 @@
 			<BuildingClass>BUILDINGCLASS_ALPHAMALES</BuildingClass>
 			<Type>BUILDING_ALPHAMALES</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_ALPHAMALES</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ALPHAGENDER_PEDIA</Civilopedia>
@@ -1717,10 +1702,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_STRONGMAN</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_STRONGMAN</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -3045,9 +3027,7 @@
 			<BuildingClass>BUILDINGCLASS_ANIMAL_TRAPS</BuildingClass>
 			<Type>BUILDING_ANIMAL_TRAPS</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_ANIMAL_TRAPS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ANIMAL_TRAPS_PEDIA</Civilopedia>
@@ -3434,9 +3414,7 @@
 			<BuildingClass>BUILDINGCLASS_ANTHILL</BuildingClass>
 			<Type>BUILDING_ANTHILL</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_ANTHILL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ANTHILL_PEDIA</Civilopedia>
@@ -4491,10 +4469,7 @@
 			<PrereqTech>TECH_GUILDS</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_APPRENTICESHIP</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_APPRENTICESHIP</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5573,10 +5548,7 @@
 			<PrereqTech>TECH_FREE_ARTISTRY</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_BOURGEOIS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_BOURGEOIS</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -7263,10 +7235,7 @@
 			<PrereqTech>TECH_MILITARY_ROBOTS</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_UNMANNED_WARFARE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_UNMANNED_WARFARE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -7828,18 +7797,9 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_LANDFILLS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_IMPORT_TRASH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_ENERGY_TRASH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_LANDFILLS</CivicOption>
+				<CivicOption>CIVIC_IMPORT_TRASH</CivicOption>
+				<CivicOption>CIVIC_ENERGY_TRASH</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -8384,9 +8344,7 @@
 			<BuildingClass>BUILDINGCLASS_BAMBOO_ARMOURER</BuildingClass>
 			<Type>BUILDING_BAMBOO_ARMOURER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_BAMBOO_ARMOURER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BAMBOO_ARMOURER_PEDIA</Civilopedia>
@@ -8521,9 +8479,7 @@
 			<BuildingClass>BUILDINGCLASS_BAMBOO_GROVE</BuildingClass>
 			<Type>BUILDING_BAMBOO_GROVE</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_BAMBOO_GROVE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BAMBOO_GROVE_PEDIA</Civilopedia>
@@ -8665,10 +8621,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_THEFT</PrereqTech>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_BANDITRY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_BANDITRY</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>0</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -9011,9 +8964,7 @@
 			<BuildingClass>BUILDINGCLASS_BARK_GATHERER</BuildingClass>
 			<Type>BUILDING_BARK_GATHERER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_BARK_GATHERER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BARK_GATHERER_PEDIA</Civilopedia>
@@ -10703,9 +10654,7 @@
 			<BuildingClass>BUILDINGCLASS_BELLADONNA</BuildingClass>
 			<Type>BUILDING_BELLADONNA</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_BELLADONNA</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BELLADONNA_PEDIA</Civilopedia>
@@ -12596,14 +12545,8 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_ANARCHISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CHIEFDOM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_ANARCHISM</CivicOption>
+				<CivicOption>CIVIC_CHIEFDOM</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -12797,9 +12740,7 @@
 			<BuildingClass>BUILDINGCLASS_BOATYARD</BuildingClass>
 			<Type>BUILDING_BOATYARD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_BOATYARD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BOATYARD_PEDIA</Civilopedia>
@@ -13172,9 +13113,7 @@
 			<BuildingClass>BUILDINGCLASS_BONEWORKERS_HUT</BuildingClass>
 			<Type>BUILDING_BONEWORKERS_HUT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_BONEWORKERS_HUT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BONEWORKERS_HUT_PEDIA</Civilopedia>
@@ -13803,10 +13742,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CASTE_SYSTEM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CASTE_SYSTEM</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -13872,10 +13808,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_OBEDIENCE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_OBEDIENCE</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -18126,9 +18059,7 @@
 			<BuildingClass>BUILDINGCLASS_CAMEL_FARM</BuildingClass>
 			<Type>BUILDING_CAMEL_FARM</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_CAMEL_FARM</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CAMEL_FARM_PEDIA</Civilopedia>
@@ -18973,9 +18904,7 @@
 			<BuildingClass>BUILDINGCLASS_CANOEBUILDERS_HUT</BuildingClass>
 			<Type>BUILDING_CANOEBUILDERS_HUT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_CANOEBUILDERS_HUT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CANOEBUILDERS_HUT_PEDIA</Civilopedia>
@@ -19087,9 +19016,7 @@
 			<BuildingClass>BUILDINGCLASS_CAPTURETHEFLAG</BuildingClass>
 			<Type>BUILDING_CAPTURETHEFLAG</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_CAPTURETHEFLAG</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CAPTURETHEFLAG_PEDIA</Civilopedia>
@@ -19489,9 +19416,7 @@
 			<BuildingClass>BUILDINGCLASS_CARPENTERS_WORKSHOP</BuildingClass>
 			<Type>BUILDING_CARPENTERS_WORKSHOP</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_CARPENTERS_WORKSHOP</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CARPENTERS_WORKSHOP_PEDIA</Civilopedia>
@@ -21475,9 +21400,7 @@
 			<BuildingClass>BUILDINGCLASS_CHALK_PIT</BuildingClass>
 			<Type>BUILDING_CHALK_PIT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_CHALK_PIT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CHALK_PIT_PEDIA</Civilopedia>
@@ -21535,28 +21458,13 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CORPORATIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_LAISSEZ_FAIRE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_ENVIRONMENTALISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_KEYNESIAN</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CORPORATIST</CivicOption>
+				<CivicOption>CIVIC_LAISSEZ_FAIRE</CivicOption>
+				<CivicOption>CIVIC_ENVIRONMENTALISM</CivicOption>
+				<CivicOption>CIVIC_KEYNESIAN</CivicOption>
 			</PrereqOrCivics>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CORPORATE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CORPORATE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -21602,14 +21510,8 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -21792,10 +21694,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FASCIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_FASCIST</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -22389,10 +22288,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_CHIEFDOM</PrereqTech>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CHIEFDOM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CHIEFDOM</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -22486,9 +22382,7 @@
 			<BuildingClass>BUILDINGCLASS_CHILDCAREHUT</BuildingClass>
 			<Type>BUILDING_CHILDCAREHUT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_CHILDCAREHUT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CHILDCAREHUT_PEDIA</Civilopedia>
@@ -23163,10 +23057,7 @@
 				<Bonus>BONUS_CEMENT</Bonus>
 			</PrereqBonuses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_ATHEIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_ATHEIST</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -23246,14 +23137,8 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FREE_CHURCH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_RELIGIOUS_TRAINING</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_FREE_CHURCH</CivicOption>
+				<CivicOption>CIVIC_RELIGIOUS_TRAINING</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -24475,10 +24360,7 @@
 				<Bonus>BONUS_BOOKS</Bonus>
 			</PrereqBonuses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_BUREAUCRACY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_BUREAUCRACY</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -24634,9 +24516,7 @@
 			<BuildingClass>BUILDINGCLASS_CLAY_PIT</BuildingClass>
 			<Type>BUILDING_CLAY_PIT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_CLAY_PIT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CLAY_PIT_PEDIA</Civilopedia>
@@ -25845,10 +25725,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_UTOPIA</PrereqTech>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FARM_STATE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_FARM_STATE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -26714,10 +26591,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FARM_GREEN</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_FARM_GREEN</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -28443,9 +28317,7 @@
 			<BuildingClass>BUILDINGCLASS_COUNTING_STICKS</BuildingClass>
 			<Type>BUILDING_COUNTING_STICKS</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_COUNTING_STICKS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COUNTING_STICKS_PEDIA</Civilopedia>
@@ -28569,14 +28441,8 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -29070,10 +28936,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_ORAL_TRADITION</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_ORAL_TRADITION</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -29609,22 +29472,10 @@
 				</PrereqNotBuildingClass>
 			</PrereqNotBuildingClasses>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DESPOTISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FASCIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SUPERHUMAN</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DESPOTISM</CivicOption>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_FASCIST</CivicOption>
+				<CivicOption>CIVIC_SUPERHUMAN</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -29781,9 +29632,7 @@
 			<BuildingClass>BUILDINGCLASS_CURARE</BuildingClass>
 			<Type>BUILDING_CURARE</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_CURARE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CURARE_PEDIA</Civilopedia>
@@ -29957,10 +29806,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PARADISE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_PARADISE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -30507,9 +30353,7 @@
 			<BuildingClass>BUILDINGCLASS_DANCE_HUT</BuildingClass>
 			<Type>BUILDING_DANCE_HUT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_DANCE_HUT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DANCE_HUT_PEDIA</Civilopedia>
@@ -30728,9 +30572,7 @@
 			<BuildingClass>BUILDINGCLASS_DEATHCAP_MUSHROOM</BuildingClass>
 			<Type>BUILDING_DEATHCAP_MUSHROOM</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_DEATHCAP_MUSHROOM</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DEATHCAP_MUSHROOM_PEDIA</Civilopedia>
@@ -32720,10 +32562,7 @@
 			<PrereqTech>TECH_REPRESENTATIVE_DEMOCRACY</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DEMOCRACY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DEMOCRACY</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -32814,9 +32653,7 @@
 			<BuildingClass>BUILDINGCLASS_DIVINE_MONUMENT</BuildingClass>
 			<Type>BUILDING_DIVINE_MONUMENT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_DIVINE_MONUMENT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DIVINE_MONUMENT_PEDIA</Civilopedia>
@@ -32831,10 +32668,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MYSTICISM</PrereqTech>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DIVINE_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DIVINE_RULE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -33073,9 +32907,7 @@
 			<BuildingClass>BUILDINGCLASS_DOG_BREEDER</BuildingClass>
 			<Type>BUILDING_DOG_BREEDER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_DOG_BREEDER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DOG_BREEDER_PEDIA</Civilopedia>
@@ -33125,9 +32957,7 @@
 			<BuildingClass>BUILDINGCLASS_DONKEY_FARM</BuildingClass>
 			<Type>BUILDING_DONKEY_FARM</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_DONKEY_FARM</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DONKEY_FARM_PEDIA</Civilopedia>
@@ -33342,10 +33172,7 @@
 			<PrereqTech>TECH_MILITARY_TRAINING</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CONSCRIPTION1</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CONSCRIPTION1</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -33795,9 +33622,7 @@
 			<BuildingClass>BUILDINGCLASS_DRIFTWOOD_GATHERER</BuildingClass>
 			<Type>BUILDING_DRIFTWOOD_GATHERER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_DRIFTWOOD_GATHERER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DRIFTWOOD_GATHERER_PEDIA</Civilopedia>
@@ -34222,9 +34047,7 @@
 			<BuildingClass>BUILDINGCLASS_DRYING_FRAME</BuildingClass>
 			<Type>BUILDING_DRYING_FRAME</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_DRYING_FRAME</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DRYING_FRAME_PEDIA</Civilopedia>
@@ -34542,9 +34365,7 @@
 			<BuildingClass>BUILDINGCLASS_DYE_MAKER</BuildingClass>
 			<Type>BUILDING_DYE_MAKER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_DYE_MAKER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DYE_MAKER_PEDIA</Civilopedia>
@@ -34650,9 +34471,7 @@
 			<BuildingClass>BUILDINGCLASS_EARTHWALL</BuildingClass>
 			<Type>BUILDING_EARTHWALL</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_EARTHWALL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_EARTHWALL_PEDIA</Civilopedia>
@@ -35983,9 +35802,7 @@
 			<BuildingClass>BUILDINGCLASS_ELEPHANT_FARM</BuildingClass>
 			<Type>BUILDING_ELEPHANT_FARM</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_ELEPHANT_FARM</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ELEPHANT_FARM_PEDIA</Civilopedia>
@@ -36040,9 +35857,7 @@
 			<BuildingClass>BUILDINGCLASS_ELEPHANT_CAMP</BuildingClass>
 			<Type>BUILDING_ELEPHANT_CAMP</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_ELEPHANT_CAMP</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ELEPHANT_CAMP_PEDIA</Civilopedia>
@@ -36187,9 +36002,7 @@
 			<BuildingClass>BUILDINGCLASS_ELEPHANT_TRAINER</BuildingClass>
 			<Type>BUILDING_ELEPHANT_TRAINER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_ELEPHANT_TRAINER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ELEPHANT_TRAINER_PEDIA</Civilopedia>
@@ -37451,10 +37264,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_KEYNESIAN</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_KEYNESIAN</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -37901,10 +37711,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_ECONOMICS</PrereqTech>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FARM_PRIVATIZED</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_FARM_PRIVATIZED</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -37953,10 +37760,7 @@
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<bStateReligion>1</bStateReligion>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_INTOLERANT</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_INTOLERANT</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -38630,22 +38434,10 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FARM_GUILDS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FARM_PRIVATIZED</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FARM_SUBDIDIZED</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FARM_GREEN</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_FARM_GUILDS</CivicOption>
+				<CivicOption>CIVIC_FARM_PRIVATIZED</CivicOption>
+				<CivicOption>CIVIC_FARM_SUBDIDIZED</CivicOption>
+				<CivicOption>CIVIC_FARM_GREEN</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -39269,10 +39061,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PROLETARIAT</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_PROLETARIAT</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -39568,9 +39357,7 @@
 			<BuildingClass>BUILDINGCLASS_FIGHTING_PIT</BuildingClass>
 			<Type>BUILDING_FIGHTING_PIT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_FIGHTING_PIT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FIGHTING_PIT_PEDIA</Civilopedia>
@@ -39727,9 +39514,7 @@
 			<BuildingClass>BUILDINGCLASS_FIRE_ABATIS</BuildingClass>
 			<Type>BUILDING_FIRE_ABATIS</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_FIRE_ABATIS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FIRE_ABATIS_PEDIA</Civilopedia>
@@ -41044,9 +40829,7 @@
 			<BuildingClass>BUILDINGCLASS_FLINT_KNAPPER</BuildingClass>
 			<Type>BUILDING_FLINT_KNAPPER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_FLINT_KNAPPER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FLINT_KNAPPER_PEDIA</Civilopedia>
@@ -41106,9 +40889,7 @@
 			<BuildingClass>BUILDINGCLASS_FLINT_QUARRY</BuildingClass>
 			<Type>BUILDING_FLINT_QUARRY</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_FLINT_QUARRY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FLINT_QUARRY_PEDIA</Civilopedia>
@@ -41884,10 +41665,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_REPUBLIC</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_REPUBLIC</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -41945,10 +41723,7 @@
 				<Bonus>BONUS_PAPER</Bonus>
 			</PrereqBonuses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PRIVATE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_PRIVATE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -42292,10 +42067,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_LAISSEZ_FAIRE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_LAISSEZ_FAIRE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -42377,9 +42149,7 @@
 			<BuildingClass>BUILDINGCLASS_FRONTIER_OUTPOST</BuildingClass>
 			<Type>BUILDING_FRONTIER_OUTPOST</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_FRONTIER_OUTPOST</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FRONTIER_OUTPOST_PEDIA</Civilopedia>
@@ -43195,10 +42965,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SEA_TRASH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_SEA_TRASH</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -43254,10 +43021,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SPACE_TRASH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_SPACE_TRASH</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -45603,10 +45367,7 @@
 			</BuildingClassNeededs>
 			<PrereqTech>TECH_NATIONALISM</PrereqTech>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_GOLD_STANDARD</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_GOLD_STANDARD</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -46147,10 +45908,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_FEUDALISM</PrereqTech>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -46214,10 +45972,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_VASSALAGE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_VASSALAGE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -46276,14 +46031,8 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MAGISTRATES</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_BOURGEOIS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MAGISTRATES</CivicOption>
+				<CivicOption>CIVIC_BOURGEOIS</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -46448,9 +46197,7 @@
 			<BuildingClass>BUILDINGCLASS_GRASS_GATHERER</BuildingClass>
 			<Type>BUILDING_GRASS_GATHERER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_GRASS_GATHERER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_GRASS_GATHERER_PEDIA</Civilopedia>
@@ -47377,9 +47124,7 @@
 			<BuildingClass>BUILDINGCLASS_GUARD_DOG</BuildingClass>
 			<Type>BUILDING_GUARD_DOG</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_GUARD_DOG</Description>
 			<Civilopedia>TXT_KEY_BUILDING_GUARD_DOG_PEDIA</Civilopedia>
@@ -47680,10 +47425,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_GUILDS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_GUILDS</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -49165,9 +48907,7 @@
 			<BuildingClass>BUILDINGCLASS_HEMATITE_PIT</BuildingClass>
 			<Type>BUILDING_HEMATITE_PIT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_HEMATITE_PIT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_HEMATITE_PIT_PEDIA</Civilopedia>
@@ -50111,26 +49851,11 @@
 				<Bonus>BONUS_SULPHUR</Bonus>
 			</PrereqBonuses>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DESPOTISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_NATIONALIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DESPOTISM</CivicOption>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
+				<CivicOption>CIVIC_NATIONALIST</CivicOption>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>0</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -51298,9 +51023,7 @@
 			<BuildingClass>BUILDINGCLASS_HORSE_FARM</BuildingClass>
 			<Type>BUILDING_HORSE_FARM</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_HORSE_FARM</Description>
 			<Civilopedia>TXT_KEY_BUILDING_HORSE_FARM_PEDIA</Civilopedia>
@@ -51932,9 +51655,7 @@
 			<BuildingClass>BUILDINGCLASS_HUNTING_DOGS</BuildingClass>
 			<Type>BUILDING_HUNTING_DOGS</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_HUNTING_DOGS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_HUNTING_DOGS_PEDIA</Civilopedia>
@@ -51980,9 +51701,7 @@
 			<BuildingClass>BUILDINGCLASS_HUNTING_INSTRUCTION</BuildingClass>
 			<Type>BUILDING_HUNTING_INSTRUCTION</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_HUNTING_INSTRUCTION</Description>
 			<Civilopedia>TXT_KEY_BUILDING_HUNTING_INSTRUCTION_PEDIA</Civilopedia>
@@ -53966,14 +53685,8 @@
 				<Bonus>BONUS_CEMENT</Bonus>
 			</PrereqBonuses>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_OLIGARCHY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MARTIALLAW</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_OLIGARCHY</CivicOption>
+				<CivicOption>CIVIC_MARTIALLAW</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -56466,10 +56179,7 @@
 			<PrereqTech>TECH_INDUSTRIALISM</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_IMPORT_TRASH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_IMPORT_TRASH</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -56945,14 +56655,8 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -57017,10 +56721,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FOLKLORE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_FOLKLORE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -57771,18 +57472,9 @@
 			<PrereqTech>TECH_SANITATION</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_LANDFILLS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_IMPORT_TRASH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_ENERGY_TRASH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_LANDFILLS</CivicOption>
+				<CivicOption>CIVIC_IMPORT_TRASH</CivicOption>
+				<CivicOption>CIVIC_ENERGY_TRASH</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -58305,9 +57997,7 @@
 			<BuildingClass>BUILDINGCLASS_LAVA_ROCK_QUARRY</BuildingClass>
 			<Type>BUILDING_LAVA_ROCK_QUARRY</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_LAVA_ROCK_QUARRY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_LAVA_ROCK_QUARRY_PEDIA</Civilopedia>
@@ -58763,10 +58453,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CORPORATE_EDUCATION</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CORPORATE_EDUCATION</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -59421,10 +59108,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SURVIVAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_SURVIVAL</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -59459,9 +59143,7 @@
 			<BuildingClass>BUILDINGCLASS_LICHEN_GATHERER</BuildingClass>
 			<Type>BUILDING_LICHEN_GATHERER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_LICHEN_GATHERER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_LICHEN_GATHERER_PEDIA</Civilopedia>
@@ -59474,10 +59156,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_HERBALISM</PrereqTech>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SURVIVAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_SURVIVAL</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -59965,9 +59644,7 @@
 			<BuildingClass>BUILDINGCLASS_LLAMA_FARM</BuildingClass>
 			<Type>BUILDING_LLAMA_FARM</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_LLAMA_FARM</Description>
 			<Civilopedia>TXT_KEY_BUILDING_LLAMA_FARM_PEDIA</Civilopedia>
@@ -60734,9 +60411,7 @@
 			<BuildingClass>BUILDINGCLASS_LUMBER_CAMP</BuildingClass>
 			<Type>BUILDING_LUMBER_CAMP</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_LUMBER_CAMP</Description>
 			<Civilopedia>TXT_KEY_BUILDING_LUMBER_CAMP_PEDIA</Civilopedia>
@@ -61879,9 +61554,7 @@
 			<BuildingClass>BUILDINGCLASS_MAMMOTH_CAMP</BuildingClass>
 			<Type>BUILDING_MAMMOTH_CAMP</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_MAMMOTH_CAMP</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MAMMOTH_CAMP_PEDIA</Civilopedia>
@@ -62675,14 +62348,8 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -64119,10 +63786,7 @@
 				</PrereqTerrain>
 			</PrereqOrTerrain>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FARM_CORPORATE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_FARM_CORPORATE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -66581,10 +66245,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_MILITARY_TRAINING</PrereqTech>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MILITARY_TRADITION</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MILITARY_TRADITION</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<PrereqOrBuildingClasses>
@@ -66825,10 +66486,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MIND_CONTROL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MIND_CONTROL</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -69103,10 +68761,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PAPER_MONEY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_PAPER_MONEY</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -69356,10 +69011,7 @@
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Bonus>BONUS_SCULPTURES</Bonus>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DESPOTISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DESPOTISM</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -70415,9 +70067,7 @@
 			<BuildingClass>BUILDINGCLASS_MUSIC_HUT</BuildingClass>
 			<Type>BUILDING_MUSIC_HUT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_MUSIC_HUT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MUSIC_HUT_PEDIA</Civilopedia>
@@ -70759,10 +70409,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PROPHETS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_PROPHETS</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -71798,9 +71445,7 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NEANDERTHAL_CAVES</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NEANDERTHAL_CAVES_PEDIA</Civilopedia>
@@ -73321,9 +72966,7 @@
 			<BuildingClass>BUILDINGCLASS_OBSIDIAN_QUARRY</BuildingClass>
 			<Type>BUILDING_OBSIDIAN_QUARRY</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_OBSIDIAN_QUARRY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_OBSIDIAN_QUARRY_PEDIA</Civilopedia>
@@ -73888,9 +73531,7 @@
 			<BuildingClass>BUILDINGCLASS_OMEGACREW</BuildingClass>
 			<Type>BUILDING_OMEGACREW</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_OMEGACREW</Description>
 			<Civilopedia>TXT_KEY_BUILDING_OMEGACREW_PEDIA</Civilopedia>
@@ -73920,14 +73561,8 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_UNORGANIZED</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_COMMUNITY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_UNORGANIZED</CivicOption>
+				<CivicOption>CIVIC_COMMUNITY</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>0</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -75242,9 +74877,7 @@
 			<BuildingClass>BUILDINGCLASS_OXEN_FARM</BuildingClass>
 			<Type>BUILDING_OXEN_FARM</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_OXEN_FARM</Description>
 			<Civilopedia>TXT_KEY_BUILDING_OXEN_FARM_PEDIA</Civilopedia>
@@ -75819,9 +75452,7 @@
 			<BuildingClass>BUILDINGCLASS_PALISADE</BuildingClass>
 			<Type>BUILDING_PALISADE</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_PALISADE_WALL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_PALISADE_WALL_PEDIA</Civilopedia>
@@ -76308,9 +75939,7 @@
 			<BuildingClass>BUILDINGCLASS_PAPYRUS_GROVE</BuildingClass>
 			<Type>BUILDING_PAPYRUS_GROVE</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_PAPYRUS_GROVE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_PAPYRUS_GROVE_PEDIA</Civilopedia>
@@ -76369,10 +75998,7 @@
 			</PrereqOrBuildingClasses>
 			<PrereqTech>TECH_MILITARY_TRAINING</PrereqTech>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MILITARY_TRADITION</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MILITARY_TRADITION</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -76497,10 +76123,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PARADISE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_PARADISE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -79311,26 +78934,11 @@
 			</TechTypes>
 			<bWater>1</bWater>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DESPOTISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_NATIONALIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DESPOTISM</CivicOption>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
+				<CivicOption>CIVIC_NATIONALIST</CivicOption>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -79452,9 +79060,7 @@
 			<BuildingClass>BUILDINGCLASS_PIT_TRAPS</BuildingClass>
 			<Type>BUILDING_PIT_TRAPS</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_PIT_TRAPS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_PIT_TRAPS_PEDIA</Civilopedia>
@@ -79690,10 +79296,7 @@
 				</And>
 			</ConstructCondition>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CHARITY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CHARITY</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -79851,10 +79454,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PLANNED</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_PLANNED</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -80371,9 +79971,7 @@
 			<BuildingClass>BUILDINGCLASS_PLAYINGFIELDS</BuildingClass>
 			<Type>BUILDING_PLAYINGFIELDS</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_PLAYINGFIELDS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_PLAYINGFIELDS_PEDIA</Civilopedia>
@@ -80580,9 +80178,7 @@
 			<BuildingClass>BUILDINGCLASS_POISONCRAFTERS_HUT</BuildingClass>
 			<Type>BUILDING_POISONCRAFTERS_HUT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_POISONCRAFTERS_HUT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_POISONCRAFTERS_HUT_PEDIA</Civilopedia>
@@ -81089,10 +80685,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SENATE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_SENATE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -82297,10 +81890,7 @@
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<Bonus>BONUS_BRICKS</Bonus>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DEMOCRACY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DEMOCRACY</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -82607,10 +82197,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PROPAGANDA</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_PROPAGANDA</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -82671,18 +82258,9 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_STATE_CHURCH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FASCIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_TECHNOCRACY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_STATE_CHURCH</CivicOption>
+				<CivicOption>CIVIC_FASCIST</CivicOption>
+				<CivicOption>CIVIC_TECHNOCRACY</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -84531,9 +84109,7 @@
 			<BuildingClass>BUILDINGCLASS_RATTAN_GROVE</BuildingClass>
 			<Type>BUILDING_RATTAN_GROVE</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_RATTAN_GROVE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_RATTAN_GROVE_PEDIA</Civilopedia>
@@ -84898,10 +84474,7 @@
 			<PrereqTech>TECH_MILITARY_TRADITION</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_VOLUNTEER_ARMY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_VOLUNTEER_ARMY</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -84949,10 +84522,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_ENVIRONMENTALISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_ENVIRONMENTALISM</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -85155,9 +84725,7 @@
 			<BuildingClass>BUILDINGCLASS_REED_GATHERER</BuildingClass>
 			<Type>BUILDING_REED_GATHERER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_REED_GATHERER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_REED_GATHERER_PEDIA</Civilopedia>
@@ -85212,10 +84780,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FASCIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_FASCIST</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -85437,9 +85002,7 @@
 			<BuildingClass>BUILDINGCLASS_REINDEER_FARM</BuildingClass>
 			<Type>BUILDING_REINDEER_FARM</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_REINDEER_FARM</Description>
 			<Civilopedia>TXT_KEY_BUILDING_REINDEER_FARM_PEDIA</Civilopedia>
@@ -86001,9 +85564,7 @@
 			<BuildingClass>BUILDINGCLASS_RESIN_GROVE</BuildingClass>
 			<Type>BUILDING_RESIN_GROVE</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_RESIN_GROVE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_RESIN_GROVE_PEDIA</Civilopedia>
@@ -86190,18 +85751,9 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_STATE_CHURCH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FREE_CHURCH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SECULAR</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_STATE_CHURCH</CivicOption>
+				<CivicOption>CIVIC_FREE_CHURCH</CivicOption>
+				<CivicOption>CIVIC_SECULAR</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -86579,9 +86131,7 @@
 			<BuildingClass>BUILDINGCLASS_RIDING_SCHOOL</BuildingClass>
 			<Type>BUILDING_RIDING_SCHOOL</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_RIDING_SCHOOL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_RIDING_SCHOOL_PEDIA</Civilopedia>
@@ -87447,9 +86997,7 @@
 			<BuildingClass>BUILDINGCLASS_ROCK_GATHERER</BuildingClass>
 			<Type>BUILDING_ROCK_GATHERER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_ROCK_GATHERER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ROCK_GATHERER_PEDIA</Civilopedia>
@@ -87634,9 +87182,7 @@
 			<BuildingClass>BUILDINGCLASS_ROOT_TUBERS</BuildingClass>
 			<Type>BUILDING_ROOT_TUBERS</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_ROOT_TUBERS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ROOT_TUBERS_PEDIA</Civilopedia>
@@ -87826,9 +87372,7 @@
 			<BuildingClass>BUILDINGCLASS_ROPE_WEAVER</BuildingClass>
 			<Type>BUILDING_ROPE_WEAVER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_ROPE_WEAVER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ROPE_WEAVER_PEDIA</Civilopedia>
@@ -87949,10 +87493,7 @@
 				<Bonus>BONUS_MARBLE</Bonus>
 			</PrereqBonuses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -88442,9 +87983,7 @@
 			<BuildingClass>BUILDINGCLASS_SADDLER</BuildingClass>
 			<Type>BUILDING_SADDLER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SADDLER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SADDLER_PEDIA</Civilopedia>
@@ -91031,9 +90570,7 @@
 			<BuildingClass>BUILDINGCLASS_SEED_CAMP</BuildingClass>
 			<Type>BUILDING_SEED_CAMP</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SEED_CAMP</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SEED_CAMP_PEDIA</Civilopedia>
@@ -91048,10 +90585,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_GATHERING</PrereqTech>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_NOFARM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_NOFARM</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -91156,18 +90690,9 @@
 			</PrereqBonuses>
 			<bStateReligion>1</bStateReligion>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_STATE_CHURCH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FREE_CHURCH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_RELIGIOUS_TRAINING</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_STATE_CHURCH</CivicOption>
+				<CivicOption>CIVIC_FREE_CHURCH</CivicOption>
+				<CivicOption>CIVIC_RELIGIOUS_TRAINING</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -91216,9 +90741,7 @@
 			<BuildingClass>BUILDINGCLASS_SENTRY_POST</BuildingClass>
 			<Type>BUILDING_SENTRY_POST</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SENTRY_POST</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SENTRY_POST_PEDIA</Civilopedia>
@@ -91783,9 +91306,7 @@
 			<BuildingClass>BUILDINGCLASS_SHEEP_FARM</BuildingClass>
 			<Type>BUILDING_SHEEP_FARM</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SHEEP_FARM</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SHEEP_FARM_PEDIA</Civilopedia>
@@ -92008,9 +91529,7 @@
 			<BuildingClass>BUILDINGCLASS_SHIPWRIGHT</BuildingClass>
 			<Type>BUILDING_SHIPWRIGHT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SHIPWRIGHT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SHIPWRIGHT_PEDIA</Civilopedia>
@@ -92532,18 +92051,9 @@
 				<Bonus>BONUS_MARBLE</Bonus>
 			</PrereqBonuses>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FOLKLORE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DIVINE_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PROPHETS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_FOLKLORE</CivicOption>
+				<CivicOption>CIVIC_DIVINE_RULE</CivicOption>
+				<CivicOption>CIVIC_PROPHETS</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -93492,9 +93002,7 @@
 			<BuildingClass>BUILDINGCLASS_SLAUGHTERHOUSE</BuildingClass>
 			<Type>BUILDING_SLAUGHTERHOUSE</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SLAUGHTERHOUSE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SLAUGHTERHOUSE_PEDIA</Civilopedia>
@@ -93552,9 +93060,7 @@
 			<BuildingClass>BUILDINGCLASS_SLED_DOGS</BuildingClass>
 			<Type>BUILDING_SLED_DOGS</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SLED_DOGS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SLED_DOGS_PEDIA</Civilopedia>
@@ -93916,30 +93422,12 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DESPOTISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_NATIONALIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_BANDITRY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DESPOTISM</CivicOption>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
+				<CivicOption>CIVIC_NATIONALIST</CivicOption>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
+				<CivicOption>CIVIC_BANDITRY</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -94408,14 +93896,8 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MARXIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SOCIALIZED</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MARXIST</CivicOption>
+				<CivicOption>CIVIC_SOCIALIZED</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -94529,10 +94011,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SUBSIDIZED</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_SUBSIDIZED</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -95175,10 +94654,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MIND_CONTROL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MIND_CONTROL</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -95591,9 +95067,7 @@
 			<BuildingClass>BUILDINGCLASS_SPIKED_PIT_TRAPS</BuildingClass>
 			<Type>BUILDING_SPIKED_PIT_TRAPS</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SPIKED_PIT_TRAPS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SPIKED_PIT_TRAPS_PEDIA</Civilopedia>
@@ -95931,14 +95405,8 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -96011,10 +95479,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_FEUDALISM</PrereqTech>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FUEDALISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_FUEDALISM</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -96082,9 +95547,7 @@
 			<BuildingClass>BUILDINGCLASS_STABLE</BuildingClass>
 			<Type>BUILDING_STABLE</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_STABLE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STABLE_PEDIA</Civilopedia>
@@ -97159,14 +96622,8 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -97195,9 +96652,7 @@
 			<BuildingClass>BUILDINGCLASS_STICKCOMBAT</BuildingClass>
 			<Type>BUILDING_STICKCOMBAT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_STICKCOMBAT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STICKCOMBAT_PEDIA</Civilopedia>
@@ -97258,9 +96713,7 @@
 			<BuildingClass>BUILDINGCLASS_STICK_GATHERER</BuildingClass>
 			<Type>BUILDING_STICK_GATHERER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_STICK_GATHERER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STICK_GATHERER_PEDIA</Civilopedia>
@@ -97538,9 +96991,7 @@
 			<BuildingClass>BUILDINGCLASS_STONE_QUARRY</BuildingClass>
 			<Type>BUILDING_STONE_QUARRY</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_STONE_QUARRY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STONE_QUARRY_PEDIA</Civilopedia>
@@ -97572,9 +97023,7 @@
 			<BuildingClass>BUILDINGCLASS_STONETOOL_MAKER</BuildingClass>
 			<Type>BUILDING_STONETOOL_MAKER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_STONETOOL_MAKER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STONETOOL_MAKER_PEDIA</Civilopedia>
@@ -97778,9 +97227,7 @@
 			<BuildingClass>BUILDINGCLASS_STONEWORKER</BuildingClass>
 			<Type>BUILDING_STONEWORKER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_STONEWORKER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STONEWORKER_PEDIA</Civilopedia>
@@ -97887,9 +97334,7 @@
 			<BuildingClass>BUILDINGCLASS_STORAGE_PIT</BuildingClass>
 			<Type>BUILDING_STORAGE_PIT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_STORAGE_PIT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STORAGE_PIT_PEDIA</Civilopedia>
@@ -98004,9 +97449,7 @@
 			<BuildingClass>BUILDINGCLASS_STRAW_GATHERER</BuildingClass>
 			<Type>BUILDING_STRAW_GATHERER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_STRAW_GATHERER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STRAW_GATHERER_PEDIA</Civilopedia>
@@ -99477,9 +98920,7 @@
 			<BuildingClass>BUILDINGCLASS_TALLY_STONE</BuildingClass>
 			<Type>BUILDING_TALLY_STONE</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_TALLY_STONE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TALLY_STONE_PEDIA</Civilopedia>
@@ -99640,9 +99081,7 @@
 			<BuildingClass>BUILDINGCLASS_TANNERY</BuildingClass>
 			<Type>BUILDING_TANNERY</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_TANNERY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TANNERY_PEDIA</Civilopedia>
@@ -99830,9 +99269,7 @@
 			<BuildingClass>BUILDINGCLASS_TANNIN_MAKER</BuildingClass>
 			<Type>BUILDING_TANNIN_MAKER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_TANNIN_MAKER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TANNIN_MAKER_PEDIA</Civilopedia>
@@ -100283,9 +99720,7 @@
 			<BuildingClass>BUILDINGCLASS_TARPIT</BuildingClass>
 			<Type>BUILDING_TARPIT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_TARPIT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TARPIT_PEDIA</Civilopedia>
@@ -100589,9 +100024,7 @@
 			<BuildingClass>BUILDINGCLASS_TATTOO_HUT</BuildingClass>
 			<Type>BUILDING_TATTOO_HUT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_TATTOO_HUT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TATTOO_HUT_PEDIA</Civilopedia>
@@ -101370,26 +100803,11 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DIVINE_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_STATE_CHURCH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FREE_CHURCH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_INTOLERANT</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SECULAR</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DIVINE_RULE</CivicOption>
+				<CivicOption>CIVIC_STATE_CHURCH</CivicOption>
+				<CivicOption>CIVIC_FREE_CHURCH</CivicOption>
+				<CivicOption>CIVIC_INTOLERANT</CivicOption>
+				<CivicOption>CIVIC_SECULAR</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -102491,10 +101909,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_TECHNOCRACY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_TECHNOCRACY</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -103517,9 +102932,7 @@
 			<BuildingClass>BUILDINGCLASS_TORCHES</BuildingClass>
 			<Type>BUILDING_TORCHES</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_TORCHES</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TORCHES_PEDIA</Civilopedia>
@@ -103618,10 +103031,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_TRIBAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_TRIBAL</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -104788,9 +104198,7 @@
 			<BuildingClass>BUILDINGCLASS_TRAVOIS_MAKER</BuildingClass>
 			<Type>BUILDING_TRAVOIS_MAKER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_TRAVOIS_MAKER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TRAVOIS_MAKER_PEDIA</Civilopedia>
@@ -105261,9 +104669,7 @@
 			<BuildingClass>BUILDINGCLASS_TUMULUS</BuildingClass>
 			<Type>BUILDING_TUMULUS</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_TUMULUS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TUMULUS_PEDIA</Civilopedia>
@@ -105937,10 +105343,7 @@
 				<Bonus>BONUS_CEMENT</Bonus>
 			</PrereqBonuses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SECULAR</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_SECULAR</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -106971,9 +106374,7 @@
 			<BuildingClass>BUILDINGCLASS_VILLAGE_HALL</BuildingClass>
 			<Type>BUILDING_VILLAGE_HALL</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_VILLAGE_HALL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_VILLAGE_HALL_PEDIA</Civilopedia>
@@ -107056,9 +106457,7 @@
 			<BuildingClass>BUILDINGCLASS_VINE_GATHERER</BuildingClass>
 			<Type>BUILDING_VINE_GATHERER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_VINE_GATHERER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_VINE_GATHERER_PEDIA</Civilopedia>
@@ -107818,9 +107217,7 @@
 			<BuildingClass>BUILDINGCLASS_WAR_DOGS</BuildingClass>
 			<Type>BUILDING_WAR_DOGS</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_WAR_DOGS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WAR_DOGS_PEDIA</Civilopedia>
@@ -107911,9 +107308,7 @@
 			<BuildingClass>BUILDINGCLASS_WARRIOR_HUT</BuildingClass>
 			<Type>BUILDING_WARRIOR_HUT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_WARRIOR_HUT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WARRIOR_HUT_PEDIA</Civilopedia>
@@ -107928,10 +107323,7 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_TRIBALISM</PrereqTech>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_TRIBALWARFARE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_TRIBALWARFARE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -108097,18 +107489,9 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_LANDFILLS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_IMPORT_TRASH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_ENERGY_TRASH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_LANDFILLS</CivicOption>
+				<CivicOption>CIVIC_IMPORT_TRASH</CivicOption>
+				<CivicOption>CIVIC_ENERGY_TRASH</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -108147,10 +107530,7 @@
 			<PrereqTech>TECH_ECONOMICS</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_EXPORT_TRASH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_EXPORT_TRASH</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -108210,14 +107590,8 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_ENVIRONMENTALISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_ENERGY_TRASH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_ENVIRONMENTALISM</CivicOption>
+				<CivicOption>CIVIC_ENERGY_TRASH</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -109128,9 +108502,7 @@
 			<BuildingClass>BUILDINGCLASS_WEAVER</BuildingClass>
 			<Type>BUILDING_WEAVER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_WEAVER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WEAVER_PEDIA</Civilopedia>
@@ -109379,10 +108751,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SOCIALIZED</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_SOCIALIZED</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -109428,18 +108797,9 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_COMMUNALISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_BARTER</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SUBSISTENCE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_COMMUNALISM</CivicOption>
+				<CivicOption>CIVIC_BARTER</CivicOption>
+				<CivicOption>CIVIC_SUBSISTENCE</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -109548,10 +108908,7 @@
 				<VicinityBonus>BONUS_WHALE</VicinityBonus>
 			</PrereqVicinityBonuses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FOLKLORE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_FOLKLORE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -109878,9 +109235,7 @@
 			<BuildingClass>BUILDINGCLASS_WILD_HERBS</BuildingClass>
 			<Type>BUILDING_WILD_HERBS</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_WILD_HERBS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WILD_HERBS_PEDIA</Civilopedia>
@@ -110923,10 +110278,7 @@
 				<Bonus>BONUS_WOOD</Bonus>
 			</PrereqBonuses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PUBLIC_WORKS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_PUBLIC_WORKS</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -111026,9 +110378,7 @@
 			<BuildingClass>BUILDINGCLASS_YAK_FARM</BuildingClass>
 			<Type>BUILDING_YAK_FARM</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_YAK_FARM</Description>
 			<Civilopedia>TXT_KEY_BUILDING_YAK_FARM_PEDIA</Civilopedia>

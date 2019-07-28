@@ -234,8 +234,8 @@ void CvGame::init(HandicapTypes eHandicap)
 			{
 				for (int iJ = 0; iJ < GC.getGameOptionInfo(eGameOption).getNumEnforcesGameOptionOnTypes(); iJ++)
 				{
-					GameOptionTypes eGameOptionMustOn = ((GameOptionTypes)GC.getGameOptionInfo(eGameOption).isEnforcesGameOptionOnType(iJ).eGameOption);
-					if (GC.getGameOptionInfo(eGameOption).isEnforcesGameOptionOnType(iJ).bBool && !isOption(eGameOptionMustOn))
+					GameOptionTypes eGameOptionMustOn = (GameOptionTypes)GC.getGameOptionInfo(eGameOption).isEnforcesGameOptionOnType(iJ);
+					if (!isOption(eGameOptionMustOn))
 					{
 						setOption(eGameOptionMustOn, true);
 					}
@@ -245,8 +245,8 @@ void CvGame::init(HandicapTypes eHandicap)
 			{
 				for (int iJ = 0; iJ < GC.getGameOptionInfo(eGameOption).getNumEnforcesGameOptionOffTypes(); iJ++)
 				{
-					GameOptionTypes eGameOptionMustOff = ((GameOptionTypes)GC.getGameOptionInfo(eGameOption).isEnforcesGameOptionOffType(iJ).eGameOption);
-					if (GC.getGameOptionInfo(eGameOption).isEnforcesGameOptionOffType(iJ).bBool && isOption(eGameOptionMustOff))
+					GameOptionTypes eGameOptionMustOff = (GameOptionTypes)GC.getGameOptionInfo(eGameOption).isEnforcesGameOptionOffType(iJ);
+					if (isOption(eGameOptionMustOff))
 					{
 						setOption(eGameOptionMustOff, false);
 					}
@@ -2790,8 +2790,8 @@ void CvGame::update()
 				{
 					for (int iJ = 0; iJ < GC.getGameOptionInfo(eGameOption).getNumEnforcesGameOptionOnTypes(); iJ++)
 					{
-						GameOptionTypes eGameOptionMustOn = ((GameOptionTypes)GC.getGameOptionInfo(eGameOption).isEnforcesGameOptionOnType(iJ).eGameOption);
-						if (GC.getGameOptionInfo(eGameOption).isEnforcesGameOptionOnType(iJ).bBool && !isOption(eGameOptionMustOn))
+						GameOptionTypes eGameOptionMustOn = (GameOptionTypes)GC.getGameOptionInfo(eGameOption).isEnforcesGameOptionOnType(iJ);
+						if (!isOption(eGameOptionMustOn))
 						{
 							setOption(eGameOptionMustOn, true);
 						}
@@ -2801,8 +2801,8 @@ void CvGame::update()
 				{
 					for (int iJ = 0; iJ < GC.getGameOptionInfo(eGameOption).getNumEnforcesGameOptionOffTypes(); iJ++)
 					{
-						GameOptionTypes eGameOptionMustOff = ((GameOptionTypes)GC.getGameOptionInfo(eGameOption).isEnforcesGameOptionOffType(iJ).eGameOption);
-						if (GC.getGameOptionInfo(eGameOption).isEnforcesGameOptionOffType(iJ).bBool && isOption(eGameOptionMustOff))
+						GameOptionTypes eGameOptionMustOff = (GameOptionTypes)GC.getGameOptionInfo(eGameOption).isEnforcesGameOptionOffType(iJ);
+						if (isOption(eGameOptionMustOff))
 						{
 							setOption(eGameOptionMustOff, false);
 						}

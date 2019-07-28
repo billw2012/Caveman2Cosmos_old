@@ -18937,9 +18937,7 @@
 			<BuildingClass>BUILDINGCLASS_BISON_HERD</BuildingClass>
 			<Type>BUILDING_BISON_HERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_BISON_HERD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BISON_HERD_PEDIA</Civilopedia>
@@ -19006,9 +19004,7 @@
 			<BuildingClass>BUILDINGCLASS_BUFFALO_HERD</BuildingClass>
 			<Type>BUILDING_BUFFALO_HERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_BUFFALO_HERD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BUFFALO_HERD_PEDIA</Civilopedia>
@@ -19033,9 +19029,7 @@
 			<BuildingClass>BUILDINGCLASS_BUFFALO_TRAINER</BuildingClass>
 			<Type>BUILDING_BUFFALO_TRAINER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_BUFFALO_TRAINER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BUFFALO_TRAINER_PEDIA</Civilopedia>
@@ -19080,9 +19074,7 @@
 			<BuildingClass>BUILDINGCLASS_CARNIVAL</BuildingClass>
 			<Type>BUILDING_CARNIVAL</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_CARNIVAL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CARNIVAL_PEDIA</Civilopedia>
@@ -19154,9 +19146,7 @@
 			<BuildingClass>BUILDINGCLASS_CAMEL_HERD</BuildingClass>
 			<Type>BUILDING_CAMEL_HERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_CAMEL_HERD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CAMEL_HERD_PEDIA</Civilopedia>
@@ -19352,9 +19342,7 @@
 			<BuildingClass>BUILDINGCLASS_COW_HERD</BuildingClass>
 			<Type>BUILDING_COW_HERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_COW_HERD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COW_HERD_PEDIA</Civilopedia>
@@ -19422,9 +19410,7 @@
 			<BuildingClass>BUILDINGCLASS_DEER_HERD</BuildingClass>
 			<Type>BUILDING_DEER_HERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_DEER_HERD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DEER_HERD_PEDIA</Civilopedia>
@@ -19455,9 +19441,7 @@
 			<BuildingClass>BUILDINGCLASS_DOG_KENNEL</BuildingClass>
 			<Type>BUILDING_DOG_KENNEL</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_DOG_KENNEL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DOG_KENNEL_PEDIA</Civilopedia>
@@ -19509,9 +19493,7 @@
 			<BuildingClass>BUILDINGCLASS_DONKEY_HERD</BuildingClass>
 			<Type>BUILDING_DONKEY_HERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_DONKEY_HERD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_DONKEY_HERD_PEDIA</Civilopedia>
@@ -19544,9 +19526,7 @@
 			<BuildingClass>BUILDINGCLASS_ELEPHANT_HERD</BuildingClass>
 			<Type>BUILDING_ELEPHANT_HERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_ELEPHANT_HERD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ELEPHANT_HERD_PEDIA</Civilopedia>
@@ -19629,9 +19609,7 @@
 			<BuildingClass>BUILDINGCLASS_GOAT_HERD</BuildingClass>
 			<Type>BUILDING_GOAT_HERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_GOAT_HERD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_GOAT_HERD_PEDIA</Civilopedia>
@@ -19661,9 +19639,7 @@
 			<BuildingClass>BUILDINGCLASS_GOVENORS_MENAGERIE</BuildingClass>
 			<Type>BUILDING_GOVENORS_MENAGERIE</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_GOVENORS_MENAGERIE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_GOVENORS_MENAGERIE_PEDIA</Civilopedia>
@@ -19711,9 +19687,7 @@
 			<BuildingClass>BUILDINGCLASS_GOVENORS_PETS</BuildingClass>
 			<Type>BUILDING_GOVENORS_PETS</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_GOVENORS_PETS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_GOVENORS_PETS_PEDIA</Civilopedia>
@@ -19803,9 +19777,7 @@
 			<BuildingClass>BUILDINGCLASS_HORSE_HERD</BuildingClass>
 			<Type>BUILDING_HORSE_HERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_HORSE_HERD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_HORSE_HERD_PEDIA</Civilopedia>
@@ -20139,9 +20111,7 @@
 			<BuildingClass>BUILDINGCLASS_MUSKOX_HERD</BuildingClass>
 			<Type>BUILDING_MUSKOX_HERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_MUSKOX_HERD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MUSKOX_HERD_PEDIA</Civilopedia>
@@ -20247,9 +20217,7 @@
 			<BuildingClass>BUILDINGCLASS_PIG_HERD</BuildingClass>
 			<Type>BUILDING_PIG_HERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_PIG_HERD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_PIG_HERD_PEDIA</Civilopedia>
@@ -20360,9 +20328,7 @@
 			<BuildingClass>BUILDINGCLASS_RATITE_HERD</BuildingClass>
 			<Type>BUILDING_RATITE_HERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_RATITE_HERD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_RATITE_HERD_PEDIA</Civilopedia>
@@ -20501,9 +20467,7 @@
 			<BuildingClass>BUILDINGCLASS_ROO_HERD</BuildingClass>
 			<Type>BUILDING_ROO_HERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_ROO_HERD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ROO_HERD_PEDIA</Civilopedia>
@@ -20703,9 +20667,7 @@
 			<BuildingClass>BUILDINGCLASS_SHEEP_HERD</BuildingClass>
 			<Type>BUILDING_SHEEP_HERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SHEEP_HERD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SHEEP_HERD_PEDIA</Civilopedia>
@@ -20737,9 +20699,7 @@
 			<BuildingClass>BUILDINGCLASS_SNAKE_CHARMER</BuildingClass>
 			<Type>BUILDING_SNAKE_CHARMER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SNAKE_CHARMER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SNAKE_CHARMER_PEDIA</Civilopedia>
@@ -20786,9 +20746,7 @@
 			<BuildingClass>BUILDINGCLASS_SNAKE_PIT</BuildingClass>
 			<Type>BUILDING_SNAKE_PIT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SNAKE_PIT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SNAKE_PIT_PEDIA</Civilopedia>
@@ -21175,9 +21133,7 @@
 			<BuildingClass>BUILDINGCLASS_LLAMA_HERD</BuildingClass>
 			<Type>BUILDING_LLAMA_HERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_LLAMA_HERD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_LLAMA_HERD_PEDIA</Civilopedia>
@@ -21253,9 +21209,7 @@
 			<BuildingClass>BUILDINGCLASS_TRADITION_HUNTING</BuildingClass>
 			<Type>BUILDING_TRADITION_HUNTING</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_TRADITION_HUNTING</Description>
 			<Civilopedia>TXT_KEY_BUILDING_HUNTING_INSTRUCTION_PEDIA</Civilopedia>
@@ -21277,9 +21231,7 @@
 			<BuildingClass>BUILDINGCLASS_TRADITION_SEA_HUNTING</BuildingClass>
 			<Type>BUILDING_TRADITION_SEA_HUNTING</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_TRADITION_SEA_HUNTING</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MASTER_SEA_HUNTER_PEDIA</Civilopedia>
@@ -21301,9 +21253,7 @@
 			<BuildingClass>BUILDINGCLASS_TRADITION_HUNTER</BuildingClass>
 			<Type>BUILDING_TRADITION_HUNTER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_TRADITION_HUNTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MASTER_HUNTER_PEDIA</Civilopedia>

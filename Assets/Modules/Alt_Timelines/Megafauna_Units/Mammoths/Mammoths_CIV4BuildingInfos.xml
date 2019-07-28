@@ -10,9 +10,7 @@
 			<BuildingClass>BUILDINGCLASS_MAMMOTH_HERD</BuildingClass>
 			<Type>BUILDING_MAMMOTH_HERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_MAMMOTH_HERD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MAMMOTH_HERD_PEDIA</Civilopedia>
@@ -54,9 +52,7 @@
 			<BuildingClass>BUILDINGCLASS_MAMMOTH_TRAINER</BuildingClass>
 			<Type>BUILDING_MAMMOTH_TRAINER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_MAMMOTH_TRAINER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MAMMOTH_TRAINER_PEDIA</Civilopedia>
@@ -182,9 +178,7 @@
 			<BuildingClass>BUILDINGCLASS_MAMMOTH_TRAINER_EFFECT</BuildingClass>
 			<Type>BUILDING_MAMMOTH_TRAINER_EFFECT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_MAMMOTH_TRAINER_EFFECT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MAMMOTH_TRAINER_PEDIA</Civilopedia>

@@ -23,7 +23,9 @@ public:
 	CvPropertyInteraction();
 	CvPropertyInteraction(PropertyTypes eSourceProperty, PropertyTypes eTargetProperty);
 	virtual ~CvPropertyInteraction();
+	// Returns the property type of the acting end
 	PropertyTypes getSourceProperty() const;
+	// Returns the property type of the receiving end
 	PropertyTypes getTargetProperty() const;
 	void setSourceProperty(PropertyTypes eProperty);
 	void setTargetProperty(PropertyTypes eProperty);
@@ -34,12 +36,12 @@ public:
 	int getRelationData() const;
 	void setRelationData(int iRelationData);
 
-	bool isActive(CvGameObject* pObject);
+	bool isActive(const CvGameObject* pObject) const;
 
 	virtual PropertyInteractionTypes getType() = 0;
 
-	virtual std::pair<int,int> getPredict(int iCurrentAmountSource, int iCurrentAmountTarget) = 0;
-	virtual std::pair<int,int> getCorrect(int iCurrentAmountSource, int iCurrentAmountTarget, int iPredictedAmountSource, int iPredictedAmountTarget) = 0;
+	virtual std::pair<int,int> getPredict(int iCurrentAmountSource, int iCurrentAmountTarget) const = 0;
+	virtual std::pair<int,int> getCorrect(int iCurrentAmountSource, int iCurrentAmountTarget, int iPredictedAmountSource, int iPredictedAmountTarget) const = 0;
 
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const;
 	
@@ -68,8 +70,8 @@ public:
 
 	int getAmountPerTurn();
 
-	virtual std::pair<int,int> getPredict(int iCurrentAmountSource, int iCurrentAmountTarget);
-	virtual std::pair<int,int> getCorrect(int iCurrentAmountSource, int iCurrentAmountTarget, int iPredictedAmountSource, int iPredictedAmountTarget);
+	virtual std::pair<int,int> getPredict(int iCurrentAmountSource, int iCurrentAmountTarget) const;
+	virtual std::pair<int,int> getCorrect(int iCurrentAmountSource, int iCurrentAmountTarget, int iPredictedAmountSource, int iPredictedAmountTarget) const;
 
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const;
 	
@@ -95,8 +97,8 @@ public:
 	int getGrowthPercent();
 	int getInhibitionPercent();
 
-	virtual std::pair<int,int> getPredict(int iCurrentAmountSource, int iCurrentAmountTarget);
-	virtual std::pair<int,int> getCorrect(int iCurrentAmountSource, int iCurrentAmountTarget, int iPredictedAmountSource, int iPredictedAmountTarget);
+	virtual std::pair<int,int> getPredict(int iCurrentAmountSource, int iCurrentAmountTarget) const;
+	virtual std::pair<int,int> getCorrect(int iCurrentAmountSource, int iCurrentAmountTarget, int iPredictedAmountSource, int iPredictedAmountTarget) const;
 
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const;
 
@@ -123,8 +125,8 @@ public:
 	int getPercent();
 	int getNoConvertAmount();
 
-	virtual std::pair<int,int> getPredict(int iCurrentAmountSource, int iCurrentAmountTarget);
-	virtual std::pair<int,int> getCorrect(int iCurrentAmountSource, int iCurrentAmountTarget, int iPredictedAmountSource, int iPredictedAmountTarget);
+	virtual std::pair<int,int> getPredict(int iCurrentAmountSource, int iCurrentAmountTarget) const;
+	virtual std::pair<int,int> getCorrect(int iCurrentAmountSource, int iCurrentAmountTarget, int iPredictedAmountSource, int iPredictedAmountTarget) const;
 
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const;
 

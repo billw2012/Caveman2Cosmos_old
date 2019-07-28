@@ -37,8 +37,8 @@ CvPropertyPropagator::CvPropertyPropagator(PropertyTypes eProperty) :
 
 CvPropertyPropagator::~CvPropertyPropagator()
 {
-	GC.removeDelayedResolution((int*)&m_eProperty);
 	SAFE_DELETE(m_pExprActive);
+	SAFE_DELETE(m_pExprTargetCondition);
 }
 
 PropertyTypes CvPropertyPropagator::getProperty() const
@@ -111,7 +111,7 @@ void CvPropertyPropagator::setTargetObjectType(GameObjectTypes eObjectType)
 	m_eTargetObjectType = eObjectType;
 }
 
-bool CvPropertyPropagator::isActive(CvGameObject *pObject)
+bool CvPropertyPropagator::isActive(const CvGameObject *pObject) const
 {
 	if ((m_eObjectType == NO_GAMEOBJECT) || (m_eObjectType == pObject->getGameObjectType()))
 	{
@@ -127,7 +127,7 @@ bool CvPropertyPropagator::isActive(CvGameObject *pObject)
 	return false;
 }
 
-void CvPropertyPropagator::getTargetObjects(CvGameObject* pObject, std::vector<CvGameObject*>& apGameObjects)
+void CvPropertyPropagator::getTargetObjects(const CvGameObject* pObject, std::vector<const CvGameObject*>& apGameObjects) const
 {
 	apGameObjects.push_back(pObject);
 	if (m_eTargetObjectType != NO_GAMEOBJECT)
@@ -149,7 +149,10 @@ bool CvPropertyPropagator::read(CvXMLLoadUtility *pXML)
 	CvString szTextVal;
 	pXML->GetChildXmlValByName(szTextVal, L"PropertyType");
 //	m_eProperty = (PropertyTypes) pXML->GetInfoClass(szTextVal);
-	GC.addDelayedResolution((int*)&m_eProperty, szTextVal);
+	if ((m_eProperty = (PropertyTypes)GC.getInfoTypeForString(szTextVal, true)) == NO_PROPERTY)
+	{
+		GC.addDelayedResolution((int*)&m_eProperty, szTextVal);
+	}
 	pXML->GetOptionalChildXmlValByName(szTextVal, L"GameObjectType");
 	m_eObjectType = (GameObjectTypes) pXML->GetInfoClass(szTextVal);
 	pXML->GetOptionalChildXmlValByName(szTextVal, L"RelationType");
@@ -177,9 +180,10 @@ bool CvPropertyPropagator::read(CvXMLLoadUtility *pXML)
 
 void CvPropertyPropagator::copyNonDefaults(CvPropertyPropagator *pProp, CvXMLLoadUtility *pXML)
 {
-//	if (m_eProperty == NO_PROPERTY)
-//		m_eProperty = pProp->getProperty();
-	GC.copyNonDefaultDelayedResolution((int*)&m_eProperty,(int*)&(pProp->m_eProperty));
+	if (m_eProperty == NO_PROPERTY && (m_eProperty = pProp->getProperty()) == NO_PROPERTY)
+	{
+		GC.copyNonDefaultDelayedResolution((int*)&m_eProperty,(int*)&(pProp->m_eProperty));
+	}
 	if (m_eObjectType == NO_GAMEOBJECT)
 		m_eObjectType = pProp->getObjectType();
 	if (m_eRelation == NO_RELATION)
@@ -245,7 +249,7 @@ CvPropertyPropagatorSpread::CvPropertyPropagatorSpread(PropertyTypes eProperty, 
 {
 }
 
-PropertyPropagatorTypes CvPropertyPropagatorSpread::getType()
+PropertyPropagatorTypes CvPropertyPropagatorSpread::getType() const
 {
 	return PROPERTYPROPAGATOR_SPREAD;
 }
@@ -267,7 +271,7 @@ int CvPropertyPropagatorSpread::getPercent()
 //	}
 //}
 
-void CvPropertyPropagatorSpread::getPredict(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredict)
+void CvPropertyPropagatorSpread::getPredict(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredict) const
 {
 	int iCurrentAmount = aiCurrentAmount[0];
 	aiPredict[0] = 0;
@@ -278,7 +282,7 @@ void CvPropertyPropagatorSpread::getPredict(std::vector<int>& aiCurrentAmount, s
 	}
 }
 
-void CvPropertyPropagatorSpread::getCorrect(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredictedAmount, std::vector<int>& aiCorrect)
+void CvPropertyPropagatorSpread::getCorrect(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredictedAmount, std::vector<int>& aiCorrect) const
 {
 	int iCurrentAmount = aiCurrentAmount[0];
 	aiCorrect[0] = 0;
@@ -352,7 +356,7 @@ CvPropertyPropagatorGather::CvPropertyPropagatorGather(PropertyTypes eProperty, 
 {
 }
 
-PropertyPropagatorTypes CvPropertyPropagatorGather::getType()
+PropertyPropagatorTypes CvPropertyPropagatorGather::getType() const
 {
 	return PROPERTYPROPAGATOR_GATHER;
 }
@@ -362,7 +366,7 @@ int CvPropertyPropagatorGather::getAmountPerTurn()
 	return m_iAmountPerTurn;
 }
 
-void CvPropertyPropagatorGather::getPredict(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredict)
+void CvPropertyPropagatorGather::getPredict(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredict) const
 {
 	aiPredict[0] = 0;
 	for(int iI=1; iI<(int)aiCurrentAmount.size(); iI++)
@@ -380,7 +384,7 @@ void CvPropertyPropagatorGather::getPredict(std::vector<int>& aiCurrentAmount, s
 	}
 }
 
-void CvPropertyPropagatorGather::getCorrect(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredictedAmount, std::vector<int>& aiCorrect)
+void CvPropertyPropagatorGather::getCorrect(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredictedAmount, std::vector<int>& aiCorrect) const
 {
 	aiCorrect[0] = 0;
 	for(int iI=1; iI<(int)aiCurrentAmount.size(); iI++)
@@ -452,7 +456,7 @@ CvPropertyPropagatorDiffuse::CvPropertyPropagatorDiffuse(PropertyTypes eProperty
 {
 }
 
-PropertyPropagatorTypes CvPropertyPropagatorDiffuse::getType()
+PropertyPropagatorTypes CvPropertyPropagatorDiffuse::getType() const
 {
 	return PROPERTYPROPAGATOR_DIFFUSE;
 }
@@ -474,7 +478,7 @@ int CvPropertyPropagatorDiffuse::getPercent()
 //	}
 //}
 
-void CvPropertyPropagatorDiffuse::getPredict(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredict)
+void CvPropertyPropagatorDiffuse::getPredict(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredict) const
 {
 	int iCurrentAmount = aiCurrentAmount[0];
 	aiPredict[0] = 0;
@@ -487,7 +491,7 @@ void CvPropertyPropagatorDiffuse::getPredict(std::vector<int>& aiCurrentAmount, 
 	}
 }
 
-void CvPropertyPropagatorDiffuse::getCorrect(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredictedAmount, std::vector<int>& aiCorrect)
+void CvPropertyPropagatorDiffuse::getCorrect(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredictedAmount, std::vector<int>& aiCorrect) const
 {
 	int iCurrentAmount = aiCurrentAmount[0];
 	int iPredictedAmount = aiPredictedAmount[0];

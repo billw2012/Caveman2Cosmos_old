@@ -26,21 +26,21 @@ class CvPropertyManipulators
 public:
 	~CvPropertyManipulators();
 	int getNumSources() const;
-	CvPropertySource* getSource(int index);
-	int addSource(PropertySourceTypes eType);
+	const CvPropertySource *const getSource(int index) const;
+	bool addSource(PropertySourceTypes eType);
 	int getNumInteractions() const;
-	CvPropertyInteraction* getInteraction(int index);
-	int addInteraction(PropertyInteractionTypes eType);
+	const CvPropertyInteraction *const getInteraction(int index) const;
+	bool addInteraction(PropertyInteractionTypes eType);
 	int getNumPropagators() const;
-	CvPropertyPropagator* getPropagator(int index);
-	int addPropagator(PropertyPropagatorTypes eType);
+	const CvPropertyPropagator *const getPropagator(int index) const;
+	bool addPropagator(PropertyPropagatorTypes eType);
 
 	void buildDisplayString(CvWStringBuffer& szBuffer) const;
 
 	bool read(CvXMLLoadUtility* pXML, const wchar_t* szTagName = L"PropertyManipulators");
 	void copyNonDefaults(CvPropertyManipulators* pProp, CvXMLLoadUtility* pXML );
 
-	void getCheckSum(unsigned int& iSum);
+	void getCheckSum(unsigned int& iSum) const;
 protected:
 	std::vector<CvPropertySource*> m_apSources;
 	std::vector<CvPropertyInteraction*> m_apInteractions;

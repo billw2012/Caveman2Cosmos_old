@@ -383,7 +383,7 @@ BoolExpr* BoolExpr::read(CvXMLLoadUtility *pXML)
 	}
 }
 
-bool BoolExprConstant::evaluate(CvGameObject *pObject)
+bool BoolExprConstant::evaluate(const CvGameObject *pObject)
 {
 	return m_bValue;
 }
@@ -419,11 +419,10 @@ void BoolExprConstant::getCheckSum(unsigned int &iSum)
 
 BoolExprHas::~BoolExprHas()
 {
-	GC.removeDelayedResolution((int*)&m_eGOM);
 	GC.removeDelayedResolution(&m_iID);
 }
 
-bool BoolExprHas::evaluate(CvGameObject *pObject)
+bool BoolExprHas::evaluate(const CvGameObject *pObject)
 {
 	return pObject->hasGOM(m_eGOM, m_iID);
 }
@@ -432,9 +431,12 @@ void BoolExprHas::readContent(CvXMLLoadUtility* pXML)
 {
 	CvString szTextVal;
 	pXML->GetChildXmlValByName(szTextVal, L"GOMType");
-	GC.addDelayedResolution((int*)&m_eGOM, szTextVal);
+	m_eGOM = (GOMTypes)pXML->GetInfoClass(szTextVal);
 	pXML->GetChildXmlValByName(szTextVal, L"ID");
-	GC.addDelayedResolution(&m_iID, szTextVal);
+	if ((m_iID = GC.getInfoTypeForString(szTextVal, true)) == -1)
+	{
+		GC.addDelayedResolution(&m_iID, szTextVal);
+	}
 }
 
 void BoolExprHas::buildDisplayString(CvWStringBuffer &szBuffer) const
@@ -507,7 +509,7 @@ void BoolExprHas::getCheckSum(unsigned int &iSum)
 }
 
 
-bool BoolExprIs::evaluate(CvGameObject *pObject)
+bool BoolExprIs::evaluate(const CvGameObject *pObject)
 {
 	return pObject->isTag(m_eTag);
 }
@@ -564,7 +566,7 @@ BoolExprNot::~BoolExprNot()
 	SAFE_DELETE(m_pExpr);
 }
 
-bool BoolExprNot::evaluate(CvGameObject *pObject)
+bool BoolExprNot::evaluate(const CvGameObject *pObject)
 {
 	return !m_pExpr->evaluate(pObject);
 }
@@ -593,7 +595,7 @@ BoolExprAnd::~BoolExprAnd()
 	SAFE_DELETE(m_pExpr2);
 }
 
-bool BoolExprAnd::evaluate(CvGameObject *pObject)
+bool BoolExprAnd::evaluate(const CvGameObject *pObject)
 {
 	return m_pExpr1->evaluate(pObject) && m_pExpr2->evaluate(pObject);
 }
@@ -638,7 +640,7 @@ BoolExprOr::~BoolExprOr()
 	SAFE_DELETE(m_pExpr2);
 }
 
-bool BoolExprOr::evaluate(CvGameObject *pObject)
+bool BoolExprOr::evaluate(const CvGameObject *pObject)
 {
 	return m_pExpr1->evaluate(pObject) || m_pExpr2->evaluate(pObject);
 }
@@ -682,7 +684,7 @@ BoolExprBEqual::~BoolExprBEqual()
 	SAFE_DELETE(m_pExpr2);
 }
 
-bool BoolExprBEqual::evaluate(CvGameObject *pObject)
+bool BoolExprBEqual::evaluate(const CvGameObject *pObject)
 {
 	return m_pExpr1->evaluate(pObject) == m_pExpr2->evaluate(pObject);
 }
@@ -727,7 +729,7 @@ BoolExprIf::~BoolExprIf()
 	SAFE_DELETE(m_pExprElse);
 }
 
-bool BoolExprIf::evaluate(CvGameObject *pObject)
+bool BoolExprIf::evaluate(const CvGameObject *pObject)
 {
 	return m_pExprIf->evaluate(pObject) ? m_pExprThen->evaluate(pObject) : m_pExprElse->evaluate(pObject);
 }
@@ -776,7 +778,7 @@ void BoolExprIf::getCheckSum(unsigned int &iSum)
 }
 
 
-void evalExprIntegrateOr(CvGameObject* pObject, BoolExpr* pExpr, bool* bAcc)
+void evalExprIntegrateOr(const CvGameObject* pObject, BoolExpr* pExpr, bool* bAcc)
 {
 	*bAcc = *bAcc || pExpr->evaluate(pObject);
 }
@@ -786,7 +788,7 @@ BoolExprIntegrateOr::~BoolExprIntegrateOr()
 	SAFE_DELETE(m_pExpr);
 }
 
-bool BoolExprIntegrateOr::evaluate(CvGameObject *pObject)
+bool BoolExprIntegrateOr::evaluate(const CvGameObject *pObject)
 {
 	bool bAcc = false;
 	pObject->foreachRelated(m_eType, m_eRelation, boost::bind(evalExprIntegrateOr, _1, m_pExpr, &bAcc));
@@ -856,7 +858,7 @@ void BoolExprComp::getCheckSum(unsigned int &iSum)
 }
 
 
-bool BoolExprGreater::evaluate(CvGameObject *pObject)
+bool BoolExprGreater::evaluate(const CvGameObject *pObject)
 {
 	return m_pExpr1->evaluate(pObject) > m_pExpr2->evaluate(pObject);
 }
@@ -872,7 +874,7 @@ void BoolExprGreater::buildOpNameString(CvWStringBuffer &szBuffer) const
 }
 
 
-bool BoolExprGreaterEqual::evaluate(CvGameObject *pObject)
+bool BoolExprGreaterEqual::evaluate(const CvGameObject *pObject)
 {
 	return m_pExpr1->evaluate(pObject) >= m_pExpr2->evaluate(pObject);
 }
@@ -888,7 +890,7 @@ void BoolExprGreaterEqual::buildOpNameString(CvWStringBuffer &szBuffer) const
 }
 
 
-bool BoolExprEqual::evaluate(CvGameObject *pObject)
+bool BoolExprEqual::evaluate(const CvGameObject *pObject)
 {
 	return m_pExpr1->evaluate(pObject) == m_pExpr2->evaluate(pObject);
 }

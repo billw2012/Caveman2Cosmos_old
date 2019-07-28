@@ -24,6 +24,7 @@ public:
 	CvPropertyPropagator();
 	CvPropertyPropagator(PropertyTypes eProperty);
 	virtual ~CvPropertyPropagator();
+	// Returns the property type this propagator applies to
 	PropertyTypes getProperty() const;
 	void setProperty(PropertyTypes eProperty);
 	GameObjectTypes getObjectType() const;
@@ -39,13 +40,13 @@ public:
 	GameObjectTypes getTargetObjectType() const;
 	void setTargetObjectType(GameObjectTypes eObjectType);
 
-	bool isActive(CvGameObject* pObject);
-	void getTargetObjects(CvGameObject* pObject, std::vector<CvGameObject*>& apGameObjects);
+	bool isActive(const CvGameObject* pObject) const;
+	void getTargetObjects(const CvGameObject* pObject, std::vector<const CvGameObject*>& apGameObjects) const;
 
-	virtual PropertyPropagatorTypes getType() = 0;
+	virtual PropertyPropagatorTypes getType() const = 0;
 
-	virtual void getPredict(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredict) = 0;
-	virtual void getCorrect(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredictedAmount, std::vector<int>& aiCorrect) = 0;
+	virtual void getPredict(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredict) const = 0;
+	virtual void getCorrect(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredictedAmount, std::vector<int>& aiCorrect) const = 0;
 
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const;
 
@@ -73,14 +74,14 @@ public:
 	CvPropertyPropagatorSpread(PropertyTypes eProperty);
 	CvPropertyPropagatorSpread(PropertyTypes eProperty, int iPercent);
 
-	virtual PropertyPropagatorTypes getType();
+	virtual PropertyPropagatorTypes getType() const;
 
 	int getPercent();
 
 	//virtual bool isActive(CvGameObject* pObject);
 
-	virtual void getPredict(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredict);
-	virtual void getCorrect(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredictedAmount, std::vector<int>& aiCorrect);
+	virtual void getPredict(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredict) const;
+	virtual void getCorrect(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredictedAmount, std::vector<int>& aiCorrect) const;
 
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const;
 
@@ -100,12 +101,12 @@ public:
 	CvPropertyPropagatorGather(PropertyTypes eProperty);
 	CvPropertyPropagatorGather(PropertyTypes eProperty, int iAmountPerTurn);
 
-	virtual PropertyPropagatorTypes getType();
+	virtual PropertyPropagatorTypes getType() const;
 
 	int getAmountPerTurn();
 
-	virtual void getPredict(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredict);
-	virtual void getCorrect(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredictedAmount, std::vector<int>& aiCorrect);
+	virtual void getPredict(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredict) const;
+	virtual void getCorrect(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredictedAmount, std::vector<int>& aiCorrect) const;
 
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const;
 
@@ -125,14 +126,14 @@ public:
 	CvPropertyPropagatorDiffuse(PropertyTypes eProperty);
 	CvPropertyPropagatorDiffuse(PropertyTypes eProperty, int iPercent);
 
-	virtual PropertyPropagatorTypes getType();
+	virtual PropertyPropagatorTypes getType() const;
 
 	int getPercent();
 
 	//virtual bool isActive(CvGameObject* pObject);
 
-	virtual void getPredict(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredict);
-	virtual void getCorrect(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredictedAmount, std::vector<int>& aiCorrect);
+	virtual void getPredict(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredict) const;
+	virtual void getCorrect(std::vector<int>& aiCurrentAmount, std::vector<int>& aiPredictedAmount, std::vector<int>& aiCorrect) const;
 
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const;
 

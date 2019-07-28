@@ -197,7 +197,6 @@ m_fUnitPadTime(0.0f),
 /**																				*/
 /**		CanTrain																*/
 /********************************************************************************/
-m_pbPrereqOrCivics(NULL),
 m_pbPrereqBuildingClass(NULL),
 m_piPrereqBuildingClassOverrideTech(NULL),
 m_piPrereqBuildingClassOverrideEra(NULL),
@@ -401,7 +400,6 @@ CvUnitInfo::~CvUnitInfo()
 /**																				*/
 /**		CanTrain																*/
 /********************************************************************************/
-	SAFE_DELETE_ARRAY(m_pbPrereqOrCivics);
 	SAFE_DELETE_ARRAY(m_pbPrereqBuildingClass);
 	SAFE_DELETE_ARRAY(m_piPrereqBuildingClassOverrideTech);
 	SAFE_DELETE_ARRAY(m_piPrereqBuildingClassOverrideEra);
@@ -475,80 +473,6 @@ CvUnitInfo::~CvUnitInfo()
 //TB Combat Mod begin
 
 	//Struct Vector
-	for (int i=0; i<(int)m_aAfflictionFortitudeModifiers.size(); i++)
-	{
-		GC.removeDelayedResolution((int*)&(m_aAfflictionFortitudeModifiers[i]));
-	}
-
-	for (int i=0; i<(int)m_aAfflictOnAttackTypes.size(); i++)
-	{
-		GC.removeDelayedResolution((int*)&(m_aAfflictOnAttackTypes[i]));
-	}
-
-	for (int i=0; i<(int)m_aHealUnitCombatTypes.size(); i++)
-	{
-		GC.removeDelayedResolution((int*)&(m_aHealUnitCombatTypes[i]));
-	}
-
-	for (int i=0; i<(int)m_aGroupSpawnUnitCombatTypes.size(); i++)
-	{
-		GC.removeDelayedResolution((int*)&(m_aGroupSpawnUnitCombatTypes[i]));
-	}
-
-	for (int i=0; i<(int)m_aInvisibleTerrainChanges.size(); i++)
-	{
-		GC.removeDelayedResolution((int*)&(m_aInvisibleTerrainChanges[i]));
-	}
-
-	for (int i=0; i<(int)m_aInvisibleFeatureChanges.size(); i++)
-	{
-		GC.removeDelayedResolution((int*)&(m_aInvisibleFeatureChanges[i]));
-	}
-
-	for (int i=0; i<(int)m_aInvisibleImprovementChanges.size(); i++)
-	{
-		GC.removeDelayedResolution((int*)&(m_aInvisibleImprovementChanges[i]));
-	}
-
-	for (int i=0; i<(int)m_aVisibleTerrainChanges.size(); i++)
-	{
-		GC.removeDelayedResolution((int*)&(m_aVisibleTerrainChanges[i]));
-	}
-
-	for (int i=0; i<(int)m_aVisibleFeatureChanges.size(); i++)
-	{
-		GC.removeDelayedResolution((int*)&(m_aVisibleFeatureChanges[i]));
-	}
-
-	for (int i=0; i<(int)m_aVisibleImprovementChanges.size(); i++)
-	{
-		GC.removeDelayedResolution((int*)&(m_aVisibleImprovementChanges[i]));
-	}
-
-	for (int i=0; i<(int)m_aVisibleTerrainRangeChanges.size(); i++)
-	{
-		GC.removeDelayedResolution((int*)&(m_aVisibleTerrainRangeChanges[i]));
-	}
-
-	for (int i=0; i<(int)m_aVisibleFeatureRangeChanges.size(); i++)
-	{
-		GC.removeDelayedResolution((int*)&(m_aVisibleFeatureRangeChanges[i]));
-	}
-
-	for (int i=0; i<(int)m_aVisibleImprovementRangeChanges.size(); i++)
-	{
-		GC.removeDelayedResolution((int*)&(m_aVisibleImprovementRangeChanges[i]));
-	}
-
-	for (int i=0; i<(int)m_aDistanceAttackCommunicabilityTypeChanges.size(); i++)
-	{
-		GC.removeDelayedResolution((int*)&(m_aDistanceAttackCommunicabilityTypeChanges[i]));
-	}
-
-	for (int i=0; i<(int)m_aEnabledCivilizationTypes.size(); i++)
-	{
-		GC.removeDelayedResolution((int*)&(m_aEnabledCivilizationTypes[i]));
-	}
 	//TB Combat Mod end
 }
 
@@ -1383,7 +1307,7 @@ bool CvUnitInfo::isPrereqOrCivics(int i) const
 {
 	FAssertMsg(i < GC.getNumCivicInfos(), "Index out of bounds");
 	FAssertMsg(i > -1, "Index out of bounds");
-	return m_pbPrereqOrCivics ? m_pbPrereqOrCivics[i] : false;
+	return std::find(m_pbPrereqOrCivics.begin(), m_pbPrereqOrCivics.end(), i) != m_pbPrereqOrCivics.end();
 }
 
 bool CvUnitInfo::isPrereqBuildingClass(int i) const
@@ -3034,11 +2958,11 @@ int CvUnitInfo::getNumAfflictionFortitudeModifiers() const
 	return (int)m_aAfflictionFortitudeModifiers.size();
 }
 
-PromotionLineModifier& CvUnitInfo::getAfflictionFortitudeModifier(int iAffliction)
+std::pair<int,int>& CvUnitInfo::getAfflictionFortitudeModifier(int iAffliction)
 {
 	FAssertMsg(iAffliction < (int)m_aAfflictionFortitudeModifiers.size(), "Index out of bounds");
 	FAssertMsg(iAffliction > -1, "Index out of bounds");
-	return m_aAfflictionFortitudeModifiers[iAffliction];
+	return m_aAfflictionFortitudeModifiers.at(iAffliction);
 }
 
 int CvUnitInfo::getNumAfflictOnAttackTypes() const
@@ -3046,11 +2970,11 @@ int CvUnitInfo::getNumAfflictOnAttackTypes() const
 	return (int)m_aAfflictOnAttackTypes.size();
 }
 
-AfflictOnAttack& CvUnitInfo::getAfflictOnAttackType(int iAfflictionLine)
+std::pair<int,AfflictOnAttack>& CvUnitInfo::getAfflictOnAttackType(int iAfflictionLine)
 {
 	FAssertMsg(iAfflictionLine < (int)m_aAfflictOnAttackTypes.size(), "Index out of bounds");
 	FAssertMsg(iAfflictionLine > -1, "Index out of bounds");
-	return m_aAfflictOnAttackTypes[iAfflictionLine];
+	return m_aAfflictOnAttackTypes.at(iAfflictionLine);
 }
 
 int CvUnitInfo::getNumHealUnitCombatTypes() const
@@ -3058,11 +2982,11 @@ int CvUnitInfo::getNumHealUnitCombatTypes() const
 	return (int)m_aHealUnitCombatTypes.size();
 }
 
-HealUnitCombat& CvUnitInfo::getHealUnitCombatType(int iUnitCombat)
+std::pair<int,HealUnitCombat>& CvUnitInfo::getHealUnitCombatType(int iUnitCombat)
 {
 	FAssertMsg(iUnitCombat < (int)m_aHealUnitCombatTypes.size(), "Index out of bounds");
 	FAssertMsg(iUnitCombat > -1, "Index out of bounds");
-	return m_aHealUnitCombatTypes[iUnitCombat];
+	return m_aHealUnitCombatTypes.at(iUnitCombat);
 }
 
 int CvUnitInfo::getNumGroupSpawnUnitCombatTypes() const
@@ -3072,7 +2996,7 @@ int CvUnitInfo::getNumGroupSpawnUnitCombatTypes() const
 
 GroupSpawnUnitCombat& CvUnitInfo::getGroupSpawnUnitCombatType(int iIndex)
 {
-	return m_aGroupSpawnUnitCombatTypes[iIndex];
+	return m_aGroupSpawnUnitCombatTypes.at(iIndex);
 }
 
 int CvUnitInfo::getNumInvisibleTerrainChanges() const
@@ -3170,9 +3094,9 @@ int CvUnitInfo::getNumDistanceAttackCommunicabilityTypeChanges() const
 	return (int)m_aDistanceAttackCommunicabilityTypeChanges.size();
 }
 
-AfflictionLineChanges& CvUnitInfo::getDistanceAttackCommunicabilityTypeChange(int iIndex)
+std::pair<int,int>& CvUnitInfo::getDistanceAttackCommunicabilityTypeChange(int iIndex)
 {
-	return m_aDistanceAttackCommunicabilityTypeChanges[iIndex];
+	return m_aDistanceAttackCommunicabilityTypeChanges.at(iIndex);
 }
 
 // bool vector utilizing delayed resolution
@@ -3181,9 +3105,9 @@ int CvUnitInfo::getNumEnabledCivilizationTypes() const
 	return (int)m_aEnabledCivilizationTypes.size();
 }
 
-EnabledCivilizations& CvUnitInfo::getEnabledCivilizationType(int iIndex)
+int CvUnitInfo::getEnabledCivilizationType(int iIndex)
 {
-	return m_aEnabledCivilizationTypes[iIndex];
+	return m_aEnabledCivilizationTypes.at(iIndex);
 }
 
 // int vectors utilizing pairing without delayed resolution
@@ -3194,9 +3118,9 @@ int CvUnitInfo::getNumFlankingStrikesbyUnitCombatTypes() const
 
 int CvUnitInfo::getFlankingStrengthbyUnitCombatType(int iUnitCombat) const
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aFlankingStrengthbyUnitCombatType.begin(); it != m_aFlankingStrengthbyUnitCombatType.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aFlankingStrengthbyUnitCombatType.begin(); it != m_aFlankingStrengthbyUnitCombatType.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return (*it).second;
 		}
@@ -3206,9 +3130,9 @@ int CvUnitInfo::getFlankingStrengthbyUnitCombatType(int iUnitCombat) const
 
 bool CvUnitInfo::isFlankingStrikebyUnitCombatType(int iUnitCombat)
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aFlankingStrengthbyUnitCombatType.begin(); it != m_aFlankingStrengthbyUnitCombatType.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aFlankingStrengthbyUnitCombatType.begin(); it != m_aFlankingStrengthbyUnitCombatType.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return true;
 		}
@@ -3223,9 +3147,9 @@ int CvUnitInfo::getNumWithdrawOnTerrainTypes() const
 
 int CvUnitInfo::getWithdrawOnTerrainType(int iTerrain) const
 {
-	for (TerrainModifierArray::const_iterator it = m_aWithdrawOnTerrainTypes.begin(); it != m_aWithdrawOnTerrainTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aWithdrawOnTerrainTypes.begin(); it != m_aWithdrawOnTerrainTypes.end(); ++it)
 	{
-		if ((*it).first == (TerrainTypes)iTerrain)
+		if ((*it).first == iTerrain)
 		{
 			return (*it).second;
 		}
@@ -3240,9 +3164,9 @@ int CvUnitInfo::getNumWithdrawOnFeatureTypes() const
 
 int CvUnitInfo::getWithdrawOnFeatureType(int iFeature) const
 {
-	for (FeatureModifierArray::const_iterator it = m_aWithdrawOnFeatureTypes.begin(); it != m_aWithdrawOnFeatureTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aWithdrawOnFeatureTypes.begin(); it != m_aWithdrawOnFeatureTypes.end(); ++it)
 	{
-		if ((*it).first == (FeatureTypes)iFeature)
+		if ((*it).first == iFeature)
 		{
 			return (*it).second;
 		}
@@ -3257,9 +3181,9 @@ int CvUnitInfo::getNumWithdrawVSUnitCombatTypes() const
 
 int CvUnitInfo::getWithdrawVSUnitCombatType(int iUnitCombat) const
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aWithdrawVSUnitCombatTypes.begin(); it != m_aWithdrawVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aWithdrawVSUnitCombatTypes.begin(); it != m_aWithdrawVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return (*it).second;
 		}
@@ -3269,9 +3193,9 @@ int CvUnitInfo::getWithdrawVSUnitCombatType(int iUnitCombat) const
 
 bool CvUnitInfo::isWithdrawVSUnitCombatType(int iUnitCombat)
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aWithdrawVSUnitCombatTypes.begin(); it != m_aWithdrawVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aWithdrawVSUnitCombatTypes.begin(); it != m_aWithdrawVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return true;
 		}
@@ -3279,7 +3203,7 @@ bool CvUnitInfo::isWithdrawVSUnitCombatType(int iUnitCombat)
 	return false;
 }
 
-UnitCombatModifierArray& CvUnitInfo::getWithdrawVSUnitCombatTypes()
+std::vector<std::pair<int,int> >& CvUnitInfo::getWithdrawVSUnitCombatTypes()
 {
 	return m_aWithdrawVSUnitCombatTypes;
 }
@@ -3295,9 +3219,9 @@ int CvUnitInfo::getPursuitVSUnitCombatType(int iUnitCombat, bool bForLoad) const
 	{
 		return 0;
 	}
-	for (UnitCombatModifierArray::const_iterator it = m_aPursuitVSUnitCombatTypes.begin(); it != m_aPursuitVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aPursuitVSUnitCombatTypes.begin(); it != m_aPursuitVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return (*it).second;
 		}
@@ -3311,9 +3235,9 @@ bool CvUnitInfo::isPursuitVSUnitCombatType(int iUnitCombat, bool bForLoad)
 	{
 		return false;
 	}
-	for (UnitCombatModifierArray::const_iterator it = m_aPursuitVSUnitCombatTypes.begin(); it != m_aPursuitVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aPursuitVSUnitCombatTypes.begin(); it != m_aPursuitVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return true;
 		}
@@ -3321,7 +3245,7 @@ bool CvUnitInfo::isPursuitVSUnitCombatType(int iUnitCombat, bool bForLoad)
 	return false;
 }
 
-UnitCombatModifierArray& CvUnitInfo::getPursuitVSUnitCombatTypes()
+std::vector<std::pair<int,int> >& CvUnitInfo::getPursuitVSUnitCombatTypes()
 {
 	return m_aPursuitVSUnitCombatTypes;
 }
@@ -3337,9 +3261,9 @@ int CvUnitInfo::getRepelVSUnitCombatType(int iUnitCombat, bool bForLoad) const
 	{
 		return 0;
 	}
-	for (UnitCombatModifierArray::const_iterator it = m_aRepelVSUnitCombatTypes.begin(); it != m_aRepelVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aRepelVSUnitCombatTypes.begin(); it != m_aRepelVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return (*it).second;
 		}
@@ -3353,9 +3277,9 @@ bool CvUnitInfo::isRepelVSUnitCombatType(int iUnitCombat, bool bForLoad)
 	{
 		return false;
 	}
-	for (UnitCombatModifierArray::const_iterator it = m_aRepelVSUnitCombatTypes.begin(); it != m_aRepelVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aRepelVSUnitCombatTypes.begin(); it != m_aRepelVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return true;
 		}
@@ -3363,7 +3287,7 @@ bool CvUnitInfo::isRepelVSUnitCombatType(int iUnitCombat, bool bForLoad)
 	return false;
 }
 
-UnitCombatModifierArray& CvUnitInfo::getRepelVSUnitCombatTypes()
+std::vector<std::pair<int,int> >& CvUnitInfo::getRepelVSUnitCombatTypes()
 {
 	return m_aRepelVSUnitCombatTypes;
 }
@@ -3379,9 +3303,9 @@ int CvUnitInfo::getKnockbackVSUnitCombatType(int iUnitCombat, bool bForLoad) con
 	{
 		return 0;
 	}
-	for (UnitCombatModifierArray::const_iterator it = m_aKnockbackVSUnitCombatTypes.begin(); it != m_aKnockbackVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aKnockbackVSUnitCombatTypes.begin(); it != m_aKnockbackVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return (*it).second;
 		}
@@ -3395,9 +3319,9 @@ bool CvUnitInfo::isKnockbackVSUnitCombatType(int iUnitCombat, bool bForLoad)
 	{
 		return false;
 	}
-	for (UnitCombatModifierArray::const_iterator it = m_aKnockbackVSUnitCombatTypes.begin(); it != m_aKnockbackVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aKnockbackVSUnitCombatTypes.begin(); it != m_aKnockbackVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return true;
 		}
@@ -3405,7 +3329,7 @@ bool CvUnitInfo::isKnockbackVSUnitCombatType(int iUnitCombat, bool bForLoad)
 	return false;
 }
 
-UnitCombatModifierArray& CvUnitInfo::getKnockbackVSUnitCombatTypes()
+std::vector<std::pair<int,int> >& CvUnitInfo::getKnockbackVSUnitCombatTypes()
 {
 	return m_aKnockbackVSUnitCombatTypes;
 }
@@ -3417,9 +3341,9 @@ int CvUnitInfo::getNumPunctureVSUnitCombatTypes() const
 
 int CvUnitInfo::getPunctureVSUnitCombatType(int iUnitCombat) const
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aPunctureVSUnitCombatTypes.begin(); it != m_aPunctureVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aPunctureVSUnitCombatTypes.begin(); it != m_aPunctureVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return (*it).second;
 		}
@@ -3429,9 +3353,9 @@ int CvUnitInfo::getPunctureVSUnitCombatType(int iUnitCombat) const
 
 bool CvUnitInfo::isPunctureVSUnitCombatType(int iUnitCombat)
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aPunctureVSUnitCombatTypes.begin(); it != m_aPunctureVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aPunctureVSUnitCombatTypes.begin(); it != m_aPunctureVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return true;
 		}
@@ -3439,7 +3363,7 @@ bool CvUnitInfo::isPunctureVSUnitCombatType(int iUnitCombat)
 	return false;
 }
 
-UnitCombatModifierArray& CvUnitInfo::getPunctureVSUnitCombatTypes()
+std::vector<std::pair<int,int> >& CvUnitInfo::getPunctureVSUnitCombatTypes()
 {
 	return m_aPunctureVSUnitCombatTypes;
 }
@@ -3451,9 +3375,9 @@ int CvUnitInfo::getNumArmorVSUnitCombatTypes() const
 
 int CvUnitInfo::getArmorVSUnitCombatType(int iUnitCombat) const
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aArmorVSUnitCombatTypes.begin(); it != m_aArmorVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aArmorVSUnitCombatTypes.begin(); it != m_aArmorVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return (*it).second;
 		}
@@ -3463,9 +3387,9 @@ int CvUnitInfo::getArmorVSUnitCombatType(int iUnitCombat) const
 
 bool CvUnitInfo::isArmorVSUnitCombatType(int iUnitCombat)
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aArmorVSUnitCombatTypes.begin(); it != m_aArmorVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aArmorVSUnitCombatTypes.begin(); it != m_aArmorVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return true;
 		}
@@ -3473,7 +3397,7 @@ bool CvUnitInfo::isArmorVSUnitCombatType(int iUnitCombat)
 	return false;
 }
 
-UnitCombatModifierArray& CvUnitInfo::getArmorVSUnitCombatTypes()
+std::vector<std::pair<int,int> >& CvUnitInfo::getArmorVSUnitCombatTypes()
 {
 	return m_aArmorVSUnitCombatTypes;
 }
@@ -3485,9 +3409,9 @@ int CvUnitInfo::getNumDodgeVSUnitCombatTypes() const
 
 int CvUnitInfo::getDodgeVSUnitCombatType(int iUnitCombat) const
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aDodgeVSUnitCombatTypes.begin(); it != m_aDodgeVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aDodgeVSUnitCombatTypes.begin(); it != m_aDodgeVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return (*it).second;
 		}
@@ -3497,9 +3421,9 @@ int CvUnitInfo::getDodgeVSUnitCombatType(int iUnitCombat) const
 
 bool CvUnitInfo::isDodgeVSUnitCombatType(int iUnitCombat)
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aDodgeVSUnitCombatTypes.begin(); it != m_aDodgeVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aDodgeVSUnitCombatTypes.begin(); it != m_aDodgeVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return true;
 		}
@@ -3507,7 +3431,7 @@ bool CvUnitInfo::isDodgeVSUnitCombatType(int iUnitCombat)
 	return false;
 }
 
-UnitCombatModifierArray& CvUnitInfo::getDodgeVSUnitCombatTypes()
+std::vector<std::pair<int,int> >& CvUnitInfo::getDodgeVSUnitCombatTypes()
 {
 	return m_aDodgeVSUnitCombatTypes;
 }
@@ -3519,9 +3443,9 @@ int CvUnitInfo::getNumPrecisionVSUnitCombatTypes() const
 
 int CvUnitInfo::getPrecisionVSUnitCombatType(int iUnitCombat) const
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aPrecisionVSUnitCombatTypes.begin(); it != m_aPrecisionVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aPrecisionVSUnitCombatTypes.begin(); it != m_aPrecisionVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return (*it).second;
 		}
@@ -3531,9 +3455,9 @@ int CvUnitInfo::getPrecisionVSUnitCombatType(int iUnitCombat) const
 
 bool CvUnitInfo::isPrecisionVSUnitCombatType(int iUnitCombat)
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aPrecisionVSUnitCombatTypes.begin(); it != m_aPrecisionVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aPrecisionVSUnitCombatTypes.begin(); it != m_aPrecisionVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return true;
 		}
@@ -3541,7 +3465,7 @@ bool CvUnitInfo::isPrecisionVSUnitCombatType(int iUnitCombat)
 	return false;
 }
 
-UnitCombatModifierArray& CvUnitInfo::getPrecisionVSUnitCombatTypes()
+std::vector<std::pair<int,int> >& CvUnitInfo::getPrecisionVSUnitCombatTypes()
 {
 	return m_aPrecisionVSUnitCombatTypes;
 }
@@ -3553,9 +3477,9 @@ int CvUnitInfo::getNumCriticalVSUnitCombatTypes() const
 
 int CvUnitInfo::getCriticalVSUnitCombatType(int iUnitCombat) const
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aCriticalVSUnitCombatTypes.begin(); it != m_aCriticalVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aCriticalVSUnitCombatTypes.begin(); it != m_aCriticalVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return (*it).second;
 		}
@@ -3565,9 +3489,9 @@ int CvUnitInfo::getCriticalVSUnitCombatType(int iUnitCombat) const
 
 bool CvUnitInfo::isCriticalVSUnitCombatType(int iUnitCombat)
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aCriticalVSUnitCombatTypes.begin(); it != m_aCriticalVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aCriticalVSUnitCombatTypes.begin(); it != m_aCriticalVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return true;
 		}
@@ -3575,7 +3499,7 @@ bool CvUnitInfo::isCriticalVSUnitCombatType(int iUnitCombat)
 	return false;
 }
 
-UnitCombatModifierArray& CvUnitInfo::getCriticalVSUnitCombatTypes()
+std::vector<std::pair<int,int> >& CvUnitInfo::getCriticalVSUnitCombatTypes()
 {
 	return m_aCriticalVSUnitCombatTypes;
 }
@@ -3587,9 +3511,9 @@ int CvUnitInfo::getNumRoundStunVSUnitCombatTypes() const
 
 int CvUnitInfo::getRoundStunVSUnitCombatType(int iUnitCombat) const
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aRoundStunVSUnitCombatTypes.begin(); it != m_aRoundStunVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aRoundStunVSUnitCombatTypes.begin(); it != m_aRoundStunVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return (*it).second;
 		}
@@ -3599,9 +3523,9 @@ int CvUnitInfo::getRoundStunVSUnitCombatType(int iUnitCombat) const
 
 bool CvUnitInfo::isRoundStunVSUnitCombatType(int iUnitCombat)
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aRoundStunVSUnitCombatTypes.begin(); it != m_aRoundStunVSUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aRoundStunVSUnitCombatTypes.begin(); it != m_aRoundStunVSUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return true;
 		}
@@ -3609,7 +3533,7 @@ bool CvUnitInfo::isRoundStunVSUnitCombatType(int iUnitCombat)
 	return false;
 }
 
-UnitCombatModifierArray& CvUnitInfo::getRoundStunVSUnitCombatTypes()
+std::vector<std::pair<int,int> >& CvUnitInfo::getRoundStunVSUnitCombatTypes()
 {
 	return m_aRoundStunVSUnitCombatTypes;
 }
@@ -3621,9 +3545,9 @@ int CvUnitInfo::getNumTrapDisableUnitCombatTypes() const
 
 int CvUnitInfo::getTrapDisableUnitCombatType(int iUnitCombat) const
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aTrapDisableUnitCombatTypes.begin(); it != m_aTrapDisableUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aTrapDisableUnitCombatTypes.begin(); it != m_aTrapDisableUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return (*it).second;
 		}
@@ -3633,9 +3557,9 @@ int CvUnitInfo::getTrapDisableUnitCombatType(int iUnitCombat) const
 
 bool CvUnitInfo::isTrapDisableUnitCombatType(int iUnitCombat)
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aTrapDisableUnitCombatTypes.begin(); it != m_aTrapDisableUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aTrapDisableUnitCombatTypes.begin(); it != m_aTrapDisableUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return true;
 		}
@@ -3643,7 +3567,7 @@ bool CvUnitInfo::isTrapDisableUnitCombatType(int iUnitCombat)
 	return false;
 }
 
-UnitCombatModifierArray& CvUnitInfo::getTrapDisableUnitCombatTypes()
+std::vector<std::pair<int,int> >& CvUnitInfo::getTrapDisableUnitCombatTypes()
 {
 	return m_aTrapDisableUnitCombatTypes;
 }
@@ -3655,9 +3579,9 @@ int CvUnitInfo::getNumTrapAvoidanceUnitCombatTypes() const
 
 int CvUnitInfo::getTrapAvoidanceUnitCombatType(int iUnitCombat) const
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aTrapAvoidanceUnitCombatTypes.begin(); it != m_aTrapAvoidanceUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aTrapAvoidanceUnitCombatTypes.begin(); it != m_aTrapAvoidanceUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return (*it).second;
 		}
@@ -3667,9 +3591,9 @@ int CvUnitInfo::getTrapAvoidanceUnitCombatType(int iUnitCombat) const
 
 bool CvUnitInfo::isTrapAvoidanceUnitCombatType(int iUnitCombat)
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aTrapAvoidanceUnitCombatTypes.begin(); it != m_aTrapAvoidanceUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aTrapAvoidanceUnitCombatTypes.begin(); it != m_aTrapAvoidanceUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return true;
 		}
@@ -3677,7 +3601,7 @@ bool CvUnitInfo::isTrapAvoidanceUnitCombatType(int iUnitCombat)
 	return false;
 }
 
-UnitCombatModifierArray& CvUnitInfo::getTrapAvoidanceUnitCombatTypes()
+std::vector<std::pair<int,int> >& CvUnitInfo::getTrapAvoidanceUnitCombatTypes()
 {
 	return m_aTrapAvoidanceUnitCombatTypes;
 }
@@ -3689,9 +3613,9 @@ int CvUnitInfo::getNumTrapTriggerUnitCombatTypes() const
 
 int CvUnitInfo::getTrapTriggerUnitCombatType(int iUnitCombat) const
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aTrapTriggerUnitCombatTypes.begin(); it != m_aTrapTriggerUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aTrapTriggerUnitCombatTypes.begin(); it != m_aTrapTriggerUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return (*it).second;
 		}
@@ -3701,9 +3625,9 @@ int CvUnitInfo::getTrapTriggerUnitCombatType(int iUnitCombat) const
 
 bool CvUnitInfo::isTrapTriggerUnitCombatType(int iUnitCombat)
 {
-	for (UnitCombatModifierArray::const_iterator it = m_aTrapTriggerUnitCombatTypes.begin(); it != m_aTrapTriggerUnitCombatTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aTrapTriggerUnitCombatTypes.begin(); it != m_aTrapTriggerUnitCombatTypes.end(); ++it)
 	{
-		if ((*it).first == (UnitCombatTypes)iUnitCombat)
+		if ((*it).first == iUnitCombat)
 		{
 			return true;
 		}
@@ -3711,7 +3635,7 @@ bool CvUnitInfo::isTrapTriggerUnitCombatType(int iUnitCombat)
 	return false;
 }
 
-UnitCombatModifierArray& CvUnitInfo::getTrapTriggerUnitCombatTypes()
+std::vector<std::pair<int,int> >& CvUnitInfo::getTrapTriggerUnitCombatTypes()
 {
 	return m_aTrapTriggerUnitCombatTypes;
 }
@@ -3723,9 +3647,9 @@ int CvUnitInfo::getNumVisibilityIntensityTypes() const
 
 int CvUnitInfo::getVisibilityIntensityType(int iInvisibility) const
 {
-	for (InvisibilityArray::const_iterator it = m_aVisibilityIntensityTypes.begin(); it != m_aVisibilityIntensityTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aVisibilityIntensityTypes.begin(); it != m_aVisibilityIntensityTypes.end(); ++it)
 	{
-		if ((*it).first == (InvisibleTypes)iInvisibility)
+		if ((*it).first == iInvisibility)
 		{
 			return (*it).second;
 		}
@@ -3735,9 +3659,9 @@ int CvUnitInfo::getVisibilityIntensityType(int iInvisibility) const
 
 bool CvUnitInfo::isVisibilityIntensityType(int iInvisibility)
 {
-	for (InvisibilityArray::const_iterator it = m_aVisibilityIntensityTypes.begin(); it != m_aVisibilityIntensityTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aVisibilityIntensityTypes.begin(); it != m_aVisibilityIntensityTypes.end(); ++it)
 	{
-		if ((*it).first == (InvisibleTypes)iInvisibility)
+		if ((*it).first == iInvisibility)
 		{
 			return true;
 		}
@@ -3745,7 +3669,7 @@ bool CvUnitInfo::isVisibilityIntensityType(int iInvisibility)
 	return false;
 }
 
-InvisibilityArray& CvUnitInfo::getVisibilityIntensityTypes()
+std::vector<std::pair<int,int> >& CvUnitInfo::getVisibilityIntensityTypes()
 {
 	return m_aVisibilityIntensityTypes;
 }
@@ -3757,9 +3681,9 @@ int CvUnitInfo::getNumInvisibilityIntensityTypes() const
 
 int CvUnitInfo::getInvisibilityIntensityType(int iInvisibility) const
 {
-	for (InvisibilityArray::const_iterator it = m_aInvisibilityIntensityTypes.begin(); it != m_aInvisibilityIntensityTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aInvisibilityIntensityTypes.begin(); it != m_aInvisibilityIntensityTypes.end(); ++it)
 	{
-		if ((*it).first == (InvisibleTypes)iInvisibility)
+		if ((*it).first == iInvisibility)
 		{
 			return (*it).second;
 		}
@@ -3769,9 +3693,9 @@ int CvUnitInfo::getInvisibilityIntensityType(int iInvisibility) const
 
 bool CvUnitInfo::isInvisibilityIntensityType(int iInvisibility)
 {
-	for (InvisibilityArray::const_iterator it = m_aInvisibilityIntensityTypes.begin(); it != m_aInvisibilityIntensityTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aInvisibilityIntensityTypes.begin(); it != m_aInvisibilityIntensityTypes.end(); ++it)
 	{
-		if ((*it).first == (InvisibleTypes)iInvisibility)
+		if ((*it).first == iInvisibility)
 		{
 			return true;
 		}
@@ -3779,7 +3703,7 @@ bool CvUnitInfo::isInvisibilityIntensityType(int iInvisibility)
 	return false;
 }
 
-InvisibilityArray& CvUnitInfo::getInvisibilityIntensityTypes()
+std::vector<std::pair<int,int> >& CvUnitInfo::getInvisibilityIntensityTypes()
 {
 	return m_aInvisibilityIntensityTypes;
 }
@@ -3791,9 +3715,9 @@ int CvUnitInfo::getNumVisibilityIntensityRangeTypes() const
 
 int CvUnitInfo::getVisibilityIntensityRangeType(int iInvisibility) const
 {
-	for (InvisibilityArray::const_iterator it = m_aVisibilityIntensityRangeTypes.begin(); it != m_aVisibilityIntensityRangeTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aVisibilityIntensityRangeTypes.begin(); it != m_aVisibilityIntensityRangeTypes.end(); ++it)
 	{
-		if ((*it).first == (InvisibleTypes)iInvisibility)
+		if ((*it).first == iInvisibility)
 		{
 			return (*it).second;
 		}
@@ -3803,9 +3727,9 @@ int CvUnitInfo::getVisibilityIntensityRangeType(int iInvisibility) const
 
 bool CvUnitInfo::isVisibilityIntensityRangeType(int iInvisibility)
 {
-	for (InvisibilityArray::const_iterator it = m_aVisibilityIntensityRangeTypes.begin(); it != m_aVisibilityIntensityRangeTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aVisibilityIntensityRangeTypes.begin(); it != m_aVisibilityIntensityRangeTypes.end(); ++it)
 	{
-		if ((*it).first == (InvisibleTypes)iInvisibility)
+		if ((*it).first == iInvisibility)
 		{
 			return true;
 		}
@@ -3813,7 +3737,7 @@ bool CvUnitInfo::isVisibilityIntensityRangeType(int iInvisibility)
 	return false;
 }
 
-InvisibilityArray& CvUnitInfo::getVisibilityIntensityRangeTypes()
+std::vector<std::pair<int,int> >& CvUnitInfo::getVisibilityIntensityRangeTypes()
 {
 	return m_aVisibilityIntensityRangeTypes;
 }
@@ -3827,9 +3751,9 @@ int CvUnitInfo::getNumTerrainWorkRateModifierTypes() const
 
 int CvUnitInfo::getTerrainWorkRateModifierType(int iTerrain) const
 {
-	for (TerrainModifierArray::const_iterator it = m_aTerrainWorkRateModifierTypes.begin(); it != m_aTerrainWorkRateModifierTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aTerrainWorkRateModifierTypes.begin(); it != m_aTerrainWorkRateModifierTypes.end(); ++it)
 	{
-		if ((*it).first == (TerrainTypes)iTerrain)
+		if ((*it).first == iTerrain)
 		{
 			return (*it).second;
 		}
@@ -3839,9 +3763,9 @@ int CvUnitInfo::getTerrainWorkRateModifierType(int iTerrain) const
 
 bool CvUnitInfo::isTerrainWorkRateModifierType(int iTerrain)
 {
-	for (TerrainModifierArray::const_iterator it = m_aTerrainWorkRateModifierTypes.begin(); it != m_aTerrainWorkRateModifierTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aTerrainWorkRateModifierTypes.begin(); it != m_aTerrainWorkRateModifierTypes.end(); ++it)
 	{
-		if ((*it).first == (TerrainTypes)iTerrain)
+		if ((*it).first == iTerrain)
 		{
 			return true;
 		}
@@ -3856,9 +3780,9 @@ int CvUnitInfo::getNumFeatureWorkRateModifierTypes() const
 
 int CvUnitInfo::getFeatureWorkRateModifierType(int iFeature) const
 {
-	for (FeatureModifierArray::const_iterator it = m_aFeatureWorkRateModifierTypes.begin(); it != m_aFeatureWorkRateModifierTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aFeatureWorkRateModifierTypes.begin(); it != m_aFeatureWorkRateModifierTypes.end(); ++it)
 	{
-		if ((*it).first == (FeatureTypes)iFeature)
+		if ((*it).first == iFeature)
 		{
 			return (*it).second;
 		}
@@ -3868,9 +3792,9 @@ int CvUnitInfo::getFeatureWorkRateModifierType(int iFeature) const
 
 bool CvUnitInfo::isFeatureWorkRateModifierType(int iFeature)
 {
-	for (FeatureModifierArray::const_iterator it = m_aFeatureWorkRateModifierTypes.begin(); it != m_aFeatureWorkRateModifierTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aFeatureWorkRateModifierTypes.begin(); it != m_aFeatureWorkRateModifierTypes.end(); ++it)
 	{
-		if ((*it).first == (FeatureTypes)iFeature)
+		if ((*it).first == iFeature)
 		{
 			return true;
 		}
@@ -3885,9 +3809,9 @@ int CvUnitInfo::getNumBuildWorkRateModifierTypes() const
 
 int CvUnitInfo::getBuildWorkRateModifierType(int iBuild) const
 {
-	for (BuildModifierArray::const_iterator it = m_aBuildWorkRateModifierTypes.begin(); it != m_aBuildWorkRateModifierTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aBuildWorkRateModifierTypes.begin(); it != m_aBuildWorkRateModifierTypes.end(); ++it)
 	{
-		if ((*it).first == (BuildTypes)iBuild)
+		if ((*it).first == iBuild)
 		{
 			return (*it).second;
 		}
@@ -3897,9 +3821,9 @@ int CvUnitInfo::getBuildWorkRateModifierType(int iBuild) const
 
 bool CvUnitInfo::isBuildWorkRateModifierType(int iBuild)
 {
-	for (BuildModifierArray::const_iterator it = m_aBuildWorkRateModifierTypes.begin(); it != m_aBuildWorkRateModifierTypes.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aBuildWorkRateModifierTypes.begin(); it != m_aBuildWorkRateModifierTypes.end(); ++it)
 	{
-		if ((*it).first == (BuildTypes)iBuild)
+		if ((*it).first == iBuild)
 		{
 			return true;
 		}
@@ -3914,9 +3838,9 @@ int CvUnitInfo::getNumAidChanges() const
 
 int CvUnitInfo::getAidChange(int iProperty) const
 {
-	for (AidArray::const_iterator it = m_aAidChanges.begin(); it != m_aAidChanges.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aAidChanges.begin(); it != m_aAidChanges.end(); ++it)
 	{
-		if ((*it).first == (PropertyTypes)iProperty)
+		if ((*it).first == iProperty)
 		{
 			return (*it).second;
 		}
@@ -3926,9 +3850,9 @@ int CvUnitInfo::getAidChange(int iProperty) const
 
 bool CvUnitInfo::isAidChange(int iProperty)
 {
-	for (AidArray::const_iterator it = m_aAidChanges.begin(); it != m_aAidChanges.end(); ++it)
+	for (std::vector<std::pair<int,int> >::const_iterator it = m_aAidChanges.begin(); it != m_aAidChanges.end(); ++it)
 	{
-		if ((*it).first == (PropertyTypes)iProperty)
+		if ((*it).first == iProperty)
 		{
 			return true;
 		}
@@ -4117,7 +4041,7 @@ void CvUnitInfo::getCheckSum(unsigned int &iSum)
 	CheckSumI(iSum, GC.getNumBonusInfos(), m_piBonusProductionModifier);
 	//CheckSumI(iSum, m_iGroupDefinitions, m_piUnitGroupRequired);
 
-	CheckSumI(iSum, GC.getNumCivicInfos(), m_pbPrereqOrCivics);
+	CheckSumC(iSum, m_pbPrereqOrCivics);
 	CheckSumI(iSum, GC.getNumBuildingClassInfos(), m_pbPrereqBuildingClass);
 	CheckSumI(iSum, GC.getNumBuildingClassInfos(), m_piPrereqBuildingClassOverrideTech);
 	CheckSumI(iSum, GC.getNumBuildingClassInfos(), m_piPrereqBuildingClassOverrideEra);
@@ -4290,31 +4214,24 @@ void CvUnitInfo::getCheckSum(unsigned int &iSum)
 	CheckSumC(iSum, m_aiMapCategoryTypes);
 	CheckSumC(iSum, m_aiTrapSetWithPromotionTypes);
 	CheckSumC(iSum, m_aiTrapImmunityUnitCombatTypes);
-	// int vectors utilizing struct with delayed resolution
+	CheckSumC(iSum, m_aAfflictionFortitudeModifiers);
+
 	int iNumElements;
-
-	iNumElements = m_aAfflictionFortitudeModifiers.size();
-	for (int i = 0; i < iNumElements; ++i)
-	{
-		CheckSum(iSum, m_aAfflictionFortitudeModifiers[i].ePromotionLine);
-		CheckSum(iSum, m_aAfflictionFortitudeModifiers[i].iModifier);
-	}
-
 	iNumElements = m_aAfflictOnAttackTypes.size();
 	for (int i = 0; i < iNumElements; ++i)
 	{
-		CheckSum(iSum, m_aAfflictOnAttackTypes[i].eAfflictionLine);
-		CheckSum(iSum, m_aAfflictOnAttackTypes[i].iProbability);
-		CheckSum(iSum, m_aAfflictOnAttackTypes[i].iMelee);
-		CheckSum(iSum, m_aAfflictOnAttackTypes[i].iDistance);
-		CheckSum(iSum, m_aAfflictOnAttackTypes[i].iImmediate);
+		CheckSum(iSum, m_aAfflictOnAttackTypes.at(i).first);
+		CheckSum(iSum, m_aAfflictOnAttackTypes.at(i).second.iProbability);
+		CheckSum(iSum, m_aAfflictOnAttackTypes.at(i).second.iMelee);
+		CheckSum(iSum, m_aAfflictOnAttackTypes.at(i).second.iDistance);
+		CheckSum(iSum, m_aAfflictOnAttackTypes.at(i).second.iImmediate);
 	}
 
 	iNumElements = m_aHealUnitCombatTypes.size();
 	for (int i = 0; i < iNumElements; ++i)
 	{
-		CheckSum(iSum, m_aHealUnitCombatTypes[i].eUnitCombat);
-		CheckSum(iSum, m_aHealUnitCombatTypes[i].iHeal);
+		CheckSum(iSum, m_aHealUnitCombatTypes.at(i).first);
+		CheckSum(iSum, m_aHealUnitCombatTypes.at(i).second.iHeal);
 	}
 
 	iNumElements = m_aGroupSpawnUnitCombatTypes.size();
@@ -4396,18 +4313,9 @@ void CvUnitInfo::getCheckSum(unsigned int &iSum)
 		CheckSum(iSum, m_aVisibleImprovementRangeChanges[i].iIntensity);
 	}
 
-	iNumElements = m_aDistanceAttackCommunicabilityTypeChanges.size();
-	for (int i = 0; i < iNumElements; ++i)
-	{
-		CheckSum(iSum, m_aDistanceAttackCommunicabilityTypeChanges[i].eAfflictionLine);
-		CheckSum(iSum, m_aDistanceAttackCommunicabilityTypeChanges[i].iChange);
-	}
+	CheckSumC(iSum, m_aDistanceAttackCommunicabilityTypeChanges);
 
-	iNumElements = m_aEnabledCivilizationTypes.size();
-	for (int i = 0; i < iNumElements; ++i)
-	{
-		CheckSum(iSum, m_aEnabledCivilizationTypes[i].eCivilization);
-	}
+	CheckSumC(iSum, m_aEnabledCivilizationTypes);
 	// int vectors utilizing pairing without delayed resolution
 	CheckSumC(iSum, m_aWithdrawOnTerrainTypes);
 	CheckSumC(iSum, m_aWithdrawOnFeatureTypes);
@@ -4630,7 +4538,7 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetOptionalChildXmlValByName(szTextVal, L"NotGameOption");
 	m_iNotGameOption = pXML->GetInfoClass(szTextVal);
 
-	pXML->SetVariableListTagPair(&m_pbPrereqOrCivics, L"PrereqOrCivics", GC.getNumCivicInfos());
+	pXML->SetOptionalVector(m_pbPrereqOrCivics, L"PrereqOrCivics");
 
 	pXML->SetVariableListTagPair(&m_pbPrereqBuildingClass, L"PrereqBuildingClasses", GC.getNumBuildingClassInfos());
 
@@ -5164,67 +5072,44 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetOptionalChildXmlValByName(&m_bGatherHerd, L"bGatherHerd");
 
 	//boolean vectors without delayed resolution
-	pXML->SetOptionalIntVector(&m_aiSubCombatTypes, L"SubCombatTypes");
+	pXML->SetOptionalVector(m_aiSubCombatTypes, L"SubCombatTypes");
 
 
-	pXML->SetOptionalIntVector(&m_aiCureAfflictionTypes, L"CureAfflictionTypes");
+	pXML->SetOptionalVector(m_aiCureAfflictionTypes, L"CureAfflictionTypes");
 	
-	pXML->SetOptionalIntVector(&m_aiTerrainImpassableTypes, L"TerrainImpassableTypes");
-	pXML->SetOptionalIntVector(&m_aiFeatureImpassableTypes, L"FeatureImpassableTypes");
+	pXML->SetOptionalVector(m_aiTerrainImpassableTypes, L"TerrainImpassableTypes");
+	pXML->SetOptionalVector(m_aiFeatureImpassableTypes, L"FeatureImpassableTypes");
 
-	pXML->SetOptionalIntVector(&m_aiMapCategoryTypes, L"MapCategoryTypes");
+	pXML->SetOptionalVector(m_aiMapCategoryTypes, L"MapCategoryTypes");
 
-	pXML->SetOptionalIntVector(&m_aiTrapSetWithPromotionTypes, L"TrapSetWithPromotionTypes");
+	pXML->SetOptionalVector(m_aiTrapSetWithPromotionTypes, L"TrapSetWithPromotionTypes");
 
-	pXML->SetOptionalIntVector(&m_aiTrapImmunityUnitCombatTypes, L"TrapImmunityUnitCombatTypes");
+	pXML->SetOptionalVector(m_aiTrapImmunityUnitCombatTypes, L"TrapImmunityUnitCombatTypes");
 
 	// int vectors utilizing struct with delayed resolution
-	if(pXML->TryMoveToXmlFirstChild(L"AfflictionFortitudeModifiers"))
-	{
-		int i = 0;
-		int iNum = pXML->GetXmlChildrenNumber(L"AfflictionFortitudeModifier" );
-		m_aAfflictionFortitudeModifiers.resize(iNum); // Important to keep the delayed resolution pointers correct
-
-		if(pXML->TryMoveToXmlFirstChild())
-		{
-
-			if (pXML->TryMoveToXmlFirstOfSiblings(L"AfflictionFortitudeModifier"))
-			{
-				do
-				{
-					pXML->GetChildXmlValByName(szTextVal, L"PromotionLineType");
-					pXML->GetChildXmlValByName(&(m_aAfflictionFortitudeModifiers[i].iModifier), L"iModifier");
-					GC.addDelayedResolution((int*)&(m_aAfflictionFortitudeModifiers[i].ePromotionLine), szTextVal);
-					i++;
-				} while(pXML->TryMoveToXmlNextSibling(L"AfflictionFortitudeModifier"));
-			}
-			pXML->MoveToXmlParent();
-		}
-		pXML->MoveToXmlParent();
-	}
+	pXML->SetOptionalPairVector(m_aAfflictionFortitudeModifiers, L"AfflictionFortitudeModifiers");
 
 	if(pXML->TryMoveToXmlFirstChild(L"AfflictOnAttackTypes"))
 	{
-		int i = 0;
 		int iNum = pXML->GetXmlChildrenNumber(L"AfflictOnAttackType" );
-		m_aAfflictOnAttackTypes.resize(iNum); // Important to keep the delayed resolution pointers correct
+		m_aAfflictOnAttackTypes.reserve(iNum);
 
-		if(pXML->TryMoveToXmlFirstChild())
+		if(pXML->TryMoveToXmlFirstChild() && pXML->TryMoveToXmlFirstOfSiblings(L"AfflictOnAttackType"))
 		{
-
-			if (pXML->TryMoveToXmlFirstOfSiblings(L"AfflictOnAttackType"))
+			do
 			{
-				do
+				AfflictOnAttack k;
+				pXML->GetChildXmlValByName(szTextVal, L"PromotionLineType");
+				int iType = pXML->GetInfoClass(szTextVal);
+				pXML->GetChildXmlValByName(&k.iProbability, L"iProbability");
+				pXML->GetChildXmlValByName(&k.iMelee, L"iMelee");
+				pXML->GetChildXmlValByName(&k.iDistance, L"iDistance");
+				pXML->GetChildXmlValByName(&k.iImmediate, L"iImmediate");
+				if (iType != NO_PROMOTIONLINE && k.iProbability)
 				{
-					pXML->GetChildXmlValByName(szTextVal, L"PromotionLineType");
-					pXML->GetChildXmlValByName(&(m_aAfflictOnAttackTypes[i].iProbability), L"iProbability");
-					pXML->GetChildXmlValByName(&(m_aAfflictOnAttackTypes[i].iMelee), L"iMelee");
-					pXML->GetChildXmlValByName(&(m_aAfflictOnAttackTypes[i].iDistance), L"iDistance");
-					pXML->GetChildXmlValByName(&(m_aAfflictOnAttackTypes[i].iImmediate), L"iImmediate");
-					GC.addDelayedResolution((int*)&(m_aAfflictOnAttackTypes[i].eAfflictionLine), szTextVal);
-					i++;
-				} while(pXML->TryMoveToXmlNextSibling(L"AfflictOnAttackType"));
-			}
+					m_aAfflictOnAttackTypes.push_back(std::make_pair(iType, k));
+				}
+			} while(pXML->TryMoveToXmlNextSibling(L"AfflictOnAttackType"));
 			pXML->MoveToXmlParent();
 		}
 		pXML->MoveToXmlParent();
@@ -5232,24 +5117,23 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 
 	if(pXML->TryMoveToXmlFirstChild(L"HealUnitCombatTypes"))
 	{
-		int i = 0;
 		int iNum = pXML->GetXmlChildrenNumber(L"HealUnitCombatType" );
-		m_aHealUnitCombatTypes.resize(iNum); // Important to keep the delayed resolution pointers correct
+		m_aHealUnitCombatTypes.reserve(iNum);
 
-		if(pXML->TryMoveToXmlFirstChild())
+		if(pXML->TryMoveToXmlFirstChild() && pXML->TryMoveToXmlFirstOfSiblings(L"HealUnitCombatType"))
 		{
-
-			if (pXML->TryMoveToXmlFirstOfSiblings(L"HealUnitCombatType"))
+			do
 			{
-				do
+				HealUnitCombat k;
+				pXML->GetChildXmlValByName(szTextVal, L"UnitCombatType");
+				int iType = pXML->GetInfoClass(szTextVal);
+				pXML->GetChildXmlValByName(&k.iHeal, L"iHeal");
+				pXML->GetChildXmlValByName(&k.iAdjacentHeal, L"iAdjacentHeal");
+				if (iType != NO_UNITCOMBAT && (k.iHeal || k.iAdjacentHeal))
 				{
-					pXML->GetChildXmlValByName(szTextVal, L"UnitCombatType");
-					pXML->GetChildXmlValByName(&(m_aHealUnitCombatTypes[i].iHeal), L"iHeal");
-					pXML->GetChildXmlValByName(&(m_aHealUnitCombatTypes[i].iAdjacentHeal), L"iAdjacentHeal");
-					GC.addDelayedResolution((int*)&(m_aHealUnitCombatTypes[i].eUnitCombat), szTextVal);
-					i++;
-				} while(pXML->TryMoveToXmlNextSibling(L"HealUnitCombatType"));
-			}
+					m_aHealUnitCombatTypes.push_back(std::make_pair(iType, k));
+				}
+			} while(pXML->TryMoveToXmlNextSibling(L"HealUnitCombatType"));
 			pXML->MoveToXmlParent();
 		}
 		pXML->MoveToXmlParent();
@@ -5257,24 +5141,23 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 
 	if(pXML->TryMoveToXmlFirstChild(L"GroupSpawnUnitCombatTypes"))
 	{
-		int i = 0;
 		int iNum = pXML->GetXmlChildrenNumber(L"GroupSpawnUnitCombatType" );
-		m_aGroupSpawnUnitCombatTypes.resize(iNum); // Important to keep the delayed resolution pointers correct
+		m_aGroupSpawnUnitCombatTypes.reserve(iNum);
 
-		if(pXML->TryMoveToXmlFirstChild())
+		if(pXML->TryMoveToXmlFirstChild() && pXML->TryMoveToXmlFirstOfSiblings(L"GroupSpawnUnitCombatType"))
 		{
-
-			if (pXML->TryMoveToXmlFirstOfSiblings(L"GroupSpawnUnitCombatType"))
+			do
 			{
-				do
+				GroupSpawnUnitCombat k;
+				pXML->GetChildXmlValByName(szTextVal, L"UnitCombatType");
+				k.eUnitCombat = (UnitCombatTypes)pXML->GetInfoClass(szTextVal);
+				pXML->GetChildXmlValByName(&k.iChance, L"iChance");
+				pXML->GetOptionalChildXmlValByName(k.m_szTitle, L"Title");
+				if (k.eUnitCombat != NO_UNITCOMBAT && k.iChance)
 				{
-					pXML->GetChildXmlValByName(szTextVal, L"UnitCombatType");
-					pXML->GetChildXmlValByName(&(m_aGroupSpawnUnitCombatTypes[i].iChance), L"iChance");
-					pXML->GetOptionalChildXmlValByName(m_aGroupSpawnUnitCombatTypes[i].m_szTitle, L"Title");
-					GC.addDelayedResolution((int*)&(m_aGroupSpawnUnitCombatTypes[i].eUnitCombat), szTextVal);
-					i++;
-				} while(pXML->TryMoveToXmlNextSibling(L"GroupSpawnUnitCombatType"));
-			}
+					m_aGroupSpawnUnitCombatTypes.push_back(k);
+				}
+			} while(pXML->TryMoveToXmlNextSibling(L"GroupSpawnUnitCombatType"));
 			pXML->MoveToXmlParent();
 		}
 		pXML->MoveToXmlParent();
@@ -5282,9 +5165,8 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 
 	if(pXML->TryMoveToXmlFirstChild(L"InvisibleTerrainChanges"))
 	{
-		int i = 0;
 		int iNum = pXML->GetXmlChildrenNumber(L"InvisibleTerrainChange" );
-		m_aInvisibleTerrainChanges.resize(iNum); // Important to keep the delayed resolution pointers correct
+		m_aInvisibleTerrainChanges.reserve(iNum);
 
 		if(pXML->TryMoveToXmlFirstChild())
 		{
@@ -5293,12 +5175,16 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 			{
 				do
 				{
+					InvisibleTerrainChanges kStruct;
 					pXML->GetChildXmlValByName(szTextVal, L"InvisibleType");
-					pXML->GetChildXmlValByName(szTextVal2, L"TerrainType");
-					m_aInvisibleTerrainChanges[i].eTerrain = (TerrainTypes)pXML->GetInfoClass(szTextVal2);
-					pXML->GetChildXmlValByName(&(m_aInvisibleTerrainChanges[i].iIntensity), L"iIntensity");
-					GC.addDelayedResolution((int*)&(m_aInvisibleTerrainChanges[i].eInvisible), szTextVal);
-					i++;
+					kStruct.eInvisible = (InvisibleTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(szTextVal, L"TerrainType");
+					kStruct.eTerrain = (TerrainTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(&kStruct.iIntensity, L"iIntensity");
+					if (kStruct.eInvisible != NO_INVISIBLE && kStruct.eTerrain != NO_TERRAIN && kStruct.iIntensity)
+					{
+						m_aInvisibleTerrainChanges.push_back(kStruct);
+					}
 				} while(pXML->TryMoveToXmlNextSibling(L"InvisibleTerrainChange"));
 			}
 			pXML->MoveToXmlParent();
@@ -5308,9 +5194,8 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 
 	if(pXML->TryMoveToXmlFirstChild(L"InvisibleFeatureChanges"))
 	{
-		int i = 0;
 		int iNum = pXML->GetXmlChildrenNumber(L"InvisibleFeatureChange" );
-		m_aInvisibleFeatureChanges.resize(iNum); // Important to keep the delayed resolution pointers correct
+		m_aInvisibleFeatureChanges.reserve(iNum);
 
 		if(pXML->TryMoveToXmlFirstChild())
 		{
@@ -5319,12 +5204,16 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 			{
 				do
 				{
+					InvisibleFeatureChanges kStruct;
 					pXML->GetChildXmlValByName(szTextVal, L"InvisibleType");
-					pXML->GetChildXmlValByName(szTextVal2, L"FeatureType");
-					m_aInvisibleFeatureChanges[i].eFeature = (FeatureTypes)pXML->GetInfoClass(szTextVal2);
-					pXML->GetChildXmlValByName(&(m_aInvisibleFeatureChanges[i].iIntensity), L"iIntensity");
-					GC.addDelayedResolution((int*)&(m_aInvisibleFeatureChanges[i].eInvisible), szTextVal);
-					i++;
+					kStruct.eInvisible = (InvisibleTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(szTextVal, L"FeatureType");
+					kStruct.eFeature = (FeatureTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(&kStruct.iIntensity, L"iIntensity");
+					if (kStruct.eInvisible != NO_INVISIBLE && kStruct.eFeature != NO_FEATURE && kStruct.iIntensity)
+					{
+						m_aInvisibleFeatureChanges.push_back(kStruct);
+					}
 				} while(pXML->TryMoveToXmlNextSibling(L"InvisibleFeatureChange"));
 			}
 			pXML->MoveToXmlParent();
@@ -5334,9 +5223,8 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 
 	if(pXML->TryMoveToXmlFirstChild(L"InvisibleImprovementChanges"))
 	{
-		int i = 0;
 		int iNum = pXML->GetXmlChildrenNumber(L"InvisibleImprovementChange" );
-		m_aInvisibleImprovementChanges.resize(iNum); // Important to keep the delayed resolution pointers correct
+		m_aInvisibleImprovementChanges.reserve(iNum);
 
 		if(pXML->TryMoveToXmlFirstChild())
 		{
@@ -5345,12 +5233,16 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 			{
 				do
 				{
+					InvisibleImprovementChanges kStruct;
 					pXML->GetChildXmlValByName(szTextVal, L"InvisibleType");
-					pXML->GetChildXmlValByName(szTextVal2, L"ImprovementType");
-					m_aInvisibleImprovementChanges[i].eImprovement = (ImprovementTypes)pXML->GetInfoClass(szTextVal2);
-					pXML->GetChildXmlValByName(&(m_aInvisibleImprovementChanges[i].iIntensity), L"iIntensity");
-					GC.addDelayedResolution((int*)&(m_aInvisibleImprovementChanges[i].eInvisible), szTextVal);
-					i++;
+					kStruct.eInvisible = (InvisibleTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(szTextVal, L"ImprovementType");
+					kStruct.eImprovement = (ImprovementTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(&kStruct.iIntensity, L"iIntensity");
+					if (kStruct.eInvisible != NO_INVISIBLE && kStruct.eImprovement != NO_IMPROVEMENT && kStruct.iIntensity)
+					{
+						m_aInvisibleImprovementChanges.push_back(kStruct);
+					}
 				} while(pXML->TryMoveToXmlNextSibling(L"InvisibleImprovementChange"));
 			}
 			pXML->MoveToXmlParent();
@@ -5360,9 +5252,8 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 
 	if(pXML->TryMoveToXmlFirstChild(L"VisibleTerrainChanges"))
 	{
-		int i = 0;
 		int iNum = pXML->GetXmlChildrenNumber(L"VisibleTerrainChange" );
-		m_aVisibleTerrainChanges.resize(iNum); // Important to keep the delayed resolution pointers correct
+		m_aVisibleTerrainChanges.reserve(iNum);
 
 		if(pXML->TryMoveToXmlFirstChild())
 		{
@@ -5371,12 +5262,16 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 			{
 				do
 				{
+					InvisibleTerrainChanges kStruct;
 					pXML->GetChildXmlValByName(szTextVal, L"InvisibleType");
-					pXML->GetChildXmlValByName(szTextVal2, L"TerrainType");
-					m_aVisibleTerrainChanges[i].eTerrain = (TerrainTypes)pXML->GetInfoClass(szTextVal2);
-					pXML->GetChildXmlValByName(&(m_aVisibleTerrainChanges[i].iIntensity), L"iIntensity");
-					GC.addDelayedResolution((int*)&(m_aVisibleTerrainChanges[i].eInvisible), szTextVal);
-					i++;
+					kStruct.eInvisible = (InvisibleTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(szTextVal, L"TerrainType");
+					kStruct.eTerrain = (TerrainTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(&kStruct.iIntensity, L"iIntensity");
+					if (kStruct.eInvisible != NO_INVISIBLE && kStruct.eTerrain != NO_TERRAIN && kStruct.iIntensity)
+					{
+						m_aVisibleTerrainChanges.push_back(kStruct);
+					}
 				} while(pXML->TryMoveToXmlNextSibling(L"VisibleTerrainChange"));
 			}
 			pXML->MoveToXmlParent();
@@ -5386,9 +5281,8 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 
 	if(pXML->TryMoveToXmlFirstChild(L"VisibleFeatureChanges"))
 	{
-		int i = 0;
 		int iNum = pXML->GetXmlChildrenNumber(L"VisibleFeatureChange" );
-		m_aVisibleFeatureChanges.resize(iNum); // Important to keep the delayed resolution pointers correct
+		m_aVisibleFeatureChanges.reserve(iNum);
 
 		if(pXML->TryMoveToXmlFirstChild())
 		{
@@ -5397,12 +5291,16 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 			{
 				do
 				{
+					InvisibleFeatureChanges kStruct;
 					pXML->GetChildXmlValByName(szTextVal, L"InvisibleType");
-					pXML->GetChildXmlValByName(szTextVal2, L"FeatureType");
-					m_aVisibleFeatureChanges[i].eFeature = (FeatureTypes)pXML->GetInfoClass(szTextVal2);
-					pXML->GetChildXmlValByName(&(m_aVisibleFeatureChanges[i].iIntensity), L"iIntensity");
-					GC.addDelayedResolution((int*)&(m_aVisibleFeatureChanges[i].eInvisible), szTextVal);
-					i++;
+					kStruct.eInvisible = (InvisibleTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(szTextVal, L"FeatureType");
+					kStruct.eFeature = (FeatureTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(&kStruct.iIntensity, L"iIntensity");
+					if (kStruct.eInvisible != NO_INVISIBLE && kStruct.eFeature != NO_FEATURE && kStruct.iIntensity)
+					{
+						m_aVisibleFeatureChanges.push_back(kStruct);
+					}
 				} while(pXML->TryMoveToXmlNextSibling(L"VisibleFeatureChange"));
 			}
 			pXML->MoveToXmlParent();
@@ -5412,9 +5310,8 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 
 	if(pXML->TryMoveToXmlFirstChild(L"VisibleImprovementChanges"))
 	{
-		int i = 0;
 		int iNum = pXML->GetXmlChildrenNumber(L"VisibleImprovementChange" );
-		m_aVisibleImprovementChanges.resize(iNum); // Important to keep the delayed resolution pointers correct
+		m_aVisibleImprovementChanges.reserve(iNum);
 
 		if(pXML->TryMoveToXmlFirstChild())
 		{
@@ -5423,12 +5320,16 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 			{
 				do
 				{
+					InvisibleImprovementChanges kStruct;
 					pXML->GetChildXmlValByName(szTextVal, L"InvisibleType");
-					pXML->GetChildXmlValByName(szTextVal2, L"ImprovementType");
-					m_aVisibleImprovementChanges[i].eImprovement = (ImprovementTypes)pXML->GetInfoClass(szTextVal2);
-					pXML->GetChildXmlValByName(&(m_aVisibleImprovementChanges[i].iIntensity), L"iIntensity");
-					GC.addDelayedResolution((int*)&(m_aVisibleImprovementChanges[i].eInvisible), szTextVal);
-					i++;
+					kStruct.eInvisible = (InvisibleTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(szTextVal, L"ImprovementType");
+					kStruct.eImprovement = (ImprovementTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(&kStruct.iIntensity, L"iIntensity");
+					if (kStruct.eInvisible != NO_INVISIBLE && kStruct.eImprovement != NO_IMPROVEMENT && kStruct.iIntensity)
+					{
+						m_aVisibleImprovementChanges.push_back(kStruct);
+					}
 				} while(pXML->TryMoveToXmlNextSibling(L"VisibleImprovementChange"));
 			}
 			pXML->MoveToXmlParent();
@@ -5438,9 +5339,8 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 
 	if(pXML->TryMoveToXmlFirstChild(L"VisibleTerrainRangeChanges"))
 	{
-		int i = 0;
 		int iNum = pXML->GetXmlChildrenNumber(L"VisibleTerrainRangeChange" );
-		m_aVisibleTerrainRangeChanges.resize(iNum); // Important to keep the delayed resolution pointers correct
+		m_aVisibleTerrainRangeChanges.reserve(iNum);
 
 		if(pXML->TryMoveToXmlFirstChild())
 		{
@@ -5449,12 +5349,16 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 			{
 				do
 				{
+					InvisibleTerrainChanges kStruct;
 					pXML->GetChildXmlValByName(szTextVal, L"InvisibleType");
-					pXML->GetChildXmlValByName(szTextVal2, L"TerrainType");
-					m_aVisibleTerrainRangeChanges[i].eTerrain = (TerrainTypes)pXML->GetInfoClass(szTextVal2);
-					pXML->GetChildXmlValByName(&(m_aVisibleTerrainRangeChanges[i].iIntensity), L"iIntensity");
-					GC.addDelayedResolution((int*)&(m_aVisibleTerrainRangeChanges[i].eInvisible), szTextVal);
-					i++;
+					kStruct.eInvisible = (InvisibleTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(szTextVal, L"TerrainType");
+					kStruct.eTerrain = (TerrainTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(&kStruct.iIntensity, L"iIntensity");
+					if (kStruct.eInvisible != NO_INVISIBLE && kStruct.eTerrain != NO_TERRAIN && kStruct.iIntensity)
+					{
+						m_aVisibleTerrainRangeChanges.push_back(kStruct);
+					}
 				} while(pXML->TryMoveToXmlNextSibling(L"VisibleTerrainRangeChange"));
 			}
 			pXML->MoveToXmlParent();
@@ -5464,9 +5368,8 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 
 	if(pXML->TryMoveToXmlFirstChild(L"VisibleFeatureRangeChanges"))
 	{
-		int i = 0;
 		int iNum = pXML->GetXmlChildrenNumber(L"VisibleFeatureRangeChange" );
-		m_aVisibleFeatureRangeChanges.resize(iNum); // Important to keep the delayed resolution pointers correct
+		m_aVisibleFeatureRangeChanges.reserve(iNum);
 
 		if(pXML->TryMoveToXmlFirstChild())
 		{
@@ -5475,12 +5378,16 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 			{
 				do
 				{
+					InvisibleFeatureChanges kStruct;
 					pXML->GetChildXmlValByName(szTextVal, L"InvisibleType");
-					pXML->GetChildXmlValByName(szTextVal2, L"FeatureType");
-					m_aVisibleFeatureRangeChanges[i].eFeature = (FeatureTypes)pXML->GetInfoClass(szTextVal2);
-					pXML->GetChildXmlValByName(&(m_aVisibleFeatureRangeChanges[i].iIntensity), L"iIntensity");
-					GC.addDelayedResolution((int*)&(m_aVisibleFeatureRangeChanges[i].eInvisible), szTextVal);
-					i++;
+					kStruct.eInvisible = (InvisibleTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(szTextVal, L"FeatureType");
+					kStruct.eFeature = (FeatureTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(&kStruct.iIntensity, L"iIntensity");
+					if (kStruct.eInvisible != NO_INVISIBLE && kStruct.eFeature != NO_FEATURE && kStruct.iIntensity)
+					{
+						m_aVisibleFeatureRangeChanges.push_back(kStruct);
+					}
 				} while(pXML->TryMoveToXmlNextSibling(L"VisibleFeatureRangeChange"));
 			}
 			pXML->MoveToXmlParent();
@@ -5490,9 +5397,8 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 
 	if(pXML->TryMoveToXmlFirstChild(L"VisibleImprovementRangeChanges"))
 	{
-		int i = 0;
 		int iNum = pXML->GetXmlChildrenNumber(L"VisibleImprovementRangeChange" );
-		m_aVisibleImprovementRangeChanges.resize(iNum); // Important to keep the delayed resolution pointers correct
+		m_aVisibleImprovementRangeChanges.reserve(iNum);
 
 		if(pXML->TryMoveToXmlFirstChild())
 		{
@@ -5501,12 +5407,17 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 			{
 				do
 				{
+					
+					InvisibleImprovementChanges kStruct;
 					pXML->GetChildXmlValByName(szTextVal, L"InvisibleType");
-					pXML->GetChildXmlValByName(szTextVal2, L"ImprovementType");
-					m_aVisibleImprovementRangeChanges[i].eImprovement = (ImprovementTypes)pXML->GetInfoClass(szTextVal2);
-					pXML->GetChildXmlValByName(&(m_aVisibleImprovementRangeChanges[i].iIntensity), L"iIntensity");
-					GC.addDelayedResolution((int*)&(m_aVisibleImprovementRangeChanges[i].eInvisible), szTextVal);
-					i++;
+					kStruct.eInvisible = (InvisibleTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(szTextVal, L"ImprovementType");
+					kStruct.eImprovement = (ImprovementTypes)pXML->GetInfoClass(szTextVal);
+					pXML->GetChildXmlValByName(&kStruct.iIntensity, L"iIntensity");
+					if (kStruct.eInvisible != NO_INVISIBLE && kStruct.eImprovement != NO_IMPROVEMENT && kStruct.iIntensity)
+					{
+						m_aVisibleImprovementRangeChanges.push_back(kStruct);
+					}
 				} while(pXML->TryMoveToXmlNextSibling(L"VisibleImprovementRangeChange"));
 			}
 			pXML->MoveToXmlParent();
@@ -5514,99 +5425,36 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 		pXML->MoveToXmlParent();
 	}
 
-	if(pXML->TryMoveToXmlFirstChild(L"DistanceAttackCommunicabilityTypeChanges"))
-	{
-		int i = 0;
-		int iNum = pXML->GetXmlChildrenNumber(L"DistanceAttackCommunicabilityTypeChange" );
-		m_aDistanceAttackCommunicabilityTypeChanges.resize(iNum); // Important to keep the delayed resolution pointers correct
+	pXML->SetOptionalPairVector(m_aDistanceAttackCommunicabilityTypeChanges, L"DistanceAttackCommunicabilityTypeChanges");
 
-		if(pXML->TryMoveToXmlFirstChild())
-		{
-
-			if (pXML->TryMoveToXmlFirstOfSiblings(L"DistanceAttackCommunicabilityTypeChange"))
-			{
-				do
-				{
-					pXML->GetChildXmlValByName(szTextVal, L"PromotionLineType");
-					pXML->GetChildXmlValByName(&(m_aDistanceAttackCommunicabilityTypeChanges[i].iChange), L"iChange");
-					GC.addDelayedResolution((int*)&(m_aDistanceAttackCommunicabilityTypeChanges[i].eAfflictionLine), szTextVal);
-					i++;
-				} while(pXML->TryMoveToXmlNextSibling(L"DistanceAttackCommunicabilityTypeChange"));
-			}
-			pXML->MoveToXmlParent();
-		}
-		pXML->MoveToXmlParent();
-	}
-
-	if(pXML->TryMoveToXmlFirstChild(L"EnabledCivilizationTypes"))
-	{
-		int i = 0;
-		int iNum = pXML->GetXmlChildrenNumber(L"EnabledCivilizationType" );
-		m_aEnabledCivilizationTypes.resize(iNum); // Important to keep the delayed resolution pointers correct
-
-		if(pXML->TryMoveToXmlFirstChild())
-		{
-
-			if (pXML->TryMoveToXmlFirstOfSiblings(L"EnabledCivilizationType"))
-			{
-				do
-				{
-					pXML->GetChildXmlValByName(szTextVal, L"CivilizationType");
-					GC.addDelayedResolution((int*)&(m_aEnabledCivilizationTypes[i].eCivilization), szTextVal);
-					i++;
-				} while(pXML->TryMoveToXmlNextSibling(L"EnabledCivilizationType"));
-			}
-			pXML->MoveToXmlParent();
-		}
-		pXML->MoveToXmlParent();
-	}
+	pXML->SetOptionalIntVectorWithDelayedResolution(m_aEnabledCivilizationTypes, L"EnabledCivilizationTypes");
 
 	// int vector utilizing pairing without delayed resolution
-	pXML->SetOptionalPairVector<TerrainModifierArray, TerrainTypes, int>(&m_aWithdrawOnTerrainTypes, L"WithdrawModifierOnTerrainTypes");
-
-	pXML->SetOptionalPairVector<FeatureModifierArray, FeatureTypes, int>(&m_aWithdrawOnFeatureTypes, L"WithdrawModifierOnFeatureTypes");
-
-	pXML->SetOptionalPairVector<UnitCombatModifierArray, UnitCombatTypes, int>(&m_aFlankingStrengthbyUnitCombatType, L"FlankingStrikesbyUnitCombat");
-
-	pXML->SetOptionalPairVector<UnitCombatModifierArray, UnitCombatTypes, int>(&m_aWithdrawVSUnitCombatTypes, L"WithdrawVSUnitCombatTypes");
-
-	pXML->SetOptionalPairVector<UnitCombatModifierArray, UnitCombatTypes, int>(&m_aPursuitVSUnitCombatTypes, L"PursuitVSUnitCombatTypes");
-
-	pXML->SetOptionalPairVector<UnitCombatModifierArray, UnitCombatTypes, int>(&m_aRepelVSUnitCombatTypes, L"RepelVSUnitCombatTypes");
-
-	pXML->SetOptionalPairVector<UnitCombatModifierArray, UnitCombatTypes, int>(&m_aKnockbackVSUnitCombatTypes, L"KnockbackVSUnitCombatTypes");
-
-	pXML->SetOptionalPairVector<UnitCombatModifierArray, UnitCombatTypes, int>(&m_aPunctureVSUnitCombatTypes, L"PunctureVSUnitCombatTypes");
-
-	pXML->SetOptionalPairVector<UnitCombatModifierArray, UnitCombatTypes, int>(&m_aArmorVSUnitCombatTypes, L"ArmorVSUnitCombatTypes");
-
-	pXML->SetOptionalPairVector<UnitCombatModifierArray, UnitCombatTypes, int>(&m_aDodgeVSUnitCombatTypes, L"DodgeVSUnitCombatTypes");
-
-	pXML->SetOptionalPairVector<UnitCombatModifierArray, UnitCombatTypes, int>(&m_aPrecisionVSUnitCombatTypes, L"PrecisionVSUnitCombatTypes");
-
-	pXML->SetOptionalPairVector<UnitCombatModifierArray, UnitCombatTypes, int>(&m_aCriticalVSUnitCombatTypes, L"CriticalVSUnitCombatTypes");
-
-	pXML->SetOptionalPairVector<UnitCombatModifierArray, UnitCombatTypes, int>(&m_aRoundStunVSUnitCombatTypes, L"RoundStunVSUnitCombatTypes");
-
-	pXML->SetOptionalPairVector<UnitCombatModifierArray, UnitCombatTypes, int>(&m_aTrapDisableUnitCombatTypes, L"TrapDisableUnitCombatTypes");
-
-	pXML->SetOptionalPairVector<UnitCombatModifierArray, UnitCombatTypes, int>(&m_aTrapAvoidanceUnitCombatTypes, L"TrapAvoidanceUnitCombatTypes");
-
-	pXML->SetOptionalPairVector<UnitCombatModifierArray, UnitCombatTypes, int>(&m_aTrapTriggerUnitCombatTypes, L"TrapTriggerUnitCombatTypes");
-
-	pXML->SetOptionalPairVector<InvisibilityArray, InvisibleTypes, int>(&m_aVisibilityIntensityTypes, L"VisibilityIntensityTypes");
-
-	pXML->SetOptionalPairVector<InvisibilityArray, InvisibleTypes, int>(&m_aInvisibilityIntensityTypes, L"InvisibilityIntensityTypes");
+	pXML->SetOptionalPairVector(m_aWithdrawOnTerrainTypes, L"WithdrawModifierOnTerrainTypes");
+	pXML->SetOptionalPairVector(m_aWithdrawOnFeatureTypes, L"WithdrawModifierOnFeatureTypes");
+	pXML->SetOptionalPairVector(m_aFlankingStrengthbyUnitCombatType, L"FlankingStrikesbyUnitCombat");
+	pXML->SetOptionalPairVector(m_aWithdrawVSUnitCombatTypes, L"WithdrawVSUnitCombatTypes");
+	pXML->SetOptionalPairVector(m_aPursuitVSUnitCombatTypes, L"PursuitVSUnitCombatTypes");
+	pXML->SetOptionalPairVector(m_aRepelVSUnitCombatTypes, L"RepelVSUnitCombatTypes");
+	pXML->SetOptionalPairVector(m_aKnockbackVSUnitCombatTypes, L"KnockbackVSUnitCombatTypes");
+	pXML->SetOptionalPairVector(m_aPunctureVSUnitCombatTypes, L"PunctureVSUnitCombatTypes");
+	pXML->SetOptionalPairVector(m_aArmorVSUnitCombatTypes, L"ArmorVSUnitCombatTypes");
+	pXML->SetOptionalPairVector(m_aDodgeVSUnitCombatTypes, L"DodgeVSUnitCombatTypes");
+	pXML->SetOptionalPairVector(m_aPrecisionVSUnitCombatTypes, L"PrecisionVSUnitCombatTypes");
+	pXML->SetOptionalPairVector(m_aCriticalVSUnitCombatTypes, L"CriticalVSUnitCombatTypes");
+	pXML->SetOptionalPairVector(m_aRoundStunVSUnitCombatTypes, L"RoundStunVSUnitCombatTypes");
+	pXML->SetOptionalPairVector(m_aTrapDisableUnitCombatTypes, L"TrapDisableUnitCombatTypes");
+	pXML->SetOptionalPairVector(m_aTrapAvoidanceUnitCombatTypes, L"TrapAvoidanceUnitCombatTypes");
+	pXML->SetOptionalPairVector(m_aTrapTriggerUnitCombatTypes, L"TrapTriggerUnitCombatTypes");
+	pXML->SetOptionalPairVector(m_aVisibilityIntensityTypes, L"VisibilityIntensityTypes");
+	pXML->SetOptionalPairVector(m_aInvisibilityIntensityTypes, L"InvisibilityIntensityTypes");
 
 //Team Project (4)	
 		//WorkRateMod
-	pXML->SetOptionalPairVector<TerrainModifierArray, TerrainTypes, int>(&m_aTerrainWorkRateModifierTypes, L"TerrainWorkRateModifierTypes");
-
-	pXML->SetOptionalPairVector<FeatureModifierArray, FeatureTypes, int>(&m_aFeatureWorkRateModifierTypes, L"FeatureWorkRateModifierTypes");
-
-	pXML->SetOptionalPairVector<BuildModifierArray, BuildTypes, int>(&m_aBuildWorkRateModifierTypes, L"BuildWorkRateModifierTypes");
-
-	pXML->SetOptionalPairVector<AidArray, PropertyTypes, int>(&m_aAidChanges, L"AidChanges");
+	pXML->SetOptionalPairVector(m_aTerrainWorkRateModifierTypes, L"TerrainWorkRateModifierTypes");
+	pXML->SetOptionalPairVector(m_aFeatureWorkRateModifierTypes, L"FeatureWorkRateModifierTypes");
+	pXML->SetOptionalPairVector(m_aBuildWorkRateModifierTypes, L"BuildWorkRateModifierTypes");
+	pXML->SetOptionalPairVector(m_aAidChanges, L"AidChanges");
 
 	//TB Combat Mods End  TB SubCombat Mod end
 
@@ -6077,17 +5925,7 @@ void CvUnitInfo::copyNonDefaults(CvUnitInfo* pClassInfo, CvXMLLoadUtility* pXML)
 /**																				*/
 /**		CanTrain																*/
 /********************************************************************************/
-	for ( int i = 0; i < GC.getNumCivicInfos(); i++)
-	{
-		if ( isPrereqOrCivics(i) == bDefault && pClassInfo->isPrereqOrCivics(i) != bDefault)
-		{
-			if ( NULL == m_pbPrereqOrCivics )
-			{
-				CvXMLLoadUtility::InitList(&m_pbPrereqOrCivics,GC.getNumCivicInfos(),bDefault);
-			}
-			m_pbPrereqOrCivics[i] = pClassInfo->isPrereqOrCivics(i);
-		}
-	}
+	CvXMLLoadUtility::CopyNonDefaultsFromIntVector(m_pbPrereqOrCivics, pClassInfo->m_pbPrereqOrCivics);
 
 	for ( int i = 0; i < GC.getNumBuildingClassInfos(); i++)
 	{
@@ -6492,182 +6330,216 @@ void CvUnitInfo::copyNonDefaults(CvUnitInfo* pClassInfo, CvXMLLoadUtility* pXML)
 		}
 	}
 	// int vectors utilizing struct with delayed resolution
-	if (getNumAfflictionFortitudeModifiers() == 0)
+	CvXMLLoadUtility::CopyNonDefaultsFromPairVector(m_aAfflictionFortitudeModifiers, pClassInfo->m_aAfflictionFortitudeModifiers);
+
+	CvXMLLoadUtility::CopyNonDefaultsFromPairVector(m_aAfflictOnAttackTypes, pClassInfo->m_aAfflictOnAttackTypes);
+	CvXMLLoadUtility::CopyNonDefaultsFromPairVector(m_aHealUnitCombatTypes, pClassInfo->m_aHealUnitCombatTypes);
+	
+	int iSizeOrig = m_aGroupSpawnUnitCombatTypes.size();
+	
+	m_aGroupSpawnUnitCombatTypes.reserve(iSizeOrig + (int)pClassInfo->m_aGroupSpawnUnitCombatTypes.size());
+	while (m_aGroupSpawnUnitCombatTypes.size())
 	{
-		int iNum = pClassInfo->getNumAfflictionFortitudeModifiers();
-		m_aAfflictionFortitudeModifiers.resize(iNum);
-		for (int i=0; i<iNum; i++)
+		bool bExists = false;
+		GroupSpawnUnitCombat& Val = pClassInfo->m_aGroupSpawnUnitCombatTypes.back();
+		for (std::vector<GroupSpawnUnitCombat>::iterator it = m_aGroupSpawnUnitCombatTypes.begin(); it - m_aGroupSpawnUnitCombatTypes.begin() < iSizeOrig; it++)
 		{
-			m_aAfflictionFortitudeModifiers[i].iModifier = pClassInfo->m_aAfflictionFortitudeModifiers[i].iModifier; 
-			GC.copyNonDefaultDelayedResolution((int*)&(m_aAfflictionFortitudeModifiers[i].ePromotionLine), (int*)&(pClassInfo->m_aAfflictionFortitudeModifiers[i].ePromotionLine));
+			if (Val.eUnitCombat == it->eUnitCombat)
+			{
+				bExists = true;
+				break;
+			}
 		}
+		if (!bExists)
+		{
+			m_aGroupSpawnUnitCombatTypes.push_back(Val);
+		}
+		pClassInfo->m_aGroupSpawnUnitCombatTypes.pop_back();
+	}
+	iSizeOrig = (int)m_aInvisibleTerrainChanges.size();
+	m_aInvisibleTerrainChanges.reserve(iSizeOrig + (int)pClassInfo->m_aInvisibleTerrainChanges.size());
+	while (m_aInvisibleTerrainChanges.size())
+	{
+		bool bExists = false;
+		InvisibleTerrainChanges& Val = pClassInfo->m_aInvisibleTerrainChanges.back();
+		for (std::vector<InvisibleTerrainChanges>::iterator it = m_aInvisibleTerrainChanges.begin(); it - m_aInvisibleTerrainChanges.begin() < iSizeOrig; it++)
+		{
+			if (Val.eInvisible == it->eInvisible && Val.eTerrain == it->eTerrain)
+			{
+				bExists = true;
+				break;
+			}
+		}
+		if (!bExists)
+		{
+			m_aInvisibleTerrainChanges.push_back(Val);
+		}
+		pClassInfo->m_aInvisibleTerrainChanges.pop_back();
+	}
+	iSizeOrig = (int)m_aInvisibleFeatureChanges.size();
+	m_aInvisibleFeatureChanges.reserve(iSizeOrig + (int)pClassInfo->m_aInvisibleFeatureChanges.size());
+	while (m_aInvisibleFeatureChanges.size())
+	{
+		bool bExists = false;
+		InvisibleFeatureChanges& Val = pClassInfo->m_aInvisibleFeatureChanges.back();
+		for (std::vector<InvisibleFeatureChanges>::iterator it = m_aInvisibleFeatureChanges.begin(); it - m_aInvisibleFeatureChanges.begin() < iSizeOrig; it++)
+		{
+			if (Val.eInvisible == it->eInvisible && Val.eFeature == it->eFeature)
+			{
+				bExists = true;
+				break;
+			}
+		}
+		if (!bExists)
+		{
+			m_aInvisibleFeatureChanges.push_back(Val);
+		}
+		pClassInfo->m_aInvisibleFeatureChanges.pop_back();
+	}
+	iSizeOrig = (int)m_aInvisibleImprovementChanges.size();
+	m_aInvisibleImprovementChanges.reserve(iSizeOrig + (int)pClassInfo->m_aInvisibleImprovementChanges.size());
+	while (m_aInvisibleImprovementChanges.size())
+	{
+		bool bExists = false;
+		InvisibleImprovementChanges& Val = pClassInfo->m_aInvisibleImprovementChanges.back();
+		for (std::vector<InvisibleImprovementChanges>::iterator it = m_aInvisibleImprovementChanges.begin(); it - m_aInvisibleImprovementChanges.begin() < iSizeOrig; it++)
+		{
+			if (Val.eInvisible == it->eInvisible && Val.eImprovement == it->eImprovement)
+			{
+				bExists = true;
+				break;
+			}
+		}
+		if (!bExists)
+		{
+			m_aInvisibleImprovementChanges.push_back(Val);
+		}
+		pClassInfo->m_aInvisibleImprovementChanges.pop_back();
+	}
+	iSizeOrig = (int)m_aVisibleTerrainChanges.size();
+	m_aVisibleTerrainChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleTerrainChanges.size());
+	while (m_aVisibleTerrainChanges.size())
+	{
+		bool bExists = false;
+		InvisibleTerrainChanges& Val = pClassInfo->m_aVisibleTerrainChanges.back();
+		for (std::vector<InvisibleTerrainChanges>::iterator it = m_aVisibleTerrainChanges.begin(); it - m_aVisibleTerrainChanges.begin() < iSizeOrig; it++)
+		{
+			if (Val.eInvisible == it->eInvisible && Val.eTerrain == it->eTerrain)
+			{
+				bExists = true;
+				break;
+			}
+		}
+		if (!bExists)
+		{
+			m_aVisibleTerrainChanges.push_back(Val);
+		}
+		pClassInfo->m_aVisibleTerrainChanges.pop_back();
+	}
+	iSizeOrig = (int)m_aVisibleFeatureChanges.size();
+	m_aVisibleFeatureChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleFeatureChanges.size());
+	while (m_aVisibleFeatureChanges.size())
+	{
+		bool bExists = false;
+		InvisibleFeatureChanges& Val = pClassInfo->m_aVisibleFeatureChanges.back();
+		for (std::vector<InvisibleFeatureChanges>::iterator it = m_aVisibleFeatureChanges.begin(); it - m_aVisibleFeatureChanges.begin() < iSizeOrig; it++)
+		{
+			if (Val.eInvisible == it->eInvisible && Val.eFeature == it->eFeature)
+			{
+				bExists = true;
+				break;
+			}
+		}
+		if (!bExists)
+		{
+			m_aVisibleFeatureChanges.push_back(Val);
+		}
+		pClassInfo->m_aVisibleFeatureChanges.pop_back();
+	}
+	iSizeOrig = (int)m_aVisibleImprovementChanges.size();
+	m_aVisibleImprovementChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleImprovementChanges.size());
+	while (m_aVisibleImprovementChanges.size())
+	{
+		bool bExists = false;
+		InvisibleImprovementChanges& Val = pClassInfo->m_aVisibleImprovementChanges.back();
+		for (std::vector<InvisibleImprovementChanges>::iterator it = m_aVisibleImprovementChanges.begin(); it - m_aVisibleImprovementChanges.begin() < iSizeOrig; it++)
+		{
+			if (Val.eInvisible == it->eInvisible && Val.eImprovement == it->eImprovement)
+			{
+				bExists = true;
+				break;
+			}
+		}
+		if (!bExists)
+		{
+			m_aVisibleImprovementChanges.push_back(Val);
+		}
+		pClassInfo->m_aInvisibleImprovementChanges.pop_back();
+	}
+	iSizeOrig = (int)m_aVisibleTerrainRangeChanges.size();
+	m_aVisibleTerrainRangeChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleTerrainRangeChanges.size());
+	while (m_aVisibleTerrainRangeChanges.size())
+	{
+		bool bExists = false;
+		InvisibleTerrainChanges& Val = pClassInfo->m_aVisibleTerrainRangeChanges.back();
+		for (std::vector<InvisibleTerrainChanges>::iterator it = m_aVisibleTerrainRangeChanges.begin(); it - m_aVisibleTerrainRangeChanges.begin() < iSizeOrig; it++)
+		{
+			if (Val.eInvisible == it->eInvisible && Val.eTerrain == it->eTerrain)
+			{
+				bExists = true;
+				break;
+			}
+		}
+		if (!bExists)
+		{
+			m_aVisibleTerrainRangeChanges.push_back(Val);
+		}
+		pClassInfo->m_aVisibleTerrainRangeChanges.pop_back();
+	}
+	iSizeOrig = (int)m_aVisibleFeatureRangeChanges.size();
+	m_aVisibleFeatureRangeChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleFeatureRangeChanges.size());
+	while (m_aVisibleFeatureRangeChanges.size())
+	{
+		bool bExists = false;
+		InvisibleFeatureChanges& Val = pClassInfo->m_aVisibleFeatureRangeChanges.back();
+		for (std::vector<InvisibleFeatureChanges>::iterator it = m_aVisibleFeatureRangeChanges.begin(); it - m_aVisibleFeatureRangeChanges.begin() < iSizeOrig; it++)
+		{
+			if (Val.eInvisible == it->eInvisible && Val.eFeature == it->eFeature)
+			{
+				bExists = true;
+				break;
+			}
+		}
+		if (!bExists)
+		{
+			m_aVisibleFeatureRangeChanges.push_back(Val);
+		}
+		pClassInfo->m_aVisibleFeatureRangeChanges.pop_back();
+	}
+	iSizeOrig = (int)m_aVisibleImprovementRangeChanges.size();
+	m_aVisibleImprovementRangeChanges.reserve(iSizeOrig + (int)pClassInfo->m_aVisibleImprovementRangeChanges.size());
+	while (m_aVisibleImprovementRangeChanges.size())
+	{
+		bool bExists = false;
+		InvisibleImprovementChanges& Val = pClassInfo->m_aVisibleImprovementRangeChanges.back();
+		for (std::vector<InvisibleImprovementChanges>::iterator it = m_aVisibleImprovementRangeChanges.begin(); it - m_aVisibleImprovementRangeChanges.begin() < iSizeOrig; it++)
+		{
+			if (Val.eInvisible == it->eInvisible && Val.eImprovement == it->eImprovement)
+			{
+				bExists = true;
+				break;
+			}
+		}
+		if (!bExists)
+		{
+			m_aVisibleImprovementRangeChanges.push_back(Val);
+		}
+		pClassInfo->m_aVisibleImprovementRangeChanges.pop_back();
 	}
 
-	if (getNumAfflictOnAttackTypes() == 0)
-	{
-		int iNum = pClassInfo->getNumAfflictOnAttackTypes();
-		m_aAfflictOnAttackTypes.resize(iNum);
-		for (int i=0; i<iNum; i++)
-		{
-			m_aAfflictOnAttackTypes[i].iProbability = pClassInfo->m_aAfflictOnAttackTypes[i].iProbability; 
-			m_aAfflictOnAttackTypes[i].iMelee = pClassInfo->m_aAfflictOnAttackTypes[i].iMelee;
-			m_aAfflictOnAttackTypes[i].iDistance = pClassInfo->m_aAfflictOnAttackTypes[i].iDistance;
-			m_aAfflictOnAttackTypes[i].iImmediate = pClassInfo->m_aAfflictOnAttackTypes[i].iImmediate;
-			GC.copyNonDefaultDelayedResolution((int*)&(m_aAfflictOnAttackTypes[i].eAfflictionLine), (int*)&(pClassInfo->m_aAfflictOnAttackTypes[i].eAfflictionLine));
-		}
-	}
+	CvXMLLoadUtility::CopyNonDefaultsFromPairVector(m_aDistanceAttackCommunicabilityTypeChanges, pClassInfo->m_aDistanceAttackCommunicabilityTypeChanges);
 
-	if (getNumHealUnitCombatTypes() == 0)
-	{
-		int iNum = pClassInfo->getNumHealUnitCombatTypes();
-		m_aHealUnitCombatTypes.resize(iNum);
-		for (int i=0; i<iNum; i++)
-		{
-			m_aHealUnitCombatTypes[i].iHeal = pClassInfo->m_aHealUnitCombatTypes[i].iHeal;
-			GC.copyNonDefaultDelayedResolution((int*)&(m_aHealUnitCombatTypes[i].eUnitCombat), (int*)&(pClassInfo->m_aHealUnitCombatTypes[i].eUnitCombat));
-		}
-	}
-
-	if (getNumGroupSpawnUnitCombatTypes() == 0)
-	{
-		int iNum = pClassInfo->getNumGroupSpawnUnitCombatTypes();
-		m_aGroupSpawnUnitCombatTypes.resize(iNum);
-		for (int i=0; i<iNum; i++)
-		{
-			m_aGroupSpawnUnitCombatTypes[i].iChance = pClassInfo->m_aGroupSpawnUnitCombatTypes[i].iChance;
-			m_aGroupSpawnUnitCombatTypes[i].m_szTitle = pClassInfo->m_aGroupSpawnUnitCombatTypes[i].m_szTitle;
-			GC.copyNonDefaultDelayedResolution((int*)&(m_aGroupSpawnUnitCombatTypes[i].eUnitCombat), (int*)&(pClassInfo->m_aGroupSpawnUnitCombatTypes[i].eUnitCombat));
-		}
-	}
-
-	if (getNumInvisibleTerrainChanges() == 0)
-	{
-		int iNum = pClassInfo->getNumInvisibleTerrainChanges();
-		m_aInvisibleTerrainChanges.resize(iNum);
-		for (int i=0; i<iNum; i++)
-		{
-			m_aInvisibleTerrainChanges[i].iIntensity = pClassInfo->m_aInvisibleTerrainChanges[i].iIntensity;
-			m_aInvisibleTerrainChanges[i].eTerrain = pClassInfo->m_aInvisibleTerrainChanges[i].eTerrain;
-			GC.copyNonDefaultDelayedResolution((int*)&(m_aInvisibleTerrainChanges[i].eInvisible), (int*)&(pClassInfo->m_aInvisibleTerrainChanges[i].eInvisible));
-		}
-	}
-
-	if (getNumInvisibleFeatureChanges() == 0)
-	{
-		int iNum = pClassInfo->getNumInvisibleFeatureChanges();
-		m_aInvisibleFeatureChanges.resize(iNum);
-		for (int i=0; i<iNum; i++)
-		{
-			m_aInvisibleFeatureChanges[i].iIntensity = pClassInfo->m_aInvisibleFeatureChanges[i].iIntensity;
-			m_aInvisibleFeatureChanges[i].eFeature = pClassInfo->m_aInvisibleFeatureChanges[i].eFeature;
-			GC.copyNonDefaultDelayedResolution((int*)&(m_aInvisibleFeatureChanges[i].eInvisible), (int*)&(pClassInfo->m_aInvisibleFeatureChanges[i].eInvisible));
-		}
-	}
-
-	if (getNumInvisibleImprovementChanges() == 0)
-	{
-		int iNum = pClassInfo->getNumInvisibleImprovementChanges();
-		m_aInvisibleImprovementChanges.resize(iNum);
-		for (int i=0; i<iNum; i++)
-		{
-			m_aInvisibleImprovementChanges[i].iIntensity = pClassInfo->m_aInvisibleImprovementChanges[i].iIntensity;
-			m_aInvisibleImprovementChanges[i].eImprovement = pClassInfo->m_aInvisibleImprovementChanges[i].eImprovement;
-			GC.copyNonDefaultDelayedResolution((int*)&(m_aInvisibleImprovementChanges[i].eInvisible), (int*)&(pClassInfo->m_aInvisibleImprovementChanges[i].eInvisible));
-		}
-	}
-
-	if (getNumVisibleTerrainChanges() == 0)
-	{
-		int iNum = pClassInfo->getNumVisibleTerrainChanges();
-		m_aVisibleTerrainChanges.resize(iNum);
-		for (int i=0; i<iNum; i++)
-		{
-			m_aVisibleTerrainChanges[i].iIntensity = pClassInfo->m_aVisibleTerrainChanges[i].iIntensity;
-			m_aVisibleTerrainChanges[i].eTerrain = pClassInfo->m_aVisibleTerrainChanges[i].eTerrain;
-			GC.copyNonDefaultDelayedResolution((int*)&(m_aVisibleTerrainChanges[i].eInvisible), (int*)&(pClassInfo->m_aVisibleTerrainChanges[i].eInvisible));
-		}
-	}
-
-	if (getNumVisibleFeatureChanges() == 0)
-	{
-		int iNum = pClassInfo->getNumVisibleFeatureChanges();
-		m_aVisibleFeatureChanges.resize(iNum);
-		for (int i=0; i<iNum; i++)
-		{
-			m_aVisibleFeatureChanges[i].iIntensity = pClassInfo->m_aVisibleFeatureChanges[i].iIntensity;
-			m_aVisibleFeatureChanges[i].eFeature = pClassInfo->m_aVisibleFeatureChanges[i].eFeature;
-			GC.copyNonDefaultDelayedResolution((int*)&(m_aVisibleFeatureChanges[i].eInvisible), (int*)&(pClassInfo->m_aVisibleFeatureChanges[i].eInvisible));
-		}
-	}
-
-	if (getNumVisibleImprovementChanges() == 0)
-	{
-		int iNum = pClassInfo->getNumVisibleImprovementChanges();
-		m_aVisibleImprovementChanges.resize(iNum);
-		for (int i=0; i<iNum; i++)
-		{
-			m_aVisibleImprovementChanges[i].iIntensity = pClassInfo->m_aVisibleImprovementChanges[i].iIntensity;
-			m_aVisibleImprovementChanges[i].eImprovement = pClassInfo->m_aVisibleImprovementChanges[i].eImprovement;
-			GC.copyNonDefaultDelayedResolution((int*)&(m_aVisibleImprovementChanges[i].eInvisible), (int*)&(pClassInfo->m_aVisibleImprovementChanges[i].eInvisible));
-		}
-	}
-
-	if (getNumVisibleTerrainRangeChanges() == 0)
-	{
-		int iNum = pClassInfo->getNumVisibleTerrainRangeChanges();
-		m_aVisibleTerrainRangeChanges.resize(iNum);
-		for (int i=0; i<iNum; i++)
-		{
-			m_aVisibleTerrainRangeChanges[i].iIntensity = pClassInfo->m_aVisibleTerrainRangeChanges[i].iIntensity;
-			m_aVisibleTerrainRangeChanges[i].eTerrain = pClassInfo->m_aVisibleTerrainRangeChanges[i].eTerrain;
-			GC.copyNonDefaultDelayedResolution((int*)&(m_aVisibleTerrainRangeChanges[i].eInvisible), (int*)&(pClassInfo->m_aVisibleTerrainRangeChanges[i].eInvisible));
-		}
-	}
-
-	if (getNumVisibleFeatureRangeChanges() == 0)
-	{
-		int iNum = pClassInfo->getNumVisibleFeatureRangeChanges();
-		m_aVisibleFeatureRangeChanges.resize(iNum);
-		for (int i=0; i<iNum; i++)
-		{
-			m_aVisibleFeatureRangeChanges[i].iIntensity = pClassInfo->m_aVisibleFeatureRangeChanges[i].iIntensity;
-			m_aVisibleFeatureRangeChanges[i].eFeature = pClassInfo->m_aVisibleFeatureRangeChanges[i].eFeature;
-			GC.copyNonDefaultDelayedResolution((int*)&(m_aVisibleFeatureRangeChanges[i].eInvisible), (int*)&(pClassInfo->m_aVisibleFeatureRangeChanges[i].eInvisible));
-		}
-	}
-
-	if (getNumVisibleImprovementRangeChanges() == 0)
-	{
-		int iNum = pClassInfo->getNumVisibleImprovementRangeChanges();
-		m_aVisibleImprovementRangeChanges.resize(iNum);
-		for (int i=0; i<iNum; i++)
-		{
-			m_aVisibleImprovementRangeChanges[i].iIntensity = pClassInfo->m_aVisibleImprovementRangeChanges[i].iIntensity;
-			m_aVisibleImprovementRangeChanges[i].eImprovement = pClassInfo->m_aVisibleImprovementRangeChanges[i].eImprovement;
-			GC.copyNonDefaultDelayedResolution((int*)&(m_aVisibleImprovementRangeChanges[i].eInvisible), (int*)&(pClassInfo->m_aVisibleImprovementRangeChanges[i].eInvisible));
-		}
-	}
-
-	if (getNumDistanceAttackCommunicabilityTypeChanges() == 0)
-	{
-		int iNum = pClassInfo->getNumDistanceAttackCommunicabilityTypeChanges();
-		m_aDistanceAttackCommunicabilityTypeChanges.resize(iNum);
-		for (int i=0; i<iNum; i++)
-		{
-			m_aDistanceAttackCommunicabilityTypeChanges[i].iChange = pClassInfo->m_aDistanceAttackCommunicabilityTypeChanges[i].iChange;
-			GC.copyNonDefaultDelayedResolution((int*)&(m_aDistanceAttackCommunicabilityTypeChanges[i].eAfflictionLine), (int*)&(pClassInfo->m_aDistanceAttackCommunicabilityTypeChanges[i].eAfflictionLine));
-		}
-	}
-
-	if (getNumEnabledCivilizationTypes() == 0)
-	{
-		int iNum = pClassInfo->getNumEnabledCivilizationTypes();
-		m_aEnabledCivilizationTypes.resize(iNum);
-		for (int i=0; i<iNum; i++)
-		{
-			GC.copyNonDefaultDelayedResolution((int*)&(m_aEnabledCivilizationTypes[i].eCivilization), (int*)&(pClassInfo->m_aEnabledCivilizationTypes[i].eCivilization));
-		}
-	}
+	GC.copyNonDefaultDelayedResolutionVector(m_aEnabledCivilizationTypes, pClassInfo->m_aEnabledCivilizationTypes);
 	// int vectors utilizing pairing without delayed resolution
 	if (getNumWithdrawOnTerrainTypes()==0)
 	{

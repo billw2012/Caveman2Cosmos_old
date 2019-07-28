@@ -11,17 +11,17 @@
 
 CvPropertyManipulators::~CvPropertyManipulators()
 {
-	for (int i=0; i<(int)m_apSources.size(); i++)
+	for (std::vector<CvPropertySource*>::iterator it = m_apSources.begin(); it != m_apSources.end(); it++)
 	{
-		delete m_apSources[i];
+		SAFE_DELETE(*it);
 	}
-	for (int i=0; i<(int)m_apInteractions.size(); i++)
+	for (std::vector<CvPropertyInteraction*>::iterator it = m_apInteractions.begin(); it != m_apInteractions.end(); it++)
 	{
-		delete m_apInteractions[i];
+		SAFE_DELETE(*it);
 	}
-	for (int i=0; i<(int)m_apPropagators.size(); i++)
+	for (std::vector<CvPropertyPropagator*>::iterator it = m_apPropagators.begin(); it != m_apPropagators.end(); it++)
 	{
-		delete m_apPropagators[i];
+		SAFE_DELETE(*it);
 	}
 }
 
@@ -30,35 +30,35 @@ int CvPropertyManipulators::getNumSources() const
 	return (int) m_apSources.size();
 }
 
-CvPropertySource* CvPropertyManipulators::getSource(int index)
+const CvPropertySource *const CvPropertyManipulators::getSource(int index) const
 {
 	FAssert(0 <= index);
 	FAssert(index < (int)m_apSources.size());
-	return m_apSources[index];
+	return m_apSources.at(index);
 }
 
-int CvPropertyManipulators::addSource(PropertySourceTypes eType)
+bool CvPropertyManipulators::addSource(PropertySourceTypes eType)
 {
 	switch (eType)
 	{
 		case PROPERTYSOURCE_CONSTANT:
 			m_apSources.push_back(new CvPropertySourceConstant());
-			return (int)m_apSources.size()-1;
-			break;
+			return true;
+			
 		case PROPERTYSOURCE_CONSTANT_LIMITED:
 			m_apSources.push_back(new CvPropertySourceConstantLimited());
-			return (int)m_apSources.size()-1;
-			break;
+			return true;
+			
 		case PROPERTYSOURCE_DECAY:
 			m_apSources.push_back(new CvPropertySourceDecay());
-			return (int)m_apSources.size()-1;
-			break;
+			return true;
+			
 		case PROPERTYSOURCE_ATTRIBUTE_CONSTANT:
 			m_apSources.push_back(new CvPropertySourceAttributeConstant());
-			return (int)m_apSources.size()-1;
-			break;
+			return true;
+			
 	}
-	return -1;
+	return false;
 }
 
 int CvPropertyManipulators::getNumInteractions() const
@@ -66,33 +66,30 @@ int CvPropertyManipulators::getNumInteractions() const
 	return (int) m_apInteractions.size();
 }
 
-CvPropertyInteraction* CvPropertyManipulators::getInteraction(int index)
+const CvPropertyInteraction *const CvPropertyManipulators::getInteraction(int index) const
 {
 	FAssert(0 <= index);
 	FAssert(index < (int)m_apInteractions.size());
-	return m_apInteractions[index];
+	return m_apInteractions.at(index);
 }
 
-int CvPropertyManipulators::addInteraction(PropertyInteractionTypes eType)
+bool CvPropertyManipulators::addInteraction(PropertyInteractionTypes eType)
 {
 	switch (eType)
 	{
 		case PROPERTYINTERACTION_CONVERT_CONSTANT:
 			m_apInteractions.push_back(new CvPropertyInteractionConvertConstant());
-			return (int)m_apInteractions.size()-1;
-			break;
+			return true;
 
 		case PROPERTYINTERACTION_INHIBITED_GROWTH:
 			m_apInteractions.push_back(new CvPropertyInteractionInhibitedGrowth());
-			return (int)m_apInteractions.size()-1;
-			break;
+			return true;
 
 		case PROPERTYINTERACTION_CONVERT_PERCENT:
 			m_apInteractions.push_back(new CvPropertyInteractionConvertPercent());
-			return (int)m_apInteractions.size()-1;
-			break;
+			return true;
 	}
-	return -1;
+	return false;
 }
 
 int CvPropertyManipulators::getNumPropagators() const
@@ -100,54 +97,51 @@ int CvPropertyManipulators::getNumPropagators() const
 	return (int) m_apPropagators.size();
 }
 
-CvPropertyPropagator* CvPropertyManipulators::getPropagator(int index)
+const CvPropertyPropagator *const CvPropertyManipulators::getPropagator(int index) const
 {
 	FAssert(0 <= index);
 	FAssert(index < (int)m_apPropagators.size());
-	return m_apPropagators[index];
+	return m_apPropagators.at(index);
 }
 
-int CvPropertyManipulators::addPropagator(PropertyPropagatorTypes eType)
+bool CvPropertyManipulators::addPropagator(PropertyPropagatorTypes eType)
 {
 	switch (eType)
 	{
 		case PROPERTYPROPAGATOR_SPREAD:
 			m_apPropagators.push_back(new CvPropertyPropagatorSpread());
-			return (int)m_apPropagators.size()-1;
-			break;
+			return true;
 
 		case PROPERTYPROPAGATOR_GATHER:
 			m_apPropagators.push_back(new CvPropertyPropagatorGather());
-			return (int)m_apPropagators.size()-1;
-			break;
+			return true;
 
 		case PROPERTYPROPAGATOR_DIFFUSE:
 			m_apPropagators.push_back(new CvPropertyPropagatorDiffuse());
-			return (int)m_apPropagators.size()-1;
-			break;
+			return true;
 	}
-	return -1;
+	return false;
 }
 
 void CvPropertyManipulators::buildDisplayString(CvWStringBuffer &szBuffer) const
 {
-	for (int i=0; i<(int)m_apSources.size(); i++)
+	for (std::vector<CvPropertySource*>::const_iterator it = m_apSources.begin(); it != m_apSources.end(); it++)
 	{
 		szBuffer.append(NEWLINE);
 		szBuffer.append(gDLL->getSymbolID(BULLET_CHAR));
-		m_apSources[i]->buildDisplayString(szBuffer);
+		(*it)->buildDisplayString(szBuffer);
 	}
-	for (int i=0; i<(int)m_apInteractions.size(); i++)
+	for (std::vector<CvPropertyInteraction*>::const_iterator it = m_apInteractions.begin(); it != m_apInteractions.end(); it++)
 	{
 		szBuffer.append(NEWLINE);
 		szBuffer.append(gDLL->getSymbolID(BULLET_CHAR));
-		m_apInteractions[i]->buildDisplayString(szBuffer);
+		(*it)->buildDisplayString(szBuffer);
 	}
-	for (int i=0; i<(int)m_apPropagators.size(); i++)
+	for (std::vector<CvPropertyPropagator*>::const_iterator it = m_apPropagators.begin(); it != m_apPropagators.end(); it++)
 	{
 		szBuffer.append(NEWLINE);
 		szBuffer.append(gDLL->getSymbolID(BULLET_CHAR));
-		m_apPropagators[i]->buildDisplayString(szBuffer);
+		(*it)->buildDisplayString(szBuffer);
 	}
 }
 
@@ -163,11 +157,9 @@ bool CvPropertyManipulators::read(CvXMLLoadUtility *pXML, const wchar_t* szTagNa
 				{
 					CvString szTextVal;
 					pXML->GetChildXmlValByName(szTextVal, L"PropertySourceType");
-					int iType = pXML->GetInfoClass(szTextVal);
-					int iPos = addSource((PropertySourceTypes)iType);
-					if (iPos != -1)
+					if (addSource((PropertySourceTypes)pXML->GetInfoClass(szTextVal)))
 					{
-						m_apSources[iPos]->read(pXML);
+						m_apSources.back()->read(pXML);
 					}
 				} while(pXML->TryMoveToXmlNextSibling(L"PropertySource"));
 			}
@@ -177,10 +169,10 @@ bool CvPropertyManipulators::read(CvXMLLoadUtility *pXML, const wchar_t* szTagNa
 				{
 					CvString szTextVal;
 					pXML->GetChildXmlValByName(szTextVal, L"PropertyInteractionType");
-					int iType = pXML->GetInfoClass(szTextVal);
-					int iPos = addInteraction((PropertyInteractionTypes)iType);
-					if (iPos != -1)
-						m_apInteractions[iPos]->read(pXML);
+					if(addInteraction((PropertyInteractionTypes)pXML->GetInfoClass(szTextVal)))
+					{
+						m_apInteractions.back()->read(pXML);
+					}
 				} while(pXML->TryMoveToXmlNextSibling(L"PropertyInteraction"));
 			}
 			if (pXML->TryMoveToXmlFirstOfSiblings(L"PropertyPropagator"))
@@ -189,10 +181,10 @@ bool CvPropertyManipulators::read(CvXMLLoadUtility *pXML, const wchar_t* szTagNa
 				{
 					CvString szTextVal;
 					pXML->GetChildXmlValByName(szTextVal, L"PropertyPropagatorType");
-					int iType = pXML->GetInfoClass(szTextVal);
-					int iPos = addPropagator((PropertyPropagatorTypes)iType);
-					if (iPos != -1)
-						m_apPropagators[iPos]->read(pXML);
+					if (addPropagator((PropertyPropagatorTypes)pXML->GetInfoClass(szTextVal)))
+					{
+						m_apPropagators.back()->read(pXML);
+					}
 				} while(pXML->TryMoveToXmlNextSibling(L"PropertyPropagator"));
 			}
 			pXML->MoveToXmlParent();
@@ -205,53 +197,86 @@ bool CvPropertyManipulators::read(CvXMLLoadUtility *pXML, const wchar_t* szTagNa
 
 void CvPropertyManipulators::copyNonDefaults(CvPropertyManipulators *pProp, CvXMLLoadUtility *pXML)
 {
-	//if (m_apSources.empty())
+	int iSizeOrig = getNumSources();
+	m_apSources.reserve(iSizeOrig + pProp->getNumSources());
+	while (pProp->getNumSources())
 	{
-		int iNum = pProp->getNumSources();
-		for (int i=0; i<iNum; i++)
+		bool bExists = false;
+		CvPropertySource* pSource = pProp->m_apSources.back();
+		for (std::vector<CvPropertySource*>::iterator it = m_apSources.begin();
+				it - m_apSources.begin() < iSizeOrig; it++)
 		{
-			CvPropertySource* pSource = pProp->getSource(i);
-			int iPos = addSource(pSource->getType());
-			if (iPos != -1)
-				m_apSources[iPos]->copyNonDefaults(pSource, pXML);
+			if ((*it)->getProperty() == pSource->getProperty())
+			{
+				bExists = true;
+				break;
+			}
 		}
+		if (!bExists)
+		{
+			m_apSources.push_back(pSource);
+		}
+		pProp->m_apSources.pop_back();
 	}
-	//if (m_apInteractions.empty())
+	
+	iSizeOrig = getNumInteractions();
+	m_apInteractions.reserve(iSizeOrig + pProp->getNumInteractions());
+	while (pProp->getNumInteractions())
 	{
-		int iNum = pProp->getNumInteractions();
-		for (int i=0; i<iNum; i++)
+		bool bExists = false;
+		CvPropertyInteraction* pInteraction = pProp->m_apInteractions.back();
+		for (std::vector<CvPropertyInteraction*>::iterator it = m_apInteractions.begin();
+				it - m_apInteractions.begin() < iSizeOrig; it++)
 		{
-			CvPropertyInteraction* pInteraction = pProp->getInteraction(i);
-			int iPos = addInteraction(pInteraction->getType());
-			if (iPos != -1)
-				m_apInteractions[iPos]->copyNonDefaults(pInteraction, pXML);
+			if ((*it)->getSourceProperty() == pInteraction->getSourceProperty() &&
+				(*it)->getTargetProperty() == pInteraction->getTargetProperty())
+			{
+				bExists = true;
+				break;
+			}
 		}
+		if (!bExists)
+		{
+			m_apInteractions.push_back(pInteraction);
+		}
+		pProp->m_apInteractions.pop_back();
 	}
-	//if (m_apPropagators.empty())
+	
+	iSizeOrig = getNumPropagators();
+	m_apPropagators.reserve(iSizeOrig + pProp->getNumPropagators());
+	while (pProp->getNumPropagators())
 	{
-		int iNum = pProp->getNumPropagators();
-		for (int i=0; i<iNum; i++)
+		bool bExists = false;
+		CvPropertyPropagator* pPropagator = pProp->m_apPropagators.back();
+		for (std::vector<CvPropertyPropagator*>::iterator it = m_apPropagators.begin();
+				it - m_apPropagators.begin() < iSizeOrig; it++)
 		{
-			CvPropertyPropagator* pPropagator = pProp->getPropagator(i);
-			int iPos = addPropagator(pPropagator->getType());
-			if (iPos != -1)
-				m_apPropagators[iPos]->copyNonDefaults(pPropagator, pXML);
+			if ((*it)->getProperty() == pPropagator->getProperty())
+			{
+				bExists = true;
+				break;
+			}
 		}
+		if (!bExists)
+		{
+			m_apPropagators.push_back(pPropagator);
+		}
+		pProp->m_apPropagators.pop_back();
 	}
 }
 
-void CvPropertyManipulators::getCheckSum(unsigned int &iSum)
+void CvPropertyManipulators::getCheckSum(unsigned int &iSum) const
 {
-	for(int i=0;i<(int)m_apSources.size();i++)
+	for (std::vector<CvPropertySource*>::const_iterator it = m_apSources.begin(); it != m_apSources.end(); it++)
 	{
-		m_apSources[i]->getCheckSum(iSum);
+		(*it)->getCheckSum(iSum);
 	}
-	for(int i=0;i<(int)m_apInteractions.size();i++)
+	for (std::vector<CvPropertyInteraction*>::const_iterator it = m_apInteractions.begin(); it != m_apInteractions.end(); it++)
 	{
-		m_apInteractions[i]->getCheckSum(iSum);
+		(*it)->getCheckSum(iSum);
 	}
-	for(int i=0;i<(int)m_apPropagators.size();i++)
+	for (std::vector<CvPropertyPropagator*>::const_iterator it = m_apPropagators.begin(); it != m_apPropagators.end(); it++)
 	{
-		m_apPropagators[i]->getCheckSum(iSum);
+		(*it)->getCheckSum(iSum);
 	}
 }

@@ -37,34 +37,34 @@ public:
 	virtual GameObjectTypes getGameObjectType() const = 0;
 	virtual CvProperties* getProperties() const = 0;
 	virtual const CvProperties* getPropertiesConst() const = 0;
-	virtual void foreach(GameObjectTypes eType, boost::function<void (CvGameObject*)> func) = 0;
-	virtual void foreachOn(GameObjectTypes eType, boost::function<void (CvGameObject*)> func);
-	virtual void foreachNear(GameObjectTypes eType, boost::function<void (CvGameObject*)> func, int iDistance);
-	virtual void foreachRelated(GameObjectTypes eType, RelationTypes eRelation, boost::function<void (CvGameObject*)> func, int iData = 0);
-	virtual void foreachRelatedCond(GameObjectTypes eType, RelationTypes eRelation, boost::function<void (CvGameObject*)> func, BoolExpr* pExpr = NULL, int iData = 0);
-	virtual void enumerate(std::vector<CvGameObject*>& kEnum, GameObjectTypes eType);
-	virtual void enumerateOn(std::vector<CvGameObject*>& kEnum, GameObjectTypes eType);
-	virtual void enumerateNear(std::vector<CvGameObject*>& kEnum, GameObjectTypes eType, int iDistance);
-	virtual void enumerateRelated(std::vector<CvGameObject*>& kEnum, GameObjectTypes eType, RelationTypes eRelation, int iData = 0);
-	virtual void enumerateRelatedCond(std::vector<CvGameObject*>& kEnum, GameObjectTypes eType, RelationTypes eRelation, BoolExpr* pExpr = NULL, int iData = 0);
+	virtual void foreach(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func) const = 0;
+	virtual void foreachOn(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func) const;
+	virtual void foreachNear(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func, int iDistance) const;
+	virtual void foreachRelated(GameObjectTypes eType, RelationTypes eRelation, boost::function<void (const CvGameObject*)> func, int iData = 0) const;
+	virtual void foreachRelatedCond(GameObjectTypes eType, RelationTypes eRelation, boost::function<void (const CvGameObject*)> func, BoolExpr* pExpr = NULL, int iData = 0) const;
+	virtual void enumerate(std::vector<const CvGameObject*>& kEnum, GameObjectTypes eType) const;
+	virtual void enumerateOn(std::vector<const CvGameObject*>& kEnum, GameObjectTypes eType) const;
+	virtual void enumerateNear(std::vector<const CvGameObject*>& kEnum, GameObjectTypes eType, int iDistance) const;
+	virtual void enumerateRelated(std::vector<const CvGameObject*>& kEnum, GameObjectTypes eType, RelationTypes eRelation, int iData = 0) const;
+	virtual void enumerateRelatedCond(std::vector<const CvGameObject*>& kEnum, GameObjectTypes eType, RelationTypes eRelation, BoolExpr* pExpr = NULL, int iData = 0) const;
 
-	virtual void foreachManipulator(boost::function<void (CvGameObject*, CvPropertyManipulators*)> func) = 0;
+	virtual void foreachManipulator(boost::function<void (const CvGameObject*, CvPropertyManipulators*)> func) const = 0;
 
 	virtual void eventPropertyChanged(PropertyTypes eProperty, int iNewValue);
 
 	virtual bool isTag(TagTypes eTag) const;
 	virtual int getAttribute(AttributeTypes eAttribute) const;
-	virtual bool hasGOM(GOMTypes eType, int iID) = 0;
+	virtual bool hasGOM(GOMTypes eType, int iID) const = 0;
 
-	virtual CvGameObjectPlayer* getOwner() = 0;
-	virtual CvGameObjectPlot* getPlot() = 0;
-	virtual CvGameObjectTeam* getTeam() = 0;
+	virtual const CvGameObjectPlayer *const getOwner() const = 0;
+	virtual const CvGameObjectPlot *const getPlot() const = 0;
+	virtual const CvGameObjectTeam *const getTeam() const = 0;
 
-	virtual int getResponsibleThread() = 0;
-	virtual void foreachThreaded(GameObjectTypes eType, boost::function<void (CvGameObject*)> func, int iThread) = 0;
+	virtual int getResponsibleThread() const = 0;
+	virtual void foreachThreaded(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func, int iThread) const = 0;
 
-	virtual void* addPythonArgument(CyArgsList* argsList) = 0;
-	virtual void disposePythonArgument(void* pArgument) = 0;
+	virtual void* addPythonArgument(CyArgsList* argsList) const = 0;
+	virtual void disposePythonArgument(void* pArgument) const = 0;
 
 	virtual int adaptValueToGame(int iID, int iValue) const;
 };
@@ -76,22 +76,22 @@ public:
 	virtual GameObjectTypes getGameObjectType() const;
 	virtual CvProperties* getProperties() const;
 	virtual const CvProperties* getPropertiesConst() const;
-	virtual void foreach(GameObjectTypes eType, boost::function<void (CvGameObject*)> func);
+	virtual void foreach(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func) const;
 
-	virtual void foreachManipulator(boost::function<void (CvGameObject*, CvPropertyManipulators*)> func);
+	virtual void foreachManipulator(boost::function<void (const CvGameObject*, CvPropertyManipulators*)> func) const;
 
 	virtual int getAttribute(AttributeTypes eAttribute) const;
-	virtual bool hasGOM(GOMTypes eType, int iID);
+	virtual bool hasGOM(GOMTypes eType, int iID) const;
 
-	virtual CvGameObjectPlayer* getOwner();
-	virtual CvGameObjectPlot* getPlot();
-	virtual CvGameObjectTeam* getTeam();
+	virtual const CvGameObjectPlayer *const getOwner() const;
+	virtual const CvGameObjectPlot *const getPlot() const;
+	virtual const CvGameObjectTeam *const getTeam() const;
 
-	virtual int getResponsibleThread();
-	virtual void foreachThreaded(GameObjectTypes eType, boost::function<void (CvGameObject*)> func, int iThread);
+	virtual int getResponsibleThread() const;
+	virtual void foreachThreaded(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func, int iThread) const;
 
-	virtual void* addPythonArgument(CyArgsList* argsList);
-	virtual void disposePythonArgument(void* pArgument);
+	virtual void* addPythonArgument(CyArgsList* argsList) const;
+	virtual void disposePythonArgument(void* pArgument) const;
 };
 
 class CvGameObjectTeam : public CvGameObject
@@ -101,21 +101,21 @@ public:
 	virtual GameObjectTypes getGameObjectType() const;
 	virtual CvProperties* getProperties() const;
 	virtual const CvProperties* getPropertiesConst() const;
-	virtual void foreach(GameObjectTypes eType, boost::function<void (CvGameObject*)> func);
+	virtual void foreach(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func) const;
 
-	virtual void foreachManipulator(boost::function<void (CvGameObject*, CvPropertyManipulators*)> func);
+	virtual void foreachManipulator(boost::function<void (const CvGameObject*, CvPropertyManipulators*)> func) const;
 
-	virtual bool hasGOM(GOMTypes eType, int iID);
+	virtual bool hasGOM(GOMTypes eType, int iID) const;
 	
-	virtual CvGameObjectPlayer* getOwner();
-	virtual CvGameObjectPlot* getPlot();
-	virtual CvGameObjectTeam* getTeam();
+	virtual const CvGameObjectPlayer *const getOwner() const;
+	virtual const CvGameObjectPlot *const getPlot() const;
+	virtual const CvGameObjectTeam *const getTeam() const;
 
-	virtual int getResponsibleThread();
-	virtual void foreachThreaded(GameObjectTypes eType, boost::function<void (CvGameObject*)> func, int iThread);
+	virtual int getResponsibleThread() const;
+	virtual void foreachThreaded(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func, int iThread) const;
 
-	virtual void* addPythonArgument(CyArgsList* argsList);
-	virtual void disposePythonArgument(void* pArgument);
+	virtual void* addPythonArgument(CyArgsList* argsList) const;
+	virtual void disposePythonArgument(void* pArgument) const;
 
 protected:
 	CvTeam* m_pTeam;
@@ -128,22 +128,22 @@ public:
 	virtual GameObjectTypes getGameObjectType() const;
 	virtual CvProperties* getProperties() const;
 	virtual const CvProperties* getPropertiesConst() const;
-	virtual void foreach(GameObjectTypes eType, boost::function<void (CvGameObject*)> func);
+	virtual void foreach(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func) const;
 
-	virtual void foreachManipulator(boost::function<void (CvGameObject*, CvPropertyManipulators*)> func);
+	virtual void foreachManipulator(boost::function<void (const CvGameObject*, CvPropertyManipulators*)> func) const;
 
-	virtual bool hasGOM(GOMTypes eType, int iID);
+	virtual bool hasGOM(GOMTypes eType, int iID) const;
 	virtual bool isTag(TagTypes eTag) const;
 	
-	virtual CvGameObjectPlayer* getOwner();
-	virtual CvGameObjectPlot* getPlot();
-	virtual CvGameObjectTeam* getTeam();
+	virtual const CvGameObjectPlayer *const getOwner() const;
+	virtual const CvGameObjectPlot *const getPlot() const;
+	virtual const CvGameObjectTeam *const getTeam() const;
 
-	virtual int getResponsibleThread();
-	virtual void foreachThreaded(GameObjectTypes eType, boost::function<void (CvGameObject*)> func, int iThread);
+	virtual int getResponsibleThread() const;
+	virtual void foreachThreaded(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func, int iThread) const;
 
-	virtual void* addPythonArgument(CyArgsList* argsList);
-	virtual void disposePythonArgument(void* pArgument);
+	virtual void* addPythonArgument(CyArgsList* argsList) const;
+	virtual void disposePythonArgument(void* pArgument) const;
 
 	virtual int adaptValueToGame(int iID, int iValue) const;
 
@@ -158,26 +158,26 @@ public:
 	virtual GameObjectTypes getGameObjectType() const;
 	virtual CvProperties* getProperties() const;
 	virtual const CvProperties* getPropertiesConst() const;
-	virtual void foreach(GameObjectTypes eType, boost::function<void (CvGameObject*)> func);
-	virtual void foreachRelated(GameObjectTypes eType, RelationTypes eRelation, boost::function<void (CvGameObject*)> func, int iData = 0);
+	virtual void foreach(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func) const;
+	virtual void foreachRelated(GameObjectTypes eType, RelationTypes eRelation, boost::function<void (const CvGameObject*)> func, int iData = 0) const;
 
-	virtual void foreachManipulator(boost::function<void (CvGameObject*, CvPropertyManipulators*)> func);
+	virtual void foreachManipulator(boost::function<void (const CvGameObject*, CvPropertyManipulators*)> func) const;
 
 	virtual void eventPropertyChanged(PropertyTypes eProperty, int iNewValue);
 
 	virtual int getAttribute(AttributeTypes eAttribute) const;
 	virtual bool isTag(TagTypes eTag) const;
-	virtual bool hasGOM(GOMTypes eType, int iID);
+	virtual bool hasGOM(GOMTypes eType, int iID) const;
 	
-	virtual CvGameObjectPlayer* getOwner();
-	virtual CvGameObjectPlot* getPlot();
-	virtual CvGameObjectTeam* getTeam();
+	virtual const CvGameObjectPlayer *const getOwner() const;
+	virtual const CvGameObjectPlot *const getPlot() const;
+	virtual const CvGameObjectTeam *const getTeam() const;
 
-	virtual int getResponsibleThread();
-	virtual void foreachThreaded(GameObjectTypes eType, boost::function<void (CvGameObject*)> func, int iThread);
+	virtual int getResponsibleThread() const;
+	virtual void foreachThreaded(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func, int iThread) const;
 
-	virtual void* addPythonArgument(CyArgsList* argsList);
-	virtual void disposePythonArgument(void* pArgument);
+	virtual void* addPythonArgument(CyArgsList* argsList) const;
+	virtual void disposePythonArgument(void* pArgument) const;
 
 	virtual int adaptValueToGame(int iID, int iValue) const;
 
@@ -192,24 +192,24 @@ public:
 	virtual GameObjectTypes getGameObjectType() const;
 	virtual CvProperties* getProperties() const;
 	virtual const CvProperties* getPropertiesConst() const;
-	virtual void foreach(GameObjectTypes eType, boost::function<void (CvGameObject*)> func);
+	virtual void foreach(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func) const;
 
-	virtual void foreachManipulator(boost::function<void (CvGameObject*, CvPropertyManipulators*)> func);
+	virtual void foreachManipulator(boost::function<void (const CvGameObject*, CvPropertyManipulators*)> func) const;
 
 	virtual void eventPropertyChanged(PropertyTypes eProperty, int iNewValue);
 
 	virtual bool isTag(TagTypes eTag) const;
-	virtual bool hasGOM(GOMTypes eType, int iID);
+	virtual bool hasGOM(GOMTypes eType, int iID) const;
 	
-	virtual CvGameObjectPlayer* getOwner();
-	virtual CvGameObjectPlot* getPlot();
-	virtual CvGameObjectTeam* getTeam();
+	virtual const CvGameObjectPlayer *const getOwner() const;
+	virtual const CvGameObjectPlot *const getPlot() const;
+	virtual const CvGameObjectTeam *const getTeam() const;
 
-	virtual int getResponsibleThread();
-	virtual void foreachThreaded(GameObjectTypes eType, boost::function<void (CvGameObject*)> func, int iThread);
+	virtual int getResponsibleThread() const;
+	virtual void foreachThreaded(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func, int iThread) const;
 
-	virtual void* addPythonArgument(CyArgsList* argsList);
-	virtual void disposePythonArgument(void* pArgument);
+	virtual void* addPythonArgument(CyArgsList* argsList) const;
+	virtual void disposePythonArgument(void* pArgument) const;
 
 	virtual int adaptValueToGame(int iID, int iValue) const;
 
@@ -224,25 +224,25 @@ public:
 	virtual GameObjectTypes getGameObjectType() const;
 	virtual CvProperties* getProperties() const;
 	virtual const CvProperties* getPropertiesConst() const;
-	virtual void foreach(GameObjectTypes eType, boost::function<void (CvGameObject*)> func);
-	virtual void foreachOn(GameObjectTypes eType, boost::function<void (CvGameObject*)> func);
-	virtual void foreachNear(GameObjectTypes eType, boost::function<void (CvGameObject*)> func, int iDistance);
-	virtual void foreachRelated(GameObjectTypes eType, RelationTypes eRelation, boost::function<void (CvGameObject*)> func, int iData = 0);
+	virtual void foreach(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func) const;
+	virtual void foreachOn(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func) const;
+	virtual void foreachNear(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func, int iDistance) const;
+	virtual void foreachRelated(GameObjectTypes eType, RelationTypes eRelation, boost::function<void (const CvGameObject*)> func, int iData = 0) const;
 
-	virtual void foreachManipulator(boost::function<void (CvGameObject*, CvPropertyManipulators*)> func);
+	virtual void foreachManipulator(boost::function<void (const CvGameObject*, CvPropertyManipulators*)> func) const;
 
 	virtual bool isTag(TagTypes eTag) const;
-	virtual bool hasGOM(GOMTypes eType, int iID);
+	virtual bool hasGOM(GOMTypes eType, int iID) const;
 	
-	virtual CvGameObjectPlayer* getOwner();
-	virtual CvGameObjectPlot* getPlot();
-	virtual CvGameObjectTeam* getTeam();
+	virtual const CvGameObjectPlayer *const getOwner() const;
+	virtual const CvGameObjectPlot *const getPlot() const;
+	virtual const CvGameObjectTeam *const getTeam() const;
 
-	virtual int getResponsibleThread();
-	virtual void foreachThreaded(GameObjectTypes eType, boost::function<void (CvGameObject*)> func, int iThread);
+	virtual int getResponsibleThread() const;
+	virtual void foreachThreaded(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func, int iThread) const;
 
-	virtual void* addPythonArgument(CyArgsList* argsList);
-	virtual void disposePythonArgument(void* pArgument);
+	virtual void* addPythonArgument(CyArgsList* argsList) const;
+	virtual void disposePythonArgument(void* pArgument) const;
 
 protected:
 	CvPlot* m_pPlot;

@@ -1149,11 +1149,11 @@ bool CvXMLLoadUtility::LoadPreMenuGlobals()
 	GC.resolveDelayedResolution();
 	OutputDebugString("Delayed resolution resolved\n");
 
-	for (int i=0; i < GC.getNumBuildingInfos(); ++i)
-	{
-		GC.getBuildingInfo((BuildingTypes)i).readPass3();
-		GC.getBuildingInfoReplacements()->readPass3();
-	}
+//	for (int i=0; i < GC.getNumBuildingInfos(); ++i)
+//	{
+//		GC.getBuildingInfo((BuildingTypes)i).readPass3();
+//		GC.getBuildingInfoReplacements()->readPass3();
+//	}
 	for (int i=0; i < GC.getNumCivicInfos(); ++i)
 	{
 		GC.getCivicInfo((CivicTypes)i).readPass3();
@@ -1178,11 +1178,11 @@ bool CvXMLLoadUtility::LoadPreMenuGlobals()
 		GC.getProjectInfoReplacements()->readPass3();
 	}
 
-	for (int i=0; i < GC.getNumTechInfos(); ++i)
-	{
-		GC.getTechInfo((TechTypes)i).readPass3();
-		GC.getTechInfoReplacements()->readPass3();
-	}
+//	for (int i=0; i < GC.getNumTechInfos(); ++i)
+//	{
+//		GC.getTechInfo((TechTypes)i).readPass3();
+//		GC.getTechInfoReplacements()->readPass3();
+//	}
 
 	for (int i=0; i < GC.getNumUnitInfos(); ++i)
 	{
@@ -2072,7 +2072,7 @@ void CvXMLLoadUtility::SetGlobalClassInfo(std::vector<T*>& aInfos, const wchar_t
 					}
 				}
 
-					OutputDebugString("After Dependencies");
+//					OutputDebugString("After Dependencies");
 
 /************************************************************************************************/
 /* MODULAR_LOADING_CONTROL                 END                                                  */
@@ -4120,28 +4120,18 @@ void CvXMLLoadUtility::SetOptionalIntVectorWithDelayedResolution(std::vector<int
 {
 	if (TryMoveToXmlFirstChild(szRootTagName))
 	{
-		aInfos.clear();
-		int iNumSibs = GetXmlChildrenNumber();
-		aInfos.resize(iNumSibs);
+		int iNumChildren = GetXmlChildrenNumber();
+		aInfos.reserve(iNumChildren);
 		CvString szTextVal;
-
-		if (0 < iNumSibs)
+		if (iNumChildren && GetChildXmlVal(szTextVal))
 		{
-			if (GetChildXmlVal(szTextVal))
+			do
 			{
-				for (int j = 0; j < iNumSibs; j++)
-				{
-					GC.addDelayedResolution((int*)&(aInfos[j]), szTextVal);
-					if (!GetNextXmlVal(szTextVal))
-					{
-						break;
-					}
-				}
-
-				MoveToXmlParent();
-			}
+				aInfos.push_back(int());
+				GC.addDelayedResolution(&aInfos.back(), szTextVal);
+			} while (GetNextXmlVal(szTextVal));
+			MoveToXmlParent();
 		}
-
 		MoveToXmlParent();
 	}
 }

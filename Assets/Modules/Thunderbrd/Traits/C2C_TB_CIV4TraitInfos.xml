@@ -18,9 +18,7 @@
 				<OnGameOption>GAMEOPTION_COMPLEX_TRAITS</OnGameOption>
 			</OnGameOptions>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PACIFIST</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PACIFIST</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -105,9 +103,7 @@
 				<OnGameOption>GAMEOPTION_COMPLEX_TRAITS</OnGameOption>
 			</OnGameOptions>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PACIFIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PACIFIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -193,9 +189,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_WARMONGER1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PACIFIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PACIFIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -281,9 +275,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_WARMONGER2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PACIFIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PACIFIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bImpurePropertyManipulators>1</bImpurePropertyManipulators>
 			<Flavors>
@@ -366,9 +358,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_WARMONGER</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_WARMONGER</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -452,9 +442,7 @@
 				<OnGameOption>GAMEOPTION_COMPLEX_TRAITS</OnGameOption>
 			</OnGameOptions>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_WARMONGER1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_WARMONGER1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -537,9 +525,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_PACIFIST1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_WARMONGER1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_WARMONGER1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -625,9 +611,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_PACIFIST2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_WARMONGER1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_WARMONGER1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -712,9 +696,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CARELESS</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CARELESS</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -1125,9 +1107,7 @@
 				<OnGameOption>GAMEOPTION_COMPLEX_TRAITS</OnGameOption>
 			</OnGameOptions>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CARELESS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CARELESS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -1360,9 +1340,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CARELESS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CARELESS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -1555,9 +1533,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_STRATEGIST2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CARELESS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CARELESS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -1688,9 +1664,7 @@
 				<OnGameOption>GAMEOPTION_COMPLEX_TRAITS</OnGameOption>
 			</OnGameOptions>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_STRATEGIST</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_STRATEGIST</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -2099,9 +2073,7 @@
 				<OnGameOption>GAMEOPTION_COMPLEX_TRAITS</OnGameOption>
 			</OnGameOptions>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_STRATEGIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_STRATEGIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -2332,9 +2304,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_STRATEGIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_STRATEGIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -2525,9 +2495,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_CARELESS2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_STRATEGIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_STRATEGIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -2656,9 +2624,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_TIMID</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_TIMID</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -2796,9 +2762,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_TIMID1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_TIMID1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -2917,9 +2881,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_AGGRESSIVE1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_TIMID1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_TIMID1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -3034,9 +2996,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_AGGRESSIVE2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_TIMID1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_TIMID1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -3129,9 +3089,7 @@
 				<OnGameOption>GAMEOPTION_COMPLEX_TRAITS</OnGameOption>
 			</OnGameOptions>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_AGGRESSIVE</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_AGGRESSIVE</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -3242,9 +3200,7 @@
 			<PromotionLine>PROMOTIONLINE_TIMID</PromotionLine>
 			<iLinePriority>-1</iLinePriority>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_AGGRESSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_AGGRESSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -3339,9 +3295,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_TIMID1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_AGGRESSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_AGGRESSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -3436,9 +3390,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_TIMID2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_AGGRESSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_AGGRESSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -3533,9 +3485,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_COWARDLY</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_COWARDLY</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -3780,9 +3730,7 @@
 				<OnGameOption>GAMEOPTION_COMPLEX_TRAITS</OnGameOption>
 			</OnGameOptions>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_COWARDLY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_COWARDLY1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -4009,9 +3957,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_DEFENSIVE1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_COWARDLY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_COWARDLY1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -4240,9 +4186,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_DEFENSIVE2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_COWARDLY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_COWARDLY1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -4449,9 +4393,7 @@
 				<OnGameOption>GAMEOPTION_COMPLEX_TRAITS</OnGameOption>
 			</OnGameOptions>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_DEFENSIVE</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_DEFENSIVE</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -4658,9 +4600,7 @@
 				<OnGameOption>GAMEOPTION_COMPLEX_TRAITS</OnGameOption>
 			</OnGameOptions>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_DEFENSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_DEFENSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<Flavors>
@@ -4866,9 +4806,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_COWARDLY1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_DEFENSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_DEFENSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<Flavors>
@@ -5075,9 +5013,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_COWARDLY2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_DEFENSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_DEFENSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -5284,9 +5220,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_NEGLIGENT</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_NEGLIGENT</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -5854,7 +5788,7 @@
 					<iModifier>20</iModifier>
 				</TechResearchModifier>
 				<TechResearchModifier>
-					<TechType>BUILDING_ADVANCED_SHIELDING</TechType>
+					<TechType>TECH_ADVANCED_SHIELDING</TechType>
 					<iModifier>20</iModifier>
 				</TechResearchModifier>
 				<TechResearchModifier>
@@ -5907,9 +5841,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_NEGLIGENT1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_NEGLIGENT1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -6226,9 +6158,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_PROTECTIVE1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_NEGLIGENT1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_NEGLIGENT1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -6469,9 +6399,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_PROTECTIVE2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_NEGLIGENT1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_NEGLIGENT1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -6669,7 +6597,7 @@
 					<iModifier>20</iModifier>
 				</TechResearchModifier>
 				<TechResearchModifier>
-					<TechType>BUILDING_ADVANCED_SHIELDING</TechType>
+					<TechType>TECH_ADVANCED_SHIELDING</TechType>
 					<iModifier>20</iModifier>
 				</TechResearchModifier>
 				<TechResearchModifier>
@@ -6718,9 +6646,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PROTECTIVE</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PROTECTIVE</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -7113,7 +7039,7 @@
 					<iModifier>-20</iModifier>
 				</TechResearchModifier>
 				<TechResearchModifier>
-					<TechType>BUILDING_ADVANCED_SHIELDING</TechType>
+					<TechType>TECH_ADVANCED_SHIELDING</TechType>
 					<iModifier>-20</iModifier>
 				</TechResearchModifier>
 				<TechResearchModifier>
@@ -7161,9 +7087,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PROTECTIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PROTECTIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -7392,9 +7316,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_NEGLIGENT1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PROTECTIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PROTECTIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -7575,9 +7497,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_NEGLIGENT2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PROTECTIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PROTECTIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -7738,7 +7658,7 @@
 					<iModifier>-20</iModifier>
 				</TechResearchModifier>
 				<TechResearchModifier>
-					<TechType>BUILDING_ADVANCED_SHIELDING</TechType>
+					<TechType>TECH_ADVANCED_SHIELDING</TechType>
 					<iModifier>-20</iModifier>
 				</TechResearchModifier>
 				<TechResearchModifier>
@@ -7784,9 +7704,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_MEEK</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_MEEK</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -8128,9 +8046,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_MEEK1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_MEEK1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -8317,9 +8233,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_IMPERIALIST1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_MEEK1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_MEEK1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -8534,9 +8448,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_IMPERIALIST2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_MEEK1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_MEEK1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -8683,9 +8595,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_IMPERIALIST</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_IMPERIALIST</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -8987,9 +8897,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_IMPERIALIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_IMPERIALIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -9155,9 +9063,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_MEEK1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_IMPERIALIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_IMPERIALIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -9354,9 +9260,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_MEEK2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_IMPERIALIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_IMPERIALIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -17977,15 +17881,9 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ANTI_CLERICAL</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PIOUS</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FANATICAL</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_ANTI_CLERICAL</TraitType>
+				<TraitType>TRAIT_PIOUS</TraitType>
+				<TraitType>TRAIT_FANATICAL</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -18358,15 +18256,9 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PIOUS1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FANATICAL</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
+				<TraitType>TRAIT_PIOUS1</TraitType>
+				<TraitType>TRAIT_FANATICAL</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -18680,15 +18572,9 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_SPIRITUAL1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PIOUS1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FANATICAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
+				<TraitType>TRAIT_PIOUS1</TraitType>
+				<TraitType>TRAIT_FANATICAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -18844,15 +18730,9 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_SPIRITUAL2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PIOUS1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FANATICAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
+				<TraitType>TRAIT_PIOUS1</TraitType>
+				<TraitType>TRAIT_FANATICAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -18897,10 +18777,7 @@
 			<fRevIdxBadReligionMod>-10</fRevIdxBadReligionMod>
 			<fRevIdxGoodReligionMod>10</fRevIdxGoodReligionMod>
 			<CivicOptionNoUpkeepTypes>
-				<CivicOptionNoUpkeepType>
-					<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
-					<bCivicOptionNoUpkeep>1</bCivicOptionNoUpkeep>
-				</CivicOptionNoUpkeepType>
+				<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
 			</CivicOptionNoUpkeepTypes>
 			<SpecialistYieldChanges>
 				<SpecialistYieldChange>
@@ -19011,15 +18888,9 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SPIRITUAL</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PIOUS</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FANATICAL</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SPIRITUAL</TraitType>
+				<TraitType>TRAIT_PIOUS</TraitType>
+				<TraitType>TRAIT_FANATICAL</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -19392,15 +19263,9 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SPIRITUAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PIOUS1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FANATICAL</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SPIRITUAL1</TraitType>
+				<TraitType>TRAIT_PIOUS1</TraitType>
+				<TraitType>TRAIT_FANATICAL</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -19557,15 +19422,9 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_ANTI_CLERICAL1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SPIRITUAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PIOUS1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FANATICAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SPIRITUAL1</TraitType>
+				<TraitType>TRAIT_PIOUS1</TraitType>
+				<TraitType>TRAIT_FANATICAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -19720,15 +19579,9 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_ANTI_CLERICAL2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SPIRITUAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PIOUS1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FANATICAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SPIRITUAL1</TraitType>
+				<TraitType>TRAIT_PIOUS1</TraitType>
+				<TraitType>TRAIT_FANATICAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -19883,15 +19736,9 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SPIRITUAL</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ANTI_CLERICAL</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FANATICAL</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SPIRITUAL</TraitType>
+				<TraitType>TRAIT_ANTI_CLERICAL</TraitType>
+				<TraitType>TRAIT_FANATICAL</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -20139,15 +19986,9 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SPIRITUAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FANATICAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SPIRITUAL1</TraitType>
+				<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
+				<TraitType>TRAIT_FANATICAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -20395,15 +20236,9 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_PIOUS1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SPIRITUAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FANATICAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SPIRITUAL1</TraitType>
+				<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
+				<TraitType>TRAIT_FANATICAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -20645,15 +20480,9 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_PIOUS2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SPIRITUAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FANATICAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SPIRITUAL1</TraitType>
+				<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
+				<TraitType>TRAIT_FANATICAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -20779,15 +20608,9 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SPIRITUAL</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ANTI_CLERICAL</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PIOUS</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SPIRITUAL</TraitType>
+				<TraitType>TRAIT_ANTI_CLERICAL</TraitType>
+				<TraitType>TRAIT_PIOUS</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>1</bImpurePromotions>
@@ -21040,15 +20863,9 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SPIRITUAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PIOUS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SPIRITUAL1</TraitType>
+				<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
+				<TraitType>TRAIT_PIOUS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>1</bImpurePromotions>
@@ -21294,15 +21111,9 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_FANATICAL1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SPIRITUAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PIOUS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SPIRITUAL1</TraitType>
+				<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
+				<TraitType>TRAIT_PIOUS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>1</bImpurePromotions>
@@ -21546,15 +21357,9 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_ZEALOUS2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SPIRITUAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
-				</DisallowedTraitType>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PIOUS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SPIRITUAL1</TraitType>
+				<TraitType>TRAIT_ANTI_CLERICAL1</TraitType>
+				<TraitType>TRAIT_PIOUS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>1</bImpurePromotions>
@@ -21678,9 +21483,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GLOOMY</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GLOOMY</TraitType>
 			</DisallowedTraitTypes>
 			<bImpurePropertyManipulators>1</bImpurePropertyManipulators>
 			<Flavors>
@@ -21796,9 +21599,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GLOOMY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GLOOMY1</TraitType>
 			</DisallowedTraitTypes>
 			<bImpurePropertyManipulators>1</bImpurePropertyManipulators>
 			<Flavors>
@@ -21914,9 +21715,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_GLORIOUS1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GLOOMY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GLOOMY1</TraitType>
 			</DisallowedTraitTypes>
 			<bImpurePropertyManipulators>1</bImpurePropertyManipulators>
 			<Flavors>
@@ -22031,9 +21830,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_GLORIOUS1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GLOOMY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GLOOMY1</TraitType>
 			</DisallowedTraitTypes>
 			<bImpurePropertyManipulators>1</bImpurePropertyManipulators>
 			<Flavors>
@@ -22148,9 +21945,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GLORIOUS</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GLORIOUS</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePropertyManipulators>1</bImpurePropertyManipulators>
@@ -22268,9 +22063,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GLORIOUS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GLORIOUS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePropertyManipulators>1</bImpurePropertyManipulators>
@@ -22388,9 +22181,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_GLOOMY1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GLORIOUS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GLORIOUS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePropertyManipulators>1</bImpurePropertyManipulators>
@@ -22508,9 +22299,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_GLOOMY2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GLORIOUS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GLORIOUS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePropertyManipulators>1</bImpurePropertyManipulators>
@@ -22628,9 +22417,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ALOOF</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_ALOOF</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -22889,9 +22676,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ALOOF1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_ALOOF1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -23150,9 +22935,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_PREEMINENT1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ALOOF1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_ALOOF1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -23411,9 +23194,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_PREEMINENT2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ALOOF1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_ALOOF1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -23582,9 +23363,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PREEMINENT</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PREEMINENT</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -23843,9 +23622,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PREEMINENT1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PREEMINENT1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -24104,9 +23881,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_ALOOF1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PREEMINENT1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PREEMINENT1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -24365,9 +24140,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_ALOOF2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PREEMINENT1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PREEMINENT1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -24534,9 +24307,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_LAZY</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_LAZY</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -25535,9 +25306,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_LAZY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_LAZY1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -26118,9 +25887,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_INDUSTRIOUS1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_LAZY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_LAZY1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -26583,9 +26350,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_INDUSTRIOUS2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_LAZY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_LAZY1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -27002,9 +26767,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_INDUSTRIOUS</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_INDUSTRIOUS</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -27999,9 +27762,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_INDUSTRIOUS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_INDUSTRIOUS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -28576,9 +28337,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_LAZY1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_INDUSTRIOUS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_INDUSTRIOUS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -29041,9 +28800,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_LAZY2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_INDUSTRIOUS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_INDUSTRIOUS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -29460,9 +29217,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_EXCESSIVE</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_EXCESSIVE</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -29936,9 +29691,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_EXCESSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_EXCESSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -30195,9 +29948,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_EFFICIENT1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_EXCESSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_EXCESSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -30482,9 +30233,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_EFFICIENT2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_EXCESSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_EXCESSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -30730,9 +30479,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_EFFICIENT</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_EFFICIENT</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -31200,9 +30947,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_EFFICIENT1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_EFFICIENT1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -31452,9 +31197,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_EXCESSIVE1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_EFFICIENT1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_EFFICIENT1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -31726,9 +31469,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_EXCESSIVE2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_EFFICIENT1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_EFFICIENT1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -31963,9 +31704,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GLUTTONOUS</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GLUTTONOUS</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -32528,9 +32267,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GLUTTONOUS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GLUTTONOUS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -33027,9 +32764,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_AGRICULTURAL1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GLUTTONOUS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GLUTTONOUS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -33475,9 +33210,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_AGRICULTURAL2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GLUTTONOUS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GLUTTONOUS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -33935,9 +33668,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_AGRICULTURAL</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_AGRICULTURAL</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -34474,9 +34205,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_AGRICULTURAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_AGRICULTURAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -34942,9 +34671,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_GLUTTONOUS2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_AGRICULTURAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_AGRICULTURAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -35367,9 +35094,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_GLUTTONOUS2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_AGRICULTURAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_AGRICULTURAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -35802,9 +35527,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_UNREFINED</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_UNREFINED</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -36906,9 +36629,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_UNREFINED1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_UNREFINED1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -37476,9 +37197,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_CREATIVE1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_UNREFINED1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_UNREFINED1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -37974,9 +37693,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_CREATIVE2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_UNREFINED1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_UNREFINED1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -38260,9 +37977,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CREATIVE</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CREATIVE</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -39111,9 +38826,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CREATIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CREATIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -39598,9 +39311,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_UNREFINED1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CREATIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CREATIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -39987,9 +39698,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_UNREFINED2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CREATIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CREATIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -40246,9 +39955,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GREEDY</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GREEDY</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -41003,9 +40710,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GREEDY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GREEDY1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -41434,9 +41139,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_FINANCIAL1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GREEDY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GREEDY1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -41733,9 +41436,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_FINANCIAL2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GREEDY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GREEDY1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -42012,9 +41713,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FINANCIAL</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_FINANCIAL</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -42764,9 +42463,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FINANCIAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_FINANCIAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -43188,9 +42885,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_GREEDY1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FINANCIAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_FINANCIAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -43486,9 +43181,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_GREEDY2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FINANCIAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_FINANCIAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -43762,9 +43455,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_NAIVE</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_NAIVE</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -44401,9 +44092,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_NAIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_NAIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -44741,9 +44430,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_DECEIVER1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_NAIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_NAIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -45001,9 +44688,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_DECEIVER2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_NAIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_NAIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -45318,9 +45003,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_DECEIVER</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_DECEIVER</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -45952,9 +45635,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_DECEIVER1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_DECEIVER1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -46286,9 +45967,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_NAIVE1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_DECEIVER1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_DECEIVER1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -46545,9 +46224,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_NAIVE2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_DECEIVER1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_DECEIVER1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -46859,9 +46536,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_TRADITIONAL</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_TRADITIONAL</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -47697,9 +47372,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_TRADITIONAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_TRADITIONAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -47982,9 +47655,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_SCIENTIFIC1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_TRADITIONAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_TRADITIONAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -48390,9 +48061,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_SCIENTIFIC2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_TRADITIONAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_TRADITIONAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -48831,9 +48500,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SCIENTIFIC</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SCIENTIFIC</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -49662,9 +49329,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SCIENTIFIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SCIENTIFIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -49925,9 +49590,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_TRADITIONAL1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SCIENTIFIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SCIENTIFIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -50302,9 +49965,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_TRADITIONAL2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SCIENTIFIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SCIENTIFIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -50727,9 +50388,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ISOLATIONIST</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_ISOLATIONIST</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -50846,9 +50505,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ISOLATIONIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_ISOLATIONIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -50965,9 +50622,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_NEGOTIATOR1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ISOLATIONIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_ISOLATIONIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -51084,9 +50739,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_NEGOTIATOR2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ISOLATIONIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_ISOLATIONIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -51201,9 +50854,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_NEGOTIATOR</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_NEGOTIATOR</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -51325,9 +50976,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_NEGOTIATOR1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_NEGOTIATOR1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -51450,9 +51099,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_ISOLATIONIST1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_NEGOTIATOR1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_NEGOTIATOR1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -51570,9 +51217,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_ISOLATIONIST2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_NEGOTIATOR1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_NEGOTIATOR1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -51687,9 +51332,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_COVETOUS</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_COVETOUS</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -51782,9 +51425,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_COVETOUS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_COVETOUS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -51879,9 +51520,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_PROGRESSIST1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_COVETOUS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_COVETOUS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -51970,9 +51609,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_INNOVATIVE2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_COVETOUS1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_COVETOUS1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -52061,9 +51698,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PROGRESSIST</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PROGRESSIST</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -52153,9 +51788,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PROGRESSIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PROGRESSIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -52245,9 +51878,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_COVETOUS1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PROGRESSIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PROGRESSIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -52337,9 +51968,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_COVETOUS2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PROGRESSIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PROGRESSIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -52429,9 +52058,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_MEGALOMANIAC</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_MEGALOMANIAC</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -52533,9 +52160,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_MEGALOMANIAC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_MEGALOMANIAC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -52637,9 +52262,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_HUMBLE1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_MEGALOMANIAC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_MEGALOMANIAC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -52741,9 +52364,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_HUMBLE2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_MEGALOMANIAC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_MEGALOMANIAC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -52843,9 +52464,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_HUMBLE</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_HUMBLE</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -52951,9 +52570,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_HUMBLE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_HUMBLE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -53061,9 +52678,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_MEGALOMANIAC1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_HUMBLE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_HUMBLE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -53165,9 +52780,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_MEGALOMANIAC2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_HUMBLE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_HUMBLE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -53269,9 +52882,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_BARBARIC</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_BARBARIC</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -53410,9 +53021,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_BARBARIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_BARBARIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -53527,9 +53136,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_CIVILIZED1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_BARBARIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_BARBARIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -53644,9 +53251,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_CIVILIZED2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_BARBARIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_BARBARIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -53751,9 +53356,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CIVILIZED</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CIVILIZED</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>1</bImpurePromotions>
@@ -53896,9 +53499,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CIVILIZED1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CIVILIZED1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>1</bImpurePromotions>
@@ -54019,9 +53620,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_BARBARIC1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CIVILIZED1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CIVILIZED1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>1</bImpurePromotions>
@@ -54136,9 +53735,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_BARBARIC2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CIVILIZED1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CIVILIZED1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>1</bImpurePromotions>
@@ -54243,9 +53840,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_TEMPERAMENTAL</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_TEMPERAMENTAL</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -54353,9 +53948,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_TEMPERAMENTAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_TEMPERAMENTAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -54483,9 +54076,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_CHARISMATIC1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_TEMPERAMENTAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_TEMPERAMENTAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -54598,9 +54189,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_CHARISMATIC2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_TEMPERAMENTAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_TEMPERAMENTAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -54711,9 +54300,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CHARISMATIC</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CHARISMATIC</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -54805,9 +54392,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CHARISMATIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CHARISMATIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -54901,9 +54486,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_TEMPERAMENTAL1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CHARISMATIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CHARISMATIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -54992,9 +54575,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_TEMPERAMENTAL1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CHARISMATIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CHARISMATIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -55081,9 +54662,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_POPULIST</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_POPULIST</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -55382,9 +54961,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_POPULIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_POPULIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -55541,9 +55118,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_PHILOSOPHICAL1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_POPULIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_POPULIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -55656,9 +55231,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_PHILOSOPHICAL2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_POPULIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_POPULIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -55879,9 +55452,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PHILOSOPHICAL</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PHILOSOPHICAL</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -56192,9 +55763,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PHILOSOPHICAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PHILOSOPHICAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -56363,9 +55932,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_POPULIST1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PHILOSOPHICAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PHILOSOPHICAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -56489,9 +56056,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_POPULIST2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PHILOSOPHICAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PHILOSOPHICAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -56722,9 +56287,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FOREIGN</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_FOREIGN</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -56874,9 +56437,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FOREIGN1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_FOREIGN1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -57002,9 +56563,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_POLITICIAN1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FOREIGN1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_FOREIGN1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -57150,9 +56709,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_POLITICIAN2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_FOREIGN1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_FOREIGN1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -57270,9 +56827,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_POLITICIAN</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_POLITICIAN</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -57411,9 +56966,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_POLITICIAN1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_POLITICIAN1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -57528,9 +57081,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_FOREIGN1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_POLITICIAN1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_POLITICIAN1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -57645,9 +57196,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_FOREIGN2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_POLITICIAN1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_POLITICIAN1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -57734,9 +57283,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_USURPER</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_USURPER</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -57883,9 +57430,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_USURPER1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_USURPER1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -58014,9 +57559,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_REVOLUTIONARY1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_USURPER1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_USURPER1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -58159,9 +57702,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_REVOLUTIONARY2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_USURPER1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_USURPER1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -58304,9 +57845,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_REVOLUTIONARY</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_REVOLUTIONARY</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -58445,9 +57984,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_REVOLUTIONARY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_REVOLUTIONARY1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -58566,9 +58103,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_USURPER1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_REVOLUTIONARY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_REVOLUTIONARY1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -58707,9 +58242,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_USURPER2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_REVOLUTIONARY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_REVOLUTIONARY1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -58847,9 +58380,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_MINIMALIST</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_MINIMALIST</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -58968,9 +58499,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_MINIMALIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_MINIMALIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -59109,9 +58638,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_EXPANSIVE1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_MINIMALIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_MINIMALIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -59235,9 +58762,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_EXPANSIVE2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_MINIMALIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_MINIMALIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -59361,9 +58886,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_EXPANSIVE</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_EXPANSIVE</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -59479,9 +59002,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_EXPANSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_EXPANSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -59615,9 +59136,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_MINIMALIST1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_EXPANSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_EXPANSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -59742,9 +59261,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_MINIMALIST2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_EXPANSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_EXPANSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -59869,9 +59386,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GRIM</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GRIM</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -59974,9 +59489,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GRIM1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GRIM1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -60088,9 +59601,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_PROLIFIC1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GRIM1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GRIM1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -60212,9 +59723,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_PROLIFIC2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_GRIM1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_GRIM1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -60336,9 +59845,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PROLIFIC</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PROLIFIC</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -60458,9 +59965,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PROLIFIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PROLIFIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -60589,9 +60094,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_GRIM1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PROLIFIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PROLIFIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -60720,9 +60223,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_GRIM2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PROLIFIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PROLIFIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -60840,9 +60341,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_IMPULSIVE</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_IMPULSIVE</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -60940,9 +60439,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_IMPULSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_IMPULSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -61060,9 +60557,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_ORGANIZED1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_IMPULSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_IMPULSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -61156,9 +60651,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_ORGANIZED2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_IMPULSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_IMPULSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -61269,9 +60762,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ORGANIZED</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_ORGANIZED</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -61365,9 +60856,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ORGANIZED1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_ORGANIZED1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -61478,9 +60967,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_IMPULSIVE1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ORGANIZED1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_ORGANIZED1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -61574,9 +61061,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_IMPULSIVE2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_ORGANIZED1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_ORGANIZED1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -61688,9 +61173,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_STUBBORN</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_STUBBORN</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -62141,9 +61624,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_STUBBORN1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_STUBBORN1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -62358,9 +61839,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_DYNAMIC1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_STUBBORN1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_STUBBORN1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -62587,9 +62066,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_DYNAMIC2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_STUBBORN1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_STUBBORN1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -62756,9 +62233,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_DYNAMIC</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_DYNAMIC</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -63209,9 +62684,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_DYNAMIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_DYNAMIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -63425,9 +62898,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_STUBBORN1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_DYNAMIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_DYNAMIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -63653,9 +63124,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_STUBBORN2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_DYNAMIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_DYNAMIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -63821,9 +63290,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_IDEALISTIC</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_IDEALISTIC</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -63935,9 +63402,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_IDEALISTIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_IDEALISTIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -64049,9 +63514,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_PRAGMATIC1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_IDEALISTIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_IDEALISTIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -64163,9 +63626,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_PRAGMATIC2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_IDEALISTIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_IDEALISTIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -64275,9 +63736,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PRAGMATIC</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PRAGMATIC</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -64393,9 +63852,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PRAGMATIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PRAGMATIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -64513,9 +63970,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_IDEALISTIC1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PRAGMATIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PRAGMATIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -64627,9 +64082,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_IDEALISTIC2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PRAGMATIC1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PRAGMATIC1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -64739,9 +64192,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CRUEL</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CRUEL</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -64989,9 +64440,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CRUEL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CRUEL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -65191,9 +64640,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_HUMANITARIAN1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CRUEL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CRUEL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -65405,9 +64852,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_HUMANITARIAN2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CRUEL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CRUEL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -65607,9 +65052,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_HUMANITARIAN</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_HUMANITARIAN</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -65826,9 +65269,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_HUMANITARIAN1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_HUMANITARIAN1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -66015,9 +65456,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_CRUEL1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_HUMANITARIAN1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_HUMANITARIAN1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -66198,9 +65637,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_CRUEL2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_HUMANITARIAN1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_HUMANITARIAN1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -66367,9 +65804,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CROOKED</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CROOKED</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -67217,9 +66652,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CROOKED1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CROOKED1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -67655,9 +67088,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_LAWFUL1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CROOKED1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CROOKED1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -67971,9 +67402,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_LAWFUL2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_CROOKED1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_CROOKED1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -68303,9 +67732,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_LAWFUL</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_LAWFUL</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -68893,9 +68320,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_LAWFUL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_LAWFUL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -69170,9 +68595,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_CROOKED1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_LAWFUL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_LAWFUL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -69519,9 +68942,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_CROOKED2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_LAWFUL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_LAWFUL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -69739,9 +69160,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_UNSANITARY</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_UNSANITARY</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -70420,9 +69839,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_UNSANITARY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_UNSANITARY1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -70785,9 +70202,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_MEDICAL1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_UNSANITARY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_UNSANITARY1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -71059,9 +70474,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_MEDICAL1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_UNSANITARY1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_UNSANITARY1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -71403,9 +70816,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_MEDICAL</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_MEDICAL</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -72119,9 +71530,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_MEDICAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_MEDICAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -72487,9 +71896,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_UNSANITARY1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_MEDICAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_MEDICAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -72765,9 +72172,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_UNSANITARY1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_MEDICAL1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_MEDICAL1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -73112,9 +72517,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SLOB</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SLOB</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -73437,9 +72840,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SLOB1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SLOB1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -73743,9 +73144,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_NATURALIST1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SLOB1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SLOB1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -73981,9 +73380,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_NATURALIST2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_SLOB1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_SLOB1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -74214,9 +73611,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_NATURALIST</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_NATURALIST</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -74377,9 +73772,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_NATURALIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_NATURALIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -74529,9 +73922,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_SLOB1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_NATURALIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_NATURALIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -74639,9 +74030,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_SLOB2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_NATURALIST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_NATURALIST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -74748,9 +74137,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_LIAR</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_LIAR</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -74846,9 +74233,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_LIAR1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_LIAR1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -74938,9 +74323,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_HONEST1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_LIAR1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_LIAR1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -75036,9 +74419,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_HONEST2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_LIAR1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_LIAR1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -75134,9 +74515,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_HONEST</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_HONEST</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -75232,9 +74611,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_HONEST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_HONEST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -75324,9 +74701,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_LIAR1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_HONEST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_HONEST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -75422,9 +74797,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_LIAR2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_HONEST1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_HONEST1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -75520,9 +74893,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_BIGOT</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_BIGOT</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -75627,9 +74998,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_BIGOT1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_BIGOT1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -75734,9 +75103,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_PROGRESSIVE1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_BIGOT1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_BIGOT1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -75840,9 +75207,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_PROGRESSIVE2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_BIGOT1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_BIGOT1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>0</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -75944,9 +75309,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PROGRESSIVE</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PROGRESSIVE</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -76090,9 +75453,7 @@
 			<PrereqTech>NONE</PrereqTech>
 			<TraitPrereq>NONE</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PROGRESSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PROGRESSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -76235,9 +75596,7 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_BIGOT1</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PROGRESSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PROGRESSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
@@ -76379,9 +75738,7 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<TraitPrereq>TRAIT_BIGOT2</TraitPrereq>
 			<DisallowedTraitTypes>
-				<DisallowedTraitType>
-					<TraitType>TRAIT_PROGRESSIVE1</TraitType>
-				</DisallowedTraitType>
+				<TraitType>TRAIT_PROGRESSIVE1</TraitType>
 			</DisallowedTraitTypes>
 			<bNegativeTrait>1</bNegativeTrait>
 			<bImpurePromotions>0</bImpurePromotions>
