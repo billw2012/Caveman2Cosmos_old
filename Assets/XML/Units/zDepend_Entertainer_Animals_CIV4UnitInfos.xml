@@ -4775,7 +4775,7 @@
 				<BuildingType>BUILDING_GAZELLE_STORY</BuildingType>
 
 			</Buildings>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_ENTERTAINER</Type>
 			<AndDependencyTypes>
@@ -4924,7 +4924,7 @@
 				<BuildingType>BUILDING_GERENUK_STORIES</BuildingType>
 
 			</Buildings>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_BARD</Type>
 			<AndDependencyTypes>
@@ -5619,7 +5619,7 @@
 				<BuildingType>BUILDING_OXPECKER_STORY</BuildingType>
 
 			</Buildings>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_ENTERTAINER</Type>
 			<AndDependencyTypes>
@@ -5848,7 +5848,7 @@
 				<BuildingType>BUILDING_KANGAROO_RED_STORIES</BuildingType>
 
 			</Buildings>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_BARD</Type>
 			<AndDependencyTypes>

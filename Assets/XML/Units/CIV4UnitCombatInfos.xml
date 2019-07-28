@@ -90,7 +90,7 @@
 			<iCaptureResistanceModifierChange>10</iCaptureResistanceModifierChange>
 			<bForMilitary>1</bForMilitary>
 			<Button>Art/Interface/Buttons/units/sparth/categories/gunpowder_units.dds</Button>
-		</UnitCombatInfo> 
+		</UnitCombatInfo>
 		<UnitCombatInfo>
 			<Type>UNITCOMBAT_HELICOPTER</Type>
 			<Description>TXT_KEY_UNITCOMBAT_HELICOPTER</Description>
@@ -99,7 +99,7 @@
 			<iCaptureResistanceModifierChange>-20</iCaptureResistanceModifierChange>
 			<bForMilitary>1</bForMilitary>
 			<Button>Art/Interface/Buttons/units/sparth/categories/helicopters.dds</Button>
-		</UnitCombatInfo> 
+		</UnitCombatInfo>
 		<UnitCombatInfo>
 			<Type>UNITCOMBAT_WHEELED</Type>
 			<Description>TXT_KEY_UNITCOMBAT_WHEELED</Description>
@@ -951,7 +951,7 @@
 			<iCityAttack>-50</iCityAttack>
 			<iCityDefense>50</iCityDefense>
 			<iCaptureProbabilityModifierChange>30</iCaptureProbabilityModifierChange>
-			<iCaptureResistanceModifierChange>-10</iCaptureResistanceModifierChange>		
+			<iCaptureResistanceModifierChange>-10</iCaptureResistanceModifierChange>
 			<iVSBarbsChange>25</iVSBarbsChange>
 			<iEncloseChange>5</iEncloseChange>
 			<iDynamicDefenseChange>5</iDynamicDefenseChange>
@@ -7565,7 +7565,7 @@
 					<InvisibleType>INVISIBLE_DISGUISED</InvisibleType>
 					<iIntensity>1</iIntensity>
 				</VisibilityIntensityChangeType>
-			</VisibilityIntensityChangeTypes>	
+			</VisibilityIntensityChangeTypes>
 			<Button>Art/Interface/Buttons/units/sparth/categories/cutters.dds</Button>
 		</UnitCombatInfo>
 		<UnitCombatInfo>

@@ -36,10 +36,10 @@ class CvConfigParser(ConfigParser.SafeConfigParser, object):
 	is given, the Civilization 4 directories are searched for files
 	with that name, and options are automatically read from a file if one
 	is found.  If multiple files are found with conflicting options,
-	files found earlier on the search path override options in files found 
+	files found earlier on the search path override options in files found
 	later.
 
-	The search path is made up of the parent directory of all Assets 
+	The search path is made up of the parent directory of all Assets
 	directories on the game's load path.  For example, if the assets path
 	contains <userDir>\CustomAssets and <installDir>\Assets, the parser will
 	look for .ini files in <userDir> and <installDir>.
@@ -65,8 +65,8 @@ class CvConfigParser(ConfigParser.SafeConfigParser, object):
 	def get(self, section, option, default = None, *args, **kwargs):
 		"""Looks up the specified section/option pair.
 
-		This extends the base functionality of the Python ConfigParser 
-		class by adding support for a default value in the event that the 
+		This extends the base functionality of the Python ConfigParser
+		class by adding support for a default value in the event that the
 		option is not given in the configuration file.
 		"""
 		return self._wrappedGet(super(CvConfigParser, self).get, section, option, default, *args, **kwargs)

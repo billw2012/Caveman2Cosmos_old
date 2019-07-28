@@ -37,7 +37,6 @@
 			<PrereqBuilding>BUILDING_ASATRU_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -75,7 +74,7 @@
 			</SubCombatTypes>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_LOKI</Description>						
+			<Description>TXT_KEY_UNIT_LOKI</Description>
 			<Civilopedia>TXT_KEY_UNIT_VIKING_BESERKER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_VIKING_BESERKER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
@@ -109,7 +108,6 @@
 				<BonusType>BONUS_WARE_IRON</BonusType>
 			</PrereqBonuses>
 			<iCost>300</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -151,7 +149,6 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Type>UNIT_PROPHET</Type>
 			<Buildings>

@@ -81,7 +81,6 @@
 			<BonusType>BONUS_WARE_IRON</BonusType>
 			<iCost>330</iCost>
 			<iAdvancedStartCost>200</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>13</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -194,7 +193,6 @@
 				<BonusType>BONUS_WARE_IRON</BonusType>
 			</PrereqBonuses>
 			<iCost>370</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>

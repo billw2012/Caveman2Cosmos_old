@@ -1692,7 +1692,7 @@
 			<Type>INTERFACE_BUTTON_NULL</Type>
 			<Path>Art/BUG/Null.dds</Path>
 		</InterfaceArtInfo>
-	
+
 		<InterfaceArtInfo>
 			<Type>ART_DEF_BACKGROUND_ADMIRAL</Type>
 			<Path>Art/interface/great_people/bg_admiral.dds</Path>
@@ -6541,7 +6541,7 @@
 			<Type>ART_DEF_GREAT_PERSON_MONTALBANO</Type>
 			<Path>Art/interface/great_people/great_spy.dds</Path>
 		</InterfaceArtInfo>
-	
+
 		<!-- Orion's  Immigration Mod -->
 		<InterfaceArtInfo>
 			<Type>INTERFACE_JOIN_CITY</Type>
@@ -6551,15 +6551,15 @@
 		<InterfaceArtInfo>
 			<Type>INTERFACE_FILTER_RESEARCH</Type>
 			<Path>Art/Interface/buttons/filters/showresearch.dds</Path>
-		</InterfaceArtInfo>		
+		</InterfaceArtInfo>
 		<InterfaceArtInfo>
 			<Type>INTERFACE_FILTER_ESPIONAGE</Type>
 			<Path>Art/Interface/buttons/filters/showespionage.dds</Path>
-		</InterfaceArtInfo>		
+		</InterfaceArtInfo>
 		<InterfaceArtInfo>
 			<Type>INTERFACE_FILTER_CULTURE</Type>
 			<Path>Art/Interface/buttons/filters/showculture.dds</Path>
-		</InterfaceArtInfo>		
+		</InterfaceArtInfo>
 		<InterfaceArtInfo>
 			<Type>ART_DEF_BACKGROUND_STATESMAN</Type>
 			<Path>Art/interface/great_people/bg_statesman.dds</Path>

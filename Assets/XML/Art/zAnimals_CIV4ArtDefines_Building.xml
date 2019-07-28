@@ -5566,7 +5566,7 @@ Button>Art/Interface/Buttons/Buildings/stories_sabretooth.dds</Button
 			<KFM/>
 			<Button>Art/Interface/Buttons/Units/Crow.dds</Button>
 			<!--Button>Art/Interface/Buttons/Buildings/myth_Crow.dds</Button-->
-		</BuildingArtInfo>	
+		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_CROW_STORY</Type>
 			<LSystem/>

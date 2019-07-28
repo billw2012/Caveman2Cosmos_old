@@ -9,7 +9,6 @@
 			<Strategy>TXT_KEY_BUILDING_LUNAR_OUTPOST_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LUNAR_OUTPOST</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -31,7 +30,6 @@
 			<Strategy>TXT_KEY_BUILDING_URBAN_MOON_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_URBAN_MOON</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_MEGASTRUCTURES</PrereqTech>
 			<iCost>9912</iCost>
@@ -66,7 +64,6 @@
 			<Strategy>TXT_KEY_BUILDING_MOON_TERRA_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MOON_TERRA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_TERRAFORMING</PrereqTech>
 			<iCost>14476</iCost>
@@ -113,7 +110,6 @@
 			<Strategy>TXT_KEY_BUILDING_MOON_TERRA_EFFECT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MOON_TERRA_EFFECT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_TERRAFORMING</PrereqTech>
 			<iCost>-1</iCost>
@@ -150,7 +146,6 @@
 			<Strategy>TXT_KEY_BUILDING_LUNA_RING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LUNA_RING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_MEGASTRUCTURES</PrereqTech>
 			<iCost>9912</iCost>
@@ -181,7 +176,6 @@
 			<Strategy>TXT_KEY_BUILDING_LUNA_RING_EFFECT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LUNA_RING_EFFECT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -201,7 +195,6 @@
 			<Strategy>TXT_KEY_BUILDING_LUNAR_CENTRIFUGAL_HABITAT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LUNAR_CENTRIFUGAL_HABITAT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_HYPERMAGNETICS</PrereqTech>
 			<iCost>1526</iCost>
@@ -230,7 +223,6 @@
 			<Strategy>TXT_KEY_BUILDING_LUNAR_ARCOLOGY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LUNAR_ARCOLOGY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_MEGASTRUCTURES</PrereqTech>
 			<iCost>2478</iCost>
@@ -266,7 +258,6 @@
 			<Strategy>TXT_KEY_BUILDING_LUNAR_COMETARY_BOMBARDMENT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LUNAR_COMETARY_BOMBARDMENT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTEROID_EXTRACTION</PrereqTech>
 			<iCost>2212</iCost>
@@ -297,7 +288,6 @@
 			<Strategy>TXT_KEY_BUILDING_LUNAR_SOIL_GENERATOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LUNAR_SOIL_GENERATOR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PARATERRAFORMING</PrereqTech>
 			<iCost>2982</iCost>
@@ -327,7 +317,6 @@
 			<Strategy>TXT_KEY_BUILDING_LUNAR_SEA_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LUNAR_SEA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTROECOLOGY</PrereqTech>
 			<iCost>2982</iCost>
@@ -368,7 +357,6 @@
 			<Strategy>TXT_KEY_BUILDING_MITHRIL_FOUNDRY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MITHRIL_FOUNDRY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ELECTROWEAK_MATTER</PrereqTech>
 			<iCost>28868</iCost>
@@ -406,7 +394,6 @@
 			<Strategy>TXT_KEY_BUILDING_LUNAR_DEFENSES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LUNAR_DEFENSES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_WEAPONIZED_DISINTEGRATION</PrereqTech>
 			<iCost>4144</iCost>
@@ -460,7 +447,6 @@
 			<iNumFreeBonuses>1</iNumFreeBonuses>
 			<iCost>-1</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iHealth>3</iHealth>
 			<CommerceChanges>
@@ -472,9 +458,9 @@
 					<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 					<iSpecialistCount>1</iSpecialistCount>
 				</SpecialistCount>
-			</SpecialistCounts>	
+			</SpecialistCounts>
 			<bAutoBuild>1</bAutoBuild>
-		</BuildingInfo>	
+		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_LUNAR_WATER_EXTRACTION_FACILITY</BuildingClass>
 			<Type>BUILDING_LUNAR_WATER_EXTRACTION_FACILITY</Type>
@@ -490,7 +476,6 @@
 			<iCost>100</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iHealth>1</iHealth>
 			<YieldChanges>
@@ -500,7 +485,7 @@
 				<iCommerce>-100</iCommerce>
 			</CommerceChanges>
 			<BuildingClassNeededs>
-				<BuildingClassNeeded>									
+				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_LUNAR_BASE</BuildingClassType>
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
@@ -512,7 +497,7 @@
 				</Property>
 			</Properties>
 			<bProvidesFreshWater>1</bProvidesFreshWater>
-		</BuildingInfo>	
+		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_LUNAR_ROCK_QUARRY</BuildingClass>
 			<Type>BUILDING_LUNAR_ROCK_QUARRY</Type>
@@ -528,7 +513,6 @@
 			<iCost>15</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iMilitaryProductionModifier>-200</iMilitaryProductionModifier>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -554,7 +538,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -574,7 +558,6 @@
 			<iCost>100</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iMilitaryProductionModifier>-300</iMilitaryProductionModifier>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -609,7 +592,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -629,7 +612,6 @@
 			<iCost>160</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -662,7 +644,6 @@
 			<iCost>160</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -681,7 +662,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GROWTH</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -714,7 +695,6 @@
 			<iCost>225</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHealth>1</iHealth>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -734,7 +714,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GROWTH</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -772,7 +752,6 @@
 			<iCost>800</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHealth>1</iHealth>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -796,7 +775,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GROWTH</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -816,7 +795,6 @@
 			<iCost>800</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -840,7 +818,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -863,7 +841,6 @@
 			<iCost>225</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -891,7 +868,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>
@@ -923,7 +900,6 @@
 			<iCost>225</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -951,7 +927,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>
@@ -980,7 +956,6 @@
 			<iCost>225</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -1008,7 +983,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>
@@ -1036,7 +1011,6 @@
 			<iCost>225</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -1064,7 +1038,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>
@@ -1092,7 +1066,6 @@
 			<iCost>225</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -1120,7 +1093,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>
@@ -1170,7 +1143,6 @@
 			<iCost>800</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -1198,7 +1170,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>
@@ -1227,7 +1199,6 @@
 			<iCost>2000</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -1241,7 +1212,7 @@
 						<iCommerce>0</iCommerce>
 						<iCommerce>5</iCommerce>
 					</CommerceModifiers>
-				</BonusCommerceModifier>	
+				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_ALGAE</BonusType>
 					<CommerceModifiers>
@@ -1269,21 +1240,21 @@
 						<iCommerce>0</iCommerce>
 						<iCommerce>10</iCommerce>
 					</CommerceModifiers>
-				</BonusCommerceModifier>	
+				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_MAGNESIUM</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
 						<iCommerce>5</iCommerce>
 					</CommerceModifiers>
-				</BonusCommerceModifier>	
+				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_PLASTIC</BonusType>
 					<CommerceModifiers>
 						<iCommerce>0</iCommerce>
 						<iCommerce>5</iCommerce>
 					</CommerceModifiers>
-				</BonusCommerceModifier>	
+				</BonusCommerceModifier>
 				<BonusCommerceModifier>
 					<BonusType>BONUS_SYNTHETIC_RUBBER</BonusType>
 					<CommerceModifiers>
@@ -1297,7 +1268,7 @@
 						<iCommerce>0</iCommerce>
 						<iCommerce>5</iCommerce>
 					</CommerceModifiers>
-				</BonusCommerceModifier>				
+				</BonusCommerceModifier>
 			</BonusCommerceModifiers>
 			<SpecialistCounts>
 				<SpecialistCount>
@@ -1319,7 +1290,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_SCIENCE</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>
@@ -1358,7 +1329,6 @@
 			<iCost>1950</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -1377,7 +1347,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GROWTH</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -1416,7 +1386,6 @@
 			<iCost>800</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldModifiers>
@@ -1473,7 +1442,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -1510,7 +1479,6 @@
 			<iCost>1300</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iTradeRoutes>5</iTradeRoutes>
 			<iTradeRouteModifier>100</iTradeRouteModifier>
@@ -1534,7 +1502,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -1554,7 +1522,6 @@
 			<iCost>2000</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -1570,7 +1537,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -1598,7 +1565,6 @@
 			<iCost>1300</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldModifiers>
@@ -1632,7 +1598,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -1657,7 +1623,6 @@
 			<iCost>1300</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -1685,7 +1650,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>
@@ -1730,7 +1695,6 @@
 			<iCost>2000</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -1786,7 +1750,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -1819,7 +1783,6 @@
 			<iCost>1300</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldModifiers>
@@ -1853,7 +1816,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -1878,7 +1841,6 @@
 			<iCost>19500</iCost>
 			<iHurryCostModifier>1000000</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -1897,7 +1859,7 @@
 					<bNeededInCity>1</bNeededInCity>
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
-		</BuildingInfo>	
+		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_LUNAR_PARCOLOGY</BuildingClass>
 			<Type>BUILDING_LUNAR_PARCOLOGY</Type>
@@ -1914,7 +1876,6 @@
 			<iCost>2500</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHealth>5</iHealth>
 			<iHappiness>2</iHappiness>
@@ -1937,7 +1898,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<PropertyManipulators>
 				<PropertySource>
@@ -1974,7 +1935,6 @@
 			<iCost>2500</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -1994,7 +1954,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -2020,7 +1980,6 @@
 			<iCost>2000</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -2031,7 +1990,7 @@
 					<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 					<iSpecialistCount>1</iSpecialistCount>
 				</SpecialistCount>
-			</SpecialistCounts>	
+			</SpecialistCounts>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_LUNAR_MANUFACTURING_PLANT</BuildingClassType>
@@ -2042,7 +2001,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -2079,7 +2038,6 @@
 			<iCost>1300</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -2091,7 +2049,7 @@
 					<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 					<iSpecialistCount>1</iSpecialistCount>
 				</SpecialistCount>
-			</SpecialistCounts>	
+			</SpecialistCounts>
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
 					<BuildingClassType>BUILDINGCLASS_LUNAR_BASE</BuildingClassType>
@@ -2102,7 +2060,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_SCIENCE</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -2123,7 +2081,6 @@
 			<iCost>-1</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -2151,7 +2108,6 @@
 			<iCost>-1</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -2181,7 +2137,6 @@
 			<iCost>-1</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHealth>-1</iHealth>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -2211,7 +2166,6 @@
 			<iCost>-1</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -2246,7 +2200,6 @@
 			<iCost>800</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHealth>1</iHealth>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -2266,7 +2219,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GROWTH</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -2300,7 +2253,6 @@
 			<iCost>800</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
@@ -2321,7 +2273,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GROWTH</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 		</BuildingInfo>
@@ -2349,7 +2301,6 @@
 			<iCost>1300</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -2377,7 +2328,7 @@
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
 					<iFlavor>10</iFlavor>
-				</Flavor>				
+				</Flavor>
 			</Flavors>
 			<bPrereqPower>1</bPrereqPower>
 			<Properties>
@@ -2404,7 +2355,6 @@
 			<iCost>450</iCost>
 			<iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCostIncrease>-1</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>

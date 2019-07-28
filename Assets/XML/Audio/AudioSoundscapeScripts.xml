@@ -467,7 +467,7 @@
 			<ScriptType>2D</ScriptType>
 			<ScriptID>AS2D_AMB_CAVE_WIND_3</ScriptID>
 		</SoundscapeElement>
-	</ScriptSoundscape>	
+	</ScriptSoundscape>
 	<ScriptSoundscape>
 		<ScriptID>ASSS_PEAK_SELECT_AMB</ScriptID>
 		<iMinVolume>100</iMinVolume>
@@ -480,7 +480,7 @@
 			<ScriptType>3D</ScriptType>
 			<ScriptID>AS3D_SS_DESERT_HAWK</ScriptID>
 		</SoundscapeElement>
-	</ScriptSoundscape>		
+	</ScriptSoundscape>
 	<ScriptSoundscape>
 		<ScriptID>ASSS_CITY_TRANSHUMAN_SMALL_SELECT_AMB</ScriptID>
 		<iMinVolume>100</iMinVolume>

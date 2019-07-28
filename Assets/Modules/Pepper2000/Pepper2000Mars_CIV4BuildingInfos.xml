@@ -9,7 +9,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANET_COLONIZATION</PrereqTech>
 			<iCost>-1</iCost>
@@ -51,7 +50,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_CITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SUPERCHARGED_CRYSTALS</PrereqTech>
 			<iCost>1577</iCost>
@@ -106,7 +104,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_METRO_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_METRO</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_HYPERMAGNETICS</PrereqTech>
 			<iCost>2110</iCost>
@@ -156,7 +153,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_MEGACITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_MEGACITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ANIMA_MATERIALS</PrereqTech>
 			<iCost>3065</iCost>
@@ -199,7 +195,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_ARCOLOGY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_ARCOLOGY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_MEGASTRUCTURES</PrereqTech>
 			<iCost>5294</iCost>
@@ -243,7 +238,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_COMMUNICATION_BEACON_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_COMMUNICATION_BEACON</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANET_COLONIZATION</PrereqTech>
 			<iCost>702</iCost>
@@ -273,7 +267,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_EXPANDED_HABITAT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_EXPANDED_HABITAT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SUPERFLUOUS_MANUFACTURING</PrereqTech>
 			<iCost>905</iCost>
@@ -306,7 +299,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_SOLAR_ARRAY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_SOLAR_ARRAY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANET_COLONIZATION</PrereqTech>
 			<iCost>702</iCost>
@@ -334,7 +326,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_HYDROPONICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_HYDROPONICS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANET_COLONIZATION</PrereqTech>
 			<iCost>702</iCost>
@@ -375,7 +366,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_RADIATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_RADIATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ELECTROMAGNETIC_FIELD_SHIELDING</PrereqTech>
 			<iCost>905</iCost>
@@ -412,7 +402,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_FACTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_FACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SUPERFLUOUS_MANUFACTURING</PrereqTech>
 			<iCost>905</iCost>
@@ -455,7 +444,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_MINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_MINE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANET_EXTRACTION</PrereqTech>
 			<iCost>800</iCost>
@@ -487,7 +475,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_BIOFACTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_BIOFACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DYSTOPIA_PATHOGENS</PrereqTech>
 			<iCost>1577</iCost>
@@ -554,7 +541,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_HYDROPONICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_HYDROPONICS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SUPERFLUOUS_MANUFACTURING</PrereqTech>
 			<TechTypes>
@@ -609,7 +595,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_HITECH_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_HITECH</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ION_BEAMS</PrereqTech>
 			<iCost>1279</iCost>
@@ -649,7 +634,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_MAGLEV_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_MAGLEV</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SRAILS</PrereqTech>
 			<iCost>1144</iCost>
@@ -678,7 +662,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_CYCLER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_CYCLER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -705,7 +688,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_CYCLER_EFFECT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_CYCLER_EFFECT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_TRADE</PrereqTech>
 			<iCost>-1</iCost>
@@ -733,7 +715,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_CAVES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_CAVES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANET_COLONIZATION</PrereqTech>
 			<iCost>702</iCost>
@@ -767,7 +748,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_FUSION_PLANT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_FUSION_PLANT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_UNIFICATION_PHYSICS</PrereqTech>
 			<iCost>1921</iCost>
@@ -817,7 +797,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_WATER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_WATER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANET_EXTRACTION</PrereqTech>
 			<iCost>800</iCost>
@@ -846,7 +825,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_GEOLOGY_LAB_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_GEOLOGY_LAB</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANET_EXTRACTION</PrereqTech>
 			<iCost>800</iCost>
@@ -875,7 +853,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_ASTEROID_MINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_ASTEROID_MINE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANET_EXTRACTION</PrereqTech>
 			<iCost>-1</iCost>
@@ -899,7 +876,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_LFTR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_LFTR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SUPERFLUOUS_MANUFACTURING</PrereqTech>
 			<iCost>905</iCost>
@@ -930,7 +906,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_AREOTHERMAL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_AREOTHERMAL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANET_EXTRACTION</PrereqTech>
 			<iCost>800</iCost>
@@ -960,7 +935,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_TRADE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_TRADE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_TRADE</PrereqTech>
 			<iCost>1921</iCost>
@@ -988,7 +962,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_SEA_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_SEA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTROECOLOGY</PrereqTech>
 			<iCost>6372</iCost>
@@ -1048,7 +1021,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_MONUMENT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_MONUMENT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NOOGENESIS</PrereqTech>
 			<iCost>24466</iCost>
@@ -1096,7 +1068,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_CYBERNETIC_CHLOROPLAST_IMPORTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_CYBERNETIC_CHLOROPLAST_IMPORTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_TRADE</PrereqTech>
 			<iCost>1921</iCost>
@@ -1141,7 +1112,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_DEUTERIUM_EXPORTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_DEUTERIUM_EXPORTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_TRADE</PrereqTech>
 			<iCost>1921</iCost>
@@ -1173,7 +1143,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_DNT_IMPORTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_DNT_IMPORTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_TRADE</PrereqTech>
 			<iCost>1921</iCost>
@@ -1218,7 +1187,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_DEUTERIUM_MINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_DEUTERIUM_MINE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_UNIFICATION_PHYSICS</PrereqTech>
 			<iCost>1921</iCost>
@@ -1245,7 +1213,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_ENTERTAINMENT_COMPLEX_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_ENTERTAINMENT_COMPLEX</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NEURON_ENGINEERING</PrereqTech>
 			<iCost>1921</iCost>
@@ -1275,7 +1242,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_GOVERNMENT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_GOVERNMENT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_BINARYLEGISLATION</PrereqTech>
 			<iCost>1921</iCost>
@@ -1309,7 +1275,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_NOVUS_CHEMICAL_IMPORTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_NOVUS_CHEMICAL_IMPORTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_TRADE</PrereqTech>
 			<iCost>1921</iCost>
@@ -1354,7 +1319,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_RARE_MINERAL_EXPORTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_RARE_MINERAL_EXPORTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_TRADE</PrereqTech>
 			<iCost>1921</iCost>
@@ -1386,7 +1350,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_SIMULATED_WORLD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_SIMULATED_WORLD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SIMULATED_REALITY</PrereqTech>
 			<iCost>2110</iCost>
@@ -1423,7 +1386,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_SKYSCRAPER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_SKYSCRAPER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SUPERCHARGED_CRYSTALS</PrereqTech>
 			<iCost>1577</iCost>
@@ -1457,7 +1419,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_ALGAE_FARM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_ALGAE_FARM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DESIGNER_MICROBIOLOGY</PrereqTech>
 			<iCost>1577</iCost>
@@ -1493,7 +1454,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_BROADBAND_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_BROADBAND</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PHOTON_THERMODYNAMICS</PrereqTech>
 			<iCost>1144</iCost>
@@ -1530,7 +1490,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_ZOO_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_ZOO</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SPECULATIVE_PHYSIOLOGY</PrereqTech>
 			<iCost>3065</iCost>
@@ -1565,7 +1524,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_SKYHOOK_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_SKYHOOK</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_WEIGHTLESS_FLIGHT</PrereqTech>
 			<iCost>2317</iCost>
@@ -1610,7 +1568,6 @@
 			<Strategy>TXT_KEY_BUILDING_PHOBOS_INDUSTRIAL_COMPLEX_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PHOBOS_INDUSTRIAL_COMPLEX</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NANOMINING</PrereqTech>
 			<iCost>11175</iCost>
@@ -1638,7 +1595,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_SPACEPORT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_SPACEPORT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_KUIPER_BELT</PrereqTech>
 			<iCost>2110</iCost>
@@ -1664,7 +1620,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_VERTICAL_FARM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_VERTICAL_FARM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_BOTANICAL_ALCHEMY</PrereqTech>
 			<iCost>2544</iCost>
@@ -1716,7 +1671,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_FROST_CANNON_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_FROST_CANNON</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_FROST_BEAMS</PrereqTech>
 			<iCost>2110</iCost>
@@ -1748,7 +1702,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_HOTEL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_HOTEL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_VASIMR_PROPULSION</PrereqTech>
 			<iCost>7666</iCost>
@@ -1780,7 +1733,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_GARDEN_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_GARDEN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_QUADRUPLEHELIX</PrereqTech>
 			<iCost>2110</iCost>
@@ -1823,7 +1775,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_ECO_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_ECO</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_QUADRUPLEHELIX</PrereqTech>
 			<iCost>2110</iCost>
@@ -1860,7 +1811,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_ALBEDO_REDUCTION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_ALBEDO_REDUCTION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_APOCALYPTIC_PATHOGENS</PrereqTech>
 			<iCost>3065</iCost>
@@ -1887,7 +1837,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_AMMONIA_BOMBARDMENT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_AMMONIA_BOMBARDMENT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTEROID_EXTRACTION</PrereqTech>
 			<iCost>4032</iCost>
@@ -1919,7 +1868,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_CFC_GENERATOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_CFC_GENERATOR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_APOCALYPTIC_PATHOGENS</PrereqTech>
 			<iCost>3065</iCost>
@@ -1954,7 +1902,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_CO2_SUBLIMATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_CO2_SUBLIMATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTROECOLOGY</PrereqTech>
 			<iCost>6372</iCost>
@@ -1980,7 +1927,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_NOMAD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_NOMAD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ADVANCED_WARMACHINES</PrereqTech>
 			<iCost>3362</iCost>
@@ -2011,7 +1957,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_ECOPOIESIS_REACTOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_ECOPOIESIS_REACTOR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PARATERRAFORMING</PrereqTech>
 			<iCost>6372</iCost>
@@ -2055,7 +2000,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_MAGNETIC_FIELD_GENERATOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_MAGNETIC_FIELD_GENERATOR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_DEFENSES</PrereqTech>
 			<iCost>4032</iCost>
@@ -2094,7 +2038,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_MASS_DRIVER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_MASS_DRIVER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ADVANCED_WARMACHINES</PrereqTech>
 			<iCost>3362</iCost>
@@ -2131,7 +2074,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_ORBITAL_MIRROR_ARRAY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_ORBITAL_MIRROR_ARRAY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PHOTONIC_SATELLITES</PrereqTech>
 			<iCost>3362</iCost>
@@ -2158,7 +2100,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_FARM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_FARM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_EXTRATERRESTRIAL_AGRICULTURE</PrereqTech>
 			<iCost>5294</iCost>
@@ -2195,7 +2136,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_CLAYTRONIC_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_CLAYTRONIC_CITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ATTOMETER_NANOMORPHISM</PrereqTech>
 			<iCost>9246</iCost>
@@ -2223,7 +2163,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_STARPORT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_STARPORT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_FOLDING_SPACE</PrereqTech>
 			<iCost>18641</iCost>
@@ -2259,7 +2198,6 @@
 			<Strategy>TXT_KEY_BUILDING_URBAN_MARS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_URBAN_MARS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_MEGASTRUCTURES</PrereqTech>
 			<iCost>21176</iCost>
@@ -2308,7 +2246,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_TERRA_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_TERRA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_TERRAFORMING</PrereqTech>
 			<iCost>27966</iCost>
@@ -2371,7 +2308,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARS_TERRA_EFFECT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARS_TERRA_EFFECT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_TERRAFORMING</PrereqTech>
 			<iCost>-1</iCost>
@@ -2408,7 +2344,6 @@
 			<Strategy>TXT_KEY_BUILDING_RING_OF_MARS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_RING_OF_MARS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_MEGASTRUCTURES</PrereqTech>
 			<iCost>21176</iCost>
@@ -2454,7 +2389,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_DEFENSE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_DEFENSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_WEAPONIZED_DISINTEGRATION</PrereqTech>
 			<iCost>10158</iCost>
@@ -2486,7 +2420,6 @@
 			<Strategy>TXT_KEY_BUILDING_TERAVERSE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TERAVERSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MACROVERSE_TRAVERSAL</PrereqTech>
 			<iCost>11410</iCost>

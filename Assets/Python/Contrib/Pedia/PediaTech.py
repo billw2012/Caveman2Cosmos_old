@@ -134,7 +134,7 @@ class PediaTech:
 			szText += "%d" %iTradeRoutes + unichr(8860)
 		if szText:
 			screen.appendListBoxStringNoUpdate(Pnl, szfont3b + szText, eWidGen, 0, 0, 1<<2)
-			
+
 		iWorkerSpeedModifier = CvTheTechInfo.getWorkerSpeedModifier()
 		if iWorkerSpeedModifier:
 			if iWorkerSpeedModifier < 0:

@@ -52,7 +52,7 @@ class NaturalWonders:
 							if abs(pAdjacentPlot.getX() - pPlot.getX()) > 1: continue
 							if abs(pAdjacentPlot.getY() - pPlot.getY()) > 1: continue
 							if pAdjacentPlot.getBonusType(-1) > -1: continue
-							# if not bAllRevealed and pAdjacentPlot.isRevealed(-1, False): continue	
+							# if not bAllRevealed and pAdjacentPlot.isRevealed(-1, False): continue
 							bAdjacentPlot = True
 					if bUnsuitable: break
 				if bUnsuitable: continue
@@ -83,7 +83,7 @@ class NaturalWonders:
 							if x == pPlot.getX() and y == pPlot.getY(): continue
 							if pAdjacentPlot.canHaveFeature(iFeature):
 								if pAdjacentPlot.getBonusType(-1) > -1: continue
-								# if not bAllRevealed and pAdjacentPlot.isRevealed(-1, False): continue	
+								# if not bAllRevealed and pAdjacentPlot.isRevealed(-1, False): continue
 								AdjacentPlot.append(pAdjacentPlot)
 					if len(AdjacentPlot) == 0:
 						del WonderPlot[iWonderPlot]

@@ -84,7 +84,7 @@
 							<PlotCondition>
 								<Has>
 									<GOMType>GOM_IMPROVEMENT</GOMType>
-									<ID>IMPROVEMENT_INDIGENOUS_PEOPLE</ID>					
+									<ID>IMPROVEMENT_INDIGENOUS_PEOPLE</ID>
 								</Has>
 							</PlotCondition>
 						</Outcome>
@@ -101,7 +101,7 @@
 							<PlotCondition>
 								<Has>
 									<GOMType>GOM_IMPROVEMENT</GOMType>
-									<ID>IMPROVEMENT_INDIGENOUS_PEOPLE</ID>					
+									<ID>IMPROVEMENT_INDIGENOUS_PEOPLE</ID>
 								</Has>
 							</PlotCondition>
 						</Outcome>
@@ -170,8 +170,6 @@
 			</Actions>
 			-->
 		</UnitInfo>
-
-
 		<UnitInfo>
 			<Class>UNITCLASS_DIPLOMAT_EARLY</Class>
 			<Type>UNIT_DIPLOMAT_EARLY</Type>
@@ -226,7 +224,6 @@
 			<!--
 iCost>150</iCost
 			-->
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>1</iAsset>
 			<iPower>2</iPower>
@@ -305,7 +302,6 @@ iCost>150</iCost
 			<!--
 iCost>300</iCost
 			-->
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>3</iAsset>
 			<iPower>6</iPower>
@@ -379,7 +375,6 @@ iCost>300</iCost
 iCost>450</iCost
 			-->
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>3</iAsset>
 			<iPower>6</iPower>

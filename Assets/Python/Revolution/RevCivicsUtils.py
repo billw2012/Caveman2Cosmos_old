@@ -34,7 +34,7 @@ def initCivicsList( ) :
 	CvUtil.pyPrint("  Rev - Initializing Civics List")
 
 	global civicsList
-	
+
 	civicsList = list()
 
 	for i in range(0,gc.getNumCivicOptionInfos()) :

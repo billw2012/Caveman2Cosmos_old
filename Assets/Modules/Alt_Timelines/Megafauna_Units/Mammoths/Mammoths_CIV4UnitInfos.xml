@@ -88,7 +88,6 @@
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<iCost>105</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>8</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -228,7 +227,6 @@
 			<BonusType>BONUS_MAMMOTH</BonusType>
 			<iCost>140</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>6</iCombat>
 			<iXPValueAttack>10</iXPValueAttack>
@@ -252,7 +250,6 @@
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Class>UNITCLASS_WAR_MAMMOTH</Class>
 			<Type>UNIT_WAR_MAMMOTH</Type>
@@ -353,7 +350,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_WAR_MAMMOTH</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
 				<FreePromotion>
@@ -455,7 +451,6 @@
 			</TechTypes>
 			<BonusType>BONUS_MAMMOTH</BonusType>
 			<iCost>255</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -603,7 +598,6 @@
 				</And>
 			</TrainCondition>
 			<iCost>500</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>23</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -949,7 +943,6 @@
 				</ProductionTrait>
 			</ProductionTraits>
 			<iCost>170</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iWorkRate>250</iWorkRate>
 			<iAsset>3</iAsset>

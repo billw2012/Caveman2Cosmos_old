@@ -3,7 +3,7 @@
 ##
 ## TechConquest by Bhruic
 ## Updated by TheLopez
-## Updated by Dancing Hoskuld to allow language support 
+## Updated by Dancing Hoskuld to allow language support
 ##	see also EnhancedTechConquest game text xml file.
 ##
 from CvPythonExtensions import *
@@ -19,7 +19,7 @@ g_bCheckPrereq = True
 # Increase or decrease the value to change the base technology transfer percentage amount.
 g_iBasePercent = 0
 
-# Increase or decrease the value to change the percent amount per city 
+# Increase or decrease the value to change the percent amount per city
 # population that will be used to transfer technology to the new owners of the conquered city.
 g_iPopPercent = 2
 
@@ -150,4 +150,4 @@ class EnhancedTechConquest:
 				szText = TRNSLTR.getText("TXT_KEY_ENHANCED_TECH_CONQUEST_FAIL", ()) + " %s" %(CyCity.getName())
 
 			artPath = GC.getCivilizationInfo(CyPlayerO.getCivilizationType()).getButton()
-			CyInterface().addMessage(iOwnerNew, True, 20, szText, "", 0, artPath, ColorTypes(12), CyCity.getX(), CyCity.getY(), True, True) 
+			CyInterface().addMessage(iOwnerNew, True, 20, szText, "", 0, artPath, ColorTypes(12), CyCity.getX(), CyCity.getY(), True, True)

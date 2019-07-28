@@ -24,7 +24,7 @@
 	<ElementType name="OrDependencyTypes" content="eltOnly">
 		<element type="DependencyType" minOccurs="1"/>
 	</ElementType>
-<!-- XMLCOPY				END					MRGENIE		-->	
+<!-- XMLCOPY				END					MRGENIE		-->
 	<ElementType name="LSystem" content="textOnly"/>
 	<ElementType name="RouteType" content="textOnly"/>
 	<ElementType name="Path" content="textOnly"/>

@@ -10,7 +10,6 @@
 			<Help>TXT_KEY_BUILDING_EMANCIPATION_PROCLAMATION_HELP</Help>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_EMANCIPATION_PROCLAMATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -29,7 +28,6 @@
 			<Strategy>TXT_KEY_BUILDING_EMANCIPATION_PROCLAMATION_EFFECT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_EMANCIPATION_PROCLAMATION_EFFECT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -108,7 +106,7 @@
 					<bReplace>1</bReplace>
 				</ReplaceBuilding>
 			</ReplaceBuildings>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<Type>BUILDING_SLAVE_COMPOUND_MILITARY_SUPPORT</Type>
 			<AndDependencyTypes>
@@ -192,7 +190,7 @@
 					<bReplace>1</bReplace>
 				</ReplaceBuilding>
 			</ReplaceBuildings>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<Type>BUILDING_WV_HUMAN_SACRIFICE</Type>
 			<AndDependencyTypes>

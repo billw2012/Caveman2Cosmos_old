@@ -18,7 +18,6 @@
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_BLACK_RHINO</Type>
 			<AndDependencyTypes>
@@ -83,7 +82,6 @@
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_ELASMOTHERIUM</Type>
 			<AndDependencyTypes>

@@ -58724,7 +58724,7 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Units/HorseArcher_Roman/Horse_Archer_Roman.nif</NIF>
 			<KFM>Art/Units/HorseArcher_Roman/Horse_Archer_Roman.kfm</KFM>
-			<SHADERNIF>Art/Units/HorseArcher_Roman/Horse_Archer_Roman_FX.nif</SHADERNIF>	
+			<SHADERNIF>Art/Units/HorseArcher_Roman/Horse_Archer_Roman_FX.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
@@ -59546,7 +59546,7 @@
 			<fRangedDeathTime>0.31</fRangedDeathTime>
 			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
 		</UnitArtInfo>
-		
+
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_TOWN_WATCHMEN_ROME</Type>
 			<Button>Art/Interface/Buttons/Units/sparth/town_watchman.dds</Button>

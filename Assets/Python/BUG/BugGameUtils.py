@@ -401,7 +401,7 @@ class GameUtilsHandler(BugConfig.Handler):
 							try:
 								func = BugUtil.bindFunction(utils, listener)
 							except BugUtil.ConfigError:
-								raise BugUtil.ConfigError("Game utils %s.%s must define function %s or %s", 
+								raise BugUtil.ConfigError("Game utils %s.%s must define function %s or %s",
 										module, clazz, listener, listener + "Listener")
 						addListener(func, log)
 			else:

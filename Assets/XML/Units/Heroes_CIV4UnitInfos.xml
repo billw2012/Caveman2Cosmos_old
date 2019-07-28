@@ -93,7 +93,6 @@
 			</TechTypes>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>6</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -180,7 +179,6 @@
 			</UnitAIs>
 			<PrereqTech>TECH_WRITING</PrereqTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>6</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -302,7 +300,6 @@
 			</TechTypes>
 			<BonusType>BONUS_AZTEC</BonusType>
 			<iCost>750</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -392,7 +389,6 @@
 			</TechTypes>
 			<BonusType>BONUS_AZTEC</BonusType>
 			<iCost>750</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -503,7 +499,6 @@
 			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<BonusType>BONUS_INCAN</BonusType>
 			<iCost>900</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -598,7 +593,6 @@
 			</TechTypes>
 			<BonusType>BONUS_INCAN</BonusType>
 			<iCost>1750</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>19</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -726,7 +720,6 @@
 			<PrereqTech>TECH_REPRESENTATIVE_DEMOCRACY</PrereqTech>
 			<BonusType>BONUS_AMERICAN</BonusType>
 			<iCost>2300</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>18</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -815,7 +808,6 @@
 			<PrereqTech>TECH_INDUSTRIALISM</PrereqTech>
 			<BonusType>BONUS_AMERICAN</BonusType>
 			<iCost>3800</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>44</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -929,7 +921,6 @@
 			</TechTypes>
 			<BonusType>BONUS_ROMAN</BonusType>
 			<iCost>700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -1056,7 +1047,6 @@
 			</TechTypes>
 			<BonusType>BONUS_ROMAN</BonusType>
 			<iCost>800</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -1207,7 +1197,6 @@
 			<PrereqTech>TECH_WRITING</PrereqTech>
 			<BonusType>BONUS_GREEK</BonusType>
 			<iCost>700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -1349,7 +1338,6 @@
 			</TechTypes>
 			<BonusType>BONUS_EGYPTIAN</BonusType>
 			<iCost>700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -1461,7 +1449,6 @@
 			<PrereqTech>TECH_WRITING</PrereqTech>
 			<BonusType>BONUS_EGYPTIAN</BonusType>
 			<iCost>700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -1581,7 +1568,6 @@
 			</TechTypes>
 			<BonusType>BONUS_SPANISH</BonusType>
 			<iCost>1200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -1700,7 +1686,6 @@
 			</TechTypes>
 			<BonusType>BONUS_SPANISH</BonusType>
 			<iCost>1650</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -1848,7 +1833,6 @@
 			</TechTypes>
 			<BonusType>BONUS_FRENCH</BonusType>
 			<iCost>1650</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>18</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -1945,7 +1929,6 @@
 			</TechTypes>
 			<BonusType>BONUS_FRENCH</BonusType>
 			<iCost>1750</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -2089,7 +2072,6 @@
 			</TechTypes>
 			<BonusType>BONUS_ENGLISH</BonusType>
 			<iCost>1700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>19</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -2200,7 +2182,6 @@
 			<PrereqTech>TECH_YEOMANRY</PrereqTech>
 			<BonusType>BONUS_ENGLISH</BonusType>
 			<iCost>1300</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -2348,7 +2329,6 @@
 			<PrereqTech>TECH_NATIONALISM</PrereqTech>
 			<BonusType>BONUS_GERMAN</BonusType>
 			<iCost>2200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -2443,7 +2423,6 @@
 			</TechTypes>
 			<BonusType>BONUS_GERMAN</BonusType>
 			<iCost>3800</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>44</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -2575,7 +2554,6 @@
 			<PrereqTech>TECH_UTOPIA</PrereqTech>
 			<BonusType>BONUS_RUSSIAN</BonusType>
 			<iCost>4000</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>32</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -2683,7 +2661,6 @@
 			<PrereqTech>TECH_GUILDS</PrereqTech>
 			<BonusType>BONUS_RUSSIAN</BonusType>
 			<iCost>1350</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -2821,7 +2798,6 @@
 			<PrereqTech>TECH_EDUCATION</PrereqTech>
 			<BonusType>BONUS_ARABIAN</BonusType>
 			<iCost>1500</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -2920,7 +2896,6 @@
 			<PrereqTech>TECH_EDUCATION</PrereqTech>
 			<BonusType>BONUS_ARABIAN</BonusType>
 			<iCost>1500</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>14</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -3059,7 +3034,6 @@
 			</TechTypes>
 			<BonusType>BONUS_PERSIAN</BonusType>
 			<iCost>1200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -3184,7 +3158,6 @@
 			</TechTypes>
 			<BonusType>BONUS_PERSIAN</BonusType>
 			<iCost>900</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -3322,7 +3295,6 @@
 			</TechTypes>
 			<BonusType>BONUS_INDIAN</BonusType>
 			<iCost>1050</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -3455,7 +3427,6 @@
 			</TechTypes>
 			<BonusType>BONUS_INDIAN</BonusType>
 			<iCost>2500</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>20</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -3598,7 +3569,6 @@
 			</TechTypes>
 			<BonusType>BONUS_CHINESE</BonusType>
 			<iCost>1640</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>18</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -3731,7 +3701,6 @@
 			</TechTypes>
 			<BonusType>BONUS_CHINESE</BonusType>
 			<iCost>1000</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -3878,7 +3847,6 @@
 			<PrereqTech>TECH_EDUCATION</PrereqTech>
 			<BonusType>BONUS_JAPANESE</BonusType>
 			<iCost>1500</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>19</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -4011,7 +3979,6 @@
 			</TechTypes>
 			<BonusType>BONUS_JAPANESE</BonusType>
 			<iCost>3800</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>43</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -4160,7 +4127,6 @@
 			</TechTypes>
 			<BonusType>BONUS_MONGOLIAN</BonusType>
 			<iCost>1200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>18</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -4291,7 +4257,6 @@
 			</TechTypes>
 			<BonusType>BONUS_MONGOLIAN</BonusType>
 			<iCost>1200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>20</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -4444,7 +4409,6 @@
 			</TechTypes>
 			<BonusType>BONUS_MALINESE</BonusType>
 			<iCost>1100</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -4570,7 +4534,6 @@
 			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<BonusType>BONUS_MALINESE</BonusType>
 			<iCost>900</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>13</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -4713,7 +4676,6 @@
 			<PrereqTech>TECH_WRITING</PrereqTech>
 			<BonusType>BONUS_CARTHAGINIAN</BonusType>
 			<iCost>700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -4819,7 +4781,6 @@
 			</TechTypes>
 			<BonusType>BONUS_CARTHAGINIAN</BonusType>
 			<iCost>850</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -4976,7 +4937,6 @@
 			<BonusType>BONUS_CELTIC</BonusType>
 			<iCost>950</iCost>
 			<iHurryCostModifier>25</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -5111,7 +5071,6 @@
 			<PrereqTech>TECH_FEUDALISM</PrereqTech>
 			<BonusType>BONUS_CELTIC</BonusType>
 			<iCost>1250</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -5361,7 +5320,6 @@
 			</TechTypes>
 			<BonusType>BONUS_VIKING</BonusType>
 			<iCost>1200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -5513,7 +5471,6 @@
 			</TechTypes>
 			<BonusType>BONUS_OTTOMAN</BonusType>
 			<iCost>1750</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -5640,7 +5597,6 @@
 			</TechTypes>
 			<BonusType>BONUS_OTTOMAN</BonusType>
 			<iCost>1650</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>19</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -5792,7 +5748,6 @@
 			</TechTypes>
 			<BonusType>BONUS_KOREAN</BonusType>
 			<iCost>950</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -5917,7 +5872,6 @@
 			</TechTypes>
 			<BonusType>BONUS_KOREAN</BonusType>
 			<iCost>1700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>20</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -6037,7 +5991,6 @@
 			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
 			<BonusType>BONUS_SOUTHAFRICAN</BonusType>
 			<iCost>4720</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>42</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -6161,7 +6114,6 @@
 			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
 			<BonusType>BONUS_ZULU</BonusType>
 			<iCost>2500</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>34</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -6306,7 +6258,6 @@
 			</TechTypes>
 			<BonusType>BONUS_IROQUOIS</BonusType>
 			<iCost>1650</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>18</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -6431,7 +6382,6 @@
 			</TechTypes>
 			<BonusType>BONUS_IROQUOIS</BonusType>
 			<iCost>1000</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -6580,7 +6530,6 @@
 			</TechTypes>
 			<BonusType>BONUS_MAYAN</BonusType>
 			<iCost>950</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -6710,7 +6659,6 @@
 			</TechTypes>
 			<BonusType>BONUS_MAYAN</BonusType>
 			<iCost>2200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>19</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -6857,7 +6805,6 @@
 			</TechTypes>
 			<BonusType>BONUS_BYZANTINE</BonusType>
 			<iCost>1200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -6993,7 +6940,6 @@
 			</TechTypes>
 			<BonusType>BONUS_BYZANTINE</BonusType>
 			<iCost>2200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>19</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -7145,7 +7091,6 @@
 			</TechTypes>
 			<BonusType>BONUS_PORTUGUESE</BonusType>
 			<iCost>1520</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>19</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -7272,7 +7217,6 @@
 			<PrereqTech>TECH_HERALDRY</PrereqTech>
 			<BonusType>BONUS_PORTUGUESE</BonusType>
 			<iCost>1350</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -7419,7 +7363,6 @@
 			</TechTypes>
 			<BonusType>BONUS_DUTCH</BonusType>
 			<iCost>2500</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>19</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -7547,7 +7490,6 @@
 			<PrereqTech>TECH_MERCANTILISM</PrereqTech>
 			<BonusType>BONUS_DUTCH</BonusType>
 			<iCost>1800</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -7688,7 +7630,6 @@
 			</TechTypes>
 			<BonusType>BONUS_BABYLONIAN</BonusType>
 			<iCost>950</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -7815,7 +7756,6 @@
 			</TechTypes>
 			<BonusType>BONUS_BABYLONIAN</BonusType>
 			<iCost>850</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -7938,7 +7878,6 @@
 			<PrereqTech>TECH_WRITING</PrereqTech>
 			<BonusType>BONUS_SUMERIAN</BonusType>
 			<iCost>700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -8042,7 +7981,6 @@
 			</TechTypes>
 			<BonusType>BONUS_AKKAD</BonusType>
 			<iCost>850</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -8168,7 +8106,6 @@
 			</TechTypes>
 			<BonusType>BONUS_KHMER</BonusType>
 			<iCost>1100</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>15</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -8271,7 +8208,6 @@
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<BonusType>BONUS_KHMER</BonusType>
 			<iCost>1200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -8389,7 +8325,6 @@
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<BonusType>BONUS_ETHIOPIAN</BonusType>
 			<iCost>1200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -8478,7 +8413,6 @@
 			<PrereqTech>TECH_RAILROAD</PrereqTech>
 			<BonusType>BONUS_ETHIOPIAN</BonusType>
 			<iCost>2620</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>33</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -8612,7 +8546,6 @@
 			<PrereqTech>TECH_WRITING</PrereqTech>
 			<BonusType>BONUS_POLYNESIAN</BonusType>
 			<iCost>700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -8702,7 +8635,6 @@
 			</TechTypes>
 			<BonusType>BONUS_POLYNESIAN</BonusType>
 			<iCost>1330</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -8866,7 +8798,6 @@
 			</TechTypes>
 			<BonusType>BONUS_BRAZILIAN</BonusType>
 			<iCost>2050</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>19</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -9000,7 +8931,6 @@
 			<PrereqTech>TECH_STEEL</PrereqTech>
 			<BonusType>BONUS_BRAZILIAN</BonusType>
 			<iCost>3000</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>33</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -9242,7 +9172,6 @@
 			<PrereqTech>TECH_MILITARY_TRADITION</PrereqTech>
 			<BonusType>BONUS_VENEZUELAN</BonusType>
 			<iCost>2300</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>19</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -9404,7 +9333,6 @@
 			</TechTypes>
 			<BonusType>BONUS_ISRAELI</BonusType>
 			<iCost>750</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -9530,7 +9458,6 @@
 			<PrereqTech>TECH_MONOTHEISM</PrereqTech>
 			<BonusType>BONUS_ISRAELI</BonusType>
 			<iCost>750</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -9691,7 +9618,6 @@
 			</TechTypes>
 			<BonusType>BONUS_POLISH</BonusType>
 			<iCost>1200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -9816,7 +9742,6 @@
 			<PrereqTech>TECH_HERALDRY</PrereqTech>
 			<BonusType>BONUS_POLISH</BonusType>
 			<iCost>1300</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -9980,7 +9905,6 @@
 			</TechTypes>
 			<BonusType>BONUS_TURKMEN</BonusType>
 			<iCost>1700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>18</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -10115,7 +10039,6 @@
 			</TechTypes>
 			<BonusType>BONUS_TURKMEN</BonusType>
 			<iCost>1650</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>20</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -10270,7 +10193,6 @@
 			</TechTypes>
 			<BonusType>BONUS_TIBETAN</BonusType>
 			<iCost>850</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -10400,7 +10322,6 @@
 			</TechTypes>
 			<BonusType>BONUS_TIBETAN</BonusType>
 			<iCost>1200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -10558,7 +10479,6 @@
 			<PrereqTech>TECH_STEEL</PrereqTech>
 			<BonusType>BONUS_VIETNAMESE</BonusType>
 			<iCost>3000</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>32</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -10692,7 +10612,6 @@
 			<PrereqTech>TECH_GUERRILLA_WARFARE</PrereqTech>
 			<BonusType>BONUS_VIETNAMESE</BonusType>
 			<iCost>4120</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -10849,7 +10768,6 @@
 			</TechTypes>
 			<BonusType>BONUS_INDONESIAN</BonusType>
 			<iCost>1200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -11089,7 +11007,6 @@
 			</TechTypes>
 			<BonusType>BONUS_NUBIAN</BonusType>
 			<iCost>800</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -11243,7 +11160,6 @@
 			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<BonusType>BONUS_SWAHILI</BonusType>
 			<iCost>900</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>15</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -11379,7 +11295,6 @@
 			</TechTypes>
 			<BonusType>BONUS_SWAHILI</BonusType>
 			<iCost>1520</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>20</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -11534,7 +11449,6 @@
 			</TechTypes>
 			<BonusType>BONUS_AUSTRIAN</BonusType>
 			<iCost>1750</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>19</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -11669,7 +11583,6 @@
 			</TechTypes>
 			<BonusType>BONUS_AUSTRIAN</BonusType>
 			<iCost>2150</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>19</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -11823,7 +11736,6 @@
 			<PrereqTech>TECH_WRITING</PrereqTech>
 			<BonusType>BONUS_HITTITE</BonusType>
 			<iCost>700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -11956,7 +11868,6 @@
 			<PrereqTech>TECH_WRITING</PrereqTech>
 			<BonusType>BONUS_HITTITE</BonusType>
 			<iCost>700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -12112,7 +12023,6 @@
 			</TechTypes>
 			<BonusType>BONUS_UIGHUR</BonusType>
 			<iCost>2200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>18</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -12246,7 +12156,6 @@
 			</TechTypes>
 			<BonusType>BONUS_UIGHUR</BonusType>
 			<iCost>1200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -12404,7 +12313,6 @@
 			</TechTypes>
 			<BonusType>BONUS_PHOENICAN</BonusType>
 			<iCost>850</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -12535,7 +12443,6 @@
 			</TechTypes>
 			<BonusType>BONUS_PHOENICAN</BonusType>
 			<iCost>850</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -12688,7 +12595,6 @@
 			<PrereqTech>TECH_ARTILLERY</PrereqTech>
 			<BonusType>BONUS_CANADIAN</BonusType>
 			<iCost>3300</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>33</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -12818,7 +12724,6 @@
 			</TechTypes>
 			<BonusType>BONUS_CANADIAN</BonusType>
 			<iCost>2150</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>19</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -12969,7 +12874,6 @@
 			<PrereqTech>TECH_NATIONALISM</PrereqTech>
 			<BonusType>BONUS_AUSTRALIAN</BonusType>
 			<iCost>2200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>32</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -13096,7 +13000,6 @@
 			<PrereqTech>TECH_ASSEMBLY_LINE</PrereqTech>
 			<BonusType>BONUS_AUSTRALIAN</BonusType>
 			<iCost>2850</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>34</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -13250,7 +13153,6 @@
 			<PrereqTech>TECH_NATIONALISM</PrereqTech>
 			<BonusType>BONUS_SIAMESE</BonusType>
 			<iCost>2200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>32</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -13384,7 +13286,6 @@
 			</TechTypes>
 			<BonusType>BONUS_SIAMESE</BonusType>
 			<iCost>1750</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -13506,7 +13407,6 @@
 			</TechTypes>
 			<BonusType>BONUS_CHOLA</BonusType>
 			<iCost>1050</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -13633,7 +13533,6 @@
 			</TechTypes>
 			<BonusType>BONUS_CHOLA</BonusType>
 			<iCost>1750</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -13789,7 +13688,6 @@
 			</TechTypes>
 			<BonusType>BONUS_HAUSA</BonusType>
 			<iCost>1100</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -13917,7 +13815,6 @@
 			<PrereqTech>TECH_EDUCATION</PrereqTech>
 			<BonusType>BONUS_HAUSA</BonusType>
 			<iCost>1500</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>19</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -14072,7 +13969,6 @@
 			</TechTypes>
 			<BonusType>BONUS_KONGOLESE</BonusType>
 			<iCost>1200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -14199,7 +14095,6 @@
 			</TechTypes>
 			<BonusType>BONUS_KONGOLESE</BonusType>
 			<iCost>1750</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>19</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -14355,7 +14250,6 @@
 			</TechTypes>
 			<BonusType>BONUS_HOLYROMAN</BonusType>
 			<iCost>1650</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>18</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -14481,7 +14375,6 @@
 			</TechTypes>
 			<BonusType>BONUS_VENICE</BonusType>
 			<iCost>1500</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -14640,7 +14533,6 @@
 			</TechTypes>
 			<BonusType>BONUS_BERBER</BonusType>
 			<iCost>1300</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>15</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -14770,7 +14662,6 @@
 			</TechTypes>
 			<BonusType>BONUS_BERBER</BonusType>
 			<iCost>1200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -14924,7 +14815,6 @@
 			</TechTypes>
 			<BonusType>BONUS_ASSYRIAN</BonusType>
 			<iCost>800</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -15051,7 +14941,6 @@
 			</TechTypes>
 			<BonusType>BONUS_ASSYRIAN</BonusType>
 			<iCost>850</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -15202,7 +15091,6 @@
 			<PrereqTech>TECH_NATIONALISM</PrereqTech>
 			<BonusType>BONUS_HUNGARIAN</BonusType>
 			<iCost>2200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>15</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -15335,7 +15223,6 @@
 			<PrereqTech>TECH_FEUDALISM</PrereqTech>
 			<BonusType>BONUS_HUNGARIAN</BonusType>
 			<iCost>1250</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -15488,7 +15375,6 @@
 			<PrereqTech>TECH_WRITING</PrereqTech>
 			<BonusType>BONUS_MINOAN</BonusType>
 			<iCost>700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -15620,7 +15506,6 @@
 			<PrereqTech>TECH_WRITING</PrereqTech>
 			<BonusType>BONUS_MINOAN</BonusType>
 			<iCost>700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -15772,7 +15657,6 @@
 			<PrereqTech>TECH_ARMORED_CAVALRY</PrereqTech>
 			<BonusType>BONUS_ARMENIAN</BonusType>
 			<iCost>1400</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -15900,7 +15784,6 @@
 			<PrereqTech>TECH_ARMORED_CAVALRY</PrereqTech>
 			<BonusType>BONUS_ARMENIAN</BonusType>
 			<iCost>1400</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -16021,7 +15904,6 @@
 			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<BonusType>BONUS_SAXON</BonusType>
 			<iCost>900</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -16291,7 +16173,6 @@
 			<PrereqTech>TECH_WRITING</PrereqTech>
 			<BonusType>BONUS_ARAWAK</BonusType>
 			<iCost>700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -16426,7 +16307,6 @@
 			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<BonusType>BONUS_CHINESE</BonusType>
 			<iCost>900</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -16522,7 +16402,6 @@
 			</Flavors>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>9</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -16635,7 +16514,6 @@
 			</PrereqBonuses>
 			<iCost>750</iCost>
 			<iHurryCostModifier>200</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>9</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -16788,7 +16666,6 @@
 			<PrereqTech>TECH_HOT_AIR_BALLOON</PrereqTech>
 			<BonusType>BONUS_MEXICAN</BonusType>
 			<iCost>2200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>27</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -16991,7 +16868,6 @@
 			</TechTypes>
 			<BonusType>BONUS_COMANCHE</BonusType>
 			<iCost>2150</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>26</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -17086,7 +16962,6 @@
 			<BonusType>BONUS_ENGLISH</BonusType>
 			<iCost>3100</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>10</iCombat>
 			<iExtraCost>2</iExtraCost>
@@ -17230,7 +17105,6 @@
 			</TechTypes>
 			<BonusType>BONUS_MEXICAN</BonusType>
 			<iCost>2150</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>19</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -17352,7 +17226,6 @@
 			<PrereqTech>TECH_RITUALISM</PrereqTech>
 			<BonusType>BONUS_ABORIGINE</BonusType>
 			<iCost>150</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>3</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -17472,7 +17345,6 @@
 			</TechTypes>
 			<BonusType>BONUS_NAVAJO</BonusType>
 			<iCost>1000</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -17599,7 +17471,6 @@
 			</TechTypes>
 			<BonusType>BONUS_MEXICAN</BonusType>
 			<iCost>2150</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>19</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -17724,7 +17595,6 @@
 				<BonusType>BONUS_IRON</BonusType>
 			</PrereqBonuses>
 			<iCost>800</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>5</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -17879,7 +17749,6 @@
 			<PrereqTech>TECH_FLINTLOCK</PrereqTech>
 			<BonusType>BONUS_APACHE</BonusType>
 			<iCost>1800</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>24</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -18022,7 +17891,6 @@
 			<PrereqTech>TECH_MATCHLOCK</PrereqTech>
 			<BonusType>BONUS_APACHE</BonusType>
 			<iCost>1700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>18</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -18136,7 +18004,6 @@
 			<PrereqTech>TECH_ARCHERY</PrereqTech>
 			<BonusType>BONUS_ARAWAK</BonusType>
 			<iCost>500</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -18247,7 +18114,6 @@
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 			<BonusType>BONUS_ANASAZI</BonusType>
 			<iCost>600</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -18359,7 +18225,6 @@
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
 			<BonusType>BONUS_BLACKFOOT</BonusType>
 			<iCost>1650</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>33</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -18470,7 +18335,6 @@
 			<PrereqTech>TECH_VASSALAGE</PrereqTech>
 			<BonusType>BONUS_BENGALI</BonusType>
 			<iCost>1200</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -18585,7 +18449,6 @@
 			<PrereqTech>TECH_ARMOR_CRAFTING</PrereqTech>
 			<BonusType>BONUS_DENMARK</BonusType>
 			<iCost>1400</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -18702,7 +18565,6 @@
 			<PrereqTech>TECH_ARMOR_CRAFTING</PrereqTech>
 			<BonusType>BONUS_HOLYROMAN</BonusType>
 			<iCost>1400</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -18812,7 +18674,6 @@
 			<PrereqTech>TECH_WRITING</PrereqTech>
 			<BonusType>BONUS_LYDIAN</BonusType>
 			<iCost>700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -18923,7 +18784,6 @@
 			<PrereqTech>TECH_DIVINE_RIGHT</PrereqTech>
 			<BonusType>BONUS_KANEMBORNU</BonusType>
 			<iCost>1750</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -19033,7 +18893,6 @@
 			<PrereqTech>TECH_FEUDALISM</PrereqTech>
 			<BonusType>BONUS_BASQUE</BonusType>
 			<iCost>1250</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -19142,7 +19001,6 @@
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 			<BonusType>BONUS_ANASAZI</BonusType>
 			<iCost>600</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -19261,7 +19119,6 @@
 			<PrereqTech>TECH_CONSTITUTION</PrereqTech>
 			<BonusType>BONUS_ARGENTINIAN</BonusType>
 			<iCost>2150</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>33</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -19371,7 +19228,6 @@
 			<PrereqTech>TECH_FASCISM</PrereqTech>
 			<BonusType>BONUS_ARGENTINIAN</BonusType>
 			<iCost>4000</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>44</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -19481,9 +19337,8 @@
 			<PrereqTech>TECH_HUNTING</PrereqTech>
 			<BonusType>BONUS_AKA</BonusType>
 			<iCost>150</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
-			<iCombat>11</iCombat>
+			<iCombat>4</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
 			<iConscription>2</iConscription>
@@ -19590,9 +19445,8 @@
 			<PrereqTech>TECH_HUNTING</PrereqTech>
 			<BonusType>BONUS_AINU</BonusType>
 			<iCost>150</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
-			<iCombat>11</iCombat>
+			<iCombat>4</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
 			<iConscription>2</iConscription>
@@ -19701,7 +19555,6 @@
 			<PrereqTech>TECH_CONSTITUTION</PrereqTech>
 			<BonusType>BONUS_GREEK</BonusType>
 			<iCost>2150</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>32</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -19821,7 +19674,6 @@
 			<PrereqTech>TECH_MOUNTED_ARCHERY</PrereqTech>
 			<BonusType>BONUS_BULGARIAN</BonusType>
 			<iCost>950</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -19940,7 +19792,6 @@
 			<PrereqTech>TECH_ECONOMICS</PrereqTech>
 			<BonusType>BONUS_BELGIAN</BonusType>
 			<iCost>2150</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>33</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -20051,7 +19902,6 @@
 			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
 			<BonusType>BONUS_BELGIAN</BonusType>
 			<iCost>2500</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>33</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -20162,7 +20012,6 @@
 			<PrereqTech>TECH_MONARCHY</PrereqTech>
 			<BonusType>BONUS_SUMERIAN</BonusType>
 			<iCost>800</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -20275,7 +20124,6 @@
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<BonusType>BONUS_BLACKFOOT</BonusType>
 			<iCost>2150</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>33</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -20385,7 +20233,6 @@
 			<PrereqTech>TECH_WRITING</PrereqTech>
 			<BonusType>BONUS_AKKAD</BonusType>
 			<iCost>700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -20496,7 +20343,6 @@
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
 			<BonusType>BONUS_ASHANTI</BonusType>
 			<iCost>1650</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>25</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -20607,7 +20453,6 @@
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
 			<BonusType>BONUS_BENIN</BonusType>
 			<iCost>1650</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>25</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -20718,7 +20563,6 @@
 			<PrereqTech>TECH_DEMOCRACY</PrereqTech>
 			<BonusType>BONUS_ATHENS</BonusType>
 			<iCost>950</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -20831,7 +20675,6 @@
 			<PrereqTech>TECH_FLINTLOCK</PrereqTech>
 			<BonusType>BONUS_TAHITI</BonusType>
 			<iCost>1800</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -20942,7 +20785,6 @@
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<BonusType>BONUS_ASHANTI</BonusType>
 			<iCost>2150</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>33</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -21059,7 +20901,6 @@
 			<PrereqTech>TECH_HORSE_BREEDING</PrereqTech>
 			<BonusType>BONUS_BASQUE</BonusType>
 			<iCost>900</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -21168,7 +21009,6 @@
 			<PrereqTech>TECH_WARFARE</PrereqTech>
 			<BonusType>BONUS_ABORIGINE</BonusType>
 			<iCost>300</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>3</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -21280,7 +21120,6 @@
 			<PrereqTech>TECH_ARCHERY</PrereqTech>
 			<BonusType>BONUS_AINU</BonusType>
 			<iCost>500</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -21397,7 +21236,6 @@
 			<PrereqTech>TECH_FEUDALISM</PrereqTech>
 			<BonusType>BONUS_BULGARIAN</BonusType>
 			<iCost>1250</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -21508,7 +21346,6 @@
 			<PrereqTech>TECH_CHIVALRY</PrereqTech>
 			<BonusType>BONUS_BENGALI</BonusType>
 			<iCost>1500</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>17</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -21619,7 +21456,6 @@
 			<PrereqTech>TECH_ANIMAL_RIDING</PrereqTech>
 			<BonusType>BONUS_ROXOLANI</BonusType>
 			<iCost>400</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -21728,7 +21564,6 @@
 			<PrereqTech>TECH_DEMOCRACY</PrereqTech>
 			<BonusType>BONUS_ATHENS</BonusType>
 			<iCost>950</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -21838,9 +21673,8 @@
 			<PrereqTech>TECH_HUNTING</PrereqTech>
 			<BonusType>BONUS_AKA</BonusType>
 			<iCost>150</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
-			<iCombat>11</iCombat>
+			<iCombat>4</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
 			<iConscription>2</iConscription>
@@ -22067,7 +21901,6 @@
 			<PrereqTech>TECH_CLOUD_PATTERNS</PrereqTech>
 			<BonusType>BONUS_AYMARA</BonusType>
 			<iCost>800</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -22183,7 +22016,6 @@
 			<PrereqTech>TECH_MILITARY_TRAINING</PrereqTech>
 			<BonusType>BONUS_GOTH</BonusType>
 			<iCost>850</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>12</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -22310,7 +22142,6 @@
 			<PrereqTech>TECH_FEUDALISM</PrereqTech>
 			<BonusType>BONUS_BENIN</BonusType>
 			<iCost>1250</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -22430,7 +22261,6 @@
 			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
 			<BonusType>BONUS_MUGHAL</BonusType>
 			<iCost>1300</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>20</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -22553,7 +22383,6 @@
 			<PrereqTech>TECH_POISON_CRAFTING</PrereqTech>
 			<BonusType>BONUS_TUPI</BonusType>
 			<iCost>150</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>11</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -23360,7 +23189,7 @@
 					<UnitAIType>UNITAI_CITY_COUNTER</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
-			</UnitAIs>			
+			</UnitAIs>
 			<GreatPeoples>
 				<GreatPeople>
 					<GreatPeopleType>SPECIALIST_CITIZEN</GreatPeopleType>
@@ -38256,7 +38085,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_JOSE_MUJICA</Class>
 			<Type>UNIT_JOSE_MUJICA</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -38384,7 +38213,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_ORANG_KAYA</Class>
 			<Type>UNIT_ORANG_KAYA</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -38518,7 +38347,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_SHAYBANI</Class>
 			<Type>UNIT_SHAYBANI</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -38670,7 +38499,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_PASTENE</Class>
 			<Type>UNIT_PASTENE</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -38822,7 +38651,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_JOHN_FRUM</Class>
 			<Type>UNIT_JOHN_FRUM</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -38938,7 +38767,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_MUHAMMAD_BIN_SAUD</Class>
 			<Type>UNIT_MUHAMMAD_BIN_SAUD</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -39097,7 +38926,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_VLAD_III_DRACULA</Class>
 			<Type>UNIT_VLAD_III_DRACULA</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -39207,7 +39036,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_GENSERIC</Class>
 			<Type>UNIT_GENSERIC</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -39323,7 +39152,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_NORBERTO_ROMUALDEZ</Class>
 			<Type>UNIT_NORBERTO_ROMUALDEZ</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -39435,7 +39264,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_PAAKA</Class>
 			<Type>UNIT_PAAKA</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -39547,7 +39376,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_OJANA</Class>
 			<Type>UNIT_OJANA</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -39675,7 +39504,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_RAM_MOHAN_ROY</Class>
 			<Type>UNIT_RAM_MOHAN_ROY</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -39834,7 +39663,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_GUAJIRO</Class>
 			<Type>UNIT_GUAJIRO</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -39993,7 +39822,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_YU_THE_GREAT</Class>
 			<Type>UNIT_YU_THE_GREAT</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -40103,7 +39932,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_TUOBA_LIWEI</Class>
 			<Type>UNIT_TUOBA_LIWEI</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -40260,7 +40089,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_HUYAN_ZHUO</Class>
 			<Type>UNIT_HUYAN_ZHUO</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -40389,7 +40218,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_CRISTINA_CALDERON</Class>
 			<Type>UNIT_CRISTINA_CALDERON</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -40517,7 +40346,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_YAWAR_RUNA</Class>
 			<Type>UNIT_YAWAR_RUNA</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -40639,7 +40468,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_TUXAWA</Class>
 			<Type>UNIT_TUXAWA</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -40799,7 +40628,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_ARWA_AL_SULAYHI</Class>
 			<Type>UNIT_ARWA_AL_SULAYHI</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -40956,7 +40785,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_MANDAWUY_YUNUPINGU</Class>
 			<Type>UNIT_MANDAWUY_YUNUPINGU</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -41072,7 +40901,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_SAID_BIN_SULTAN</Class>
 			<Type>UNIT_SAID_BIN_SULTAN</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -41190,7 +41019,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_SALAWAT_YULAYEV</Class>
 			<Type>UNIT_SALAWAT_YULAYEV</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -41308,7 +41137,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_PACHECO</Class>
 			<Type>UNIT_PACHECO</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -41396,7 +41225,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_MATOPE</Class>
 			<Type>UNIT_MATOPE</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -41506,7 +41335,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_LUTAKAWI</Class>
 			<Type>UNIT_LUTAKAWI</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -41622,7 +41451,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_JULIUS_CIVILIS</Class>
 			<Type>UNIT_JULIUS_CIVILIS</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -41732,7 +41561,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_STAMAN</Class>
 			<Type>UNIT_STAMAN</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -41884,7 +41713,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_HENRY_THE_LION</Class>
 			<Type>UNIT_HENRY_THE_LION</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -42013,7 +41842,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_BADIS</Class>
 			<Type>UNIT_BADIS</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -42174,7 +42003,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_GEORGE_CADLE_PRICE</Class>
 			<Type>UNIT_GEORGE_CADLE_PRICE</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -42290,7 +42119,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_AHMAD_SHAH_DURRANI</Class>
 			<Type>UNIT_AHMAD_SHAH_DURRANI</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -42433,7 +42262,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_EVO_MORALES</Class>
 			<Type>UNIT_EVO_MORALES</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -42542,7 +42371,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_JOSE_BALLIVIAN</Class>
 			<Type>UNIT_JOSE_BALLIVIAN</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -42660,7 +42489,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_BOUDICA</Class>
 			<Type>UNIT_BOUDICA</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -42789,7 +42618,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_PHILIP_THE_BOLD</Class>
 			<Type>UNIT_PHILIP_THE_BOLD</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -42884,7 +42713,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_EDUARDO_ANGELIM</Class>
 			<Type>UNIT_EDUARDO_ANGELIM</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -42975,7 +42804,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_YUPANQUI</Class>
 			<Type>UNIT_YUPANQUI</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -43127,7 +42956,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_JACHAL</Class>
 			<Type>UNIT_JACHAL</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -43222,7 +43051,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_AGAPARO</Class>
 			<Type>UNIT_AGAPARO</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -43347,7 +43176,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_JAMES_I</Class>
 			<Type>UNIT_JAMES_I</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -43456,7 +43285,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_ENDUBIS</Class>
 			<Type>UNIT_ENDUBIS</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -43557,7 +43386,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_VIRIATHUS</Class>
 			<Type>UNIT_VIRIATHUS</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -43691,7 +43520,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_MARANON</Class>
 			<Type>UNIT_MARANON</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -43807,7 +43636,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_HUANTAR</Class>
 			<Type>UNIT_HUANTAR</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -43958,7 +43787,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_IMAM_SHAMIL</Class>
 			<Type>UNIT_IMAM_SHAMIL</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -44113,7 +43942,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_OHIGGINS</Class>
 			<Type>UNIT_OHIGGINS</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -44223,7 +44052,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_ACALAPUA</Class>
 			<Type>UNIT_ACALAPUA</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -44333,7 +44162,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_SHA_CO_PAY</Class>
 			<Type>UNIT_SHA_CO_PAY</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -44483,7 +44312,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_MINGBURNU</Class>
 			<Type>UNIT_MINGBURNU</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -44592,7 +44421,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_RAFAEL_SOLARES</Class>
 			<Type>UNIT_RAFAEL_SOLARES</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -44754,7 +44583,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_PETER_CLAVER</Class>
 			<Type>UNIT_PETER_CLAVER</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -44894,7 +44723,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_HALAKWULUP</Class>
 			<Type>UNIT_HALAKWULUP</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -45054,7 +44883,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_TOMISLAV</Class>
 			<Type>UNIT_TOMISLAV</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -45164,7 +44993,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_TOMAS_MASARYK</Class>
 			<Type>UNIT_TOMAS_MASARYK</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -45291,7 +45120,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_DECEBALUS</Class>
 			<Type>UNIT_DECEBALUS</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -45431,7 +45260,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_JAMES_BROOKE</Class>
 			<Type>UNIT_JAMES_BROOKE</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -45586,7 +45415,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_KHARAVELA</Class>
 			<Type>UNIT_KHARAVELA</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -45720,7 +45549,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_KHARKHUL</Class>
 			<Type>UNIT_KHARKHUL</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -45846,7 +45675,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_JUAN_JOSE_FLORES</Class>
 			<Type>UNIT_JUAN_JOSE_FLORES</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -46074,7 +45903,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_LARS_PORSENA</Class>
 			<Type>UNIT_LARS_PORSENA</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -46199,7 +46028,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_AL_MAHDI_BILLAH</Class>
 			<Type>UNIT_AL_MAHDI_BILLAH</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -46334,7 +46163,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_CHROCUS</Class>
 			<Type>UNIT_CHROCUS</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -46491,7 +46320,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_SERU_EPENISA_CAKOBAU</Class>
 			<Type>UNIT_SERU_EPENISA_CAKOBAU</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -46601,7 +46430,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_URHO_KEKKONEN</Class>
 			<Type>UNIT_URHO_KEKKONEN</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -46733,7 +46562,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_JAN_FRANS_WILLEMS</Class>
 			<Type>UNIT_JAN_FRANS_WILLEMS</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -46895,7 +46724,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_TAIYIN</Class>
 			<Type>UNIT_TAIYIN</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -47011,7 +46840,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_MOHAMMED_II_TAIRAB</Class>
 			<Type>UNIT_MOHAMMED_II_TAIRAB</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -47129,7 +46958,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_BRENNUS</Class>
 			<Type>UNIT_BRENNUS</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -47255,7 +47084,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_JUAN_MANUEL_DE_ROSAS</Class>
 			<Type>UNIT_JUAN_MANUEL_DE_ROSAS</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -47398,7 +47227,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_VAKHTANG_VI</Class>
 			<Type>UNIT_VAKHTANG_VI</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -47521,7 +47350,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_KWAME_NKRUMAH</Class>
 			<Type>UNIT_KWAME_NKRUMAH</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -47637,7 +47466,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_ALA_AL_DIN_HUSAYN</Class>
 			<Type>UNIT_ALA_AL_DIN_HUSAYN</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -47766,7 +47595,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_SKANDERBEG</Class>
 			<Type>UNIT_SKANDERBEG</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -47876,7 +47705,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_BATU_KHAN</Class>
 			<Type>UNIT_BATU_KHAN</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -47986,7 +47815,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_ASHINA_JIESHESHUAI</Class>
 			<Type>UNIT_ASHINA_JIESHESHUAI</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -48102,7 +47931,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_MATAPANG</Class>
 			<Type>UNIT_MATAPANG</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -48225,7 +48054,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_BENCOMO</Class>
 			<Type>UNIT_BENCOMO</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -48346,7 +48175,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_ANTONIO_RUIZ_DE_MONTOYA</Class>
 			<Type>UNIT_ANTONIO_RUIZ_DE_MONTOYA</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -48467,7 +48296,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_PEDRO_DE_ALVARADO</Class>
 			<Type>UNIT_PEDRO_DE_ALVARADO</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -48588,7 +48417,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_ALFRED_A_THORNE</Class>
 			<Type>UNIT_ALFRED_A_THORNE</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -48716,7 +48545,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_DIVICO</Class>
 			<Type>UNIT_DIVICO</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -48842,7 +48671,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_SHENGJUN</Class>
 			<Type>UNIT_SHENGJUN</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -48925,7 +48754,7 @@
 			<BonusType>BONUS_HEMUDU</BonusType>
 			<iCost>150</iCost>
 			<iMoves>1</iMoves>
-			<iCombat>11</iCombat>
+			<iCombat>4</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
 			<iConscription>2</iConscription>
@@ -48951,7 +48780,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_ABU_KARIBA</Class>
 			<Type>UNIT_ABU_KARIBA</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -49067,7 +48896,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_HAYREDDIN</Class>
 			<Type>UNIT_HAYREDDIN</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -49207,7 +49036,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_KAI_HO</Class>
 			<Type>UNIT_KAI_HO</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -49362,7 +49191,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_BROKEN_ARROW</Class>
 			<Type>UNIT_BROKEN_ARROW</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -49463,7 +49292,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_SEKAQUAPTEWA</Class>
 			<Type>UNIT_SEKAQUAPTEWA</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -49595,7 +49424,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_KUCUMATZ</Class>
 			<Type>UNIT_KUCUMATZ</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -49717,7 +49546,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_TISH_ATAL</Class>
 			<Type>UNIT_TISH_ATAL</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -49835,7 +49664,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_KHYAN</Class>
 			<Type>UNIT_KHYAN</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -49945,7 +49774,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_TEUTA</Class>
 			<Type>UNIT_TEUTA</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -50079,7 +49908,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_ELPIDIO_QUIRINO</Class>
 			<Type>UNIT_ELPIDIO_QUIRINO</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -50191,7 +50020,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_PRIEST_KING</Class>
 			<Type>UNIT_PRIEST_KING</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -50309,7 +50138,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_KHOMEINI</Class>
 			<Type>UNIT_KHOMEINI</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -50439,7 +50268,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_TERUO_NAKAMURA</Class>
 			<Type>UNIT_TERUO_NAKAMURA</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -50555,7 +50384,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_SADDAM_HUSSEIN</Class>
 			<Type>UNIT_SADDAM_HUSSEIN</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -50664,7 +50493,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_JIMMU</Class>
 			<Type>UNIT_JIMMU</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -51007,7 +50836,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_BEOWULF</Class>
 			<Type>UNIT_BEOWULF</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -51134,7 +50963,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_DEDAN_KIMATHI</Class>
 			<Type>UNIT_DEDAN_KIMATHI</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -51261,7 +51090,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_ABLAI_KHAN</Class>
 			<Type>UNIT_ABLAI_KHAN</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -51420,7 +51249,7 @@
 			</FreePromotions>
 			<LeaderPromotion>PROMOTION_LEADER</LeaderPromotion>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_BULAN</Class>
 			<Type>UNIT_BULAN</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -51547,7 +51376,7 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_PERAHU</Class>
 			<Type>UNIT_PERAHU</Type>
 			<Combat>UNITCOMBAT_HERO</Combat>
@@ -51663,6 +51492,6 @@
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 			</FreePromotions>
-		</UnitInfo>		
+		</UnitInfo>
 	</UnitInfos>
 </Civ4UnitInfos>

@@ -13686,7 +13686,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\lunarbase.dds</Button>
@@ -13696,7 +13696,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\lunarwaterextraction.dds</Button>
@@ -13706,7 +13706,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\rockquarry.dds</Button>
@@ -13716,7 +13716,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\lunarcementmill.dds</Button>
@@ -13726,7 +13726,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\lunarcementmill.dds</Button>
@@ -13736,7 +13736,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\lunargreenhouse.dds</Button>
@@ -13746,7 +13746,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\lunaralgaefarm.dds</Button>
@@ -13756,7 +13756,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\lunaralgaelab.dds</Button>
@@ -13766,7 +13766,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13776,7 +13776,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\extraction2.dds</Button>
@@ -13786,7 +13786,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\extraction3.dds</Button>
@@ -13796,7 +13796,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13806,7 +13806,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13816,7 +13816,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13826,7 +13826,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13836,7 +13836,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13846,7 +13846,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13856,7 +13856,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13866,7 +13866,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13876,7 +13876,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13886,7 +13886,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13896,7 +13896,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13906,7 +13906,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13916,7 +13916,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13926,7 +13926,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\lunarsolarworld.dds</Button>
@@ -13936,7 +13936,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\lunarparcology.dds</Button>
@@ -13946,7 +13946,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13956,7 +13956,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13966,7 +13966,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\lunarobservatory.dds</Button>
@@ -13976,7 +13976,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13986,7 +13986,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -13996,7 +13996,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -14006,7 +14006,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\lunarsolarpanel.dds</Button>
@@ -14016,7 +14016,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -14026,7 +14026,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -14036,7 +14036,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>
@@ -14046,7 +14046,7 @@
 			<LSystem>LSYSTEM_1x1</LSystem>
 			<bAnimated>0</bAnimated>
 			<fScale>0</fScale>
-			<fInterfaceScale>0</fInterfaceScale>	
+			<fInterfaceScale>0</fInterfaceScale>
 			<NIF>Art/empty.nif</NIF>
 			<KFM/>
 			<Button>art\placeholder.dds</Button>

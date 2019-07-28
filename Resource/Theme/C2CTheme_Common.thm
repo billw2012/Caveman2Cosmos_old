@@ -196,7 +196,7 @@ with GFC_Control
 				GColor	.TabText					= GColor(240,225,216,255);
 				// Icon HudHelp panel
 				GColor	.IconBG						= GColor( 69, 93,156,128)	: GFC_Control_Color;	//Set for dynamic color change
-				GColor	.HelpBG						= GColor( 32, 64,128,142)	: GFC_Control_Color;	//Set for dynamic color change
+				GColor	.HelpBG						= GColor( 50, 50,100,112)	: GFC_Control_Color;	//Set for dynamic color change
 				// HUD icon border color
 				GColor	.HUDBorder					= GColor( 78, 97,130,255)	: GFC_Control_Color;	//Set for dynamic color change
 

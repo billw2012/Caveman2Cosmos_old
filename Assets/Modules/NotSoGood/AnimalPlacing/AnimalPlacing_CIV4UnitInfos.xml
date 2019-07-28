@@ -301,7 +301,6 @@
 			<PrereqTech>TECH_AGRICULTURAL_TOOLS</PrereqTech>
 			<iCost>500</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iWorkRate>500</iWorkRate>
 			<iAsset>1</iAsset>

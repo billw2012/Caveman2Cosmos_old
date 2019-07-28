@@ -167,14 +167,14 @@ class RevolutionWatchAdvisor:
 		self.Y_TEXT = self.nPanelLength + self.nPanelY - 27
 		self.Z_TEXT = -0.1
 		self.DX_TEXT = -200
-		
+
 		# Location of Revolution Legend Info
 		self.nRevolutionLevelX = 10
 		self.nRevolutionLevelY = self.nShortTableLength + 50
 		self.nRevolutionLevelTextOffsetX = 0
 		self.nRevolutionLevelTextOffsetY = 0
 		self.nRevolutionLegendLength = 110
-		
+
 		# Location of Revolution Bribe Button
 		self.revIcon = "Art/Interface/Buttons/revbtn.dds"
 		self.revIconSize = 40
@@ -182,14 +182,14 @@ class RevolutionWatchAdvisor:
 		self.revIconY = self.nRevolutionLevelY + self.revIconSize / 2 - 5
 		self.revBribeTextX = self.revIconSize + self.revIconX + 3
 		self.revBribeTextY = self.revIconY + 7
-		
+
 		# Location of Revolution Bribe Button Panel
 		self.BRIBE_PANEL = self.name + "BribePanel"
 		self.nBribePanelX = self.nRevolutionLevelX + 2
 		self.nBribePanelY = self.nRevolutionLevelY
 		self.nBribePanelWidth = 280
 		self.nBribePanelLength = self.nRevolutionLegendLength
-		
+
 		# Location of Revolution Legend Info Panel
 		self.nLegendPanelGap = 8
 		self.LEGEND_PANEL = self.name + "LegendText"
@@ -768,7 +768,7 @@ class RevolutionWatchAdvisor:
 		""" Return the screen we draw with. """
 		return CyGInterfaceScreen(self.SCREEN_NAME, CvScreenEnums.REVOLUTION_WATCH_ADVISOR)
 
-	#RevolutionDCM - used by bribe popup to determine whether this advisor is in the forefront	
+	#RevolutionDCM - used by bribe popup to determine whether this advisor is in the forefront
 	def isVisible(self):
 		if (self.currentPage == None and self.visiblePage == None):
 			return False
@@ -986,7 +986,7 @@ class RevolutionWatchAdvisor:
 	def showRevolutionLegend (self):
 		screen = self.getScreen()
 		city = self.getCurrentCity()
-		
+
 		screen.addPanel(self.BRIBE_PANEL, "", "", False, True, self.nBribePanelX, self.nBribePanelY, self.nBribePanelWidth, self.nBribePanelLength, PanelStyles.PANEL_STYLE_IN )
 		screen.setImageButton(self.REVOLUTION_LEGEND_ICON, self.revIcon, self.revIconX, self.revIconY, self.revIconSize, self.revIconSize, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 		screen.setText (self.REVOLUTION_BRIBE_TEXT, "Background", localText.getText("TXT_ADVISOR_BRIBE",()), CvUtil.FONT_LEFT_JUSTIFY, self.revBribeTextX, self.revBribeTextY, self.Z_TEXT, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
@@ -997,21 +997,21 @@ class RevolutionWatchAdvisor:
 		turn = CyGame().getGameTurn()
 		revText = "xxx" + RevInstances.RevolutionInst.updateCivStability(turn, player, True, True)
 		revText = revText.strip('\n')
-		revText = revText.replace('\n', ' ')			
-		revText = revText.replace("xxx", "\n")			
+		revText = revText.replace('\n', ' ')
+		revText = revText.replace("xxx", "\n")
 		screen.attachMultilineText( self.LEGEND_PANEL, "Text", revText, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 		self.hideRevolutionLegend()
 		screen.show(self.BRIBE_PANEL)
 		screen.show(self.LEGEND_PANEL)
 
-		if city:	
+		if city:
 			player = city.getOwner()
 			turn = CyGame().getGameTurn()
 			revText = RevInstances.RevolutionInst.updateLocalRevIndices(turn, player, [city], True)
 			revText += "xxx" + RevInstances.RevolutionInst.updateCivStability(turn, player, True, True)
 			revText = revText.strip('\n')
-			revText = revText.replace('\n', ' ')			
-			revText = revText.replace("xxx", "\n")			
+			revText = revText.replace('\n', ' ')
+			revText = revText.replace("xxx", "\n")
 			screen.attachMultilineText( self.LEGEND_PANEL, "Text", revText, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 			if RevUtils.isCanBribeCity(city)[0]:
 				screen.setText(self.REVOLUTION_BRIBE_TEXT, "Background", localText.getText("TXT_ADVISOR_BRIBE",()) + " " + city.getName(), CvUtil.FONT_LEFT_JUSTIFY, self.revBribeTextX, self.revBribeTextY, self.Z_TEXT, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
@@ -1023,7 +1023,7 @@ class RevolutionWatchAdvisor:
 				self.hideRevolutionLegend()
 				screen.show(self.BRIBE_PANEL)
 				screen.show(self.LEGEND_PANEL)
-	
+
 	# RevolutionDCM - legend control 2
 	def hideRevolutionLegend (self):
 		screen = self.getScreen()
@@ -1032,7 +1032,7 @@ class RevolutionWatchAdvisor:
 		screen.hide(self.REVOLUTION_LEGEND_ICON)
 		screen.hide(self.REVOLUTION_LEGEND_TEXT)
 		screen.hide(self.REVOLUTION_BRIBE_TEXT)
-	
+
 
 	def showGPLegend(self):
 		pass

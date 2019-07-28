@@ -5,7 +5,7 @@
 <!-- -->
 <!-- Basic Infos -->
 <Civ4UnitCombatInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4UnitSchema.xml">
-	<UnitCombatInfos>		
+	<UnitCombatInfos>
 		<!-- Naval Mine Warfare -->
 		<UnitCombatInfo>
 			<Type>UNITCOMBAT_MINE_WARFARE</Type>

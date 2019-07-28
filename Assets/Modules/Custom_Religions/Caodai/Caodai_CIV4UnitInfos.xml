@@ -35,7 +35,6 @@
 			<PrereqReligion>RELIGION_CAODAI</PrereqReligion>
 			<PrereqBuilding>BUILDING_CAODAI_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -51,7 +50,6 @@
 			</UnitMeshGroups>
 			<Button>,Art/Interface/Buttons/Units/Missionary_Taoist.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,3</Button>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Type>UNIT_PROPHET</Type>
 			<Buildings>

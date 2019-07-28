@@ -15,7 +15,7 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_NAVAL_MINE</DefaultUnit>
-		</UnitClassInfo>		
+		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_NAVAL_MINE_FIELD</Type>
 			<Description>TXT_KEY_UNIT_NAVAL_MINE_FIELD</Description>
@@ -24,7 +24,7 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_NAVAL_MINE_FIELD</DefaultUnit>
-		</UnitClassInfo>		
+		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_NUCLEAR_NAVAL_MINE</Type>
 			<Description>TXT_KEY_UNIT_NUCLEAR_NAVAL_MINE</Description>
@@ -33,7 +33,7 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_NUCLEAR_NAVAL_MINE</DefaultUnit>
-		</UnitClassInfo>		
+		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_NAVAL_MINE_SWEEPER</Type>
 			<Description>TXT_KEY_UNIT_NAVAL_MINE_SWEEPER</Description>
@@ -42,7 +42,7 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_NAVAL_MINE_SWEEPER</DefaultUnit>
-		</UnitClassInfo>		
+		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_LAND_MINE</Type>
 			<Description>TXT_KEY_UNIT_LAND_MINE</Description>
@@ -51,7 +51,7 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_LAND_MINE</DefaultUnit>
-		</UnitClassInfo>		
+		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_LAND_MINE_FIELD</Type>
 			<Description>TXT_KEY_UNIT_LAND_MINE_FIELD</Description>
@@ -60,7 +60,7 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_LAND_MINE_FIELD</DefaultUnit>
-		</UnitClassInfo>		
+		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_NUCLEAR_LAND_MINE</Type>
 			<Description>TXT_KEY_UNIT_NUCLEAR_LAND_MINE</Description>
@@ -69,7 +69,7 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_NUCLEAR_LAND_MINE</DefaultUnit>
-		</UnitClassInfo>		
+		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_LAND_MINE_SWEEPER</Type>
 			<Description>TXT_KEY_UNIT_LAND_MINE_SWEEPER</Description>
@@ -78,7 +78,7 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_LAND_MINE_SWEEPER</DefaultUnit>
-		</UnitClassInfo>		
+		</UnitClassInfo>
 		<!-- End Mine Warfare Mod -->
 	</UnitClassInfos>
 </Civ4UnitClassInfos>

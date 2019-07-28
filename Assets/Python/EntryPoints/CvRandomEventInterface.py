@@ -1265,7 +1265,7 @@ def canTriggerWhaleOfAThing(argsList):
 		return False
 	iNumCoastalCities = player.countNumCoastalCities()
 	if iNumCoastalCities < 1:
-		return False	
+		return False
 	if 0.75 > ( iNumCoastalCities / player.getNumCities() ):
 		return False
 	return True
@@ -8935,7 +8935,7 @@ def doRemoveWVSlavery(argsList ):
 		return
 
 	iWVSlavery = GC.getInfoTypeForString("BUILDING_WV_SLAVERY")
-	
+
 	if iWVSlavery > -1:
 
 		iSlaveMarket = GC.getInfoTypeForString("BUILDING_SLAVE_MARKET")
@@ -8951,7 +8951,7 @@ def doRemoveWVSlavery(argsList ):
 					GC.getInfoTypeForString("BUILDING_SLAVE_COMPOUND_COMMERCE"),
 					GC.getInfoTypeForString("BUILDING_SLAVE_COMPOUND_SANITATION"),
 					]
-		
+
 		iSlaveSettled = GC.getInfoTypeForString("SPECIALIST_SETTLED_SLAVE")
 		iSlaveFood = GC.getInfoTypeForString("SPECIALIST_SETTLED_SLAVE_FOOD")
 		iSlaveProd = GC.getInfoTypeForString("SPECIALIST_SETTLED_SLAVE_PRODUCTION")
@@ -8960,7 +8960,7 @@ def doRemoveWVSlavery(argsList ):
 		iSlaveEntertain = GC.getInfoTypeForString("SPECIALIST_SETTLED_SLAVE_ENTERTAINMENT")
 		iSlaveTutor = GC.getInfoTypeForString("SPECIALIST_SETTLED_SLAVE_TUTOR")
 		iSlaveMilitary = GC.getInfoTypeForString("SPECIALIST_SETTLED_SLAVE_MILITARY")
-		
+
 		iUnitCaptiveSlave = GC.getInfoTypeForString("UNIT_FREED_SLAVE")
 		iUnitImmigrant = GC.getInfoTypeForString("UNIT_CAPTIVE_IMMIGRANT")
 		iUnitEntertain = GC.getInfoTypeForString("UNIT_STORY_TELLER")
@@ -8970,8 +8970,8 @@ def doRemoveWVSlavery(argsList ):
 		iGameSpeed = CyGame().getGameSpeedType()
 		iBuildProdPercent = GC.getDefineINT("BUILDING_PRODUCTION_PERCENT")/100
 		g_ConstructModifier = 0.2*iBuildProdPercent*GC.getGameSpeedInfo(iGameSpeed).getConstructPercent()/100
-		
-		
+
+
 		(loopCity, iter) = pPlayer.firstCity(False)
 		while(loopCity):
 			sCityName = loopCity.getName()
@@ -8998,7 +8998,7 @@ def doRemoveWVSlavery(argsList ):
 				CyInterface().addMessage(iPlayer,False,25,sMessage,"AS2D_BUILD_BANK",InterfaceMessageTypes.MESSAGE_TYPE_INFO,pUnit.getButton(),ColorTypes(8),iCityX,iCityY,True,True)
 				iGoldBack = int(GC.getBuildingInfo(iType).getProductionCost() * g_ConstructModifier)
 				pPlayer.changeGold(iGoldBack)
-			
+
 			# Remove all other Slavery Buildings if they exist
 			for ibuilding in aiSlaveBuildings:
 				if loopCity.getNumActiveBuilding(ibuilding) > 0:
@@ -9021,13 +9021,13 @@ def doRemoveWVSlavery(argsList ):
 			iCount = iCountSettled + iCountFood + iCountCom + iCountTutor + iCountMilitary
 			iCountNewPop = int(iCount/3)
 			iCount = iCount - 3*iCountNewPop
-			
+
 			if iCount > 0:
 				for i in range (iCount):
 					pPlayer.initUnit(iUnitCaptiveSlave, iCityX, iCityY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 				sMessage = BugUtil.getText("TXT_MESSAGE_FREED_SLAVES_AS_FREED_SLAVES",(sCityName, iCount))
 				CyInterface().addMessage(iPlayer,False,15, sMessage,'',0,'Art/Interface/Buttons/Civics/Serfdom.dds',ColorTypes(44), iCityX, iCityY, True,True)
-			
+
 			if iCountNewPop > 0:
 				iCountImmigrants = iCountNewPop
 				iCityPop = loopCity.getPopulation()
@@ -9151,7 +9151,7 @@ def doRemoveWVHumanSacrifice(argsList ):
 				CyAudioGame().Play2DSound("AS2D_DISCOVERBONUS")
 
 				CyInterface().addMessage(iPlayer,False,25,TRNSLTR.getText("TXT_KEY_MESSAGE_ALTAR_SOLD",(loopCity.getName(),)),"AS2D_BUILD_BANK",InterfaceMessageTypes.MESSAGE_TYPE_INFO,pUnit.getButton(),ColorTypes(8),loopCity.getX(),loopCity.getY(),True,True)
-				
+
 			(loopCity, iter) = pPlayer.nextCity(iter, False)
 
 def getNumNonSpecialistSlaves(argsList):
@@ -9446,7 +9446,7 @@ def doSacrificeCaptive(argsList):
 
 	iGoldenAgeLength = 0
 	iGoldenAgeLengthModifier = 1
-	
+
 	iUnitType = pUnit.getUnitCombatType()
 	if iUnitType == GC.getInfoTypeForString("UNITCLASS_CAPTIVE_NEANDERTHAL"):
 		iGoldenAgeLengthModifier = 0
@@ -9456,12 +9456,12 @@ def doSacrificeCaptive(argsList):
 		iGoldenAgeLengthModifier = 2
 	else:
 		return # bad call
-		
+
 	if  pCity.getNumActiveBuilding(GC.getInfoTypeForString("BUILDING_SACRIFICIAL_ALTAR")) > 0:
 		iGoldenAgeLength = iGoldenAgeLength + 2
 	elif pCity.getNumActiveBuilding(GC.getInfoTypeForString("BUILDING_HUMAN_SACRIFICE_ALTAR")) > 0:
 		iGoldenAgeLength = iGoldenAgeLength + 1
-	
+
 	iDruid = GC.getInfoTypeForString("RELIGION_DRUID")
 	iMeasoamerican = GC.getInfoTypeForString("RELIGION_MESOAMERICANISM")
 	iStateReligion = pUnit.getStateReligion()
@@ -9493,7 +9493,7 @@ def doSacrificeCaptive(argsList):
 		if pCity.isHasReligion(iMeasoamerican):
 			if pCity.getNumActiveBuilding(GC.getInfoTypeForString("BUILDING_MESOAMERICAN_SHRINE")) > 0 or pCity.getNumActiveBuilding(GC.getInfoTypeForString("BUILDING_MESOAMERICAN_CATHEDRAL")) > 0 or pCity.getNumActiveBuilding(GC.getInfoTypeForString("BUILDING_MESOAMERICAN_MONASTERY")) > 0 or pCity.getNumActiveBuilding(GC.getInfoTypeForString("BUILDING_MESOAMERICAN_TEMPLE")) > 0:
 				iGoldenAgeLength = iGoldenAgeLength + 1
-			
+
 	iTotalGoldenAgeLength = iGoldenAgeLength * iGoldenAgeLengthModifier
 	pPlayer.changeGoldenAgeTurns(iTotalGoldenAgeLength)
 
@@ -9975,7 +9975,7 @@ def canDoBestHunters1(argsList):
 	# kTriggeredData = argsList[0]
 	# pPlayer = GC.getPlayer(kTriggeredData.ePlayer)
 	# pCity = player.getCity(kTriggeredData.iCityId)
-	
+
 	# aHerdBuildings = [ GC.getInfoTypeForString("BUILDING_DEER_HERD"),
 						# GC.getInfoTypeForString(""),
 						# ]
@@ -9984,7 +9984,7 @@ def canDoBestHunters1(argsList):
 			# return True
 			# break
 
-						
+
 
 #	newUnit1 = pPlayer.initUnit(GC.getInfoTypeForString('UNIT_ASSASSIN'), pCity.getX(),pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 

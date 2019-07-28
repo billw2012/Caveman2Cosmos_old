@@ -1,10 +1,10 @@
 ## Sid Meier's Civilization 4
 ## Copyright Firaxis Games 2006
-## 
+##
 ## CvEventManager
 ## This class is passed an argsList from CvAppInterface.onEvent
 ## The argsList can contain anything from mouse location to key info
-## The EVENTLIST that are being notified can be found 
+## The EVENTLIST that are being notified can be found
 
 
 from CvPythonExtensions import *
@@ -90,7 +90,7 @@ class CvEventManager:
 			'unitKilled'				: self.onUnitKilled,
 #			'unitLost'					: self.onUnitLost,
 			'unitPromoted'				: self.onUnitPromoted,
-#			'unitSelected'				: self.onUnitSelected, 
+#			'unitSelected'				: self.onUnitSelected,
 			'UnitRename'				: self.onUnitRename,
 #			'unitPillage'				: self.onUnitPillage,
 			'unitSpreadReligionAttempt'	: self.onUnitSpreadReligionAttempt,
@@ -103,11 +103,11 @@ class CvEventManager:
 			'techAcquired'				: self.onTechAcquired,
 #			'techSelected'				: self.onTechSelected,
 			'religionFounded'			: self.onReligionFounded,
-#			'religionSpread'			: self.onReligionSpread, 
-#			'religionRemove'			: self.onReligionRemove, 
+#			'religionSpread'			: self.onReligionSpread,
+#			'religionRemove'			: self.onReligionRemove,
 #			'corporationFounded'		: self.onCorporationFounded,
-#			'corporationSpread'			: self.onCorporationSpread, 
-#			'corporationRemove'			: self.onCorporationRemove, 
+#			'corporationSpread'			: self.onCorporationSpread,
+#			'corporationRemove'			: self.onCorporationRemove,
 #			'goldenAge'					: self.onGoldenAge,
 #			'endGoldenAge'				: self.onEndGoldenAge,
 #			'chat' 						: self.onChat,
@@ -1667,7 +1667,7 @@ class CvEventManager:
 					for k in xrange(MAP.getLastPathStepNum()):
 						pRoutePlot = MAP.getLastPathPlotByIndex(k)
 						pRoutePlot.setRouteType(iRoute)
-		# Appian Way 
+		# Appian Way
 		elif iBuilding == mapBuildingType["APPIAN_WAY"]:
 			iUnit = GC.getInfoTypeForString("UNIT_WORKER")
 			if iUnit < 0:
@@ -2337,7 +2337,7 @@ class CvEventManager:
 		iReligion, iPlayer = argsList
 		G = GAME
 		if iPlayer == G.getActivePlayer():
-			if not G.GetWorldBuilderMode() and not self.bNetworkMP: 
+			if not G.GetWorldBuilderMode() and not self.bNetworkMP:
 				popupInfo = CyPopupInfo()
 				popupInfo.setButtonPopupType(ButtonPopupTypes.BUTTONPOPUP_PYTHON_SCREEN)
 				popupInfo.setData1(iReligion)

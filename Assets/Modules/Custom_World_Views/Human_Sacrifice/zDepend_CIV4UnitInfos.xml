@@ -215,7 +215,6 @@
 
 			</Buildings>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Type>UNIT_PROPHET</Type>
 			<Actions>
@@ -252,7 +251,6 @@
 				</Action>
 			</Actions>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Type>UNIT_LAWYER</Type>
 			<Actions>

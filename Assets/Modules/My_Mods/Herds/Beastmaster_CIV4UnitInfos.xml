@@ -67,7 +67,6 @@
 			<BonusType>BONUS_DONKEY</BonusType>
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
 			<iCost>60</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iWithdrawalProb>40</iWithdrawalProb>
 			<iEarlyWithdraw>25</iEarlyWithdraw>
@@ -149,7 +148,7 @@
 				<BuildingType>BUILDING_HORSE_NATIONAL</BuildingType>
 			</PrereqOrBuildings>
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
-			<BonusType>BONUS_HORSE</BonusType>			
+			<BonusType>BONUS_HORSE</BonusType>
 			<iCost>60</iCost>
 			<iMoves>3</iMoves>
 			<iWithdrawalProb>60</iWithdrawalProb>
@@ -168,7 +167,6 @@
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Class>UNITCLASS_TAMED_WOLF_PAIR</Class>
 			<Type>UNIT_TAMED_WOLF_PAIR</Type>

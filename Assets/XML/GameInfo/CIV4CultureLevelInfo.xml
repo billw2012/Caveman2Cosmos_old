@@ -151,7 +151,7 @@
 					<GameSpeedType>GAMESPEED_ULTRAFAST</GameSpeedType>
 					<iThreshold>2</iThreshold>
 				</SpeedThreshold>
-			</SpeedThresholds>			
+			</SpeedThresholds>
 			<iCityRadius>2</iCityRadius>
 			<iMaxWorldWonders>1</iMaxWorldWonders>
 			<iMaxTeamWonders>1</iMaxTeamWonders>

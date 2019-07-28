@@ -5,7 +5,7 @@
 <!-- -->
 <!-- Bonus/Resource art path information -->
 <Civ4ArtDefines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\Xml\Schema\Caveman2Cosmos.xsd">
-	<MovieArtInfos>		
+	<MovieArtInfos>
 		<!-- Mine Warfare Mod -->
 		<!-- Movie Naval Mine Explosion -->
 		<MovieArtInfo>

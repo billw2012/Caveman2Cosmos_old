@@ -7610,7 +7610,7 @@
 		<Tag>TXT_KEY_GAMESPEED_ULTRAFAST_HELP</Tag>
 		<English>The fastest speed. Designed for testing purposes only.</English>
 		<German>Diese absolut höchste Spielgeschwindigkeit ist nur für Testzwecke gedacht.</German>
-	</TEXT>		
+	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GARRISON_CIVIC_EXTRA_HAPPINESS</Tag>
 		<English>[ICON_HAPPY] from [LINK=BUILDING_GARRISON]Garrison[\LINK]</English>
@@ -19013,21 +19013,12 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REMINDER_PROMPT</Tag>
-		<English>Enter the number of turns until the reminder goes off and the message to display.</English>
+		<English>Turn(s) until reminiscence.</English>
 		<French>Entrez le nombre de tours jusqu'à l'apparition du rappel et le message à montrer.</French>
 		<German>Geben Sie die Anzahl der Runden an, bis die Erinnerung angezeigt werden soll.</German>
 		<Italian>Inserisci il numero di turni che devono passare prima che il promemoria scada ed il messaggio venga visualizzato.</Italian>
 		<Spanish>Introduce el número de turnos hasta que el recordatorio y su mensaje se desactiven.</Spanish>
 		<Polish>Wpisz liczbę tur po których przypomnienie się uaktywni i wiadomość zostanie wyświetlona.</Polish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_REMIND_END_TURN_PROMPT</Tag>
-		<English>Show reminder again at the end of this turn?</English>
-		<French>Afficher à nouveau ce rappel à la fin de ce tour?</French>
-		<German>Erinnerung am Ende dieser Runde erneut anzeigen?</German>
-		<Italian>Mostrare nuovamente il promemoria alla fine del turno?</Italian>
-		<Spanish>¿Volver a mostrar el recordatorio al final de este turno?</Spanish>
-		<Polish>Pokazać przypomnienie ponownie na końcu tej tury?</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_REMIND_NEXT_TURN_PROMPT</Tag>
@@ -19454,7 +19445,7 @@
 		<Tag>TXT_KEY_ROUTE_TRAIL</Tag>
 		<English>Trail</English>
 		<French>Sentier</French>
-		<German>	
+		<German>
 			<Text>Trampelpfad</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>

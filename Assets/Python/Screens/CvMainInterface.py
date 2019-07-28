@@ -1049,7 +1049,7 @@ class CvMainInterface:
 		self.cleanPlotList(screen)
 
 		# End Turn Text
-		screen.setLabel("EndTurnText", "", "", 1<<2, 0, yRes - 188, -0.1, eFontGame, eWidGen, 0, 0)
+		screen.setLabel("EndTurnText", "", "", 1<<2, 0, yRes - 256, -0.1, eFontGame, eWidGen, 0, 0)
 		screen.setHitTest("EndTurnText", HitTestTypes.HITTEST_NOHIT)
 
 		# Three states for end turn button...
@@ -1279,7 +1279,7 @@ class CvMainInterface:
 						self.iWaitingCounter = 0
 						CyAudioGame().Play2DSound("AS2D_ADVISOR_SUGGEST")
 			if szOutput:
-				screen.setEndTurnState("EndTurnText", szOutput)
+				screen.setEndTurnState("EndTurnText", self.aFontList[4] + szOutput)
 				screen.showEndTurn("EndTurnText")
 			else:
 				screen.hideEndTurn("EndTurnText")
@@ -1637,7 +1637,7 @@ class CvMainInterface:
 		self.iInterfaceType = IFT
 
 		if IFT == InterfaceVisibility.INTERFACE_SHOW:
-			screen.moveItem("EndTurnText", 0, self.yBotBar - 16, 0)
+			screen.moveItem("EndTurnText", 0, self.yRes - 256, 0)
 			if self.bHelpTextFullY:
 				screen.setHelpTextArea(self.xRes/3, FontTypes.GAME_FONT, 4, self.yBotBar, 0, False, "", True, False, 1<<0, 0)
 				self.bHelpTextFullY = False
@@ -1712,7 +1712,7 @@ class CvMainInterface:
 				screen.show("BuildListBtn0")
 
 		elif IFT == InterfaceVisibility.INTERFACE_HIDE:
-			screen.moveItem("EndTurnText", 0, self.yRes - 86, 0)
+			screen.moveItem("EndTurnText", 0, self.yRes - 128, 0)
 			screen.show("MainMenuButton")
 			screen.show("PediaButton0")
 			screen.show("AdvisorButton1")
@@ -1744,7 +1744,7 @@ class CvMainInterface:
 				screen.hide("MADScreenWidget0")
 
 		elif IFT in (InterfaceVisibility.INTERFACE_HIDE_ALL, InterfaceVisibility.INTERFACE_MINIMAP_ONLY):
-			screen.moveItem("EndTurnText", 0, self.yRes - 86, 0)
+			screen.moveItem("EndTurnText", 0, self.yRes - 128, 0)
 			screen.hide("PlotHelp")
 			if not self.bHelpTextFullY:
 				screen.setHelpTextArea(self.xRes/3, FontTypes.GAME_FONT, 4, self.yRes - 8, 0, False, "", True, False, 1<<0, 0)
@@ -1799,7 +1799,7 @@ class CvMainInterface:
 			screen.hide("UnitButtons")
 
 		elif IFT == InterfaceVisibility.INTERFACE_ADVANCED_START:
-			screen.moveItem("EndTurnText", 0, self.yRes - 86, 0)
+			screen.moveItem("EndTurnText", 0, self.yRes - 128, 0)
 			if self.bHelpTextFullY:
 				screen.setHelpTextArea(self.xRes/3, FontTypes.GAME_FONT, 4, self.yBotBar, 0, False, "", True, False, 1<<0, 0)
 				self.bHelpTextFullY = False
@@ -2326,7 +2326,7 @@ class CvMainInterface:
 								commerceRate = CyPlayer.getCommerceRate(CommerceTypes(j))
 							label = "RateText" + str(i)
 							if bTDDisplayOption and j == CommerceTypes.COMMERCE_RESEARCH and iResearchMod > 100:
-								szOutText = TRNSLTR.getText("TXT_KEY_MISC_POS_GOLD_PER_TURN_SCIENCE", (commerceRate,)) 
+								szOutText = TRNSLTR.getText("TXT_KEY_MISC_POS_GOLD_PER_TURN_SCIENCE", (commerceRate,))
 								szOutText += TRNSLTR.getText("TXT_KEY_MISC_POS_GOLD_PER_TURN_TECH_DIFF", (techDiffusionHelp,))
 							else:
 								szOutText = TRNSLTR.getText("TXT_KEY_MISC_POS_GOLD_PER_TURN", (commerceRate,))
@@ -3501,7 +3501,7 @@ class CvMainInterface:
 					BTN = GC.getProjectInfo(order.iData1).getButton()
 				screen.setImageButtonAt(Btn, Pnl, BTN, x, 0, iSize, iSize, eWidGen, 1, 1)
 				x += dx
-	
+
 
 	def openCityTab(self, screen, iTab):
 		self.iCityTab = iTab

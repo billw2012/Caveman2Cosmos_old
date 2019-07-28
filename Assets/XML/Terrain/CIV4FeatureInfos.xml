@@ -6526,7 +6526,7 @@
 			<bVisibleAlways>1</bVisibleAlways>
 			<bNukeImmune>1</bNukeImmune>
 			<!-- There was unused Deep Space terrain -->
-			<TerrainBooleans/> 
+			<TerrainBooleans/>
 			<FootstepSounds>
 				<FootstepSound>
 					<FootstepAudioType>FOOTSTEP_AUDIO_HUMAN</FootstepAudioType>

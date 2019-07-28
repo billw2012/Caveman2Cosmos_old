@@ -1435,14 +1435,14 @@
 		<Tag>TXT_KEY_BUILDING_WILD_MUSHROOMS_STRATEGY</Tag>
 		<English>Gather Wild Mushrooms to increase your cities food.</English>
 		<French>Augmente la nourriture de votre ville.</French>
-		<German>[COLOR_BUILDING_TEXT]Pilzsucher[COLOR_REVERT] versorgen frühe Städte mit zusätzlicher Nahrung.</German>	
+		<German>[COLOR_BUILDING_TEXT]Pilzsucher[COLOR_REVERT] versorgen frühe Städte mit zusätzlicher Nahrung.</German>
 		<Italian>Raccogli i funghi selvatici per incrementare la produzione di cibo della tua città.</Italian>
 		<Polish>Gather Wild Mushrooms by zwiększyć produkcję żywności w Twoich miastach.</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_WILD_MUSHROOMS_PEDIA</Tag>
 		<English>Mushroom hunting, mushrooming, mushroom picking, and similar terms describe the activity of gathering mushrooms in the wild, typically for eating. This is popular in most of Europe, including the Nordic, Baltic, and Slavic countries and the Mediterranean Basin, as well as in Australia, Japan, Korea, Canada, and the northwestern and Appalachian United States.</English>
-		<German>Das Sammeln von Pilzen ist eine beliebte Freizeitbeschäftigung in nahezu allen Teilen der Welt. Pilzsucher gehen auf die Suche nach essbaren Wildpilzen, normalerweise um diese zu verzehren oder zu verkaufen. Sie müssen dabei allerdings größte Sorgfalt walten lassen, um nicht durch versehentlich geerntete Giftpilze eine Pilzvergiftung zu riskieren. Da es teils ähnlich aussehende Speise- und Giftpilze gibt und manche Pilze erst nach entsprechender Zubereitung genießbar werden, sind botanische Kenntnisse zwingend erforderlich und jeder Sammler sollte nur die Pilze verwenden, die er zweifelsfrei identifizieren kann.</German>	
+		<German>Das Sammeln von Pilzen ist eine beliebte Freizeitbeschäftigung in nahezu allen Teilen der Welt. Pilzsucher gehen auf die Suche nach essbaren Wildpilzen, normalerweise um diese zu verzehren oder zu verkaufen. Sie müssen dabei allerdings größte Sorgfalt walten lassen, um nicht durch versehentlich geerntete Giftpilze eine Pilzvergiftung zu riskieren. Da es teils ähnlich aussehende Speise- und Giftpilze gibt und manche Pilze erst nach entsprechender Zubereitung genießbar werden, sind botanische Kenntnisse zwingend erforderlich und jeder Sammler sollte nur die Pilze verwenden, die er zweifelsfrei identifizieren kann.</German>
 		<Italian>I funghi selvatici vengono generalmente raccolti in aree non urbanizzate, solitamente per essere mangiati. Quest'attività è popolare in gran parte dell'Europa, in particolare nei paesi nordici, baltici, slavi e nel bacino mediterraneo; inoltre, l'attività è molto diffusa anche in Australia, Giappone, Corea, Canada e negli Stati Uniti nordoccidentali.</Italian>
 		<Polish>Grzyby są głęboko zakorzenione w kulturze (m.in. jadalne lub halucynogenne) i zajmują ważne miejsce w rozwoju cywilizacji ze względu na ich kluczowe znaczenie w wytwarzaniu chleba i wina. Wiele gatunków grzybów jest powszechnie wykorzystywanych w produkcji żywności (alkohole, pieczywo, sery). Niektóre, takie jak pędzlaki (Penicillium) i kropidlaki (Aspergillus), są przyczyną jej rozkładu, prowadząc do skażenia jej szkodliwymi dla ludzitoksynami. Grzyby z tych samych rodzajów są jednak wykorzystywane do produkcji leków (głownie antybiotyków) i związków organicznych (np. kwasu cytrynowego) oraz enzymów na skalę przemysłową.</Polish>
 	</TEXT>
@@ -7193,7 +7193,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CRIME_LYING</Tag>
 		<English>Crime (Lying)</English>
-	</TEXT>	
+	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CRIME_LYING_STRATEGY</Tag>
 		<English>A type of crime.</English>
@@ -7202,7 +7202,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CRIME_LYING_PEDIA</Tag>
 		<English>A lie is an assertion that is believed to be false, typically used with the purpose of deceiving someone. The practice of communicating lies is called lying, and a person who communicates a lie may be termed a liar. Lies may serve a variety of instrumental, interpersonal, or psychological functions for the individuals who use them.</English>
-	</TEXT>	
+	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CRIME_JAILBREAK</Tag>
 		<English>Crime (Prison Breakouts)</English>
@@ -35783,7 +35783,7 @@
 		<Tag>TXT_KEY_BUILDING_WILLIS_TOWER_PEDIA</Tag>
 		<English>Willis Tower (formerly named and still commonly referred to as Sears Tower) is a 108-story, 1,451-foot (442 m) skyscraper in Chicago, Illinois. At the time of its completion in 1973, it was the tallest building in the world, surpassing the World Trade Center towers in New York, and it held this rank for nearly 25 years. The Willis Tower is the second-tallest building in the United States and the eighth-tallest freestanding structure in the world. The skyscraper is one of the most popular tourist destinations in Chicago, and over one million people visit its observation deck each year.</English>
 		<French>Tour Willis (formerly named and still commonly referred to as Sears Tower) is a 108-story, 1,451-foot (442 m) skyscraper in Chicago, Illinois. At the time of its completion in 1973, it was the tallest building in the world, surpassing the World Trade Center towers in New York, and it held this rank for nearly 25 years. The Tour Willis is the second-tallest building in the United States and the eighth-tallest freestanding structure in the world. The skyscraper is one of the most popular tourist destinations in Chicago, and over one million people visit its observation deck each year.</French>
-		<Polish>Willis Tower (poprzednio Sears Tower) - wieżowiec w centrum Chicago, w stanie Illinois. Ma 108 pięter i 442,3 metry wysokości, co czyni go najwyższym budynkiem w Ameryce Północnej do linii dachu. W momencie ukończenia został najwyższym budynkiem świata (do linii dachu), odbierając ten tytuł World Trade Center. Stracił go w roku 1997, kiedy to ukończono główną budowę Petronas Twin Towers w Kuala Lumpur, w Malezji. Jednak nawet wtedy Sears Tower miał najwyższy dach, najwyżej położone używane piętro oraz najwyższą wysokość wliczając antenę (527 metrów). W momencie ukończenia Taipei 101 budynek utrzymał jedynie rekord najwyższej wysokości wraz z anteną. Taipei 101 przejął rekordy najwyżej położonego dachu (448 m) i najwyższego używanego piętra (438m). Sears Tower był najwyższym budynkiem w USA do 12 listopada 2013, gdy tytuł ten został przekazany One World Trade Center.</Polish>		
+		<Polish>Willis Tower (poprzednio Sears Tower) - wieżowiec w centrum Chicago, w stanie Illinois. Ma 108 pięter i 442,3 metry wysokości, co czyni go najwyższym budynkiem w Ameryce Północnej do linii dachu. W momencie ukończenia został najwyższym budynkiem świata (do linii dachu), odbierając ten tytuł World Trade Center. Stracił go w roku 1997, kiedy to ukończono główną budowę Petronas Twin Towers w Kuala Lumpur, w Malezji. Jednak nawet wtedy Sears Tower miał najwyższy dach, najwyżej położone używane piętro oraz najwyższą wysokość wliczając antenę (527 metrów). W momencie ukończenia Taipei 101 budynek utrzymał jedynie rekord najwyższej wysokości wraz z anteną. Taipei 101 przejął rekordy najwyżej położonego dachu (448 m) i najwyższego używanego piętra (438m). Sears Tower był najwyższym budynkiem w USA do 12 listopada 2013, gdy tytuł ten został przekazany One World Trade Center.</Polish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ABBASID_EMBASSY</Tag>
@@ -36616,7 +36616,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_HEMUDU_EMBASSY_STRATEGY</Tag>
 		<English>Build Culture (Hemudu) to gain access to unique buildings and units.</English>
-		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>		
+		<German>Kulturen ermöglichen den Zugriff auf kulturspezifische Gebäude und Einheiten.</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_HEMUDU_EMBASSY_PEDIA</Tag>

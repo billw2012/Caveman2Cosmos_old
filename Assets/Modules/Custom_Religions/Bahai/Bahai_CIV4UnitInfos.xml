@@ -7,8 +7,8 @@
 	<UnitInfos>
 		<UnitInfo>
 			<Class>UNITCLASS_BAHAI_MISSIONARY</Class>
-			<Type>UNIT_BAHAI_MISSIONARY</Type>			
-			<Special>SPECIALUNIT_PEOPLE</Special>			
+			<Type>UNIT_BAHAI_MISSIONARY</Type>
+			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Capture>UNITCLASS_BAHAI_MISSIONARY</Capture>
 			<Combat>UNITCOMBAT_MISSIONARY</Combat>
 			<SubCombatTypes>
@@ -21,21 +21,20 @@
 				<SubCombatType>UNITCOMBAT_HEALS_AS_PEOPLE</SubCombatType>
 			</SubCombatTypes>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_MISSIONARY</DefaultUnitAI>		
+			<DefaultUnitAI>UNITAI_MISSIONARY</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_BAHAI_MISSIONARY</Description>
 			<Civilopedia>TXT_KEY_RELIGION_BAHAI_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_BAHAI_MISSIONARY_STRATEGY</Strategy>
-			<Advisor>ADVISOR_RELIGION</Advisor>			
+			<Advisor>ADVISOR_RELIGION</Advisor>
 			<ReligionSpreads>
 				<ReligionSpread>
 					<ReligionType>RELIGION_BAHAI</ReligionType>
 					<iReligionSpread>40</iReligionSpread>
 				</ReligionSpread>
-			</ReligionSpreads>			
+			</ReligionSpreads>
 			<PrereqReligion>RELIGION_BAHAI</PrereqReligion>
-			<iCost>110</iCost>			
-			<iAdvancedStartCost>-1</iAdvancedStartCost>			
-			<iMinAreaSize>-1</iMinAreaSize>
+			<iCost>110</iCost>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMoves>2</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -48,10 +47,9 @@
 					<iRequired>1</iRequired>
 					<EarlyArtDefineTag>ART_DEF_UNIT_BAHAI_MISSIONARY</EarlyArtDefineTag>
 				</UnitMeshGroup>
-			</UnitMeshGroups>			
-			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>		
+			</UnitMeshGroups>
+			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Type>UNIT_PROPHET</Type>
 			<Buildings>

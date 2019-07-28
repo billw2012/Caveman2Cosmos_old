@@ -1,7 +1,7 @@
 ## ReligionUtil
 ##
 ## Collection of utility functions for dealing with religions.
-## They are designed to be generic and work with new religions 
+## They are designed to be generic and work with new religions
 ## and even new types of religious buildings and units.
 ##
 ## Religions
@@ -201,7 +201,7 @@ def getBuildingReligion(info):
 	"""
 	Returns the religion <info> is tied to.
 
-	All four building types have iReligionType set to the religion, 
+	All four building types have iReligionType set to the religion,
 	but the Shrine doesn't have the religion as a prereq.
 	No other buildings have iReligionType, so this should be safe.
 	"""

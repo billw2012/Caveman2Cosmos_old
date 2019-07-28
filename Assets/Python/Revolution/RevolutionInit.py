@@ -293,6 +293,6 @@ class RevolutionInit:
 		revHelpText += self.helpTextFormat + TRNSLTR.getText("TXT_KEY_REV_MOD_INITIALIZING_SHIFT_F8_SHORTCUT",())
 
 		if GAME.isDebugMode():
-			revHelpText += self.helpTextFormat + TRNSLTR.getText("TXT_KEY_REV_MOD_INITIALIZING_CTRL_SHIFT_L_SHORTCUT",()) 
-			revHelpText += self.helpTextFormat + TRNSLTR.getText("TXT_KEY_REV_MOD_INITIALIZING_CTRL_SHIFT_P_SHORTCUT",()) 
+			revHelpText += self.helpTextFormat + TRNSLTR.getText("TXT_KEY_REV_MOD_INITIALIZING_CTRL_SHIFT_L_SHORTCUT",())
+			revHelpText += self.helpTextFormat + TRNSLTR.getText("TXT_KEY_REV_MOD_INITIALIZING_CTRL_SHIFT_P_SHORTCUT",())
 		return revComponentsText + revHelpText

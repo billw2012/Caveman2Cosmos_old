@@ -194,7 +194,7 @@
                 <MapCategoryType>MAPCATEGORY_LUNAR</MapCategoryType>
 			</MapCategoryTypes>
 			<BonusType>BONUS_ROCKETFUEL</BonusType>
-            <iMoves>24</iMoves>			
+            <iMoves>24</iMoves>
             <bCanMoveAllTerrain>1</bCanMoveAllTerrain>
 			<bCanMoveImpassable>1</bCanMoveImpassable>
         </UnitInfo>
@@ -336,7 +336,6 @@
 			<iCost>1000</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iExtraCost>10</iExtraCost>
@@ -431,7 +430,6 @@
 			<iCost>1000</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iExtraCost>10</iExtraCost>
@@ -536,7 +534,6 @@
 			<iCost>1000</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iExtraCost>10</iExtraCost>
@@ -668,7 +665,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iExtraCost>10</iExtraCost>
@@ -760,7 +756,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iExtraCost>10</iExtraCost>
@@ -867,7 +862,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iExtraCost>10</iExtraCost>
@@ -992,7 +986,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iExtraCost>10</iExtraCost>
@@ -1098,7 +1091,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iExtraCost>10</iExtraCost>
@@ -1208,7 +1200,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iExtraCost>10</iExtraCost>
@@ -1297,7 +1288,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>10</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iExtraCost>10</iExtraCost>
@@ -1354,7 +1344,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>6</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iExtraCost>10</iExtraCost>
@@ -1411,7 +1400,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>6</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iExtraCost>10</iExtraCost>
@@ -1468,7 +1456,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iExtraCost>10</iExtraCost>
@@ -1523,7 +1510,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iExtraCost>10</iExtraCost>
@@ -1606,7 +1592,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>550</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>80</iCombat>
@@ -1689,7 +1674,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>550</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>150</iCombat>
@@ -1778,7 +1762,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>550</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>130</iCombat>
@@ -1866,7 +1849,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>550</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>90</iCombat>
@@ -1954,7 +1936,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>550</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>110</iCombat>
@@ -2042,7 +2023,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>550</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>110</iCombat>
@@ -2129,7 +2109,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>550</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>130</iCombat>
@@ -2217,7 +2196,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>550</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>170</iCombat>
@@ -2343,7 +2321,6 @@
 			<iCost>1500</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -2423,7 +2400,6 @@
 			<iCost>1500</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -2492,7 +2468,6 @@
 			<iCost>1000</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -2562,7 +2537,6 @@
 			<iCost>2000</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -2618,7 +2592,6 @@
 			<iCost>4850</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iExtraCost>10</iExtraCost>
@@ -2673,7 +2646,6 @@
 			<iCost>3000</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iExtraCost>10</iExtraCost>
@@ -2804,7 +2776,6 @@
 			</ProductionTraits>
 			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -2988,7 +2959,6 @@
 			</ProductionTraits>
 			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -3171,7 +3141,6 @@
 			<iCost>5000</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>700</iWorkRate>
@@ -3474,7 +3443,6 @@
 			<iCost>5000</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>700</iWorkRate>
@@ -3624,7 +3592,6 @@
 			<iCost>5000</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>700</iWorkRate>
@@ -3685,7 +3652,6 @@
 			<iCost>5000</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
             <iBaseHurry>100</iBaseHurry>
@@ -3751,7 +3717,6 @@
 			<iCost>5500</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
             <iBaseHurry>150</iBaseHurry>
@@ -3819,7 +3784,6 @@
 			<iCost>6000</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
             <iBaseHurry>200</iBaseHurry>
@@ -3889,7 +3853,6 @@
 			<iCost>6500</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
             <iBaseHurry>250</iBaseHurry>
@@ -3960,7 +3923,6 @@
 			<iCost>7000</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
             <iBaseHurry>300</iBaseHurry>
@@ -4032,7 +3994,6 @@
 			<iCost>7500</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
             <iBaseHurry>350</iBaseHurry>
@@ -4090,7 +4051,6 @@
 			<iCost>8000</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
             <iBaseHurry>400</iBaseHurry>
@@ -4176,7 +4136,6 @@
 			<iCost>7500</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iNukeRange>-1</iNukeRange>
             <iBaseHurry>350</iBaseHurry>
@@ -4269,7 +4228,6 @@
 			<iCost>7500</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iNukeRange>-1</iNukeRange>
             <iBaseHurry>350</iBaseHurry>
@@ -4327,7 +4285,6 @@
 			<iCost>7500</iCost>
             <iHurryCostModifier>10000</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iNukeRange>-1</iNukeRange>
             <iBaseHurry>350</iBaseHurry>
@@ -4473,7 +4430,6 @@
 			</ProductionTraits>
 			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>12</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -4543,7 +4499,6 @@
 			<PrereqTech>TECH_SPACE_STATIONS</PrereqTech>
 			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -5346,7 +5301,6 @@
 			</ProductionTraits>
 			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>12</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -5556,7 +5510,6 @@
 			</ProductionTraits>
 			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>12</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -5721,7 +5674,6 @@
 			</ProductionTraits>
 			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>12</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -5854,7 +5806,6 @@
 			</ProductionTraits>
 			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>12</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -5954,7 +5905,6 @@
 			</ProductionTraits>
 			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>12</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -6087,7 +6037,6 @@
 			</ProductionTraits>
 			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>12</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -6148,7 +6097,6 @@
 			<PrereqTech>TECH_CSPACECRAFT</PrereqTech>
 			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>1000</iWorkRate>
@@ -6498,7 +6446,6 @@
             <iHurryCostModifier>10000</iHurryCostModifier>
             <PrereqBuilding>BUILDING_CERES_TRADING_POST</PrereqBuilding>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -6583,7 +6530,6 @@
             <iHurryCostModifier>10000</iHurryCostModifier>
             <PrereqBuilding>BUILDING_KBO_OUTPOST</PrereqBuilding>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>1000</iWorkRate>
@@ -6726,7 +6672,6 @@
 			</ProductionTraits>
 			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -6807,7 +6752,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -6884,7 +6828,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -6963,7 +6906,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -7044,7 +6986,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -7125,7 +7066,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -7205,7 +7145,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -7287,7 +7226,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -7364,7 +7302,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -7437,7 +7374,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -7520,7 +7456,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -7604,7 +7539,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -7688,7 +7622,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -7765,7 +7698,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -7841,7 +7773,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -7918,7 +7849,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -7994,7 +7924,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -8070,7 +7999,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -8147,7 +8075,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -8223,7 +8150,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -8299,7 +8225,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -8376,7 +8301,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -8453,7 +8377,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -8530,7 +8453,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -8608,7 +8530,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -8682,7 +8603,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -8756,7 +8676,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -8830,7 +8749,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -8904,7 +8822,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -8978,7 +8895,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -9052,7 +8968,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -9126,7 +9041,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -9200,7 +9114,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -9284,7 +9197,6 @@
 			</Actions>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>24</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>500</iWorkRate>
@@ -9369,7 +9281,6 @@
 			<BonusType>BONUS_NANOTUBES</BonusType>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iAsset>1</iAsset>
@@ -9436,7 +9347,6 @@
 			<BonusType>BONUS_WARES_SUPERSTRONG_ALLOY</BonusType>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iAsset>1</iAsset>
@@ -9496,7 +9406,6 @@
 			<PrereqTech>TECH_GALACTIC_WARFARE</PrereqTech>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iAsset>1</iAsset>
@@ -9570,7 +9479,6 @@
 			<BonusType>BONUS_NANOTUBES</BonusType>
 			<iCost>3000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>90</iCombat>
@@ -9692,7 +9600,6 @@
 			<BonusType>BONUS_WARES_SUPERSTRONG_ALLOY</BonusType>
 			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>120</iCombat>
@@ -9807,7 +9714,6 @@
 			<PrereqTech>TECH_GALACTIC_WARFARE</PrereqTech>
 			<iCost>9800</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>160</iCombat>
@@ -9997,7 +9903,6 @@
 			<PrereqBuilding>BUILDING_COMMERCIAL_SPACEPORT</PrereqBuilding>
 			<PrereqTech>TECH_LUNAR_BASES</PrereqTech>
 			<iCost>2700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iWorkRate>500</iWorkRate>
 			<iAsset>1</iAsset>
@@ -10051,7 +9956,6 @@
 			<PrereqBuilding>BUILDING_COMMERCIAL_SPACEPORT</PrereqBuilding>
 			<PrereqTech>TECH_LUNAR_COLONIZATION</PrereqTech>
 			<iCost>4850</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iWorkRate>500</iWorkRate>
 			<iAsset>1</iAsset>
@@ -10167,7 +10071,6 @@
 				</ProductionTrait>
 			</ProductionTraits>
 			<iCost>1700</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iWorkRate>400</iWorkRate>
 			<iCombat>20</iCombat>
@@ -10264,7 +10167,6 @@
 				</ProductionTrait>
 			</ProductionTraits>
 			<iCost>2000</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<iWorkRate>500</iWorkRate>
 			<iAsset>1</iAsset>

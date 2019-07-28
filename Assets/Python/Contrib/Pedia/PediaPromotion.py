@@ -47,7 +47,7 @@ class PediaPromotion:
 		X_COL_1 = self.X_COL_1
 		X_COL_2 = self.X_COL_2
 		Y_BOT_ROW = self.Y_BOT_ROW
-		Y_MID_ROW = self.Y_MID_ROW 
+		Y_MID_ROW = self.Y_MID_ROW
 		Y_TOP_ROW = self.Y_TOP_ROW
 		H_BOT_ROW = self.H_BOT_ROW
 		H_TOP_ROW = self.H_TOP_ROW

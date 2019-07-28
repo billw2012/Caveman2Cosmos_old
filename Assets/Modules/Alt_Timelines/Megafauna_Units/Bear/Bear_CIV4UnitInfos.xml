@@ -80,7 +80,6 @@
 			</PrereqOrBuildings>
 			<PrereqTech>TECH_MEGAFAUNA_DOMESTICATION</PrereqTech>
 			<iCost>105</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>7</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -192,7 +191,6 @@
 			</TechTypes>
 			<BonusType>BONUS_WARE_IRON</BonusType>
 			<iCost>375</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>14</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -220,7 +218,6 @@
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<bMilitaryTrade>1</bMilitaryTrade>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_BEAR</Type>
 			<Buildings>

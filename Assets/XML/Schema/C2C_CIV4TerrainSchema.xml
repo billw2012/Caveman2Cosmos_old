@@ -94,7 +94,7 @@
 	<ElementType name="iNoDecayAmount" content="textOnly" dt:type="int"/>
 	<ElementType name="iNoConvertAmount" content="textOnly" dt:type="int"/>
 	<ElementType name="Active"/>
-	
+
 	<ElementType name="PropertySource" content="eltOnly" order="many">
 		<element type="PropertySourceType" minOccurs="1" maxOccurs="*"/>
 		<element type="PropertyType" minOccurs="1" maxOccurs="*"/>
@@ -108,7 +108,7 @@
 		<element type="iNoDecayAmount" minOccurs="0" maxOccurs="*"/>
 		<element type="Active" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="PropertyInteraction" content="eltOnly" order="many">
 		<element type="PropertyInteractionType" minOccurs="1" maxOccurs="*"/>
 		<element type="SourcePropertyType" minOccurs="1" maxOccurs="*"/>
@@ -123,7 +123,7 @@
 		<element type="iNoConvertAmount" minOccurs="0" maxOccurs="*"/>
 		<element type="Active" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="PropertyPropagator" content="eltOnly" order="many">
 		<element type="PropertyPropagatorType" minOccurs="1" maxOccurs="*"/>
 		<element type="PropertyType" minOccurs="1" maxOccurs="*"/>
@@ -138,13 +138,13 @@
 		<element type="iPercent" minOccurs="0" maxOccurs="*"/>
 		<element type="Active" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="PropertyManipulators" content="eltOnly" order="many">
     <element type="PropertySource" minOccurs="0" maxOccurs="*"/>
     <element type="PropertyInteraction" minOccurs="0" maxOccurs="*"/>
 		<element type="PropertyPropagator" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="Civilopedia" content="textOnly"/>
 	<ElementType name="Help" content="textOnly"/>
 	<ElementType name="iHealthPercent" content="textOnly" dt:type="int"/>
@@ -541,7 +541,7 @@
 	<ElementType name="bForceOverwrite" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bForceDelete" content="textOnly" dt:type="boolean"/>
 	<ElementType name="iForceInsertLocation" content="textOnly" dt:type="int"/>
-<!-- XMLCOPY				END					MRGENIE		-->	
+<!-- XMLCOPY				END					MRGENIE		-->
 	<ElementType name="iWaterHeight" content="textOnly" dt:type="int"/>
 	<ElementType name="bRandomMap" content="textOnly" dt:type="boolean"/>
 	<ElementType name="HeightMap" content="textOnly"/>

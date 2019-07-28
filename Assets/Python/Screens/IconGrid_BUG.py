@@ -21,7 +21,7 @@ class IconData:
 		self.data2 = iData2
 		self.size = iSize
 		self.enabled = bEnabled
-	
+
 class StackedBarData:
 
 	def __init__(self, fValue, sColor, sText, iFont):
@@ -37,19 +37,19 @@ class CellData:
 		self.stackedbar = []
 		self.text = ""
 		self.font = 3
-	
+
 	def addIcon(self, sImage, iSize, widgetType, iData1, iData2=-1, bEnabled=True):
 		self.icons.append(IconData(sImage, iSize, widgetType, iData1, iData2, bEnabled))
-	
+
 	def setText(self, sText, iFont):
 		self.text = sText
 		self.font = iFont
-	
+
 	def addStackedBar(self, fValue, sColor, sText, iFont):
 		self.stackedbar.append(StackedBarData(fValue, sColor, sText, iFont))
-	
-	
-	
+
+
+
 class RowData:
 
 	def __init__(self, sRowHeader, sMessage, iFont, iNumColumns):
@@ -59,18 +59,18 @@ class RowData:
 		self.cells = []
 		for i in range(iNumColumns):
 			self.cells.append(CellData())
-	
+
 	def addIcon(self, iColumnIndex, sImage, iSize, widgetType, iData1, iData2=-1, bEnabled=True):
 		self.cells[iColumnIndex].addIcon(sImage, iSize, widgetType, iData1, iData2, bEnabled)
-	
+
 	def setText(self, iColumnIndex, sText, iFont):
 		self.cells[iColumnIndex].setText(sText, iFont)
 
 	def addStackedBar(self, iColumnIndex, fValue, sColor, sText, iFont):
 		self.cells[iColumnIndex].addStackedBar(fValue, sColor, sText, iFont)
-	
-	
-	
+
+
+
 
 class ColumnGroup:
 
@@ -84,7 +84,7 @@ GRID_TEXT_COLUMN = 2
 GRID_STACKEDBAR_COLUMN = 3
 
 class IconGrid_BUG:
-	
+
 	def __init__(self, sWidgetId, screen, iX, iY, iWidth, iHeight, columns, bUseSmallIcons, bShowRowHeader, bShowRowBorder):
 		self.WIDGET_ID = sWidgetId
 		self.NEXT_WIDGET_ID = sWidgetId + "IG"
@@ -105,11 +105,11 @@ class IconGrid_BUG:
 		self.scrollPosition = 0
 		self.textColWidth = {}
 		self.StackedBarColWidth = {}
-		
+
 		for i in range(len(self.columns)):
 			self.header.append("")
 			self.headerFont.append(3)
-	
+
 		self.groupTitleHeight = 24
 		self.headerHeight = 24
 		self.rowHeight = 68
@@ -125,14 +125,14 @@ class IconGrid_BUG:
 		self.groupLabelOffset = "  "
 		self.minColSpace = 3
 		self.minRowSpace = 0
-		
+
 		self.SCROLL_UP = 1
 		self.SCROLL_DOWN = 2
 		self.SCROLL_PAGE_UP = 3
 		self.SCROLL_PAGE_DOWN = 4
 		self.SCROLL_TOP = 5
 		self.SCROLL_BOTTOM = 6
-		
+
 		self.inputFunctionMap = {
 			self.SCROLL_UP: self.scrollUp,
 			self.SCROLL_DOWN: self.scrollDown,
@@ -149,42 +149,42 @@ class IconGrid_BUG:
 			int(InputTypes.KB_HOME): self.scrollTop,
 			int(InputTypes.KB_END): self.scrollBottom,
 		}
-		
+
 
 	def setGroupBorder(self, iVal):
 		self.groupBorder = iVal
-	
-		
+
+
 	def setGroupLabelOffset(self, sVal):
 		self.groupLabelOffset = sVal
-		
-		
+
+
 	def setMinColumnSpace(self, iVal):
 		self.minColSpace = iVal
-	
-		
+
+
 	def	setMinRowSpace(self, iVal):
 		self.minRowSpace = iVal
-		
-		
+
+
 	def setSize(self, iWidth, iHeight):
 		self.width = iWidth
 		self.height = iHeight
 
-	
+
 	def setPosition(self, iX, iY):
 		self.xStart = iX
 		self.yStart = iY
 
-	
+
 	def getPrefferedWidth(self):
 		self.calculateLayout()
-		
+
 		prefferedWidth = self.scrollArrowSize + self.scrollSpace + self.minColSpace * (len(self.columns) - 1)
 		for colGroup in self.columnGroups:
 			if (colGroup.label != ""):
 				prefferedWidth += self.groupBorder * 2
-		
+
 		for index in range(len(self.columns)):
 			if (self.columns[index] == GRID_ICON_COLUMN):
 				prefferedWidth += self.iconColWidth
@@ -194,17 +194,17 @@ class IconGrid_BUG:
 				prefferedWidth += self.textColWidth[index]
 			elif (self.columns[index] == GRID_STACKEDBAR_COLUMN):
 				prefferedWidth += self.StackedBarColWidth[index]
-		
+
 		if (self.showRowBorder):
 			prefferedWidth += self.rowBorderWidth * 2
 		return prefferedWidth
 
-			
-	
+
+
 	def getPrefferedHeight(self):
 		self.calculateLayout()
 		initHeight = self.totalRowHeight * self.numRows + self.minRowSpace * (self.numRows - 1)
-		
+
 		if (len(self.columnGroups) > 0):
 			if (not self.showRowHeader):
 				return initHeight + self.colGroupHeight + 10
@@ -212,23 +212,23 @@ class IconGrid_BUG:
 				return initHeight + self.colGroupHeight + 5
 		else:
 			return initHeight + self.headerHeight
-	
-	
+
+
 	def setHeader(self, iCol, sLabel, iFont=3):
 		self.header[iCol] = sLabel
 		self.headerFont[iCol] = iFont
-		
-		
+
+
 	def setTextColWidth(self, iCol, iWidth):
 		self.textColWidth[iCol] = iWidth
 
 	def setStackedBarColWidth(self, iCol, iWidth):
 		self.StackedBarColWidth[iCol] = iWidth
-		
+
 	def createColumnGroup(self, sLabel, iLength):
 		self.columnGroups.append(ColumnGroup(sLabel, iLength))
 
-	
+
 	def createGrid(self):
 		self.calculateLayout()
 		self.addControls()
@@ -254,32 +254,32 @@ class IconGrid_BUG:
 	def clearData(self):
 		self.scrollPosition = 0
 		self.data = []
-	
-	
+
+
 	def scrollUp(self):
 		self.scrollPosition = self.scrollPosition - 1
 		self.refresh()
-	
+
 	def scrollDown(self):
 		self.scrollPosition = self.scrollPosition + 1
 		self.refresh()
-	
+
 	def scrollPageUp(self):
 		self.scrollPosition = self.scrollPosition - (self.numRows - 1)
 		self.refresh()
-	
+
 	def scrollPageDown(self):
 		self.scrollPosition = self.scrollPosition + (self.numRows - 1)
 		self.refresh()
-	
+
 	def scrollTop(self):
 		self.scrollPosition = 0
 		self.refresh()
-	
+
 	def scrollBottom(self):
 		self.scrollPosition = len(self.data) - self.numRows
 		self.refresh()
-	
+
 	def handleInput(self, inputClass):
 		if (inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED):
 			if (inputClass.getButtonType() == WidgetTypes.WIDGET_GENERAL):
@@ -288,7 +288,7 @@ class IconGrid_BUG:
 					BugUtil.debug("calling %r", func)
 					func()
 					return 1
-		
+
 		elif (inputClass.getNotifyCode() == NotifyCode.NOTIFY_CHARACTER):
 			func = self.keyFunctionMap.get(inputClass.getData(), None)
 			if func:
@@ -296,10 +296,10 @@ class IconGrid_BUG:
 					BugUtil.debug("calling %r", func)
 					func()
 				return 1
-		
+
 		return 0
-	
-	
+
+
 	def refresh(self):
 		# check if scrollPosistion is valid and show/hide scroll buttons
 		if (self.scrollPosition <= 0):
@@ -311,7 +311,7 @@ class IconGrid_BUG:
 			self.screen.show(self.scrollUpArrow)
 			self.screen.show(self.pageUpArrow)
 			self.screen.show(self.scrollTopArrow)
-		
+
 		if (self.scrollPosition >= len(self.data) - self.numRows):
 			self.screen.hide(self.scrollDownArrow)
 			self.screen.hide(self.pageDownArrow)
@@ -338,7 +338,7 @@ class IconGrid_BUG:
 									 text, CvUtil.FONT_LEFT_JUSTIFY,
 									 self.xStart + 5, self.firstRowY + (self.totalRowHeight + self.rowSpace) * rowIndex - 3,
 									 0, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
-			
+
 			startIndex = 0
 			for groupIndex in range(len(self.columnGroups)):
 				colGroup = self.columnGroups[groupIndex]
@@ -358,7 +358,7 @@ class IconGrid_BUG:
 						szIcon_ID = self.rowName + str(rowIndex) + "_" + str(startIndex + offset)
 						if bDataFound:
 							self.screen.setImageButton(szIcon_ID,
-													   iconData.image, currentX - (iconData.size - 64) / 2, currentY - (iconData.size - 64) / 2, iconData.size, iconData.size, 
+													   iconData.image, currentX - (iconData.size - 64) / 2, currentY - (iconData.size - 64) / 2, iconData.size, iconData.size,
 													   iconData.widgetType, iconData.data1, iconData.data2)
 						else:
 							self.screen.deleteWidget(szIcon_ID)
@@ -396,7 +396,7 @@ class IconGrid_BUG:
 							bDataFound = False
 
 #						BugUtil.debug("Stacked Bar data found? %s" % (bDataFound))
-						if bDataFound:		
+						if bDataFound:
 							textY = self.firstRowY + (self.totalRowHeight + self.rowSpace) * rowIndex + 20
 							if (self.showRowHeader):
 								textY += self.rowHeaderHeight
@@ -411,7 +411,7 @@ class IconGrid_BUG:
 #							BugUtil.debug("Stacked Bar value %i" % (stackedbarData.value))
 							szBar_ID = self.rowName + str(rowIndex) + "_" + str(startIndex + offset) + "SB"
 							if stackedbarData.value > 0:
-								self.screen.addStackedBarGFC(szBar_ID, 
+								self.screen.addStackedBarGFC(szBar_ID,
 															 currentX + 6, textY + iSBarOffset_Y, width, 25,
 															 InfoBarTypes.NUM_INFOBAR_TYPES, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 
@@ -435,8 +435,8 @@ class IconGrid_BUG:
 
 				startIndex += colGroup.length
 				if (colGroup.label != ""):
-					currentX += self.groupBorder		
-			
+					currentX += self.groupBorder
+
 			# put info in non grouped columns
 			for offset in range(len(self.columns) - startIndex):
 #				BugUtil.debug("Single Column %i %i" % (startIndex + offset, self.columns[startIndex + offset]))
@@ -447,9 +447,9 @@ class IconGrid_BUG:
 					except:
 						bDataFound = False
 
-					if bDataFound:		
-						self.screen.setImageButton(self.rowName + str(rowIndex) + "_" + str(startIndex + offset), 
-												   iconData.image, currentX - (iconData.size - 64) / 2, currentY - (iconData.size - 64) / 2, iconData.size, iconData.size, 
+					if bDataFound:
+						self.screen.setImageButton(self.rowName + str(rowIndex) + "_" + str(startIndex + offset),
+												   iconData.image, currentX - (iconData.size - 64) / 2, currentY - (iconData.size - 64) / 2, iconData.size, iconData.size,
 												   iconData.widgetType, iconData.data1, iconData.data2 )
 					currentX += self.iconColWidth + self.colSpace
 
@@ -462,9 +462,9 @@ class IconGrid_BUG:
 
 				elif (self.columns[startIndex + offset] == GRID_TEXT_COLUMN):
 					text = "<font=%i>%s</font>" % (rowData.cells[startIndex + offset].font, rowData.cells[startIndex + offset].text)
-					self.screen.setLabel(self.rowName + str(rowIndex) + "_" + str(startIndex + offset), "", 
-										 text, CvUtil.FONT_LEFT_JUSTIFY, 
-										 currentX + 6, self.firstRowY + (self.totalRowHeight + self.rowSpace) * rowIndex + 28, 
+					self.screen.setLabel(self.rowName + str(rowIndex) + "_" + str(startIndex + offset), "",
+										 text, CvUtil.FONT_LEFT_JUSTIFY,
+										 currentX + 6, self.firstRowY + (self.totalRowHeight + self.rowSpace) * rowIndex + 28,
 										 0, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 					currentX += self.textColWidth[startIndex + offset] + self.colSpace
 
@@ -476,7 +476,7 @@ class IconGrid_BUG:
 					except:
 						bDataFound = False
 
-					if bDataFound:		
+					if bDataFound:
 						textY = self.firstRowY + (self.totalRowHeight + self.rowSpace) * rowIndex + 20
 
 						width = self.StackedBarColWidth[startIndex + offset] - 15
@@ -490,7 +490,7 @@ class IconGrid_BUG:
 						szBar_ID = self.rowName + str(rowIndex) + "_" + str(startIndex + offset) + "SB"
 						if stackedbarData.value > 0:
 							szBar_ID = self.rowName + str(rowIndex) + "_" + str(startIndex + offset) + "SB"
-							self.screen.addStackedBarGFC(szBar_ID, 
+							self.screen.addStackedBarGFC(szBar_ID,
 														 currentX + 6, textY + iSBarOffset_Y, width, 25,
 														 InfoBarTypes.NUM_INFOBAR_TYPES, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 							self.screen.setBarPercentage(szBar_ID, InfoBarTypes.INFOBAR_STORED, float(stackedbarData.value) / float(100))
@@ -510,7 +510,7 @@ class IconGrid_BUG:
 
 					currentX += self.StackedBarColWidth[startIndex + offset] + self.colSpace
 #					BugUtil.debug("Stacked Bar done")
-			
+
 			if ( rowData.message == "" ):
 				self.screen.attachLabel(self.rowName + str(rowIndex), self.rowName + str(rowIndex) + "NotConnected", "")
 			else:
@@ -531,7 +531,7 @@ class IconGrid_BUG:
 			if (colGroup.label != ""):
 				availableWidth -= self.groupBorder * 2
 				useColGroups = True
-		
+
 		numMultiListCols = 0
 		for colIndex in range(len(self.columns)):
 			col = self.columns[colIndex]
@@ -543,15 +543,15 @@ class IconGrid_BUG:
 				availableWidth -= self.textColWidth[colIndex]
 			if (col == GRID_STACKEDBAR_COLUMN):
 				availableWidth -= self.StackedBarColWidth[colIndex]
-		
+
 		if (self.showRowBorder):
 			availableWidth -= self.rowBorderWidth * 2
-		
+
 		initMultiListColWidth = availableWidth / numMultiListCols
 		numIcons = (initMultiListColWidth - 16) / (self.iconSize + 2)
 		self.multiListColWidth = numIcons * (self.iconSize + 2) + 16
 		self.colSpace = (availableWidth - self.multiListColWidth * numMultiListCols) / (len(self.columns) - 1) + self.minColSpace
-		
+
 		# height
 		if (useColGroups):
 			self.colGroupHeight = self.groupTitleHeight + self.headerHeight + 8
@@ -566,32 +566,32 @@ class IconGrid_BUG:
 			self.headerY = self.yStart
 			self.firstRowY = self.headerY + self.headerHeight
 			availableHeight = self.height - self.headerHeight
-		
+
 		if (self.showRowHeader):
 			self.totalRowHeight = self.rowHeight + self.rowHeaderHeight
 			self.multiListStartY = self.firstRowY + self.rowHeaderHeight
 		else:
 			self.totalRowHeight = self.rowHeight
 			self.multiListStartY = self.firstRowY
-		
+
 		if (self.showRowBorder):
 			self.totalRowHeight += self.rowBorderWidth * 2
-		
+
 		self.numRows = (availableHeight + self.minRowSpace) / (self.totalRowHeight + self.minRowSpace)
 		self.rowSpace = (availableHeight - self.numRows * self.totalRowHeight) / (self.numRows - 1)
-		
+
 	def addControls(self):
 		self.addGroups()
 		self.addHeader()
-		
+
 		# add the rows
 		self.leaderHeadName = self.getNextWidgetName()
 		self.multiListName = self.getNextWidgetName()
 		self.rowName = self.getNextWidgetName()
-		
+
 		for rowIndex in range(self.numRows):
 			self.addRow(rowIndex)
-		
+
 		self.scrollUpArrow = self.getNextWidgetName()
 		self.scrollDownArrow = self.getNextWidgetName()
 		self.pageUpArrow = self.getNextWidgetName()
@@ -615,7 +615,7 @@ class IconGrid_BUG:
 								  , x, y + 2 * (self.scrollArrowSize + 4)
 								  , self.scrollArrowSize, self.scrollArrowSize
 								  , WidgetTypes.WIDGET_GENERAL, self.SCROLL_UP, -1 )
-		
+
 		y = self.yStart + self.height - self.scrollArrowSize
 		self.screen.setImageButton( self.scrollDownArrow
 								  , ArtFileMgr.getInterfaceArtInfo("SCROLL_DOWN_ARROW").getPath()
@@ -635,11 +635,11 @@ class IconGrid_BUG:
 
 	def addGroups(self):
 		self.groupPanelName = self.getNextWidgetName()
-		
+
 		startIndex = 0
 		lastColGroupIndex = 0
 		colGroupX = self.xStart
-		
+
 		for index in range(len(self.columnGroups)):
 			colGroup = self.columnGroups[index]
 			if (colGroup.label != ""):
@@ -678,7 +678,7 @@ class IconGrid_BUG:
 						colGroupX += self.StackedBarColWidth[startIndex + offset] + self.colSpace
 
 			startIndex += colGroup.length
-			
+
 	def addHeader(self):
 		self.headerName = self.getNextWidgetName()
 		headerX = self.xStart
@@ -691,7 +691,7 @@ class IconGrid_BUG:
 		for groupIndex in range(len(self.columnGroups)):
 			colGroup = self.columnGroups[groupIndex]
 			headerWidth = 0
-			
+
 			for offset in range(colGroup.length):
 				if (self.columns[startIndex + offset] == GRID_ICON_COLUMN):
 					headerWidth = self.iconColWidth + self.colSpace
@@ -701,7 +701,7 @@ class IconGrid_BUG:
 					headerWidth = self.textColWidth[startIndex + offset] + self.colSpace
 				elif (self.columns[startIndex + offset] == GRID_STACKEDBAR_COLUMN):
 					headerWidth = self.StackedBarColWidth[startIndex + offset] + self.colSpace
-				
+
 				if (offset == colGroup.length - 1): # last column of this group
 					if (colGroup.label != ""):
 						headerWidth += self.groupBorder
@@ -713,7 +713,7 @@ class IconGrid_BUG:
 				self.screen.setTableText(self.headerName, startIndex + offset, 0,
 										 text, "", WidgetTypes.WIDGET_GENERAL, -1, -1, 0 )
 			startIndex += colGroup.length
-		
+
 		for offset in range(len(self.columns) - startIndex):
 			if (self.columns[startIndex + offset] == GRID_ICON_COLUMN):
 				headerWidth = self.iconColWidth + self.colSpace
@@ -736,23 +736,23 @@ class IconGrid_BUG:
 			if (self.showRowHeader):
 				panelY += self.rowHeaderHeight
 				panelHeight -= self.rowHeaderHeight
-			
+
 			self.screen.addPanel( self.rowName + str(rowIndex), "", "", False, True, self.xStart, panelY
 								, self.width - self.scrollArrowSize - self.scrollSpace, panelHeight
 								, PanelStyles.PANEL_STYLE_OUT )
-		
+
 		startIndex = 0
 		currentX = self.xStart
 		listY = self.multiListStartY + (self.totalRowHeight + self.rowSpace) * rowIndex
 		if (self.showRowBorder):
 			currentX += self.rowBorderWidth
 			listY += self.rowBorderWidth + 1
-		
+
 		for groupIndex in range(len(self.columnGroups)):
 			colGroup = self.columnGroups[groupIndex]
 			if (colGroup.label != ""):
 				currentX += self.groupBorder
-			
+
 			for offset in range(colGroup.length):
 				if (self.columns[startIndex + offset] == GRID_ICON_COLUMN):
 					currentX += self.iconColWidth + self.colSpace
@@ -765,11 +765,11 @@ class IconGrid_BUG:
 					currentX += self.textColWidth[startIndex + offset] + self.colSpace
 				elif (self.columns[startIndex + offset] == GRID_STACKEDBAR_COLUMN):
 					currentX += self.StackedBarColWidth[startIndex + offset] + self.colSpace
-			
+
 			startIndex += colGroup.length
 			if (colGroup.label != ""):
-				currentX += self.groupBorder		
-		
+				currentX += self.groupBorder
+
 		for offset in range(len(self.columns) - startIndex):
 			if (self.columns[startIndex + offset] == GRID_ICON_COLUMN):
 				currentX += self.iconColWidth + self.colSpace
@@ -786,15 +786,15 @@ class IconGrid_BUG:
 	def hideControls(self):
 		self.hideGroups()
 		self.hideHeader()
-		
+
 		# add the rows
 		self.leaderHeadName = self.getNextWidgetName()
 		self.multiListName = self.getNextWidgetName()
 		self.rowName = self.getNextWidgetName()
-		
+
 		for rowIndex in range(self.numRows):
 			self.hideRow(rowIndex)
-		
+
 		self.scrollUpArrow = self.getNextWidgetName()
 		self.scrollDownArrow = self.getNextWidgetName()
 		self.pageUpArrow = self.getNextWidgetName()
@@ -810,7 +810,7 @@ class IconGrid_BUG:
 
 	def hideGroups(self):
 		self.groupPanelName = self.getNextWidgetName()
-		
+
 		for index in range(len(self.columnGroups)):
 			if (self.columnGroups[index].label != ""):
 				self.screen.deleteWidget(self.groupPanelName + str(index))
@@ -822,7 +822,7 @@ class IconGrid_BUG:
 	def hideRow(self, rowIndex):
 		if (self.showRowBorder):
 			self.screen.deleteWidget(self.rowName + str(rowIndex))
-		
+
 		startIndex = 0
 		for groupIndex in range(len(self.columnGroups)):
 			colGroup = self.columnGroups[groupIndex]
@@ -840,7 +840,7 @@ class IconGrid_BUG:
 					self.screen.hide( self.rowName + str(rowIndex) + "_" + str(startIndex + offset) + "T")
 
 			startIndex += colGroup.length
-		
+
 		for offset in range(len(self.columns) - startIndex):
 			if (self.columns[startIndex + offset] == GRID_ICON_COLUMN):
 				self.screen.hide( self.rowName + str(rowIndex) + "_" + str(startIndex + offset))
@@ -857,7 +857,7 @@ class IconGrid_BUG:
 		szName = self.NEXT_WIDGET_ID + str(self.widgetCount)
 		self.widgetCount += 1
 		return szName
-		
+
 	def deleteAllWidgets(self):
 		i = self.widgetCount - 1
 		while (i >= 0):
@@ -880,7 +880,7 @@ class IconGrid_BUG:
 				colGroup = self.columnGroups[groupIndex]
 				if (colGroup.label != ""):
 					currentX += self.groupBorder
-				
+
 				for offset in range(colGroup.length):
 					if (self.columns[startIndex + offset] == GRID_ICON_COLUMN):
 						self.screen.hide(self.rowName + str(rowIndex) + "_" + str(startIndex + offset))

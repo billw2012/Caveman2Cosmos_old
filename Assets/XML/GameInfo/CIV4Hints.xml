@@ -210,9 +210,9 @@
 		<HintInfo>
 			<Description>TXT_KEY_HINT_INTERFACE_68</Description>
 		</HintInfo>
-		
+
 		<!-- BUG Interface Hints -->
-		
+
 		<HintInfo>
 			<Description>TXT_KEY_BUG_HINT_INTERFACE_1</Description>
 		</HintInfo>
@@ -234,7 +234,7 @@
 		<HintInfo>
 			<Description>TXT_KEY_BUG_HINT_INTERFACE_7</Description>
 		</HintInfo>
-		
+
 		<HintInfo>
 			<Description>TXT_KEY_HINT_1</Description>
 		</HintInfo>
@@ -453,7 +453,7 @@
 		</HintInfo>
 
 		<!-- BUG Hints -->
-		
+
 		<HintInfo>
 			<Description>TXT_KEY_BUG_HINT_1</Description>
 		</HintInfo>
@@ -495,7 +495,7 @@
 		</HintInfo>
 		<HintInfo>
 			<Description>TXT_KEY_BUG_HINT_14</Description>
-		</HintInfo>	
+		</HintInfo>
 		<HintInfo>
 			<Description>TXT_KEY_BUG_HINT_15</Description>
 		</HintInfo>
@@ -651,16 +651,16 @@
 		</HintInfo>
 		<HintInfo>
 			<Description>TXT_KEY_REVDCM_HINT_2</Description>
-		</HintInfo>    
+		</HintInfo>
 		<HintInfo>
 			<Description>TXT_KEY_REVDCM_HINT_3</Description>
 		</HintInfo>
 		<HintInfo>
 			<Description>TXT_KEY_REVDCM_HINT_4</Description>
-		</HintInfo> 
+		</HintInfo>
 			<HintInfo>
 			<Description>TXT_KEY_REVDCM_HINT_5</Description>
-		</HintInfo>  
+		</HintInfo>
 		<HintInfo>
 			<Description>TXT_KEY_REVDCM_HINT_6</Description>
 		</HintInfo>
@@ -672,7 +672,7 @@
 		</HintInfo>
 		<HintInfo>
 			<Description>TXT_KEY_REVDCM_HINT_9</Description>
-		</HintInfo> 
+		</HintInfo>
 			<HintInfo>
 			<Description>TXT_KEY_REVDCM_HINT_10</Description>
 		</HintInfo>

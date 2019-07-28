@@ -386,7 +386,7 @@
 		<CorporationInfo>
 			<Type>CORPORATION_MCDOWELLS</Type>
 			<Description>TXT_KEY_CORPORATION_MCDOWELLS</Description>
-			<Civilopedia>TXT_KEY_CORPORATION_BURGERWORLD_PEDIA</Civilopedia> 
+			<Civilopedia>TXT_KEY_CORPORATION_BURGERWORLD_PEDIA</Civilopedia>
 			<TechPrereq>NONE</TechPrereq>
 			<FreeUnitClass>NONE</FreeUnitClass>
 			<iSpreadFactor>200</iSpreadFactor>
@@ -655,7 +655,7 @@
 		<CorporationInfo>
 			<Type>CORPORATION_BURGERWORLD</Type>
 			<Description>TXT_KEY_CORPORATION_BURGERWORLD</Description>
-			<Civilopedia>TXT_KEY_CORPORATION_BURGERWORLD_PEDIA</Civilopedia> 
+			<Civilopedia>TXT_KEY_CORPORATION_BURGERWORLD_PEDIA</Civilopedia>
 			<TechPrereq>NONE</TechPrereq>
 			<FreeUnitClass>NONE</FreeUnitClass>
 			<iSpreadFactor>200</iSpreadFactor>

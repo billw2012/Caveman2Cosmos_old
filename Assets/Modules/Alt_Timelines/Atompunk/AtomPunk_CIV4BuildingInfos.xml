@@ -27,14 +27,13 @@
 			<iCost>8070</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>1</iCommerce>
 			</CommerceChanges>
-		</BuildingInfo>	
+		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_FAST_BREEDER_REACTOR</BuildingClass>
 			<Type>BUILDING_FAST_BREEDER_REACTOR</Type>
@@ -71,7 +70,6 @@
 			<bPower>1</bPower>
 			<iCost>1345</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHealth>-1</iHealth>
 			<!-- RevolutionDCM End  -->
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -135,7 +133,6 @@
 			</ConstructCondition>
 			<iCost>1345</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaintenanceModifier>10</iMaintenanceModifier>
 			<iHappiness>2</iHappiness>
 			<iTradeRoutes>2</iTradeRoutes>
@@ -188,7 +185,6 @@
 			</PrereqBonuses>
 			<iCost>1345</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaintenanceModifier>5</iMaintenanceModifier>
 			<iHealth>2</iHealth>
 			<iHappiness>1</iHappiness>
@@ -526,7 +522,6 @@
 			<iCost>-1</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHealth>-3</iHealth>
 			<YieldChanges>
 				<iYield>0</iYield>
@@ -587,7 +582,7 @@
 			<Strategy>TXT_KEY_BUILDING_CLEAN_NUCLEAR_REACTOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CLEAN_NUCLEAR_REACTOR</ArtDefineTag>
-			<!-- RevolutionDCM End  -->			
+			<!-- RevolutionDCM End  -->
 			<PrereqTech>TECH_ATOMPUNK</PrereqTech>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -613,7 +608,6 @@
 			<bPower>1</bPower>
 			<iCost>1345</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- RevolutionDCM End  -->
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -667,7 +661,6 @@
 			<bPower>1</bPower>
 			<iCost>1845</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- RevolutionDCM End  -->
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -740,7 +733,6 @@
 			<bPower>1</bPower>
 			<iCost>4010</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- RevolutionDCM End  -->
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceChanges>
@@ -785,7 +777,6 @@
 			<iCost>1345</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<CommerceChanges>
 				<iCommerce>-100</iCommerce>
 				<iCommerce>25</iCommerce>
@@ -888,7 +879,6 @@
 			<iCost>1345</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaintenanceModifier>10</iMaintenanceModifier>
 			<iHealth>-1</iHealth>
 			<YieldChanges>
@@ -919,7 +909,7 @@
 					<iAmountPerTurn>5</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
-		</BuildingInfo>	
+		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_VENTURE_INDUSTRIES</BuildingClass>
 			<Type>BUILDING_VENTURE_INDUSTRIES</Type>
@@ -936,7 +926,6 @@
 			<iCost>2690</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<YieldChanges>
 				<iYield>0</iYield>
 				<iYield>5</iYield>
@@ -1017,7 +1006,6 @@
 			<iCost>-1</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>0</iConquestProb>
 			<YieldChanges>
 				<iYield>0</iYield>

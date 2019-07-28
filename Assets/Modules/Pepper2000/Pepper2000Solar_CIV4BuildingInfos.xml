@@ -9,7 +9,6 @@
 			<Strategy>TXT_KEY_BUILDING_PLANETARY_BASE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PLANETARY_BASE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DEEP_SPACE_COLONIES</PrereqTech>
 			<iCost>-1</iCost>
@@ -32,7 +31,6 @@
 			<Strategy>TXT_KEY_BUILDING_ORBITAL_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ORBITAL_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ORBITAL_MEGASTRUCTURES</PrereqTech>
 			<iCost>1452</iCost>
@@ -64,7 +62,6 @@
 			<Strategy>TXT_KEY_BUILDING_BISHOP_RING_REGULAR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BISHOP_RING_REGULAR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_COLONY_ARCOLOGY</PrereqTech>
 			<iCost>4123</iCost>
@@ -110,7 +107,6 @@
 			<Strategy>TXT_KEY_BUILDING_MCKENDREE_CYLINDER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MCKENDREE_CYLINDER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANET_ENGINEERING</PrereqTech>
 			<iCost>9636</iCost>
@@ -150,7 +146,6 @@
 			<Strategy>TXT_KEY_BUILDING_SOLAR_ARRAY_INNER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SOLAR_ARRAY_INNER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DEEP_SPACE_COLONIES</PrereqTech>
 			<iCost>823</iCost>
@@ -192,7 +187,6 @@
 			<Strategy>TXT_KEY_BUILDING_SOLAR_ARRAY_OUTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SOLAR_ARRAY_OUTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DEEP_SPACE_COLONIES</PrereqTech>
 			<iCost>823</iCost>
@@ -256,7 +250,6 @@
 			<Strategy>TXT_KEY_BUILDING_SOLAR_ARRAY_TRANSNEPTUNIAN_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SOLAR_ARRAY_TRANSNEPTUNIAN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SOLAR_ORDNANCE</PrereqTech>
 			<iCost>2959</iCost>
@@ -304,7 +297,6 @@
 			<Strategy>TXT_KEY_BUILDING_DEEP_SPACE_ASSEMBLER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_ASSEMBLER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DEEP_SPACE_COLONIES</PrereqTech>
 			<iCost>823</iCost>
@@ -342,7 +334,6 @@
 			<Strategy>TXT_KEY_BUILDING_DEEP_SPACE_HYDROPONICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_HYDROPONICS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DEEP_SPACE_COLONIES</PrereqTech>
 			<iCost>823</iCost>
@@ -372,7 +363,6 @@
 			<Strategy>TXT_KEY_BUILDING_DEEP_SPACE_TELESCOPE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_TELESCOPE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DEEP_SPACE_COLONIES</PrereqTech>
 			<iCost>823</iCost>
@@ -399,7 +389,6 @@
 			<Strategy>TXT_KEY_BUILDING_ORBITAL_BASE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ORBITAL_BASE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_KUIPER_BELT</PrereqTech>
 			<iCost>959</iCost>
@@ -471,7 +460,6 @@
 			<Strategy>TXT_KEY_BUILDING_HOUSING_MANAGEMENT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_MANAGEMENT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DEEP_SPACE_COLONIES</PrereqTech>
 			<iCost>823</iCost>
@@ -505,7 +493,6 @@
 			<Strategy>TXT_KEY_BUILDING_HOUSING_WORKING_CLASS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSING_WORKING_CLASS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DEEP_SPACE_COLONIES</PrereqTech>
 			<iCost>823</iCost>
@@ -538,7 +525,6 @@
 			<Strategy>TXT_KEY_BUILDING_DEEP_SPACE_PLASTEEL_FACTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_PLASTEEL_FACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_HYPERMAGNETICS</PrereqTech>
 			<iCost>959</iCost>
@@ -574,7 +560,6 @@
 			<Strategy>TXT_KEY_BUILDING_DEEP_SPACE_SOCIAL_ENGINEERING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_SOCIAL_ENGINEERING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SOCIAL_CALCULUS</PrereqTech>
 			<iCost>1108</iCost>
@@ -620,7 +605,6 @@
 			<Strategy>TXT_KEY_BUILDING_ORBITAL_VR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ORBITAL_VR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NANOMORPHICS</PrereqTech>
 			<iCost>2104</iCost>
@@ -662,7 +646,6 @@
 			<Strategy>TXT_KEY_BUILDING_DEEP_SPACE_DOCKING_BAY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_DOCKING_BAY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ORBITAL_MEGASTRUCTURES</PrereqTech>
 			<iCost>1452</iCost>
@@ -690,7 +673,6 @@
 			<Strategy>TXT_KEY_BUILDING_DEEP_SPACE_RECONAISSANCE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_RECONAISSANCE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MOLECULAR_SCANNING</PrereqTech>
 			<iCost>2645</iCost>
@@ -720,7 +702,6 @@
 			<Strategy>TXT_KEY_BUILDING_SICKBAY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SICKBAY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MOLECULAR_SCANNING</PrereqTech>
 			<iCost>2645</iCost>
@@ -751,7 +732,6 @@
 			<Strategy>TXT_KEY_BUILDING_CONSCIOUS_SPACE_STATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CONSCIOUS_SPACE_STATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SINGULARITY</PrereqTech>
 			<iCost>1452</iCost>
@@ -785,7 +765,6 @@
 			<Strategy>TXT_KEY_BUILDING_BIOFORMING_STUDIO_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BIOFORMING_STUDIO</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_HUMAN_TRANSMUTATION</PrereqTech>
 			<iCost>1867</iCost>
@@ -872,7 +851,6 @@
 			<Strategy>TXT_KEY_BUILDING_INDUSTRIALIZED_ASTEROID_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_INDUSTRIALIZED_ASTEROID</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PARATERRAFORMING</PrereqTech>
 			<iCost>-1</iCost>
@@ -913,7 +891,6 @@
 			<Strategy>TXT_KEY_BUILDING_DEEP_SPACE_FACTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_FACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ANIMA_MATERIALS</PrereqTech>
 			<iCost>1650</iCost>
@@ -950,7 +927,6 @@
 			<Strategy>TXT_KEY_BUILDING_FOCUS_SUN_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FOCUS_SUN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SOLAR_ORDNANCE</PrereqTech>
 			<iCost>2959</iCost>
@@ -993,7 +969,6 @@
 			<Strategy>TXT_KEY_BUILDING_COLONY_ECOSYSTEM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_COLONY_ECOSYSTEM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_GAIA_ECOLOGY</PrereqTech>
 			<iCost>1650</iCost>
@@ -1049,7 +1024,6 @@
 			<Strategy>TXT_KEY_BUILDING_DEEP_SPACE_DEFENSES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_DEFENSES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_DEFENSES</PrereqTech>
 			<iCost>2363</iCost>
@@ -1080,7 +1054,6 @@
 			<Strategy>TXT_KEY_BUILDING_JOVIAN_TROJAN_MINING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_JOVIAN_TROJAN_MINING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTEROID_EXTRACTION</PrereqTech>
 			<iCost>2363</iCost>
@@ -1112,7 +1085,6 @@
 			<Strategy>TXT_KEY_BUILDING_ORBITAL_DEFENSES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ORBITAL_DEFENSES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_WEAPONIZED_DISINTEGRATION</PrereqTech>
 			<iCost>7032</iCost>
@@ -1148,7 +1120,6 @@
 			<Strategy>TXT_KEY_BUILDING_ORBITAL_SPACECRAFT_FACTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ORBITAL_SPACECRAFT_FACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NUCLEAR_PULSE_PROPULSION</PrereqTech>
 			<iCost>3308</iCost>
@@ -1191,7 +1162,6 @@
 			<Strategy>TXT_KEY_BUILDING_FUSION_CORE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FUSION_CORE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NUCLEAR_PULSE_PROPULSION</PrereqTech>
 			<iCost>3308</iCost>
@@ -1233,7 +1203,6 @@
 			<Strategy>TXT_KEY_BUILDING_ORGANIC_VOLATILE_EXTRACTION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ORGANIC_VOLATILE_EXTRACTION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTEROID_EXTRACTION</PrereqTech>
 			<iCost>2363</iCost>
@@ -1264,7 +1233,6 @@
 			<Strategy>TXT_KEY_BUILDING_DEEP_SPACE_MAGLEV_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_MAGLEV</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ORBITAL_MEGASTRUCTURES</PrereqTech>
 			<iCost>1452</iCost>
@@ -1292,7 +1260,6 @@
 			<Strategy>TXT_KEY_BUILDING_DEEP_SPACE_CLOAKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_CLOAKING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NANOMORPHICS</PrereqTech>
 			<iCost>2104</iCost>
@@ -1360,7 +1327,6 @@
 			<Strategy>TXT_KEY_BUILDING_DEEP_SPACE_PRISON_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_PRISON</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NANOMORPHICS</PrereqTech>
 			<iCost>2104</iCost>
@@ -1398,7 +1364,6 @@
 			<Strategy>TXT_KEY_BUILDING_DEEP_SPACE_SECURITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_SECURITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MOLECULAR_SCANNING</PrereqTech>
 			<iCost>2645</iCost>
@@ -1442,7 +1407,6 @@
 			<Strategy>TXT_KEY_BUILDING_CIRCULAR_ECONOMY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CIRCULAR_ECONOMY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_CLOSED_ECONOMIES</PrereqTech>
 			<iCost>5111</iCost>
@@ -1474,7 +1438,6 @@
 			<Strategy>TXT_KEY_BUILDING_DEEP_SPACE_FARM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_FARM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_EXTRATERRESTRIAL_AGRICULTURE</PrereqTech>
 			<iCost>3308</iCost>
@@ -1503,7 +1466,6 @@
 			<Strategy>TXT_KEY_BUILDING_ANTIMATTER_RESEARCH_CENTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ANTIMATTER_RESEARCH_CENTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ANTIMATTER_PRODUCTION</PrereqTech>
 			<iCost>4123</iCost>
@@ -1530,7 +1492,6 @@
 			<Strategy>TXT_KEY_BUILDING_DEEP_SPACE_MEGAFACTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_MEGAFACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTROINDUSTRIALISM</PrereqTech>
 			<iCost>8676</iCost>
@@ -1575,7 +1536,6 @@
 			<Strategy>TXT_KEY_BUILDING_RECREATED_ECOSYSTEM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_RECREATED_ECOSYSTEM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ECOSYNTHESIS</PrereqTech>
 			<iCost>9636</iCost>
@@ -1620,7 +1580,6 @@
 			<Strategy>TXT_KEY_BUILDING_CLAYTRONIC_DEEP_SPACE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CLAYTRONIC_DEEP_SPACE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ATTOMETER_NANOMORPHISM</PrereqTech>
 			<iCost>6326</iCost>
@@ -1650,7 +1609,6 @@
 			<Strategy>TXT_KEY_BUILDING_SUN_SCOOP_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SUN_SCOOP</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SOLAR_MINING</PrereqTech>
 			<iCost>9636</iCost>
@@ -1690,7 +1648,6 @@
 			<Strategy>TXT_KEY_BUILDING_SUN_SCOOP_POWER_PLANT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SUN_SCOOP_POWER_PLANT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SOLAR_MINING</PrereqTech>
 			<iCost>9636</iCost>
@@ -1723,7 +1680,6 @@
 			<Strategy>TXT_KEY_BUILDING_DEEP_SPACE_HOTEL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_HOTEL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_VASIMR_PROPULSION</PrereqTech>
 			<iCost>5111</iCost>
@@ -1767,7 +1723,6 @@
 			<Strategy>TXT_KEY_BUILDING_SOLAR_IMPORTER_EXPORTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SOLAR_IMPORTER_EXPORTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_INTERSTELLAR_TRADE</PrereqTech>
 			<iCost>7810</iCost>
@@ -1804,7 +1759,6 @@
 			<Strategy>TXT_KEY_BUILDING_ALIEN_SIGNAL_DECODER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ALIEN_SIGNAL_DECODER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_INTERSTELLAR_COMMUNICATION</PrereqTech>
 			<iCost>6326</iCost>
@@ -1844,7 +1798,6 @@
 			<Strategy>TXT_KEY_BUILDING_PLANET_EXOTIC_ARCHITECTURE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PLANET_EXOTIC_ARCHITECTURE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SHAPESHIFTING</PrereqTech>
 			<iCost>20413</iCost>
@@ -1885,7 +1838,6 @@
 			<Strategy>TXT_KEY_BUILDING_SOLAR_QUANTUM_THRUSTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SOLAR_QUANTUM_THRUSTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_QUANTUM_RAMJET</PrereqTech>
 			<iCost>19766</iCost>
@@ -1913,7 +1865,6 @@
 			<Strategy>TXT_KEY_BUILDING_TEMPERATURE_REGULATOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TEMPERATURE_REGULATOR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ENTROPY_REVERSAL</PrereqTech>
 			<iCost>24482</iCost>
@@ -1943,7 +1894,6 @@
 			<Strategy>TXT_KEY_BUILDING_COLD_FUSION2_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_COLD_FUSION2</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ARTIFICIAL_STARS</PrereqTech>
 			<iCost>11897</iCost>
@@ -1970,7 +1920,6 @@
 			<Strategy>TXT_KEY_BUILDING_ASCENDED_PLANET_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ASCENDED_PLANET</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_OMEGA_POINT</PrereqTech>
 			<iCost>11510</iCost>
@@ -2021,7 +1970,6 @@
 			<Strategy>TXT_KEY_BUILDING_COMPUTRONIUM_ASTEROID_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_COMPUTRONIUM_ASTEROID</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_COMPUTRONIUM_UNIVERSE</PrereqTech>
 			<iCost>17265</iCost>
@@ -2053,7 +2001,6 @@
 			<Strategy>TXT_KEY_BUILDING_MICROVAC_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MICROVAC</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ULTRACOMPUTING</PrereqTech>
 			<iCost>16067</iCost>
@@ -2087,7 +2034,6 @@
 			<Strategy>TXT_KEY_BUILDING_PETAVERSE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PETAVERSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MACROVERSE_TRAVERSAL</PrereqTech>
 			<iCost>28114</iCost>
@@ -2121,7 +2067,6 @@
 			<Strategy>TXT_KEY_BUILDING_EDEN_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_EDEN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ECOSYNTHESIS</PrereqTech>
 			<iCost>38544</iCost>
@@ -2190,7 +2135,6 @@
 			<Strategy>TXT_KEY_BUILDING_HALO_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HALO</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_COLONY_ARCOLOGY</PrereqTech>
 			<iCost>16494</iCost>
@@ -2218,7 +2162,6 @@
 			<Strategy>TXT_KEY_BUILDING_LASER_STARWAY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LASER_STARWAY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_INTERSTELLAR_TRADE</PrereqTech>
 			<iCost>23432</iCost>
@@ -2261,7 +2204,6 @@
 			<Strategy>TXT_KEY_BUILDING_BRACEWELL_PROBES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BRACEWELL_PROBES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ACNP_PROPULSION</PrereqTech>
 			<iCost>-1</iCost>
@@ -2291,7 +2233,6 @@
 			<Strategy>TXT_KEY_BUILDING_SOLAR_CORE_PROBE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SOLAR_CORE_PROBE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_FEMTOTECHNOLOGY</PrereqTech>
 			<iCost>59621</iCost>
@@ -2335,7 +2276,6 @@
 			<Strategy>TXT_KEY_BUILDING_GRAND_UNIFICATION_ACCELERATOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_GRAND_UNIFICATION_ACCELERATOR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ZEPTOTECHNOLOGY</PrereqTech>
 			<iCost>71510</iCost>
@@ -2396,7 +2336,6 @@
 			<Strategy>TXT_KEY_BUILDING_SOLAR_DYSON_SPHERE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SOLAR_DYSON_SPHERE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTROENGINEERING</PrereqTech>
 			<iCost>42829</iCost>
@@ -2444,7 +2383,6 @@
 			<Strategy>TXT_KEY_BUILDING_SOLAR_DYSON_SPHERE_EFFECT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SOLAR_DYSON_SPHERE_EFFECT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTROENGINEERING</PrereqTech>
 			<iCost>-1</iCost>
@@ -2472,7 +2410,6 @@
 			<Strategy>TXT_KEY_BUILDING_SOLAR_MATRIOSHKA_BRAIN_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SOLAR_MATRIOSHKA_BRAIN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_STELLAR_COMPUTING</PrereqTech>
 			<iCost>47590</iCost>
@@ -2520,7 +2457,6 @@
 			<Strategy>TXT_KEY_BUILDING_ASTEROID_BELT_ASTRONOMICAL_TELESCOPE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ASTEROID_BELT_ASTRONOMICAL_TELESCOPE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PHOTONIC_SATELLITES</PrereqTech>
 			<iCost>7471</iCost>
@@ -2564,7 +2500,6 @@
 			<Strategy>TXT_KEY_BUILDING_FUSION_CANDLE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FUSION_CANDLE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ORBITAL_ENGINEERING</PrereqTech>
 			<iCost>10707</iCost>
@@ -2610,7 +2545,6 @@
 			<Strategy>TXT_KEY_BUILDING_MERCURY_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MERCURY_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_THERMAL_NEGATION</PrereqTech>
 			<iCost>2104</iCost>
@@ -2648,7 +2582,6 @@
 			<Strategy>TXT_KEY_BUILDING_MERCURY_ANTIMATTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MERCURY_ANTIMATTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ACNP_PROPULSION</PrereqTech>
 			<iCost>34707</iCost>
@@ -2699,7 +2632,6 @@
 			<Strategy>TXT_KEY_BUILDING_MERCURY_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MERCURY_CITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_POSTHUMANISM</PrereqTech>
 			<iCost>8676</iCost>
@@ -2736,7 +2668,6 @@
 			<Strategy>TXT_KEY_BUILDING_MERCURY_COMET_BOMBARDMENT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MERCURY_COMET_BOMBARDMENT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTEROID_EXTRACTION</PrereqTech>
 			<iCost>2363</iCost>
@@ -2768,7 +2699,6 @@
 			<Strategy>TXT_KEY_BUILDING_MERCURY_SUNSHADE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MERCURY_SUNSHADE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_DEFENSES</PrereqTech>
 			<iCost>9454</iCost>
@@ -2808,7 +2738,6 @@
 			<Strategy>TXT_KEY_BUILDING_TERRAFORMED_MERCURY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TERRAFORMED_MERCURY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_TERRAFORMING</PrereqTech>
 			<iCost>18377</iCost>
@@ -2842,7 +2771,6 @@
 			<Strategy>TXT_KEY_BUILDING_ASTEROID_INTERIOR_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ASTEROID_INTERIOR_CITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTEROID_EXTRACTION</PrereqTech>
 			<iCost>2363</iCost>
@@ -2884,7 +2812,6 @@
 			<Strategy>TXT_KEY_BUILDING_CERES_TRADING_POST_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CERES_TRADING_POST</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_TRADE</PrereqTech>
 			<iCost>823</iCost>
@@ -2914,7 +2841,6 @@
 			<Strategy>TXT_KEY_BUILDING_ASTEROID_PIRATE_BASE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ASTEROID_PIRATE_BASE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_VASIMR_PROPULSION</PrereqTech>
 			<iCost>5111</iCost>
@@ -2948,7 +2874,6 @@
 			<Strategy>TXT_KEY_BUILDING_ASTEROID_WATER_SHIELD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ASTEROID_WATER_SHIELD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SHIELDING</PrereqTech>
 			<iCost>1452</iCost>
@@ -2974,7 +2899,6 @@
 			<Strategy>TXT_KEY_BUILDING_MARTIAN_SUPPLY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MARTIAN_SUPPLY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTEROID_EXTRACTION</PrereqTech>
 			<iCost>9454</iCost>
@@ -3043,7 +2967,6 @@
 			<Strategy>TXT_KEY_BUILDING_INTER_ASTEROID_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_INTER_ASTEROID_CITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_POSTHUMANISM</PrereqTech>
 			<iCost>8676</iCost>
@@ -3081,7 +3004,6 @@
 			<Strategy>TXT_KEY_BUILDING_ASTEROID_EPITAXY_FACTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ASTEROID_EPITAXY_FACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SUPERCHARGED_CRYSTALS</PrereqTech>
 			<iCost>581</iCost>
@@ -3136,7 +3058,6 @@
 			<Strategy>TXT_KEY_BUILDING_SHELLWORLD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SHELLWORLD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PARATERRAFORMING</PrereqTech>
 			<iCost>4123</iCost>
@@ -3175,7 +3096,6 @@
 			<Strategy>TXT_KEY_BUILDING_SHELL_WORLD_FACTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SHELL_WORLD_FACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PARATERRAFORMING</PrereqTech>
 			<iCost>4123</iCost>
@@ -3215,7 +3135,6 @@
 			<Strategy>TXT_KEY_BUILDING_SHELL_WORLD_FLIGHT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SHELL_WORLD_FLIGHT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PARATERRAFORMING</PrereqTech>
 			<iCost>4123</iCost>
@@ -3257,7 +3176,6 @@
 			<Strategy>TXT_KEY_BUILDING_SHELL_WORLD_HANGING_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SHELL_WORLD_HANGING_CITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PARATERRAFORMING</PrereqTech>
 			<iCost>4123</iCost>
@@ -3297,7 +3215,6 @@
 			<Strategy>TXT_KEY_BUILDING_SHELL_WORLD_LIGHTING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SHELL_WORLD_LIGHTING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PARATERRAFORMING</PrereqTech>
 			<iCost>4123</iCost>
@@ -3334,7 +3251,6 @@
 			<Strategy>TXT_KEY_BUILDING_SHELL_WORLD_SPACEPORT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SHELL_WORLD_SPACEPORT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PARATERRAFORMING</PrereqTech>
 			<iCost>4123</iCost>
@@ -3375,7 +3291,6 @@
 			<Strategy>TXT_KEY_BUILDING_TERRAFORMED_CERES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TERRAFORMED_CERES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_TERRAFORMING</PrereqTech>
 			<iCost>22747</iCost>
@@ -3414,7 +3329,6 @@
 			<Strategy>TXT_KEY_BUILDING_CALLISTO_RESUPPLY_BASE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CALLISTO_RESUPPLY_BASE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_KUIPER_BELT</PrereqTech>
 			<iCost>959</iCost>
@@ -3449,7 +3363,6 @@
 			<Strategy>TXT_KEY_BUILDING_TERRAFORMED_CALLISTO_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TERRAFORMED_CALLISTO</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_TERRAFORMING</PrereqTech>
 			<iCost>22747</iCost>
@@ -3483,7 +3396,6 @@
 			<Strategy>TXT_KEY_BUILDING_CALLISTO_NITROGEN_GENERATOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CALLISTO_NITROGEN_GENERATOR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_APOCALYPTIC_PATHOGENS</PrereqTech>
 			<iCost>1650</iCost>
@@ -3515,7 +3427,6 @@
 			<Strategy>TXT_KEY_BUILDING_CALLISTO_NOBLE_GAS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CALLISTO_NOBLE_GAS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ARTIFICIAL_NUCLEOSYNTHESIS</PrereqTech>
 			<iCost>1650</iCost>
@@ -3547,7 +3458,6 @@
 			<Strategy>TXT_KEY_BUILDING_CALLISTO_FLOATING_CONTINENT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CALLISTO_FLOATING_CONTINENT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_GEOSCULPTING</PrereqTech>
 			<iCost>4123</iCost>
@@ -3583,7 +3493,6 @@
 			<Strategy>TXT_KEY_BUILDING_SULPHUR_HEXAFLOURIDE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SULPHUR_HEXAFLOURIDE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ARTIFICIAL_NUCLEOSYNTHESIS</PrereqTech>
 			<iCost>1650</iCost>
@@ -3615,7 +3524,6 @@
 			<Strategy>TXT_KEY_BUILDING_EUROPA_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_EUROPA_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ABYSS_COLONIZATION</PrereqTech>
 			<iCost>1452</iCost>
@@ -3654,7 +3562,6 @@
 			<Strategy>TXT_KEY_BUILDING_TERRAFORMED_EUROPA_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TERRAFORMED_EUROPA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_TERRAFORMING</PrereqTech>
 			<iCost>22747</iCost>
@@ -3697,7 +3604,6 @@
 			<Strategy>TXT_KEY_BUILDING_EUROPA_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_EUROPA_CITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_COLONY_ARCOLOGY</PrereqTech>
 			<iCost>4123</iCost>
@@ -3735,7 +3641,6 @@
 			<Strategy>TXT_KEY_BUILDING_EUROPA_ECOSYSTEM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_EUROPA_ECOSYSTEM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SPECULATIVE_PHYSIOLOGY</PrereqTech>
 			<iCost>1650</iCost>
@@ -3768,7 +3673,6 @@
 			<Strategy>TXT_KEY_BUILDING_VERTICAL_REEF_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VERTICAL_REEF</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_GAIA_ECOLOGY</PrereqTech>
 			<iCost>1650</iCost>
@@ -3808,7 +3712,6 @@
 			<Strategy>TXT_KEY_BUILDING_TERRAFORMED_GANYMEDE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TERRAFORMED_GANYMEDE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_TERRAFORMING</PrereqTech>
 			<iCost>22747</iCost>
@@ -3842,7 +3745,6 @@
 			<Strategy>TXT_KEY_BUILDING_IO_BASE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_IO_BASE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SHIELDING</PrereqTech>
 			<iCost>1452</iCost>
@@ -3877,7 +3779,6 @@
 			<Strategy>TXT_KEY_BUILDING_IO_GEOTHERMAL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_IO_GEOTHERMAL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_THERMAL_NEGATION</PrereqTech>
 			<iCost>2104</iCost>
@@ -3918,7 +3819,6 @@
 			<Strategy>TXT_KEY_BUILDING_JOVIAN_MAGNETOSPHERE_POWER_PLANT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_JOVIAN_MAGNETOSPHERE_POWER_PLANT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANET_ENGINEERING</PrereqTech>
 			<iCost>38544</iCost>
@@ -3952,7 +3852,6 @@
 			<Strategy>TXT_KEY_BUILDING_JUPITER_CORE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_JUPITER_CORE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NANOSHIELDING</PrereqTech>
 			<iCost>9454</iCost>
@@ -3992,7 +3891,6 @@
 			<Strategy>TXT_KEY_BUILDING_JOVIAN_ANTIMATTER_HARVESTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_JOVIAN_ANTIMATTER_HARVESTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ANTIMATTER_PRODUCTION</PrereqTech>
 			<iCost>4123</iCost>
@@ -4041,7 +3939,6 @@
 			<Strategy>TXT_KEY_BUILDING_TERRAFORMED_JUPITER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TERRAFORMED_JUPITER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_JOVIAN_TERRAFORMING</PrereqTech>
 			<iCost>42829</iCost>
@@ -4085,7 +3982,6 @@
 			<Strategy>TXT_KEY_BUILDING_SATURN_CLOUD_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SATURN_CLOUD_CITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_COLONY_ARCOLOGY</PrereqTech>
 			<iCost>4123</iCost>
@@ -4123,7 +4019,6 @@
 			<Strategy>TXT_KEY_BUILDING_RHEA_MILITARY_BASE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_RHEA_MILITARY_BASE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_DEFENSES</PrereqTech>
 			<iCost>9454</iCost>
@@ -4154,7 +4049,6 @@
 			<Strategy>TXT_KEY_BUILDING_SATURN_RING_ICE_MINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SATURN_RING_ICE_MINE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_KUIPER_BELT</PrereqTech>
 			<iCost>959</iCost>
@@ -4184,7 +4078,6 @@
 			<Strategy>TXT_KEY_BUILDING_RING_OF_SATURN_HOTEL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_RING_OF_SATURN_HOTEL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_VASIMR_PROPULSION</PrereqTech>
 			<iCost>5111</iCost>
@@ -4221,7 +4114,6 @@
 			<Strategy>TXT_KEY_BUILDING_ENCELADUS_BASE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ENCELADUS_BASE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_KUIPER_BELT</PrereqTech>
 			<iCost>959</iCost>
@@ -4256,7 +4148,6 @@
 			<Strategy>TXT_KEY_BUILDING_TERRAFORMED_SATURN_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TERRAFORMED_SATURN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_JOVIAN_TERRAFORMING</PrereqTech>
 			<iCost>42829</iCost>
@@ -4294,7 +4185,6 @@
 			<Strategy>TXT_KEY_BUILDING_URANUS_FLOATING_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_URANUS_FLOATING_CITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_COLONY_ARCOLOGY</PrereqTech>
 			<iCost>4123</iCost>
@@ -4334,7 +4224,6 @@
 			<Strategy>TXT_KEY_BUILDING_URANUS_MINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_URANUS_MINE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NUCLEAR_PULSE_PROPULSION</PrereqTech>
 			<iCost>9926</iCost>
@@ -4370,7 +4259,6 @@
 			<Strategy>TXT_KEY_BUILDING_LOW_G_SPORTS_ARENA_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LOW_G_SPORTS_ARENA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_VASIMR_PROPULSION</PrereqTech>
 			<iCost>5111</iCost>
@@ -4400,7 +4288,6 @@
 			<Strategy>TXT_KEY_BUILDING_UMBRIEL_BASE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_UMBRIEL_BASE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_KUIPER_BELT</PrereqTech>
 			<iCost>959</iCost>
@@ -4438,7 +4325,6 @@
 			<Strategy>TXT_KEY_BUILDING_TERRAFORMED_TITANIA_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TERRAFORMED_TITANIA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_TERRAFORMING</PrereqTech>
 			<iCost>22747</iCost>
@@ -4482,7 +4368,6 @@
 			<Strategy>TXT_KEY_BUILDING_TERRAFORMED_OBERON_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TERRAFORMED_OBERON</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_TERRAFORMING</PrereqTech>
 			<iCost>22747</iCost>
@@ -4526,7 +4411,6 @@
 			<Strategy>TXT_KEY_BUILDING_OBERON_HEATING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_OBERON_HEATING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SHIELDING</PrereqTech>
 			<iCost>1452</iCost>
@@ -4561,7 +4445,6 @@
 			<Strategy>TXT_KEY_BUILDING_OBERON_MAGNETIC_FIELD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_OBERON_MAGNETIC_FIELD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_DEFENSES</PrereqTech>
 			<iCost>2363</iCost>
@@ -4594,7 +4477,6 @@
 			<Strategy>TXT_KEY_BUILDING_URANIAN_SF6_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_URANIAN_SF6</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ARTIFICIAL_NUCLEOSYNTHESIS</PrereqTech>
 			<iCost>1650</iCost>
@@ -4626,7 +4508,6 @@
 			<Strategy>TXT_KEY_BUILDING_TERRAFORMED_URANUS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TERRAFORMED_URANUS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_JOVIAN_TERRAFORMING</PrereqTech>
 			<iCost>42829</iCost>
@@ -4667,7 +4548,6 @@
 			<Strategy>TXT_KEY_BUILDING_TRITON_BASE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TRITON_BASE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_KUIPER_BELT</PrereqTech>
 			<iCost>959</iCost>
@@ -4705,7 +4585,6 @@
 			<Strategy>TXT_KEY_BUILDING_TRITON_GEOTHERMAL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TRITON_GEOTHERMAL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTROGATION_CONSTELLATION</PrereqTech>
 			<iCost>1272</iCost>
@@ -4739,7 +4618,6 @@
 			<Strategy>TXT_KEY_BUILDING_TRITON_HEAT_RING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TRITON_HEAT_RING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ADVANCED_SHIELDING</PrereqTech>
 			<iCost>1867</iCost>
@@ -4771,7 +4649,6 @@
 			<Strategy>TXT_KEY_BUILDING_TERRAFORMED_TRITON_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TERRAFORMED_TRITON</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_TERRAFORMING</PrereqTech>
 			<iCost>22747</iCost>
@@ -4805,7 +4682,6 @@
 			<Strategy>TXT_KEY_BUILDING_TRITON_MILITARY_BASE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TRITON_MILITARY_BASE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LAUNCH_ARCOLOGY</PrereqTech>
 			<iCost>18377</iCost>
@@ -4853,7 +4729,6 @@
 			<Strategy>TXT_KEY_BUILDING_NEPTUNE_WIND_TURBINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_NEPTUNE_WIND_TURBINE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ADVANCED_WARMACHINES</PrereqTech>
 			<iCost>1867</iCost>
@@ -4886,7 +4761,6 @@
 			<Strategy>TXT_KEY_BUILDING_NEPTUNE_VOLATILE_MINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_NEPTUNE_VOLATILE_MINE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_EXOMINING</PrereqTech>
 			<iCost>7810</iCost>
@@ -4929,7 +4803,6 @@
 			<Strategy>TXT_KEY_BUILDING_NEPTUNE_CHANDELIER_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_NEPTUNE_CHANDELIER_CITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ADAPTIVE_ARCHITECTURE</PrereqTech>
 			<iCost>8676</iCost>
@@ -4974,7 +4847,6 @@
 			<Strategy>TXT_KEY_BUILDING_NEPTUNE_ORBITAL_RING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_NEPTUNE_ORBITAL_RING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_EXOMINING</PrereqTech>
 			<iCost>23432</iCost>
@@ -5011,7 +4883,6 @@
 			<Strategy>TXT_KEY_BUILDING_TERRAFORMED_NEPTUNE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TERRAFORMED_NEPTUNE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_JOVIAN_TERRAFORMING</PrereqTech>
 			<iCost>42829</iCost>
@@ -5053,7 +4924,6 @@
 			<Strategy>TXT_KEY_BUILDING_ERIS_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ERIS_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SOLAR_ORDNANCE</PrereqTech>
 			<iCost>11837</iCost>
@@ -5106,7 +4976,6 @@
 			<Strategy>TXT_KEY_BUILDING_MAKEMAKE_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MAKEMAKE_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SOLAR_ORDNANCE</PrereqTech>
 			<iCost>11837</iCost>
@@ -5160,7 +5029,6 @@
 			<Strategy>TXT_KEY_BUILDING_HAUMEA_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HAUMEA_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SOLAR_ORDNANCE</PrereqTech>
 			<iCost>11837</iCost>
@@ -5214,7 +5082,6 @@
 			<Strategy>TXT_KEY_BUILDING_PLUTO_BASE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PLUTO_BASE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_KUIPER_BELT</PrereqTech>
 			<iCost>2877</iCost>
@@ -5267,7 +5134,6 @@
 			<Strategy>TXT_KEY_BUILDING_TERRAFORMED_PLUTO_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TERRAFORMED_PLUTO</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_TERRAFORMING</PrereqTech>
 			<iCost>22747</iCost>
@@ -5306,7 +5172,6 @@
 			<Strategy>TXT_KEY_BUILDING_KBO_OUTPOST_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_KBO_OUTPOST</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTEROID_EXTRACTION</PrereqTech>
 			<iCost>2363</iCost>
@@ -5354,7 +5219,6 @@
 			<Strategy>TXT_KEY_BUILDING_KUIPER_BELT_TETHER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_KUIPER_BELT_TETHER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTEROID_EXTRACTION</PrereqTech>
 			<iCost>2363</iCost>
@@ -5390,7 +5254,6 @@
 			<Strategy>TXT_KEY_BUILDING_KUIPER_BELT_GEOTHERMAL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_KUIPER_BELT_GEOTHERMAL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTEROID_EXTRACTION</PrereqTech>
 			<iCost>2363</iCost>
@@ -5424,7 +5287,6 @@
 			<Strategy>TXT_KEY_BUILDING_KUIPER_BELT_FUSION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_KUIPER_BELT_FUSION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NUCLEAR_PULSE_PROPULSION</PrereqTech>
 			<iCost>3308</iCost>
@@ -5458,7 +5320,6 @@
 			<Strategy>TXT_KEY_BUILDING_SLOW_INTERSTELLAR_VESSEL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SLOW_INTERSTELLAR_VESSEL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_COSMIC_PERSPECTIVE</PrereqTech>
 			<iCost>6326</iCost>
@@ -5497,7 +5358,6 @@
 			<Strategy>TXT_KEY_BUILDING_KUIPER_BELT_INTERSTELLAR_SUPPLY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_KUIPER_BELT_INTERSTELLAR_SUPPLY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_COSMIC_PERSPECTIVE</PrereqTech>
 			<iCost>6326</iCost>
@@ -5539,7 +5399,6 @@
 			<Strategy>TXT_KEY_BUILDING_HILLS_CLOUD_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HILLS_CLOUD_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NUCLEAR_PULSE_PROPULSION</PrereqTech>
 			<iCost>3308</iCost>
@@ -5583,7 +5442,6 @@
 			<Strategy>TXT_KEY_BUILDING_SEDNA_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SEDNA_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NUCLEAR_PULSE_PROPULSION</PrereqTech>
 			<iCost>13235</iCost>
@@ -5630,7 +5488,6 @@
 			<Strategy>TXT_KEY_BUILDING_PLANET_NINE_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PLANET_NINE_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NUCLEAR_PULSE_PROPULSION</PrereqTech>
 			<iCost>13235</iCost>

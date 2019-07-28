@@ -15,7 +15,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<iPower>2</iPower>
 			<CommerceChanges>
@@ -56,7 +55,6 @@
 			</MapCategoryTypes>
 			<iCost>-1</iCost>
 			<bAutoBuild>1</bAutoBuild>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<iPower>2</iPower>
 			<CommerceChanges>

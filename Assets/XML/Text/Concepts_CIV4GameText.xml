@@ -317,11 +317,11 @@
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_BUG_IMPROVED_GLANCE_TAB_PEDIA</Tag>
 		<English>[H1]Improved Glance Tab[\H1]
-by ruff_hi[PARAGRAPH:2]With version 3.13 of Beyond the 
-Sword, the Glance Screen within the Advisor Screen was removed for, "being to ugly." We felt the information 
-given in this screen was vital, and so returned it to the Foreign Advisor screen, but improved. We realigned 
-the grid, as well as adding the attitude icons, and color coding the modifiers. It should now be easier 
-to see where you stand with your rivals.[PARAGRAPH:2][BOLD]Instructions[\BOLD][PARAGRAPH:2]Go to the 
+by ruff_hi[PARAGRAPH:2]With version 3.13 of Beyond the
+Sword, the Glance Screen within the Advisor Screen was removed for, "being to ugly." We felt the information
+given in this screen was vital, and so returned it to the Foreign Advisor screen, but improved. We realigned
+the grid, as well as adding the attitude icons, and color coding the modifiers. It should now be easier
+to see where you stand with your rivals.[PARAGRAPH:2][BOLD]Instructions[\BOLD][PARAGRAPH:2]Go to the
 Foreign Advisor Screen from the Main Interface, and click on Glance.
 		</English>
 	</TEXT>
@@ -433,7 +433,7 @@ Foreign Advisor Screen from the Main Interface, and click on Glance.
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_CHANGECIV_PEDIA</Tag>
 		<English>[H1]Civ Changer[\H1][PARAGRAPH:2]This feature can be activated in Caveman2Cosmos mod only when using cheat mode.[PARAGRAPH:2]Civ Changer allows you to change the Civ you are playing in-game. Depending on the options set in GlobalDefinesAlt.xml determines what Civs are available to change with, and how many times per game you can change. By default, you can change twice with Civs which you have contact with. Other options include being restricted to Civs on your continent, Team members, or just every Civ in play.[PARAGRAPH:2]This component is a tool, you decide when you want to activate it using two keyboard commands.  Press [BOLD]Ctrl-Shift-L[\BOLD] to open a popup allowing you to select which player you want to control.  This works quite well and is stable.  Press [BOLD]Ctrl-Shift-P[\BOLD] to instead select a player and change their civ, leader or team.  The leader and civ type do not have to correspond.  This is not fully functional as of this writing, with the main issue being that existing unit flags do not update when you change a living player's civ type.  Changing leader heads does appear to work without issue, and the traits will change aswell.[PARAGRAPH:2]Using this, you can take control of any other player in the game.  One possibility would be to build up a fantastic empire for about 250 turns, then switch to controlling a rival and see if you can take down your own creation!  Or, if you take control of a rebellion for fun, but then decide you want to go back to your old empire.  You can enable this component in the middle of a game, but you'll probably need to quit and reload to see the change.  The popup for changing a player's civ type or leader is mainly meant to demonstrate the possiblities of the SDK changes.  However, if you want to see how things would be different if Bismark took over for Fredrick, or have always wanted to have Sid control the American Empire, these things are now possible.[PARAGRAPH:2][BOLD]Known issues[\BOLD][PARAGRAPH:2]Existing unit flags do not update when you change a living player's civ type.  Putting a player on a new team may result in them losing contact with other players they have met, but their new team has not.</English>
-		<German>[H1]Civ-Wechsler[\H1][PARAGRAPH:2]Kann in Caveman2Cosmos nur im Cheat-Modus aktiviert werden.[PARAGRAPH:2]Der Civ-Wechsler ermöglicht den Wechsel der Civ im Spiel. Die Einstellungen in GlobalDefinesAlt.xml legen fest, mit welchen Civs man wechseln kann und wie oft. In der Grundeinstellung kann man zweimal mit Civs wechseln, mit denen man Kontakt hat. Weitere Optionen sind die Beschränkung auf Civs auf dem selben Kontinent, Teammitglieder, oder eine beliebige Civ im Spiel.[PARAGRAPH:2]Diese Komponente läßt per Tastaturkürzel starten. Drücke [BOLD]Strg-Shift-L[\BOLD] um ein Fenster mit der Auswahl der zu wechselnden Civs zu öffnen. Dies funktioniert gut und stabil. Drücke [BOLD]Strg-Shift-P[\BOLD] um stattdessen einen anderen Spieler auszuwählen und dessen Civ, Anführer oder Team zu verändern. Anführer und Civ müssen nicht zusammengehören. Dies funktioniert derzeit noch nicht richtig, das Hauptproblem ist es, dass vorhandene Einheiten-Flags nicht aktualisiert werden, wenn die Civ eines aktuellen Spielers geändert wird. Die Anführerbilder und die Eigenschaften zu wechseln dürfte aber ohne Probleme funktionieren.[PARAGRAPH:2]Hiermit kann man die Kontrolle über jeden anderen Spieler übernehmen. Man kann z.B. ein fantstisches Imperium 250 Runden lang aufbauen und dann zu einem Rivalen wechseln, um dann zu versuchen, die eigene Kreation zu zerstören! 
+		<German>[H1]Civ-Wechsler[\H1][PARAGRAPH:2]Kann in Caveman2Cosmos nur im Cheat-Modus aktiviert werden.[PARAGRAPH:2]Der Civ-Wechsler ermöglicht den Wechsel der Civ im Spiel. Die Einstellungen in GlobalDefinesAlt.xml legen fest, mit welchen Civs man wechseln kann und wie oft. In der Grundeinstellung kann man zweimal mit Civs wechseln, mit denen man Kontakt hat. Weitere Optionen sind die Beschränkung auf Civs auf dem selben Kontinent, Teammitglieder, oder eine beliebige Civ im Spiel.[PARAGRAPH:2]Diese Komponente läßt per Tastaturkürzel starten. Drücke [BOLD]Strg-Shift-L[\BOLD] um ein Fenster mit der Auswahl der zu wechselnden Civs zu öffnen. Dies funktioniert gut und stabil. Drücke [BOLD]Strg-Shift-P[\BOLD] um stattdessen einen anderen Spieler auszuwählen und dessen Civ, Anführer oder Team zu verändern. Anführer und Civ müssen nicht zusammengehören. Dies funktioniert derzeit noch nicht richtig, das Hauptproblem ist es, dass vorhandene Einheiten-Flags nicht aktualisiert werden, wenn die Civ eines aktuellen Spielers geändert wird. Die Anführerbilder und die Eigenschaften zu wechseln dürfte aber ohne Probleme funktionieren.[PARAGRAPH:2]Hiermit kann man die Kontrolle über jeden anderen Spieler übernehmen. Man kann z.B. ein fantstisches Imperium 250 Runden lang aufbauen und dann zu einem Rivalen wechseln, um dann zu versuchen, die eigene Kreation zu zerstören!
 Oder Du übernimmst aus Spaß eine Rebellion und wechselst dann wieder zu Deiner alten Civ zurück. Man kann diese Komponente mitten im Spiel aktivieren, muss aber das Spiel neu starten und laden, um die Äbnderung zu sehen. [PARAGRAPH:2][BOLD]Bekannte Probleme[\BOLD][PARAGRAPH:2]Vorhandene Einheiten-Flags werden nicht aktualisiert wenn die Civ eines aktuellen Spielers geändert wird. Wenn ein Spieler einem neuen Team zugeordnet wird, so kann er den Kontakt mit einer Civ verlieren, die er schon getroffen hat, sein Team aber nicht.
 		</German>
 	</TEXT>
@@ -790,15 +790,15 @@ Oder Du übernimmst aus Spaß eine Rebellion und wechselst dann wieder zu Deiner
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_ENHANCED_TECH_CONQUEST_PEDIA</Tag>
 		<English>[H1]Enhanced Tech Conquest[\H1]
-by Grave, Jeckel[PARAGRAPH:2]The Enhanced Tech Conquest 
-Mod is designed to give a tech boost from conquering enemy cities. When an enemy city is conquered, a 
-list of techs the enemy has that your empire doesn't is created. From that list a random tech is selected.[PARAGRAPH:2][BOLD]Gameplay[\BOLD][PARAGRAPH:2]Captured 
-cities always give a minimum of 25 percent towards the cost of a tech plus a random amount[PARAGRAPH:2]The 
-random amount is from 0 to (city size * 5) percent. For example a city of size 4 would give between 25% 
-and 45% of the tech cost. This assumes the default configuration values have not been changed[PARAGRAPH:2]Cities 
-greater than size 15 increase the chance of getting a full tech. For example a city of size 20 would 
-give between 25 and 125 percent of the tech cost. This assumes the default configuration value has not 
-been changed.[PARAGRAPH:2]Several configurable options (Caveman2Cosmos config.ini) allow tuning of how 
+by Grave, Jeckel[PARAGRAPH:2]The Enhanced Tech Conquest
+Mod is designed to give a tech boost from conquering enemy cities. When an enemy city is conquered, a
+list of techs the enemy has that your empire doesn't is created. From that list a random tech is selected.[PARAGRAPH:2][BOLD]Gameplay[\BOLD][PARAGRAPH:2]Captured
+cities always give a minimum of 25 percent towards the cost of a tech plus a random amount[PARAGRAPH:2]The
+random amount is from 0 to (city size * 5) percent. For example a city of size 4 would give between 25%
+and 45% of the tech cost. This assumes the default configuration values have not been changed[PARAGRAPH:2]Cities
+greater than size 15 increase the chance of getting a full tech. For example a city of size 20 would
+give between 25 and 125 percent of the tech cost. This assumes the default configuration value has not
+been changed.[PARAGRAPH:2]Several configurable options (Caveman2Cosmos config.ini) allow tuning of how
 technology will get transfered from the conquered city to the conquering civilization.
 		</English>
 		<French>[H1]Conquête des Techs[\H1][NEWLINE]par Grave, Jeckel[PARAGRAPH:2] Ce mod est prévu pour donner un avantage technologique en capturant des Villes ennemies, en récupérant de manière aléatoire un bonus pour une technologie connue par l'ennemi.</French>
@@ -820,20 +820,20 @@ technology will get transfered from the conquered city to the conquering civiliz
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_ETHNIC_CITYSTYLES_PEDIA</Tag>
 		<English>[H1]Ethnic Citystyles[\H1]
-by Geomodder[PARAGRAPH:2]This mod is made to make the civilizations 
-more culturally diverse with the available art made by freelance modders and unused art by Firaxis.[PARAGRAPH:2]Basically, 
-citysets of the different artstyle groups have been changed/altered until the Modern Era, where ever 
-art was available for it. The future era has been made common for all artstyles. In some cases you'll 
-still see the normal ingame cityset buildings, which means I haven't found art for those spots or I intended 
-it to remain there. Also, for some units and buildings new .dds files are included which I felt made 
-them look better without altering the basic model of it.[PARAGRAPH:2]Besides citystyles, new facility 
-art has been included for the different artstyles. This part is not finished yet since there's no art 
-available for some artstyles/era's. Included are Sepamu92's fishingboat modcomponent and art has been 
-replaced for some improvements too.[PARAGRAPH:2]The new artstyles in this mod so far are AFRICA, ANGLO 
-AMERICA, ARABIA, ASIA, BARBARIAN, CRESCENT, EGYPT, EUROPE, GRECO_ROMAN, IBERIA, INDIA, JAPAN, MESO AMERICA, 
-MONGOLIA, NATIVE AMERICA, NORSE, RUSSIA, SOUTH AMERICA and SOUTH-EAST ASIA. Don't expect truly different 
-citystyles in all cases tho, quite a number of them are hybrids, especially the Indian -and Khmer civ. 
-The main new thing is that from the Industrial era on a mix of old and new city buildings are used. For 
+by Geomodder[PARAGRAPH:2]This mod is made to make the civilizations
+more culturally diverse with the available art made by freelance modders and unused art by Firaxis.[PARAGRAPH:2]Basically,
+citysets of the different artstyle groups have been changed/altered until the Modern Era, where ever
+art was available for it. The future era has been made common for all artstyles. In some cases you'll
+still see the normal ingame cityset buildings, which means I haven't found art for those spots or I intended
+it to remain there. Also, for some units and buildings new .dds files are included which I felt made
+them look better without altering the basic model of it.[PARAGRAPH:2]Besides citystyles, new facility
+art has been included for the different artstyles. This part is not finished yet since there's no art
+available for some artstyles/era's. Included are Sepamu92's fishingboat modcomponent and art has been
+replaced for some improvements too.[PARAGRAPH:2]The new artstyles in this mod so far are AFRICA, ANGLO
+AMERICA, ARABIA, ASIA, BARBARIAN, CRESCENT, EGYPT, EUROPE, GRECO_ROMAN, IBERIA, INDIA, JAPAN, MESO AMERICA,
+MONGOLIA, NATIVE AMERICA, NORSE, RUSSIA, SOUTH AMERICA and SOUTH-EAST ASIA. Don't expect truly different
+citystyles in all cases tho, quite a number of them are hybrids, especially the Indian -and Khmer civ.
+The main new thing is that from the Industrial era on a mix of old and new city buildings are used. For
 instance in the Modern era you'll see Industrial city art and modern flats mixed for the European civs.
 		</English>
 		<French>[H1]Styles des Villes par Ethnie[\H1][NEWLINE]by Geomodder[PARAGRAPH:2]Ce mode graphique ajoute de la diversité aux graphismes en rassemblant des créations de modders et ceux non utilisé par firaxis.</French>
@@ -1215,11 +1215,11 @@ instance in the Modern era you'll see Industrial city art and modern flats mixed
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_INFLUENCE_DRIVEN_WAR_PEDIA</Tag>
 		<English>[H1]Influence Driven War[\H1]
-by Moctezuma[PARAGRAPH:2][BOLD]Combat influence[\BOLD][PARAGRAPH:2]Military 
-units affect surroundings via combat influence:[PARAGRAPH:2]After each combat between two units: some 
-amount of culture accumulated in each square of combat area is transferred from loser player/AI to winner 
-player/AI. Combat area (i.e. influence radius) is: attacker plot, defended plot and near surrounding 
-plots (see definition of influence radius bellow). Note: This way I try to simulate effect of battle 
+by Moctezuma[PARAGRAPH:2][BOLD]Combat influence[\BOLD][PARAGRAPH:2]Military
+units affect surroundings via combat influence:[PARAGRAPH:2]After each combat between two units: some
+amount of culture accumulated in each square of combat area is transferred from loser player/AI to winner
+player/AI. Combat area (i.e. influence radius) is: attacker plot, defended plot and near surrounding
+plots (see definition of influence radius bellow). Note: This way I try to simulate effect of battle
 victory: some peoples have tendency to give up and flip to victorious side.
 
 Rules:
@@ -1232,12 +1232,12 @@ Rules:
 	[ICON_BULLET]It works also for attacking/defending barbarians in player or barbarian territory (this can be disabled via XML file).
 	[ICON_BULLET]Also water squares are affected by combat influence.
 	[ICON_BULLET]Naval combats use same influence rules as land combats. Note: if naval battle occurs near land, also land squares are affected (naval influence can be disabled via XML file).
-	[ICON_BULLET]No culture is exchanged during city bombardment (via catapults, ships, bombers, ICBM); during fighter interception; 
-or if worker/settler is captured out of city.[PARAGRAPH:2][BOLD]Active city resistance[\BOLD][PARAGRAPH:2]If 
-last defending unit in the city dies and city resistance is sufficient then one militia unit emerges 
-in city, otherwise it is captured just like in vanilla. Resistance is sufficient if defender's culture 
-in central plot is same or higher than attacker's culture in central plot (culture ratios in central 
-city plot you can check also in the city screen). Note: This new rule tries to simulate active people 
+	[ICON_BULLET]No culture is exchanged during city bombardment (via catapults, ships, bombers, ICBM); during fighter interception;
+or if worker/settler is captured out of city.[PARAGRAPH:2][BOLD]Active city resistance[\BOLD][PARAGRAPH:2]If
+last defending unit in the city dies and city resistance is sufficient then one militia unit emerges
+in city, otherwise it is captured just like in vanilla. Resistance is sufficient if defender's culture
+in central plot is same or higher than attacker's culture in central plot (culture ratios in central
+city plot you can check also in the city screen). Note: This new rule tries to simulate active people
 resistance in highly cultured cities.
 
 Militia unit is "auto-drafted":
@@ -1249,12 +1249,12 @@ Militia unit is "auto-drafted":
 	[ICON_BULLET]When city population is reduced to 1, the city is captured even if resistance is still sufficient.
 	[ICON_BULLET]There is no technology requirement for auto-draft: this is not real conscription: imagine peoples that are just trying in defend their homes.
 	[ICON_BULLET]It takes some time to accumulate sufficient culture: if city is attacked early no militia emerges.
-[PARAGRAPH:2][BOLD]Pillage influence[\BOLD][PARAGRAPH:2]When enemy unit pillages tile improvement, some amount of accumulated culture 
-is transferred from improvement owner to unit owner. Only single square is affected. [PARAGRAPH:2]Note: 
+[PARAGRAPH:2][BOLD]Pillage influence[\BOLD][PARAGRAPH:2]When enemy unit pillages tile improvement, some amount of accumulated culture
+is transferred from improvement owner to unit owner. Only single square is affected. [PARAGRAPH:2]Note:
 This rule was added to provide incentive for defender to defend own territory and
 
- not only stay inside 
-cities. It reflects situation where farmers, miners or villagers escape due to farm, mine or village 
+ not only stay inside
+cities. It reflects situation where farmers, miners or villagers escape due to farm, mine or village
 is burned down by invader. [PARAGRAPH:2]This rule is optional and can be disabled via XML.
 
 Rules:
@@ -1262,52 +1262,52 @@ Rules:
 	[ICON_BULLET]No influence form route pillage (roads, railroads).
 	[ICON_BULLET]Works also for sea improvements (e.g. fishing boats).
 	[ICON_BULLET]For improvements like towns, each downgrade influences given square.
-[PARAGRAPH:2][H1]Gameplay[\H1][PARAGRAPH:2][BOLD]Player is informed about effects of IDW 
-this way:[\BOLD][PARAGRAPH:2]After each battle a number with influence % (i.e. exchanged culture ratio) 
-is shown in the game log. It is calculated in defended plot only, but whole combat area is influenced. 
-Reason that I'm using defended plot here is because it is in most cases the most important one (e.g. 
+[PARAGRAPH:2][H1]Gameplay[\H1][PARAGRAPH:2][BOLD]Player is informed about effects of IDW
+this way:[\BOLD][PARAGRAPH:2]After each battle a number with influence % (i.e. exchanged culture ratio)
+is shown in the game log. It is calculated in defended plot only, but whole combat area is influenced.
+Reason that I'm using defended plot here is because it is in most cases the most important one (e.g.
 central city square).
 	[ICON_BULLET]Green color means culture increase for you
 	[ICON_BULLET]Red color means culture decrease for you.
-[PARAGRAPH:2]When last city defender dies and militia unit is "auto-drafted" 
-a remaining resistance % is shown in the game log.[PARAGRAPH:2][BOLD]Result of changes on gameplay:[\BOLD][PARAGRAPH:2][BOLD]1. 
-More dynamic borders during wars:[\BOLD][PARAGRAPH:2]In vanilla game a culture plays significant role 
-only in the beginning. In later stages the borders are almost fixed: big changes happen only if cities 
-are captured. [PARAGRAPH:2]With new rules you can fight for territory between cities and not only for 
-cities itself. I think that this "frontline" effect really improves gameplay. You can "win" quite large 
-area with several resources even without conquering single enemy city! Possible tactics if you don't 
-have sufficient power to conquer cities could be stay/pillage/heal near your borders and influence squares 
-by killing approaching enemies.[PARAGRAPH:2][BOLD]2. Surprise or backstabbing attacks are less effective:[\BOLD][PARAGRAPH:2]Attacked 
-city can for short time defend itself even if last defender dies if resistance is sufficient: this increases 
-reaction time for defending player if he has many units in the opposite side of empire.[PARAGRAPH:2]However 
-you cannot count on auto-drafted units. These are meant only to slow-down attack in case when everything 
-else fails. In most cases a militia units can defend high cultured city only 1-2 turns until real defender 
-units arrive because: 
-	[ICON_BULLET]Militia unit begins with very low health, so if it is 
+[PARAGRAPH:2]When last city defender dies and militia unit is "auto-drafted"
+a remaining resistance % is shown in the game log.[PARAGRAPH:2][BOLD]Result of changes on gameplay:[\BOLD][PARAGRAPH:2][BOLD]1.
+More dynamic borders during wars:[\BOLD][PARAGRAPH:2]In vanilla game a culture plays significant role
+only in the beginning. In later stages the borders are almost fixed: big changes happen only if cities
+are captured. [PARAGRAPH:2]With new rules you can fight for territory between cities and not only for
+cities itself. I think that this "frontline" effect really improves gameplay. You can "win" quite large
+area with several resources even without conquering single enemy city! Possible tactics if you don't
+have sufficient power to conquer cities could be stay/pillage/heal near your borders and influence squares
+by killing approaching enemies.[PARAGRAPH:2][BOLD]2. Surprise or backstabbing attacks are less effective:[\BOLD][PARAGRAPH:2]Attacked
+city can for short time defend itself even if last defender dies if resistance is sufficient: this increases
+reaction time for defending player if he has many units in the opposite side of empire.[PARAGRAPH:2]However
+you cannot count on auto-drafted units. These are meant only to slow-down attack in case when everything
+else fails. In most cases a militia units can defend high cultured city only 1-2 turns until real defender
+units arrive because:
+	[ICON_BULLET]Militia unit begins with very low health, so if it is
 attacked in same turn, it almost certainly dies.
 	[ICON_BULLET]City resistance decreases very quickly because victory influence is much higher when last city defender dies (see NoCityDefenderMultiplier).
-	[ICON_BULLET]Each auto-drafted unit increases unhappiness in the city.[PARAGRAPH:2]Note: I cannot make militia units more 
-effective, because then player can abuse it: e.g. move out all defenders from city and later counterattack 
-damaged attackers.[PARAGRAPH:2][BOLD]3. High cultured cities are harder to conquer (more militia formed) 
-but easier to hold after capture [\BOLD]because city's central square has quite good amount of conqueror's 
-culture immediately after capture.[PARAGRAPH:2]This means:[PARAGRAPH:2]No problem with cultural flipping 
-of captured city back to original owner: In vanilla is this problem is fixed by disabling startup option: 
-"City flipping after conquest". This is no longer needed in this mod.[PARAGRAPH:2]Much smaller problem 
-with cultural flipping of captured city to neighbor civ, which can be in peace with conqueror. Naturally, 
-if just conquered city has been in big cultural pressure prior to capture it will be in pressure also 
-after it, because culture is transferred only from city's previous owner.[PARAGRAPH:2]Note: culture buildings 
-in newly captured city are still very important because city still begins with zero culture (only plots 
+	[ICON_BULLET]Each auto-drafted unit increases unhappiness in the city.[PARAGRAPH:2]Note: I cannot make militia units more
+effective, because then player can abuse it: e.g. move out all defenders from city and later counterattack
+damaged attackers.[PARAGRAPH:2][BOLD]3. High cultured cities are harder to conquer (more militia formed)
+but easier to hold after capture [\BOLD]because city's central square has quite good amount of conqueror's
+culture immediately after capture.[PARAGRAPH:2]This means:[PARAGRAPH:2]No problem with cultural flipping
+of captured city back to original owner: In vanilla is this problem is fixed by disabling startup option:
+"City flipping after conquest". This is no longer needed in this mod.[PARAGRAPH:2]Much smaller problem
+with cultural flipping of captured city to neighbor civ, which can be in peace with conqueror. Naturally,
+if just conquered city has been in big cultural pressure prior to capture it will be in pressure also
+after it, because culture is transferred only from city's previous owner.[PARAGRAPH:2]Note: culture buildings
+in newly captured city are still very important because city still begins with zero culture (only plots
 are influenced by combat).[PARAGRAPH:2][BOLD]4.
 
- No problems with stealing of conquered city:[\BOLD][PARAGRAPH:2]This 
-happens often in multiplayer with simultaneous turns but sometimes it occurs  also in single-player: 
-Two players are doing joint attack on same enemy city; first  player destroys all defenders; second one 
-just waits until last defender remains there and then attacks.[PARAGRAPH:2]With new rules the city capture 
-is fairer: culture in central city square is increased after each victory for each attacking player separately. 
-If no defender unit is left then attacker, whose culture in central square is higher than owners culture, 
-captures the city.[PARAGRAPH:2][BOLD]5. In battles quality counts more than quantity:[\BOLD][PARAGRAPH:2]With 
-new rules the conquest is easier with smaller stack of high strength units than with bigger stack of 
-low strength units: Veteran unit makes more influence (see UnitExperienceMultiplier) and better victory/loss 
+ No problems with stealing of conquered city:[\BOLD][PARAGRAPH:2]This
+happens often in multiplayer with simultaneous turns but sometimes it occurs  also in single-player:
+Two players are doing joint attack on same enemy city; first  player destroys all defenders; second one
+just waits until last defender remains there and then attacks.[PARAGRAPH:2]With new rules the city capture
+is fairer: culture in central city square is increased after each victory for each attacking player separately.
+If no defender unit is left then attacker, whose culture in central square is higher than owners culture,
+captures the city.[PARAGRAPH:2][BOLD]5. In battles quality counts more than quantity:[\BOLD][PARAGRAPH:2]With
+new rules the conquest is easier with smaller stack of high strength units than with bigger stack of
+low strength units: Veteran unit makes more influence (see UnitExperienceMultiplier) and better victory/loss
 ratio means more culture transferred to attacker.
 
 Some examples:
@@ -1327,26 +1327,26 @@ par Moctezuma[PARAGRAPH:2][BOLD]Combat influence[\BOLD][PARAGRAPH:2]Les Combats 
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_INQUISITION_PEDIA</Tag>
-		<English>[H1]Inquisition[\H1][PARAGRAPH:2]While the missionary seeks to spread the state religion, 
-the Inquisitor is used to remove all non-state religions from a city. Like the Missionary, the inquisitor 
-is limited to a maximum of only 3 units a player can have at any one time. As the defender of the official 
-state religious faith, the inquisitor is a very powerful unit. If an inquisition is successful, all non-state 
-religions and their associated non-state religious buildings will be removed from the city. Whether the 
-inquisition is successful or not, the unit is used up after executing an inquisition. Thus, the production 
-of many inquisitors may be necessary to finally achieve religious unity. [PARAGRAPH:2][BOLD]Foreign Inquisitions[\BOLD][PARAGRAPH:2]You 
-can also conduct a foreign inquisition, if you meet all 3 prerequisites below. [PARAGRAPH:2]To build 
-an inquisitor: You must have researched Fundamantalism, have a state religion in the city and have Intolerant 
-religion civic active.[PARAGRAPH:2]To use an inquisitor in a city: You must have your state religion 
-previously established in a city and there must be at least one non-state religion established in the 
-same city.[PARAGRAPH:2]To use an inquisitor in a foreign city: The foreign civilization must have the 
-same state religion as you, the foreign civilization must have an open borders agreement with you and 
-the foreign city must also meet the requirements of prerequisite 2 above.  [PARAGRAPH:2]If you want to 
-play a game with Limited Religions, then simply enable it from RevDCM options page in BUG Options (CTRL-ALT-O).[PARAGRAPH:2][BOLD]Respawn 
-Holy Cities[\BOLD][PARAGRAPH:2]Respawn a Holy City that was purged by an inquisitor or razed during wars. 
-By default this feature is off but you can enable it from RevDCM options page in BUG Options (CTRL-ALT-O).[PARAGRAPH:2][BOLD]Purging 
-Holy Cities[\BOLD][PARAGRAPH:2]This game feature allows Inquisitors to purge Holy Cities which means 
-that if the city has non-state religion Holy City and you purge the city with Inquisitor the non-state 
-religious holy city is removed. This feature is off by default. If you want to use this feature you can 
+		<English>[H1]Inquisition[\H1][PARAGRAPH:2]While the missionary seeks to spread the state religion,
+the Inquisitor is used to remove all non-state religions from a city. Like the Missionary, the inquisitor
+is limited to a maximum of only 3 units a player can have at any one time. As the defender of the official
+state religious faith, the inquisitor is a very powerful unit. If an inquisition is successful, all non-state
+religions and their associated non-state religious buildings will be removed from the city. Whether the
+inquisition is successful or not, the unit is used up after executing an inquisition. Thus, the production
+of many inquisitors may be necessary to finally achieve religious unity. [PARAGRAPH:2][BOLD]Foreign Inquisitions[\BOLD][PARAGRAPH:2]You
+can also conduct a foreign inquisition, if you meet all 3 prerequisites below. [PARAGRAPH:2]To build
+an inquisitor: You must have researched Fundamantalism, have a state religion in the city and have Intolerant
+religion civic active.[PARAGRAPH:2]To use an inquisitor in a city: You must have your state religion
+previously established in a city and there must be at least one non-state religion established in the
+same city.[PARAGRAPH:2]To use an inquisitor in a foreign city: The foreign civilization must have the
+same state religion as you, the foreign civilization must have an open borders agreement with you and
+the foreign city must also meet the requirements of prerequisite 2 above.  [PARAGRAPH:2]If you want to
+play a game with Limited Religions, then simply enable it from RevDCM options page in BUG Options (CTRL-ALT-O).[PARAGRAPH:2][BOLD]Respawn
+Holy Cities[\BOLD][PARAGRAPH:2]Respawn a Holy City that was purged by an inquisitor or razed during wars.
+By default this feature is off but you can enable it from RevDCM options page in BUG Options (CTRL-ALT-O).[PARAGRAPH:2][BOLD]Purging
+Holy Cities[\BOLD][PARAGRAPH:2]This game feature allows Inquisitors to purge Holy Cities which means
+that if the city has non-state religion Holy City and you purge the city with Inquisitor the non-state
+religious holy city is removed. This feature is off by default. If you want to use this feature you can
 enable it from RevDCM options page in BUG Options (CTRL-ALT-O).
 		</English>
 		<French>[H1]Inquisition[\H1][PARAGRAPH:2]Alors que les Missionnaires cherchent à propager la religion d'Etat, l'Inquisiteur est utilisé pour éradiquer les religions non officielles d'une Ville.</French>
@@ -1499,7 +1499,7 @@ enable it from RevDCM options page in BUG Options (CTRL-ALT-O).
 		</French>
 		<German>[H1]Meistersieg[\H1][PARAGRAPH:2]Der Meistersieg ist eine völlig neue Siegbedingung, die sich von allen anderen komplett unterscheidet. Wenn er aktiviert wird, werden alle anderen Siegbedingungen ignoriert. Die Siegberechnung erfolgt am Ende der virtuellen Zeit, nicht, wenn ein Spieler ein spezielles Spielziel erreicht hat. Wer bis zu diesem Zeitpunkt überlebt und die meisten Punkte auf seinem Konto hat, gewinnt das Spiel.[PARAGRAPH:2][BOLD]Punktevergabe[\BOLD]
 
-	[ICON_BULLET]jedes kontrollierte Kartenfeld - 1 Punkt 
+	[ICON_BULLET]jedes kontrollierte Kartenfeld - 1 Punkt
 	[ICON_BULLET]Anteil an der Weltbevölkerung - 1 Punkt pro Prozentpunkt
 	[ICON_BULLET]Anteil an der gesamten Weltkultur - 1 Punkt pro Prozentpunkt
 	[ICON_BULLET]Anteil der kontrollierten Weltreligion - 1 Punkt pro Prozentpunkt
@@ -1998,31 +1998,31 @@ enable it from RevDCM options page in BUG Options (CTRL-ALT-O).
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_REV_DYNAMIC_NAMES_PEDIA</Tag>
-		<English>[H1]Dynamic Civ Names[\H1][PARAGRAPH:2][BOLD]The goal:[\BOLD][PARAGRAPH:2]This component renames 
-civs based on their civics choices and other status factors. A civs names will change many times over 
-the course of a game. While it has no actual effect on gameplay, it adds dynamic variety to the game.[PARAGRAPH:2][BOLD]How 
-it works:[\BOLD][PARAGRAPH:2]When a civ is created or changes their civics, they are potentially assigned 
-a new name based on many factors. Civs spawned by either Revolution or BarbarianCiv will get temporary 
-names indicating their status, like Mongolian Horde or Russian Rebels, until they're more firmly established. 
-When a civ switches to Hereditary Rule their name will change to something like Kingdom of America, while 
-under Representation or Universal Sufferage they would be the American Republic. Civs with only one city 
-in the later stages of the game may have the city name included in their title, but their civ type will 
-always be clarified as in the French Kingom of Paris. Vassals will also get different names. There are 
-many different potential names, and even variations for civs with the same status to provide some flavor.[PARAGRAPH:2]All 
-of the civics determinations are made using the added Revolution flags in the civics xml file to support 
-variations on the standard civics systems. Having a civic with the isCommunism bool set will cause Communist 
-style names. In addition, some civs have special names like show up in certain circumstances, like the 
-German Reich and Arabian Caliphate. These determinations are made by matching text in the civs adjective 
-(ie German or Arabian).[PARAGRAPH:2]This component has several features designed to support names of 
-civs created by BarbarianCiv and Revolution, but would provide plenty of fun flavor name changes as a 
-standalone mod or addition for other mods. It requires changes to the DLL to allow name changes to stick, 
+		<English>[H1]Dynamic Civ Names[\H1][PARAGRAPH:2][BOLD]The goal:[\BOLD][PARAGRAPH:2]This component renames
+civs based on their civics choices and other status factors. A civs names will change many times over
+the course of a game. While it has no actual effect on gameplay, it adds dynamic variety to the game.[PARAGRAPH:2][BOLD]How
+it works:[\BOLD][PARAGRAPH:2]When a civ is created or changes their civics, they are potentially assigned
+a new name based on many factors. Civs spawned by either Revolution or BarbarianCiv will get temporary
+names indicating their status, like Mongolian Horde or Russian Rebels, until they're more firmly established.
+When a civ switches to Hereditary Rule their name will change to something like Kingdom of America, while
+under Representation or Universal Sufferage they would be the American Republic. Civs with only one city
+in the later stages of the game may have the city name included in their title, but their civ type will
+always be clarified as in the French Kingom of Paris. Vassals will also get different names. There are
+many different potential names, and even variations for civs with the same status to provide some flavor.[PARAGRAPH:2]All
+of the civics determinations are made using the added Revolution flags in the civics xml file to support
+variations on the standard civics systems. Having a civic with the isCommunism bool set will cause Communist
+style names. In addition, some civs have special names like show up in certain circumstances, like the
+German Reich and Arabian Caliphate. These determinations are made by matching text in the civs adjective
+(ie German or Arabian).[PARAGRAPH:2]This component has several features designed to support names of
+civs created by BarbarianCiv and Revolution, but would provide plenty of fun flavor name changes as a
+standalone mod or addition for other mods. It requires changes to the DLL to allow name changes to stick,
 but all name changes are generated in Python.
 		</English>
-		<French>[H1]Titre de Civ Dynamique[\H1][PARAGRAPH:2][BOLD]Objectif:[\BOLD][PARAGRAPH:2]Renomme les 
-Noms des nations en fonction des Doctrines et du type de gouvernement. N'a aucun effet sur le Gameplay 
-mais ajoute de la variété[PARAGRAPH:2][BOLD]Principe:[\BOLD][PARAGRAPH:2]Lorsque la Civ est créé ou change 
-de doctrines, un nouveau nom est créé. NDT - Attention, cette option comporte certaines incompatibilité 
-avec la version française, et entraîne des fautes d'accords dans l'utilisation de adjectifs des civilisations 
+		<French>[H1]Titre de Civ Dynamique[\H1][PARAGRAPH:2][BOLD]Objectif:[\BOLD][PARAGRAPH:2]Renomme les
+Noms des nations en fonction des Doctrines et du type de gouvernement. N'a aucun effet sur le Gameplay
+mais ajoute de la variété[PARAGRAPH:2][BOLD]Principe:[\BOLD][PARAGRAPH:2]Lorsque la Civ est créé ou change
+de doctrines, un nouveau nom est créé. NDT - Attention, cette option comporte certaines incompatibilité
+avec la version française, et entraîne des fautes d'accords dans l'utilisation de adjectifs des civilisations
 (dans les évènements par exemple), et les accents ont du être supprimés.
 		</French>
 	</TEXT>
@@ -2211,7 +2211,7 @@ v0.78 [PARAGRAPH:2][BOLD]New User Interface Features[\BOLD][PARAGRAPH:2]Holding 
 	[PARAGRAPH:2][BOLD]Espionage AI[\BOLD]
 	[ICON_BULLET]When a spy has waited in a city but has no mission available, they are now more likely to move around and explore instead of sitting
 	[ICON_BULLET]Revamped desired Espionage rate and priority weighting calculations, AI now always update weights, relations play a larger role
-	[ICON_BULLET]Neutral priority weighting is now 10 instead of 0, differentiates between 
+	[ICON_BULLET]Neutral priority weighting is now 10 instead of 0, differentiates between
 	[ICON_BULLET]When AI starts preparing for war against another player they will heavily shift their espionage spending towards that player
 	[ICON_BULLET]AI will attempt to gain passive mission levels against adversaries
 	[ICON_BULLET]AI will now actually load spies onto the spy transport it builds
@@ -2233,7 +2233,7 @@ v0.78 [PARAGRAPH:2][BOLD]New User Interface Features[\BOLD][PARAGRAPH:2]Holding 
 	[ICON_BULLET]AI will now only defy forced peace if it is doing quite well in the war, increased use of personality so warmongers are much more likely to defy
 	[ICON_BULLET]Vassals will now vote for forced war proposal under some circustances.  Previously they were blocked from voting for a war they weren't already in since they can't declare war on their own.  (Vassals of player to be attacked always vote no still)
 	[ICON_BULLET]AI will now always vote for a forced war proposal against a player they are planning to attack anyway in addition to always voting yes if already at war
-	[ICON_BULLET]For forced war vote, replaced blanket check on whether AI doesn't hate victim with roll based on AI's attitude-based peace probability		
+	[ICON_BULLET]For forced war vote, replaced blanket check on whether AI doesn't hate victim with roll based on AI's attitude-based peace probability
 	[ICON_BULLET]Averaging of attitudes of vassals and masters is now done using the more accurate +- attitude value, not the attitude type
 	[PARAGRAPH:2][BOLD]Naval AI[\BOLD]
 	[ICON_BULLET]Modified bombard behavior. Priority remains on supporting player's ground troops, if none then consider supporting other troops with common enemy and spreading out stacks to increase reach of blockade.
@@ -2336,7 +2336,7 @@ v0.78 [PARAGRAPH:2][BOLD]New User Interface Features[\BOLD][PARAGRAPH:2]Holding 
 	[ICON_BULLET]Fixed issue with AI Privateers being unable to group, also won't run around the whole world just to group
 	[PARAGRAPH:2][BOLD]Cultural Victory AI[\BOLD]
 	[ICON_BULLET]If AI moves its capital, it will no longer always block pursuit of cultural victory
-	[ICON_BULLET]Further boosted AI's valuation of culture yield for second, third place culture city when going for cultural victory 
+	[ICON_BULLET]Further boosted AI's valuation of culture yield for second, third place culture city when going for cultural victory
 	[ICON_BULLET]The AI's final city for cultural victory will now build culture much more frequently, tightening up their vcitory
 	[PARAGRAPH:2][BOLD]General AI[\BOLD]
 	[ICON_BULLET]Modified city closeness calculations to use population from both cities, not just pop of the other city
@@ -2403,36 +2403,36 @@ Upgrade lines are:
 		<Tag>TXT_KEY_CONCEPT_ROM_CIV4LERTS_PEDIA</Tag>
 		<English>[H1]Civ4lerts[\H1]
 by Dr. Elmer Jiggles (Heavily Modified by EmperorFool) [PARAGRAPH:2]This mod implements on screen alerts for a variety of in-game events such as city growth and the availability
-of new trade opportunities. The concept is modeled after the CivAssist tool for Civilization 3, and in 
-fact, many of the alerts are the same. [PARAGRAPH:2]The alerts will not reveal information that would 
-otherwise be unavailable. They are simply intended to call the player's attention to situations as they 
-arise without requiring tedious scanning of the advisor screens on each turn.[PARAGRAPH:2]The alert messages 
-are integrated with the existing event log. Like those messages, a notification is displayed on screen 
-for a short period of time. Messages that have been cleared from the screen can be recalled by opening 
-the event log. When appropriate, clicking on a message brings the camera focus to the site of the event. 
-[PARAGRAPH:2]The Alerts you can set up are:[PARAGRAPH:2][BOLD]Cities:[\BOLD][PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Pending 
-Growth [COLOR_REVERT]- Alert displayed the turn before city growth.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Growth 
-[COLOR_REVERT]- Alert displayed when a city grows.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Pending 
-Healthiness [COLOR_REVERT]- Alert displayed the turn before city becomes unhealthy. [PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Healthiness[COLOR_REVERT]- 
-Alert displayed when a city grows unhealthy.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Pending Happiness 
-[COLOR_REVERT]- Alert displayed the turn before city becomes unhappy. [PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Happiness 
-[COLOR_REVERT]- Alert displayed when a city grows unhappy.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Pending 
-Border Expansion [COLOR_REVERT]- Alert displayed the turn before a cities cultural borders will expand.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Can 
-Hurry w. Population [COLOR_REVERT]- Can use population to hurry the production of a city, as well as 
-how many population points it will take, and the amount of hammers of overflow.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Can 
-Hurry W. Gold [COLOR_REVERT]- Can hurry the production of a city with cash, and how much it will cost.[PARAGRAPH:2][BOLD]Diplomacy:[\BOLD][PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Open 
-Border [COLOR_REVERT]- Will sign Open Borders Agreement.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Defensive 
-Pact [COLOR_REVERT]- Will sign Defensive Pact [PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Permanent 
-Alliance [COLOR_REVERT]- Will sign Permanent Alliance [PARAGRAPH:2][BOLD]Trading:[\BOLD][PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Technologies[COLOR_REVERT]- 
-What technologies other civilizations will trade.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Gold 
-[COLOR_REVERT]- When other civilizations have Gold available for trade. You can set the minimum amount 
-of gold before the alert is triggers as well.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Gold Per 
-Turn [COLOR_REVERT]- When other civilizations have Gold Per Turn available for trade. You can set the 
-minimum amount of gold before the alert is triggers as well.[PARAGRAPH:2][BOLD]Victory:[\BOLD][PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Domination 
-Limit: Population [COLOR_REVERT]- When you are about to win a Domination Victory for Population. You 
-can set the percentage away from that limit before the alert is triggered.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Domination 
-Limit: Land [COLOR_REVERT]When you are about to win a Domination Victory for Land. You can set the percentage 
-away from that limit before the alert is triggered.[PARAGRAPH:2]From the BUG Options Screen, in the Alerts 
+of new trade opportunities. The concept is modeled after the CivAssist tool for Civilization 3, and in
+fact, many of the alerts are the same. [PARAGRAPH:2]The alerts will not reveal information that would
+otherwise be unavailable. They are simply intended to call the player's attention to situations as they
+arise without requiring tedious scanning of the advisor screens on each turn.[PARAGRAPH:2]The alert messages
+are integrated with the existing event log. Like those messages, a notification is displayed on screen
+for a short period of time. Messages that have been cleared from the screen can be recalled by opening
+the event log. When appropriate, clicking on a message brings the camera focus to the site of the event.
+[PARAGRAPH:2]The Alerts you can set up are:[PARAGRAPH:2][BOLD]Cities:[\BOLD][PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Pending
+Growth [COLOR_REVERT]- Alert displayed the turn before city growth.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Growth
+[COLOR_REVERT]- Alert displayed when a city grows.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Pending
+Healthiness [COLOR_REVERT]- Alert displayed the turn before city becomes unhealthy. [PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Healthiness[COLOR_REVERT]-
+Alert displayed when a city grows unhealthy.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Pending Happiness
+[COLOR_REVERT]- Alert displayed the turn before city becomes unhappy. [PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Happiness
+[COLOR_REVERT]- Alert displayed when a city grows unhappy.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Pending
+Border Expansion [COLOR_REVERT]- Alert displayed the turn before a cities cultural borders will expand.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Can
+Hurry w. Population [COLOR_REVERT]- Can use population to hurry the production of a city, as well as
+how many population points it will take, and the amount of hammers of overflow.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Can
+Hurry W. Gold [COLOR_REVERT]- Can hurry the production of a city with cash, and how much it will cost.[PARAGRAPH:2][BOLD]Diplomacy:[\BOLD][PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Open
+Border [COLOR_REVERT]- Will sign Open Borders Agreement.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Defensive
+Pact [COLOR_REVERT]- Will sign Defensive Pact [PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Permanent
+Alliance [COLOR_REVERT]- Will sign Permanent Alliance [PARAGRAPH:2][BOLD]Trading:[\BOLD][PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Technologies[COLOR_REVERT]-
+What technologies other civilizations will trade.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Gold
+[COLOR_REVERT]- When other civilizations have Gold available for trade. You can set the minimum amount
+of gold before the alert is triggers as well.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Gold Per
+Turn [COLOR_REVERT]- When other civilizations have Gold Per Turn available for trade. You can set the
+minimum amount of gold before the alert is triggers as well.[PARAGRAPH:2][BOLD]Victory:[\BOLD][PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Domination
+Limit: Population [COLOR_REVERT]- When you are about to win a Domination Victory for Population. You
+can set the percentage away from that limit before the alert is triggered.[PARAGRAPH:2][ICON_BULLET][COLOR_HIGHLIGHT_TEXT]Domination
+Limit: Land [COLOR_REVERT]When you are about to win a Domination Victory for Land. You can set the percentage
+away from that limit before the alert is triggered.[PARAGRAPH:2]From the BUG Options Screen, in the Alerts
 Tab, you can check the alerts you want, or don't want, to be shown at the start of every turn.
 		</English>
 		<French>[H1]Civ4lertes[\H1][NEWLINE]par Dr. Elmer Jiggles (modifié par EmperorFool) [PARAGRAPH:2]Ce Mod permet d'obtenir des alertes à l'écrant concernant une variété importante d'événements de votre nation, comme la croissance de vos vills, les changements de statuts diplomatiques,...</French>
@@ -2768,7 +2768,7 @@ The module can be disabled by moving UN Mission and all UN units from 'Caveman2C
 		<Tag>TXT_KEY_CONCEPT_ROM_MODULES_CIV_SPECIFIC_UNITARTSTYLES_PEDIA</Tag>
 		<English>[H1]Civ Specific UnitArtStyles -modules[\H1]
 
-	Caveman2Cosmos comes with several Civ Specific Unitarstyles modules. These modules are entirely optional and all of them are on by default. These modules provide alternative civilization specific unit graphics for most unit classes. 
+	Caveman2Cosmos comes with several Civ Specific Unitarstyles modules. These modules are entirely optional and all of them are on by default. These modules provide alternative civilization specific unit graphics for most unit classes.
 
 So far the arstyles have been made for the following civilizations:
 

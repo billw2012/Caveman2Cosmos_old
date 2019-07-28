@@ -12788,14 +12788,14 @@
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
-		</SoundData>	
+		</SoundData>
 		<SoundData>
 			<SoundID>SND_AMB_CAVE_WIND_2</SoundID>
 			<Filename>Sounds/Ambient/eerie_cave_wind_02_60</Filename>
 			<LoadType>STREAMED</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
-		</SoundData>			
+		</SoundData>
 		<SoundData>
 			<SoundID>SND_AMB_CAVE_WIND_3</SoundID>
 			<Filename>Sounds/Ambient/eerie_cave_wind_03_60</Filename>
@@ -13089,7 +13089,7 @@
 			<LoadType>DYNAMIC_RES</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
-		</SoundData>		
+		</SoundData>
 		<SoundData>
 			<SoundID>SND_TECH_FineArts</SoundID>
 			<Filename>Sounds/Tech/FineArts</Filename>

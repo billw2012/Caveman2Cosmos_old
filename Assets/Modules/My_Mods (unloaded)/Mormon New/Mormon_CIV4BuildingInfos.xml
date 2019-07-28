@@ -40,7 +40,6 @@
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>1000</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>1</iHappiness>
 			<iStateReligionHappiness>2</iStateReligionHappiness>
 			<iAsset>6</iAsset>
@@ -250,7 +249,6 @@
 			<iCost>1540</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>14</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -317,7 +315,6 @@
 			<iGreatPeopleRateChange>1</iGreatPeopleRateChange>
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>8</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -403,7 +400,6 @@
 			</ProductionTraits>
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>570</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iStateReligionHappiness>2</iStateReligionHappiness>
 			<!-- RevolutionDCM Building Effects  -->
 			<iRevIdxLocal>-5</iRevIdxLocal>
@@ -636,7 +632,6 @@
 			<iCost>4620</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iGreatGeneralRateModifier>50</iGreatGeneralRateModifier>
 			<iAsset>10</iAsset>
@@ -935,7 +930,6 @@
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>1540</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>3</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<ObsoleteSafeCommerceChanges>
@@ -1042,7 +1036,6 @@
 				</ProductionTrait>
 			</ProductionTraits>
 			<iCost>655</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>75</iConquestProb>
 			<iFoodKept>10</iFoodKept>
 			<iAsset>3</iAsset>
@@ -1172,7 +1165,6 @@
 			<iCost>4440</iCost>
 			<iHurryCostModifier>50</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>80</iConquestProb>
 			<iFoodKept>20</iFoodKept>
 			<iMaintenanceModifier>10</iMaintenanceModifier>
@@ -1255,7 +1247,6 @@
 				</ProductionTrait>
 			</ProductionTraits>
 			<iCost>870</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>60</iConquestProb>
 			<!-- RevolutionDCM Building Effects  -->
 			<iRevIdxLocal>-5</iRevIdxLocal>

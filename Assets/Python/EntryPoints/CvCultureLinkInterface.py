@@ -16,9 +16,9 @@ CoordinatesDictionary = {}
 def InitCoordinatesDictionary():
 	coords = []
 	global CoordinatesDictionary
-	
+
 	#Ensure that the Civilization exists first
-	
+
 	##Afforess Note to Modders:
 	#getInfoTypeForStringWithHiddenAssert is functionally identical to getInfoTypeForString, except that does not produce errors when it returns -1 (XML not found).
 	#Since this merely checks whether the listed civilizations exists, producing error logs would be inconvient.
@@ -341,11 +341,11 @@ def InitCoordinatesDictionary():
 		coords.append(GeographicalCoordinate("CIVILIZATION_NEANDERTHAL", 51.227, 6.951))
 	if (gc.getInfoTypeForStringWithHiddenAssert("CIVILIZATION_ARAWAK") > -1):
 		coords.append(GeographicalCoordinate("CIVILIZATION_ARAWAK", 14.53, -75.82))
-		
+
 	CoordinatesDictionary = dict(zip([coord.getCivilization() for coord in coords], coords))
 
 
-def assignCulturallyLinkedStarts(): 
+def assignCulturallyLinkedStarts():
 	print "CultureLink option enabled."
 	BugUtil.debug("Culturally Linked Starts Enabled")
 	InitCoordinatesDictionary()
@@ -361,9 +361,9 @@ class CultureLink:
 	pRWCoordinatesList = []
 
 	def __init__(self):
-		CultureLink.pStartingPlotsList = [] 
+		CultureLink.pStartingPlotsList = []
 		self.__initStartingPlotsList()
-		CultureLink.pRWCoordinatesList = [] 
+		CultureLink.pRWCoordinatesList = []
 		self.__initRWCoordinatesList()
 
 	def __initStartingPlotsList(self):
@@ -386,19 +386,19 @@ class CultureLink:
 			CultureLink.pRWCoordinatesList.append(pCoordinate)
 
 	def assignStartingPlots(self):
-		
+
 		iNumPlayers = game.countCivPlayersEverAlive()
 		iPlayersList = range(iNumPlayers)
-		
+
 		iSPDistanceMatrix = ScaleMatrix(self.__computeSPDistanceMatrix())
 		print FormatMatrix(iSPDistanceMatrix, "Starting Plots Distance Matrix:")
 		iRWDistanceMatrix = ScaleMatrix(self.__computeRWDistanceMatrix())
 		print FormatMatrix(iRWDistanceMatrix, "Real World Distance Matrix:")
-		
+
 		def runBruteForceSearch(permutation = [], depth = 0, best = (None, 'inf')):
 			if depth < iNumPlayers:
 				for i in iPlayersList:
-					if not i in permutation: 
+					if not i in permutation:
 						permutation.append(i)
 						best = runBruteForceSearch(permutation, depth + 1, best)
 						permutation.pop()
@@ -408,7 +408,7 @@ class CultureLink:
 					best = (copy(permutation), error)
 					print "%s %.4f" % (best[0], best[1])
 			return best
-		
+
 		def runAntColonyOptimization():
 			# constants
 			# NUM_RUNS = 50
@@ -431,7 +431,7 @@ class CultureLink:
 					permutation = randomList(iPlayersList, fPheromonMatrix)
 					error = evaluatePermutation(permutation)
 					ants[error] = permutation
-				bestants = [] 
+				bestants = []
 				# get the x best ants (smallest error):
 				for error in sorted(ants)[:NUM_BEST_ANTS]:
 					ant = (ants[error], error)
@@ -448,7 +448,7 @@ class CultureLink:
 						# total probability for each pos has to be one:
 						fPheromonMatrix[i] = ScaleList(fPheromonMatrix[i])
 			return TheBestAnt
-		
+
 		def evaluatePermutation(permutation):
 			fPermRWMatrix = []
 			for i in permutation:
@@ -461,12 +461,12 @@ class CultureLink:
 						# square to make it more robust against small errors
 						fError += abs(iSPDistanceMatrix[i][j] - fPermRWMatrix[i][j]) ** 1.3
 			return fError
-		
-		if iNumPlayers <= 9: # brute force 
+
+		if iNumPlayers <= 9: # brute force
 			iBestPermutation = runBruteForceSearch()[0]
 		else: # ants where brute force is impossible
 			iBestPermutation = runAntColonyOptimization()[0]
-			
+
 		# assign the best found permutation:
 		pStartingPlots = CultureLink.pStartingPlotsList
 		for iPlayer, iStartingPlot in zip(iBestPermutation, range(len(pStartingPlots))):
@@ -548,20 +548,20 @@ def RealWorldDistance(pCoordA, pCoordB):
 	w = atan(sqrt(S/C))
 	D = 2 * w * SEMI_MAJOR_AXIS
 	# flattening correction
-	R = sqrt(S * C) / w	
+	R = sqrt(S * C) / w
 	H1 = INVERSE_FLATTENING * (3 * R - 1) / (2 * C)
 	H2 = INVERSE_FLATTENING * (3 * R + 1) / (2 * S)
 	return D * (1 + H1 * sin(F)**2 * cos(G)**2 - H2 * cos(F)**2 * sin(G)**2)
 
-def StepDistance(pPlotA, pPlotB): 
+def StepDistance(pPlotA, pPlotB):
 	return stepDistance(pPlotA.getX(), pPlotA.getY(), pPlotB.getX(), pPlotB.getY())
 
 def MaxPossibleStepDistance():
 	if CyMap().getGridWidth() > CyMap().getGridHeight():
-		if CyMap().isWrapX(): 
+		if CyMap().isWrapX():
 			return (CyMap().getGridWidth() + 1) // 2
 		return CyMap().getGridWidth()
-	if CyMap().isWrapY(): 
+	if CyMap().isWrapY():
 		return (CyMap().getGridHeigth() + 1) // 2
 	return CyMap().getGridHeight()
 
@@ -573,7 +573,7 @@ def SquareMatrix(iSize, xInitWith = None):
 	return [[xInitWith] * iSize for i in range(iSize)]
 
 def ScaleMatrix(matrix, absmin = None, absmax = None):
-	minValue = absmin 
+	minValue = absmin
 	maxValue = absmax
 	if minValue == None:
 		minValue = min([min(row) for row in matrix])
@@ -622,8 +622,8 @@ def shuffle(xList):
 '''
 RANDOMLIST:
 Returns a permutation of the items in xList. The probability for each element to appear at position x of
-the permutation is defined by row x of the probabilities matrix. Element y in row x is the probability 
-for element y in xList to appear at position x in the permutation. 
+the permutation is defined by row x of the probabilities matrix. Element y in row x is the probability
+for element y in xList to appear at position x in the permutation.
 In other words: randmomList is a more general form of shuffling with non-uniform probabilities.
 '''
 
@@ -633,7 +633,7 @@ def randomList(xList, fProbabilitiesMatrix):
 		iNumElements = len(fPrMxCopy)
 		xRandomList = [None] * iNumElements
 		# fill xRandomList in random order to prevent bias
-		xShuffledList = shuffle(range(iNumElements))   
+		xShuffledList = shuffle(range(iNumElements))
 		for i in xShuffledList:
 				for j in xRandomList:
 						if j != None:
@@ -648,7 +648,7 @@ def randomListElement(xList, fProbabilitiesList):
 		#for i in range(32):
 		#	print i
 		#	dice.get(2**i, "test")
-		
+
 		r = dice.get(maxsoren, "CultureLink: randomListElement") / maxsoren
 		fCumulatedProbabilities = 0.0
 		for i, fProbability in enumerate(fProbabilitiesList):

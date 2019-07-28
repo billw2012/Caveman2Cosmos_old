@@ -3339,16 +3339,16 @@
 			<Description>TXT_KEY_BUILDING_APADANA_PALACE</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_APADANA_PALACE</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_APADANA_PALACE</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_BOLSHOI</Type>
 			<Description>TXT_KEY_BUILDING_BOLSHOI</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_BOLSHOI</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BOLSHOI</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_BRANDENBURG_GATE</Type>
@@ -3363,24 +3363,24 @@
 			<Description>TXT_KEY_BUILDING_CHEOMSEONGDAE</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_CHEOMSEONGDAE</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_CHEOMSEONGDAE</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_DOSAN_SEOWON</Type>
 			<Description>TXT_KEY_BUILDING_DOSAN_SEOWON</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_DOSAN_SEOWON</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_DOSAN_SEOWON</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_KOTOKU</Type>
 			<Description>TXT_KEY_BUILDING_KOTOKU</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_KOTOKU</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_KOTOKU</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_PISA</Type>
@@ -3403,24 +3403,24 @@
 			<Description>TXT_KEY_BUILDING_SAN_MARCO</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>		
-			<DefaultBuilding>BUILDING_SAN_MARCO</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_SAN_MARCO</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_PORCELAIN_TOWER</Type>
 			<Description>TXT_KEY_BUILDING_PORCELAIN_TOWER</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_PORCELAIN_TOWER</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_PORCELAIN_TOWER</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_WORLD_TRADE_CENTER</Type>
 			<Description>TXT_KEY_BUILDING_WORLD_TRADE_CENTER</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_WORLD_TRADE_CENTER</DefaultBuilding>		
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_WORLD_TRADE_CENTER</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_DICTATOR_MONUMENT</Type>
@@ -3677,7 +3677,7 @@
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_VILLAGE_HALL</DefaultBuilding>
-		</BuildingClassInfo>	
+		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_TOWN_HALL</Type>
 			<Description>TXT_KEY_BUILDING_TOWN_HALL</Description>
@@ -3685,7 +3685,7 @@
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_TOWN_HALL</DefaultBuilding>
-		</BuildingClassInfo>	
+		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_CITY_COUNCIL</Type>
 			<Description>TXT_KEY_BUILDING_CITY_COUNCIL</Description>
@@ -3693,7 +3693,7 @@
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_CITY_COUNCIL</DefaultBuilding>
-		</BuildingClassInfo>	
+		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_METROPOLITAN_ADMINISTRATION</Type>
 			<Description>TXT_KEY_BUILDING_METROPOLITAN_ADMINISTRATION</Description>
@@ -3701,7 +3701,7 @@
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_METROPOLITAN_ADMINISTRATION</DefaultBuilding>
-		</BuildingClassInfo>	
+		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_CAPITAL_ADMINISTRATION</Type>
 			<Description>TXT_KEY_BUILDING_CAPITAL_ADMINISTRATION</Description>
@@ -11222,7 +11222,7 @@
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_CRIME_FLASHING</DefaultBuilding>
-		</BuildingClassInfo--> 
+		</BuildingClassInfo-->
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_CRIME_SOLICITING</Type>
 			<Description>TXT_KEY_BUILDING_CRIME_SOLICITING</Description>
@@ -13861,16 +13861,16 @@
 			<Description>TXT_KEY_LOCAL_RADIO_STATION</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_LOCAL_RADIO_STATION</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_LOCAL_RADIO_STATION</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_RECORDING_STUDIO</Type>
 			<Description>TXT_KEY_RECORDING_STUDIO</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_RECORDING_STUDIO</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_RECORDING_STUDIO</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_ART_PATRONAGE</Type>
@@ -15669,8 +15669,8 @@
 			<Description>TXT_KEY_BUILDING_CHIEFS_HUT</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_CHIEFS_HUT</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_CHIEFS_HUT</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_FEDERAL_PRISON</Type>
@@ -15869,40 +15869,40 @@
 			<Description>TXT_KEY_CHANCELLORS_OFFICE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_CHANCELLORS_OFFICE</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_CHANCELLORS_OFFICE</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_MARSHALS_OFFICE</Type>
 			<Description>TXT_KEY_MARSHALS_OFFICE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_MARSHALS_OFFICE</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_MARSHALS_OFFICE</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_STEWARDS_OFFICE</Type>
 			<Description>TXT_KEY_STEWARDS_OFFICE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_STEWARDS_OFFICE</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_STEWARDS_OFFICE</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_SPYMASTERS_OFFICE</Type>
 			<Description>TXT_KEY_SPYMASTERS_OFFICE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_SPYMASTERS_OFFICE</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_SPYMASTERS_OFFICE</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_CHAPLINS_OFFICE</Type>
 			<Description>TXT_KEY_CHAPLINS_OFFICE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_CHAPLINS_OFFICE</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_CHAPLINS_OFFICE</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_FLINT_KNAPPER</Type>
@@ -16653,9 +16653,9 @@
 			<Description>TXT_KEY_BUILDING_PALACE_GARDEN</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_PALACE_GARDEN</DefaultBuilding>			
-		</BuildingClassInfo>	
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_PALACE_GARDEN</DefaultBuilding>
+		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_PALACE_WALLS</Type>
 			<Description>TXT_KEY_BUILDING_PALACE_WALLS</Description>
@@ -19127,272 +19127,272 @@
 			<Description>TXT_KEY_BUILDING_BARRICADES</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_BARRICADES</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BARRICADES</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_CEMENT_BARRIER</Type>
 			<Description>TXT_KEY_BUILDING_CEMENT_BARRIER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_CEMENT_BARRIER</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_CEMENT_BARRIER</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_FRONTIER_OUTPOST</Type>
 			<Description>TXT_KEY_BUILDING_FRONTIER_OUTPOST</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_FRONTIER_OUTPOST</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_FRONTIER_OUTPOST</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_FORTIFIED_OUTPOST</Type>
 			<Description>TXT_KEY_BUILDING_FORTIFIED_OUTPOST</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_FORTIFIED_OUTPOST</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_FORTIFIED_OUTPOST</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_TTWATCH_TOWER</Type>
 			<Description>TXT_KEY_BUILDING_TTWATCH_TOWER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_TTWATCH_TOWER</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_TTWATCH_TOWER</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_GUARD_TOWER</Type>
 			<Description>TXT_KEY_BUILDING_GUARD_TOWER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_GUARD_TOWER</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_GUARD_TOWER</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_KEEP_TOWER</Type>
 			<Description>TXT_KEY_BUILDING_KEEP_TOWER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_KEEP_TOWER</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_KEEP_TOWER</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_BOMBARD_TOWER</Type>
 			<Description>TXT_KEY_BUILDING_BOMBARD_TOWER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_BOMBARD_TOWER</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BOMBARD_TOWER</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_ARTILLERY_BATTERY</Type>
 			<Description>TXT_KEY_BUILDING_ARTILLERY_BATTERY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_ARTILLERY_BATTERY</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_ARTILLERY_BATTERY</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_AUTOCANNON_BATTERY</Type>
 			<Description>TXT_KEY_BUILDING_AUTOCANNON_BATTERY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_AUTOCANNON_BATTERY</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_AUTOCANNON_BATTERY</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_MISSILE_BATTERY</Type>
 			<Description>TXT_KEY_BUILDING_MISSILE_BATTERY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_MISSILE_BATTERY</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_MISSILE_BATTERY</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_RAILGUN_BATTERY</Type>
 			<Description>TXT_KEY_BUILDING_RAILGUN_BATTERY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_RAILGUN_BATTERY</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_RAILGUN_BATTERY</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_LASER_BATTERY</Type>
 			<Description>TXT_KEY_BUILDING_LASER_BATTERY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_LASER_BATTERY</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_LASER_BATTERY</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_ANTIMATTER_BATTERY</Type>
 			<Description>TXT_KEY_BUILDING_ANTIMATTER_BATTERY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_ANTIMATTER_BATTERY</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_ANTIMATTER_BATTERY</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_PIT_TRAPS</Type>
 			<Description>TXT_KEY_BUILDING_PIT_TRAPS</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_PIT_TRAPS</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_PIT_TRAPS</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_MECHANICAL_TRAPS</Type>
 			<Description>TXT_KEY_BUILDING_MECHANICAL_TRAPS</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_MECHANICAL_TRAPS</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_MECHANICAL_TRAPS</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_LANDMINES_TRAPS</Type>
 			<Description>TXT_KEY_BUILDING_LANDMINES_TRAPS</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_LANDMINES_TRAPS</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_LANDMINES_TRAPS</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_BOOBY_TRAPS</Type>
 			<Description>TXT_KEY_BUILDING_BOOBY_TRAPS</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_BOOBY_TRAPS</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BOOBY_TRAPS</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_ROBOTIC_TRAPS</Type>
 			<Description>TXT_KEY_BUILDING_ROBOTIC_TRAPS</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_ROBOTIC_TRAPS</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_ROBOTIC_TRAPS</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_ELECTRIC_FENCE</Type>
 			<Description>TXT_KEY_BUILDING_ELECTRIC_FENCE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_ELECTRIC_FENCE</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_ELECTRIC_FENCE</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_WIRELESS_FENCE</Type>
 			<Description>TXT_KEY_BUILDING_WIRELESS_FENCE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_WIRELESS_FENCE</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_WIRELESS_FENCE</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_METAMATERIAL_WALL</Type>
 			<Description>TXT_KEY_BUILDING_METAMATERIAL_WALL</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_METAMATERIAL_WALL</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_METAMATERIAL_WALL</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_SUPERSTRONG_ALLOY_WALL</Type>
 			<Description>TXT_KEY_BUILDING_SUPERSTRONG_ALLOY_WALL</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_SUPERSTRONG_ALLOY_WALL</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_SUPERSTRONG_ALLOY_WALL</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_MEGASTRONG_ALLOY_WALL</Type>
 			<Description>TXT_KEY_BUILDING_MEGASTRONG_ALLOY_WALL</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_MEGASTRONG_ALLOY_WALL</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_MEGASTRONG_ALLOY_WALL</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_NANOBOT_WALL</Type>
 			<Description>TXT_KEY_BUILDING_NANOBOT_WALL</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_NANOBOT_WALL</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_NANOBOT_WALL</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_SMARTDUST_WALL</Type>
 			<Description>TXT_KEY_BUILDING_SMARTDUST_WALL</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_SMARTDUST_WALL</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_SMARTDUST_WALL</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_BEE_BOMBS</Type>
 			<Description>TXT_KEY_BUILDING_BEE_BOMBS</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_BEE_BOMBS</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BEE_BOMBS</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_ABATIS</Type>
 			<Description>TXT_KEY_BUILDING_ABATIS</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_ABATIS</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_ABATIS</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_FIRE_ABATIS</Type>
 			<Description>TXT_KEY_BUILDING_FIRE_ABATIS</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_FIRE_ABATIS</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_FIRE_ABATIS</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_SPIKED_PIT_TRAPS</Type>
 			<Description>TXT_KEY_BUILDING_SPIKED_PIT_TRAPS</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_SPIKED_PIT_TRAPS</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_SPIKED_PIT_TRAPS</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_BIO_TRAPS</Type>
 			<Description>TXT_KEY_BUILDING_BIO_TRAPS</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_BIO_TRAPS</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_BIO_TRAPS</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_EMP_TRAPS</Type>
 			<Description>TXT_KEY_BUILDING_EMP_TRAPS</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_EMP_TRAPS</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_EMP_TRAPS</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_GRAV_TRAPS</Type>
 			<Description>TXT_KEY_BUILDING_GRAV_TRAPS</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_GRAV_TRAPS</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_GRAV_TRAPS</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_NANO_TRAPS</Type>
 			<Description>TXT_KEY_BUILDING_NANO_TRAPS</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_NANO_TRAPS</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_NANO_TRAPS</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_CARRIAGE</Type>
@@ -19991,112 +19991,112 @@
 			<Description>TXT_KEY_RANGER_STATION</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_RANGER_STATION</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_RANGER_STATION</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_STATE_PARK</Type>
 			<Description>TXT_KEY_STATE_PARK</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_STATE_PARK</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_STATE_PARK</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_CRUISE_PORT</Type>
 			<Description>TXT_KEY_CRUISE_PORT</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_CRUISE_PORT</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_CRUISE_PORT</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_TRAVEL_AGENCY</Type>
 			<Description>TXT_KEY_TRAVEL_AGENCY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_TRAVEL_AGENCY</DefaultBuilding>			
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_TRAVEL_AGENCY</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_UNESCO_SITE</Type>
 			<Description>TXT_KEY_UNESCO_SITE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_UNESCO_SITE</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_UNESCO_SITE</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_MOTEL</Type>
 			<Description>TXT_KEY_MOTEL</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_MOTEL</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_MOTEL</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_WATER_PARK</Type>
 			<Description>TXT_KEY_WATER_PARK</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_WATER_PARK</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_WATER_PARK</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_PUBLIC_BEACH</Type>
 			<Description>TXT_KEY_PUBLIC_BEACH</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_PUBLIC_BEACH</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_PUBLIC_BEACH</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_TOURIST_TRAP</Type>
 			<Description>TXT_KEY_TOURIST_TRAP</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_TOURIST_TRAP</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_TOURIST_TRAP</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_CAMP_GROUNDS</Type>
 			<Description>TXT_KEY_CAMP_GROUNDS</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_CAMP_GROUNDS</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_CAMP_GROUNDS</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_HIKING_TRAIL</Type>
 			<Description>TXT_KEY_HIKING_TRAIL</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_HIKING_TRAIL</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_HIKING_TRAIL</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_MOUNTAIN_CLIMBING</Type>
 			<Description>TXT_KEY_MOUNTAIN_CLIMBING</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_MOUNTAIN_CLIMBING</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_MOUNTAIN_CLIMBING</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_SCUBA_DIVING</Type>
 			<Description>TXT_KEY_SCUBA_DIVING</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_SCUBA_DIVING</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_SCUBA_DIVING</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_SPELUNKING_CAVE</Type>
 			<Description>TXT_KEY_SPELUNKING_CAVE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
-			<DefaultBuilding>BUILDING_SPELUNKING_CAVE</DefaultBuilding>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<DefaultBuilding>BUILDING_SPELUNKING_CAVE</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_TOWN_WELL</Type>
@@ -20411,7 +20411,7 @@
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_STRATEGIC_GRAIN_RESERVE</DefaultBuilding>
-		</BuildingClassInfo>		
+		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_TOPKAPI_PALACE</Type>
 			<Description>TXT_KEY_BUILDING_TOPKAPI_PALACE</Description>

@@ -6,7 +6,7 @@
 <!-- -->
 <!-- When debugging LSystems, refer to Civ4/Logs/LSystem.log for help -->
 <!-- Attribute Overview
-     
+
      On specific art:	ONE artref is picked as long as it satisfies all the subconstraints below
         Bonus
         Improvement
@@ -15,21 +15,21 @@
 			bZMode_Ground	- if set, the builder will try to force the art to not z-write nor z-test
 			bIsPartOfImprovement, bIsPartOfBonus - when provided once during a plot build on any placed artref, this will
 			                                       prevent the LSystem from falling back to a fixed placement alg
-			
+
 	On nodes:
 		RegionTest			- if value is 1, then the node will be tested against cut regions when expanded
 							- if the value is 0 then this won't happen
 							- if value is 0NW then the node won't be region tested or water tested
 							- if the value is 1NW then the node will be region tested but won't be water tested
-		
+
      On productions:
         Bonus			- can be multiple, if any met constraint met, then the production is expandable
         Improvement		- as with bonus
-		Scalars:	
+		Scalars:
 			bGoalOnly:1	- if true, then the production can only be expanded if we're in GOAL seek mode
 						- note, this does not prevent child nodes from being visited by DFS or BFS
 			bExtraGoalOnly:1	- same behavior as bGoalOnly, but when placing nodes defined by szExtra attributes on a goal artref
-			
+
 		-->
 <LSystemInfos xmlns="x-schema:CIV4LSystemSchema.xml">
 	<!-- ******************************************************************************************** -->
@@ -1687,7 +1687,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_ind_europe</Attribute>
 			<Scale>0.35</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EUROPE</Attribute>
@@ -1715,7 +1715,7 @@
 			<Attribute Class="Scalar">szBatchGroup:buildings_ind_europe</Attribute>
 			<Scale>0.35</Scale>
 		</ArtRef>
-		
+
 		<!-- 1x1 ANGLO_AMERICAN/NORSE INDUSTRIAL -->
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
@@ -1734,7 +1734,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_ind_Anglo_America</Attribute>
 			<Scale>0.35</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
@@ -1829,7 +1829,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_clas_Iberia</Attribute>
 			<Scale>0.35</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
@@ -1856,7 +1856,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_clas_Iberia</Attribute>
 			<Scale>0.35</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
@@ -1911,7 +1911,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_med_Iberia</Attribute>
 			<Scale>0.32</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
@@ -1920,7 +1920,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_med_Iberia</Attribute>
 			<Scale>0.32</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
@@ -1929,7 +1929,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_med_Iberia</Attribute>
 			<Scale>0.32</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
@@ -1938,7 +1938,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_med_Iberia</Attribute>
 			<Scale>0.32</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
@@ -1947,7 +1947,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_med_Iberia</Attribute>
 			<Scale>0.32</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<!-- 1x1 IBERIAN RENAISSANCE/INDUSTRIAL/MODERN -->
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
@@ -1957,7 +1957,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_ren_Iberia</Attribute>
 			<Scale>0.32</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
@@ -1966,7 +1966,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_ren_Iberia</Attribute>
 			<Scale>0.30</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
@@ -1975,7 +1975,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_ren_Iberia</Attribute>
 			<Scale>0.28</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
@@ -1984,7 +1984,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_ren_Iberia</Attribute>
 			<Scale>0.30</Scale>
-		</ArtRef> 
+		</ArtRef>
 
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION</Attribute>
@@ -1994,7 +1994,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_ind_Mediterranean</Attribute>
 			<Scale>0.5</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
@@ -2003,7 +2003,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_ind_Mediterranean</Attribute>
 			<Scale>0.29</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
@@ -2012,7 +2012,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_ind_Mediterranean</Attribute>
 			<Scale>0.41</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
@@ -2021,7 +2021,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_ind_Mediterranean</Attribute>
 			<Scale>0.38</Scale>
-		</ArtRef> 
+		</ArtRef>
 
 		<!-- 1x1 NORSE ANCIENT/CLASSICAL/MEDIEVAL -->
 		<ArtRef Name="art:building">
@@ -2773,7 +2773,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_mod_Meso_America</Attribute>
 			<Scale>0.44</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_MODERN,ERA_INFORMATION</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MESO_AMERICA,ARTSTYLE_SOUTH_AMERICA</Attribute>
@@ -2994,7 +2994,7 @@
 		<ArtRef Name="goal:IMPROVEMENT_LAND_WORKED">
 			<Attribute Class="Era">ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/LandWorked/sm_farm_house_mod.nif</Attribute>
-			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/LandWorked/sm_farm_house_mod.kfm</Attribute> 
+			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/LandWorked/sm_farm_house_mod.kfm</Attribute>
 			<Attribute Class="Improvement">IMPROVEMENT_LAND_WORKED</Attribute>
 			<Attribute Class="Scalar">bApplyRotation:0</Attribute>
 			<Attribute Class="Scalar">bCutTrees:1</Attribute>
@@ -3003,7 +3003,7 @@
 			<Attribute Class="Scalar">iPlayAnimationID:0</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Scale>0.8</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<!--Testing Modern LandWorked -->
 <!--		<ArtRef Name="goal:IMPROVEMENT_LAND_WORKED">
 			<Attribute Class="Era">ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
@@ -3027,7 +3027,7 @@
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Workshop/modern_workshop.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
-			<Attribute Class="Scalar">bCutTrees:1</Attribute>   
+			<Attribute Class="Scalar">bCutTrees:1</Attribute>
 			<Scale>0.6</Scale>
 		</ArtRef>
 
@@ -3039,7 +3039,7 @@
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/LumberMill/Sawmill.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Lumbermill/Workshop.kfm</Attribute>
-			<Attribute Class="Scalar">bCutTrees:0</Attribute>   
+			<Attribute Class="Scalar">bCutTrees:0</Attribute>
 			<Scale>0.75</Scale>
 		</ArtRef>
 
@@ -3261,7 +3261,7 @@
 			<Attribute Class="Scalar">szBatchGroup:buildings_ind_eu</Attribute>
 			<Scale>0.35</Scale>
 		</ArtRef>
-		
+
 		<!-- 2x1 GENERIC ANCIENT -->
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
@@ -3761,7 +3761,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_mod_india</Attribute>
 			<Scale>0.35</Scale>
-		</ArtRef> 
+		</ArtRef>
 
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION</Attribute>
@@ -4079,7 +4079,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_an_Mongolia</Attribute>
 			<Scale>0.32</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_MONGOLIA</Attribute>
@@ -5153,7 +5153,7 @@
 			<Attribute Class="Scalar">szForceContourNode:BUILDING</Attribute>
 			<Attribute Class="Scalar">szBatchGroup:buildings_ind_Anglo_America</Attribute>
 			<Scale>0.44</Scale>
-		</ArtRef>		
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_NORSE,ARTSTYLE_BARBARIAN</Attribute>
@@ -5437,7 +5437,7 @@
 			<Attribute Class="Scalar">szBatchGroup:buildings_ind_europe</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.44</Scale>
-		</ArtRef>		
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_EUROPE</Attribute>
@@ -5948,7 +5948,7 @@
 			<Attribute Class="Scalar">szBatchGroup:buildings_ind_mediterranean</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Scale>0.41</Scale>
-		</ArtRef>		
+		</ArtRef>
 		<ArtRef Name="art:building">
 			<Attribute Class="Era">ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
@@ -8499,7 +8499,7 @@
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN,ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Era">ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_mediterranean/Plantation.nif</Attribute>
-			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation/Plantation.kfm</Attribute> 
+			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Plantation/Plantation.kfm</Attribute>
 			<Rotate>-45</Rotate>
 			<Scale>0.9</Scale>
 		</ArtRef>
@@ -8612,7 +8612,7 @@
 			<Attribute Class="ArtStyle">ARTSTYLE_EUROPE</Attribute>
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Europe/Plantation_industrial.nif</Attribute>
-			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute> 
+			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Attribute Class="Scalar">bHasNoShadow:1</Attribute>
 			<Rotate>-45</Rotate>
 			<Scale>0.32</Scale>
@@ -8625,7 +8625,7 @@
 			<Attribute Class="ArtStyle">ARTSTYLE_ANGLO_AMERICA,ARTSTYLE_NORSE,ARTSTYLE_NATIVE_AMERICA</Attribute>
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Plantation/Plantation_Anglo/Plantation_industrial.nif</Attribute>
-			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute> 
+			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Workshop/Workshop.kfm</Attribute>
 			<Rotate>-45</Rotate>
 			<Scale>0.26</Scale>
 		</ArtRef>
@@ -11965,7 +11965,7 @@
 		<Attribute Class="Scalar">bNotBFS:1</Attribute>
 		<!-- ANCIENT/CLASSICAL AFRO FARMHOUSES -->
 		<ArtRef Name="art:IMPROVEMENT_FARM1">
-			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Africa.nif::1x1x1_01</Attribute> 
+			<Attribute Class="Scalar">NIF:Art/Structures/Cities/an_Africa.nif::1x1x1_01</Attribute>
 			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_AFRICA</Attribute>
 			<Attribute Class="Scalar">szSpecialLayout:CityRiver</Attribute>
@@ -12679,7 +12679,7 @@
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.38</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM5">
@@ -12688,7 +12688,7 @@
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.41</Scale>
 		</ArtRef>
 		<!-- RENAISSANCE/INDUSTRIAL CRESCENT/EGYPTIAN/INDIAN FARMHOUSES -->
@@ -12714,7 +12714,7 @@
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM5">
@@ -12723,7 +12723,7 @@
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.41</Scale>
 		</ArtRef>
 		<!-- MODERN ARABIAN/CRESCENT/EGYPTIAN/INDIAN FARMHOUSES -->
@@ -12749,7 +12749,7 @@
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM5">
@@ -12758,7 +12758,7 @@
 			<Attribute Class="ArtStyle">ARTSTYLE_CRESCENT,ARTSTYLE_EGYPT,ARTSTYLE_INDIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.38</Scale>
 		</ArtRef>
 		<!-- FUTURE ARABIAN/CRESCENT/EGYPTIAN/INDIAN FARMHOUSES IN GENERIC FARMHOUSES -->
@@ -12819,7 +12819,7 @@
 			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
@@ -12827,7 +12827,7 @@
 			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.41</Scale>
 		</ArtRef>
 		<!-- CLASSICAL/MEDIEVAL GRECO_ROMAN FARMHOUSES -->
@@ -12857,7 +12857,7 @@
 			<Attribute Class="Era">ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.38</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM5">
@@ -12865,7 +12865,7 @@
 			<Attribute Class="Era">ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_GRECO_ROMAN</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.38</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM6">
@@ -12898,7 +12898,7 @@
 			<Attribute Class="Era">ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM5">
@@ -12907,7 +12907,7 @@
 			<Attribute Class="Era">ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 
@@ -12931,7 +12931,7 @@
 			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
@@ -12939,7 +12939,7 @@
 			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<!-- CLASSICAL IBERIAN FARMHOUSES -->
@@ -12962,7 +12962,7 @@
 			<Attribute Class="Era">ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
@@ -12970,7 +12970,7 @@
 			<Attribute Class="Era">ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<!-- MEDIEVAL IBERIAN FARMHOUSES -->
@@ -12994,7 +12994,7 @@
 			<Attribute Class="Era">ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.4</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
@@ -13003,7 +13003,7 @@
 			<Attribute Class="ArtStyle">ARTSTYLE_IBERIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.4</Scale>
 		</ArtRef>
 		<!-- RENAISSANCE/INDUSTRIAL IBERIAN FARMHOUSES -->
@@ -13029,7 +13029,7 @@
 			<Attribute Class="Era">ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM5">
@@ -13038,7 +13038,7 @@
 			<Attribute Class="Era">ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<!-- MODERN IBERIAN FARMHOUSES -->
@@ -13064,7 +13064,7 @@
 			<Attribute Class="Era">ERA_MODERN,ERA_INFORMATION</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.5</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM5">
@@ -13073,10 +13073,10 @@
 			<Attribute Class="Era">ERA_MODERN,ERA_INFORMATION</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
-		
+
 		<!-- CLASSICAL NORSE/RUSSIAN FARMHOUSES -->
 		<ArtRef Name="art:IMPROVEMENT_FARM1">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/clas_norsca.nif::1x1x1_01</Attribute>
@@ -13097,7 +13097,7 @@
 			<Attribute Class="Era">ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA,ARTSTYLE_NORSE</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
@@ -13105,7 +13105,7 @@
 			<Attribute Class="Era">ERA_CLASSICAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA,ARTSTYLE_NORSE</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<!-- MEDIEVAL NORSE/RUSSIAN FARMHOUSES -->
@@ -13128,7 +13128,7 @@
 			<Attribute Class="Era">ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
@@ -13136,7 +13136,7 @@
 			<Attribute Class="Era">ERA_MEDIEVAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_NORSE,ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.29</Scale>
 		</ArtRef>
 
@@ -13160,7 +13160,7 @@
 			<Attribute Class="Era">ERA_RENAISSANCE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.32</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
@@ -13168,9 +13168,9 @@
 			<Attribute Class="Era">ERA_RENAISSANCE</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.44</Scale>
-		</ArtRef> 
+		</ArtRef>
 		<!-- INDUSTRIAL RUSSIAN FARMHOUSES -->
 		<ArtRef Name="art:IMPROVEMENT_FARM1">
 			<Attribute Class="Scalar">NIF:Art/Structures/Cities/med_russia.nif::1x1_02</Attribute>
@@ -13191,7 +13191,7 @@
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM5">
@@ -13199,7 +13199,7 @@
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.29</Scale>
 		</ArtRef>
 		<!-- MODERN RUSSIAN FARMHOUSES -->
@@ -13222,7 +13222,7 @@
 			<Attribute Class="Era">ERA_MODERN,ERA_INFORMATION</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM5">
@@ -13230,7 +13230,7 @@
 			<Attribute Class="Era">ERA_MODERN,ERA_INFORMATION</Attribute>
 			<Attribute Class="ArtStyle">ARTSTYLE_RUSSIA</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 
@@ -13257,7 +13257,7 @@
 			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
@@ -13266,7 +13266,7 @@
 			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<!-- MEDIEVAL/RENAISSANCE INCA FARMHOUSES -->
@@ -13292,7 +13292,7 @@
 			<Attribute Class="Era">ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
@@ -13301,7 +13301,7 @@
 			<Attribute Class="Era">ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<!-- INDUSTRIAL INCA FARMHOUSES -->
@@ -13327,7 +13327,7 @@
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM5">
@@ -13336,7 +13336,7 @@
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 
@@ -13363,7 +13363,7 @@
 			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
@@ -13372,7 +13372,7 @@
 			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<!-- MEDIEVAL/RENAISSANCE NATIVE FARMHOUSES -->
@@ -13398,7 +13398,7 @@
 			<Attribute Class="Era">ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
@@ -13407,7 +13407,7 @@
 			<Attribute Class="Era">ERA_MEDIEVAL,ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<!-- INDUSTRIAL/MODERN/FUTURE NATIVE FARMHOUSES IN GENERIC FARMHOUSES-->
@@ -13435,7 +13435,7 @@
 			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
@@ -13444,7 +13444,7 @@
 			<Attribute Class="Era">ERA_SEDENTARY,ERA_CLASSICAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<!-- MEDIEVAL MESO FARMHOUSES -->
@@ -13470,7 +13470,7 @@
 			<Attribute Class="Era">ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.44</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
@@ -13479,7 +13479,7 @@
 			<Attribute Class="Era">ERA_MEDIEVAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.44</Scale>
 		</ArtRef>
 		<!-- RENAISSANCE MESO FARMHOUSES -->
@@ -13505,7 +13505,7 @@
 			<Attribute Class="Era">ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.44</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM4">
@@ -13514,7 +13514,7 @@
 			<Attribute Class="Era">ERA_RENAISSANCE</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.44</Scale>
 		</ArtRef>
 		<!-- INDUSTRIAL MESO FARMHOUSES -->
@@ -13540,7 +13540,7 @@
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.44</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM5">
@@ -13549,7 +13549,7 @@
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.44</Scale>
 		</ArtRef>
 		<!-- MODERN INCA/MESO FARMHOUSES -->
@@ -13559,7 +13559,7 @@
 			<Attribute Class="Era">ERA_MODERN,ERA_INFORMATION</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Attribute Class="Rotation">0,180</Attribute> 
+			<Attribute Class="Rotation">0,180</Attribute>
 			<Scale>0.44</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM2">
@@ -13620,7 +13620,7 @@
 			<Attribute Class="Era">ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.28</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM5">
@@ -13629,7 +13629,7 @@
 			<Attribute Class="Era">ERA_MEDIEVAL,ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.28</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM6">
@@ -13638,7 +13638,7 @@
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.28</Scale>
 		</ArtRef>
 
@@ -13842,7 +13842,7 @@
 			<Attribute Class="Era">ERA_MODERN,ERA_INFORMATION</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM5">
@@ -13851,7 +13851,7 @@
 			<Attribute Class="Era">ERA_MODERN,ERA_INFORMATION</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 		<ArtRef Name="art:IMPROVEMENT_FARM6">
@@ -13860,7 +13860,7 @@
 			<Attribute Class="ArtStyle">ARTSTYLE_ALL</Attribute>
 			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 
@@ -13983,7 +13983,7 @@
 		<!-- generic ancient farms -->
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
-			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute> 
+			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Attribute Class="Bonus">NO_BONUS,BONUS_ALL,!BONUS_RICE,!BONUS_WHEAT,!BONUS_CORN,!BONUS_POTATO</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
@@ -13999,7 +13999,7 @@
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
-			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute> 
+			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Attribute Class="Bonus">NO_BONUS,BONUS_ALL,!BONUS_RICE,!BONUS_WHEAT,!BONUS_CORN,!BONUS_POTATO</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
@@ -14015,7 +14015,7 @@
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
-			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute> 
+			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Attribute Class="Bonus">BONUS_CORN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
@@ -14031,7 +14031,7 @@
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
-			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute> 
+			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Attribute Class="Bonus">BONUS_CORN</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
@@ -14047,7 +14047,7 @@
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
-			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute> 
+			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
 			<Attribute Class="Bonus">BONUS_RICE,BONUS_WHEAT,BONUS_POTATO</Attribute>
@@ -14061,7 +14061,7 @@
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_SEDENTARY</Attribute>
-			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute> 
+			<Attribute Class="ArtStyle">ARTSTYLE_ALL,!ARTSTYLE_AFRICA,!ARTSTYLE_MESO_AMERICA,!ARTSTYLE_MONGOLIA,!ARTSTYLE_NATIVE_AMERICA,!ARTSTYLE_SOUTH_AMERICA</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Farm/FarmFire.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/tribalvillage/tribalvillage.kfm</Attribute>
 			<Attribute Class="Bonus">BONUS_RICE,BONUS_WHEAT,BONUS_POTATO</Attribute>
@@ -14161,10 +14161,10 @@
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.5</Scale>
 		</ArtRef>
-		
+
 		<!-- generic renaissance farms -->
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_RENAISSANCE</Attribute>
@@ -14209,10 +14209,10 @@
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.4</Scale>
 		</ArtRef>
-		
+
 		<!-- generic industrial farms -->
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
@@ -14260,7 +14260,7 @@
 			<Rotate>-45</Rotate>
 			<Scale>0.2</Scale>
 		</ArtRef>
-		
+
 		<!-- generic modern farms -->
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_MODERN,ERA_INFORMATION</Attribute>
@@ -14311,7 +14311,7 @@
 			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
-		
+
 		<!-- generic future farms -->
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
@@ -14356,7 +14356,7 @@
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Rotate>-45</Rotate> 
+			<Rotate>-45</Rotate>
 			<Scale>0.35</Scale>
 		</ArtRef>
 
@@ -14517,7 +14517,7 @@
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Attribute Class="Scalar">bExtraGoalOnly:0</Attribute> 
+			<Attribute Class="Scalar">bExtraGoalOnly:0</Attribute>
 			<Scale>0.5</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
@@ -14535,7 +14535,7 @@
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Attribute Class="Scalar">bExtraGoalOnly:0</Attribute> 
+			<Attribute Class="Scalar">bExtraGoalOnly:0</Attribute>
 			<Scale>0.5</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
@@ -14550,7 +14550,7 @@
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Attribute Class="Scalar">bExtraGoalOnly:0</Attribute> 
+			<Attribute Class="Scalar">bExtraGoalOnly:0</Attribute>
 			<Scale>0.5</Scale>
 			<Rotate>-45</Rotate>
 		</ArtRef>
@@ -14770,7 +14770,7 @@
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Scale>0.5</Scale> 
+			<Scale>0.5</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
@@ -14785,7 +14785,7 @@
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
-			<Scale>0.5</Scale> 
+			<Scale>0.5</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
@@ -14797,7 +14797,7 @@
 			<Attribute Class="Scalar">szExtra:art:IMPROVEMENT_FARM4</Attribute>
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
-			<Scale>0.5</Scale> 
+			<Scale>0.5</Scale>
 			<Rotate>-45</Rotate>
 		</ArtRef>
 		<!-- ASIAN RENAISSANCE/INDUSTRIAL/MODERN FARMS -->
@@ -14970,7 +14970,7 @@
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Scale>0.5</Scale> 
+			<Scale>0.5</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
@@ -14985,7 +14985,7 @@
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
-			<Scale>0.5</Scale> 
+			<Scale>0.5</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
@@ -14997,7 +14997,7 @@
 			<Attribute Class="Scalar">szExtra:art:IMPROVEMENT_FARM4</Attribute>
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
-			<Scale>0.5</Scale> 
+			<Scale>0.5</Scale>
 			<Rotate>-45</Rotate>
 		</ArtRef>
 		<!-- ASIAN RENAISSANCE/INDUSTRIAL/MODERN FARMS -->
@@ -15066,7 +15066,7 @@
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
-			<Scale>0.5</Scale> 
+			<Scale>0.5</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
@@ -15081,7 +15081,7 @@
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
-			<Scale>0.5</Scale> 
+			<Scale>0.5</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
@@ -15093,8 +15093,8 @@
 			<Attribute Class="Scalar">szExtra:art:IMPROVEMENT_FARM5</Attribute>
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
-			<Scale>0.5</Scale> 
-			<Rotate>-45</Rotate> 
+			<Scale>0.5</Scale>
+			<Rotate>-45</Rotate>
 		</ArtRef>
 		<!-- CRESCENT/EGYPTIAN/INDIAN RENAISSANCE/INDUSTRIAL FARMS -->
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
@@ -15110,7 +15110,7 @@
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
-			<Scale>0.75</Scale> 
+			<Scale>0.75</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
@@ -15125,7 +15125,7 @@
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
-			<Scale>0.75</Scale> 
+			<Scale>0.75</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_RENAISSANCE,ERA_INDUSTRIAL</Attribute>
@@ -15137,8 +15137,8 @@
 			<Attribute Class="Scalar">szExtra:art:IMPROVEMENT_FARM5</Attribute>
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
-			<Rotate>-45</Rotate> 
-			<Scale>0.75</Scale> 
+			<Rotate>-45</Rotate>
+			<Scale>0.75</Scale>
 		</ArtRef>
 		<!-- MODERN ARABIAN/CRESCENT/EGYPTIAN/INDIAN FARMS -->
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
@@ -15155,7 +15155,7 @@
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
-			<Scale>0.4</Scale> 
+			<Scale>0.4</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_MODERN,ERA_INFORMATION</Attribute>
@@ -15171,7 +15171,7 @@
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
-			<Scale>0.4</Scale> 
+			<Scale>0.4</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_MODERN,ERA_INFORMATION</Attribute>
@@ -15184,11 +15184,11 @@
 			<Attribute Class="Scalar">szExtra:art:IMPROVEMENT_FARM6</Attribute>
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
-			<Rotate>-45</Rotate> 
-			<Scale>0.4</Scale> 
+			<Rotate>-45</Rotate>
+			<Scale>0.4</Scale>
 		</ArtRef>
 		<!-- FUTURE ARABIAN/CRESCENT/EGYPTIAN/INDIAN FARMS IN FUTURE GENERIC FARMS -->
-		
+
 		<!-- EUROPEAN INDUSTRIAL FARMS -->
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
@@ -15254,7 +15254,7 @@
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
 			<Attribute Class="Scalar">bImprovementWorkedOnly:1</Attribute>
-			<Scale>0.75</Scale> 
+			<Scale>0.75</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
@@ -15272,7 +15272,7 @@
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:Shadow</Attribute>
 			<Attribute Class="Scalar">bImprovementWorkedOnly:0</Attribute>
-			<Scale>0.0</Scale> 
+			<Scale>0.0</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
@@ -15289,7 +15289,7 @@
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bImprovementWorkedOnly:1</Attribute>
-			<Scale>0.75</Scale> 
+			<Scale>0.75</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
@@ -15306,7 +15306,7 @@
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bImprovementWorkedOnly:0</Attribute>
-			<Scale>0.0</Scale> 
+			<Scale>0.0</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
@@ -15320,8 +15320,8 @@
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bImprovementWorkedOnly:1</Attribute>
-			<Scale>0.75</Scale> 
-			<Rotate>-45</Rotate> 
+			<Scale>0.75</Scale>
+			<Rotate>-45</Rotate>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_CLASSICAL,ERA_MEDIEVAL</Attribute>
@@ -15335,8 +15335,8 @@
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 			<Attribute Class="Scalar">bImprovementWorkedOnly:0</Attribute>
-			<Scale>0.0</Scale> 
-			<Rotate>-45</Rotate> 
+			<Scale>0.0</Scale>
+			<Rotate>-45</Rotate>
 		</ArtRef>
 		<!-- RENAISSANCE/INDUSTRIAL/MODERN GRECO_ROMAN/IBERIAN FARMS -->
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
@@ -15353,7 +15353,7 @@
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
-			<Scale>0.55</Scale> 
+			<Scale>0.55</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION</Attribute>
@@ -15369,7 +15369,7 @@
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
-			<Scale>0.55</Scale> 
+			<Scale>0.55</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_RENAISSANCE,ERA_INDUSTRIAL,ERA_MODERN,ERA_INFORMATION</Attribute>
@@ -15382,10 +15382,10 @@
 			<Attribute Class="Scalar">szExtra:art:IMPROVEMENT_FARM6</Attribute>
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
-			<Rotate>-45</Rotate> 
-			<Scale>0.55</Scale> 
+			<Rotate>-45</Rotate>
+			<Scale>0.55</Scale>
 		</ArtRef>
-		
+
 		<!-- RUSSIAN INDUSTRIAL FARMS -->
 		<ArtRef Name="goal:IMPROVEMENT_FARM">
 			<Attribute Class="Era">ERA_INDUSTRIAL</Attribute>
@@ -15433,7 +15433,7 @@
 			<Rotate>-45</Rotate>
 			<Scale>0.18</Scale>
 		</ArtRef>
-		
+
 		<!-- START VERTICAL FARM IMPROVEMENT -->
 		<ArtRef Name="goal:IMPROVEMENT_VERTICAL_FARM">
 			<Attribute Class="Era">ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
@@ -15493,7 +15493,7 @@
 			<Scale>0.8</Scale>
 		</ArtRef>
 		<!-- END VERTICAL FARM IMPROVEMENT -->
-		
+
 		<!--- corn crop -->
 		<ArtRef Name="goal:BONUS_CORN">
 			<Attribute Class="Bonus">BONUS_CORN</Attribute>
@@ -15613,7 +15613,7 @@
 	</LNode>
 
 	<!--- ERA WATERWORKED END -->
-	
+
 	<LNode Name="Leaf_LandImprovement_4x4">
 		<Width>4</Width>
 		<Height>4</Height>
@@ -15813,7 +15813,7 @@
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:shadow</Attribute>
-			<Scale>0.85</Scale> 
+			<Scale>0.85</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FORT">
 			<Attribute Class="Improvement">IMPROVEMENT_FORT</Attribute>
@@ -15827,7 +15827,7 @@
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:shadow</Attribute>
-			<Scale>0.55</Scale> 
+			<Scale>0.55</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FORT">
 			<Attribute Class="Improvement">IMPROVEMENT_FORT</Attribute>
@@ -15841,7 +15841,7 @@
 			<Attribute Class="Scalar">fTwist:-0.7853981633</Attribute>
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:shadow</Attribute>
-			<Scale>0.55</Scale> 
+			<Scale>0.55</Scale>
 		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_FORT">
 			<Attribute Class="Improvement">IMPROVEMENT_FORT</Attribute>
@@ -16060,7 +16060,7 @@
 			<Attribute Class="Scalar">bZMode_Ground:1</Attribute>
 			<Attribute Class="Scalar">szForceContourGeometry:shadow</Attribute>
 		</ArtRef>
-		
+
 		<!-- Pasture -->
 		<ArtRef Name="goal:IMPROVEMENT_PASTURE">
 			<Attribute Class="Improvement">IMPROVEMENT_PASTURE</Attribute>
@@ -16094,7 +16094,7 @@
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Pasture/mod_pasture.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Pasture/mod_pasture.kfm</Attribute>
 		</ArtRef>
-		
+
 		<!-- Quarry -->
 		<ArtRef Name="goal:IMPROVEMENT_QUARRY">
 			<Attribute Class="Improvement">IMPROVEMENT_QUARRY</Attribute>
@@ -16112,7 +16112,7 @@
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/Quarry/QuarryModern.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/Quarry/QuarryModern.kfm</Attribute>
 		</ArtRef>
-		
+
 		<!-- Windmill -->
 		<ArtRef Name="goal:IMPROVEMENT_WINDMILL">
 			<Attribute Class="Improvement">IMPROVEMENT_WINDMILL</Attribute>
@@ -16121,7 +16121,7 @@
 			<Attribute Class="Scalar">bApplyRotation:1</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/WindMill/WindMill.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/WindMill/WindMill.kfm</Attribute>
-		</ArtRef> 
+		</ArtRef>
 		<ArtRef Name="goal:IMPROVEMENT_WINDMILL">
 			<Attribute Class="Improvement">IMPROVEMENT_WINDMILL</Attribute>
 			<Attribute Class="Era">ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
@@ -16132,20 +16132,20 @@
 		</ArtRef>
 
 		<!-- Watermill -->
-		<ArtRef Name="goal:IMPROVEMENT_WATERMILL"> 
+		<ArtRef Name="goal:IMPROVEMENT_WATERMILL">
 			<Attribute Class="Improvement">IMPROVEMENT_WATERMILL</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/WaterMill/WaterMill.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/WaterMill/WaterMill.kfm</Attribute>
 <!-- bExtraGoalOnly:1 seems to be a key attribute -->
-			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute> 
+			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
 		</ArtRef>
 <!--		<ArtRef Name="goal:IMPROVEMENT_WATERMILL">
-			<Attribute Class="Improvement">IMPROVEMENT_WATERMILL</Attribute> 
+			<Attribute Class="Improvement">IMPROVEMENT_WATERMILL</Attribute>
 			<Attribute Class="Era">ERA_MODERN,ERA_INFORMATION,ERA_NANOTECH,ERA_TRANSHUMAN,ERA_GALACTIC,ERA_COSMIC,ERA_TRANSCENDENT,ERA_FUTURE</Attribute>
 			<Attribute Class="Scalar">NIF:Art/Structures/Improvements/WindMill/WindMill_mod.nif</Attribute>
 			<Attribute Class="Scalar">KFM:Art/Structures/Improvements/WindMill/WindMill_mod.kfm</Attribute>
-			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute> 
-			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute> 
+			<Attribute Class="Scalar">bExtraGoalOnly:1</Attribute>
+			<Attribute Class="Scalar">bIsPartOfImprovement:1</Attribute>
 		</ArtRef> -->
 		<!-- Rise of Mankind 2.7 -->
 		<!-- Workshop -->
@@ -16159,7 +16159,7 @@
 			<Attribute Class="Scalar">bCutTrees:1</Attribute>
 			<Attribute Class="Scalar">fCenterCut:50</Attribute>
 		</ArtRef>
-		
+
 		<!-- Bunker -->
 		<ArtRef Name="goal:IMPROVEMENT_BUNKER">
 			<Attribute Class="Improvement">IMPROVEMENT_BUNKER</Attribute>
@@ -16238,20 +16238,20 @@
 		<To Name="Leaf_LandImprovement_4x4"/>
 	</LProduction>
 	<!-- *************************************************************************** -->
-	
+
 	<LProduction From="PLOT_ROOT" Name="LandImprovementProd">
 		<Attribute Class="Improvement">IMPROVEMENT_MINE,IMPROVEMENT_SHAFT_MINE,IMPROVEMENT_MODERN_MINE,IMPROVEMENT_WINDMILL,IMPROVEMENT_WATERMILL,IMPROVEMENT_FORT,IMPROVEMENT_BUNKER,IMPROVEMENT_GEOTHERMAL_BOREHOLE,IMPROVEMENT_FUTURE_BUNKER,IMPROVEMENT_DESERT_WINDMILL</Attribute>
 		<Attribute Class="Bonus">NO_BONUS</Attribute>
 		<Attribute Class="Scalar">bNotBFS:1</Attribute>
 		<To Name="Leaf_LandImprovement_4x4"/>
 	</LProduction>
-	
+
 	<LProduction From="PLOT_ROOT" Name="LandImprovementProd">
 		<Attribute Class="Improvement">IMPROVEMENT_PASTURE,IMPROVEMENT_QUARRY</Attribute>
 		<Attribute Class="Scalar">bNotBFS:1</Attribute>
 		<To Name="Leaf_LandImprovement_4x4"/>
 	</LProduction>
-	
+
 	<LProduction From="PLOT_ROOT" Name="WaterImprovementProd">
 		<Attribute Class="Improvement">IMPROVEMENT_WHALING_BOATS,IMPROVEMENT_FISHING_BOATS</Attribute>
 		<Attribute Class="Scalar">bNotBFS:1</Attribute>

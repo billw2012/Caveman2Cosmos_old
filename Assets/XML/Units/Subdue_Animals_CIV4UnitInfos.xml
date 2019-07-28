@@ -793,35 +793,20 @@
 			<bOnlyDefensive>1</bOnlyDefensive>
 			<Buildings>
 				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-
 				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-
 				<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
-
 				<BuildingType>BUILDING_REPTILE_MYTH</BuildingType>
-
 				<BuildingType>BUILDING_EARTH_MYTH</BuildingType>
-
 				<BuildingType>BUILDING_REPTILE_CAGE</BuildingType>
-
 				<BuildingType>BUILDING_SNAKE_CHARMER</BuildingType>
-
 				<BuildingType>BUILDING_ZOO</BuildingType>
-
 				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-
 				<BuildingType>BUILDING_BALLPYTHON_MYTH</BuildingType>
-
 				<BuildingType>BUILDING_BALLPYTHON_STORY</BuildingType>
-
 				<BuildingType>BUILDING_BALLPYTHON_STORIES</BuildingType>
-		
 				<BuildingType>BUILDING_SNAKES_MYTH</BuildingType>
-
 				<BuildingType>BUILDING_SNAKES_STORY</BuildingType>
-
-				<BuildingType>BUILDING_SNAKES_STORIES</BuildingType>
-				
+				<BuildingType>BUILDING_SNAKES_STORIES</BuildingType>			
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>
@@ -1987,7 +1972,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
@@ -2187,7 +2171,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
@@ -5642,7 +5625,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
@@ -5759,7 +5741,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
@@ -6253,7 +6234,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
@@ -9229,7 +9209,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<UnitMeshGroups>
@@ -9826,7 +9805,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
@@ -9928,7 +9906,6 @@
 					<LateArtDefineTag>ART_DEF_UNIT_WORKERMODERN</LateArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<Actions>
 				<Action>
@@ -10930,7 +10907,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
@@ -11207,7 +11183,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
@@ -13947,7 +13922,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
@@ -14025,11 +13999,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>1</iMoves>
-			<bNoRevealMap>1</bNoRevealMap>
-			<iAsset>1</iAsset>
-			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1</fMaxSpeed>
 				<fPadTime>1</fPadTime>
@@ -14103,11 +14072,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>1</iMoves>
-			<bNoRevealMap>1</bNoRevealMap>
-			<iAsset>1</iAsset>
-			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1</fMaxSpeed>
 				<fPadTime>1</fPadTime>
@@ -14181,11 +14145,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>1</iMoves>
-			<bNoRevealMap>1</bNoRevealMap>
-			<iAsset>1</iAsset>
-			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1</fMaxSpeed>
 				<fPadTime>1</fPadTime>
@@ -14259,15 +14218,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>1</iMoves>
-			<bNoRevealMap>1</bNoRevealMap>
-			<iAsset>1</iAsset>
-			<UnitMeshGroups>
-				<iGroupSize>2</iGroupSize>
-				<fMaxSpeed>1</fMaxSpeed>
-				<fPadTime>1</fPadTime>
-				<iMeleeWaveSize>1</iMeleeWaveSize>
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
@@ -14339,11 +14289,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>1</iMoves>
-			<bNoRevealMap>1</bNoRevealMap>
-			<iAsset>1</iAsset>
-			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>2</fMaxSpeed>
 				<fPadTime>1</fPadTime>
@@ -14454,15 +14399,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>1</iMoves>
-			<bNoRevealMap>1</bNoRevealMap>
-			<iAsset>1</iAsset>
-			<UnitMeshGroups>
-				<iGroupSize>2</iGroupSize>
-				<fMaxSpeed>2</fMaxSpeed>
-				<fPadTime>1</fPadTime>
-				<iMeleeWaveSize>1</iMeleeWaveSize>
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
@@ -14669,19 +14605,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>1</iMoves>
-			<bNoRevealMap>1</bNoRevealMap>
-			<iAsset>1</iAsset>
-			<UnitMeshGroups>
-				<iGroupSize>2</iGroupSize>
-				<fMaxSpeed>1</fMaxSpeed>
-				<fPadTime>1</fPadTime>
-				<iMeleeWaveSize>1</iMeleeWaveSize>
-				<iRangedWaveSize>0</iRangedWaveSize>
-				<UnitMeshGroup>
-					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_SABRETOOTH</EarlyArtDefineTag>
 				</UnitMeshGroup>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
@@ -14901,7 +14824,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
@@ -15019,7 +14941,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>3</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
@@ -16253,19 +16174,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>1</iMoves>
-			<bNoRevealMap>1</bNoRevealMap>
-			<iAsset>1</iAsset>
-			<UnitMeshGroups>
-				<iGroupSize>2</iGroupSize>
-				<fMaxSpeed>1</fMaxSpeed>
-				<fPadTime>1</fPadTime>
-				<iMeleeWaveSize>1</iMeleeWaveSize>
-				<iRangedWaveSize>0</iRangedWaveSize>
-				<UnitMeshGroup>
-					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_TAPIR</EarlyArtDefineTag>
 				</UnitMeshGroup>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
@@ -18580,7 +18488,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
@@ -18625,7 +18532,6 @@
 
 			</Buildings>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<iAsset>1</iAsset>
@@ -18912,7 +18818,6 @@
 					<LateArtDefineTag>ART_DEF_UNIT_WORKERMODERN</LateArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<Actions>
 				<Action>

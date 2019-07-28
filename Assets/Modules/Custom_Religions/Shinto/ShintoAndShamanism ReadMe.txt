@@ -11,7 +11,7 @@ To clarify, Aaranda made all of his religions available through existing technol
 
 Mod name - [B]Shamans and Shinto[/B]
 
-[B]Technology - Shamanism[/B] 
+[B]Technology - Shamanism[/B]
 [LIST]
 [*]Requires [B]Ceremonial Burial[/B] and [B]Priesthood[/B]
 [*]Alternate prerequsite for [B]Meditation[/B]
@@ -21,7 +21,7 @@ Mod name - [B]Shamans and Shinto[/B]
 
 
 
-[B]Building - Shaman's Hut[/B] 
+[B]Building - Shaman's Hut[/B]
 [LIST]
 [*]Req  [B]Naturopathy[/B], [B]Shamanism[/B]
 [*]Obsolete with [B]Scientific Method[/B]

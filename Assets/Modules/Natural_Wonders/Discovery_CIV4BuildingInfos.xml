@@ -6,7 +6,7 @@
 <!-- -->
 <!-- Building Infos -->
 <Civ4BuildingInfos xmlns="x-schema:../../XML/Schema/C2C_CIV4BuildingsSchema.xml">
-	<BuildingInfos>	
+	<BuildingInfos>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_FIRST_TO_DISCOVER_AUYANTEPUI</BuildingClass>
 			<Type>BUILDING_FIRST_TO_DISCOVER_AUYANTEPUI</Type>
@@ -886,7 +886,6 @@
 			<Strategy>TXT_KEY_BUILDING_MOVIE_AUYANTEPUI_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ANIMATION_STUDIO</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>

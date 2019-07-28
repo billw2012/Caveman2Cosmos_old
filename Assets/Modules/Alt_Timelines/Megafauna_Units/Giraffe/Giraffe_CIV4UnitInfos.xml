@@ -73,7 +73,6 @@
 				<PrereqTech>TECH_MOUNTED_ARCHERY</PrereqTech>
 			</TechTypes>
 			<iCost>235</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>8</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -219,7 +218,6 @@
 			</TechTypes>
 			<BonusType>BONUS_WARE_IRON</BonusType>
 			<iCost>245</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>8</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -389,7 +387,6 @@
 				<BonusType>BONUS_FIREARMS</BonusType>
 			</PrereqBonuses>
 			<iCost>425</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>15</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -574,7 +571,6 @@
 				<BonusType>BONUS_FIREARMS</BonusType>
 			</PrereqBonuses>
 			<iCost>475</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>21</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -761,7 +757,6 @@
 				<BonusType>BONUS_FIREARMS</BonusType>
 			</PrereqBonuses>
 			<iCost>455</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>16</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -915,7 +910,6 @@
 				<BonusType>BONUS_FIREARMS</BonusType>
 			</PrereqBonuses>
 			<iCost>580</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>27</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -1109,7 +1103,6 @@
 				<BonusType>BONUS_FIREARMS</BonusType>
 			</PrereqBonuses>
 			<iCost>950</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>33</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -1291,7 +1284,6 @@
 			<PrereqTech>TECH_GUERRILLA_WARFARE</PrereqTech>
 			<BonusType>BONUS_WARE_IRON</BonusType>
 			<iCost>1030</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>18</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -1357,7 +1349,6 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_GIRAFFE</Type>
 			<AndDependencyTypes>

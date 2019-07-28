@@ -1379,7 +1379,7 @@ class CvInfoScreen:
 	def getHealthValue(self, pPlayer):
 		iGood = pPlayer.calculateTotalCityHealthiness()
 		iBad = pPlayer.calculateTotalCityUnhealthiness()
-		return (iGood * 100) / max(1, iGood + iBad)	 
+		return (iGood * 100) / max(1, iGood + iBad)
 
 	def getRank(self, aiGroup):
 		aiGroup.sort()

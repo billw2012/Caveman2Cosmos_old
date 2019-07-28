@@ -1,4 +1,4 @@
-The compressed file contains the art for bandit and Pirates. 
+The compressed file contains the art for bandit and Pirates.
 
 The idea is to have events like "Illirian Pirates" spawn the ships and a pirate base somewhere which then spawns those pirate ships until defeated.  The same goes for Bandit hidouts in ancient forest.
 

@@ -1,5 +1,5 @@
 ## Sid Meier's Civilization 4
-## 
+##
 ## This file is part of the UnitUpgradesPediaMod by Vovan
 ## Automatic layout algorithm by Progor
 ##
@@ -83,10 +83,10 @@ class UnitUpgradesGraph:
 
 	def placeOnScreen(self, screen, unit, xPos, yPos):
 		screen.setImageButtonAt(self.pediaScreen.getNextWidgetName(), self.upgradesList, GC.getUnitInfo(unit).getButton(), xPos, yPos, self.buttonSize, self.buttonSize, WidgetTypes.WIDGET_PEDIA_JUMP_TO_UNIT, unit, 1)
-			
+
 	def unitToString(self, unit):
 		return GC.getUnitInfo(unit).getDescription() + ":%d"%(unit, )
-	
+
 	################## Stuff to generate Unit Upgrade Graph ##################
 
 	def addUpgradePath(self, graph, unitFrom, unitTo):
@@ -99,7 +99,7 @@ class UnitUpgradesGraph:
 
 	def getMedianY(self, mGraph, unitSet):
 		"Returns the average Y position of the units in unitSet"
-		
+
 		if (len(unitSet) == 0):
 			return -1
 		sum = 0.0
@@ -245,7 +245,7 @@ class UnitUpgradesGraph:
 			mGraphIndex += 1
 
 		for mGraph in self.mGraphs:
-			#remove links that would otherwise have to jump 
+			#remove links that would otherwise have to jump
 			for unit, node in mGraph.graph.iteritems():
 				for u in node.upgradesTo.copy():
 					if not mGraph.graph.has_key(u):

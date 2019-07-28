@@ -6,7 +6,7 @@
 <!-- -->
 <!-- Building Infos -->
 <Civ4BuildingInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4BuildingsSchema.xml">
-	<BuildingInfos>	
+	<BuildingInfos>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_PUBLIC_STONING</BuildingClass>
 			<Type>BUILDING_PUBLIC_STONING</Type>

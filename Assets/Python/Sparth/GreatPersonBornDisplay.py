@@ -1,4 +1,4 @@
-## 
+##
 ## Event Manager component of the Great Person is born Screen
 ##  by Sparth
 

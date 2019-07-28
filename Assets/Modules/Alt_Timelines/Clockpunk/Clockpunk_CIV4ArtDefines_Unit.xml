@@ -235,7 +235,7 @@
 			<AudioRunSounds>
 				<AudioRunTypeLoop />
 				<AudioRunTypeEnd />
-			</AudioRunSounds>			
+			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_ZEPHYR</Type>

@@ -10,7 +10,7 @@
 		<iDefineIntVal>25</iDefineIntVal>
 	</Define>
 	<Define>
-		<!-- Ratio of enemy power to team power for AI to consider running TURTLE (all out defense, no offensive forays) strategy.  
+		<!-- Ratio of enemy power to team power for AI to consider running TURTLE (all out defense, no offensive forays) strategy.
 		Equal power would be 100.  BBAI default: 250 -->
 		<DefineName>BBAI_TURTLE_ENEMY_POWER_RATIO</DefineName>
 		<iDefineIntVal>130</iDefineIntVal>

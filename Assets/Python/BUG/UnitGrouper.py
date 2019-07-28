@@ -332,7 +332,7 @@ class AutoUpgradeGrouping(Grouping):
 	def __init__(self):
 		Grouping.__init__(self, "autoupgrading", "TXT_KEY_UNIT_GROUPER_AUTO_UPGRADE_GROUPING")
 		(
-			self.ORDER_AUTO_UPGRADING, 
+			self.ORDER_AUTO_UPGRADING,
 			self.ORDER_NONE,
 		) = range(2)
 		self._addGroup(Group(self, self.ORDER_AUTO_UPGRADING, "TXT_KEY_UNIT_GROUPER_ORDER_GROUP_UPGRADINGSETTINGS"))
@@ -351,7 +351,7 @@ class AutoPromoteGrouping(Grouping):
 	def __init__(self):
 		Grouping.__init__(self, "autopromotion", "TXT_KEY_UNIT_GROUPER_AUTO_PROMOTION_GROUPING")
 		(
-			self.ORDER_AUTO_PROMOTIONS, 
+			self.ORDER_AUTO_PROMOTIONS,
 			self.ORDER_NONE,
 		) = range(2)
 		self._addGroup(Group(self, self.ORDER_AUTO_PROMOTIONS, "TXT_KEY_UNIT_GROUPER_ORDER_GROUP_PROMOTESETTINGS"))

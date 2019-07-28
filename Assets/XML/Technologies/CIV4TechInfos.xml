@@ -1022,7 +1022,7 @@ Current techs which are not in this file:-
 			<Sound>AS2D_TECH_GROUND_STONE</Sound>
 			<SoundMP>AS2D_TECH_GROUND_STONE</SoundMP>
 			<Button>Art/Interface/Buttons/TechTree/groundstones.dds</Button>
-		</TechInfo>		
+		</TechInfo>
 		<TechInfo>
 			<Type>TECH_RITUALISM</Type>
 			<Description>TXT_KEY_TECH_RITUALISM</Description>
@@ -1903,7 +1903,7 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_BONE_WORKING</PrereqTech>				
+				<PrereqTech>TECH_BONE_WORKING</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_TRAPPING</PrereqTech>
@@ -3285,7 +3285,7 @@ Current techs which are not in this file:-
 			<OrPreReqs>
 				<PrereqTech>TECH_TANNING</PrereqTech>
 			</OrPreReqs>
-			<AndPreReqs>				
+			<AndPreReqs>
 				<PrereqTech>TECH_RAFT_BUILDING</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_BOAT_BUILDING_QUOTE</Quote>
@@ -3920,7 +3920,7 @@ Current techs which are not in this file:-
 			<Sound>AS2D_TECH_ARCHERY</Sound>
 			<SoundMP>AS2D_TECH_MP_ARCHERY</SoundMP>
 			<Button>,Art/Interface/Buttons/TechTree/Archery.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,1</Button>
-		</TechInfo>		
+		</TechInfo>
 		<TechInfo>
 			<Type>TECH_AGRICULTURE</Type>
 			<Description>TXT_KEY_TECH_AGRICULTURE</Description>
@@ -4918,7 +4918,7 @@ Current techs which are not in this file:-
 			<Sound>AS2D_TECH_STARGAZING</Sound>
 			<SoundMP>AS2D_TECH_STARGAZING</SoundMP>
 			<Button>Art/Interface/Buttons/TechTree/stargazing.dds</Button>
-		</TechInfo>				
+		</TechInfo>
 		<TechInfo>
 			<Type>TECH_NEGOTIATION</Type>
 			<Description>TXT_KEY_TECH_NEGOTIATION</Description>
@@ -6808,6 +6808,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<bGlobal>1</bGlobal>
 			<iCost>309</iCost>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iGridX>30</iGridX>
@@ -6894,6 +6895,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>309</iCost>
 			<bGlobal>1</bGlobal>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iGridX>30</iGridX>
@@ -7033,6 +7035,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>348</iCost>
 			<bGlobal>1</bGlobal>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iGridX>31</iGridX>
@@ -7071,6 +7074,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>348</iCost>
 			<bGlobal>1</bGlobal>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_SEDENTARY</Era>
 			<iAsset>8</iAsset>
 			<iGridX>31</iGridX>
@@ -7923,8 +7927,9 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_RELIGION_BUDDHISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_RELIGION_BUDDHISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<iCost>499</iCost>
 			<bGlobal>1</bGlobal>
+			<iCost>499</iCost>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_CLASSICAL</Era>
 			<iAsset>8</iAsset>
 			<iGridX>34</iGridX>
@@ -8072,8 +8077,9 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_RELIGION_HELLENISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_RELIGION_HELLENISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<iCost>554</iCost>
 			<bGlobal>1</bGlobal>
+			<iCost>554</iCost>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_CLASSICAL</Era>
 			<iAsset>8</iAsset>
 			<iGridX>35</iGridX>
@@ -8373,8 +8379,9 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_RELIGION_MESOAMERICANISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_RELIGION_NAGHUALISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<iCost>614</iCost>
 			<bGlobal>1</bGlobal>
+			<iCost>614</iCost>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_CLASSICAL</Era>
 			<iAsset>8</iAsset>
 			<iGridX>36</iGridX>
@@ -8931,8 +8938,9 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_RELIGION_CONFUCIANISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_RELIGION_CONFUCIANISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<iCost>679</iCost>
 			<bGlobal>1</bGlobal>
+			<iCost>679</iCost>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_CLASSICAL</Era>
 			<iAsset>8</iAsset>
 			<iGridX>37</iGridX>
@@ -9045,8 +9053,9 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_RELIGION_TAOISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_RELIGION_TAOISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<iCost>749</iCost>
 			<bGlobal>1</bGlobal>
+			<iCost>749</iCost>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_CLASSICAL</Era>
 			<iAsset>8</iAsset>
 			<iGridX>38</iGridX>
@@ -9935,8 +9944,9 @@ Current techs which are not in this file:-
 			<Civilopedia>TXT_KEY_RELIGION_CHRISTIANITY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_RELIGION_CHRISTIANITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<iCost>1230</iCost>
 			<bGlobal>1</bGlobal>
+			<iCost>1230</iCost>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>8</iAsset>
 			<iGridX>43</iGridX>
@@ -10144,6 +10154,7 @@ Current techs which are not in this file:-
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<bGlobal>1</bGlobal>
 			<iCost>1334</iCost>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_MEDIEVAL</Era>
 			<iAsset>8</iAsset>
 			<iGridX>44</iGridX>
@@ -14462,7 +14473,7 @@ Current techs which are not in this file:-
 			<SoundMP>AS2D_TECH_JOURNALISM</SoundMP>
 			<Button>Art/Interface/Buttons/TechTree/journalism.dds</Button>
 		</TechInfo>
-		<TechInfo>		
+		<TechInfo>
 			<Type>TECH_EMANCIPATION</Type>
 			<Description>TXT_KEY_TECH_EMANCIPATION</Description>
 			<Civilopedia>TXT_KEY_TECH_EMANCIPATION_PEDIA</Civilopedia>
@@ -15917,7 +15928,7 @@ Current techs which are not in this file:-
 					<iFlavor>8</iFlavor>
 				</Flavor>
 			</Flavors>
-			<OrPreReqs>				
+			<OrPreReqs>
 				<PrereqTech>TECH_ELECTRICITY</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
@@ -16828,7 +16839,7 @@ Current techs which are not in this file:-
 			<Sound>AS2D_TECH_PROPAGANDA</Sound>
 			<SoundMP>AS2D_TECH_PROPAGANDA</SoundMP>
 			<Button>Art/Interface/Buttons/TechTree/propaganda.dds</Button>
-		</TechInfo>       
+		</TechInfo>
 		<TechInfo>
 			<Type>TECH_INDUSTRIALISM</Type>
 			<Description>TXT_KEY_TECH_INDUSTRIALISM</Description>
@@ -16872,7 +16883,7 @@ Current techs which are not in this file:-
 			<Sound>AS2D_TECH_INDUSTRIALISM</Sound>
 			<SoundMP>AS2D_TECH_MP_INDUSTRIALISM</SoundMP>
 			<Button>,Art/Interface/Buttons/TechTree/Industrialism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,4</Button>
-		</TechInfo>		
+		</TechInfo>
 		<TechInfo>
 			<Type>TECH_TRENCH_WARFARE</Type>
 			<Description>TXT_KEY_TECH_TRENCH_WARFARE</Description>
@@ -17121,7 +17132,7 @@ Current techs which are not in this file:-
 			<Sound>AS2D_TECH_FASCISM</Sound>
 			<SoundMP>AS2D_TECH_MP_FASCISM</SoundMP>
 			<Button>,Art/Interface/Buttons/TechTree/Fascism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,3</Button>
-		</TechInfo> 
+		</TechInfo>
 		<TechInfo>
 			<Type>TECH_ADVANCED_METALLURGY</Type>
 			<Description>TXT_KEY_TECH_ADVANCED_METALLURGY</Description>
@@ -17198,7 +17209,7 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_TRENCH_WARFARE</PrereqTech>				
+				<PrereqTech>TECH_TRENCH_WARFARE</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_AUTOMATIC_WEAPONS_QUOTE</Quote>
 			<Sound>AS2D_TECH_AUTOMATIC_WEAPONS</Sound>
@@ -17349,7 +17360,7 @@ Current techs which are not in this file:-
 			<Sound>AS2D_TECH_QUANTUM_PHYSICS</Sound>
 			<SoundMP>AS2D_TECH_QUANTUM_PHYSICS</SoundMP>
 			<Button>,Art/Interface/Buttons/TechTree/QuantumPhysics.dds,Art/Interface/Buttons/RoM_Techtree_Atlas.dds,8,14</Button>
-		</TechInfo>		
+		</TechInfo>
 		<TechInfo>
 			<Type>TECH_COSMOLOGY</Type>
 			<Description>TXT_KEY_TECH_COSMOLOGY</Description>
@@ -17505,7 +17516,7 @@ Current techs which are not in this file:-
 				<PrereqTech>TECH_ADVANCED_METALLURGY</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_ARTILLERY</PrereqTech>				
+				<PrereqTech>TECH_ARTILLERY</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_ARMORED_VEHICLES_QUOTE</Quote>
 			<Sound>AS2D_TECH_ARMORED_VEHICLES</Sound>
@@ -18492,7 +18503,7 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_LOGISTICS</PrereqTech>				
+				<PrereqTech>TECH_LOGISTICS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_FOREIGN_POLICY</PrereqTech>
@@ -20094,7 +20105,7 @@ Current techs which are not in this file:-
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_SPACE_FLIGHT</PrereqTech>				
+				<PrereqTech>TECH_SPACE_FLIGHT</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_RECYCLING</PrereqTech>
@@ -22756,7 +22767,7 @@ Current techs which are not in this file:-
 					<iFlavor>1</iFlavor>
 				</Flavor>
 			</Flavors>
-			<OrPreReqs>				
+			<OrPreReqs>
 				<PrereqTech>TECH_RAPID_PROTOTYPING</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
@@ -23052,7 +23063,7 @@ Current techs which are not in this file:-
 					<iFlavor>8</iFlavor>
 				</Flavor>
 			</Flavors>
-			<OrPreReqs>				
+			<OrPreReqs>
 				<PrereqTech>TECH_RAPID_PROTOTYPING</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>

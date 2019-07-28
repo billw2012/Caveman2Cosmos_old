@@ -9,7 +9,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANET_COLONIZATION</PrereqTech>
 			<iCost>-1</iCost>
@@ -59,7 +58,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_CITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_APHOTOSYNTHESIS</PrereqTech>
 			<iCost>1921</iCost>
@@ -94,7 +92,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_SURFACE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_SURFACE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ABYSS_COLONIZATION</PrereqTech>
 			<iCost>2793</iCost>
@@ -139,7 +136,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_ARCOLOGY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_ARCOLOGY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_MEGASTRUCTURES</PrereqTech>
 			<iCost>5294</iCost>
@@ -186,7 +182,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_SKY_ARCOLOGY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_SKY_ARCOLOGY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_GRAVITY_CONTROL</PrereqTech>
 			<iCost>12267</iCost>
@@ -219,7 +214,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_SOLAR_ARRAY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_SOLAR_ARRAY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANET_COLONIZATION</PrereqTech>
 			<iCost>702</iCost>
@@ -248,7 +242,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_VERTICAL_WIND_FARM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_VERTICAL_WIND_FARM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANET_EXTRACTION</PrereqTech>
 			<iCost>800</iCost>
@@ -280,7 +273,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_OXYGEN_GENERATOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_OXYGEN_GENERATOR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SUPERFLUOUS_MANUFACTURING</PrereqTech>
 			<iCost>905</iCost>
@@ -310,7 +302,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_HYDROGEN_GENERATOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_HYDROGEN_GENERATOR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SUPERFLUOUS_MANUFACTURING</PrereqTech>
 			<iCost>905</iCost>
@@ -338,7 +329,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_CARBONWORKS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_CARBONWORKS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SUPERFLUOUS_MANUFACTURING</PrereqTech>
 			<iCost>905</iCost>
@@ -381,7 +371,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_MAGLEV_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_MAGLEV</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SRAILS</PrereqTech>
 			<iCost>1144</iCost>
@@ -410,7 +399,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_ECOSYSTEM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_ECOSYSTEM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_QUADRUPLEHELIX</PrereqTech>
 			<iCost>2110</iCost>
@@ -438,7 +426,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_HYDROGEN_BOMBARDMENT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_HYDROGEN_BOMBARDMENT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTEROID_EXTRACTION</PrereqTech>
 			<iCost>4032</iCost>
@@ -469,7 +456,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_GOVERNING_COUNCIL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_GOVERNING_COUNCIL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_BINARYLEGISLATION</PrereqTech>
 			<iCost>1921</iCost>
@@ -501,7 +487,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_ENTERTAINMENT_COMPLEX_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_ENTERTAINMENT_COMPLEX</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NEURON_ENGINEERING</PrereqTech>
 			<iCost>1921</iCost>
@@ -522,7 +507,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_TRADE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_TRADE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_TRADE</PrereqTech>
 			<iCost>1921</iCost>
@@ -551,7 +535,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_DEUTERIUM_EXPORTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_DEUTERIUM_EXPORTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_TRADE</PrereqTech>
 			<iCost>1921</iCost>
@@ -581,7 +564,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_BROADBAND_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_BROADBAND</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PHOTON_THERMODYNAMICS</PrereqTech>
 			<iCost>1144</iCost>
@@ -618,7 +600,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_SURFACE_PROBE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_SURFACE_PROBE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SUPERSTRONG_ALLOYS</PrereqTech>
 			<iCost>1144</iCost>
@@ -649,7 +630,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_SURFACE_SCOOP_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_SURFACE_SCOOP</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NANOMINING</PrereqTech>
 			<iCost>2793</iCost>
@@ -680,7 +660,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_ORBITAL_SOLAR_ARRAY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_ORBITAL_SOLAR_ARRAY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_OPTRONICS</PrereqTech>
 			<iCost>2544</iCost>
@@ -710,7 +689,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_SURFACE_FACTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_SURFACE_FACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ABYSS_COLONIZATION</PrereqTech>
 			<iCost>2793</iCost>
@@ -742,7 +720,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_FUSION_PLANT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_FUSION_PLANT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ARTIFICIAL_NUCLEOSYNTHESIS</PrereqTech>
 			<iCost>3065</iCost>
@@ -770,7 +747,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_BIOTIC_ATMOSPHERE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_BIOTIC_ATMOSPHERE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_GAIA_ECOLOGY</PrereqTech>
 			<iCost>3065</iCost>
@@ -818,7 +794,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_HOTEL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_HOTEL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_VASIMR_PROPULSION</PrereqTech>
 			<iCost>7666</iCost>
@@ -862,7 +837,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_CO2_REMOVAL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_CO2_REMOVAL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTROECOLOGY</PrereqTech>
 			<iCost>6372</iCost>
@@ -891,7 +865,6 @@
 			<Strategy>TXT_KEY_BUILDING_CALCIUM_MINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CALCIUM_MINE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_THERMAL_NEGATION</PrereqTech>
 			<iCost>3683</iCost>
@@ -918,7 +891,6 @@
 			<Strategy>TXT_KEY_BUILDING_CALCIUM_CARBONATE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CALCIUM_CARBONATE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTROECOLOGY</PrereqTech>
 			<iCost>6372</iCost>
@@ -947,7 +919,6 @@
 			<Strategy>TXT_KEY_BUILDING_AGRODOME_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_AGRODOME</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_EXTRATERRESTRIAL_AGRICULTURE</PrereqTech>
 			<iCost>5294</iCost>
@@ -977,7 +948,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_MEGAFACTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_MEGAFACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTROINDUSTRIALISM</PrereqTech>
 			<iCost>12267</iCost>
@@ -1008,7 +978,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_CLAYTRONIC_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_CLAYTRONIC_CITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ATTOMETER_NANOMORPHISM</PrereqTech>
 			<iCost>9246</iCost>
@@ -1040,7 +1009,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_DEATH_RAY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_DEATH_RAY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_WEAPONIZED_DISINTEGRATION</PrereqTech>
 			<iCost>10158</iCost>
@@ -1072,7 +1040,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_TERRA_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_TERRA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_TERRAFORMING</PrereqTech>
 			<iCost>27966</iCost>
@@ -1124,7 +1091,6 @@
 			<Strategy>TXT_KEY_BUILDING_TERRAFORMED_VENUS_EFFECT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TERRAFORMED_VENUS_EFFECT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PLANETARY_TERRAFORMING</PrereqTech>
 			<iCost>-1</iCost>
@@ -1161,7 +1127,6 @@
 			<Strategy>TXT_KEY_BUILDING_CAPTURED_IO_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CAPTURED_IO</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ORBITAL_ENGINEERING</PrereqTech>
 			<iCost>59408</iCost>
@@ -1202,7 +1167,6 @@
 			<Strategy>TXT_KEY_BUILDING_VENUS_ARTIFICIAL_ROTATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VENUS_ARTIFICIAL_ROTATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_GRAVITY_CONTROL</PrereqTech>
 			<iCost>49068</iCost>

@@ -27,7 +27,6 @@
 			<iCost>3930</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
@@ -35,7 +34,7 @@
 				<iCommerce>1</iCommerce>
 			</CommerceChanges>
 			<iAsset>5</iAsset>
-		</BuildingInfo>	
+		</BuildingInfo>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_MUNICIP_COMP</BuildingClass>
 			<Type>BUILDING_MUNICIP_COMP</Type>
@@ -61,7 +60,6 @@
 			</ProductionTraits>
 			<iCost>655</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHealth>-3</iHealth>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceModifiers>
@@ -107,7 +105,6 @@
 			</ProductionTraits>
 			<iCost>655</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<HealUnitCombatTypes>
 				<HealUnitCombatType>
 					<UnitCombatType>UNITCOMBAT_HEALS_AS_MECHANICAL</UnitCombatType>
@@ -165,7 +162,6 @@
 			</ProductionTraits>
 			<iCost>655</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iWarWearinessModifier>-30</iWarWearinessModifier>
 			<iHappiness>-2</iHappiness>
 			<iAsset>5</iAsset>
@@ -223,7 +219,6 @@
 			</ProductionTraits>
 			<iCost>655</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMaintenanceModifier>-15</iMaintenanceModifier>
 			<iHealth>-3</iHealth>
 			<iHappiness>-3</iHappiness>
@@ -307,7 +302,6 @@
 			<bPower>1</bPower>
 			<iCost>770</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHealth>-6</iHealth>
 			<iAsset>5</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -362,7 +356,6 @@
 			<bPower>1</bPower>
 			<iCost>770</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHealth>-4</iHealth>
 			<iAsset>5</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -417,7 +410,6 @@
 			<bPower>1</bPower>
 			<iCost>770</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHealth>-2</iHealth>
 			<iAsset>5</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -473,7 +465,6 @@
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>3930</iCost>
 			<iHurryCostModifier>50</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>6</iAsset>
 			<iPower>6</iPower>
