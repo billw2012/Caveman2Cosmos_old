@@ -17449,6 +17449,7 @@
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_COMPUTERS</ObsoleteTech>

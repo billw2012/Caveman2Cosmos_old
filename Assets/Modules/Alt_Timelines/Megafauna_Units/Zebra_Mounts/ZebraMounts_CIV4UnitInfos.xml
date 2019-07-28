@@ -6,14 +6,10 @@
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_ZEBRA</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_ZEBRA</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZEBRA_HERD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_ZEBRA</BuildingType>
+
+				<BuildingType>BUILDING_ZEBRA_HERD</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>

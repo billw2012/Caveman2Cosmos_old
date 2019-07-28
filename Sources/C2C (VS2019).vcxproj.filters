@@ -867,5 +867,6 @@
     <None Include="interfaceDirtyBits.inl">
       <Filter>Header Files</Filter>
     </None>
+    <None Include="Makefile" />
   </ItemGroup>
 </Project>

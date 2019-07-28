@@ -8,10 +8,8 @@
                     	<DependencyType>UNIT_SUBDUED_RHINO</DependencyType>
  			</AndDependencyTypes>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_RHINO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_RHINO</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -26,10 +24,8 @@
                     	<DependencyType>UNIT_SUBDUED_BLACK_RHINO</DependencyType>
  			</AndDependencyTypes>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_RHINO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_RHINO</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -44,10 +40,8 @@
                     	<DependencyType>UNIT_SUBDUED_INDIAN_RHINO</DependencyType>
  			</AndDependencyTypes>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_RHINO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_RHINO</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -62,10 +56,8 @@
                     	<DependencyType>UNIT_SUBDUED_JAVA_RHINO</DependencyType>
  			</AndDependencyTypes>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_RHINO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_RHINO</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -80,10 +72,8 @@
                     	<DependencyType>UNIT_SUBDUED_WHITE_RHINO</DependencyType>
  			</AndDependencyTypes>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_RHINO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_RHINO</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -98,10 +88,8 @@
                     	<DependencyType>UNIT_SUBDUED_ELASMOTHERIUM</DependencyType>
  			</AndDependencyTypes>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_RHINO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_RHINO</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>

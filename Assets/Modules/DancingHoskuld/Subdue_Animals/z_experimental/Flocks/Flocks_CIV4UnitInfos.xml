@@ -9,28 +9,22 @@
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_DUCK</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_DUCK_FLOCKS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_DUCK_FLOCKS</BuildingType>
+
 			</Buildings>
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_PEACOCK</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_PEACOCK_FLOCKS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_PEACOCK_FLOCKS</BuildingType>
+
 			</Buildings>
 		</UnitInfo>
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_TURKEY</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_TURKEY_FLOCKS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_TURKEY_FLOCKS</BuildingType>
+
 			</Buildings>
 		</UnitInfo>
 	</UnitInfos>

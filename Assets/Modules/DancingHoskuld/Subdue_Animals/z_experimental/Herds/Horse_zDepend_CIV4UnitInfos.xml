@@ -9,10 +9,8 @@
                      	<DependencyType>BUILDING_HORSE_STORY</DependencyType>
  			</AndDependencyTypes>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_HORSE_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_HORSE_STORY</BuildingType>
+
 			</Buildings>
 		</UnitInfo>
 		<UnitInfo>
@@ -23,14 +21,10 @@
                     	<DependencyType>BUILDING_HORSE_STORIES</DependencyType>
  			</AndDependencyTypes>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_HORSE_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_HORSE_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_HORSE_STORY</BuildingType>
+
+				<BuildingType>BUILDING_HORSE_STORIES</BuildingType>
+
 			</Buildings>
 		</UnitInfo>
 		<UnitInfo>
@@ -42,14 +36,10 @@
                     	<DependencyType>BUILDING_HORSE_STORIES</DependencyType>
  			</AndDependencyTypes>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_HORSE_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_HORSE_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_HORSE_STORY</BuildingType>
+
+				<BuildingType>BUILDING_HORSE_STORIES</BuildingType>
+
 			</Buildings>
 		</UnitInfo>
 	</UnitInfos>

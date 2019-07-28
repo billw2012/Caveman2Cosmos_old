@@ -14,6 +14,7 @@ import CvDebugTools
 import Popup as PyPopup
 import CvAdvisorUtils
 
+
 # globals
 GC = CyGlobalContext()
 GAME = GC.getGame()

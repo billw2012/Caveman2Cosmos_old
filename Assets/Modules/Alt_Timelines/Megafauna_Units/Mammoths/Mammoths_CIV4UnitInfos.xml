@@ -16,10 +16,7 @@
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_MAMMOTH_HERD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_MAMMOTH_HERD</BuildingType>
 			</Buildings>
 		</UnitInfo>
 		<UnitInfo>
@@ -199,34 +196,13 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_MAMMOTH_HERD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CARNIVAL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_MAMMOTH_HERD</BuildingType>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+				<BuildingType>BUILDING_CARNIVAL</BuildingType>
+				<BuildingType>BUILDING_ZOO</BuildingType>
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>

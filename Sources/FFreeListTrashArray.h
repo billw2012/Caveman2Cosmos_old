@@ -135,7 +135,6 @@ protected:
 
 	int m_iCurrentID;
 	FFreeListTrashArrayNode* m_pArray;
-	mutable CRITICAL_SECTION m_cModifySection;
 
 	virtual void growArray();
 };
@@ -149,8 +148,6 @@ FFreeListTrashArray<T>::FFreeListTrashArray()
 {
 	m_iCurrentID = FLTA_MAX_BUCKETS;
 	m_pArray = NULL;
-
-	InitializeCriticalSectionAndSpinCount(&m_cModifySection, 4000);
 }
 
 
@@ -158,8 +155,6 @@ template <class T>
 FFreeListTrashArray<T>::~FFreeListTrashArray()
 {
 	uninit();
-
-	DeleteCriticalSection(&m_cModifySection);
 }
 
 
@@ -228,8 +223,6 @@ T* FFreeListTrashArray<T>::add()
 	int iIndex;
 	T* result = NULL;
 
-	EnterCriticalSection(&m_cModifySection);
-
 	if (m_pArray == NULL) 
 	{
 		init();
@@ -240,7 +233,6 @@ T* FFreeListTrashArray<T>::add()
 	{
 		if ((m_iNumSlots * FLTA_GROWTH_FACTOR) > FLTA_MAX_BUCKETS)
 		{
-			LeaveCriticalSection(&m_cModifySection);
 			return NULL;
 		}
 
@@ -319,8 +311,6 @@ T* FFreeListTrashArray<T>::add()
 
 	result = m_pArray[iIndex].pData;
 
-	LeaveCriticalSection(&m_cModifySection);
-
 	return result;
 }
 
@@ -336,8 +326,6 @@ T* FFreeListTrashArray<T>::getAt(int iID) const
 		return NULL;
 	}
 	
-	EnterCriticalSection(&m_cModifySection);
-
 	iIndex = (iID & FLTA_INDEX_MASK);
 
 	assert(iIndex >= 0);
@@ -350,9 +338,6 @@ T* FFreeListTrashArray<T>::getAt(int iID) const
 			result = m_pArray[iIndex].pData;
 		}
 	}
-	
-	LeaveCriticalSection(&m_cModifySection);
-
 
 	return result;
 }
@@ -366,8 +351,6 @@ bool FFreeListTrashArray<T>::remove(T* pData)
 
 	assert(m_pArray != NULL);
 
-	EnterCriticalSection(&m_cModifySection);
-
 	if (pData != NULL)
 	{
 		for (iI = 0; iI <= m_iLastIndex; iI++)
@@ -378,8 +361,6 @@ bool FFreeListTrashArray<T>::remove(T* pData)
 			}
 		}
 	}
-
-	LeaveCriticalSection(&m_cModifySection);
 
 	return result;
 }
@@ -395,8 +376,6 @@ bool FFreeListTrashArray<T>::removeAt(int iID)
 	{
 		return false;
 	}
-
-	EnterCriticalSection(&m_cModifySection);
 
 	iIndex = (iID & FLTA_INDEX_MASK);
 
@@ -422,8 +401,6 @@ bool FFreeListTrashArray<T>::removeAt(int iID)
 		}
 	}
 
-	LeaveCriticalSection(&m_cModifySection);
-
 	return result;
 }
 
@@ -438,8 +415,6 @@ void FFreeListTrashArray<T>::removeAll()
 		return;
 	}
 
-	EnterCriticalSection(&m_cModifySection);
-
 	m_iLastIndex = FFreeList::INVALID_INDEX;
 	m_iFreeListHead = FFreeList::INVALID_INDEX;
 	m_iFreeListCount = 0;
@@ -453,8 +428,6 @@ void FFreeListTrashArray<T>::removeAll()
 		}
 		m_pArray[iI].pData = NULL;
 	}
-	
-	LeaveCriticalSection(&m_cModifySection);
 }
 
 

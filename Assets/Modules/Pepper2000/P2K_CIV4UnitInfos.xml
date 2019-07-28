@@ -6428,26 +6428,11 @@
 				</Build>
             </Builds>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_CAPTURED_ASTEROID</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_MARTIAN_AMMONIA_BOMBARDMENT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_VENUS_HYDROGEN_BOMBARDMENT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_MERCURY_COMET_BOMBARDMENT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_MARTIAN_ASTEROID_MINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_CAPTURED_ASTEROID</BuildingType>
+                <BuildingType>BUILDING_MARTIAN_AMMONIA_BOMBARDMENT</BuildingType>
+                <BuildingType>BUILDING_VENUS_HYDROGEN_BOMBARDMENT</BuildingType>
+                <BuildingType>BUILDING_MERCURY_COMET_BOMBARDMENT</BuildingType>
+                <BuildingType>BUILDING_MARTIAN_ASTEROID_MINE</BuildingType>
 			</Buildings>
             <iBaseHurry>1000</iBaseHurry>
 			<PrereqTech>TECH_ASTEROIDPROBE</PrereqTech>
@@ -6527,26 +6512,11 @@
 				</Build>
             </Builds>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_CAPTURED_ASTEROID</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_MARTIAN_AMMONIA_BOMBARDMENT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_VENUS_HYDROGEN_BOMBARDMENT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_MERCURY_COMET_BOMBARDMENT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_MARTIAN_ASTEROID_MINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_CAPTURED_ASTEROID</BuildingType>
+                <BuildingType>BUILDING_MARTIAN_AMMONIA_BOMBARDMENT</BuildingType>
+                <BuildingType>BUILDING_VENUS_HYDROGEN_BOMBARDMENT</BuildingType>
+                <BuildingType>BUILDING_MERCURY_COMET_BOMBARDMENT</BuildingType>
+                <BuildingType>BUILDING_MARTIAN_ASTEROID_MINE</BuildingType>
 			</Buildings>
             <iBaseHurry>1500</iBaseHurry>
 			<PrereqTech>TECH_ASTEROID_EXTRACTION</PrereqTech>
@@ -6758,26 +6728,11 @@
 			</UnitAIs>
 			<PrereqTech>TECH_SATELLITES</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_SPUTNIK</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_PROJECT_GEMINI</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_PROJECT_MERCURY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_WMAP</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CLIMATE_SATELLITE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_SPUTNIK</BuildingType>
+                <BuildingType>BUILDING_PROJECT_GEMINI</BuildingType>
+                <BuildingType>BUILDING_PROJECT_MERCURY</BuildingType>
+                <BuildingType>BUILDING_WMAP</BuildingType>
+				<BuildingType>BUILDING_CLIMATE_SATELLITE</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -6852,14 +6807,8 @@
 			</UnitAIs>
 			<PrereqTech>TECH_SPACE_STATIONS</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_MIR</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_SKYLAB</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_MIR</BuildingType>
+                <BuildingType>BUILDING_SKYLAB</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -6934,22 +6883,10 @@
 			</UnitAIs>
 			<PrereqTech>TECH_SPACE_TOURISM</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_MIR</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_SKYLAB</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_ISS_TOURISM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_ORBITAL_HOTEL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_MIR</BuildingType>
+                <BuildingType>BUILDING_SKYLAB</BuildingType>
+                <BuildingType>BUILDING_ISS_TOURISM</BuildingType>
+                <BuildingType>BUILDING_ORBITAL_HOTEL</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -7024,30 +6961,12 @@
 			</UnitAIs>
 			<PrereqTech>TECH_ASTEROID_MINING</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_MIR</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_SKYLAB</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_ISS_TOURISM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_ORBITAL_HOTEL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_ASTEROID_MINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_ASTEROID_RARE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_MIR</BuildingType>
+                <BuildingType>BUILDING_SKYLAB</BuildingType>
+                <BuildingType>BUILDING_ISS_TOURISM</BuildingType>
+                <BuildingType>BUILDING_ORBITAL_HOTEL</BuildingType>
+                <BuildingType>BUILDING_ASTEROID_MINE</BuildingType>
+                <BuildingType>BUILDING_ASTEROID_RARE</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -7122,30 +7041,12 @@
 			</UnitAIs>
 			<PrereqTech>TECH_INTERSTELLAR_TRAVEL</PrereqTech>
             <Buildings>
-                <Building>
-					<BuildingType>BUILDING_COMMERCIAL_SATELLITES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_SOLAR_SATELLITE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_MILITARY_SATELLITES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_GPS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_PROPAGANDA_SATELLITES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_DIGITAL_GLOBE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+                <BuildingType>BUILDING_COMMERCIAL_SATELLITES</BuildingType>
+                <BuildingType>BUILDING_SOLAR_SATELLITE</BuildingType>
+                <BuildingType>BUILDING_MILITARY_SATELLITES</BuildingType>
+                <BuildingType>BUILDING_GPS</BuildingType>
+                <BuildingType>BUILDING_PROPAGANDA_SATELLITES</BuildingType>
+                <BuildingType>BUILDING_DIGITAL_GLOBE</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -7220,26 +7121,11 @@
 			</UnitAIs>
 			<PrereqTech>TECH_LUNAR_EXPLORATION</PrereqTech>
             <Buildings>
-                <Building>
-					<BuildingType>BUILDING_LUNAR_OUTPOST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_LUNAR_XPRIZE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_YUTU</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_MOON_ROCK_LAB</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_DEEP_SPACE_GATEWAY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+                <BuildingType>BUILDING_LUNAR_OUTPOST</BuildingType>
+                <BuildingType>BUILDING_LUNAR_XPRIZE</BuildingType>
+                <BuildingType>BUILDING_YUTU</BuildingType>
+                <BuildingType>BUILDING_MOON_ROCK_LAB</BuildingType>
+				<BuildingType>BUILDING_DEEP_SPACE_GATEWAY</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -7314,34 +7200,13 @@
 			</UnitAIs>
 			<PrereqTech>TECH_SOLAR_PROPULSION</PrereqTech>
             <Buildings>
-                <Building>
-					<BuildingType>BUILDING_IKAROS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_KEPLER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_JAMESWEBB_TELESCOPE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_ATLAST_SPACE_TELESCOPE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_ASTEROID_DEFLECTION_SYSTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_SENTINEL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_SOLAR_WEATHER_MONITOR</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+                <BuildingType>BUILDING_IKAROS</BuildingType>
+                <BuildingType>BUILDING_KEPLER</BuildingType>
+                <BuildingType>BUILDING_JAMESWEBB_TELESCOPE</BuildingType>
+                <BuildingType>BUILDING_ATLAST_SPACE_TELESCOPE</BuildingType>
+                <BuildingType>BUILDING_ASTEROID_DEFLECTION_SYSTEM</BuildingType>
+                <BuildingType>BUILDING_SENTINEL</BuildingType>
+                <BuildingType>BUILDING_SOLAR_WEATHER_MONITOR</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -7416,14 +7281,8 @@
 			</UnitAIs>
 			<PrereqTech>TECH_JUPITERE</PrereqTech>
             <Buildings>
-                <Building>
-					<BuildingType>BUILDING_HOLOGRAPHIC_SOLAR_SYSTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_MISSION_TO_CALLISTO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+                <BuildingType>BUILDING_HOLOGRAPHIC_SOLAR_SYSTEM</BuildingType>
+                <BuildingType>BUILDING_MISSION_TO_CALLISTO</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -7577,10 +7436,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_ASTROGATION_CONSTELLATION</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_INTERSTELLAR_PROBE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_INTERSTELLAR_PROBE</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -7663,10 +7519,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_ACNP_PROPULSION</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_BRACEWELL_PROBES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_BRACEWELL_PROBES</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -7749,10 +7602,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_FOLDING_SPACE</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANDROMEDA</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANDROMEDA</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -7828,10 +7678,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_PLANET_EXPLORATION</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_MARINER_PROGRAM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_MARINER_PROGRAM</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -7906,10 +7753,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_PLANET_EXPLORATION</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_MARINER_PROGRAM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_MARINER_PROGRAM</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -7984,14 +7828,8 @@
 			</UnitAIs>
 			<PrereqTech>TECH_PLANET_EXPLORATION</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_MARS_SCIENCE_LAB</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_MISSION_MARS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_MARS_SCIENCE_LAB</BuildingType>
+                <BuildingType>BUILDING_MISSION_MARS</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -8066,10 +7904,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_INTERSTELLAR_TRAVEL</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_DAWN</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_DAWN</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -8144,10 +7979,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_PLANET_EXPLORATION</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_GALILEO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GALILEO</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -8222,14 +8054,8 @@
 			</UnitAIs>
 			<PrereqTech>TECH_JUPITERE</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_EUROPA_PROBE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_ASTROBIOLOGY_LAB</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_EUROPA_PROBE</BuildingType>
+                <BuildingType>BUILDING_ASTROBIOLOGY_LAB</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -8304,10 +8130,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_PLANET_EXPLORATION</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_CASSINI_HUYGENS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_CASSINI_HUYGENS</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -8382,10 +8205,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_JUPITERE</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_TITAN_PROBE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_TITAN_PROBE</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -8460,14 +8280,8 @@
 			</UnitAIs>
 			<PrereqTech>TECH_PLANET_EXPLORATION</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_VOYAGER_PROGRAM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_URANUS_ATMOSPHERE_PROBE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_VOYAGER_PROGRAM</BuildingType>
+                <BuildingType>BUILDING_URANUS_ATMOSPHERE_PROBE</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -8542,14 +8356,8 @@
 			</UnitAIs>
 			<PrereqTech>TECH_PLANET_EXPLORATION</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_VOYAGER_PROGRAM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_NEPTUNE_ATMOSPHERE_PROBE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_VOYAGER_PROGRAM</BuildingType>
+                <BuildingType>BUILDING_NEPTUNE_ATMOSPHERE_PROBE</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -8624,14 +8432,8 @@
 			</UnitAIs>
 			<PrereqTech>TECH_INTERSTELLAR_TRAVEL</PrereqTech>
             <Buildings>
-                <Building>
-					<BuildingType>BUILDING_ASTRONOMY_DATABASE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_NEW_HORIZONS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+                <BuildingType>BUILDING_ASTRONOMY_DATABASE</BuildingType>
+                <BuildingType>BUILDING_NEW_HORIZONS</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -8707,14 +8509,8 @@
 			</UnitAIs>
 			<PrereqTech>TECH_MAGNETIC_SAILS</PrereqTech>
             <Buildings>
-				<Building>
-					<BuildingType>BUILDING_SEDNA_PROBE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-                <Building>
-					<BuildingType>BUILDING_ASTRONOMY_DATABASE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_SEDNA_PROBE</BuildingType>
+                <BuildingType>BUILDING_ASTRONOMY_DATABASE</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -9381,10 +9177,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_ANTIMATTER_ROCKET</PrereqTech>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GALACTIC_CORE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GALACTIC_CORE</BuildingType>
 			</Buildings>
             <Actions>
 				<Action>
@@ -10155,22 +9948,10 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_LUNAR_CHEMICAL_STORAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_LUNAR_ORGANIC_MATERIAL_STORAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_LUNAR_FERTILIZER_STORAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_LUNAR_SOLAR_PANELS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_LUNAR_CHEMICAL_STORAGE</BuildingType>
+				<BuildingType>BUILDING_LUNAR_ORGANIC_MATERIAL_STORAGE</BuildingType>
+				<BuildingType>BUILDING_LUNAR_FERTILIZER_STORAGE</BuildingType>
+				<BuildingType>BUILDING_LUNAR_SOLAR_PANELS</BuildingType>
 			</Buildings>
 			<PrereqBuilding>BUILDING_COMMERCIAL_SPACEPORT</PrereqBuilding>
 			<PrereqTech>TECH_LUNAR_COLONIZATION</PrereqTech>

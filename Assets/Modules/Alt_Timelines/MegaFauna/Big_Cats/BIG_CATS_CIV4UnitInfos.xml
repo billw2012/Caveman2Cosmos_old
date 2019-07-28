@@ -823,10 +823,8 @@
 			<Class>UNITCLASS_SUBDUED_BENGALTIGER</Class>
 			<Type>UNIT_SUBDUED_BENGALTIGER</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -839,10 +837,8 @@
 			<Class>UNITCLASS_SUBDUED_CAVE_LION</Class>
 			<Type>UNIT_SUBDUED_CAVE_LION</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -855,10 +851,8 @@
 			<Class>UNITCLASS_SUBDUED_CHEETAH</Class>
 			<Type>UNIT_SUBDUED_CHEETAH</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -871,10 +865,8 @@
 			<Class>UNITCLASS_SUBDUED_JAGUAR</Class>
 			<Type>UNIT_SUBDUED_JAGUAR</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -887,10 +879,8 @@
 			<Class>UNITCLASS_SUBDUED_LION</Class>
 			<Type>UNIT_SUBDUED_LION</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -903,10 +893,8 @@
 			<Class>UNITCLASS_SUBDUED_LYNX</Class>
 			<Type>UNIT_SUBDUED_LYNX</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -919,10 +907,8 @@
 			<Class>UNITCLASS_SUBDUED_PANTHER</Class>
 			<Type>UNIT_SUBDUED_PANTHER</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -935,10 +921,8 @@
 			<Class>UNITCLASS_SUBDUED_SIBERIANTIGER</Class>
 			<Type>UNIT_SUBDUED_SIBERIANTIGER</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -951,10 +935,8 @@
 			<Class>UNITCLASS_SUBDUED_SNOWLEOPARD</Class>
 			<Type>UNIT_SUBDUED_SNOWLEOPARD</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>

@@ -169,18 +169,12 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BIG_CAT_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_BIG_CAT_CAGE</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -286,18 +280,12 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BIG_CAT_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_BIG_CAT_CAGE</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -399,34 +387,20 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_CAMEL_HERD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CARNIVAL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_CAMEL_HERD</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_CARNIVAL</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -533,34 +507,20 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_LLAMA_HERD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CARNIVAL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_LLAMA_HERD</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_CARNIVAL</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -665,34 +625,20 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_DONKEY_HERD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CARNIVAL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_DONKEY_HERD</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_CARNIVAL</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -800,34 +746,20 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_HORSE_HERD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CARNIVAL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_HORSE_HERD</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_CARNIVAL</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -938,34 +870,20 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_BISON_HERD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CARNIVAL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_BISON_HERD</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_CARNIVAL</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -1079,34 +997,20 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_BUFFALO_HERD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CARNIVAL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_BUFFALO_HERD</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_CARNIVAL</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -1219,34 +1123,20 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_COW_HERD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CARNIVAL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_COW_HERD</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_CARNIVAL</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -1353,34 +1243,20 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_MUSKOX_HERD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CARNIVAL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_MUSKOX_HERD</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_CARNIVAL</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -1482,26 +1358,16 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_WORKERS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_ANIMAL_TOTEM_WORKERS</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -1608,30 +1474,18 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_PIG_HERD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_PIG_HERD</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -1719,18 +1573,12 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_AMPHIBIAN_POND</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_AMPHIBIAN_POND</BuildingType>
+
 			</Buildings>
 			<PrereqBuilding>BUILDING_ANIMAL_TAMER_COMPLEX</PrereqBuilding>
 			<PrereqBuildingClasses>
@@ -1823,54 +1671,30 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MASTER_HUNTER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ASIANBEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ASIANBEAR_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ASIANBEAR_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_DANCING_BEAR</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_MASTER_HUNTER</BuildingType>
+
+				<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_ASIANBEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_ASIANBEAR_STORY</BuildingType>
+
+				<BuildingType>BUILDING_ASIANBEAR_STORIES</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
+
+				<BuildingType>BUILDING_DANCING_BEAR</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -1962,50 +1786,28 @@
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bMilitaryTrade>1</bMilitaryTrade>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_DANCING_BEAR</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BROWN_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BROWN_BEAR_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BROWN_BEAR_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_DANCING_BEAR</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_BROWN_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_BROWN_BEAR_STORY</BuildingType>
+
+				<BuildingType>BUILDING_BROWN_BEAR_STORIES</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -2080,50 +1882,28 @@
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bMilitaryTrade>1</bMilitaryTrade>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BLACK_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BLACK_BEAR_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BLACK_BEAR_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_DANCING_BEAR</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_BLACK_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_BLACK_BEAR_STORY</BuildingType>
+
+				<BuildingType>BUILDING_BLACK_BEAR_STORIES</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
+
+				<BuildingType>BUILDING_DANCING_BEAR</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -2198,54 +1978,30 @@
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bMilitaryTrade>1</bMilitaryTrade>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MASTER_HUNTER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CAVE_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CAVE_BEAR_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CAVE_BEAR_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CAVE_BEAR_REMAINS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_MASTER_HUNTER</BuildingType>
+
+				<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_CAVE_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_CAVE_BEAR_STORY</BuildingType>
+
+				<BuildingType>BUILDING_CAVE_BEAR_STORIES</BuildingType>
+
+				<BuildingType>BUILDING_CAVE_BEAR_REMAINS</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -2320,54 +2076,30 @@
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bMilitaryTrade>1</bMilitaryTrade>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MASTER_HUNTER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GRIZZLY_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GRIZZLY_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GRIZZLY_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_DANCING_BEAR</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_MASTER_HUNTER</BuildingType>
+
+				<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
+
+				<BuildingType>BUILDING_GRIZZLY_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_GRIZZLY_STORY</BuildingType>
+
+				<BuildingType>BUILDING_GRIZZLY_STORIES</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
+
+				<BuildingType>BUILDING_DANCING_BEAR</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -2438,50 +2170,28 @@
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bMilitaryTrade>1</bMilitaryTrade>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_DANCING_BEAR</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_PANDA_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_PANDA_BEAR_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_PANDA_BEAR_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_DANCING_BEAR</BuildingType>
+
+				<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_PANDA_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_PANDA_BEAR_STORY</BuildingType>
+
+				<BuildingType>BUILDING_PANDA_BEAR_STORIES</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -2556,50 +2266,28 @@
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bMilitaryTrade>1</bMilitaryTrade>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MASTER_HUNTER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_POLAR_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_POLAR_BEAR_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_POLAR_BEAR_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_MASTER_HUNTER</BuildingType>
+
+				<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_POLAR_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_POLAR_BEAR_STORY</BuildingType>
+
+				<BuildingType>BUILDING_POLAR_BEAR_STORIES</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -2670,54 +2358,30 @@
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bMilitaryTrade>1</bMilitaryTrade>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EARTH_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_REDPANDA_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_REDPANDA_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_REDPANDA_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_RACCOON_TRAPS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EARTH_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_REDPANDA_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_REDPANDA_STORY</BuildingType>
+
+				<BuildingType>BUILDING_REDPANDA_STORIES</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
+
+				<BuildingType>BUILDING_RACCOON_TRAPS</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -2793,54 +2457,30 @@
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bMilitaryTrade>1</bMilitaryTrade>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MASTER_HUNTER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLOTH_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLOTH_BEAR_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLOTH_BEAR_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_DANCING_BEAR</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_MASTER_HUNTER</BuildingType>
+
+				<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_SLOTH_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_SLOTH_BEAR_STORY</BuildingType>
+
+				<BuildingType>BUILDING_SLOTH_BEAR_STORIES</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
+
+				<BuildingType>BUILDING_DANCING_BEAR</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -2915,50 +2555,28 @@
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bMilitaryTrade>1</bMilitaryTrade>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SPECTACLED_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SPECTACLED_BEAR_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SPECTACLED_BEAR_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_DANCING_BEAR</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_SPECTACLED_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_SPECTACLED_BEAR_STORY</BuildingType>
+
+				<BuildingType>BUILDING_SPECTACLED_BEAR_STORIES</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
+
+				<BuildingType>BUILDING_DANCING_BEAR</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -3035,50 +2653,28 @@
 			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bMilitaryTrade>1</bMilitaryTrade>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SUN_BEAR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SUN_BEAR_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SUN_BEAR_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_DANCING_BEAR</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_SUN_BEAR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_SUN_BEAR_STORY</BuildingType>
+
+				<BuildingType>BUILDING_SUN_BEAR_STORIES</BuildingType>
+
+				<BuildingType>BUILDING_BEAR_CAGE</BuildingType>
+
+				<BuildingType>BUILDING_DANCING_BEAR</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -3179,34 +2775,20 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ELEPHANT_HERD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CARNIVAL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ELEPHANT_HERD</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_CARNIVAL</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -3306,50 +2888,28 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CARNIVAL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GIRAFFE_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GIRAFFE_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GIRAFFE_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GIRAFFE_CAMP</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_CARNIVAL</BuildingType>
+
+				<BuildingType>BUILDING_GIRAFFE_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_GIRAFFE_STORY</BuildingType>
+
+				<BuildingType>BUILDING_GIRAFFE_STORIES</BuildingType>
+
+				<BuildingType>BUILDING_GIRAFFE_CAMP</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqTech>TECH_SPECIALIZATION</PrereqTech>
 			<iCost>140</iCost>
@@ -3451,26 +3011,16 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -3571,34 +3121,20 @@
         		</UnitAI>
       		</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_DOG_KENNEL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_WOLF_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_DOG_BREEDER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_WAR_DOGS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GUARD_DOG</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_POLICE_DOG</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_WOLF_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_DOG_KENNEL</BuildingType>
+
+				<BuildingType>BUILDING_WOLF_CAGE</BuildingType>
+
+				<BuildingType>BUILDING_DOG_BREEDER</BuildingType>
+
+				<BuildingType>BUILDING_WAR_DOGS</BuildingType>
+
+				<BuildingType>BUILDING_GUARD_DOG</BuildingType>
+
+				<BuildingType>BUILDING_POLICE_DOG</BuildingType>
+
+				<BuildingType>BUILDING_WOLF_CAGE</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -3706,38 +3242,22 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BLACK_RHINO_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BLACK_RHINO_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BLACK_RHINO_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
+				<BuildingType>BUILDING_BLACK_RHINO_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_BLACK_RHINO_STORY</BuildingType>
+
+				<BuildingType>BUILDING_BLACK_RHINO_STORIES</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -3839,38 +3359,22 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_INDIAN_RHINO_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_INDIAN_RHINO_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_INDIAN_RHINO_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
+				<BuildingType>BUILDING_INDIAN_RHINO_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_INDIAN_RHINO_STORY</BuildingType>
+
+				<BuildingType>BUILDING_INDIAN_RHINO_STORIES</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -3972,38 +3476,22 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_JAVA_RHINO_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_JAVA_RHINO_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_JAVA_RHINO_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
+				<BuildingType>BUILDING_JAVA_RHINO_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_JAVA_RHINO_STORY</BuildingType>
+
+				<BuildingType>BUILDING_JAVA_RHINO_STORIES</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -4105,38 +3593,22 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_WHITE_RHINO_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_WHITE_RHINO_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_WHITE_RHINO_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
+				<BuildingType>BUILDING_WHITE_RHINO_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_WHITE_RHINO_STORY</BuildingType>
+
+				<BuildingType>BUILDING_WHITE_RHINO_STORIES</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -4237,38 +3709,22 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BAIRDS_TAPIR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BAIRDS_TAPIR_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BAIRDS_TAPIR_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
+				<BuildingType>BUILDING_BAIRDS_TAPIR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_BAIRDS_TAPIR_STORY</BuildingType>
+
+				<BuildingType>BUILDING_BAIRDS_TAPIR_STORIES</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -4368,38 +3824,22 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BRAZILIAN_TAPIR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BRAZILIAN_TAPIR_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BRAZILIAN_TAPIR_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
+				<BuildingType>BUILDING_BRAZILIAN_TAPIR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_BRAZILIAN_TAPIR_STORY</BuildingType>
+
+				<BuildingType>BUILDING_BRAZILIAN_TAPIR_STORIES</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -4499,38 +3939,22 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MALAYAN_TAPIR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MALAYAN_TAPIR_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MALAYAN_TAPIR_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
+				<BuildingType>BUILDING_MALAYAN_TAPIR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_MALAYAN_TAPIR_STORY</BuildingType>
+
+				<BuildingType>BUILDING_MALAYAN_TAPIR_STORIES</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -4630,38 +4054,22 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MOUNTAIN_TAPIR_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MOUNTAIN_TAPIR_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MOUNTAIN_TAPIR_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
+				<BuildingType>BUILDING_MOUNTAIN_TAPIR_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_MOUNTAIN_TAPIR_STORY</BuildingType>
+
+				<BuildingType>BUILDING_MOUNTAIN_TAPIR_STORIES</BuildingType>
+
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -4740,34 +4148,20 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_REPTILE_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_REPTILE_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_REPTILE_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_REPTILE_CAGE</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
+				<BuildingType>BUILDING_REPTILE_STORY</BuildingType>
+
+				<BuildingType>BUILDING_REPTILE_STORIES</BuildingType>
+
 			</Buildings>
 			<PrereqBuilding>BUILDING_ANIMAL_TAMER_COMPLEX</PrereqBuilding>
 			<PrereqBuildingClasses>
@@ -4849,42 +4243,24 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_REPTILE_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SNAKE_CHARMER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SNAKE_PIT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SNAKES_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SNAKES_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_REPTILE_CAGE</BuildingType>
+
+				<BuildingType>BUILDING_SNAKE_CHARMER</BuildingType>
+
+				<BuildingType>BUILDING_SNAKE_PIT</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
+				<BuildingType>BUILDING_SNAKES_STORY</BuildingType>
+
+				<BuildingType>BUILDING_SNAKES_STORIES</BuildingType>
+
 			</Buildings>
 			<PrereqBuilding>BUILDING_ANIMAL_TAMER_COMPLEX</PrereqBuilding>
 			<PrereqOrBuildings>

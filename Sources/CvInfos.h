@@ -2589,9 +2589,12 @@ public:
 	bool getNotUnitAIType(int i) const;			// Exposed to Python
 	bool getBuilds(int i) const;						// Exposed to Python
 	bool getGreatPeoples(int i) const;			// Exposed to Python
+
 	bool getHasBuildings(void) const;
 	bool getBuildings(int i) const;					// Exposed to Python
-	bool getForceBuildings(int i) const;		// Exposed to Python
+	int getBuildingsNum() const { return m_pbBuildings.size(); }
+	const std::vector<int>& getAllBuildings() const { return m_pbBuildings; }
+
 	//bool getTerrainImpassable(int i) const;				// Exposed to Python
 	//bool getFeatureImpassable(int i) const;				// Exposed to Python
 	bool getTerrainNative(int i) const;			// Exposed to Python
@@ -2845,8 +2848,7 @@ protected:
 	bool* m_pbNotUnitAIType;
 	bool* m_pbBuilds;
 	bool* m_pbGreatPeoples;
-	bool* m_pbBuildings;
-	bool* m_pbForceBuildings;
+	std::vector<int> m_pbBuildings;
 	bool* m_pbTerrainNative;
 	bool* m_pbFeatureNative;
 	//bool* m_pbTerrainImpassable;

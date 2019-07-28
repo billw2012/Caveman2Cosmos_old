@@ -221,10 +221,7 @@
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_BEAR</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -236,10 +233,7 @@
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_POLARBEAR</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -251,10 +245,7 @@
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_CAVEBEAR</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -266,10 +257,7 @@
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_PANDA_BEAR</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -281,10 +269,7 @@
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_ASIANBEAR</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -296,10 +281,7 @@
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_BLACKBEAR</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -311,10 +293,7 @@
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_SLOTHBEAR</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -326,10 +305,7 @@
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_SPECTACLEDBEAR</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -341,10 +317,7 @@
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_SUNBEAR</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -356,10 +329,7 @@
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_GRIZZLY</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_BEARS</BuildingType>
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -372,10 +342,7 @@
 			<Class>UNITCLASS_GREAT_HUNTER</Class>
 			<Type>UNIT_GREAT_HUNTER</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_BEAR_TRAINER_HERITAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_BEAR_TRAINER_HERITAGE</BuildingType>
 			</Buildings>
 		</UnitInfo>
 	</UnitInfos>

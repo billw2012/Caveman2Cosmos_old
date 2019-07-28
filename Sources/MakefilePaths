@@ -1,0 +1,8 @@
+#### Civilization 4 SDK Makefile 1.0 ####
+####  Copyright 2010 Danny Daemonic  ####
+#########################################
+
+#### Paths ####
+
+## Uncomment to have newly compiled dlls copied to your mod's Assets directory
+YOURMOD=C:\Program Files (x86)\Civilization IV Complete\Civ4\Beyond the Sword\Mods\Caveman2Cosmos\

@@ -21,10 +21,8 @@
              	              <DependencyType>BUILDING_ANIMAL_TOTEM_CATS</DependencyType>
  			</AndDependencyTypes>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_CATS</BuildingType>
+
 			</Buildings>
 		</UnitInfo>
 	</UnitInfos>

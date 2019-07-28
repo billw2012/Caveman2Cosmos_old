@@ -32266,7 +32266,7 @@ int CvPlayerAI::AI_militaryUnitTradeVal(CvUnit* pUnit) const
 
 				if (NO_BUILDING != eBuilding)
 				{
-					if ((kUnit.getForceBuildings(eBuilding) || kUnit.getBuildings(eBuilding)) && canConstruct(eBuilding,false,false,true))
+					if ((kUnit.getBuildings(eBuilding)) && canConstruct(eBuilding,false,false,true))
 					{
 						if (AI_getNumBuildingsNeeded(eBuilding, (pUnit->getDomainType() == DOMAIN_SEA) ) > 0)
 						{
