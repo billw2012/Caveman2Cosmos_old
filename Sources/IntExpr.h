@@ -40,7 +40,7 @@ class IntExpr
 {
 public:
 	virtual ~IntExpr() = 0;
-	virtual int evaluate(CvGameObject* pObject) = 0;
+	virtual int evaluate(const CvGameObject* pObject) = 0;
 	static IntExpr* read(CvXMLLoadUtility* pXML);
 	virtual void getCheckSum(unsigned int& iSum) = 0;
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const = 0;
@@ -52,7 +52,7 @@ class IntExprConstant : public IntExpr
 {
 public:
 	IntExprConstant(int iValue = 0) : m_iValue(iValue) {}
-	virtual int evaluate(CvGameObject* pObject);
+	virtual int evaluate(const CvGameObject* pObject);
 	virtual void getCheckSum(unsigned int& iSum);
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const;
 	virtual int getBindingStrength() const;
@@ -65,7 +65,7 @@ class IntExprAttribute : public IntExpr
 {
 public:
 	IntExprAttribute(AttributeTypes eAttribute = NO_ATTRIBUTE) : m_eAttribute(eAttribute) {}
-	virtual int evaluate(CvGameObject* pObject);
+	virtual int evaluate(const CvGameObject* pObject);
 	virtual void getCheckSum(unsigned int& iSum);
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const;
 	virtual int getBindingStrength() const;
@@ -77,7 +77,7 @@ class IntExprProperty : public IntExpr
 {
 public:
 	IntExprProperty(PropertyTypes eProperty = NO_PROPERTY) : m_eProperty(eProperty) {}
-	virtual int evaluate(CvGameObject* pObject);
+	virtual int evaluate(const CvGameObject* pObject);
 	virtual void getCheckSum(unsigned int& iSum);
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const;
 	virtual int getBindingStrength() const;
@@ -103,7 +103,7 @@ class IntExprPlus : public IntExprOp
 {
 public:
 	IntExprPlus(IntExpr* pExpr1 = NULL, IntExpr* pExpr2 = NULL) : IntExprOp(pExpr1, pExpr2) {}
-	virtual int evaluate(CvGameObject* pObject);
+	virtual int evaluate(const CvGameObject* pObject);
 	virtual IntExprTypes getType() const;
 	virtual void buildOpNameString(CvWStringBuffer& szBuffer) const;
 	virtual int getBindingStrength() const;
@@ -113,7 +113,7 @@ class IntExprMinus : public IntExprOp
 {
 public:
 	IntExprMinus(IntExpr* pExpr1 = NULL, IntExpr* pExpr2 = NULL) : IntExprOp(pExpr1, pExpr2) {}
-	virtual int evaluate(CvGameObject* pObject);
+	virtual int evaluate(const CvGameObject* pObject);
 	virtual IntExprTypes getType() const;
 	virtual void buildOpNameString(CvWStringBuffer& szBuffer) const;
 	virtual int getBindingStrength() const;
@@ -123,7 +123,7 @@ class IntExprMult : public IntExprOp
 {
 public:
 	IntExprMult(IntExpr* pExpr1 = NULL, IntExpr* pExpr2 = NULL) : IntExprOp(pExpr1, pExpr2) {}
-	virtual int evaluate(CvGameObject* pObject);
+	virtual int evaluate(const CvGameObject* pObject);
 	virtual IntExprTypes getType() const;
 	virtual void buildOpNameString(CvWStringBuffer& szBuffer) const;
 	virtual int getBindingStrength() const;
@@ -133,7 +133,7 @@ class IntExprDiv : public IntExprOp
 {
 public:
 	IntExprDiv(IntExpr* pExpr1 = NULL, IntExpr* pExpr2 = NULL) : IntExprOp(pExpr1, pExpr2) {}
-	virtual int evaluate(CvGameObject* pObject);
+	virtual int evaluate(const CvGameObject* pObject);
 	virtual IntExprTypes getType() const;
 	virtual void buildOpNameString(CvWStringBuffer& szBuffer) const;
 	virtual int getBindingStrength() const;
@@ -144,7 +144,7 @@ class IntExprIf : public IntExpr
 public:
 	IntExprIf(BoolExpr* pExprIf = NULL, IntExpr* pExprThen = NULL, IntExpr* pExprElse = NULL) : m_pExprIf(pExprIf), m_pExprThen(pExprThen), m_pExprElse(pExprElse) {}
 	virtual ~IntExprIf();
-	virtual int evaluate(CvGameObject* pObject);
+	virtual int evaluate(const CvGameObject* pObject);
 	virtual void getCheckSum(unsigned int& iSum);
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const;
 	virtual int getBindingStrength() const;
@@ -154,14 +154,14 @@ protected:
 	IntExpr* m_pExprElse;
 };
 
-typedef void (*IntegrateOpFunc)(CvGameObject*, IntExpr*, int*);
+typedef void (*IntegrateOpFunc)(const CvGameObject*, IntExpr*, int*);
 
 class IntExprIntegrateOp : public IntExpr
 {
 public:
 	IntExprIntegrateOp(IntExpr* pExpr = NULL, RelationTypes eRelation = NO_RELATION, int iData = -1, GameObjectTypes eType = NO_GAMEOBJECT) : m_pExpr(pExpr), m_eRelation(eRelation), m_iData(iData), m_eType(eType) {}
 	virtual ~IntExprIntegrateOp();
-	virtual int evaluate(CvGameObject* pObject);
+	virtual int evaluate(const CvGameObject* pObject);
 	virtual void getCheckSum(unsigned int& iSum);
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const;
 	virtual int getBindingStrength() const;
@@ -187,7 +187,7 @@ class IntExprIntegrateAvg : public IntExprIntegrateOp
 public:
 	IntExprIntegrateAvg(IntExpr* pExpr = NULL, RelationTypes eRelation = NO_RELATION, int iData = -1, GameObjectTypes eType = NO_GAMEOBJECT) : IntExprIntegrateOp(pExpr, eRelation, iData, eType) {}
 	virtual IntExprTypes getType() const;
-	virtual int evaluate(CvGameObject* pObject);
+	virtual int evaluate(const CvGameObject* pObject);
 	virtual IntegrateOpFunc getOp();
 };
 
@@ -196,7 +196,7 @@ class IntExprIntegrateCount : public IntExpr
 public:
 	IntExprIntegrateCount(BoolExpr* pExpr = NULL, RelationTypes eRelation = NO_RELATION, int iData = -1, GameObjectTypes eType = NO_GAMEOBJECT) : m_pExpr(pExpr), m_eRelation(eRelation), m_iData(iData), m_eType(eType) {}
 	virtual ~IntExprIntegrateCount();
-	virtual int evaluate(CvGameObject* pObject);
+	virtual int evaluate(const CvGameObject* pObject);
 	virtual void getCheckSum(unsigned int& iSum);
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const;
 	virtual int getBindingStrength() const;
@@ -212,7 +212,7 @@ class IntExprRandom : public IntExpr
 public:
 	IntExprRandom(IntExpr* pExpr = NULL) : m_pExpr(pExpr) {}
 	virtual ~IntExprRandom();
-	virtual int evaluate(CvGameObject* pObject);
+	virtual int evaluate(const CvGameObject* pObject);
 	virtual void getCheckSum(unsigned int& iSum);
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const;
 	virtual int getBindingStrength() const;
@@ -224,7 +224,7 @@ class IntExprPython : public IntExpr
 {
 public:
 	IntExprPython(CvString szPythonCallback) : m_szPythonCallback(szPythonCallback) {}
-	virtual int evaluate(CvGameObject* pObject);
+	virtual int evaluate(const CvGameObject* pObject);
 	virtual void getCheckSum(unsigned int& iSum);
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const;
 	virtual int getBindingStrength() const;
@@ -237,7 +237,7 @@ class IntExprAdapt : public IntExpr
 public:
 	IntExprAdapt(IntExpr* pExpr = NULL, int iID = 0) : m_pExpr(pExpr), m_iID(iID) {}
 	virtual ~IntExprAdapt();
-	virtual int evaluate(CvGameObject* pObject);
+	virtual int evaluate(const CvGameObject* pObject);
 	virtual void getCheckSum(unsigned int& iSum);
 	virtual void buildDisplayString(CvWStringBuffer& szBuffer) const;
 	virtual int getBindingStrength() const;

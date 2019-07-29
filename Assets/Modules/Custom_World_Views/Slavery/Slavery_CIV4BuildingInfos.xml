@@ -11,9 +11,7 @@
 			<BuildingClass>BUILDINGCLASS_WV_SLAVERY</BuildingClass>
 			<Type>BUILDING_WV_SLAVERY</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_WV_SLAVERY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WV_SLAVERY_PEDIA</Civilopedia>
@@ -97,9 +95,7 @@
 			<BuildingClass>BUILDINGCLASS_SLAVERY</BuildingClass>
 			<Type>BUILDING_SLAVERY</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SLAVERY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WV_SLAVERY_PEDIA</Civilopedia>
@@ -414,9 +410,7 @@
 			<BuildingClass>BUILDINGCLASS_SLAVE_COMPOUND</BuildingClass>
 			<Type>BUILDING_SLAVE_COMPOUND</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SLAVE_COMPOUND</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SLAVE_COMPOUND_PEDIA</Civilopedia>
@@ -464,9 +458,7 @@
 			<BuildingClass>BUILDINGCLASS_SLAVE_COMPOUND_MILITARY_SUPPORT</BuildingClass>
 			<Type>BUILDING_SLAVE_COMPOUND_MILITARY_SUPPORT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SLAVE_COMPOUND_MILITARY_SUPPORT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SLAVE_COMPOUND_PEDIA</Civilopedia>
@@ -642,9 +634,7 @@
 			<BuildingClass>BUILDINGCLASS_SLAVE_COMPOUND_PRODUCTION</BuildingClass>
 			<Type>BUILDING_SLAVE_COMPOUND_PRODUCTION</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SLAVE_COMPOUND_PRODUCTION</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SLAVE_COMPOUND_PEDIA</Civilopedia>

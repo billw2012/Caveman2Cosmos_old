@@ -58,11 +58,8 @@
 	<ElementType name="FreePromoTypes" content="eltOnly">
 		<element type="FreePromoType" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	<ElementType name="FreeTraitType" content="eltOnly">
-		<element type="TraitType" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
 	<ElementType name="FreeTraitTypes" content="eltOnly">
-		<element type="FreeTraitType" minOccurs="0" maxOccurs="*"/>
+		<element type="TraitType" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
 	<ElementType name="iHeal" content="textOnly" dt:type="int"/>
 	<ElementType name="HealUnitCombatType" content="eltOnly">
@@ -244,11 +241,8 @@
 		<element type="Hurry" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
 	<ElementType name="CivilizationType" content="textOnly"/>
-	<ElementType name="EnabledCivilizationType" content="eltOnly">
-		<element type="CivilizationType"/>
-	</ElementType>
 	<ElementType name="EnabledCivilizationTypes" content="eltOnly">
-		<element type="EnabledCivilizationType" minOccurs="0" maxOccurs="*"/>
+		<element type="CivilizationType" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
 	<!-- Expression System tags -->
 	<ElementType name="FreePromotionCondition"/>
@@ -1303,17 +1297,11 @@
 	<ElementType name="UnitCombatExtraStrengths" content="eltOnly">
 		<element type="UnitCombatExtraStrength" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-
-	<ElementType name="bPrereqCivic" content="textOnly" dt:type="boolean"/>
-	<ElementType name="PrereqCivic" content="eltOnly">
-		<element type="CivicOption"/>
-		<element type="bPrereqCivic"/>
-	</ElementType>
 	<ElementType name="PrereqOrCivics" content="eltOnly">
-		<element type="PrereqCivic" minOccurs="0" maxOccurs="*"/>
+		<element type="CivicOption" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
 	<ElementType name="PrereqAndCivics" content="eltOnly">
-		<element type="PrereqCivic" minOccurs="0" maxOccurs="*"/>
+		<element type="CivicOption" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
 
 	<ElementType name="bPrereqTerrain" content="textOnly" dt:type="boolean"/>

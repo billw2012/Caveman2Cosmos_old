@@ -19,210 +19,208 @@
 
 // XXX these should not be in the DLL per se (if the user changes them, we are screwed...)
 
+typedef std::vector<std::pair<int,int> > ModifierArray;
 //TB Combat Mod
-typedef std::vector< std::pair<UnitCombatTypes, int> > UnitCombatModifierArray;
-typedef std::vector< std::pair<TechTypes, int> > TechModifierArray;
-typedef std::vector< std::pair<TerrainTypes, int> > TerrainModifierArray;
-typedef std::vector< std::pair<FeatureTypes, int> > FeatureModifierArray;
-typedef std::vector< std::pair<BuildTypes, int> > BuildModifierArray;
-typedef std::vector< std::pair<BonusTypes, int> > BonusModifierArray;
-//typedef std::vector< std::pair<PromotionTypes, int> > PromotionModifierArray;
-typedef std::vector< std::pair<PromotionLineTypes, int> > PromotionLineModifierArray;
-//typedef std::vector< std::pair<ImprovementTypes, int> > ImprovementModifierArray;
-typedef std::vector< std::pair<InvisibleTypes, int> > InvisibilityArray;
-typedef std::vector< std::pair<EraTypes, int> > EraArray;
-typedef std::vector< std::pair<PropertyTypes, int> > AidArray;
+//typedef std::vector< std::pair<UnitCombatTypes, int> > UnitCombatModifierArray;
+//typedef std::vector< std::pair<TechTypes, int> > TechModifierArray;
+//typedef std::vector< std::pair<TerrainTypes, int> > TerrainModifierArray;
+//typedef std::vector< std::pair<FeatureTypes, int> > FeatureModifierArray;
+//typedef std::vector< std::pair<BuildTypes, int> > BuildModifierArray;
+//typedef std::vector< std::pair<BonusTypes, int> > BonusModifierArray;
+////typedef std::vector< std::pair<PromotionTypes, int> > PromotionModifierArray;
+//typedef std::vector< std::pair<PromotionLineTypes, int> > PromotionLineModifierArray;
+////typedef std::vector< std::pair<ImprovementTypes, int> > ImprovementModifierArray;
+//typedef std::vector< std::pair<InvisibleTypes, int> > InvisibilityArray;
+//typedef std::vector< std::pair<EraTypes, int> > EraArray;
+//typedef std::vector< std::pair<PropertyTypes, int> > AidArray;
 struct AidStruct
-{	
+{
 	PropertyTypes eProperty;
 	int iChange;
 };
-struct PromotionModifier
-{	
-	PromotionTypes ePromotion;
-	int iModifier;
-};
-struct PromotionLineModifier
-{	
-	PromotionLineTypes ePromotionLine;
-	int iModifier;
-};
+//struct PromotionModifier
+//{
+//	PromotionTypes ePromotion;
+//	int iModifier;
+//};
+//struct PromotionLineModifier
+//{
+//	PromotionLineTypes ePromotionLine;
+//	int iModifier;
+//};
 struct AfflictOnAttackChange
-{	
-	PromotionLineTypes eAfflictionLine;
+{
 	int iProbabilityChange;
 	int iMelee;
 	int iDistance;
 	int iImmediate;
 };
 struct PlotTeamVisibilityIntensity
-{	
+{
 	TeamTypes eTeam;
 	InvisibleTypes eInvisibility;
 	int iUnitID;
 	int iIntensity;
 	int iCount;
 };
-struct FreePromoTypes
-{	
-	PromotionTypes ePromotion;
-	BoolExpr* m_pExprFreePromotionCondition;
-};
-struct FreeTraitTypes
-{	
-	TraitTypes eTrait;
-};
+//struct FreePromoTypes
+//{
+//	PromotionTypes ePromotion;
+//	BoolExpr* m_pExprFreePromotionCondition;
+//};
+//struct FreeTraitTypes
+//{
+//	TraitTypes eTrait;
+//};
 struct AfflictOnAttack
-{	
-	PromotionLineTypes eAfflictionLine;
+{
 	int iProbability;
 	int iMelee;
 	int iDistance;
 	int iImmediate;
 };
-struct TerrainModifier
-{	
-	TerrainTypes eTerrain;
-	int iModifier;
-};
-struct FeatureModifier
-{	
-	FeatureTypes eFeature;
-	int iModifier;
-};
-struct BuildModifier
-{	
-	BuildTypes eBuild;
-	int iModifier;
-};
-struct UnitCombatModifier
-{	
-	UnitCombatTypes eUnitCombat;
-	int iModifier;
-};
-struct BonusModifier
-{	
-	BonusTypes eBonus;
-	int iModifier;
-};
-struct ImprovementModifier
-{	
-	ImprovementTypes eImprovement;
-	int iModifier;
-};
-struct DisallowedTraitType
-{	
-	TraitTypes eTrait;
-};
-struct DomainModifier
-{	
-	DomainTypes eDomain;
-	int iModifier;
-};
-struct TechModifier
-{	
-	TechTypes eTech;
-	int iModifier;
-};
-struct BuildingModifier
-{	
-	BuildingTypes eBuilding;
-	int iModifier;
-};
-struct SpecialBuildingModifier
-{	
-	SpecialBuildingTypes eSpecialBuilding;
-	int iModifier;
-};
-struct UnitModifier
-{	
-	UnitTypes eUnit;
-	int iModifier;
-};
-struct SpecialUnitModifier
-{	
-	SpecialUnitTypes eSpecialUnit;
-	int iModifier;
-};
-struct ImprovementYieldModifier
-{
-	ImprovementTypes eImprovement;
-	YieldTypes eYield;
-	int iModifier;
-};
-struct CivicOptionTypeBool
-{	
-	CivicOptionTypes eCivicOption;
-	bool bBool;
-};
-struct GameOptionTypeBool
-{	
-	GameOptionTypes eGameOption;
-	bool bBool;
-};
+//struct TerrainModifier
+//{
+//	TerrainTypes eTerrain;
+//	int iModifier;
+//};
+//struct FeatureModifier
+//{
+//	FeatureTypes eFeature;
+//	int iModifier;
+//};
+//struct BuildModifier
+//{
+//	BuildTypes eBuild;
+//	int iModifier;
+//};
+//struct UnitCombatModifier
+//{
+//	UnitCombatTypes eUnitCombat;
+//	int iModifier;
+//};
+//struct BonusModifier
+//{
+//	BonusTypes eBonus;
+//	int iModifier;
+//};
+//struct ImprovementModifier
+//{
+//	ImprovementTypes eImprovement;
+//	int iModifier;
+//};
+//struct DisallowedTraitType
+//{
+//	TraitTypes eTrait;
+//};
+//struct DomainModifier
+//{
+//	DomainTypes eDomain;
+//	int iModifier;
+//};
+//struct TechModifier
+//{
+//	TechTypes eTech;
+//	int iModifier;
+//};
+//struct BuildingModifier
+//{
+//	BuildingTypes eBuilding;
+//	int iModifier;
+//};
+//struct SpecialBuildingModifier
+//{
+//	SpecialBuildingTypes eSpecialBuilding;
+//	int iModifier;
+//};
+//struct UnitModifier
+//{
+//	UnitTypes eUnit;
+//	int iModifier;
+//};
+//struct SpecialUnitModifier
+//{
+//	SpecialUnitTypes eSpecialUnit;
+//	int iModifier;
+//};
+//struct ImprovementYieldModifier
+//{
+//	ImprovementTypes eImprovement;
+//	YieldTypes eYield;
+//	int iModifier;
+//};
+//struct CivicOptionTypeBool
+//{
+//	CivicOptionTypes eCivicOption;
+//	bool bBool;
+//};
+//struct GameOptionTypeBool
+//{
+//	GameOptionTypes eGameOption;
+//	bool bBool;
+//};
 struct HealUnitCombat
-{	
-	UnitCombatTypes eUnitCombat;
+{
 	int iHeal;
 	int iAdjacentHeal;
 };
 struct GroupSpawnUnitCombat
-{	
+{
 	UnitCombatTypes eUnitCombat;
 	int iChance;
 	CvWString m_szTitle;
 };
 struct InvisibleTerrainChanges
-{	
+{
 	InvisibleTypes eInvisible;
 	TerrainTypes eTerrain;
 	int iIntensity;
 };
 struct InvisibleFeatureChanges
-{	
+{
 	InvisibleTypes eInvisible;
 	FeatureTypes eFeature;
 	int iIntensity;
 };
 struct InvisibleImprovementChanges
-{	
+{
 	InvisibleTypes eInvisible;
 	ImprovementTypes eImprovement;
 	int iIntensity;
 };
-struct EnabledCivilizations
-{	
-	CivilizationTypes eCivilization;
-};
-struct AfflictionLineChanges
-{	
-	PromotionLineTypes eAfflictionLine;
-	int iChange;
-};
+//struct EnabledCivilizations
+//{
+//	CivilizationTypes eCivilization;
+//};
+//struct AfflictionLineChanges
+//{
+//	PromotionLineTypes eAfflictionLine;
+//	int iChange;
+//};
 struct BonusAidModifiers
-{	
+{
 	BonusTypes eBonusType;
 	PropertyTypes ePropertyType;
 	int iModifier;
 };
-struct AidRateChanges
-{
-	PropertyTypes ePropertyType;
-	int iChange;
-};
-struct PrereqBuildingClass
-{	
-	BuildingClassTypes eBuildingClass;
-	int iMinimumRequired;
-};
+//struct AidRateChanges
+//{
+//	PropertyTypes ePropertyType;
+//	int iChange;
+//};
+//struct PrereqBuildingClass
+//{
+//	BuildingClassTypes eBuildingClass;
+//	int iMinimumRequired;
+//};
 struct TerrainStructs
-{	
+{
 	TerrainTypes eTerrain;
 	TechTypes ePrereqTech;
 	int iTime;
 };
 struct PlaceBonusTypes
-{	
+{
 	BonusTypes eBonus;
 	int iProbability;
 	bool bRequiresAccess;
@@ -232,8 +230,7 @@ struct PlaceBonusTypes
 	MapCategoryTypes ePrereqMapCategory;
 };
 struct PromotionLineAfflictionModifier
-{	
-	PromotionLineTypes ePromotionLine;
+{
 	int iModifier;
 	bool bWorkedTile;
 	bool bVicinity;

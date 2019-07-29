@@ -130,12 +130,12 @@ const CvProperties* CvGameObjectPlot::getPropertiesConst() const
 }
 
 // helper function to call foreach on the object
-void callForeach(CvGameObject* pObject, GameObjectTypes eType, boost::function<void (CvGameObject*)> func)
+void callForeach(const CvGameObject* pObject, GameObjectTypes eType, boost::function<void (const CvGameObject*)> func)
 {
 	pObject->foreach(eType, func);
 }
 
-void CvGameObjectGame::foreach(GameObjectTypes eType, boost::function<void (CvGameObject*)> func)
+void CvGameObjectGame::foreach(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func) const
 {
 	switch(eType)
 	{
@@ -181,7 +181,7 @@ void CvGameObjectGame::foreach(GameObjectTypes eType, boost::function<void (CvGa
 	}
 }
 
-void CvGameObjectTeam::foreach(GameObjectTypes eType, boost::function<void (CvGameObject*)> func)
+void CvGameObjectTeam::foreach(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func) const
 {
 	switch(eType)
 	{
@@ -197,7 +197,7 @@ void CvGameObjectTeam::foreach(GameObjectTypes eType, boost::function<void (CvGa
 				{
 					if (kLoopPlayer.getTeam() == m_pTeam->getID())
 					{
-						func((CvGameObject*)&CvGameObjectPlayer(&kLoopPlayer));
+						func((const CvGameObject*)&CvGameObjectPlayer(&kLoopPlayer));
 					}
 				}
 			}
@@ -228,7 +228,7 @@ void CvGameObjectTeam::foreach(GameObjectTypes eType, boost::function<void (CvGa
 	}
 }
 
-void CvGameObjectPlayer::foreach(GameObjectTypes eType, boost::function<void (CvGameObject*)> func)
+void CvGameObjectPlayer::foreach(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func) const
 {
 	int iLoop;
 	switch(eType)
@@ -272,7 +272,7 @@ void CvGameObjectPlayer::foreach(GameObjectTypes eType, boost::function<void (Cv
 	}
 }
 
-void CvGameObjectCity::foreach(GameObjectTypes eType, boost::function<void (CvGameObject*)> func)
+void CvGameObjectCity::foreach(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func) const
 {
 	switch(eType)
 	{
@@ -302,7 +302,7 @@ void CvGameObjectCity::foreach(GameObjectTypes eType, boost::function<void (CvGa
 	}
 }
 
-void CvGameObjectUnit::foreach(GameObjectTypes eType, boost::function<void (CvGameObject*)> func)
+void CvGameObjectUnit::foreach(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func) const
 {
 	switch(eType)
 	{
@@ -332,7 +332,7 @@ void CvGameObjectUnit::foreach(GameObjectTypes eType, boost::function<void (CvGa
 	}
 }
 
-void CvGameObjectPlot::foreach(GameObjectTypes eType, boost::function<void (CvGameObject*)> func)
+void CvGameObjectPlot::foreach(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func) const
 {
 	switch(eType)
 	{
@@ -371,115 +371,115 @@ void CvGameObjectPlot::foreach(GameObjectTypes eType, boost::function<void (CvGa
 	}
 }
 
-CvGameObjectPlayer* CvGameObjectGame::getOwner()
+const CvGameObjectPlayer *const CvGameObjectGame::getOwner() const
 {
 	return NULL;
 }
 
-CvGameObjectPlayer* CvGameObjectTeam::getOwner() 
+const CvGameObjectPlayer *const CvGameObjectTeam::getOwner() const
 {
 	return NULL;
 }
 
-CvGameObjectPlayer* CvGameObjectPlayer::getOwner() 
+const CvGameObjectPlayer *const CvGameObjectPlayer::getOwner() const
 {
 	return this;
 }
 
-CvGameObjectPlayer* CvGameObjectCity::getOwner() 
+const CvGameObjectPlayer *const CvGameObjectCity::getOwner() const
 {
 	return GET_PLAYER(m_pCity->getOwnerINLINE()).getGameObject();
 }
 
-CvGameObjectPlayer* CvGameObjectUnit::getOwner() 
+const CvGameObjectPlayer *const CvGameObjectUnit::getOwner() const
 {
 	return GET_PLAYER(m_pUnit->getOwnerINLINE()).getGameObject();
 }
 
-CvGameObjectPlayer* CvGameObjectPlot::getOwner() 
+const CvGameObjectPlayer *const CvGameObjectPlot::getOwner() const
 {
 	if (m_pPlot->getOwnerINLINE() != NO_PLAYER)
 		return GET_PLAYER(m_pPlot->getOwnerINLINE()).getGameObject();
 	return NULL;
 }
 
-CvGameObjectTeam* CvGameObjectGame::getTeam() 
+const CvGameObjectTeam *const CvGameObjectGame::getTeam() const
 {
 	return NULL;
 }
 
-CvGameObjectTeam* CvGameObjectTeam::getTeam() 
+const CvGameObjectTeam *const CvGameObjectTeam::getTeam() const
 {
 	return this;
 }
 
-CvGameObjectTeam* CvGameObjectPlayer::getTeam() 
+const CvGameObjectTeam *const CvGameObjectPlayer::getTeam() const
 {
 	return GET_TEAM(m_pPlayer->getTeam()).getGameObject();
 }
 
-CvGameObjectTeam* CvGameObjectCity::getTeam() 
+const CvGameObjectTeam *const CvGameObjectCity::getTeam() const
 {
 	return GET_TEAM(m_pCity->getTeam()).getGameObject();
 }
 
-CvGameObjectTeam* CvGameObjectUnit::getTeam() 
+const CvGameObjectTeam *const CvGameObjectUnit::getTeam() const
 {
 	return GET_TEAM(m_pUnit->getTeam()).getGameObject();
 }
 
-CvGameObjectTeam* CvGameObjectPlot::getTeam() 
+const CvGameObjectTeam *const CvGameObjectPlot::getTeam() const
 {
 	if (m_pPlot->getTeam() != NO_TEAM)
 		return GET_TEAM(m_pPlot->getTeam()).getGameObject();
 	return NULL;
 }
 
-CvGameObjectPlot* CvGameObjectGame::getPlot() 
+const CvGameObjectPlot *const CvGameObjectGame::getPlot() const
 {
 	return NULL;
 }
 
-CvGameObjectPlot* CvGameObjectTeam::getPlot() 
+const CvGameObjectPlot *const CvGameObjectTeam::getPlot() const
 {
 	return NULL;
 }
 
-CvGameObjectPlot* CvGameObjectPlayer::getPlot() 
+const CvGameObjectPlot *const CvGameObjectPlayer::getPlot() const
 {
 	return NULL;
 }
 
-CvGameObjectPlot* CvGameObjectCity::getPlot() 
+const CvGameObjectPlot *const CvGameObjectCity::getPlot() const
 {
 	return m_pCity->plot()->getGameObject();
 }
 
-CvGameObjectPlot* CvGameObjectUnit::getPlot() 
+const CvGameObjectPlot *const CvGameObjectUnit::getPlot() const
 {
 	return m_pUnit->plot()->getGameObject();
 }
 
-CvGameObjectPlot* CvGameObjectPlot::getPlot() 
+const CvGameObjectPlot *const CvGameObjectPlot::getPlot() const
 {
 	return this;
 }
 
-void CvGameObject::foreachOn(GameObjectTypes eType, boost::function<void(CvGameObject *)> func)
+void CvGameObject::foreachOn(GameObjectTypes eType, boost::function<void(const CvGameObject *)> func) const
 {
-	CvGameObjectPlot* pPlot = getPlot();
+	const CvGameObjectPlot *const pPlot = getPlot();
 	if (pPlot)
 		pPlot->foreachOn(eType, func);
 }
 
-void CvGameObject::foreachNear(GameObjectTypes eType, boost::function<void(CvGameObject *)> func, int iDistance)
+void CvGameObject::foreachNear(GameObjectTypes eType, boost::function<void(const CvGameObject *)> func, int iDistance) const
 {
-	CvGameObjectPlot* pPlot = getPlot();
+	const CvGameObjectPlot *const pPlot = getPlot();
 	if (pPlot)
 		pPlot->foreachNear(eType, func, iDistance);
 }
 
-void CvGameObject::foreachRelated(GameObjectTypes eType, RelationTypes eRelation, boost::function<void(CvGameObject *)> func, int iData)
+void CvGameObject::foreachRelated(GameObjectTypes eType, RelationTypes eRelation, boost::function<void(const CvGameObject *)> func, int iData) const
 {
 	switch (eRelation)
 	{
@@ -496,13 +496,13 @@ void CvGameObject::foreachRelated(GameObjectTypes eType, RelationTypes eRelation
 }
 
 // helper function to call function if expression true
-void callFuncIf(CvGameObject* pObject, BoolExpr* pExpr, boost::function<void (CvGameObject*)> func)
+void callFuncIf(const CvGameObject* pObject, BoolExpr* pExpr, boost::function<void (const CvGameObject*)> func)
 {
 	if (pExpr->evaluate(pObject))
 		func(pObject);
 }
 
-void CvGameObject::foreachRelatedCond(GameObjectTypes eType, RelationTypes eRelation, boost::function<void(CvGameObject *)> func, BoolExpr* pExpr, int iData)
+void CvGameObject::foreachRelatedCond(GameObjectTypes eType, RelationTypes eRelation, boost::function<void(const CvGameObject *)> func, BoolExpr* pExpr, int iData) const
 {
 	if (pExpr)
 	{
@@ -515,37 +515,37 @@ void CvGameObject::foreachRelatedCond(GameObjectTypes eType, RelationTypes eRela
 }
 
 //helper function to add game object to vector
-void addToVector(CvGameObject* pObject, std::vector<CvGameObject*> *kEnum)
+void addToVector(const CvGameObject* pObject, std::vector<const CvGameObject*> *kEnum)
 {
 	kEnum->push_back(pObject);
 }
 
-void CvGameObject::enumerate(std::vector<CvGameObject*> &kEnum, GameObjectTypes eType)
+void CvGameObject::enumerate(std::vector<const CvGameObject*> &kEnum, GameObjectTypes eType) const
 {
 	foreach(eType, boost::bind(addToVector, _1, &kEnum));
 }
 
-void CvGameObject::enumerateOn(std::vector<CvGameObject*> &kEnum, GameObjectTypes eType)
+void CvGameObject::enumerateOn(std::vector<const CvGameObject*> &kEnum, GameObjectTypes eType) const
 {
 	foreachOn(eType, boost::bind(addToVector, _1, &kEnum));
 }
 
-void CvGameObject::enumerateNear(std::vector<CvGameObject*> &kEnum, GameObjectTypes eType, int iDistance)
+void CvGameObject::enumerateNear(std::vector<const CvGameObject*> &kEnum, GameObjectTypes eType, int iDistance) const
 {
 	foreachNear(eType, boost::bind(addToVector, _1, &kEnum), iDistance);
 }
 
-void CvGameObject::enumerateRelated(std::vector<CvGameObject*>& kEnum, GameObjectTypes eType, RelationTypes eRelation, int iData)
+void CvGameObject::enumerateRelated(std::vector<const CvGameObject*>& kEnum, GameObjectTypes eType, RelationTypes eRelation, int iData) const
 {
 	foreachRelated(eType, eRelation, boost::bind(addToVector, _1, &kEnum), iData);
 }
 
-void CvGameObject::enumerateRelatedCond(std::vector<CvGameObject*>& kEnum, GameObjectTypes eType, RelationTypes eRelation, BoolExpr* pExpr, int iData)
+void CvGameObject::enumerateRelatedCond(std::vector<const CvGameObject*>& kEnum, GameObjectTypes eType, RelationTypes eRelation, BoolExpr* pExpr, int iData) const
 {
 	foreachRelatedCond(eType, eRelation, boost::bind(addToVector, _1, &kEnum), pExpr, iData);
 }
 
-void CvGameObjectPlot::foreachOn(GameObjectTypes eType, boost::function<void(CvGameObject *)> func)
+void CvGameObjectPlot::foreachOn(GameObjectTypes eType, boost::function<void(const CvGameObject *)> func) const
 {
 	if (eType == GAMEOBJECT_PLOT)
 	{
@@ -557,7 +557,7 @@ void CvGameObjectPlot::foreachOn(GameObjectTypes eType, boost::function<void(CvG
 	}
 }
 
-void CvGameObjectPlot::foreachNear(GameObjectTypes eType, boost::function<void(CvGameObject *)> func, int iDistance)
+void CvGameObjectPlot::foreachNear(GameObjectTypes eType, boost::function<void(const CvGameObject *)> func, int iDistance) const
 {
 	int iPlotX = m_pPlot->getX_INLINE();
 	int iPlotY = m_pPlot->getY_INLINE();
@@ -573,7 +573,7 @@ void CvGameObjectPlot::foreachNear(GameObjectTypes eType, boost::function<void(C
 	}
 }
 
-void CvGameObjectCity::foreachRelated(GameObjectTypes eType, RelationTypes eRelation, boost::function<void(CvGameObject *)> func, int iData)
+void CvGameObjectCity::foreachRelated(GameObjectTypes eType, RelationTypes eRelation, boost::function<void(const CvGameObject *)> func, int iData) const
 {
 	if (eRelation == RELATION_TRADE)
 	{
@@ -613,7 +613,7 @@ void CvGameObjectCity::foreachRelated(GameObjectTypes eType, RelationTypes eRela
 	}
 }
 
-void CvGameObjectPlot::foreachRelated(GameObjectTypes eType, RelationTypes eRelation, boost::function<void(CvGameObject *)> func, int iData)
+void CvGameObjectPlot::foreachRelated(GameObjectTypes eType, RelationTypes eRelation, boost::function<void(const CvGameObject *)> func, int iData) const
 {
 	if (eRelation == RELATION_WORKING)
 	{
@@ -628,17 +628,17 @@ void CvGameObjectPlot::foreachRelated(GameObjectTypes eType, RelationTypes eRela
 	}
 }
 
-void CvGameObjectGame::foreachManipulator(boost::function<void(CvGameObject *,CvPropertyManipulators *)> func)
+void CvGameObjectGame::foreachManipulator(boost::function<void(const CvGameObject *,CvPropertyManipulators *)> func) const
 {
 	// No specific manipulators apply to game, only global ones
 }
 
-void CvGameObjectTeam::foreachManipulator(boost::function<void(CvGameObject *,CvPropertyManipulators *)> func)
+void CvGameObjectTeam::foreachManipulator(boost::function<void(const CvGameObject *,CvPropertyManipulators *)> func) const
 {
 	// No specific manipulators apply to teams, only global ones
 }
 
-void CvGameObjectPlayer::foreachManipulator(boost::function<void(CvGameObject *,CvPropertyManipulators *)> func)
+void CvGameObjectPlayer::foreachManipulator(boost::function<void(const CvGameObject *,CvPropertyManipulators *)> func) const
 {
 	// Civics
 	for (int i=0; i<GC.getNumCivicOptionInfos(); i++)
@@ -667,7 +667,7 @@ void CvGameObjectPlayer::foreachManipulator(boost::function<void(CvGameObject *,
 	func(this, GC.getHandicapInfo(m_pPlayer->getHandicapType()).getPropertyManipulators());
 }
 
-void CvGameObjectCity::foreachManipulator(boost::function<void(CvGameObject *,CvPropertyManipulators *)> func)
+void CvGameObjectCity::foreachManipulator(boost::function<void(const CvGameObject *,CvPropertyManipulators *)> func) const
 {
 	// Building manipulators apply to cities
 	for (int iI = 0; iI < GC.getNumBuildingInfos(); iI++)
@@ -711,7 +711,7 @@ void CvGameObjectCity::foreachManipulator(boost::function<void(CvGameObject *,Cv
 	}
 }
 
-void CvGameObjectUnit::foreachManipulator(boost::function<void(CvGameObject *,CvPropertyManipulators *)> func)
+void CvGameObjectUnit::foreachManipulator(boost::function<void(const CvGameObject *,CvPropertyManipulators *)> func) const
 {
 	// Unit Type
 	func(this, m_pUnit->getUnitInfo().getPropertyManipulators());
@@ -726,7 +726,7 @@ void CvGameObjectUnit::foreachManipulator(boost::function<void(CvGameObject *,Cv
 	}
 }
 
-void CvGameObjectPlot::foreachManipulator(boost::function<void(CvGameObject *,CvPropertyManipulators *)> func)
+void CvGameObjectPlot::foreachManipulator(boost::function<void(const CvGameObject *,CvPropertyManipulators *)> func) const
 {
 	// Terrain Type
 	func(this, GC.getTerrainInfo(m_pPlot->getTerrainType()).getPropertyManipulators());
@@ -785,27 +785,28 @@ void CvGameObjectCity::eventPropertyChanged(PropertyTypes eProperty, int iNewVal
 		{
 			for (int i=0; i<iNum; i++)
 			{
-				PropertyBuilding& kBuilding = kInfo.getPropertyBuilding(i);
-				bool bHasBuilding = m_pCity->getNumRealBuilding(kBuilding.eBuilding) > 0;
-				bool bInRange = (iNewValue >= kBuilding.iMinValue) && (iNewValue <= kBuilding.iMaxValue);
+				std::pair<int,PropertyMinMax>& kBuilding = kInfo.getPropertyBuilding(i);
+				BuildingTypes eBuilding = (BuildingTypes)kBuilding.first;
+				bool bHasBuilding = m_pCity->getNumRealBuilding(eBuilding) > 0;
+				bool bInRange = (iNewValue >= kBuilding.second.iMinValue) && (iNewValue <= kBuilding.second.iMaxValue);
 				if (!bInRange)
 				{
 					if (bHasBuilding)
 					{//TBWORKINGHERE
 						//szBuffer.format("Removing Building, Player %s, Building %s, iNewValue %i.", GET_PLAYER(m_pCity->getOwner()).getNameKey(), GC.getBuildingInfo(kBuilding.eBuilding).getTextKeyWide(), iNewValue);
 						//gDLL->logMsg("PropertyBuildingOOS.log", szBuffer.c_str(), false, false);
-						m_pCity->setNumRealBuilding(kBuilding.eBuilding, 0);
+						m_pCity->setNumRealBuilding(eBuilding, 0);
 					}
 				}
 				else
 				{
-					if (m_pCity->canConstruct(kBuilding.eBuilding, false, false, true, true))
+					if (m_pCity->canConstruct(eBuilding, false, false, true, true))
 					{
 						if (!bHasBuilding)
 						{
 							//szBuffer.format("Adding Building, Player %s, Building %s, iNewValue %i.", GET_PLAYER(m_pCity->getOwner()).getNameKey(), GC.getBuildingInfo(kBuilding.eBuilding).getTextKeyWide(), iNewValue);
 							//gDLL->logMsg("PropertyBuildingOOS.log", szBuffer.c_str(), false, false);
-							m_pCity->setNumRealBuilding(kBuilding.eBuilding, 1);
+							m_pCity->setNumRealBuilding(eBuilding, 1);
 						}
 					}
 					else
@@ -814,7 +815,7 @@ void CvGameObjectCity::eventPropertyChanged(PropertyTypes eProperty, int iNewVal
 						{
 							//szBuffer.format("Removing Building - no longer qualified, Player %s, Building %s, iNewValue %i.", GET_PLAYER(m_pCity->getOwner()).getNameKey(), GC.getBuildingInfo(kBuilding.eBuilding).getTextKeyWide(), iNewValue);
 							//gDLL->logMsg("PropertyBuildingOOS.log", szBuffer.c_str(), false, false);
-							m_pCity->setNumRealBuilding(kBuilding.eBuilding, 0);
+							m_pCity->setNumRealBuilding(eBuilding, 0);
 						}
 					}
 				}
@@ -832,39 +833,40 @@ void CvGameObjectUnit::eventPropertyChanged(PropertyTypes eProperty, int iNewVal
 
 	for (int i=0; i<iNum; i++)
 	{
-		PropertyPromotion& kPromotion = kInfo.getPropertyPromotion(i);
-		bool bHasPromotion = m_pUnit->isHasPromotion(kPromotion.ePromotion);
-		bool bInRange = (iNewValue >= kPromotion.iMinValue) && (iNewValue <= kPromotion.iMaxValue);
+		std::pair<int,PropertyMinMax>& kPromotion = kInfo.getPropertyPromotion(i);
+		PromotionTypes ePromotion = (PromotionTypes)kPromotion.first;
+		bool bHasPromotion = m_pUnit->isHasPromotion(ePromotion);
+		bool bInRange = (iNewValue >= kPromotion.second.iMinValue) && (iNewValue <= kPromotion.second.iMaxValue);
 		if (!bInRange)
 		{
 			if (bHasPromotion)
 			{
-				m_pUnit->setHasPromotion(kPromotion.ePromotion, false);
+				m_pUnit->setHasPromotion(ePromotion, false);
 			}
 		}
 		else
 		{
 			//TB Combat Mods begin
-			bool bEquip = GC.getPromotionInfo(kPromotion.ePromotion).isEquipment();
-			bool bAfflict = GC.getPromotionInfo(kPromotion.ePromotion).isAffliction();
+			bool bEquip = GC.getPromotionInfo(ePromotion).isEquipment();
+			bool bAfflict = GC.getPromotionInfo(ePromotion).isAffliction();
 			bool bPromote = false;
 			if (!bEquip && !bAfflict)
 			{
 				bPromote = true;
 			}
-			if (m_pUnit->canAcquirePromotion(kPromotion.ePromotion, true, bEquip, bAfflict, bPromote))
+			if (m_pUnit->canAcquirePromotion(ePromotion, true, bEquip, bAfflict, bPromote))
 			//TB Combat Mods end
 			{
 				if (!bHasPromotion)
 				{
-					m_pUnit->setHasPromotion(kPromotion.ePromotion, true);
+					m_pUnit->setHasPromotion(ePromotion, true);
 				}
 			}
 			else
 			{
 				if (bHasPromotion)
 				{
-					m_pUnit->setHasPromotion(kPromotion.ePromotion, false);
+					m_pUnit->setHasPromotion(ePromotion, false);
 				}
 			}
 		}
@@ -1058,12 +1060,12 @@ int CvGameObjectGame::getAttribute(AttributeTypes eAttribute) const
 	return 0;
 }
 
-void aggregateHasGOM(CvGameObject* pObject, GOMTypes eType, int iID, bool* bHasGOM)
+void aggregateHasGOM(const CvGameObject* pObject, GOMTypes eType, int iID, bool* bHasGOM)
 {
 	*bHasGOM = *bHasGOM || pObject->hasGOM(eType, iID);
 }
 
-bool CvGameObjectGame::hasGOM(GOMTypes eType, int iID)
+bool CvGameObjectGame::hasGOM(GOMTypes eType, int iID) const
 {
 	switch (eType)
 	{
@@ -1182,7 +1184,7 @@ bool CvGameObjectGame::hasGOM(GOMTypes eType, int iID)
 	return false;
 }
 
-bool CvGameObjectTeam::hasGOM(GOMTypes eType, int iID)
+bool CvGameObjectTeam::hasGOM(GOMTypes eType, int iID) const
 {
 	switch (eType)
 	{
@@ -1309,7 +1311,7 @@ bool CvGameObjectTeam::hasGOM(GOMTypes eType, int iID)
 	return false;
 }
 
-bool CvGameObjectPlayer::hasGOM(GOMTypes eType, int iID)
+bool CvGameObjectPlayer::hasGOM(GOMTypes eType, int iID) const
 {
 	switch (eType)
 	{
@@ -1429,7 +1431,7 @@ bool CvGameObjectPlayer::hasGOM(GOMTypes eType, int iID)
 	return false;
 }
 
-bool CvGameObjectCity::hasGOM(GOMTypes eType, int iID)
+bool CvGameObjectCity::hasGOM(GOMTypes eType, int iID) const
 {
 	switch (eType)
 	{
@@ -1569,7 +1571,7 @@ bool CvGameObjectCity::hasGOM(GOMTypes eType, int iID)
 	return false;
 }
 
-bool CvGameObjectUnit::hasGOM(GOMTypes eType, int iID)
+bool CvGameObjectUnit::hasGOM(GOMTypes eType, int iID) const
 {
 	switch (eType)
 	{
@@ -1719,7 +1721,7 @@ bool CvGameObjectUnit::hasGOM(GOMTypes eType, int iID)
 	return false;
 }
 
-bool CvGameObjectPlot::hasGOM(GOMTypes eType, int iID)
+bool CvGameObjectPlot::hasGOM(GOMTypes eType, int iID) const
 {
 	switch (eType)
 	{
@@ -1922,44 +1924,44 @@ bool CvGameObjectPlot::hasGOM(GOMTypes eType, int iID)
 }
 
 
-int CvGameObjectGame::getResponsibleThread()
+int CvGameObjectGame::getResponsibleThread() const
 {
 	return 0;
 }
 
-int CvGameObjectTeam::getResponsibleThread()
+int CvGameObjectTeam::getResponsibleThread() const
 {
 	return m_pTeam->getID() % NUM_THREADS;
 }
 
-int CvGameObjectPlayer::getResponsibleThread()
+int CvGameObjectPlayer::getResponsibleThread() const
 {
 	return m_pPlayer->getID() % NUM_THREADS;
 }
 
-int CvGameObjectCity::getResponsibleThread()
+int CvGameObjectCity::getResponsibleThread() const
 {
 	return getPlot()->getResponsibleThread();
 }
 
-int CvGameObjectUnit::getResponsibleThread()
+int CvGameObjectUnit::getResponsibleThread() const
 {
 	return getPlot()->getResponsibleThread();
 }
 
-int CvGameObjectPlot::getResponsibleThread()
+int CvGameObjectPlot::getResponsibleThread() const
 {
 	return (m_pPlot->getX_INLINE() * NUM_THREADS) / GC.getMapINLINE().getGridWidthINLINE();
 }
 
 
 // helper function to call foreachThreaded on the object
-void callForeachThreaded(CvGameObject* pObject, GameObjectTypes eType, boost::function<void (CvGameObject*)> func, int iThread)
+void callForeachThreaded(const CvGameObject* pObject, GameObjectTypes eType, boost::function<void (const CvGameObject*)> func, int iThread)
 {
 	pObject->foreachThreaded(eType, func, iThread);
 }
 
-void CvGameObjectGame::foreachThreaded(GameObjectTypes eType, boost::function<void (CvGameObject*)> func, int iThread)
+void CvGameObjectGame::foreachThreaded(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func, int iThread) const
 {
 	switch(eType)
 	{
@@ -2014,7 +2016,7 @@ void CvGameObjectGame::foreachThreaded(GameObjectTypes eType, boost::function<vo
 	}
 }
 
-void CvGameObjectTeam::foreachThreaded(GameObjectTypes eType, boost::function<void (CvGameObject*)> func, int iThread)
+void CvGameObjectTeam::foreachThreaded(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func, int iThread) const
 {
 	switch(eType)
 	{
@@ -2031,7 +2033,7 @@ void CvGameObjectTeam::foreachThreaded(GameObjectTypes eType, boost::function<vo
 				{
 					if (kLoopPlayer.getTeam() == m_pTeam->getID())
 					{
-						func((CvGameObject*)&CvGameObjectPlayer(&kLoopPlayer));
+						func((const CvGameObject*)&CvGameObjectPlayer(&kLoopPlayer));
 					}
 				}
 			}
@@ -2071,7 +2073,7 @@ void CvGameObjectTeam::foreachThreaded(GameObjectTypes eType, boost::function<vo
 	}
 }
 
-void CvGameObjectPlayer::foreachThreaded(GameObjectTypes eType, boost::function<void (CvGameObject*)> func, int iThread)
+void CvGameObjectPlayer::foreachThreaded(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func, int iThread) const
 {
 	int iLoop;
 	switch(eType)
@@ -2083,7 +2085,7 @@ void CvGameObjectPlayer::foreachThreaded(GameObjectTypes eType, boost::function<
 
 		case GAMEOBJECT_TEAM:
 			{
-				CvGameObjectTeam* pTeam = getTeam();
+				const CvGameObjectTeam *const pTeam = getTeam();
 				if (pTeam && (pTeam->getResponsibleThread() == iThread))
 				{
 					func(pTeam);
@@ -2133,7 +2135,7 @@ void CvGameObjectPlayer::foreachThreaded(GameObjectTypes eType, boost::function<
 	}
 }
 
-void CvGameObjectCity::foreachThreaded(GameObjectTypes eType, boost::function<void (CvGameObject*)> func, int iThread)
+void CvGameObjectCity::foreachThreaded(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func, int iThread) const
 {
 	switch(eType)
 	{
@@ -2144,7 +2146,7 @@ void CvGameObjectCity::foreachThreaded(GameObjectTypes eType, boost::function<vo
 
 		case GAMEOBJECT_TEAM:
 			{
-				CvGameObjectTeam* pTeam = getTeam();
+				const CvGameObjectTeam *const pTeam = getTeam();
 				if (pTeam && (pTeam->getResponsibleThread() == iThread))
 				{
 					func(pTeam);
@@ -2154,7 +2156,7 @@ void CvGameObjectCity::foreachThreaded(GameObjectTypes eType, boost::function<vo
 
 		case GAMEOBJECT_PLAYER:
 			{
-				CvGameObjectPlayer* pPlayer = getOwner();
+				const CvGameObjectPlayer *const pPlayer = getOwner();
 				if (pPlayer && (pPlayer->getResponsibleThread() == iThread))
 				{
 					func(pPlayer);
@@ -2178,7 +2180,7 @@ void CvGameObjectCity::foreachThreaded(GameObjectTypes eType, boost::function<vo
 	}
 }
 
-void CvGameObjectUnit::foreachThreaded(GameObjectTypes eType, boost::function<void (CvGameObject*)> func, int iThread)
+void CvGameObjectUnit::foreachThreaded(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func, int iThread) const
 {
 	switch(eType)
 	{
@@ -2189,7 +2191,7 @@ void CvGameObjectUnit::foreachThreaded(GameObjectTypes eType, boost::function<vo
 
 		case GAMEOBJECT_TEAM:
 			{
-				CvGameObjectTeam* pTeam = getTeam();
+				const CvGameObjectTeam *const pTeam = getTeam();
 				if (pTeam && (pTeam->getResponsibleThread() == iThread))
 				{
 					func(pTeam);
@@ -2199,7 +2201,7 @@ void CvGameObjectUnit::foreachThreaded(GameObjectTypes eType, boost::function<vo
 
 		case GAMEOBJECT_PLAYER:
 			{
-				CvGameObjectPlayer* pPlayer = getOwner();
+				const CvGameObjectPlayer *const pPlayer = getOwner();
 				if (pPlayer && (pPlayer->getResponsibleThread() == iThread))
 				{
 					func(pPlayer);
@@ -2223,7 +2225,7 @@ void CvGameObjectUnit::foreachThreaded(GameObjectTypes eType, boost::function<vo
 	}
 }
 
-void CvGameObjectPlot::foreachThreaded(GameObjectTypes eType, boost::function<void (CvGameObject*)> func, int iThread)
+void CvGameObjectPlot::foreachThreaded(GameObjectTypes eType, boost::function<void (const CvGameObject*)> func, int iThread) const
 {
 	switch(eType)
 	{
@@ -2234,7 +2236,7 @@ void CvGameObjectPlot::foreachThreaded(GameObjectTypes eType, boost::function<vo
 
 		case GAMEOBJECT_TEAM:
 			{
-				CvGameObjectTeam* pTeam = getTeam();
+				const CvGameObjectTeam *const pTeam = getTeam();
 				if (pTeam && (pTeam->getResponsibleThread() == iThread))
 				{
 					func(pTeam);
@@ -2244,7 +2246,7 @@ void CvGameObjectPlot::foreachThreaded(GameObjectTypes eType, boost::function<vo
 
 		case GAMEOBJECT_PLAYER:
 			{
-				CvGameObjectPlayer* pPlayer = getOwner();
+				const CvGameObjectPlayer *const pPlayer = getOwner();
 				if (pPlayer && (pPlayer->getResponsibleThread() == iThread))
 				{
 					func(pPlayer);
@@ -2279,74 +2281,74 @@ void CvGameObjectPlot::foreachThreaded(GameObjectTypes eType, boost::function<vo
 	}
 }
 
-void* CvGameObjectGame::addPythonArgument(CyArgsList *argsList)
+void* CvGameObjectGame::addPythonArgument(CyArgsList *argsList) const
 {
 	CyGame* pGame = new CyGame();
 	argsList->add(gDLL->getPythonIFace()->makePythonObject(pGame));
 	return (void*)pGame;
 }
 
-void CvGameObjectGame::disposePythonArgument(void *pArgument)
+void CvGameObjectGame::disposePythonArgument(void *pArgument) const
 {
 	delete (CyGame*)pArgument;
 }
 
-void* CvGameObjectTeam::addPythonArgument(CyArgsList *argsList)
+void* CvGameObjectTeam::addPythonArgument(CyArgsList *argsList) const
 {
 	CyTeam* pTeam = new CyTeam(m_pTeam);
 	argsList->add(gDLL->getPythonIFace()->makePythonObject(pTeam));
 	return (void*)pTeam;
 }
 
-void CvGameObjectTeam::disposePythonArgument(void *pArgument)
+void CvGameObjectTeam::disposePythonArgument(void *pArgument) const
 {
 	delete (CyTeam*)pArgument;
 }
 
-void* CvGameObjectPlayer::addPythonArgument(CyArgsList *argsList)
+void* CvGameObjectPlayer::addPythonArgument(CyArgsList *argsList) const
 {
 	CyPlayer* pPlayer = new CyPlayer(m_pPlayer);
 	argsList->add(gDLL->getPythonIFace()->makePythonObject(pPlayer));
 	return (void*)pPlayer;
 }
 
-void CvGameObjectPlayer::disposePythonArgument(void *pArgument)
+void CvGameObjectPlayer::disposePythonArgument(void *pArgument) const
 {
 	delete (CyPlayer*)pArgument;
 }
 
-void* CvGameObjectCity::addPythonArgument(CyArgsList *argsList)
+void* CvGameObjectCity::addPythonArgument(CyArgsList *argsList) const
 {
 	CyCity* pCity = new CyCity(m_pCity);
 	argsList->add(gDLL->getPythonIFace()->makePythonObject(pCity));
 	return (void*)pCity;
 }
 
-void CvGameObjectCity::disposePythonArgument(void *pArgument)
+void CvGameObjectCity::disposePythonArgument(void *pArgument) const
 {
 	delete (CyCity*)pArgument;
 }
 
-void* CvGameObjectUnit::addPythonArgument(CyArgsList *argsList)
+void* CvGameObjectUnit::addPythonArgument(CyArgsList *argsList) const
 {
 	CyUnit* pUnit = new CyUnit(m_pUnit);
 	argsList->add(gDLL->getPythonIFace()->makePythonObject(pUnit));
 	return (void*)pUnit;
 }
 
-void CvGameObjectUnit::disposePythonArgument(void *pArgument)
+void CvGameObjectUnit::disposePythonArgument(void *pArgument) const
 {
 	delete (CyUnit*)pArgument;
 }
 
-void* CvGameObjectPlot::addPythonArgument(CyArgsList *argsList)
+void* CvGameObjectPlot::addPythonArgument(CyArgsList *argsList) const
 {
 	CyPlot* pPlot = new CyPlot(m_pPlot);
 	argsList->add(gDLL->getPythonIFace()->makePythonObject(pPlot));
 	return (void*)pPlot;
 }
 
-void CvGameObjectPlot::disposePythonArgument(void *pArgument)
+void CvGameObjectPlot::disposePythonArgument(void *pArgument) const
 {
 	delete (CyPlot*)pArgument;
 }

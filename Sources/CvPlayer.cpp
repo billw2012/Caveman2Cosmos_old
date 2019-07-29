@@ -5787,10 +5787,10 @@ void CvPlayer::dumpStats() const
 
 			for (int i = 0; i < num; i++)
 			{
-				PropertyBuilding& kBuilding = kInfo.getPropertyBuilding(i);
-				if (pLoopCity->getNumBuilding(kBuilding.eBuilding) > 0)
+				std::pair<int,PropertyMinMax>& kBuilding = kInfo.getPropertyBuilding(i);
+				if (pLoopCity->getNumBuilding((BuildingTypes)kBuilding.first) > 0)
 				{
-					logBBAI("                %S: %S", kInfo.getDescription(), GC.getBuildingInfo(kBuilding.eBuilding).getDescription());
+					logBBAI("                %S: %S", kInfo.getDescription(), GC.getBuildingInfo((BuildingTypes)kBuilding.first).getDescription());
 				}
 			}
 		}
@@ -10656,9 +10656,9 @@ int CvPlayer::getProductionModifier(UnitTypes eUnit) const
 			TraitTypes eTrait = ((TraitTypes)iI);
 			for (int j = 0; j < GC.getTraitInfo(eTrait).getNumUnitProductionModifiers(); j++)
 			{
-				if ((UnitTypes)GC.getTraitInfo(eTrait).getUnitProductionModifier(j).eUnit == eUnit)
+				if ((UnitTypes)GC.getTraitInfo(eTrait).getUnitProductionModifier(j).first == eUnit)
 				{
-					iMultiplier += GC.getTraitInfo(eTrait).getUnitProductionModifier(j).iModifier;
+					iMultiplier += GC.getTraitInfo(eTrait).getUnitProductionModifier(j).second;
 				}
 			}
 
@@ -10666,9 +10666,9 @@ int CvPlayer::getProductionModifier(UnitTypes eUnit) const
 			{	
 				for (int j = 0; j < GC.getTraitInfo(eTrait).getNumSpecialUnitProductionModifiers(); j++)
 				{
-					if ((SpecialUnitTypes)GC.getTraitInfo(eTrait).getSpecialUnitProductionModifier(j).eSpecialUnit == GC.getUnitInfo(eUnit).getSpecialUnitType())
+					if ((SpecialUnitTypes)GC.getTraitInfo(eTrait).getSpecialUnitProductionModifier(j).first == GC.getUnitInfo(eUnit).getSpecialUnitType())
 					{
-						iMultiplier += GC.getTraitInfo(eTrait).getSpecialUnitProductionModifier(j).iModifier;
+						iMultiplier += GC.getTraitInfo(eTrait).getSpecialUnitProductionModifier(j).second;
 					}
 				}
 			}
@@ -10694,9 +10694,9 @@ int CvPlayer::getProductionModifier(BuildingTypes eBuilding) const
 			TraitTypes eTrait = ((TraitTypes)iI);
 			for (int j = 0; j < GC.getTraitInfo(eTrait).getNumBuildingProductionModifiers(); j++)
 			{
-				if ((BuildingTypes)GC.getTraitInfo(eTrait).getBuildingProductionModifier(j).eBuilding == eBuilding)
+				if ((BuildingTypes)GC.getTraitInfo(eTrait).getBuildingProductionModifier(j).first == eBuilding)
 				{
-					iMultiplier += GC.getTraitInfo(eTrait).getBuildingProductionModifier(j).iModifier;
+					iMultiplier += GC.getTraitInfo(eTrait).getBuildingProductionModifier(j).second;
 				}
 			}
 
@@ -10704,9 +10704,9 @@ int CvPlayer::getProductionModifier(BuildingTypes eBuilding) const
 			{	
 				for (int j = 0; j < GC.getTraitInfo(eTrait).getNumSpecialBuildingProductionModifiers(); j++)
 				{
-					if ((SpecialBuildingTypes)GC.getTraitInfo(eTrait).getSpecialBuildingProductionModifier(j).eSpecialBuilding == GC.getBuildingInfo(eBuilding).getSpecialBuildingType())
+					if ((SpecialBuildingTypes)GC.getTraitInfo(eTrait).getSpecialBuildingProductionModifier(j).first == GC.getBuildingInfo(eBuilding).getSpecialBuildingType())
 					{
-						iMultiplier += GC.getTraitInfo(eTrait).getSpecialBuildingProductionModifier(j).iModifier;
+						iMultiplier += GC.getTraitInfo(eTrait).getSpecialBuildingProductionModifier(j).second;
 					}
 				}
 			}
@@ -34306,10 +34306,10 @@ bool CvPlayer::hasValidBuildings(TechTypes eTech) const
 	//CvCivilizationInfo &civilizationInfo = GC.getCivilizationInfo(getCivilizationType());
 	for (iI = 0; iI < GC.getTechInfo(eTech).getNumPrereqBuildingClasses(); iI++)
 	{
-		int iRequired = GC.getTechInfo(eTech).getPrereqBuildingClass(iI).iMinimumRequired;
+		int iRequired = GC.getTechInfo(eTech).getPrereqBuildingClass(iI).second;
 		if (iRequired > 0 )
 		{
-			if (getBuildingClassCount((BuildingClassTypes)GC.getTechInfo(eTech).getPrereqBuildingClass(iI).eBuildingClass) < iRequired)
+			if (getBuildingClassCount((BuildingClassTypes)GC.getTechInfo(eTech).getPrereqBuildingClass(iI).first) < iRequired)
 			{
 				return false;
 			}
@@ -34319,11 +34319,11 @@ bool CvPlayer::hasValidBuildings(TechTypes eTech) const
 	{
 		if (!bHasOneOrBuilding)
 		{
-			int iRequiredOr = GC.getTechInfo(eTech).getPrereqOrBuildingClass(iI).iMinimumRequired;
+			int iRequiredOr = GC.getTechInfo(eTech).getPrereqOrBuildingClass(iI).second;
 			if (iRequiredOr > 0 )
 			{
 				bRequiresOrBuilding = true;
-				if (getBuildingClassCount((BuildingClassTypes)GC.getTechInfo(eTech).getPrereqOrBuildingClass(iI).eBuildingClass) >= iRequiredOr)
+				if (getBuildingClassCount((BuildingClassTypes)GC.getTechInfo(eTech).getPrereqOrBuildingClass(iI).first) >= iRequiredOr)
 				{
 					bHasOneOrBuilding = true;
 				}
@@ -35706,12 +35706,12 @@ void CvPlayer::processTrait(TraitTypes eTrait, int iChange)
 
 	for (iI = 0; iI < GC.getTraitInfo(eTrait).getNumBuildingHappinessModifiers(); iI++)
 	{
-		if ((BuildingTypes)GC.getTraitInfo(eTrait).getBuildingHappinessModifier(iI).eBuilding != NO_BUILDING)
+		if ((BuildingTypes)GC.getTraitInfo(eTrait).getBuildingHappinessModifier(iI).first != NO_BUILDING)
 		{
-			BuildingTypes eBuilding = ((BuildingTypes)GC.getTraitInfo(eTrait).getBuildingHappinessModifier(iI).eBuilding);
-			if(GC.getTraitInfo(eTrait).getBuildingHappinessModifier(iI).iModifier != 0)
+			BuildingTypes eBuilding = ((BuildingTypes)GC.getTraitInfo(eTrait).getBuildingHappinessModifier(iI).first);
+			if(GC.getTraitInfo(eTrait).getBuildingHappinessModifier(iI).second != 0)
 			{
-				changeExtraBuildingHappiness(eBuilding, iChange*GC.getTraitInfo(eTrait).getBuildingHappinessModifier(iI).iModifier);
+				changeExtraBuildingHappiness(eBuilding, iChange*GC.getTraitInfo(eTrait).getBuildingHappinessModifier(iI).second);
 			}
 		}
 	}
@@ -35743,13 +35743,10 @@ void CvPlayer::processTrait(TraitTypes eTrait, int iChange)
 
 	for (iI = 0; iI < GC.getTraitInfo(eTrait).getNumCivicOptionNoUpkeepTypes(); iI++)
 	{
-		if ((CivicOptionTypes)GC.getTraitInfo(eTrait).isCivicOptionNoUpkeepType(iI).eCivicOption != NO_CIVICOPTION)
+		CivicOptionTypes eCivicOption = (CivicOptionTypes)GC.getTraitInfo(eTrait).isCivicOptionNoUpkeepType(iI);
+		if (eCivicOption != NO_CIVICOPTION)
 		{
-			CivicOptionTypes eCivicOption = ((CivicOptionTypes)GC.getTraitInfo(eTrait).isCivicOptionNoUpkeepType(iI).eCivicOption);
-			if(GC.getTraitInfo(eTrait).isCivicOptionNoUpkeepType(iI).bBool)
-			{
-				changeNoCivicUpkeepCount(eCivicOption, iChange);
-			}
+			changeNoCivicUpkeepCount(eCivicOption, iChange);\
 		}
 	}
 
@@ -35857,24 +35854,24 @@ void CvPlayer::processTrait(TraitTypes eTrait, int iChange)
 	changeFreedomFighterCount(GC.getTraitInfo(eTrait).isFreedomFighter() ? iChange : 0);
 	for (iI = 0; iI < GC.getTraitInfo(eTrait).getNumImprovementUpgradeModifierTypes(); iI++)
 	{
-		if ((ImprovementTypes)GC.getTraitInfo(eTrait).getImprovementUpgradeModifier(iI).eImprovement != NO_IMPROVEMENT)
+		if ((ImprovementTypes)GC.getTraitInfo(eTrait).getImprovementUpgradeModifier(iI).first != NO_IMPROVEMENT)
 		{
-			ImprovementTypes eImprovement = ((ImprovementTypes)GC.getTraitInfo(eTrait).getImprovementUpgradeModifier(iI).eImprovement);
-			if(GC.getTraitInfo(eTrait).getImprovementUpgradeModifier(iI).iModifier != 0)
+			ImprovementTypes eImprovement = ((ImprovementTypes)GC.getTraitInfo(eTrait).getImprovementUpgradeModifier(iI).first);
+			if(GC.getTraitInfo(eTrait).getImprovementUpgradeModifier(iI).second != 0)
 			{
-				changeImprovementUpgradeRateModifierSpecific(eImprovement, iChange*GC.getTraitInfo(eTrait).getImprovementUpgradeModifier(iI).iModifier);
+				changeImprovementUpgradeRateModifierSpecific(eImprovement, iChange*GC.getTraitInfo(eTrait).getImprovementUpgradeModifier(iI).second);
 			}
 		}
 	}
 	
 	for (iI = 0; iI < GC.getTraitInfo(eTrait).getNumBuildWorkerSpeedModifierTypes(); iI++)
 	{
-		if ((BuildTypes)GC.getTraitInfo(eTrait).getBuildWorkerSpeedModifier(iI).eBuild != NO_BUILD)
+		if ((BuildTypes)GC.getTraitInfo(eTrait).getBuildWorkerSpeedModifier(iI).first != NO_BUILD)
 		{
-			BuildTypes eBuild = ((BuildTypes)GC.getTraitInfo(eTrait).getBuildWorkerSpeedModifier(iI).eBuild);
-			if (GC.getTraitInfo(eTrait).getBuildWorkerSpeedModifier(iI).iModifier != 0)
+			BuildTypes eBuild = ((BuildTypes)GC.getTraitInfo(eTrait).getBuildWorkerSpeedModifier(iI).first);
+			if (GC.getTraitInfo(eTrait).getBuildWorkerSpeedModifier(iI).second != 0)
 			{
-				changeBuildWorkerSpeedModifierSpecific(eBuild, iChange*GC.getTraitInfo(eTrait).getBuildWorkerSpeedModifier(iI).iModifier);
+				changeBuildWorkerSpeedModifierSpecific(eBuild, iChange*GC.getTraitInfo(eTrait).getBuildWorkerSpeedModifier(iI).second);
 			}
 		}
 	}
@@ -35939,49 +35936,49 @@ void CvPlayer::processTrait(TraitTypes eTrait, int iChange)
 
 	for (iI = 0; iI < GC.getTraitInfo(eTrait).getNumDomainFreeExperiences(); iI++)
 	{
-		if (GC.getTraitInfo(eTrait).getDomainFreeExperience(iI).iModifier != 0)
+		if (GC.getTraitInfo(eTrait).getDomainFreeExperience(iI).second != 0)
 		{
-			changeNationalDomainFreeExperience((DomainTypes)GC.getTraitInfo(eTrait).getDomainFreeExperience(iI).eDomain, GC.getTraitInfo(eTrait).getDomainFreeExperience(iI).iModifier);
+			changeNationalDomainFreeExperience((DomainTypes)GC.getTraitInfo(eTrait).getDomainFreeExperience(iI).first, GC.getTraitInfo(eTrait).getDomainFreeExperience(iI).second);
 		}
 	}
 
 	for (iI = 0; iI < GC.getTraitInfo(eTrait).getNumDomainProductionModifiers(); iI++)
 	{
-		if (GC.getTraitInfo(eTrait).getDomainProductionModifier(iI).iModifier != 0)
+		if (GC.getTraitInfo(eTrait).getDomainProductionModifier(iI).second != 0)
 		{
-			changeNationalDomainProductionModifier((DomainTypes)GC.getTraitInfo(eTrait).getDomainProductionModifier(iI).eDomain, GC.getTraitInfo(eTrait).getDomainProductionModifier(iI).iModifier);
+			changeNationalDomainProductionModifier((DomainTypes)GC.getTraitInfo(eTrait).getDomainProductionModifier(iI).first, GC.getTraitInfo(eTrait).getDomainProductionModifier(iI).second);
 		}
 	}
 
 	for (iI = 0; iI < GC.getTraitInfo(eTrait).getNumTechResearchModifiers(); iI++)
 	{
-		if (GC.getTraitInfo(eTrait).getTechResearchModifier(iI).iModifier != 0)
+		if (GC.getTraitInfo(eTrait).getTechResearchModifier(iI).second != 0)
 		{
-			changeNationalTechResearchModifier((TechTypes)GC.getTraitInfo(eTrait).getTechResearchModifier(iI).eTech, GC.getTraitInfo(eTrait).getTechResearchModifier(iI).iModifier);
+			changeNationalTechResearchModifier((TechTypes)GC.getTraitInfo(eTrait).getTechResearchModifier(iI).first, GC.getTraitInfo(eTrait).getTechResearchModifier(iI).second);
 		}
 	}
 
 	//Team Project (8)
 	for (iI = 0; iI < GC.getTraitInfo(eTrait).getNumUnitCombatFreeExperiences(); iI++)
 	{
-		if ((UnitCombatTypes)GC.getTraitInfo(eTrait).getUnitCombatFreeExperience(iI).eUnitCombat != NO_UNITCOMBAT)
+		if ((UnitCombatTypes)GC.getTraitInfo(eTrait).getUnitCombatFreeExperience(iI).first != NO_UNITCOMBAT)
 		{
-			UnitCombatTypes eUnitCombat = ((UnitCombatTypes)GC.getTraitInfo(eTrait).getUnitCombatFreeExperience(iI).eUnitCombat);
-			if (GC.getTraitInfo(eTrait).getUnitCombatFreeExperience(iI).iModifier != 0)
+			UnitCombatTypes eUnitCombat = ((UnitCombatTypes)GC.getTraitInfo(eTrait).getUnitCombatFreeExperience(iI).first);
+			if (GC.getTraitInfo(eTrait).getUnitCombatFreeExperience(iI).second != 0)
 			{
-				changeUnitCombatFreeExperience(eUnitCombat, iChange*GC.getTraitInfo(eTrait).getUnitCombatFreeExperience(iI).iModifier);
+				changeUnitCombatFreeExperience(eUnitCombat, iChange*GC.getTraitInfo(eTrait).getUnitCombatFreeExperience(iI).second);
 			}
 		}
 	}
 
 	for (iI = 0; iI < GC.getTraitInfo(eTrait).getNumUnitCombatProductionModifiers(); iI++)
 	{
-		if ((UnitCombatTypes)GC.getTraitInfo(eTrait).getUnitCombatProductionModifier(iI).eUnitCombat != NO_UNITCOMBAT)
+		if ((UnitCombatTypes)GC.getTraitInfo(eTrait).getUnitCombatProductionModifier(iI).first != NO_UNITCOMBAT)
 		{
-			UnitCombatTypes eUnitCombat = ((UnitCombatTypes)GC.getTraitInfo(eTrait).getUnitCombatProductionModifier(iI).eUnitCombat);
-			if (GC.getTraitInfo(eTrait).getUnitCombatProductionModifier(iI).iModifier != 0)
+			UnitCombatTypes eUnitCombat = ((UnitCombatTypes)GC.getTraitInfo(eTrait).getUnitCombatProductionModifier(iI).first);
+			if (GC.getTraitInfo(eTrait).getUnitCombatProductionModifier(iI).second != 0)
 			{
-				changeUnitCombatProductionModifier(eUnitCombat, iChange*GC.getTraitInfo(eTrait).getUnitCombatProductionModifier(iI).iModifier);
+				changeUnitCombatProductionModifier(eUnitCombat, iChange*GC.getTraitInfo(eTrait).getUnitCombatProductionModifier(iI).second);
 			}
 		}
 	}
@@ -37119,7 +37116,7 @@ bool CvPlayer::canLearnTrait(TraitTypes eIndex, bool isSelectingNegative)
 		{
 			for (int iJ = 0; iJ < GC.getTraitInfo(eTrait).getNumDisallowedTraitTypes(); iJ++)
 			{
-				if (GC.getTraitInfo(eTrait).isDisallowedTraitType(iJ).eTrait == eIndex)
+				if (GC.getTraitInfo(eTrait).isDisallowedTraitType(iJ) == eIndex)
 				{
 					return false;
 				}

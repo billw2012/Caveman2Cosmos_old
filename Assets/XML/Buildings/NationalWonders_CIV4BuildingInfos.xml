@@ -772,30 +772,12 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CORPORATIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_ENVIRONMENTALISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_GUILDS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PLANNED</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_KEYNESIAN</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CORPORATIST</CivicOption>
+				<CivicOption>CIVIC_ENVIRONMENTALISM</CivicOption>
+				<CivicOption>CIVIC_GUILDS</CivicOption>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
+				<CivicOption>CIVIC_PLANNED</CivicOption>
+				<CivicOption>CIVIC_KEYNESIAN</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
@@ -852,10 +834,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CHIEFDOM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CHIEFDOM</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -1862,10 +1841,7 @@
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<Bonus>BONUS_BRICKS</Bonus>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CHURCH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CHURCH</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -3697,10 +3673,7 @@
 				</Or>
 			</ConstructCondition>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SENATE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_SENATE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
@@ -4827,18 +4800,9 @@
 				</PrereqBuildingClass>
 			</PrereqBuildingClasses>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_COINAGE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_LAISSEZ_FAIRE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_COINAGE</CivicOption>
+				<CivicOption>CIVIC_LAISSEZ_FAIRE</CivicOption>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
@@ -5930,10 +5894,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_E_EDUCATION</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_E_EDUCATION</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
@@ -6182,10 +6143,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PROPAGANDA</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_PROPAGANDA</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
@@ -7328,26 +7286,11 @@
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DESPOTISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CHIEFDOM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SOVEREIGNTY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DESPOTISM</CivicOption>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
+				<CivicOption>CIVIC_CHIEFDOM</CivicOption>
+				<CivicOption>CIVIC_SOVEREIGNTY</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
@@ -8608,14 +8551,8 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<PrereqTech>TECH_NEW_URBANISM</PrereqTech>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_ENVIRONMENTALISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PUBLIC_WORKS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_ENVIRONMENTALISM</CivicOption>
+				<CivicOption>CIVIC_PUBLIC_WORKS</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<iCost>3080</iCost>
@@ -8629,6 +8566,11 @@
 			<iHealth>10</iHealth>
 			<GreatPeopleUnitClass>UNITCLASS_DOCTOR</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
+			<PrereqOrCivics>
+				<CivicOption>CIVIC_ENVIRONMENTALISM</CivicOption>
+				<CivicOption>CIVIC_PUBLIC_WORKS</CivicOption>
+			</PrereqOrCivics>
+			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_GARDEN_CITY</ArtDefineTag>
 		</BuildingInfo>

@@ -44,12 +44,6 @@ CvOutcome::CvOutcome(): m_eUnitType(NO_UNIT),
 
 CvOutcome::~CvOutcome()
 {
-	GC.removeDelayedResolution((int*)&m_eType);
-	GC.removeDelayedResolution((int*)&m_eUnitType);
-	GC.removeDelayedResolution((int*)&m_ePromotionType);
-	GC.removeDelayedResolution((int*)&m_eBonusType);
-	GC.removeDelayedResolution((int*)&m_eGPUnitType);
-	GC.removeDelayedResolution((int*)&m_eEventTrigger);
 	SAFE_DELETE(m_iChance);
 	SAFE_DELETE(m_bUnitToCity);
 	SAFE_DELETE(m_iReduceAnarchyLength);
@@ -77,7 +71,7 @@ int CvOutcome::getYield(YieldTypes eYield, const CvUnit& kUnit) const
 	FAssert(eYield < NUM_YIELD_TYPES);
 	if (m_aiYield[eYield])
 	{
-		return m_aiYield[eYield]->evaluate(const_cast<CvUnit&>(kUnit).getGameObject());
+		return m_aiYield[eYield]->evaluate(kUnit.getGameObjectConst());
 	}
 	else
 	{
@@ -91,7 +85,7 @@ int CvOutcome::getCommerce(CommerceTypes eCommerce, const CvUnit& kUnit) const
 	FAssert(eCommerce < NUM_COMMERCE_TYPES);
 	if (m_aiCommerce[eCommerce])
 	{
-		return m_aiCommerce[eCommerce]->evaluate(const_cast<CvUnit&>(kUnit).getGameObject());
+		return m_aiCommerce[eCommerce]->evaluate(kUnit.getGameObjectConst());
 	}
 	else
 	{
@@ -111,9 +105,8 @@ UnitTypes CvOutcome::getUnitType() const
 
 bool CvOutcome::getUnitToCity(const CvUnit& kUnit) const
 {
-	// evaluate does not actually change the object so const_cast is fine
 	if (m_bUnitToCity)
-		return m_bUnitToCity->evaluate(const_cast<CvUnit&>(kUnit).getGameObject());
+		return m_bUnitToCity->evaluate(kUnit.getGameObjectConst());
 	else
 		return false;
 }
@@ -157,7 +150,7 @@ int CvOutcome::getReduceAnarchyLength(const CvUnit &kUnit) const
 {
 	if (m_iReduceAnarchyLength)
 	{
-		return m_iReduceAnarchyLength->evaluate(const_cast<CvUnit&>(kUnit).getGameObject());
+		return m_iReduceAnarchyLength->evaluate(kUnit.getGameObjectConst());
 	}
 	return 0;
 }
@@ -312,7 +305,7 @@ void CvOutcome::compilePython()
 
 int CvOutcome::getChance(const CvUnit &kUnit) const
 {
-	int iChance = m_iChance->evaluate(const_cast<CvUnit&>(kUnit).getGameObject());
+	int iChance = m_iChance->evaluate(kUnit.getGameObjectConst());
 	CvOutcomeInfo& kInfo = GC.getOutcomeInfo(m_eType);
 
 	CvCity* pCity = kUnit.plot()->getPlotCity();
@@ -552,7 +545,7 @@ bool CvOutcome::isPossible(const CvUnit& kUnit) const
 
 	if (m_pPlotCondition)
 	{
-		if (!m_pPlotCondition->evaluate(const_cast<CvPlot*>(kUnit.plot())->getGameObject()))
+		if (!m_pPlotCondition->evaluate(kUnit.plot()->getGameObject()))
 		{
 			return false;
 		}
@@ -560,7 +553,7 @@ bool CvOutcome::isPossible(const CvUnit& kUnit) const
 
 	if (m_pUnitCondition)
 	{
-		if (!m_pUnitCondition->evaluate(const_cast<CvUnit&>(kUnit).getGameObject()))
+		if (!m_pUnitCondition->evaluate(kUnit.getGameObjectConst()))
 		{
 			return false;
 		}
@@ -570,7 +563,7 @@ bool CvOutcome::isPossible(const CvUnit& kUnit) const
 	{
 		CyUnit cyUnit(const_cast<CvUnit*>(&kUnit));
 		PyObject* pyUnit = gDLL->getPythonIFace()->makePythonObject(&cyUnit);
-		CyPlot cyPlot(const_cast<CvPlot*>(kUnit.plot()));
+		CyPlot cyPlot(kUnit.plot());
 		PyObject* pyPlot = gDLL->getPythonIFace()->makePythonObject(&cyPlot);
 		
 		PyObject* pyResult = PyObject_CallFunctionObjArgs(m_pPythonPossibleFunc, pyUnit, pyPlot, NULL);
@@ -675,7 +668,7 @@ bool CvOutcome::isPossibleSomewhere(const CvUnit& kUnit) const
 
 	if (m_pUnitCondition)
 	{
-		if (!m_pUnitCondition->evaluate(const_cast<CvUnit&>(kUnit).getGameObject()))
+		if (!m_pUnitCondition->evaluate(kUnit.getGameObjectConst()))
 		{
 			return false;
 		}
@@ -896,7 +889,7 @@ bool CvOutcome::isPossibleInPlot(const CvUnit& kUnit, const CvPlot& kPlot, bool 
 
 	if (m_pPlotCondition)
 	{
-		if (!m_pPlotCondition->evaluate(const_cast<CvPlot&>(kPlot).getGameObject()))
+		if (!m_pPlotCondition->evaluate(kPlot.getGameObjectConst()))
 		{
 			return false;
 		}
@@ -904,7 +897,7 @@ bool CvOutcome::isPossibleInPlot(const CvUnit& kUnit, const CvPlot& kPlot, bool 
 
 	if (m_pUnitCondition)
 	{
-		if (!m_pUnitCondition->evaluate(const_cast<CvUnit&>(kUnit).getGameObject()))
+		if (!m_pUnitCondition->evaluate(kUnit.getGameObjectConst()))
 		{
 			return false;
 		}
@@ -1522,11 +1515,9 @@ bool CvOutcome::read(CvXMLLoadUtility* pXML)
 		pXML->MoveToXmlParent();
 	}
 	pXML->GetOptionalChildXmlValByName(szTextVal, L"PromotionType");
-	GC.addDelayedResolution((int*)&m_ePromotionType, szTextVal);
-	//m_ePromotionType = (PromotionTypes) pXML->FindInInfoClass(szTextVal);
+	m_ePromotionType = (PromotionTypes) pXML->GetInfoClass(szTextVal);
 	pXML->GetOptionalChildXmlValByName(szTextVal, L"BonusType");
-	GC.addDelayedResolution((int*)&m_eBonusType, szTextVal);
-	//m_eBonusType = (BonusTypes) pXML->FindInInfoClass(szTextVal);
+	m_eBonusType = (BonusTypes) pXML->GetInfoClass(szTextVal);
 	pXML->GetOptionalChildXmlValByName(&m_iGPP, L"iGPP");
 	pXML->GetOptionalChildXmlValByName(szTextVal, L"GPUnitType");
 	GC.addDelayedResolution((int*)&m_eGPUnitType, szTextVal);
@@ -1630,12 +1621,12 @@ void CvOutcome::copyNonDefaults(CvOutcome* pOutcome, CvXMLLoadUtility* pXML )
 		m_bUnitToCity = pOutcome->m_bUnitToCity;
 		pOutcome->m_bUnitToCity = NULL;
 	}
-	GC.copyNonDefaultDelayedResolution((int*)&m_ePromotionType, (int*)&(pOutcome->m_ePromotionType));
+	if(m_ePromotionType == -1){	m_ePromotionType = pOutcome->m_ePromotionType;}
 	//if (m_ePromotionType == NO_PROMOTION)
 	//{
 	//	m_ePromotionType = pOutcome->getPromotionType();
 	//}
-	GC.copyNonDefaultDelayedResolution((int*)&m_eBonusType, (int*)&(pOutcome->m_eBonusType));
+	if(m_eBonusType == -1){	m_eBonusType = pOutcome->m_eBonusType;}
 	//if (m_eBonusType == NO_BONUS)
 	//{
 	//	m_eBonusType = pOutcome->getBonusType();
@@ -1993,7 +1984,7 @@ void CvOutcome::buildDisplayString(CvWStringBuffer &szBuffer, const CvUnit& kUni
 
 		CyUnit cyUnit(const_cast<CvUnit*>(&kUnit));
 		PyObject* pyUnit = gDLL->getPythonIFace()->makePythonObject(&cyUnit);
-		CyPlot cyPlot(const_cast<CvPlot*>(kUnit.plot()));
+		CyPlot cyPlot(kUnit.plot());
 		PyObject* pyPlot = gDLL->getPythonIFace()->makePythonObject(&cyPlot);
 
 		PyObject* pyResult = PyObject_CallFunctionObjArgs(m_pPythonDisplayFunc, pyUnit, pyPlot, NULL);

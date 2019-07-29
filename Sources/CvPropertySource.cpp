@@ -29,7 +29,6 @@ CvPropertySource::CvPropertySource(PropertyTypes eProperty) :
 
 CvPropertySource::~CvPropertySource()
 {
-	GC.removeDelayedResolution((int*)&m_eProperty);
 	SAFE_DELETE(m_pExprActive);
 }
 
@@ -73,7 +72,7 @@ void CvPropertySource::setRelationData(int iRelationData)
 	m_iRelationData = iRelationData;
 }
 
-bool CvPropertySource::isActive(CvGameObject *pObject)
+bool CvPropertySource::isActive(const CvGameObject *pObject) const
 {
 	if ((m_eObjectType == NO_GAMEOBJECT) || (m_eObjectType == pObject->getGameObjectType()))
 	{
@@ -93,8 +92,11 @@ bool CvPropertySource::read(CvXMLLoadUtility *pXML)
 {
 	CvString szTextVal;
 	pXML->GetChildXmlValByName(szTextVal, L"PropertyType");
-	GC.addDelayedResolution((int*)&m_eProperty, szTextVal);
-	//m_eProperty = (PropertyTypes) pXML->FindInInfoClass(szTextVal);
+	if ((m_eProperty = (PropertyTypes)GC.getInfoTypeForString(szTextVal, true)) == NO_PROPERTY)
+	{
+		GC.addDelayedResolution((int*)&m_eProperty, szTextVal);
+	}
+//	m_eProperty = (PropertyTypes) pXML->GetInfoClass(szTextVal);
 	pXML->GetOptionalChildXmlValByName(szTextVal, L"GameObjectType");
 	m_eObjectType = (GameObjectTypes) pXML->GetInfoClass(szTextVal);
 	pXML->GetOptionalChildXmlValByName(szTextVal, L"RelationType");
@@ -111,9 +113,10 @@ bool CvPropertySource::read(CvXMLLoadUtility *pXML)
 
 void CvPropertySource::copyNonDefaults(CvPropertySource *pProp, CvXMLLoadUtility *pXML)
 {
-	//if (m_eProperty == NO_PROPERTY)
-	//	m_eProperty = pProp->getProperty();
-	GC.copyNonDefaultDelayedResolution((int*)&m_eProperty, (int*)&(pProp->m_eProperty));
+	if (m_eProperty == NO_PROPERTY && (m_eProperty = pProp->getProperty()) == NO_PROPERTY)
+	{
+		GC.copyNonDefaultDelayedResolution((int*)&m_eProperty, (int*)&(pProp->m_eProperty));
+	}
 
 	if (m_eObjectType == NO_GAMEOBJECT)
 		m_eObjectType = pProp->getObjectType();
@@ -168,17 +171,22 @@ CvPropertySourceConstant::CvPropertySourceConstant(PropertyTypes eProperty, IntE
 {
 }
 
-PropertySourceTypes CvPropertySourceConstant::getType()
+CvPropertySourceConstant::~CvPropertySourceConstant()
+{
+	SAFE_DELETE(m_pAmountPerTurn);
+}
+
+PropertySourceTypes CvPropertySourceConstant::getType() const
 {
 	return PROPERTYSOURCE_CONSTANT;
 }
 
-int CvPropertySourceConstant::getAmountPerTurn(const CvGameObject* pObject)
+int CvPropertySourceConstant::getAmountPerTurn(const CvGameObject* pObject) const
 {
-	return m_pAmountPerTurn->evaluate(const_cast<CvGameObject*>(pObject));
+	return m_pAmountPerTurn->evaluate(pObject);
 }
 
-int CvPropertySourceConstant::getSourcePredict(const CvGameObject* pObject, int iCurrentAmount, PropertySourceContext* pContext)
+int CvPropertySourceConstant::getSourcePredict(const CvGameObject* pObject, int iCurrentAmount, PropertySourceContext* pContext) const
 {
 	// We store the expression result in the property source context to make sure it stays constant in between prediction and correction
 	int iAmountPerTurn = getAmountPerTurn(pObject);
@@ -187,7 +195,7 @@ int CvPropertySourceConstant::getSourcePredict(const CvGameObject* pObject, int 
 	return iAmountPerTurn;
 }
 
-int CvPropertySourceConstant::getSourceCorrect(const CvGameObject* pObject, int iCurrentAmount, int iPredictedAmount, PropertySourceContext* pContext)
+int CvPropertySourceConstant::getSourceCorrect(const CvGameObject* pObject, int iCurrentAmount, int iPredictedAmount, PropertySourceContext* pContext) const
 {
 	int iAmountPerTurn;
 	if (pContext)
@@ -251,7 +259,7 @@ CvPropertySourceConstantLimited::CvPropertySourceConstantLimited(PropertyTypes e
 {
 }
 
-PropertySourceTypes CvPropertySourceConstantLimited::getType()
+PropertySourceTypes CvPropertySourceConstantLimited::getType() const
 {
 	return PROPERTYSOURCE_CONSTANT_LIMITED;
 }
@@ -266,12 +274,12 @@ int CvPropertySourceConstantLimited::getLimit()
 	return m_iLimit;
 }
 
-int CvPropertySourceConstantLimited::getSourcePredict(const CvGameObject* pObject, int iCurrentAmount, PropertySourceContext* pContext)
+int CvPropertySourceConstantLimited::getSourcePredict(const CvGameObject* pObject, int iCurrentAmount, PropertySourceContext* pContext) const
 {
 	return m_iAmountPerTurn + iCurrentAmount > m_iLimit  ?  std::max(m_iLimit - iCurrentAmount, 0)  :  m_iAmountPerTurn;
 }
 
-int CvPropertySourceConstantLimited::getSourceCorrect(const CvGameObject* pObject, int iCurrentAmount, int iPredictedAmount, PropertySourceContext* pContext)
+int CvPropertySourceConstantLimited::getSourceCorrect(const CvGameObject* pObject, int iCurrentAmount, int iPredictedAmount, PropertySourceContext* pContext) const
 {
 	if (iCurrentAmount >= m_iLimit)
 	{
@@ -340,7 +348,7 @@ CvPropertySourceDecay::CvPropertySourceDecay(PropertyTypes eProperty, int iPerce
 {
 }
 
-PropertySourceTypes CvPropertySourceDecay::getType()
+PropertySourceTypes CvPropertySourceDecay::getType() const
 {
 	return PROPERTYSOURCE_DECAY;
 }
@@ -355,7 +363,7 @@ int CvPropertySourceDecay::getNoDecayAmount()
 	return m_iNoDecayAmount;
 }
 
-bool CvPropertySourceDecay::isActive(CvGameObject* pObject)
+bool CvPropertySourceDecay::isActive(const CvGameObject* pObject) const
 {
 	int iVal = pObject->getProperties()->getValueByProperty(m_eProperty);
 	iVal = iVal < 0 ? -iVal : iVal;
@@ -369,7 +377,7 @@ bool CvPropertySourceDecay::isActive(CvGameObject* pObject)
 	}
 }
 
-int CvPropertySourceDecay::getSourcePredict(const CvGameObject* pObject, int iCurrentAmount, PropertySourceContext* pContext)
+int CvPropertySourceDecay::getSourcePredict(const CvGameObject* pObject, int iCurrentAmount, PropertySourceContext* pContext) const
 {
 	if (iCurrentAmount >= 0)
 		return - (m_iPercent * std::max(iCurrentAmount - m_iNoDecayAmount, 0)) / 100;
@@ -377,7 +385,7 @@ int CvPropertySourceDecay::getSourcePredict(const CvGameObject* pObject, int iCu
 		return (m_iPercent * std::max(-iCurrentAmount - m_iNoDecayAmount, 0)) / 100;
 }
 
-int CvPropertySourceDecay::getSourceCorrect(const CvGameObject* pObject, int iCurrentAmount, int iPredictedAmount, PropertySourceContext* pContext)
+int CvPropertySourceDecay::getSourceCorrect(const CvGameObject* pObject, int iCurrentAmount, int iPredictedAmount, PropertySourceContext* pContext) const
 {
 	if (iCurrentAmount >= 0)
 	{
@@ -460,7 +468,7 @@ CvPropertySourceAttributeConstant::CvPropertySourceAttributeConstant(PropertyTyp
 {
 }
 
-PropertySourceTypes CvPropertySourceAttributeConstant::getType()
+PropertySourceTypes CvPropertySourceAttributeConstant::getType() const
 {
 	return PROPERTYSOURCE_ATTRIBUTE_CONSTANT;
 }
@@ -475,12 +483,12 @@ int CvPropertySourceAttributeConstant::getAmountPerTurn()
 	return m_iAmountPerTurn;
 }
 
-int CvPropertySourceAttributeConstant::getSourcePredict(const CvGameObject* pObject, int iCurrentAmount, PropertySourceContext* pContext)
+int CvPropertySourceAttributeConstant::getSourcePredict(const CvGameObject* pObject, int iCurrentAmount, PropertySourceContext* pContext) const
 {
 	return pObject->getAttribute(m_eAttribute) * m_iAmountPerTurn;
 }
 
-int CvPropertySourceAttributeConstant::getSourceCorrect(const CvGameObject* pObject, int iCurrentAmount, int iPredictedAmount, PropertySourceContext* pContext)
+int CvPropertySourceAttributeConstant::getSourceCorrect(const CvGameObject* pObject, int iCurrentAmount, int iPredictedAmount, PropertySourceContext* pContext) const
 {
 	return pObject->getAttribute(m_eAttribute) * m_iAmountPerTurn;
 }

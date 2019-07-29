@@ -17150,17 +17150,17 @@ int CvPlot::getCommunicability(PromotionLineTypes ePromotionLine, bool bWorkedTi
 	TerrainTypes eTerrain = getTerrainType();
 	if (eTerrain != NO_TERRAIN)
 	{
-		iCommunicability += GC.getTerrainInfo(eTerrain).getAfflictionCommunicabilityType(ePromotionLine, bWorkedTile, bVicinity, false).iModifier;
+		iCommunicability += GC.getTerrainInfo(eTerrain).getAfflictionCommunicabilityType(ePromotionLine, bWorkedTile, bVicinity, false).second;
 	}
 	FeatureTypes eFeature = getFeatureType();
 	if (eFeature != NO_FEATURE)
 	{
-		iCommunicability += GC.getFeatureInfo(eFeature).getAfflictionCommunicabilityType(ePromotionLine, bWorkedTile, bVicinity, false).iModifier;
+		iCommunicability += GC.getFeatureInfo(eFeature).getAfflictionCommunicabilityType(ePromotionLine, bWorkedTile, bVicinity, false).second;
 	}
 	BonusTypes eBonus = getBonusType();
 	if (eBonus != NO_BONUS)
 	{
-		iCommunicability += GC.getBonusInfo(eBonus).getAfflictionCommunicabilityType(ePromotionLine, bWorkedTile, bVicinity, bAccessVolume).iModifier;
+		iCommunicability += GC.getBonusInfo(eBonus).getAfflictionCommunicabilityType(ePromotionLine, bWorkedTile, bVicinity, bAccessVolume).second;
 	}
 
 	return iCommunicability;

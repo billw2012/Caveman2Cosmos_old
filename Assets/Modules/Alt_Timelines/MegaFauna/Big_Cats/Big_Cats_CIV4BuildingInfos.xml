@@ -7,9 +7,7 @@
 			<BuildingClass>BUILDINGCLASS_BIG_CAT_TRAINER</BuildingClass>
 			<Type>BUILDING_BIG_CAT_TRAINER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_BIG_CAT_TRAINER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BIG_CAT_TRAINER_PEDIA</Civilopedia>
@@ -99,9 +97,7 @@
 			<BuildingClass>BUILDINGCLASS_BIG_CAT_TRAINER_EFFECT</BuildingClass>
 			<Type>BUILDING_BIG_CAT_TRAINER_EFFECT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_BIG_CAT_TRAINER_EFFECT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_BIG_CAT_TRAINER_PEDIA</Civilopedia>

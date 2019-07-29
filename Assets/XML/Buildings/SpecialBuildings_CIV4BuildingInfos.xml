@@ -4969,10 +4969,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_BANDITRY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_BANDITRY</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -4996,10 +4993,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CIVICBURNTRASH</ArtDefineTag>
 			<!-- Prerequisites -->
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_BURN_TRASH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_BURN_TRASH</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5034,10 +5028,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CASTE_SYSTEM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CASTE_SYSTEM</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5076,10 +5067,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DEMOCRACY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DEMOCRACY</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5118,10 +5106,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_LIBERAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_LIBERAL</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5159,10 +5144,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5199,10 +5181,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_LAISSEZ_FAIRE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_LAISSEZ_FAIRE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5241,10 +5220,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MARTIALLAW</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MARTIALLAW</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5278,10 +5254,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCENARIES</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MERCENARIES</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5307,10 +5280,7 @@
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MILITIA</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MILITIA</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5340,10 +5310,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MIND_CONTROL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MIND_CONTROL</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5381,10 +5348,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_POST_SCARCITY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_POST_SCARCITY</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5422,10 +5386,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_REPUBLIC</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_REPUBLIC</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -7100,18 +7061,9 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_ALPHABET</PrereqTech>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CLOSED_BORDERS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SKILLED_WORKERS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SECURE_BORDERS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CLOSED_BORDERS</CivicOption>
+				<CivicOption>CIVIC_SKILLED_WORKERS</CivicOption>
+				<CivicOption>CIVIC_SECURE_BORDERS</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<iInsidiousness>20</iInsidiousness>
@@ -8708,10 +8660,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SOCIALIZED</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_SOCIALIZED</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -8802,14 +8751,8 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_ANARCHISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CHIEFDOM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_ANARCHISM</CivicOption>
+				<CivicOption>CIVIC_CHIEFDOM</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -10624,10 +10567,7 @@
 				<Bonus>BONUS_GOLD</Bonus>
 			</PrereqBonuses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -10666,10 +10606,7 @@
 				<Bonus>BONUS_SILVER</Bonus>
 			</PrereqBonuses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -17070,30 +17007,12 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_INTOLERANT</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FASCIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MARXIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PROPAGANDA</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SINGLE_PARTY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_GRID</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_INTOLERANT</CivicOption>
+				<CivicOption>CIVIC_FASCIST</CivicOption>
+				<CivicOption>CIVIC_MARXIST</CivicOption>
+				<CivicOption>CIVIC_PROPAGANDA</CivicOption>
+				<CivicOption>CIVIC_SINGLE_PARTY</CivicOption>
+				<CivicOption>CIVIC_GRID</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->

@@ -927,12 +927,12 @@ int CvCityAI::AI_specialistValue(SpecialistTypes eSpecialist, bool bAvoidGrowth,
 	int iExperience = (GC.getSpecialistInfo(eSpecialist).getExperience() * 2);
 	for (iI = 0; iI < GC.getSpecialistInfo(eSpecialist).getNumUnitCombatExperienceTypes(); iI++)
 	{
-		if (GC.getSpecialistInfo(eSpecialist).getUnitCombatExperienceType(iI, false).eUnitCombat != NO_UNITCOMBAT)
+		if (GC.getSpecialistInfo(eSpecialist).getUnitCombatExperienceType(iI, false).first != NO_UNITCOMBAT)
 		{
-			iExperience += (GC.getSpecialistInfo(eSpecialist).getUnitCombatExperienceType(iI, false).iModifier);
-			if (isProductionUnit() && isProductionUnitCombat((int)GC.getSpecialistInfo(eSpecialist).getUnitCombatExperienceType(iI, false).eUnitCombat))
+			iExperience += (GC.getSpecialistInfo(eSpecialist).getUnitCombatExperienceType(iI, false).second);
+			if (isProductionUnit() && isProductionUnitCombat(GC.getSpecialistInfo(eSpecialist).getUnitCombatExperienceType(iI, false).first))
 			{
-				iExperience += (2 * (GC.getSpecialistInfo(eSpecialist).getUnitCombatExperienceType(iI, false).iModifier));
+				iExperience += (2 * (GC.getSpecialistInfo(eSpecialist).getUnitCombatExperienceType(iI, false).second));
 			}
 		}
 	}
@@ -985,7 +985,7 @@ int CvCityAI::AI_specialistValue(SpecialistTypes eSpecialist, bool bAvoidGrowth,
 
 	for (int i=0; i < pMani->getNumSources(); i++)
 	{
-		CvPropertySource* pSource = pMani->getSource(i);
+		const CvPropertySource *const pSource = pMani->getSource(i);
 
 		//	Sources that deliver to the city or the plot are both considered since the city plot diffuses
 		//	to the city for most properties anyway
@@ -5279,7 +5279,7 @@ BuildingTypes CvCityAI::AI_bestBuildingThreshold(int iFocusFlags, int iMaxTurns,
 									bool bFoundValidation = false;
 									for (int i=0; i<iNum; i++)
 									{
-										CvPropertySource* pSource = pMani->getSource(i);
+										const CvPropertySource *const pSource = pMani->getSource(i);
 										if (pSource->getProperty() != eProperty)
 										{
 											continue;
@@ -6355,21 +6355,21 @@ int CvCityAI::AI_buildingValueThresholdOriginalUncached(BuildingTypes eBuilding,
 					}
 					for (iI = 0; iI < kBuilding.getNumFreePromoTypes(); iI++)
 					{
-						if (kBuilding.getFreePromoType(iI).ePromotion)
+						if (kBuilding.getFreePromoType(iI).first)
 						{
-							if (kBuilding.getFreePromoType(iI).m_pExprFreePromotionCondition)
+							if (kBuilding.getFreePromoType(iI).second)
 							{
-								iTempValue += (AI_getPromotionValue((PromotionTypes)kBuilding.getFreePromoType(iI).ePromotion)/2);
+								iTempValue += (AI_getPromotionValue((PromotionTypes)kBuilding.getFreePromoType(iI).first)/2);
 							}
 							else
 							{
-								iTempValue += AI_getPromotionValue((PromotionTypes)kBuilding.getFreePromoType(iI).ePromotion);
+								iTempValue += AI_getPromotionValue((PromotionTypes)kBuilding.getFreePromoType(iI).first);
 							}
 						}
 					}
 					for (iI = 0; iI < kBuilding.getNumFreeTraitTypes(); iI++)
 					{
-						TraitTypes eTrait = kBuilding.getFreeTraitType(iI).eTrait;
+						TraitTypes eTrait = (TraitTypes)kBuilding.getFreeTraitType(iI);
 						if (GC.getTraitInfo(eTrait).isCivilizationTrait())
 						{
 							if (!GC.getTraitInfo(eTrait).isNegativeTrait())
@@ -6981,12 +6981,12 @@ int CvCityAI::AI_buildingValueThresholdOriginalUncached(BuildingTypes eBuilding,
 					{
 						for (iI = 0; iI < kBuilding.getNumHealUnitCombatTypes(); iI++)
 						{
-							iValue += (kBuilding.getHealUnitCombatType(iI).iHeal /4);
+							iValue += (kBuilding.getHealUnitCombatType(iI).second /4);
 						}
 						iValue += (kBuilding.getHealRateChange() / 2);
 						for (iI = 0; iI < kBuilding.getNumAidRateChanges(); iI++)
 						{
-							iValue += (kBuilding.getAidRateChange(iI).iChange / 3);//Update
+							iValue += (kBuilding.getAidRateChange(iI).second / 3);//Update
 						}
 						for (iI = 0; iI < kBuilding.getNumBonusAidModifiers(); iI++)
 						{
@@ -18726,21 +18726,21 @@ void CvCityAI::CalculateAllBuildingValues(int iFocusFlags)
 							}
 							for (iI = 0; iI < kBuilding.getNumFreePromoTypes(); iI++)
 							{
-								if (kBuilding.getFreePromoType(iI).ePromotion)
+								if (kBuilding.getFreePromoType(iI).first)
 								{
-									if (kBuilding.getFreePromoType(iI).m_pExprFreePromotionCondition)
+									if (kBuilding.getFreePromoType(iI).second)
 									{
-										iTempValue += (AI_getPromotionValue((PromotionTypes)kBuilding.getFreePromoType(iI).ePromotion)/2);
+										iTempValue += (AI_getPromotionValue((PromotionTypes)kBuilding.getFreePromoType(iI).first)/2);
 									}
 									else
 									{
-										iTempValue += AI_getPromotionValue((PromotionTypes)kBuilding.getFreePromoType(iI).ePromotion);
+										iTempValue += AI_getPromotionValue((PromotionTypes)kBuilding.getFreePromoType(iI).first);
 									}
 								}
 							}
 							for (iI = 0; iI < kBuilding.getNumFreeTraitTypes(); iI++)
 							{
-								TraitTypes eTrait = kBuilding.getFreeTraitType(iI).eTrait;
+								TraitTypes eTrait = (TraitTypes)kBuilding.getFreeTraitType(iI);
 								if (GC.getTraitInfo(eTrait).isCivilizationTrait())
 								{
 									if (!GC.getTraitInfo(eTrait).isNegativeTrait())
@@ -19405,12 +19405,12 @@ void CvCityAI::CalculateAllBuildingValues(int iFocusFlags)
 							{
 								for (iI = 0; iI < kBuilding.getNumHealUnitCombatTypes(); iI++)
 								{
-									iValue += (kBuilding.getHealUnitCombatType(iI).iHeal /4);
+									iValue += (kBuilding.getHealUnitCombatType(iI).second /4);
 								}
 								iValue += (kBuilding.getHealRateChange() / 2);
 								for (iI = 0; iI < kBuilding.getNumAidRateChanges(); iI++)
 								{
-									iValue += (kBuilding.getAidRateChange(iI).iChange / 3);//Update
+									iValue += (kBuilding.getAidRateChange(iI).second / 3);//Update
 								}
 								for (iI = 0; iI < kBuilding.getNumBonusAidModifiers(); iI++)
 								{
@@ -20477,7 +20477,7 @@ int CvCityAI::buildingPropertiesValue(CvBuildingInfo& kBuilding) const
 	int num = pBuildingPropertyManipulators->getNumSources();
 	for (iI = 0; iI < num; iI++)
 	{
-		CvPropertySource* pSource = pBuildingPropertyManipulators->getSource(iI);
+		const CvPropertySource *const pSource = pBuildingPropertyManipulators->getSource(iI);
 
 		//	For now we're only interested in constant sources
 		//	TODO - expand this as buildings add other types
@@ -20596,7 +20596,7 @@ int CvCityAI::getPropertyDecay(PropertyTypes eProperty) const
 
 	for(int iI = 0; iI < pManipulators->getNumSources(); iI++)
 	{
-		CvPropertySource* pSource = pManipulators->getSource(iI);
+		const CvPropertySource *const pSource = pManipulators->getSource(iI);
 
 		if ( pSource->getType() == PROPERTYSOURCE_DECAY )
 		{
@@ -20636,7 +20636,7 @@ int CvCityAI::getPropertyNonBuildingSource(PropertyTypes eProperty) const
 
 	for(int iI = 0; iI < pManipulators->getNumSources(); iI++)
 	{
-		CvPropertySource* pSource = pManipulators->getSource(iI);
+		const CvPropertySource *const pSource = pManipulators->getSource(iI);
 
 		if ( pSource->getType() == PROPERTYSOURCE_ATTRIBUTE_CONSTANT &&
 			 pSource->getObjectType() == GAMEOBJECT_CITY &&
@@ -20660,7 +20660,7 @@ int CvCityAI::getPropertyNonBuildingSource(PropertyTypes eProperty) const
 
 			for (int i=0; i < pMani->getNumSources(); i++)
 			{
-				CvPropertySource* pSource = pMani->getSource(i);
+				const CvPropertySource *const pSource = pMani->getSource(i);
 
 				//	Sources that deliver to the city or the plot are both considered since the city plot diffuses
 				//	to the city for most properties anyway
@@ -21234,7 +21234,7 @@ bool CvCityAI::AI_isNegativePropertyUnit(UnitTypes eUnit)
 	{
 		for(int iI = 0; iI < propertyManipulators->getNumSources(); iI++)
 		{
-			CvPropertySource* pSource = propertyManipulators->getSource(iI);
+			const CvPropertySource *const pSource = propertyManipulators->getSource(iI);
 			//	We have a source for a property - value is crudely just the AIweight of that property times the source size (which is expected to only depend on the player)
 			PropertyTypes eProperty = pSource->getProperty();
 

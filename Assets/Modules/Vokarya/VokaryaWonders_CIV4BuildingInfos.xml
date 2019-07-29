@@ -142,18 +142,9 @@
 			<iAdjacentDamagePercent>25</iAdjacentDamagePercent>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DIVINE_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_STATE_CHURCH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_INTOLERANT</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DIVINE_RULE</CivicOption>
+				<CivicOption>CIVIC_STATE_CHURCH</CivicOption>
+				<CivicOption>CIVIC_INTOLERANT</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 		</BuildingInfo>
@@ -617,10 +608,7 @@
 			</CommerceChangeDoubleTimes>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CLOSED_BORDERS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CLOSED_BORDERS</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 		</BuildingInfo>
@@ -1302,10 +1290,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_OPEN_BORDERS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_OPEN_BORDERS</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 		</BuildingInfo>
@@ -1345,10 +1330,7 @@
 				<iCommerce>1000</iCommerce>
 			</CommerceChangeDoubleTimes>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DIVINE_RIGHT</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DIVINE_RIGHT</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<UnitCombatProdModifiers>
@@ -1401,14 +1383,8 @@
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<Help>TXT_KEY_HELP_FIELD_GOLD</Help>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FUEDALISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_FUEDALISM</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 		</BuildingInfo>
@@ -1588,22 +1564,10 @@
 				<iCommerce>1000</iCommerce>
 			</CommerceChangeDoubleTimes>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CHIEFDOM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DESPOTISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_THEOCRACY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CHIEFDOM</CivicOption>
+				<CivicOption>CIVIC_DESPOTISM</CivicOption>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_THEOCRACY</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 		</BuildingInfo>
@@ -1880,14 +1844,8 @@
 			</Flavors>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FUEDALISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
+				<CivicOption>CIVIC_FUEDALISM</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 		</BuildingInfo>
@@ -2464,10 +2422,7 @@
 			</BuildingHappinessChanges>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MARXIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MARXIST</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 		</BuildingInfo>

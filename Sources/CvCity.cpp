@@ -3237,7 +3237,7 @@ bool CvCity::isPlotTrainable(UnitTypes eUnit, bool bContinue, bool bTestVisible)
 
 		if (kUnit.getTrainCondition())
 		{
-			if (!kUnit.getTrainCondition()->evaluate(const_cast<CvGameObjectCity*>(getGameObjectConst())))
+			if (!kUnit.getTrainCondition()->evaluate(getGameObjectConst()))
 			{
 				return false;
 			}
@@ -3633,7 +3633,7 @@ bool CvCity::canTrainInternal(UnitTypes eUnit, bool bContinue, bool bTestVisible
 	{
 		for (int iI = 0; iI < kUnit.getNumEnabledCivilizationTypes(); iI++)
 		{
-			if (getCivilizationType() == kUnit.getEnabledCivilizationType(iI).eCivilization)
+			if (getCivilizationType() == (CivilizationTypes)kUnit.getEnabledCivilizationType(iI))
 			{
 				bQual = true;
 				break;
@@ -4098,7 +4098,7 @@ bool CvCity::canConstructInternal(BuildingTypes eBuilding, bool bContinue, bool 
 	{
 		for (int iI = 0; iI < kBuilding.getNumEnabledCivilizationTypes(); iI++)
 		{
-			if (getCivilizationType() == kBuilding.getEnabledCivilizationType(iI).eCivilization)
+			if (getCivilizationType() == kBuilding.getEnabledCivilizationType(iI))
 			{
 				bQual = true;
 				break;
@@ -4704,7 +4704,7 @@ bool CvCity::canConstructInternal(BuildingTypes eBuilding, bool bContinue, bool 
 
 	if (!bTestVisible && kBuilding.getConstructCondition() && !bExposed)
 	{
-		if (!kBuilding.getConstructCondition()->evaluate(const_cast<CvGameObjectCity*>(getGameObjectConst()))) // Const wegcasten ist hier ok da evaluate nicht wirklich etwas �ndert
+		if (!kBuilding.getConstructCondition()->evaluate(getGameObjectConst()))
 		{
 			return false;
 		}
@@ -5200,7 +5200,7 @@ void CvCity::addProductionExperience(CvUnit* pUnit, bool bConscript)
 			{
 				for (int iK = 0; iK < kBuilding.getNumFreePromoTypes(); iK++)
 				{
-					PromotionTypes kPromotion = (PromotionTypes)kBuilding.getFreePromoType(iK).ePromotion;
+					PromotionTypes kPromotion = (PromotionTypes)kBuilding.getFreePromoType(iK).first;
 					if (kPromotion != NO_PROMOTION)
 					{
 						bEquip = GC.getPromotionInfo(kPromotion).isEquipment();
@@ -5215,9 +5215,9 @@ void CvCity::addProductionExperience(CvUnit* pUnit, bool bConscript)
 						}
 						if (bCanAssign)
 						{
-							if (kBuilding.getFreePromoType(iK).m_pExprFreePromotionCondition)
+							if (kBuilding.getFreePromoType(iK).second)
 							{
-								if (!kBuilding.getFreePromoType(iK).m_pExprFreePromotionCondition->evaluate(const_cast<CvGameObjectUnit*>(pUnit->getGameObjectConst())))
+								if (!kBuilding.getFreePromoType(iK).second->evaluate(pUnit->getGameObjectConst()))
 								{
 									bCanAssign = false;
 								}
@@ -6694,9 +6694,9 @@ int CvCity::getBonusHappiness(BonusTypes eBonus) const
 		{
 			for (int iJ = 0; iJ < GC.getTraitInfo((TraitTypes)iI).getNumBonusHappinessChanges(); iJ++)
 			{
-				if (GC.getTraitInfo((TraitTypes)iI).getBonusHappinessChange(iJ).eBonus == eBonus)
+				if (GC.getTraitInfo((TraitTypes)iI).getBonusHappinessChange(iJ).first == eBonus)
 				{
-					iHappiness += GC.getTraitInfo((TraitTypes)iI).getBonusHappinessChange(iJ).iModifier;
+					iHappiness += GC.getTraitInfo((TraitTypes)iI).getBonusHappinessChange(iJ).second;
 				}
 			}
 		}
@@ -6826,9 +6826,9 @@ void CvCity::processBonus(BonusTypes eBonus, int iChange)
 			TraitTypes eTrait = (TraitTypes)iI;
 			for (int iJ = 0; iJ < GC.getTraitInfo(eTrait).getNumBonusHappinessChanges(); iJ++)
 			{
-				if (GC.getTraitInfo(eTrait).getBonusHappinessChange(iJ).eBonus == eBonus)
+				if (GC.getTraitInfo(eTrait).getBonusHappinessChange(iJ).first == eBonus)
 				{
-					iValue = GC.getTraitInfo((TraitTypes)iI).getBonusHappinessChange(iJ).iModifier;
+					iValue = GC.getTraitInfo((TraitTypes)iI).getBonusHappinessChange(iJ).second;
 				}
 			}
 			if (iValue >= 0)
@@ -7000,7 +7000,7 @@ void CvCity::processBuilding(BuildingTypes eBuilding, int iChange, bool bObsolet
 			bool bChange = (iChange == 1);
 			for (iI = 0; iI < kBuilding.getNumFreeTraitTypes(); iI++)
 			{
-				TraitTypes eTrait = kBuilding.getFreeTraitType(iI).eTrait;
+				TraitTypes eTrait = (TraitTypes)kBuilding.getFreeTraitType(iI);
 				if (GC.getTraitInfo(eTrait).isCivilizationTrait())
 				{
 					GET_PLAYER(getOwner()).setHasTrait(eTrait, bChange);
@@ -7214,7 +7214,7 @@ void CvCity::processBuilding(BuildingTypes eBuilding, int iChange, bool bObsolet
 		{
 			for (int iI = 0; iI < kBuilding.getNumHealUnitCombatTypes(); iI++)
 			{
-				changeHealUnitCombatTypeVolume((UnitCombatTypes)kBuilding.getHealUnitCombatType(iI).eUnitCombat, kBuilding.getHealUnitCombatType(iI).iHeal * iChange);
+				changeHealUnitCombatTypeVolume((UnitCombatTypes)kBuilding.getHealUnitCombatType(iI).first, kBuilding.getHealUnitCombatType(iI).second * iChange);
 			}
 		}
 
@@ -7266,8 +7266,7 @@ void CvCity::processBuilding(BuildingTypes eBuilding, int iChange, bool bObsolet
 		//TB Combat Mods (Buildings) begin
 		for (iI = 0; iI < kBuilding.getNumAidRateChanges(); iI++)
 		{
-			PropertyTypes eProperty = kBuilding.getAidRateChange(iI).ePropertyType;
-			changeAidRate(eProperty, kBuilding.getAidRateChange(iI).iChange * iChange);
+			changeAidRate((PropertyTypes)kBuilding.getAidRateChange(iI).first, kBuilding.getAidRateChange(iI).second * iChange);
 		}
 		changeTotalFrontSupportPercentModifier(kBuilding.getFrontSupportPercentModifier() * iChange);
 		changeTotalShortRangeSupportPercentModifier(kBuilding.getShortRangeSupportPercentModifier() * iChange);
@@ -7830,9 +7829,9 @@ void CvCity::processSpecialist(SpecialistTypes eSpecialist, int iChange)
 
 	for (iI = 0; iI < GC.getSpecialistInfo(eSpecialist).getNumUnitCombatExperienceTypes(); iI++)
 	{
-		if (GC.getSpecialistInfo(eSpecialist).getUnitCombatExperienceType(iI, false).eUnitCombat != NO_UNITCOMBAT)
+		if (GC.getSpecialistInfo(eSpecialist).getUnitCombatExperienceType(iI, false).first != NO_UNITCOMBAT)
 		{
-			changeUnitCombatFreeExperience(GC.getSpecialistInfo(eSpecialist).getUnitCombatExperienceType(iI, false).eUnitCombat, GC.getSpecialistInfo(eSpecialist).getUnitCombatExperienceType(iI, false).iModifier * iChange);
+			changeUnitCombatFreeExperience((UnitCombatTypes)GC.getSpecialistInfo(eSpecialist).getUnitCombatExperienceType(iI, false).first, GC.getSpecialistInfo(eSpecialist).getUnitCombatExperienceType(iI, false).second * iChange);
 		}
 	}
 
@@ -25812,7 +25811,7 @@ void CvCity::doPromotion()
 							{
 								for (int iK = 0; iK < kBuilding.getNumFreePromoTypes(); iK++)
 								{
-									const PromotionTypes ePromotion = (PromotionTypes)kBuilding.getFreePromoType(iK).ePromotion;
+									const PromotionTypes ePromotion = (PromotionTypes)kBuilding.getFreePromoType(iK).first;
 									bEquip = GC.getPromotionInfo(ePromotion).isEquipment();
 									bCanAssign = false;
 									if (bEquip)
@@ -25825,9 +25824,9 @@ void CvCity::doPromotion()
 									}
 									if (bCanAssign)
 									{
-										if (kBuilding.getFreePromoType(iK).m_pExprFreePromotionCondition)
+										if (kBuilding.getFreePromoType(iK).second)
 										{
-											if (!kBuilding.getFreePromoType(iK).m_pExprFreePromotionCondition->evaluate(const_cast<CvGameObjectUnit*>(pLoopUnit->getGameObjectConst())))
+											if (!kBuilding.getFreePromoType(iK).second->evaluate(pLoopUnit->getGameObjectConst()))
 											{
 												bCanAssign = false;
 											}
@@ -28661,7 +28660,7 @@ int CvCity::getTotalBuildingSourcedProperty(PropertyTypes eProperty) const
 					int num = pBuildingPropertyManipulators->getNumSources();
 					for (int iJ = 0; iJ < num; iJ++)
 					{
-						CvPropertySource* pSource = pBuildingPropertyManipulators->getSource(iJ);
+						const CvPropertySource *const pSource = pBuildingPropertyManipulators->getSource(iJ);
 
 						//	For now we're only interested in constant sources
 						//	TODO - expand this as buildings add other types
@@ -28680,13 +28679,13 @@ int CvCity::getTotalBuildingSourcedProperty(PropertyTypes eProperty) const
 	}
 }
 
-void unitSources(CvGameObject* pObject, CvPropertyManipulators* pMani, PropertyTypes eProperty, const CvCity* pCity, int* iValue)
+void unitSources(const CvGameObject* pObject, CvPropertyManipulators* pMani, PropertyTypes eProperty, const CvCity* pCity, int* iValue)
 {
 	int iNum = pMani->getNumSources();
 
 	for (int i=0; i<iNum; i++)
 	{
-		CvPropertySource* pSource = pMani->getSource(i);
+		const CvPropertySource *const pSource = pMani->getSource(i);
 
 		//	Sources that deliver to the city or the plot are both considered since the city plot diffuses
 		//	to the city for most properties anyway
@@ -28728,13 +28727,13 @@ int CvCity::getTotalUnitSourcedProperty(PropertyTypes eProperty) const
 	}
 }
 
-void unitHasSources(CvGameObject* pObject, CvPropertyManipulators* pMani, bool* bHasSources)
+void unitHasSources(const CvGameObject* pObject, CvPropertyManipulators* pMani, bool* bHasSources)
 {
 	int iNum = pMani->getNumSources();
 
 	for (int i=0; i<iNum; i++)
 	{
-		CvPropertySource* pSource = pMani->getSource(i);
+		const CvPropertySource *const pSource = pMani->getSource(i);
 
 		//	Sources that deliver to the city or the plot are both considered since the city plot diffuses
 		//	to the city for most properties anyway
@@ -28765,15 +28764,15 @@ void CvCity::noteUnitMoved(CvUnit* pUnit) const
 	}
 }
 
-void sumCitySources(CvGameObject* pObject, CvPropertyManipulators* pMani, const CvCity* pCity, int* iSum, PropertyTypes eProperty)
+void sumCitySources(const CvGameObject* pObject, CvPropertyManipulators* pMani, const CvCity* pCity, int* iSum, PropertyTypes eProperty)
 {
 	int iNum = pMani->getNumSources();
 	for (int i=0; i<iNum; i++)
 	{
-		CvPropertySource* pSource = pMani->getSource(i);
+		const CvPropertySource *const pSource = pMani->getSource(i);
 		if (pSource->getProperty() == eProperty)
 		{
-			if (pSource->isActive(const_cast<CvGameObjectCity*>(pCity->getGameObjectConst())))
+			if (pSource->isActive(pCity->getGameObjectConst()))
 			{
 				*iSum += pSource->getSourcePredict(pCity->getGameObjectConst(), pCity->getPropertiesConst()->getValueByProperty((int)eProperty));
 			}
@@ -28788,8 +28787,8 @@ int CvCity::getGlobalSourcedProperty(PropertyTypes eProperty) const
 	int iNum = pMani->getNumSources();
 	for (int i=0; i<iNum; i++)
 	{
-		CvPropertySource* pSource = pMani->getSource(i);
-		if (pSource->isActive(const_cast<CvGameObjectCity*>(getGameObjectConst())))
+		const CvPropertySource *const pSource = pMani->getSource(i);
+		if (pSource->isActive(getGameObjectConst()))
 		{
 			iSum += pSource->getSourcePredict(getGameObjectConst(), getPropertiesConst()->getValueByProperty((int)eProperty));
 		}
@@ -29123,7 +29122,7 @@ int CvCity::getTotalCommunicableExposure(PromotionLineTypes eAfflictionLine) con
 	for (int iI = 0; iI < GC.getNumBonusInfos(); iI++)
 	{
 		BonusTypes eBonus = (BonusTypes)iI;
-		iAccessVolumeBonusCommunicability += (getNumBonuses(eBonus) * GC.getBonusInfo(eBonus).getAfflictionCommunicabilityType(eAfflictionLine, false, false, true).iModifier);
+		iAccessVolumeBonusCommunicability += (getNumBonuses(eBonus) * GC.getBonusInfo(eBonus).getAfflictionCommunicabilityType(eAfflictionLine, false, false, true).second);
 	}
 
 	int iAttackCommunicability = 0;
@@ -29863,9 +29862,9 @@ void CvCity::updateExtraTechSpecialistHappiness()
 				iRunningTotal += iSpecificSpecialistCount * getTechSpecialistHappinessTypes(eTech, eSpecialist);
 				for (int iK = 0; iK < GC.getSpecialistInfo(eSpecialist).getNumTechHappinessTypes(); iK++)
 				{
-					if (GC.getSpecialistInfo(eSpecialist).getTechHappinessType(iK).eTech == eTech)
+					if (GC.getSpecialistInfo(eSpecialist).getTechHappinessType(iK).first == eTech)
 					{
-						iRunningTotal += iSpecificSpecialistCount * GC.getSpecialistInfo(eSpecialist).getTechHappinessType(iK).iModifier;
+						iRunningTotal += iSpecificSpecialistCount * GC.getSpecialistInfo(eSpecialist).getTechHappinessType(iK).second;
 					}
 				}
 			}
@@ -30029,16 +30028,16 @@ void CvCity::updateExtraTechSpecialistHealth()
 		iSpecificSpecialistCount = specialistCount(eSpecialist);
 		for (iJ = 0; iJ < GC.getNumTechInfos(); iJ++)
 		{
-			TechTypes eTech = ((TechTypes)iJ);
+			TechTypes eTech = (TechTypes)iJ;
 			if (GET_TEAM(getTeam()).isHasTech(eTech))
 			{
 				iRunningTotal += iSpecificSpecialistCount * getTechSpecialistHealthTypes(eTech, eSpecialist);
 				for (int iK = 0; iK < GC.getSpecialistInfo(eSpecialist).getNumTechHealthTypes(); iK++)
 				{
-					TechTypes kTech = GC.getSpecialistInfo(eSpecialist).getTechHealthType(iK).eTech;
-					if (kTech == eTech)
+					int iTech = (TechTypes)GC.getSpecialistInfo(eSpecialist).getTechHealthType(iK).first;
+					if (iTech == iJ)
 					{
-						iRunningTotal += iSpecificSpecialistCount * GC.getSpecialistInfo(eSpecialist).getTechHealthType(iK).iModifier;
+						iRunningTotal += iSpecificSpecialistCount * GC.getSpecialistInfo(eSpecialist).getTechHealthType(iK).second;
 					}
 				}
 			}

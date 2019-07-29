@@ -12818,11 +12818,11 @@ int CvPlayerAI::AI_unitHealerValue(UnitTypes eUnit, UnitCombatTypes eUnitCombat)
 	{
 		for(int iI = 0; iI < iNumHealUnitCombatTypes; iI++)
 		{
-			UnitCombatTypes eHealUnitCombat = (UnitCombatTypes)GC.getUnitInfo(eUnit).getHealUnitCombatType(iI).eUnitCombat;
+			UnitCombatTypes eHealUnitCombat = (UnitCombatTypes)GC.getUnitInfo(eUnit).getHealUnitCombatType(iI).first;
 			if (eHealUnitCombat == eUnitCombat)
 			{
-				iValue += GC.getUnitInfo(eUnit).getHealUnitCombatType(iI).iHeal;
-				iValue += GC.getUnitInfo(eUnit).getHealUnitCombatType(iI).iAdjacentHeal;
+				iValue += GC.getUnitInfo(eUnit).getHealUnitCombatType(iI).second.iHeal;
+				iValue += GC.getUnitInfo(eUnit).getHealUnitCombatType(iI).second.iAdjacentHeal;
 			}
 		}
 	}
@@ -12831,8 +12831,8 @@ int CvPlayerAI::AI_unitHealerValue(UnitTypes eUnit, UnitCombatTypes eUnitCombat)
 		int iAverage = 0;
 		for(int iI = 0; iI < iNumHealUnitCombatTypes; iI++)
 		{
-			iAverage += GC.getUnitInfo(eUnit).getHealUnitCombatType(iI).iHeal;
-			iAverage += GC.getUnitInfo(eUnit).getHealUnitCombatType(iI).iAdjacentHeal;
+			iAverage += GC.getUnitInfo(eUnit).getHealUnitCombatType(iI).second.iHeal;
+			iAverage += GC.getUnitInfo(eUnit).getHealUnitCombatType(iI).second.iAdjacentHeal;
 		}
 		iAverage /= iNumHealUnitCombatTypes;
 		iValue += iAverage;
@@ -12853,7 +12853,7 @@ int CvPlayerAI::AI_unitPropertyValue(UnitTypes eUnit, PropertyTypes eProperty) c
 	{
 		for(int iI = 0; iI < propertyManipulators->getNumSources(); iI++)
 		{
-			CvPropertySource* pSource = propertyManipulators->getSource(iI);
+			const CvPropertySource *const pSource = propertyManipulators->getSource(iI);
 
 			if ( pSource->getType() == PROPERTYSOURCE_CONSTANT &&
 				 (eProperty == NO_PROPERTY || pSource->getProperty() == eProperty))
@@ -32794,9 +32794,9 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 
 	//for (iI = 0; iI < kPromotion.getNumAIWeightbyUnitCombatTypes(); iI++)
 	//{
-	//	if (kPromotion.getAIWeightbyUnitCombatType(iI).iModifier != 0)
+	//	if (kPromotion.getAIWeightbyUnitCombatType(iI).second != 0)
 	//	{
-	//		iValue += kPromotion.getAIWeightbyUnitCombatType(iI).iModifier;
+	//		iValue += kPromotion.getAIWeightbyUnitCombatType(iI).second;
 	//	}
 	//}
 
@@ -32804,11 +32804,11 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 	{
 		for (iI = 0; iI < kPromotion.getNumAIWeightbyUnitCombatTypes(); iI++)
 		{
-			if (kPromotion.getAIWeightbyUnitCombatType(iI).iModifier != 0)
+			if (kPromotion.getAIWeightbyUnitCombatType(iI).second != 0)
 			{
-				if ((pUnit->isHasUnitCombat(kPromotion.getAIWeightbyUnitCombatType(iI).eUnitCombat))||(kUnit.hasUnitCombat(kPromotion.getAIWeightbyUnitCombatType(iI).eUnitCombat)))
+				if ((pUnit->isHasUnitCombat((UnitCombatTypes)kPromotion.getAIWeightbyUnitCombatType(iI).first))||(kUnit.hasUnitCombat((UnitCombatTypes)kPromotion.getAIWeightbyUnitCombatType(iI).first)))
 				{
-					iValue += kPromotion.getAIWeightbyUnitCombatType(iI).iModifier;
+					iValue += kPromotion.getAIWeightbyUnitCombatType(iI).second;
 				}
 			}
 		}
@@ -33583,7 +33583,7 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 		for(iI = 0; iI < promotionPropertyManipulators->getNumSources(); iI++)
 		{
 			iTemp2 = 0;
-			CvPropertySource* pSource = promotionPropertyManipulators->getSource(iI);
+			const CvPropertySource *const pSource = promotionPropertyManipulators->getSource(iI);
 			PropertyTypes pProperty = pSource->getProperty();
 
 			if ( pSource->getType() == PROPERTYSOURCE_CONSTANT)
@@ -33595,7 +33595,7 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 					CvPropertyManipulators* unitPropertyManipulators = GC.getUnitInfo(eUnit).getPropertyManipulators();
 					for (int iJ = 0; iJ < unitPropertyManipulators->getNumSources(); iJ++)
 					{
-						CvPropertySource* uSource = unitPropertyManipulators->getSource(iJ);
+						const CvPropertySource *const uSource = unitPropertyManipulators->getSource(iJ);
 						PropertyTypes uProperty = uSource->getProperty();
 						if (uSource->getType() == PROPERTYSOURCE_CONSTANT && pProperty == uProperty && iTemp2 != 0)
 						{
@@ -34135,9 +34135,9 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 	{
 		for (int iK = 0; iK < kPromotion.getNumHealUnitCombatChangeTypes(); iK++)
 		{
-			UnitCombatTypes eHealUnitCombat = kPromotion.getHealUnitCombatChangeType(iK).eUnitCombat;
-			iTemp = kPromotion.getHealUnitCombatChangeType(iK).iHeal;
-			iTemp += kPromotion.getHealUnitCombatChangeType(iK).iAdjacentHeal;
+			UnitCombatTypes eHealUnitCombat = (UnitCombatTypes)kPromotion.getHealUnitCombatChangeType(iK).first;
+			iTemp = kPromotion.getHealUnitCombatChangeType(iK).second.iHeal;
+			iTemp += kPromotion.getHealUnitCombatChangeType(iK).second.iAdjacentHeal;
 			iTemp += kPromotion.getNumHealSupport();
 		
 			if (iTemp > 0)
@@ -35330,9 +35330,9 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 
 	for (iI = 0; iI < kPromotion.getNumAfflictOnAttackChangeTypes(); ++iI)
 	{
-		if (kPromotion.getAfflictOnAttackChangeType(iI).eAfflictionLine > 0)
+		if (kPromotion.getAfflictOnAttackChangeType(iI).first > 0)
 		{
-			iTemp = kPromotion.getAfflictOnAttackChangeType(iI).iProbabilityChange;
+			iTemp = kPromotion.getAfflictOnAttackChangeType(iI).second.iProbabilityChange;
 
 			int iTempWithdraw = 0;
 
@@ -35347,7 +35347,7 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 
 			iTemp += ((iTemp * iTempWithdraw)/100);
 
-			int iImmediate = kPromotion.getAfflictOnAttackChangeType(iI).iImmediate;
+			int iImmediate = kPromotion.getAfflictOnAttackChangeType(iI).second.iImmediate;
 			iImmediate *= 25;
 
 			iTemp += iImmediate;
@@ -35386,7 +35386,7 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 
 		for (iI = 0; iI < GC.getPromotionInfo(ePromotion).getNumAfflictionFortitudeChangeModifiers(); ++iI)
 		{
-			iValue += (GC.getPromotionInfo(ePromotion).getAfflictionFortitudeChangeModifier(iI).iModifier);
+			iValue += (GC.getPromotionInfo(ePromotion).getAfflictionFortitudeChangeModifier(iI).second);
 		}
 
 		iTemp = kPromotion.getFortitudeChange();
@@ -36000,9 +36000,9 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
     
     if (kPromotion.getNumWithdrawVSUnitCombatChangeTypes() > 0)
     {
-		for (UnitCombatModifierArray::const_iterator it = kUnit.getWithdrawVSUnitCombatTypes().begin(), end = kUnit.getWithdrawVSUnitCombatTypes().end(); it != end; ++it)
+		for (std::vector<std::pair<int,int> >::const_iterator it = kUnit.getWithdrawVSUnitCombatTypes().begin(), end = kUnit.getWithdrawVSUnitCombatTypes().end(); it != end; ++it)
 		{
-			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat(it->first)))
+			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat((UnitCombatTypes)it->first)))
 			{
 				iSameCombat += it->second;
 			}
@@ -36107,9 +36107,9 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 		iSameCombat = 0;
 		hasCombat = false;
 
-		for (UnitCombatModifierArray::const_iterator it = kUnit.getPursuitVSUnitCombatTypes().begin(), end = kUnit.getPursuitVSUnitCombatTypes().end(); it != end; ++it)
+		for (std::vector<std::pair<int,int> >::const_iterator it = kUnit.getPursuitVSUnitCombatTypes().begin(), end = kUnit.getPursuitVSUnitCombatTypes().end(); it != end; ++it)
 		{
-			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat(it->first)))
+			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat((UnitCombatTypes)it->first)))
 			{
 				iSameCombat += it->second;
 			}
@@ -36211,9 +36211,9 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 	    iSameCombat = 0;
 		hasCombat = false;
 	    
-		for (UnitCombatModifierArray::const_iterator it = kUnit.getRepelVSUnitCombatTypes().begin(), end = kUnit.getRepelVSUnitCombatTypes().end(); it != end; ++it)
+		for (std::vector<std::pair<int,int> >::const_iterator it = kUnit.getRepelVSUnitCombatTypes().begin(), end = kUnit.getRepelVSUnitCombatTypes().end(); it != end; ++it)
 		{
-			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat(it->first)))
+			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat((UnitCombatTypes)it->first)))
 			{
 				iSameCombat += it->second;
 			}
@@ -36309,9 +36309,9 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 	    iSameCombat = 0;
 		hasCombat = false;
 
-		for (UnitCombatModifierArray::const_iterator it = kUnit.getKnockbackVSUnitCombatTypes().begin(), end = kUnit.getKnockbackVSUnitCombatTypes().end(); it != end; ++it)
+		for (std::vector<std::pair<int,int> >::const_iterator it = kUnit.getKnockbackVSUnitCombatTypes().begin(), end = kUnit.getKnockbackVSUnitCombatTypes().end(); it != end; ++it)
 		{
-			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat(it->first)))
+			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat((UnitCombatTypes)it->first)))
 			{
 				iSameCombat += it->second;
 			}
@@ -36401,9 +36401,9 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 	    iSameCombat = 0;
 		hasCombat = false;
 
-		for (UnitCombatModifierArray::const_iterator it = kUnit.getPunctureVSUnitCombatTypes().begin(), end = kUnit.getPunctureVSUnitCombatTypes().end(); it != end; ++it)
+		for (std::vector<std::pair<int,int> >::const_iterator it = kUnit.getPunctureVSUnitCombatTypes().begin(), end = kUnit.getPunctureVSUnitCombatTypes().end(); it != end; ++it)
 		{
-			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat(it->first)))
+			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat((UnitCombatTypes)it->first)))
 			{
 				iSameCombat += it->second;
 			}
@@ -36483,9 +36483,9 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 	    iSameCombat = 0;
 		hasCombat = false;
 	    
-		for (UnitCombatModifierArray::const_iterator it = kUnit.getArmorVSUnitCombatTypes().begin(), end = kUnit.getArmorVSUnitCombatTypes().end(); it != end; ++it)
+		for (std::vector<std::pair<int,int> >::const_iterator it = kUnit.getArmorVSUnitCombatTypes().begin(), end = kUnit.getArmorVSUnitCombatTypes().end(); it != end; ++it)
 		{
-			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat(it->first)))
+			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat((UnitCombatTypes)it->first)))
 			{
 				iSameCombat += it->second;
 			}
@@ -36565,9 +36565,9 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 	    iSameCombat = 0;
 		hasCombat = false;
 	    
-		for (UnitCombatModifierArray::const_iterator it = kUnit.getDodgeVSUnitCombatTypes().begin(), end = kUnit.getDodgeVSUnitCombatTypes().end(); it != end; ++it)
+		for (std::vector<std::pair<int,int> >::const_iterator it = kUnit.getDodgeVSUnitCombatTypes().begin(), end = kUnit.getDodgeVSUnitCombatTypes().end(); it != end; ++it)
 		{
-			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat(it->first)))
+			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat((UnitCombatTypes)it->first)))
 			{
 				iSameCombat += it->second;
 			}
@@ -36647,9 +36647,9 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 	    iSameCombat = 0;
 		hasCombat = false;
 	    
-		for (UnitCombatModifierArray::const_iterator it = kUnit.getPrecisionVSUnitCombatTypes().begin(), end = kUnit.getPrecisionVSUnitCombatTypes().end(); it != end; ++it)
+		for (std::vector<std::pair<int,int> >::const_iterator it = kUnit.getPrecisionVSUnitCombatTypes().begin(), end = kUnit.getPrecisionVSUnitCombatTypes().end(); it != end; ++it)
 		{
-			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat(it->first)))
+			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat((UnitCombatTypes)it->first)))
 			{
 				iSameCombat += it->second;
 			}
@@ -36729,9 +36729,9 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 	    iSameCombat = 0;
 		hasCombat = false;
 	    
-		for (UnitCombatModifierArray::const_iterator it = kUnit.getCriticalVSUnitCombatTypes().begin(), end = kUnit.getCriticalVSUnitCombatTypes().end(); it != end; ++it)
+		for (std::vector<std::pair<int,int> >::const_iterator it = kUnit.getCriticalVSUnitCombatTypes().begin(), end = kUnit.getCriticalVSUnitCombatTypes().end(); it != end; ++it)
 		{
-			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat(it->first)))
+			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat((UnitCombatTypes)it->first)))
 			{
 				iSameCombat += it->second;
 			}
@@ -36811,9 +36811,9 @@ int CvPlayerAI::AI_promotionValue(PromotionTypes ePromotion, UnitTypes eUnit, co
 	    iSameCombat = 0;
 		hasCombat = false;
 	    
-		for (UnitCombatModifierArray::const_iterator it = kUnit.getRoundStunVSUnitCombatTypes().begin(), end = kUnit.getRoundStunVSUnitCombatTypes().end(); it != end; ++it)
+		for (std::vector<std::pair<int,int> >::const_iterator it = kUnit.getRoundStunVSUnitCombatTypes().begin(), end = kUnit.getRoundStunVSUnitCombatTypes().end(); it != end; ++it)
 		{
-			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat(it->first)))
+			if ( (pUnit == NULL && (kUnit.getUnitCombatType() == it->first || kUnit.isSubCombatType(it->first))) || (pUnit != NULL && pUnit->isHasUnitCombat((UnitCombatTypes)it->first)))
 			{
 				iSameCombat += it->second;
 			}
@@ -40151,7 +40151,7 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 	{
 		for (int iJ = 0; iJ < GC.getNumUnitCombatInfos(); iJ++)
 		{
-			iTemp = kUnitCombat.getFlankingStrengthbyUnitCombatTypeChange(iI).iModifier;
+			iTemp = kUnitCombat.getFlankingStrengthbyUnitCombatTypeChange(iI).second;
 			if (iTemp != 0)
 			{
 				if ((eUnitAI == UNITAI_COUNTER)||
@@ -40343,9 +40343,9 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 
 	for (iI = 0; iI < kUnitCombat.getNumAfflictOnAttackChangeTypes(); ++iI)
 	{
-		if (kUnitCombat.getAfflictOnAttackChangeType(iI).eAfflictionLine > 0)
+		if (kUnitCombat.getAfflictOnAttackChangeType(iI).first > 0)
 		{
-			iTemp = kUnitCombat.getAfflictOnAttackChangeType(iI).iProbabilityChange;
+			iTemp = kUnitCombat.getAfflictOnAttackChangeType(iI).second.iProbabilityChange;
 
 			int iTempWithdraw = 0;
 
@@ -40360,7 +40360,7 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 
 			iTemp += ((iTemp * iTempWithdraw)/100);
 
-			int iImmediate = kUnitCombat.getAfflictOnAttackChangeType(iI).iImmediate;
+			int iImmediate = kUnitCombat.getAfflictOnAttackChangeType(iI).second.iImmediate;
 			iImmediate *= 25;
 
 			iTemp += iImmediate;
@@ -40394,7 +40394,7 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 
 		for (iI = 0; iI < kUnitCombat.getNumAfflictionFortitudeChangeModifiers(); ++iI)
 		{
-			iValue += (kUnitCombat.getAfflictionFortitudeChangeModifier(iI).iModifier);
+			iValue += (kUnitCombat.getAfflictionFortitudeChangeModifier(iI).second);
 		}
 
 		iTemp = kUnitCombat.getFortitudeChange();
@@ -41023,12 +41023,12 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
     {
 		if (pUnit == NULL)
 		{
-			if (kUnit.hasUnitCombat(kUnitCombat.getWithdrawVSUnitCombatTypeChange(iI).eUnitCombat))
+			if (kUnit.hasUnitCombat((UnitCombatTypes)kUnitCombat.getWithdrawVSUnitCombatTypeChange(iI).first))
 			{
 				hasCombat = true;
 			}
 		}
-		else if (pUnit->isHasUnitCombat(kUnitCombat.getWithdrawVSUnitCombatTypeChange(iI).eUnitCombat))
+		else if (pUnit->isHasUnitCombat((UnitCombatTypes)kUnitCombat.getWithdrawVSUnitCombatTypeChange(iI).first))
 		{
 			hasCombat = true;
 		}
@@ -41049,7 +41049,7 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 	{
 		for (int iJ = 0; iJ < GC.getNumUnitCombatInfos(); iJ++)
 		{
-			iTemp = kUnitCombat.getWithdrawVSUnitCombatTypeChange(iI).iModifier;
+			iTemp = kUnitCombat.getWithdrawVSUnitCombatTypeChange(iI).second;
 			int iCombatWeight = 0;
 			//Fighting their own kind
 			if (hasCombat)
@@ -41114,12 +41114,12 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 		{
 			if (pUnit == NULL)
 			{
-				if (kUnit.hasUnitCombat(kUnitCombat.getPursuitVSUnitCombatTypeChange(iI).eUnitCombat))
+				if (kUnit.hasUnitCombat((UnitCombatTypes)kUnitCombat.getPursuitVSUnitCombatTypeChange(iI).first))
 				{
 					hasCombat = true;
 				}
 			}
-			else if (pUnit->isHasUnitCombat(kUnitCombat.getPursuitVSUnitCombatTypeChange(iI).eUnitCombat))
+			else if (pUnit->isHasUnitCombat((UnitCombatTypes)kUnitCombat.getPursuitVSUnitCombatTypeChange(iI).first))
 			{
 				hasCombat = true;
 			}
@@ -41140,7 +41140,7 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 		{
 			for (int iJ = 0; iJ < GC.getNumUnitCombatInfos(); iJ++)
 			{
-				iTemp = kUnitCombat.getPursuitVSUnitCombatTypeChange(iI).iModifier;
+				iTemp = kUnitCombat.getPursuitVSUnitCombatTypeChange(iI).second;
 				int iCombatWeight = 0;
 				//Fighting their own kind
 				if (hasCombat)
@@ -41202,12 +41202,12 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
     {
 		if (pUnit == NULL)
 		{
-			if (kUnit.hasUnitCombat(kUnitCombat.getRepelVSUnitCombatTypeChange(iI).eUnitCombat))
+			if (kUnit.hasUnitCombat((UnitCombatTypes)kUnitCombat.getRepelVSUnitCombatTypeChange(iI).first))
 			{
 				hasCombat = true;
 			}
 		}
-		else if (pUnit->isHasUnitCombat(kUnitCombat.getRepelVSUnitCombatTypeChange(iI).eUnitCombat))
+		else if (pUnit->isHasUnitCombat((UnitCombatTypes)kUnitCombat.getRepelVSUnitCombatTypeChange(iI).first))
 		{
 			hasCombat = true;
 		}
@@ -41230,7 +41230,7 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 		{
 			for (int iJ = 0; iJ < GC.getNumUnitCombatInfos(); iJ++)
 			{
-				iTemp = kUnitCombat.getRepelVSUnitCombatTypeChange(iI).iModifier;
+				iTemp = kUnitCombat.getRepelVSUnitCombatTypeChange(iI).second;
 				int iCombatWeight = 0;
 				//Fighting their own kind
 				if (hasCombat)
@@ -41285,12 +41285,12 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 		{
 			if (pUnit == NULL)
 			{
-				if (kUnit.hasUnitCombat(kUnitCombat.getKnockbackVSUnitCombatTypeChange(iI).eUnitCombat))
+				if (kUnit.hasUnitCombat((UnitCombatTypes)kUnitCombat.getKnockbackVSUnitCombatTypeChange(iI).first))
 				{
 					hasCombat = true;
 				}
 			}
-			else if (pUnit->isHasUnitCombat(kUnitCombat.getKnockbackVSUnitCombatTypeChange(iI).eUnitCombat))
+			else if (pUnit->isHasUnitCombat((UnitCombatTypes)kUnitCombat.getKnockbackVSUnitCombatTypeChange(iI).first))
 			{
 				hasCombat = true;
 			}
@@ -41311,7 +41311,7 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 		{
 			for (int iJ = 0; iJ < GC.getNumUnitCombatInfos(); iJ++)
 			{
-				iTemp = kUnitCombat.getKnockbackVSUnitCombatTypeChange(iI).iModifier;
+				iTemp = kUnitCombat.getKnockbackVSUnitCombatTypeChange(iI).second;
 				int iCombatWeight = 0;
 				//Fighting their own kind
 				if (hasCombat)
@@ -41362,12 +41362,12 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
     {
 		if (pUnit == NULL)
 		{
-			if (kUnit.hasUnitCombat(kUnitCombat.getPunctureVSUnitCombatTypeChange(iI).eUnitCombat))
+			if (kUnit.hasUnitCombat((UnitCombatTypes)kUnitCombat.getPunctureVSUnitCombatTypeChange(iI).first))
 			{
 				hasCombat = true;
 			}
 		}
-		else if (pUnit->isHasUnitCombat(kUnitCombat.getPunctureVSUnitCombatTypeChange(iI).eUnitCombat))
+		else if (pUnit->isHasUnitCombat((UnitCombatTypes)kUnitCombat.getPunctureVSUnitCombatTypeChange(iI).first))
 		{
 			hasCombat = true;
 		}
@@ -41388,7 +41388,7 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 	{
 		for (int iJ = 0; iJ < GC.getNumUnitCombatInfos(); iJ++)
 		{
-			iTemp = kUnitCombat.getPunctureVSUnitCombatTypeChange(iI).iModifier;
+			iTemp = kUnitCombat.getPunctureVSUnitCombatTypeChange(iI).second;
 			int iCombatWeight = 0;
 			//Fighting their own kind
 			if (hasCombat)
@@ -41429,12 +41429,12 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
     {
 		if (pUnit == NULL)
 		{
-			if (kUnit.hasUnitCombat(kUnitCombat.getArmorVSUnitCombatTypeChange(iI).eUnitCombat))
+			if (kUnit.hasUnitCombat((UnitCombatTypes)kUnitCombat.getArmorVSUnitCombatTypeChange(iI).first))
 			{
 				hasCombat = true;
 			}
 		}
-		else if (pUnit->isHasUnitCombat(kUnitCombat.getArmorVSUnitCombatTypeChange(iI).eUnitCombat))
+		else if (pUnit->isHasUnitCombat((UnitCombatTypes)kUnitCombat.getArmorVSUnitCombatTypeChange(iI).first))
 		{
 			hasCombat = true;
 		}
@@ -41455,7 +41455,7 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 	{
 		for (int iJ = 0; iJ < GC.getNumUnitCombatInfos(); iJ++)
 		{
-			iTemp = kUnitCombat.getArmorVSUnitCombatTypeChange(iI).iModifier;
+			iTemp = kUnitCombat.getArmorVSUnitCombatTypeChange(iI).second;
 			int iCombatWeight = 0;
 			//Fighting their own kind
 			if (hasCombat)
@@ -41496,12 +41496,12 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
     {
 		if (pUnit == NULL)
 		{
-			if (kUnit.hasUnitCombat(kUnitCombat.getDodgeVSUnitCombatTypeChange(iI).eUnitCombat))
+			if (kUnit.hasUnitCombat((UnitCombatTypes)kUnitCombat.getDodgeVSUnitCombatTypeChange(iI).first))
 			{
 				hasCombat = true;
 			}
 		}
-		else if (pUnit->isHasUnitCombat(kUnitCombat.getDodgeVSUnitCombatTypeChange(iI).eUnitCombat))
+		else if (pUnit->isHasUnitCombat((UnitCombatTypes)kUnitCombat.getDodgeVSUnitCombatTypeChange(iI).first))
 		{
 			hasCombat = true;
 		}
@@ -41522,7 +41522,7 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 	{
 		for (int iJ = 0; iJ < GC.getNumUnitCombatInfos(); iJ++)
 		{
-			iTemp = kUnitCombat.getDodgeVSUnitCombatTypeChange(iI).iModifier;
+			iTemp = kUnitCombat.getDodgeVSUnitCombatTypeChange(iI).second;
 			int iCombatWeight = 0;
 			//Fighting their own kind
 			if (hasCombat)
@@ -41563,12 +41563,12 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
     {
 		if (pUnit == NULL)
 		{
-			if (kUnit.hasUnitCombat(kUnitCombat.getPrecisionVSUnitCombatTypeChange(iI).eUnitCombat))
+			if (kUnit.hasUnitCombat((UnitCombatTypes)kUnitCombat.getPrecisionVSUnitCombatTypeChange(iI).first))
 			{
 				hasCombat = true;
 			}
 		}
-		else if (pUnit->isHasUnitCombat(kUnitCombat.getPrecisionVSUnitCombatTypeChange(iI).eUnitCombat))
+		else if (pUnit->isHasUnitCombat((UnitCombatTypes)kUnitCombat.getPrecisionVSUnitCombatTypeChange(iI).first))
 		{
 			hasCombat = true;
 		}
@@ -41589,7 +41589,7 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 	{
 		for (int iJ = 0; iJ < GC.getNumUnitCombatInfos(); iJ++)
 		{
-			iTemp = kUnitCombat.getPrecisionVSUnitCombatTypeChange(iI).iModifier;
+			iTemp = kUnitCombat.getPrecisionVSUnitCombatTypeChange(iI).second;
 			int iCombatWeight = 0;
 			//Fighting their own kind
 			if (hasCombat)
@@ -41630,12 +41630,12 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
     {
 		if (pUnit == NULL)
 		{
-			if (kUnit.hasUnitCombat(kUnitCombat.getCriticalVSUnitCombatTypeChange(iI).eUnitCombat))
+			if (kUnit.hasUnitCombat((UnitCombatTypes)kUnitCombat.getCriticalVSUnitCombatTypeChange(iI).first))
 			{
 				hasCombat = true;
 			}
 		}
-		else if (pUnit->isHasUnitCombat(kUnitCombat.getCriticalVSUnitCombatTypeChange(iI).eUnitCombat))
+		else if (pUnit->isHasUnitCombat((UnitCombatTypes)kUnitCombat.getCriticalVSUnitCombatTypeChange(iI).first))
 		{
 			hasCombat = true;
 		}
@@ -41656,7 +41656,7 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 	{
 		for (int iJ = 0; iJ < GC.getNumUnitCombatInfos(); iJ++)
 		{
-			iTemp = kUnitCombat.getCriticalVSUnitCombatTypeChange(iI).iModifier;
+			iTemp = kUnitCombat.getCriticalVSUnitCombatTypeChange(iI).second;
 			int iCombatWeight = 0;
 			//Fighting their own kind
 			if (hasCombat)
@@ -41697,12 +41697,12 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
     {
 		if (pUnit == NULL)
 		{
-			if (kUnit.hasUnitCombat(kUnitCombat.getRoundStunVSUnitCombatTypeChange(iI).eUnitCombat))
+			if (kUnit.hasUnitCombat((UnitCombatTypes)kUnitCombat.getRoundStunVSUnitCombatTypeChange(iI).first))
 			{
 				hasCombat = true;
 			}
 		}
-		else if (pUnit->isHasUnitCombat(kUnitCombat.getRoundStunVSUnitCombatTypeChange(iI).eUnitCombat))
+		else if (pUnit->isHasUnitCombat((UnitCombatTypes)kUnitCombat.getRoundStunVSUnitCombatTypeChange(iI).first))
 		{
 			hasCombat = true;
 		}
@@ -41723,7 +41723,7 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 	{
 		for (int iJ = 0; iJ < GC.getNumUnitCombatInfos(); iJ++)
 		{
-			iTemp = kUnitCombat.getRoundStunVSUnitCombatTypeChange(iI).iModifier;
+			iTemp = kUnitCombat.getRoundStunVSUnitCombatTypeChange(iI).second;
 			int iCombatWeight = 0;
 			//Fighting their own kind
 			if (hasCombat)
@@ -42164,12 +42164,12 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
     {
 		if (pUnit == NULL)
 		{
-			if (kUnit.hasUnitCombat(kUnitCombat.getUnitCombatChangeModifier(iI).eUnitCombat))
+			if (kUnit.hasUnitCombat((UnitCombatTypes)kUnitCombat.getUnitCombatChangeModifier(iI).first))
 			{
 				hasCombat = true;
 			}
 		}
-		else if (pUnit->isHasUnitCombat(kUnitCombat.getUnitCombatChangeModifier(iI).eUnitCombat))
+		else if (pUnit->isHasUnitCombat((UnitCombatTypes)kUnitCombat.getUnitCombatChangeModifier(iI).first))
 		{
 			hasCombat = true;
 		}
@@ -42190,7 +42190,7 @@ int CvPlayerAI::AI_unitCombatValue(UnitCombatTypes eUnitCombat, UnitTypes eUnit,
 	{
 		for (int iJ = 0; iJ < GC.getNumUnitCombatInfos(); iJ++)
 		{
-			iTemp = kUnitCombat.getUnitCombatChangeModifier(iI).iModifier;
+			iTemp = kUnitCombat.getUnitCombatChangeModifier(iI).second;
 			if (iTemp != 0)
 			{
 				int iCombatWeight = 0;

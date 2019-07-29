@@ -354,11 +354,8 @@
 	<ElementType name="LessYieldThresholds" content="eltOnly">
 		<element type="iLessYieldThreshold" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	<ElementType name="DisallowedTraitType" content="eltOnly">
-		<element type="TraitType"/>
-	</ElementType>
 	<ElementType name="DisallowedTraitTypes" content="eltOnly">
-		<element type="DisallowedTraitType" minOccurs="0" maxOccurs="*"/>
+		<element type="TraitType" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
 	<ElementType name="SeaPlotYieldChanges" content="eltOnly">
 		<element type="iYield" minOccurs="0" maxOccurs="*"/>

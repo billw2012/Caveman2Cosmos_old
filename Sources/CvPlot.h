@@ -76,6 +76,7 @@ public:
 	void operator delete[](void* instance) { GC.getGameINLINE().getAllocator().deAllocate(instance); }
 
 	CvGameObjectPlot* getGameObject() {return &m_GameObject;};
+	const CvGameObjectPlot* getGameObjectConst() const {return (const CvGameObjectPlot*)&m_GameObject;};
 
 protected:
 	CvGameObjectPlot m_GameObject;

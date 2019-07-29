@@ -24,19 +24,25 @@ class CvUnit;
 class CvPlot;
 class CvGameObject;
 
-struct PropertyBuilding
+struct PropertyMinMax
 {
 	int iMinValue;
 	int iMaxValue;
-	BuildingTypes eBuilding;
 };
 
-struct PropertyPromotion
-{
-	int iMinValue;
-	int iMaxValue;
-	PromotionTypes ePromotion;
-};
+//struct PropertyBuilding
+//{
+//	int iMinValue;
+//	int iMaxValue;
+//	BuildingTypes eBuilding;
+//};
+//
+//struct PropertyPromotion
+//{
+//	int iMinValue;
+//	int iMaxValue;
+//	PromotionTypes ePromotion;
+//};
 
 class CvProperties
 {
