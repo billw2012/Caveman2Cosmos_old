@@ -6,7 +6,7 @@
 // Only compile in FAssert's if FASSERT_ENABLE is defined.  By default, however, let's key off of
 // _DEBUG.  Sometimes, however, it's useful to enable asserts in release builds, and you can do that
 // simply by changing the following lines to define FASSERT_ENABLE or using project settings to override
-#ifdef _DEBUG
+#if defined(_DEBUG) && !defined(FASSERT_ENABLE)
 #define FASSERT_ENABLE
 #endif
 

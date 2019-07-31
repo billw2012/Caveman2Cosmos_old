@@ -48,7 +48,10 @@ RC="$(PSDK)\bin\rc.exe"
 ## Overwritten by enviroment variable FASTDEP_FULL_PATH
 FD="deps\fastdep\fastdep.exe"
 
-#### BLACKLIST ####
+TORTOISE="C:\Program files\TortoiseSVN"
+WCREV="$(TORTOISE)\bin\SubWCRev.exe"
+
+### BLACKLIST ####
 ## Uncomment to block CvTextScreen (accidentally included by Firaxis)
 # BLACKLIST=CvTextScreens
 
@@ -189,7 +192,6 @@ INCS = $(PROJECT_INCS) $(GLOBAL_INCS)
 GLOBAL_LIBS=/LIBPATH:"$(TOOLKIT)/lib" /LIBPATH:"$(PSDK)/Lib" winmm.lib user32.lib psapi.lib advapi32.lib
 LIBS = $(PROJECT_LIBS) $(GLOBAL_LIBS)
 
-
 !IF "$(TARGET)" == "Debug"
 CFLAGS  = $(Debug_CFLAGS) /DFASSERT_ENABLE
 LDFLAGS = $(Debug_LDFLAGS)
@@ -246,15 +248,18 @@ source_list: Make_Dir
 	@ECHO Building source list
 	@ECHO SOURCES= \> $(FILE_DEPENDS)
 	@FOR %j in ($(SUBDIRS)) DO @(FOR %i IN ($(SOURCE_DIR)\%j\*.cpp) DO @ECHO %i \>> $(FILE_DEPENDS))
-    @ECHO.>> $(FILE_DEPENDS)
+	@ECHO.>> $(FILE_DEPENDS)
 	@ECHO OBJS= \>> $(FILE_DEPENDS)
-    @FOR %j in ($(SUBDIRS)) DO @(FOR /F "delims=." %i IN ('dir /b $(SOURCE_DIR)\%j\*.cpp') DO @ECHO. $(TEMP_TARGET_FILES)\%j\%i.obj \>> $(FILE_DEPENDS))
-    @ECHO.>> $(FILE_DEPENDS)
+	@FOR %j in ($(SUBDIRS)) DO @(FOR /F "delims=." %i IN ('dir /b $(SOURCE_DIR)\%j\*.cpp') DO @ECHO. $(TEMP_TARGET_FILES)\%j\%i.obj \>> $(FILE_DEPENDS))
+	@ECHO.>> $(FILE_DEPENDS)
+!IFDEF WCREV
+	@$(WCREV) . version.svn version.h
+!ENDIF
 
 fastdep:
 	@ECHO Running fastdep
 	@$(FD) --objectextension=pch -q --removepath=$(SOURCE_DIR)\ -O $(TEMP_TARGET_FILES) $(SOURCE_DIR)\CvGameCoreDLL.cpp >> $(FILE_DEPENDS)
-    @$(FD) --objectextension=obj -q --removepath=$(SOURCE_DIR)\ -O $(TEMP_TARGET_FILES) $(SOURCES) >> $(FILE_DEPENDS)
+	@$(FD) --objectextension=obj -q --removepath=$(SOURCE_DIR)\ -O $(TEMP_TARGET_FILES) $(SOURCES) >> $(FILE_DEPENDS)
 
 Make_Dir:
 	@FOR %j in ($(SUBDIRS)) DO @(IF NOT EXIST "$(TEMP_TARGET_FILES)\%j\." MKDIR "$(TEMP_TARGET_FILES)\%j")
