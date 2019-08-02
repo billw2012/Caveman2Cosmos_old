@@ -13,7 +13,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ANTELOPE_MYTH</ArtDefineTag>
 			<PrereqTech>TECH_TAXONOMY</PrereqTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -79,7 +78,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_WEASEL_MYTH</ArtDefineTag>
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -117,7 +115,6 @@
 			<PrereqTech>TECH_ORAL_TRADITION</PrereqTech>
 			<FreeBuilding>BUILDINGCLASS_BULL_MYTH_EFFECT</FreeBuilding>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -163,7 +160,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_BULL_MYTH_EFFECT</ArtDefineTag>
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -181,7 +177,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CAMEL_MYTH</ArtDefineTag>
 			<PrereqTech>TECH_ORAL_TRADITION</PrereqTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -227,7 +222,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_DEER_MYTH</ArtDefineTag>
 			<PrereqTech>TECH_TAXONOMY</PrereqTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -271,7 +265,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_DEER_MYTH</ArtDefineTag>
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -305,7 +298,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ELEPHANT_MYTH</ArtDefineTag>
 			<PrereqTech>TECH_TAXONOMY</PrereqTech>
 			<iCost>250</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -359,7 +351,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ELEPHANT_MYTH</ArtDefineTag>
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -393,7 +384,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_GOAT_MYTH</ArtDefineTag>
 			<PrereqTech>TECH_ORAL_TRADITION</PrereqTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -439,7 +429,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HORSE_MYTH</ArtDefineTag>
 			<PrereqTech>TECH_ORAL_TRADITION</PrereqTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -485,7 +474,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_MARSUPIAL_MYTH</ArtDefineTag>
 			<PrereqTech>TECH_TAXONOMY</PrereqTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -529,7 +517,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_MARSUPIAL_MYTH</ArtDefineTag>
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -566,7 +553,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_OLD_MAN_MYTH</ArtDefineTag>
 			<PrereqTech>TECH_ORAL_TRADITION</PrereqTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -609,7 +595,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_SCAVENGER_MYTH</ArtDefineTag>
 			<PrereqTech>TECH_ORAL_TRADITION</PrereqTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -653,7 +638,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_SCAVENGER_MYTH</ArtDefineTag>
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -690,7 +674,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_SPOTTED_CAT_MYTH</ArtDefineTag>
 			<PrereqTech>TECH_TAXONOMY</PrereqTech>
 			<iCost>250</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -756,7 +739,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_SPOTTED_CAT_MYTH</ArtDefineTag>
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -790,7 +772,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_TIGER_MYTH</ArtDefineTag>
 			<PrereqTech>TECH_ORAL_TRADITION</PrereqTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -833,7 +814,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_WEASEL_MYTH</ArtDefineTag>
 			<PrereqTech>TECH_TAXONOMY</PrereqTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -891,7 +871,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_WEASEL_MYTH</ArtDefineTag>
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>

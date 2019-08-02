@@ -375,7 +375,7 @@ class CvCivicsScreen:
 					self.currentCivics[iCivicOption] = iCivic
 					break
 				iCount += 1
-			else: 
+			else:
 				iCivicOption += 1; continue
 			break
 

@@ -3770,7 +3770,7 @@
 			<Description>TXT_KEY_BUILDING_MASTER_HUNTER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_MASTER_HUNTER</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
@@ -3954,7 +3954,7 @@
 			<Description>TXT_KEY_BUILDING_MASTER_HUNTER_TRADITION</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>			
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_MASTER_HUNTER_TRADITION</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
@@ -7044,7 +7044,7 @@
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultBuilding>BUILDING_JAGUAR_STORIES_EFFECT</DefaultBuilding>
-		</BuildingClassInfo>		
+		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_KOALA_MYTH</Type>
 			<Description>TXT_KEY_BUILDING_KOALA_MYTH</Description>

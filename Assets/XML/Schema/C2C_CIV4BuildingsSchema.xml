@@ -36,8 +36,8 @@
 	<ElementType name="iDamageAttackerChance" content="textOnly" dt:type="int"/>
 	<ElementType name="iDamageToAttacker" content="textOnly" dt:type="int"/>
 	<ElementType name="iMaxPopulationAllowed" content="textOnly" dt:type="int"/>
-	<ElementType name="iMaxPopulationChange" content="textOnly" dt:type="int"/>	
-	<ElementType name="iInsidiousness" content="textOnly" dt:type="int"/>	
+	<ElementType name="iMaxPopulationChange" content="textOnly" dt:type="int"/>
+	<ElementType name="iInsidiousness" content="textOnly" dt:type="int"/>
 	<ElementType name="iInvestigation" content="textOnly" dt:type="int"/>
 	<ElementType name="iOutbreakBase" content="textOnly" dt:type="int"/>
 	<ElementType name="iOvercomeBase" content="textOnly" dt:type="int"/>
@@ -58,11 +58,8 @@
 	<ElementType name="FreePromoTypes" content="eltOnly">
 		<element type="FreePromoType" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	<ElementType name="FreeTraitType" content="eltOnly">
-		<element type="TraitType" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
 	<ElementType name="FreeTraitTypes" content="eltOnly">
-		<element type="FreeTraitType" minOccurs="0" maxOccurs="*"/>
+		<element type="TraitType" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
 	<ElementType name="iHeal" content="textOnly" dt:type="int"/>
 	<ElementType name="HealUnitCombatType" content="eltOnly">
@@ -244,16 +241,13 @@
 		<element type="Hurry" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
 	<ElementType name="CivilizationType" content="textOnly"/>
-	<ElementType name="EnabledCivilizationType" content="eltOnly">
-		<element type="CivilizationType"/>
-	</ElementType>
 	<ElementType name="EnabledCivilizationTypes" content="eltOnly">
-		<element type="EnabledCivilizationType" minOccurs="0" maxOccurs="*"/>
+		<element type="CivilizationType" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
 	<!-- Expression System tags -->
 	<ElementType name="FreePromotionCondition"/>
-	<!-- TB's Tags End -->	
-    <!-- Replacements added by AIAndy -->  
+	<!-- TB's Tags End -->
+    <!-- Replacements added by AIAndy -->
 	<ElementType name="ReplacementCondition"/>
 	<ElementType name="ReplacementID"/>
   <!-- Expressions added by AIAndy -->
@@ -308,7 +302,7 @@
 	<ElementType name="iNoDecayAmount" content="textOnly" dt:type="int"/>
 	<ElementType name="iNoConvertAmount" content="textOnly" dt:type="int"/>
 	<ElementType name="Active"/>
-	
+
 	<ElementType name="PropertySource" content="eltOnly" order="many">
 		<element type="PropertySourceType" minOccurs="1" maxOccurs="*"/>
 		<element type="PropertyType" minOccurs="1" maxOccurs="*"/>
@@ -322,7 +316,7 @@
 		<element type="iNoDecayAmount" minOccurs="0" maxOccurs="*"/>
 		<element type="Active" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="PropertyInteraction" content="eltOnly" order="many">
 		<element type="PropertyInteractionType" minOccurs="1" maxOccurs="*"/>
 		<element type="SourcePropertyType" minOccurs="1" maxOccurs="*"/>
@@ -337,7 +331,7 @@
 		<element type="iNoConvertAmount" minOccurs="0" maxOccurs="*"/>
 		<element type="Active" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="PropertyPropagator" content="eltOnly" order="many">
 		<element type="PropertyPropagatorType" minOccurs="1" maxOccurs="*"/>
 		<element type="PropertyType" minOccurs="1" maxOccurs="*"/>
@@ -352,13 +346,13 @@
 		<element type="iPercent" minOccurs="0" maxOccurs="*"/>
 		<element type="Active" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="PropertyManipulators" content="eltOnly" order="many">
     <element type="PropertySource" minOccurs="0" maxOccurs="*"/>
     <element type="PropertyInteraction" minOccurs="0" maxOccurs="*"/>
 		<element type="PropertyPropagator" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="Type" content="textOnly"/>
 <!-- XMLCOPY				02/20/2008			MRGENIE		-->
 	<ElementType name="bTypeDependency" content="textOnly" dt:type="boolean"/>
@@ -372,7 +366,7 @@
 	<ElementType name="OrDependencyTypes" content="eltOnly">
 		<element type="DependencyType" minOccurs="1"/>
 	</ElementType>
-<!-- XMLCOPY				END					MRGENIE		-->	
+<!-- XMLCOPY				END					MRGENIE		-->
 	<ElementType name="iMaxGlobalInstances" content="textOnly" dt:type="int"/>
 	<ElementType name="iMaxTeamInstances" content="textOnly" dt:type="int"/>
 	<ElementType name="iMaxPlayerInstances" content="textOnly" dt:type="int"/>
@@ -718,7 +712,7 @@
 	<ElementType name="PrereqPlayerMaxProperties" content="eltOnly">
 		<element type="Property" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="bCommerce" content="textOnly" dt:type="boolean"/>
 	<ElementType name="CommerceFlexibles" content="eltOnly">
 		<element type="bCommerce" minOccurs="0" maxOccurs="*"/>
@@ -1294,7 +1288,7 @@
 		<element type="PrereqTech"/>
 		<element type="iHealth"/>
 	</ElementType>
-	
+
 	<ElementType name="iStrength" content="textOnly" dt:type="int"/>
 	<ElementType name="UnitCombatExtraStrength" content="eltOnly">
 		<element type="UnitCombatType"/>
@@ -1303,19 +1297,13 @@
 	<ElementType name="UnitCombatExtraStrengths" content="eltOnly">
 		<element type="UnitCombatExtraStrength" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
-	<ElementType name="bPrereqCivic" content="textOnly" dt:type="boolean"/>
-	<ElementType name="PrereqCivic" content="eltOnly">
-		<element type="CivicOption"/>
-		<element type="bPrereqCivic"/>
-	</ElementType>
 	<ElementType name="PrereqOrCivics" content="eltOnly">
-		<element type="PrereqCivic" minOccurs="0" maxOccurs="*"/>
+		<element type="CivicOption" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
 	<ElementType name="PrereqAndCivics" content="eltOnly">
-		<element type="PrereqCivic" minOccurs="0" maxOccurs="*"/>
+		<element type="CivicOption" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="bPrereqTerrain" content="textOnly" dt:type="boolean"/>
 	<ElementType name="TerrainType" content="textOnly"/>
 	<ElementType name="PrereqTerrain" content="eltOnly">
@@ -1328,7 +1316,7 @@
 	<ElementType name="PrereqAndTerrain" content="eltOnly">
 		<element type="PrereqTerrain" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="bPrereqImprovement" content="textOnly" dt:type="boolean"/>
 	<ElementType name="PrereqImprovement" content="eltOnly">
 		<element type="ImprovementType"/>
@@ -1337,7 +1325,7 @@
 	<ElementType name="PrereqOrImprovement" content="eltOnly">
 		<element type="PrereqImprovement" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="FeatureType" content="textOnly"/>
 	<ElementType name="bPrereqFeature" content="textOnly" dt:type="boolean"/>
 	<ElementType name="PrereqFeature" content="eltOnly">
@@ -1347,7 +1335,7 @@
 	<ElementType name="PrereqOrFeature" content="eltOnly">
 		<element type="PrereqFeature" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="bPrereqNot" content="textOnly" dt:type="boolean"/>
 	<ElementType name="BuildingClassMustNotHave" content="textOnly"/>
 	<ElementType name="PrereqNotBuildingClass" content="eltOnly">
@@ -1357,7 +1345,7 @@
 	<ElementType name="PrereqNotBuildingClasses" content="eltOnly">
 		<element type="PrereqNotBuildingClass" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="bReplace" content="textOnly" dt:type="boolean"/>
 	<ElementType name="ReplaceBuilding" content="eltOnly">
 		<element type="BuildingClassType"/>
@@ -1374,8 +1362,8 @@
 	</ElementType>
 	<ElementType name="UnitClassProductionModifiers" content="eltOnly">
 		<element type="UnitClassProductionModifier" minOccurs="0" maxOccurs="*"/>
-	</ElementType>	
-	
+	</ElementType>
+
 	<ElementType name="BuildingClassProductionModifier" content="eltOnly">
 		<element type="BuildingClassType"/>
 		<element type="iProductionModifier"/>
@@ -1386,7 +1374,7 @@
 	<ElementType name="GlobalBuildingClassProductionModifiers" content="eltOnly">
 		<element type="BuildingClassProductionModifier" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="BonusCommerceModifier" content="eltOnly">
 		<element type="BonusType"/>
 		<element type="CommerceModifiers"/>
@@ -1394,7 +1382,7 @@
 	<ElementType name="BonusCommerceModifiers" content="eltOnly">
 		<element type="BonusCommerceModifier" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="iCommercePercent" content="textOnly" dt:type="int"/>
 	<ElementType name="CommercePercents" content="eltOnly">
 		<element type="iCommercePercent" minOccurs="0" maxOccurs="*"/>
@@ -1414,11 +1402,11 @@
 	<ElementType name="BonusYieldChanges" content="eltOnly">
 		<element type="BonusYieldChange" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="CommerceAttacks" content="eltOnly">
 		<element type="iCommerce" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="VicinityBonusYieldChanges" content="eltOnly">
 		<element type="BonusYieldChange" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
@@ -1431,7 +1419,7 @@
 	<ElementType name="PrereqRawVicinityBonuses" content="eltOnly">
 		<element type="VicinityBonus" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="iDefenseChange" content="textOnly" dt:type="int"/>
 	<ElementType name="BonusDefenseChange" content="eltOnly">
 		<element type="BonusType"/>
@@ -1451,7 +1439,7 @@
 	<ElementType name="GlobalBuildingExtraCommerces" content="eltOnly">
 		<element type="BuildingExtraCommerce" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="bPrereqBuildingClass" content="textOnly" dt:type="boolean"/>
 	<ElementType name="PrereqOrBuildingClass" content="eltOnly">
 		<element type="BuildingClassType"/>
@@ -1460,7 +1448,7 @@
 	<ElementType name="PrereqOrBuildingClasses" content="eltOnly">
 		<element type="PrereqOrBuildingClass" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
-	
+
 	<ElementType name="bPrereqGameSpeed" content="textOnly" dt:type="boolean"/>
 	<ElementType name="GameSpeedType" content="textOnly"/>
 	<ElementType name="PrereqOrGameSpeed" content="eltOnly">

@@ -56,7 +56,7 @@ class FractalWorld:
 		self.stripRadius = 15
 
 	def checkForOverrideDefaultUserInputVariances(self):
-		# Subclass and override this function to customize/alter/nullify 
+		# Subclass and override this function to customize/alter/nullify
 		# the XML defaults for user selections on Sea Level, Climate, etc.
 		return
 
@@ -847,7 +847,7 @@ class MultilayeredFractal:
 		# smaller patches of similar values. Small grains create large patches.)
 		#
 		# Here is an example of obtaining grain sizes to fit with map sizes.
-		
+
 		# Rise of Mankind MOD EDIT START --------------------------------------
 		sizekey = self.map.getWorldSize()
 		sizevalues = {
@@ -861,7 +861,7 @@ class MultilayeredFractal:
 			WorldSizeTypes.WORLDSIZE_GIGANTIC:  (6,2,1,2)
 			}
 		# Rise of Mankind MOD EDIT END ----------------------------------------
-		
+
 		# You can add as many grain entries as you like.
 		# Seed them all from the matrix using the following type of line:
 		(iGrainOne, iGrainTwo, iGrainThree, iGrainFour) = sizevalues[sizekey]
@@ -1002,7 +1002,7 @@ class TerrainGenerator:
 		self.iFlags = 0  # Disallow FRAC_POLAR flag, to prevent "zero row" problems.
 		if self.map.isWrapX(): self.iFlags += CyFractal.FracVals.FRAC_WRAP_X
 		if self.map.isWrapY(): self.iFlags += CyFractal.FracVals.FRAC_WRAP_Y
-		
+
 		#C2C
 		self.rainmap=CyFractal()
 #		self.plains=CyFractal()
@@ -1048,7 +1048,7 @@ class TerrainGenerator:
 		fTundraLatitude = min(fTundraLatitude, 1.0)
 		fTundraLatitude = max(fTundraLatitude, 0.0)
 		self.fTundraLatitude = fTundraLatitude
-		
+
 		self.fTaigaLatitude = fTundraLatitude - (fIceLatitude - fTundraLatitude) / 2.0
 		self.fPermafrostLatitude = fTundraLatitude + (fIceLatitude - fTundraLatitude) / 3.0
 
@@ -1073,10 +1073,10 @@ class TerrainGenerator:
 		self.initFractals()
 
 	def initFractals(self):
-	
-		#C2C	
+
+		#C2C
 		self.rainmap.fracInit(self.iWidth, self.iHeight, self.grain_amount, self.mapRand, self.iFlags, self.fracXExp, self.fracYExp)
-		
+
 		self.desertThreshold = self.rainmap.getHeightFromPercent(self.DesertPercent)
 		self.saltflatsThreshold = self.rainmap.getHeightFromPercent(self.SaltFlatsPercent)
 		self.dunesThreshold = self.rainmap.getHeightFromPercent(self.DunesPercent)
@@ -1087,7 +1087,7 @@ class TerrainGenerator:
 		self.grasslandThreshold = self.rainmap.getHeightFromPercent(self.GrasslandPercent)
 		self.lushThreshold = self.rainmap.getHeightFromPercent(self.LushPercent)
 		self.muddyThreshold = self.rainmap.getHeightFromPercent(self.MuddyPercent)
-		
+
 #		self.plains.fracInit(self.iWidth, self.iHeight, self.grain_amount+1, self.mapRand, self.iFlags, self.fracXExp, self.fracYExp)
 #		self.iPlainsTop = self.plains.getHeightFromPercent(self.iPlainsTopPercent)
 #		self.iPlainsBottom = self.plains.getHeightFromPercent(self.iPlainsBottomPercent)
@@ -1115,7 +1115,7 @@ class TerrainGenerator:
 		self.terrainBarren = self.gc.getInfoTypeForString("TERRAIN_BARREN")
 		self.terrainLush = self.gc.getInfoTypeForString("TERRAIN_LUSH")
 		self.terrainMuddy = self.gc.getInfoTypeForString("TERRAIN_MUDDY")
-		
+
 	def getLatitudeAtPlot(self, iX, iY):
 		"""given a point (iX,iY) such that (0,0) is in the NW,
 		returns a value between 0.0 (tropical) and 1.0 (polar).
@@ -1167,7 +1167,7 @@ class TerrainGenerator:
 
 		if (plot.isWater()):
 			return self.map.plot(iX, iY).getTerrainType()
-		
+
 		#C2C
 		if lat >= self.fIceLatitude:
 			terrainVal = self.terrainIce
@@ -1223,8 +1223,8 @@ class TerrainGenerator:
 				terrainVal = self.terrainMuddy
 			else:
 				terrainVal = self.terrainMarsh
-						
-			
+
+
 			#if ((desertVal >= self.iDesertBottom) and (desertVal <= self.iDesertTop) and (lat >= self.fDesertBottomLatitude) and (lat < self.fDesertTopLatitude)):
 			#	terrainVal = self.terrainDesert
 			#elif ((marshVal >= self.iMarshBottom) and (marshVal <= self.iMarshTop) and plot.isFlatlands() and (lat >= self.fDesertBottomLatitude) and (lat < self.fDesertTopLatitude)):
@@ -1239,7 +1239,7 @@ class TerrainGenerator:
 
 class FeatureGenerator:
 	def __init__(self, iJunglePercent=80, iForestPercent=60,
-	             jungle_grain=5, forest_grain=6, 
+	             jungle_grain=5, forest_grain=6,
 	             fracXExp=-1, fracYExp=-1):
 
 		self.gc = CyGlobalContext()
@@ -1247,7 +1247,7 @@ class FeatureGenerator:
 		self.mapRand = self.gc.getGame().getMapRand()
 		self.jungles = CyFractal()
 		self.forests = CyFractal()
-		
+
 		self.iFlags = 0  # Disallow FRAC_POLAR flag, to prevent "zero row" problems.
 		if self.map.isWrapX(): self.iFlags += CyFractal.FracVals.FRAC_WRAP_X
 		if self.map.isWrapY(): self.iFlags += CyFractal.FracVals.FRAC_WRAP_Y
@@ -1273,16 +1273,16 @@ class FeatureGenerator:
 	def __initFractals(self):
 		self.jungles.fracInit(self.iGridW, self.iGridH, self.jungle_grain, self.mapRand, self.iFlags, self.fracXExp, self.fracYExp)
 		self.forests.fracInit(self.iGridW, self.iGridH, self.forest_grain, self.mapRand, self.iFlags, self.fracXExp, self.fracYExp)
-		
+
 		self.iJungleBottom = self.jungles.getHeightFromPercent((100 - self.iJunglePercent)/2)
 		self.iJungleTop = self.jungles.getHeightFromPercent((100 + self.iJunglePercent)/2)
 		self.iForestLevel = self.forests.getHeightFromPercent(self.iForestPercent)
-		
+
 	def __initFeatureTypes(self):
 		self.featureIce = self.gc.getInfoTypeForString("FEATURE_ICE")
 		self.featureJungle = self.gc.getInfoTypeForString("FEATURE_JUNGLE")
 		self.featureForest = self.gc.getInfoTypeForString("FEATURE_FOREST")
-		
+
 	def addFeatures(self):
 		"adds features to all plots as appropriate"
 		for iX in range(self.iGridW):
@@ -1316,7 +1316,7 @@ class FeatureGenerator:
 
 		if (pPlot.getFeatureType() == FeatureTypes.NO_FEATURE):
 			self.addJunglesAtPlot(pPlot, iX, iY, lat)
-			
+
 		if (pPlot.getFeatureType() == FeatureTypes.NO_FEATURE):
 			self.addForestsAtPlot(pPlot, iX, iY, lat)
 
@@ -1338,7 +1338,7 @@ class FeatureGenerator:
 			iJungleHeight = self.jungles.getHeight(iX, iY)
 			if self.iJungleTop >= iJungleHeight >= self.iJungleBottom + (self.iJungleTop - self.iJungleBottom)*self.gc.getClimateInfo(self.map.getClimate()).getJungleLatitude()*lat:
 				pPlot.setFeatureType(self.featureJungle, -1)
-	
+
 	def addForestsAtPlot(self, pPlot, iX, iY, lat):
 		if pPlot.canHaveFeature(self.featureForest):
 			if self.forests.getHeight(iX, iY) >= self.iForestLevel:
@@ -1380,9 +1380,9 @@ def findStartingPlot(playerID, validFn = None):
 				val = pLoopPlot.getFoundValue(playerID)
 
 				if val > iBestValue:
-				
+
 					valid = True
-					
+
 					for iI in range(gc.getMAX_PC_PLAYERS()):
 						if (gc.getPlayer(iI).isAlive()):
 							if (iI != playerID):
@@ -1426,19 +1426,19 @@ class BonusBalancer:
 	def __init__(self):
 		self.gc = CyGlobalContext()
 		self.map = CyMap()
-		
+
 		# Rise of Mankind mod start
 		self.resourcesToBalance = ('BONUS_BAUXITE', 'BONUS_COAL', 'BONUS_COPPER', 'BONUS_HORSE', 'BONUS_IRON', 'BONUS_OIL', 'BONUS_URANIUM', 'BONUS_SULPHUR', 'BONUS_RUBBER')
 		# Rise of Mankind mod end
-		
+
 		self.resourcesToEliminate = ('BONUS_MARBLE', )
-		
+
 	def isSkipBonus(self, iBonusType):
 		type_string = self.gc.getBonusInfo(iBonusType).getType()
 
 		return ((type_string in self.resourcesToBalance) or (type_string in self.resourcesToEliminate))
 
-		
+
 	def isBonusValid(self, eBonus, pPlot, bIgnoreUniqueRange, bIgnoreOneArea, bIgnoreAdjacent):
 		"Returns True if we can place a bonus here"
 
@@ -1448,7 +1448,7 @@ class BonusBalancer:
 			if self.map.getNumBonuses(eBonus) > 0:
 				if self.map.getArea(pPlot.getArea()).getNumBonuses(eBonus) == 0:
 					return False
-					
+
 		if not bIgnoreAdjacent:
 			for iI in range(DirectionTypes.NUM_DIRECTION_TYPES):
 				pLoopPlot = plotDirection(iX, iY, DirectionTypes(iI))
@@ -1463,16 +1463,16 @@ class BonusBalancer:
 					pLoopPlot = plotXY(iX, iY, iDX, iDY)
 					if not pLoopPlot.isNone() and pLoopPlot.getBonusType(-1) == eBonus:
 						return False
-		
+
 		return True
 
 	def normalizeAddExtras(self):
-	
+
 		for i in range(self.gc.getMAX_PC_PLAYERS()):
 			if (self.gc.getPlayer(i).isAlive()):
 				start_plot = self.gc.getPlayer(i).getStartingPlot() # returns a CyPlot
 				startx, starty = start_plot.getX(), start_plot.getY()
-				
+
 				plots = [] # build a list of the plots near the starting plot
 				for dx in range(-5,6):
 					for dy in range(-5,6):
@@ -1480,13 +1480,13 @@ class BonusBalancer:
 						pLoopPlot = self.map.plot(x,y)
 						if not pLoopPlot.isNone():
 							plots.append(pLoopPlot)
-				
+
 				resources_placed = []
 				for pass_num in range(4):
 					bIgnoreUniqueRange  = pass_num >= 1
 					bIgnoreOneArea 		= pass_num >= 2
 					bIgnoreAdjacent 	= pass_num >= 3
-					
+
 					for bonus in range(self.gc.getNumBonusInfos()):
 						type_string = self.gc.getBonusInfo(bonus).getType()
 						if (type_string not in resources_placed) and (type_string in self.resourcesToBalance):
@@ -1506,40 +1506,40 @@ def isSinglePlotIsland(pPlot):
 	# check that each plot around this plot is sea/coast
 	iPlotX = pPlot.getX()
 	iPlotY = pPlot.getY()
-	
+
 	iX = iPlotX - 1
 	while iX < iPlotX + 2:
 		iY = iPlotY - 1
 		while iY < iPlotY + 2:
 			if not ( iX == iPlotX and iY == iPlotY):
 				testplot = CyMap().plot(iX, iY)
-				#~ if testplot.isFlatlands () or testplot.isHills():  # allow peaks for isolated beaches?? 
-				if not testplot.isWater (): 
+				#~ if testplot.isFlatlands () or testplot.isHills():  # allow peaks for isolated beaches??
+				if not testplot.isWater ():
 					return False
 			iY = iY + 1
 		iX = iX + 1
-	
+
 	return True
-	
+
 def isSeaCoastalLand(pPlot):
 	# check that at least one plot around this plot is sea/coast
 	if not pPlot.isCoastalLand():
 		return False
-		
+
 	iPlotX = pPlot.getX()
 	iPlotY = pPlot.getY()
-	
+
 	iX = iPlotX - 1
 	while iX < iPlotX + 2:
 		iY = iPlotY - 1
 		while iY < iPlotY + 2:
 			if not ( iX == iPlotX and iY == iPlotY):
 				testplot = CyMap().plot(iX, iY)
-				if testplot.isWater () and not testplot.isLake(): 
+				if testplot.isWater () and not testplot.isLake():
 					return True
 			iY = iY + 1
 		iX = iX + 1
-	
+
 	return False
 
 def placeSealOrWalrus(iPlot, iSeaLion, iWalrus, bNorth):
@@ -1551,7 +1551,7 @@ def placeSealOrWalrus(iPlot, iSeaLion, iWalrus, bNorth):
 		iPlot.setBonusType(iSeaLion)
 	return
 
-					
+
 def c2CMapReport(sWhen):
 	countPlotType = [0, 0, 0, 0]
 	countTerrain = {}
@@ -1566,7 +1566,7 @@ def c2CMapReport(sWhen):
 	iEquatorPlot = map.getGridHeight()/2
 	iWestRightEdge = iMapWidth/3
 	iCentralRightEdge = iMapWidth - iWestRightEdge
-	
+
 	for i in range(iNumPlots):
 		iPlot = map.plotByIndex(i)
 		iPlotType = iPlot.getPlotType()
@@ -1599,7 +1599,7 @@ def c2CMapReport(sWhen):
 			countPlotType[2] += 1
 		elif iPlotType == PlotTypes.PLOT_PEAK:
 			countPlotType[3] += 1
-		
+
 		iTerrain = iPlot.getTerrainType()
 		if iTerrain in countTerrain:
 			countTerrain[iTerrain] += 1
@@ -1689,9 +1689,9 @@ def c2CMapReport(sWhen):
 				sprint += "( %s - %i ) \n" % (region, countResource[region,boni])
 			else:
 				sprint += "( %s - %i ) \n" % (region, 0)
-	
+
 		boni = boni + 1
-	
+
 	sprint += "\n"
 
 	# Display actual Mod-Improvements
@@ -1704,29 +1704,29 @@ def c2CMapReport(sWhen):
 	print "[MST] ####################################################################### C2C:MapStatistics ###"
 
 	return
-	
+
 def placeC2CBonuses():
 	gc = CyGlobalContext()
 	mmap = gc.getMap()
 	mapRand = gc.getGame().getMapRand()
-	
+
 	gb_GoodyHuts = True
 	if CyGame().isOption(GameOptionTypes.GAMEOPTION_NO_GOODY_HUTS):
 		gb_GoodyHuts = False
-	
+
 	c2CMapReport("Before adjustment")
-	
+
 	cNORTH = "NORTHERN HEMISPHERE"
 	cSOUTH = "SOUTHERN HEMISPHERE"
 	cWEST = "WESTERN HEMISPHERE"
 	cCENTRAL = "CENTRAL HEMISPHERE"
 	cEAST = "EASTERN HEMISPHERE"
-	
+
 	iMapWidth = mmap.getGridWidth()
 	iEquatorPlot = mmap.getGridHeight()/2
 	iWestRightEdge = iMapWidth/3
 	iCentralRightEdge = iMapWidth - iWestRightEdge
-	
+
 	iSeaLion = gc.getInfoTypeForString("BONUS_SEA_LIONS")
 	iWalrus = gc.getInfoTypeForString("BONUS_WALRUS")
 	iKangaroo = gc.getInfoTypeForString("BONUS_KANGAROO")
@@ -1751,25 +1751,25 @@ def placeC2CBonuses():
 	terrainTropicalCoast = gc.getInfoTypeForString("TERRAIN_COAST_TROPICAL")
 	terrainTropicalSea = gc.getInfoTypeForString("TERRAIN_SEA_TROPICAL")
 	terrainTropicalOcean = gc.getInfoTypeForString("TERRAIN_OCEAN_TROPICAL")
-	
+
 	aCoastTerrains = [ terrainCoast, terrainPolarCoast, terrainTropicalCoast]
 
 	terrainMarsh = gc.getInfoTypeForString("TERRAIN_MARSH")
 	terrainTaiga = gc.getInfoTypeForString("TERRAIN_TAIGA")
 	terrainDesert = gc.getInfoTypeForString("TERRAIN_DESERT")
 	terrainScrub = gc.getInfoTypeForString("TERRAIN_SCRUB")
-	
+
 	featureReef = gc.getInfoTypeForString("FEATURE_REEF")
 	featureKelp = gc.getInfoTypeForString("FEATURE_KELP")
 	#featureIce = gc.getInfoTypeForString("FEATURE_ICE")
 	featureMangrove = gc.getInfoTypeForString("FEATURE_MANGROVE")
 	featureCactus = gc.getInfoTypeForString("FEATURE_KAKTUS")
-	
+
 	improvementGoodyIsland = gc.getInfoTypeForString("IMPROVEMENT_GOODY_ISLAND")
 
 	for i in range(mmap.numPlots()):
 		iPlot = mmap.plotByIndex(i)
-		
+
 		# Identify where on the map the plot is
 		iLatitude = iPlot.getLatitude()
 		iLongitude = iPlot.getLongitude()
@@ -1785,7 +1785,7 @@ def placeC2CBonuses():
 			iEW_Hemisphere = cCENTRAL
 		else:
 			iEW_Hemisphere = cWEST
-		
+
 		# Get plot terrain, feature and bonus
 		iTerrain = iPlot.getTerrainType()
 		iFeature = iPlot.getFeatureType()
@@ -1839,15 +1839,15 @@ def placeC2CBonuses():
 				elif iTerrain == terrainSea:
 					iPlot.setTerrainType(terrainTropicalSea,False,False)
 					#~ iTerrain = terrainTropicalSea
-			
+
 			if iTerrain == terrainCoast or iTerrain == terrainSea:
 				if iFeature == -1:
 					if gb_GoodyHuts and mapRand.get(19, 'GoodyIsland') == 0:
 						iPlot.setImprovementType(improvementGoodyIsland)
-		
+
 		## These have been moved into the XML - testing this is True at the moment
 		# elif iPlot.isPeak():
-				# continue				
+				# continue
 		elif isSinglePlotIsland(iPlot):
 			if (iResource == -1): # coastal plot without any resources
 				if (iLatitude < 64):
@@ -1855,17 +1855,17 @@ def placeC2CBonuses():
 						iPlot.setBonusType(iSeaLion)
 				else:
 					placeSealOrWalrus(iPlot, iSeaLion, iWalrus, (iNS_Hemisphere == cNORTH) )
-					
+
 		elif isSeaCoastalLand(iPlot) :
 			if (iPlot.getBonusType(-1) == -1) and (iLatitude >= 65): # coastal plot without any resources
 				if mapRand.get(19, 'SealionResource') == 0:
 					placeSealOrWalrus(iPlot, iSeaLion, iWalrus, (iNS_Hemisphere == cNORTH) )
 			if (iTerrain == terrainMarsh) and (iLatitude < 30) and not iPlot.isHills() and not iPlot.isPeak(): # tropical and semi-tropical marsh coastal plot
-				iPlot.setFeatureType(featureMangrove, 0) 
-		
+				iPlot.setFeatureType(featureMangrove, 0)
+
 		## Replace resources that the map generator may have put on the wrong parts of the map
 		## since it only has north/south control not east/west control
-		
+
 		# Mammoths
 		if (iNS_Hemisphere == cSOUTH) and (iResource == gc.getInfoTypeForString("BONUS_MAMMOTH")):
 			if isSeaCoastalLand(iPlot) :
@@ -1903,19 +1903,19 @@ def placeC2CBonuses():
 		if (iNS_Hemisphere == cSOUTH) and (iEW_Hemisphere == cEAST) and (iLatitude > 10):
 				if ( iResource == iDeer or iResource == iBison or (iResource in aNotInNewWorld) ):
 					iPlot.setBonusType(iKangaroo)
-		# Remove rabbits from South America and Oceania 
+		# Remove rabbits from South America and Oceania
 		if (iNS_Hemisphere == cSOUTH and iResource == iRabbit):
 			if (iEW_Hemisphere == cEAST):
 				iPlot.setBonusType(iKangaroo)
 			if (iEW_Hemisphere == cWEST):
 				iPlot.setBonusType(iGuineaPig)
-			
+
 	c2CMapReport("After adjustment")
-	
+
 	NaturalWonders.NaturalWonders().placeNaturalWonders()
-	
-	
+
+
 
 	# c2CMapReport("After placing Natural Wonders")
-	
+
 

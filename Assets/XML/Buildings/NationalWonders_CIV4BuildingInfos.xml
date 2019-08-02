@@ -224,6 +224,7 @@
 			</GlobalCommerceModifiers>
 			<iGlobalHappiness>4</iGlobalHappiness>
 			<!-- Misc -->
+			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_ANIMA_GAMING_LEAGUE</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -340,7 +341,7 @@
 				<iYield>3</iYield>
 				<iYield>4</iYield>
 			</YieldChanges>
-			<!-- Units -->			
+			<!-- Units -->
 			<iMilitaryProductionModifier>15</iMilitaryProductionModifier>
 			<!-- Global -->
 			<iWorkerSpeedModifier>25</iWorkerSpeedModifier>
@@ -359,6 +360,7 @@
 					<iFlavor>1</iFlavor>
 				</Flavor>
 			</Flavors>
+			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_BASKETROPEWAYS</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -476,6 +478,7 @@
 					<iFlavor>5</iFlavor>
 				</Flavor>
 			</Flavors>
+			<bNeverCapture>1</bNeverCapture>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_BOTANICAL_GARDENS</ArtDefineTag>
 		</BuildingInfo>
@@ -769,30 +772,12 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CORPORATIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_ENVIRONMENTALISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_GUILDS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PLANNED</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_KEYNESIAN</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CORPORATIST</CivicOption>
+				<CivicOption>CIVIC_ENVIRONMENTALISM</CivicOption>
+				<CivicOption>CIVIC_GUILDS</CivicOption>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
+				<CivicOption>CIVIC_PLANNED</CivicOption>
+				<CivicOption>CIVIC_KEYNESIAN</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
@@ -849,10 +834,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CHIEFDOM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CHIEFDOM</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -1001,7 +983,7 @@
 			<iMilitaryProductionModifier>50</iMilitaryProductionModifier>
 			<!-- Misc -->
 			<iAsset>10</iAsset>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_COSMONAUT_TRAINING_CENTRE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_COSMONAUT_TRAINING_CENTRE</MovieDefineTag>
 		</BuildingInfo>
@@ -1166,7 +1148,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<iDCMAirbombMission>2</iDCMAirbombMission>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_DEEP_SPACE_RESEARCH</ArtDefineTag>
@@ -1363,6 +1345,7 @@
 				</UnitCombatFreeExperience>
 			</UnitCombatFreeExperiences>
 			<!-- Misc -->
+			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_DEPT_FOREIGN_POLICY</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -1603,7 +1586,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<iDCMAirbombMission>2</iDCMAirbombMission>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_NETHERLANDS_DIKE</ArtDefineTag>
@@ -1797,6 +1780,7 @@
 			<iFoodKept>5</iFoodKept>
 			<!--iGrowthPercent>5</iGrowthPercent-->
 			<!-- Misc -->
+			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_FERTILITYFESTIVAL</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -1838,7 +1822,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>25</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_FLAK_TOWER</ArtDefineTag>
 		</BuildingInfo>
@@ -1857,10 +1841,7 @@
 			<iPrereqPopulation>6</iPrereqPopulation>
 			<Bonus>BONUS_BRICKS</Bonus>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CHURCH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CHURCH</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Obsolescence -->
@@ -1903,7 +1884,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_FOUNDLING_HOSPITAL</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_FOUNDLING_HOSPITAL</MovieDefineTag>
@@ -2053,7 +2034,7 @@
 			<FreeBuilding>BUILDINGCLASS_BONFIRE</FreeBuilding>
 			<!-- Misc -->
 			<iAsset>10</iAsset>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<bCenterInCity>1</bCenterInCity>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_GREAT_BONFIRE</ArtDefineTag>
@@ -3543,7 +3524,7 @@
 					<iFlavor>2</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HHUNTINGBOW</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -3692,10 +3673,7 @@
 				</Or>
 			</ConstructCondition>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SENATE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_SENATE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
@@ -3806,7 +3784,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_IRON_WORKS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_IRON_WORKS</MovieDefineTag>
@@ -3967,7 +3945,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<bNukeImmune>1</bNukeImmune>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_MANHATTAN</ArtDefineTag>
@@ -4020,7 +3998,7 @@
 					<iFlavor>20</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_MICROLITH_WEAPONS_FACTORY</ArtDefineTag>
 		</BuildingInfo>
@@ -4066,7 +4044,7 @@
 				</Flavor>
 			</Flavors>
 			<bCenterInCity>1</bCenterInCity>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<iDCMAirbombMission>2</iDCMAirbombMission>
 			<fVisibilityPriority>2</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_MIND_STORAGE</ArtDefineTag>
@@ -4134,7 +4112,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_MODERN_ART_THEATRE</ArtDefineTag>
 		</BuildingInfo>
@@ -4182,7 +4160,7 @@
 			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>1</iGreatPeopleRateChange>
 			<!-- Misc -->
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_MOVIE_STUDIO</ArtDefineTag>
 			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
@@ -4822,18 +4800,9 @@
 				</PrereqBuildingClass>
 			</PrereqBuildingClasses>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_COINAGE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_LAISSEZ_FAIRE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_COINAGE</CivicOption>
+				<CivicOption>CIVIC_LAISSEZ_FAIRE</CivicOption>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
@@ -5721,11 +5690,11 @@
 			<Strategy>TXT_KEY_BUILDING_NOBLEGARDEN_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<MovieDefineTag>ART_DEF_MOVIE_NOBLEGARDEN</MovieDefineTag>
-			<ArtDefineTag>ART_DEF_BUILDING_NOBLEGARDEN</ArtDefineTag>
 			<PrereqTech>TECH_MYTHOLOCIAL_BEASTIARY</PrereqTech>
+			<Bonus>BONUS_ANTI_GRAVITY_FIELD_GENERATORS</Bonus>
+			<bPrereqPower>1</bPrereqPower>
+			<iPrereqPopulation>23</iPrereqPopulation>
 			<iCost>12310</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
-			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iHealth>3</iHealth>
 			<CommerceChanges>
@@ -5765,9 +5734,8 @@
 					<iHappinessChange>6</iHappinessChange>
 				</BonusHappinessChange>
 			</BonusHappinessChanges>
-			<Bonus>BONUS_ANTI_GRAVITY_FIELD_GENERATORS</Bonus>
-			<bPrereqPower>1</bPrereqPower>
-			<iPrereqPopulation>23</iPrereqPopulation>
+			<bNeverCapture>1</bNeverCapture>
+			<ArtDefineTag>ART_DEF_BUILDING_NOBLEGARDEN</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
 			<!-- National Weather Service -->
@@ -5926,10 +5894,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_E_EDUCATION</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_E_EDUCATION</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
@@ -6149,7 +6114,7 @@
 					<iFlavor>6</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<iDCMAirbombMission>2</iDCMAirbombMission>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_POLICE_ACADEMY</ArtDefineTag>
@@ -6178,10 +6143,7 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PROPAGANDA</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_PROPAGANDA</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
@@ -6294,7 +6256,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_RADIOTELESCOPE</ArtDefineTag>
 		</BuildingInfo>
@@ -6504,7 +6466,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_RESEARCH_HOSPITAL</ArtDefineTag>
 			<iAIWeight>1</iAIWeight>
@@ -6593,7 +6555,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<iDCMAirbombMission>2</iDCMAirbombMission>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_RUSSIAN_RESEARCH_INSTITUTE</ArtDefineTag>
@@ -6727,7 +6689,7 @@
 					<iFlavor>8</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<iDCMAirbombMission>2</iDCMAirbombMission>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_SPACE_LABORATORY</ArtDefineTag>
@@ -6819,7 +6781,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<iDCMAirbombMission>2</iDCMAirbombMission>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_KINGS_SAGA</ArtDefineTag>
@@ -6961,7 +6923,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_SUPERCOLLIDER</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SUPERCOLLIDER</MovieDefineTag>
@@ -7122,7 +7084,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_EGYPTIAN_MYTH_ISIS</ArtDefineTag>
 		</BuildingInfo>
@@ -7218,7 +7180,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_EGYPTIAN_MYTH_OSIRIS</ArtDefineTag>
 		</BuildingInfo>
@@ -7308,7 +7270,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_EGYPTIAN_MYTH_SET</ArtDefineTag>
 		</BuildingInfo>
@@ -7324,26 +7286,11 @@
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DESPOTISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CHIEFDOM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SOVEREIGNTY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DESPOTISM</CivicOption>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
+				<CivicOption>CIVIC_CHIEFDOM</CivicOption>
+				<CivicOption>CIVIC_SOVEREIGNTY</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Cost -->
@@ -7461,7 +7408,7 @@
 					<iFlavor>6</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>100</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_TOXIC_WASTE_DUMP</ArtDefineTag>
 		</BuildingInfo>
@@ -7538,6 +7485,7 @@
 				</UnitCombatFreeExperience>
 			</UnitCombatFreeExperiences>
 			<!-- Misc -->
+			<bNeverCapture>1</bNeverCapture>
 			<iAsset>1</iAsset>
 			<iPower>1</iPower>
 			<ArtDefineTag>ART_DEF_BUILDING_TRADITION</ArtDefineTag>
@@ -7597,7 +7545,6 @@
 			<bApplyFreePromotionOnMove>1</bApplyFreePromotionOnMove>
 			<!-- Misc -->
 			<iAsset>1</iAsset>
-			<ArtDefineTag>ART_DEF_BUILDING_TRADITION</ArtDefineTag>
 			<PropertyManipulators>
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
@@ -7610,6 +7557,8 @@
 					<iAmountPerTurn>-2</iAmountPerTurn>
 				</PropertySource>
 			</PropertyManipulators>
+			<bNeverCapture>1</bNeverCapture>
+			<ArtDefineTag>ART_DEF_BUILDING_TRADITION</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Tradition - Work Ethic  -->
@@ -7679,6 +7628,7 @@
 					<iFlavor>5</iFlavor>
 				</Flavor>
 			</Flavors>
+			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_TRADITION</ArtDefineTag>
 		</BuildingInfo>
 		<!--↑ Traditions ↑-->
@@ -7814,7 +7764,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_TRAVEL_AGENCY</ArtDefineTag>
 		</BuildingInfo>
@@ -7920,7 +7870,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<fVisibilityPriority>100</fVisibilityPriority>
 			<ArtDefineTag>ART_DEF_BUILDING_TRIUMPH_COLUMN</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_COLUMN</MovieDefineTag>
@@ -8085,7 +8035,7 @@
 			<iNumFreeBonuses>1</iNumFreeBonuses>
 			<!-- Misc -->
 			<iAsset>10</iAsset>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_HIERACOSPHINX_BREEDER</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -8149,7 +8099,7 @@
 			<iNumFreeBonuses>1</iNumFreeBonuses>
 			<!-- Misc -->
 			<iAsset>10</iAsset>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_JACKALOPE_BREEDER</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -8213,7 +8163,7 @@
 			<iNumFreeBonuses>1</iNumFreeBonuses>
 			<!-- Misc -->
 			<iAsset>10</iAsset>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_PEGASUS_BREEDER</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -8277,7 +8227,7 @@
 			<iNumFreeBonuses>1</iNumFreeBonuses>
 			<!-- Misc -->
 			<iAsset>10</iAsset>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_PHOENIX_BREEDER</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -8341,7 +8291,7 @@
 			<iNumFreeBonuses>1</iNumFreeBonuses>
 			<!-- Misc -->
 			<iAsset>10</iAsset>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_QILIN_BREEDER</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -8405,7 +8355,7 @@
 			<iNumFreeBonuses>1</iNumFreeBonuses>
 			<!-- Misc -->
 			<iAsset>10</iAsset>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_QUETZALCOATL_BREEDER</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -8469,9 +8419,9 @@
 			<iNumFreeBonuses>1</iNumFreeBonuses>
 			<!-- Misc -->
 			<iAsset>10</iAsset>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<ArtDefineTag>ART_DEF_BUILDING_RAINBOW_SERPENT_BREEDER</ArtDefineTag>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Spy Training Facility -->
 			<BuildingClass>BUILDINGCLASS_SPY_TRAINING_FACILITY</BuildingClass>
@@ -8531,8 +8481,8 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
+			<bNeverCapture>1</bNeverCapture>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
-			<iMinAreaSize>-1</iMinAreaSize>
 		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Heavy Water Production Plant -->
@@ -8544,7 +8494,6 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HEAVY_WATER_PRODUCTION_PLANT</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_OIL_REFINERY</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8589,7 +8538,7 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
-			<iConquestProb>75</iConquestProb>
+			<bNeverCapture>1</bNeverCapture>
 			<iAIWeight>1</iAIWeight>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -8600,11 +8549,13 @@
 			<Civilopedia>TXT_KEY_BUILDING_GARDEN_CITY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_GARDEN_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_GARDEN_CITY</ArtDefineTag>
 			<PrereqTech>TECH_NEW_URBANISM</PrereqTech>
+			<PrereqOrCivics>
+				<CivicOption>CIVIC_ENVIRONMENTALISM</CivicOption>
+				<CivicOption>CIVIC_PUBLIC_WORKS</CivicOption>
+			</PrereqOrCivics>
+			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<iCost>3080</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
-			<iConquestProb>70</iConquestProb>
 			<CommerceChanges>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
@@ -8616,16 +8567,12 @@
 			<GreatPeopleUnitClass>UNITCLASS_DOCTOR</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_ENVIRONMENTALISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PUBLIC_WORKS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_ENVIRONMENTALISM</CivicOption>
+				<CivicOption>CIVIC_PUBLIC_WORKS</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
+			<bNeverCapture>1</bNeverCapture>
+			<ArtDefineTag>ART_DEF_BUILDING_GARDEN_CITY</ArtDefineTag>
 		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Fusion Power Plant -->
@@ -8638,7 +8585,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FUSION_PLANT</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_PLANTNUCLEAR</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8675,8 +8621,9 @@
 					<iFlavor>10</iFlavor>
 				</Flavor>
 			</Flavors>
+			<bNeverCapture>1</bNeverCapture>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAIWeight>1</iAIWeight>
-		</BuildingInfo>		
+		</BuildingInfo>
 	</BuildingInfos>
 </Civ4BuildingInfos>

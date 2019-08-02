@@ -16,7 +16,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ROPE_FACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -95,7 +94,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ROPE_WEAVER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>

@@ -2,7 +2,7 @@
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Pat Dawson (Firaxis Games) -->
 <!-- Sid Meier's Civilization 4 -->
 <!-- Copyright Firaxis Games 2005 -->
-<!-- -->											
+<!-- -->
 <!-- Building Infos -->
 <Civ4BuildingInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4BuildingsSchema.xml">
 	<BuildingInfos>
@@ -19,7 +19,6 @@
 			<PrereqReligion>RELIGION_SIKHISM</PrereqReligion>
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>280</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>1</iHappiness>
 			<iStateReligionHappiness>2</iStateReligionHappiness>
 			<iAsset>6</iAsset>
@@ -122,7 +121,6 @@
 			</PrereqBonuses>
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>425</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>0</iConquestProb>
 			<iHealth>1</iHealth>
 			<iHappiness>1</iHappiness>
@@ -196,7 +194,6 @@
 			<iGreatPeopleRateChange>1</iGreatPeopleRateChange>
 			<bNukeImmune>1</bNukeImmune>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>8</iAsset>
 			<fVisibilityPriority>1</fVisibilityPriority>

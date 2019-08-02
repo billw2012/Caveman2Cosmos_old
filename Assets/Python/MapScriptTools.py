@@ -3825,7 +3825,7 @@ class BonusBalancer:
 			for iUnit in range(GC.getNumUnitInfos()):
 				type_string = GC.getUnitInfo(iUnit).getType()
 				iBonus = GC.getUnitInfo(iUnit).getPrereqAndBonus()
-				if iBonus>=0:  
+				if iBonus>=0:
 					#--- Dancing Hoskuld Oct 2014 -- Improvement -- for non map resources do not add bonus to list same for rest
 					if GC.getBonusInfo(iBonus).getConstAppearance () > 0:
 						if iBonus not in aBoni:
@@ -3834,7 +3834,7 @@ class BonusBalancer:
 						for b in range( len(aBoni) ):
 							if iBonus==aBoni[b]:
 								aUnits[b].append( type_string )
-				for i in range(iMaxPrereqBonus): 
+				for i in range(iMaxPrereqBonus):
 					iBonus = GC.getUnitInfo(iUnit).getPrereqOrBonuses(i)
 					if iBonus>=0:
 						#--- Dancing Hoskuld Oct 2014 -- Improvement -- for non map resources do not add bonus to list same for rest
@@ -3862,7 +3862,7 @@ class BonusBalancer:
 			iMaxPrereqBonus = GC.getDefineINT("NUM_ROUTE_PREREQ_OR_BONUSES")
 			for iRoute in range(GC.getNumRouteInfos()):
 				type_string = GC.getRouteInfo(iRoute).getType()
-				for i in range(iMaxPrereqBonus): 
+				for i in range(iMaxPrereqBonus):
 					iBonus = GC.getRouteInfo(iRoute).getPrereqOrBonus(i)
 					if iBonus>=0 and iBonus<GC.getNumBonusInfos():
 						#--- Dancing Hoskuld Oct 2014 -- Improvement -- for non map resources do not add bonus to list same for rest

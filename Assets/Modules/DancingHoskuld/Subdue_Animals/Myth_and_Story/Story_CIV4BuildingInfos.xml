@@ -12,7 +12,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PALEOLITHIC_BIRD_STORY</ArtDefineTag>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -70,7 +69,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PALEOLITHIC_BIRD_STORIES</ArtDefineTag>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -118,7 +116,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PALEOLITHIC_BIRD_STORY</ArtDefineTag>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -161,7 +158,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PALEOLITHIC_CAT_STORY</ArtDefineTag>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -219,7 +215,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PALEOLITHIC_CAT_STORIES</ArtDefineTag>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -267,7 +262,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PALEOLITHIC_CAT_STORY</ArtDefineTag>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -310,7 +304,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PALEOLITHIC_DOG_STORY</ArtDefineTag>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -368,7 +361,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PALEOLITHIC_DOG_STORIES</ArtDefineTag>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -416,7 +408,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PALEOLITHIC_DOG_STORY</ArtDefineTag>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -459,7 +450,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PALEOLITHIC_MARSUPIAL_STORY</ArtDefineTag>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -517,7 +507,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PALEOLITHIC_MARSUPIAL_STORIES</ArtDefineTag>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -565,7 +554,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PALEOLITHIC_MARSUPIAL_STORY</ArtDefineTag>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>

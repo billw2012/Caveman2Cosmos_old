@@ -9,10 +9,7 @@
                      	<DependencyType>BUILDING_DONKEY_STORY</DependencyType>
  			</AndDependencyTypes>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_DONKEY_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_DONKEY_STORY</BuildingType>
 			</Buildings>
 		</UnitInfo>
 		<UnitInfo>
@@ -23,14 +20,8 @@
                     	<DependencyType>BUILDING_DONKEY_STORIES</DependencyType>
  			</AndDependencyTypes>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_DONKEY_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_DONKEY_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_DONKEY_STORY</BuildingType>
+				<BuildingType>BUILDING_DONKEY_STORIES</BuildingType>
 			</Buildings>
 		</UnitInfo>
 		<UnitInfo>
@@ -42,14 +33,8 @@
                     	<DependencyType>BUILDING_DONKEY_STORIES</DependencyType>
  			</AndDependencyTypes>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_DONKEY_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_DONKEY_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_DONKEY_STORY</BuildingType>
+				<BuildingType>BUILDING_DONKEY_STORIES</BuildingType>
 			</Buildings>
 		</UnitInfo>
 	</UnitInfos>

@@ -66,13 +66,13 @@ def revObjectGetVal( object, var ):
 			# SDTK will fail
 			print "ERROR:  Not recognized: ", object
 			pass
-	
+
 	#TODO: remove this once all have been put into data structure defs
 	if( isinstance(object, CvPythonExtensions.CyPlayer) and not var in RevDefs.playerData.keys() ) :
 		print "WARNING:  Unrecognized player variable ", var
 	elif( isinstance(object, CvPythonExtensions.CyCity) and not var in RevDefs.cityData.keys() ) :
 		print "WARNING:  Unrecognized city variable ", var
-	
+
 	return SdToolKit.sdObjectGetVal( 'Revolution', object, var )
 
 #   revObjectSetVal( object, 'VariableName', any_value )
@@ -90,21 +90,21 @@ def revObjectSetVal( object, var, val ):
 			# SDTK will fail
 			print "ERROR:  Not recognized: ", object
 			pass
-	
+
 	return SdToolKit.sdObjectSetVal( 'Revolution', object, var, val )
 
 #   revObjectChangeVal( object, 'VariableName', change_in_value )
 #   Updates an existing variable's value within the object's data set.
 #   Returns bool False on failure, bool True on success.
 def revObjectChangeVal( object, var, delta ):
-	
+
 	return SdToolKit.sdObjectChangeVal( 'Revolution', object, var, delta )
 
 #   revObjectUpdateVal( object, 'VariableName', any_value )
 #   Updates an existing variable's value within the object's data set.
 #   Returns bool False on failure, bool True on success.
 def revObjectUpdateVal( object, var, val ):
-	
+
 	return SdToolKit.sdObjectUpdateVal( 'Revolution', object, var, val )
 
 
@@ -121,10 +121,10 @@ def initCity(pCity):
 		return False
 
 def initPlayer(pPlayer):
-	
+
 	if( revObjectExists(pPlayer) ) :
 		revObjectWipe(pPlayer)
-	
+
 	return revObjectInit( pPlayer, RevDefs.playerData )
 
 # ----------- Functions for cities ------------------
@@ -136,7 +136,7 @@ def getCityVal(pCity, var):
 		initCity( pCity )
 		print "Error!  Var ", var, " is not a valid cityData variable"
 		assert( False )
-	
+
 	if( var == 'RevIdxHistory' ) :
 		if( val == None ) :
 			revIdxHist = RevDefs.initRevIdxHistory()

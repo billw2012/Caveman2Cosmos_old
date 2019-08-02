@@ -17,14 +17,14 @@ localText = CyTranslator()
 
 
 #RevolutionDCM
-#Class ReligionControl responds to "calls back" from the DLL via the BUG system. 
-#This has been done by declaring the attachment in RevDCM.xml. BUG will then instanticiate 
+#Class ReligionControl responds to "calls back" from the DLL via the BUG system.
+#This has been done by declaring the attachment in RevDCM.xml. BUG will then instanticiate
 #the class and attach it's DLL call backs.
 
 class ReligionControl:
 	def doHolyCity(self):
 		if RevDCMOpt.isOC_LIMITED_RELIGIONS():
-			#This algorithm has to deal with a PLETHORA of possibilities like multiple religions 
+			#This algorithm has to deal with a PLETHORA of possibilities like multiple religions
 			#being founded by multiple players on the same turn.
 			MAX_PC_PLAYERS = gc.getMAX_PC_PLAYERS()
 			iPlayerQueue = []
@@ -67,7 +67,7 @@ class ReligionControl:
 			return True
 		if RevDCMOpt.isCHOOSE_RELIGION():
 			pickReligion = PickReligionPopup(CvEventInterface.getEventManager())
-			for iSlot in range(gc.getNumReligionInfos()):	
+			for iSlot in range(gc.getNumReligionInfos()):
 				prereq = gc.getReligionInfo(iSlot).getTechPrereq()
 				if eTech == prereq and bFirst:
 					pickReligion.initiatePopup(ePlayer, iSlot)
@@ -94,7 +94,7 @@ def onBeginPlayerTurn(argsList):
 		iStateReligion = CyPlayer.getStateReligion()
 		if iStateReligion != -1 and CyPlayer.hasHolyCity(iStateReligion) and CyGame().calculateReligionPercent(iStateReligion) < 80:
 			# Prerequisite 1 & 2 fulfilled
-			bUnity = True 
+			bUnity = True
 			# 3. 80% a player's cities must have the official state religion established.
 			iMaxNonStatePercent = 20
 			iCityCount = CyPlayer.getNumCities()
@@ -138,7 +138,7 @@ class PickReligionPopup:
 		self.iSlotQueue = iUniqueSlotQueue
 		if len(self.iPlayerQueue):
 			self.initiatePopup(self.iPlayerQueue.pop(), self.iSlotQueue.pop())
-			
+
 	def initiatePopup(self, iPlayer, iSlot):
 		self.iPlayer = iPlayer
 		self.iSlotReligion = iSlot
@@ -150,12 +150,12 @@ class PickReligionPopup:
 			self.foundCustomReligion = True
 		if self.foundCustomReligion:
 			self.eventMgr.beginEvent(PICK_RELIGION_EVENT)
-		
+
 	def __eventPickReligionBegin(self, argsList):
 		if not self.lock:
 			self.lock = True
 			self.launchPopup()
-		
+
 	def launchPopup(self):
 		activePlayer = gc.getActivePlayer().getID()
 		CyGame().setAIAutoPlay(activePlayer, 0)
@@ -171,7 +171,7 @@ class PickReligionPopup:
 			#~ playerText = "You"
 		elif PY_activePlayerTeam.isHasMet(thisPlayerTeam):
 			playerText = PY_thisPlayer.getName()
-		
+
 		popup = PyPopup.PyPopup(PICK_RELIGION_EVENT, EventContextTypes.EVENTCONTEXT_SELF)
 		size = 300
 		rightCornerOffset = 110
@@ -190,7 +190,7 @@ class PickReligionPopup:
 			popup.addButton(religionText)
 		if len(religionList):
 			popup.launch(False)
-			
+
 	def __eventPickReligionApply(self, playerID, userData, popupReturn):
 		iReligion = 0
 		religionsRemaining = self.getRemainingReligions()

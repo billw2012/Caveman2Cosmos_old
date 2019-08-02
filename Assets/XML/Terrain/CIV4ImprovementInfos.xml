@@ -3266,14 +3266,14 @@
 				</BonusTypeStruct>
 				<BonusTypeStruct>
 					<BonusType>BONUS_BISON</BonusType>
-					<bObsoleteBonusMakesValid>1</bObsoleteBonusMakesValid>					
+					<bObsoleteBonusMakesValid>1</bObsoleteBonusMakesValid>
 					<bBonusTrade>1</bBonusTrade>
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
 						<iYieldChange>0</iYieldChange>
 						<iYieldChange>4</iYieldChange>
 					</YieldChanges>
-				</BonusTypeStruct>				
+				</BonusTypeStruct>
 				<BonusTypeStruct>
 					<BonusType>BONUS_DEER</BonusType>
 					<bObsoleteBonusMakesValid>1</bObsoleteBonusMakesValid>
@@ -4413,7 +4413,7 @@
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
-					</RouteYields>					
+					</RouteYields>
 				</RouteYieldChange>
 				<RouteYieldChange>
 					<RouteType>ROUTE_HYPERLOOP</RouteType>
@@ -5072,7 +5072,7 @@
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_OCEAN</TerrainType>
 					<bMakesValid>1</bMakesValid>
-				</TerrainMakesValid>				
+				</TerrainMakesValid>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_OCEAN_POLAR</TerrainType>
 					<bMakesValid>1</bMakesValid>
@@ -10007,7 +10007,7 @@
 						<iYieldChange>0</iYieldChange>
 						<iYieldChange>11</iYieldChange>
 					</YieldChanges>
-				</BonusTypeStruct>				
+				</BonusTypeStruct>
 				<BonusTypeStruct>
 					<BonusType>BONUS_PAPYRUS</BonusType>
 					<bBonusMakesValid>1</bBonusMakesValid>
@@ -13267,7 +13267,7 @@ ImprovementUpgrade>IMPROVEMENT_LISTENING_NODE</ImprovementUpgrade
 						<iYieldChange>2</iYieldChange>
 						<iYieldChange>2</iYieldChange>
 					</YieldChanges>
-				</BonusTypeStruct>				
+				</BonusTypeStruct>
 				<BonusTypeStruct>
 					<BonusType>BONUS_GEODE</BonusType>
 					<bBonusTrade>1</bBonusTrade>

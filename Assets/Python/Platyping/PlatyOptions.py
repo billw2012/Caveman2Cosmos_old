@@ -25,7 +25,7 @@ def getBackGround():
 	return sBackGround
 
 class PlatyOptions:
-		
+
 	def interfaceScreen(self):
 		screen = CyGInterfaceScreen("PlatyOptions", CvScreenEnums.PLATY_OPTIONS)
 
@@ -36,7 +36,7 @@ class PlatyOptions:
 		screen.setRenderInterfaceOnly(True)
 		screen.setDimensions(iX, iY, iWidth, iHeight)
 		screen.showScreen(PopupStates.POPUPSTATE_IMMEDIATE, False)
-	
+
 		screen.addPanel("PlatyOptionsBG", u"", u"", True, False, 0, 0, iWidth, iHeight, PanelStyles.PANEL_STYLE_MAIN)
 		screen.setText("WorldExit", "Background", u"<font=4b>" + CyTranslator().getText("TXT_KEY_PEDIA_SCREEN_EXIT", ()).upper() + "</font>", CvUtil.FONT_RIGHT_JUSTIFY, iWidth - 25,iHeight - 45, -0.1, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_CLOSE_SCREEN, -1, -1 )
 		screen.setText("WorldHeader", "Background", u"<font=4b>" + CyTranslator().getText("TXT_KEY_PLATY_OPTIONS", ()).upper() + "</font>", CvUtil.FONT_CENTER_JUSTIFY, iWidth/2, 20, -0.1, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
@@ -48,35 +48,35 @@ class PlatyOptions:
 		if bGreatPeopleBar:
 			sColor = CyTranslator().getText("[COLOR_POSITIVE_TEXT]", ())
 		screen.setText("GreatPeopleBar", "Background", sColor + sText + "</color>", CvUtil.FONT_LEFT_JUSTIFY, iX, iY, -0.1, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
-		
+
 		iY += 30
 		sText = "<font=3b>" + CyTranslator().getText("TXT_KEY_CIV_SPECIFIC_COLOR_TEXT", ()) + "</font>"
 		sColor = CyTranslator().getText("[COLOR_WARNING_TEXT]", ())
 		if bCivColors:
 			sColor = CyTranslator().getText("[COLOR_POSITIVE_TEXT]", ())
 		screen.setText("CivSpecificColors", "Background", sColor + sText + "</color>", CvUtil.FONT_LEFT_JUSTIFY, iX, iY, -0.1, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
-		
+
 		iY += 30
 		sText = "<font=3b>" + CyTranslator().getText("TXT_KEY_TRANSPARENT_PANEL", ()) + "</font>"
 		sColor = CyTranslator().getText("[COLOR_WARNING_TEXT]", ())
 		if bTransparent:
 			sColor = CyTranslator().getText("[COLOR_POSITIVE_TEXT]", ())
 		screen.setText("TransparentPanels", "Background", sColor + sText + "</color>", CvUtil.FONT_LEFT_JUSTIFY, iX, iY, -0.1, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
-		
+
 		iY += 30
 		sText = "<font=3b>" + CyTranslator().getText("TXT_KEY_BUILD_LIST", ()) + "</font>"
 		sColor = CyTranslator().getText("[COLOR_WARNING_TEXT]", ())
 		if bBuildList:
 			sColor = CyTranslator().getText("[COLOR_POSITIVE_TEXT]", ())
 		screen.setText("BuildList", "Background", sColor + sText + "</color>", CvUtil.FONT_LEFT_JUSTIFY, iX, iY, -0.1, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
-		
+
 		iY += 30
 		sText = "<font=3b>" + CyTranslator().getText("TXT_KEY_FULLSCREEN_MOVIE", ()) + "</font>"
 		sColor = CyTranslator().getText("[COLOR_WARNING_TEXT]", ())
 		if bFullScreenMovie:
 			sColor = CyTranslator().getText("[COLOR_POSITIVE_TEXT]", ())
 		screen.setText("FullScreenMovie", "Background", sColor + sText + "</color>", CvUtil.FONT_LEFT_JUSTIFY, iX, iY, -0.1, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
-		
+
 		iY += 30
 		screen.addDropDownBoxGFC("BackgroundChoice", iX, iY, 200, WidgetTypes.WIDGET_GENERAL, -1, -1, FontTypes.GAME_FONT)
 		screen.addPullDownString("BackgroundChoice", CyTranslator().getText("TXT_KEY_CULTURELEVEL_NONE",()), 0, 0, 0 == iBackGround)

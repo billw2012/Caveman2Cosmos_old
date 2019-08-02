@@ -94,7 +94,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_CROW</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<KillOutcomes>
 				<Outcome>
@@ -146,62 +145,34 @@
 			<bMilitaryTrade>1</bMilitaryTrade>
 			<bOnlyDefensive>1</bOnlyDefensive>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BIRD_CAGE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CROW_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CROW_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CROW_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BIRD_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BIRD_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BIRD_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_FEATHER_WORKER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SCAVENGER_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+
+				<BuildingType>BUILDING_ANIMAL_TOTEM</BuildingType>
+
+				<BuildingType>BUILDING_BIRD_CAGE</BuildingType>
+
+				<BuildingType>BUILDING_CROW_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_CROW_STORY</BuildingType>
+
+				<BuildingType>BUILDING_CROW_STORIES</BuildingType>
+
+				<BuildingType>BUILDING_BIRD_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_BIRD_STORY</BuildingType>
+
+				<BuildingType>BUILDING_BIRD_STORIES</BuildingType>
+
+				<BuildingType>BUILDING_FEATHER_WORKER</BuildingType>
+
+				<BuildingType>BUILDING_SCAVENGER_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_ZOO</BuildingType>
+
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
+
 			</Buildings>
 			<iCost>-1</iCost>
 			<iMoves>1</iMoves>

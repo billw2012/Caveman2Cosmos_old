@@ -38,12 +38,12 @@ class TechPrefs:
 		self.NUM_TECHS = gc.getNumTechInfos()
 		self.NUM_AND_PREREQS = gc.getDefineINT("NUM_AND_TECH_PREREQS")
 		self.NUM_OR_PREREQS = gc.getDefineINT("NUM_OR_TECH_PREREQS")
-		
+
 		self.mTechs = {}
 		self.lTechsByFlavor = []
 		for iFlavor in range(NUM_FLAVORS):
 			self.lTechsByFlavor.append([])
-		
+
 		# build a list of all techs and a list of techs for each flavor
 		for iTech in range(self.NUM_TECHS):
 			pTechInfo = gc.getTechInfo(iTech)
@@ -54,7 +54,7 @@ class TechPrefs:
 					pTech.setFlavorValue(iFlavor, iFlavorValue)
 					self.lTechsByFlavor[iFlavor].append((-iFlavorValue, iTech, pTech))
 					bHasFlavor = True
-			
+
 			# hook up prereq techs
 			for i in range(self.NUM_AND_PREREQS):
 				pPrereqTech = pTechInfo.getPrereqAndTechs(i)
@@ -64,7 +64,7 @@ class TechPrefs:
 				pPrereqTech = pTechInfo.getPrereqOrTechs(i)
 				if (pPrereqTech != -1):
 					pTech.addOrPrereq(self.getTech(pPrereqTech))
-		
+
 		# sort each flavor's list of techs by decreasing preference: reverse flavor value, tech number
 		# and create a copy that doesn't get trimmed as techs are researched
 		self.lAllTechsByFlavor = {}
@@ -74,7 +74,7 @@ class TechPrefs:
 			lTechs.sort()
 			self.lTechsByFlavor[iFlavor] = [ pTech for _, _, pTech in lTechs ]
 			self.lAllTechsByFlavor[iFlavor] = tuple(self.lTechsByFlavor[iFlavor])
-		
+
 ##		print "---- Techs with Flavor ----"
 ##		for pTech in self.mTechs.values():
 ##			print "%2d: %s" % (pTech.iTech, pTech.getName())
@@ -82,7 +82,7 @@ class TechPrefs:
 ##			print "---- %d Techs with Flavor %s ----" % (len(self.lTechsByFlavor[iFlavor]), FLAVORS[iFlavor])
 ##			for pTech in self.lTechsByFlavor[iFlavor]:
 ##				print "%2d-%2d: %s" % (pTech.getFlavorValue(iFlavor), pTech.iTech, pTech.getName())
-		
+
 ##		pOptics = self.getTech(gc.getInfoTypeForString("TECH_OPTICS"))
 ##		print pOptics
 ##		pAstronomy = self.getTech(gc.getInfoTypeForString("TECH_ASTRONOMY"))
@@ -93,7 +93,7 @@ class TechPrefs:
 ##		print pOptics
 ##		print pAstronomy
 ##		print pPhysics
-##		
+##
 ##		self.removeKnownTechs()
 ##		print self.getNextResearchableFlavorTech(FLAVOR_RELIGION)
 ##		print self.getNextResearchableFlavorTech(FLAVOR_SCIENCE)
@@ -238,7 +238,7 @@ class TechPrefs:
 
 
 class Tech:
-	
+
 	def __init__(self, iTech):
 		self.iTech = iTech
 		self.lFlavorValues = [0] * NUM_FLAVORS
@@ -257,13 +257,13 @@ class Tech:
 
 	def getName(self):
 		return self.getInfo().getDescription()
-	
+
 	def __hash__(self):
 		return hash(self.iTech)
-	
+
 	def __eq__(self, other):
 		return self.iTech == other.iTech
-	
+
 	def __cmp__(self, other):
 		return self.iTech - other.iTech
 
@@ -313,7 +313,7 @@ class Tech:
 	def getTechsNeeded(self):
 		"""
 		Returns two sets of techs that are needed to make this tech researchable.
-		
+
 		The first set are all missing And prereqs.
 		The second set is all Or prereqs or an empty set if at least one has already been researched.
 		"""

@@ -201,7 +201,7 @@ def getLimitedBordersTradePartners(playerOrID):
 
 def canSignLimitedBorders(fromTeam, toTeam):
 	"""
-	Returns True if the two CyTeams can sign an Limited Borders agreement. 
+	Returns True if the two CyTeams can sign an Limited Borders agreement.
 	Limited Borders are enabled when Open Borders are, so the functions are identical.
 	"""
 	if fromTeam.isOpenBorders(toTeam.getID()) or toTeam.isOpenBorders(fromTeam.getID()):
@@ -218,7 +218,7 @@ def getEmbassyTradePartners(playerOrID):
 
 def canTradeEmbassy(fromTeam, toTeam):
 	"""
-	Returns True if the two CyTeams can trade for an Embassy. 
+	Returns True if the two CyTeams can trade for an Embassy.
 	Embassies are enabled when Open Borders are, so the functions are identical.
 	"""
 	if fromTeam.isOpenBorders(toTeam.getID()) or toTeam.isOpenBorders(fromTeam.getID()):
@@ -278,7 +278,7 @@ def getCapitulationTradePartners(playerOrID):
 def canAcceptVassal(masterTeam, vassalTeam, bAtWar):
 	"""
 	Returns True if <vassalTeam> can become a vassal of <masterTeam>.
-	
+
 	Pass True for <bAtWar> to test for capitulation and False to test for peaceful vassalage.
 	"""
 	if masterTeam.getID() == vassalTeam.getID():
@@ -303,7 +303,7 @@ def tradeParters(playerOrID):
 def getTradePartnersByPlayer(playerOrID, testFunction, *args):
 	"""
 	Returns a list of CyPlayers that can trade with <player>.
-	
+
 	<testFunction> is passed two CyPlayers plus <args> for each viable pairing and should return a boolean value.
 	"""
 	player = PlayerUtil.getPlayer(playerOrID)
@@ -316,7 +316,7 @@ def getTradePartnersByPlayer(playerOrID, testFunction, *args):
 def getTradePartnersByTeam(playerOrID, testFunction, *args):
 	"""
 	Returns a list of CyPlayers that can trade with <player>.
-	
+
 	<testFunction> is passed two CyTeams plus <args> for each viable pairing and should return a boolean value.
 	"""
 	player = PlayerUtil.getPlayer(playerOrID)
@@ -383,7 +383,7 @@ def getSurplusBonuses(playerOrID, minimum=1):
 def getTradeableBonuses(fromPlayerOrID, toPlayerOrID):
 	"""
 	Returns two sets of bonus IDs that <fromPlayer> will and won't trade to <toPlayer>.
-	
+
 	Assumes that the two players can trade bonuses.
 	"""
 	fromPlayer = PlayerUtil.getPlayer(fromPlayerOrID)
@@ -421,7 +421,7 @@ def calculateTradeRoutes(playerOrID, withPlayerOrID=None):
 	"""
 	Returns the domestic and foreign trade route yields and counts for <playerOrID>:
 	domestic yield, domestic count, foreign yield, and foreign count.
-	
+
 	If <withPlayerOrID> is given, only counts trade routes to their cities.
 	If Fractional Trade Routes is active, the value returned is fractional (times 100).
 	"""
@@ -445,7 +445,7 @@ def calculateTradeRoutes(playerOrID, withPlayerOrID=None):
 class Trade(object):
 	"""
 	Encapsulates the player IDs and TradeData for a new or proposed trade.
-	
+
 	Implements the same interface as the DealUtil.Deal class.
 	"""
 	def __init__(self, ePlayer, eOtherPlayer):
@@ -453,14 +453,14 @@ class Trade(object):
 		self.eOtherPlayer = eOtherPlayer
 		self.tradeList = []
 		self.otherTradeList = []
-	
+
 	def isReversed(self):
 		return False
 	def getPlayer(self):
 		return self.ePlayer
 	def getOtherPlayer(self):
 		return self.eOtherPlayer
-	
+
 	def getCount(self):
 		return len(self.tradeList)
 	def getOtherCount(self):
@@ -473,12 +473,12 @@ class Trade(object):
 		return self.tradeList
 	def otherTrades(self):
 		return self.otherTradeList
-	
+
 	def addTrade(self, trade):
 		self.tradeList.append(trade)
 	def addOtherTrade(self, trade):
 		self.otherTradeList.append(trade)
-	
+
 	def hasType(self, type):
 		return self.hasAnyType((type,))
 	def hasAnyType(self, types):
@@ -504,10 +504,10 @@ class Trade(object):
 		return found
 
 	def __repr__(self):
-		return ("<trade %d [%s] for %d [%s]>" % 
-				(self.getPlayer(), 
-				format(self.getPlayer(), self.trades()), 
-				self.getOtherPlayer(), 
+		return ("<trade %d [%s] for %d [%s]>" %
+				(self.getPlayer(),
+				format(self.getPlayer(), self.trades()),
+				self.getOtherPlayer(),
 				format(self.getOtherPlayer(), self.otherTrades())))
 
 
@@ -515,7 +515,7 @@ class Trade(object):
 
 def format(player, trade):
 	"""Returns a single string containing all of the trade items separated by commas.
-	
+
 	player can be either an ID or CyPlayer and is needed when a city is being traded.
 	"""
 	if isinstance(trade, list) or isinstance(trade, tuple) or isinstance(trade, set):

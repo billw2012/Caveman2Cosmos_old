@@ -72,7 +72,6 @@
 			</PrereqOrBuildings>
 			<PrereqTech>TECH_MEGAFAUNA_DOMESTICATION</PrereqTech>
 			<iCost>100</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>6</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -212,7 +211,6 @@
 				<PrereqTech>TECH_MOUNTED_ARCHERY</PrereqTech>
 			</TechTypes>
 			<iCost>235</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>7</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -354,7 +352,6 @@
 				<BonusType>BONUS_FIREARMS</BonusType>
 			</PrereqBonuses>
 			<iCost>425</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>15</iCombat>
 			<iXPValueAttack>1</iXPValueAttack>
@@ -422,16 +419,12 @@
 				</FreePromotion>
 			</FreePromotions>
 		</UnitInfo>
-
-
 		<UnitInfo>
 			<Class>UNITCLASS_SUBDUED_STAG_DEER</Class>
 			<Type>UNIT_SUBDUED_STAG_DEER</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_DEER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_DEER</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -444,10 +437,8 @@
 			<Class>UNITCLASS_SUBDUED_MOOSE</Class>
 			<Type>UNIT_SUBDUED_MOOSE</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_DEER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_DEER</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -460,10 +451,8 @@
 			<Class>UNITCLASS_SUBDUED_CARIBOU</Class>
 			<Type>UNIT_SUBDUED_CARIBOU</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_DEER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_DEER</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>

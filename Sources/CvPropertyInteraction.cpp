@@ -31,8 +31,6 @@ CvPropertyInteraction::CvPropertyInteraction(PropertyTypes eSourceProperty, Prop
 
 CvPropertyInteraction::~CvPropertyInteraction()
 {
-	GC.removeDelayedResolution((int*)&m_eSourceProperty);
-	GC.removeDelayedResolution((int*)&m_eTargetProperty);
 	SAFE_DELETE(m_pExprActive);
 }
 
@@ -86,7 +84,7 @@ void CvPropertyInteraction::setRelationData(int iRelationData)
 	m_iRelationData = iRelationData;
 }
 
-bool CvPropertyInteraction::isActive(CvGameObject *pObject)
+bool CvPropertyInteraction::isActive(const CvGameObject *pObject) const
 {
 	if ((m_eObjectType == NO_GAMEOBJECT) || (m_eObjectType == pObject->getGameObjectType()))
 	{
@@ -106,11 +104,17 @@ bool CvPropertyInteraction::read(CvXMLLoadUtility *pXML)
 {
 	CvString szTextVal;
 	pXML->GetChildXmlValByName(szTextVal, L"SourcePropertyType");
-	//m_eSourceProperty = (PropertyTypes) pXML->FindInInfoClass(szTextVal);
-	GC.addDelayedResolution((int*)&m_eSourceProperty,szTextVal);
+//	m_eSourceProperty = (PropertyTypes) pXML->GetInfoClass(szTextVal);
+	if ((m_eSourceProperty = (PropertyTypes)GC.getInfoTypeForString(szTextVal, true)) == NO_PROPERTY)
+	{
+		GC.addDelayedResolution((int*)&m_eSourceProperty,szTextVal);
+	}
 	pXML->GetChildXmlValByName(szTextVal, L"TargetPropertyType");
-	//m_eTargetProperty = (PropertyTypes) pXML->FindInInfoClass(szTextVal);
-	GC.addDelayedResolution((int*)&m_eTargetProperty,szTextVal);
+//	m_eTargetProperty = (PropertyTypes) pXML->GetInfoClass(szTextVal);
+	if ((m_eTargetProperty = (PropertyTypes)GC.getInfoTypeForString(szTextVal, true)) == NO_PROPERTY)
+	{
+		GC.addDelayedResolution((int*)&m_eTargetProperty,szTextVal);
+	}
 	pXML->GetOptionalChildXmlValByName(szTextVal, L"GameObjectType");
 	m_eObjectType = (GameObjectTypes) pXML->GetInfoClass(szTextVal);
 	pXML->GetOptionalChildXmlValByName(szTextVal, L"RelationType");
@@ -127,12 +131,14 @@ bool CvPropertyInteraction::read(CvXMLLoadUtility *pXML)
 
 void CvPropertyInteraction::copyNonDefaults(CvPropertyInteraction *pProp, CvXMLLoadUtility *pXML)
 {
-//	if (m_eSourceProperty == NO_PROPERTY)
-//		m_eSourceProperty = pProp->getSourceProperty();
-	GC.copyNonDefaultDelayedResolution((int*)&m_eSourceProperty,(int*)&(pProp->m_eSourceProperty));
-//	if (m_eTargetProperty == NO_PROPERTY)
-//		m_eTargetProperty = pProp->getTargetProperty();
-	GC.copyNonDefaultDelayedResolution((int*)&m_eTargetProperty,(int*)&(pProp->m_eTargetProperty));
+	if (m_eSourceProperty == NO_PROPERTY && (m_eSourceProperty = pProp->getSourceProperty()) == NO_PROPERTY)
+	{
+		GC.copyNonDefaultDelayedResolution((int*)&m_eSourceProperty,(int*)&(pProp->m_eSourceProperty));
+	}
+	if (m_eTargetProperty == NO_PROPERTY && (m_eTargetProperty = pProp->getTargetProperty()) == NO_PROPERTY)
+	{
+		GC.copyNonDefaultDelayedResolution((int*)&m_eTargetProperty,(int*)&(pProp->m_eTargetProperty));
+	}
 	if (m_eObjectType == NO_GAMEOBJECT)
 		m_eObjectType = pProp->getObjectType();
 	if (m_eRelation == NO_RELATION)
@@ -198,12 +204,12 @@ int CvPropertyInteractionConvertConstant::getAmountPerTurn()
 	return m_iAmountPerTurn;
 }
 
-std::pair<int,int> CvPropertyInteractionConvertConstant::getPredict(int iCurrentAmountSource, int iCurrentAmountTarget)
+std::pair<int,int> CvPropertyInteractionConvertConstant::getPredict(int iCurrentAmountSource, int iCurrentAmountTarget) const
 {
 	return std::pair<int,int>(-m_iAmountPerTurn,m_iAmountPerTurn);
 }
 
-std::pair<int,int> CvPropertyInteractionConvertConstant::getCorrect(int iCurrentAmountSource, int iCurrentAmountTarget, int iPredictedAmountSource, int iPredictedAmountTarget)
+std::pair<int,int> CvPropertyInteractionConvertConstant::getCorrect(int iCurrentAmountSource, int iCurrentAmountTarget, int iPredictedAmountSource, int iPredictedAmountTarget) const
 {
 	return std::pair<int,int>(-m_iAmountPerTurn,m_iAmountPerTurn);
 }
@@ -272,12 +278,12 @@ int CvPropertyInteractionInhibitedGrowth::getInhibitionPercent()
 	return m_iInhibitionPercent;
 }
 
-std::pair<int,int> CvPropertyInteractionInhibitedGrowth::getPredict(int iCurrentAmountSource, int iCurrentAmountTarget)
+std::pair<int,int> CvPropertyInteractionInhibitedGrowth::getPredict(int iCurrentAmountSource, int iCurrentAmountTarget) const
 {
 	return std::pair<int,int>(std::max(0, iCurrentAmountSource * m_iGrowthPercent - iCurrentAmountTarget * m_iInhibitionPercent),0);
 }
 
-std::pair<int,int> CvPropertyInteractionInhibitedGrowth::getCorrect(int iCurrentAmountSource, int iCurrentAmountTarget, int iPredictedAmountSource, int iPredictedAmountTarget)
+std::pair<int,int> CvPropertyInteractionInhibitedGrowth::getCorrect(int iCurrentAmountSource, int iCurrentAmountTarget, int iPredictedAmountSource, int iPredictedAmountTarget) const
 {
 	return std::pair<int,int>(std::max(0, iCurrentAmountSource * m_iGrowthPercent - iCurrentAmountTarget * m_iInhibitionPercent),0);
 }
@@ -346,13 +352,13 @@ int CvPropertyInteractionConvertPercent::getNoConvertAmount()
 	return m_iNoConvertAmount;
 }
 
-std::pair<int,int> CvPropertyInteractionConvertPercent::getPredict(int iCurrentAmountSource, int iCurrentAmountTarget)
+std::pair<int,int> CvPropertyInteractionConvertPercent::getPredict(int iCurrentAmountSource, int iCurrentAmountTarget) const
 {
 	int iAmount = std::max((iCurrentAmountSource - m_iNoConvertAmount) * m_iPercent / 100, 0);
 	return std::pair<int,int>(-iAmount,iAmount);
 }
 
-std::pair<int,int> CvPropertyInteractionConvertPercent::getCorrect(int iCurrentAmountSource, int iCurrentAmountTarget, int iPredictedAmountSource, int iPredictedAmountTarget)
+std::pair<int,int> CvPropertyInteractionConvertPercent::getCorrect(int iCurrentAmountSource, int iCurrentAmountTarget, int iPredictedAmountSource, int iPredictedAmountTarget) const
 {
 	int iAmount = std::max((iCurrentAmountSource - m_iNoConvertAmount) * m_iPercent / 100, 0);
 	int iExtra = iPredictedAmountSource - iAmount - iCurrentAmountSource;

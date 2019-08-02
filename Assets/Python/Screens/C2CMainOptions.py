@@ -1,7 +1,7 @@
 #
-# C2CMainOptions 
+# C2CMainOptions
 # by Dancing Hoskuld
-# 
+#
 #
 
 from CvPythonExtensions import *
@@ -15,10 +15,10 @@ ArtFileMgr = CyArtFileMgr()
 
 class C2CMainOptions:
 	"A Blank Civ4 Screen"
-	
+
 	def __init__(self):
 		self.sWidgetPrefix = "C2CMainOptions"
- 
+
 		self.MANAGER_SCREEN_ID = self.sWidgetPrefix + "MainWindow"
 		self.BACKGROUND_ID = self.sWidgetPrefix + "BackgroundImage"
 		self.EXIT_ID = self.sWidgetPrefix + "ExitWidget"

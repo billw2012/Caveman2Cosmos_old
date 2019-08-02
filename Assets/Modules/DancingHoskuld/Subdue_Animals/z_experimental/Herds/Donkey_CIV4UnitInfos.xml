@@ -11,18 +11,12 @@
 			<Civilopedia>TXT_KEY_UNIT_DONKEY_PEDIA</Civilopedia>
 			<Help>TXT_KEY_UNIT_SUBDUED_DONKEY_HELP</Help>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_DONKEY_MYTH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_DONKEY_STORY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_DONKEY_STORIES</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_DONKEY_MYTH</BuildingType>
+
+				<BuildingType>BUILDING_DONKEY_STORY</BuildingType>
+
+				<BuildingType>BUILDING_DONKEY_STORIES</BuildingType>
+
 			</Buildings>
 		</UnitInfo>
 	</UnitInfos>

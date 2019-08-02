@@ -766,21 +766,6 @@ void CvDLLWidgetData::parseHelp(CvWStringBuffer &szBuffer, CvWidgetDataStruct &w
 		}
 		break;
 	}
-	
-	bool bAlternativeHelp = GC.getDefineBOOL("ENABLE_ALTERNATIVE_HELP_HOVERS");
-	if (bAlternativeHelp && !szBuffer.isEmpty())
-	{
-		//PYTHON_ACCESS_LOCK_SCOPE
-		//CyArgsList argsList;
-		//argsList.add(szBuffer.getCString());
-		//argsList.add(widgetDataStruct.m_iData1);
-		//argsList.add(widgetDataStruct.m_iData2);
-		//argsList.add((int)widgetDataStruct.m_eWidgetType);
-		PYTHON_CALL_FUNCTION2(__FUNCTION__, PYScreensModule, "updateToolTip");
-		/*PYTHON_CALL_FUNCTION(__FUNCTION__, PYScreensModule, "updateToolTip", argsList.makeFunctionArgs());*/
-		/*szBuffer.clear();*/
-	}
-
 }
 
 // Protected Functions...
@@ -3105,7 +3090,7 @@ void CvDLLWidgetData::parseActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWS
 
 				if (pMissionCity != NULL)
 				{
-					if (!pHeadSelectedUnit->getUnitInfo().getForceBuildings(eBuilding)  && !pMissionCity->canConstruct(eBuilding, false, false, true))
+					if (!pMissionCity->canConstruct(eBuilding, false, false, true))
 					{
 						if (!(GC.getGameINLINE().isBuildingClassMaxedOut((BuildingClassTypes)(GC.getBuildingInfo(eBuilding).getBuildingClassType()))))
 						{

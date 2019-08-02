@@ -35,8 +35,8 @@ def init():
 					#~ gc.getInfoTypeForString("UNIT_MIDDLE_WORKBOAT"), gc.getInfoTypeForString("UNIT_MODERN_WORKBOAT"),
 					#~ gc.getInfoTypeForString("UNIT_CONSTRUCT_SHIP")
 					#~ ]
-					
-	gaiSettlerWorkerCombatList =  [gc.getInfoTypeForString("UNITCOMBAT_SETTLER"), gc.getInfoTypeForString("UNITCOMBAT_WORKER"), 
+
+	gaiSettlerWorkerCombatList =  [gc.getInfoTypeForString("UNITCOMBAT_SETTLER"), gc.getInfoTypeForString("UNITCOMBAT_WORKER"),
 							gc.getInfoTypeForString("UNITCOMBAT_SEA_WORKER")
 							]
 
@@ -64,7 +64,7 @@ def onUnitBuilt( argsList):
 		if not (unit.getUnitCombatType() in gaiSettlerWorkerCombatList) and isWorldUnitClass(unit.getUnitClassType()) == False:
 			iX = city.getX()
 			iY = city.getY()
-			
+
 			if unit.getDomainType() == gc.getInfoTypeForString('DOMAIN_LAND'):
 				iNumCold = 0
 				iNumHot = 0
@@ -83,7 +83,7 @@ def onUnitBuilt( argsList):
 				iScrub = gc.getInfoTypeForString('TERRAIN_SCRUB')
 				iSaltFlats = gc.getInfoTypeForString('TERRAIN_SALT_FLATS')
 				iMarsh = gc.getInfoTypeForString('TERRAIN_MARSH')
-				
+
 				for iiX in range(iX-1, iX+2, 1):
 					for iiY in range(iY-1, iY+2, 1):
 						pPlot = CyMap().plot(iiX,iiY)
@@ -102,7 +102,7 @@ def onUnitBuilt( argsList):
 							iNumBush = iNumBush +1
 						if ((iFeature == gc.getInfoTypeForString('FEATURE_FOREST') or iFeature == gc.getInfoTypeForString('FEATURE_JUNGLE')) or iFeature == gc.getInfoTypeForString('FEATURE_BAMBOO')):
 							iNumTree = iNumTree + 1
-							
+
 				iRnd = CyGame().getSorenRandNum(100, "")
 				if iRnd < (iNumTree * 1.25 * iMilitaryCivic):
 					iProposedPromotion = gc.getInfoTypeForString('PROMOTION_GREEN_WARDEN')
@@ -133,7 +133,7 @@ def onUnitBuilt( argsList):
 					iProposedPromotion = gc.getInfoTypeForString('PROMOTION_AMPHIBIOUS')
 					if unit.canAcquirePromotion(iProposedPromotion):
 						unit.setHasPromotion(iProposedPromotion, True)
-					
+
 			if unit.getDomainType() == gc.getInfoTypeForString('DOMAIN_SEA'):
 				iNumReef = 0
 				iNumIce = 0
@@ -144,7 +144,7 @@ def onUnitBuilt( argsList):
 				iReef = gc.getInfoTypeForString('FEAURE_REEF')
 				iIce = gc.getInfoTypeForString('FEATURE_ICE')
 				iCoral = gc.getInfoTypeForString('FEAURE_CORAL')
-				
+
 				for iiX in range(iX-1, iX+2, 1):
 					for iiY in range(iY-1, iY+2, 1):
 						pPlot = CyMap().plot(iiX,iiY)
@@ -155,7 +155,7 @@ def onUnitBuilt( argsList):
 							iNumReef = iNumReef +1
 						if iFeature == iIce:
 							iNumIce = iNumIce +1
-							
+
 				iRnd = CyGame().getSorenRandNum(100, "")
 				if iRnd < (iNumReef * 1.25 * iMilitaryCivic):
 					iProposedPromotion = gc.getInfoTypeForString('PROMOTION_COASTAL_ASSAULT1')

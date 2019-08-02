@@ -365,9 +365,42 @@ public:
 	int getOrCreateInfoTypeForString(const char* szType);
 
 	void addDelayedResolution(int* pType, CvString szString);
-	CvString* getDelayedResolution(int* pType);
+	CvString getDelayedResolution(int* pType) const;
 	void removeDelayedResolution(int* pType);
 	void copyNonDefaultDelayedResolution(int* pTypeSelf, int* pTypeOther);
+	void copyNonDefaultDelayedResolutionVector(std::vector<int>& contSelf, std::vector<int>& contOther);
+	template<typename T>
+	void copyNonDefaultDelayedResolutionVector(std::vector<std::pair<int,T> >& contSelf, std::vector<std::pair<int,T> >& contOther)
+	{
+		int iSizeOrig = (int)contSelf.size();
+		contSelf.reserve(iSizeOrig + (int)contOther.size());
+		while (contOther.size())
+		{
+			bool bExists = false;
+			CvString szOther = getDelayedResolution(&contOther.back().first);
+			removeDelayedResolution(&contOther.back().first);
+			if (szOther.empty())
+			{
+				contOther.pop_back();
+				continue;
+			}
+			for (std::vector<std::pair<int,T> >::iterator it = contSelf.begin(); it - contSelf.begin() < iSizeOrig; it++)
+			{
+				CvString szSelf = getDelayedResolution(&it->first);
+				if (szSelf.size() && szSelf.CompareNoCase(szOther) != 0)
+				{
+					bExists = true;
+					break;
+				}
+			}
+			if (!bExists)
+			{
+				contSelf.push_back(contOther.back());
+				addDelayedResolution(&contSelf.back().first, szOther);
+			}
+			contOther.pop_back();
+		}
+	}
 	void resolveDelayedResolution();
 
 	int getNumWorldInfos();

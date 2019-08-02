@@ -28868,7 +28868,7 @@
 				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_ECOLOGIST</UnitType>
-					<UnitMeshGroup>	
+					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_ECOLOGIST_MEAST</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_ECOLOGIST_MEAST</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_ECOLOGIST_MEAST</MiddleArtDefineTag>
@@ -29498,7 +29498,7 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_NOBLE_BABYLON</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>				
+				<StyleUnit>
 					<UnitType>UNIT_OBSIDIAN_AXEMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_OBSIDIAN_AXEMAN_MEAST</EarlyArtDefineTag>
@@ -29506,7 +29506,7 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_OBSIDIAN_AXEMAN_MEAST</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>				
+				<StyleUnit>
 					<UnitType>UNIT_OBSIDIAN_MACEMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_OBSIDIAN_MACEMAN_BABYLON</EarlyArtDefineTag>
@@ -29514,7 +29514,7 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_OBSIDIAN_MACEMAN_BABYLON</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>				
+				<StyleUnit>
 					<UnitType>UNIT_OBSIDIAN_SPEARMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_OBSIDIAN_SPEARMAN_BABYLON</EarlyArtDefineTag>
@@ -29522,7 +29522,7 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_OBSIDIAN_SPEARMAN_BABYLON</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>				
+				<StyleUnit>
 					<UnitType>UNIT_OBSIDIAN_SWORDSMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_OBSIDIAN_SWORDSMAN_BABYLON</EarlyArtDefineTag>
@@ -30793,7 +30793,7 @@
 				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_ECOLOGIST</UnitType>
-					<UnitMeshGroup>	
+					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_ECOLOGIST_ASIAN</EarlyArtDefineTag>
 						<LateArtDefineTag>ART_DEF_UNIT_ECOLOGIST_ASIAN</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_ECOLOGIST_ASIAN</MiddleArtDefineTag>
@@ -31423,7 +31423,7 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_VICEROY_MONGOL</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>				
+				<StyleUnit>
 					<UnitType>UNIT_OBSIDIAN_AXEMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_OBSIDIAN_AXEMAN_MONGOL</EarlyArtDefineTag>
@@ -31431,7 +31431,7 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_OBSIDIAN_AXEMAN_MONGOL</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>				
+				<StyleUnit>
 					<UnitType>UNIT_OBSIDIAN_MACEMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_OBSIDIAN_MACEMAN_MONGOL</EarlyArtDefineTag>
@@ -31439,7 +31439,7 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_OBSIDIAN_MACEMAN_MONGOL</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>				
+				<StyleUnit>
 					<UnitType>UNIT_OBSIDIAN_SPEARMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_OBSIDIAN_SPEARMAN_MONGOL</EarlyArtDefineTag>
@@ -31447,7 +31447,7 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_OBSIDIAN_SPEARMAN_MONGOL</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>				
+				<StyleUnit>
 					<UnitType>UNIT_OBSIDIAN_SWORDSMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_OBSIDIAN_SWORDSMAN_MONGOL</EarlyArtDefineTag>
@@ -33173,7 +33173,7 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_NOBLE_ROME</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>				
+				<StyleUnit>
 					<UnitType>UNIT_OBSIDIAN_AXEMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_OBSIDIAN_AXEMAN_GREEK</EarlyArtDefineTag>
@@ -33181,7 +33181,7 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_OBSIDIAN_AXEMAN_GREEK</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>				
+				<StyleUnit>
 					<UnitType>UNIT_OBSIDIAN_MACEMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_OBSIDIAN_MACEMAN_GREEK</EarlyArtDefineTag>
@@ -33189,7 +33189,7 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_OBSIDIAN_MACEMAN_GREEK</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>				
+				<StyleUnit>
 					<UnitType>UNIT_OBSIDIAN_SPEARMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_OBSIDIAN_SPEARMAN_GREEK</EarlyArtDefineTag>
@@ -33197,7 +33197,7 @@
 						<MiddleArtDefineTag>ART_DEF_UNIT_OBSIDIAN_SPEARMAN_GREEK</MiddleArtDefineTag>
 					</UnitMeshGroup>
 				</StyleUnit>
-				<StyleUnit>				
+				<StyleUnit>
 					<UnitType>UNIT_OBSIDIAN_SWORDSMAN</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_OBSIDIAN_SWORDSMAN_GREEK</EarlyArtDefineTag>
@@ -38439,7 +38439,7 @@
 						<LateArtDefineTag>ART_DEF_UNIT_FRIGATE_ASIAN</LateArtDefineTag>
 						<MiddleArtDefineTag>ART_DEF_UNIT_FRIGATE_ASIAN</MiddleArtDefineTag>
 					</UnitMeshGroup>
-				</StyleUnit>	
+				</StyleUnit>
 				<StyleUnit>
 					<UnitType>UNIT_GALLEON</UnitType>
 					<UnitMeshGroup>

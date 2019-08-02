@@ -10,9 +10,7 @@
 			<BuildingClass>BUILDINGCLASS_MAMMOTH_HERD</BuildingClass>
 			<Type>BUILDING_MAMMOTH_HERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_MAMMOTH_HERD</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MAMMOTH_HERD_PEDIA</Civilopedia>
@@ -35,14 +33,13 @@
 				</ExtraFreeBonus>
 			</ExtraFreeBonuses>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>3</iAsset>
 			<iConquestProb>75</iConquestProb>
 			<YieldChanges>
 				<iYield>1</iYield>
 				<iYield>1</iYield>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<ConstructSound>SND_AMB_HORSE_COBBLESTONES</ConstructSound>
 			<Flavors>
 				<Flavor>
@@ -55,9 +52,7 @@
 			<BuildingClass>BUILDINGCLASS_MAMMOTH_TRAINER</BuildingClass>
 			<Type>BUILDING_MAMMOTH_TRAINER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_MAMMOTH_TRAINER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MAMMOTH_TRAINER_PEDIA</Civilopedia>
@@ -183,9 +178,7 @@
 			<BuildingClass>BUILDINGCLASS_MAMMOTH_TRAINER_EFFECT</BuildingClass>
 			<Type>BUILDING_MAMMOTH_TRAINER_EFFECT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_MAMMOTH_TRAINER_EFFECT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MAMMOTH_TRAINER_PEDIA</Civilopedia>
@@ -195,7 +188,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_MAMMOTH_TRAINER_EFFECT</ArtDefineTag>
 			<ObsoleteTech>TECH_ARMORED_VEHICLES</ObsoleteTech>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iAsset>2</iAsset>
 			<MapCategoryTypes>

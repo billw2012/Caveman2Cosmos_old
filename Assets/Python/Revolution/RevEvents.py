@@ -185,7 +185,7 @@ def onEndPlayerTurn( argsList ) :
 			else :
 				break
 
-	# Stuff before next players turn 
+	# Stuff before next players turn
 	#CvUtil.pyPrint("Rev - Recording civics for player %d"%(iNextPlayer))
 	recordCivics( iNextPlayer )
 
@@ -289,7 +289,7 @@ def onSetPlayerAlive( argsList ) :
 		pPlayer.setIsRebel( False )
 #-------------------------------------------------------------------------------------------------
 # Lemmy101 RevolutionMP edit
-#-------------------------------------------------------------------------------------------------        
+#-------------------------------------------------------------------------------------------------
 
 		# Appears to be too late, game is already ending before this popup can take effect
 		if( iPlayerID == GAME.getActivePlayer() and GAME.getAIAutoPlay(iPlayerID) == 0 ) :
@@ -297,7 +297,7 @@ def onSetPlayerAlive( argsList ) :
 				GAME.setAIAutoPlay(iPlayerID, 1)
 #-------------------------------------------------------------------------------------------------
 # END Lemmy101 RevolutionMP edit
-#-------------------------------------------------------------------------------------------------        
+#-------------------------------------------------------------------------------------------------
 				#ChangePlayer.changeHumanPopup( True )
 			except :
 				pass
@@ -1022,7 +1022,7 @@ def checkForAssimilation():
 										CyPlayerDominant = CyPlayerY
 									elif not iPlayerX in noAssimilateList:
 										CyPlayerDominant = CyPlayerY
-									if CyPlayerDominant: 
+									if CyPlayerDominant:
 										print "	Revolt - Assimilation culture owner: " + CyPlayerDominant.getCivilizationDescription(0)
 
 							if not CyPlayerDominant:

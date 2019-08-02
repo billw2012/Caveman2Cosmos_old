@@ -83,7 +83,6 @@
 			</TechTypes>
 			<BonusType>BONUS_BISON</BonusType>
 			<iCost>120</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>7</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -116,7 +115,6 @@
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<bMilitaryTrade>1</bMilitaryTrade>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Type>UNIT_BISON_RIDER</Type>
 			<AndDependencyTypes>
@@ -141,16 +139,12 @@
 				</UnitClassAttackMod>
 			</UnitClassAttackMods>
 		</UnitInfo>
-
-
 		<UnitInfo>
 			<Class>UNITCLASS_SUBDUED_BISON</Class>
 			<Type>UNIT_SUBDUED_BISON</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_BISON</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_BISON</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>

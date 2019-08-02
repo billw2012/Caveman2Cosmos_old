@@ -47,7 +47,6 @@
 			</Flavors>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -63,14 +62,10 @@
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Type>UNIT_PROPHET</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_CANAANISM_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_CANAANISM_SHRINE</BuildingType>
 			</Buildings>
 			<ReligionSpreads>
 				<ReligionSpread>

@@ -8278,10 +8278,7 @@
 			<bStateReligion>1</bStateReligion>
 			<NotGameOption>GAMEOPTION_NO_INQUISITIONS</NotGameOption>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_INTOLERANT</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_INTOLERANT</CivicOption>
 			</PrereqOrCivics>
 			<PrereqTech>TECH_FUNDAMENTALISM</PrereqTech>
 			<iCost>150</iCost>
@@ -11320,6 +11317,12 @@
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<ForceObsoleteTech>TECH_FLINTLOCK</ForceObsoleteTech>
+			<ForceObsoleteUnitClasses>
+				<ForceObsoleteUnitClass>
+					<ForceObsoleteUnitClassType>UNITCLASS_NEANDERTHAL_STONE_THROWER</ForceObsoleteUnitClassType>
+					<bForceObsoleteUnitClass>1</bForceObsoleteUnitClass>
+				</ForceObsoleteUnitClass>
+			</ForceObsoleteUnitClasses>
 			<iCost>4</iCost>
 			<iMoves>1</iMoves>
 			<iCombat>1</iCombat>
@@ -11501,7 +11504,7 @@
 				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_ARCHER</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade> 
+				</UnitClassUpgrade>
 				-->
 				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_JAVELINEER</UnitClassUpgradeType>
@@ -36854,26 +36857,11 @@
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_NATIONALIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DESPOTISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
+				<CivicOption>CIVIC_NATIONALIST</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_DESPOTISM</CivicOption>
 			</PrereqOrCivics>
 		</UnitInfo>
 		<UnitInfo>
@@ -37002,26 +36990,11 @@
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_NATIONALIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DESPOTISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
+				<CivicOption>CIVIC_NATIONALIST</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_DESPOTISM</CivicOption>
 			</PrereqOrCivics>
 		</UnitInfo>
 		<UnitInfo>
@@ -37153,26 +37126,11 @@
 				</FreePromotion>
 			</FreePromotions>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_NATIONALIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DESPOTISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
+				<CivicOption>CIVIC_NATIONALIST</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_DESPOTISM</CivicOption>
 			</PrereqOrCivics>
 		</UnitInfo>
 		<UnitInfo>
@@ -37307,26 +37265,11 @@
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_NATIONALIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DESPOTISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
+				<CivicOption>CIVIC_NATIONALIST</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_DESPOTISM</CivicOption>
 			</PrereqOrCivics>
 		</UnitInfo>
 		<UnitInfo>
@@ -37449,26 +37392,11 @@
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_NATIONALIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DESPOTISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
+				<CivicOption>CIVIC_NATIONALIST</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_DESPOTISM</CivicOption>
 			</PrereqOrCivics>
 		</UnitInfo>
 		<UnitInfo>
@@ -37582,26 +37510,11 @@
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_NATIONALIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DESPOTISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
+				<CivicOption>CIVIC_NATIONALIST</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_DESPOTISM</CivicOption>
 			</PrereqOrCivics>
 		</UnitInfo>
 		<UnitInfo>
@@ -37731,26 +37644,11 @@
 				</FreePromotion>
 			</FreePromotions>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_NATIONALIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DESPOTISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
+				<CivicOption>CIVIC_NATIONALIST</CivicOption>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_DESPOTISM</CivicOption>
 			</PrereqOrCivics>
 		</UnitInfo>
 		<UnitInfo>
@@ -44659,10 +44557,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
 			</PrereqOrCivics>
 			<PrereqBuilding>BUILDING_PALACE</PrereqBuilding>
 			<PrereqTech>TECH_FEUDALISM</PrereqTech>
@@ -44762,10 +44657,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
 			</PrereqOrCivics>
 			<PrereqBuilding>BUILDING_PALACE</PrereqBuilding>
 			<PrereqTech>TECH_FLINTLOCK</PrereqTech>
@@ -44871,10 +44763,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
 			</PrereqOrCivics>
 			<PrereqBuilding>BUILDING_PALACE</PrereqBuilding>
 			<PrereqTech>TECH_AUTOMATIC_WEAPONS</PrereqTech>
@@ -44973,10 +44862,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
 			</PrereqOrCivics>
 			<PrereqBuilding>BUILDING_PALACE</PrereqBuilding>
 			<PrereqTech>TECH_ANDROIDS</PrereqTech>
@@ -52736,86 +52622,26 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_CARPOOL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SMOKE_DETECTOR</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_FIRE_CODE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NEIGHBORHOOD_WATCH</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_YOUTH_CURFEW</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EMISSION_ACT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CLEANAIR_ACT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CLEANWATER_ACT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TIRE_RECYCLE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SHUTTLE_SERVICE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_PROSTITUTION_BAN</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GAMBLING_BAN</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ALCOCHOL_PROHIBITION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_DRUG_PROHIBITION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SMOKING_PROHIBITION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_ALCOHOL_PROHIBITION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_DRUG_PROHIBITION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_SMOKING_PROHIBITION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_PROSTITUTION_BAN</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_GAMBLING_BAN</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_CARPOOL</BuildingType>
+				<BuildingType>BUILDING_SMOKE_DETECTOR</BuildingType>
+				<BuildingType>BUILDING_FIRE_CODE</BuildingType>
+				<BuildingType>BUILDING_NEIGHBORHOOD_WATCH</BuildingType>
+				<BuildingType>BUILDING_YOUTH_CURFEW</BuildingType>
+				<BuildingType>BUILDING_EMISSION_ACT</BuildingType>
+				<BuildingType>BUILDING_CLEANAIR_ACT</BuildingType>
+				<BuildingType>BUILDING_CLEANWATER_ACT</BuildingType>
+				<BuildingType>BUILDING_TIRE_RECYCLE</BuildingType>
+				<BuildingType>BUILDING_SHUTTLE_SERVICE</BuildingType>
+				<BuildingType>BUILDING_PROSTITUTION_BAN</BuildingType>
+				<BuildingType>BUILDING_GAMBLING_BAN</BuildingType>
+				<BuildingType>BUILDING_ALCOCHOL_PROHIBITION</BuildingType>
+				<BuildingType>BUILDING_DRUG_PROHIBITION</BuildingType>
+				<BuildingType>BUILDING_SMOKING_PROHIBITION</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_ALCOHOL_PROHIBITION</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_DRUG_PROHIBITION</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_SMOKING_PROHIBITION</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_PROSTITUTION_BAN</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_GAMBLING_BAN</BuildingType>
 			</Buildings>
 			<PrereqBuilding>BUILDING_COURTHOUSE</PrereqBuilding>
 			<PrereqTech>TECH_CODE_OF_LAWS</PrereqTech>
@@ -53328,14 +53154,8 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_TREASURY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MUSEUM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_TREASURY</BuildingType>
+				<BuildingType>BUILDING_MUSEUM</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -54788,62 +54608,20 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_JEWISH_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CHRISTIAN_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ISLAMIC_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_HINDU_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BUDDHIST_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CONFUCIAN_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAOIST_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_STATUE_OF_ZEUS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOROASTRIAN_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EGYPT_MYTH_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MESOAMERICAN_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_BELIEF_KARMA</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_BELIEF_RESURRECTION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_BELIEF_REINCARNATION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_JEWISH_SHRINE</BuildingType>
+				<BuildingType>BUILDING_CHRISTIAN_SHRINE</BuildingType>
+				<BuildingType>BUILDING_ISLAMIC_SHRINE</BuildingType>
+				<BuildingType>BUILDING_HINDU_SHRINE</BuildingType>
+				<BuildingType>BUILDING_BUDDHIST_SHRINE</BuildingType>
+				<BuildingType>BUILDING_CONFUCIAN_SHRINE</BuildingType>
+				<BuildingType>BUILDING_TAOIST_SHRINE</BuildingType>
+				<BuildingType>BUILDING_STATUE_OF_ZEUS</BuildingType>
+				<BuildingType>BUILDING_ZOROASTRIAN_SHRINE</BuildingType>
+				<BuildingType>BUILDING_EGYPT_MYTH_SHRINE</BuildingType>
+				<BuildingType>BUILDING_MESOAMERICAN_SHRINE</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_BELIEF_KARMA</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_BELIEF_RESURRECTION</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_BELIEF_REINCARNATION</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -55123,30 +54901,12 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_7</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_EMPCLOTH_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_RED_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_ASTHETIC_APPRECIATION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_7</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_EMPCLOTH_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_RED_HQ</BuildingType>
+				<BuildingType>BUILDING_TRADITION_ASTHETIC_APPRECIATION</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -55368,25 +55128,11 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_3</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_6</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_STANDARD_OF_MEASUREMENT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_CORPORATION_3</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_6</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_STANDARD_OF_MEASUREMENT</BuildingType>
+				<BuildingType>BUILDING_ACADEMY</BuildingType>
 			</Buildings>
-			<ForceBuildings>
-				<ForceBuilding>
-					<BuildingType>BUILDING_ACADEMY</BuildingType>
-					<bForceBuilding>1</bForceBuilding>
-				</ForceBuilding>
-			</ForceBuildings>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_SCIENCE</FlavorType>
@@ -55556,62 +55302,20 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_CENTRAL_BANK</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_WALL_STREET</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_1</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_2</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_ADVENTURE_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_BURGERWORLD_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_EWTRADE_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_FASHION_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_MALLWART_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_MAPSTER_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_MCDOWELLS_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_MOBBY_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_MOONBEAN_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_WONKA_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_CENTRAL_BANK</BuildingType>
+				<BuildingType>BUILDING_WALL_STREET</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_1</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_2</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_ADVENTURE_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_BURGERWORLD_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_EWTRADE_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_FASHION_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_MALLWART_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_MAPSTER_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_MCDOWELLS_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_MOBBY_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_MOONBEAN_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_WONKA_HQ</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -55789,38 +55493,14 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_WORK_ETHIC</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_IRON_WORKS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_PONT_DU_GARD_AQUEDUCT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_4</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_5</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_BULLSEYE_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_MILEHIGH_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATIONAL_STANDARD_OF_MEASUREMENT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_TRADITION_WORK_ETHIC</BuildingType>
+				<BuildingType>BUILDING_IRON_WORKS</BuildingType>
+				<BuildingType>BUILDING_PONT_DU_GARD_AQUEDUCT</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_4</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_5</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_BULLSEYE_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_MILEHIGH_HQ</BuildingType>
+				<BuildingType>BUILDING_NATIONAL_STANDARD_OF_MEASUREMENT</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -56147,46 +55827,16 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_HUNTER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_SEA_HUNTING</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_NAVAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_ARCHERY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SECRET_ARMY_BASE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_COURIER_SYSTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MILITARY_ACADEMY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_SAFARI_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_ULTSOLDIER_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_TRADITION_HUNTER</BuildingType>
+				<BuildingType>BUILDING_TRADITION_SEA_HUNTING</BuildingType>
+				<BuildingType>BUILDING_TRADITION_TOTEM</BuildingType>
+				<BuildingType>BUILDING_TRADITION_NAVAL_TOTEM</BuildingType>
+				<BuildingType>BUILDING_TRADITION_ARCHERY</BuildingType>
+				<BuildingType>BUILDING_SECRET_ARMY_BASE</BuildingType>
+				<BuildingType>BUILDING_COURIER_SYSTEM</BuildingType>
+				<BuildingType>BUILDING_MILITARY_ACADEMY</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_SAFARI_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_ULTSOLDIER_HQ</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -56328,34 +55978,13 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_SEA_HUNTING</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_NAVAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SECRET_ARMY_BASE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_COURIER_SYSTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MILITARY_ACADEMY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_SAFARI_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CORPORATION_ULTSOLDIER_HQ</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_TRADITION_SEA_HUNTING</BuildingType>
+				<BuildingType>BUILDING_TRADITION_NAVAL_TOTEM</BuildingType>
+				<BuildingType>BUILDING_SECRET_ARMY_BASE</BuildingType>
+				<BuildingType>BUILDING_COURIER_SYSTEM</BuildingType>
+				<BuildingType>BUILDING_MILITARY_ACADEMY</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_SAFARI_HQ</BuildingType>
+				<BuildingType>BUILDING_CORPORATION_ULTSOLDIER_HQ</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -56516,30 +56145,12 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_HUNTER</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_SEA_HUNTING</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_NAVAL_TOTEM</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TRADITION_ARCHERY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_HHUNTINGBOW</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_TRADITION_HUNTER</BuildingType>
+				<BuildingType>BUILDING_TRADITION_SEA_HUNTING</BuildingType>
+				<BuildingType>BUILDING_TRADITION_TOTEM</BuildingType>
+				<BuildingType>BUILDING_TRADITION_NAVAL_TOTEM</BuildingType>
+				<BuildingType>BUILDING_TRADITION_ARCHERY</BuildingType>
+				<BuildingType>BUILDING_HHUNTINGBOW</BuildingType>
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -56635,18 +56246,9 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_SPY_NETWORK</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SPY_TRAINING_FACILITY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SCOTLAND_YARD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_SPY_NETWORK</BuildingType>
+				<BuildingType>BUILDING_SPY_TRAINING_FACILITY</BuildingType>
+				<BuildingType>BUILDING_SCOTLAND_YARD</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -56676,9 +56278,7 @@
 			<Class>UNITCLASS_NEANDERTHAL</Class>
 			<Type>UNIT_NEANDERTHAL</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<SubCombatTypes>
@@ -56744,9 +56344,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_WARRIOR</Class>
 			<Type>UNIT_NEANDERTHAL_WARRIOR</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<SubCombatTypes>
@@ -56814,14 +56412,12 @@
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
-		</UnitInfo>		
+		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_NEANDERTHAL_BRUTE</Class>
 			<Type>UNIT_NEANDERTHAL_BRUTE</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<SubCombatTypes>
@@ -56898,7 +56494,6 @@
 			</UnitCombatMods>
 			<iAsset>1</iAsset>
 			<iPower>1</iPower>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<UnitMeshGroups>
 				<iGroupSize>3</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -56916,9 +56511,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_STONE_THROWER</Class>
 			<Type>UNIT_NEANDERTHAL_STONE_THROWER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_THROWING</Combat>
 			<SubCombatTypes>
@@ -57027,9 +56620,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_WANDERER</Class>
 			<Type>UNIT_NEANDERTHAL_WANDERER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_RECON</Combat>
 			<SubCombatTypes>
@@ -57094,7 +56685,6 @@
 			</UnitAIs>
 			<PrereqTech>TECH_NOMADIC_LIFESTYLE</PrereqTech>
 			<iCost>20</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>2</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -57122,9 +56712,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_GATHERER</Class>
 			<Type>UNIT_NEANDERTHAL_GATHERER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Capture>UNITCLASS_GATHERER</Capture>
 			<Combat>UNITCOMBAT_WORKER</Combat>
@@ -57297,7 +56885,6 @@
 			<iMoves>1</iMoves>
 			<iWorkRate>125</iWorkRate>
 			<iAsset>1</iAsset>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -57315,9 +56902,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_WORKER</Class>
 			<Type>UNIT_NEANDERTHAL_WORKER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Capture>UNITCLASS_WORKER</Capture>
 			<Combat>UNITCOMBAT_WORKER</Combat>
@@ -57587,7 +57172,6 @@
 			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<PrereqTech>TECH_SEDENTARY_LIFESTYLE</PrereqTech>
 			<iCost>180</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iWorkRate>175</iWorkRate>
 			<BonusProductionModifiers>
@@ -57627,9 +57211,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_WISE_WOMAN</Class>
 			<Type>UNIT_NEANDERTHAL_WISE_WOMAN</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Combat>UNITCOMBAT_HEALTH_CARE</Combat>
@@ -57708,7 +57290,6 @@
 			<iExtraCost>1</iExtraCost>
 			<iAsset>2</iAsset>
 			<iPower>1</iPower>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<UnitMeshGroups>
 				<iGroupSize>1</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -57742,9 +57323,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_SHEPHERD</Class>
 			<Type>UNIT_NEANDERTHAL_SHEPHERD</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Combat>UNITCOMBAT_HEALTH_CARE</Combat>
@@ -57867,9 +57446,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_TRAINEDDOG</Class>
 			<Type>UNIT_NEANDERTHAL_TRAINEDDOG</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_ANIMAL</Combat>
 			<SubCombatTypes>
@@ -57954,7 +57531,6 @@
 			<iDynamicDefense>5</iDynamicDefense>
 			<iAsset>3</iAsset>
 			<iPower>3</iPower>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -57972,9 +57548,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_OUTRIGGER</Class>
 			<Type>UNIT_NEANDERTHAL_OUTRIGGER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_WOODEN_SHIPS</Combat>
 			<SubCombatTypes>
@@ -58115,9 +57689,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_KAYAK</Class>
 			<Type>UNIT_NEANDERTHAL_KAYAK</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_WOODEN_SHIPS</Combat>
 			<SubCombatTypes>
@@ -58235,9 +57807,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_WAR_CANOE</Class>
 			<Type>UNIT_NEANDERTHAL_WAR_CANOE</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_WOODEN_SHIPS</Combat>
 			<SubCombatTypes>
@@ -58344,9 +57914,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_CANOE</Class>
 			<Type>UNIT_NEANDERTHAL_CANOE</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_WOODEN_SHIPS</Combat>
 			<SubCombatTypes>
@@ -58457,9 +58025,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_RAFT</Class>
 			<Type>UNIT_NEANDERTHAL_RAFT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_WOODEN_SHIPS</Combat>
 			<SubCombatTypes>
@@ -58581,9 +58147,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_CLASSIC_WORKBOAT</Class>
 			<Type>UNIT_NEANDERTHAL_CLASSIC_WORKBOAT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Capture>UNITCLASS_CLASSIC_WORKBOAT</Capture>
 			<Combat>UNITCOMBAT_SEA_WORKER</Combat>
@@ -58687,7 +58251,6 @@
 				</ProductionTrait>
 			</ProductionTraits>
 			<iCost>160</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<iWorkRate>150</iWorkRate>
@@ -58754,9 +58317,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_WORKBOAT</Class>
 			<Type>UNIT_NEANDERTHAL_WORKBOAT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Capture>UNITCLASS_WORKBOAT</Capture>
 			<Combat>UNITCOMBAT_SEA_WORKER</Combat>
@@ -58859,7 +58420,6 @@
 				</ProductionTrait>
 			</ProductionTraits>
 			<iCost>32</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<bNoRevealMap>1</bNoRevealMap>
 			<iWorkRate>100</iWorkRate>
@@ -58900,9 +58460,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_LOG_RAM</Class>
 			<Type>UNIT_NEANDERTHAL_LOG_RAM</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Capture>UNITCLASS_LOG_RAM</Capture>
 			<Combat>UNITCOMBAT_SIEGE</Combat>
@@ -58968,7 +58526,6 @@
 			</TechTypes>
 			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>130</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>3</iCombat>
 			<iCombatLimit>75</iCombatLimit>
@@ -59011,9 +58568,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_ELEPHANT_RIDER</Class>
 			<Type>UNIT_NEANDERTHAL_ELEPHANT_RIDER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_MOUNTED</Combat>
 			<SubCombatTypes>
@@ -59087,7 +58642,6 @@
 				<BonusType>BONUS_ELEPHANT</BonusType>
 			</PrereqBonuses>
 			<iCost>190</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>9</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -59141,9 +58695,7 @@
 				<DependencyType>UNITCLASS_WAR_MAMMOTH</DependencyType>
  			</AndDependencyTypes>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_MOUNTED</Combat>
 			<SubCombatTypes>
@@ -59218,7 +58770,6 @@
 				<BonusType>BONUS_MAMMOTH</BonusType>
 			</PrereqBonuses>
 			<iCost>210</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>9</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -59277,9 +58828,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_OBSIDIAN_SPEARMAN</Class>
 			<Type>UNIT_NEANDERTHAL_OBSIDIAN_SPEARMAN</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<SubCombatTypes>
@@ -59340,7 +58889,6 @@
 				<BonusType>BONUS_OBSIDIAN</BonusType>
 			</PrereqBonuses>
 			<iCost>104</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>6</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -59382,9 +58930,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_STONE_AGE_SPEARMAN</Class>
 			<Type>UNIT_NEANDERTHAL_STONE_AGE_SPEARMAN</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<SubCombatTypes>
@@ -59443,7 +58989,6 @@
 			<PrereqTech>TECH_SPEAR_MAKING</PrereqTech>
 			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>88</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>5</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -59489,9 +59034,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_WOODEN_SPEARMAN</Class>
 			<Type>UNIT_NEANDERTHAL_WOODEN_SPEARMAN</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<SubCombatTypes>
@@ -59553,7 +59096,6 @@
 			<PrereqTech>TECH_SIMPLE_WOOD_WORKING</PrereqTech>
 			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>70</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>4</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -59590,9 +59132,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_OBSIDIAN_SWORDSMAN</Class>
 			<Type>UNIT_NEANDERTHAL_OBSIDIAN_SWORDSMAN</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<SubCombatTypes>
@@ -59658,7 +59198,6 @@
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<iCost>120</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>7</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -59693,9 +59232,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_OBSIDIAN_AXEMAN</Class>
 			<Type>UNIT_NEANDERTHAL_OBSIDIAN_AXEMAN</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<SubCombatTypes>
@@ -59761,7 +59298,6 @@
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<iCost>110</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>6</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -59802,9 +59338,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_STONE_AGE_AXEMAN</Class>
 			<Type>UNIT_NEANDERTHAL_STONE_AGE_AXEMAN</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<SubCombatTypes>
@@ -59867,7 +59401,6 @@
 			</UnitClassUpgrades>
 			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>92</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>5</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -59912,9 +59445,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_OBSIDIAN_MACEMAN</Class>
 			<Type>UNIT_NEANDERTHAL_OBSIDIAN_MACEMAN</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<SubCombatTypes>
@@ -59976,7 +59507,6 @@
 				<BonusType>BONUS_OBSIDIAN</BonusType>
 			</PrereqBonuses>
 			<iCost>110</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>6</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -60017,9 +59547,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_STONE_MACEMAN</Class>
 			<Type>UNIT_NEANDERTHAL_STONE_MACEMAN</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<SubCombatTypes>
@@ -60086,7 +59614,6 @@
 			</UnitClassUpgrades>
 			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>84</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>5</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
@@ -60131,9 +59658,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_HUNTER</Class>
 			<Type>UNIT_NEANDERTHAL_HUNTER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_HUNTER</Combat>
 			<SubCombatTypes>
@@ -60191,7 +59716,6 @@
 			<PrereqTech>TECH_HUNTING_TACTICS</PrereqTech>
 			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>120</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -60236,9 +59760,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_TRACKER</Class>
 			<Type>UNIT_NEANDERTHAL_TRACKER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_HUNTER</Combat>
 			<SubCombatTypes>
@@ -60311,7 +59833,6 @@
 			<iAnimalCombat>125</iAnimalCombat>
 			<iAsset>2</iAsset>
 			<iPower>2</iPower>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -60335,9 +59856,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_CHASER</Class>
 			<Type>UNIT_NEANDERTHAL_CHASER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Combat>UNITCOMBAT_HUNTER</Combat>
 			<SubCombatTypes>
@@ -60398,7 +59917,6 @@
 			<iAnimalCombat>200</iAnimalCombat>
 			<iAsset>1</iAsset>
 			<iPower>1</iPower>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<UnitMeshGroups>
 				<iGroupSize>1</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -60416,9 +59934,7 @@
 			<Class>UNITCLASS_NEANDERTHAL_SCOUT</Class>
 			<Type>UNIT_NEANDERTHAL_SCOUT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Combat>UNITCOMBAT_RECON</Combat>
@@ -60488,7 +60004,6 @@
 			<PrereqTech>TECH_TRACKING</PrereqTech>
 			<ForceObsoleteTech>TECH_COPPER_WORKING</ForceObsoleteTech>
 			<iCost>40</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>3</iCombat>
 			<iXPValueAttack>6</iXPValueAttack>
@@ -64560,14 +64075,8 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_HEALTH_SPA</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_UNIVERSAL_HEALTH_CARE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_HEALTH_SPA</BuildingType>
+				<BuildingType>BUILDING_UNIVERSAL_HEALTH_CARE</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -66239,10 +65748,7 @@
 				</GreatPeople>
 			</GreatPeoples>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_SCOTLAND_YARD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_SCOTLAND_YARD</BuildingType>
 			</Buildings>
 			<Flavors>
 				<Flavor>
@@ -66305,34 +65811,13 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_RAIN_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_WAR_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_FIRE_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATURE_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MOON_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_FERTILTY_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BLOOD_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_RAIN_DANCE</BuildingType>
+				<BuildingType>BUILDING_WAR_DANCE</BuildingType>
+				<BuildingType>BUILDING_FIRE_DANCE</BuildingType>
+				<BuildingType>BUILDING_NATURE_DANCE</BuildingType>
+				<BuildingType>BUILDING_MOON_DANCE</BuildingType>
+				<BuildingType>BUILDING_FERTILTY_DANCE</BuildingType>
+				<BuildingType>BUILDING_BLOOD_DANCE</BuildingType>
 			</Buildings>
 			<PrereqTech>TECH_ORAL_TRADITION</PrereqTech>
 			<iCost>15</iCost>
@@ -66443,34 +65928,13 @@ iTradeMultiplier>3</iTradeMultiplier>
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_RAIN_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_WAR_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_FIRE_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_NATURE_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_MOON_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_FERTILTY_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_BLOOD_DANCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_RAIN_DANCE</BuildingType>
+				<BuildingType>BUILDING_WAR_DANCE</BuildingType>
+				<BuildingType>BUILDING_FIRE_DANCE</BuildingType>
+				<BuildingType>BUILDING_NATURE_DANCE</BuildingType>
+				<BuildingType>BUILDING_MOON_DANCE</BuildingType>
+				<BuildingType>BUILDING_FERTILTY_DANCE</BuildingType>
+				<BuildingType>BUILDING_BLOOD_DANCE</BuildingType>
 			</Buildings>
 			<PrereqTech>TECH_LINGUISTICS</PrereqTech>
 			<iCost>120</iCost>

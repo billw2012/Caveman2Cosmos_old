@@ -9,7 +9,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_STATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_STATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SPACE_COLONIES</PrereqTech>
 			<iCost>-1</iCost>
@@ -59,7 +58,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_STORM_SHELTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_STORM_SHELTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SPACE_COLONIES</PrereqTech>
 			<iCost>528</iCost>
@@ -87,7 +85,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_TELESCOPE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_TELESCOPE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SPACE_COLONIES</PrereqTech>
 			<iCost>528</iCost>
@@ -108,7 +105,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_AGRICULTURAL_LAB_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_AGRICULTURAL_LAB</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_AUGMENT_CONSUMABLES</PrereqTech>
 			<iCost>702</iCost>
@@ -161,7 +157,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_MATERIALS_LAB_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_MATERIALS_LAB</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LIQUIDMETAL</PrereqTech>
 			<iCost>528</iCost>
@@ -210,7 +205,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_SATELLITE_FACTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_SATELLITE_FACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MESH_NETWORKS</PrereqTech>
 			<iCost>612</iCost>
@@ -234,7 +228,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_SUPPLY_BASE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_SUPPLY_BASE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MASS_DRIVER</PrereqTech>
 			<iCost>612</iCost>
@@ -291,7 +284,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_EMP_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_EMP</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ELECTROMAGNETIC_VOLTAGE</PrereqTech>
 			<iCost>1421</iCost>
@@ -320,7 +312,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_GOV_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_GOV</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_BINARYLEGISLATION</PrereqTech>
 			<iCost>1921</iCost>
@@ -401,7 +392,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_VR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_VR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SIMULATED_REALITY</PrereqTech>
 			<iCost>2110</iCost>
@@ -438,7 +428,6 @@
 			<Strategy>TXT_KEY_BUILDING_SPACE_JUNK_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SPACE_JUNK</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ION_BEAMS</PrereqTech>
 			<iCost>1279</iCost>
@@ -464,7 +453,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_STATION_CONTROL_SYSTEM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_STATION_CONTROL_SYSTEM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SYNTHETIC_SENTIENCE</PrereqTech>
 			<iCost>800</iCost>
@@ -494,7 +482,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_STATION_SANITATION_SYSTEM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_STATION_SANITATION_SYSTEM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PROTOTYPED_PATHOGENS</PrereqTech>
 			<iCost>528</iCost>
@@ -709,7 +696,6 @@
 			<Strategy>TXT_KEY_BUILDING_DOCKING_BAY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DOCKING_BAY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SPACE_COLONIES</PrereqTech>
 			<iCost>528</iCost>
@@ -750,7 +736,6 @@
 			<Strategy>TXT_KEY_BUILDING_AEROGEL_SHIELDING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_AEROGEL_SHIELDING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SPACE_COLONIES</PrereqTech>
 			<iCost>528</iCost>
@@ -787,7 +772,6 @@
 			<Strategy>TXT_KEY_BUILDING_INFLATABLE_HABITAT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_INFLATABLE_HABITAT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SPACE_COLONIES</PrereqTech>
 			<iCost>528</iCost>
@@ -808,7 +792,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_SOLAR_ARRAY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_SOLAR_ARRAY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SPACE_COLONIES</PrereqTech>
 			<iCost>528</iCost>
@@ -830,7 +813,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_ION_CANNON_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_ION_CANNON</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ION_BEAMS</PrereqTech>
 			<iCost>1279</iCost>
@@ -855,7 +837,6 @@
 			<Strategy>TXT_KEY_BUILDING_TURBOLIFT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TURBOLIFT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SRAILS</PrereqTech>
 			<iCost>1144</iCost>
@@ -883,7 +864,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_REFUELING_STATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_REFUELING_STATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_LUNAR_MANUFACTURING</PrereqTech>
 			<iCost>702</iCost>
@@ -922,7 +902,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_ASTEROID_MINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_ASTEROID_MINE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SPACE_COLONIES</PrereqTech>
 			<iCost>528</iCost>
@@ -952,7 +931,6 @@
 			<Strategy>TXT_KEY_BUILDING_ASTEROID_MINING_COMPLEX_EFFECT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ASTEROID_MINING_COMPLEX_EFFECT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_TRADE</PrereqTech>
 			<iCost>-1</iCost>
@@ -975,7 +953,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_ENHANCED_ALGAE_FARM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_ENHANCED_ALGAE_FARM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DESIGNER_MICROBIOLOGY</PrereqTech>
 			<iCost>1577</iCost>
@@ -1012,7 +989,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_SHIELDING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_SHIELDING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ELECTROMAGNETIC_FIELD_SHIELDING</PrereqTech>
 			<iCost>905</iCost>
@@ -1035,7 +1011,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_CLOAKING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_CLOAKING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_CLOAKING</PrereqTech>
 			<iCost>1577</iCost>
@@ -1080,7 +1055,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_PHASED_ARRAY_OPTICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_PHASED_ARRAY_OPTICS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PHOTON_THERMODYNAMICS</PrereqTech>
 			<iCost>1144</iCost>
@@ -1114,7 +1088,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_HOTEL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_HOTEL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_TOURISM</PrereqTech>
 			<iCost>800</iCost>
@@ -1163,7 +1136,6 @@
 			<Strategy>TXT_KEY_BUILDING_BIG_BANG_OBSERVATORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BIG_BANG_OBSERVATORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_AMPLIFIED_WAVELENGTHS</PrereqTech>
 			<iCost>1144</iCost>
@@ -1198,7 +1170,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_BIOFACTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_BIOFACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DYSTOPIA_PATHOGENS</PrereqTech>
 			<iCost>1577</iCost>
@@ -1245,7 +1216,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_SPACEPORT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_SPACEPORT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_TRADE</PrereqTech>
 			<iCost>1577</iCost>
@@ -1280,7 +1250,6 @@
 			<Strategy>TXT_KEY_BUILDING_ADVANCED_COOLING_SYSTEM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ADVANCED_COOLING_SYSTEM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_FROST_BEAMS</PrereqTech>
 			<iCost>2110</iCost>
@@ -1311,7 +1280,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_ORGANIC_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_ORGANIC_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_BOTANICAL_ALCHEMY</PrereqTech>
 			<iCost>2544</iCost>
@@ -1360,7 +1328,6 @@
 			<Strategy>TXT_KEY_BUILDING_ORBITAL_ACCELERATOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ORBITAL_ACCELERATOR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_UNIFICATION_PHYSICS</PrereqTech>
 			<iCost>1921</iCost>
@@ -1387,7 +1354,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_SOCIAL_ENGINEERING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_SOCIAL_ENGINEERING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SOCIAL_CALCULUS</PrereqTech>
 			<iCost>2317</iCost>
@@ -1468,7 +1434,6 @@
 			<Strategy>TXT_KEY_BUILDING_CRYONIC_BODY_STORAGE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CRYONIC_BODY_STORAGE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_CRYOGENICS</PrereqTech>
 			<iCost>2317</iCost>
@@ -1506,7 +1471,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_BIOLOGICAL_CORE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_BIOLOGICAL_CORE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_EVOLVED_CONSTRUCTION</PrereqTech>
 			<iCost>2544</iCost>
@@ -1545,7 +1509,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_ONEILL_CYLINDER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_ONEILL_CYLINDER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ORBITAL_MEGASTRUCTURES</PrereqTech>
 			<iCost>2793</iCost>
@@ -1586,7 +1549,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_DEFENSES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_DEFENSES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_WEAPONIZED_DISINTEGRATION</PrereqTech>
 			<iCost>10158</iCost>
@@ -1617,7 +1579,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_SECURITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_SECURITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MOLECULAR_SCANNING</PrereqTech>
 			<iCost>4408</iCost>
@@ -1657,7 +1618,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_QUANTUM_THRUSTERS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_QUANTUM_THRUSTERS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_QUANTUM_RAMJET</PrereqTech>
 			<iCost>25157</iCost>
@@ -1688,7 +1648,6 @@
 			<Strategy>TXT_KEY_BUILDING_NUCLEAR_DAMPER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_NUCLEAR_DAMPER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NANOSHIELDING</PrereqTech>
 			<iCost>4032</iCost>
@@ -1719,7 +1678,6 @@
 			<Strategy>TXT_KEY_BUILDING_DYSON_HARROP_SATELLITE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DYSON_HARROP_SATELLITE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PHOTONIC_SATELLITES</PrereqTech>
 			<iCost>3362</iCost>
@@ -1751,7 +1709,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_CLAYTRONIC_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_CLAYTRONIC</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ATTOMETER_NANOMORPHISM</PrereqTech>
 			<iCost>9246</iCost>
@@ -1783,7 +1740,6 @@
 			<Strategy>TXT_KEY_BUILDING_TRASH_ATOMIZER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TRASH_ATOMIZER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ATOMIZATION_FIELD</PrereqTech>
 			<iCost>9246</iCost>
@@ -1814,7 +1770,6 @@
 			<Strategy>TXT_KEY_BUILDING_WORMHOLE_TO_EARTH_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_WORMHOLE_TO_EARTH</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MICROWORMHOLES</PrereqTech>
 			<iCost>24466</iCost>
@@ -1845,7 +1800,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_BLACK_HOLE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_BLACK_HOLE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SINGULARITY_STABILIZATION</PrereqTech>
 			<iCost>14852</iCost>
@@ -1873,7 +1827,6 @@
 			<Strategy>TXT_KEY_BUILDING_DILATON_GENERATOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DILATON_GENERATOR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SINGULARITY_STABILIZATION</PrereqTech>
 			<iCost>14852</iCost>
@@ -1908,7 +1861,6 @@
 			<Strategy>TXT_KEY_BUILDING_GIGAVERSE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_GIGAVERSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MACROVERSE_TRAVERSAL</PrereqTech>
 			<iCost>11410</iCost>
@@ -1947,7 +1899,6 @@
 			<Strategy>TXT_KEY_BUILDING_METAMORPHIC_CISLUNAR_STATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_METAMORPHIC_CISLUNAR_STATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SHAPESHIFTING</PrereqTech>
 			<iCost>25857</iCost>
@@ -1978,7 +1929,6 @@
 			<Strategy>TXT_KEY_BUILDING_FOOD_REPLICATOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FOOD_REPLICATOR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MOLECULAR_ASSEMBLY</PrereqTech>
 			<iCost>10158</iCost>
@@ -2001,7 +1951,6 @@
 			<Strategy>TXT_KEY_BUILDING_PLANET_CLOUD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PLANET_CLOUD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LAUNCH_ARCOLOGY</PrereqTech>
 			<iCost>27966</iCost>
@@ -2072,7 +2021,6 @@
 			<Strategy>TXT_KEY_BUILDING_ENERGY_BEAM_NETWORK_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ENERGY_BEAM_NETWORK</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PHOTONIC_SATELLITES</PrereqTech>
 			<iCost>13448</iCost>
@@ -2104,7 +2052,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_ANTIMATTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_ANTIMATTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_WEAPONIZED_ANTIMATTER</PrereqTech>
 			<iCost>44556</iCost>
@@ -2132,7 +2079,6 @@
 			<Strategy>TXT_KEY_BUILDING_CISLUNAR_SOLAR_SATELLITES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CISLUNAR_SOLAR_SATELLITES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_LUNAR_MANUFACTURING</PrereqTech>
 			<iCost>2106</iCost>
@@ -2169,7 +2115,6 @@
 			<Strategy>TXT_KEY_BUILDING_ASTEROID_MINING_COMPLEX_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ASTEROID_MINING_COMPLEX</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LUNAR_TRADE</PrereqTech>
 			<iCost>6311</iCost>
@@ -2208,7 +2153,6 @@
 			<Strategy>TXT_KEY_BUILDING_L5_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_L5_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ORBITAL_MEGASTRUCTURES</PrereqTech>
 			<iCost>11175</iCost>
@@ -2248,7 +2192,6 @@
 			<Strategy>TXT_KEY_BUILDING_INTERPLANETARY_TRANSPORT_NETWORK_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_INTERPLANETARY_TRANSPORT_NETWORK</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ASTROGATION_CONSTELLATION</PrereqTech>
 			<iCost>10179</iCost>
@@ -2283,7 +2226,6 @@
 			<Strategy>TXT_KEY_BUILDING_ELYSIUM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ELYSIUM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_LAUNCH_ARCOLOGY</PrereqTech>
 			<iCost>27966</iCost>
@@ -2306,22 +2248,10 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DESPOTISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FASCIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SUPERHUMAN</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DESPOTISM</CivicOption>
+				<CivicOption>CIVIC_HEREDITARY_RULE</CivicOption>
+				<CivicOption>CIVIC_FASCIST</CivicOption>
+				<CivicOption>CIVIC_SUPERHUMAN</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 		</BuildingInfo>
@@ -2333,7 +2263,6 @@
 			<Strategy>TXT_KEY_BUILDING_ZEUS_CANNON_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ZEUS_CANNON</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ION_BEAMS</PrereqTech>
 			<iCost>5116</iCost>

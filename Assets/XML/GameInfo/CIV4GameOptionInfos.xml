@@ -6,10 +6,8 @@
 <!-- -->
 <!-- TB Notes regarding EnforcesGameOptionOnTypes and EnforcesGameOptionOffTypes (same formatting for Off, just change all Ons to Offs in the following-->
 <!-- Formatting:<EnforcesGameOptionOnTypes> -->
-<!--				<EnforcesGameOptionOnType>  Note: may use this set multiple times to indicate more options that fall under the same eforcement guideline -->
-<!-- 					<GameOptionType>GAMEOPTION_WHATEVERYOUWANNAINDICATE</GameOptionType> -->
-<!--					<bEnforcesGameOptionOn>1</bEnforcesGameOptionOn> -->
-<!-- 				</EnforcesGameOptionOnType> -->
+<!--				<GameOptionType>GAMEOPTION_WHATEVERYOUWANNAINDICATE</GameOptionType>-->
+<!--                Note: may use this set multiple times to indicate more options that fall under the same eforcement guideline -->
 <!-- 			</EnforcesGameOptionOnTypes> -->
 <!-- These tags, if used, go under bVisible and EnforcesGameOptionOnTypes comes before EnforcesGameOptionOffTypes -->
 <!-- EnforcesGameOptionOn will turn on indicated option(s) as the game is initialized, regardless of whether the indicated option(s) were set on or not-->
@@ -59,10 +57,7 @@
 			<bDefault>0</bDefault>
 			<bVisible>1</bVisible>
 			<EnforcesGameOptionOffTypes>
-				<EnforcesGameOptionOffType>
-					<GameOptionType>GAMEOPTION_BARBARIAN_WORLD</GameOptionType>
-					<bEnforcesGameOptionOff>1</bEnforcesGameOptionOff>
-				</EnforcesGameOptionOffType>
+				<GameOptionType>GAMEOPTION_BARBARIAN_WORLD</GameOptionType>
 			</EnforcesGameOptionOffTypes>
 		</GameOptionInfo>
 		<GameOptionInfo>
@@ -552,10 +547,7 @@
 			<bDefault>0</bDefault>
 			<bVisible>0</bVisible>
 			<EnforcesGameOptionOnTypes>
-				<EnforcesGameOptionOnType>
-					<GameOptionType>GAMEOPTION_UPRANGE</GameOptionType>
-					<bEnforcesGameOptionOn>1</bEnforcesGameOptionOn>
-				</EnforcesGameOptionOnType>
+				<GameOptionType>GAMEOPTION_UPRANGE</GameOptionType>
 			</EnforcesGameOptionOnTypes>
 		</GameOptionInfo>
 		<GameOptionInfo>
@@ -621,10 +613,7 @@
 			<bDefault>0</bDefault>
 			<bVisible>1</bVisible>
 			<EnforcesGameOptionOnTypes>
-				<EnforcesGameOptionOnType>
- 					<GameOptionType>GAMEOPTION_SIZE_MATTERS</GameOptionType>
-					<bEnforcesGameOptionOn>1</bEnforcesGameOptionOn>
- 				</EnforcesGameOptionOnType>
+				<GameOptionType>GAMEOPTION_SIZE_MATTERS</GameOptionType>
  			</EnforcesGameOptionOnTypes>
 		</GameOptionInfo>
 		<GameOptionInfo>
@@ -655,10 +644,7 @@
 			<bDefault>0</bDefault>
 			<bVisible>1</bVisible>
 			<EnforcesGameOptionOnTypes>
-				<EnforcesGameOptionOnType>
- 					<GameOptionType>GAMEOPTION_WITHOUT_WARNING</GameOptionType>
-					<bEnforcesGameOptionOn>1</bEnforcesGameOptionOn>
- 				</EnforcesGameOptionOnType>
+				<GameOptionType>GAMEOPTION_WITHOUT_WARNING</GameOptionType>
  			</EnforcesGameOptionOnTypes>
 		</GameOptionInfo>
 		<GameOptionInfo>
@@ -696,11 +682,8 @@
 			<bDefault>0</bDefault>
 			<bVisible>1</bVisible>
 			<EnforcesGameOptionOffTypes>
-				<EnforcesGameOptionOffType>
-					<GameOptionType>GAMEOPTION_MIN_CITY_BORDER</GameOptionType>
-					<bEnforcesGameOptionOff>1</bEnforcesGameOptionOff>
-				</EnforcesGameOptionOffType>
-			</EnforcesGameOptionOffTypes>			
+				<GameOptionType>GAMEOPTION_MIN_CITY_BORDER</GameOptionType>
+			</EnforcesGameOptionOffTypes>
 		</GameOptionInfo>
 		<GameOptionInfo>
 			<Type>GAMEOPTION_REALISTIC_SIEGE</Type>
@@ -772,11 +755,8 @@
 			<bDefault>0</bDefault>
 			<bVisible>1</bVisible>
 			<EnforcesGameOptionOffTypes>
-				<EnforcesGameOptionOffType>
-					<GameOptionType>GAMEOPTION_ANIMALS_STAY_OUT</GameOptionType>
-					<bEnforcesGameOptionOff>1</bEnforcesGameOptionOff>
-				</EnforcesGameOptionOffType>
+				<GameOptionType>GAMEOPTION_ANIMALS_STAY_OUT</GameOptionType>
 			</EnforcesGameOptionOffTypes>
 		</GameOptionInfo>
-	</GameOptionInfos>	
+	</GameOptionInfos>
 </Civ4GameOptionInfos>

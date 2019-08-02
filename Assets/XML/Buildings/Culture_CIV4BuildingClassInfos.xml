@@ -2822,7 +2822,7 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<bNoLimit>1</bNoLimit>
 			<DefaultBuilding>BUILDING_LULE_EMBASSY</DefaultBuilding>
-		</BuildingClassInfo>	
+		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_LUNDA_EMBASSY</Type>
 			<Description>TXT_KEY_BUILDING_LUNDA_EMBASSY</Description>

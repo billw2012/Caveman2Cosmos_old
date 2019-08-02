@@ -192,42 +192,24 @@
 				</Build>
 			</Builds>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_WV_SLAVERY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLAVE_MARKET</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLAVE_COMPOUND</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLAVE_COMPOUND_MILITARY_SUPPORT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLAVE_COMPOUND_ENTERTAINMENT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLAVE_COMPOUND_FOOD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLAVE_COMPOUND_PRODUCTION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLAVE_COMPOUND_COMMERCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLAVE_COMPOUND_SANITATION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_WV_SLAVERY</BuildingType>
+
+				<BuildingType>BUILDING_SLAVE_MARKET</BuildingType>
+
+				<BuildingType>BUILDING_SLAVE_COMPOUND</BuildingType>
+
+				<BuildingType>BUILDING_SLAVE_COMPOUND_MILITARY_SUPPORT</BuildingType>
+
+				<BuildingType>BUILDING_SLAVE_COMPOUND_ENTERTAINMENT</BuildingType>
+
+				<BuildingType>BUILDING_SLAVE_COMPOUND_FOOD</BuildingType>
+
+				<BuildingType>BUILDING_SLAVE_COMPOUND_PRODUCTION</BuildingType>
+
+				<BuildingType>BUILDING_SLAVE_COMPOUND_COMMERCE</BuildingType>
+
+				<BuildingType>BUILDING_SLAVE_COMPOUND_SANITATION</BuildingType>
+
 			</Buildings>
 			<Actions>
 				<Action>
@@ -571,14 +553,10 @@
 		<UnitInfo>
 			<Type>UNIT_CAPTIVE_CIVILIAN</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_WV_SLAVERY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLAVE_MARKET</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_WV_SLAVERY</BuildingType>
+
+				<BuildingType>BUILDING_SLAVE_MARKET</BuildingType>
+
 			</Buildings>
 			<Actions>
 				<Action>
@@ -757,42 +735,24 @@
 				</Build>
 			</Builds>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_WV_SLAVERY</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLAVE_MARKET</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLAVE_COMPOUND</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLAVE_COMPOUND_MILITARY_SUPPORT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLAVE_COMPOUND_ENTERTAINMENT</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLAVE_COMPOUND_FOOD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLAVE_COMPOUND_PRODUCTION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLAVE_COMPOUND_COMMERCE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_SLAVE_COMPOUND_SANITATION</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_WV_SLAVERY</BuildingType>
+
+				<BuildingType>BUILDING_SLAVE_MARKET</BuildingType>
+
+				<BuildingType>BUILDING_SLAVE_COMPOUND</BuildingType>
+
+				<BuildingType>BUILDING_SLAVE_COMPOUND_MILITARY_SUPPORT</BuildingType>
+
+				<BuildingType>BUILDING_SLAVE_COMPOUND_ENTERTAINMENT</BuildingType>
+
+				<BuildingType>BUILDING_SLAVE_COMPOUND_FOOD</BuildingType>
+
+				<BuildingType>BUILDING_SLAVE_COMPOUND_PRODUCTION</BuildingType>
+
+				<BuildingType>BUILDING_SLAVE_COMPOUND_COMMERCE</BuildingType>
+
+				<BuildingType>BUILDING_SLAVE_COMPOUND_SANITATION</BuildingType>
+
 			</Buildings>
 			<Actions>
 				<Action>
@@ -924,7 +884,6 @@
 				</Action>
 			</Actions>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Type>UNIT_PROPHET</Type>
 			<Actions>

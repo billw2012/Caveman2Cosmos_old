@@ -118,7 +118,7 @@
 	<ElementType name="iInsidiousness" content="textOnly" dt:type="int"/>
 	<ElementType name="iInvestigation" content="textOnly" dt:type="int"/>
 	<ElementType name="iFreedomFighterChange" content="textOnly" dt:type="int"/>
-	<ElementType name="iBeelineStingsTechCostModifier" content="textOnly" dt:type="int"/>	
+	<ElementType name="iBeelineStingsTechCostModifier" content="textOnly" dt:type="int"/>
 	<!--Booleans-->
 	<ElementType name="bAllReligionsActive" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bBansNonStateReligions" content="textOnly" dt:type="boolean"/>
@@ -127,21 +127,11 @@
 	<ElementType name="bPolicy" content="textOnly" dt:type="boolean"/>
 	<!--Boolean vectors utilizing struct with delayed resolution-->
 	<ElementType name="GameOptionType" content="textOnly"/>
-	<ElementType name="bEnforcesGameOptionOn" content="textOnly" dt:type="boolean"/>
-	<ElementType name="EnforcesGameOptionOnType" content="eltOnly">
-		<element type="GameOptionType"/>
-		<element type="bEnforcesGameOptionOn"/>
-	</ElementType>
 	<ElementType name="EnforcesGameOptionOnTypes" content="eltOnly">
-		<element type="EnforcesGameOptionOnType" minOccurs="0" maxOccurs="*"/>
-	</ElementType>
-	<ElementType name="bEnforcesGameOptionOff" content="textOnly" dt:type="boolean"/>
-	<ElementType name="EnforcesGameOptionOffType" content="eltOnly">
-		<element type="GameOptionType"/>
-		<element type="bEnforcesGameOptionOff"/>
+		<element type="GameOptionType" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
 	<ElementType name="EnforcesGameOptionOffTypes" content="eltOnly">
-		<element type="EnforcesGameOptionOffType" minOccurs="0" maxOccurs="*"/>
+		<element type="GameOptionType" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
 	<!-- Integer Vectors -->
 	<ElementType name="iModifier" content="textOnly" dt:type="int"/>
@@ -890,12 +880,12 @@
 	<ElementType name="iNukeInterception" content="textOnly" dt:type="int"/>
 	<ElementType name="iTechShare" content="textOnly" dt:type="int"/>
 	<!--
-DPII < Maintenance Modifiers > 
+DPII < Maintenance Modifiers >
 	-->
 	<ElementType name="iGlobalMaintenanceModifier" content="textOnly" dt:type="int"/>
 	<ElementType name="iConnectedCityMaintenanceModifier" content="textOnly" dt:type="int"/>
 	<!--
-DPII < Maintenance Modifiers > 
+DPII < Maintenance Modifiers >
 	-->
 	<ElementType name="EveryoneSpecialUnit" content="textOnly"/>
 	<ElementType name="EveryoneSpecialBuilding" content="textOnly"/>
@@ -972,14 +962,14 @@ DPII < Maintenance Modifiers >
 		<element type="iNukeInterception" minOccurs="0"/>
 		<element type="iTechShare" minOccurs="0"/>
 		<!--
-DPII < Maintenance Modifiers > 
+DPII < Maintenance Modifiers >
 		-->
 		<element type="iGlobalMaintenanceModifier" minOccurs="0"/>
 		<element type="iDistanceMaintenanceModifier" minOccurs="0"/>
 		<element type="iNumCitiesMaintenanceModifier" minOccurs="0"/>
 		<element type="iConnectedCityMaintenanceModifier" minOccurs="0"/>
 		<!--
-DPII < Maintenance Modifiers > 
+DPII < Maintenance Modifiers >
 		-->
 		<element type="EveryoneSpecialUnit" minOccurs="0"/>
 		<element type="EveryoneSpecialBuilding" minOccurs="0"/>
@@ -1090,12 +1080,12 @@ DPII < Maintenance Modifiers >
 	<ElementType name="iDistanceMaintenanceModifier" content="textOnly" dt:type="int"/>
 	<ElementType name="iNumCitiesMaintenanceModifier" content="textOnly" dt:type="int"/>
 	<!--
-DPII < Maintenance Modifiers > 
+DPII < Maintenance Modifiers >
 	-->
 	<ElementType name="iHomeAreaMaintenanceModifier" content="textOnly" dt:type="int"/>
 	<ElementType name="iOtherAreaMaintenanceModifier" content="textOnly" dt:type="int"/>
 	<!--
-DPII < Maintenance Modifiers > 
+DPII < Maintenance Modifiers >
 	-->
 	<ElementType name="iCorporationMaintenanceModifier" content="textOnly" dt:type="int"/>
 	<ElementType name="iExtraHealth" content="textOnly" dt:type="int"/>
@@ -1295,7 +1285,7 @@ DPII < Maintenance Modifiers >
 	</ElementType>
 	<!-- Afforess -->
 	<!--
-DPII < Revolution Mod Start > 
+DPII < Revolution Mod Start >
 	-->
 	<ElementType name="bUpgradeAnywhere" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bAllowInquisitions" content="textOnly" dt:type="boolean"/>
@@ -1319,7 +1309,7 @@ DPII < Revolution Mod Start >
 	<ElementType name="bFreeSpeech" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bCanDoElection" content="textOnly" dt:type="boolean"/>
 	<!--
-DPII < Revolution Mod End > 
+DPII < Revolution Mod End >
 	-->
 	<!-- Dexy - Dark Ages START -->
 	<ElementType name="iContemporaryFactor" content="textOnly" dt:type="int"/>
@@ -1361,12 +1351,12 @@ DPII < Revolution Mod End >
 		<element type="iDistanceMaintenanceModifier" minOccurs="0"/>
 		<element type="iNumCitiesMaintenanceModifier" minOccurs="0"/>
 		<!--
-DPII < Maintenance Modifiers > 
+DPII < Maintenance Modifiers >
 		-->
 		<element type="iHomeAreaMaintenanceModifier" minOccurs="0"/>
 		<element type="iOtherAreaMaintenanceModifier" minOccurs="0"/>
 		<!--
-DPII < Maintenance Modifiers > 
+DPII < Maintenance Modifiers >
 		-->
 		<element type="iCorporationMaintenanceModifier" minOccurs="0"/>
 		<element type="iExtraHealth" minOccurs="0"/>
@@ -1445,7 +1435,7 @@ DPII < Maintenance Modifiers >
 		<element type="ImprovementYieldChanges" minOccurs="0"/>
 		<element type="TerrainYieldChanges" minOccurs="0"/>
 		<!--
- DPII < Revolution Mod Start > 
+ DPII < Revolution Mod Start >
 		-->
 		<element type="bUpgradeAnywhere" minOccurs="0"/>
 		<element type="bAllowInquisitions" minOccurs="0"/>
@@ -1469,7 +1459,7 @@ DPII < Maintenance Modifiers >
 		<element type="bFreeSpeech" minOccurs="0"/>
 		<element type="bCanDoElection" minOccurs="0"/>
 		<!--
-DPII < Revolution Mod End > 
+DPII < Revolution Mod End >
 		-->
 		<!-- Dexy - Dark Ages START -->
 		<element type="iContemporaryFactor" minOccurs="0"/>

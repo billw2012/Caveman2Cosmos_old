@@ -85,12 +85,11 @@
 			<bNoCapture>1</bNoCapture>
 			<bMilitaryHappiness>1</bMilitaryHappiness>
 			<bMilitarySupport>1</bMilitarySupport>
-			<bMilitaryProduction>1</bMilitaryProduction>			
-			<bNoDefensiveBonus>1</bNoDefensiveBonus>			
+			<bMilitaryProduction>1</bMilitaryProduction>
+			<bNoDefensiveBonus>1</bNoDefensiveBonus>
 			<bIgnoreTerrainCost>1</bIgnoreTerrainCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iXPValueAttack>8</iXPValueAttack>
-			<iXPValueDefense>4</iXPValueDefense>		
+			<iXPValueDefense>4</iXPValueDefense>
 			<iCost>310</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>15</iCombat>
@@ -104,7 +103,7 @@
 			<iEnclose>10</iEnclose>
 			<iLunge>20</iLunge>
 			<iDynamicDefense>10</iDynamicDefense>
-			<iCaptureProbabilityModifier>-15</iCaptureProbabilityModifier>			
+			<iCaptureProbabilityModifier>-15</iCaptureProbabilityModifier>
 			<iPursuit>60</iPursuit>
 			<FreePromotions>
 				<FreePromotion>
@@ -373,7 +372,6 @@
 			<PrereqReligion>RELIGION_VOODOO</PrereqReligion>
 			<PrereqBuilding>BUILDING_VOODOO_MONASTERY</PrereqBuilding>
 			<iCost>250</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iWorkRate>150</iWorkRate>
 			<iAsset>3</iAsset>
@@ -422,7 +420,6 @@
 			<PrereqBuilding>BUILDING_VOODOO_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -438,14 +435,11 @@
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Type>UNIT_PROPHET</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_VOODOO_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_VOODOO_SHRINE</BuildingType>
+
 			</Buildings>
 			<ReligionSpreads>
 				<ReligionSpread>

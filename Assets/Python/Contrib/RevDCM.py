@@ -5,7 +5,7 @@
 ## Options are passed to the SDK via python calls that modify GlobalDefinesAlt.xml.
 ## Note:
 ## This code will only alter values in GlobalDefinesAlt.xml that have
-## been defined in /Assets/Config/RevDCM.xml. Other values in GlobalDefinesAlt 
+## been defined in /Assets/Config/RevDCM.xml. Other values in GlobalDefinesAlt
 ## may be changed manually as per usual. Values that have been defined in RevDCM.xml
 ## may also be manually changed, but will be overwritten by this code either on
 ## new turns or on game load or game initialisation.

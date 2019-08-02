@@ -387,7 +387,7 @@ class DotMapLayer(StrategyLayer):
 		"""
 		Highlights the given city location by drawing it using the given color on the highlight layer.
 		Unhighlights the currently highlighted city if there is one.
-		
+
 		If there is no city there (N), the new city is drawn (C).
 		If the city is on the same layer (S), nothing is done (N). --> WC
 		If the city is on a different layer (D), the city's layer is redrawn without it (W) and the new city is drawn (C).

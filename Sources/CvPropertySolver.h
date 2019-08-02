@@ -22,13 +22,13 @@
 #define BOOST_THREAD_USE_LIB
 #include <boost/thread/thread.hpp>
 
-typedef std::map<CvGameObject*, CvProperties> PropertySolverMapType;
+typedef std::map<const CvGameObject*, CvProperties> PropertySolverMapType;
 
 class PropertySolverMap
 {
 public:
-	int getPredictValue(CvGameObject* pObject, PropertyTypes eProperty);
-	void addChange(CvGameObject* pObject, PropertyTypes eProperty, int iChange, int iThread);
+	int getPredictValue(const CvGameObject* pObject, PropertyTypes eProperty) const;
+	void addChange(const CvGameObject* pObject, PropertyTypes eProperty, int iChange, int iThread);
 
 	void computePredictValues();
 	void applyChanges();
@@ -43,9 +43,9 @@ class CvPropertySolver;
 class PropertySourceContext
 {
 public:
-	PropertySourceContext(CvPropertySource* pSource, CvGameObject* pObject);
-	CvPropertySource* getSource();
-	CvGameObject* getObject();
+	PropertySourceContext(const CvPropertySource *const pSource, const CvGameObject* pObject);
+	const CvPropertySource *const getSource() const;
+	const CvGameObject* getObject() const;
 	int getData1();
 	int getData2();
 	void setData1(int iData);
@@ -55,8 +55,8 @@ public:
 	void doCorrect(CvPropertySolver* pSolver);
 
 protected:
-	CvPropertySource* m_pSource;
-	CvGameObject* m_pObject;
+	const CvPropertySource *const m_pSource;
+	const CvGameObject* m_pObject;
 	int m_iCurrentAmount;
 	int m_iData1;
 	int m_iData2;
@@ -65,16 +65,16 @@ protected:
 class PropertyInteractionContext
 {
 public:
-	PropertyInteractionContext(CvPropertyInteraction* pInteraction, CvGameObject* pObject);
-	CvPropertyInteraction* getInteraction();
-	CvGameObject* getObject();
+	PropertyInteractionContext(const CvPropertyInteraction *const pInteraction, const CvGameObject* pObject);
+	const CvPropertyInteraction *const getInteraction() const;
+	const CvGameObject* getObject() const;
 
 	void doPredict(CvPropertySolver* pSolver);
 	void doCorrect(CvPropertySolver* pSolver);
 
 protected:
-	CvPropertyInteraction* m_pInteraction;
-	CvGameObject* m_pObject;
+	const CvPropertyInteraction *const m_pInteraction;
+	const CvGameObject* m_pObject;
 	int m_iCurrentAmountSource;
 	int m_iCurrentAmountTarget;
 };
@@ -82,18 +82,18 @@ protected:
 class PropertyPropagatorContext
 {
 public:
-	PropertyPropagatorContext(CvPropertyPropagator* pPropagator, CvGameObject* pObject);
-	CvPropertyPropagator* getPropagator();
-	CvGameObject* getObject();
-	std::vector<CvGameObject*>* getTargetObjects();
+	PropertyPropagatorContext(const CvPropertyPropagator *const pPropagator, const CvGameObject* pObject);
+	const CvPropertyPropagator *const getPropagator() const;
+	const CvGameObject* getObject() const;
+	std::vector<const CvGameObject*>* getTargetObjects();
 
 	void doPredict(CvPropertySolver* pSolver);
 	void doCorrect(CvPropertySolver* pSolver);
 
 protected:
-	CvPropertyPropagator* m_pPropagator;
-	CvGameObject* m_pObject;
-	std::vector<CvGameObject*> m_apTargetObjects;
+	const CvPropertyPropagator *const m_pPropagator;
+	const CvGameObject* m_pObject;
+	std::vector<const CvGameObject*> m_apTargetObjects;
 	std::vector<int> m_aiCurrentAmount;
 };
 
@@ -102,11 +102,11 @@ class CvMainPropertySolver;
 class CvPropertySolver
 {
 public:
-	void instantiateSource(CvGameObject* pObject, CvPropertySource* pSource);
-	void instantiateInteraction(CvGameObject* pObject, CvPropertyInteraction* pInteraction);
-	void instantiatePropagator(CvGameObject* pObject, CvPropertyPropagator* pPropagator);
-	void instantiateManipulators(CvGameObject* pObject, CvPropertyManipulators* pMani);
-	void instantiateGlobalManipulators(CvGameObject* pObject);
+	void instantiateSource(const CvGameObject* pObject, const CvPropertySource *const pSource);
+	void instantiateInteraction(const CvGameObject* pObject, const CvPropertyInteraction *const pInteraction);
+	void instantiatePropagator(const CvGameObject* pObject, const CvPropertyPropagator *const pPropagator);
+	void instantiateManipulators(const CvGameObject* pObject, CvPropertyManipulators* pMani);
+	void instantiateGlobalManipulators(const CvGameObject* pObject);
 	void gatherActiveManipulators();
 	void gatherActiveManipulatorsThreaded();
 	
@@ -139,13 +139,13 @@ public:
 	std::vector<int>& getCache2();
 
 	// Passed on to the solver map
-	void addChange(CvGameObject* pObject, PropertyTypes eProperty, int iChange);
-	int getPredictValue(CvGameObject* pObject, PropertyTypes eProperty);
+	void addChange(const CvGameObject* pObject, PropertyTypes eProperty, int iChange);
+	int getPredictValue(const CvGameObject* pObject, PropertyTypes eProperty) const;
 
 protected:
-	std::vector<PropertySourceContext> m_aSourceContexts;
-	std::vector<PropertyInteractionContext> m_aInteractionContexts;
-	std::vector<PropertyPropagatorContext> m_aPropagatorContexts;
+	std::vector<PropertySourceContext*> m_aSourceContexts;
+	std::vector<PropertyInteractionContext*> m_aInteractionContexts;
+	std::vector<PropertyPropagatorContext*> m_aPropagatorContexts;
 	CvMainPropertySolver* m_pMainSolver;
 	int m_iThread;
 	boost::thread* m_pThread;

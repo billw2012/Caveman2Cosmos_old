@@ -298,8 +298,9 @@ def stripLiterals(txt, literal):
 
 # Centralized function for displaying messages in the message box.
 def sendMessage(szTxt, iPlayer=None, iTime=16, szIcon="", eColor=-1, iMapX=-1, iMapY=-1, bOffArrow=False, bOnArrow=False, eMsgType=0, szSound="", bForce=True):
-	if iPlayer is None:
-		iPlayer = GAME.getActivePlayer()
-	if iPlayer == -1: return
+	if szTxt:
+		if iPlayer is None:
+			iPlayer = GAME.getActivePlayer()
+		if iPlayer == -1: return
 
-	CyIF.addMessage(iPlayer, bForce, iTime, SR.aFontList[5] + szTxt, szSound, eMsgType, szIcon, eColor, iMapX, iMapY, bOffArrow, bOnArrow)
+		CyIF.addMessage(iPlayer, bForce, iTime, SR.aFontList[5] + szTxt, szSound, eMsgType, szIcon, eColor, iMapX, iMapY, bOffArrow, bOnArrow)

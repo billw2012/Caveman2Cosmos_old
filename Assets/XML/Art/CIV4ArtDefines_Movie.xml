@@ -1555,41 +1555,41 @@
 			<Type>ART_DEF_MOVIE_EARTH_FESTIVAL</Type>
 			<Path>Art/Movies/Wonders/xearthfestival.bik</Path>
 		</MovieArtInfo>
-	
+
 		<!-- National Archives -->
 		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_ARCHIVES</Type>
 			<Path>Art/movies/wonders/National Archives.bik</Path>
 		</MovieArtInfo>
 		<!-- End National Archives -->
-	
+
 		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_ARK</Type>
 			<Path>Art/movies/wonders/Ark of The Covenant.bik</Path>
 		</MovieArtInfo>
-	
+
 		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_ISHTAR</Type>
 			<Path>Art/Movies/Wonders/Ishtar.bik</Path>
 		</MovieArtInfo>
-	
+
 		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_GREAT_JAGUAR_TEMPLE</Type>
 			<Path>Art/Movies/Wonders/JaguarTemple.bik</Path>
 		</MovieArtInfo>
-	
+
 		<!-- Library of Nineveh -->
 		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_NINEVEH</Type>
 			<Path>Art/Movies/Wonders/Library of Nineveh.bik</Path>
 		</MovieArtInfo>
 		<!-- Library of Nineveh -->
-	
+
 		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_STRATEGIC_GRAIN_RESERVE</Type>
 			<Path>Art/movies/wonders/StrategicGrainReserve.bik</Path>
 		</MovieArtInfo>
-	
+
 		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_TOPKAPI_PALACE</Type>
 			<Path>Art/Movies/Wonders/TopkapiPalace.bik</Path>

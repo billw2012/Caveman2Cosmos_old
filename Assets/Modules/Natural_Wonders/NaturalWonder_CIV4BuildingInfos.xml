@@ -6,14 +6,12 @@
 <!-- -->
 <!-- Building Infos -->
 <Civ4BuildingInfos xmlns="x-schema:../../XML/Schema/C2C_CIV4BuildingsSchema.xml">
-	<BuildingInfos>	
+	<BuildingInfos>
 		<BuildingInfo>
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_AUYANTEPUI</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_AUYANTEPUI</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_AUYANTEPUI</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_AUYANTEPUI_PEDIA</Civilopedia>
@@ -30,7 +28,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_SCIENTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHealth>1</iHealth>
 			<iHappiness>2</iHappiness>
@@ -104,9 +101,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_GREAT_BARRIER_REEF</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_GREAT_BARRIER_REEF</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_GREAT_BARRIER_REEF</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_GREAT_BARRIER_REEF_PEDIA</Civilopedia>
@@ -139,7 +134,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_SCIENTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -211,9 +205,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_MT_SINAI</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_MT_SINAI</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_MT_SINAI</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_MT_SINAI_PEDIA</Civilopedia>
@@ -230,7 +222,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -281,9 +272,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_MT_EVEREST</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_MT_EVEREST</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_MT_EVEREST</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_MT_EVEREST_PEDIA</Civilopedia>
@@ -300,7 +289,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -365,7 +353,7 @@
 			</TechHappinessChanges>
 			<TechSpecialistChanges>
 				<TechSpecialistChange>
-					<PrereqTech>TECH_TOURISM</PrereqTech>	
+					<PrereqTech>TECH_TOURISM</PrereqTech>
 					<SpecialistCounts>
 						<SpecialistCount>
 							<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
@@ -379,9 +367,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_MT_FUJI</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_MT_FUJI</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_MT_FUJI</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_MT_FUJI_PEDIA</Civilopedia>
@@ -400,7 +386,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -441,7 +426,7 @@
 			</TechCommerceChanges>
 			<TechSpecialistChanges>
 				<TechSpecialistChange>
-					<PrereqTech>TECH_CULTURAL_IDENTITY</PrereqTech>	
+					<PrereqTech>TECH_CULTURAL_IDENTITY</PrereqTech>
 					<SpecialistCounts>
 						<SpecialistCount>
 							<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
@@ -455,9 +440,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_BAIKAL</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_BAIKAL</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_BAIKAL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_BAIKAL_PEDIA</Civilopedia>
@@ -475,7 +458,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHealth>3</iHealth>
 			<iHappiness>3</iHappiness>
@@ -538,9 +520,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_BARRINGER_CRATER</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_BARRINGER_CRATER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_BARRINGER_CRATER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_BARRINGER_CRATER_PEDIA</Civilopedia>
@@ -557,7 +537,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_SCIENTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -599,9 +578,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_BASALT_ORGAN</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_BASALT_ORGAN</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_BASALT_ORGAN</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_BASALT_ORGAN_PEDIA</Civilopedia>
@@ -623,7 +600,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>20</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -667,9 +643,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_DEVILS_TABLE</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_DEVILS_TABLE</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_DEVILS_TABLE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_DEVILS_TABLE_PEDIA</Civilopedia>
@@ -686,7 +660,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -724,9 +697,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_SOPKA</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_SOPKA</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_SOPKA</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_SOPKA_PEDIA</Civilopedia>
@@ -743,7 +714,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -790,9 +760,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_KRAKATOA</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_KRAKATOA</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_KRAKATOA</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_KRAKATOA_PEDIA</Civilopedia>
@@ -817,7 +785,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -866,9 +833,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_NGORONGORO_CRATER</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_NGORONGORO_CRATER</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_NGORONGORO_CRATER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_NGORONGORO_CRATER_PEDIA</Civilopedia>
@@ -886,7 +851,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -956,9 +920,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_NUKUORO</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_NUKUORO</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_NUKUORO</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_NUKUORO_PEDIA</Civilopedia>
@@ -977,7 +939,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -1018,9 +979,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_PAMUKKALE</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_PAMUKKALE</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_PAMUKKALE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_PAMUKKALE_PEDIA</Civilopedia>
@@ -1042,7 +1001,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>35</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -1095,9 +1053,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_PRAVCICKA_BRANA</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_PRAVCICKA_BRANA</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_PRAVCICKA_BRANA</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_PRAVCICKA_BRANA_PEDIA</Civilopedia>
@@ -1114,7 +1070,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>2</iTradeRoutes>
@@ -1153,7 +1108,7 @@
 			</TechCommerceChanges>
 			<TechSpecialistChanges>
 				<TechSpecialistChange>
-					<PrereqTech>TECH_AESTHETICS</PrereqTech>	
+					<PrereqTech>TECH_AESTHETICS</PrereqTech>
 					<SpecialistCounts>
 						<SpecialistCount>
 							<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
@@ -1167,9 +1122,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_SHARK_BAY</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_SHARK_BAY</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_SHARK_BAY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_SHARK_BAY_PEDIA</Civilopedia>
@@ -1186,7 +1139,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -1261,9 +1213,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_SUGARLOAF</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_SUGARLOAF</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_SUGARLOAF</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_SUGARLOAF_PEDIA</Civilopedia>
@@ -1280,7 +1230,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -1308,9 +1257,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_ULURU</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_ULURU</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_ULURU</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_ULURU_PEDIA</Civilopedia>
@@ -1327,7 +1274,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>4</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -1385,9 +1331,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_VICTORIA_FALLS</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_VICTORIA_FALLS</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_VICTORIA_FALLS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_VICTORIA_FALLS_PEDIA</Civilopedia>
@@ -1404,7 +1348,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>3</iHappiness>
 			<iTradeRoutes>1</iTradeRoutes>
@@ -1474,9 +1417,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_KILIMANJARO</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_KILIMANJARO</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_KILIMANJARO</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_KILIMANJARO_PEDIA</Civilopedia>
@@ -1493,7 +1434,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHappiness>2</iHappiness>
 			<iAsset>4</iAsset>
@@ -1549,9 +1489,7 @@
 			<BuildingClass>BUILDINGCLASS_NATURAL_WONDER_DEAD_SEA</BuildingClass>
 			<Type>BUILDING_NATURAL_WONDER_DEAD_SEA</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_NATURAL_WONDER_DEAD_SEA</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATURAL_WONDER_DEAD_SEA_PEDIA</Civilopedia>
@@ -1573,7 +1511,6 @@
 			<GreatPeopleUnitClass>UNITCLASS_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iCost>20</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>70</iConquestProb>
 			<iHealth>2</iHealth>
 			<iGlobalHealth>1</iGlobalHealth>
@@ -1620,7 +1557,7 @@
 				</TechCommerceChange>
 				<TechCommerceChange>
 					<PrereqTech>TECH_MONOTHEISM</PrereqTech>
-					<TechCommerce>	
+					<TechCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>0</iCommerce>
 						<iCommerce>10</iCommerce>
@@ -1655,7 +1592,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_OASIS_MYTH</ArtDefineTag>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>
@@ -1730,7 +1666,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FALL_MYTH</ArtDefineTag>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>
@@ -1819,7 +1754,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_OUTCROP_MYTH</ArtDefineTag>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>
@@ -1976,7 +1910,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VOLCANO_MYTH</ArtDefineTag>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>
@@ -2065,7 +1998,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_CORAL_MYTH</ArtDefineTag>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>
@@ -2162,7 +2094,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_REEF_MYTH</ArtDefineTag>
 			<iCost>10</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<CommerceChanges>
 				<iCommerce>1</iCommerce>

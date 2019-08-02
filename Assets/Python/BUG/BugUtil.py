@@ -230,11 +230,11 @@ def error(message, *args):
 def log(level, message, args=()):
 	"""
 	Logs a message on-screen and/or to a file depending on the current levels.
-	
+
 	The message is sent to each if the level is at least that of the destination.
-	The level of the message is prepended to the message, and if logTime is True, 
+	The level of the message is prepended to the message, and if logTime is True,
 	the current time in HH:MM:SS format is prepended as well.
-	
+
 	Any encoding errors are swallowed and no message is logged.
 	"""
 	if level >= minimumLogLevel:
@@ -552,7 +552,7 @@ def extendInsteadFunction(module, name, toModule, asName=None, log=True):
 def fixSets(namespace):
 	"""
 	If running on a Mac, imports "set" and "frozenset" from the sets module.
-	
+
 	Usage:
 	  fixSets(globals())
 	"""

@@ -167,7 +167,7 @@
 			</Yields>
 			<TechMovementChanges/>
 			<Button>art/interface/buttons/improvements/hyperloop.dds</Button>
-		</RouteInfo>		
+		</RouteInfo>
 		<RouteInfo>
 			<Type>ROUTE_GRAVITY_TRAIN</Type>
 			<Description>TXT_KEY_ROUTE_GRAVITY_TRAIN</Description>

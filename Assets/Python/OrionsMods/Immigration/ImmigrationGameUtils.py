@@ -8,7 +8,7 @@ import Immigration
 GC = CyGlobalContext()
 
 # Immigration Mod By Orion Veteran
-# Modular Python to eliminate Merging 
+# Modular Python to eliminate Merging
 class ImmigrationGameUtils:
 
 	def AI_unitUpdate(self, argsList):

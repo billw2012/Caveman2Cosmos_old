@@ -1,0 +1,17 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Update from SVN",
+            "type": "shell",
+            "command": "cd /Users/billw/Documents/Github/Caveman2Cosmos && git checkout svn && git svn rebase && git push"
+        },
+        {
+            "label": "Update to SVN",
+            "type": "shell",
+            "command": "cd /Users/billw/Documents/Github/Caveman2Cosmos && git checkout svn && git svn rebase && git push"
+        }
+    ]
+}

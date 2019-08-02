@@ -12,6 +12,7 @@
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<iCost>60</iCost>
 			<bGlobal>1</bGlobal>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<Era>ERA_ANCIENT</Era>
 			<iGridX>18</iGridX>
 			<iGridY>13</iGridY>

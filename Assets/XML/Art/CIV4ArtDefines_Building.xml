@@ -26108,7 +26108,7 @@
 			<NIF/>
 			<KFM/>
 			<Button>Art/Interface/Buttons/Great_Wonders/mars_colony_hesperia.dds</Button>
-		</BuildingArtInfo>		
+		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_COLONY_ICARIA</Type>
 			<LSystem/>

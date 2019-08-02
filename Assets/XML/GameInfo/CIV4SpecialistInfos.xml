@@ -303,7 +303,7 @@
 			<bShiftDown>0</bShiftDown>
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
-			<Button>Art/Interface/Buttons/Specialists/doctor.dds</Button>			
+			<Button>Art/Interface/Buttons/Specialists/doctor.dds</Button>
 			<PropertyManipulators>
 			  <PropertySource>
 			    <PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>

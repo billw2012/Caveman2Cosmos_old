@@ -12,7 +12,6 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FLOCKS_OF_DUCK</ArtDefineTag>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<iPower>2</iPower>
 			<PrereqTech>TECH_POULTRY_DOMESTICATION</PrereqTech>
@@ -58,9 +57,8 @@
 			<bNeverCapture>1</bNeverCapture>
 			<YieldChanges>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -72,7 +70,6 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FLOCKS_OF_PEACOCK</ArtDefineTag>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<iPower>2</iPower>
 			<PrereqTech>TECH_POULTRY_DOMESTICATION</PrereqTech>
@@ -118,9 +115,8 @@
 			<bNeverCapture>1</bNeverCapture>
 			<YieldChanges>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>
 		<BuildingInfo>
@@ -132,7 +128,6 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FLOCKS_OF_TURKEY</ArtDefineTag>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>2</iAsset>
 			<iPower>2</iPower>
 			<PrereqTech>TECH_POULTRY_DOMESTICATION</PrereqTech>
@@ -178,9 +173,8 @@
 			<bNeverCapture>1</bNeverCapture>
 			<YieldChanges>
 				<iYield>1</iYield>
-			</YieldChanges>	
+			</YieldChanges>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<bGraphicalOnly>1</bGraphicalOnly>
 		</BuildingInfo>
 	</BuildingInfos>

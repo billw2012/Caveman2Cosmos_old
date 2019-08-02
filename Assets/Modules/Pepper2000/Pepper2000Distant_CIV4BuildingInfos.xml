@@ -9,7 +9,6 @@
 			<Strategy>TXT_KEY_BUILDING_UNOBSERVABLE_UNIVERSE_COLONY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_UNOBSERVABLE_UNIVERSE_COLONY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_HORIZON_BREAKING</PrereqTech>
 			<iCost>-1</iCost>
@@ -32,7 +31,6 @@
 			<Strategy>TXT_KEY_BUILDING_COSMOPOLIS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_COSMOPOLIS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_HORIZON_BREAKING</PrereqTech>
 			<iCost>1261</iCost>
@@ -57,7 +55,6 @@
 			<Strategy>TXT_KEY_BUILDING_FRACTAL_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_FRACTAL_CITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TRANSFINITE_STRUCTURES</PrereqTech>
 			<iCost>3166</iCost>
@@ -87,7 +84,6 @@
 			<Strategy>TXT_KEY_BUILDING_DISTANT_PAST_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DISTANT_PAST_CITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TIME_REVERSAL</PrereqTech>
 			<iCost>1945</iCost>
@@ -125,7 +121,6 @@
 			<Strategy>TXT_KEY_BUILDING_DISTANT_FUTURE_CITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DISTANT_FUTURE_CITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TIME_REVERSAL</PrereqTech>
 			<iCost>1945</iCost>
@@ -163,7 +158,6 @@
 			<Strategy>TXT_KEY_BUILDING_LAYERED_WORLD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LAYERED_WORLD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MANIFOLD_COLONIZATION</PrereqTech>
 			<iCost>2914</iCost>
@@ -192,7 +186,6 @@
 			<Strategy>TXT_KEY_BUILDING_COMPUTRONIUM_FILAMENT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_COMPUTRONIUM_FILAMENT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_HORIZON_BREAKING</PrereqTech>
 			<iCost>1261</iCost>
@@ -217,7 +210,6 @@
 			<Strategy>TXT_KEY_BUILDING_SPACE_WHALE_HUNTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SPACE_WHALE_HUNTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ENDLESS_EXPLORATION</PrereqTech>
 			<iCost>1713</iCost>
@@ -244,7 +236,6 @@
 			<Strategy>TXT_KEY_BUILDING_COSMOLOGY_RESEARCH_STATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_COSMOLOGY_RESEARCH_STATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_EXPERIMENTAL_COSMOLOGY</PrereqTech>
 			<iCost>1945</iCost>
@@ -271,7 +262,6 @@
 			<Strategy>TXT_KEY_BUILDING_BIG_BANG_PROBE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BIG_BANG_PROBE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_EXPERIMENTAL_COSMOLOGY</PrereqTech>
 			<iCost>1945</iCost>
@@ -308,7 +298,6 @@
 			<Strategy>TXT_KEY_BUILDING_LOCALIZED_BIG_RIP_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LOCALIZED_BIG_RIP</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PARAMETER_TUNING</PrereqTech>
 			<iCost>2666</iCost>
@@ -345,7 +334,6 @@
 			<Strategy>TXT_KEY_BUILDING_HORIZON_PORT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HORIZON_PORT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_HORIZON_BREAKING</PrereqTech>
 			<iCost>1261</iCost>
@@ -370,7 +358,6 @@
 			<Strategy>TXT_KEY_BUILDING_INFINITE_SPEED_TACHYON_GENERATOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_INFINITE_SPEED_TACHYON_GENERATOR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_UNIVERSAL_SINGULARITY</PrereqTech>
 			<iCost>2914</iCost>
@@ -405,7 +392,6 @@
 			<Strategy>TXT_KEY_BUILDING_INTERGALACTIC_HYPERPORT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_INTERGALACTIC_HYPERPORT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_HYPERLANES</PrereqTech>
 			<iCost>1945</iCost>
@@ -436,7 +422,6 @@
 			<Strategy>TXT_KEY_BUILDING_DIMENSION_X_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DIMENSION_X</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_CONTROLLED_VACUUM_COLLAPSE</PrereqTech>
 			<iCost>1713</iCost>
@@ -474,7 +459,6 @@
 			<Strategy>TXT_KEY_BUILDING_PARALLEL_UNIVERSE_BUILDING_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PARALLEL_UNIVERSE_BUILDING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MULTIVERSE_TRAVERSAL</PrereqTech>
 			<iCost>2422</iCost>
@@ -513,7 +497,6 @@
 			<Strategy>TXT_KEY_BUILDING_BUBBLE_TRANSFER_STATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BUBBLE_TRANSFER_STATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_CONTROLLED_INFLATION</PrereqTech>
 			<iCost>1485</iCost>
@@ -541,7 +524,6 @@
 			<Strategy>TXT_KEY_BUILDING_BRANE_THRUSTER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BRANE_THRUSTER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_BRANE_CROSSOVER</PrereqTech>
 			<iCost>2666</iCost>
@@ -573,7 +555,6 @@
 			<Strategy>TXT_KEY_BUILDING_HOTEL_INFINITE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HOTEL_INFINITE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TRANSFINITE_STRUCTURES</PrereqTech>
 			<iCost>3166</iCost>
@@ -604,7 +585,6 @@
 			<Strategy>TXT_KEY_BUILDING_SPACE_PIRATE_BASE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SPACE_PIRATE_BASE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ENDLESS_EXPLORATION</PrereqTech>
 			<iCost>1713</iCost>
@@ -640,7 +620,6 @@
 			<Strategy>TXT_KEY_BUILDING_COSMIC_EXPLORER_BASE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_COSMIC_EXPLORER_BASE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ENDLESS_EXPLORATION</PrereqTech>
 			<iCost>1713</iCost>
@@ -668,7 +647,6 @@
 			<Strategy>TXT_KEY_BUILDING_TIMELINE_STABILIZERS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TIMELINE_STABILIZERS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TIMELINE_RECTIFICATION</PrereqTech>
 			<iCost>2914</iCost>
@@ -702,7 +680,6 @@
 			<Strategy>TXT_KEY_BUILDING_DARK_ERA_SURVIVAL_PLAN_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DARK_ERA_SURVIVAL_PLAN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_ENTROPY_REVERSAL</PrereqTech>
 			<iCost>2182</iCost>
@@ -737,7 +714,6 @@
 			<Strategy>TXT_KEY_BUILDING_HACKED_SOURCE_CODE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HACKED_SOURCE_CODE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SIMULATION_AWARENESS</PrereqTech>
 			<iCost>3683</iCost>
@@ -770,7 +746,6 @@
 			<Strategy>TXT_KEY_BUILDING_BIOPHILIC_SUBUNIVERSE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BIOPHILIC_SUBUNIVERSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DIRECTED_COSMIC_EVOLUTION</PrereqTech>
 			<iCost>3166</iCost>
@@ -805,7 +780,6 @@
 			<Strategy>TXT_KEY_BUILDING_PARANORMAL_BRANESPACE_TOPOLOGY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PARANORMAL_BRANESPACE_TOPOLOGY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TRUTH_MANIPULATION</PrereqTech>
 			<iCost>3423</iCost>
@@ -836,7 +810,6 @@
 			<Strategy>TXT_KEY_BUILDING_DARK_WORLD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DARK_WORLD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SPIRITUAL_REALMS</PrereqTech>
 			<iCost>3166</iCost>
@@ -873,7 +846,6 @@
 			<Strategy>TXT_KEY_BUILDING_SPIRIT_WORLD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SPIRIT_WORLD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SPIRITUAL_REALMS</PrereqTech>
 			<iCost>3166</iCost>
@@ -916,7 +888,6 @@
 			<Strategy>TXT_KEY_BUILDING_MAGIC_WORLD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MAGIC_WORLD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SPIRITUAL_REALMS</PrereqTech>
 			<iCost>3166</iCost>
@@ -951,7 +922,6 @@
 			<Strategy>TXT_KEY_BUILDING_RECURSIVE_WORLD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_RECURSIVE_WORLD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_NONSTANDARD_MATHEMATICS</PrereqTech>
 			<iCost>3423</iCost>
@@ -986,7 +956,6 @@
 			<Strategy>TXT_KEY_BUILDING_VON_NEUMANN_GALACTIFORMING_FLEET_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_VON_NEUMANN_GALACTIFORMING_FLEET</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_HORIZON_BREAKING</PrereqTech>
 			<iCost>1261</iCost>
@@ -1010,7 +979,6 @@
 			<Strategy>TXT_KEY_BUILDING_QUASAR_FACTORY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_QUASAR_FACTORY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_HORIZON_BREAKING</PrereqTech>
 			<iCost>1261</iCost>
@@ -1035,7 +1003,6 @@
 			<Strategy>TXT_KEY_BUILDING_NON_ORIENTABLE_WORMHOLE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_NON_ORIENTABLE_WORMHOLE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MANIFOLD_COLONIZATION</PrereqTech>
 			<iCost>2914</iCost>
@@ -1066,7 +1033,6 @@
 			<Strategy>TXT_KEY_BUILDING_KLEIN_BOTTLE_UNIVERSE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_KLEIN_BOTTLE_UNIVERSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MANIFOLD_COLONIZATION</PrereqTech>
 			<iCost>2914</iCost>
@@ -1098,7 +1064,6 @@
 			<Strategy>TXT_KEY_BUILDING_INTERGALACTIC_BRANEWORKS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_INTERGALACTIC_BRANEWORKS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_BRANE_CONSTRUCTION</PrereqTech>
 			<iCost>2422</iCost>
@@ -1129,7 +1094,6 @@
 			<Strategy>TXT_KEY_BUILDING_BRANE_COLLISION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BRANE_COLLISION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_BRANE_CROSSOVER</PrereqTech>
 			<iCost>2666</iCost>
@@ -1162,7 +1126,6 @@
 			<Strategy>TXT_KEY_BUILDING_SMART_GRAVITY_GENERATOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_SMART_GRAVITY_GENERATOR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SENTIENT_ENERGY_FIELDS</PrereqTech>
 			<iCost>2182</iCost>
@@ -1193,7 +1156,6 @@
 			<Strategy>TXT_KEY_BUILDING_MULTIVERSE_MINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MULTIVERSE_MINE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_MULTIVERSE_TRAVERSAL</PrereqTech>
 			<iCost>2422</iCost>
@@ -1224,7 +1186,6 @@
 			<Strategy>TXT_KEY_BUILDING_INTERDICTION_FIELD_GENERATOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_INTERDICTION_FIELD_GENERATOR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_SENTIENT_ENERGY_FIELDS</PrereqTech>
 			<iCost>2182</iCost>
@@ -1251,7 +1212,6 @@
 			<Strategy>TXT_KEY_BUILDING_ARTIFICIAL_SUPERMASSIVE_BLACK_HOLE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ARTIFICIAL_SUPERMASSIVE_BLACK_HOLE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DIRECTED_COSMIC_EVOLUTION</PrereqTech>
 			<iCost>3166</iCost>
@@ -1278,7 +1238,6 @@
 			<Strategy>TXT_KEY_BUILDING_BLACK_HOLE_CONSTELLATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BLACK_HOLE_CONSTELLATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_DIRECTED_COSMIC_EVOLUTION</PrereqTech>
 			<iCost>3166</iCost>
@@ -1310,7 +1269,6 @@
 			<Strategy>TXT_KEY_BUILDING_DARK_FLOW_GENERATOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DARK_FLOW_GENERATOR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_HYPERSTRUCTURE_ENGINEERING</PrereqTech>
 			<iCost>1485</iCost>
@@ -1344,7 +1302,6 @@
 			<Strategy>TXT_KEY_BUILDING_BRANE_ASSEMBLER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BRANE_ASSEMBLER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_BRANE_CONSTRUCTION</PrereqTech>
 			<iCost>2422</iCost>
@@ -1375,7 +1332,6 @@
 			<Strategy>TXT_KEY_BUILDING_BRANESPACE_FOOD_SOURCE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BRANESPACE_FOOD_SOURCE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_BRANE_CONSTRUCTION</PrereqTech>
 			<iCost>2422</iCost>
@@ -1404,7 +1360,6 @@
 			<Strategy>TXT_KEY_BUILDING_ARTISAN_PLANET_DESIGNER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_ARTISAN_PLANET_DESIGNER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_HYPERSTRUCTURE_ENGINEERING</PrereqTech>
 			<iCost>1485</iCost>
@@ -1434,7 +1389,6 @@
 			<Strategy>TXT_KEY_BUILDING_BIG_BANG_POWER_PLANT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BIG_BANG_POWER_PLANT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_PARAMETER_TUNING</PrereqTech>
 			<iCost>2666</iCost>
@@ -1471,7 +1425,6 @@
 			<Strategy>TXT_KEY_BUILDING_BASILISK_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_BASILISK</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_COSMIC_GOVERNANCE</PrereqTech>
 			<iCost>7783</iCost>
@@ -1503,7 +1456,6 @@
 			<Strategy>TXT_KEY_BUILDING_LIBRARY_OF_BABEL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LIBRARY_OF_BABEL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TRANSFINITE_COMPUTATION</PrereqTech>
 			<iCost>13692</iCost>
@@ -1541,7 +1493,6 @@
 			<Strategy>TXT_KEY_BUILDING_MILLIWAYS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MILLIWAYS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_TIME_REVERSAL</PrereqTech>
 			<iCost>7783</iCost>
@@ -1581,7 +1532,6 @@
 			<Strategy>TXT_KEY_BUILDING_HEAVEN_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HEAVEN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_OMEGA_POINT</PrereqTech>
 			<iCost>14732</iCost>
@@ -1620,7 +1570,6 @@
 			<Strategy>TXT_KEY_BUILDING_OMELAS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_OMELAS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<PrereqTech>TECH_OMNIBENEVOLENT_MANDATE</PrereqTech>
 			<iCost>10665</iCost>

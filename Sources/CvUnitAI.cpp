@@ -18214,7 +18214,7 @@ int CvUnitAI::getBestConstructValue(int iMaxCount, int iMaxSingleBuildingCount, 
 
 		if (NO_BUILDING != eBuilding)
 		{
-			if ((m_pUnitInfo->getForceBuildings(eBuilding) || m_pUnitInfo->getBuildings(eBuilding)) && GET_PLAYER(getOwnerINLINE()).canConstruct(eBuilding,false,false,true))
+			if (m_pUnitInfo->getBuildings(eBuilding) && GET_PLAYER(getOwnerINLINE()).canConstruct(eBuilding,false,false,true))
 			{
 				if (GET_PLAYER(getOwnerINLINE()).AI_getNumBuildingsNeeded(eBuilding, (getDomainType() == DOMAIN_SEA)) > 0)
 				{
@@ -35274,8 +35274,8 @@ int	CvUnitAI::AI_genericUnitValueTimes100(UnitValueFlags eFlags) const
 				int iUCAdjHeal = 0;
 				for (int iK = 0; iK < kPromotion.getNumHealUnitCombatChangeTypes(); iK++)
 				{
-					iUCHeal += kPromotion.getHealUnitCombatChangeType(iK).iHeal;			
-					iUCAdjHeal += kPromotion.getHealUnitCombatChangeType(iK).iAdjacentHeal;
+					iUCHeal += kPromotion.getHealUnitCombatChangeType(iK).second.iHeal;			
+					iUCAdjHeal += kPromotion.getHealUnitCombatChangeType(iK).second.iAdjacentHeal;
 				}
 				if ( kPromotion.getSameTileHealChange() != 0 || iUCHeal > 0 )
 				{
@@ -35933,7 +35933,7 @@ bool CvUnitAI::AI_cureAffliction(PromotionLineTypes eAfflictionLine)
 #endif
 /*TB Prophet Mod end*/
 
-void unitSourcesValueToCity(CvGameObject* pObject, CvPropertyManipulators* pMani, const CvUnit* pUnit, const CvCityAI* pCity, int* iValue, PropertyTypes eProperty)
+void unitSourcesValueToCity(const CvGameObject* pObject, CvPropertyManipulators* pMani, const CvUnit* pUnit, const CvCityAI* pCity, int* iValue, PropertyTypes eProperty)
 {
 	if ( pCity == NULL )
 	{
@@ -35946,7 +35946,7 @@ void unitSourcesValueToCity(CvGameObject* pObject, CvPropertyManipulators* pMani
 
 		for (int i=0; i<iNum; i++)
 		{
-			CvPropertySource* pSource = pMani->getSource(i);
+			const CvPropertySource *const pSource = pMani->getSource(i);
 
 			if (eProperty == NO_PROPERTY || pSource->getProperty() == eProperty)
 			{
@@ -36270,7 +36270,7 @@ bool CvUnitAI::AI_fulfillPropertyControlNeed()
 		{
 			for(int iJ = 0; iJ < propertyManipulators->getNumSources(); iJ++)
 			{
-				CvPropertySource* pSource = propertyManipulators->getSource(iJ);
+				const CvPropertySource *const pSource = propertyManipulators->getSource(iJ);
 
 				if ( pSource->getType() == PROPERTYSOURCE_CONSTANT && pSource->getObjectType() == GAMEOBJECT_CITY && pSource->getProperty() == eProperty )
 				{
@@ -37298,7 +37298,7 @@ bool CvUnitAI::AI_isNegativePropertyUnit()
 	{
 		for(int iI = 0; iI < propertyManipulators->getNumSources(); iI++)
 		{
-			CvPropertySource* pSource = propertyManipulators->getSource(iI);
+			const CvPropertySource *const pSource = propertyManipulators->getSource(iI);
 			//	We have a source for a property - value is crudely just the AIweight of that property times the source size (which is expected to only depend on the player)
 			PropertyTypes eProperty = pSource->getProperty();
 

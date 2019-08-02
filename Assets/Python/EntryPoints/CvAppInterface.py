@@ -47,7 +47,7 @@ def onSave():
 def onLoad(argsList):
 	import cPickle
 	import CvEventInterface
-	loadDataStr=argsList[0]	
+	loadDataStr=argsList[0]
 	if loadDataStr:
 		CvEventInterface.onEvent(('OnLoad', cPickle.loads(loadDataStr), 0, 0, 0, 0, 0))
 
@@ -122,33 +122,33 @@ def onPbemSend(argsList):
 		smtp.sendmail(szFromAddr, szToAddr, message.getvalue())
 		smtp.quit()
 	except smtplib.SMTPAuthenticationError, e:
-		CyInterface().addImmediateMessage("Authentication Error: The server didn't accept the username/password combination provided.", "")	
-		CyInterface().addImmediateMessage("Error %d: %s" % (e.smtp_code, e.smtp_error), "")	
+		CyInterface().addImmediateMessage("Authentication Error: The server didn't accept the username/password combination provided.", "")
+		CyInterface().addImmediateMessage("Error %d: %s" % (e.smtp_code, e.smtp_error), "")
 		return 1
 	except smtplib.SMTPHeloError, e:
-		CyInterface().addImmediateMessage("The server refused our HELO reply.", "")	
-		CyInterface().addImmediateMessage("Error %d: %s" % (e.smtp_code, e.smtp_error), "")	
+		CyInterface().addImmediateMessage("The server refused our HELO reply.", "")
+		CyInterface().addImmediateMessage("Error %d: %s" % (e.smtp_code, e.smtp_error), "")
 		return 1
 	except smtplib.SMTPConnectError, e:
-		CyInterface().addImmediateMessage("Error establishing connection.", "")	
-		CyInterface().addImmediateMessage("Error %d: %s" % (e.smtp_code, e.smtp_error), "")	
+		CyInterface().addImmediateMessage("Error establishing connection.", "")
+		CyInterface().addImmediateMessage("Error %d: %s" % (e.smtp_code, e.smtp_error), "")
 		return 1
 	except smtplib.SMTPDataError, e:
-		CyInterface().addImmediateMessage("The SMTP server didn't accept the data.", "")	
-		CyInterface().addImmediateMessage("Error %d: %s" % (e.smtp_code, e.smtp_error), "")	
+		CyInterface().addImmediateMessage("The SMTP server didn't accept the data.", "")
+		CyInterface().addImmediateMessage("Error %d: %s" % (e.smtp_code, e.smtp_error), "")
 		return 1
 	except smtplib.SMTPRecipientsRefused, e:
-		CyInterface().addImmediateMessage("All recipient addresses refused.", "")	
+		CyInterface().addImmediateMessage("All recipient addresses refused.", "")
 		return 1
 	except smtplib.SMTPSenderRefused, e:
-		CyInterface().addImmediateMessage("Sender address refused.", "")	
-		CyInterface().addImmediateMessage("Error %d: %s" % (e.smtp_code, e.smtp_error), "")	
+		CyInterface().addImmediateMessage("Sender address refused.", "")
+		CyInterface().addImmediateMessage("Error %d: %s" % (e.smtp_code, e.smtp_error), "")
 		return 1
 	except smtplib.SMTPResponseException, e:
-		CyInterface().addImmediateMessage("Error %d: %s" % (e.smtp_code, e.smtp_error), "")	
+		CyInterface().addImmediateMessage("Error %d: %s" % (e.smtp_code, e.smtp_error), "")
 		return 1
 	except smtplib.SMTPServerDisconnected:
-		CyInterface().addImmediateMessage("Not connected to any SMTP server", "")	
+		CyInterface().addImmediateMessage("Not connected to any SMTP server", "")
 		return 1
 	except:
 		return 1

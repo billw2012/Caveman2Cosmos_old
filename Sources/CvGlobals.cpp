@@ -5805,14 +5805,14 @@ void cvInternalGlobals::addDelayedResolution(int *pType, CvString szString)
 	//m_delayedResolutionMap.insert(DelayedResolutionMap::value_type(pType, szString));
 }
 
-CvString* cvInternalGlobals::getDelayedResolution(int *pType)
+CvString cvInternalGlobals::getDelayedResolution(int* pType) const
 {
-	DelayedResolutionMap::iterator it = m_delayedResolutionMap.find(pType);
-	if (it == m_delayedResolutionMap.end())
+	DelayedResolutionMap::const_iterator it = m_delayedResolutionMap.lower_bound(pType);
+	if (it != m_delayedResolutionMap.end())
 	{
-		return NULL;
+		return it->second.first;
 	}
-	return &(it->second.first);
+	return CvString();
 }
 
 void cvInternalGlobals::removeDelayedResolution(int *pType)
@@ -5822,19 +5822,49 @@ void cvInternalGlobals::removeDelayedResolution(int *pType)
 
 void cvInternalGlobals::copyNonDefaultDelayedResolution(int* pTypeSelf, int* pTypeOther)
 {
-	if (getDelayedResolution(pTypeSelf) == NULL)
+	CvString szOther = getDelayedResolution(pTypeOther);
+	removeDelayedResolution(pTypeOther);
+	if (getDelayedResolution(pTypeSelf).empty() && szOther.size())
 	{
-		CvString* pszOther = getDelayedResolution(pTypeOther);
-		if (pszOther != NULL)
+		addDelayedResolution(pTypeSelf, szOther);
+	}
+}
+
+void cvInternalGlobals::copyNonDefaultDelayedResolutionVector(std::vector<int>& contSelf, std::vector<int>& contOther)
+{
+	int iSizeOrig = (int)contSelf.size();
+	contSelf.reserve(iSizeOrig + (int)contOther.size());
+	while (contOther.size())
+	{
+		CvString szOther = getDelayedResolution(&contOther.back());
+		removeDelayedResolution(&contOther.back());
+		if (szOther.empty())
 		{
-			addDelayedResolution(pTypeSelf, *pszOther);
+			contOther.pop_back();
+			continue;
 		}
+		bool bExists = false;
+		for (std::vector<int>::iterator it = contSelf.begin(); it - contSelf.begin() < iSizeOrig; it++)
+		{
+			CvString szSelf = getDelayedResolution(&(*it));
+			if (szSelf.size() && szSelf.CompareNoCase(szOther) != 0)
+			{
+				bExists = true;
+				break;
+			}
+		}
+		if (!bExists)
+		{
+			contSelf.push_back(int());
+			addDelayedResolution(&contSelf.back(), szOther);
+		}
+		contOther.pop_back();
 	}
 }
 	
 void cvInternalGlobals::resolveDelayedResolution()
 {
-	for (DelayedResolutionMap::iterator it = m_delayedResolutionMap.begin(); it != m_delayedResolutionMap.end(); ++it)
+	for (DelayedResolutionMap::const_iterator it = m_delayedResolutionMap.begin(); it != m_delayedResolutionMap.end(); ++it)
 	{
 		GC.setCurrentXMLFile(it->second.second);
 		*(it->first) = getInfoTypeForString(it->second.first);

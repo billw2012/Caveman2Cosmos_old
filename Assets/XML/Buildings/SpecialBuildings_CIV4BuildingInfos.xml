@@ -17,7 +17,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_AGRICULTURAL_ACHIEVEMENT</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_ACHIEVEMENT</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>10000</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -52,7 +51,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_COMMERCIAL_ACHIEVEMENT</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_ACHIEVEMENT</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>10000</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -88,7 +86,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ACHIEVEMENT_ENVIRONMENTAL_EFFECT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -126,7 +123,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ACHIEVEMENT_MEDICAL_EFFECT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -159,7 +155,6 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ACHIEVEMENT_SAFETY_EFFECT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -200,7 +195,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ACHIEVEMENT_TOURISM_EFFECT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -235,7 +229,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ENVIRONMENTAL_A</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ENVIRONMENTAL_ACHIEVEMENT</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -272,7 +265,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_INDUSTRIAL_ACHIEVEMENT</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_ACHIEVEMENT</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>10000</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -309,7 +301,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_MEDICAL_A</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_MEDICAL_A</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -346,7 +337,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MILITARY_ACHIEVEMENT</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_ACHIEVEMENT</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>10000</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -380,7 +370,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLITICAL_ACHIEVEMENT</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_ACHIEVEMENT</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>10000</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -419,7 +408,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_SAFETY_A</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SAFETY_A</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -454,7 +442,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SCIENTIFIC_ACHIEVEMENT</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_ACHIEVEMENT</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>10000</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -490,7 +477,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SEAFARING_ACHIEVEMENT</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_ACHIEVEMENT</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>10000</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -534,7 +520,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_TOURISM_A</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TOURISM_A</MovieDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -569,7 +554,6 @@
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_BELIEF_KARMA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -615,7 +599,6 @@
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_BELIEF_REINCARNATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -657,7 +640,6 @@
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_BELIEF_RESURRECTION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -717,7 +699,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_1</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -789,7 +770,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_2</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -862,7 +842,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_3</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -934,7 +913,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_4</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1006,7 +984,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_5</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1078,7 +1055,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_6</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1150,7 +1126,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_7</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1222,7 +1197,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_ADVENTURE_HQ</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1298,7 +1272,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_BULLSEYE_HQ</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1374,7 +1347,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_BURGERWORLD_HQ</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1450,7 +1422,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_EMPCLOTH_HQ</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1522,7 +1493,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_EWTRADE_HQ</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1598,7 +1568,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_FASHION_HQ</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1670,7 +1639,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_MALLWART_HQ</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1746,7 +1714,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_MAPSTER_HQ</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1819,7 +1786,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_MCDOWELLS_HQ</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1895,7 +1861,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_MILEHIGH_HQ</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -1967,7 +1932,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_MOBBY_HQ</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2043,7 +2007,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_MOONBEAN_HQ</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2115,7 +2078,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_RED_HQ</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2193,7 +2155,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_SAFARI_HQ</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2267,7 +2228,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_ULTSOLDIER_HQ</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2342,7 +2302,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CORPORATION_WONKA_HQ</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_BANK</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -2412,7 +2371,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -2470,7 +2428,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -2533,7 +2490,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -2593,7 +2549,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -2656,7 +2611,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -2716,7 +2670,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -2779,7 +2732,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -2839,7 +2791,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -2902,7 +2853,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -2962,7 +2912,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3025,7 +2974,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3085,7 +3033,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3148,7 +3095,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3208,7 +3154,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
@@ -3266,7 +3211,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3329,7 +3273,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3389,7 +3332,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3452,7 +3394,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3512,7 +3453,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3575,7 +3515,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3635,7 +3574,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3698,7 +3636,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3758,7 +3695,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3821,7 +3757,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3881,7 +3816,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -3944,7 +3878,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -4004,7 +3937,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4029,7 +3961,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4054,7 +3985,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4079,7 +4009,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4104,7 +4033,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4129,7 +4057,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4154,7 +4081,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4179,7 +4105,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4204,7 +4129,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4229,7 +4153,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4254,7 +4177,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4279,7 +4201,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4304,7 +4225,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4329,7 +4249,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4355,7 +4274,6 @@
 			<PrereqTech>TECH_SEDENTARY_LIFESTYLE</PrereqTech>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4381,7 +4299,6 @@
 			<PrereqTech>TECH_CLASSICAL_LIFESTYLE</PrereqTech>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4407,7 +4324,6 @@
 			<PrereqTech>TECH_MEDIEVAL_LIFESTYLE</PrereqTech>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4433,7 +4349,6 @@
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4459,7 +4374,6 @@
 			<PrereqTech>TECH_INDUSTRIAL_LIFESTYLE</PrereqTech>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4485,7 +4399,6 @@
 			<PrereqTech>TECH_MODERN_LIFESTYLE</PrereqTech>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4511,7 +4424,6 @@
 			<PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4537,7 +4449,6 @@
 			<PrereqTech>TECH_NANOTECH_LIFESTYLE</PrereqTech>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4563,7 +4474,6 @@
 			<PrereqTech>TECH_TRANSHUMAN_LIFESTYLE</PrereqTech>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4589,7 +4499,6 @@
 			<PrereqTech>TECH_GALACTIC_LIFESTYLE</PrereqTech>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4615,7 +4524,6 @@
 			<PrereqTech>TECH_COSMIC_LIFESTYLE</PrereqTech>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4641,7 +4549,6 @@
 			<PrereqTech>TECH_TRANSCENDENT_LIFESTYLE</PrereqTech>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -4666,7 +4573,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_SEDENTARY_LIFESTYLE</PrereqTech>
 			<!-- Construction cost -->
@@ -4699,7 +4605,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_CLASSICAL_LIFESTYLE</PrereqTech>
 			<!-- Construction cost -->
@@ -4732,7 +4637,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_MEDIEVAL_LIFESTYLE</PrereqTech>
 			<!-- Construction cost -->
@@ -4765,7 +4669,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_RENAISSANCE_LIFESTYLE</PrereqTech>
 			<!-- Construction cost -->
@@ -4798,7 +4701,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>-->
 			<!-- Graphical and interface -->
 			<!-- <ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>-->
+			-->
 			<!-- Prerequisites -->
 			<!-- <PrereqTech>TECH_INDUSTRIAL_LIFESTYLE</PrereqTech>-->
 			<!-- Construction cost -->
@@ -4831,7 +4734,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>-->
 			<!-- Graphical and interface -->
 			<!-- <ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>-->
+			-->
 			<!-- Prerequisites -->
 			<!-- <PrereqTech>TECH_MODERN_LIFESTYLE</PrereqTech>-->
 			<!-- Construction cost -->
@@ -4864,7 +4767,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>-->
 			<!-- Graphical and interface -->
 			<!-- <ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>-->
+			-->
 			<!-- Prerequisites -->
 			<!-- <PrereqTech>TECH_INFORMATION_LIFESTYLE</PrereqTech>-->
 			<!-- Construction cost -->
@@ -4897,7 +4800,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>-->
 			<!-- Graphical and interface -->
 			<!-- <ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>-->
+			-->
 			<!-- Prerequisites -->
 			<!-- <PrereqTech>TECH_NANOTECH_LIFESTYLE</PrereqTech>-->
 			<!-- Construction cost -->
@@ -4930,7 +4833,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>-->
 			<!-- Graphical and interface -->
 			<!-- <ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>-->
+			-->
 			<!-- Prerequisites -->
 			<!-- <PrereqTech>TECH_TRANSHUMAN_LIFESTYLE</PrereqTech>-->
 			<!-- Construction cost -->
@@ -4963,7 +4866,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>-->
 			<!-- Graphical and interface -->
 			<!-- <ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>-->
+			-->
 			<!-- Prerequisites -->
 			<!-- <PrereqTech>TECH_GALACTIC_LIFESTYLE</PrereqTech>-->
 			<!-- Construction cost -->
@@ -4996,7 +4899,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>-->
 			<!-- Graphical and interface -->
 			<!-- <ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>-->
+			-->
 			<!-- Prerequisites -->
 			<!-- <PrereqTech>TECH_COSMIC_LIFESTYLE</PrereqTech>-->
 			<!-- Construction cost -->
@@ -5029,7 +4932,7 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>-->
 			<!-- Graphical and interface -->
 			<!-- <ArtDefineTag>ART_DEF_BUILDING_EQ</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>-->
+			-->
 			<!-- Prerequisites -->
 			<!-- <PrereqTech>TECH_TRANSCENDENT_LIFESTYLE</PrereqTech>-->
 			<!-- Construction cost -->
@@ -5063,14 +4966,10 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CIVICBANDITRY</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_MUSEUM</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_BANDITRY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_BANDITRY</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5092,13 +4991,9 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CIVICBURNTRASH</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_BURN_TRASH</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_BURN_TRASH</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5125,7 +5020,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CIVICCASTE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -5134,10 +5028,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CASTE_SYSTEM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CASTE_SYSTEM</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5168,7 +5059,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CIVICDEMOCRACY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -5177,10 +5067,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_DEMOCRACY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_DEMOCRACY</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5211,7 +5098,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CIVICEGALITARIAN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -5220,10 +5106,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_LIBERAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_LIBERAL</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5253,7 +5136,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CIVICFEUDAL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -5262,10 +5144,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FEUDAL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_FEUDAL</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5294,7 +5173,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CIVICFREEMARKET</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -5303,10 +5181,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_LAISSEZ_FAIRE</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_LAISSEZ_FAIRE</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5337,7 +5212,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CIVICMARTIALLAW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -5346,10 +5220,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MARTIALLAW</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MARTIALLAW</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5380,14 +5251,10 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CIVICMERCENARIES</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_MUSEUM</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCENARIES</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MERCENARIES</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5410,14 +5277,10 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CIVICMILITIA</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_MUSEUM</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MILITIA</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MILITIA</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5439,7 +5302,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CIVICMINDCONTROL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -5448,10 +5310,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MIND_CONTROL</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MIND_CONTROL</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5481,7 +5340,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CIVICPOSTSCARCITY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -5490,10 +5348,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_POST_SCARCITY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_POST_SCARCITY</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5523,7 +5378,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CIVICREPUBLIC</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<BuildingClassNeededs>
 				<BuildingClassNeeded>
@@ -5532,10 +5386,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_REPUBLIC</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_REPUBLIC</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -5566,7 +5417,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_PLANEHIJACKING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -5585,7 +5435,7 @@
 					<UnitCombatType>UNITCOMBAT_CRIMINAL</UnitCombatType>
 					<iExperience>4</iExperience>
 				</UnitCombatFreeExperience>
-			</UnitCombatFreeExperiences>		
+			</UnitCombatFreeExperiences>
 			<iHealth>-4</iHealth>
 			<iHappiness>-4</iHappiness>
 			<CommerceChanges>
@@ -5612,7 +5462,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_ANIMALABUSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -5645,7 +5494,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_ARMEDCOMMUNITIES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -5689,7 +5537,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_ARSON</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -5734,7 +5581,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_ASIMOV</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -5773,7 +5619,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_BANKROBBERY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -5819,7 +5664,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_BLACKMARKETS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -5870,7 +5714,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_BLACKMAIL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -5913,7 +5756,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_BRIBERY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -5955,7 +5797,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_BURGLARY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6091,7 +5932,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_CARBOMBING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_MOTORIZED_TRANSPORTATION</PrereqTech>
@@ -6137,7 +5977,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_CARTHEIFT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6182,7 +6021,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_CHILDLABOR</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6220,7 +6058,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_CORRUPTION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6265,7 +6102,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_COUNTERFEITING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6303,7 +6139,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_CYBERBULLYING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6330,7 +6165,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_CYBERWARFARE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6373,7 +6207,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_DOMESTICVIOLENCE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6408,7 +6241,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_DRUGCARTELS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6458,7 +6290,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_DRUGS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6508,7 +6339,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_DRUNKDRIVING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6544,7 +6374,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_ELDERABUSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6573,7 +6402,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_EMBEZZLEMENT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6611,7 +6439,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_TOXICDUMPING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6658,7 +6485,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_EXTORTION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6701,7 +6527,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_FALSEACCUSATIONS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6735,7 +6560,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_FIGHTING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6770,7 +6594,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_FORGERY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6805,7 +6628,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_GANGWARFARE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6853,7 +6675,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_GANGS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6898,7 +6719,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_GENEFORGERY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6935,7 +6755,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_GRAFFITI</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -6983,7 +6802,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_GUNRAMPAGE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7021,7 +6839,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_HACKING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7061,7 +6878,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_HATECRIME</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7101,7 +6917,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_HUMANTRAFFICKING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7151,7 +6966,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_IDENTITYTHEFT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7191,7 +7005,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_BRAINWASHING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7241,7 +7054,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_ILLEGALIMMIGRATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7249,18 +7061,9 @@
 			</MapCategoryTypes>
 			<PrereqTech>TECH_ALPHABET</PrereqTech>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CLOSED_BORDERS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SKILLED_WORKERS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SECURE_BORDERS</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_CLOSED_BORDERS</CivicOption>
+				<CivicOption>CIVIC_SKILLED_WORKERS</CivicOption>
+				<CivicOption>CIVIC_SECURE_BORDERS</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<iInsidiousness>20</iInsidiousness>
@@ -7302,7 +7105,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_INSIDERTRADING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7348,7 +7150,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_INSUBORDINATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7378,7 +7179,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_INSURANCEFRAUD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7416,7 +7216,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_INTERNETFRAUD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7454,7 +7253,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_KIDNAPPING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7489,7 +7287,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_LITERING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7527,7 +7324,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_LOOTING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7583,7 +7379,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_LYING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7598,7 +7393,7 @@
 			<!-- Special properties -->
 			<bNukeImmune>1</bNukeImmune>
 			<iConquestProb>100</iConquestProb>
-		</BuildingInfo>		
+		</BuildingInfo>
 		<BuildingInfo>
 			<!-- Crime (Malware) -->
 			<BuildingClass>BUILDINGCLASS_CRIME_MALWARE</BuildingClass>
@@ -7609,7 +7404,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_MALWARE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7651,7 +7445,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_MEDICALFRAUD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7700,7 +7493,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_MILITARYDESERTION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7744,7 +7536,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_MONEYLAUNDERING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7784,7 +7575,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_MUGGING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7825,7 +7615,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_MURDER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Construction cost -->
             <MapCategoryTypes>
@@ -7863,7 +7652,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_EPIRACY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7904,7 +7692,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_ORGANTRADE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7947,7 +7734,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_MOB</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -7999,7 +7785,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_PICKPOCKET</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8037,7 +7822,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_POACHING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8081,7 +7865,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_JAILBREAK</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8143,7 +7926,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_PUBLICINTOXICATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8183,7 +7965,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_RACKETEERTING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8225,7 +8006,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_RAPE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Construction cost -->
             <MapCategoryTypes>
@@ -8266,7 +8046,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_RIOTING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8314,7 +8093,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_SCHOOLSHOOTING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8344,7 +8122,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_SECTARIANVIOLENCE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8394,7 +8171,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_SEXUALHARASSMENT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8420,7 +8196,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_SHOPLIFTING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8542,7 +8317,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_SOLICITING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8569,7 +8343,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_SPORTSRIOTS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8601,7 +8374,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_TAXEVASION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8633,7 +8405,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_TIMELINETAMPERING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8677,7 +8448,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_TRESSPASSING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8711,7 +8481,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_TRUANCY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8747,7 +8516,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_UNLICENSEDCLONING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8780,7 +8548,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_VIGILANTISM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8834,7 +8601,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_WEAPONSTRAFFICKING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8881,7 +8647,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CRIME_WELFAREFRAUD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -8895,10 +8660,7 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SOCIALIZED</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_SOCIALIZED</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -8931,7 +8693,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CULTURAL_ACHIEVEMENT</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_ACHIEVEMENT</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>10000</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -8966,7 +8727,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BLOOD_DANCE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -8991,17 +8751,11 @@
 				</PrereqOrBuildingClass>
 			</PrereqOrBuildingClasses>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_ANARCHISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_CHIEFDOM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_ANARCHISM</CivicOption>
+				<CivicOption>CIVIC_CHIEFDOM</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
-			<!-- Obsolescence -->			
+			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_CODE_OF_LAWS</ObsoleteTech>
 			<!-- Construction cost -->
 			<iCost>-1</iCost>
@@ -9040,7 +8794,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_FERTILTY_DANCE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -9104,7 +8857,6 @@
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_FIRE_DANCE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -9171,7 +8923,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MOON_DANCE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -9223,7 +8974,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_NATURE_DANCE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -9282,7 +9032,6 @@
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_RAIN_DANCE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -9324,7 +9073,6 @@
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_WAR_DANCE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -9365,7 +9113,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DISEASE_ANTHRAX</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -9402,7 +9149,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DISEASE_BIRDFLU</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -9439,7 +9185,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DISEASE_PLAGUE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -9478,7 +9223,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DISEASE_CHOLERA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -9522,7 +9266,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DISEASE_COMMONCOLD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -9553,7 +9296,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DISEASE_DIPHTHERIA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -9597,7 +9339,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DISEASE_DYSENTERY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -9641,7 +9382,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DISEASE_HIV</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -9674,7 +9414,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DISEASE_LEPROSY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -9707,7 +9446,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DISEASE_MALARIA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -9746,7 +9484,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DISEASE_MEASLES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -9779,7 +9516,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DISEASE_SCARLETFEAVER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -9812,7 +9548,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DISEASE_SCURVY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -9852,7 +9587,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DISEASE_SMALLPOX</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -9885,7 +9619,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DISEASE_SWINEFLU</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -9920,7 +9653,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DISEASE_TYPHOIDFEAVER</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -9964,7 +9696,6 @@
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BELIEF_KARMA</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -10001,7 +9732,6 @@
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BELIEF_REINCARNATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -10040,7 +9770,6 @@
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BELIEF_RESURRECTION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -10079,7 +9808,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CONNOISSEUR_CHAMPAGNE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -10108,7 +9836,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CONNOISSEUR_RED</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -10136,7 +9863,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CONNOISSEUR_WHITE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -10164,7 +9890,6 @@
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_AESOP_CRIME</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Construction cost -->
 			<iCost>-1</iCost>
 			<!-- Special properties -->
@@ -10187,7 +9912,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EFFECT_NATIONAL_ACADEMY_DATABASE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -10224,7 +9948,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ENHANCED_SPECIES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_GENEENHANCEMENT</PrereqTech>
 			<!-- Construction cost -->
@@ -10753,7 +10476,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MEDICAL_DATABASE_GOOD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -10787,7 +10509,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HEALTH_SPA</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_HOSPITAL</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -10837,7 +10558,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MERCANTILISMGOLD</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_MUSEUM</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -10847,10 +10567,7 @@
 				<Bonus>BONUS_GOLD</Bonus>
 			</PrereqBonuses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -10880,7 +10597,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MERCANTILISMSILVER</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_MUSEUM</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -10890,10 +10606,7 @@
 				<Bonus>BONUS_SILVER</Bonus>
 			</PrereqBonuses>
 			<PrereqAndCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MERCANTILISM</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_MERCANTILISM</CivicOption>
 			</PrereqAndCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -10922,7 +10635,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GOOD_FUSION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -10950,7 +10662,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GOOD_GORGE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -10983,7 +10694,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_UNIVERSAL_HEALTH_CARE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_UNIVERSAL_HEALTH_CARE</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_LIBERALISM</PrereqTech>
@@ -11026,7 +10736,6 @@
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_WEATHER_STATION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -11082,7 +10791,6 @@
 			<MovieDefineTag>ART_DEF_MOVIE_CAVE_DWELLING</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_CASTLE</ConstructSound>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -11142,7 +10850,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ANIMAL_BURROW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -11193,7 +10900,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HIDE_HUT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -11263,7 +10969,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA3_MDMW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -11325,7 +11030,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA4_SDLW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_MEGASTRUCTURE_ENGINEERING</PrereqTech>
 			<iPrereqPopulation>25</iPrereqPopulation>
@@ -11392,7 +11096,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA4_SDMW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_MEGASTRUCTURE_ENGINEERING</PrereqTech>
 			<iPrereqPopulation>25</iPrereqPopulation>
@@ -11455,7 +11158,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA4_SDHW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_MEGASTRUCTURE_ENGINEERING</PrereqTech>
 			<iPrereqPopulation>25</iPrereqPopulation>
@@ -11519,7 +11221,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_WOOD_HUT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -11582,7 +11283,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BONE_HUT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -11646,7 +11346,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA3_LDLW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -11702,7 +11401,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA4_LDHW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -11764,7 +11462,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CLIFF_DWELLING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -11825,7 +11522,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA2_MDMW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -11881,7 +11577,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA3_MDHW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -11943,7 +11638,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA2_LDMW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -11997,7 +11691,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA1_LDMW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -12055,7 +11748,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA4_LDLW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -12112,7 +11804,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA2_MDHW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -12174,7 +11865,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_FRAT_HOUSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -12217,7 +11907,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA3_MDLW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -12283,7 +11972,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GRASS_HUT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -12347,7 +12035,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA4_HDLW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -12398,7 +12085,7 @@
 				<iCommerce>0</iCommerce>
 				<iCommerce>4</iCommerce>
 			</CommerceChanges>
-			<!-- Properties diffusion 
+			<!-- Properties diffusion
 			<PropertyManipulators>
 				<PropertySource>
 					<PropertySourceType>PROPERTYSOURCE_CONSTANT</PropertySourceType>
@@ -12417,7 +12104,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA3_HDMW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -12483,7 +12169,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA4_MDMW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_RAPID_PROTOTYPING</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
@@ -12542,7 +12227,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA4_MDHW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_RAPID_PROTOTYPING</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
@@ -12602,7 +12286,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA4_HDMW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_RAPID_PROTOTYPING</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
@@ -12665,7 +12348,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOGAN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -12735,7 +12417,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA4_HDHW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_RAPID_PROTOTYPING</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
@@ -12799,7 +12480,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOMELESS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -13028,7 +12708,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA1_LDLW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -13086,7 +12765,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_IGLOO</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_ICE</ConstructSound>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -13130,7 +12808,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA1_MDMW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -13190,7 +12867,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_LEANTO</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -13261,7 +12937,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_IROQUOIS_LONGHOUSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>10000</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -13327,7 +13002,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA2_LDHW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -13388,7 +13062,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA3_LDHW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -13450,7 +13123,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MUD_HUT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -13517,7 +13189,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA1_MDHW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -13583,7 +13254,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA3_HDHW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -13650,7 +13320,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA3_HDLW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -13720,7 +13389,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PUEBLO</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -13790,7 +13458,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA4_MDLW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -13853,7 +13520,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA2_LDLW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -13905,7 +13571,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA2_MDLW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -13969,7 +13634,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA1_MDLW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -14041,7 +13705,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA4_LDMW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -14101,7 +13764,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SORORITY_HOUSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -14144,7 +13806,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_STILT_HUT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -14213,7 +13874,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_STONE_HUT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -14270,7 +13930,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA3_LDMW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -14331,7 +13990,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TIPI</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -14407,7 +14065,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TRAILER_PARK</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -14442,7 +14099,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TREE_HALLOW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -14502,7 +14158,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TREEHOUSE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -14584,7 +14239,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_HOUSE_ERA1_LDHW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -14649,7 +14303,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_YURT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -14721,7 +14374,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_ALCOHOL_PROHIBITION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_WOMENS_SUFFRAGE</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
@@ -14748,7 +14400,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_DRUG_PROHIBITION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_COUNTERCULTURE</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
@@ -14775,7 +14426,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_GAMBLING_BAN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_LEGALIZED_GAMBLING</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
@@ -14802,7 +14452,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_PROSTITUTION_BAN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_JURIS_PRUDENCE</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
@@ -14829,7 +14478,6 @@
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_SMOKING_PROHIBITION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -14872,7 +14520,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ALCOCHOL_PROHIBITION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_WOMENS_SUFFRAGE</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
@@ -14901,7 +14548,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EMISSION_ACT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -14941,7 +14587,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EMISSION_ACT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<!-- Obsolescence -->
@@ -14967,7 +14612,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CARPOOL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -15007,7 +14651,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CARPOOL</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_MOTORIZED_TRANSPORTATION</PrereqTech>
 			<!-- Obsolescence -->
@@ -15033,7 +14676,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CLEANAIR_ACT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -15071,7 +14713,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CLEANAIR_ACT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -15098,7 +14739,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CLEANWATER_ACT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -15136,7 +14776,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CLEANWATER_ACT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -15163,7 +14802,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SHUTTLE_SERVICE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -15203,7 +14841,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SHUTTLE_SERVICE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_MOTORIZED_TRANSPORTATION</PrereqTech>
 			<!-- Obsolescence -->
@@ -15229,7 +14866,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DRUG_PROHIBITION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_COUNTERCULTURE</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
@@ -15258,7 +14894,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_FIRE_CODE</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_FIRE_BRIGADES</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -15311,7 +14946,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GAMBLING_BAN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_LEGALIZED_GAMBLING</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
@@ -15340,7 +14974,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_NEIGHBORHOOD_WATCH</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_POLICE_STATION</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -15400,7 +15033,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PROSTITUTION_BAN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_PAPACY</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
@@ -15430,7 +15062,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SMOKE_DETECTOR</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_FIRE_BRIGADES</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -15483,7 +15114,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SMOKING_PROHIBITION</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_URBAN_CULTURE</PrereqTech>
 			<iPrereqPopulation>6</iPrereqPopulation>
@@ -15526,7 +15156,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TIRE_RECYCLE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -15567,9 +15196,8 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TIRE_RECYCLE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
-			<PrereqTech>TECH_RECYCLING</PrereqTech>			
+			<PrereqTech>TECH_RECYCLING</PrereqTech>
 			<!-- Construction cost -->
 			<iCost>-1</iCost>
 			<!-- Special properties -->
@@ -15594,7 +15222,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_YOUTH_CURFEW</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_POLICE_STATION</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -15654,7 +15281,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_ANTS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -15684,7 +15310,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_APHIDS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -15702,7 +15327,7 @@
 					<BuildingClassType>BUILDINGCLASS_LADYBUGX</BuildingClassType>
 					<bReplace>1</bReplace>
 				</ReplaceBuilding>
-			</ReplaceBuildings>				
+			</ReplaceBuildings>
 			<!-- Construction cost -->
 			<iCost>-1</iCost>
 			<bAutoBuild>1</bAutoBuild>
@@ -15729,7 +15354,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_BEDBUGS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -15765,7 +15389,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_COCKROACHES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -15806,7 +15429,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_CROWS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -15855,7 +15477,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_FLEAS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -15895,7 +15516,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_FLIES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -15940,7 +15560,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_GOPHERS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -15976,7 +15595,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_LICE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -16012,7 +15630,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_LOCUST</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -16046,7 +15663,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_MOSQUITOES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -16100,7 +15716,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_MOTHS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -16139,7 +15754,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_PIGEONS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -16184,7 +15798,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_RACCOONS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -16223,7 +15836,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_RATS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -16242,7 +15854,7 @@
 					<BuildingClassType>BUILDINGCLASS_RAT_CATCHER</BuildingClassType>
 					<bReplace>1</bReplace>
 				</ReplaceBuilding>
-			</ReplaceBuildings>					
+			</ReplaceBuildings>
 			<!-- Construction cost -->
 			<iCost>-1</iCost>
 			<bAutoBuild>1</bAutoBuild>
@@ -16287,7 +15899,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_SEAGULLS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -16331,7 +15942,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_SLUGS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -16369,7 +15979,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_TERMITES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -16405,7 +16014,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_TICKS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -16441,7 +16049,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_PEST_WASPS</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -16469,7 +16076,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_ACIDRAIN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16512,7 +16118,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_BLACKENEDSKIES</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Construction cost -->
 			<iCost>-1</iCost>
@@ -16556,7 +16161,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_SMOG3</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16596,7 +16200,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_SMOG1</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16634,7 +16237,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_COAST3</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16674,7 +16276,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_GLOBALWARMING3</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16706,7 +16307,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_GROUNDWATER3</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16746,7 +16346,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_OZONE3</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16791,7 +16390,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_RIVER3</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16833,7 +16431,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_COAST1</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16873,7 +16470,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_GLOBALWARMING1</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16903,7 +16499,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_GROUNDWATER1</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16941,7 +16536,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_OZONE1</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -16986,7 +16580,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_RIVER1</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17026,7 +16619,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_COAST2</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17070,7 +16662,6 @@
 			</MapCategoryTypes>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_GLOBALWARMING2</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Construction cost -->
 			<iCost>-1</iCost>
@@ -17096,7 +16687,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_GROUNDWATER2</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17134,7 +16724,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_OZONE2</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17179,7 +16768,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_RIVER2</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17219,7 +16807,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_SMOG2</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17257,7 +16844,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_REDTIDE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17297,7 +16883,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_REEFBLEACHING</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17326,7 +16911,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_TOXICATMOSPHERE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17370,7 +16954,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_POLLUTION_TOXICHYDROSPHERE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17414,7 +16997,6 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GREAT_FIREWALL_GOOD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_CYBERWARFARE</PrereqTech>
@@ -17425,30 +17007,12 @@
 				</BuildingClassNeeded>
 			</BuildingClassNeededs>
 			<PrereqOrCivics>
-				<PrereqCivic>
-					<CivicOption>CIVIC_INTOLERANT</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_FASCIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_MARXIST</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_PROPAGANDA</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_SINGLE_PARTY</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
-				<PrereqCivic>
-					<CivicOption>CIVIC_GRID</CivicOption>
-					<bPrereqCivic>1</bPrereqCivic>
-				</PrereqCivic>
+				<CivicOption>CIVIC_INTOLERANT</CivicOption>
+				<CivicOption>CIVIC_FASCIST</CivicOption>
+				<CivicOption>CIVIC_MARXIST</CivicOption>
+				<CivicOption>CIVIC_PROPAGANDA</CivicOption>
+				<CivicOption>CIVIC_SINGLE_PARTY</CivicOption>
+				<CivicOption>CIVIC_GRID</CivicOption>
 			</PrereqOrCivics>
 			<bRequiresActiveCivics>1</bRequiresActiveCivics>
 			<!-- Construction cost -->
@@ -17492,7 +17056,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GOOD_FEDERAL_PRISON</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_CONSTITUTION</PrereqTech>
 			<!-- Obsolescence -->
@@ -17524,7 +17087,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SAFETY_NAT_LEGAL_DATABASE</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_CLOUDCOMPUTING</PrereqTech>
 			<TechTypes>
@@ -17552,7 +17114,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GOOD_NEIGHBORHOOD_WATCH</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_CRIMINOLOGY</PrereqTech>
 			<!-- Construction cost -->
@@ -17577,7 +17138,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SAFETY_ORBITAL_PRISON</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_SPACE_COLONIES</PrereqTech>
 			<!-- Construction cost -->
@@ -17624,7 +17184,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GOOD_POLICE_ACADEMY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_CRIMINOLOGY</PrereqTech>
 			<!-- Construction cost -->
@@ -17649,7 +17208,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_GOOD_YOUTH_CURFEW</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<PrereqTech>TECH_COMPULSORY_EDUCATION</PrereqTech>
 			<!-- Construction cost -->
@@ -17675,7 +17233,6 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MILITARY_ACADEMY</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -17733,13 +17290,12 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_SCOTLAND_YARD</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
-			<PrereqTech>TECH_POLITICAL_PHILOSOPHY</PrereqTech>		
+			<PrereqTech>TECH_POLITICAL_PHILOSOPHY</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<PrereqOrBuildingClasses>
 				<PrereqOrBuildingClass>
@@ -17807,12 +17363,12 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ACADEMY</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_LIBRARY</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<iPrereqPopulation>13</iPrereqPopulation>
 			<!-- Obsolescence -->
 			<ObsoleteTech>TECH_COMPUTERS</ObsoleteTech>
@@ -17862,7 +17418,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TOURISM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -17915,7 +17470,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TOURISM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -17968,7 +17522,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TOURISM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -18021,7 +17574,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TOURISM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -18074,7 +17626,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TOURISM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -18127,7 +17678,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TOURISM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -18180,7 +17730,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TOURISM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -18233,7 +17782,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TOURISM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -18286,7 +17834,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TOURISM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -18339,7 +17886,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_TOURISM</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
             <MapCategoryTypes>
@@ -18394,7 +17940,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ZOROASTRIAN_SHRINE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_ISLAMIC</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_ISLAMIC</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -18466,7 +18011,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MESOAMERICAN_SHRINE</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_ISLAMIC</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -18540,7 +18084,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CHRISTIAN_SHRINE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_CHRISTIAN</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_CHRISTIAN</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -18608,7 +18151,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_TAOIST_SHRINE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_TAOIST</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_TAOIST</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -18675,7 +18217,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_EGYPT_MYTH_SHRINE</ArtDefineTag>
 			<ConstructSound>AS2D_BUILD_ISLAMIC</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -18748,7 +18289,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HINDU_SHRINE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_HINDU</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_HINDU</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -18816,7 +18356,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_CONFUCIAN_SHRINE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_CONFUCIAN</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_CONFUCIAN</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -18886,7 +18425,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_BUDDHIST_SHRINE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_BUDDHIST</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_BUDDHIST</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -18954,7 +18492,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_ISLAMIC_SHRINE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_ISLAMIC</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_ISLAMIC</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -19020,7 +18557,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_STANDARD_OF_MEASUREMENT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -19061,7 +18597,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_STATUE_OF_ZEUS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_STATUE_OF_ZEUS</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -19133,7 +18668,6 @@
 			<ArtDefineTag>ART_DEF_BUILDING_JEWISH_SHRINE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_JEWISH</MovieDefineTag>
 			<ConstructSound>AS2D_BUILD_JEWISH</ConstructSound>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -19207,7 +18741,6 @@
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_VALLEY_KINGS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_VALLEY_KINGS</MovieDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -19253,7 +18786,6 @@
 			<Strategy>TXT_KEY_BUILDING_BANDITS_HIDEOUT_STRATEGY</Strategy>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BANDITS_HIDEOUT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -19295,7 +18827,6 @@
 			<Strategy>TXT_KEY_BUILDING_BANDITS_HIDEOUT_STRATEGY</Strategy>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BANDITS_HIDEOUT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -19337,7 +18868,6 @@
 			<Strategy>TXT_KEY_BUILDING_BANDITS_HIDEOUT_STRATEGY</Strategy>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BANDITS_HIDEOUT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -19380,7 +18910,6 @@
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_ASSASSINS_DEN</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -19432,7 +18961,6 @@
 			<Strategy>TXT_KEY_BUILDING_LOANSHARK_STRATEGY</Strategy>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_LOANSHARK</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -19469,7 +18997,6 @@
 			<Strategy>TXT_KEY_BUILDING_CONSPIRATORS_HIDEOUT_STRATEGY</Strategy>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_CONSPIRATORS_HIDEOUT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -19513,7 +19040,6 @@
 			<Strategy>TXT_KEY_BUILDING_MOB_STOREFRONT_STRATEGY</Strategy>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MOB_STOREFRONT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -19579,7 +19105,6 @@
 			<Strategy>TXT_KEY_BUILDING_MOTORCYCLE_CLUB_STRATEGY</Strategy>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_MOTORCYCLE_CLUB</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -19623,7 +19148,6 @@
 			<Strategy>TXT_KEY_BUILDING_BLACK_HAT_HIDEOUT_STRATEGY</Strategy>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_BLACK_HAT_HIDEOUT</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
@@ -19674,7 +19198,6 @@
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<!-- Graphical and interface -->
 			<ArtDefineTag>ART_DEF_BUILDING_DISNEYLAND</ArtDefineTag>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>10000</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>
@@ -19699,7 +19222,6 @@
 			<Advisor>ADVISOR_CULTURE</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_LASCAUX</ArtDefineTag>
 			<bCenterInCity>1</bCenterInCity>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<fVisibilityPriority>1</fVisibilityPriority>
 			<!-- Prerequisites -->
 			<MapCategoryTypes>

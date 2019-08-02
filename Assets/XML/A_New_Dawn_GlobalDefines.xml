@@ -272,7 +272,7 @@
 	<Define>
 <!-- Use the following to determine what building art is displayed on cities.
 It is a bitmask of flags which may be added together:
-	1	= Wonders 
+	1	= Wonders
 	2	= City defences
 	128 = Other
 We default to all of them (1+2+128 = 131)

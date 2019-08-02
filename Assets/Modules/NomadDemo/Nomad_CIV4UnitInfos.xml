@@ -42,7 +42,6 @@
 			</UnitAIs>
 			<iCost>-1</iCost>
 <!--			<iCost>150</iCost> -->
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>1</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>

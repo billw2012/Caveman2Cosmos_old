@@ -18,7 +18,7 @@ class CvPediaHistory:
 		self.iCivilopediaPageType = -1
 		self.iEntry = -1
 		self.top = main
-	
+
 		self.BUTTON_SIZE = 48
 
 		self.X_TEXT = 50
@@ -28,14 +28,14 @@ class CvPediaHistory:
 
 	# Screen construction function
 	def interfaceScreen(self, iEntryId):
-				
+
 		self.iEntryId = iEntryId
 		self.getEntryInfoFromId(iEntryId)
-	
-		self.top.deleteAllWidgets()						
-							
+
+		self.top.deleteAllWidgets()
+
 		screen = self.top.getScreen()
-		
+
 		bNotActive = (not screen.isActive())
 		if bNotActive:
 			self.top.setPediaCommonWidgets()
@@ -48,42 +48,42 @@ class CvPediaHistory:
 		else:
 			screen.setText(szHeaderId, "Background", szHeader, CvUtil.FONT_CENTER_JUSTIFY, self.top.X_SCREEN, self.top.Y_TITLE, 0, FontTypes.TITLE_FONT, self.getLink(),  self.iEntry, -1)
 			screen.setImageButton(self.top.getNextWidgetName(), ArtFileMgr.getInterfaceArtInfo("INTERFACE_GENERAL_CIVILOPEDIA_ICON").getPath(), self.top.X_EXIT, self.top.Y_TITLE, 32, 32, self.getLink(),  self.iEntry, -1)
-		
+
 		# Top
 		screen.setText(self.top.getNextWidgetName(), "Background", self.top.MENU_TEXT, CvUtil.FONT_LEFT_JUSTIFY, self.top.X_MENU, self.top.Y_MENU, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_PEDIA_MAIN, self.iCivilopediaPageType, -1)
 
-		if self.top.iLastScreen	!= CvScreenEnums.PEDIA_HISTORY or bNotActive:		
+		if self.top.iLastScreen	!= CvScreenEnums.PEDIA_HISTORY or bNotActive:
 			self.placeLinks(True)
 			self.top.iLastScreen = CvScreenEnums.PEDIA_HISTORY
 		else:
 			self.placeLinks(False)
 
 		self.placeText()
-			
+
 	def placeText(self):
-	
+
 		screen = self.top.getScreen()
-		
+
 		panelName = self.top.getNextWidgetName()
 		screen.addPanel( panelName, "", "", True, True,
 								 self.X_TEXT, self.Y_TEXT, self.W_TEXT, self.H_TEXT, PanelStyles.PANEL_STYLE_BLUE50 )
- 
+
 		szText = self.getCivilopedia()
 		screen.attachMultilineText( panelName, "Text", szText, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
-	
+
 	def placeLinks(self, bRedraw):
 
 		screen = self.top.getScreen()
-				
+
 		if bRedraw:
 			screen.clearListBoxGFC(self.top.LIST_ID)
-		
+
 		iNum = self.getNumInfos()
 		listSorted=[(0,0)] * iNum
 		for j in range(iNum):
 			listSorted[j] = (self.getDescription(j), j)
-		listSorted.sort()	
-			
+		listSorted.sort()
+
 		iSelected = 0
 		i = 0
 		for iI in range(iNum):
@@ -93,10 +93,10 @@ class CvPediaHistory:
 				if listSorted[iI][1] == self.iEntry:
 					iSelected = i
 				i += 1
-				
+
 		if bRedraw:
 			screen.updateListBox(self.top.LIST_ID)
-					
+
 		screen.setSelectedListBoxStringGFC(self.top.LIST_ID, iSelected)
 
 	def getNumInfos(self):
@@ -196,14 +196,14 @@ class CvPediaHistory:
 		else:
 			info = None
 		return info
-		
+
 	def getDescription(self, iEntry):
 		info = self.getInfo(iEntry)
 		if info != None:
 			return info.getDescription()
 		else:
 			return u""
-										
+
 	def getLink(self):
 		if (CivilopediaPageTypes.CIVILOPEDIA_PAGE_TECH == self.iCivilopediaPageType):
 			iLink = WidgetTypes.WIDGET_PEDIA_JUMP_TO_TECH
@@ -242,7 +242,7 @@ class CvPediaHistory:
 		else:
 			iLink = WidgetTypes.WIDGET_GENERAL
 		return iLink
-										
+
 	def getCivilopedia(self):
 		info = self.getInfo(self.iEntry)
 		if info != None:
@@ -256,7 +256,7 @@ class CvPediaHistory:
 
 	def getIdFromEntryInfo(self, iCivilopediaPageType, iEntry):
 		return (iEntry * CivilopediaPageTypes.NUM_CIVILOPEDIA_PAGE_TYPES + iCivilopediaPageType)
-										
+
 	# Will handle the input for this screen...
 	def handleInput (self, inputClass):
 		return 0

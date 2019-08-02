@@ -36,7 +36,7 @@ def onCombatResult(argsList):
 			iRandom = CyGame().getSorenRandNum(100, "Slave") # 0-99
 			if iChance > iRandom:
 				if CyUnitL.isHasUnitCombat(gc.getInfoTypeForString('UNITCOMBAT_SPECIES_NEANDERTHAL')):
-					iUnit = gc.getInfoTypeForString('UNIT_CAPTIVE_NEANDERTHAL') 
+					iUnit = gc.getInfoTypeForString('UNIT_CAPTIVE_NEANDERTHAL')
 					sMessage = CyTranslator().getText("TXT_KEY_MESSAGE_NEANDERTHAL_CAPTIVE",())
 				else:
 					iUnit = gc.getInfoTypeForString('UNIT_CAPTIVE_MILITARY')
@@ -150,7 +150,7 @@ def onCityRazed(argsList):
 	iCountTutor = CyCity.getFreeSpecialistCount(iSlaveTutor)
 	iCountMilitary = CyCity.getFreeSpecialistCount(iSlaveMilitary)
 
-	## Process those that can become population or immagrants 
+	## Process those that can become population or immagrants
 	##	where 3 slaves = 1 pop or immigrant
 	##	and can only increase the city pop to 7
 	iCount = iCountSettled + iCountFood + iCountCom + iCountTutor + iCountMilitary
@@ -174,15 +174,15 @@ def onCityRazed(argsList):
 				CyInterface().addMessage(iPlayer, False, 15, sMessage, '', 0, 'Art/Interface/Buttons/Civics/Serfdom.dds', ColorTypes(44), X, Y, True, True)
 
 	## Now remove those slaves
-	if iCountSettled > 0: 
+	if iCountSettled > 0:
 		CyCity.changeFreeSpecialistCount(iSlaveSettled,-iCountSettled)
-	if iCountFood > 0: 
+	if iCountFood > 0:
 		CyCity.changeFreeSpecialistCount(iSlaveFood,-iCountFood)
-	if iCountCom > 0: 
+	if iCountCom > 0:
 		CyCity.changeFreeSpecialistCount(iSlaveCom,-iCountCom)
-	if iCountTutor > 0: 
+	if iCountTutor > 0:
 		CyCity.changeFreeSpecialistCount(iSlaveTutor,-iCountTutor)
-	if iCountMilitary > 0: 
+	if iCountMilitary > 0:
 		CyCity.changeFreeSpecialistCount(iSlaveMilitary,-iCountMilitary)
 
 	## Now convert the other slaves
@@ -263,7 +263,7 @@ def onCityAcquiredAndKept(self, argsList):
 	iCountTutor = CyCity.getFreeSpecialistCount(iSlaveTutor)
 	iCountMilitary = CyCity.getFreeSpecialistCount(iSlaveMilitary)
 
-	## Process those that can become population or immagrants 
+	## Process those that can become population or immagrants
 	##	where 3 slaves = 1 pop or immigrant
 	##	and can only increase the city pop to 7
 	iCount = iCountSettled + iCountFood + iCountCom + iCountTutor + iCountMilitary
@@ -299,15 +299,15 @@ def onCityAcquiredAndKept(self, argsList):
 			CyInterface().addMessage(iOwner,False,15, sMessage,'',0,'Art/Interface/Buttons/Civics/Serfdom.dds',ColorTypes(44), X, Y, True,True)
 
 	## Now remove those slaves
-	if iCountSettled > 0: 
+	if iCountSettled > 0:
 		CyCity.changeFreeSpecialistCount(iSlaveSettled,-iCountSettled)
-	if iCountFood > 0: 
+	if iCountFood > 0:
 		CyCity.changeFreeSpecialistCount(iSlaveFood,-iCountFood)
-	if iCountCom > 0: 
+	if iCountCom > 0:
 		CyCity.changeFreeSpecialistCount(iSlaveCom,-iCountCom)
-	if iCountTutor > 0: 
+	if iCountTutor > 0:
 		CyCity.changeFreeSpecialistCount(iSlaveTutor,-iCountTutor)
-	if iCountMilitary > 0: 
+	if iCountMilitary > 0:
 		CyCity.changeFreeSpecialistCount(iSlaveMilitary,-iCountMilitary)
 
 	## Now convert the other slaves

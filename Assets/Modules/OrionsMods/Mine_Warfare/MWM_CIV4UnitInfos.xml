@@ -34,7 +34,7 @@
 				<UnitAI>
 					<UnitAIType>UNITAI_PIRATE_SEA</UnitAIType>
 					<bUnitAI>1</bUnitAI>
-				</UnitAI>				
+				</UnitAI>
 			</UnitAIs>
 			<NotUnitAIs>
 				<UnitAI>
@@ -56,36 +56,35 @@
 				<UnitAI>
 					<UnitAIType>UNITAI_CITY_DEFENSE</UnitAIType>
 					<bUnitAI>1</bUnitAI>
-				</UnitAI>				
+				</UnitAI>
 			</NotUnitAIs>
 			<PrereqBuilding>BUILDING_HARBOR</PrereqBuilding>
 			<PrereqTech>TECH_MINE_WARFARE</PrereqTech>
 			<!--iCost>780</iCost-->
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>80</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>35</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
 			<UnitCombatMods>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_WOODEN_SHIPS</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_STEAM_SHIPS</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_DIESEL_SHIPS</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_NUCLEAR_SHIPS</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
 					<iUnitCombatMod>25</iUnitCombatMod>
 				</UnitCombatMod>
@@ -100,12 +99,12 @@
 				<iRangedWaveSize>1</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_NAVAL_MINE</EarlyArtDefineTag>					
+					<EarlyArtDefineTag>ART_DEF_UNIT_NAVAL_MINE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
 		</UnitInfo>
-		<!-- End Naval Mine -->		
+		<!-- End Naval Mine -->
 		<!-- Naval Mine Field -->
 		<UnitInfo>
 			<Class>UNITCLASS_NAVAL_MINE_FIELD</Class>
@@ -132,7 +131,7 @@
 				<UnitAI>
 					<UnitAIType>UNITAI_PIRATE_SEA</UnitAIType>
 					<bUnitAI>1</bUnitAI>
-				</UnitAI>				
+				</UnitAI>
 			</UnitAIs>
 			<NotUnitAIs>
 				<UnitAI>
@@ -156,40 +155,39 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</NotUnitAIs>
-			<PrereqBuilding>BUILDING_FACTORY</PrereqBuilding>			
-			<PrereqTech>TECH_ASSEMBLY_LINE</PrereqTech>			
+			<PrereqBuilding>BUILDING_FACTORY</PrereqBuilding>
+			<PrereqTech>TECH_ASSEMBLY_LINE</PrereqTech>
 			<TechTypes>
 				<PrereqTech>TECH_MINE_WARFARE</PrereqTech>
 			</TechTypes>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>80</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>35</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
 			<UnitCombatMods>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_WOODEN_SHIPS</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_STEAM_SHIPS</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_DIESEL_SHIPS</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_NUCLEAR_SHIPS</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
 					<iUnitCombatMod>25</iUnitCombatMod>
 				</UnitCombatMod>
-			</UnitCombatMods>				
+			</UnitCombatMods>
 			<iAsset>3</iAsset>
 			<iPower>6</iPower>
 			<UnitMeshGroups>
@@ -200,11 +198,11 @@
 				<iRangedWaveSize>1</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_NAVAL_MINE_FIELD</EarlyArtDefineTag>					
+					<EarlyArtDefineTag>ART_DEF_UNIT_NAVAL_MINE_FIELD</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
-		</UnitInfo>	
+		</UnitInfo>
 		<!-- Naval Mine Field -->
 		<!-- Nuclear Naval Mine -->
 		<UnitInfo>
@@ -233,7 +231,7 @@
 				<UnitAI>
 					<UnitAIType>UNITAI_PIRATE_SEA</UnitAIType>
 					<bUnitAI>1</bUnitAI>
-				</UnitAI>				
+				</UnitAI>
 			</UnitAIs>
 			<NotUnitAIs>
 				<UnitAI>
@@ -255,7 +253,7 @@
 				<UnitAI>
 					<UnitAIType>UNITAI_CITY_DEFENSE</UnitAIType>
 					<bUnitAI>1</bUnitAI>
-				</UnitAI>					
+				</UnitAI>
 			</NotUnitAIs>
 			<PrereqBuilding>BUILDING_FACTORY</PrereqBuilding>
 			<PrereqTech>TECH_FISSION</PrereqTech>
@@ -265,29 +263,28 @@
 			<BonusType>BONUS_URANIUM</BonusType>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>225</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>35</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
 			<UnitCombatMods>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_WOODEN_SHIPS</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_STEAM_SHIPS</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_DIESEL_SHIPS</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_NUCLEAR_SHIPS</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
 					<iUnitCombatMod>25</iUnitCombatMod>
 				</UnitCombatMod>
@@ -302,12 +299,12 @@
 				<iRangedWaveSize>1</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_NUCLEAR_NAVAL_MINE</EarlyArtDefineTag>					
+					<EarlyArtDefineTag>ART_DEF_UNIT_NUCLEAR_NAVAL_MINE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
-		</UnitInfo>		
-		<!-- End Nuclear Naval Mine -->		
+		</UnitInfo>
+		<!-- End Nuclear Naval Mine -->
 		<!-- Naval Mine Sweeper -->
 		<UnitInfo>
 			<Class>UNITCLASS_NAVAL_MINE_SWEEPER</Class>
@@ -330,7 +327,7 @@
 				<UnitAI>
 					<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
 					<bUnitAI>1</bUnitAI>
-				</UnitAI>				
+				</UnitAI>
 				<UnitAI>
 					<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
 					<bUnitAI>1</bUnitAI>
@@ -342,7 +339,7 @@
 				<UnitAI>
 					<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
 					<bUnitAI>1</bUnitAI>
-				</UnitAI>				
+				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_MINE_WARFARE</PrereqTech>
 			<iCost>-1</iCost>
@@ -361,7 +358,7 @@
 				<iRangedWaveSize>1</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_NAVAL_MINE_SWEEPER</EarlyArtDefineTag>					
+					<EarlyArtDefineTag>ART_DEF_UNIT_NAVAL_MINE_SWEEPER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
@@ -393,7 +390,7 @@
 				<UnitAI>
 					<UnitAIType>UNITAI_ATTACK</UnitAIType>
 					<bUnitAI>1</bUnitAI>
-				</UnitAI>				
+				</UnitAI>
 			</UnitAIs>
 			<NotUnitAIs>
 				<UnitAI>
@@ -416,13 +413,12 @@
 			<PrereqTech>TECH_MINE_WARFARE</PrereqTech>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>80</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>35</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
 			<UnitCombatMods>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
@@ -430,7 +426,7 @@
 					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
@@ -453,11 +449,11 @@
 				<iRangedWaveSize>1</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_LAND_MINE</EarlyArtDefineTag>					
+					<EarlyArtDefineTag>ART_DEF_UNIT_LAND_MINE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
-		</UnitInfo>		
+		</UnitInfo>
 		<!-- End Land Mine -->
 		<!-- Land Mine Field -->
 		<UnitInfo>
@@ -512,13 +508,12 @@
 			</TechTypes>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>80</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>35</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
 			<UnitCombatMods>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
@@ -526,7 +521,7 @@
 					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
@@ -549,11 +544,11 @@
 				<iRangedWaveSize>1</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_LAND_MINE_FIELD</EarlyArtDefineTag>					
+					<EarlyArtDefineTag>ART_DEF_UNIT_LAND_MINE_FIELD</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
-		</UnitInfo>		
+		</UnitInfo>
 		<!-- End Land Mine Field -->
 		<!-- Nuclear Land Mine -->
 		<UnitInfo>
@@ -581,7 +576,7 @@
 				<UnitAI>
 					<UnitAIType>UNITAI_ATTACK</UnitAIType>
 					<bUnitAI>1</bUnitAI>
-				</UnitAI>				
+				</UnitAI>
 			</UnitAIs>
 			<NotUnitAIs>
 				<UnitAI>
@@ -591,11 +586,11 @@
 				<UnitAI>
 					<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 					<bUnitAI>1</bUnitAI>
-				</UnitAI>				
+				</UnitAI>
 				<UnitAI>
 					<UnitAIType>UNITAI_ATTACK_CITY</UnitAIType>
 					<bUnitAI>1</bUnitAI>
-				</UnitAI>				
+				</UnitAI>
 				<UnitAI>
 					<UnitAIType>UNITAI_CITY_DEFENSE</UnitAIType>
 					<bUnitAI>1</bUnitAI>
@@ -609,12 +604,11 @@
 			<BonusType>BONUS_URANIUM</BonusType>
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>225</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>5</iMoves>
 			<iCombat>35</iCombat>
 			<iXPValueAttack>4</iXPValueAttack>
 			<UnitCombatMods>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
@@ -622,7 +616,7 @@
 					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
-				<UnitCombatMod>														
+				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
 					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
@@ -645,12 +639,12 @@
 				<iRangedWaveSize>1</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_NUCLEAR_LAND_MINE</EarlyArtDefineTag>					
+					<EarlyArtDefineTag>ART_DEF_UNIT_NUCLEAR_LAND_MINE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
-		</UnitInfo>		
-		<!-- End Nuclear Land Mine -->		
+		</UnitInfo>
+		<!-- End Nuclear Land Mine -->
 		<!-- Land Mine Sweeper -->
 		<UnitInfo>
 			<Class>UNITCLASS_LAND_MINE_SWEEPER</Class>
@@ -668,15 +662,15 @@
 			<bMilitaryProduction>1</bMilitaryProduction>
 			<bPillage>1</bPillage>
 			<bMechanized>1</bMechanized>
-			<UnitAIs>							
+			<UnitAIs>
 				<UnitAI>
 					<UnitAIType>UNITAI_RESERVE</UnitAIType>
 					<bUnitAI>1</bUnitAI>
-				</UnitAI>				
+				</UnitAI>
 				<UnitAI>
 					<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 					<bUnitAI>1</bUnitAI>
-				</UnitAI>				
+				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_MINE_WARFARE</PrereqTech>
 			<iCost>-1</iCost>
@@ -695,7 +689,7 @@
 				<iRangedWaveSize>1</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_LAND_MINE_SWEEPER</EarlyArtDefineTag>					
+					<EarlyArtDefineTag>ART_DEF_UNIT_LAND_MINE_SWEEPER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>

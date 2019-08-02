@@ -374,7 +374,7 @@ class IniFile(object):
 			if old is None or old != value:
 				sect[key] = value
 				self.dirty = True
-				BugUtil.debug("BugOptions - option %s.%s changed from %s to %s", 
+				BugUtil.debug("BugOptions - option %s.%s changed from %s to %s",
 						section, key, str(old), str(value))
 				return True
 		return False
@@ -673,7 +673,7 @@ class BaseOption(AbstractOption):
 	  the option to force certain aspects of the interface to redraw themselves.
 	"""
 
-	def __init__(self, mod, id, type, default=None, andId=None, dll=None, 
+	def __init__(self, mod, id, type, default=None, andId=None, dll=None,
 				 title=None, tooltip=None, dirty=None):
 		"""Sets the important fields of the new Option."""
 		super(BaseOption, self).__init__(mod, id, andId, dll)
@@ -744,7 +744,7 @@ class BaseOption(AbstractOption):
 		if self.dirtyBits is None:
 			self.dirtyBits = []
 		if isinstance(bit, types.StringTypes):
-			self.dirtyBits.extend(map(lambda b: getattr(InterfaceDirtyBits, b + "_DIRTY_BIT"), 
+			self.dirtyBits.extend(map(lambda b: getattr(InterfaceDirtyBits, b + "_DIRTY_BIT"),
 									  bit.replace(",", " ").split()))
 		else:
 			self.dirtyBits.append(bit)
@@ -780,9 +780,9 @@ TYPE_DEFAULT_LIST_TYPE = { "int": "int",
 						   "float": "float",
 						   "string": "color",
 						   "color": "color" }
-LIST_TYPE_DEFAULT_TYPE = { "string": "int", 
-						   "int": "int", 
-						   "float": "float", 
+LIST_TYPE_DEFAULT_TYPE = { "string": "int",
+						   "int": "int",
+						   "float": "float",
 						   "color": "color" }
 
 class BaseListOption(BaseOption):
@@ -791,8 +791,8 @@ class BaseListOption(BaseOption):
 	when creating the dropdown listbox in the Options Screen.
 	"""
 
-	def __init__(self, mod, id, type=None, default=None, andId=None, dll=None, 
-				 listType="string", values=None, format=None, 
+	def __init__(self, mod, id, type=None, default=None, andId=None, dll=None,
+				 listType="string", values=None, format=None,
 				 title=None, tooltip=None, dirty=None):
 		if listType and listType not in LIST_TYPES:
 			raise BugUtil.ConfigError("Invalid option list type: %s", listType)
@@ -987,15 +987,15 @@ class UnsavedMixin(object):
 
 class UnsavedOption(UnsavedMixin, BaseOption):
 
-	def __init__(self, mod, id, type, default=None, andId=None, dll=None, 
+	def __init__(self, mod, id, type, default=None, andId=None, dll=None,
 				 title=None, tooltip=None, dirty=None):
 		BaseOption.__init__(self, mod, id, type, default, andId, dll, title, tooltip, dirty)
 		UnsavedMixin.__init__(self, self.default)
 
 class UnsavedListOption(UnsavedMixin, BaseListOption):
 
-	def __init__(self, mod, id, type=None, default=None, andId=None, dll=None, 
-				 listType="string", values=None, format=None, 
+	def __init__(self, mod, id, type=None, default=None, andId=None, dll=None,
+				 listType="string", values=None, format=None,
 				 title=None, tooltip=None, dirty=None):
 		BaseListOption.__init__(self, mod, id, type, default, andId, dll, listType, values, format, title, tooltip, dirty)
 		UnsavedMixin.__init__(self, self.default)
@@ -1063,15 +1063,15 @@ class IniMixin(object):
 
 class IniOption(IniMixin, BaseOption):
 
-	def __init__(self, mod, id, file, section, key, type, default=None, andId=None, dll=None, 
+	def __init__(self, mod, id, file, section, key, type, default=None, andId=None, dll=None,
 				 title=None, tooltip=None, dirty=None):
 		BaseOption.__init__(self, mod, id, type, default, andId, dll, title, tooltip, dirty)
 		IniMixin.__init__(self, file, section, key)
 
 class IniListOption(IniMixin, BaseListOption):
 
-	def __init__(self, mod, id, file, section, key, type=None, default=None, andId=None, dll=None, 
-				 listType="string", values=None, format=None, 
+	def __init__(self, mod, id, file, section, key, type=None, default=None, andId=None, dll=None,
+				 listType="string", values=None, format=None,
 				 title=None, tooltip=None, dirty=None):
 		BaseListOption.__init__(self, mod, id, type, default, andId, dll, listType, values, format, title, tooltip, dirty)
 		IniMixin.__init__(self, file, section, key)

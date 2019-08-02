@@ -6,14 +6,10 @@
 		<UnitInfo>
 			<Type>UNIT_SUBDUED_ZEBRA</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANIMAL_TOTEM_ZEBRA</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZEBRA_HERD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANIMAL_TOTEM_ZEBRA</BuildingType>
+
+				<BuildingType>BUILDING_ZEBRA_HERD</BuildingType>
+
 			</Buildings>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -64,7 +60,7 @@
 			<Description>TXT_KEY_UNIT_ZEBRA_ARCHER</Description>
 			<Civilopedia>TXT_KEY_UNIT_HORSE_ARCHER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_ZEBRA_ARCHER_STRATEGY</Strategy>
-			<Advisor>ADVISOR_MILITARY</Advisor>		
+			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bMilitaryHappiness>1</bMilitaryHappiness>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
@@ -163,7 +159,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ZEBRA_ARCHER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
 				<FreePromotion>
@@ -171,7 +166,7 @@
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 			</FreePromotions>
-		</UnitInfo> 
+		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_ZEBRA_CAVALRY</Class>
 			<Type>UNIT_ZEBRA_CAVALRY</Type>
@@ -364,7 +359,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ZEBRA_CAVALRY</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
 				<FreePromotion>
@@ -414,7 +408,7 @@
 			<Description>TXT_KEY_UNIT_ZEBRA_CHARIOT</Description>
 			<Civilopedia>TXT_KEY_UNIT_CHARIOT_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_ZEBRA_CHARIOT_STRATEGY</Strategy>
-			<Advisor>ADVISOR_MILITARY</Advisor>		
+			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bMilitaryHappiness>1</bMilitaryHappiness>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
@@ -485,7 +479,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ZEBRA_CHARIOT</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
 		</UnitInfo>
 		<UnitInfo>
@@ -672,7 +665,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ZEBRA_CUIRASSIER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
 				<FreePromotion>
@@ -810,7 +802,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_ZEBRA_KNIGHT</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
 				<FreePromotion>

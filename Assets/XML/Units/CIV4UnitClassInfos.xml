@@ -3304,17 +3304,17 @@
 		<!-- HEROES -->
 		<!--
  Listed in Order of Civilization. Order is as follows:
-Vanila: Aztec, Inca, America, Rome, Greece, Egypt, 
+Vanila: Aztec, Inca, America, Rome, Greece, Egypt,
 Spain, France, England, Germany, Russia, Arabia, Persia, India, China, Japan, Mongolia, Mali
-Warlords: 
+Warlords:
 Carthage, Celts, Scandinavia, Ottoman, Korea, Zululand
-BtS: Native America, Maya, Byzantium, Portugal, 
+BtS: Native America, Maya, Byzantium, Portugal,
 Holland, Babylon, Sumeria, Khmer, Ethiopia
-WoL: Polynesia, Venezuela, Brazil, Israel, Poland, Turkmenistan, 
+WoL: Polynesia, Venezuela, Brazil, Israel, Poland, Turkmenistan,
 Tibet, Vietnam, Indonesia, Nubia, Swahililand,
-Austra, Hatti, Phoenicia, Uighurstan, Canada, Australia, 
+Austra, Hatti, Phoenicia, Uighurstan, Canada, Australia,
 Thailand, Chola, Kongo, Italy, Hausaland, Berber
-Assyria, Hungary, Minoa, Armenia 
+Assyria, Hungary, Minoa, Armenia
 		-->
 		<UnitClassInfo>
 			<Type>UNITCLASS_NATIONAL_HERO</Type>
@@ -8104,7 +8104,7 @@ Assyria, Hungary, Minoa, Armenia
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultUnit>UNIT_ORANGUTAN</DefaultUnit>
-		</UnitClassInfo>		
+		</UnitClassInfo>
 		<!-- Reptile -->
 		<UnitClassInfo>
 			<Type>UNITCLASS_BALLPYTHON</Type>
@@ -11004,7 +11004,7 @@ Assyria, Hungary, Minoa, Armenia
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<DefaultUnit>UNIT_NEANDERTHAL_SCOUT</DefaultUnit>
-		</UnitClassInfo>	
+		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_AL_MANSUR</Type>
 			<Description>TXT_KEY_UNIT_AL_MANSUR</Description>

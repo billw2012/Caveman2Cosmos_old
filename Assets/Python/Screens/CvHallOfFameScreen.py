@@ -53,30 +53,30 @@ class CvHallOfFameScreen:
 		self.W_SCREEN = 1024
 		self.H_SCREEN = 768
 		self.Y_TITLE = 12
-		
+
 		self.X_EXIT = 994
 		self.Y_EXIT = 726
-		
+
 		self.DROPDOWN_WIDTH = 200
 		self.DROPDOWN_Y = 70
 		self.DROPDOWN_SPACING_X = 45
 		self.DROPDOWN_SPACING_Y = 50
-								
+
 		self.nWidgetCount = 0
-				
+
 		self.bAllowReplay = False
-		
-		
+
+
 	def getScreen(self):
 		return CyGInterfaceScreen(self.SCREEN_NAME, self.screenId)
 
 	def hideScreen(self):
 		screen = self.getScreen()
-		screen.hideScreen()									
-		
+		screen.hideScreen()
+
 	# Screen construction function
 	def interfaceScreen(self, bAllowReplay):
-						
+
 		# Create a new screen
 		screen = self.getScreen()
 		if screen.isActive():
@@ -84,7 +84,7 @@ class CvHallOfFameScreen:
 		screen.setRenderInterfaceOnly(True);
 		screen.showScreen(PopupStates.POPUPSTATE_IMMEDIATE, False)
 		screen.setAlwaysShown(True)
-	
+
 		self.bAllowReplay = bAllowReplay
 		self.iLeaderFilter = -1
 		self.iHandicapFilter = -1
@@ -132,7 +132,7 @@ class CvHallOfFameScreen:
 					if civ.isLeaders(iLeader):
 						screen.addPullDownString(self.LEADER_DROPDOWN_ID, gc.getLeaderHeadInfo(iLeader).getDescription(), iCiv, iLeader, False)
 		iNumDropDowns += 1
-		
+
 		yDropDown = self.DROPDOWN_SPACING_Y * (iNumDropDowns % 2) + self.DROPDOWN_Y
 		xDropDown = (self.DROPDOWN_WIDTH  + self.DROPDOWN_SPACING_X) * (iNumDropDowns / 2) + self.DROPDOWN_SPACING_X
 
@@ -152,7 +152,7 @@ class CvHallOfFameScreen:
 		for iHandicap in range(gc.getNumHandicapInfos()):
 			screen.addPullDownString(self.DIFFICULTY_DROPDOWN_ID, gc.getHandicapInfo(iHandicap).getDescription(), iHandicap, iHandicap, False)
 		iNumDropDowns += 1
-			
+
 		yDropDown = self.DROPDOWN_SPACING_Y * (iNumDropDowns % 2) + self.DROPDOWN_Y
 		xDropDown = (self.DROPDOWN_WIDTH  + self.DROPDOWN_SPACING_X) * (iNumDropDowns / 2) + self.DROPDOWN_SPACING_X
 
@@ -162,7 +162,7 @@ class CvHallOfFameScreen:
 		for i in range(gc.getNumWorldInfos()):
 			screen.addPullDownString(self.MAPSIZE_DROPDOWN_ID, gc.getWorldInfo(i).getDescription(), i, i, False)
 		iNumDropDowns += 1
-			
+
 		yDropDown = self.DROPDOWN_SPACING_Y * (iNumDropDowns % 2) + self.DROPDOWN_Y
 		xDropDown = (self.DROPDOWN_WIDTH  + self.DROPDOWN_SPACING_X) * (iNumDropDowns / 2) + self.DROPDOWN_SPACING_X
 
@@ -172,7 +172,7 @@ class CvHallOfFameScreen:
 		for i in range(gc.getNumEraInfos()):
 			screen.addPullDownString(self.ERA_DROPDOWN_ID, gc.getEraInfo(i).getDescription(), i, i, False)
 		iNumDropDowns += 1
-			
+
 		yDropDown = self.DROPDOWN_SPACING_Y * (iNumDropDowns % 2) + self.DROPDOWN_Y
 		xDropDown = (self.DROPDOWN_WIDTH  + self.DROPDOWN_SPACING_X) * (iNumDropDowns / 2) + self.DROPDOWN_SPACING_X
 
@@ -182,7 +182,7 @@ class CvHallOfFameScreen:
 		for i in range(gc.getNumGameSpeedInfos()):
 			screen.addPullDownString(self.SPEED_DROPDOWN_ID, gc.getGameSpeedInfo(i).getDescription(), i, i, False)
 		iNumDropDowns += 1
-		
+
 		yDropDown = self.DROPDOWN_SPACING_Y * (iNumDropDowns % 2) + self.DROPDOWN_Y
 		xDropDown = (self.DROPDOWN_WIDTH  + self.DROPDOWN_SPACING_X) * (iNumDropDowns / 2) + self.DROPDOWN_SPACING_X
 
@@ -192,7 +192,7 @@ class CvHallOfFameScreen:
 		#for i in range(gc.getNumClimateInfos()):
 		#	screen.addPullDownString(self.CLIMATE_DROPDOWN_ID, gc.getClimateInfo(i).getDescription(), i, i, False)
 		#iNumDropDowns += 1
-			
+
 		#yDropDown = self.DROPDOWN_SPACING_Y * (iNumDropDowns % 2) + self.DROPDOWN_Y
 		#xDropDown = (self.DROPDOWN_WIDTH  + self.DROPDOWN_SPACING_X) * (iNumDropDowns / 2) + self.DROPDOWN_SPACING_X
 
@@ -202,7 +202,7 @@ class CvHallOfFameScreen:
 		#for i in range(gc.getNumSeaLevelInfos()):
 		#	screen.addPullDownString(self.SEALEVEL_DROPDOWN_ID, gc.getSeaLevelInfo(i).getDescription(), i, i, False)
 		#iNumDropDowns += 1
-			
+
 		yDropDown = self.DROPDOWN_SPACING_Y * (iNumDropDowns % 2) + self.DROPDOWN_Y
 		xDropDown = (self.DROPDOWN_WIDTH  + self.DROPDOWN_SPACING_X) * (iNumDropDowns / 2) + self.DROPDOWN_SPACING_X
 
@@ -215,7 +215,7 @@ class CvHallOfFameScreen:
 			screen.addPullDownString(self.MULTIPLAYER_DROPDOWN_ID, localText.getText("TXT_KEY_MAIN_MENU_SINGLE_PLAYER", ()), 0, 0, True)
 			screen.addPullDownString(self.MULTIPLAYER_DROPDOWN_ID, localText.getText("TXT_KEY_MAIN_MENU_MULTIPLAYER", ()), 1, 1, False)
 		iNumDropDowns += 1
-			
+
 		yDropDown = self.DROPDOWN_SPACING_Y * (iNumDropDowns % 2) + self.DROPDOWN_Y
 		xDropDown = (self.DROPDOWN_WIDTH  + self.DROPDOWN_SPACING_X) * (iNumDropDowns / 2) + self.DROPDOWN_SPACING_X
 
@@ -227,23 +227,23 @@ class CvHallOfFameScreen:
 		iNumDropDowns += 1
 
 		self.drawContents()
-		
+
 	def isDisplayed(self, replayInfo):
-		return ((self.iLeaderFilter == -1 or self.iLeaderFilter == replayInfo.getLeader(replayInfo.getActivePlayer())) 
-			and (self.iHandicapFilter == -1 or self.iHandicapFilter == replayInfo.getDifficulty()) 
-			and (self.iWorldFilter == -1 or self.iWorldFilter == replayInfo.getWorldSize()) 
-			and (self.iClimateFilter == -1 or self.iClimateFilter == replayInfo.getClimate()) 
-			and (self.iSeaLevelFilter == -1 or self.iSeaLevelFilter == replayInfo.getSeaLevel()) 
-			and (self.iEraFilter == -1 or self.iEraFilter == replayInfo.getEra()) 
-			and (self.iSpeedFilter == -1 or self.iSpeedFilter == replayInfo.getGameSpeed()) 
-			and (self.iVictoryFilter == -1 or self.iVictoryFilter == replayInfo.getVictoryType()) 
+		return ((self.iLeaderFilter == -1 or self.iLeaderFilter == replayInfo.getLeader(replayInfo.getActivePlayer()))
+			and (self.iHandicapFilter == -1 or self.iHandicapFilter == replayInfo.getDifficulty())
+			and (self.iWorldFilter == -1 or self.iWorldFilter == replayInfo.getWorldSize())
+			and (self.iClimateFilter == -1 or self.iClimateFilter == replayInfo.getClimate())
+			and (self.iSeaLevelFilter == -1 or self.iSeaLevelFilter == replayInfo.getSeaLevel())
+			and (self.iEraFilter == -1 or self.iEraFilter == replayInfo.getEra())
+			and (self.iSpeedFilter == -1 or self.iSpeedFilter == replayInfo.getGameSpeed())
+			and (self.iVictoryFilter == -1 or self.iVictoryFilter == replayInfo.getVictoryType())
 			and ((self.iMultiplayerFilter == 1) == replayInfo.isMultiplayer()))
-		
-		
+
+
 	def drawContents(self):
-				
+
 		screen = self.getScreen()
-		
+
 		screen.addTableControlGFC(self.TABLE_ID, 10, 2, 2 * self.DROPDOWN_SPACING_Y + self.DROPDOWN_Y, 1018, 545, True, True, 16, 16, TableStyles.TABLE_STYLE_STANDARD);
 		screen.enableSelect(self.TABLE_ID, False)
 		screen.enableSort(self.TABLE_ID)
@@ -265,8 +265,8 @@ class CvHallOfFameScreen:
 			replayInfo = self.hallOfFame.getReplayInfo(i)
 			if self.isDisplayed(replayInfo):
 				iNumGames += 1
-		
-		
+
+
 		self.infoList = [(-1,"",-1,"",-1,"","","","","",0)] * iNumGames
 		iItem = 0
 		for i in range(self.hallOfFame.getNumGames()):
@@ -285,7 +285,7 @@ class CvHallOfFameScreen:
 				win, szType = self.isReplayWinner(replayInfo)
 				szVictory = results[win] + szType
 # BUG - Win/Loss Info - end
-					
+
 				if self.iSortBy == SORT_BY_NORMALIZED_SCORE:
 					iValue = -replayInfo.getNormalizedScore()
 				elif self.iSortBy == SORT_BY_FINISH_DATE:
@@ -297,7 +297,7 @@ class CvHallOfFameScreen:
 						localText.getText("TXT_KEY_LEADER_CIV_DESCRIPTION", (replayInfo.getLeaderName(), replayInfo.getShortCivDescription())),
 						replayInfo.getNormalizedScore(),
 						replayInfo.getFinalDate(),
-						replayInfo.getFinalScore(), 
+						replayInfo.getFinalScore(),
 						szVictory,
 						gc.getHandicapInfo(replayInfo.getDifficulty()).getDescription(),
 						gc.getWorldInfo(replayInfo.getWorldSize()).getDescription(),
@@ -308,13 +308,13 @@ class CvHallOfFameScreen:
 						i)
 				iItem += 1
 		self.infoList.sort()
-						
+
 		for i in range(len(self.infoList)):
-		
+
 			szButtonName = self.REPLAY_BUTTON_ID + str(i)
 			screen.setButtonGFC(szButtonName, self.infoList[i][1], "",
 				0, 0, 10, 10, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD)
-		
+
 			screen.appendTableRow(self.TABLE_ID)
 			screen.setTableText(self.TABLE_ID, 1, i, self.infoList[i][1], "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 			if self.infoList[i][2] >= 0:
@@ -327,10 +327,10 @@ class CvHallOfFameScreen:
 			screen.setTableText(self.TABLE_ID, 7, i, self.infoList[i][7], "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 			screen.setTableText(self.TABLE_ID, 8, i, self.infoList[i][8], "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 			screen.setTableText(self.TABLE_ID, 9, i, self.infoList[i][9], "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
-			screen.attachControlToTableCell(szButtonName, self.TABLE_ID, i, 0)		
-								
+			screen.attachControlToTableCell(szButtonName, self.TABLE_ID, i, 0)
+
 		return
-	
+
 # BUG - Win/Loss Info - start
 	def isReplayWinner(self, replay):
 		szWinText = localText.getText("TXT_KEY_GAME_WON", ("(.*)", "(.*)"))
@@ -357,56 +357,56 @@ class CvHallOfFameScreen:
 			msgNum -= 1
 		return False, localText.getText("TXT_KEY_NONE", ())
 # BUG - Win/Loss Info - end
-																				
+
 	# handle the input for this screen...
 	def handleInput (self, inputClass):
 		if (inputClass.getNotifyCode() == NotifyCode.NOTIFY_LISTBOX_ITEM_SELECTED):
-			if (inputClass.getFunctionName() == self.LEADER_DROPDOWN_ID):			
+			if (inputClass.getFunctionName() == self.LEADER_DROPDOWN_ID):
 				screen = self.getScreen()
 				iIndex = screen.getSelectedPullDownID(self.LEADER_DROPDOWN_ID)
 				self.iLeaderFilter = screen.getPullDownData(self.LEADER_DROPDOWN_ID, iIndex)
 				self.drawContents()
-			elif (inputClass.getFunctionName() == self.DIFFICULTY_DROPDOWN_ID):			
+			elif (inputClass.getFunctionName() == self.DIFFICULTY_DROPDOWN_ID):
 				screen = self.getScreen()
 				iIndex = screen.getSelectedPullDownID(self.DIFFICULTY_DROPDOWN_ID)
 				self.iHandicapFilter = screen.getPullDownData(self.DIFFICULTY_DROPDOWN_ID, iIndex)
 				self.drawContents()
-			elif (inputClass.getFunctionName() == self.MAPSIZE_DROPDOWN_ID):			
+			elif (inputClass.getFunctionName() == self.MAPSIZE_DROPDOWN_ID):
 				screen = self.getScreen()
 				iIndex = screen.getSelectedPullDownID(self.MAPSIZE_DROPDOWN_ID)
 				self.iWorldFilter = screen.getPullDownData(self.MAPSIZE_DROPDOWN_ID, iIndex)
 				self.drawContents()
-			elif (inputClass.getFunctionName() == self.CLIMATE_DROPDOWN_ID):			
+			elif (inputClass.getFunctionName() == self.CLIMATE_DROPDOWN_ID):
 				screen = self.getScreen()
 				iIndex = screen.getSelectedPullDownID(self.CLIMATE_DROPDOWN_ID)
 				self.iClimateFilter = screen.getPullDownData(self.CLIMATE_DROPDOWN_ID, iIndex)
 				self.drawContents()
-			elif (inputClass.getFunctionName() == self.SEALEVEL_DROPDOWN_ID):			
+			elif (inputClass.getFunctionName() == self.SEALEVEL_DROPDOWN_ID):
 				screen = self.getScreen()
 				iIndex = screen.getSelectedPullDownID(self.SEALEVEL_DROPDOWN_ID)
 				self.iSeaLevelFilter = screen.getPullDownData(self.SEALEVEL_DROPDOWN_ID, iIndex)
 				self.drawContents()
-			elif (inputClass.getFunctionName() == self.ERA_DROPDOWN_ID):			
+			elif (inputClass.getFunctionName() == self.ERA_DROPDOWN_ID):
 				screen = self.getScreen()
 				iIndex = screen.getSelectedPullDownID(self.ERA_DROPDOWN_ID)
 				self.iEraFilter = screen.getPullDownData(self.ERA_DROPDOWN_ID, iIndex)
 				self.drawContents()
-			elif (inputClass.getFunctionName() == self.SPEED_DROPDOWN_ID):			
+			elif (inputClass.getFunctionName() == self.SPEED_DROPDOWN_ID):
 				screen = self.getScreen()
 				iIndex = screen.getSelectedPullDownID(self.SPEED_DROPDOWN_ID)
 				self.iSpeedFilter = screen.getPullDownData(self.SPEED_DROPDOWN_ID, iIndex)
 				self.drawContents()
-			elif (inputClass.getFunctionName() == self.VICTORY_DROPDOWN_ID):			
+			elif (inputClass.getFunctionName() == self.VICTORY_DROPDOWN_ID):
 				screen = self.getScreen()
 				iIndex = screen.getSelectedPullDownID(self.VICTORY_DROPDOWN_ID)
 				self.iVictoryFilter = screen.getPullDownData(self.VICTORY_DROPDOWN_ID, iIndex)
 				self.drawContents()
-			elif (inputClass.getFunctionName() == self.MULTIPLAYER_DROPDOWN_ID):			
+			elif (inputClass.getFunctionName() == self.MULTIPLAYER_DROPDOWN_ID):
 				screen = self.getScreen()
 				iIndex = screen.getSelectedPullDownID(self.MULTIPLAYER_DROPDOWN_ID)
 				self.iMultiplayerFilter = screen.getPullDownData(self.MULTIPLAYER_DROPDOWN_ID, iIndex)
 				self.drawContents()
-			elif (inputClass.getFunctionName() == self.SORT_DROPDOWN_ID):			
+			elif (inputClass.getFunctionName() == self.SORT_DROPDOWN_ID):
 				screen = self.getScreen()
 				iIndex = screen.getSelectedPullDownID(self.SORT_DROPDOWN_ID)
 				self.iSortBy = screen.getPullDownData(self.SORT_DROPDOWN_ID, iIndex)
@@ -420,11 +420,11 @@ class CvHallOfFameScreen:
 				if iRow < len(self.infoList):
 					CvScreensInterface.replayScreen.replayInfo = self.hallOfFame.getReplayInfo(self.infoList[iRow][10])
 					CvScreensInterface.replayScreen.showScreen(True)
-										
+
 		return 0
 
 	def update(self, fDelta):
-		return					
+		return
 
 
 

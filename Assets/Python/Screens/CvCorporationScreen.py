@@ -17,7 +17,7 @@ class CvCorporationScreen:
 	"Corporation Advisor Screen"
 
 	def __init__(self):
-		
+
 		self.SCREEN_NAME = "CorporationScreen"
 		self.BUTTON_NAME = "CorporationScreenButton"
 		self.TITLE_TOP_PANEL = "CorporationsTopPanel"
@@ -48,12 +48,12 @@ class CvCorporationScreen:
 		self.HELP_LEFT = 350
 		self.HELP_RIGHT = 950
 		self.Z_SCREEN = -6.1
-		self.Y_TITLE = 8		
+		self.Y_TITLE = 8
 		self.Z_TEXT = self.Z_SCREEN - 0.2
 		self.DZ = -0.2
 		self.Z_CONTROLS = self.Z_TEXT
 		self.TEXT_MARGIN = 13
-			
+
 	def setValues(self):
 		screen = CyGInterfaceScreen("MainInterface", CvScreenEnums.MAIN_INTERFACE)
 		resolutionWidth = 1024
@@ -87,15 +87,15 @@ class CvCorporationScreen:
 		self.H_SCREEN = resolutionHeigth
 		self.X_SCREEN = self.W_SCREEN / 2
 		self.Y_SCREEN = 396
-		
+
 		self.X_POSITION = 0
 		self.Y_POSITION = 0
 		self.INITIAL_SPACING = 30
-		self.HEADINGS_WIDTH = 340		
+		self.HEADINGS_WIDTH = 340
 		self.HEADINGS_HEIGHT = 64
 		self.PANEL_HEIGHT = 55
-		self.PANEL_WIDTH = 0		
-		
+		self.PANEL_WIDTH = 0
+
 		self.X_EXIT = self.W_SCREEN - 30
 		self.Y_EXIT = self.H_SCREEN - 40
 
@@ -123,7 +123,7 @@ class CvCorporationScreen:
 		self.Y_CITY_AREA = 250
 		self.W_CITY_AREA = 457
 		self.H_CITY_AREA = 460
-		
+
 		self.X_CITY = 10
 		self.DY_CITY = 38
 
@@ -131,14 +131,14 @@ class CvCorporationScreen:
 		self.iCorporationSelected = -1
 		self.iCorporationOriginal = -1
 		self.iActivePlayer = -1
-		
+
 		self.bScreenUp = False
-		
+
 		self.CorporationScreenInputMap = {
 			self.CORPORATION_NAME		: self.CorporationScreenButton,
 			self.EXIT_NAME			: self.Exit,
 			self.BUTTON_NAME		: self.CorporationScreenButton,
-			}	
+			}
 
 	def getScreen(self):
 		return CyGInterfaceScreen(self.SCREEN_NAME, CvScreenEnums.CORPORATION_SCREEN)
@@ -164,7 +164,7 @@ class CvCorporationScreen:
 		if screen.isActive():
 			return
 		screen.setRenderInterfaceOnly(True);
-		screen.showScreen( PopupStates.POPUPSTATE_IMMEDIATE, False)		
+		screen.showScreen( PopupStates.POPUPSTATE_IMMEDIATE, False)
 		screen.setDimensions(self.X_POSITION, self.Y_POSITION, self.W_SCREEN, self.H_SCREEN)
 		screen.addDDSGFC(self.BACKGROUND_ID, ArtFileMgr.getInterfaceArtInfo("MAINMENU_SLIDESHOW_LOAD").getPath(), 0, 0, self.W_SCREEN, self.H_SCREEN, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 
@@ -200,34 +200,34 @@ class CvCorporationScreen:
 
 		# Draw Corporation info
 		self.drawCorporationInfo()
-			
+
 		self.drawHelpInfo()
-		
+
 		self.drawCityInfo(self.iCorporationSelected)
 
-	# Draws the Corporation buttons and information		
+	# Draws the Corporation buttons and information
 	def drawCorporationInfo(self):
-			
+
 		for i in range(gc.getNumCorporationInfos()):
 			if (gc.getGame().canEverSpread(i)):
 				screen = self.getScreen()
-				
+
 				## johny smith
 				## This draws the panel
 				## Puts the panel in a loop
-				## Attachs the panel so it will scroll 
+				## Attachs the panel so it will scroll
 				xLoop = self.X_CORPORATION_START
 				for i in range(gc.getNumCorporationInfos()):
 					if (gc.getGame().canEverSpread(i)):
-						szAreaID = self.AREA_NAME			
+						szAreaID = self.AREA_NAME
 						screen.attachPanelAt( "CivicList", szAreaID, u"", u"", True, True, PanelStyles.PANEL_STYLE_MAIN, self.X_CORPORATION, self.Y_CORPORATION_AREA, self.X_CORPORATION_DIFF + ((i + 1) * self.DX_CORPORATION), self.H_CORPORATION_AREA, WidgetTypes.WIDGET_GENERAL, i, -1 )
 						xLoop += self.DX_CORPORATION
-		
-				
+
+
 				## johny smith
 				## This draws the symbols
-				## Puts the symbols in a loop 
-				## Attachs the symbols so they will scroll 
+				## Puts the symbols in a loop
+				## Attachs the symbols so they will scroll
 				xLoop = self.X_CORPORATION_START
 				for i in range(gc.getNumCorporationInfos()):
 					if (gc.getGame().canEverSpread(i)):
@@ -235,20 +235,20 @@ class CvCorporationScreen:
 						screen.setActivation( self.getCorporationButtonName(i), ActivationTypes.ACTIVATE_NORMAL )
 						xLoop += self.DX_CORPORATION
 
-					
+
 			self.iCorporationSelected = -1
 			self.iCorporationExamined = self.iCorporationSelected
 			self.iCorporationOriginal = self.iCorporationSelected
 
-		
+
 	def drawHelpInfo(self):
-		
+
 		screen = self.getScreen()
 
 		## johny smith
 		## This attaches the text to the panel
 		## This is for every line of font
-		# Great Person				
+		# Great Person
 		xLoop = self.X_CORPORATION_START
 		for i in range(gc.getNumCorporationInfos()):
 			if (gc.getGame().canEverSpread(i)):
@@ -257,7 +257,7 @@ class CvCorporationScreen:
 					if (gc.getBuildingInfo(iBuilding).getFoundsCorporation() == i):
 						break
 				for iUnit in range(gc.getNumUnitInfos()):
-					if gc.getUnitInfo(iUnit).getBuildings(iBuilding) or gc.getUnitInfo(iUnit).getForceBuildings(iBuilding):
+					if gc.getUnitInfo(iUnit).getBuildings(iBuilding):
 						szGreatPerson = gc.getUnitInfo(iUnit).getDescription()
 						break
 				screen.setLabelAt("", "CivicList", szGreatPerson, CvUtil.FONT_CENTER_JUSTIFY, xLoop, self.Y_GREAT_PERSON, self.DZ, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
@@ -268,7 +268,7 @@ class CvCorporationScreen:
 		xLoop = self.X_CORPORATION_START
 		for i in range(gc.getNumCorporationInfos()):
 			if (gc.getGame().canEverSpread(i)):
-				szListLabels = []				
+				szListLabels = []
 				iNum = 0
 				szList = u""
 				for iRequired in range(gc.getDefineINT("NUM_CORPORATION_PREREQ_BONUSES")):
@@ -280,20 +280,20 @@ class CvCorporationScreen:
 							szList += u", "
 						iNum += 1
 						szList += u"%c" % (gc.getBonusInfo(eBonus).getChar(), )
-						
+
 						if iNum > 3:
 							iNum = 0
 							szListLabels.append(szList)
 							szList = u""
-							
+
 				if len(szList) > 0:
 					szListLabels.append(szList)
-							
+
 				iRow = 0
 				for szList in szListLabels:
 					screen.setLabelAt("", "CivicList", szList, CvUtil.FONT_CENTER_JUSTIFY, xLoop, self.Y_BONUSES + iRow, self.DZ, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 					iRow += 16
-					
+
 				xLoop += self.DX_CORPORATION
 
 		# Founded...
@@ -310,7 +310,7 @@ class CvCorporationScreen:
 				screen.setLabelAt("", "CivicList", szFounded, CvUtil.FONT_CENTER_JUSTIFY, xLoop, self.Y_FOUNDED, self.DZ, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 
 				xLoop += self.DX_CORPORATION
-					
+
 		# Headquarters
 		screen.setLabelAt("", "CivicList", localText.getText("TXT_KEY_CORPORATION_SCREEN_HEADQUARTERS", ()), CvUtil.FONT_LEFT_JUSTIFY, self.LEFT_EDGE_TEXT, self.Y_HEADQUARTERS, self.DZ, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 
@@ -320,7 +320,7 @@ class CvCorporationScreen:
 				pHeadquarters = gc.getGame().getHeadquarters(i)
 				if pHeadquarters.isNone():
 					szFounded = u"-"
-					screen.setLabelAt("", "CivicList", szFounded, CvUtil.FONT_CENTER_JUSTIFY, xLoop, self.Y_HEADQUARTERS, self.DZ, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)				
+					screen.setLabelAt("", "CivicList", szFounded, CvUtil.FONT_CENTER_JUSTIFY, xLoop, self.Y_HEADQUARTERS, self.DZ, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 				elif not pHeadquarters.isRevealed(gc.getPlayer(self.iActivePlayer).getTeam(), False):
 					szFounded = localText.getText("TXT_KEY_UNKNOWN", ())
 					screen.setLabelAt("", "CivicList", szFounded, CvUtil.FONT_CENTER_JUSTIFY, xLoop, self.Y_HEADQUARTERS, self.DZ, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
@@ -329,17 +329,17 @@ class CvCorporationScreen:
 					screen.setLabelAt("", "CivicList", "(%s)" % gc.getPlayer(pHeadquarters.getOwner()).getCivilizationAdjective(0), CvUtil.FONT_CENTER_JUSTIFY, xLoop, self.Y_HEADQUARTERS+8, self.DZ, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 					screen.setLabelAt("", "CivicList", szFounded, CvUtil.FONT_CENTER_JUSTIFY, xLoop, self.Y_HEADQUARTERS-8, self.DZ, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 				xLoop += self.DX_CORPORATION
-								
+
 		self.iCorporationSelected = -1
 		self.iCorporationExamined = self.iCorporationSelected
 		self.iCorporationOriginal = self.iCorporationSelected
 
 	# Draws the city list
 	def drawCityInfo(self, iCorporation):
-	
+
 		if (not self.bScreenUp):
 			return
-			
+
 		screen = self.getScreen()
 
 		if (iCorporation == gc.getNumCorporationInfos()):
@@ -349,7 +349,7 @@ class CvCorporationScreen:
 
 		szArea1 = self.AREA1_ID
 		screen.addPanel(self.AREA1_ID, "", "", True, True, self.X_CITY1_AREA, self.Y_CITY_AREA, self.W_CITY_AREA, self.H_CITY_AREA, PanelStyles.PANEL_STYLE_MAIN)
-					
+
 		szArea2 = self.AREA2_ID
 		screen.addPanel(self.AREA2_ID, "", "", True, True, self.X_CITY2_AREA, self.Y_CITY_AREA, self.W_CITY_AREA, self.H_CITY_AREA, PanelStyles.PANEL_STYLE_MAIN)
 
@@ -360,38 +360,38 @@ class CvCorporationScreen:
 				screen.setState(self.getCorporationButtonName(i), True)
 			else:
 				screen.setState(self.getCorporationButtonName(i), False)
-					
+
 		iPlayer = PyPlayer(self.iActivePlayer)
-	
+
 		cityList = iPlayer.getCityList()
-		
+
 		# Loop through the cities
 		szLeftCities = u""
 		szRightCities = u""
 		for i in range(len(cityList)):
-		
+
 			bFirstColumn = (i % 2 == 0)
-		
+
 			pLoopCity = cityList[i]
 
 			# Constructing the City name...
 			szCityName = u""
 			if pLoopCity.isCapital():
 				szCityName += u"%c" % CyGame().getSymbolID(FontSymbols.STAR_CHAR)
-	
+
 			lHeadquarters = pLoopCity.getHeadquarters()
 			if lHeadquarters:
 				for iI in range(len(lHeadquarters)):
 					szCityName += u"%c" %(gc.getCorporationInfo(lHeadquarters[iI]).getHeadquarterChar())
-	
+
 			lCorporations = pLoopCity.getCorporations()
 			if lCorporations:
 				for iI in range(len(lCorporations)):
 					if lCorporations[iI] not in lHeadquarters:
 						szCityName += u"%c" %(gc.getCorporationInfo(lCorporations[iI]).getChar())
-	
+
 			szCityName += pLoopCity.getName()[0:17] + "  "
-		
+
 			if (iLinkCorporation == -1):
 				bFirst = True
 				for iI in range(len(lCorporations)):
@@ -408,16 +408,16 @@ class CvCorporationScreen:
 				szLeftCities += u"<font=3>" + szCityName + u"</font>\n"
 			else:
 				szRightCities += u"<font=3>" + szCityName + u"</font>\n"
-		
+
 		screen.addMultilineText("Child" + self.AREA1_ID, szLeftCities, self.X_CITY1_AREA+5, self.Y_CITY_AREA+5, self.W_CITY_AREA-10, self.H_CITY_AREA-10, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 		screen.addMultilineText("Child" + self.AREA2_ID, szRightCities, self.X_CITY2_AREA+5, self.Y_CITY_AREA+5, self.W_CITY_AREA-10, self.H_CITY_AREA-10, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
-													
+
 		# Header...
 		if self.iCorporationExamined != -1:
 			screen.setLabel(self.HEADER_NAME, "Background", u"<font=4b>" + gc.getCorporationInfo(self.iCorporationExamined).getDescription().upper() + u"</font>", CvUtil.FONT_CENTER_JUSTIFY, self.X_SCREEN, self.Y_TITLE, self.Z_TEXT, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 		else:
 			screen.setLabel(self.HEADER_NAME, "Background", u"<font=4b>" + localText.getText("TXT_KEY_CORPORATION_SCREEN_TITLE", ()).upper() + u"</font>", CvUtil.FONT_CENTER_JUSTIFY, self.X_SCREEN, self.Y_TITLE, self.Z_TEXT, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
-		
+
 		screen.setText(self.EXIT_NAME, "Background", self.EXIT_TEXT, CvUtil.FONT_RIGHT_JUSTIFY, self.X_EXIT, self.Y_EXIT, self.Z_TEXT, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, 1, 0)
 
 	def Exit(self, inputClass):
@@ -428,38 +428,38 @@ class CvCorporationScreen:
 	def getCorporationButtonName(self, iCorporation):
 		szName = self.BUTTON_NAME + str(iCorporation)
 		return szName
-				
+
 	def getCorporationTextName(self, iCorporation):
 		szName = self.CORPORATION_NAME + str(iCorporation)
 		return szName
-								
+
 	# Will handle the input for this screen...
 	def handleInput (self, inputClass):
 		if (inputClass.getNotifyCode() == NotifyCode.NOTIFY_LISTBOX_ITEM_SELECTED):
 			screen = self.getScreen()
 			iIndex = screen.getSelectedPullDownID(self.DEBUG_DROPDOWN_ID)
 			self.iActivePlayer = screen.getPullDownData(self.DEBUG_DROPDOWN_ID, iIndex)
-			self.drawCorporationInfo()			
+			self.drawCorporationInfo()
 			self.drawCityInfo(self.iCorporationSelected)
 			return 1
-		elif (self.CorporationScreenInputMap.has_key(inputClass.getFunctionName())):	
+		elif (self.CorporationScreenInputMap.has_key(inputClass.getFunctionName())):
 			'Calls function mapped in CorporationScreenInputMap'
 			# only get from the map if it has the key
-			
+
 			# get bound function from map and call it
 			self.CorporationScreenInputMap.get(inputClass.getFunctionName())(inputClass)
 			return 1
 		return 0
-		
+
 	def update(self, fDelta):
 		return
 
 	# Corporation Button
-	def CorporationScreenButton( self, inputClass ):	
+	def CorporationScreenButton( self, inputClass ):
 		if ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED ) :
 			if self.iCorporationSelected == inputClass.getID():
 				self.iCorporationSelected = -1
-			else:					
+			else:
 				self.iCorporationSelected = inputClass.getID()
 			self.iCorporationExamined = self.iCorporationSelected
 			self.drawCityInfo(self.iCorporationSelected)
@@ -470,5 +470,5 @@ class CvCorporationScreen:
 			self.iCorporationExamined = self.iCorporationSelected
 			self.drawCityInfo(self.iCorporationSelected)
 		return 0
-		
+
 				

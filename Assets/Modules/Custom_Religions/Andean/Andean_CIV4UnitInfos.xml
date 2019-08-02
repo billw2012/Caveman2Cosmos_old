@@ -37,7 +37,6 @@
 			<PrereqBuilding>BUILDING_ANDEAN_MONASTERY</PrereqBuilding>
 			<iCost>110</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -56,10 +55,7 @@
 		<UnitInfo>
 			<Type>UNIT_PROPHET</Type>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_ANDEAN_SHRINE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_ANDEAN_SHRINE</BuildingType>
 			</Buildings>
 			<ReligionSpreads>
 				<ReligionSpread>

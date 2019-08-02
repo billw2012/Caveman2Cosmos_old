@@ -416,7 +416,7 @@
 			<NotOnUnitCombatTypes>
 				<NotOnUnitCombatType>UNITCOMBAT_CRIMINAL</NotOnUnitCombatType>
 				<NotOnUnitCombatType>UNITCOMBAT_STRIKE_TEAM</NotOnUnitCombatType>
-				<NotOnUnitCombatType>UNITCOMBAT_RUFFIAN</NotOnUnitCombatType>			
+				<NotOnUnitCombatType>UNITCOMBAT_RUFFIAN</NotOnUnitCombatType>
 			</NotOnUnitCombatTypes>
 			<NotOnDomainTypes>
 				<DomainType>DOMAIN_SEA</DomainType>
@@ -504,7 +504,7 @@
 		<PromotionLineInfo>
 			<Type>PROMOTIONLINE_SPEED</Type>
 			<Description>TXT_KEY_PROMOTIONLINE_SPEED</Description>
-			<Button>,Art/Interface/Buttons/Promotions/Navigation1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,7,4</Button>			
+			<Button>,Art/Interface/Buttons/Promotions/Navigation1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,7,4</Button>
 			<UnitCombatPrereqTypes>
 				<UnitCombatPrereqType>UNITCOMBAT_EXPLORER</UnitCombatPrereqType>
 				<UnitCombatPrereqType>UNITCOMBAT_THROWING</UnitCombatPrereqType>
@@ -2999,7 +2999,7 @@
 			<Type>PROMOTIONLINE_BUILD_UP_CLEVERNESS</Type>
 			<Description>TXT_KEY_PROMOTIONLINE_BUILD_UP_CLEVERNESS</Description>
 			<Help>TXT_KEY_PROMOTIONLINE_BUILD_UP_CLEVERNESS_HELP</Help>
-			<Button>Art/Buttons/Promotions/Cleverness1Buildup.dds</Button>			
+			<Button>Art/Buttons/Promotions/Cleverness1Buildup.dds</Button>
 			<UnitCombatPrereqTypes>
 				<UnitCombatPrereqType>UNITCOMBAT_CRIMINAL</UnitCombatPrereqType>
 				<UnitCombatPrereqType>UNITCOMBAT_PIRATE</UnitCombatPrereqType>
@@ -3013,7 +3013,7 @@
 			<Type>PROMOTIONLINE_BUILD_UP_INSPECTIONS</Type>
 			<Description>TXT_KEY_PROMOTIONLINE_BUILD_UP_INSPECTIONS</Description>
 			<Help>TXT_KEY_PROMOTIONLINE_BUILD_UP_INSPECTIONS_HELP</Help>
-			<Button>Art/Buttons/Promotions/Inspections1Buildup.dds</Button>			
+			<Button>Art/Buttons/Promotions/Inspections1Buildup.dds</Button>
 			<UnitCombatPrereqTypes>
 				<UnitCombatPrereqType>UNITCOMBAT_LAW_ENFORCEMENT</UnitCombatPrereqType>
 			</UnitCombatPrereqTypes>
@@ -3170,7 +3170,7 @@
 			<Type>PROMOTIONLINE_BUILD_UP_REVOLUTIONARY_SENTIMENT</Type>
 			<Description>TXT_KEY_PROMOTIONLINE_BUILD_UP_REVOLUTIONARY_SENTIMENT</Description>
 			<Help>TXT_KEY_PROMOTIONLINE_BUILD_UP_REVOLUTIONARY_SENTIMENT_HELP</Help>
-			<Button>Art/Buttons/Promotions/RevolutionarySentiment1Buildup.dds</Button>			
+			<Button>Art/Buttons/Promotions/RevolutionarySentiment1Buildup.dds</Button>
 			<UnitCombatPrereqTypes>
 				<UnitCombatPrereqType>UNITCOMBAT_CRIMINAL</UnitCombatPrereqType>
 			</UnitCombatPrereqTypes>
@@ -3194,7 +3194,7 @@
 			<Type>PROMOTIONLINE_BUILD_UP_PATRIOTISM</Type>
 			<Description>TXT_KEY_PROMOTIONLINE_BUILD_UP_PATRIOTISM</Description>
 			<Help>TXT_KEY_PROMOTIONLINE_BUILD_UP_PATRIOTISM_HELP</Help>
-			<Button>Art/Buttons/Promotions/Patriotism1Buildup.dds</Button>			
+			<Button>Art/Buttons/Promotions/Patriotism1Buildup.dds</Button>
 			<UnitCombatPrereqTypes>
 				<UnitCombatPrereqType>UNITCOMBAT_ENTERTAINER</UnitCombatPrereqType>
 			</UnitCombatPrereqTypes>

@@ -640,96 +640,131 @@ public:
 	void SetVariableListTagPair(std::vector<int>, const wchar_t* szRootTagName,
 		int iInfoBaseLength, int iDefaultListVal = 0);
 
-	void SetOptionalIntVector(std::vector<int>* aInfos, const wchar_t* szRootTagName){return SetOptionalVector<int>(aInfos, szRootTagName);}
-
 	void SetOptionalIntVectorWithDelayedResolution(std::vector<int>& aInfos, const wchar_t* szRootTagName);
 	static void CopyNonDefaultsFromIntVector(std::vector<int>& target, std::vector<int>& source){return CopyNonDefaultsFromVector<int>(target, source);}
 
-	template<class T1, class T2, class T3>
-	void SetOptionalPairVector(T1* aInfos, const wchar_t* szRootTagName)
+	template<typename T>
+	void SetOptionalPairVector(std::vector<std::pair<int,T> >& aInfos, const wchar_t* szRootTagName)
 	{
 		CvString szTextVal;
-		aInfos->clear();
+		aInfos.clear();
 		if (TryMoveToXmlFirstChild(szRootTagName))
 		{
-			int iNumSibs = GetXmlChildrenNumber();
-
-			if (0 < iNumSibs)
+			int iNumChildren = GetXmlChildrenNumber();
+			if (iNumChildren && TryMoveToXmlFirstChild())
 			{
-				if (TryMoveToXmlFirstChild())
+				aInfos.reserve(iNumChildren);
+				do
 				{
-					for (int j = 0; j < iNumSibs; ++j)
+					if (GetChildXmlVal(szTextVal))
 					{
-						if (GetChildXmlVal(szTextVal))
+						int iType = GetInfoClass(szTextVal);
+						T iModifier;
+						GetNextXmlVal(&iModifier);
+						if (iType != -1 && iModifier)
 						{
-							T2 eType = (T2)GetInfoClass(szTextVal);
-							T3 iModifier;
-							GetNextXmlVal(&iModifier);
-							aInfos->push_back(std::make_pair(eType, iModifier));
-
-							MoveToXmlParent();
-
+							aInfos.push_back(std::make_pair(iType, iModifier));
 						}
-
-						if (!TryMoveToXmlNextSibling())
-						{
-							break;
-						}
-
+						MoveToXmlParent();
 					}
-
-					MoveToXmlParent();
-				}
+				} while (TryMoveToXmlNextSibling());
+				MoveToXmlParent();
 			}
-
+			MoveToXmlParent();
+		}
+	}
+	
+	template<typename T>
+	void SetOptionalPairVectorWithDelayedResolution(std::vector<std::pair<int,T> >& aInfos, const wchar_t* szRootTagName)
+	{
+		CvString szTextVal;
+		if (TryMoveToXmlFirstChild(szRootTagName))
+		{
+			int iNumChildren = GetXmlChildrenNumber();
+			if (iNumChildren && TryMoveToXmlFirstChild())
+			{
+				aInfos.reserve(iNumChildren);
+				do
+				{
+					if (GetChildXmlVal(szTextVal))
+					{
+						T iModifier;
+						GetNextXmlVal(&iModifier);
+						if (iModifier)
+						{
+							aInfos.push_back(std::make_pair(int(), iModifier));
+							GC.addDelayedResolution(&aInfos.back().first, szTextVal);
+						}
+						MoveToXmlParent();
+					}
+				} while (TryMoveToXmlNextSibling());
+				MoveToXmlParent();
+			}
 			MoveToXmlParent();
 		}
 	}
 	template<class T>
 	static void CopyNonDefaultsFromVector(std::vector<T>& target, std::vector<T>& source)
 	{
-		for (std::vector<T>::const_iterator it = source.begin(), end = source.end(); it != end; ++it)
+		int iSizeOrig = (int)target.size();
+		target.reserve(iSizeOrig + (int)source.size());
+		while (source.size())
 		{
-			if ((*it) > -1 && find(target.begin(), target.end(), *it) == target.end())
+			T& Val = source.back();
+			if (find(target.begin(), target.begin()+iSizeOrig, Val) == target.end())
 			{
-				target.push_back(*it);
+				target.push_back(Val);
 			}
+			source.pop_back();
 		}
-
-		std::sort(target.begin(), target.end());
+	}
+	
+	template<class T>
+	static void CopyNonDefaultsFromPairVector(std::vector<std::pair<int,T> >& target, std::vector<std::pair<int,T> >& source)
+	{
+		int iSizeOrig = (int)target.size();
+		target.reserve(iSizeOrig + (int)source.size());
+		while (source.size())
+		{
+			bool bExists = false;
+			std::pair<int,T>& pPair = source.back();
+			for (std::vector<std::pair<int,T> >::const_iterator it = target.begin(); it - target.begin() < iSizeOrig; it++)
+			{
+				if ( pPair.first == it->first )
+				{
+					bExists = true;
+					break;
+				}
+			}
+			if (!bExists)
+			{
+				target.push_back(pPair);
+			}
+			source.pop_back();
+		}
 	}
 
 	template<class T>
-	void SetOptionalVector(std::vector<T>* aInfos, const wchar_t* szRootTagName)
+	void SetOptionalVector(std::vector<T>& aInfos, const wchar_t* szRootTagName)
 	{
 		if (TryMoveToXmlFirstChild(szRootTagName))
 		{
-			int iNumSibs = GetXmlChildrenNumber();
 			CvString szTextVal;
-
-			if (0 < iNumSibs)
+			int iNumChildren = GetXmlChildrenNumber();
+			if (iNumChildren && GetChildXmlVal(szTextVal))
 			{
-				if (GetChildXmlVal(szTextVal))
+				aInfos.reserve(iNumChildren);
+				do
 				{
-					for (int j = 0; j < iNumSibs; j++)
+					T type = static_cast<T>(GetInfoClass(szTextVal));
+					if (type > -1 && find(aInfos.begin(), aInfos.end(), type) == aInfos.end())
 					{
-						T value = static_cast<T>(GetInfoClass(szTextVal));
-						if (value > -1  && find(aInfos->begin(), aInfos->end(), value) == aInfos->end())
-						{
-							aInfos->push_back(value);
-						}
-						if (!GetNextXmlVal(szTextVal))
-						{
-							break;
-						}
+						aInfos.push_back(type);
 					}
-
-					std::sort(aInfos->begin(), aInfos->end());
-
-					MoveToXmlParent();
-				}
+				} while (GetNextXmlVal(szTextVal));
+				std::sort(aInfos.begin(), aInfos.end());
+				MoveToXmlParent();
 			}
-
 			MoveToXmlParent();
 		}
 	}

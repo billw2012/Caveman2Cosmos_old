@@ -385,13 +385,13 @@ public:
 	int getInvestigation() const;
 	// int vector utilizing struct with delayed resolution
 	int getNumTechHappinessTypes() const;
-	TechModifier& getTechHappinessType(int iTech);
+	std::pair<int,int>& getTechHappinessType(int iTech);
 
 	int getNumTechHealthTypes() const;
-	TechModifier& getTechHealthType(int iTech);
+	std::pair<int,int>& getTechHealthType(int iTech);
 
 	int getNumUnitCombatExperienceTypes() const;
-	UnitCombatModifier& getUnitCombatExperienceType(int iUnitCombat, bool bForLoad = true);
+	std::pair<int,int> getUnitCombatExperienceType(int iUnitCombat, bool bForLoad = true);
 
 	//TB Specialist Tags end
 
@@ -432,10 +432,9 @@ protected:
 	int m_iInsidiousness;
 	int m_iInvestigation;
 	// int vector utilizing struct with delayed resolution
-	std::vector<TechModifier> m_aTechHappinessTypes;
-	std::vector<TechModifier> m_aTechHealthTypes;
-	std::vector<UnitCombatModifier> m_aUnitCombatExperienceTypes;
-	std::vector<UnitCombatModifier> m_aUnitCombatExperienceTypesNull;
+	std::vector<std::pair<int,int> > m_aTechHappinessTypes;
+	std::vector<std::pair<int,int> > m_aTechHealthTypes;
+	std::vector<std::pair<int,int> > m_aUnitCombatExperienceTypes;
 
 	CvString m_szTexture;
 
@@ -537,12 +536,12 @@ public:
 	int getPrereqGameOption() const;
 	
 	int getNumPrereqBuildingClasses() const;
-	PrereqBuildingClass& getPrereqBuildingClass(int iIndex);
+	std::pair<int,int>& getPrereqBuildingClass(int iIndex);
 	int getPrereqBuildingClassType(int iIndex);
 	int getPrereqBuildingClassMinimumRequired(int iIndex);
 
 	int getNumPrereqOrBuildingClasses() const;
-	PrereqBuildingClass& getPrereqOrBuildingClass(int iIndex);
+	std::pair<int,int>& getPrereqOrBuildingClass(int iIndex);
 	int getPrereqOrBuildingClassType(int iIndex);
 	int getPrereqOrBuildingClassMinimumRequired(int iIndex);
 
@@ -727,8 +726,8 @@ protected:
 	
 	int* m_piUnitClassStrengthChange;
 	
-	std::vector<PrereqBuildingClass> m_aPrereqBuildingClass;
-	std::vector<PrereqBuildingClass> m_aPrereqOrBuildingClass;
+	std::vector<std::pair<int,int> > m_aPrereqBuildingClass;
+	std::vector<std::pair<int,int> > m_aPrereqOrBuildingClass;
 
 	//int* m_paiPrereqBuildingClass;
 	//std::vector<CvString> m_aszPrereqBuildingClassforPass3;
@@ -1249,16 +1248,16 @@ public:
 
 	// int vector utilizing struct with delayed resolution
 	int getNumAIWeightbyUnitCombatTypes() const;
-	UnitCombatModifier& getAIWeightbyUnitCombatType(int iUnitCombat);
+	std::pair<int,int>& getAIWeightbyUnitCombatType(int iUnitCombat);
 
 	int getNumAfflictionFortitudeChangeModifiers() const;
-	PromotionLineModifier& getAfflictionFortitudeChangeModifier(int iAfflictionLine);
+	std::pair<int,int>& getAfflictionFortitudeChangeModifier(int iAfflictionLine);
 
 	int getNumAfflictOnAttackChangeTypes() const;
-	AfflictOnAttackChange& getAfflictOnAttackChangeType(int iAfflictionLine);
+	std::pair<int,AfflictOnAttackChange>& getAfflictOnAttackChangeType(int iAfflictionLine);
 
 	int getNumHealUnitCombatChangeTypes() const;
-	HealUnitCombat& getHealUnitCombatChangeType(int iUnitCombat);
+	std::pair<int,HealUnitCombat>& getHealUnitCombatChangeType(int iUnitCombat);
 
 	int getNumInvisibleTerrainChanges() const;
 	InvisibleTerrainChanges& getInvisibleTerrainChange(int iIndex);
@@ -1288,7 +1287,7 @@ public:
 	InvisibleImprovementChanges& getVisibleImprovementRangeChange(int iIndex);
 
 	int getNumDistanceAttackCommunicabilityTypeChanges() const;
-	AfflictionLineChanges& getDistanceAttackCommunicabilityTypeChange(int iIndex);
+	std::pair<int,int>& getDistanceAttackCommunicabilityTypeChange(int iIndex);
 
 	// TB Combat Mods End  TB SubCombat Mod end
 
@@ -1619,36 +1618,36 @@ protected:
 	std::vector<int> m_aiTrapImmunityUnitCombatTypes;
 	std::vector<int> m_aiTargetUnitCombatTypes;
 	// int vectors utilizing pairing without delayed resolution
-	UnitCombatModifierArray m_aFlankingStrengthbyUnitCombatTypeChange;
-	TerrainModifierArray m_aWithdrawOnTerrainTypesChange;
-	FeatureModifierArray m_aWithdrawOnFeatureTypesChange;
-	UnitCombatModifierArray m_aWithdrawVSUnitCombatChangeTypes;
-	UnitCombatModifierArray m_aPursuitVSUnitCombatChangeTypes;
-	UnitCombatModifierArray m_aRepelVSUnitCombatChangeTypes;
-	UnitCombatModifierArray m_aKnockbackVSUnitCombatChangeTypes;
-	UnitCombatModifierArray m_aPunctureVSUnitCombatChangeTypes;
-	UnitCombatModifierArray m_aArmorVSUnitCombatChangeTypes;
-	UnitCombatModifierArray m_aDodgeVSUnitCombatChangeTypes;
-	UnitCombatModifierArray m_aPrecisionVSUnitCombatChangeTypes;
-	UnitCombatModifierArray m_aCriticalVSUnitCombatChangeTypes;
-	UnitCombatModifierArray m_aRoundStunVSUnitCombatChangeTypes;
-	UnitCombatModifierArray m_aTrapDisableUnitCombatTypes;
-	UnitCombatModifierArray m_aTrapAvoidanceUnitCombatTypes;
-	UnitCombatModifierArray m_aTrapTriggerUnitCombatTypes;
-	AidArray m_aAidChanges;
+	std::vector<std::pair<int,int> > m_aFlankingStrengthbyUnitCombatTypeChange;
+	std::vector<std::pair<int,int> > m_aWithdrawOnTerrainTypesChange;
+	std::vector<std::pair<int,int> > m_aWithdrawOnFeatureTypesChange;
+	std::vector<std::pair<int,int> > m_aWithdrawVSUnitCombatChangeTypes;
+	std::vector<std::pair<int,int> > m_aPursuitVSUnitCombatChangeTypes;
+	std::vector<std::pair<int,int> > m_aRepelVSUnitCombatChangeTypes;
+	std::vector<std::pair<int,int> > m_aKnockbackVSUnitCombatChangeTypes;
+	std::vector<std::pair<int,int> > m_aPunctureVSUnitCombatChangeTypes;
+	std::vector<std::pair<int,int> > m_aArmorVSUnitCombatChangeTypes;
+	std::vector<std::pair<int,int> > m_aDodgeVSUnitCombatChangeTypes;
+	std::vector<std::pair<int,int> > m_aPrecisionVSUnitCombatChangeTypes;
+	std::vector<std::pair<int,int> > m_aCriticalVSUnitCombatChangeTypes;
+	std::vector<std::pair<int,int> > m_aRoundStunVSUnitCombatChangeTypes;
+	std::vector<std::pair<int,int> > m_aTrapDisableUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aTrapAvoidanceUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aTrapTriggerUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aAidChanges;
 	//Team Project (4)
 		//WorkRateMod
-	TerrainModifierArray m_aTerrainWorkRateModifierChangeTypes;
-	FeatureModifierArray m_aFeatureWorkRateModifierChangeTypes;
-	BuildModifierArray m_aBuildWorkRateModifierChangeTypes;
-	InvisibilityArray m_aVisibilityIntensityChangeTypes;
-	InvisibilityArray m_aInvisibilityIntensityChangeTypes;
-	InvisibilityArray m_aVisibilityIntensityRangeChangeTypes;
+	std::vector<std::pair<int,int> > m_aTerrainWorkRateModifierChangeTypes;
+	std::vector<std::pair<int,int> > m_aFeatureWorkRateModifierChangeTypes;
+	std::vector<std::pair<int,int> > m_aBuildWorkRateModifierChangeTypes;
+	std::vector<std::pair<int,int> > m_aVisibilityIntensityChangeTypes;
+	std::vector<std::pair<int,int> > m_aInvisibilityIntensityChangeTypes;
+	std::vector<std::pair<int,int> > m_aVisibilityIntensityRangeChangeTypes;
 	// int vector utilizing struct with delayed resolution
-	std::vector<UnitCombatModifier> m_aAIWeightbyUnitCombatTypes;
-	std::vector<PromotionLineModifier> m_aAfflictionFortitudeChangeModifiers;
-	std::vector<AfflictOnAttackChange> m_aAfflictOnAttackChangeTypes;
-	std::vector<HealUnitCombat> m_aHealUnitCombatChangeTypes;
+	std::vector<std::pair<int,int> > m_aAIWeightbyUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aAfflictionFortitudeChangeModifiers;
+	std::vector<std::pair<int,AfflictOnAttackChange> > m_aAfflictOnAttackChangeTypes;
+	std::vector<std::pair<int,HealUnitCombat> > m_aHealUnitCombatChangeTypes;
 	std::vector<InvisibleTerrainChanges> m_aInvisibleTerrainChanges;
 	std::vector<InvisibleFeatureChanges> m_aInvisibleFeatureChanges;
 	std::vector<InvisibleImprovementChanges> m_aInvisibleImprovementChanges;
@@ -1658,7 +1657,7 @@ protected:
 	std::vector<InvisibleFeatureChanges> m_aVisibleFeatureRangeChanges;
 	std::vector<InvisibleImprovementChanges> m_aVisibleImprovementRangeChanges;
 	std::vector<InvisibleTerrainChanges> m_aVisibleTerrainRangeChanges;
-	std::vector<AfflictionLineChanges> m_aDistanceAttackCommunicabilityTypeChanges;
+	std::vector<std::pair<int,int> > m_aDistanceAttackCommunicabilityTypeChanges;
 	//TB Combat Mods End  TB SubCombat Mod end
 
 	//Pediahelp
@@ -2273,13 +2272,13 @@ public:
 
 	// int vector utilizing struct with delayed resolution
 	int getNumAfflictionFortitudeModifiers() const;
-	PromotionLineModifier& getAfflictionFortitudeModifier(int iAffliction);
+	std::pair<int,int>& getAfflictionFortitudeModifier(int iAffliction);
 	
 	int getNumAfflictOnAttackTypes() const;
-	AfflictOnAttack& getAfflictOnAttackType(int iAfflictionLine);
+	std::pair<int,AfflictOnAttack>& getAfflictOnAttackType(int iAfflictionLine);
 
 	int getNumHealUnitCombatTypes() const;
-	HealUnitCombat& getHealUnitCombatType(int iUnitCombat);
+	std::pair<int,HealUnitCombat>& getHealUnitCombatType(int iUnitCombat);
 
 	int getNumGroupSpawnUnitCombatTypes() const;
 	GroupSpawnUnitCombat& getGroupSpawnUnitCombatType(int iIndex);
@@ -2312,11 +2311,11 @@ public:
 	InvisibleImprovementChanges& getVisibleImprovementRangeChange(int iIndex);
 
 	int getNumVisibleImprovementRangeChanges() const;
-	AfflictionLineChanges& getDistanceAttackCommunicabilityTypeChange(int iIndex);
+	std::pair<int,int>& getDistanceAttackCommunicabilityTypeChange(int iIndex);
 
 	//Bool vector utilizing delayed resolution
 	int getNumEnabledCivilizationTypes() const;
-	EnabledCivilizations& getEnabledCivilizationType(int iIndex);
+	int getEnabledCivilizationType(int iIndex);
 
 	// int vector utilizing pairing without delayed resolution
 	int getNumFlankingStrikesbyUnitCombatTypes() const;
@@ -2332,82 +2331,82 @@ public:
 	int getNumWithdrawVSUnitCombatTypes() const;
 	int getWithdrawVSUnitCombatType(int iUnitCombat) const;
 	bool isWithdrawVSUnitCombatType(int iUnitCombat);
-	UnitCombatModifierArray& getWithdrawVSUnitCombatTypes();
+	std::vector<std::pair<int,int> >& getWithdrawVSUnitCombatTypes();
 	
 	int getNumPursuitVSUnitCombatTypes() const;
 	int getPursuitVSUnitCombatType(int iUnitCombat, bool bForLoad = false) const;
 	bool isPursuitVSUnitCombatType(int iUnitCombat, bool bForLoad = false);
-	UnitCombatModifierArray& getPursuitVSUnitCombatTypes();
+	std::vector<std::pair<int,int> >& getPursuitVSUnitCombatTypes();
 	
 	int getNumRepelVSUnitCombatTypes() const;
 	int getRepelVSUnitCombatType(int iUnitCombat, bool bForLoad = false) const;
 	bool isRepelVSUnitCombatType(int iUnitCombat, bool bForLoad = false);
-	UnitCombatModifierArray& getRepelVSUnitCombatTypes();
+	std::vector<std::pair<int,int> >& getRepelVSUnitCombatTypes();
 	
 	int getNumKnockbackVSUnitCombatTypes() const;
 	int getKnockbackVSUnitCombatType(int iUnitCombat, bool bForLoad = false) const;
 	bool isKnockbackVSUnitCombatType(int iUnitCombat, bool bForLoad = false);
-	UnitCombatModifierArray& getKnockbackVSUnitCombatTypes();
+	std::vector<std::pair<int,int> >& getKnockbackVSUnitCombatTypes();
 	
 	int getNumPunctureVSUnitCombatTypes() const;
 	int getPunctureVSUnitCombatType(int iUnitCombat) const;
 	bool isPunctureVSUnitCombatType(int iUnitCombat);
-	UnitCombatModifierArray& getPunctureVSUnitCombatTypes();
+	std::vector<std::pair<int,int> >& getPunctureVSUnitCombatTypes();
 	
 	int getNumArmorVSUnitCombatTypes() const;
 	int getArmorVSUnitCombatType(int iUnitCombat) const;
 	bool isArmorVSUnitCombatType(int iUnitCombat);
-	UnitCombatModifierArray& getArmorVSUnitCombatTypes();
+	std::vector<std::pair<int,int> >& getArmorVSUnitCombatTypes();
 	
 	int getNumDodgeVSUnitCombatTypes() const;
 	int getDodgeVSUnitCombatType(int iUnitCombat) const;
 	bool isDodgeVSUnitCombatType(int iUnitCombat);
-	UnitCombatModifierArray& getDodgeVSUnitCombatTypes();
+	std::vector<std::pair<int,int> >& getDodgeVSUnitCombatTypes();
 	
 	int getNumPrecisionVSUnitCombatTypes() const;
 	int getPrecisionVSUnitCombatType(int iUnitCombat) const;
 	bool isPrecisionVSUnitCombatType(int iUnitCombat);
-	UnitCombatModifierArray& getPrecisionVSUnitCombatTypes();
+	std::vector<std::pair<int,int> >& getPrecisionVSUnitCombatTypes();
 	
 	int getNumCriticalVSUnitCombatTypes() const;
 	int getCriticalVSUnitCombatType(int iUnitCombat) const;
 	bool isCriticalVSUnitCombatType(int iUnitCombat);
-	UnitCombatModifierArray& getCriticalVSUnitCombatTypes();
+	std::vector<std::pair<int,int> >& getCriticalVSUnitCombatTypes();
 	
 	int getNumRoundStunVSUnitCombatTypes() const;
 	int getRoundStunVSUnitCombatType(int iUnitCombat) const;
 	bool isRoundStunVSUnitCombatType(int iUnitCombat);
-	UnitCombatModifierArray& getRoundStunVSUnitCombatTypes();
+	std::vector<std::pair<int,int> >& getRoundStunVSUnitCombatTypes();
 	
 	int getNumTrapDisableUnitCombatTypes() const;
 	int getTrapDisableUnitCombatType(int iUnitCombat) const;
 	bool isTrapDisableUnitCombatType(int iUnitCombat);
-	UnitCombatModifierArray& getTrapDisableUnitCombatTypes();
+	std::vector<std::pair<int,int> >& getTrapDisableUnitCombatTypes();
 	
 	int getNumTrapAvoidanceUnitCombatTypes() const;
 	int getTrapAvoidanceUnitCombatType(int iUnitCombat) const;
 	bool isTrapAvoidanceUnitCombatType(int iUnitCombat);
-	UnitCombatModifierArray& getTrapAvoidanceUnitCombatTypes();
+	std::vector<std::pair<int,int> >& getTrapAvoidanceUnitCombatTypes();
 	
 	int getNumTrapTriggerUnitCombatTypes() const;
 	int getTrapTriggerUnitCombatType(int iUnitCombat) const;
 	bool isTrapTriggerUnitCombatType(int iUnitCombat);
-	UnitCombatModifierArray& getTrapTriggerUnitCombatTypes();
+	std::vector<std::pair<int,int> >& getTrapTriggerUnitCombatTypes();
 	
 	int getNumVisibilityIntensityTypes() const;
 	int getVisibilityIntensityType(int iInvisibility) const;
 	bool isVisibilityIntensityType(int iInvisibility);
-	InvisibilityArray& getVisibilityIntensityTypes();
+	std::vector<std::pair<int,int> >& getVisibilityIntensityTypes();
 	
 	int getNumInvisibilityIntensityTypes() const;
 	int getInvisibilityIntensityType(int iInvisibility) const;
 	bool isInvisibilityIntensityType(int iInvisibility);
-	InvisibilityArray& getInvisibilityIntensityTypes();
+	std::vector<std::pair<int,int> >& getInvisibilityIntensityTypes();
 	
 	int getNumVisibilityIntensityRangeTypes() const;
 	int getVisibilityIntensityRangeType(int iInvisibility) const;
 	bool isVisibilityIntensityRangeType(int iInvisibility);
-	InvisibilityArray& getVisibilityIntensityRangeTypes();
+	std::vector<std::pair<int,int> >& getVisibilityIntensityRangeTypes();
 	//Team Project (4)
 		//WorkRateMod
 	int getNumTerrainWorkRateModifierTypes() const;
@@ -2589,9 +2588,12 @@ public:
 	bool getNotUnitAIType(int i) const;			// Exposed to Python
 	bool getBuilds(int i) const;						// Exposed to Python
 	bool getGreatPeoples(int i) const;			// Exposed to Python
+
 	bool getHasBuildings(void) const;
 	bool getBuildings(int i) const;					// Exposed to Python
-	bool getForceBuildings(int i) const;		// Exposed to Python
+	int getBuildingsNum() const { return m_pbBuildings.size(); }
+	const std::vector<int>& getAllBuildings() const { return m_pbBuildings; }
+
 	//bool getTerrainImpassable(int i) const;				// Exposed to Python
 	//bool getFeatureImpassable(int i) const;				// Exposed to Python
 	bool getTerrainNative(int i) const;			// Exposed to Python
@@ -2827,7 +2829,7 @@ protected:
 /**																				*/
 /**		CanTrain 																*/
 /********************************************************************************/
-	bool* m_pbPrereqOrCivics;
+	std::vector<int> m_pbPrereqOrCivics;
 	bool* m_pbPrereqBuildingClass;
 	int* m_piPrereqBuildingClassOverrideTech;
 	int* m_piPrereqBuildingClassOverrideEra;
@@ -2845,8 +2847,7 @@ protected:
 	bool* m_pbNotUnitAIType;
 	bool* m_pbBuilds;
 	bool* m_pbGreatPeoples;
-	bool* m_pbBuildings;
-	bool* m_pbForceBuildings;
+	std::vector<int> m_pbBuildings;
 	bool* m_pbTerrainNative;
 	bool* m_pbFeatureNative;
 	//bool* m_pbTerrainImpassable;
@@ -2986,9 +2987,9 @@ protected:
 	std::vector<int> m_aiTrapSetWithPromotionTypes;
 	std::vector<int> m_aiTrapImmunityUnitCombatTypes;
 	// int vectors utilizing struct with delayed resolution
-	std::vector<PromotionLineModifier> m_aAfflictionFortitudeModifiers;
-	std::vector<AfflictOnAttack> m_aAfflictOnAttackTypes;
-	std::vector<HealUnitCombat> m_aHealUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aAfflictionFortitudeModifiers;
+	std::vector<std::pair<int,AfflictOnAttack> > m_aAfflictOnAttackTypes;
+	std::vector<std::pair<int,HealUnitCombat> > m_aHealUnitCombatTypes;
 	std::vector<GroupSpawnUnitCombat> m_aGroupSpawnUnitCombatTypes;
 	std::vector<InvisibleTerrainChanges> m_aInvisibleTerrainChanges;
 	std::vector<InvisibleFeatureChanges> m_aInvisibleFeatureChanges;
@@ -2999,34 +3000,34 @@ protected:
 	std::vector<InvisibleTerrainChanges> m_aVisibleTerrainRangeChanges;
 	std::vector<InvisibleFeatureChanges> m_aVisibleFeatureRangeChanges;
 	std::vector<InvisibleImprovementChanges> m_aVisibleImprovementRangeChanges;
-	std::vector<AfflictionLineChanges> m_aDistanceAttackCommunicabilityTypeChanges;
-	std::vector<EnabledCivilizations> m_aEnabledCivilizationTypes;
+	std::vector<std::pair<int,int> > m_aDistanceAttackCommunicabilityTypeChanges;
+	std::vector<int> m_aEnabledCivilizationTypes;
 	// int vectors utilizing pairing without delayed resolution
-	UnitCombatModifierArray m_aFlankingStrengthbyUnitCombatType;
-	TerrainModifierArray m_aWithdrawOnTerrainTypes;
-	FeatureModifierArray m_aWithdrawOnFeatureTypes;
-	UnitCombatModifierArray m_aWithdrawVSUnitCombatTypes;
-	UnitCombatModifierArray m_aPursuitVSUnitCombatTypes;
-	UnitCombatModifierArray m_aRepelVSUnitCombatTypes;
-	UnitCombatModifierArray m_aKnockbackVSUnitCombatTypes;
-	UnitCombatModifierArray m_aPunctureVSUnitCombatTypes;
-	UnitCombatModifierArray m_aArmorVSUnitCombatTypes;
-	UnitCombatModifierArray m_aDodgeVSUnitCombatTypes;
-	UnitCombatModifierArray m_aPrecisionVSUnitCombatTypes;
-	UnitCombatModifierArray m_aCriticalVSUnitCombatTypes;
-	UnitCombatModifierArray m_aRoundStunVSUnitCombatTypes;
-	UnitCombatModifierArray m_aTrapDisableUnitCombatTypes;
-	UnitCombatModifierArray m_aTrapAvoidanceUnitCombatTypes;
-	UnitCombatModifierArray m_aTrapTriggerUnitCombatTypes;
-	InvisibilityArray m_aVisibilityIntensityTypes;
-	InvisibilityArray m_aInvisibilityIntensityTypes;
-	InvisibilityArray m_aVisibilityIntensityRangeTypes;
+	std::vector<std::pair<int,int> > m_aFlankingStrengthbyUnitCombatType;
+	std::vector<std::pair<int,int> > m_aWithdrawOnTerrainTypes;
+	std::vector<std::pair<int,int> > m_aWithdrawOnFeatureTypes;
+	std::vector<std::pair<int,int> > m_aWithdrawVSUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aPursuitVSUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aRepelVSUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aKnockbackVSUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aPunctureVSUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aArmorVSUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aDodgeVSUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aPrecisionVSUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aCriticalVSUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aRoundStunVSUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aTrapDisableUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aTrapAvoidanceUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aTrapTriggerUnitCombatTypes;
+	std::vector<std::pair<int,int> > m_aVisibilityIntensityTypes;
+	std::vector<std::pair<int,int> > m_aInvisibilityIntensityTypes;
+	std::vector<std::pair<int,int> > m_aVisibilityIntensityRangeTypes;
 	//Team Project (4)
 		//WorkRateMod
-	TerrainModifierArray m_aTerrainWorkRateModifierTypes;
-	FeatureModifierArray m_aFeatureWorkRateModifierTypes;
-	BuildModifierArray m_aBuildWorkRateModifierTypes;
-	AidArray m_aAidChanges;
+	std::vector<std::pair<int,int> > m_aTerrainWorkRateModifierTypes;
+	std::vector<std::pair<int,int> > m_aFeatureWorkRateModifierTypes;
+	std::vector<std::pair<int,int> > m_aBuildWorkRateModifierTypes;
+	std::vector<std::pair<int,int> > m_aAidChanges;
 	//TB Combat Mods End  TB SubCombat Mod end
 	//Pediahelp
 	std::vector<int> m_aiQualifiedPromotionTypes;
@@ -4129,9 +4130,6 @@ public:
 	
 	int  getBonusDefenseChanges(int i) const;
 	
-	std::vector<CvString> m_aszPrereqOrCivicsforPass3;
-	std::vector<bool> m_abPrereqOrCivicsforPass3;
-	
 	int isPrereqOrCivicsVectorSize();
 	CvString isPrereqOrCivicsNamesVectorElement(int i);
 	int isPrereqOrCivicsValuesVectorElement(int i);
@@ -4139,9 +4137,6 @@ public:
 	int isPrereqAndCivicsVectorSize();
 	CvString isPrereqAndCivicsNamesVectorElement(int i);
 	int isPrereqAndCivicsValuesVectorElement(int i);
-	
-	std::vector<CvString> m_aszPrereqAndCivicsforPass3;
-	std::vector<bool> m_abPrereqAndCivicsforPass3;
 
 	bool isReplaceBuildingClass(int i) const;
 	
@@ -4311,23 +4306,23 @@ public:
 	//BoolExpr* getFreePromotionCondition();
 	//Struct
 	int getNumFreePromoTypes() const;
-	FreePromoTypes& getFreePromoType(int iPromotion);
+	std::pair<int,BoolExpr*> getFreePromoType(int iPromotion);
 
 	int getNumFreeTraitTypes() const;
-	FreeTraitTypes& getFreeTraitType(int iIndex);
+	int getFreeTraitType(int iIndex);
 
 	int getNumHealUnitCombatTypes() const;
-	HealUnitCombat& getHealUnitCombatType(int iUnitCombat);
+	std::pair<int,int>& getHealUnitCombatType(int iUnitCombat);
 
 	int getNumBonusAidModifiers() const;
 	BonusAidModifiers& getBonusAidModifier(int iIndex);
 
 	int getNumAidRateChanges() const;
-	AidRateChanges& getAidRateChange(int iIndex);
+	std::pair<int,int>& getAidRateChange(int iIndex);
 
 	//Bool vector utilizing delayed resolution
 	int getNumEnabledCivilizationTypes() const;
-	EnabledCivilizations& getEnabledCivilizationType(int iIndex);
+	int getEnabledCivilizationType(int iIndex);
 	//TB Combat Mods (Buildings) end
 
 	bool EnablesOtherBuildings() const;
@@ -4340,9 +4335,9 @@ public:
 
 	CvPropertyManipulators* getPropertyManipulators();
 
-	bool isNewCityFree(CvGameObject* pObject);
+	bool isNewCityFree(const CvGameObject* pObject) const;
 
-	BoolExpr* getConstructCondition();
+	BoolExpr* getConstructCondition() const;
 	
 	bool m_bAnySpecialistYieldChanges;
 	bool m_bAnySpecialistCommerceChanges;
@@ -4401,8 +4396,8 @@ protected:
 	int* m_piPrereqOrVicinityBonuses;
 	int* m_piPrereqOrRawVicinityBonuses;
 	int* m_piUnitClassProductionModifier;	
-	bool* m_pbPrereqOrCivics;
-	bool* m_pbPrereqAndCivics;
+	std::vector<int> m_pbPrereqOrCivics;
+	std::vector<int> m_pbPrereqAndCivics;
 	
 	int* m_piCommerceAttacks;
 	
@@ -4707,18 +4702,18 @@ protected:
 	std::vector<int> m_aiMayDamageAttackingUnitCombatTypes;
 	std::vector<int> m_aiMapCategoryTypes;
 	//integer vectors with pairing without delayed resolution
-	UnitCombatModifierArray m_aUnitCombatRepelModifiers;
-	UnitCombatModifierArray m_aUnitCombatRepelAgainstModifiers;
-	UnitCombatModifierArray m_aUnitCombatDefenseAgainstModifiers;
-	UnitCombatModifierArray m_aUnitCombatProdModifiers;
-	UnitCombatModifierArray m_aUnitCombatOngoingTrainingDurations;
-	PromotionLineModifierArray m_aAfflictionOutbreakLevelChanges;
-	TechModifierArray m_aTechOutbreakLevelChanges;
+	std::vector<std::pair<int,int> > m_aUnitCombatRepelModifiers;
+	std::vector<std::pair<int,int> > m_aUnitCombatRepelAgainstModifiers;
+	std::vector<std::pair<int,int> > m_aUnitCombatDefenseAgainstModifiers;
+	std::vector<std::pair<int,int> > m_aUnitCombatProdModifiers;
+	std::vector<std::pair<int,int> > m_aUnitCombatOngoingTrainingDurations;
+	std::vector<std::pair<int,int> > m_aAfflictionOutbreakLevelChanges;
+	std::vector<std::pair<int,int> > m_aTechOutbreakLevelChanges;
 	//Team Project (1)
-	TechModifierArray m_aTechHappinessTypes;
-	TechModifierArray m_aTechHealthTypes;
-	TechModifierArray m_aTechSpecialistHappinesses;
-	TechModifierArray m_aTechSpecialistHealths;
+	std::vector<std::pair<int,int> > m_aTechHappinessTypes;
+	std::vector<std::pair<int,int> > m_aTechHealthTypes;
+	std::vector<std::pair<int,int> > m_aTechSpecialistHappinesses;
+	std::vector<std::pair<int,int> > m_aTechSpecialistHealths;
 	//arrays
 	int** m_ppaiLocalSpecialistYieldChange;
 	int** m_ppaiLocalSpecialistCommerceChange;
@@ -4747,12 +4742,12 @@ protected:
 	/*
 	BoolExpr* m_pExprFreePromotionCondition;*/
 	//Structs
-	std::vector<FreePromoTypes> m_aFreePromoTypes;
-	std::vector<FreeTraitTypes> m_aFreeTraitTypes;
-	std::vector<HealUnitCombat> m_aHealUnitCombatTypes;
-	std::vector<EnabledCivilizations> m_aEnabledCivilizationTypes;
+	std::vector<std::pair<int,BoolExpr*> > m_aFreePromoTypes;
+	std::vector<int> m_aFreeTraitTypes;
+	std::vector<std::pair<int,int> > m_aHealUnitCombatTypes;
+	std::vector<int> m_aEnabledCivilizationTypes;
 	std::vector<BonusAidModifiers> m_aBonusAidModifiers;
-	std::vector<AidRateChanges> m_aAidRateChanges;
+	std::vector<std::pair<int,int> > m_aAidRateChanges;
 	//TB Combat Mods (Buildings) end
 
 	bool	m_bAutoBuild;
@@ -6311,7 +6306,7 @@ public:
 
 
 	int getNumAfflictionCommunicabilityTypes() const;
-	PromotionLineAfflictionModifier& getAfflictionCommunicabilityType(int iPromotionLine, bool bWorkedTile = false, bool bVicinity = false, bool bAccessVolume = false);
+	std::pair<int,int> getAfflictionCommunicabilityType(int iPromotionLine, bool bWorkedTile = false, bool bVicinity = false, bool bAccessVolume = false);
 
 	// Other
 	const TCHAR* getButton() const; // Exposed to Python
@@ -6388,8 +6383,7 @@ protected:
 
 	std::vector<int> m_aiMapCategoryTypes;
 
-	std::vector<PromotionLineAfflictionModifier> m_aAfflictionCommunicabilityTypes;
-	std::vector<PromotionLineAfflictionModifier> m_aAfflictionCommunicabilityTypesEmpty;
+	std::vector<std::pair<int,PromotionLineAfflictionModifier> > m_aAfflictionCommunicabilityTypes;
 
 	CvPropertyManipulators m_PropertyManipulators;
 
@@ -6470,7 +6464,7 @@ public:
 	bool isMapCategoryType(int i);
 
 	int getNumAfflictionCommunicabilityTypes() const;
-	PromotionLineAfflictionModifier& getAfflictionCommunicabilityType(int iPromotionLine, bool bWorkedTile = false, bool bVicinity = false, bool bAccessVolume = false);
+	std::pair<int,int> getAfflictionCommunicabilityType(int iPromotionLine, bool bWorkedTile = false, bool bVicinity = false, bool bAccessVolume = false);
 
 	DllExport const CvArtInfoFeature* getArtInfo() const;
 	const TCHAR* getButton() const;
@@ -6510,8 +6504,7 @@ public:
 
 	CvPropertyManipulators* getPropertyManipulators();
 
-	std::vector<PromotionLineAfflictionModifier> m_aAfflictionCommunicabilityTypes;
-	std::vector<PromotionLineAfflictionModifier> m_aAfflictionCommunicabilityTypesEmpty;
+	std::vector<std::pair<int,PromotionLineAfflictionModifier> > m_aAfflictionCommunicabilityTypes;
 	//	This really belongs on CvInfoBase but you can't change the size of that
 	//	object without crashing the core engine :-(
 	inline int	getZobristValue() const { return m_zobristValue; }
@@ -6720,7 +6713,7 @@ public:
 	bool isMapCategoryType(int i);
 
 	int getNumAfflictionCommunicabilityTypes() const;
-	PromotionLineAfflictionModifier& getAfflictionCommunicabilityType(int iPromotionLine, bool bWorkedTile = false, bool bVicinity = false, bool bAccessVolume = false);
+	std::pair<int,int> getAfflictionCommunicabilityType(int iPromotionLine, bool bWorkedTile = false, bool bVicinity = false, bool bAccessVolume = false);
 
 	const CvArtInfoTerrain* getArtInfo() const;
 	const TCHAR* getButton() const;
@@ -6792,8 +6785,7 @@ protected:
 
 	std::vector<int> m_aiMapCategoryTypes;
 
-	std::vector<PromotionLineAfflictionModifier> m_aAfflictionCommunicabilityTypes;
-	std::vector<PromotionLineAfflictionModifier> m_aAfflictionCommunicabilityTypesEmpty;
+	std::vector<std::pair<int,PromotionLineAfflictionModifier> > m_aAfflictionCommunicabilityTypes;
 
 	CvPropertyManipulators m_PropertyManipulators;
 	//TB Combat Mods begin
@@ -8122,49 +8114,49 @@ public:
 	// int vector utilizing struct with delayed resolution
 
 	int getNumImprovementUpgradeModifierTypes() const;
-	ImprovementModifier& getImprovementUpgradeModifier(int iImprovement);
+	std::pair<int,int> getImprovementUpgradeModifier(int iImprovement);
 	
 	int getNumBuildWorkerSpeedModifierTypes() const;
-	BuildModifier& getBuildWorkerSpeedModifier(int iBuild);
+	std::pair<int,int> getBuildWorkerSpeedModifier(int iBuild);
 	
 	int getNumDisallowedTraitTypes() const;
-	DisallowedTraitType& isDisallowedTraitType(int iTrait);
+	int isDisallowedTraitType(int iTrait);
 	
 	int getNumDomainFreeExperiences() const;
-	DomainModifier& getDomainFreeExperience(int iDomain);
+	std::pair<int,int> getDomainFreeExperience(int iDomain);
 	
 	int getNumDomainProductionModifiers() const;
-	DomainModifier& getDomainProductionModifier(int iDomain);
+	std::pair<int,int> getDomainProductionModifier(int iDomain);
 	
 	int getNumTechResearchModifiers() const;
-	TechModifier& getTechResearchModifier(int iTech);
+	std::pair<int,int> getTechResearchModifier(int iTech);
 	
 	int getNumBuildingProductionModifiers() const;
-	BuildingModifier& getBuildingProductionModifier(int iBuilding);
+	std::pair<int,int> getBuildingProductionModifier(int iBuilding);
 	
 	int getNumSpecialBuildingProductionModifiers() const;
-	SpecialBuildingModifier& getSpecialBuildingProductionModifier(int iSpecialBuilding);
+	std::pair<int,int> getSpecialBuildingProductionModifier(int iSpecialBuilding);
 	
 	int getNumBuildingHappinessModifiers() const;
-	BuildingModifier& getBuildingHappinessModifier(int iBuilding);
+	std::pair<int,int> getBuildingHappinessModifier(int iBuilding);
 	
 	int getNumUnitProductionModifiers() const;
-	UnitModifier& getUnitProductionModifier(int iUnit);
+	std::pair<int,int> getUnitProductionModifier(int iUnit);
 	
 	int getNumSpecialUnitProductionModifiers() const;
-	SpecialUnitModifier& getSpecialUnitProductionModifier(int iSpecialUnit);
+	std::pair<int,int> getSpecialUnitProductionModifier(int iSpecialUnit);
 	
 	int getNumCivicOptionNoUpkeepTypes() const;
-	CivicOptionTypeBool& isCivicOptionNoUpkeepType(int iCivicOption);
+	int isCivicOptionNoUpkeepType(int iCivicOption);
 	//Team Project (8)
 	int getNumUnitCombatFreeExperiences() const;
-	UnitCombatModifier& getUnitCombatFreeExperience(int iUnitCombat);
+	std::pair<int,int> getUnitCombatFreeExperience(int iUnitCombat);
 	
 	int getNumUnitCombatProductionModifiers() const;
-	UnitCombatModifier& getUnitCombatProductionModifier(int iUnitCombat);
+	std::pair<int,int> getUnitCombatProductionModifier(int iUnitCombat);
 
 	int getNumBonusHappinessChanges() const;
-	BonusModifier& getBonusHappinessChange(int iBonus);
+	std::pair<int,int> getBonusHappinessChange(int iBonus);
 
 	// serialization
 	void read(FDataStreamBase* pStream) {}
@@ -8369,38 +8361,22 @@ protected:
 	int* m_piGoldenAgeCommerceChangesFiltered;
 	// bool vector without delayed resolution
 	// int vector utilizing struct with delayed resolution
-	std::vector<ImprovementModifier> m_aImprovementUpgradeModifierTypes;
-	std::vector<BuildModifier> m_aBuildWorkerSpeedModifierTypes;
-	std::vector<DisallowedTraitType> m_aDisallowedTraitTypes;
-	std::vector<DomainModifier> m_aDomainFreeExperiences;
-	std::vector<DomainModifier> m_aDomainProductionModifiers;
-	std::vector<TechModifier> m_aTechResearchModifiers;
-	std::vector<BuildingModifier> m_aBuildingProductionModifiers;
-	std::vector<SpecialBuildingModifier> m_aSpecialBuildingProductionModifiers;
-	std::vector<BuildingModifier> m_aBuildingHappinessModifiers;
-	std::vector<UnitModifier> m_aUnitProductionModifiers;
-	std::vector<SpecialUnitModifier> m_aSpecialUnitProductionModifiers;
-	std::vector<CivicOptionTypeBool> m_aCivicOptionNoUpkeepTypes;
+	std::vector<std::pair<int,int> > m_aImprovementUpgradeModifierTypes;
+	std::vector<std::pair<int,int> > m_aBuildWorkerSpeedModifierTypes;
+	std::vector<int> m_aDisallowedTraitTypes;
+	std::vector<std::pair<int,int> > m_aDomainFreeExperiences;
+	std::vector<std::pair<int,int> > m_aDomainProductionModifiers;
+	std::vector<std::pair<int,int> > m_aTechResearchModifiers;
+	std::vector<std::pair<int,int> > m_aBuildingProductionModifiers;
+	std::vector<std::pair<int,int> > m_aSpecialBuildingProductionModifiers;
+	std::vector<std::pair<int,int> > m_aBuildingHappinessModifiers;
+	std::vector<std::pair<int,int> > m_aUnitProductionModifiers;
+	std::vector<std::pair<int,int> > m_aSpecialUnitProductionModifiers;
+	std::vector<int> m_aCivicOptionNoUpkeepTypes;
 	//Team Project (8)
-	std::vector<UnitCombatModifier> m_aUnitCombatFreeExperiences;
-	std::vector<UnitCombatModifier> m_aUnitCombatProductionModifiers;
-	std::vector<BonusModifier> m_aBonusHappinessChanges;
-	// int vector utilizing struct with delayed resolution for Pure Traits
-	std::vector<ImprovementModifier> m_aImprovementUpgradeModifierTypesFiltered;
-	std::vector<BuildModifier> m_aBuildWorkerSpeedModifierTypesFiltered;
-	std::vector<DomainModifier> m_aDomainFreeExperiencesFiltered;
-	std::vector<DomainModifier> m_aDomainProductionModifiersFiltered;
-	std::vector<TechModifier> m_aTechResearchModifiersFiltered;
-	std::vector<BuildingModifier> m_aBuildingProductionModifiersFiltered;
-	std::vector<SpecialBuildingModifier> m_aSpecialBuildingProductionModifiersFiltered;
-	std::vector<BuildingModifier> m_aBuildingHappinessModifiersFiltered;
-	std::vector<UnitModifier> m_aUnitProductionModifiersFiltered;
-	std::vector<SpecialUnitModifier> m_aSpecialUnitProductionModifiersFiltered;
-	std::vector<CivicOptionTypeBool> m_aCivicOptionNoUpkeepTypesFiltered;
-	//Team Project (8)
-	std::vector<UnitCombatModifier> m_aUnitCombatFreeExperiencesFiltered;
-	std::vector<UnitCombatModifier> m_aUnitCombatProductionModifiersFiltered;
-	std::vector<BonusModifier> m_aBonusHappinessChangesFiltered;
+	std::vector<std::pair<int,int> > m_aUnitCombatFreeExperiences;
+	std::vector<std::pair<int,int> > m_aUnitCombatProductionModifiers;
+	std::vector<std::pair<int,int> > m_aBonusHappinessChanges;
 
 	//TB Traits mods end
 };
@@ -10285,10 +10261,10 @@ public:
 	//TB Tags
 	// int vector utilizing struct with delayed resolution
 	int getNumEnforcesGameOptionOnTypes() const;
-	GameOptionTypeBool& isEnforcesGameOptionOnType(int iOption);
+	int isEnforcesGameOptionOnType(int iOption);
 
 	int getNumEnforcesGameOptionOffTypes() const;
-	GameOptionTypeBool& isEnforcesGameOptionOffType(int iOption);
+	int isEnforcesGameOptionOffType(int iOption);
 
 	bool read(CvXMLLoadUtility* pXML);
 
@@ -10301,8 +10277,8 @@ private:
 	bool m_bVisible;
 	//TB Tags
 	// int vector utilizing struct with delayed resolution
-	std::vector<GameOptionTypeBool> m_aEnforcesGameOptionOnTypes;
-	std::vector<GameOptionTypeBool> m_aEnforcesGameOptionOffTypes;
+	std::vector<int> m_aEnforcesGameOptionOnTypes;
+	std::vector<int> m_aEnforcesGameOptionOffTypes;
 };
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -11256,9 +11232,9 @@ public:
 	CvWString getChangeAllCitiesDisplayText() const;
 	CvWString getPrereqMinDisplayText() const;
 	CvWString getPrereqMaxDisplayText() const;
-	PropertyBuilding& getPropertyBuilding(int index);
+	std::pair<int,PropertyMinMax>& getPropertyBuilding(int index);
 	int getNumPropertyBuildings() const;
-	PropertyPromotion& getPropertyPromotion(int index);
+	std::pair<int,PropertyMinMax>& getPropertyPromotion(int index);
 	int getNumPropertyPromotions() const;
 
 	int getChangePropagator(const GameObjectTypes eFrom, const GameObjectTypes eTo) const;
@@ -11303,9 +11279,9 @@ protected:
 
 	int m_aaiChangePropagator[NUM_GAMEOBJECTS][NUM_GAMEOBJECTS]; // from/to, in percent
 
-	std::vector<PropertyBuilding> m_aPropertyBuildings;
-	std::vector<PropertyPromotion> m_aPropertyPromotions;
-	EraArray m_aTargetLevelbyEraTypes;
+	std::vector<std::pair<int,PropertyMinMax> > m_aPropertyBuildings;
+	std::vector<std::pair<int,PropertyMinMax> > m_aPropertyPromotions;
+	std::vector<std::pair<int,int> > m_aTargetLevelbyEraTypes;
 
 	CvPropertyManipulators m_PropertyManipulators;
 };
@@ -11516,10 +11492,10 @@ protected:
 	std::vector<int> m_aiBuildings;
 	
 	// int vector utilizing pairing without delayed resolution
-	UnitCombatModifierArray m_aUnitCombatContractChanceChanges;
-	UnitCombatModifierArray m_aUnitCombatOvercomeChanges;
-	TechModifierArray m_aTechContractChanceChanges;
-	TechModifierArray m_aTechOvercomeChanges;
+	std::vector<std::pair<int,int> > m_aUnitCombatContractChanceChanges;
+	std::vector<std::pair<int,int> > m_aUnitCombatOvercomeChanges;
+	std::vector<std::pair<int,int> > m_aTechContractChanceChanges;
+	std::vector<std::pair<int,int> > m_aTechOvercomeChanges;
 };
 //TB Promotion Line Mod end
 
@@ -11822,73 +11798,73 @@ public:
 
 	// int vector utilizing struct with delayed resolution
 	int getNumAfflictionFortitudeChangeModifiers() const;
-	PromotionLineModifier& getAfflictionFortitudeChangeModifier(int iAfflictionLine);
+	std::pair<int,int>& getAfflictionFortitudeChangeModifier(int iAfflictionLine);
 
 	int getNumTerrainAttackChangeModifiers() const;
-	TerrainModifier& getTerrainAttackChangeModifier(int iTerrain);
+	std::pair<int,int>& getTerrainAttackChangeModifier(int iTerrain);
 
 	int getNumTerrainDefenseChangeModifiers() const;
-	TerrainModifier& getTerrainDefenseChangeModifier(int iTerrain);
+	std::pair<int,int>& getTerrainDefenseChangeModifier(int iTerrain);
 
 	int getNumTerrainWorkChangeModifiers() const;
-	TerrainModifier& getTerrainWorkChangeModifier(int iTerrain);
+	std::pair<int,int>& getTerrainWorkChangeModifier(int iTerrain);
 
 	int getNumBuildWorkChangeModifiers() const;
-	BuildModifier& getBuildWorkChangeModifier(int iBuild);
+	std::pair<int,int>& getBuildWorkChangeModifier(int iBuild);
 
 	int getNumFeatureAttackChangeModifiers() const;
-	FeatureModifier& getFeatureAttackChangeModifier(int iFeature);
+	std::pair<int,int>& getFeatureAttackChangeModifier(int iFeature);
 
 	int getNumFeatureDefenseChangeModifiers() const;
-	FeatureModifier& getFeatureDefenseChangeModifier(int iFeature);
+	std::pair<int,int>& getFeatureDefenseChangeModifier(int iFeature);
 
 	int getNumFeatureWorkChangeModifiers() const;
-	FeatureModifier& getFeatureWorkChangeModifier(int iFeature);
+	std::pair<int,int>& getFeatureWorkChangeModifier(int iFeature);
 
 	int getNumUnitCombatChangeModifiers() const;
-	UnitCombatModifier& getUnitCombatChangeModifier(int iUnitCombat);
+	std::pair<int,int>& getUnitCombatChangeModifier(int iUnitCombat);
 
 	int getNumFlankingStrengthbyUnitCombatTypesChange() const;
-	UnitCombatModifier& getFlankingStrengthbyUnitCombatTypeChange(int iUnitCombat);
+	std::pair<int,int>& getFlankingStrengthbyUnitCombatTypeChange(int iUnitCombat);
 
 	int getNumWithdrawVSUnitCombatTypesChange() const;
-	UnitCombatModifier& getWithdrawVSUnitCombatTypeChange(int iUnitCombat);
+	std::pair<int,int>& getWithdrawVSUnitCombatTypeChange(int iUnitCombat);
 
 	//Fight or Flight only
 	int getNumPursuitVSUnitCombatTypesChange() const;
-	UnitCombatModifier& getPursuitVSUnitCombatTypeChange(int iUnitCombat);
+	std::pair<int,int>& getPursuitVSUnitCombatTypeChange(int iUnitCombat);
 
 	//Heart of War only
 	int getNumRepelVSUnitCombatTypesChange() const;
-	UnitCombatModifier& getRepelVSUnitCombatTypeChange(int iUnitCombat);
+	std::pair<int,int>& getRepelVSUnitCombatTypeChange(int iUnitCombat);
 
 	//Heart of War only
 	int getNumKnockbackVSUnitCombatTypesChange() const;
-	UnitCombatModifier& getKnockbackVSUnitCombatTypeChange(int iUnitCombat);
+	std::pair<int,int>& getKnockbackVSUnitCombatTypeChange(int iUnitCombat);
 
 	int getNumPunctureVSUnitCombatTypesChange() const;
-	UnitCombatModifier& getPunctureVSUnitCombatTypeChange(int iUnitCombat);
+	std::pair<int,int>& getPunctureVSUnitCombatTypeChange(int iUnitCombat);
 
 	int getNumArmorVSUnitCombatTypesChange() const;
-	UnitCombatModifier& getArmorVSUnitCombatTypeChange(int iUnitCombat);
+	std::pair<int,int>& getArmorVSUnitCombatTypeChange(int iUnitCombat);
 
 	int getNumDodgeVSUnitCombatTypesChange() const;
-	UnitCombatModifier& getDodgeVSUnitCombatTypeChange(int iUnitCombat);
+	std::pair<int,int>& getDodgeVSUnitCombatTypeChange(int iUnitCombat);
 
 	int getNumPrecisionVSUnitCombatTypesChange() const;
-	UnitCombatModifier& getPrecisionVSUnitCombatTypeChange(int iUnitCombat);
+	std::pair<int,int>& getPrecisionVSUnitCombatTypeChange(int iUnitCombat);
 
 	int getNumCriticalVSUnitCombatTypesChange() const;
-	UnitCombatModifier& getCriticalVSUnitCombatTypeChange(int iUnitCombat);
+	std::pair<int,int>& getCriticalVSUnitCombatTypeChange(int iUnitCombat);
 
 	int getNumRoundStunVSUnitCombatTypesChange() const;
-	UnitCombatModifier& getRoundStunVSUnitCombatTypeChange(int iUnitCombat);
+	std::pair<int,int>& getRoundStunVSUnitCombatTypeChange(int iUnitCombat);
 
 	int getNumTrapAvoidanceUnitCombatTypes() const;
-	UnitCombatModifier& getTrapAvoidanceUnitCombatType(int iIndex);
+	std::pair<int,int>& getTrapAvoidanceUnitCombatType(int iIndex);
 
 	int getNumAfflictOnAttackChangeTypes() const;
-	AfflictOnAttackChange& getAfflictOnAttackChangeType(int iAfflictionLine);
+	std::pair<int,AfflictOnAttackChange>& getAfflictOnAttackChangeType(int iAfflictionLine);
 
 	int getNumInvisibleTerrainChanges() const;
 	InvisibleTerrainChanges& getInvisibleTerrainChange(int iIndex);
@@ -11918,7 +11894,7 @@ public:
 	InvisibleImprovementChanges& getVisibleImprovementRangeChange(int iIndex);
 
 	int getNumDistanceAttackCommunicabilityTypeChanges() const;
-	AfflictionLineChanges& getDistanceAttackCommunicabilityTypeChange(int iIndex);
+	std::pair<int,int>& getDistanceAttackCommunicabilityTypeChange(int iIndex);
 
 	//Propery Manipulators
 	CvPropertyManipulators* getPropertyManipulators();
@@ -12120,36 +12096,36 @@ protected:
 	std::vector<int> m_aiDefaultStatusTypes;
 	std::vector<int> m_aiTrapImmunityUnitCombatTypes;
 	// int vectors utilizing pairing without delayed resolution
-	TerrainModifierArray m_aWithdrawOnTerrainTypesChange;
-	FeatureModifierArray m_aWithdrawOnFeatureTypesChange;
-	InvisibilityArray m_aVisibilityIntensityChangeTypes;
-	InvisibilityArray m_aInvisibilityIntensityChangeTypes;
-	InvisibilityArray m_aVisibilityIntensityRangeChangeTypes;
-	InvisibilityArray m_aVisibilityIntensitySameTileChangeTypes;
-	AidArray m_aAidChanges;
+	std::vector<std::pair<int,int> > m_aWithdrawOnTerrainTypesChange;
+	std::vector<std::pair<int,int> > m_aWithdrawOnFeatureTypesChange;
+	std::vector<std::pair<int,int> > m_aVisibilityIntensityChangeTypes;
+	std::vector<std::pair<int,int> > m_aInvisibilityIntensityChangeTypes;
+	std::vector<std::pair<int,int> > m_aVisibilityIntensityRangeChangeTypes;
+	std::vector<std::pair<int,int> > m_aVisibilityIntensitySameTileChangeTypes;
+	std::vector<std::pair<int,int> > m_aAidChanges;
 	// int vector utilizing struct with delayed resolution
-	std::vector<PromotionLineModifier> m_aAfflictionFortitudeChangeModifiers;
-	std::vector<TerrainModifier> m_aTerrainAttackChangeModifiers;
-	std::vector<TerrainModifier> m_aTerrainDefenseChangeModifiers;
-	std::vector<TerrainModifier> m_aTerrainWorkChangeModifiers;
-	std::vector<BuildModifier> m_aBuildWorkChangeModifiers;
-	std::vector<FeatureModifier> m_aFeatureAttackChangeModifiers;
-	std::vector<FeatureModifier> m_aFeatureDefenseChangeModifiers;
-	std::vector<FeatureModifier> m_aFeatureWorkChangeModifiers;
-	std::vector<UnitCombatModifier> m_aUnitCombatChangeModifiers;
-	std::vector<UnitCombatModifier> m_aFlankingStrengthbyUnitCombatTypeChange;
-	std::vector<UnitCombatModifier> m_aWithdrawVSUnitCombatTypeChange;
-	std::vector<UnitCombatModifier> m_aPursuitVSUnitCombatTypeChange;
-	std::vector<UnitCombatModifier> m_aRepelVSUnitCombatTypeChange;
-	std::vector<UnitCombatModifier> m_aKnockbackVSUnitCombatTypeChange;
-	std::vector<UnitCombatModifier> m_aPunctureVSUnitCombatTypeChange;
-	std::vector<UnitCombatModifier> m_aArmorVSUnitCombatTypeChange;
-	std::vector<UnitCombatModifier> m_aDodgeVSUnitCombatTypeChange;
-	std::vector<UnitCombatModifier> m_aPrecisionVSUnitCombatTypeChange;
-	std::vector<UnitCombatModifier> m_aCriticalVSUnitCombatTypeChange;
-	std::vector<UnitCombatModifier> m_aRoundStunVSUnitCombatTypeChange;
-	std::vector<UnitCombatModifier> m_aTrapAvoidanceUnitCombatTypes;
-	std::vector<AfflictOnAttackChange> m_aAfflictOnAttackChangeTypes;
+	std::vector<std::pair<int,int> > m_aAfflictionFortitudeChangeModifiers;
+	std::vector<std::pair<int,int> > m_aTerrainAttackChangeModifiers;
+	std::vector<std::pair<int,int> > m_aTerrainDefenseChangeModifiers;
+	std::vector<std::pair<int,int> > m_aTerrainWorkChangeModifiers;
+	std::vector<std::pair<int,int> > m_aBuildWorkChangeModifiers;
+	std::vector<std::pair<int,int> > m_aFeatureAttackChangeModifiers;
+	std::vector<std::pair<int,int> > m_aFeatureDefenseChangeModifiers;
+	std::vector<std::pair<int,int> > m_aFeatureWorkChangeModifiers;
+	std::vector<std::pair<int,int> > m_aUnitCombatChangeModifiers;
+	std::vector<std::pair<int,int> > m_aFlankingStrengthbyUnitCombatTypeChange;
+	std::vector<std::pair<int,int> > m_aWithdrawVSUnitCombatTypeChange;
+	std::vector<std::pair<int,int> > m_aPursuitVSUnitCombatTypeChange;
+	std::vector<std::pair<int,int> > m_aRepelVSUnitCombatTypeChange;
+	std::vector<std::pair<int,int> > m_aKnockbackVSUnitCombatTypeChange;
+	std::vector<std::pair<int,int> > m_aPunctureVSUnitCombatTypeChange;
+	std::vector<std::pair<int,int> > m_aArmorVSUnitCombatTypeChange;
+	std::vector<std::pair<int,int> > m_aDodgeVSUnitCombatTypeChange;
+	std::vector<std::pair<int,int> > m_aPrecisionVSUnitCombatTypeChange;
+	std::vector<std::pair<int,int> > m_aCriticalVSUnitCombatTypeChange;
+	std::vector<std::pair<int,int> > m_aRoundStunVSUnitCombatTypeChange;
+	std::vector<std::pair<int,int> > m_aTrapAvoidanceUnitCombatTypes;
+	std::vector<std::pair<int,AfflictOnAttackChange> > m_aAfflictOnAttackChangeTypes;
 	std::vector<InvisibleTerrainChanges> m_aInvisibleTerrainChanges;
 	std::vector<InvisibleFeatureChanges> m_aInvisibleFeatureChanges;
 	std::vector<InvisibleImprovementChanges> m_aInvisibleImprovementChanges;
@@ -12158,7 +12134,7 @@ protected:
 	std::vector<InvisibleTerrainChanges> m_aVisibleTerrainChanges;
 	std::vector<InvisibleFeatureChanges> m_aVisibleFeatureRangeChanges;
 	std::vector<InvisibleImprovementChanges> m_aVisibleImprovementRangeChanges;
-	std::vector<AfflictionLineChanges> m_aDistanceAttackCommunicabilityTypeChanges;
+	std::vector<std::pair<int,int> > m_aDistanceAttackCommunicabilityTypeChanges;
 	std::vector<InvisibleTerrainChanges> m_aVisibleTerrainRangeChanges;
 
 	CvPropertyManipulators m_PropertyManipulators;

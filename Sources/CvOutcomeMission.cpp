@@ -21,7 +21,6 @@ m_pUnitCondition(NULL)
 
 CvOutcomeMission::~CvOutcomeMission()
 {
-	GC.removeDelayedResolution((int*)&m_eMission);
 	SAFE_DELETE(m_iCost);
 	SAFE_DELETE(m_pPlotCondition);
 	SAFE_DELETE(m_pUnitCondition);
@@ -57,7 +56,7 @@ GameObjectTypes CvOutcomeMission::getPayerType()
 	return m_ePayerType;
 }
 
-void callSetPayer(CvGameObject* pObject, CvGameObject** ppPayer)
+void callSetPayer(const CvGameObject* pObject, const CvGameObject** ppPayer)
 {
 	*ppPayer = pObject;
 }
@@ -94,7 +93,7 @@ bool CvOutcomeMission::isPossible(CvUnit* pUnit, bool bTestVisible)
 	//{
 		if (!getPropertyCost()->isEmpty())
 		{
-			CvGameObject* pPayer = NULL;
+			const CvGameObject* pPayer = NULL;
 			if ((m_ePayerType == NO_GAMEOBJECT) || (m_ePayerType == GAMEOBJECT_UNIT))
 			{
 				pPayer = pUnit->getGameObject();
@@ -181,7 +180,7 @@ void CvOutcomeMission::execute(CvUnit* pUnit)
 
 	if (!getPropertyCost()->isEmpty())
 	{
-		CvGameObject* pPayer = NULL;
+		const CvGameObject* pPayer = NULL;
 		if ((m_ePayerType == NO_GAMEOBJECT) || (m_ePayerType == GAMEOBJECT_UNIT))
 		{
 			pPayer = pUnit->getGameObject();

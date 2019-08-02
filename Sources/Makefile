@@ -1,329 +1,381 @@
+#### Civilization 4 SDK Makefile 2.5 ####
+####  Copyright 2015 Nightinggale    ####
+#########################################
+#### Civilization 4 SDK Makefile 2.0 ####
+####  Copyright 2013 Nightinggale    ####
+#########################################
 #### Civilization 4 SDK Makefile 1.0 ####
 ####  Copyright 2010 Danny Daemonic  ####
 #########################################
 
-#### Paths ####
-# These rely on the deps folder extracted from deps.exe.
-# This should happen automatically when using the build batch files, otherwise run Tools\InstallDeps.bat
-TOOLKIT=deps\Microsoft Visual C++ Toolkit 2003
-COMPILER_TOOLKIT=$(TOOLKIT)
-PSDK=deps\Microsoft Platform SDK
-GLOBALBOOST=deps\Boost-1.32.0
-GLOBALPYTHON=deps\Python24
-# TORTOISE="C:\Program files\TortoiseSVN"
 
-include MakefilePaths
+## User setup
+##
+## Any setting here can be overwritten by assigning a new value to the variables in Makefile.settings
+##  Makefile.settings is made automatically if it is missing whenever the project is build or cleaned
+##
+## Not touching the makefile itself can be beneficial if the makefile is committed to svn/git
+## Makefile.settings can also accept CUSTOM_CFLAGS and CUSTOM_LDFLAGS if you want to ADD additional flags
+##   the custom flags will not overwrite any flags the makefile sets itself
+##   An example could be you want to define ENABLE_MY_DEBUG_OUTPUT in C+, then you write
+##     CUSTOM_CFLAGS -DENABLE_MY_DEBUG_OUTPUT
+##     in Makefile.settings and it will be defined for you without the risk of committing active debug output to other people
+##
+##     You can write whatever you want after -D and it will work like you write #DEFINE in C++
+## 
+
+
+#### Paths ####
+#
+# Note: $(PROGRAMFILES) converts to "C:\Program Files", "C:\Program Files (x86)" or whatever fits your system.
+# run "nmake.exe /P" in cmd.exe to see what it is on your system
+TOOLKIT=deps\Microsoft Visual C++ Toolkit 2003
+PSDK=deps\Microsoft Platform SDK
+## Uncomment to have newly compiled dlls copied to your mod's Assets directory
+YOURMOD=..
+
+## Civ install path
+## Path to the directory where boost and python is stored
+## Overwritten by enviroment variable CIV4_LIB_INSTALL_PATH
+# CIV4_PATH=$(PROGRAMFILES)\2K Games\Firaxis Games\Sid Meier's Civilization IV Colonization\CvGameCoreDLL
 
 #### Tools ####
 CC="$(TOOLKIT)\bin\cl.exe"
 CPP="$(TOOLKIT)\bin\cl.exe"
 LD="$(TOOLKIT)\bin\link.exe"
 RC="$(PSDK)\bin\rc.exe"
-# WCREV="$(TORTOISE)\bin\SubWCRev.exe"
 ## Uncomment to build dependencies using fastdep
-FD="$(MAKEDIR)\deps\fastdep\fastdep.exe"
+## Overwritten by enviroment variable FASTDEP_FULL_PATH
+FD="deps\fastdep\fastdep.exe"
+
+TORTOISE="C:\Program files\TortoiseSVN"
+WCREV="$(TORTOISE)\bin\SubWCRev.exe"
+
+### BLACKLIST ####
+## Uncomment to block CvTextScreen (accidentally included by Firaxis)
+# BLACKLIST=CvTextScreens
+
+#### DEFINES ####
+## copy the following lines into "Additional options" in NMAKE properties
+## This will make VC++ aware of what is defined and what isn't, which affects the help popup and red lines
+## Use Release_DEFINES for all targets except debug
+## Assert adds /DFASSERT_ENABLE, which should be added to additional options too, if you care.
+## However you will only be able to tell a difference if you do something with asserts other than FAssert() or FAssertMsg()
+
+Debug_DEFINES=/DWIN32 /D_WINDOWS /D_USRDLL /D_DEBUG
+Release_DEFINES=/DWIN32 /D_WINDOWS /D_USRDLL /DNDEBUG /DFINAL_RELEASE
 
 #### You shouldn't need to modify anything beyond this point ####
 #################################################################
 
-GAME_OPTIONS= /D_MOD_SENTRY /D_MOD_FRACTRADE /D_MOD_GOVWORKERS /DQC_MASTERY_VICTORY /DLOG_AI /D_MOD_GWARM /D_MOD_SHAM_SPOILER /DC2C_BUILD /DMULTI_FEATURE_MOD
-Debug_GLOBAL_CFLAGS= $(GAME_OPTIONS) /DFP_PROFILE_ENABLE /DUSE_INTERNAL_PROFILER
-# Turn OFF Civs own profiler, we are using 3rd party one for this build config (VTune/sleepy/VS profiler etc.)
-Profile_GLOBAL_CFLAGS= $(GAME_OPTIONS)
-Release_GLOBAL_CFLAGS= $(GAME_OPTIONS) /DFP_PROFILE_ENABLE /DUSE_INTERNAL_PROFILER
-Final_Release_GLOBAL_CFLAGS= $(GAME_OPTIONS)
+TEMP_FILE_DIR = temp_files
+CUSTOM_CFLAGS =
+CUSTOM_LDFLAGS =
 
-#### Target Files ####
-Debug_BIN=Debug\CvGameCoreDLL.dll
-Profile_BIN=Profile\CvGameCoreDLL.dll
-Release_BIN=Release\CvGameCoreDLL.dll
-Final_Release_BIN=Final_Release\CvGameCoreDLL.dll
+# !IF [IF NOT EXIST Makefile.settings EXIT 1] != 0
+# !IF [ECHO CUSTOM_CFLAGS = > Makefile.settings]
+# !ENDIF
+# !ENDIF
+# !include Makefile.settings
 
-!IF [IF NOT EXIST CvGameCoreDLL.rc EXIT 1] == 0
-Debug_RESOURCE=Debug\CvGameCoreDLL.res
-Profile_RESOURCE=Profile\CvGameCoreDLL.res
-Release_RESOURCE=Release\CvGameCoreDLL.res
-Final_Release_RESOURCE=Final_Release\CvGameCoreDLL.res
+# /nologo /MD /Z7 /O2 /Oy /Oi /G7 /DWIN32 /D_WINDOWS /D_USRDLL /DCVGAMECOREDLL_EXPORTS /DNDEBUG /DFINAL_RELEASE /GR /Gy /W3 /EHsc /Gd /Gm- /Fd"temp_files\Profile\CvGameCoreDLL.pdb"   /Z7 /Yu"CvGameCoreDLL.h" /Fp"temp_files\Profile\CvGameCoreDLL.pch" /I"deps/Boost-1.32.0/include" /I"deps/Python24/include" /I"./include" /I"deps\Microsoft Visual C++ Toolkit 2003/include" /I"deps\Microsoft Platform SDK/Include" /I"deps\Microsoft Platform SDK/Include/mfc" /YcCvGameCoreDLL.h /Fo"temp_files\Profile\_precompile.obj" /c .\_precompile.cpp
+PRECOMPILE_DEPENDENCIES = 
+PROJECT_CFLAGS = /arch:SSE2 /Zm200 /DXERCES_STATIC_LIBRARY /D_MOD_SENTRY /D_MOD_FRACTRADE /D_MOD_GOVWORKERS /DQC_MASTERY_VICTORY /DLOG_AI /D_MOD_GWARM /D_MOD_SHAM_SPOILER /DC2C_BUILD /DMULTI_FEATURE_MOD
+PROJECT_LDFLAGS = /LTCG /NODEFAULTLIB:msvcprtd.lib /DEF:CvGameCoreDLL.def
+SOURCE_DIR = .
+
+SUBDIRPATH1 = ../
+SUBDIRPATH2 = ../
+SUBDIRPATH3 = ../
+SUBDIRPATH4 = ../
+SUBDIRPATH5 = ../
+SUBDIRPATH6 = ../
+SUBDIRPATH7 = ../
+SUBDIRPATH8 = ../
+SUBDIRPATH9 = ../
+SUBDIRPATH10 = ../
+SUBDIRPATH11 = ../
+SUBDIRPATH12 = ../
+SUBDIRPATH13 = ../
+SUBDIRPATH14 = ../
+SUBDIRPATH15 = ../
+
+# !IF [IF NOT EXIST Makefile.project EXIT 1] != 0
+# !IF [ECHO SOURCE_DIR = .>> Makefile.project]
+# !ENDIF
+# !IF [ECHO PROJECT_CFLAGS = >> Makefile.project]
+# !ENDIF
+# !IF [ECHO PROJECT_LDFLAGS = >> Makefile.project]
+# !ENDIF
+# !IF [ECHO PRECOMPILE_DEPENDENCIES = >> Makefile.project]
+# !ENDIF
+# !ENDIF
+# !include Makefile.project
+
+SUBDIRS = . $(SUBDIR1) $(SUBDIR2) $(SUBDIR3) $(SUBDIR4) $(SUBDIR5) $(SUBDIR6) $(SUBDIR7) $(SUBDIR8) $(SUBDIR9) $(SUBDIR10) $(SUBDIR11) $(SUBDIR12) $(SUBDIR13) $(SUBDIR14) $(SUBDIR15)
+
+TEMP_TARGET_FILES = $(TEMP_FILE_DIR)\$(TARGET)
+
+## Environmental path overwrite
+!IFDEF CIV4_LIB_INSTALL_PATH
+CIV4_PATH=$(CIV4_LIB_INSTALL_PATH)
 !ENDIF
 
-Debug_STATICLIB=Debug\CvGameCoreDLL.lib
-Profile_STATICLIB=Profile\CvGameCoreDLL.lib
-Release_STATICLIB=Release\CvGameCoreDLL.lib
-Final_Release_STATICLIB=Final_Release\CvGameCoreDLL.lib
+!IFDEF FASTDEP_FULL_PATH
+FD=$(FASTDEP_FULL_PATH)
+!ENDIF
 
-Debug_LIBDEF=Debug\CvGameCoreDLL.def
-Profile_LIBDEF=Profile\CvGameCoreDLL.def
-Release_LIBDEF=Release\CvGameCoreDLL.def
-Final_Release_LIBDEF=Final_Release\CvGameCoreDLL.def
+#### Target Files ####
+Target_BIN=$(TARGET)\CvGameCoreDLL.dll
+Target_BIN_TEMP=$(TEMP_TARGET_FILES)\CvGameCoreDLL.dll
 
-Debug_PCH=Debug\CvGameCoreDLL.pch
-Profile_PCH=Profile\CvGameCoreDLL.pch
-Release_PCH=Release\CvGameCoreDLL.pch
-Final_Release_PCH=Final_Release\CvGameCoreDLL.pch
+!IF [IF NOT EXIST CvGameCoreDLL.rc EXIT 1] == 0
+Target_RESOURCE=$(TEMP_TARGET_FILES)\CvGameCoreDLL.res
+!ENDIF
 
-Debug_PDB=Debug\CvGameCoreDLL.pdb
-Profile_PDB=Profile\CvGameCoreDLL.pdb
-Release_PDB=Release\CvGameCoreDLL.pdb
-Final_Release_PDB=Final_Release\CvGameCoreDLL.pdb
+Target_STATICLIB=$(TEMP_TARGET_FILES)\CvGameCoreDLL.lib
 
-Debug_OTHER=Debug\CvGameCoreDLL.exp Debug\CvGameCoreDLL.ilk
-Profile_OTHER=Profile\CvGameCoreDLL.exp
-Release_OTHER=Release\CvGameCoreDLL.exp
-Final_Release_OTHER=Final_Release\CvGameCoreDLL.exp
+Target_LIBDEF=$(TEMP_TARGET_FILES)\CvGameCoreDLL.def
+
+Target_PCH=$(TEMP_TARGET_FILES)\CvGameCoreDLL.pch
+
+Target_PDB=$(TARGET)\CvGameCoreDLL.pdb
+Target_PDB_TEMP=$(TEMP_TARGET_FILES)\CvGameCoreDLL.pdb
+
+Target_OTHER=$(TEMP_TARGET_FILES)\CvGameCoreDLL.exp
+
+!IFDEF IGNORE_CUSTOM
+CUSTOM_CFLAGS  =
+CUSTOM_LDFLAGS =
+!ENDIF
+
+FILE_DEPENDS = $(TEMP_TARGET_FILES)\depends
 
 #### CFLAGS ####
-GLOBAL_CFLAGS=/GR /Gy /W3 /EHsc /arch:SSE2 /Gd /Gm- /DWIN32 /D_WINDOWS /D_USRDLL /Yu"CvGameCoreDLL.h" /Zm200 /DXERCES_STATIC_LIBRARY
-Debug_CFLAGS=/MD /Zi /Od /D_DEBUG /RTC1 /Fp"$(Debug_PCH)" /Fd"./Debug/" $(GLOBAL_CFLAGS) $(Debug_GLOBAL_CFLAGS)
-Profile_CFLAGS=/MD /Zi /O2 /Oy /Oi /G7 /Og /Ob2 /DNDEBUG /Fp"$(Profile_PCH)" /Fd"./Profile/" $(GLOBAL_CFLAGS) $(Profile_GLOBAL_CFLAGS)
-Release_CFLAGS=/MD /Zi /O2 /Oy /Oi /G7 /DNDEBUG /Fp"$(Release_PCH)" /Fd"./Release/" $(GLOBAL_CFLAGS) $(Release_GLOBAL_CFLAGS)
-Final_Release_CFLAGS=/MD /Zi /O2 /Oy /Oi /G7 /DNDEBUG /DFINAL_RELEASE /Fp"$(Final_Release_PCH)" /Fd"./Final_Release/" $(GLOBAL_CFLAGS) $(Final_Release_GLOBAL_CFLAGS)
+GLOBAL_CFLAGS=/GR /Gy /W3 /EHsc /Gd /Gm- /Fd"$(Target_PDB_TEMP)" $(PROJECT_CFLAGS)
+Debug_CFLAGS=/MD /Z7 /Od /RTC1 $(Debug_DEFINES) $(GLOBAL_CFLAGS)
+Release_CFLAGS= /MD /Z7 /O2 /Oy /Oi /G7 $(Release_DEFINES) $(GLOBAL_CFLAGS)
+
+PRECOMPILE_CFLAGS1 = /Yu"
+PRECOMPILE_CFLAGS2 = CvGameCoreDLL.h" /Fp"$(Target_PCH)"
 
 #### LDFLAGS ####
-GLOBAL_LDFLAGS=/DLL /NOLOGO /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DEF:CvGameCoreDLL.def /LTCG
-Debug_LDFLAGS=/INCREMENTAL:NO /DEBUG /PDB:"$(Debug_PDB)" /IMPLIB:"$(Debug_STATICLIB)" $(GLOBAL_LDFLAGS)
-Profile_LDFLAGS=/INCREMENTAL:NO /DEBUG /IMPLIB:"$(Profile_STATICLIB)" /PDB:"$(Profile_PDB)" $(GLOBAL_LDFLAGS)
-Release_LDFLAGS=/INCREMENTAL:NO /DEBUG /OPT:REF /OPT:ICF /IMPLIB:"$(Release_STATICLIB)" /PDB:"$(Release_PDB)" $(GLOBAL_LDFLAGS)
-Final_Release_LDFLAGS=/INCREMENTAL:NO /DEBUG /OPT:REF /OPT:ICF /IMPLIB:"$(Final_Release_LIBDEF)" /PDB:"$(Final_Release_PDB)" /PDBALTPATH:CvGameCoreDLL.pdb $(GLOBAL_LDFLAGS)
+GLOBAL_LDFLAGS=/DLL /NOLOGO /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /PDB:"$(Target_PDB_TEMP)" $(CUSTOM_LDFLAGS) $(PROJECT_LDFLAGS)
+Debug_LDFLAGS=/INCREMENTAL:NO /DEBUG /IMPLIB:"$(Target_STATICLIB)" $(GLOBAL_LDFLAGS)
+Release_LDFLAGS=/INCREMENTAL:NO /DEBUG /OPT:REF /OPT:ICF $(GLOBAL_LDFLAGS)
 
 #### INCLUDES ####
-GLOBAL_INCS=/I"$(TOOLKIT)/include" /I"$(PSDK)/Include" /I"$(PSDK)/Include/mfc" /I"$(GLOBALBOOST)/include" /I"$(GLOBALPYTHON)/include" /I"./include"
-PROJECT_INCS=/IBoost-1.32.0/include /IPython24/include
-Debug_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
-Profile_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
-Release_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
-Final_Release_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
+GLOBAL_INCS=/I"$(TOOLKIT)/include" /I"$(PSDK)/Include" /I"$(PSDK)/Include/mfc"
+
+#### boost and python ####
+
+BOOST_LIB_PATH = deps/
+!IF [IF NOT EXIST "$(BOOST_LIB_PATH)Boost-1.32.0\libs\boost_python-vc71-mt-gd-1_32.lib" EXIT 1] != 0
+BOOST_LIB_PATH = $(SOURCE_DIR)
+!IF [IF NOT EXIST "$(BOOST_LIB_PATH)Boost-1.32.0\libs\boost_python-vc71-mt-gd-1_32.lib" EXIT 1] != 0
+BOOST_LIB_PATH=$(CIV4_PATH)/
+!IF [IF NOT EXIST "$(BOOST_LIB_PATH)Boost-1.32.0\libs\boost_python-vc71-mt-gd-1_32.lib" EXIT 1] != 0
+BOOST_LIB_PATH=$(CIV4_LIB_INSTALL_PATH)/
+!IF [IF NOT EXIST "$(BOOST_LIB_PATH)Boost-1.32.0\libs\boost_python-vc71-mt-gd-1_32.lib" EXIT 1] != 0
+!MESSAGE FATAL ERROR: Failed to locate boost and python
+!ENDIF
+!ENDIF
+!ENDIF
+!ENDIF
+
+PROJECT_INCS=/I"$(BOOST_LIB_PATH)Boost-1.32.0/include" /I"$(BOOST_LIB_PATH)Python24/include" /I"./include"
+PROJECT_LIBS=/LIBPATH:"$(BOOST_LIB_PATH)Python24/libs" /LIBPATH:"$(BOOST_LIB_PATH)boost-1.32.0/libs/" /LIBPATH:"./lib"  boost_python-vc71-mt-1_32.lib libboost_thread-vc71-mt-1_32.lib XercesLib-3.1.1-x86-windows-vc-7.1.lib
+
+INCS = $(PROJECT_INCS) $(GLOBAL_INCS)
 
 #### LIBS ####
 GLOBAL_LIBS=/LIBPATH:"$(TOOLKIT)/lib" /LIBPATH:"$(PSDK)/Lib" winmm.lib user32.lib psapi.lib advapi32.lib
-PROJECT_LIBS=/LIBPATH:"$(GLOBALPYTHON)/libs" /LIBPATH:"$(GLOBALBOOST)/libs" /LIBPATH:"./lib" boost_python-vc71-mt-1_32.lib libboost_thread-vc71-mt-1_32.lib XercesLib-3.1.1-x86-windows-vc-7.1.lib
-Debug_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS) msvcprt.lib /NODEFAULTLIB:msvcprtd.lib
-Profile_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS)
-Release_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS)
-Final_Release_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS)
+LIBS = $(PROJECT_LIBS) $(GLOBAL_LIBS)
 
-#### Objects ####
-Debug_LINKOBJS=$(Debug_OBJS)
-Profile_LINKOBJS=$(Profile_OBJS)
-Release_LINKOBJS=$(Release_OBJS)
-Final_Release_LINKOBJS=$(Final_Release_OBJS)
-
-#### Auto SOURCES/OBJS ####
-!IF [ECHO SOURCES= \> sources.mk] == 0 && \
-    [FOR %i IN (*.cpp) DO @ECHO. "%i" \>> sources.mk] == 0 && \
-    [ECHO.>> sources.mk] == 0 && \
-    [ECHO Debug_OBJS= \>> sources.mk] == 0 && \
-    [FOR /F "delims=." %i IN ('dir /b *.cpp') DO @ECHO. Debug\%i.obj \>> sources.mk] == 0 && \
-    [ECHO.>> sources.mk] == 0 && \
-    [ECHO Profile_OBJS= \>> sources.mk] == 0 && \
-    [FOR /F "delims=." %i IN ('dir /b *.cpp') DO @ECHO. Profile\%i.obj \>> sources.mk] == 0 && \
-    [ECHO.>> sources.mk] == 0 && \
-    [ECHO Release_OBJS= \>> sources.mk] == 0 && \
-    [FOR /F "delims=." %i IN ('dir /b *.cpp') DO @ECHO. Release\%i.obj \>> sources.mk] == 0 && \
-    [ECHO.>> sources.mk] == 0  && \
-    [ECHO Final_Release_OBJS= \>> sources.mk] == 0 && \
-    [FOR /F "delims=." %i IN ('dir /b *.cpp') DO @ECHO. Final_Release\%i.obj \>> sources.mk] == 0 && \
-    [ECHO.>> sources.mk] == 0
-!INCLUDE sources.mk
-!IF [DEL sources.mk]
+!IF "$(TARGET)" == "Debug"
+CFLAGS  = $(Debug_CFLAGS) /DFASSERT_ENABLE
+LDFLAGS = $(Debug_LDFLAGS)
+LIBS    = $(LIBS) msvcprt.lib
 !ENDIF
+!IF "$(TARGET)" == "Release"
+CFLAGS  = $(Release_CFLAGS)
+LDFLAGS = $(Release_LDFLAGS)
+!ENDIF
+!IF "$(TARGET)" == "Assert"
+CFLAGS  = $(Release_CFLAGS) /DFASSERT_ENABLE
+LDFLAGS = $(Release_LDFLAGS)
+!ENDIF
+!IF "$(TARGET)" == "Profile"
+CFLAGS  = $(Release_CFLAGS) /DFP_PROFILE_ENABLE /DUSE_INTERNAL_PROFILER
+LDFLAGS = $(Release_CFLAGS)
+!ENDIF
+
+!IFNDEF CFLAGS
+!ERROR Target "$(TARGET)" not supported. Supported targets: Debug Release Assert Profile
+!ENDIF
+
+!IF EXIST ($(FILE_DEPENDS))
+!INCLUDE $(FILE_DEPENDS)
 !ENDIF
 
 #### Targets ####
 #################
 
-.PHONY: all clean Debug_clean Profile_clean Release_clean Final_Release_clean Debug Profile Release Final_Release
+.PHONY: all clean build precompile Make_Dir fastdep source_list
 
-all: Debug Profile Release Final_Release
+all: Precompile build
 
-clean: Debug_clean Profile_clean Release_clean Final_Release_clean
+dll: all
 
-Debug_clean:
-	@FOR %i IN ($(Debug_BIN) $(Debug_STATICLIB) $(Debug_LIBDEF) \
-		Debug\*.obj Debug\*.@ $(Debug_RESOURCE) \
-		$(Debug_PCH) $(Debug_PDB) $(Debug_OTHER)) DO @IF EXIST "%i" DEL "%i"
+clean:
+	@IF EXIST "$(TEMP_TARGET_FILES)" RMDIR /s /q "$(TEMP_TARGET_FILES)"
+	@FOR %i IN ($(Target_BIN) $(Target_STATICLIB) $(Target_LIBDEF) $(Target_RESOURCE) \
+		$(Target_PCH) $(Target_PDB) $(Target_OTHER)) DO @IF EXIST "%i" DEL "%i"
 
-Profile_clean:
-	@FOR %i IN ($(Profile_BIN) $(Profile_STATICLIB) $(Profile_LIBDEF) \
-		Profile\*.obj Profile\*.@ $(Profile_RESOURCE) \
-		$(Profile_PCH) $(Profile_PDB) $(Profile_OTHER)) DO @IF EXIST "%i" DEL "%i"
+$(Target_BIN): $(Target_BIN_TEMP)
+	-COPY "$(Target_BIN_TEMP)" "$(Target_BIN)"
+	-COPY "$(Target_PDB_TEMP)" "$(Target_PDB)"
 
-Release_clean:
-	@FOR %i IN ($(Release_BIN) $(Release_STATICLIB) $(Release_LIBDEF) \
-		Release\*.obj Release\*.@ $(Release_RESOURCE) \
-		$(Release_PCH) $(Release_PDB) $(Release_OTHER)) DO @IF EXIST "%i" DEL "%i"
 		
-Final_Release_clean:
-	@FOR %i IN ($(Final_Release_BIN) $(Final_Release_STATICLIB) $(Final_Release_LIBDEF) \
-		Final_Release\*.obj Final_Release\*.@ $(Final_Release_RESOURCE) \
-		$(Final_Release_PCH) $(Final_Release_PDB) $(Final_Release_OTHER)) DO @IF EXIST "%i" DEL "%i"
-
-Debug: Debug_DIR Debug_unfinished $(Debug_PCH) $(Debug_BIN)
+build: $(Target_BIN)
 !IFDEF YOURMOD
-	-COPY "$(Debug_BIN)" "$(YOURMOD)\Assets\."
+	-COPY "$(Target_BIN)" "$(YOURMOD)\Assets\."
 !ENDIF
 
-Profile: Profile_DIR Profile_unfinished $(Profile_PCH) $(Profile_BIN)
-!IFDEF YOURMOD
-	-COPY "$(Profile_BIN)" "$(YOURMOD)\Assets\."
+precompile: Make_Dir Target_unfinished $(Target_PCH)
+
+source_list: Make_Dir
+	@ECHO Building source list
+	@ECHO SOURCES= \> $(FILE_DEPENDS)
+	@FOR %j in ($(SUBDIRS)) DO @(FOR %i IN ($(SOURCE_DIR)\%j\*.cpp) DO @ECHO %i \>> $(FILE_DEPENDS))
+	@ECHO.>> $(FILE_DEPENDS)
+	@ECHO OBJS= \>> $(FILE_DEPENDS)
+	@FOR %j in ($(SUBDIRS)) DO @(FOR /F "delims=." %i IN ('dir /b $(SOURCE_DIR)\%j\*.cpp') DO @ECHO. $(TEMP_TARGET_FILES)\%j\%i.obj \>> $(FILE_DEPENDS))
+	@ECHO.>> $(FILE_DEPENDS)
+!IFDEF WCREV
+	@$(WCREV) . version.svn version.h
 !ENDIF
 
-Release: Release_DIR Release_unfinished $(Release_PCH) $(Release_BIN)
-!IFDEF YOURMOD
-	-COPY "$(Release_BIN)" "$(YOURMOD)\Assets\."
-!ENDIF
+fastdep:
+	@ECHO Running fastdep
+	@$(FD) --objectextension=pch -q --removepath=$(SOURCE_DIR)\ -O $(TEMP_TARGET_FILES) $(SOURCE_DIR)\CvGameCoreDLL.cpp >> $(FILE_DEPENDS)
+	@$(FD) --objectextension=obj -q --removepath=$(SOURCE_DIR)\ -O $(TEMP_TARGET_FILES) $(SOURCES) >> $(FILE_DEPENDS)
 
-Final_Release: Final_Release_DIR Final_Release_unfinished $(Final_Release_PCH) $(Final_Release_BIN)
-!IFDEF YOURMOD
-	-COPY "$(Final_Release_BIN)" "$(YOURMOD)\Assets\."
-!ENDIF
+Make_Dir:
+	@FOR %j in ($(SUBDIRS)) DO @(IF NOT EXIST "$(TEMP_TARGET_FILES)\%j\." MKDIR "$(TEMP_TARGET_FILES)\%j")
+	@IF NOT EXIST "$(TARGET)\." MKDIR $(TARGET)
 
-Debug_DIR:
-	-@IF NOT EXIST "Debug\." MKDIR "Debug"
+Target_unfinished:
+	@ECHO.>$(TEMP_TARGET_FILES)\unfinished.@
+	@FOR /F "delims=@" %i IN ('dir /b $(TEMP_TARGET_FILES)\*.@') DO \
+		@IF EXIST "$(TEMP_TARGET_FILES)\%i" DEL "$(TEMP_TARGET_FILES)\%i"
+	@FOR /F %i IN ('dir /b $(TEMP_TARGET_FILES)\*.@') DO \
+		@IF EXIST "$(TEMP_TARGET_FILES)\%i" DEL "$(TEMP_TARGET_FILES)\%i"
 
-Profile_DIR:
-	-@IF NOT EXIST "Profile\." MKDIR "Profile"
+$(Target_BIN_TEMP): $(OBJS) $(Target_RESOURCE)
+	@ECHO.Linking DLL
+	$(LD) /out:$(Target_BIN_TEMP) $(LDFLAGS) $(LIBS) $(OBJS) $(Target_RESOURCE)
 
-Release_DIR:
-	-@IF NOT EXIST "Release\." MKDIR "Release"
-	
-Final_Release_DIR:
-	-@IF NOT EXIST "Final_Release\." MKDIR "Final_Release"
-
-Debug_unfinished:
-	@ECHO.>Debug\unfinished.@
-	@FOR /F "delims=@" %i IN ('dir /b Debug\*.@') DO \
-		@IF EXIST "Debug\%i" DEL "Debug\%i"
-	@FOR /F %i IN ('dir /b Debug\*.@') DO \
-		@IF EXIST "Debug\%i" DEL "Debug\%i"
-
-Profile_unfinished:
-	@ECHO.>Profile\unfinished.@
-	@FOR /F "delims=@" %i IN ('dir /b Profile\*.@') DO \
-		@IF EXIST "Profile\%i" DEL "Profile\%i"
-	@FOR /F %i IN ('dir /b Profile\*.@') DO \
-		@IF EXIST "Profile\%i" DEL "Profile\%i"
-		
-Release_unfinished:
-	@ECHO.>Release\unfinished.@
-	@FOR /F "delims=@" %i IN ('dir /b Release\*.@') DO \
-		@IF EXIST "Release\%i" DEL "Release\%i"
-	@FOR /F %i IN ('dir /b Release\*.@') DO \
-		@IF EXIST "Release\%i" DEL "Release\%i"
-		
-Final_Release_unfinished:
-	@ECHO.>Final_Release\unfinished.@
-	@FOR /F "delims=@" %i IN ('dir /b Final_Release\*.@') DO \
-		@IF EXIST "Final_Release\%i" DEL "Final_Release\%i"
-	@FOR /F %i IN ('dir /b Final_Release\*.@') DO \
-		@IF EXIST "Final_Release\%i" DEL "Final_Release\%i"
-
-$(Debug_BIN): $(Debug_LINKOBJS) $(Debug_RESOURCE)
-	$(LD) /out:$(Debug_BIN) $(Debug_LDFLAGS) $(Debug_LIBS) $(Debug_LINKOBJS) $(Debug_RESOURCE)
-
-$(Profile_BIN): $(Profile_LINKOBJS) $(Profile_RESOURCE)
-	$(LD) /out:$(Profile_BIN) $(Profile_LDFLAGS) $(Profile_LIBS) $(Profile_LINKOBJS) $(Profile_RESOURCE)
-
-$(Release_BIN): $(Release_LINKOBJS) $(Release_RESOURCE)
-	$(LD) /out:$(Release_BIN) $(Release_LDFLAGS) $(Release_LIBS) $(Release_LINKOBJS) $(Release_RESOURCE)
-	
-$(Final_Release_BIN): $(Final_Release_LINKOBJS) $(Final_Release_RESOURCE)
-	$(LD) /out:$(Final_Release_BIN) $(Final_Release_LDFLAGS) $(Final_Release_LIBS) $(Final_Release_LINKOBJS) $(Final_Release_RESOURCE)
-
-.cpp{Debug}.obj:
+{$(SOURCE_DIR)\.}.cpp{$(TEMP_TARGET_FILES)\.}.obj:
 	@ECHO.>"$*.obj.@"
-    $(CPP) /nologo $(Debug_CFLAGS) $(Debug_INCS) /Fo$*.obj /c $<
-	@DEL "$*.obj.@"
-
-.cpp{Profile}.obj:
-	@ECHO.>"$*.obj.@"
-    $(CPP) /nologo $(Profile_CFLAGS) $(Profile_INCS) /Fo$*.obj /c $<
-	@DEL "$*.obj.@"
-
-.cpp{Release}.obj:
-	@ECHO.>"$*.obj.@"
-    $(CPP) /nologo $(Release_CFLAGS) $(Release_INCS) /Fo$*.obj /c $<
+    $(CPP) /nologo $(CFLAGS) $(PRECOMPILE_CFLAGS1)$(PRECOMPILE_CFLAGS2) $(INCS) /Fo$*.obj /c $<
 	@DEL "$*.obj.@"
 	
-.cpp{Final_Release}.obj:
+{$(SOURCE_DIR)\$(SUBDIR1)}.cpp{$(TEMP_TARGET_FILES)\$(SUBDIR1)}.obj:
 	@ECHO.>"$*.obj.@"
-    $(CPP) /nologo $(Final_Release_CFLAGS) $(Final_Release_INCS) /Fo$*.obj /c $<
+    $(CPP) /nologo $(CFLAGS) $(PRECOMPILE_CFLAGS1)$(SUBDIRPATH1)$(PRECOMPILE_CFLAGS2) $(INCS) /Fo$*.obj /c $<
 	@DEL "$*.obj.@"
 
-$(Debug_PCH) Debug\_precompile.obj:
-	@ECHO.>"$(Debug_PCH).@"
-	@ECHO.>"Debug\_precompile.obj.@"
-	$(CPP) /nologo $(Debug_CFLAGS) $(Debug_INCS) /YcCvGameCoreDLL.h /Fo"Debug\_precompile.obj" /c _precompile.cpp
-	@DEL "$(Debug_PCH).@"
-	@DEL "Debug\_precompile.obj.@"
+{$(SOURCE_DIR)\$(SUBDIR2)}.cpp{$(TEMP_TARGET_FILES)\$(SUBDIR2)}.obj:
+	@ECHO.>"$*.obj.@"
+    $(CPP) /nologo $(CFLAGS) $(PRECOMPILE_CFLAGS1)$(SUBDIRPATH2)$(PRECOMPILE_CFLAGS2) $(INCS) /Fo$*.obj /c $<
+	@DEL "$*.obj.@"
 
-$(Profile_PCH) Profile\_precompile.obj:
-	@ECHO.>"$(Profile_PCH).@"
-	@ECHO.>"Profile\_precompile.obj.@"
-    $(CPP) /nologo $(Profile_CFLAGS) $(Profile_INCS) /YcCvGameCoreDLL.h /Fo"Profile\_precompile.obj" /c _precompile.cpp
-	@DEL "$(Profile_PCH).@"
-	@DEL "Profile\_precompile.obj.@"
+{$(SOURCE_DIR)\$(SUBDIR3)}.cpp{$(TEMP_TARGET_FILES)\$(SUBDIR3)}.obj:
+	@ECHO.>"$*.obj.@"
+    $(CPP) /nologo $(CFLAGS) $(PRECOMPILE_CFLAGS1)$(SUBDIRPATH3)$(PRECOMPILE_CFLAGS2) $(INCS) /Fo$*.obj /c $<
+	@DEL "$*.obj.@"
 
-$(Release_PCH) Release\_precompile.obj:
-	@ECHO.>"$(Release_PCH).@"
-	@ECHO.>"Release\_precompile.obj.@"
-    $(CPP) /nologo $(Release_CFLAGS) $(Release_INCS) /YcCvGameCoreDLL.h /Fo"Release\_precompile.obj" /c _precompile.cpp
-	@DEL "$(Release_PCH).@"
-	@DEL "Release\_precompile.obj.@"
+{$(SOURCE_DIR)\$(SUBDIR4)}.cpp{$(TEMP_TARGET_FILES)\$(SUBDIR4)}.obj:
+	@ECHO.>"$*.obj.@"
+    $(CPP) /nologo $(CFLAGS) $(PRECOMPILE_CFLAGS1)$(SUBDIRPATH4)$(PRECOMPILE_CFLAGS2) $(INCS) /Fo$*.obj /c $<
+	@DEL "$*.obj.@"
 	
-$(Final_Release_PCH) Final_Release\_precompile.obj:
-	@ECHO.>"$(Final_Release_PCH).@"
-	@ECHO.>"Final_Release\_precompile.obj.@"
-    $(CPP) /nologo $(Final_Release_CFLAGS) $(Final_Release_INCS) /YcCvGameCoreDLL.h /Fo"Final_Release\_precompile.obj" /c _precompile.cpp
-	@DEL "$(Final_Release_PCH).@"
-	@DEL "Final_Release\_precompile.obj.@"
+{$(SOURCE_DIR)\$(SUBDIR5)}.cpp{$(TEMP_TARGET_FILES)\$(SUBDIR5)}.obj:
+	@ECHO.>"$*.obj.@"
+    $(CPP) /nologo $(CFLAGS) $(PRECOMPILE_CFLAGS1)$(SUBDIRPATH5)$(PRECOMPILE_CFLAGS2) $(INCS) /Fo$*.obj /c $<
+	@DEL "$*.obj.@"
 
-.rc{Debug}.res:
-	@ECHO.>"$*.res.@"
-	$(RC) /Fo$@ $(Debug_INCS) $<
-	@DEL "$*.res.@"
+{$(SOURCE_DIR)\$(SUBDIR6)}.cpp{$(TEMP_TARGET_FILES)\$(SUBDIR6)}.obj:
+	@ECHO.>"$*.obj.@"
+    $(CPP) /nologo $(CFLAGS) $(PRECOMPILE_CFLAGS1)$(SUBDIRPATH6)$(PRECOMPILE_CFLAGS2) $(INCS) /Fo$*.obj /c $<
+	@DEL "$*.obj.@"
 
-.rc{Profile}.res:
-	@ECHO.>"$*.res.@"
-	$(RC) /Fo$@ $(Profile_INCS) $<
-	@DEL "$*.res.@"
+{$(SOURCE_DIR)\$(SUBDIR7)}.cpp{$(TEMP_TARGET_FILES)\$(SUBDIR7)}.obj:
+	@ECHO.>"$*.obj.@"
+    $(CPP) /nologo $(CFLAGS) $(PRECOMPILE_CFLAGS1)$(SUBDIRPATH7)$(PRECOMPILE_CFLAGS2) $(INCS) /Fo$*.obj /c $<
+	@DEL "$*.obj.@"
 
-.rc{Release}.res:
-	@ECHO.>"$*.res.@"
-	$(RC) /Fo$@ $(Release_INCS) $<
-	@DEL "$*.res.@"
+{$(SOURCE_DIR)\$(SUBDIR8)}.cpp{$(TEMP_TARGET_FILES)\$(SUBDIR8)}.obj:
+	@ECHO.>"$*.obj.@"
+    $(CPP) /nologo $(CFLAGS) $(PRECOMPILE_CFLAGS1)$(SUBDIRPATH8)$(PRECOMPILE_CFLAGS2) $(INCS) /Fo$*.obj /c $<
+	@DEL "$*.obj.@"
 	
-.rc{Final_Release}.res:
+{$(SOURCE_DIR)\$(SUBDIR9)}.cpp{$(TEMP_TARGET_FILES)\$(SUBDIR9)}.obj:
+	@ECHO.>"$*.obj.@"
+    $(CPP) /nologo $(CFLAGS) $(PRECOMPILE_CFLAGS1)$(SUBDIRPATH9)$(PRECOMPILE_CFLAGS2) $(INCS) /Fo$*.obj /c $<
+	@DEL "$*.obj.@"
+
+{$(SOURCE_DIR)\$(SUBDIR10)}.cpp{$(TEMP_TARGET_FILES)\$(SUBDIR10)}.obj:
+	@ECHO.>"$*.obj.@"
+    $(CPP) /nologo $(CFLAGS) $(PRECOMPILE_CFLAGS1)$(SUBDIRPATH10)$(PRECOMPILE_CFLAGS2) $(INCS) /Fo$*.obj /c $<
+	@DEL "$*.obj.@"
+
+{$(SOURCE_DIR)\$(SUBDIR11)}.cpp{$(TEMP_TARGET_FILES)\$(SUBDIR11)}.obj:
+	@ECHO.>"$*.obj.@"
+    $(CPP) /nologo $(CFLAGS) $(PRECOMPILE_CFLAGS1)$(SUBDIRPATH11)$(PRECOMPILE_CFLAGS2) $(INCS) /Fo$*.obj /c $<
+	@DEL "$*.obj.@"
+
+{$(SOURCE_DIR)\$(SUBDIR12)}.cpp{$(TEMP_TARGET_FILES)\$(SUBDIR12)}.obj:
+	@ECHO.>"$*.obj.@"
+    $(CPP) /nologo $(CFLAGS) $(PRECOMPILE_CFLAGS1)$(SUBDIRPATH12)$(PRECOMPILE_CFLAGS2) $(INCS) /Fo$*.obj /c $<
+	@DEL "$*.obj.@"
+
+{$(SOURCE_DIR)\$(SUBDIR13)}.cpp{$(TEMP_TARGET_FILES)\$(SUBDIR13)}.obj:
+	@ECHO.>"$*.obj.@"
+    $(CPP) /nologo $(CFLAGS) $(PRECOMPILE_CFLAGS1)$(SUBDIRPATH13)$(PRECOMPILE_CFLAGS2) $(INCS) /Fo$*.obj /c $<
+	@DEL "$*.obj.@"
+
+{$(SOURCE_DIR)\$(SUBDIR14)}.cpp{$(TEMP_TARGET_FILES)\$(SUBDIR14)}.obj:
+	@ECHO.>"$*.obj.@"
+    $(CPP) /nologo $(CFLAGS) $(PRECOMPILE_CFLAGS1)$(SUBDIRPATH14)$(PRECOMPILE_CFLAGS2) $(INCS) /Fo$*.obj /c $<
+	@DEL "$*.obj.@"
+
+{$(SOURCE_DIR)\$(SUBDIR15)}.cpp{$(TEMP_TARGET_FILES)\$(SUBDIR15)}.obj:
+	@ECHO.>"$*.obj.@"
+    $(CPP) /nologo $(CFLAGS) $(PRECOMPILE_CFLAGS1)$(SUBDIRPATH15)$(PRECOMPILE_CFLAGS2) $(INCS) /Fo$*.obj /c $<
+	@DEL "$*.obj.@"
+	
+
+$(Target_PCH) $(TEMP_TARGET_FILES)\_precompile.obj: $(PRECOMPILE_DEPENDENCIES)
+	@ECHO.>"$(Target_PCH).@"
+	@ECHO.>"$(TEMP_TARGET_FILES)\_precompile.obj.@"
+	@FOR %i IN ($(TEMP_TARGET_FILES)\*.obj) DO @IF EXIST "%i" DEL "%i"
+    $(CPP) /nologo $(CFLAGS) $(PRECOMPILE_CFLAGS1)$(PRECOMPILE_CFLAGS2) $(INCS) /YcCvGameCoreDLL.h /Fo"$(TEMP_TARGET_FILES)\_precompile.obj" /c $(SOURCE_DIR)\_precompile.cpp
+	@DEL "$(Target_PCH).@"
+	@DEL "$(TEMP_TARGET_FILES)\_precompile.obj.@"
+
+.rc{$(TEMP_TARGET_FILES)}.res:
 	@ECHO.>"$*.res.@"
-	$(RC) /Fo$@ $(Final_Release_INCS) $<
+	$(RC) /Fo$@ $(INCS) $<
 	@DEL "$*.res.@"
 
-# TODO: version.h for git!
-# !IF [$(WCREV) . version.svn version.h] != 0
-# !MESSAGE Error running SubWCRev
-# !ENDIF
+!IFDEF BLACKLIST
+$(TEMP_TARGET_FILES)\$(BLACKLIST).obj: $(BLACKLIST).cpp
+	@ECHO.>"$*.obj.@"
+	@ECHO.>"$*-dummy.cpp"
+	$(CPP) /nologo $(Release_CFLAGS) $(Release_INCS) /Y- /Fo$@ /c "$*-dummy.cpp"
+	@DEL "$*-dummy.cpp"
+	@DEL "$*.obj.@"
 
-!IFDEF FD
-
-!IF [IF NOT EXIST $(FD) EXIT 1] == 0
-!IF [$(FD) --objectextension=pch -q -O Debug CvGameCoreDLL.cpp > depends] != 0 || \
-    [$(FD) --objectextension=obj -q -O Debug $(SOURCES) >> depends] != 0 || \
-    [$(FD) --objectextension=pch -q -O Profile CvGameCoreDLL.cpp >> depends] != 0 || \
-    [$(FD) --objectextension=obj -q -O Profile $(SOURCES) >> depends] != 0 || \
-    [$(FD) --objectextension=pch -q -O Release CvGameCoreDLL.cpp >> depends] != 0 || \
-    [$(FD) --objectextension=obj -q -O Release $(SOURCES) >> depends] != 0 || \
-    [$(FD) --objectextension=pch -q -O Final_Release CvGameCoreDLL.cpp >> depends] != 0 || \
-    [$(FD) --objectextension=obj -q -O Final_Release $(SOURCES) >> depends] != 0
-!MESSAGE Error running fastdep.
-!ENDIF
-!ELSE
-!IF [ECHO "fastdep.exe" NOT FOUND! && \
-     ECHO Please edit Makefile to reflect the correct path of fastdep. && \
-     ECHO. ]
-!ENDIF
-!ENDIF
-
-!ENDIF
-
-!IF EXIST(depends)
-!INCLUDE depends
 !ENDIF

@@ -7577,7 +7577,7 @@
 				<UnitClass>UNITCLASS_IRONCLAD</UnitClass>
 			</UnitsRequired>
 			<iNumUnits>1</iNumUnits>
-			<bUnitsOnPlot>1</bUnitsOnPlot>			
+			<bUnitsOnPlot>1</bUnitsOnPlot>
 			<iNumPlotsRequired>1</iNumPlotsRequired>
 			<iPlotType>3</iPlotType>
 			<FeaturesRequired>
@@ -9167,8 +9167,8 @@
 			<BonusesRequired>
 				<BonusType>NONE</BonusType>
 			</BonusesRequired>
-			<RoutesRequired> 
-				<RouteType>NONE</RouteType>  
+			<RoutesRequired>
+				<RouteType>NONE</RouteType>
 			</RoutesRequired>
 			<Events>
 				<Event>EVENT_KANGAROO_MIGRATION_1</Event>

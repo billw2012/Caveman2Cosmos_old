@@ -18,7 +18,6 @@
 			<bIgnoreTerrainCost>1</bIgnoreTerrainCost>
 			<bMechanized>1</bMechanized>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iCombat>32</iCombat>
 			<iCombatLimit>0</iCombatLimit>

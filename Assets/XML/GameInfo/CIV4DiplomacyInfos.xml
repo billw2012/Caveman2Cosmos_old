@@ -9926,7 +9926,7 @@
 				  </DiplomacyText>
 			  </Response>
 		  </Responses>
-	  </DiplomacyInfo>    
+	  </DiplomacyInfo>
 	  <DiplomacyInfo>
 		  <Type>AI_ASSUME_SNUFFED</Type>
 		  <Responses>
@@ -9940,7 +9940,7 @@
 				  </DiplomacyText>
 			  </Response>
 		  </Responses>
-	  </DiplomacyInfo> 
+	  </DiplomacyInfo>
 	  <DiplomacyInfo>
 		  <Type>AI_ASSUME_REALLY_SNUFFED</Type>
 		  <Responses>
@@ -9968,7 +9968,7 @@
 				  </DiplomacyText>
 			  </Response>
 		  </Responses>
-	  </DiplomacyInfo>    
+	  </DiplomacyInfo>
 	  <DiplomacyInfo>
 		  <Type>AI_RESUME_TALKS</Type>
 		  <Responses>
@@ -9996,7 +9996,7 @@
 				  </DiplomacyText>
 			  </Response>
 		  </Responses>
-	  </DiplomacyInfo>  
+	  </DiplomacyInfo>
 	  <DiplomacyInfo>
 		  <Type>AI_RESUME_TALKS_GLADLY</Type>
 		  <Responses>
@@ -10010,7 +10010,7 @@
 				  </DiplomacyText>
 			  </Response>
 		  </Responses>
-	  </DiplomacyInfo>     
+	  </DiplomacyInfo>
     <!-- RevolutionDCM - end -->
 		<DiplomacyInfo>
 			<Type>AI_DIPLOCOMMENT_MAKE_PEACE_WITH</Type>

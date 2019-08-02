@@ -11,9 +11,7 @@
 			<BuildingClass>BUILDINGCLASS_WV_SLAVERY</BuildingClass>
 			<Type>BUILDING_WV_SLAVERY</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_WV_SLAVERY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WV_SLAVERY_PEDIA</Civilopedia>
@@ -97,9 +95,7 @@
 			<BuildingClass>BUILDINGCLASS_SLAVERY</BuildingClass>
 			<Type>BUILDING_SLAVERY</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SLAVERY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WV_SLAVERY_PEDIA</Civilopedia>
@@ -319,7 +315,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<iCost>153</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>-1</iHappiness>
 			<iAsset>3</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -415,9 +410,7 @@
 			<BuildingClass>BUILDINGCLASS_SLAVE_COMPOUND</BuildingClass>
 			<Type>BUILDING_SLAVE_COMPOUND</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SLAVE_COMPOUND</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SLAVE_COMPOUND_PEDIA</Civilopedia>
@@ -431,7 +424,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMilitaryProductionModifier>-5</iMilitaryProductionModifier>
 			<iAsset>3</iAsset>
 			<YieldModifiers>
@@ -466,9 +458,7 @@
 			<BuildingClass>BUILDINGCLASS_SLAVE_COMPOUND_MILITARY_SUPPORT</BuildingClass>
 			<Type>BUILDING_SLAVE_COMPOUND_MILITARY_SUPPORT</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SLAVE_COMPOUND_MILITARY_SUPPORT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SLAVE_COMPOUND_PEDIA</Civilopedia>
@@ -482,7 +472,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMilitaryProductionModifier>5</iMilitaryProductionModifier>
 			<iAsset>3</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -535,7 +524,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>1</iHappiness>
 			<iAsset>3</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -613,7 +601,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>3</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -647,9 +634,7 @@
 			<BuildingClass>BUILDINGCLASS_SLAVE_COMPOUND_PRODUCTION</BuildingClass>
 			<Type>BUILDING_SLAVE_COMPOUND_PRODUCTION</Type>
 			<EnabledCivilizationTypes>
-				<EnabledCivilizationType>
-					<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
-				</EnabledCivilizationType>
+				<CivilizationType>CIVILIZATION_NPC_NEANDERTHAL</CivilizationType>
 			</EnabledCivilizationTypes>
 			<Description>TXT_KEY_BUILDING_SLAVE_COMPOUND_PRODUCTION</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SLAVE_COMPOUND_PEDIA</Civilopedia>
@@ -663,7 +648,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>3</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -709,7 +693,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>3</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<YieldChanges>
@@ -756,7 +739,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iHealth>1</iHealth>
 			<iAsset>3</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -816,7 +798,6 @@
 				<MapCategoryType>MAPCATEGORY_EARTH</MapCategoryType>
 			</MapCategoryTypes>
 			<iCost>-1</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iAsset>3</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<ConstructSound>AS2D_BUILD_SLAVE_MARKET</ConstructSound>

@@ -228,7 +228,7 @@ class Revolution:
 	def isLocalHumanPlayerOrAutoPlay( self, playerID ) :
 		# Determines whether to show popup to active player
 		return (GC.getPlayer(playerID).isHuman()  or GC.getPlayer(playerID).isHumanDisabled()) and GAME.getActivePlayer() == playerID
- 
+
 	def isHumanPlayerOrAutoPlay( self, playerID ) :
 		# Determines whether to show popup to active player
 		return (GC.getPlayer(playerID).isHuman() or GC.getPlayer(playerID).isHumanDisabled())
@@ -354,7 +354,7 @@ class Revolution:
 			civString = self.updateCivStability( GAME.getGameTurn(), iPlayerID, bIsRevWatch = True )
 			cityString = self.updateLocalRevIndices( GAME.getGameTurn(), iPlayerID, bIsRevWatch = True )
 
-			if (self.isLocalHumanPlayer(iPlayerID)): 
+			if (self.isLocalHumanPlayer(iPlayerID)):
 				if( popupReturn.getButtonClicked() == 0 ):
 					if( self.LOG_DEBUG ) : CvUtil.pyPrint("  Revolt - Showing detailed rev watch for player %d"%(iPlayerID))
 					# Additions by Caesium et al
@@ -380,7 +380,7 @@ class Revolution:
 					self.showPickCityPopup( iPlayerID )
 
 	def showPickCityPopup( self, iPlayer ) :
-		if (self.isLocalHumanPlayer(iPlayer)): 
+		if (self.isLocalHumanPlayer(iPlayer)):
 			playerPy = PyPlayer( iPlayer )
 			cityList = playerPy.getCityList()
 
@@ -414,7 +414,7 @@ class Revolution:
 			print 'Launch city picker popup'
 
 	def pickCityHandler( self, iPlayerID, netUserData, popupReturn ) :
-		if (self.isLocalHumanPlayer(iPlayerID)): 
+		if (self.isLocalHumanPlayer(iPlayerID)):
 			print 'picking city ...'
 
 			if(  popupReturn.getButtonClicked() == 0 ):
@@ -1102,7 +1102,7 @@ class Revolution:
 		# Updates the revolution effects local to each city
 
 		pPlayer = GC.getPlayer(iPlayer)
-		if not pPlayer.getNumCities(): 
+		if not pPlayer.getNumCities():
 			return localText.getText("TXT_KEY_REV_WATCH_NO_CITIES",())
 
 		playerPy = PyPlayer(iPlayer)
@@ -5178,7 +5178,7 @@ class Revolution:
 					if( self.LOG_DEBUG ) : CvUtil.pyPrint("  Control player is %d"%(GAME.getActivePlayer()))
 
 					#self.controlLostNetworkHandler(GAME.getActivePlayer(), iNumTurns, newLeaderType)
-					CyMessageControl().sendModNetMessage(self.netControlLostPopupProtocol, GAME.getActivePlayer(), iNumTurns, newLeaderType, 0)							   
+					CyMessageControl().sendModNetMessage(self.netControlLostPopupProtocol, GAME.getActivePlayer(), iNumTurns, newLeaderType, 0)
 #-------------------------------------------------------------------------------------------------
 # END Lemmy101 RevolutionMP edit
 #-------------------------------------------------------------------------------------------------
@@ -6933,7 +6933,7 @@ class Revolution:
 			elif( buttonLabel == 'war' )		 : iButton = 6
 			elif( buttonLabel == 'defect' )	  : iButton = 7
 			if (iButton >= 0) :
-				CyMessageControl().sendModNetMessage(self.netRevolutionPopupProtocol, iPlayer, iButton, iRevoltIdx, 0)   
+				CyMessageControl().sendModNetMessage(self.netRevolutionPopupProtocol, iPlayer, iButton, iRevoltIdx, 0)
 
 	def controlLostHandler( self, iPlayerID, netUserData, popupReturn ) :
 		if self.isLocalHumanPlayer(iPlayerID) :
@@ -6948,7 +6948,7 @@ class Revolution:
 			iNewLeaderType = netUserData[2]
 			# This is sometimes not being called. So I moved it into the pre-dialog bit.
 			# This is ok tho since it now happens on NEXT turn not when dialog is okayed.
-			#CyMessageControl().sendModNetMessage(self.netControlLostPopupProtocol, iPlayer, iNumTurns, iNewLeaderType, 0)   
+			#CyMessageControl().sendModNetMessage(self.netControlLostPopupProtocol, iPlayer, iNumTurns, iNewLeaderType, 0)
 #-------------------------------------------------------------------------------------------------
 # END Lemmy101 RevolutionMP edit
 #-------------------------------------------------------------------------------------------------

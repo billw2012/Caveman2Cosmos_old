@@ -2,7 +2,7 @@ This unit set contains 10 female versions of different religion missionaries (An
 
 This set is an addition to my Female Missionaries ModComp (http://forums.civfanatics.com/downloads.php?do=file&id=14863) and the new missionaries should be addable to a game with extra religions like it is described there. But of course they can be used in other ways, too.
 
-Credits/Thanks/Rights 
+Credits/Thanks/Rights
 
 - The model of the Confucian missionary is a convertion from Celestial Destroyer (http://www.onrpg.com/MMO/Celestial-Destroyer)
 - The model of the Mesopotamien and of the Tengri missionary were created by Bakuel

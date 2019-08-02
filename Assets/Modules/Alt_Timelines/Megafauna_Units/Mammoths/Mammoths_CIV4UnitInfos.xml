@@ -16,10 +16,7 @@
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_MAMMOTH_HERD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_MAMMOTH_HERD</BuildingType>
 			</Buildings>
 		</UnitInfo>
 		<UnitInfo>
@@ -91,7 +88,6 @@
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<iCost>105</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>8</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -200,34 +196,13 @@
 				</UnitAI>
 			</UnitAIs>
 			<Buildings>
-				<Building>
-					<BuildingType>BUILDING_MAMMOTH_HERD</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_CARNIVAL</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_ZOO</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
-				<Building>
-					<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
-					<bBuilding>1</bBuilding>
-				</Building>
+				<BuildingType>BUILDING_MAMMOTH_HERD</BuildingType>
+				<BuildingType>BUILDING_GOVENORS_PETS</BuildingType>
+				<BuildingType>BUILDING_GOVENORS_MENAGERIE</BuildingType>
+				<BuildingType>BUILDING_EXOTIC_HERBAVOURS</BuildingType>
+				<BuildingType>BUILDING_CARNIVAL</BuildingType>
+				<BuildingType>BUILDING_ZOO</BuildingType>
+				<BuildingType>BUILDING_TAXIDERMIST</BuildingType>
 			</Buildings>
 			<PrereqBuildingClasses>
 				<PrereqBuildingClass>
@@ -252,7 +227,6 @@
 			<BonusType>BONUS_MAMMOTH</BonusType>
 			<iCost>140</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>6</iCombat>
 			<iXPValueAttack>10</iXPValueAttack>
@@ -276,7 +250,6 @@
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 		</UnitInfo>
-
 		<UnitInfo>
 			<Class>UNITCLASS_WAR_MAMMOTH</Class>
 			<Type>UNIT_WAR_MAMMOTH</Type>
@@ -377,7 +350,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_WAR_MAMMOTH</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
 				<FreePromotion>
@@ -479,7 +451,6 @@
 			</TechTypes>
 			<BonusType>BONUS_MAMMOTH</BonusType>
 			<iCost>255</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>10</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -627,7 +598,6 @@
 				</And>
 			</TrainCondition>
 			<iCost>500</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iCombat>23</iCombat>
 			<iXPValueAttack>2</iXPValueAttack>
@@ -973,7 +943,6 @@
 				</ProductionTrait>
 			</ProductionTraits>
 			<iCost>170</iCost>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iWorkRate>250</iWorkRate>
 			<iAsset>3</iAsset>

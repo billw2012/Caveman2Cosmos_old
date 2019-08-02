@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Pat Dawson (Firaxis Games) -->
-<!-- Sid Meier's Civilization 4 -->																																																																																																																																															
-<!-- Copyright Firaxis Games 2005 -->																																																																																																																																															
-<!-- -->																																																																																																																																															
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
 <!-- Building Infos -->
 <Civ4BuildingInfos xmlns="x-schema:../../../XML/Schema/C2C_CIV4BuildingsSchema.xml">
 	<BuildingInfos>
@@ -65,7 +65,6 @@
 			<iAIWeight>0</iAIWeight>
 			<iCost>280</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>0</iConquestProb>
 			<iCitiesPrereq>0</iCitiesPrereq>
 			<iTeamsPrereq>0</iTeamsPrereq>
@@ -243,7 +242,6 @@
 			<iAIWeight>0</iAIWeight>
 			<iCost>216</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>0</iConquestProb>
 			<iCitiesPrereq>0</iCitiesPrereq>
 			<iTeamsPrereq>0</iTeamsPrereq>
@@ -408,7 +406,6 @@
 			<iAIWeight>0</iAIWeight>
 			<iCost>-1</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
 			<iCitiesPrereq>0</iCitiesPrereq>
 			<iTeamsPrereq>0</iTeamsPrereq>
@@ -567,7 +564,6 @@
 			<iAIWeight>0</iAIWeight>
 			<iCost>160</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
-			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>0</iConquestProb>
 			<iCitiesPrereq>0</iCitiesPrereq>
 			<iTeamsPrereq>0</iTeamsPrereq>
