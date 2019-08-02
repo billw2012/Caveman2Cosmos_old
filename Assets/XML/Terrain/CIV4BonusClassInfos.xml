@@ -4,6 +4,7 @@
 	<!-- Copyright Firaxis Games 2005 -->
 	<!-- -->
 	<!-- Bonus Class -->
+<!-- I can edit this directly here???-->
 <Civ4BonusClassInfos xmlns="x-schema:../Schema/C2C_CIV4TerrainSchema.xml">
 	<BonusClassInfos>
 		<BonusClassInfo>
